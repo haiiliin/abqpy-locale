@@ -1,0 +1,17 @@
+files:
+  - source: /2016/pot/*.pot
+    translation: /2016/%locale_with_underscore%/LC_MESSAGES/%file_name%.po
+  - source: /2017/pot/*.pot
+    translation: /2017/%locale_with_underscore%/LC_MESSAGES/%file_name%.po
+  - source: /2018/pot/*.pot
+    translation: /2018/%locale_with_underscore%/LC_MESSAGES/%file_name%.po
+  - source: /2019/pot/*.pot
+    translation: /2019/%locale_with_underscore%/LC_MESSAGES/%file_name%.po
+  - source: /2020/pot/*.pot
+    translation: /2020/%locale_with_underscore%/LC_MESSAGES/%file_name%.po
+  - source: /2021/pot/*.pot
+    translation: /2021/%locale_with_underscore%/LC_MESSAGES/%file_name%.po
+  - source: /2022/pot/*.pot
+    translation: /2022/%locale_with_underscore%/LC_MESSAGES/%file_name%.po
+  - source: /2023/pot/*.pot
+    translation: /2023/%locale_with_underscore%/LC_MESSAGES/%file_name%.po
