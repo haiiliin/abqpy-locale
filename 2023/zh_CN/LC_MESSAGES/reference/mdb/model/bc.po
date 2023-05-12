@@ -1,19 +1,17 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2022, WANG Hailin
 # This file is distributed under the same license as the abqpy package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: abqpy 2023\n"
+"Project-Id-Version: abqpy \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-09 05:33+0000\n"
+"POT-Creation-Date: 2023-05-05 13:36+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: zh_CN\n"
-"Language-Team: zh_CN <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -49,52 +47,52 @@ msgid ""
 msgstr ""
 
 #: abaqus.BoundaryCondition.AccelerationBC.AccelerationBC:5
-#: abaqus.BoundaryCondition.AccelerationBCState.AccelerationBCState:7
-#: abaqus.BoundaryCondition.AccelerationBaseMotionBC.AccelerationBaseMotionBC:5
-#: abaqus.BoundaryCondition.AccelerationBaseMotionBCState.AccelerationBaseMotionBCState:8
-#: abaqus.BoundaryCondition.AcousticPressureBC.AcousticPressureBC:5
-#: abaqus.BoundaryCondition.AcousticPressureBCState.AcousticPressureBCState:8
-#: abaqus.BoundaryCondition.BoundaryCondition.BoundaryCondition:6
+#: abaqus.BoundaryCondition.AccelerationBCState.AccelerationBCState:9
+#: abaqus.BoundaryCondition.AccelerationBaseMotionBC.AccelerationBaseMotionBC:6
+#: abaqus.BoundaryCondition.AccelerationBaseMotionBCState.AccelerationBaseMotionBCState:10
+#: abaqus.BoundaryCondition.AcousticPressureBC.AcousticPressureBC:6
+#: abaqus.BoundaryCondition.AcousticPressureBCState.AcousticPressureBCState:9
+#: abaqus.BoundaryCondition.BoundaryCondition.BoundaryCondition:7
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel:4
-#: abaqus.BoundaryCondition.BoundaryConditionState.BoundaryConditionState:6
+#: abaqus.BoundaryCondition.BoundaryConditionState.BoundaryConditionState:7
 #: abaqus.BoundaryCondition.ConcentrationBC.ConcentrationBC:5
-#: abaqus.BoundaryCondition.ConcentrationBCState.ConcentrationBCState:7
-#: abaqus.BoundaryCondition.ConnAccelerationBC.ConnAccelerationBC:5
-#: abaqus.BoundaryCondition.ConnAccelerationBCState.ConnAccelerationBCState:8
-#: abaqus.BoundaryCondition.ConnDisplacementBC.ConnDisplacementBC:5
-#: abaqus.BoundaryCondition.ConnDisplacementBCState.ConnDisplacementBCState:8
+#: abaqus.BoundaryCondition.ConcentrationBCState.ConcentrationBCState:9
+#: abaqus.BoundaryCondition.ConnAccelerationBC.ConnAccelerationBC:6
+#: abaqus.BoundaryCondition.ConnAccelerationBCState.ConnAccelerationBCState:9
+#: abaqus.BoundaryCondition.ConnDisplacementBC.ConnDisplacementBC:6
+#: abaqus.BoundaryCondition.ConnDisplacementBCState.ConnDisplacementBCState:9
 #: abaqus.BoundaryCondition.ConnVelocityBC.ConnVelocityBC:5
-#: abaqus.BoundaryCondition.ConnVelocityBCState.ConnVelocityBCState:7
-#: abaqus.BoundaryCondition.DisplacementBC.DisplacementBC:5
-#: abaqus.BoundaryCondition.DisplacementBCState.DisplacementBCState:7
-#: abaqus.BoundaryCondition.DisplacementBaseMotionBC.DisplacementBaseMotionBC:5
-#: abaqus.BoundaryCondition.DisplacementBaseMotionBCState.DisplacementBaseMotionBCState:8
-#: abaqus.BoundaryCondition.ElectricPotentialBC.ElectricPotentialBC:5
-#: abaqus.BoundaryCondition.ElectricPotentialBCState.ElectricPotentialBCState:8
+#: abaqus.BoundaryCondition.ConnVelocityBCState.ConnVelocityBCState:9
+#: abaqus.BoundaryCondition.DisplacementBC.DisplacementBC:6
+#: abaqus.BoundaryCondition.DisplacementBCState.DisplacementBCState:9
+#: abaqus.BoundaryCondition.DisplacementBaseMotionBC.DisplacementBaseMotionBC:6
+#: abaqus.BoundaryCondition.DisplacementBaseMotionBCState.DisplacementBaseMotionBCState:10
+#: abaqus.BoundaryCondition.ElectricPotentialBC.ElectricPotentialBC:6
+#: abaqus.BoundaryCondition.ElectricPotentialBCState.ElectricPotentialBCState:9
 #: abaqus.BoundaryCondition.EulerianBC.EulerianBC:5
-#: abaqus.BoundaryCondition.EulerianBCState.EulerianBCState:7
-#: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC:5
-#: abaqus.BoundaryCondition.EulerianMotionBCState.EulerianMotionBCState:8
-#: abaqus.BoundaryCondition.FluidCavityPressureBC.FluidCavityPressureBC:5
-#: abaqus.BoundaryCondition.FluidCavityPressureBCState.FluidCavityPressureBCState:8
-#: abaqus.BoundaryCondition.MagneticVectorPotentialBC.MagneticVectorPotentialBC:5
-#: abaqus.BoundaryCondition.MaterialFlowBC.MaterialFlowBC:5
-#: abaqus.BoundaryCondition.MaterialFlowBCState.MaterialFlowBCState:8
+#: abaqus.BoundaryCondition.EulerianBCState.EulerianBCState:8
+#: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC:6
+#: abaqus.BoundaryCondition.EulerianMotionBCState.EulerianMotionBCState:9
+#: abaqus.BoundaryCondition.FluidCavityPressureBC.FluidCavityPressureBC:6
+#: abaqus.BoundaryCondition.FluidCavityPressureBCState.FluidCavityPressureBCState:9
+#: abaqus.BoundaryCondition.MagneticVectorPotentialBC.MagneticVectorPotentialBC:6
+#: abaqus.BoundaryCondition.MaterialFlowBC.MaterialFlowBC:6
+#: abaqus.BoundaryCondition.MaterialFlowBCState.MaterialFlowBCState:9
 #: abaqus.BoundaryCondition.PorePressureBC.PorePressureBC:5
-#: abaqus.BoundaryCondition.PorePressureBCState.PorePressureBCState:7
-#: abaqus.BoundaryCondition.RetainedNodalDofsBC.RetainedNodalDofsBC:5
+#: abaqus.BoundaryCondition.PorePressureBCState.PorePressureBCState:9
+#: abaqus.BoundaryCondition.RetainedNodalDofsBC.RetainedNodalDofsBC:6
 #: abaqus.BoundaryCondition.SecondaryBaseBC.SecondaryBaseBC:5
-#: abaqus.BoundaryCondition.SecondaryBaseBCState.SecondaryBaseBCState:7
+#: abaqus.BoundaryCondition.SecondaryBaseBCState.SecondaryBaseBCState:9
 #: abaqus.BoundaryCondition.SubmodelBC.SubmodelBC:5
-#: abaqus.BoundaryCondition.SubmodelBCState.SubmodelBCState:7
+#: abaqus.BoundaryCondition.SubmodelBCState.SubmodelBCState:8
 #: abaqus.BoundaryCondition.TemperatureBC.TemperatureBC:5
-#: abaqus.BoundaryCondition.TemperatureBCState.TemperatureBCState:7
-#: abaqus.BoundaryCondition.TypeBC.TypeBC:5
-#: abaqus.BoundaryCondition.TypeBCState.TypeBCState:7
+#: abaqus.BoundaryCondition.TemperatureBCState.TemperatureBCState:9
+#: abaqus.BoundaryCondition.TypeBC.TypeBC:6
+#: abaqus.BoundaryCondition.TypeBCState.TypeBCState:8
 #: abaqus.BoundaryCondition.VelocityBC.VelocityBC:5
-#: abaqus.BoundaryCondition.VelocityBCState.VelocityBCState:7
-#: abaqus.BoundaryCondition.VelocityBaseMotionBC.VelocityBaseMotionBC:5
-#: abaqus.BoundaryCondition.VelocityBaseMotionBCState.VelocityBaseMotionBCState:8
+#: abaqus.BoundaryCondition.VelocityBCState.VelocityBCState:8
+#: abaqus.BoundaryCondition.VelocityBaseMotionBC.VelocityBaseMotionBC:6
+#: abaqus.BoundaryCondition.VelocityBaseMotionBCState.VelocityBaseMotionBCState:9
 #: of
 msgid "This object can be accessed by::"
 msgstr ""
@@ -112,16 +110,16 @@ msgid "This method creates a Model object."
 msgstr ""
 
 #: abaqus.BoundaryCondition.AccelerationBC.AccelerationBC:16
-#: abaqus.BoundaryCondition.AccelerationBaseMotionBC.AccelerationBaseMotionBC:16
-#: abaqus.BoundaryCondition.AcousticPressureBC.AcousticPressureBC:16
+#: abaqus.BoundaryCondition.AccelerationBaseMotionBC.AccelerationBaseMotionBC:17
+#: abaqus.BoundaryCondition.AcousticPressureBC.AcousticPressureBC:17
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel:14
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.AccelerationBC:4
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.AccelerationBaseMotionBC:4
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.AcousticPressureBC:4
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConcentrationBC:4
-#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnAccelerationBC:5
-#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnDisplacementBC:5
-#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnVelocityBC:5
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnAccelerationBC:6
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnDisplacementBC:6
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnVelocityBC:6
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.DisplacementBC:4
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.DisplacementBaseMotionBC:4
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ElectricPotentialBC:4
@@ -146,23 +144,23 @@ msgstr ""
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ZasymmBC:4
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ZsymmBC:4
 #: abaqus.BoundaryCondition.ConcentrationBC.ConcentrationBC:16
-#: abaqus.BoundaryCondition.ConnAccelerationBC.ConnAccelerationBC:17
-#: abaqus.BoundaryCondition.ConnDisplacementBC.ConnDisplacementBC:17
-#: abaqus.BoundaryCondition.ConnVelocityBC.ConnVelocityBC:17
-#: abaqus.BoundaryCondition.DisplacementBC.DisplacementBC:16
-#: abaqus.BoundaryCondition.DisplacementBaseMotionBC.DisplacementBaseMotionBC:16
-#: abaqus.BoundaryCondition.ElectricPotentialBC.ElectricPotentialBC:16
+#: abaqus.BoundaryCondition.ConnAccelerationBC.ConnAccelerationBC:19
+#: abaqus.BoundaryCondition.ConnDisplacementBC.ConnDisplacementBC:19
+#: abaqus.BoundaryCondition.ConnVelocityBC.ConnVelocityBC:18
+#: abaqus.BoundaryCondition.DisplacementBC.DisplacementBC:17
+#: abaqus.BoundaryCondition.DisplacementBaseMotionBC.DisplacementBaseMotionBC:17
+#: abaqus.BoundaryCondition.ElectricPotentialBC.ElectricPotentialBC:17
 #: abaqus.BoundaryCondition.EulerianBC.EulerianBC:16
-#: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC:16
-#: abaqus.BoundaryCondition.FluidCavityPressureBC.FluidCavityPressureBC:16
-#: abaqus.BoundaryCondition.MagneticVectorPotentialBC.MagneticVectorPotentialBC:16
-#: abaqus.BoundaryCondition.MaterialFlowBC.MaterialFlowBC:16
+#: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC:17
+#: abaqus.BoundaryCondition.FluidCavityPressureBC.FluidCavityPressureBC:17
+#: abaqus.BoundaryCondition.MagneticVectorPotentialBC.MagneticVectorPotentialBC:17
+#: abaqus.BoundaryCondition.MaterialFlowBC.MaterialFlowBC:17
 #: abaqus.BoundaryCondition.PorePressureBC.PorePressureBC:16
-#: abaqus.BoundaryCondition.RetainedNodalDofsBC.RetainedNodalDofsBC:16
+#: abaqus.BoundaryCondition.RetainedNodalDofsBC.RetainedNodalDofsBC:17
 #: abaqus.BoundaryCondition.SecondaryBaseBC.SecondaryBaseBC:16
 #: abaqus.BoundaryCondition.SubmodelBC.SubmodelBC:16
 #: abaqus.BoundaryCondition.TemperatureBC.TemperatureBC:16
-#: abaqus.BoundaryCondition.TypeBC.TypeBC:16
+#: abaqus.BoundaryCondition.TypeBC.TypeBC:17
 #: abaqus.BoundaryCondition.TypeBC.TypeBC.EncastreBC:4
 #: abaqus.BoundaryCondition.TypeBC.TypeBC.PinnedBC:4
 #: abaqus.BoundaryCondition.TypeBC.TypeBC.XasymmBC:4
@@ -172,7 +170,7 @@ msgstr ""
 #: abaqus.BoundaryCondition.TypeBC.TypeBC.ZasymmBC:4
 #: abaqus.BoundaryCondition.TypeBC.TypeBC.ZsymmBC:4
 #: abaqus.BoundaryCondition.VelocityBC.VelocityBC:16
-#: abaqus.BoundaryCondition.VelocityBaseMotionBC.VelocityBaseMotionBC:16 of
+#: abaqus.BoundaryCondition.VelocityBaseMotionBC.VelocityBaseMotionBC:17 of
 msgid "This function can be accessed by::"
 msgstr ""
 
@@ -1019,7 +1017,7 @@ msgid ""
 msgstr ""
 
 #: ../../None:32:<autosummary>:1
-#: abaqus.BoundaryCondition.AccelerationBaseMotionBC.AccelerationBaseMotionBC:13
+#: abaqus.BoundaryCondition.AccelerationBaseMotionBC.AccelerationBaseMotionBC:14
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.AccelerationBaseMotionBC:1
 #: of
 msgid "This method creates a AccelerationBaseMotionBC object."
@@ -1047,7 +1045,7 @@ msgid ""
 msgstr ""
 
 #: ../../None:32:<autosummary>:1
-#: abaqus.BoundaryCondition.AcousticPressureBC.AcousticPressureBC:13
+#: abaqus.BoundaryCondition.AcousticPressureBC.AcousticPressureBC:14
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.AcousticPressureBC:1
 #: of
 msgid "This method creates a AcousticPressureBC object."
@@ -1108,7 +1106,7 @@ msgstr ""
 
 #: ../../None:32:<autosummary>:1
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.DisplacementBaseMotionBC:1
-#: abaqus.BoundaryCondition.DisplacementBaseMotionBC.DisplacementBaseMotionBC:13
+#: abaqus.BoundaryCondition.DisplacementBaseMotionBC.DisplacementBaseMotionBC:14
 #: of
 msgid "This method creates a DisplacementBaseMotionBC object."
 msgstr ""
@@ -1122,7 +1120,7 @@ msgstr ""
 
 #: ../../None:32:<autosummary>:1
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.DisplacementBC:1
-#: abaqus.BoundaryCondition.DisplacementBC.DisplacementBC:13 of
+#: abaqus.BoundaryCondition.DisplacementBC.DisplacementBC:14 of
 msgid "This method creates a DisplacementBC object."
 msgstr ""
 
@@ -1135,7 +1133,7 @@ msgstr ""
 
 #: ../../None:32:<autosummary>:1
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ElectricPotentialBC:1
-#: abaqus.BoundaryCondition.ElectricPotentialBC.ElectricPotentialBC:13 of
+#: abaqus.BoundaryCondition.ElectricPotentialBC.ElectricPotentialBC:14 of
 msgid "This method creates an ElectricPotentialBC object."
 msgstr ""
 
@@ -1161,7 +1159,7 @@ msgstr ""
 
 #: ../../None:32:<autosummary>:1
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.EulerianMotionBC:1
-#: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC:13 of
+#: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC:14 of
 msgid "This method creates an EulerianMotionBC object."
 msgstr ""
 
@@ -1174,7 +1172,7 @@ msgstr ""
 
 #: ../../None:32:<autosummary>:1
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.FluidCavityPressureBC:1
-#: abaqus.BoundaryCondition.FluidCavityPressureBC.FluidCavityPressureBC:13 of
+#: abaqus.BoundaryCondition.FluidCavityPressureBC.FluidCavityPressureBC:14 of
 msgid "This method creates a FluidCavityPressureBC object."
 msgstr ""
 
@@ -1187,7 +1185,7 @@ msgstr ""
 
 #: ../../None:32:<autosummary>:1
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.MagneticVectorPotentialBC:1
-#: abaqus.BoundaryCondition.MagneticVectorPotentialBC.MagneticVectorPotentialBC:13
+#: abaqus.BoundaryCondition.MagneticVectorPotentialBC.MagneticVectorPotentialBC:14
 #: of
 msgid "This method creates a MagneticVectorPotentialBC object."
 msgstr ""
@@ -1201,7 +1199,7 @@ msgstr ""
 
 #: ../../None:32:<autosummary>:1
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.MaterialFlowBC:1
-#: abaqus.BoundaryCondition.MaterialFlowBC.MaterialFlowBC:13 of
+#: abaqus.BoundaryCondition.MaterialFlowBC.MaterialFlowBC:14 of
 msgid "This method creates a MaterialFlowBC object."
 msgstr ""
 
@@ -1227,7 +1225,7 @@ msgstr ""
 
 #: ../../None:32:<autosummary>:1
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.RetainedNodalDofsBC:1
-#: abaqus.BoundaryCondition.RetainedNodalDofsBC.RetainedNodalDofsBC:13 of
+#: abaqus.BoundaryCondition.RetainedNodalDofsBC.RetainedNodalDofsBC:14 of
 msgid "This method creates a RetainedNodalDofsBC object."
 msgstr ""
 
@@ -1279,7 +1277,7 @@ msgstr ""
 
 #: ../../None:32:<autosummary>:1
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.VelocityBaseMotionBC:1
-#: abaqus.BoundaryCondition.VelocityBaseMotionBC.VelocityBaseMotionBC:13 of
+#: abaqus.BoundaryCondition.VelocityBaseMotionBC.VelocityBaseMotionBC:14 of
 msgid "This method creates a VelocityBaseMotionBC object."
 msgstr ""
 
@@ -1529,8 +1527,8 @@ msgid ""
 msgstr ""
 
 #: ../../docstring abaqus.BoundaryCondition.AccelerationBC.AccelerationBC:21
-#: abaqus.BoundaryCondition.AccelerationBaseMotionBC.AccelerationBaseMotionBC:21
-#: abaqus.BoundaryCondition.AcousticPressureBC.AcousticPressureBC:21
+#: abaqus.BoundaryCondition.AccelerationBaseMotionBC.AccelerationBaseMotionBC:22
+#: abaqus.BoundaryCondition.AcousticPressureBC.AcousticPressureBC:22
 #: abaqus.BoundaryCondition.BoundaryConditionModel.AccelerationBC.name:1
 #: abaqus.BoundaryCondition.BoundaryConditionModel.AccelerationBaseMotionBC.name:1
 #: abaqus.BoundaryCondition.BoundaryConditionModel.AcousticPressureBC.name:1
@@ -1538,9 +1536,9 @@ msgstr ""
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.AccelerationBaseMotionBC:12
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.AcousticPressureBC:12
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConcentrationBC:12
-#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnAccelerationBC:13
-#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnDisplacementBC:13
-#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnVelocityBC:13
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnAccelerationBC:14
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnDisplacementBC:14
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnVelocityBC:14
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.DisplacementBC:12
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.DisplacementBaseMotionBC:12
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ElectricPotentialBC:12
@@ -1566,31 +1564,31 @@ msgstr ""
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ZsymmBC:12
 #: abaqus.BoundaryCondition.ConcentrationBC.ConcentrationBC:21
 #: abaqus.BoundaryCondition.ConcentrationBC.ConcentrationBC.name:1
-#: abaqus.BoundaryCondition.ConnAccelerationBC.ConnAccelerationBC:22
+#: abaqus.BoundaryCondition.ConnAccelerationBC.ConnAccelerationBC:24
 #: abaqus.BoundaryCondition.ConnAccelerationBC.ConnAccelerationBC.name:1
-#: abaqus.BoundaryCondition.ConnDisplacementBC.ConnDisplacementBC:22
+#: abaqus.BoundaryCondition.ConnDisplacementBC.ConnDisplacementBC:24
 #: abaqus.BoundaryCondition.ConnDisplacementBC.ConnDisplacementBC.name:1
-#: abaqus.BoundaryCondition.ConnVelocityBC.ConnVelocityBC:22
+#: abaqus.BoundaryCondition.ConnVelocityBC.ConnVelocityBC:23
 #: abaqus.BoundaryCondition.ConnVelocityBC.ConnVelocityBC.name:1
-#: abaqus.BoundaryCondition.DisplacementBC.DisplacementBC:21
+#: abaqus.BoundaryCondition.DisplacementBC.DisplacementBC:22
 #: abaqus.BoundaryCondition.DisplacementBC.DisplacementBC.name:1
-#: abaqus.BoundaryCondition.DisplacementBaseMotionBC.DisplacementBaseMotionBC:21
+#: abaqus.BoundaryCondition.DisplacementBaseMotionBC.DisplacementBaseMotionBC:22
 #: abaqus.BoundaryCondition.DisplacementBaseMotionBC.DisplacementBaseMotionBC.name:1
-#: abaqus.BoundaryCondition.ElectricPotentialBC.ElectricPotentialBC:21
+#: abaqus.BoundaryCondition.ElectricPotentialBC.ElectricPotentialBC:22
 #: abaqus.BoundaryCondition.ElectricPotentialBC.ElectricPotentialBC.name:1
 #: abaqus.BoundaryCondition.EulerianBC.EulerianBC:21
 #: abaqus.BoundaryCondition.EulerianBC.EulerianBC.name:1
-#: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC:21
+#: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC:22
 #: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC.name:1
-#: abaqus.BoundaryCondition.FluidCavityPressureBC.FluidCavityPressureBC:21
+#: abaqus.BoundaryCondition.FluidCavityPressureBC.FluidCavityPressureBC:22
 #: abaqus.BoundaryCondition.FluidCavityPressureBC.FluidCavityPressureBC.name:1
-#: abaqus.BoundaryCondition.MagneticVectorPotentialBC.MagneticVectorPotentialBC:21
+#: abaqus.BoundaryCondition.MagneticVectorPotentialBC.MagneticVectorPotentialBC:22
 #: abaqus.BoundaryCondition.MagneticVectorPotentialBC.MagneticVectorPotentialBC.name:1
-#: abaqus.BoundaryCondition.MaterialFlowBC.MaterialFlowBC:21
+#: abaqus.BoundaryCondition.MaterialFlowBC.MaterialFlowBC:22
 #: abaqus.BoundaryCondition.MaterialFlowBC.MaterialFlowBC.name:1
 #: abaqus.BoundaryCondition.PorePressureBC.PorePressureBC:21
 #: abaqus.BoundaryCondition.PorePressureBC.PorePressureBC.name:1
-#: abaqus.BoundaryCondition.RetainedNodalDofsBC.RetainedNodalDofsBC:21
+#: abaqus.BoundaryCondition.RetainedNodalDofsBC.RetainedNodalDofsBC:22
 #: abaqus.BoundaryCondition.RetainedNodalDofsBC.RetainedNodalDofsBC.name:1
 #: abaqus.BoundaryCondition.SecondaryBaseBC.SecondaryBaseBC:21
 #: abaqus.BoundaryCondition.SecondaryBaseBC.SecondaryBaseBC.name:1
@@ -1598,7 +1596,7 @@ msgstr ""
 #: abaqus.BoundaryCondition.SubmodelBC.SubmodelBC.name:1
 #: abaqus.BoundaryCondition.TemperatureBC.TemperatureBC:21
 #: abaqus.BoundaryCondition.TemperatureBC.TemperatureBC.name:1
-#: abaqus.BoundaryCondition.TypeBC.TypeBC:28
+#: abaqus.BoundaryCondition.TypeBC.TypeBC:29
 #: abaqus.BoundaryCondition.TypeBC.TypeBC.EncastreBC:12
 #: abaqus.BoundaryCondition.TypeBC.TypeBC.PinnedBC:12
 #: abaqus.BoundaryCondition.TypeBC.TypeBC.XasymmBC:12
@@ -1611,21 +1609,21 @@ msgstr ""
 #: abaqus.BoundaryCondition.VelocityBC.VelocityBC:21
 #: abaqus.BoundaryCondition.VelocityBC.VelocityBC.name:1
 #: abaqus.BoundaryCondition.VelocityBaseMotionBC.BoundaryCondition.name:1
-#: abaqus.BoundaryCondition.VelocityBaseMotionBC.VelocityBaseMotionBC:21
+#: abaqus.BoundaryCondition.VelocityBaseMotionBC.VelocityBaseMotionBC:22
 #: abaqus.BoundaryCondition.VelocityBaseMotionBC.VelocityBaseMotionBC.name:1 of
 msgid "A String specifying the boundary condition repository key."
 msgstr ""
 
 #: abaqus.BoundaryCondition.AccelerationBC.AccelerationBC:23
-#: abaqus.BoundaryCondition.AccelerationBaseMotionBC.AccelerationBaseMotionBC:23
-#: abaqus.BoundaryCondition.AcousticPressureBC.AcousticPressureBC:23
+#: abaqus.BoundaryCondition.AccelerationBaseMotionBC.AccelerationBaseMotionBC:24
+#: abaqus.BoundaryCondition.AcousticPressureBC.AcousticPressureBC:24
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.AccelerationBC:14
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.AccelerationBaseMotionBC:14
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.AcousticPressureBC:14
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConcentrationBC:14
-#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnAccelerationBC:15
-#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnDisplacementBC:15
-#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnVelocityBC:15
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnAccelerationBC:16
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnDisplacementBC:16
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnVelocityBC:16
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.DisplacementBC:14
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.DisplacementBaseMotionBC:14
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ElectricPotentialBC:14
@@ -1650,23 +1648,23 @@ msgstr ""
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ZasymmBC:14
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ZsymmBC:14
 #: abaqus.BoundaryCondition.ConcentrationBC.ConcentrationBC:23
-#: abaqus.BoundaryCondition.ConnAccelerationBC.ConnAccelerationBC:24
-#: abaqus.BoundaryCondition.ConnDisplacementBC.ConnDisplacementBC:24
-#: abaqus.BoundaryCondition.ConnVelocityBC.ConnVelocityBC:24
-#: abaqus.BoundaryCondition.DisplacementBC.DisplacementBC:23
-#: abaqus.BoundaryCondition.DisplacementBaseMotionBC.DisplacementBaseMotionBC:23
-#: abaqus.BoundaryCondition.ElectricPotentialBC.ElectricPotentialBC:23
+#: abaqus.BoundaryCondition.ConnAccelerationBC.ConnAccelerationBC:26
+#: abaqus.BoundaryCondition.ConnDisplacementBC.ConnDisplacementBC:26
+#: abaqus.BoundaryCondition.ConnVelocityBC.ConnVelocityBC:25
+#: abaqus.BoundaryCondition.DisplacementBC.DisplacementBC:24
+#: abaqus.BoundaryCondition.DisplacementBaseMotionBC.DisplacementBaseMotionBC:24
+#: abaqus.BoundaryCondition.ElectricPotentialBC.ElectricPotentialBC:24
 #: abaqus.BoundaryCondition.EulerianBC.EulerianBC:23
-#: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC:23
-#: abaqus.BoundaryCondition.FluidCavityPressureBC.FluidCavityPressureBC:23
-#: abaqus.BoundaryCondition.MagneticVectorPotentialBC.MagneticVectorPotentialBC:23
-#: abaqus.BoundaryCondition.MaterialFlowBC.MaterialFlowBC:23
+#: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC:24
+#: abaqus.BoundaryCondition.FluidCavityPressureBC.FluidCavityPressureBC:24
+#: abaqus.BoundaryCondition.MagneticVectorPotentialBC.MagneticVectorPotentialBC:24
+#: abaqus.BoundaryCondition.MaterialFlowBC.MaterialFlowBC:24
 #: abaqus.BoundaryCondition.PorePressureBC.PorePressureBC:23
-#: abaqus.BoundaryCondition.RetainedNodalDofsBC.RetainedNodalDofsBC:23
+#: abaqus.BoundaryCondition.RetainedNodalDofsBC.RetainedNodalDofsBC:24
 #: abaqus.BoundaryCondition.SecondaryBaseBC.SecondaryBaseBC:23
 #: abaqus.BoundaryCondition.SubmodelBC.SubmodelBC:23
 #: abaqus.BoundaryCondition.TemperatureBC.TemperatureBC:23
-#: abaqus.BoundaryCondition.TypeBC.TypeBC:30
+#: abaqus.BoundaryCondition.TypeBC.TypeBC:31
 #: abaqus.BoundaryCondition.TypeBC.TypeBC.EncastreBC:14
 #: abaqus.BoundaryCondition.TypeBC.TypeBC.PinnedBC:14
 #: abaqus.BoundaryCondition.TypeBC.TypeBC.XasymmBC:14
@@ -1676,14 +1674,14 @@ msgstr ""
 #: abaqus.BoundaryCondition.TypeBC.TypeBC.ZasymmBC:14
 #: abaqus.BoundaryCondition.TypeBC.TypeBC.ZsymmBC:14
 #: abaqus.BoundaryCondition.VelocityBC.VelocityBC:23
-#: abaqus.BoundaryCondition.VelocityBaseMotionBC.VelocityBaseMotionBC:23 of
+#: abaqus.BoundaryCondition.VelocityBaseMotionBC.VelocityBaseMotionBC:24 of
 msgid ""
 "A String specifying the name of the step in which the boundary condition "
 "is created."
 msgstr ""
 
 #: ../../docstring abaqus.BoundaryCondition.AccelerationBC.AccelerationBC:25
-#: abaqus.BoundaryCondition.AcousticPressureBC.AcousticPressureBC:25
+#: abaqus.BoundaryCondition.AcousticPressureBC.AcousticPressureBC:26
 #: abaqus.BoundaryCondition.BoundaryConditionModel.AccelerationBC.region:1
 #: abaqus.BoundaryCondition.BoundaryConditionModel.AccelerationBaseMotionBC.region:1
 #: abaqus.BoundaryCondition.BoundaryConditionModel.AcousticPressureBC.region:1
@@ -1714,32 +1712,32 @@ msgstr ""
 #: abaqus.BoundaryCondition.ConnAccelerationBC.ConnAccelerationBC.region:1
 #: abaqus.BoundaryCondition.ConnDisplacementBC.ConnDisplacementBC.region:1
 #: abaqus.BoundaryCondition.ConnVelocityBC.ConnVelocityBC.region:1
-#: abaqus.BoundaryCondition.DisplacementBC.DisplacementBC:25
+#: abaqus.BoundaryCondition.DisplacementBC.DisplacementBC:26
 #: abaqus.BoundaryCondition.DisplacementBC.DisplacementBC.region:1
 #: abaqus.BoundaryCondition.DisplacementBaseMotionBC.DisplacementBaseMotionBC.region:1
-#: abaqus.BoundaryCondition.ElectricPotentialBC.ElectricPotentialBC:25
+#: abaqus.BoundaryCondition.ElectricPotentialBC.ElectricPotentialBC:26
 #: abaqus.BoundaryCondition.ElectricPotentialBC.ElectricPotentialBC.region:1
 #: abaqus.BoundaryCondition.EulerianBC.EulerianBC:25
 #: abaqus.BoundaryCondition.EulerianBC.EulerianBC.region:1
-#: abaqus.BoundaryCondition.EulerianBC.EulerianBC.setValues:7
-#: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC:30
+#: abaqus.BoundaryCondition.EulerianBC.EulerianBC.setValues:8
+#: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC:31
 #: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC.region:1
 #: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC.setValues:13
 #: abaqus.BoundaryCondition.FluidCavityPressureBC.FluidCavityPressureBC.region:1
-#: abaqus.BoundaryCondition.MagneticVectorPotentialBC.MagneticVectorPotentialBC:25
+#: abaqus.BoundaryCondition.MagneticVectorPotentialBC.MagneticVectorPotentialBC:26
 #: abaqus.BoundaryCondition.MagneticVectorPotentialBC.MagneticVectorPotentialBC.region:1
-#: abaqus.BoundaryCondition.MaterialFlowBC.MaterialFlowBC:25
+#: abaqus.BoundaryCondition.MaterialFlowBC.MaterialFlowBC:26
 #: abaqus.BoundaryCondition.MaterialFlowBC.MaterialFlowBC.region:1
 #: abaqus.BoundaryCondition.PorePressureBC.PorePressureBC:25
 #: abaqus.BoundaryCondition.PorePressureBC.PorePressureBC.region:1
-#: abaqus.BoundaryCondition.RetainedNodalDofsBC.RetainedNodalDofsBC:25
+#: abaqus.BoundaryCondition.RetainedNodalDofsBC.RetainedNodalDofsBC:26
 #: abaqus.BoundaryCondition.RetainedNodalDofsBC.RetainedNodalDofsBC.region:1
 #: abaqus.BoundaryCondition.SecondaryBaseBC.SecondaryBaseBC.region:1
 #: abaqus.BoundaryCondition.SubmodelBC.SubmodelBC:25
 #: abaqus.BoundaryCondition.SubmodelBC.SubmodelBC.region:1
 #: abaqus.BoundaryCondition.TemperatureBC.TemperatureBC:25
 #: abaqus.BoundaryCondition.TemperatureBC.TemperatureBC.region:1
-#: abaqus.BoundaryCondition.TypeBC.TypeBC:32
+#: abaqus.BoundaryCondition.TypeBC.TypeBC:33
 #: abaqus.BoundaryCondition.TypeBC.TypeBC.EncastreBC:16
 #: abaqus.BoundaryCondition.TypeBC.TypeBC.PinnedBC:16
 #: abaqus.BoundaryCondition.TypeBC.TypeBC.XasymmBC:16
@@ -1749,7 +1747,7 @@ msgstr ""
 #: abaqus.BoundaryCondition.TypeBC.TypeBC.ZasymmBC:16
 #: abaqus.BoundaryCondition.TypeBC.TypeBC.ZsymmBC:16
 #: abaqus.BoundaryCondition.TypeBC.TypeBC.region:1
-#: abaqus.BoundaryCondition.TypeBC.TypeBC.setValues:7
+#: abaqus.BoundaryCondition.TypeBC.TypeBC.setValues:8
 #: abaqus.BoundaryCondition.VelocityBC.VelocityBC:25
 #: abaqus.BoundaryCondition.VelocityBC.VelocityBC.region:1
 #: abaqus.BoundaryCondition.VelocityBaseMotionBC.BoundaryCondition.region:1
@@ -1761,8 +1759,8 @@ msgid ""
 msgstr ""
 
 #: ../../docstring abaqus.BoundaryCondition.AccelerationBC.AccelerationBC:27
-#: abaqus.BoundaryCondition.AccelerationBC.AccelerationBC.setValues:7
-#: abaqus.BoundaryCondition.AcousticPressureBC.AcousticPressureBC:27
+#: abaqus.BoundaryCondition.AccelerationBC.AccelerationBC.setValues:8
+#: abaqus.BoundaryCondition.AcousticPressureBC.AcousticPressureBC:28
 #: abaqus.BoundaryCondition.AcousticPressureBC.AcousticPressureBC.setValues:8
 #: abaqus.BoundaryCondition.BoundaryConditionModel.AccelerationBC.fieldName:1
 #: abaqus.BoundaryCondition.BoundaryConditionModel.AcousticPressureBC.fieldName:1
@@ -1776,22 +1774,22 @@ msgstr ""
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.VelocityBC:18
 #: abaqus.BoundaryCondition.ConcentrationBC.ConcentrationBC:27
 #: abaqus.BoundaryCondition.ConcentrationBC.ConcentrationBC.fieldName:1
-#: abaqus.BoundaryCondition.ConcentrationBC.ConcentrationBC.setValues:7
-#: abaqus.BoundaryCondition.ElectricPotentialBC.ElectricPotentialBC:27
+#: abaqus.BoundaryCondition.ConcentrationBC.ConcentrationBC.setValues:8
+#: abaqus.BoundaryCondition.ElectricPotentialBC.ElectricPotentialBC:28
 #: abaqus.BoundaryCondition.ElectricPotentialBC.ElectricPotentialBC.fieldName:1
 #: abaqus.BoundaryCondition.ElectricPotentialBC.ElectricPotentialBC.setValues:8
-#: abaqus.BoundaryCondition.MaterialFlowBC.MaterialFlowBC:27
+#: abaqus.BoundaryCondition.MaterialFlowBC.MaterialFlowBC:28
 #: abaqus.BoundaryCondition.MaterialFlowBC.MaterialFlowBC.fieldName:1
-#: abaqus.BoundaryCondition.MaterialFlowBC.MaterialFlowBC.setValues:7
+#: abaqus.BoundaryCondition.MaterialFlowBC.MaterialFlowBC.setValues:8
 #: abaqus.BoundaryCondition.PorePressureBC.PorePressureBC:27
 #: abaqus.BoundaryCondition.PorePressureBC.PorePressureBC.fieldName:1
-#: abaqus.BoundaryCondition.PorePressureBC.PorePressureBC.setValues:7
+#: abaqus.BoundaryCondition.PorePressureBC.PorePressureBC.setValues:8
 #: abaqus.BoundaryCondition.TemperatureBC.TemperatureBC:27
 #: abaqus.BoundaryCondition.TemperatureBC.TemperatureBC.fieldName:1
-#: abaqus.BoundaryCondition.TemperatureBC.TemperatureBC.setValues:7
+#: abaqus.BoundaryCondition.TemperatureBC.TemperatureBC.setValues:8
 #: abaqus.BoundaryCondition.VelocityBC.VelocityBC:27
 #: abaqus.BoundaryCondition.VelocityBC.VelocityBC.fieldName:1
-#: abaqus.BoundaryCondition.VelocityBC.VelocityBC.setValues:7 of
+#: abaqus.BoundaryCondition.VelocityBC.VelocityBC.setValues:8 of
 msgid ""
 "A String specifying the name of the AnalyticalField object associated with"
 " this boundary condition. The **fieldName** argument applies only when "
@@ -1799,7 +1797,7 @@ msgid ""
 msgstr ""
 
 #: abaqus.BoundaryCondition.AccelerationBC.AccelerationBC:31
-#: abaqus.BoundaryCondition.AccelerationBC.AccelerationBC.setValues:11
+#: abaqus.BoundaryCondition.AccelerationBC.AccelerationBC.setValues:12
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.AccelerationBC:22
 #: of
 msgid ""
@@ -1811,7 +1809,7 @@ msgid ""
 msgstr ""
 
 #: abaqus.BoundaryCondition.AccelerationBC.AccelerationBC:36
-#: abaqus.BoundaryCondition.AccelerationBC.AccelerationBC.setValues:16
+#: abaqus.BoundaryCondition.AccelerationBC.AccelerationBC.setValues:17
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.AccelerationBC:27
 #: of
 msgid ""
@@ -1821,7 +1819,7 @@ msgid ""
 msgstr ""
 
 #: abaqus.BoundaryCondition.AccelerationBC.AccelerationBC:39
-#: abaqus.BoundaryCondition.AccelerationBC.AccelerationBC.setValues:19
+#: abaqus.BoundaryCondition.AccelerationBC.AccelerationBC.setValues:20
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.AccelerationBC:30
 #: of
 msgid ""
@@ -1831,7 +1829,7 @@ msgid ""
 msgstr ""
 
 #: abaqus.BoundaryCondition.AccelerationBC.AccelerationBC:42
-#: abaqus.BoundaryCondition.AccelerationBC.AccelerationBC.setValues:22
+#: abaqus.BoundaryCondition.AccelerationBC.AccelerationBC.setValues:23
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.AccelerationBC:33
 #: of
 msgid ""
@@ -1841,7 +1839,7 @@ msgid ""
 msgstr ""
 
 #: abaqus.BoundaryCondition.AccelerationBC.AccelerationBC:46
-#: abaqus.BoundaryCondition.AccelerationBC.AccelerationBC.setValues:26
+#: abaqus.BoundaryCondition.AccelerationBC.AccelerationBC.setValues:27
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.AccelerationBC:37
 #: of
 msgid ""
@@ -1851,7 +1849,7 @@ msgid ""
 msgstr ""
 
 #: abaqus.BoundaryCondition.AccelerationBC.AccelerationBC:50
-#: abaqus.BoundaryCondition.AccelerationBC.AccelerationBC.setValues:30
+#: abaqus.BoundaryCondition.AccelerationBC.AccelerationBC.setValues:31
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.AccelerationBC:41
 #: of
 msgid ""
@@ -1861,18 +1859,18 @@ msgid ""
 msgstr ""
 
 #: abaqus.BoundaryCondition.AccelerationBC.AccelerationBC:54
-#: abaqus.BoundaryCondition.AccelerationBC.AccelerationBC.setValues:34
-#: abaqus.BoundaryCondition.AccelerationBaseMotionBC.AccelerationBaseMotionBC:41
+#: abaqus.BoundaryCondition.AccelerationBC.AccelerationBC.setValues:35
+#: abaqus.BoundaryCondition.AccelerationBaseMotionBC.AccelerationBaseMotionBC:42
 #: abaqus.BoundaryCondition.AccelerationBaseMotionBC.AccelerationBaseMotionBC.setValues:21
-#: abaqus.BoundaryCondition.AcousticPressureBC.AcousticPressureBC:37
+#: abaqus.BoundaryCondition.AcousticPressureBC.AcousticPressureBC:38
 #: abaqus.BoundaryCondition.AcousticPressureBC.AcousticPressureBC.setValues:18
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.AccelerationBC:45
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.AccelerationBaseMotionBC:32
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.AcousticPressureBC:28
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConcentrationBC:28
-#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnAccelerationBC:55
-#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnDisplacementBC:58
-#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnVelocityBC:55
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnAccelerationBC:56
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnDisplacementBC:59
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnVelocityBC:56
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.DisplacementBC:51
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.DisplacementBaseMotionBC:32
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ElectricPotentialBC:28
@@ -1884,32 +1882,32 @@ msgstr ""
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.VelocityBC:45
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.VelocityBaseMotionBC:32
 #: abaqus.BoundaryCondition.ConcentrationBC.ConcentrationBC:37
-#: abaqus.BoundaryCondition.ConcentrationBC.ConcentrationBC.setValues:17
-#: abaqus.BoundaryCondition.ConnAccelerationBC.ConnAccelerationBC:64
+#: abaqus.BoundaryCondition.ConcentrationBC.ConcentrationBC.setValues:18
+#: abaqus.BoundaryCondition.ConnAccelerationBC.ConnAccelerationBC:66
 #: abaqus.BoundaryCondition.ConnAccelerationBC.ConnAccelerationBC.setValues:46
-#: abaqus.BoundaryCondition.ConnDisplacementBC.ConnDisplacementBC:67
+#: abaqus.BoundaryCondition.ConnDisplacementBC.ConnDisplacementBC:69
 #: abaqus.BoundaryCondition.ConnDisplacementBC.ConnDisplacementBC.setValues:49
-#: abaqus.BoundaryCondition.ConnVelocityBC.ConnVelocityBC:64
-#: abaqus.BoundaryCondition.ConnVelocityBC.ConnVelocityBC.setValues:45
-#: abaqus.BoundaryCondition.DisplacementBC.DisplacementBC:60
-#: abaqus.BoundaryCondition.DisplacementBC.DisplacementBC.setValues:40
-#: abaqus.BoundaryCondition.DisplacementBaseMotionBC.DisplacementBaseMotionBC:41
+#: abaqus.BoundaryCondition.ConnVelocityBC.ConnVelocityBC:65
+#: abaqus.BoundaryCondition.ConnVelocityBC.ConnVelocityBC.setValues:46
+#: abaqus.BoundaryCondition.DisplacementBC.DisplacementBC:61
+#: abaqus.BoundaryCondition.DisplacementBC.DisplacementBC.setValues:41
+#: abaqus.BoundaryCondition.DisplacementBaseMotionBC.DisplacementBaseMotionBC:42
 #: abaqus.BoundaryCondition.DisplacementBaseMotionBC.DisplacementBaseMotionBC.setValues:21
-#: abaqus.BoundaryCondition.ElectricPotentialBC.ElectricPotentialBC:37
+#: abaqus.BoundaryCondition.ElectricPotentialBC.ElectricPotentialBC:38
 #: abaqus.BoundaryCondition.ElectricPotentialBC.ElectricPotentialBC.setValues:18
-#: abaqus.BoundaryCondition.FluidCavityPressureBC.FluidCavityPressureBC:29
+#: abaqus.BoundaryCondition.FluidCavityPressureBC.FluidCavityPressureBC:30
 #: abaqus.BoundaryCondition.FluidCavityPressureBC.FluidCavityPressureBC.setValues:10
-#: abaqus.BoundaryCondition.MagneticVectorPotentialBC.MagneticVectorPotentialBC:39
+#: abaqus.BoundaryCondition.MagneticVectorPotentialBC.MagneticVectorPotentialBC:40
 #: abaqus.BoundaryCondition.MagneticVectorPotentialBC.MagneticVectorPotentialBC.setValues:20
-#: abaqus.BoundaryCondition.MaterialFlowBC.MaterialFlowBC:37
-#: abaqus.BoundaryCondition.MaterialFlowBC.MaterialFlowBC.setValues:17
+#: abaqus.BoundaryCondition.MaterialFlowBC.MaterialFlowBC:38
+#: abaqus.BoundaryCondition.MaterialFlowBC.MaterialFlowBC.setValues:18
 #: abaqus.BoundaryCondition.PorePressureBC.PorePressureBC:37
-#: abaqus.BoundaryCondition.PorePressureBC.PorePressureBC.setValues:17
+#: abaqus.BoundaryCondition.PorePressureBC.PorePressureBC.setValues:18
 #: abaqus.BoundaryCondition.TemperatureBC.TemperatureBC:36
-#: abaqus.BoundaryCondition.TemperatureBC.TemperatureBC.setValues:16
+#: abaqus.BoundaryCondition.TemperatureBC.TemperatureBC.setValues:17
 #: abaqus.BoundaryCondition.VelocityBC.VelocityBC:54
-#: abaqus.BoundaryCondition.VelocityBC.VelocityBC.setValues:34
-#: abaqus.BoundaryCondition.VelocityBaseMotionBC.VelocityBaseMotionBC:41
+#: abaqus.BoundaryCondition.VelocityBC.VelocityBC.setValues:35
+#: abaqus.BoundaryCondition.VelocityBaseMotionBC.VelocityBaseMotionBC:42
 #: abaqus.BoundaryCondition.VelocityBaseMotionBC.VelocityBaseMotionBC.setValues:21
 #: of
 msgid ""
@@ -1920,7 +1918,7 @@ msgid ""
 msgstr ""
 
 #: ../../docstring abaqus.BoundaryCondition.AccelerationBC.AccelerationBC:59
-#: abaqus.BoundaryCondition.AccelerationBC.AccelerationBC.setValues:39
+#: abaqus.BoundaryCondition.AccelerationBC.AccelerationBC.setValues:40
 #: abaqus.BoundaryCondition.BoundaryConditionModel.AccelerationBC.localCsys:1
 #: abaqus.BoundaryCondition.BoundaryConditionModel.AccelerationBaseMotionBC.localCsys:1
 #: abaqus.BoundaryCondition.BoundaryConditionModel.AcousticPressureBC.localCsys:1
@@ -1941,15 +1939,15 @@ msgstr ""
 #: abaqus.BoundaryCondition.ConnAccelerationBC.ConnAccelerationBC.localCsys:1
 #: abaqus.BoundaryCondition.ConnDisplacementBC.ConnDisplacementBC.localCsys:1
 #: abaqus.BoundaryCondition.ConnVelocityBC.ConnVelocityBC.localCsys:1
-#: abaqus.BoundaryCondition.DisplacementBC.DisplacementBC:69
+#: abaqus.BoundaryCondition.DisplacementBC.DisplacementBC:70
 #: abaqus.BoundaryCondition.DisplacementBC.DisplacementBC.localCsys:1
-#: abaqus.BoundaryCondition.DisplacementBC.DisplacementBC.setValues:49
+#: abaqus.BoundaryCondition.DisplacementBC.DisplacementBC.setValues:50
 #: abaqus.BoundaryCondition.DisplacementBaseMotionBC.DisplacementBaseMotionBC.localCsys:1
 #: abaqus.BoundaryCondition.ElectricPotentialBC.ElectricPotentialBC.localCsys:1
 #: abaqus.BoundaryCondition.EulerianBC.EulerianBC.localCsys:1
 #: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC.localCsys:1
 #: abaqus.BoundaryCondition.FluidCavityPressureBC.FluidCavityPressureBC.localCsys:1
-#: abaqus.BoundaryCondition.MagneticVectorPotentialBC.MagneticVectorPotentialBC:47
+#: abaqus.BoundaryCondition.MagneticVectorPotentialBC.MagneticVectorPotentialBC:48
 #: abaqus.BoundaryCondition.MagneticVectorPotentialBC.MagneticVectorPotentialBC.localCsys:1
 #: abaqus.BoundaryCondition.MagneticVectorPotentialBC.MagneticVectorPotentialBC.setValues:28
 #: abaqus.BoundaryCondition.MaterialFlowBC.MaterialFlowBC.localCsys:1
@@ -1958,9 +1956,9 @@ msgstr ""
 #: abaqus.BoundaryCondition.SecondaryBaseBC.SecondaryBaseBC.localCsys:1
 #: abaqus.BoundaryCondition.SubmodelBC.SubmodelBC:53
 #: abaqus.BoundaryCondition.SubmodelBC.SubmodelBC.localCsys:1
-#: abaqus.BoundaryCondition.SubmodelBC.SubmodelBC.setValues:18
+#: abaqus.BoundaryCondition.SubmodelBC.SubmodelBC.setValues:19
 #: abaqus.BoundaryCondition.TemperatureBC.TemperatureBC.localCsys:1
-#: abaqus.BoundaryCondition.TypeBC.TypeBC:38
+#: abaqus.BoundaryCondition.TypeBC.TypeBC:39
 #: abaqus.BoundaryCondition.TypeBC.TypeBC.EncastreBC:22
 #: abaqus.BoundaryCondition.TypeBC.TypeBC.PinnedBC:22
 #: abaqus.BoundaryCondition.TypeBC.TypeBC.XasymmBC:22
@@ -1970,10 +1968,10 @@ msgstr ""
 #: abaqus.BoundaryCondition.TypeBC.TypeBC.ZasymmBC:22
 #: abaqus.BoundaryCondition.TypeBC.TypeBC.ZsymmBC:22
 #: abaqus.BoundaryCondition.TypeBC.TypeBC.localCsys:1
-#: abaqus.BoundaryCondition.TypeBC.TypeBC.setValues:16
+#: abaqus.BoundaryCondition.TypeBC.TypeBC.setValues:17
 #: abaqus.BoundaryCondition.VelocityBC.VelocityBC:59
 #: abaqus.BoundaryCondition.VelocityBC.VelocityBC.localCsys:1
-#: abaqus.BoundaryCondition.VelocityBC.VelocityBC.setValues:39
+#: abaqus.BoundaryCondition.VelocityBC.VelocityBC.setValues:40
 #: abaqus.BoundaryCondition.VelocityBaseMotionBC.BoundaryCondition.localCsys:1
 #: abaqus.BoundaryCondition.VelocityBaseMotionBC.VelocityBaseMotionBC.localCsys:1
 #: of
@@ -1985,8 +1983,8 @@ msgid ""
 msgstr ""
 
 #: ../../docstring abaqus.BoundaryCondition.AccelerationBC.AccelerationBC:63
-#: abaqus.BoundaryCondition.AccelerationBC.AccelerationBC.setValues:43
-#: abaqus.BoundaryCondition.AcousticPressureBC.AcousticPressureBC:34
+#: abaqus.BoundaryCondition.AccelerationBC.AccelerationBC.setValues:44
+#: abaqus.BoundaryCondition.AcousticPressureBC.AcousticPressureBC:35
 #: abaqus.BoundaryCondition.AcousticPressureBC.AcousticPressureBC.setValues:15
 #: abaqus.BoundaryCondition.BoundaryConditionModel.AccelerationBC.distributionType:1
 #: abaqus.BoundaryCondition.BoundaryConditionModel.AcousticPressureBC.distributionType:1
@@ -2000,22 +1998,22 @@ msgstr ""
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.VelocityBC:54
 #: abaqus.BoundaryCondition.ConcentrationBC.ConcentrationBC:34
 #: abaqus.BoundaryCondition.ConcentrationBC.ConcentrationBC.distributionType:1
-#: abaqus.BoundaryCondition.ConcentrationBC.ConcentrationBC.setValues:14
-#: abaqus.BoundaryCondition.ElectricPotentialBC.ElectricPotentialBC:34
+#: abaqus.BoundaryCondition.ConcentrationBC.ConcentrationBC.setValues:15
+#: abaqus.BoundaryCondition.ElectricPotentialBC.ElectricPotentialBC:35
 #: abaqus.BoundaryCondition.ElectricPotentialBC.ElectricPotentialBC.distributionType:1
 #: abaqus.BoundaryCondition.ElectricPotentialBC.ElectricPotentialBC.setValues:15
-#: abaqus.BoundaryCondition.MaterialFlowBC.MaterialFlowBC:34
+#: abaqus.BoundaryCondition.MaterialFlowBC.MaterialFlowBC:35
 #: abaqus.BoundaryCondition.MaterialFlowBC.MaterialFlowBC.distributionType:1
-#: abaqus.BoundaryCondition.MaterialFlowBC.MaterialFlowBC.setValues:14
+#: abaqus.BoundaryCondition.MaterialFlowBC.MaterialFlowBC.setValues:15
 #: abaqus.BoundaryCondition.PorePressureBC.PorePressureBC:34
 #: abaqus.BoundaryCondition.PorePressureBC.PorePressureBC.distributionType:1
-#: abaqus.BoundaryCondition.PorePressureBC.PorePressureBC.setValues:14
+#: abaqus.BoundaryCondition.PorePressureBC.PorePressureBC.setValues:15
 #: abaqus.BoundaryCondition.TemperatureBC.TemperatureBC:41
 #: abaqus.BoundaryCondition.TemperatureBC.TemperatureBC.distributionType:1
-#: abaqus.BoundaryCondition.TemperatureBC.TemperatureBC.setValues:21
+#: abaqus.BoundaryCondition.TemperatureBC.TemperatureBC.setValues:22
 #: abaqus.BoundaryCondition.VelocityBC.VelocityBC:63
 #: abaqus.BoundaryCondition.VelocityBC.VelocityBC.distributionType:1
-#: abaqus.BoundaryCondition.VelocityBC.VelocityBC.setValues:43 of
+#: abaqus.BoundaryCondition.VelocityBC.VelocityBC.setValues:44 of
 msgid ""
 "A SymbolicConstant specifying how the boundary condition is distributed "
 "spatially. Possible values are UNIFORM, USER_DEFINED, and FIELD. The "
@@ -2033,7 +2031,7 @@ msgstr ""
 msgid ":class:`AccelerationBC`"
 msgstr ""
 
-#: abaqus.BoundaryCondition.AccelerationBaseMotionBC.AccelerationBaseMotionBC:11
+#: abaqus.BoundaryCondition.AccelerationBaseMotionBC.AccelerationBaseMotionBC:12
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.AccelerationBaseMotionBC:9
 #: of
 msgid ""
@@ -2042,12 +2040,12 @@ msgid ""
 "accelerationbasemotionbcpyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: abaqus.BoundaryCondition.AccelerationBaseMotionBC.AccelerationBaseMotionBC:25
+#: abaqus.BoundaryCondition.AccelerationBaseMotionBC.AccelerationBaseMotionBC:26
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.AccelerationBaseMotionBC:16
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.DisplacementBaseMotionBC:16
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.VelocityBaseMotionBC:16
-#: abaqus.BoundaryCondition.DisplacementBaseMotionBC.DisplacementBaseMotionBC:25
-#: abaqus.BoundaryCondition.VelocityBaseMotionBC.VelocityBaseMotionBC:25 of
+#: abaqus.BoundaryCondition.DisplacementBaseMotionBC.DisplacementBaseMotionBC:26
+#: abaqus.BoundaryCondition.VelocityBaseMotionBC.VelocityBaseMotionBC:26 of
 msgid ""
 "A SymbolicConstant specifying the constrained degree-of-freedom. Possible "
 "values for the SymbolicConstant are U1, U2, U3, UR1, UR2, UR3. The default"
@@ -2055,16 +2053,16 @@ msgid ""
 msgstr ""
 
 #: ../../docstring
-#: abaqus.BoundaryCondition.AccelerationBaseMotionBC.AccelerationBaseMotionBC:28
+#: abaqus.BoundaryCondition.AccelerationBaseMotionBC.AccelerationBaseMotionBC:29
 #: abaqus.BoundaryCondition.AccelerationBaseMotionBC.AccelerationBaseMotionBC.setValues:8
 #: abaqus.BoundaryCondition.BoundaryConditionModel.AccelerationBaseMotionBC.amplitudeScaleFactor:1
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.AccelerationBaseMotionBC:19
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.DisplacementBaseMotionBC:19
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.VelocityBaseMotionBC:19
-#: abaqus.BoundaryCondition.DisplacementBaseMotionBC.DisplacementBaseMotionBC:28
+#: abaqus.BoundaryCondition.DisplacementBaseMotionBC.DisplacementBaseMotionBC:29
 #: abaqus.BoundaryCondition.DisplacementBaseMotionBC.DisplacementBaseMotionBC.amplitudeScaleFactor:1
 #: abaqus.BoundaryCondition.DisplacementBaseMotionBC.DisplacementBaseMotionBC.setValues:8
-#: abaqus.BoundaryCondition.VelocityBaseMotionBC.VelocityBaseMotionBC:28
+#: abaqus.BoundaryCondition.VelocityBaseMotionBC.VelocityBaseMotionBC:29
 #: abaqus.BoundaryCondition.VelocityBaseMotionBC.VelocityBaseMotionBC.amplitudeScaleFactor:1
 #: abaqus.BoundaryCondition.VelocityBaseMotionBC.VelocityBaseMotionBC.setValues:8
 #: of
@@ -2074,16 +2072,16 @@ msgid ""
 msgstr ""
 
 #: ../../docstring
-#: abaqus.BoundaryCondition.AccelerationBaseMotionBC.AccelerationBaseMotionBC:30
+#: abaqus.BoundaryCondition.AccelerationBaseMotionBC.AccelerationBaseMotionBC:31
 #: abaqus.BoundaryCondition.AccelerationBaseMotionBC.AccelerationBaseMotionBC.setValues:10
 #: abaqus.BoundaryCondition.BoundaryConditionModel.AccelerationBaseMotionBC.centerOfRotation:1
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.AccelerationBaseMotionBC:21
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.DisplacementBaseMotionBC:21
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.VelocityBaseMotionBC:21
-#: abaqus.BoundaryCondition.DisplacementBaseMotionBC.DisplacementBaseMotionBC:30
+#: abaqus.BoundaryCondition.DisplacementBaseMotionBC.DisplacementBaseMotionBC:31
 #: abaqus.BoundaryCondition.DisplacementBaseMotionBC.DisplacementBaseMotionBC.centerOfRotation:1
 #: abaqus.BoundaryCondition.DisplacementBaseMotionBC.DisplacementBaseMotionBC.setValues:10
-#: abaqus.BoundaryCondition.VelocityBaseMotionBC.VelocityBaseMotionBC:30
+#: abaqus.BoundaryCondition.VelocityBaseMotionBC.VelocityBaseMotionBC:31
 #: abaqus.BoundaryCondition.VelocityBaseMotionBC.VelocityBaseMotionBC.centerOfRotation:1
 #: abaqus.BoundaryCondition.VelocityBaseMotionBC.VelocityBaseMotionBC.setValues:10
 #: of
@@ -2094,16 +2092,16 @@ msgid ""
 msgstr ""
 
 #: ../../docstring
-#: abaqus.BoundaryCondition.AccelerationBaseMotionBC.AccelerationBaseMotionBC:33
+#: abaqus.BoundaryCondition.AccelerationBaseMotionBC.AccelerationBaseMotionBC:34
 #: abaqus.BoundaryCondition.AccelerationBaseMotionBC.AccelerationBaseMotionBC.setValues:13
 #: abaqus.BoundaryCondition.BoundaryConditionModel.AccelerationBaseMotionBC.correlation:1
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.AccelerationBaseMotionBC:24
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.DisplacementBaseMotionBC:24
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.VelocityBaseMotionBC:24
-#: abaqus.BoundaryCondition.DisplacementBaseMotionBC.DisplacementBaseMotionBC:33
+#: abaqus.BoundaryCondition.DisplacementBaseMotionBC.DisplacementBaseMotionBC:34
 #: abaqus.BoundaryCondition.DisplacementBaseMotionBC.DisplacementBaseMotionBC.correlation:1
 #: abaqus.BoundaryCondition.DisplacementBaseMotionBC.DisplacementBaseMotionBC.setValues:13
-#: abaqus.BoundaryCondition.VelocityBaseMotionBC.VelocityBaseMotionBC:33
+#: abaqus.BoundaryCondition.VelocityBaseMotionBC.VelocityBaseMotionBC:34
 #: abaqus.BoundaryCondition.VelocityBaseMotionBC.VelocityBaseMotionBC.correlation:1
 #: abaqus.BoundaryCondition.VelocityBaseMotionBC.VelocityBaseMotionBC.setValues:13
 #: of
@@ -2111,16 +2109,16 @@ msgid "A Correlation object."
 msgstr ""
 
 #: ../../docstring
-#: abaqus.BoundaryCondition.AccelerationBaseMotionBC.AccelerationBaseMotionBC:35
+#: abaqus.BoundaryCondition.AccelerationBaseMotionBC.AccelerationBaseMotionBC:36
 #: abaqus.BoundaryCondition.AccelerationBaseMotionBC.AccelerationBaseMotionBC.setValues:15
 #: abaqus.BoundaryCondition.BoundaryConditionModel.AccelerationBaseMotionBC.secondaryBase:1
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.AccelerationBaseMotionBC:26
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.DisplacementBaseMotionBC:26
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.VelocityBaseMotionBC:26
-#: abaqus.BoundaryCondition.DisplacementBaseMotionBC.DisplacementBaseMotionBC:35
+#: abaqus.BoundaryCondition.DisplacementBaseMotionBC.DisplacementBaseMotionBC:36
 #: abaqus.BoundaryCondition.DisplacementBaseMotionBC.DisplacementBaseMotionBC.secondaryBase:1
 #: abaqus.BoundaryCondition.DisplacementBaseMotionBC.DisplacementBaseMotionBC.setValues:15
-#: abaqus.BoundaryCondition.VelocityBaseMotionBC.VelocityBaseMotionBC:35
+#: abaqus.BoundaryCondition.VelocityBaseMotionBC.VelocityBaseMotionBC:36
 #: abaqus.BoundaryCondition.VelocityBaseMotionBC.VelocityBaseMotionBC.secondaryBase:1
 #: abaqus.BoundaryCondition.VelocityBaseMotionBC.VelocityBaseMotionBC.setValues:15
 #: of
@@ -2130,16 +2128,16 @@ msgid ""
 msgstr ""
 
 #: ../../docstring
-#: abaqus.BoundaryCondition.AccelerationBaseMotionBC.AccelerationBaseMotionBC:38
+#: abaqus.BoundaryCondition.AccelerationBaseMotionBC.AccelerationBaseMotionBC:39
 #: abaqus.BoundaryCondition.AccelerationBaseMotionBC.AccelerationBaseMotionBC.setValues:18
 #: abaqus.BoundaryCondition.BoundaryConditionModel.AccelerationBaseMotionBC.useComplex:1
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.AccelerationBaseMotionBC:29
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.DisplacementBaseMotionBC:29
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.VelocityBaseMotionBC:29
-#: abaqus.BoundaryCondition.DisplacementBaseMotionBC.DisplacementBaseMotionBC:38
+#: abaqus.BoundaryCondition.DisplacementBaseMotionBC.DisplacementBaseMotionBC:39
 #: abaqus.BoundaryCondition.DisplacementBaseMotionBC.DisplacementBaseMotionBC.setValues:18
 #: abaqus.BoundaryCondition.DisplacementBaseMotionBC.DisplacementBaseMotionBC.useComplex:1
-#: abaqus.BoundaryCondition.VelocityBaseMotionBC.VelocityBaseMotionBC:38
+#: abaqus.BoundaryCondition.VelocityBaseMotionBC.VelocityBaseMotionBC:39
 #: abaqus.BoundaryCondition.VelocityBaseMotionBC.VelocityBaseMotionBC.setValues:18
 #: abaqus.BoundaryCondition.VelocityBaseMotionBC.VelocityBaseMotionBC.useComplex:1
 #: of
@@ -2154,13 +2152,13 @@ msgstr ""
 msgid "**bc** -- An AccelerationBaseMotionBC object."
 msgstr ""
 
-#: abaqus.BoundaryCondition.AccelerationBaseMotionBC.AccelerationBaseMotionBC:47
+#: abaqus.BoundaryCondition.AccelerationBaseMotionBC.AccelerationBaseMotionBC:48
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.AccelerationBaseMotionBC:38
 #: of
 msgid ":class:`AccelerationBaseMotionBC`"
 msgstr ""
 
-#: abaqus.BoundaryCondition.AcousticPressureBC.AcousticPressureBC:11
+#: abaqus.BoundaryCondition.AcousticPressureBC.AcousticPressureBC:12
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.AcousticPressureBC:9
 #: of
 msgid ""
@@ -2169,7 +2167,7 @@ msgid ""
 "acousticpressurebcpyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: abaqus.BoundaryCondition.AcousticPressureBC.AcousticPressureBC:31
+#: abaqus.BoundaryCondition.AcousticPressureBC.AcousticPressureBC:32
 #: abaqus.BoundaryCondition.AcousticPressureBC.AcousticPressureBC.setValues:12
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.AcousticPressureBC:22
 #: of
@@ -2180,11 +2178,11 @@ msgid ""
 msgstr ""
 
 #: ../../docstring
-#: abaqus.BoundaryCondition.AcousticPressureBC.AcousticPressureBC:42
+#: abaqus.BoundaryCondition.AcousticPressureBC.AcousticPressureBC:43
 #: abaqus.BoundaryCondition.AcousticPressureBC.AcousticPressureBC.setValues:23
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.AcousticPressureBC:33
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConcentrationBC:33
-#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnDisplacementBC:55
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnDisplacementBC:56
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.DisplacementBC:48
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ElectricPotentialBC:33
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.FluidCavityPressureBC:25
@@ -2192,23 +2190,23 @@ msgstr ""
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.PorePressureBC:33
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.TemperatureBC:35
 #: abaqus.BoundaryCondition.ConcentrationBC.ConcentrationBC:42
-#: abaqus.BoundaryCondition.ConcentrationBC.ConcentrationBC.setValues:22
-#: abaqus.BoundaryCondition.ConnDisplacementBC.ConnDisplacementBC:64
+#: abaqus.BoundaryCondition.ConcentrationBC.ConcentrationBC.setValues:23
+#: abaqus.BoundaryCondition.ConnDisplacementBC.ConnDisplacementBC:66
 #: abaqus.BoundaryCondition.ConnDisplacementBC.ConnDisplacementBC.fixed:1
 #: abaqus.BoundaryCondition.ConnDisplacementBC.ConnDisplacementBC.setValues:46
-#: abaqus.BoundaryCondition.DisplacementBC.DisplacementBC:57
+#: abaqus.BoundaryCondition.DisplacementBC.DisplacementBC:58
 #: abaqus.BoundaryCondition.DisplacementBC.DisplacementBC.fixed:1
-#: abaqus.BoundaryCondition.DisplacementBC.DisplacementBC.setValues:37
-#: abaqus.BoundaryCondition.ElectricPotentialBC.ElectricPotentialBC:42
+#: abaqus.BoundaryCondition.DisplacementBC.DisplacementBC.setValues:38
+#: abaqus.BoundaryCondition.ElectricPotentialBC.ElectricPotentialBC:43
 #: abaqus.BoundaryCondition.ElectricPotentialBC.ElectricPotentialBC.setValues:23
-#: abaqus.BoundaryCondition.FluidCavityPressureBC.FluidCavityPressureBC:34
+#: abaqus.BoundaryCondition.FluidCavityPressureBC.FluidCavityPressureBC:35
 #: abaqus.BoundaryCondition.FluidCavityPressureBC.FluidCavityPressureBC.setValues:15
-#: abaqus.BoundaryCondition.MaterialFlowBC.MaterialFlowBC:42
-#: abaqus.BoundaryCondition.MaterialFlowBC.MaterialFlowBC.setValues:22
+#: abaqus.BoundaryCondition.MaterialFlowBC.MaterialFlowBC:43
+#: abaqus.BoundaryCondition.MaterialFlowBC.MaterialFlowBC.setValues:23
 #: abaqus.BoundaryCondition.PorePressureBC.PorePressureBC:42
-#: abaqus.BoundaryCondition.PorePressureBC.PorePressureBC.setValues:22
+#: abaqus.BoundaryCondition.PorePressureBC.PorePressureBC.setValues:23
 #: abaqus.BoundaryCondition.TemperatureBC.TemperatureBC:44
-#: abaqus.BoundaryCondition.TemperatureBC.TemperatureBC.setValues:24 of
+#: abaqus.BoundaryCondition.TemperatureBC.TemperatureBC.setValues:25 of
 msgid ""
 "A Boolean specifying whether the boundary condition should remain fixed at"
 " the current values at the start of the step. The default value is OFF."
@@ -2219,7 +2217,7 @@ msgstr ""
 msgid "**bc** -- An AcousticPressureBC object."
 msgstr ""
 
-#: abaqus.BoundaryCondition.AcousticPressureBC.AcousticPressureBC:46
+#: abaqus.BoundaryCondition.AcousticPressureBC.AcousticPressureBC:47
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.AcousticPressureBC:37
 #: of
 msgid ":class:`AcousticPressureBC`"
@@ -2235,7 +2233,7 @@ msgstr ""
 
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConcentrationBC:22
 #: abaqus.BoundaryCondition.ConcentrationBC.ConcentrationBC:31
-#: abaqus.BoundaryCondition.ConcentrationBC.ConcentrationBC.setValues:11 of
+#: abaqus.BoundaryCondition.ConcentrationBC.ConcentrationBC.setValues:12 of
 msgid ""
 "A Float specifying the concentration magnitude. The default value is 0. "
 "The **magnitude** argument is optional if **distributionType** = "
@@ -2253,48 +2251,48 @@ msgid ":class:`ConcentrationBC`"
 msgstr ""
 
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnAccelerationBC:1
-#: abaqus.BoundaryCondition.ConnAccelerationBC.ConnAccelerationBC:13 of
+#: abaqus.BoundaryCondition.ConnAccelerationBC.ConnAccelerationBC:14 of
 msgid ""
 "This method creates an ConnAccelerationBC object on a wire region. "
 "Alternatively, the boundary condition may also be applied to a wire set "
 "referenced from an assembled fastener template model."
 msgstr ""
 
-#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnAccelerationBC:10
-#: abaqus.BoundaryCondition.ConnAccelerationBC.ConnAccelerationBC:11 of
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnAccelerationBC:11
+#: abaqus.BoundaryCondition.ConnAccelerationBC.ConnAccelerationBC:12 of
 msgid ""
 "Check `ConnAccelerationBC on help.3ds.com/2023 <https://help.3ds.com/2023/"
 "English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "connaccelerationbcpyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnAccelerationBC:17
-#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnDisplacementBC:17
-#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnVelocityBC:17
-#: abaqus.BoundaryCondition.ConnAccelerationBC.ConnAccelerationBC:26
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnAccelerationBC:18
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnDisplacementBC:18
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnVelocityBC:18
+#: abaqus.BoundaryCondition.ConnAccelerationBC.ConnAccelerationBC:28
 #: abaqus.BoundaryCondition.ConnAccelerationBC.ConnAccelerationBC.setValues:8
-#: abaqus.BoundaryCondition.ConnDisplacementBC.ConnDisplacementBC:26
+#: abaqus.BoundaryCondition.ConnDisplacementBC.ConnDisplacementBC:28
 #: abaqus.BoundaryCondition.ConnDisplacementBC.ConnDisplacementBC.setValues:8
-#: abaqus.BoundaryCondition.ConnVelocityBC.ConnVelocityBC:26
-#: abaqus.BoundaryCondition.ConnVelocityBC.ConnVelocityBC.setValues:7 of
+#: abaqus.BoundaryCondition.ConnVelocityBC.ConnVelocityBC:27
+#: abaqus.BoundaryCondition.ConnVelocityBC.ConnVelocityBC.setValues:8 of
 msgid ""
 "The wire region to which the boundary condition is applied. This argument "
 "is not valid when **fastenerName** and **fastenerSetName** are specified."
 msgstr ""
 
 #: ../../docstring
-#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnAccelerationBC:20
-#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnDisplacementBC:20
-#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnVelocityBC:20
-#: abaqus.BoundaryCondition.ConnAccelerationBC.ConnAccelerationBC:29
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnAccelerationBC:21
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnDisplacementBC:21
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnVelocityBC:21
+#: abaqus.BoundaryCondition.ConnAccelerationBC.ConnAccelerationBC:31
 #: abaqus.BoundaryCondition.ConnAccelerationBC.ConnAccelerationBC.fastenerName:1
 #: abaqus.BoundaryCondition.ConnAccelerationBC.ConnAccelerationBC.setValues:11
-#: abaqus.BoundaryCondition.ConnDisplacementBC.ConnDisplacementBC:29
+#: abaqus.BoundaryCondition.ConnDisplacementBC.ConnDisplacementBC:31
 #: abaqus.BoundaryCondition.ConnDisplacementBC.ConnDisplacementBC.fastenerName:1
 #: abaqus.BoundaryCondition.ConnDisplacementBC.ConnDisplacementBC.setValues:11
-#: abaqus.BoundaryCondition.ConnVelocityBC.ConnVelocityBC:29
+#: abaqus.BoundaryCondition.ConnVelocityBC.ConnVelocityBC:30
 #: abaqus.BoundaryCondition.ConnVelocityBC.ConnVelocityBC.fastenerName:1
-#: abaqus.BoundaryCondition.ConnVelocityBC.ConnVelocityBC.setValues:10 of
+#: abaqus.BoundaryCondition.ConnVelocityBC.ConnVelocityBC.setValues:11 of
 msgid ""
 "A String specifying the name of the assembled fastener to which the "
 "boundary condition will be applied. This argument is not valid when "
@@ -2304,18 +2302,18 @@ msgid ""
 msgstr ""
 
 #: ../../docstring
-#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnAccelerationBC:25
-#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnDisplacementBC:25
-#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnVelocityBC:25
-#: abaqus.BoundaryCondition.ConnAccelerationBC.ConnAccelerationBC:34
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnAccelerationBC:26
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnDisplacementBC:26
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnVelocityBC:26
+#: abaqus.BoundaryCondition.ConnAccelerationBC.ConnAccelerationBC:36
 #: abaqus.BoundaryCondition.ConnAccelerationBC.ConnAccelerationBC.fastenerSetName:1
 #: abaqus.BoundaryCondition.ConnAccelerationBC.ConnAccelerationBC.setValues:16
-#: abaqus.BoundaryCondition.ConnDisplacementBC.ConnDisplacementBC:34
+#: abaqus.BoundaryCondition.ConnDisplacementBC.ConnDisplacementBC:36
 #: abaqus.BoundaryCondition.ConnDisplacementBC.ConnDisplacementBC.fastenerSetName:1
 #: abaqus.BoundaryCondition.ConnDisplacementBC.ConnDisplacementBC.setValues:16
-#: abaqus.BoundaryCondition.ConnVelocityBC.ConnVelocityBC:34
+#: abaqus.BoundaryCondition.ConnVelocityBC.ConnVelocityBC:35
 #: abaqus.BoundaryCondition.ConnVelocityBC.ConnVelocityBC.fastenerSetName:1
-#: abaqus.BoundaryCondition.ConnVelocityBC.ConnVelocityBC.setValues:15 of
+#: abaqus.BoundaryCondition.ConnVelocityBC.ConnVelocityBC.setValues:16 of
 msgid ""
 "A String specifying the assembled fastener template model set to which the"
 " boundary condition will be applied. This argument is not valid when "
@@ -2323,8 +2321,8 @@ msgid ""
 " must also be specified. The default value is an empty string."
 msgstr ""
 
-#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnAccelerationBC:30
-#: abaqus.BoundaryCondition.ConnAccelerationBC.ConnAccelerationBC:39
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnAccelerationBC:31
+#: abaqus.BoundaryCondition.ConnAccelerationBC.ConnAccelerationBC:41
 #: abaqus.BoundaryCondition.ConnAccelerationBC.ConnAccelerationBC.setValues:21
 #: of
 msgid ""
@@ -2335,8 +2333,8 @@ msgid ""
 "least one of them must be specified."
 msgstr ""
 
-#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnAccelerationBC:35
-#: abaqus.BoundaryCondition.ConnAccelerationBC.ConnAccelerationBC:44
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnAccelerationBC:36
+#: abaqus.BoundaryCondition.ConnAccelerationBC.ConnAccelerationBC:46
 #: abaqus.BoundaryCondition.ConnAccelerationBC.ConnAccelerationBC.setValues:26
 #: of
 msgid ""
@@ -2345,8 +2343,8 @@ msgid ""
 "are UNSET and SET. The default value is UNSET."
 msgstr ""
 
-#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnAccelerationBC:39
-#: abaqus.BoundaryCondition.ConnAccelerationBC.ConnAccelerationBC:48
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnAccelerationBC:40
+#: abaqus.BoundaryCondition.ConnAccelerationBC.ConnAccelerationBC:50
 #: abaqus.BoundaryCondition.ConnAccelerationBC.ConnAccelerationBC.setValues:30
 #: of
 msgid ""
@@ -2355,8 +2353,8 @@ msgid ""
 "are UNSET and SET. The default value is UNSET."
 msgstr ""
 
-#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnAccelerationBC:43
-#: abaqus.BoundaryCondition.ConnAccelerationBC.ConnAccelerationBC:52
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnAccelerationBC:44
+#: abaqus.BoundaryCondition.ConnAccelerationBC.ConnAccelerationBC:54
 #: abaqus.BoundaryCondition.ConnAccelerationBC.ConnAccelerationBC.setValues:34
 #: of
 msgid ""
@@ -2365,8 +2363,8 @@ msgid ""
 "SymbolicConstant are UNSET and SET. The default value is UNSET."
 msgstr ""
 
-#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnAccelerationBC:47
-#: abaqus.BoundaryCondition.ConnAccelerationBC.ConnAccelerationBC:56
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnAccelerationBC:48
+#: abaqus.BoundaryCondition.ConnAccelerationBC.ConnAccelerationBC:58
 #: abaqus.BoundaryCondition.ConnAccelerationBC.ConnAccelerationBC.setValues:38
 #: of
 msgid ""
@@ -2375,8 +2373,8 @@ msgid ""
 "SymbolicConstant are UNSET and SET. The default value is UNSET."
 msgstr ""
 
-#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnAccelerationBC:51
-#: abaqus.BoundaryCondition.ConnAccelerationBC.ConnAccelerationBC:60
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnAccelerationBC:52
+#: abaqus.BoundaryCondition.ConnAccelerationBC.ConnAccelerationBC:62
 #: abaqus.BoundaryCondition.ConnAccelerationBC.ConnAccelerationBC.setValues:42
 #: of
 msgid ""
@@ -2386,20 +2384,20 @@ msgid ""
 msgstr ""
 
 #: ../../docstring
-#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnAccelerationBC:60
-#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnDisplacementBC:63
-#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnVelocityBC:60
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnAccelerationBC:61
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnDisplacementBC:64
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnVelocityBC:61
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.MagneticVectorPotentialBC:35
-#: abaqus.BoundaryCondition.ConnAccelerationBC.ConnAccelerationBC:69
+#: abaqus.BoundaryCondition.ConnAccelerationBC.ConnAccelerationBC:71
 #: abaqus.BoundaryCondition.ConnAccelerationBC.ConnAccelerationBC.distributionType:1
 #: abaqus.BoundaryCondition.ConnAccelerationBC.ConnAccelerationBC.setValues:51
-#: abaqus.BoundaryCondition.ConnDisplacementBC.ConnDisplacementBC:72
+#: abaqus.BoundaryCondition.ConnDisplacementBC.ConnDisplacementBC:74
 #: abaqus.BoundaryCondition.ConnDisplacementBC.ConnDisplacementBC.distributionType:1
 #: abaqus.BoundaryCondition.ConnDisplacementBC.ConnDisplacementBC.setValues:54
-#: abaqus.BoundaryCondition.ConnVelocityBC.ConnVelocityBC:69
+#: abaqus.BoundaryCondition.ConnVelocityBC.ConnVelocityBC:70
 #: abaqus.BoundaryCondition.ConnVelocityBC.ConnVelocityBC.distributionType:1
-#: abaqus.BoundaryCondition.ConnVelocityBC.ConnVelocityBC.setValues:50
-#: abaqus.BoundaryCondition.MagneticVectorPotentialBC.MagneticVectorPotentialBC:44
+#: abaqus.BoundaryCondition.ConnVelocityBC.ConnVelocityBC.setValues:51
+#: abaqus.BoundaryCondition.MagneticVectorPotentialBC.MagneticVectorPotentialBC:45
 #: abaqus.BoundaryCondition.MagneticVectorPotentialBC.MagneticVectorPotentialBC.distributionType:1
 #: abaqus.BoundaryCondition.MagneticVectorPotentialBC.MagneticVectorPotentialBC.setValues:25
 #: of
@@ -2409,34 +2407,34 @@ msgid ""
 " is UNIFORM."
 msgstr ""
 
-#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnAccelerationBC:63
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnAccelerationBC:64
 #: of
 msgid "**bc** -- A ConnAccelerationBC object."
 msgstr ""
 
-#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnAccelerationBC:64
-#: abaqus.BoundaryCondition.ConnAccelerationBC.ConnAccelerationBC:73 of
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnAccelerationBC:65
+#: abaqus.BoundaryCondition.ConnAccelerationBC.ConnAccelerationBC:75 of
 msgid ":class:`ConnAccelerationBC`"
 msgstr ""
 
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnDisplacementBC:1
-#: abaqus.BoundaryCondition.ConnDisplacementBC.ConnDisplacementBC:13 of
+#: abaqus.BoundaryCondition.ConnDisplacementBC.ConnDisplacementBC:14 of
 msgid ""
 "This method creates a ConnDisplacementBC object on a wire region. "
 "Alternatively, the boundary condition may also be applied to a wire set "
 "referenced from an assembled fastener template model."
 msgstr ""
 
-#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnDisplacementBC:10
-#: abaqus.BoundaryCondition.ConnDisplacementBC.ConnDisplacementBC:11 of
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnDisplacementBC:11
+#: abaqus.BoundaryCondition.ConnDisplacementBC.ConnDisplacementBC:12 of
 msgid ""
 "Check `ConnDisplacementBC on help.3ds.com/2023 <https://help.3ds.com/2023/"
 "English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "conndisplacementbcpyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnDisplacementBC:30
-#: abaqus.BoundaryCondition.ConnDisplacementBC.ConnDisplacementBC:39
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnDisplacementBC:31
+#: abaqus.BoundaryCondition.ConnDisplacementBC.ConnDisplacementBC:41
 #: abaqus.BoundaryCondition.ConnDisplacementBC.ConnDisplacementBC.setValues:21
 #: of
 msgid ""
@@ -2447,8 +2445,8 @@ msgid ""
 "optional arguments, at least one of them must be specified."
 msgstr ""
 
-#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnDisplacementBC:35
-#: abaqus.BoundaryCondition.ConnDisplacementBC.ConnDisplacementBC:44
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnDisplacementBC:36
+#: abaqus.BoundaryCondition.ConnDisplacementBC.ConnDisplacementBC:46
 #: abaqus.BoundaryCondition.ConnDisplacementBC.ConnDisplacementBC.setValues:26
 #: of
 msgid ""
@@ -2457,8 +2455,8 @@ msgid ""
 "SymbolicConstant are UNSET and SET. The default value is UNSET."
 msgstr ""
 
-#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnDisplacementBC:39
-#: abaqus.BoundaryCondition.ConnDisplacementBC.ConnDisplacementBC:48
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnDisplacementBC:40
+#: abaqus.BoundaryCondition.ConnDisplacementBC.ConnDisplacementBC:50
 #: abaqus.BoundaryCondition.ConnDisplacementBC.ConnDisplacementBC.setValues:30
 #: of
 msgid ""
@@ -2467,8 +2465,8 @@ msgid ""
 "SymbolicConstant are UNSET and SET. The default value is UNSET."
 msgstr ""
 
-#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnDisplacementBC:43
-#: abaqus.BoundaryCondition.ConnDisplacementBC.ConnDisplacementBC:52
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnDisplacementBC:44
+#: abaqus.BoundaryCondition.ConnDisplacementBC.ConnDisplacementBC:54
 #: abaqus.BoundaryCondition.ConnDisplacementBC.ConnDisplacementBC.setValues:34
 #: of
 msgid ""
@@ -2477,8 +2475,8 @@ msgid ""
 "SymbolicConstant are UNSET and SET. The default value is UNSET."
 msgstr ""
 
-#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnDisplacementBC:47
-#: abaqus.BoundaryCondition.ConnDisplacementBC.ConnDisplacementBC:56
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnDisplacementBC:48
+#: abaqus.BoundaryCondition.ConnDisplacementBC.ConnDisplacementBC:58
 #: abaqus.BoundaryCondition.ConnDisplacementBC.ConnDisplacementBC.setValues:38
 #: of
 msgid ""
@@ -2487,8 +2485,8 @@ msgid ""
 "SymbolicConstant are UNSET and SET. The default value is UNSET."
 msgstr ""
 
-#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnDisplacementBC:51
-#: abaqus.BoundaryCondition.ConnDisplacementBC.ConnDisplacementBC:60
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnDisplacementBC:52
+#: abaqus.BoundaryCondition.ConnDisplacementBC.ConnDisplacementBC:62
 #: abaqus.BoundaryCondition.ConnDisplacementBC.ConnDisplacementBC.setValues:42
 #: of
 msgid ""
@@ -2498,7 +2496,7 @@ msgid ""
 msgstr ""
 
 #: ../../docstring
-#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnDisplacementBC:66
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnDisplacementBC:67
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.DisplacementBC:64
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.EncastreBC:18
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.PinnedBC:18
@@ -2508,15 +2506,15 @@ msgstr ""
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.YsymmBC:18
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ZasymmBC:18
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ZsymmBC:18
-#: abaqus.BoundaryCondition.ConnDisplacementBC.ConnDisplacementBC:75
+#: abaqus.BoundaryCondition.ConnDisplacementBC.ConnDisplacementBC:77
 #: abaqus.BoundaryCondition.ConnDisplacementBC.ConnDisplacementBC.buckleCase:1
 #: abaqus.BoundaryCondition.ConnDisplacementBC.ConnDisplacementBC.setValues:57
 #: abaqus.BoundaryCondition.ConnDisplacementBC.ConnDisplacementBC.setValuesInStep:40
-#: abaqus.BoundaryCondition.DisplacementBC.DisplacementBC:73
+#: abaqus.BoundaryCondition.DisplacementBC.DisplacementBC:74
 #: abaqus.BoundaryCondition.DisplacementBC.DisplacementBC.buckleCase:1
-#: abaqus.BoundaryCondition.DisplacementBC.DisplacementBC.setValues:53
+#: abaqus.BoundaryCondition.DisplacementBC.DisplacementBC.setValues:54
 #: abaqus.BoundaryCondition.DisplacementBC.DisplacementBC.setValuesInStep:37
-#: abaqus.BoundaryCondition.TypeBC.TypeBC:34
+#: abaqus.BoundaryCondition.TypeBC.TypeBC:35
 #: abaqus.BoundaryCondition.TypeBC.TypeBC.EncastreBC:18
 #: abaqus.BoundaryCondition.TypeBC.TypeBC.PinnedBC:18
 #: abaqus.BoundaryCondition.TypeBC.TypeBC.XasymmBC:18
@@ -2526,7 +2524,7 @@ msgstr ""
 #: abaqus.BoundaryCondition.TypeBC.TypeBC.ZasymmBC:18
 #: abaqus.BoundaryCondition.TypeBC.TypeBC.ZsymmBC:18
 #: abaqus.BoundaryCondition.TypeBC.TypeBC.buckleCase:1
-#: abaqus.BoundaryCondition.TypeBC.TypeBC.setValues:12 of
+#: abaqus.BoundaryCondition.TypeBC.TypeBC.setValues:13 of
 msgid ""
 "A SymbolicConstant specifying how the boundary condition is defined in a "
 "BUCKLE analysis. Possible values are NOT_APPLICABLE, STRESS_PERTURBATION, "
@@ -2534,13 +2532,13 @@ msgid ""
 "NOT_APPLICABLE."
 msgstr ""
 
-#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnDisplacementBC:70
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnDisplacementBC:71
 #: of
 msgid "**bc** -- A ConnDisplacementBC object."
 msgstr ""
 
-#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnDisplacementBC:71
-#: abaqus.BoundaryCondition.ConnDisplacementBC.ConnDisplacementBC:80 of
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnDisplacementBC:72
+#: abaqus.BoundaryCondition.ConnDisplacementBC.ConnDisplacementBC:82 of
 msgid ":class:`ConnDisplacementBC`"
 msgstr ""
 
@@ -2552,7 +2550,7 @@ msgid ""
 "referenced from an assembled fastener template model."
 msgstr ""
 
-#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnVelocityBC:10
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnVelocityBC:11
 #: abaqus.BoundaryCondition.ConnVelocityBC.ConnVelocityBC:11 of
 msgid ""
 "Check `ConnVelocityBC on help.3ds.com/2023 <https://help.3ds.com/2023/Engl"
@@ -2560,9 +2558,9 @@ msgid ""
 "connvelocitybcpyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnVelocityBC:30
-#: abaqus.BoundaryCondition.ConnVelocityBC.ConnVelocityBC:39
-#: abaqus.BoundaryCondition.ConnVelocityBC.ConnVelocityBC.setValues:20 of
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnVelocityBC:31
+#: abaqus.BoundaryCondition.ConnVelocityBC.ConnVelocityBC:40
+#: abaqus.BoundaryCondition.ConnVelocityBC.ConnVelocityBC.setValues:21 of
 msgid ""
 "A Float or a SymbolicConstant specifying the velocity component in the "
 "connector's local 1-direction. Possible values for the SymbolicConstant "
@@ -2571,63 +2569,63 @@ msgid ""
 "least one of them must be specified."
 msgstr ""
 
-#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnVelocityBC:35
-#: abaqus.BoundaryCondition.ConnVelocityBC.ConnVelocityBC:44
-#: abaqus.BoundaryCondition.ConnVelocityBC.ConnVelocityBC.setValues:25 of
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnVelocityBC:36
+#: abaqus.BoundaryCondition.ConnVelocityBC.ConnVelocityBC:45
+#: abaqus.BoundaryCondition.ConnVelocityBC.ConnVelocityBC.setValues:26 of
 msgid ""
 "A Float or a SymbolicConstant specifying the velocity component in the "
 "connector's local 2-direction. Possible values for the SymbolicConstant "
 "are UNSET and SET. The default value is UNSET."
 msgstr ""
 
-#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnVelocityBC:39
-#: abaqus.BoundaryCondition.ConnVelocityBC.ConnVelocityBC:48
-#: abaqus.BoundaryCondition.ConnVelocityBC.ConnVelocityBC.setValues:29 of
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnVelocityBC:40
+#: abaqus.BoundaryCondition.ConnVelocityBC.ConnVelocityBC:49
+#: abaqus.BoundaryCondition.ConnVelocityBC.ConnVelocityBC.setValues:30 of
 msgid ""
 "A Float or a SymbolicConstant specifying the velocity component in the "
 "connector's local 3-direction. Possible values for the SymbolicConstant "
 "are UNSET and SET. The default value is UNSET."
 msgstr ""
 
-#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnVelocityBC:43
-#: abaqus.BoundaryCondition.ConnVelocityBC.ConnVelocityBC:52
-#: abaqus.BoundaryCondition.ConnVelocityBC.ConnVelocityBC.setValues:33 of
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnVelocityBC:44
+#: abaqus.BoundaryCondition.ConnVelocityBC.ConnVelocityBC:53
+#: abaqus.BoundaryCondition.ConnVelocityBC.ConnVelocityBC.setValues:34 of
 msgid ""
 "A Float or a SymbolicConstant specifying the rotational velocity component"
 " in the connector's local 4-direction. Possible values for the "
 "SymbolicConstant are UNSET and SET. The default value is UNSET."
 msgstr ""
 
-#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnVelocityBC:47
-#: abaqus.BoundaryCondition.ConnVelocityBC.ConnVelocityBC:56
-#: abaqus.BoundaryCondition.ConnVelocityBC.ConnVelocityBC.setValues:37 of
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnVelocityBC:48
+#: abaqus.BoundaryCondition.ConnVelocityBC.ConnVelocityBC:57
+#: abaqus.BoundaryCondition.ConnVelocityBC.ConnVelocityBC.setValues:38 of
 msgid ""
 "A Float or a SymbolicConstant specifying the rotational velocity component"
 " in the connector's local 5-direction. Possible values for the "
 "SymbolicConstant are UNSET and SET. The default value is UNSET."
 msgstr ""
 
-#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnVelocityBC:51
-#: abaqus.BoundaryCondition.ConnVelocityBC.ConnVelocityBC:60
-#: abaqus.BoundaryCondition.ConnVelocityBC.ConnVelocityBC.setValues:41 of
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnVelocityBC:52
+#: abaqus.BoundaryCondition.ConnVelocityBC.ConnVelocityBC:61
+#: abaqus.BoundaryCondition.ConnVelocityBC.ConnVelocityBC.setValues:42 of
 msgid ""
 "A Float or a SymbolicConstant specifying the rotational velocity component"
 " in the connector's local 6-direction. Possible values for the "
 "SymbolicConstant are UNSET and SET. The default value is UNSET."
 msgstr ""
 
-#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnVelocityBC:63
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnVelocityBC:64
 #: of
 msgid "**bc** -- A ConnVelocityBC object."
 msgstr ""
 
-#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnVelocityBC:64
-#: abaqus.BoundaryCondition.ConnVelocityBC.ConnVelocityBC:73 of
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnVelocityBC:65
+#: abaqus.BoundaryCondition.ConnVelocityBC.ConnVelocityBC:74 of
 msgid ":class:`ConnVelocityBC`"
 msgstr ""
 
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.DisplacementBC:9
-#: abaqus.BoundaryCondition.DisplacementBC.DisplacementBC:11 of
+#: abaqus.BoundaryCondition.DisplacementBC.DisplacementBC:12 of
 msgid ""
 "Check `DisplacementBC on help.3ds.com/2023 <https://help.3ds.com/2023/Engl"
 "ish/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
@@ -2636,9 +2634,9 @@ msgstr ""
 
 #: ../../docstring
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.DisplacementBC:18
-#: abaqus.BoundaryCondition.DisplacementBC.DisplacementBC:27
+#: abaqus.BoundaryCondition.DisplacementBC.DisplacementBC:28
 #: abaqus.BoundaryCondition.DisplacementBC.DisplacementBC.fieldName:1
-#: abaqus.BoundaryCondition.DisplacementBC.DisplacementBC.setValues:7 of
+#: abaqus.BoundaryCondition.DisplacementBC.DisplacementBC.setValues:8 of
 msgid ""
 "A String specifying the name of the AnalyticalField or DiscreteField "
 "object associated with this boundary condition. The **fieldName** argument"
@@ -2647,8 +2645,8 @@ msgid ""
 msgstr ""
 
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.DisplacementBC:23
-#: abaqus.BoundaryCondition.DisplacementBC.DisplacementBC:32
-#: abaqus.BoundaryCondition.DisplacementBC.DisplacementBC.setValues:12 of
+#: abaqus.BoundaryCondition.DisplacementBC.DisplacementBC:33
+#: abaqus.BoundaryCondition.DisplacementBC.DisplacementBC.setValues:13 of
 msgid ""
 "A Float, a Complex, or a SymbolicConstant specifying the displacement "
 "component in the 1-direction. Possible values for the SymbolicConstant are"
@@ -2658,8 +2656,8 @@ msgid ""
 msgstr ""
 
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.DisplacementBC:28
-#: abaqus.BoundaryCondition.DisplacementBC.DisplacementBC:37
-#: abaqus.BoundaryCondition.DisplacementBC.DisplacementBC.setValues:17 of
+#: abaqus.BoundaryCondition.DisplacementBC.DisplacementBC:38
+#: abaqus.BoundaryCondition.DisplacementBC.DisplacementBC.setValues:18 of
 msgid ""
 "A Float, a Complex, or a SymbolicConstant specifying the displacement "
 "component in the 2-direction. Possible values for the SymbolicConstant are"
@@ -2667,8 +2665,8 @@ msgid ""
 msgstr ""
 
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.DisplacementBC:32
-#: abaqus.BoundaryCondition.DisplacementBC.DisplacementBC:41
-#: abaqus.BoundaryCondition.DisplacementBC.DisplacementBC.setValues:21 of
+#: abaqus.BoundaryCondition.DisplacementBC.DisplacementBC:42
+#: abaqus.BoundaryCondition.DisplacementBC.DisplacementBC.setValues:22 of
 msgid ""
 "A Float, a Complex, or a SymbolicConstant specifying the displacement "
 "component in the 3-direction. Possible values for the SymbolicConstant are"
@@ -2676,8 +2674,8 @@ msgid ""
 msgstr ""
 
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.DisplacementBC:36
-#: abaqus.BoundaryCondition.DisplacementBC.DisplacementBC:45
-#: abaqus.BoundaryCondition.DisplacementBC.DisplacementBC.setValues:25 of
+#: abaqus.BoundaryCondition.DisplacementBC.DisplacementBC:46
+#: abaqus.BoundaryCondition.DisplacementBC.DisplacementBC.setValues:26 of
 msgid ""
 "A Float, a Complex, or a SymbolicConstant specifying the rotational "
 "displacement component about the 1-direction. Possible values for the "
@@ -2685,8 +2683,8 @@ msgid ""
 msgstr ""
 
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.DisplacementBC:40
-#: abaqus.BoundaryCondition.DisplacementBC.DisplacementBC:49
-#: abaqus.BoundaryCondition.DisplacementBC.DisplacementBC.setValues:29 of
+#: abaqus.BoundaryCondition.DisplacementBC.DisplacementBC:50
+#: abaqus.BoundaryCondition.DisplacementBC.DisplacementBC.setValues:30 of
 msgid ""
 "A Float, a Complex, or a SymbolicConstant specifying the rotational "
 "displacement component about the 2-direction. Possible values for the "
@@ -2694,8 +2692,8 @@ msgid ""
 msgstr ""
 
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.DisplacementBC:44
-#: abaqus.BoundaryCondition.DisplacementBC.DisplacementBC:53
-#: abaqus.BoundaryCondition.DisplacementBC.DisplacementBC.setValues:33 of
+#: abaqus.BoundaryCondition.DisplacementBC.DisplacementBC:54
+#: abaqus.BoundaryCondition.DisplacementBC.DisplacementBC.setValues:34 of
 msgid ""
 "A Float, a Complex, or a SymbolicConstant specifying the rotational "
 "displacement component about the 3-direction. Possible values for the "
@@ -2704,9 +2702,9 @@ msgstr ""
 
 #: ../../docstring
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.DisplacementBC:56
-#: abaqus.BoundaryCondition.DisplacementBC.DisplacementBC:65
+#: abaqus.BoundaryCondition.DisplacementBC.DisplacementBC:66
 #: abaqus.BoundaryCondition.DisplacementBC.DisplacementBC.distributionType:1
-#: abaqus.BoundaryCondition.DisplacementBC.DisplacementBC.setValues:45 of
+#: abaqus.BoundaryCondition.DisplacementBC.DisplacementBC.setValues:46 of
 msgid ""
 "A SymbolicConstant specifying how the boundary condition is distributed "
 "spatially. Possible values are UNIFORM, USER_DEFINED, FIELD, and "
@@ -2719,12 +2717,12 @@ msgid "**bc** -- A DisplacementBC object"
 msgstr ""
 
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.DisplacementBC:69
-#: abaqus.BoundaryCondition.DisplacementBC.DisplacementBC:78 of
+#: abaqus.BoundaryCondition.DisplacementBC.DisplacementBC:79 of
 msgid ":class:`DisplacementBC`"
 msgstr ""
 
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.DisplacementBaseMotionBC:9
-#: abaqus.BoundaryCondition.DisplacementBaseMotionBC.DisplacementBaseMotionBC:11
+#: abaqus.BoundaryCondition.DisplacementBaseMotionBC.DisplacementBaseMotionBC:12
 #: of
 msgid ""
 "Check `DisplacementBaseMotionBC on help.3ds.com/2023 <https://help.3ds.com"
@@ -2738,13 +2736,13 @@ msgid "**bc** -- A DisplacementBaseMotionBC object."
 msgstr ""
 
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.DisplacementBaseMotionBC:38
-#: abaqus.BoundaryCondition.DisplacementBaseMotionBC.DisplacementBaseMotionBC:47
+#: abaqus.BoundaryCondition.DisplacementBaseMotionBC.DisplacementBaseMotionBC:48
 #: of
 msgid ":class:`DisplacementBaseMotionBC`"
 msgstr ""
 
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ElectricPotentialBC:9
-#: abaqus.BoundaryCondition.ElectricPotentialBC.ElectricPotentialBC:11 of
+#: abaqus.BoundaryCondition.ElectricPotentialBC.ElectricPotentialBC:12 of
 msgid ""
 "Check `ElectricPotentialBC on help.3ds.com/2023 <https://help.3ds.com/2023"
 "/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
@@ -2752,7 +2750,7 @@ msgid ""
 msgstr ""
 
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ElectricPotentialBC:22
-#: abaqus.BoundaryCondition.ElectricPotentialBC.ElectricPotentialBC:31
+#: abaqus.BoundaryCondition.ElectricPotentialBC.ElectricPotentialBC:32
 #: abaqus.BoundaryCondition.ElectricPotentialBC.ElectricPotentialBC.setValues:12
 #: of
 msgid ""
@@ -2767,7 +2765,7 @@ msgid "**bc** -- An ElectricPotentialBC object."
 msgstr ""
 
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ElectricPotentialBC:37
-#: abaqus.BoundaryCondition.ElectricPotentialBC.ElectricPotentialBC:46 of
+#: abaqus.BoundaryCondition.ElectricPotentialBC.ElectricPotentialBC:47 of
 msgid ":class:`ElectricPotentialBC`"
 msgstr ""
 
@@ -2838,8 +2836,8 @@ msgstr ""
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.EulerianBC:21
 #: abaqus.BoundaryCondition.EulerianBC.EulerianBC:30
 #: abaqus.BoundaryCondition.EulerianBC.EulerianBC.inflowType:1
-#: abaqus.BoundaryCondition.EulerianBC.EulerianBC.setValues:12
-#: abaqus.BoundaryCondition.EulerianBC.EulerianBC.setValuesInStep:12 of
+#: abaqus.BoundaryCondition.EulerianBC.EulerianBC.setValues:13
+#: abaqus.BoundaryCondition.EulerianBC.EulerianBC.setValuesInStep:13 of
 msgid ""
 "A SymbolicConstant specifying the control of material flow into the "
 "Eulerian domain. Possible values are FREE, NONE, and VOID. The default "
@@ -2867,7 +2865,7 @@ msgid ":class:`EulerianBC`"
 msgstr ""
 
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.EulerianMotionBC:9
-#: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC:11 of
+#: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC:12 of
 msgid ""
 "Check `EulerianMotionBC on help.3ds.com/2023 <https://help.3ds.com/2023/En"
 "glish/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
@@ -2876,7 +2874,7 @@ msgstr ""
 
 #: ../../docstring
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.EulerianMotionBC:16
-#: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC:25
+#: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC:26
 #: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC.instanceName:1
 #: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC.setValues:8 of
 msgid "A String specifying the name of the Eulerian part instance."
@@ -2884,7 +2882,7 @@ msgstr ""
 
 #: ../../docstring
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.EulerianMotionBC:18
-#: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC:27
+#: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC:28
 #: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC.followRegion:1
 #: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC.setValues:10 of
 msgid ""
@@ -2894,7 +2892,7 @@ msgstr ""
 
 #: ../../docstring
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.EulerianMotionBC:23
-#: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC:32
+#: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC:33
 #: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC.materialName:1
 #: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC.setValues:15 of
 msgid ""
@@ -2904,7 +2902,7 @@ msgstr ""
 
 #: ../../docstring
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.EulerianMotionBC:26
-#: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC:35
+#: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC:36
 #: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC.ctrPosition1:1
 #: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC.setValues:18
 #: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC.setValuesInStep:10
@@ -2918,7 +2916,7 @@ msgstr ""
 
 #: ../../docstring
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.EulerianMotionBC:29
-#: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC:38
+#: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC:39
 #: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC.posPosition1:1
 #: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC.setValues:21
 #: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC.setValuesInStep:13
@@ -2932,7 +2930,7 @@ msgstr ""
 
 #: ../../docstring
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.EulerianMotionBC:33
-#: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC:42
+#: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC:43
 #: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC.negPosition1:1
 #: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC.setValues:25
 #: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC.setValuesInStep:17
@@ -2946,7 +2944,7 @@ msgstr ""
 
 #: ../../docstring
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.EulerianMotionBC:37
-#: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC:46
+#: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC:47
 #: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC.expansionRatio1:1
 #: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC.setValues:29
 #: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC.setValuesInStep:21
@@ -2960,7 +2958,7 @@ msgstr ""
 
 #: ../../docstring
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.EulerianMotionBC:41
-#: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC:50
+#: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC:51
 #: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC.contractRatio1:1
 #: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC.setValues:33
 #: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC.setValuesInStep:25
@@ -2973,7 +2971,7 @@ msgstr ""
 
 #: ../../docstring
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.EulerianMotionBC:44
-#: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC:53
+#: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC:54
 #: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC.ctrPosition2:1
 #: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC.setValues:36
 #: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC.setValuesInStep:28
@@ -2987,7 +2985,7 @@ msgstr ""
 
 #: ../../docstring
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.EulerianMotionBC:47
-#: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC:56
+#: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC:57
 #: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC.posPosition2:1
 #: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC.setValues:39
 #: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC.setValuesInStep:31
@@ -3001,7 +2999,7 @@ msgstr ""
 
 #: ../../docstring
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.EulerianMotionBC:51
-#: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC:60
+#: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC:61
 #: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC.negPosition2:1
 #: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC.setValues:43
 #: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC.setValuesInStep:35
@@ -3015,7 +3013,7 @@ msgstr ""
 
 #: ../../docstring
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.EulerianMotionBC:55
-#: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC:64
+#: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC:65
 #: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC.expansionRatio2:1
 #: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC.setValues:47
 #: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC.setValuesInStep:39
@@ -3029,7 +3027,7 @@ msgstr ""
 
 #: ../../docstring
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.EulerianMotionBC:59
-#: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC:68
+#: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC:69
 #: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC.contractRatio2:1
 #: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC.setValues:51
 #: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC.setValuesInStep:43
@@ -3042,7 +3040,7 @@ msgstr ""
 
 #: ../../docstring
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.EulerianMotionBC:62
-#: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC:71
+#: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC:72
 #: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC.ctrPosition3:1
 #: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC.setValues:54
 #: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC.setValuesInStep:46
@@ -3056,7 +3054,7 @@ msgstr ""
 
 #: ../../docstring
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.EulerianMotionBC:65
-#: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC:74
+#: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC:75
 #: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC.posPosition3:1
 #: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC.setValues:57
 #: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC.setValuesInStep:49
@@ -3070,7 +3068,7 @@ msgstr ""
 
 #: ../../docstring
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.EulerianMotionBC:69
-#: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC:78
+#: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC:79
 #: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC.negPosition3:1
 #: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC.setValues:61
 #: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC.setValuesInStep:53
@@ -3084,7 +3082,7 @@ msgstr ""
 
 #: ../../docstring
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.EulerianMotionBC:73
-#: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC:82
+#: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC:83
 #: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC.expansionRatio3:1
 #: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC.setValues:65
 #: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC.setValuesInStep:57
@@ -3098,7 +3096,7 @@ msgstr ""
 
 #: ../../docstring
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.EulerianMotionBC:77
-#: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC:86
+#: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC:87
 #: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC.contractRatio3:1
 #: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC.setValues:69
 #: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC.setValuesInStep:61
@@ -3111,7 +3109,7 @@ msgstr ""
 
 #: ../../docstring
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.EulerianMotionBC:80
-#: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC:89
+#: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC:90
 #: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC.allowContraction:1
 #: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC.setValues:72
 #: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC.setValuesInStep:64
@@ -3124,7 +3122,7 @@ msgstr ""
 
 #: ../../docstring
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.EulerianMotionBC:82
-#: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC:91
+#: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC:92
 #: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC.aspectLimit:1
 #: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC.setValues:74
 #: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC.setValuesInStep:66
@@ -3137,7 +3135,7 @@ msgstr ""
 
 #: ../../docstring
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.EulerianMotionBC:85
-#: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC:94
+#: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC:95
 #: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC.setValues:77
 #: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC.setValuesInStep:69
 #: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC.vmaxFactor:1
@@ -3150,7 +3148,7 @@ msgstr ""
 
 #: ../../docstring
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.EulerianMotionBC:88
-#: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC:97
+#: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC:98
 #: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC.setValues:80
 #: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC.setValuesInStep:72
 #: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC.volThreshold:1
@@ -3165,7 +3163,7 @@ msgstr ""
 
 #: ../../docstring
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.EulerianMotionBC:92
-#: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC:101
+#: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC:102
 #: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC.bufferSize:1
 #: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC.setValues:84
 #: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC.setValuesInStep:76
@@ -3182,12 +3180,12 @@ msgid "**bc** -- An EulerianMotionBC object."
 msgstr ""
 
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.EulerianMotionBC:96
-#: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC:105 of
+#: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC:106 of
 msgid ":class:`EulerianMotionBC`"
 msgstr ""
 
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.FluidCavityPressureBC:9
-#: abaqus.BoundaryCondition.FluidCavityPressureBC.FluidCavityPressureBC:11 of
+#: abaqus.BoundaryCondition.FluidCavityPressureBC.FluidCavityPressureBC:12 of
 msgid ""
 "Check `FluidCavityPressureBC on help.3ds.com/2023 <https://help.3ds.com/20"
 "23/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
@@ -3196,14 +3194,14 @@ msgstr ""
 
 #: ../../docstring
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.FluidCavityPressureBC:16
-#: abaqus.BoundaryCondition.FluidCavityPressureBC.FluidCavityPressureBC:25
+#: abaqus.BoundaryCondition.FluidCavityPressureBC.FluidCavityPressureBC:26
 #: abaqus.BoundaryCondition.FluidCavityPressureBC.FluidCavityPressureBC.fluidCavity:1
 #: of
 msgid "A String specifying the name of a Fluid Cavity Interaction."
 msgstr ""
 
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.FluidCavityPressureBC:18
-#: abaqus.BoundaryCondition.FluidCavityPressureBC.FluidCavityPressureBC:27
+#: abaqus.BoundaryCondition.FluidCavityPressureBC.FluidCavityPressureBC:28
 #: abaqus.BoundaryCondition.FluidCavityPressureBC.FluidCavityPressureBC.setValues:8
 #: of
 msgid ""
@@ -3217,12 +3215,12 @@ msgid "**bc** -- A FluidCavityPressureBC object."
 msgstr ""
 
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.FluidCavityPressureBC:29
-#: abaqus.BoundaryCondition.FluidCavityPressureBC.FluidCavityPressureBC:38 of
+#: abaqus.BoundaryCondition.FluidCavityPressureBC.FluidCavityPressureBC:39 of
 msgid ":class:`FluidCavityPressureBC`"
 msgstr ""
 
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.MagneticVectorPotentialBC:9
-#: abaqus.BoundaryCondition.MagneticVectorPotentialBC.MagneticVectorPotentialBC:11
+#: abaqus.BoundaryCondition.MagneticVectorPotentialBC.MagneticVectorPotentialBC:12
 #: of
 msgid ""
 "Check `MagneticVectorPotentialBC on help.3ds.com/2023 <https://help.3ds.co"
@@ -3231,7 +3229,7 @@ msgid ""
 msgstr ""
 
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.MagneticVectorPotentialBC:18
-#: abaqus.BoundaryCondition.MagneticVectorPotentialBC.MagneticVectorPotentialBC:27
+#: abaqus.BoundaryCondition.MagneticVectorPotentialBC.MagneticVectorPotentialBC:28
 #: abaqus.BoundaryCondition.MagneticVectorPotentialBC.MagneticVectorPotentialBC.setValues:8
 #: of
 msgid ""
@@ -3241,7 +3239,7 @@ msgid ""
 msgstr ""
 
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.MagneticVectorPotentialBC:22
-#: abaqus.BoundaryCondition.MagneticVectorPotentialBC.MagneticVectorPotentialBC:31
+#: abaqus.BoundaryCondition.MagneticVectorPotentialBC.MagneticVectorPotentialBC:32
 #: abaqus.BoundaryCondition.MagneticVectorPotentialBC.MagneticVectorPotentialBC.setValues:12
 #: of
 msgid ""
@@ -3251,7 +3249,7 @@ msgid ""
 msgstr ""
 
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.MagneticVectorPotentialBC:26
-#: abaqus.BoundaryCondition.MagneticVectorPotentialBC.MagneticVectorPotentialBC:35
+#: abaqus.BoundaryCondition.MagneticVectorPotentialBC.MagneticVectorPotentialBC:36
 #: abaqus.BoundaryCondition.MagneticVectorPotentialBC.MagneticVectorPotentialBC.setValues:16
 #: of
 msgid ""
@@ -3266,13 +3264,13 @@ msgid "**bc** -- A MagneticVectorPotentialBC object."
 msgstr ""
 
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.MagneticVectorPotentialBC:43
-#: abaqus.BoundaryCondition.MagneticVectorPotentialBC.MagneticVectorPotentialBC:52
+#: abaqus.BoundaryCondition.MagneticVectorPotentialBC.MagneticVectorPotentialBC:53
 #: of
 msgid ":class:`MagneticVectorPotentialBC`"
 msgstr ""
 
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.MaterialFlowBC:9
-#: abaqus.BoundaryCondition.MaterialFlowBC.MaterialFlowBC:11 of
+#: abaqus.BoundaryCondition.MaterialFlowBC.MaterialFlowBC:12 of
 msgid ""
 "Check `MaterialFlowBC on help.3ds.com/2023 <https://help.3ds.com/2023/Engl"
 "ish/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
@@ -3280,8 +3278,8 @@ msgid ""
 msgstr ""
 
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.MaterialFlowBC:22
-#: abaqus.BoundaryCondition.MaterialFlowBC.MaterialFlowBC:31
-#: abaqus.BoundaryCondition.MaterialFlowBC.MaterialFlowBC.setValues:11 of
+#: abaqus.BoundaryCondition.MaterialFlowBC.MaterialFlowBC:32
+#: abaqus.BoundaryCondition.MaterialFlowBC.MaterialFlowBC.setValues:12 of
 msgid ""
 "A Float specifying the material flow magnitude. The default value is 0. "
 "The **magnitude** argument is optional if **distributionType** = "
@@ -3294,7 +3292,7 @@ msgid "**bc** -- A MaterialFlowBC object."
 msgstr ""
 
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.MaterialFlowBC:37
-#: abaqus.BoundaryCondition.MaterialFlowBC.MaterialFlowBC:46 of
+#: abaqus.BoundaryCondition.MaterialFlowBC.MaterialFlowBC:47 of
 msgid ":class:`MaterialFlowBC`"
 msgstr ""
 
@@ -3316,7 +3314,7 @@ msgstr ""
 
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.PorePressureBC:22
 #: abaqus.BoundaryCondition.PorePressureBC.PorePressureBC:31
-#: abaqus.BoundaryCondition.PorePressureBC.PorePressureBC.setValues:11 of
+#: abaqus.BoundaryCondition.PorePressureBC.PorePressureBC.setValues:12 of
 msgid ""
 "A Float specifying the pore pressure magnitude. The default value is 0. "
 "The **magnitude** argument is optional if **distributionType** = "
@@ -3334,7 +3332,7 @@ msgid ":class:`PorePressureBC`"
 msgstr ""
 
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.RetainedNodalDofsBC:9
-#: abaqus.BoundaryCondition.RetainedNodalDofsBC.RetainedNodalDofsBC:11 of
+#: abaqus.BoundaryCondition.RetainedNodalDofsBC.RetainedNodalDofsBC:12 of
 msgid ""
 "Check `RetainedNodalDofsBC on help.3ds.com/2023 <https://help.3ds.com/2023"
 "/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
@@ -3342,7 +3340,7 @@ msgid ""
 msgstr ""
 
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.RetainedNodalDofsBC:18
-#: abaqus.BoundaryCondition.RetainedNodalDofsBC.RetainedNodalDofsBC:27
+#: abaqus.BoundaryCondition.RetainedNodalDofsBC.RetainedNodalDofsBC:28
 #: abaqus.BoundaryCondition.RetainedNodalDofsBC.RetainedNodalDofsBC.setValues:8
 #: of
 msgid ""
@@ -3352,7 +3350,7 @@ msgid ""
 msgstr ""
 
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.RetainedNodalDofsBC:21
-#: abaqus.BoundaryCondition.RetainedNodalDofsBC.RetainedNodalDofsBC:30
+#: abaqus.BoundaryCondition.RetainedNodalDofsBC.RetainedNodalDofsBC:31
 #: abaqus.BoundaryCondition.RetainedNodalDofsBC.RetainedNodalDofsBC.setValues:11
 #: of
 msgid ""
@@ -3362,7 +3360,7 @@ msgid ""
 msgstr ""
 
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.RetainedNodalDofsBC:24
-#: abaqus.BoundaryCondition.RetainedNodalDofsBC.RetainedNodalDofsBC:33
+#: abaqus.BoundaryCondition.RetainedNodalDofsBC.RetainedNodalDofsBC:34
 #: abaqus.BoundaryCondition.RetainedNodalDofsBC.RetainedNodalDofsBC.setValues:14
 #: of
 msgid ""
@@ -3372,7 +3370,7 @@ msgid ""
 msgstr ""
 
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.RetainedNodalDofsBC:27
-#: abaqus.BoundaryCondition.RetainedNodalDofsBC.RetainedNodalDofsBC:36
+#: abaqus.BoundaryCondition.RetainedNodalDofsBC.RetainedNodalDofsBC:37
 #: abaqus.BoundaryCondition.RetainedNodalDofsBC.RetainedNodalDofsBC.setValues:17
 #: of
 msgid ""
@@ -3382,7 +3380,7 @@ msgid ""
 msgstr ""
 
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.RetainedNodalDofsBC:31
-#: abaqus.BoundaryCondition.RetainedNodalDofsBC.RetainedNodalDofsBC:40
+#: abaqus.BoundaryCondition.RetainedNodalDofsBC.RetainedNodalDofsBC:41
 #: abaqus.BoundaryCondition.RetainedNodalDofsBC.RetainedNodalDofsBC.setValues:21
 #: of
 msgid ""
@@ -3392,7 +3390,7 @@ msgid ""
 msgstr ""
 
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.RetainedNodalDofsBC:35
-#: abaqus.BoundaryCondition.RetainedNodalDofsBC.RetainedNodalDofsBC:44
+#: abaqus.BoundaryCondition.RetainedNodalDofsBC.RetainedNodalDofsBC:45
 #: abaqus.BoundaryCondition.RetainedNodalDofsBC.RetainedNodalDofsBC.setValues:25
 #: of
 msgid ""
@@ -3407,7 +3405,7 @@ msgid "**bc** -- A RetainedNodalDofsBC object."
 msgstr ""
 
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.RetainedNodalDofsBC:40
-#: abaqus.BoundaryCondition.RetainedNodalDofsBC.RetainedNodalDofsBC:49 of
+#: abaqus.BoundaryCondition.RetainedNodalDofsBC.RetainedNodalDofsBC:50 of
 msgid ":class:`RetainedNodalDofsBC`"
 msgstr ""
 
@@ -3456,7 +3454,7 @@ msgstr ""
 
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.SubmodelBC:18
 #: abaqus.BoundaryCondition.SubmodelBC.SubmodelBC:27
-#: abaqus.BoundaryCondition.TemperatureBC.TemperatureBC.setValuesInStep:11 of
+#: abaqus.BoundaryCondition.TemperatureBC.TemperatureBC.setValuesInStep:12 of
 msgid ""
 "A sequence of Ints specifying the degrees of freedom to which the boundary"
 " condition is applied."
@@ -3495,7 +3493,7 @@ msgstr ""
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.SubmodelBC:33
 #: abaqus.BoundaryCondition.SubmodelBC.SubmodelBC:42
 #: abaqus.BoundaryCondition.SubmodelBC.SubmodelBC.globalDrivingRegion:1
-#: abaqus.BoundaryCondition.SubmodelBC.SubmodelBC.setValues:7 of
+#: abaqus.BoundaryCondition.SubmodelBC.SubmodelBC.setValues:8 of
 msgid ""
 "A String specifying the element set in the global model that will be "
 "searched for elements whose responses will be used to drive the submodel. "
@@ -3507,7 +3505,7 @@ msgstr ""
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.SubmodelBC:37
 #: abaqus.BoundaryCondition.SubmodelBC.SubmodelBC:46
 #: abaqus.BoundaryCondition.SubmodelBC.SubmodelBC.absoluteExteriorTolerance:1
-#: abaqus.BoundaryCondition.SubmodelBC.SubmodelBC.setValues:11 of
+#: abaqus.BoundaryCondition.SubmodelBC.SubmodelBC.setValues:12 of
 msgid ""
 "None or a Float specifying the absolute value by which a driven node of "
 "the submodel can lie outside the region of the elements of the global "
@@ -3518,7 +3516,7 @@ msgstr ""
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.SubmodelBC:40
 #: abaqus.BoundaryCondition.SubmodelBC.SubmodelBC:49
 #: abaqus.BoundaryCondition.SubmodelBC.SubmodelBC.exteriorTolerance:1
-#: abaqus.BoundaryCondition.SubmodelBC.SubmodelBC.setValues:14 of
+#: abaqus.BoundaryCondition.SubmodelBC.SubmodelBC.setValues:15 of
 msgid ""
 "None or a Float specifying the fraction of the average element size in the"
 " global model by which a driven node of the submodel can lie outside the "
@@ -3527,7 +3525,7 @@ msgstr ""
 
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.SubmodelBC:48
 #: abaqus.BoundaryCondition.SubmodelBC.SubmodelBC:57
-#: abaqus.BoundaryCondition.SubmodelBC.SubmodelBC.setValues:22 of
+#: abaqus.BoundaryCondition.SubmodelBC.SubmodelBC.setValues:23 of
 msgid ""
 "An Int specifying the increment number in the global model step from which"
 " the solution will be used to specify the values of the driven variables. "
@@ -3538,7 +3536,7 @@ msgstr ""
 
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.SubmodelBC:53
 #: abaqus.BoundaryCondition.SubmodelBC.SubmodelBC:62
-#: abaqus.BoundaryCondition.SubmodelBC.SubmodelBC.setValues:27 of
+#: abaqus.BoundaryCondition.SubmodelBC.SubmodelBC.setValues:28 of
 msgid ""
 "A Float specifying the thickness of the center zone size around the shell "
 "midsurface. The default value is None."
@@ -3586,14 +3584,14 @@ msgstr ""
 
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.TemperatureBC:22
 #: abaqus.BoundaryCondition.TemperatureBC.TemperatureBC:31
-#: abaqus.BoundaryCondition.TemperatureBC.TemperatureBC.setValues:11 of
+#: abaqus.BoundaryCondition.TemperatureBC.TemperatureBC.setValues:12 of
 msgid ""
 "A Float specifying the temperature magnitude. The default value is 0."
 msgstr ""
 
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.TemperatureBC:24
 #: abaqus.BoundaryCondition.TemperatureBC.TemperatureBC:33
-#: abaqus.BoundaryCondition.TemperatureBC.TemperatureBC.setValues:13 of
+#: abaqus.BoundaryCondition.TemperatureBC.TemperatureBC.setValues:14 of
 msgid ""
 "A sequence of Ints specifying the degrees of freedom to which the boundary"
 " condition is applied. The default value is (11,)."
@@ -3619,7 +3617,7 @@ msgstr ""
 
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.VelocityBC:22
 #: abaqus.BoundaryCondition.VelocityBC.VelocityBC:31
-#: abaqus.BoundaryCondition.VelocityBC.VelocityBC.setValues:11 of
+#: abaqus.BoundaryCondition.VelocityBC.VelocityBC.setValues:12 of
 msgid ""
 "A Float or a SymbolicConstant specifying the velocity component in the "
 "1-direction. Possible values for the SymbolicConstant are UNSET and SET. "
@@ -3630,7 +3628,7 @@ msgstr ""
 
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.VelocityBC:27
 #: abaqus.BoundaryCondition.VelocityBC.VelocityBC:36
-#: abaqus.BoundaryCondition.VelocityBC.VelocityBC.setValues:16 of
+#: abaqus.BoundaryCondition.VelocityBC.VelocityBC.setValues:17 of
 msgid ""
 "A Float or a SymbolicConstant specifying the velocity component in the "
 "2-direction. Possible values for the SymbolicConstant are UNSET and SET. "
@@ -3639,7 +3637,7 @@ msgstr ""
 
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.VelocityBC:30
 #: abaqus.BoundaryCondition.VelocityBC.VelocityBC:39
-#: abaqus.BoundaryCondition.VelocityBC.VelocityBC.setValues:19 of
+#: abaqus.BoundaryCondition.VelocityBC.VelocityBC.setValues:20 of
 msgid ""
 "A Float or a SymbolicConstant specifying the velocity component in the "
 "3-direction. Possible values for the SymbolicConstant are UNSET and SET. "
@@ -3648,7 +3646,7 @@ msgstr ""
 
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.VelocityBC:33
 #: abaqus.BoundaryCondition.VelocityBC.VelocityBC:42
-#: abaqus.BoundaryCondition.VelocityBC.VelocityBC.setValues:22 of
+#: abaqus.BoundaryCondition.VelocityBC.VelocityBC.setValues:23 of
 msgid ""
 "A Float or a SymbolicConstant specifying the rotational velocity component"
 " about the 1-direction. Possible values for the SymbolicConstant are UNSET"
@@ -3657,7 +3655,7 @@ msgstr ""
 
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.VelocityBC:37
 #: abaqus.BoundaryCondition.VelocityBC.VelocityBC:46
-#: abaqus.BoundaryCondition.VelocityBC.VelocityBC.setValues:26 of
+#: abaqus.BoundaryCondition.VelocityBC.VelocityBC.setValues:27 of
 msgid ""
 "A Float or a SymbolicConstant specifying the rotational velocity component"
 " about the 2-direction. Possible values for the SymbolicConstant are UNSET"
@@ -3666,7 +3664,7 @@ msgstr ""
 
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.VelocityBC:41
 #: abaqus.BoundaryCondition.VelocityBC.VelocityBC:50
-#: abaqus.BoundaryCondition.VelocityBC.VelocityBC.setValues:30 of
+#: abaqus.BoundaryCondition.VelocityBC.VelocityBC.setValues:31 of
 msgid ""
 "A Float or a SymbolicConstant specifying the rotational velocity component"
 " about the 3-direction. Possible values for the SymbolicConstant are UNSET"
@@ -3684,7 +3682,7 @@ msgid ":class:`VelocityBC`"
 msgstr ""
 
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.VelocityBaseMotionBC:9
-#: abaqus.BoundaryCondition.VelocityBaseMotionBC.VelocityBaseMotionBC:11 of
+#: abaqus.BoundaryCondition.VelocityBaseMotionBC.VelocityBaseMotionBC:12 of
 msgid ""
 "Check `VelocityBaseMotionBC on help.3ds.com/2023 <https://help.3ds.com/202"
 "3/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
@@ -3697,7 +3695,7 @@ msgid "**bc** -- A VelocityBaseMotionBC object."
 msgstr ""
 
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.VelocityBaseMotionBC:38
-#: abaqus.BoundaryCondition.VelocityBaseMotionBC.VelocityBaseMotionBC:47 of
+#: abaqus.BoundaryCondition.VelocityBaseMotionBC.VelocityBaseMotionBC:48 of
 msgid ":class:`VelocityBaseMotionBC`"
 msgstr ""
 
@@ -3829,7 +3827,7 @@ msgid ""
 " step where it is created."
 msgstr ""
 
-#: abaqus.BoundaryCondition.AccelerationBC.AccelerationBC.setValues:4 of
+#: abaqus.BoundaryCondition.AccelerationBC.AccelerationBC.setValues:5 of
 msgid ""
 "Check `AccelerationBC.setValues on help.3ds.com/2023 <https://help.3ds.com"
 "/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
@@ -3861,7 +3859,7 @@ msgstr ""
 #: abaqus.BoundaryCondition.DisplacementBC.DisplacementBC.setValuesInStep:8
 #: abaqus.BoundaryCondition.DisplacementBaseMotionBC.DisplacementBaseMotionBC.setValuesInStep:8
 #: abaqus.BoundaryCondition.ElectricPotentialBC.ElectricPotentialBC.setValuesInStep:8
-#: abaqus.BoundaryCondition.EulerianBC.EulerianBC.setValuesInStep:7
+#: abaqus.BoundaryCondition.EulerianBC.EulerianBC.setValuesInStep:8
 #: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC.setValuesInStep:8
 #: abaqus.BoundaryCondition.FluidCavityPressureBC.FluidCavityPressureBC.setValuesInStep:8
 #: abaqus.BoundaryCondition.MagneticVectorPotentialBC.MagneticVectorPotentialBC.setValuesInStep:8
@@ -3869,10 +3867,10 @@ msgstr ""
 #: abaqus.BoundaryCondition.PorePressureBC.PorePressureBC.setValuesInStep:8
 #: abaqus.BoundaryCondition.RetainedNodalDofsBC.RetainedNodalDofsBC.setValuesInStep:8
 #: abaqus.BoundaryCondition.SecondaryBaseBC.SecondaryBaseBC.setValuesInStep:8
-#: abaqus.BoundaryCondition.SubmodelBC.SubmodelBC.setValuesInStep:7
-#: abaqus.BoundaryCondition.TemperatureBC.TemperatureBC.setValuesInStep:7
+#: abaqus.BoundaryCondition.SubmodelBC.SubmodelBC.setValuesInStep:8
+#: abaqus.BoundaryCondition.TemperatureBC.TemperatureBC.setValuesInStep:8
 #: abaqus.BoundaryCondition.TypeBC.TypeBC.setValuesInStep:8
-#: abaqus.BoundaryCondition.VelocityBC.VelocityBC.setValuesInStep:7
+#: abaqus.BoundaryCondition.VelocityBC.VelocityBC.setValuesInStep:8
 #: abaqus.BoundaryCondition.VelocityBaseMotionBC.VelocityBaseMotionBC.setValuesInStep:8
 #: of
 msgid ""
@@ -3936,8 +3934,8 @@ msgstr ""
 #: abaqus.BoundaryCondition.MagneticVectorPotentialBC.MagneticVectorPotentialBC.setValuesInStep:19
 #: abaqus.BoundaryCondition.MaterialFlowBC.MaterialFlowBC.setValuesInStep:12
 #: abaqus.BoundaryCondition.PorePressureBC.PorePressureBC.setValuesInStep:12
-#: abaqus.BoundaryCondition.TemperatureBC.TemperatureBC.setValuesInStep:14
-#: abaqus.BoundaryCondition.VelocityBC.VelocityBC.setValuesInStep:27
+#: abaqus.BoundaryCondition.TemperatureBC.TemperatureBC.setValuesInStep:15
+#: abaqus.BoundaryCondition.VelocityBC.VelocityBC.setValuesInStep:28
 #: abaqus.BoundaryCondition.VelocityBaseMotionBC.VelocityBaseMotionBC.setValuesInStep:10
 #: of
 msgid ""
@@ -3962,7 +3960,7 @@ msgid ""
 "common to all objects derived from the BoundaryCondition."
 msgstr ""
 
-#: abaqus.BoundaryCondition.BoundaryCondition.BoundaryCondition:12 of
+#: abaqus.BoundaryCondition.BoundaryCondition.BoundaryCondition:13 of
 msgid ""
 "Check `BoundaryCondition on help.3ds.com/2023 <https://help.3ds.com/2023/E"
 "nglish/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
@@ -3975,7 +3973,7 @@ msgid ""
 "all subsequent steps."
 msgstr ""
 
-#: abaqus.BoundaryCondition.BoundaryCondition.BoundaryCondition.deactivate:4 of
+#: abaqus.BoundaryCondition.BoundaryCondition.BoundaryCondition.deactivate:5 of
 msgid ""
 "Check `BoundaryCondition.deactivate on help.3ds.com/2023 <https://help.3ds"
 ".com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
@@ -3983,7 +3981,7 @@ msgid ""
 "boundaryconditiondeactivatepyc>`__."
 msgstr ""
 
-#: abaqus.BoundaryCondition.BoundaryCondition.BoundaryCondition.deactivate:7 of
+#: abaqus.BoundaryCondition.BoundaryCondition.BoundaryCondition.deactivate:8 of
 msgid ""
 "A String specifying the name of the step in which the boundary condition "
 "is deactivated."
@@ -4100,48 +4098,48 @@ msgid ""
 "object."
 msgstr ""
 
-#: abaqus.BoundaryCondition.AccelerationBCState.AccelerationBCState:12
-#: abaqus.BoundaryCondition.AccelerationBaseMotionBCState.AccelerationBaseMotionBCState:13
-#: abaqus.BoundaryCondition.AcousticPressureBCState.AcousticPressureBCState:13
-#: abaqus.BoundaryCondition.ConcentrationBCState.ConcentrationBCState:12
-#: abaqus.BoundaryCondition.ConnAccelerationBCState.ConnAccelerationBCState:13
-#: abaqus.BoundaryCondition.ConnDisplacementBCState.ConnDisplacementBCState:13
-#: abaqus.BoundaryCondition.ConnVelocityBCState.ConnVelocityBCState:12
-#: abaqus.BoundaryCondition.DisplacementBCState.DisplacementBCState:12
-#: abaqus.BoundaryCondition.DisplacementBaseMotionBCState.DisplacementBaseMotionBCState:13
-#: abaqus.BoundaryCondition.ElectricPotentialBCState.ElectricPotentialBCState:13
-#: abaqus.BoundaryCondition.EulerianBCState.EulerianBCState:12
-#: abaqus.BoundaryCondition.EulerianMotionBCState.EulerianMotionBCState:13
-#: abaqus.BoundaryCondition.FluidCavityPressureBCState.FluidCavityPressureBCState:13
-#: abaqus.BoundaryCondition.MaterialFlowBCState.MaterialFlowBCState:13
-#: abaqus.BoundaryCondition.PorePressureBCState.PorePressureBCState:12
-#: abaqus.BoundaryCondition.SecondaryBaseBCState.SecondaryBaseBCState:12
-#: abaqus.BoundaryCondition.SubmodelBCState.SubmodelBCState:12
-#: abaqus.BoundaryCondition.TemperatureBCState.TemperatureBCState:12
-#: abaqus.BoundaryCondition.TypeBCState.TypeBCState:12
-#: abaqus.BoundaryCondition.VelocityBCState.VelocityBCState:12
-#: abaqus.BoundaryCondition.VelocityBaseMotionBCState.VelocityBaseMotionBCState:13
+#: abaqus.BoundaryCondition.AccelerationBCState.AccelerationBCState:14
+#: abaqus.BoundaryCondition.AccelerationBaseMotionBCState.AccelerationBaseMotionBCState:15
+#: abaqus.BoundaryCondition.AcousticPressureBCState.AcousticPressureBCState:14
+#: abaqus.BoundaryCondition.ConcentrationBCState.ConcentrationBCState:14
+#: abaqus.BoundaryCondition.ConnAccelerationBCState.ConnAccelerationBCState:14
+#: abaqus.BoundaryCondition.ConnDisplacementBCState.ConnDisplacementBCState:14
+#: abaqus.BoundaryCondition.ConnVelocityBCState.ConnVelocityBCState:14
+#: abaqus.BoundaryCondition.DisplacementBCState.DisplacementBCState:14
+#: abaqus.BoundaryCondition.DisplacementBaseMotionBCState.DisplacementBaseMotionBCState:15
+#: abaqus.BoundaryCondition.ElectricPotentialBCState.ElectricPotentialBCState:14
+#: abaqus.BoundaryCondition.EulerianBCState.EulerianBCState:13
+#: abaqus.BoundaryCondition.EulerianMotionBCState.EulerianMotionBCState:14
+#: abaqus.BoundaryCondition.FluidCavityPressureBCState.FluidCavityPressureBCState:14
+#: abaqus.BoundaryCondition.MaterialFlowBCState.MaterialFlowBCState:14
+#: abaqus.BoundaryCondition.PorePressureBCState.PorePressureBCState:14
+#: abaqus.BoundaryCondition.SecondaryBaseBCState.SecondaryBaseBCState:14
+#: abaqus.BoundaryCondition.SubmodelBCState.SubmodelBCState:13
+#: abaqus.BoundaryCondition.TemperatureBCState.TemperatureBCState:14
+#: abaqus.BoundaryCondition.TypeBCState.TypeBCState:13
+#: abaqus.BoundaryCondition.VelocityBCState.VelocityBCState:13
+#: abaqus.BoundaryCondition.VelocityBaseMotionBCState.VelocityBaseMotionBCState:14
 #: of
 msgid "The corresponding analysis keywords are:"
 msgstr ""
 
-#: abaqus.BoundaryCondition.AccelerationBCState.AccelerationBCState:14
-#: abaqus.BoundaryCondition.AcousticPressureBCState.AcousticPressureBCState:15
-#: abaqus.BoundaryCondition.ConcentrationBCState.ConcentrationBCState:14
-#: abaqus.BoundaryCondition.DisplacementBCState.DisplacementBCState:14
-#: abaqus.BoundaryCondition.ElectricPotentialBCState.ElectricPotentialBCState:15
-#: abaqus.BoundaryCondition.FluidCavityPressureBCState.FluidCavityPressureBCState:15
-#: abaqus.BoundaryCondition.MaterialFlowBCState.MaterialFlowBCState:15
-#: abaqus.BoundaryCondition.PorePressureBCState.PorePressureBCState:14
-#: abaqus.BoundaryCondition.SecondaryBaseBCState.SecondaryBaseBCState:14
-#: abaqus.BoundaryCondition.SubmodelBCState.SubmodelBCState:15
-#: abaqus.BoundaryCondition.TemperatureBCState.TemperatureBCState:14
-#: abaqus.BoundaryCondition.TypeBCState.TypeBCState:14
-#: abaqus.BoundaryCondition.VelocityBCState.VelocityBCState:14 of
+#: abaqus.BoundaryCondition.AccelerationBCState.AccelerationBCState:16
+#: abaqus.BoundaryCondition.AcousticPressureBCState.AcousticPressureBCState:16
+#: abaqus.BoundaryCondition.ConcentrationBCState.ConcentrationBCState:16
+#: abaqus.BoundaryCondition.DisplacementBCState.DisplacementBCState:16
+#: abaqus.BoundaryCondition.ElectricPotentialBCState.ElectricPotentialBCState:16
+#: abaqus.BoundaryCondition.FluidCavityPressureBCState.FluidCavityPressureBCState:16
+#: abaqus.BoundaryCondition.MaterialFlowBCState.MaterialFlowBCState:16
+#: abaqus.BoundaryCondition.PorePressureBCState.PorePressureBCState:16
+#: abaqus.BoundaryCondition.SecondaryBaseBCState.SecondaryBaseBCState:16
+#: abaqus.BoundaryCondition.SubmodelBCState.SubmodelBCState:16
+#: abaqus.BoundaryCondition.TemperatureBCState.TemperatureBCState:16
+#: abaqus.BoundaryCondition.TypeBCState.TypeBCState:15
+#: abaqus.BoundaryCondition.VelocityBCState.VelocityBCState:15 of
 msgid "BOUNDARY"
 msgstr ""
 
-#: abaqus.BoundaryCondition.AccelerationBCState.AccelerationBCState:17 of
+#: abaqus.BoundaryCondition.AccelerationBCState.AccelerationBCState:19 of
 msgid ""
 "Check `AccelerationBCState on help.3ds.com/2023 <https://help.3ds.com/2023"
 "/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
@@ -4658,7 +4656,7 @@ msgid ""
 "object."
 msgstr ""
 
-#: abaqus.BoundaryCondition.BoundaryConditionState.BoundaryConditionState:12 of
+#: abaqus.BoundaryCondition.BoundaryConditionState.BoundaryConditionState:13 of
 msgid ""
 "Check `BoundaryConditionState on help.3ds.com/2023 <https://help.3ds.com/2"
 "023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
@@ -4673,7 +4671,7 @@ msgid ""
 "derived from the BoundaryCondition object."
 msgstr ""
 
-#: abaqus.BoundaryCondition.AccelerationBaseMotionBC.AccelerationBaseMotionBC:46
+#: abaqus.BoundaryCondition.AccelerationBaseMotionBC.AccelerationBaseMotionBC:47
 #: of
 msgid "An AccelerationBaseMotionBC object."
 msgstr ""
@@ -4722,14 +4720,14 @@ msgid ""
 " derived from the BoundaryConditionState object."
 msgstr ""
 
-#: abaqus.BoundaryCondition.AccelerationBaseMotionBCState.AccelerationBaseMotionBCState:15
-#: abaqus.BoundaryCondition.DisplacementBaseMotionBCState.DisplacementBaseMotionBCState:15
-#: abaqus.BoundaryCondition.VelocityBaseMotionBCState.VelocityBaseMotionBCState:15
+#: abaqus.BoundaryCondition.AccelerationBaseMotionBCState.AccelerationBaseMotionBCState:17
+#: abaqus.BoundaryCondition.DisplacementBaseMotionBCState.DisplacementBaseMotionBCState:17
+#: abaqus.BoundaryCondition.VelocityBaseMotionBCState.VelocityBaseMotionBCState:16
 #: of
 msgid "BASE MOTION"
 msgstr ""
 
-#: abaqus.BoundaryCondition.AccelerationBaseMotionBCState.AccelerationBaseMotionBCState:18
+#: abaqus.BoundaryCondition.AccelerationBaseMotionBCState.AccelerationBaseMotionBCState:20
 #: of
 msgid ""
 "Check `AccelerationBaseMotionBCState on help.3ds.com/2023 <https://help.3d"
@@ -4744,7 +4742,7 @@ msgid ""
 "BoundaryCondition object."
 msgstr ""
 
-#: abaqus.BoundaryCondition.AcousticPressureBC.AcousticPressureBC:45 of
+#: abaqus.BoundaryCondition.AcousticPressureBC.AcousticPressureBC:46 of
 msgid "An AcousticPressureBC object."
 msgstr ""
 
@@ -4799,7 +4797,7 @@ msgid ""
 "BoundaryConditionState object."
 msgstr ""
 
-#: abaqus.BoundaryCondition.AcousticPressureBCState.AcousticPressureBCState:18
+#: abaqus.BoundaryCondition.AcousticPressureBCState.AcousticPressureBCState:19
 #: of
 msgid ""
 "Check `AcousticPressureBCState on help.3ds.com/2023 <https://help.3ds.com/"
@@ -4839,7 +4837,7 @@ msgid ""
 "the step where it is created."
 msgstr ""
 
-#: abaqus.BoundaryCondition.ConcentrationBC.ConcentrationBC.setValues:4 of
+#: abaqus.BoundaryCondition.ConcentrationBC.ConcentrationBC.setValues:5 of
 msgid ""
 "Check `ConcentrationBC.setValues on help.3ds.com/2023 <https://help.3ds.co"
 "m/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
@@ -4881,7 +4879,7 @@ msgid ""
 "object."
 msgstr ""
 
-#: abaqus.BoundaryCondition.ConcentrationBCState.ConcentrationBCState:17 of
+#: abaqus.BoundaryCondition.ConcentrationBCState.ConcentrationBCState:19 of
 msgid ""
 "Check `ConcentrationBCState on help.3ds.com/2023 <https://help.3ds.com/202"
 "3/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
@@ -4909,7 +4907,7 @@ msgid ""
 "BoundaryCondition object."
 msgstr ""
 
-#: abaqus.BoundaryCondition.ConnAccelerationBC.ConnAccelerationBC:72 of
+#: abaqus.BoundaryCondition.ConnAccelerationBC.ConnAccelerationBC:74 of
 msgid "A ConnAccelerationBC object."
 msgstr ""
 
@@ -5005,13 +5003,13 @@ msgid ""
 "BoundaryConditionState object."
 msgstr ""
 
-#: abaqus.BoundaryCondition.ConnAccelerationBCState.ConnAccelerationBCState:15
-#: abaqus.BoundaryCondition.ConnDisplacementBCState.ConnDisplacementBCState:15
-#: abaqus.BoundaryCondition.ConnVelocityBCState.ConnVelocityBCState:14 of
+#: abaqus.BoundaryCondition.ConnAccelerationBCState.ConnAccelerationBCState:16
+#: abaqus.BoundaryCondition.ConnDisplacementBCState.ConnDisplacementBCState:16
+#: abaqus.BoundaryCondition.ConnVelocityBCState.ConnVelocityBCState:16 of
 msgid "CONNECTOR MOTION"
 msgstr ""
 
-#: abaqus.BoundaryCondition.ConnAccelerationBCState.ConnAccelerationBCState:18
+#: abaqus.BoundaryCondition.ConnAccelerationBCState.ConnAccelerationBCState:19
 #: of
 msgid ""
 "Check `ConnAccelerationBCState on help.3ds.com/2023 <https://help.3ds.com/"
@@ -5128,7 +5126,7 @@ msgid ""
 " derived from the BoundaryCondition object."
 msgstr ""
 
-#: abaqus.BoundaryCondition.ConnDisplacementBC.ConnDisplacementBC:79 of
+#: abaqus.BoundaryCondition.ConnDisplacementBC.ConnDisplacementBC:81 of
 msgid "A ConnDisplacementBC object."
 msgstr ""
 
@@ -5224,7 +5222,7 @@ msgid ""
 " the BoundaryConditionState object."
 msgstr ""
 
-#: abaqus.BoundaryCondition.ConnDisplacementBCState.ConnDisplacementBCState:18
+#: abaqus.BoundaryCondition.ConnDisplacementBCState.ConnDisplacementBCState:19
 #: of
 msgid ""
 "Check `ConnDisplacementBCState on help.3ds.com/2023 <https://help.3ds.com/"
@@ -5341,7 +5339,7 @@ msgid ""
 "BoundaryCondition object."
 msgstr ""
 
-#: abaqus.BoundaryCondition.ConnVelocityBC.ConnVelocityBC:72 of
+#: abaqus.BoundaryCondition.ConnVelocityBC.ConnVelocityBC:73 of
 msgid "A ConnVelocityBC object."
 msgstr ""
 
@@ -5351,7 +5349,7 @@ msgid ""
 " step where it is created."
 msgstr ""
 
-#: abaqus.BoundaryCondition.ConnVelocityBC.ConnVelocityBC.setValues:4 of
+#: abaqus.BoundaryCondition.ConnVelocityBC.ConnVelocityBC.setValues:5 of
 msgid ""
 "Check `ConnVelocityBC.setValues on help.3ds.com/2023 <https://help.3ds.com"
 "/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
@@ -5426,7 +5424,7 @@ msgid ""
 "object."
 msgstr ""
 
-#: abaqus.BoundaryCondition.ConnVelocityBCState.ConnVelocityBCState:17 of
+#: abaqus.BoundaryCondition.ConnVelocityBCState.ConnVelocityBCState:19 of
 msgid ""
 "Check `ConnVelocityBCState on help.3ds.com/2023 <https://help.3ds.com/2023"
 "/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
@@ -5536,7 +5534,7 @@ msgid ""
 "BoundaryCondition object."
 msgstr ""
 
-#: abaqus.BoundaryCondition.DisplacementBC.DisplacementBC:77 of
+#: abaqus.BoundaryCondition.DisplacementBC.DisplacementBC:78 of
 msgid "A DisplacementBC object."
 msgstr ""
 
@@ -5546,7 +5544,7 @@ msgid ""
 " step where it is created."
 msgstr ""
 
-#: abaqus.BoundaryCondition.DisplacementBC.DisplacementBC.setValues:4 of
+#: abaqus.BoundaryCondition.DisplacementBC.DisplacementBC.setValues:5 of
 msgid ""
 "Check `DisplacementBC.setValues on help.3ds.com/2023 <https://help.3ds.com"
 "/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
@@ -5621,7 +5619,7 @@ msgid ""
 "object."
 msgstr ""
 
-#: abaqus.BoundaryCondition.DisplacementBCState.DisplacementBCState:17 of
+#: abaqus.BoundaryCondition.DisplacementBCState.DisplacementBCState:19 of
 msgid ""
 "Check `DisplacementBCState on help.3ds.com/2023 <https://help.3ds.com/2023"
 "/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
@@ -5732,7 +5730,7 @@ msgid ""
 "derived from the BoundaryCondition object."
 msgstr ""
 
-#: abaqus.BoundaryCondition.DisplacementBaseMotionBC.DisplacementBaseMotionBC:46
+#: abaqus.BoundaryCondition.DisplacementBaseMotionBC.DisplacementBaseMotionBC:47
 #: of
 msgid "A DisplacementBaseMotionBC object."
 msgstr ""
@@ -5781,7 +5779,7 @@ msgid ""
 " derived from the BoundaryConditionState object."
 msgstr ""
 
-#: abaqus.BoundaryCondition.DisplacementBaseMotionBCState.DisplacementBaseMotionBCState:18
+#: abaqus.BoundaryCondition.DisplacementBaseMotionBCState.DisplacementBaseMotionBCState:20
 #: of
 msgid ""
 "Check `DisplacementBaseMotionBCState on help.3ds.com/2023 <https://help.3d"
@@ -5796,7 +5794,7 @@ msgid ""
 "BoundaryCondition object."
 msgstr ""
 
-#: abaqus.BoundaryCondition.ElectricPotentialBC.ElectricPotentialBC:45 of
+#: abaqus.BoundaryCondition.ElectricPotentialBC.ElectricPotentialBC:46 of
 msgid "An ElectricPotentialBC object."
 msgstr ""
 
@@ -5851,7 +5849,7 @@ msgid ""
 "BoundaryConditionState object."
 msgstr ""
 
-#: abaqus.BoundaryCondition.ElectricPotentialBCState.ElectricPotentialBCState:18
+#: abaqus.BoundaryCondition.ElectricPotentialBCState.ElectricPotentialBCState:19
 #: of
 msgid ""
 "Check `ElectricPotentialBCState on help.3ds.com/2023 <https://help.3ds.com"
@@ -5890,15 +5888,15 @@ msgid ""
 "step where it is created."
 msgstr ""
 
-#: abaqus.BoundaryCondition.EulerianBC.EulerianBC.setValues:4 of
+#: abaqus.BoundaryCondition.EulerianBC.EulerianBC.setValues:5 of
 msgid ""
 "Check `EulerianBC.setValues on help.3ds.com/2023 <https://help.3ds.com/202"
 "3/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "eulerianbcpyc.htm?contextscope=all#simaker-eulerianbcsetvaluespyc>`__."
 msgstr ""
 
-#: ../../docstring abaqus.BoundaryCondition.EulerianBC.EulerianBC.setValues:9
-#: abaqus.BoundaryCondition.EulerianBC.EulerianBC.setValuesInStep:9
+#: ../../docstring abaqus.BoundaryCondition.EulerianBC.EulerianBC.setValues:10
+#: abaqus.BoundaryCondition.EulerianBC.EulerianBC.setValuesInStep:10
 #: abaqus.BoundaryCondition.EulerianBCState.EulerianBCState.definition:1 of
 msgid ""
 "A SymbolicConstant specifying the material flow conditions to be defined. "
@@ -5906,8 +5904,8 @@ msgid ""
 "INFLOW."
 msgstr ""
 
-#: abaqus.BoundaryCondition.EulerianBC.EulerianBC.setValues:15
-#: abaqus.BoundaryCondition.EulerianBC.EulerianBC.setValuesInStep:15 of
+#: abaqus.BoundaryCondition.EulerianBC.EulerianBC.setValues:16
+#: abaqus.BoundaryCondition.EulerianBC.EulerianBC.setValuesInStep:16 of
 msgid ""
 "A SymbolicConstant specifying the control of material flow out of the "
 "Eulerian domain. Possible values are ZERO_PRESSURE, FREE, NON_REFLECTING, "
@@ -5920,7 +5918,7 @@ msgid ""
 "object in the specified step."
 msgstr ""
 
-#: abaqus.BoundaryCondition.EulerianBC.EulerianBC.setValuesInStep:4 of
+#: abaqus.BoundaryCondition.EulerianBC.EulerianBC.setValuesInStep:5 of
 msgid ""
 "Check `EulerianBC.setValuesInStep on help.3ds.com/2023 <https://help.3ds.c"
 "om/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
@@ -5938,11 +5936,11 @@ msgid ""
 "the BoundaryConditionState object."
 msgstr ""
 
-#: abaqus.BoundaryCondition.EulerianBCState.EulerianBCState:14 of
+#: abaqus.BoundaryCondition.EulerianBCState.EulerianBCState:15 of
 msgid "EULERIAN BOUNDARY"
 msgstr ""
 
-#: abaqus.BoundaryCondition.EulerianBCState.EulerianBCState:17 of
+#: abaqus.BoundaryCondition.EulerianBCState.EulerianBCState:18 of
 msgid ""
 "Check `EulerianBCState on help.3ds.com/2023 <https://help.3ds.com/2023/Eng"
 "lish/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
@@ -5981,7 +5979,7 @@ msgid ""
 "BoundaryCondition object."
 msgstr ""
 
-#: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC:104 of
+#: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC:105 of
 msgid "An EulerianMotionBC object."
 msgstr ""
 
@@ -6026,11 +6024,11 @@ msgid ""
 "object."
 msgstr ""
 
-#: abaqus.BoundaryCondition.EulerianMotionBCState.EulerianMotionBCState:15 of
+#: abaqus.BoundaryCondition.EulerianMotionBCState.EulerianMotionBCState:16 of
 msgid "EULERIAN MESH MOTION"
 msgstr ""
 
-#: abaqus.BoundaryCondition.EulerianMotionBCState.EulerianMotionBCState:18 of
+#: abaqus.BoundaryCondition.EulerianMotionBCState.EulerianMotionBCState:19 of
 msgid ""
 "Check `EulerianMotionBCState on help.3ds.com/2023 <https://help.3ds.com/20"
 "23/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
@@ -6044,7 +6042,7 @@ msgid ""
 "from the BoundaryCondition object."
 msgstr ""
 
-#: abaqus.BoundaryCondition.FluidCavityPressureBC.FluidCavityPressureBC:37 of
+#: abaqus.BoundaryCondition.FluidCavityPressureBC.FluidCavityPressureBC:38 of
 msgid "A FluidCavityPressureBC object."
 msgstr ""
 
@@ -6099,7 +6097,7 @@ msgid ""
 "BoundaryConditionState object."
 msgstr ""
 
-#: abaqus.BoundaryCondition.FluidCavityPressureBCState.FluidCavityPressureBCState:18
+#: abaqus.BoundaryCondition.FluidCavityPressureBCState.FluidCavityPressureBCState:19
 #: of
 msgid ""
 "Check `FluidCavityPressureBCState on help.3ds.com/2023 <https://help.3ds.c"
@@ -6130,7 +6128,7 @@ msgid ""
 "derived from the BoundaryCondition object."
 msgstr ""
 
-#: abaqus.BoundaryCondition.MagneticVectorPotentialBC.MagneticVectorPotentialBC:51
+#: abaqus.BoundaryCondition.MagneticVectorPotentialBC.MagneticVectorPotentialBC:52
 #: of
 msgid "A MagneticVectorPotentialBC object."
 msgstr ""
@@ -6198,7 +6196,7 @@ msgid ""
 "BoundaryCondition object."
 msgstr ""
 
-#: abaqus.BoundaryCondition.MaterialFlowBC.MaterialFlowBC:45 of
+#: abaqus.BoundaryCondition.MaterialFlowBC.MaterialFlowBC:46 of
 msgid "A MaterialFlowBC object."
 msgstr ""
 
@@ -6208,7 +6206,7 @@ msgid ""
 " step where it is created."
 msgstr ""
 
-#: abaqus.BoundaryCondition.MaterialFlowBC.MaterialFlowBC.setValues:4 of
+#: abaqus.BoundaryCondition.MaterialFlowBC.MaterialFlowBC.setValues:5 of
 msgid ""
 "Check `MaterialFlowBC.setValues on help.3ds.com/2023 <https://help.3ds.com"
 "/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
@@ -6247,7 +6245,7 @@ msgid ""
 "object."
 msgstr ""
 
-#: abaqus.BoundaryCondition.MaterialFlowBCState.MaterialFlowBCState:18 of
+#: abaqus.BoundaryCondition.MaterialFlowBCState.MaterialFlowBCState:19 of
 msgid ""
 "Check `MaterialFlowBCState on help.3ds.com/2023 <https://help.3ds.com/2023"
 "/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
@@ -6285,7 +6283,7 @@ msgid ""
 " step where it is created."
 msgstr ""
 
-#: abaqus.BoundaryCondition.PorePressureBC.PorePressureBC.setValues:4 of
+#: abaqus.BoundaryCondition.PorePressureBC.PorePressureBC.setValues:5 of
 msgid ""
 "Check `PorePressureBC.setValues on help.3ds.com/2023 <https://help.3ds.com"
 "/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
@@ -6324,7 +6322,7 @@ msgid ""
 "object."
 msgstr ""
 
-#: abaqus.BoundaryCondition.PorePressureBCState.PorePressureBCState:17 of
+#: abaqus.BoundaryCondition.PorePressureBCState.PorePressureBCState:19 of
 msgid ""
 "Check `PorePressureBCState on help.3ds.com/2023 <https://help.3ds.com/2023"
 "/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
@@ -6352,7 +6350,7 @@ msgid ""
 "BoundaryCondition object."
 msgstr ""
 
-#: abaqus.BoundaryCondition.RetainedNodalDofsBC.RetainedNodalDofsBC:48 of
+#: abaqus.BoundaryCondition.RetainedNodalDofsBC.RetainedNodalDofsBC:49 of
 msgid "A RetainedNodalDofsBC object."
 msgstr ""
 
@@ -6480,7 +6478,7 @@ msgid ""
 "object."
 msgstr ""
 
-#: abaqus.BoundaryCondition.SecondaryBaseBCState.SecondaryBaseBCState:17 of
+#: abaqus.BoundaryCondition.SecondaryBaseBCState.SecondaryBaseBCState:19 of
 msgid ""
 "Check `SecondaryBaseBCState on help.3ds.com/2023 <https://help.3ds.com/202"
 "3/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
@@ -6503,7 +6501,7 @@ msgid ""
 "step where it is created."
 msgstr ""
 
-#: abaqus.BoundaryCondition.SubmodelBC.SubmodelBC.setValues:4 of
+#: abaqus.BoundaryCondition.SubmodelBC.SubmodelBC.setValues:5 of
 msgid ""
 "Check `SubmodelBC.setValues on help.3ds.com/2023 <https://help.3ds.com/202"
 "3/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
@@ -6516,7 +6514,7 @@ msgid ""
 "object in the specified step."
 msgstr ""
 
-#: abaqus.BoundaryCondition.SubmodelBC.SubmodelBC.setValuesInStep:4 of
+#: abaqus.BoundaryCondition.SubmodelBC.SubmodelBC.setValuesInStep:5 of
 msgid ""
 "Check `SubmodelBC.setValuesInStep on help.3ds.com/2023 <https://help.3ds.c"
 "om/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
@@ -6524,20 +6522,20 @@ msgid ""
 "submodelbcsetvaluesinsteppyc>`__."
 msgstr ""
 
-#: abaqus.BoundaryCondition.SubmodelBC.SubmodelBC.setValuesInStep:9 of
+#: abaqus.BoundaryCondition.SubmodelBC.SubmodelBC.setValuesInStep:10 of
 msgid ""
 "A Boolean specifying whether the boundary condition should remain fixed at"
 " the current values at the start of the step. The default value is ON."
 msgstr ""
 
-#: abaqus.BoundaryCondition.SubmodelBC.SubmodelBC.setValuesInStep:12 of
+#: abaqus.BoundaryCondition.SubmodelBC.SubmodelBC.setValuesInStep:13 of
 msgid ""
 "A sequence of Ints specifying the degrees of freedom to which the boundary"
 " condition is applied. The **dof** argument is applicable only if "
 "**fixed** = OFF."
 msgstr ""
 
-#: abaqus.BoundaryCondition.SubmodelBC.SubmodelBC.setValuesInStep:15 of
+#: abaqus.BoundaryCondition.SubmodelBC.SubmodelBC.setValuesInStep:16 of
 msgid ""
 "A String specifying the step in the global model from which Abaqus reads "
 "the values of the variables that will drive the submodel analysis. The "
@@ -6546,7 +6544,7 @@ msgid ""
 "**globalStep** argument is applicable only if **fixed** = OFF."
 msgstr ""
 
-#: abaqus.BoundaryCondition.SubmodelBC.SubmodelBC.setValuesInStep:20 of
+#: abaqus.BoundaryCondition.SubmodelBC.SubmodelBC.setValuesInStep:21 of
 msgid ""
 "An Int specifying the increment number in the global model step at which "
 "the solution will be used to specify the values of the driven variables. "
@@ -6555,7 +6553,7 @@ msgid ""
 "perturbation steps and if **fixed** = OFF. The default value is 0."
 msgstr ""
 
-#: abaqus.BoundaryCondition.SubmodelBC.SubmodelBC.setValuesInStep:26 of
+#: abaqus.BoundaryCondition.SubmodelBC.SubmodelBC.setValuesInStep:27 of
 msgid ""
 "A Float specifying the thickness of the center zone size around the shell "
 "midsurface. The default value is None.The **centerZoneSize** argument is "
@@ -6572,11 +6570,11 @@ msgid ""
 "the BoundaryConditionState object."
 msgstr ""
 
-#: abaqus.BoundaryCondition.SubmodelBCState.SubmodelBCState:14 of
+#: abaqus.BoundaryCondition.SubmodelBCState.SubmodelBCState:15 of
 msgid "SUBMODEL"
 msgstr ""
 
-#: abaqus.BoundaryCondition.SubmodelBCState.SubmodelBCState:18 of
+#: abaqus.BoundaryCondition.SubmodelBCState.SubmodelBCState:19 of
 msgid ""
 "Check `SubmodelBCState on help.3ds.com/2023 <https://help.3ds.com/2023/Eng"
 "lish/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
@@ -6670,7 +6668,7 @@ msgid ""
 "step where it is created."
 msgstr ""
 
-#: abaqus.BoundaryCondition.TemperatureBC.TemperatureBC.setValues:4 of
+#: abaqus.BoundaryCondition.TemperatureBC.TemperatureBC.setValues:5 of
 msgid ""
 "Check `TemperatureBC.setValues on help.3ds.com/2023 <https://help.3ds.com/"
 "2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
@@ -6684,7 +6682,7 @@ msgid ""
 "object in the specified step."
 msgstr ""
 
-#: abaqus.BoundaryCondition.TemperatureBC.TemperatureBC.setValuesInStep:4 of
+#: abaqus.BoundaryCondition.TemperatureBC.TemperatureBC.setValuesInStep:5 of
 msgid ""
 "Check `TemperatureBC.setValuesInStep on help.3ds.com/2023 <https://help.3d"
 "s.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
@@ -6692,7 +6690,7 @@ msgid ""
 "temperaturebcsetvaluesinsteppyc>`__."
 msgstr ""
 
-#: abaqus.BoundaryCondition.TemperatureBC.TemperatureBC.setValuesInStep:9 of
+#: abaqus.BoundaryCondition.TemperatureBC.TemperatureBC.setValuesInStep:10 of
 msgid ""
 "A Float or the SymbolicConstant FREED specifying the temperature "
 "magnitude."
@@ -6709,7 +6707,7 @@ msgid ""
 "object."
 msgstr ""
 
-#: abaqus.BoundaryCondition.TemperatureBCState.TemperatureBCState:17 of
+#: abaqus.BoundaryCondition.TemperatureBCState.TemperatureBCState:19 of
 msgid ""
 "Check `TemperatureBCState on help.3ds.com/2023 <https://help.3ds.com/2023/"
 "English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
@@ -6737,14 +6735,14 @@ msgid ""
 "TypeBC object is derived from the BoundaryCondition object."
 msgstr ""
 
-#: abaqus.BoundaryCondition.TypeBC.TypeBC:11 of
+#: abaqus.BoundaryCondition.TypeBC.TypeBC:12 of
 msgid ""
 "Check `TypeBC on help.3ds.com/2023 <https://help.3ds.com/2023/English/DSSI"
 "MULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "typebcpyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: abaqus.BoundaryCondition.TypeBC.TypeBC:13 of
+#: abaqus.BoundaryCondition.TypeBC.TypeBC:14 of
 msgid "This method creates an TypeBC object."
 msgstr ""
 
@@ -6754,14 +6752,14 @@ msgid ""
 "where it is created."
 msgstr ""
 
-#: abaqus.BoundaryCondition.TypeBC.TypeBC.setValues:4 of
+#: abaqus.BoundaryCondition.TypeBC.TypeBC.setValues:5 of
 msgid ""
 "Check `TypeBC.setValues on help.3ds.com/2023 <https://help.3ds.com/2023/En"
 "glish/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "typebcpyc.htm?contextscope=all#simaker-typebcsetvaluespyc>`__."
 msgstr ""
 
-#: ../../docstring abaqus.BoundaryCondition.TypeBC.TypeBC.setValues:9
+#: ../../docstring abaqus.BoundaryCondition.TypeBC.TypeBC.setValues:10
 #: abaqus.BoundaryCondition.TypeBC.TypeBC.setValuesInStep:10
 #: abaqus.BoundaryCondition.TypeBCState.TypeBCState.typeName:1 of
 msgid ""
@@ -6808,7 +6806,7 @@ msgid ""
 "step where it is created."
 msgstr ""
 
-#: abaqus.BoundaryCondition.VelocityBC.VelocityBC.setValues:4 of
+#: abaqus.BoundaryCondition.VelocityBC.VelocityBC.setValues:5 of
 msgid ""
 "Check `VelocityBC.setValues on help.3ds.com/2023 <https://help.3ds.com/202"
 "3/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
@@ -6821,7 +6819,7 @@ msgid ""
 "object in the specified step."
 msgstr ""
 
-#: abaqus.BoundaryCondition.VelocityBC.VelocityBC.setValuesInStep:4 of
+#: abaqus.BoundaryCondition.VelocityBC.VelocityBC.setValuesInStep:5 of
 msgid ""
 "Check `VelocityBC.setValuesInStep on help.3ds.com/2023 <https://help.3ds.c"
 "om/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
@@ -6829,39 +6827,39 @@ msgid ""
 "velocitybcsetvaluesinsteppyc>`__."
 msgstr ""
 
-#: abaqus.BoundaryCondition.VelocityBC.VelocityBC.setValuesInStep:9 of
+#: abaqus.BoundaryCondition.VelocityBC.VelocityBC.setValuesInStep:10 of
 msgid ""
 "A Float or a SymbolicConstant specifying the velocity component in the "
 "1-direction. Possible values for the SymbolicConstant are SET and FREED."
 msgstr ""
 
-#: abaqus.BoundaryCondition.VelocityBC.VelocityBC.setValuesInStep:12 of
+#: abaqus.BoundaryCondition.VelocityBC.VelocityBC.setValuesInStep:13 of
 msgid ""
 "A Float or a SymbolicConstant specifying the velocity component in the "
 "2-direction. Possible values for the SymbolicConstant are SET and FREED."
 msgstr ""
 
-#: abaqus.BoundaryCondition.VelocityBC.VelocityBC.setValuesInStep:15 of
+#: abaqus.BoundaryCondition.VelocityBC.VelocityBC.setValuesInStep:16 of
 msgid ""
 "A Float or a SymbolicConstant specifying the velocity component in the "
 "3-direction. Possible values for the SymbolicConstant are SET and FREED."
 msgstr ""
 
-#: abaqus.BoundaryCondition.VelocityBC.VelocityBC.setValuesInStep:18 of
+#: abaqus.BoundaryCondition.VelocityBC.VelocityBC.setValuesInStep:19 of
 msgid ""
 "A Float or a SymbolicConstant specifying the rotational velocity component"
 " about the 1-direction. Possible values for the SymbolicConstant are SET "
 "and FREED."
 msgstr ""
 
-#: abaqus.BoundaryCondition.VelocityBC.VelocityBC.setValuesInStep:21 of
+#: abaqus.BoundaryCondition.VelocityBC.VelocityBC.setValuesInStep:22 of
 msgid ""
 "A Float or a SymbolicConstant specifying the rotational velocity component"
 " about the 2-direction. Possible values for the SymbolicConstant are SET "
 "and FREED."
 msgstr ""
 
-#: abaqus.BoundaryCondition.VelocityBC.VelocityBC.setValuesInStep:24 of
+#: abaqus.BoundaryCondition.VelocityBC.VelocityBC.setValuesInStep:25 of
 msgid ""
 "A Float or a SymbolicConstant specifying the rotational velocity component"
 " about the 3-direction. Possible values for the SymbolicConstant are SET "
@@ -6878,7 +6876,7 @@ msgid ""
 "the BoundaryConditionState object."
 msgstr ""
 
-#: abaqus.BoundaryCondition.VelocityBCState.VelocityBCState:17 of
+#: abaqus.BoundaryCondition.VelocityBCState.VelocityBCState:18 of
 msgid ""
 "Check `VelocityBCState on help.3ds.com/2023 <https://help.3ds.com/2023/Eng"
 "lish/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
@@ -6976,7 +6974,7 @@ msgid ""
 "BoundaryCondition object."
 msgstr ""
 
-#: abaqus.BoundaryCondition.VelocityBaseMotionBC.VelocityBaseMotionBC:46 of
+#: abaqus.BoundaryCondition.VelocityBaseMotionBC.VelocityBaseMotionBC:47 of
 msgid "A VelocityBaseMotionBC object."
 msgstr ""
 
@@ -7024,7 +7022,7 @@ msgid ""
 "BoundaryConditionState object."
 msgstr ""
 
-#: abaqus.BoundaryCondition.VelocityBaseMotionBCState.VelocityBaseMotionBCState:18
+#: abaqus.BoundaryCondition.VelocityBaseMotionBCState.VelocityBaseMotionBCState:19
 #: of
 msgid ""
 "Check `VelocityBaseMotionBCState on help.3ds.com/2023 <https://help.3ds.co"
@@ -7042,7 +7040,7 @@ msgid ""
 "BoundaryConditionState object."
 msgstr ""
 
-#: abaqus.BoundaryCondition.TypeBCState.TypeBCState:17 of
+#: abaqus.BoundaryCondition.TypeBCState.TypeBCState:18 of
 msgid ""
 "Check `TypeBCState on help.3ds.com/2023 <https://help.3ds.com/2023/English"
 "/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"

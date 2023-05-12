@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: abqpy 2023\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-09 05:33+0000\n"
+"POT-Creation-Date: 2023-05-05 13:36+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: zh_CN\n"
@@ -66,7 +66,7 @@ msgid ""
 "Abaqus creates a Model object named `Model-1` when a session is started."
 msgstr ""
 
-#: abaqus.Model.KeywordBlock.KeywordBlock:9 abaqus.Model.Model.Model:4
+#: abaqus.Model.KeywordBlock.KeywordBlock:10 abaqus.Model.Model.Model:4
 #: abaqus.Model.ModelBase.ModelBase:4 of
 msgid "This object can be accessed by::"
 msgstr ""
@@ -93,7 +93,7 @@ msgstr ""
 
 #: abaqus.Model.Model.Model:18 abaqus.Model.ModelBase.ModelBase:18
 #: abaqus.Model.ModelBase.ModelBase.ModelFromInputFile:5
-#: abaqus.Model.ModelBase.ModelBase.ModelFromNastranFile:7
+#: abaqus.Model.ModelBase.ModelBase.ModelFromNastranFile:8
 #: abaqus.Model.ModelBase.ModelBase.ModelFromOdbFile:5 of
 msgid "This function can be accessed by::"
 msgstr ""
@@ -113,7 +113,7 @@ msgstr ""
 #: ../../None:55:<autosummary>:1 ../../docstring abaqus.Model.Model.Model:23
 #: abaqus.Model.ModelBase.ModelBase:23
 #: abaqus.Model.ModelBase.ModelBase.ModelFromInputFile:13
-#: abaqus.Model.ModelBase.ModelBase.ModelFromNastranFile:15
+#: abaqus.Model.ModelBase.ModelBase.ModelFromNastranFile:16
 #: abaqus.Model.ModelBase.ModelBase.ModelFromOdbFile:13
 #: abaqus.Model.ModelBase.ModelBase.name:1 of
 msgid "A String specifying the repository key."
@@ -198,7 +198,7 @@ msgstr ""
 
 #: abaqus.Model.Model.Model:50 abaqus.Model.ModelBase.ModelBase:50
 #: abaqus.Model.ModelBase.ModelBase.ModelFromInputFile:19
-#: abaqus.Model.ModelBase.ModelBase.ModelFromNastranFile:65
+#: abaqus.Model.ModelBase.ModelBase.ModelFromNastranFile:66
 #: abaqus.Model.ModelBase.ModelBase.ModelFromOdbFile:19 of
 msgid "A Model object."
 msgstr ""
@@ -212,7 +212,7 @@ msgstr ""
 
 #: abaqus.Model.Model.Model:51 abaqus.Model.ModelBase.ModelBase:51
 #: abaqus.Model.ModelBase.ModelBase.ModelFromInputFile:20
-#: abaqus.Model.ModelBase.ModelBase.ModelFromNastranFile:66
+#: abaqus.Model.ModelBase.ModelBase.ModelFromNastranFile:67
 #: abaqus.Model.ModelBase.ModelBase.ModelFromOdbFile:20 of
 msgid ":class:`Model`"
 msgstr ""
@@ -3216,7 +3216,7 @@ msgid ""
 "object."
 msgstr ""
 
-#: abaqus.Model.KeywordBlock.KeywordBlock:14 of
+#: abaqus.Model.KeywordBlock.KeywordBlock:15 of
 msgid ""
 "Check `KeywordBlock on help.3ds.com/2023 <https://help.3ds.com/2023/Englis"
 "h/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
@@ -3334,7 +3334,7 @@ msgid ""
 " if synchronization is necessary."
 msgstr ""
 
-#: abaqus.Model.KeywordBlock.KeywordBlock.synchVersions:8 of
+#: abaqus.Model.KeywordBlock.KeywordBlock.synchVersions:9 of
 msgid ""
 "Check `KeywordBlock.synchVersions on help.3ds.com/2023 <https://help.3ds.c"
 "om/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
@@ -3342,7 +3342,7 @@ msgid ""
 "keywordblocksynchversionspyc>`__."
 msgstr ""
 
-#: abaqus.Model.KeywordBlock.KeywordBlock.synchVersions:11 of
+#: abaqus.Model.KeywordBlock.KeywordBlock.synchVersions:12 of
 msgid ""
 "A Boolean specifying whether the nodal coordinates and element "
 "connectivities (i.e. the data lines for the *NODE and *ELEMENT keyword "
@@ -3391,14 +3391,14 @@ msgid ""
 "Translating Nastran data to Abaqus files."
 msgstr ""
 
-#: abaqus.Model.ModelBase.ModelBase.ModelFromNastranFile:12 of
+#: abaqus.Model.ModelBase.ModelBase.ModelFromNastranFile:13 of
 msgid ""
 "Check `ModelFromNastranFile on help.3ds.com/2023 <https://help.3ds.com/202"
 "3/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "modelfromnastranfilepyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: abaqus.Model.ModelBase.ModelBase.ModelFromNastranFile:17 of
+#: abaqus.Model.ModelBase.ModelBase.ModelFromNastranFile:18 of
 msgid ""
 "A String specifying the name of the Nastran input file (including the "
 ".bdf, .dat, .nas, .nastran, .blk, .bulk extension) to be read into the new"
@@ -3406,7 +3406,7 @@ msgid ""
 " it is located in another directory."
 msgstr ""
 
-#: abaqus.Model.ModelBase.ModelBase.ModelFromNastranFile:21 of
+#: abaqus.Model.ModelBase.ModelBase.ModelFromNastranFile:22 of
 msgid ""
 "A SymbolicConstant specifying the method used to create shell section. "
 "Possible values are PRESERVE_SECTION, GROUP_BY_MATERIAL, and NONE. If "
@@ -3419,27 +3419,27 @@ msgid ""
 "thickness. The default is PRESERVE_SECTION."
 msgstr ""
 
-#: abaqus.Model.ModelBase.ModelBase.ModelFromNastranFile:30 of
+#: abaqus.Model.ModelBase.ModelBase.ModelFromNastranFile:31 of
 msgid ""
 "A Boolean specifying whether the pre-integrated shell section is created "
 "in default for shell element. The default value is OFF."
 msgstr ""
 
-#: abaqus.Model.ModelBase.ModelBase.ModelFromNastranFile:33 of
+#: abaqus.Model.ModelBase.ModelBase.ModelFromNastranFile:34 of
 msgid ""
 "A Boolean specifying whether the value on the Nastran data line PARAM, "
 "WTMASS is used as a multiplier for all density, mass, and rotary inertia "
 "values created in the Abaqus input file. The default value is ON."
 msgstr ""
 
-#: abaqus.Model.ModelBase.ModelBase.ModelFromNastranFile:37 of
+#: abaqus.Model.ModelBase.ModelBase.ModelFromNastranFile:38 of
 msgid ""
 "A Boolean specifying whether each SUBCASE for linear static analyses is "
 "translated to a LOAD CASE option, and all such LOAD CASE options are "
 "grouped in a single STEP option. The default value is ON."
 msgstr ""
 
-#: abaqus.Model.ModelBase.ModelBase.ModelFromNastranFile:41 of
+#: abaqus.Model.ModelBase.ModelBase.ModelFromNastranFile:42 of
 msgid ""
 "A Boolean specifying whether to translate the beam element connectivity to"
 " newly created nodes at the offset location and rigidly coupling the new "
@@ -3451,13 +3451,13 @@ msgid ""
 "this argument is always ON."
 msgstr ""
 
-#: abaqus.Model.ModelBase.ModelBase.ModelFromNastranFile:48 of
+#: abaqus.Model.ModelBase.ModelBase.ModelFromNastranFile:49 of
 msgid ""
 "A String specifying the 2-node beam that is created from CBAR and CBEAM "
 "elements. Possible values are B31 and B33. The default is B31."
 msgstr ""
 
-#: abaqus.Model.ModelBase.ModelBase.ModelFromNastranFile:51 of
+#: abaqus.Model.ModelBase.ModelBase.ModelFromNastranFile:52 of
 msgid ""
 "A String specifying the 4-node shell that is created from CQUAD4 elements."
 " Possible values are S4 and S4R. The default is S4. If a reduced-"
@@ -3465,7 +3465,7 @@ msgid ""
 "applied automatically."
 msgstr ""
 
-#: abaqus.Model.ModelBase.ModelBase.ModelFromNastranFile:55 of
+#: abaqus.Model.ModelBase.ModelBase.ModelFromNastranFile:56 of
 msgid ""
 "A String specifying the 8-node brick that is created from CHEXA elements. "
 "Possible values are C3D8I, C3D8 and C3D8R. The default is C3D8I. If a "
@@ -3473,13 +3473,13 @@ msgid ""
 "is applied automatically."
 msgstr ""
 
-#: abaqus.Model.ModelBase.ModelBase.ModelFromNastranFile:59 of
+#: abaqus.Model.ModelBase.ModelBase.ModelFromNastranFile:60 of
 msgid ""
 "A String specifying the 10-node tetrahedron that is created from CTETRA "
 "elements. Possible values are C3D10 and C3D10M. The default is C3D10."
 msgstr ""
 
-#: abaqus.Model.ModelBase.ModelBase.ModelFromNastranFile:62 of
+#: abaqus.Model.ModelBase.ModelBase.ModelFromNastranFile:63 of
 msgid ""
 "A Boolean specifying whether to keep the generated Abaqus input file after"
 " the model is created from the Nastran input file. The default value is "

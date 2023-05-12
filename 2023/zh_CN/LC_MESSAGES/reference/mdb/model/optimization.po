@@ -1,19 +1,17 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2022, WANG Hailin
 # This file is distributed under the same license as the abqpy package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: abqpy 2023\n"
+"Project-Id-Version: abqpy \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-09 05:33+0000\n"
+"POT-Creation-Date: 2023-05-05 13:36+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: zh_CN\n"
-"Language-Team: zh_CN <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -49,28 +47,28 @@ msgstr ""
 #: abaqus.Optimization.BeadPenetrationCheck.BeadPenetrationCheck:5
 #: abaqus.Optimization.BeadPlanarSymmetry.BeadPlanarSymmetry:5
 #: abaqus.Optimization.BeadPointSymmetry.BeadPointSymmetry:5
-#: abaqus.Optimization.BeadRotationalSymmetry.BeadRotationalSymmetry:5
-#: abaqus.Optimization.BeadTask.BeadTask:4
+#: abaqus.Optimization.BeadRotationalSymmetry.BeadRotationalSymmetry:6
+#: abaqus.Optimization.BeadTask.BeadTask:5
 #: abaqus.Optimization.CombinedTermDesignResponse.CombinedTermDesignResponse:5
 #: abaqus.Optimization.DesignDirection.DesignDirection:5
 #: abaqus.Optimization.DesignResponse.DesignResponse:6
 #: abaqus.Optimization.DrillControl.DrillControl:5
 #: abaqus.Optimization.FixedRegion.FixedRegion:5
 #: abaqus.Optimization.FrozenArea.FrozenArea:5
-#: abaqus.Optimization.GeometricRestriction.GeometricRestriction:6
+#: abaqus.Optimization.GeometricRestriction.GeometricRestriction:7
 #: abaqus.Optimization.Growth.Growth:5
 #: abaqus.Optimization.LocalStopCondition.LocalStopCondition:5
 #: abaqus.Optimization.ObjectiveFunction.ObjectiveFunction:4
 #: abaqus.Optimization.OptimizationConstraint.OptimizationConstraint:5
-#: abaqus.Optimization.OptimizationObjective.OptimizationObjective:4
-#: abaqus.Optimization.OptimizationTaskBase.OptimizationTaskBase:6
+#: abaqus.Optimization.OptimizationObjective.OptimizationObjective:5
+#: abaqus.Optimization.OptimizationTaskBase.OptimizationTaskBase:7
 #: abaqus.Optimization.OptimizationTaskModel.OptimizationTaskModel:4
-#: abaqus.Optimization.PenetrationCheck.PenetrationCheck:5
+#: abaqus.Optimization.PenetrationCheck.PenetrationCheck:6
 #: abaqus.Optimization.ShapeDemoldControl.ShapeDemoldControl:5
 #: abaqus.Optimization.ShapeMemberSize.ShapeMemberSize:5
 #: abaqus.Optimization.ShapePlanarSymmetry.ShapePlanarSymmetry:5
 #: abaqus.Optimization.ShapePointSymmetry.ShapePointSymmetry:5
-#: abaqus.Optimization.ShapeRotationalSymmetry.ShapeRotationalSymmetry:5
+#: abaqus.Optimization.ShapeRotationalSymmetry.ShapeRotationalSymmetry:6
 #: abaqus.Optimization.ShapeTask.ShapeTask:5
 #: abaqus.Optimization.SingleTermDesignResponse.SingleTermDesignResponse:5
 #: abaqus.Optimization.SizingClusterAreas.SizingClusterAreas:5
@@ -79,21 +77,21 @@ msgstr ""
 #: abaqus.Optimization.SizingMemberSize.SizingMemberSize:5
 #: abaqus.Optimization.SizingPlanarSymmetry.SizingPlanarSymmetry:5
 #: abaqus.Optimization.SizingPointSymmetry.SizingPointSymmetry:5
-#: abaqus.Optimization.SizingRotationalSymmetry.SizingRotationalSymmetry:5
+#: abaqus.Optimization.SizingRotationalSymmetry.SizingRotationalSymmetry:6
 #: abaqus.Optimization.SizingTask.SizingTask:5
 #: abaqus.Optimization.SlideRegionControl.SlideRegionControl:5
 #: abaqus.Optimization.StampControl.StampControl:5
 #: abaqus.Optimization.StepOption.StepOption:4
 #: abaqus.Optimization.StopCondition.StopCondition:6
-#: abaqus.Optimization.TopologyCyclicSymmetry.TopologyCyclicSymmetry:5
-#: abaqus.Optimization.TopologyDemoldControl.TopologyDemoldControl:5
+#: abaqus.Optimization.TopologyCyclicSymmetry.TopologyCyclicSymmetry:6
+#: abaqus.Optimization.TopologyDemoldControl.TopologyDemoldControl:6
 #: abaqus.Optimization.TopologyMemberSize.TopologyMemberSize:5
-#: abaqus.Optimization.TopologyMillingControl.TopologyMillingControl:5
-#: abaqus.Optimization.TopologyOverhangControl.TopologyOverhangControl:5
-#: abaqus.Optimization.TopologyPlanarSymmetry.TopologyPlanarSymmetry:5
-#: abaqus.Optimization.TopologyPointSymmetry.TopologyPointSymmetry:5
+#: abaqus.Optimization.TopologyMillingControl.TopologyMillingControl:6
+#: abaqus.Optimization.TopologyOverhangControl.TopologyOverhangControl:6
+#: abaqus.Optimization.TopologyPlanarSymmetry.TopologyPlanarSymmetry:6
+#: abaqus.Optimization.TopologyPointSymmetry.TopologyPointSymmetry:6
 #: abaqus.Optimization.TopologyRibDesign.TopologyRibDesign:5
-#: abaqus.Optimization.TopologyRotationalSymmetry.TopologyRotationalSymmetry:5
+#: abaqus.Optimization.TopologyRotationalSymmetry.TopologyRotationalSymmetry:6
 #: abaqus.Optimization.TopologyTask.TopologyTask:5
 #: abaqus.Optimization.TurnControl.TurnControl:5 of
 msgid "This object can be accessed by::"
@@ -117,8 +115,8 @@ msgstr ""
 #: abaqus.Optimization.BeadPenetrationCheck.BeadPenetrationCheck:16
 #: abaqus.Optimization.BeadPlanarSymmetry.BeadPlanarSymmetry:16
 #: abaqus.Optimization.BeadPointSymmetry.BeadPointSymmetry:16
-#: abaqus.Optimization.BeadRotationalSymmetry.BeadRotationalSymmetry:16
-#: abaqus.Optimization.BeadTask.BeadTask:15
+#: abaqus.Optimization.BeadRotationalSymmetry.BeadRotationalSymmetry:17
+#: abaqus.Optimization.BeadTask.BeadTask:16
 #: abaqus.Optimization.CombinedTermDesignResponse.CombinedTermDesignResponse:16
 #: abaqus.Optimization.DesignDirection.DesignDirection:16
 #: abaqus.Optimization.DrillControl.DrillControl:16
@@ -173,12 +171,12 @@ msgstr ""
 #: abaqus.Optimization.OptimizationTaskModel.OptimizationTaskModel.ShapeTask:4
 #: abaqus.Optimization.OptimizationTaskModel.OptimizationTaskModel.SizingTask:4
 #: abaqus.Optimization.OptimizationTaskModel.OptimizationTaskModel.TopologyTask:4
-#: abaqus.Optimization.PenetrationCheck.PenetrationCheck:16
+#: abaqus.Optimization.PenetrationCheck.PenetrationCheck:17
 #: abaqus.Optimization.ShapeDemoldControl.ShapeDemoldControl:16
 #: abaqus.Optimization.ShapeMemberSize.ShapeMemberSize:16
 #: abaqus.Optimization.ShapePlanarSymmetry.ShapePlanarSymmetry:16
 #: abaqus.Optimization.ShapePointSymmetry.ShapePointSymmetry:16
-#: abaqus.Optimization.ShapeRotationalSymmetry.ShapeRotationalSymmetry:16
+#: abaqus.Optimization.ShapeRotationalSymmetry.ShapeRotationalSymmetry:17
 #: abaqus.Optimization.ShapeTask.ShapeTask:16
 #: abaqus.Optimization.SingleTermDesignResponse.SingleTermDesignResponse:16
 #: abaqus.Optimization.SizingClusterAreas.SizingClusterAreas:16
@@ -187,19 +185,19 @@ msgstr ""
 #: abaqus.Optimization.SizingMemberSize.SizingMemberSize:16
 #: abaqus.Optimization.SizingPlanarSymmetry.SizingPlanarSymmetry:16
 #: abaqus.Optimization.SizingPointSymmetry.SizingPointSymmetry:16
-#: abaqus.Optimization.SizingRotationalSymmetry.SizingRotationalSymmetry:16
+#: abaqus.Optimization.SizingRotationalSymmetry.SizingRotationalSymmetry:17
 #: abaqus.Optimization.SizingTask.SizingTask:16
 #: abaqus.Optimization.SlideRegionControl.SlideRegionControl:16
 #: abaqus.Optimization.StampControl.StampControl:16
-#: abaqus.Optimization.TopologyCyclicSymmetry.TopologyCyclicSymmetry:16
-#: abaqus.Optimization.TopologyDemoldControl.TopologyDemoldControl:16
+#: abaqus.Optimization.TopologyCyclicSymmetry.TopologyCyclicSymmetry:17
+#: abaqus.Optimization.TopologyDemoldControl.TopologyDemoldControl:17
 #: abaqus.Optimization.TopologyMemberSize.TopologyMemberSize:16
-#: abaqus.Optimization.TopologyMillingControl.TopologyMillingControl:19
-#: abaqus.Optimization.TopologyOverhangControl.TopologyOverhangControl:19
-#: abaqus.Optimization.TopologyPlanarSymmetry.TopologyPlanarSymmetry:16
-#: abaqus.Optimization.TopologyPointSymmetry.TopologyPointSymmetry:16
+#: abaqus.Optimization.TopologyMillingControl.TopologyMillingControl:20
+#: abaqus.Optimization.TopologyOverhangControl.TopologyOverhangControl:20
+#: abaqus.Optimization.TopologyPlanarSymmetry.TopologyPlanarSymmetry:17
+#: abaqus.Optimization.TopologyPointSymmetry.TopologyPointSymmetry:17
 #: abaqus.Optimization.TopologyRibDesign.TopologyRibDesign:20
-#: abaqus.Optimization.TopologyRotationalSymmetry.TopologyRotationalSymmetry:16
+#: abaqus.Optimization.TopologyRotationalSymmetry.TopologyRotationalSymmetry:17
 #: abaqus.Optimization.TopologyTask.TopologyTask:16
 #: abaqus.Optimization.TurnControl.TurnControl:16 of
 msgid "This function can be accessed by::"
@@ -1120,7 +1118,7 @@ msgid ""
 "askModel.BeadTask>`\\ \\(name\\[\\, abaqusSensitivities\\, ...\\]\\)"
 msgstr ""
 
-#: ../../None:6:<autosummary>:1 abaqus.Optimization.BeadTask.BeadTask:12
+#: ../../None:6:<autosummary>:1 abaqus.Optimization.BeadTask.BeadTask:13
 #: abaqus.Optimization.OptimizationTaskModel.OptimizationTaskModel.BeadTask:1
 #: of
 msgid "This method creates a BeadTask object."
@@ -1276,7 +1274,7 @@ msgstr ""
 msgid "Member Details:"
 msgstr ""
 
-#: abaqus.Optimization.BeadTask.BeadTask:10
+#: abaqus.Optimization.BeadTask.BeadTask:11
 #: abaqus.Optimization.OptimizationTaskModel.OptimizationTaskModel.BeadTask:9
 #: of
 msgid ""
@@ -1286,7 +1284,7 @@ msgid ""
 msgstr ""
 
 #: ../../None:9:<autosummary>:1 ../../docstring
-#: abaqus.Optimization.BeadTask.BeadTask:20
+#: abaqus.Optimization.BeadTask.BeadTask:21
 #: abaqus.Optimization.OptimizationTaskBase.OptimizationTaskBase.name:1
 #: abaqus.Optimization.OptimizationTaskModel.OptimizationTaskModel.BeadTask:12
 #: abaqus.Optimization.OptimizationTaskModel.OptimizationTaskModel.ShapeTask:12
@@ -1298,7 +1296,7 @@ msgstr ""
 msgid "A String specifying the optimization task repository key."
 msgstr ""
 
-#: abaqus.Optimization.BeadTask.BeadTask:22
+#: abaqus.Optimization.BeadTask.BeadTask:23
 #: abaqus.Optimization.BeadTask.BeadTask.setValues:7
 #: abaqus.Optimization.OptimizationTaskModel.OptimizationTaskModel.BeadTask:14
 #: abaqus.Optimization.OptimizationTaskModel.OptimizationTaskModel.ShapeTask:14
@@ -1315,7 +1313,7 @@ msgid ""
 "2019     The ``abaqusSensitivities`` argument was added."
 msgstr ""
 
-#: abaqus.Optimization.BeadTask.BeadTask:22
+#: abaqus.Optimization.BeadTask.BeadTask:23
 #: abaqus.Optimization.BeadTask.BeadTask.setValues:7
 #: abaqus.Optimization.OptimizationTaskModel.OptimizationTaskModel.BeadTask:14
 #: abaqus.Optimization.OptimizationTaskModel.OptimizationTaskModel.ShapeTask:14
@@ -1331,7 +1329,7 @@ msgid ""
 " and their sensitivities. The default value is True."
 msgstr ""
 
-#: abaqus.Optimization.BeadTask.BeadTask:25
+#: abaqus.Optimization.BeadTask.BeadTask:26
 #: abaqus.Optimization.BeadTask.BeadTask.setValues:10
 #: abaqus.Optimization.OptimizationTaskModel.OptimizationTaskModel.BeadTask:17
 #: abaqus.Optimization.OptimizationTaskModel.OptimizationTaskModel.ShapeTask:17
@@ -1346,7 +1344,7 @@ msgstr ""
 msgid "The ``abaqusSensitivities`` argument was added."
 msgstr ""
 
-#: ../../docstring abaqus.Optimization.BeadTask.BeadTask:28
+#: ../../docstring abaqus.Optimization.BeadTask.BeadTask:29
 #: abaqus.Optimization.BeadTask.BeadTask.setValues:13
 #: abaqus.Optimization.OptimizationTaskModel.BeadTask.algorithm:1
 #: abaqus.Optimization.OptimizationTaskModel.OptimizationTaskModel.BeadTask:20
@@ -1360,7 +1358,7 @@ msgid ""
 "default value is GENERAL_OPTIMIZATION."
 msgstr ""
 
-#: ../../docstring abaqus.Optimization.BeadTask.BeadTask:32
+#: ../../docstring abaqus.Optimization.BeadTask.BeadTask:33
 #: abaqus.Optimization.BeadTask.BeadTask.setValues:17
 #: abaqus.Optimization.OptimizationTaskModel.BeadTask.areBCRegionsFrozen:1
 #: abaqus.Optimization.OptimizationTaskModel.OptimizationTaskModel.BeadTask:24
@@ -1377,7 +1375,7 @@ msgid ""
 "from the optimization. The default value is OFF."
 msgstr ""
 
-#: ../../docstring abaqus.Optimization.BeadTask.BeadTask:35
+#: ../../docstring abaqus.Optimization.BeadTask.BeadTask:36
 #: abaqus.Optimization.BeadTask.BeadTask.setValues:20
 #: abaqus.Optimization.OptimizationTaskModel.BeadTask.beadIter:1
 #: abaqus.Optimization.OptimizationTaskModel.OptimizationTaskModel.BeadTask:27
@@ -1387,7 +1385,7 @@ msgid ""
 "1."
 msgstr ""
 
-#: ../../docstring abaqus.Optimization.BeadTask.BeadTask:37
+#: ../../docstring abaqus.Optimization.BeadTask.BeadTask:38
 #: abaqus.Optimization.BeadTask.BeadTask.setValues:22
 #: abaqus.Optimization.OptimizationTaskModel.BeadTask.beadMaxMembraneStress:1
 #: abaqus.Optimization.OptimizationTaskModel.OptimizationTaskModel.BeadTask:29
@@ -1397,7 +1395,7 @@ msgid ""
 "0.1."
 msgstr ""
 
-#: ../../docstring abaqus.Optimization.BeadTask.BeadTask:39
+#: ../../docstring abaqus.Optimization.BeadTask.BeadTask:40
 #: abaqus.Optimization.BeadTask.BeadTask.setValues:24
 #: abaqus.Optimization.OptimizationTaskModel.BeadTask.beadMinStress:1
 #: abaqus.Optimization.OptimizationTaskModel.OptimizationTaskModel.BeadTask:31
@@ -1405,7 +1403,7 @@ msgstr ""
 msgid "A float specifying minimum stress. The default value is 0.001."
 msgstr ""
 
-#: ../../docstring abaqus.Optimization.BeadTask.BeadTask:41
+#: ../../docstring abaqus.Optimization.BeadTask.BeadTask:42
 #: abaqus.Optimization.BeadTask.BeadTask.setValues:26
 #: abaqus.Optimization.OptimizationTaskModel.BeadTask.beadPerturbation:1
 #: abaqus.Optimization.OptimizationTaskModel.OptimizationTaskModel.BeadTask:33
@@ -1415,7 +1413,7 @@ msgid ""
 "0.0001."
 msgstr ""
 
-#: ../../docstring abaqus.Optimization.BeadTask.BeadTask:43
+#: ../../docstring abaqus.Optimization.BeadTask.BeadTask:44
 #: abaqus.Optimization.BeadTask.BeadTask.setValues:28
 #: abaqus.Optimization.OptimizationTaskModel.BeadTask.beadWidth:1
 #: abaqus.Optimization.OptimizationTaskModel.OptimizationTaskModel.BeadTask:35
@@ -1425,7 +1423,7 @@ msgid ""
 "specifying the bead width. The default value is DEFAULT."
 msgstr ""
 
-#: ../../docstring abaqus.Optimization.BeadTask.BeadTask:46
+#: ../../docstring abaqus.Optimization.BeadTask.BeadTask:47
 #: abaqus.Optimization.BeadTask.BeadTask.setValues:31
 #: abaqus.Optimization.OptimizationTaskModel.BeadTask.curveSmooth:1
 #: abaqus.Optimization.OptimizationTaskModel.OptimizationTaskModel.BeadTask:38
@@ -1435,7 +1433,7 @@ msgid ""
 "that normals in this area do not cross each other. The default value is 5."
 msgstr ""
 
-#: ../../docstring abaqus.Optimization.BeadTask.BeadTask:49
+#: ../../docstring abaqus.Optimization.BeadTask.BeadTask:50
 #: abaqus.Optimization.BeadTask.BeadTask.setValues:34
 #: abaqus.Optimization.OptimizationTaskModel.BeadTask.filterRadius:1
 #: abaqus.Optimization.OptimizationTaskModel.OptimizationTaskModel.BeadTask:41
@@ -1443,7 +1441,7 @@ msgstr ""
 msgid "A float specifying the filter radius. The default value is 4."
 msgstr ""
 
-#: ../../docstring abaqus.Optimization.BeadTask.BeadTask:51
+#: ../../docstring abaqus.Optimization.BeadTask.BeadTask:52
 #: abaqus.Optimization.BeadTask.BeadTask.setValues:36
 #: abaqus.Optimization.OptimizationTaskModel.BeadTask.filterRadiusBy:1
 #: abaqus.Optimization.OptimizationTaskModel.OptimizationTaskModel.BeadTask:43
@@ -1453,7 +1451,7 @@ msgid ""
 "Possible values are VALUE and REFERENCE. The default is VALUE."
 msgstr ""
 
-#: ../../docstring abaqus.Optimization.BeadTask.BeadTask:54
+#: ../../docstring abaqus.Optimization.BeadTask.BeadTask:55
 #: abaqus.Optimization.BeadTask.BeadTask.setValues:39
 #: abaqus.Optimization.OptimizationTaskModel.BeadTask.flipNormalDir:1
 #: abaqus.Optimization.OptimizationTaskModel.OptimizationTaskModel.BeadTask:46
@@ -1464,7 +1462,7 @@ msgid ""
 "value is OFF"
 msgstr ""
 
-#: ../../docstring abaqus.Optimization.BeadTask.BeadTask:57
+#: ../../docstring abaqus.Optimization.BeadTask.BeadTask:58
 #: abaqus.Optimization.BeadTask.BeadTask.setValues:42
 #: abaqus.Optimization.OptimizationTaskModel.BeadTask.frozenBoundaryConditionRegion:1
 #: abaqus.Optimization.OptimizationTaskModel.OptimizationTaskModel.BeadTask:49
@@ -1479,7 +1477,7 @@ msgid ""
 "conditions should be frozen. The default value is MODEL."
 msgstr ""
 
-#: ../../docstring abaqus.Optimization.BeadTask.BeadTask:64
+#: ../../docstring abaqus.Optimization.BeadTask.BeadTask:65
 #: abaqus.Optimization.BeadTask.BeadTask.setValues:49
 #: abaqus.Optimization.OptimizationTaskModel.BeadTask.isSensCalcOnlyOnDesignNodes:1
 #: abaqus.Optimization.OptimizationTaskModel.OptimizationTaskModel.BeadTask:56
@@ -1489,7 +1487,7 @@ msgid ""
 " nodes or the whole model. The default value is ON"
 msgstr ""
 
-#: ../../docstring abaqus.Optimization.BeadTask.BeadTask:67
+#: ../../docstring abaqus.Optimization.BeadTask.BeadTask:68
 #: abaqus.Optimization.BeadTask.BeadTask.setValues:52
 #: abaqus.Optimization.OptimizationTaskModel.BeadTask.modeTrackingRegion:1
 #: abaqus.Optimization.OptimizationTaskModel.OptimizationTaskModel.BeadTask:59
@@ -1502,7 +1500,7 @@ msgid ""
 " for mode tracking. The default value is MODEL."
 msgstr ""
 
-#: ../../docstring abaqus.Optimization.BeadTask.BeadTask:70
+#: ../../docstring abaqus.Optimization.BeadTask.BeadTask:71
 #: abaqus.Optimization.BeadTask.BeadTask.setValues:55
 #: abaqus.Optimization.OptimizationTaskModel.BeadTask.nodalMoveLimit:1
 #: abaqus.Optimization.OptimizationTaskModel.OptimizationTaskModel.BeadTask:62
@@ -1512,7 +1510,7 @@ msgid ""
 "cycle. The default value is 0.1."
 msgstr ""
 
-#: ../../docstring abaqus.Optimization.BeadTask.BeadTask:73
+#: ../../docstring abaqus.Optimization.BeadTask.BeadTask:74
 #: abaqus.Optimization.BeadTask.BeadTask.setValues:58
 #: abaqus.Optimization.OptimizationTaskModel.BeadTask.nodeSmooth:1
 #: abaqus.Optimization.OptimizationTaskModel.OptimizationTaskModel.BeadTask:65
@@ -1522,7 +1520,7 @@ msgid ""
 "specifying the node smooth. The default value is DEFAULT."
 msgstr ""
 
-#: ../../docstring abaqus.Optimization.BeadTask.BeadTask:76
+#: ../../docstring abaqus.Optimization.BeadTask.BeadTask:77
 #: abaqus.Optimization.BeadTask.BeadTask.setValues:61
 #: abaqus.Optimization.OptimizationTaskModel.BeadTask.nodeUpdateStrategy:1
 #: abaqus.Optimization.OptimizationTaskModel.OptimizationTaskModel.BeadTask:68
@@ -1533,7 +1531,7 @@ msgid ""
 "NORMAL, CONSERVATIVE, and AGGRESSIVE. The default value is CONSERVATIVE."
 msgstr ""
 
-#: ../../docstring abaqus.Optimization.BeadTask.BeadTask:80
+#: ../../docstring abaqus.Optimization.BeadTask.BeadTask:81
 #: abaqus.Optimization.BeadTask.BeadTask.setValues:65
 #: abaqus.Optimization.OptimizationTaskModel.BeadTask.numTrackedModes:1
 #: abaqus.Optimization.OptimizationTaskModel.OptimizationTaskModel.BeadTask:72
@@ -1550,7 +1548,7 @@ msgid ""
 "default value is 5."
 msgstr ""
 
-#: ../../docstring abaqus.Optimization.BeadTask.BeadTask:82
+#: ../../docstring abaqus.Optimization.BeadTask.BeadTask:83
 #: abaqus.Optimization.BeadTask.BeadTask.setValues:67
 #: abaqus.Optimization.OptimizationTaskModel.BeadTask.updateShapeBasisVectors:1
 #: abaqus.Optimization.OptimizationTaskModel.OptimizationTaskModel.BeadTask:74
@@ -1564,7 +1562,7 @@ msgid ""
 " and FIRST_CYCLE. The default value is EVERY_CYCLE."
 msgstr ""
 
-#: abaqus.Optimization.BeadTask.BeadTask:86
+#: abaqus.Optimization.BeadTask.BeadTask:87
 #: abaqus.Optimization.BeadTask.BeadTask.setValues:71
 #: abaqus.Optimization.OptimizationTaskModel.OptimizationTaskModel.BeadTask:78
 #: abaqus.Optimization.OptimizationTaskModel.OptimizationTaskModel.ShapeTask:158
@@ -1584,7 +1582,7 @@ msgid ""
 "argument was added."
 msgstr ""
 
-#: ../../docstring abaqus.Optimization.BeadTask.BeadTask:86
+#: ../../docstring abaqus.Optimization.BeadTask.BeadTask:87
 #: abaqus.Optimization.BeadTask.BeadTask.setValues:71
 #: abaqus.Optimization.OptimizationTaskModel.BeadTask.groupOperator:1
 #: abaqus.Optimization.OptimizationTaskModel.OptimizationTaskModel.BeadTask:78
@@ -1607,7 +1605,7 @@ msgid ""
 "algorithm will be used."
 msgstr ""
 
-#: abaqus.Optimization.BeadTask.BeadTask:90
+#: abaqus.Optimization.BeadTask.BeadTask:91
 #: abaqus.Optimization.BeadTask.BeadTask.setValues:75
 #: abaqus.Optimization.OptimizationTaskModel.OptimizationTaskModel.BeadTask:82
 #: abaqus.Optimization.OptimizationTaskModel.OptimizationTaskModel.ShapeTask:162
@@ -1622,13 +1620,13 @@ msgstr ""
 msgid "The ``groupOperator`` argument was added."
 msgstr ""
 
-#: abaqus.Optimization.BeadTask.BeadTask:93
+#: abaqus.Optimization.BeadTask.BeadTask:94
 #: abaqus.Optimization.OptimizationTaskModel.OptimizationTaskModel.BeadTask:85
 #: of
 msgid "A BeadTask object."
 msgstr ""
 
-#: abaqus.Optimization.BeadTask.BeadTask:94
+#: abaqus.Optimization.BeadTask.BeadTask:95
 #: abaqus.Optimization.OptimizationTaskModel.OptimizationTaskModel.BeadTask:86
 #: of
 msgid ":class:`BeadTask`"
@@ -2684,7 +2682,7 @@ msgid ""
 msgstr ""
 
 #: ../../None:42:<autosummary>:1
-#: abaqus.Optimization.BeadRotationalSymmetry.BeadRotationalSymmetry:13
+#: abaqus.Optimization.BeadRotationalSymmetry.BeadRotationalSymmetry:14
 #: abaqus.Optimization.OptimizationTask.OptimizationTask.BeadRotationalSymmetry:1
 #: of
 msgid "This method creates a BeadRotationalSymmetry object."
@@ -2760,7 +2758,7 @@ msgstr ""
 
 #: ../../None:42:<autosummary>:1
 #: abaqus.Optimization.OptimizationTask.OptimizationTask.PenetrationCheck:1
-#: abaqus.Optimization.PenetrationCheck.PenetrationCheck:13 of
+#: abaqus.Optimization.PenetrationCheck.PenetrationCheck:14 of
 msgid "This method creates a PenetrationCheck object."
 msgstr ""
 
@@ -2821,7 +2819,7 @@ msgstr ""
 
 #: ../../None:42:<autosummary>:1
 #: abaqus.Optimization.OptimizationTask.OptimizationTask.ShapeRotationalSymmetry:1
-#: abaqus.Optimization.ShapeRotationalSymmetry.ShapeRotationalSymmetry:13 of
+#: abaqus.Optimization.ShapeRotationalSymmetry.ShapeRotationalSymmetry:14 of
 msgid "This method creates a ShapeRotationalSymmetry object."
 msgstr ""
 
@@ -2907,7 +2905,7 @@ msgstr ""
 
 #: ../../None:42:<autosummary>:1
 #: abaqus.Optimization.OptimizationTask.OptimizationTask.SizingRotationalSymmetry:1
-#: abaqus.Optimization.SizingRotationalSymmetry.SizingRotationalSymmetry:13 of
+#: abaqus.Optimization.SizingRotationalSymmetry.SizingRotationalSymmetry:14 of
 msgid "This method creates a SizingRotationalSymmetry object."
 msgstr ""
 
@@ -2945,7 +2943,7 @@ msgstr ""
 
 #: ../../None:42:<autosummary>:1
 #: abaqus.Optimization.OptimizationTask.OptimizationTask.TopologyCyclicSymmetry:1
-#: abaqus.Optimization.TopologyCyclicSymmetry.TopologyCyclicSymmetry:13 of
+#: abaqus.Optimization.TopologyCyclicSymmetry.TopologyCyclicSymmetry:14 of
 msgid "This method creates a TopologyCyclicSymmetry object."
 msgstr ""
 
@@ -2958,7 +2956,7 @@ msgstr ""
 
 #: ../../None:42:<autosummary>:1
 #: abaqus.Optimization.OptimizationTask.OptimizationTask.TopologyDemoldControl:1
-#: abaqus.Optimization.TopologyDemoldControl.TopologyDemoldControl:13 of
+#: abaqus.Optimization.TopologyDemoldControl.TopologyDemoldControl:14 of
 msgid "This method creates a TopologyDemoldControl object."
 msgstr ""
 
@@ -2983,7 +2981,7 @@ msgstr ""
 
 #: ../../None:42:<autosummary>:1
 #: abaqus.Optimization.OptimizationTask.OptimizationTask.TopologyMillingControl:1
-#: abaqus.Optimization.TopologyMillingControl.TopologyMillingControl:16 of
+#: abaqus.Optimization.TopologyMillingControl.TopologyMillingControl:17 of
 msgid "This method creates a TopologyMillingControl object."
 msgstr ""
 
@@ -2996,7 +2994,7 @@ msgstr ""
 
 #: ../../None:42:<autosummary>:1
 #: abaqus.Optimization.OptimizationTask.OptimizationTask.TopologyOverhangControl:1
-#: abaqus.Optimization.TopologyOverhangControl.TopologyOverhangControl:16 of
+#: abaqus.Optimization.TopologyOverhangControl.TopologyOverhangControl:17 of
 msgid "This method creates a TopologyOverhangControl object."
 msgstr ""
 
@@ -3009,7 +3007,7 @@ msgstr ""
 
 #: ../../None:42:<autosummary>:1
 #: abaqus.Optimization.OptimizationTask.OptimizationTask.TopologyPlanarSymmetry:1
-#: abaqus.Optimization.TopologyPlanarSymmetry.TopologyPlanarSymmetry:13 of
+#: abaqus.Optimization.TopologyPlanarSymmetry.TopologyPlanarSymmetry:14 of
 msgid "This method creates a TopologyPlanarSymmetry object."
 msgstr ""
 
@@ -3022,7 +3020,7 @@ msgstr ""
 
 #: ../../None:42:<autosummary>:1
 #: abaqus.Optimization.OptimizationTask.OptimizationTask.TopologyPointSymmetry:1
-#: abaqus.Optimization.TopologyPointSymmetry.TopologyPointSymmetry:13 of
+#: abaqus.Optimization.TopologyPointSymmetry.TopologyPointSymmetry:14 of
 msgid "This method creates a TopologyPointSymmetry object."
 msgstr ""
 
@@ -3048,7 +3046,7 @@ msgstr ""
 
 #: ../../None:42:<autosummary>:1
 #: abaqus.Optimization.OptimizationTask.OptimizationTask.TopologyRotationalSymmetry:1
-#: abaqus.Optimization.TopologyRotationalSymmetry.TopologyRotationalSymmetry:13
+#: abaqus.Optimization.TopologyRotationalSymmetry.TopologyRotationalSymmetry:14
 #: of
 msgid "This method creates a TopologyRotationalSymmetry object."
 msgstr ""
@@ -3084,7 +3082,7 @@ msgstr ""
 #: abaqus.Optimization.BeadPenetrationCheck.BeadPenetrationCheck:21
 #: abaqus.Optimization.BeadPlanarSymmetry.BeadPlanarSymmetry:21
 #: abaqus.Optimization.BeadPointSymmetry.BeadPointSymmetry:21
-#: abaqus.Optimization.BeadRotationalSymmetry.BeadRotationalSymmetry:21
+#: abaqus.Optimization.BeadRotationalSymmetry.BeadRotationalSymmetry:22
 #: abaqus.Optimization.DesignDirection.DesignDirection:21
 #: abaqus.Optimization.DrillControl.DrillControl:21
 #: abaqus.Optimization.FixedRegion.FixedRegion:21
@@ -3127,30 +3125,30 @@ msgstr ""
 #: abaqus.Optimization.OptimizationTask.OptimizationTask.TopologyRibDesign:16
 #: abaqus.Optimization.OptimizationTask.OptimizationTask.TopologyRotationalSymmetry:12
 #: abaqus.Optimization.OptimizationTask.OptimizationTask.TurnControl:12
-#: abaqus.Optimization.PenetrationCheck.PenetrationCheck:21
+#: abaqus.Optimization.PenetrationCheck.PenetrationCheck:22
 #: abaqus.Optimization.ShapeDemoldControl.ShapeDemoldControl:21
 #: abaqus.Optimization.ShapeMemberSize.ShapeMemberSize:21
 #: abaqus.Optimization.ShapePlanarSymmetry.ShapePlanarSymmetry:21
 #: abaqus.Optimization.ShapePointSymmetry.ShapePointSymmetry:21
-#: abaqus.Optimization.ShapeRotationalSymmetry.ShapeRotationalSymmetry:21
+#: abaqus.Optimization.ShapeRotationalSymmetry.ShapeRotationalSymmetry:22
 #: abaqus.Optimization.SizingClusterAreas.SizingClusterAreas:21
 #: abaqus.Optimization.SizingCyclicSymmetry.SizingCyclicSymmetry:21
 #: abaqus.Optimization.SizingFrozenArea.SizingFrozenArea:21
 #: abaqus.Optimization.SizingMemberSize.SizingMemberSize:21
 #: abaqus.Optimization.SizingPlanarSymmetry.SizingPlanarSymmetry:21
 #: abaqus.Optimization.SizingPointSymmetry.SizingPointSymmetry:21
-#: abaqus.Optimization.SizingRotationalSymmetry.SizingRotationalSymmetry:21
+#: abaqus.Optimization.SizingRotationalSymmetry.SizingRotationalSymmetry:22
 #: abaqus.Optimization.SlideRegionControl.SlideRegionControl:21
 #: abaqus.Optimization.StampControl.StampControl:21
-#: abaqus.Optimization.TopologyCyclicSymmetry.TopologyCyclicSymmetry:21
-#: abaqus.Optimization.TopologyDemoldControl.TopologyDemoldControl:21
+#: abaqus.Optimization.TopologyCyclicSymmetry.TopologyCyclicSymmetry:22
+#: abaqus.Optimization.TopologyDemoldControl.TopologyDemoldControl:22
 #: abaqus.Optimization.TopologyMemberSize.TopologyMemberSize:21
-#: abaqus.Optimization.TopologyMillingControl.TopologyMillingControl:24
-#: abaqus.Optimization.TopologyOverhangControl.TopologyOverhangControl:24
-#: abaqus.Optimization.TopologyPlanarSymmetry.TopologyPlanarSymmetry:21
-#: abaqus.Optimization.TopologyPointSymmetry.TopologyPointSymmetry:21
+#: abaqus.Optimization.TopologyMillingControl.TopologyMillingControl:25
+#: abaqus.Optimization.TopologyOverhangControl.TopologyOverhangControl:25
+#: abaqus.Optimization.TopologyPlanarSymmetry.TopologyPlanarSymmetry:22
+#: abaqus.Optimization.TopologyPointSymmetry.TopologyPointSymmetry:22
 #: abaqus.Optimization.TopologyRibDesign.TopologyRibDesign:25
-#: abaqus.Optimization.TopologyRotationalSymmetry.TopologyRotationalSymmetry:21
+#: abaqus.Optimization.TopologyRotationalSymmetry.TopologyRotationalSymmetry:22
 #: abaqus.Optimization.TurnControl.GeometricRestriction.name:1
 #: abaqus.Optimization.TurnControl.TurnControl:21 of
 msgid "A String specifying the geometric restriction repository key."
@@ -3163,7 +3161,7 @@ msgstr ""
 #: abaqus.Optimization.BeadPenetrationCheck.BeadPenetrationCheck:25
 #: abaqus.Optimization.BeadPlanarSymmetry.BeadPlanarSymmetry:23
 #: abaqus.Optimization.BeadPointSymmetry.BeadPointSymmetry:23
-#: abaqus.Optimization.BeadRotationalSymmetry.BeadRotationalSymmetry:25
+#: abaqus.Optimization.BeadRotationalSymmetry.BeadRotationalSymmetry:26
 #: abaqus.Optimization.OptimizationTask.OptimizationTask.BeadFilter:18
 #: abaqus.Optimization.OptimizationTask.OptimizationTask.BeadFixedRegion:14
 #: abaqus.Optimization.OptimizationTask.OptimizationTask.BeadGrowth:14
@@ -3184,9 +3182,9 @@ msgstr ""
 #: abaqus.Optimization.SizingMemberSize.SizingMemberSize:23
 #: abaqus.Optimization.SizingPlanarSymmetry.SizingPlanarSymmetry:23
 #: abaqus.Optimization.SizingPointSymmetry.SizingPointSymmetry:23
-#: abaqus.Optimization.SizingRotationalSymmetry.SizingRotationalSymmetry:25
-#: abaqus.Optimization.TopologyMillingControl.TopologyMillingControl:29
-#: abaqus.Optimization.TopologyOverhangControl.TopologyOverhangControl:29 of
+#: abaqus.Optimization.SizingRotationalSymmetry.SizingRotationalSymmetry:26
+#: abaqus.Optimization.TopologyMillingControl.TopologyMillingControl:30
+#: abaqus.Optimization.TopologyOverhangControl.TopologyOverhangControl:30 of
 msgid ""
 "A Region object specifying the region to which the geometric restriction "
 "is applied."
@@ -3245,7 +3243,7 @@ msgstr ""
 #: abaqus.Optimization.BeadFixedRegion.BeadFixedRegion.setValues:7
 #: abaqus.Optimization.BeadPlanarSymmetry.BeadPlanarSymmetry:28
 #: abaqus.Optimization.BeadPlanarSymmetry.BeadPlanarSymmetry.setValues:10
-#: abaqus.Optimization.BeadRotationalSymmetry.BeadRotationalSymmetry:30
+#: abaqus.Optimization.BeadRotationalSymmetry.BeadRotationalSymmetry:31
 #: abaqus.Optimization.BeadRotationalSymmetry.BeadRotationalSymmetry.setValues:10
 #: abaqus.Optimization.DesignDirection.DesignDirection:27
 #: abaqus.Optimization.DesignDirection.DesignDirection.setValues:7
@@ -3279,7 +3277,7 @@ msgstr ""
 #: abaqus.Optimization.ShapePlanarSymmetry.ShapePlanarSymmetry:37
 #: abaqus.Optimization.ShapePlanarSymmetry.ShapePlanarSymmetry.csys:1
 #: abaqus.Optimization.ShapePlanarSymmetry.ShapePlanarSymmetry.setValues:10
-#: abaqus.Optimization.ShapeRotationalSymmetry.ShapeRotationalSymmetry:40
+#: abaqus.Optimization.ShapeRotationalSymmetry.ShapeRotationalSymmetry:41
 #: abaqus.Optimization.ShapeRotationalSymmetry.ShapeRotationalSymmetry.csys:1
 #: abaqus.Optimization.ShapeRotationalSymmetry.ShapeRotationalSymmetry.setValues:13
 #: abaqus.Optimization.SingleTermDesignResponse.SingleTermDesignResponse:25
@@ -3290,19 +3288,19 @@ msgstr ""
 #: abaqus.Optimization.SizingCyclicSymmetry.SizingCyclicSymmetry.setValues:11
 #: abaqus.Optimization.SizingPlanarSymmetry.SizingPlanarSymmetry:28
 #: abaqus.Optimization.SizingPlanarSymmetry.SizingPlanarSymmetry.csys:1
-#: abaqus.Optimization.SizingRotationalSymmetry.SizingRotationalSymmetry:30
+#: abaqus.Optimization.SizingRotationalSymmetry.SizingRotationalSymmetry:31
 #: abaqus.Optimization.SizingRotationalSymmetry.SizingRotationalSymmetry.csys:1
 #: abaqus.Optimization.SizingRotationalSymmetry.SizingRotationalSymmetry.setValues:10
 #: abaqus.Optimization.StampControl.StampControl:30
 #: abaqus.Optimization.StampControl.StampControl.csys:1
 #: abaqus.Optimization.StampControl.StampControl.setValues:7
-#: abaqus.Optimization.TopologyCyclicSymmetry.TopologyCyclicSymmetry:33
+#: abaqus.Optimization.TopologyCyclicSymmetry.TopologyCyclicSymmetry:34
 #: abaqus.Optimization.TopologyCyclicSymmetry.TopologyCyclicSymmetry.csys:1
 #: abaqus.Optimization.TopologyCyclicSymmetry.TopologyCyclicSymmetry.setValues:11
-#: abaqus.Optimization.TopologyPlanarSymmetry.TopologyPlanarSymmetry:30
+#: abaqus.Optimization.TopologyPlanarSymmetry.TopologyPlanarSymmetry:31
 #: abaqus.Optimization.TopologyPlanarSymmetry.TopologyPlanarSymmetry.csys:1
 #: abaqus.Optimization.TopologyPlanarSymmetry.TopologyPlanarSymmetry.setValues:10
-#: abaqus.Optimization.TopologyRotationalSymmetry.TopologyRotationalSymmetry:32
+#: abaqus.Optimization.TopologyRotationalSymmetry.TopologyRotationalSymmetry:33
 #: abaqus.Optimization.TopologyRotationalSymmetry.TopologyRotationalSymmetry.csys:1
 #: abaqus.Optimization.TopologyRotationalSymmetry.TopologyRotationalSymmetry.setValues:10
 #: abaqus.Optimization.TurnControl.TurnControl:31
@@ -3415,7 +3413,7 @@ msgstr ""
 #: abaqus.Optimization.OptimizationTask.BeadPenetrationCheck.beadPenetrationCheckRegion:1
 #: abaqus.Optimization.OptimizationTask.OptimizationTask.BeadPenetrationCheck:14
 #: abaqus.Optimization.OptimizationTask.OptimizationTask.PenetrationCheck:14
-#: abaqus.Optimization.PenetrationCheck.PenetrationCheck:23
+#: abaqus.Optimization.PenetrationCheck.PenetrationCheck:24
 #: abaqus.Optimization.PenetrationCheck.PenetrationCheck.penetrationCheckRegion:1
 #: of
 msgid "A Region object specifying the penetration check region."
@@ -3444,7 +3442,7 @@ msgstr ""
 
 #: ../../docstring abaqus.Optimization.BeadPlanarSymmetry.BeadPlanarSymmetry:25
 #: abaqus.Optimization.BeadPlanarSymmetry.BeadPlanarSymmetry.setValues:7
-#: abaqus.Optimization.BeadRotationalSymmetry.BeadRotationalSymmetry:27
+#: abaqus.Optimization.BeadRotationalSymmetry.BeadRotationalSymmetry:28
 #: abaqus.Optimization.BeadRotationalSymmetry.BeadRotationalSymmetry.setValues:7
 #: abaqus.Optimization.OptimizationTask.BeadPlanarSymmetry.axis:1
 #: abaqus.Optimization.OptimizationTask.BeadRotationalSymmetry.axis:1
@@ -3456,13 +3454,13 @@ msgstr ""
 #: abaqus.Optimization.OptimizationTask.OptimizationTask.TopologyRotationalSymmetry:20
 #: abaqus.Optimization.SizingPlanarSymmetry.SizingPlanarSymmetry:25
 #: abaqus.Optimization.SizingPlanarSymmetry.SizingPlanarSymmetry.axis:1
-#: abaqus.Optimization.SizingRotationalSymmetry.SizingRotationalSymmetry:27
+#: abaqus.Optimization.SizingRotationalSymmetry.SizingRotationalSymmetry:28
 #: abaqus.Optimization.SizingRotationalSymmetry.SizingRotationalSymmetry.axis:1
 #: abaqus.Optimization.SizingRotationalSymmetry.SizingRotationalSymmetry.setValues:7
-#: abaqus.Optimization.TopologyPlanarSymmetry.TopologyPlanarSymmetry:27
+#: abaqus.Optimization.TopologyPlanarSymmetry.TopologyPlanarSymmetry:28
 #: abaqus.Optimization.TopologyPlanarSymmetry.TopologyPlanarSymmetry.axis:1
 #: abaqus.Optimization.TopologyPlanarSymmetry.TopologyPlanarSymmetry.setValues:7
-#: abaqus.Optimization.TopologyRotationalSymmetry.TopologyRotationalSymmetry:29
+#: abaqus.Optimization.TopologyRotationalSymmetry.TopologyRotationalSymmetry:30
 #: abaqus.Optimization.TopologyRotationalSymmetry.TopologyRotationalSymmetry.axis:1
 #: abaqus.Optimization.TopologyRotationalSymmetry.TopologyRotationalSymmetry.setValues:7
 #: of
@@ -3501,7 +3499,7 @@ msgstr ""
 #: abaqus.Optimization.SizingPointSymmetry.SizingPointSymmetry:25
 #: abaqus.Optimization.SizingPointSymmetry.SizingPointSymmetry.csys:1
 #: abaqus.Optimization.SizingPointSymmetry.SizingPointSymmetry.setValues:7
-#: abaqus.Optimization.TopologyPointSymmetry.TopologyPointSymmetry:27
+#: abaqus.Optimization.TopologyPointSymmetry.TopologyPointSymmetry:28
 #: abaqus.Optimization.TopologyPointSymmetry.TopologyPointSymmetry.csys:1
 #: abaqus.Optimization.TopologyPointSymmetry.TopologyPointSymmetry.setValues:7
 #: abaqus.Optimization.TopologyRibDesign.TopologyRibDesign:39
@@ -3526,7 +3524,7 @@ msgstr ""
 msgid ":class:`BeadPointSymmetry`"
 msgstr ""
 
-#: abaqus.Optimization.BeadRotationalSymmetry.BeadRotationalSymmetry:11
+#: abaqus.Optimization.BeadRotationalSymmetry.BeadRotationalSymmetry:12
 #: abaqus.Optimization.OptimizationTask.OptimizationTask.BeadRotationalSymmetry:9
 #: of
 msgid ""
@@ -3536,26 +3534,26 @@ msgid ""
 msgstr ""
 
 #: ../../docstring
-#: abaqus.Optimization.BeadRotationalSymmetry.BeadRotationalSymmetry:23
+#: abaqus.Optimization.BeadRotationalSymmetry.BeadRotationalSymmetry:24
 #: abaqus.Optimization.OptimizationTask.BeadRotationalSymmetry.angle:1
 #: abaqus.Optimization.OptimizationTask.OptimizationTask.BeadRotationalSymmetry:14
 #: abaqus.Optimization.OptimizationTask.OptimizationTask.SizingRotationalSymmetry:14
 #: abaqus.Optimization.OptimizationTask.OptimizationTask.TopologyRotationalSymmetry:14
-#: abaqus.Optimization.SizingRotationalSymmetry.SizingRotationalSymmetry:23
+#: abaqus.Optimization.SizingRotationalSymmetry.SizingRotationalSymmetry:24
 #: abaqus.Optimization.SizingRotationalSymmetry.SizingRotationalSymmetry.angle:1
-#: abaqus.Optimization.TopologyRotationalSymmetry.TopologyRotationalSymmetry:23
+#: abaqus.Optimization.TopologyRotationalSymmetry.TopologyRotationalSymmetry:24
 #: abaqus.Optimization.TopologyRotationalSymmetry.TopologyRotationalSymmetry.angle:1
 #: of
 msgid "A Float specifying the repeating segment size, an angle in degrees."
 msgstr ""
 
-#: abaqus.Optimization.BeadRotationalSymmetry.BeadRotationalSymmetry:34
+#: abaqus.Optimization.BeadRotationalSymmetry.BeadRotationalSymmetry:35
 #: abaqus.Optimization.OptimizationTask.OptimizationTask.BeadRotationalSymmetry:25
 #: of
 msgid "A BeadRotationalSymmetry object."
 msgstr ""
 
-#: abaqus.Optimization.BeadRotationalSymmetry.BeadRotationalSymmetry:35
+#: abaqus.Optimization.BeadRotationalSymmetry.BeadRotationalSymmetry:36
 #: abaqus.Optimization.OptimizationTask.OptimizationTask.BeadRotationalSymmetry:26
 #: of
 msgid ":class:`BeadRotationalSymmetry`"
@@ -3597,22 +3595,22 @@ msgstr ""
 #: abaqus.Optimization.OptimizationTask.OptimizationTask.TopologyRibDesign:26
 #: abaqus.Optimization.OptimizationTask.OptimizationTask.TopologyRotationalSymmetry:16
 #: abaqus.Optimization.OptimizationTask.OptimizationTask.TurnControl:18
-#: abaqus.Optimization.PenetrationCheck.PenetrationCheck:25
+#: abaqus.Optimization.PenetrationCheck.PenetrationCheck:26
 #: abaqus.Optimization.ShapeDemoldControl.ShapeDemoldControl:26
 #: abaqus.Optimization.ShapeMemberSize.ShapeMemberSize:23
 #: abaqus.Optimization.ShapePlanarSymmetry.ShapePlanarSymmetry:27
 #: abaqus.Optimization.ShapePointSymmetry.ShapePointSymmetry:23
-#: abaqus.Optimization.ShapeRotationalSymmetry.ShapeRotationalSymmetry:27
+#: abaqus.Optimization.ShapeRotationalSymmetry.ShapeRotationalSymmetry:28
 #: abaqus.Optimization.SlideRegionControl.SlideRegionControl:27
 #: abaqus.Optimization.StampControl.StampControl:26
-#: abaqus.Optimization.TopologyCyclicSymmetry.TopologyCyclicSymmetry:23
-#: abaqus.Optimization.TopologyDemoldControl.TopologyDemoldControl:23
+#: abaqus.Optimization.TopologyCyclicSymmetry.TopologyCyclicSymmetry:24
+#: abaqus.Optimization.TopologyDemoldControl.TopologyDemoldControl:24
 #: abaqus.Optimization.TopologyMemberSize.TopologyMemberSize:23
-#: abaqus.Optimization.TopologyPlanarSymmetry.TopologyPlanarSymmetry:23
-#: abaqus.Optimization.TopologyPointSymmetry.TopologyPointSymmetry:23
+#: abaqus.Optimization.TopologyPlanarSymmetry.TopologyPlanarSymmetry:24
+#: abaqus.Optimization.TopologyPointSymmetry.TopologyPointSymmetry:24
 #: abaqus.Optimization.TopologyRibDesign.TopologyRibDesign:35
 #: abaqus.Optimization.TopologyRibDesign.TopologyRibDesign.setValues:15
-#: abaqus.Optimization.TopologyRotationalSymmetry.TopologyRotationalSymmetry:25
+#: abaqus.Optimization.TopologyRotationalSymmetry.TopologyRotationalSymmetry:26
 #: abaqus.Optimization.TurnControl.GeometricRestriction.region:1
 #: abaqus.Optimization.TurnControl.TurnControl:27 of
 msgid ""
@@ -3630,7 +3628,7 @@ msgstr ""
 #: abaqus.Optimization.OptimizationTask.OptimizationTask.ShapeRotationalSymmetry:35
 #: abaqus.Optimization.OptimizationTask.OptimizationTask.StampControl:27
 #: abaqus.Optimization.OptimizationTask.OptimizationTask.TurnControl:26
-#: abaqus.Optimization.ShapeRotationalSymmetry.ShapeRotationalSymmetry:44
+#: abaqus.Optimization.ShapeRotationalSymmetry.ShapeRotationalSymmetry:45
 #: abaqus.Optimization.ShapeRotationalSymmetry.ShapeRotationalSymmetry.setValues:17
 #: abaqus.Optimization.StampControl.StampControl:36
 #: abaqus.Optimization.StampControl.StampControl.setValues:13 of
@@ -3652,7 +3650,7 @@ msgstr ""
 #: abaqus.Optimization.OptimizationTask.OptimizationTask.ShapeRotationalSymmetry:35
 #: abaqus.Optimization.OptimizationTask.OptimizationTask.StampControl:27
 #: abaqus.Optimization.OptimizationTask.OptimizationTask.TurnControl:26
-#: abaqus.Optimization.ShapeRotationalSymmetry.ShapeRotationalSymmetry:44
+#: abaqus.Optimization.ShapeRotationalSymmetry.ShapeRotationalSymmetry:45
 #: abaqus.Optimization.ShapeRotationalSymmetry.ShapeRotationalSymmetry.mainPoint:1
 #: abaqus.Optimization.ShapeRotationalSymmetry.ShapeRotationalSymmetry.setValues:17
 #: abaqus.Optimization.StampControl.StampControl:36
@@ -3675,7 +3673,7 @@ msgstr ""
 #: abaqus.Optimization.OptimizationTask.OptimizationTask.ShapeRotationalSymmetry:38
 #: abaqus.Optimization.OptimizationTask.OptimizationTask.StampControl:30
 #: abaqus.Optimization.OptimizationTask.OptimizationTask.TurnControl:29
-#: abaqus.Optimization.ShapeRotationalSymmetry.ShapeRotationalSymmetry:47
+#: abaqus.Optimization.ShapeRotationalSymmetry.ShapeRotationalSymmetry:48
 #: abaqus.Optimization.ShapeRotationalSymmetry.ShapeRotationalSymmetry.setValues:20
 #: abaqus.Optimization.StampControl.StampControl:39
 #: abaqus.Optimization.StampControl.StampControl.setValues:16 of
@@ -3739,7 +3737,7 @@ msgstr ""
 #: abaqus.Optimization.ShapeDemoldControl.ShapeDemoldControl.setValues:21
 #: abaqus.Optimization.ShapePointSymmetry.ShapePointSymmetry:34
 #: abaqus.Optimization.ShapePointSymmetry.ShapePointSymmetry.setValues:14
-#: abaqus.Optimization.ShapeRotationalSymmetry.ShapeRotationalSymmetry:53
+#: abaqus.Optimization.ShapeRotationalSymmetry.ShapeRotationalSymmetry:54
 #: abaqus.Optimization.ShapeRotationalSymmetry.ShapeRotationalSymmetry.setValues:26
 #: abaqus.Optimization.StampControl.StampControl:45
 #: abaqus.Optimization.StampControl.StampControl.setValues:22
@@ -3786,7 +3784,7 @@ msgstr ""
 #: abaqus.Optimization.OptimizationTask.OptimizationTask.SlideRegionControl:34
 #: abaqus.Optimization.OptimizationTask.OptimizationTask.StampControl:39
 #: abaqus.Optimization.OptimizationTask.OptimizationTask.TurnControl:38
-#: abaqus.Optimization.PenetrationCheck.PenetrationCheck:29
+#: abaqus.Optimization.PenetrationCheck.PenetrationCheck:30
 #: abaqus.Optimization.PenetrationCheck.PenetrationCheck.presumeFeasibleRegionAtStart:1
 #: abaqus.Optimization.PenetrationCheck.PenetrationCheck.setValues:7
 #: abaqus.Optimization.ShapeDemoldControl.ShapeDemoldControl:47
@@ -3798,7 +3796,7 @@ msgstr ""
 #: abaqus.Optimization.ShapePointSymmetry.ShapePointSymmetry:37
 #: abaqus.Optimization.ShapePointSymmetry.ShapePointSymmetry.presumeFeasibleRegionAtStart:1
 #: abaqus.Optimization.ShapePointSymmetry.ShapePointSymmetry.setValues:17
-#: abaqus.Optimization.ShapeRotationalSymmetry.ShapeRotationalSymmetry:56
+#: abaqus.Optimization.ShapeRotationalSymmetry.ShapeRotationalSymmetry:57
 #: abaqus.Optimization.ShapeRotationalSymmetry.ShapeRotationalSymmetry.presumeFeasibleRegionAtStart:1
 #: abaqus.Optimization.ShapeRotationalSymmetry.ShapeRotationalSymmetry.setValues:29
 #: abaqus.Optimization.SlideRegionControl.SlideRegionControl:43
@@ -3907,7 +3905,7 @@ msgstr ""
 #: abaqus.Optimization.ShapePointSymmetry.ShapePointSymmetry:40
 #: abaqus.Optimization.ShapePointSymmetry.ShapePointSymmetry.setValues:20
 #: abaqus.Optimization.ShapePointSymmetry.ShapePointSymmetry.tolerance1:1
-#: abaqus.Optimization.ShapeRotationalSymmetry.ShapeRotationalSymmetry:62
+#: abaqus.Optimization.ShapeRotationalSymmetry.ShapeRotationalSymmetry:63
 #: abaqus.Optimization.ShapeRotationalSymmetry.ShapeRotationalSymmetry.setValues:35
 #: abaqus.Optimization.ShapeRotationalSymmetry.ShapeRotationalSymmetry.tolerance1:1
 #: abaqus.Optimization.StampControl.StampControl:51
@@ -3940,7 +3938,7 @@ msgstr ""
 #: abaqus.Optimization.ShapePointSymmetry.ShapePointSymmetry:43
 #: abaqus.Optimization.ShapePointSymmetry.ShapePointSymmetry.setValues:23
 #: abaqus.Optimization.ShapePointSymmetry.ShapePointSymmetry.tolerance2:1
-#: abaqus.Optimization.ShapeRotationalSymmetry.ShapeRotationalSymmetry:65
+#: abaqus.Optimization.ShapeRotationalSymmetry.ShapeRotationalSymmetry:66
 #: abaqus.Optimization.ShapeRotationalSymmetry.ShapeRotationalSymmetry.setValues:38
 #: abaqus.Optimization.ShapeRotationalSymmetry.ShapeRotationalSymmetry.tolerance2:1
 #: abaqus.Optimization.StampControl.StampControl:54
@@ -3973,7 +3971,7 @@ msgstr ""
 #: abaqus.Optimization.ShapePointSymmetry.ShapePointSymmetry:46
 #: abaqus.Optimization.ShapePointSymmetry.ShapePointSymmetry.setValues:26
 #: abaqus.Optimization.ShapePointSymmetry.ShapePointSymmetry.tolerance3:1
-#: abaqus.Optimization.ShapeRotationalSymmetry.ShapeRotationalSymmetry:68
+#: abaqus.Optimization.ShapeRotationalSymmetry.ShapeRotationalSymmetry:69
 #: abaqus.Optimization.ShapeRotationalSymmetry.ShapeRotationalSymmetry.setValues:41
 #: abaqus.Optimization.ShapeRotationalSymmetry.ShapeRotationalSymmetry.tolerance3:1
 #: abaqus.Optimization.StampControl.StampControl:57
@@ -4197,7 +4195,7 @@ msgid ":class:`OptimizationConstraint`"
 msgstr ""
 
 #: abaqus.Optimization.OptimizationTask.OptimizationTask.PenetrationCheck:9
-#: abaqus.Optimization.PenetrationCheck.PenetrationCheck:11 of
+#: abaqus.Optimization.PenetrationCheck.PenetrationCheck:12 of
 msgid ""
 "Check `PenetrationCheck on help.3ds.com/2023 <https://help.3ds.com/2023/En"
 "glish/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
@@ -4205,12 +4203,12 @@ msgid ""
 msgstr ""
 
 #: abaqus.Optimization.OptimizationTask.OptimizationTask.PenetrationCheck:23
-#: abaqus.Optimization.PenetrationCheck.PenetrationCheck:32 of
+#: abaqus.Optimization.PenetrationCheck.PenetrationCheck:33 of
 msgid "A PenetrationCheck object."
 msgstr ""
 
 #: abaqus.Optimization.OptimizationTask.OptimizationTask.PenetrationCheck:24
-#: abaqus.Optimization.PenetrationCheck.PenetrationCheck:33 of
+#: abaqus.Optimization.PenetrationCheck.PenetrationCheck:34 of
 msgid ":class:`PenetrationCheck`"
 msgstr ""
 
@@ -4238,7 +4236,7 @@ msgstr ""
 #: abaqus.Optimization.ShapeDemoldControl.ShapeDemoldControl:30
 #: abaqus.Optimization.ShapeDemoldControl.ShapeDemoldControl.collisionCheckRegion:1
 #: abaqus.Optimization.ShapeDemoldControl.ShapeDemoldControl.setValues:7
-#: abaqus.Optimization.TopologyDemoldControl.TopologyDemoldControl:34
+#: abaqus.Optimization.TopologyDemoldControl.TopologyDemoldControl:35
 #: abaqus.Optimization.TopologyDemoldControl.TopologyDemoldControl.collisionCheckRegion:1
 #: abaqus.Optimization.TopologyDemoldControl.TopologyDemoldControl.setValues:14
 #: of
@@ -4256,7 +4254,7 @@ msgstr ""
 #: abaqus.Optimization.ShapeDemoldControl.ShapeDemoldControl:34
 #: abaqus.Optimization.ShapeDemoldControl.ShapeDemoldControl.csys:1
 #: abaqus.Optimization.ShapeDemoldControl.ShapeDemoldControl.setValues:11
-#: abaqus.Optimization.TopologyDemoldControl.TopologyDemoldControl:27
+#: abaqus.Optimization.TopologyDemoldControl.TopologyDemoldControl:28
 #: abaqus.Optimization.TopologyDemoldControl.TopologyDemoldControl.csys:1
 #: abaqus.Optimization.TopologyDemoldControl.TopologyDemoldControl.setValues:7
 #: of
@@ -4420,7 +4418,7 @@ msgstr ""
 #: abaqus.Optimization.OptimizationTask.OptimizationTask.ShapePlanarSymmetry:22
 #: abaqus.Optimization.OptimizationTask.OptimizationTask.ShapeRotationalSymmetry:22
 #: abaqus.Optimization.ShapePlanarSymmetry.ShapePlanarSymmetry:31
-#: abaqus.Optimization.ShapeRotationalSymmetry.ShapeRotationalSymmetry:31 of
+#: abaqus.Optimization.ShapeRotationalSymmetry.ShapeRotationalSymmetry:32 of
 msgid ""
 "A Boolean specifying whether to allow a nonsymmetric mesh for this "
 "geometric restriction. The default value is TRUE.  .. versionadded:: 2021"
@@ -4433,7 +4431,7 @@ msgstr ""
 #: abaqus.Optimization.ShapePlanarSymmetry.ShapePlanarSymmetry:31
 #: abaqus.Optimization.ShapePlanarSymmetry.ShapePlanarSymmetry.allowNonSymmetricMesh:1
 #: abaqus.Optimization.ShapePlanarSymmetry.ShapePlanarSymmetry.setValues:7
-#: abaqus.Optimization.ShapeRotationalSymmetry.ShapeRotationalSymmetry:31
+#: abaqus.Optimization.ShapeRotationalSymmetry.ShapeRotationalSymmetry:32
 #: abaqus.Optimization.ShapeRotationalSymmetry.ShapeRotationalSymmetry.allowNonSymmetricMesh:1
 #: abaqus.Optimization.ShapeRotationalSymmetry.ShapeRotationalSymmetry.setValues:7
 #: of
@@ -4445,7 +4443,7 @@ msgstr ""
 #: abaqus.Optimization.OptimizationTask.OptimizationTask.ShapePlanarSymmetry:25
 #: abaqus.Optimization.OptimizationTask.OptimizationTask.ShapeRotationalSymmetry:25
 #: abaqus.Optimization.ShapePlanarSymmetry.ShapePlanarSymmetry:34
-#: abaqus.Optimization.ShapeRotationalSymmetry.ShapeRotationalSymmetry:34 of
+#: abaqus.Optimization.ShapeRotationalSymmetry.ShapeRotationalSymmetry:35 of
 msgid "The ``alloowNonSymmetricMesh`` argument was added."
 msgstr ""
 
@@ -4515,7 +4513,7 @@ msgid ":class:`ShapePointSymmetry`"
 msgstr ""
 
 #: abaqus.Optimization.OptimizationTask.OptimizationTask.ShapeRotationalSymmetry:9
-#: abaqus.Optimization.ShapeRotationalSymmetry.ShapeRotationalSymmetry:11 of
+#: abaqus.Optimization.ShapeRotationalSymmetry.ShapeRotationalSymmetry:12 of
 msgid ""
 "Check `ShapeRotationalSymmetry on help.3ds.com/2023 <https://help.3ds.com/"
 "2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
@@ -4524,7 +4522,7 @@ msgstr ""
 
 #: ../../docstring
 #: abaqus.Optimization.OptimizationTask.OptimizationTask.ShapeRotationalSymmetry:14
-#: abaqus.Optimization.ShapeRotationalSymmetry.ShapeRotationalSymmetry:23
+#: abaqus.Optimization.ShapeRotationalSymmetry.ShapeRotationalSymmetry:24
 #: abaqus.Optimization.ShapeRotationalSymmetry.ShapeRotationalSymmetry.clientDirection:1
 #: of
 msgid ""
@@ -4536,7 +4534,7 @@ msgstr ""
 
 #: ../../docstring
 #: abaqus.Optimization.OptimizationTask.OptimizationTask.ShapeRotationalSymmetry:28
-#: abaqus.Optimization.ShapeRotationalSymmetry.ShapeRotationalSymmetry:37
+#: abaqus.Optimization.ShapeRotationalSymmetry.ShapeRotationalSymmetry:38
 #: abaqus.Optimization.ShapeRotationalSymmetry.ShapeRotationalSymmetry.angle:1
 #: abaqus.Optimization.ShapeRotationalSymmetry.ShapeRotationalSymmetry.setValues:10
 #: of
@@ -4547,7 +4545,7 @@ msgid ""
 msgstr ""
 
 #: abaqus.Optimization.OptimizationTask.OptimizationTask.ShapeRotationalSymmetry:41
-#: abaqus.Optimization.ShapeRotationalSymmetry.ShapeRotationalSymmetry:50
+#: abaqus.Optimization.ShapeRotationalSymmetry.ShapeRotationalSymmetry:51
 #: abaqus.Optimization.ShapeRotationalSymmetry.ShapeRotationalSymmetry.setValues:23
 #: of
 msgid ""
@@ -4559,7 +4557,7 @@ msgstr ""
 
 #: ../../docstring
 #: abaqus.Optimization.OptimizationTask.OptimizationTask.ShapeRotationalSymmetry:41
-#: abaqus.Optimization.ShapeRotationalSymmetry.ShapeRotationalSymmetry:50
+#: abaqus.Optimization.ShapeRotationalSymmetry.ShapeRotationalSymmetry:51
 #: abaqus.Optimization.ShapeRotationalSymmetry.ShapeRotationalSymmetry.mainPointDetermination:1
 #: abaqus.Optimization.ShapeRotationalSymmetry.ShapeRotationalSymmetry.setValues:23
 #: of
@@ -4571,7 +4569,7 @@ msgstr ""
 
 #: ../../docstring
 #: abaqus.Optimization.OptimizationTask.OptimizationTask.ShapeRotationalSymmetry:50
-#: abaqus.Optimization.ShapeRotationalSymmetry.ShapeRotationalSymmetry:59
+#: abaqus.Optimization.ShapeRotationalSymmetry.ShapeRotationalSymmetry:60
 #: abaqus.Optimization.ShapeRotationalSymmetry.ShapeRotationalSymmetry.setValues:32
 #: abaqus.Optimization.ShapeRotationalSymmetry.ShapeRotationalSymmetry.startPoint:1
 #: of
@@ -4581,12 +4579,12 @@ msgid ""
 msgstr ""
 
 #: abaqus.Optimization.OptimizationTask.OptimizationTask.ShapeRotationalSymmetry:62
-#: abaqus.Optimization.ShapeRotationalSymmetry.ShapeRotationalSymmetry:71 of
+#: abaqus.Optimization.ShapeRotationalSymmetry.ShapeRotationalSymmetry:72 of
 msgid "A ShapeRotationalSymmetry object."
 msgstr ""
 
 #: abaqus.Optimization.OptimizationTask.OptimizationTask.ShapeRotationalSymmetry:63
-#: abaqus.Optimization.ShapeRotationalSymmetry.ShapeRotationalSymmetry:72 of
+#: abaqus.Optimization.ShapeRotationalSymmetry.ShapeRotationalSymmetry:73 of
 msgid ":class:`ShapeRotationalSymmetry`"
 msgstr ""
 
@@ -4730,7 +4728,7 @@ msgstr ""
 #: abaqus.Optimization.OptimizationTask.OptimizationTask.TopologyCyclicSymmetry:18
 #: abaqus.Optimization.SizingCyclicSymmetry.SizingCyclicSymmetry:25
 #: abaqus.Optimization.SizingCyclicSymmetry.SizingCyclicSymmetry.translation:1
-#: abaqus.Optimization.TopologyCyclicSymmetry.TopologyCyclicSymmetry:27
+#: abaqus.Optimization.TopologyCyclicSymmetry.TopologyCyclicSymmetry:28
 #: abaqus.Optimization.TopologyCyclicSymmetry.TopologyCyclicSymmetry.translation:1
 #: of
 msgid "A Float specifying the translation distance."
@@ -4742,7 +4740,7 @@ msgstr ""
 #: abaqus.Optimization.SizingCyclicSymmetry.SizingCyclicSymmetry:27
 #: abaqus.Optimization.SizingCyclicSymmetry.SizingCyclicSymmetry.axis:1
 #: abaqus.Optimization.SizingCyclicSymmetry.SizingCyclicSymmetry.setValues:7
-#: abaqus.Optimization.TopologyCyclicSymmetry.TopologyCyclicSymmetry:29
+#: abaqus.Optimization.TopologyCyclicSymmetry.TopologyCyclicSymmetry:30
 #: abaqus.Optimization.TopologyCyclicSymmetry.TopologyCyclicSymmetry.axis:1
 #: abaqus.Optimization.TopologyCyclicSymmetry.TopologyCyclicSymmetry.setValues:7
 #: of
@@ -4769,19 +4767,19 @@ msgstr ""
 #: abaqus.Optimization.SizingPointSymmetry.SizingPointSymmetry:29
 #: abaqus.Optimization.SizingPointSymmetry.SizingPointSymmetry.ignoreFrozenArea:1
 #: abaqus.Optimization.SizingPointSymmetry.SizingPointSymmetry.setValues:11
-#: abaqus.Optimization.SizingRotationalSymmetry.SizingRotationalSymmetry:34
+#: abaqus.Optimization.SizingRotationalSymmetry.SizingRotationalSymmetry:35
 #: abaqus.Optimization.SizingRotationalSymmetry.SizingRotationalSymmetry.ignoreFrozenArea:1
 #: abaqus.Optimization.SizingRotationalSymmetry.SizingRotationalSymmetry.setValues:14
-#: abaqus.Optimization.TopologyCyclicSymmetry.TopologyCyclicSymmetry:37
+#: abaqus.Optimization.TopologyCyclicSymmetry.TopologyCyclicSymmetry:38
 #: abaqus.Optimization.TopologyCyclicSymmetry.TopologyCyclicSymmetry.ignoreFrozenArea:1
 #: abaqus.Optimization.TopologyCyclicSymmetry.TopologyCyclicSymmetry.setValues:15
-#: abaqus.Optimization.TopologyPlanarSymmetry.TopologyPlanarSymmetry:34
+#: abaqus.Optimization.TopologyPlanarSymmetry.TopologyPlanarSymmetry:35
 #: abaqus.Optimization.TopologyPlanarSymmetry.TopologyPlanarSymmetry.ignoreFrozenArea:1
 #: abaqus.Optimization.TopologyPlanarSymmetry.TopologyPlanarSymmetry.setValues:14
-#: abaqus.Optimization.TopologyPointSymmetry.TopologyPointSymmetry:31
+#: abaqus.Optimization.TopologyPointSymmetry.TopologyPointSymmetry:32
 #: abaqus.Optimization.TopologyPointSymmetry.TopologyPointSymmetry.ignoreFrozenArea:1
 #: abaqus.Optimization.TopologyPointSymmetry.TopologyPointSymmetry.setValues:11
-#: abaqus.Optimization.TopologyRotationalSymmetry.TopologyRotationalSymmetry:36
+#: abaqus.Optimization.TopologyRotationalSymmetry.TopologyRotationalSymmetry:37
 #: abaqus.Optimization.TopologyRotationalSymmetry.TopologyRotationalSymmetry.ignoreFrozenArea:1
 #: abaqus.Optimization.TopologyRotationalSymmetry.TopologyRotationalSymmetry.setValues:14
 #: of
@@ -4870,7 +4868,7 @@ msgid ":class:`SizingPointSymmetry`"
 msgstr ""
 
 #: abaqus.Optimization.OptimizationTask.OptimizationTask.SizingRotationalSymmetry:9
-#: abaqus.Optimization.SizingRotationalSymmetry.SizingRotationalSymmetry:11 of
+#: abaqus.Optimization.SizingRotationalSymmetry.SizingRotationalSymmetry:12 of
 msgid ""
 "Check `SizingRotationalSymmetry on help.3ds.com/2023 <https://help.3ds.com"
 "/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
@@ -4878,12 +4876,12 @@ msgid ""
 msgstr ""
 
 #: abaqus.Optimization.OptimizationTask.OptimizationTask.SizingRotationalSymmetry:27
-#: abaqus.Optimization.SizingRotationalSymmetry.SizingRotationalSymmetry:36 of
+#: abaqus.Optimization.SizingRotationalSymmetry.SizingRotationalSymmetry:37 of
 msgid "A SizingRotationalSymmetry object."
 msgstr ""
 
 #: abaqus.Optimization.OptimizationTask.OptimizationTask.SizingRotationalSymmetry:28
-#: abaqus.Optimization.SizingRotationalSymmetry.SizingRotationalSymmetry:37 of
+#: abaqus.Optimization.SizingRotationalSymmetry.SizingRotationalSymmetry:38 of
 msgid ":class:`SizingRotationalSymmetry`"
 msgstr ""
 
@@ -5020,7 +5018,7 @@ msgid ":class:`StampControl`"
 msgstr ""
 
 #: abaqus.Optimization.OptimizationTask.OptimizationTask.TopologyCyclicSymmetry:9
-#: abaqus.Optimization.TopologyCyclicSymmetry.TopologyCyclicSymmetry:11 of
+#: abaqus.Optimization.TopologyCyclicSymmetry.TopologyCyclicSymmetry:12 of
 msgid ""
 "Check `TopologyCyclicSymmetry on help.3ds.com/2023 <https://help.3ds.com/2"
 "023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
@@ -5028,17 +5026,17 @@ msgid ""
 msgstr ""
 
 #: abaqus.Optimization.OptimizationTask.OptimizationTask.TopologyCyclicSymmetry:30
-#: abaqus.Optimization.TopologyCyclicSymmetry.TopologyCyclicSymmetry:39 of
+#: abaqus.Optimization.TopologyCyclicSymmetry.TopologyCyclicSymmetry:40 of
 msgid "A TopologyCyclicSymmetry object."
 msgstr ""
 
 #: abaqus.Optimization.OptimizationTask.OptimizationTask.TopologyCyclicSymmetry:31
-#: abaqus.Optimization.TopologyCyclicSymmetry.TopologyCyclicSymmetry:40 of
+#: abaqus.Optimization.TopologyCyclicSymmetry.TopologyCyclicSymmetry:41 of
 msgid ":class:`TopologyCyclicSymmetry`"
 msgstr ""
 
 #: abaqus.Optimization.OptimizationTask.OptimizationTask.TopologyDemoldControl:9
-#: abaqus.Optimization.TopologyDemoldControl.TopologyDemoldControl:11 of
+#: abaqus.Optimization.TopologyDemoldControl.TopologyDemoldControl:12 of
 msgid ""
 "Check `TopologyDemoldControl on help.3ds.com/2023 <https://help.3ds.com/20"
 "23/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
@@ -5047,7 +5045,7 @@ msgstr ""
 
 #: ../../docstring
 #: abaqus.Optimization.OptimizationTask.OptimizationTask.TopologyDemoldControl:23
-#: abaqus.Optimization.TopologyDemoldControl.TopologyDemoldControl:32
+#: abaqus.Optimization.TopologyDemoldControl.TopologyDemoldControl:33
 #: abaqus.Optimization.TopologyDemoldControl.TopologyDemoldControl.draftAngle:1
 #: abaqus.Optimization.TopologyDemoldControl.TopologyDemoldControl.setValues:12
 #: of
@@ -5056,7 +5054,7 @@ msgstr ""
 
 #: ../../docstring
 #: abaqus.Optimization.OptimizationTask.OptimizationTask.TopologyDemoldControl:29
-#: abaqus.Optimization.TopologyDemoldControl.TopologyDemoldControl:38
+#: abaqus.Optimization.TopologyDemoldControl.TopologyDemoldControl:39
 #: abaqus.Optimization.TopologyDemoldControl.TopologyDemoldControl.pointRegion:1
 #: abaqus.Optimization.TopologyDemoldControl.TopologyDemoldControl.setValues:18
 #: of
@@ -5067,7 +5065,7 @@ msgstr ""
 
 #: ../../docstring
 #: abaqus.Optimization.OptimizationTask.OptimizationTask.TopologyDemoldControl:32
-#: abaqus.Optimization.TopologyDemoldControl.TopologyDemoldControl:41
+#: abaqus.Optimization.TopologyDemoldControl.TopologyDemoldControl:42
 #: abaqus.Optimization.TopologyDemoldControl.TopologyDemoldControl.pullDirection:1
 #: abaqus.Optimization.TopologyDemoldControl.TopologyDemoldControl.setValues:21
 #: of
@@ -5079,7 +5077,7 @@ msgstr ""
 
 #: ../../docstring
 #: abaqus.Optimization.OptimizationTask.OptimizationTask.TopologyDemoldControl:35
-#: abaqus.Optimization.TopologyDemoldControl.TopologyDemoldControl:44
+#: abaqus.Optimization.TopologyDemoldControl.TopologyDemoldControl:45
 #: abaqus.Optimization.TopologyDemoldControl.TopologyDemoldControl.setValues:24
 #: abaqus.Optimization.TopologyDemoldControl.TopologyDemoldControl.technique:1
 #: of
@@ -5089,12 +5087,12 @@ msgid ""
 msgstr ""
 
 #: abaqus.Optimization.OptimizationTask.OptimizationTask.TopologyDemoldControl:38
-#: abaqus.Optimization.TopologyDemoldControl.TopologyDemoldControl:47 of
+#: abaqus.Optimization.TopologyDemoldControl.TopologyDemoldControl:48 of
 msgid "A TopologyDemoldControl object."
 msgstr ""
 
 #: abaqus.Optimization.OptimizationTask.OptimizationTask.TopologyDemoldControl:39
-#: abaqus.Optimization.TopologyDemoldControl.TopologyDemoldControl:48 of
+#: abaqus.Optimization.TopologyDemoldControl.TopologyDemoldControl:49 of
 msgid ":class:`TopologyDemoldControl`"
 msgstr ""
 
@@ -5142,7 +5140,7 @@ msgid "The ``TopologyMillingControl`` method was added."
 msgstr ""
 
 #: abaqus.Optimization.OptimizationTask.OptimizationTask.TopologyMillingControl:12
-#: abaqus.Optimization.TopologyMillingControl.TopologyMillingControl:14 of
+#: abaqus.Optimization.TopologyMillingControl.TopologyMillingControl:15 of
 msgid ""
 "Check `TopologyMillingControl on help.3ds.com/2023 <https://help.3ds.com/2"
 "023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
@@ -5151,7 +5149,7 @@ msgstr ""
 
 #: ../../docstring
 #: abaqus.Optimization.OptimizationTask.OptimizationTask.TopologyMillingControl:17
-#: abaqus.Optimization.TopologyMillingControl.TopologyMillingControl:26
+#: abaqus.Optimization.TopologyMillingControl.TopologyMillingControl:27
 #: abaqus.Optimization.TopologyMillingControl.TopologyMillingControl.millingDirections:1
 #: of
 msgid ""
@@ -5162,7 +5160,7 @@ msgstr ""
 
 #: ../../docstring
 #: abaqus.Optimization.OptimizationTask.OptimizationTask.TopologyMillingControl:22
-#: abaqus.Optimization.TopologyMillingControl.TopologyMillingControl:31
+#: abaqus.Optimization.TopologyMillingControl.TopologyMillingControl:32
 #: abaqus.Optimization.TopologyMillingControl.TopologyMillingControl.csys:1
 #: abaqus.Optimization.TopologyMillingControl.TopologyMillingControl.setValues:7
 #: of
@@ -5175,7 +5173,7 @@ msgstr ""
 
 #: ../../docstring
 #: abaqus.Optimization.OptimizationTask.OptimizationTask.TopologyMillingControl:27
-#: abaqus.Optimization.TopologyMillingControl.TopologyMillingControl:36
+#: abaqus.Optimization.TopologyMillingControl.TopologyMillingControl:37
 #: abaqus.Optimization.TopologyMillingControl.TopologyMillingControl.millingCheckRegion:1
 #: abaqus.Optimization.TopologyMillingControl.TopologyMillingControl.setValues:12
 #: of
@@ -5188,7 +5186,7 @@ msgstr ""
 
 #: ../../docstring
 #: abaqus.Optimization.OptimizationTask.OptimizationTask.TopologyMillingControl:32
-#: abaqus.Optimization.TopologyMillingControl.TopologyMillingControl:41
+#: abaqus.Optimization.TopologyMillingControl.TopologyMillingControl:42
 #: abaqus.Optimization.TopologyMillingControl.TopologyMillingControl.radius:1
 #: abaqus.Optimization.TopologyMillingControl.TopologyMillingControl.setValues:17
 #: of
@@ -5198,12 +5196,12 @@ msgid ""
 msgstr ""
 
 #: abaqus.Optimization.OptimizationTask.OptimizationTask.TopologyMillingControl:35
-#: abaqus.Optimization.TopologyMillingControl.TopologyMillingControl:44 of
+#: abaqus.Optimization.TopologyMillingControl.TopologyMillingControl:45 of
 msgid "A TopologyMillingControl object."
 msgstr ""
 
 #: abaqus.Optimization.OptimizationTask.OptimizationTask.TopologyMillingControl:36
-#: abaqus.Optimization.TopologyMillingControl.TopologyMillingControl:45 of
+#: abaqus.Optimization.TopologyMillingControl.TopologyMillingControl:46 of
 msgid ":class:`TopologyMillingControl`"
 msgstr ""
 
@@ -5213,7 +5211,7 @@ msgid "The ``TopologyOverhangControl`` method was added."
 msgstr ""
 
 #: abaqus.Optimization.OptimizationTask.OptimizationTask.TopologyOverhangControl:12
-#: abaqus.Optimization.TopologyOverhangControl.TopologyOverhangControl:14 of
+#: abaqus.Optimization.TopologyOverhangControl.TopologyOverhangControl:15 of
 msgid ""
 "Check `TopologyOverhangControl on help.3ds.com/2023 <https://help.3ds.com/"
 "2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
@@ -5221,7 +5219,7 @@ msgid ""
 msgstr ""
 
 #: abaqus.Optimization.OptimizationTask.OptimizationTask.TopologyOverhangControl:17
-#: abaqus.Optimization.TopologyOverhangControl.TopologyOverhangControl:26 of
+#: abaqus.Optimization.TopologyOverhangControl.TopologyOverhangControl:27 of
 msgid ""
 "A VertexArray object of length 2 specifying the overhang control print "
 "direction. Instead of through a ConstrainedSketchVertex, each point can be"
@@ -5229,14 +5227,14 @@ msgid ""
 msgstr ""
 
 #: abaqus.Optimization.OptimizationTask.OptimizationTask.TopologyOverhangControl:27
-#: abaqus.Optimization.TopologyOverhangControl.TopologyOverhangControl:36
+#: abaqus.Optimization.TopologyOverhangControl.TopologyOverhangControl:37
 #: abaqus.Optimization.TopologyOverhangControl.TopologyOverhangControl.setValues:12
 #: of
 msgid "A Float specifying the overhang angle. The default value is 45.0."
 msgstr ""
 
 #: abaqus.Optimization.OptimizationTask.OptimizationTask.TopologyOverhangControl:29
-#: abaqus.Optimization.TopologyOverhangControl.TopologyOverhangControl:38
+#: abaqus.Optimization.TopologyOverhangControl.TopologyOverhangControl:39
 #: abaqus.Optimization.TopologyOverhangControl.TopologyOverhangControl.setValues:14
 #: of
 msgid ""
@@ -5255,7 +5253,7 @@ msgid ""
 msgstr ""
 
 #: abaqus.Optimization.OptimizationTask.OptimizationTask.TopologyOverhangControl:37
-#: abaqus.Optimization.TopologyOverhangControl.TopologyOverhangControl:46
+#: abaqus.Optimization.TopologyOverhangControl.TopologyOverhangControl:47
 #: abaqus.Optimization.TopologyOverhangControl.TopologyOverhangControl.setValues:22
 #: of
 msgid ""
@@ -5264,7 +5262,7 @@ msgid ""
 msgstr ""
 
 #: abaqus.Optimization.OptimizationTask.OptimizationTask.TopologyOverhangControl:40
-#: abaqus.Optimization.TopologyOverhangControl.TopologyOverhangControl:49
+#: abaqus.Optimization.TopologyOverhangControl.TopologyOverhangControl:50
 #: abaqus.Optimization.TopologyOverhangControl.TopologyOverhangControl.setValues:25
 #: of
 msgid ""
@@ -5279,7 +5277,7 @@ msgid "A TopologyOverhangControl object."
 msgstr ""
 
 #: abaqus.Optimization.OptimizationTask.OptimizationTask.TopologyPlanarSymmetry:9
-#: abaqus.Optimization.TopologyPlanarSymmetry.TopologyPlanarSymmetry:11 of
+#: abaqus.Optimization.TopologyPlanarSymmetry.TopologyPlanarSymmetry:12 of
 msgid ""
 "Check `TopologyPlanarSymmetry on help.3ds.com/2023 <https://help.3ds.com/2"
 "023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
@@ -5287,17 +5285,17 @@ msgid ""
 msgstr ""
 
 #: abaqus.Optimization.OptimizationTask.OptimizationTask.TopologyPlanarSymmetry:27
-#: abaqus.Optimization.TopologyPlanarSymmetry.TopologyPlanarSymmetry:36 of
+#: abaqus.Optimization.TopologyPlanarSymmetry.TopologyPlanarSymmetry:37 of
 msgid "A TopologyPlanarSymmetry object."
 msgstr ""
 
 #: abaqus.Optimization.OptimizationTask.OptimizationTask.TopologyPlanarSymmetry:28
-#: abaqus.Optimization.TopologyPlanarSymmetry.TopologyPlanarSymmetry:37 of
+#: abaqus.Optimization.TopologyPlanarSymmetry.TopologyPlanarSymmetry:38 of
 msgid ":class:`TopologyPlanarSymmetry`"
 msgstr ""
 
 #: abaqus.Optimization.OptimizationTask.OptimizationTask.TopologyPointSymmetry:9
-#: abaqus.Optimization.TopologyPointSymmetry.TopologyPointSymmetry:11 of
+#: abaqus.Optimization.TopologyPointSymmetry.TopologyPointSymmetry:12 of
 msgid ""
 "Check `TopologyPointSymmetry on help.3ds.com/2023 <https://help.3ds.com/20"
 "23/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
@@ -5305,12 +5303,12 @@ msgid ""
 msgstr ""
 
 #: abaqus.Optimization.OptimizationTask.OptimizationTask.TopologyPointSymmetry:24
-#: abaqus.Optimization.TopologyPointSymmetry.TopologyPointSymmetry:33 of
+#: abaqus.Optimization.TopologyPointSymmetry.TopologyPointSymmetry:34 of
 msgid "A TopologyPointSymmetry object."
 msgstr ""
 
 #: abaqus.Optimization.OptimizationTask.OptimizationTask.TopologyPointSymmetry:25
-#: abaqus.Optimization.TopologyPointSymmetry.TopologyPointSymmetry:34 of
+#: abaqus.Optimization.TopologyPointSymmetry.TopologyPointSymmetry:35 of
 msgid ":class:`TopologyPointSymmetry`"
 msgstr ""
 
@@ -5379,7 +5377,7 @@ msgid ":class:`TopologyRibDesign`"
 msgstr ""
 
 #: abaqus.Optimization.OptimizationTask.OptimizationTask.TopologyRotationalSymmetry:9
-#: abaqus.Optimization.TopologyRotationalSymmetry.TopologyRotationalSymmetry:11
+#: abaqus.Optimization.TopologyRotationalSymmetry.TopologyRotationalSymmetry:12
 #: of
 msgid ""
 "Check `TopologyRotationalSymmetry on help.3ds.com/2023 <https://help.3ds.c"
@@ -5388,13 +5386,13 @@ msgid ""
 msgstr ""
 
 #: abaqus.Optimization.OptimizationTask.OptimizationTask.TopologyRotationalSymmetry:29
-#: abaqus.Optimization.TopologyRotationalSymmetry.TopologyRotationalSymmetry:38
+#: abaqus.Optimization.TopologyRotationalSymmetry.TopologyRotationalSymmetry:39
 #: of
 msgid "A TopologyRotationalSymmetry object."
 msgstr ""
 
 #: abaqus.Optimization.OptimizationTask.OptimizationTask.TopologyRotationalSymmetry:30
-#: abaqus.Optimization.TopologyRotationalSymmetry.TopologyRotationalSymmetry:39
+#: abaqus.Optimization.TopologyRotationalSymmetry.TopologyRotationalSymmetry:40
 #: of
 msgid ":class:`TopologyRotationalSymmetry`"
 msgstr ""
@@ -5514,7 +5512,7 @@ msgid ""
 "object are common to all objects derived from GeometricRestriction."
 msgstr ""
 
-#: abaqus.Optimization.GeometricRestriction.GeometricRestriction:12 of
+#: abaqus.Optimization.GeometricRestriction.GeometricRestriction:13 of
 msgid ""
 "Check `GeometricRestriction on help.3ds.com/2023 <https://help.3ds.com/202"
 "3/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
@@ -6452,7 +6450,7 @@ msgid ""
 "objective function."
 msgstr ""
 
-#: abaqus.Optimization.OptimizationObjective.OptimizationObjective:10 of
+#: abaqus.Optimization.OptimizationObjective.OptimizationObjective:11 of
 msgid ""
 "Check `OptimizationObjective on help.3ds.com/2023 <https://help.3ds.com/20"
 "23/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
@@ -6500,7 +6498,7 @@ msgid ""
 "common to all objects derived from OptimizationTask."
 msgstr ""
 
-#: abaqus.Optimization.OptimizationTaskBase.OptimizationTaskBase:12 of
+#: abaqus.Optimization.OptimizationTaskBase.OptimizationTaskBase:13 of
 msgid ""
 "Check `OptimizationTaskBase on help.3ds.com/2023 <https://help.3ds.com/202"
 "3/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
@@ -6869,7 +6867,7 @@ msgid ""
 "the GeometricRestriction object."
 msgstr ""
 
-#: abaqus.Optimization.TopologyMillingControl.TopologyMillingControl:10 of
+#: abaqus.Optimization.TopologyMillingControl.TopologyMillingControl:11 of
 msgid "The ``TopologyMillingControl`` class was added."
 msgstr ""
 
@@ -6894,11 +6892,11 @@ msgid ""
 "the GeometricRestriction object."
 msgstr ""
 
-#: abaqus.Optimization.TopologyOverhangControl.TopologyOverhangControl:10 of
+#: abaqus.Optimization.TopologyOverhangControl.TopologyOverhangControl:11 of
 msgid "The ``TopologyOverhangControl`` class was added."
 msgstr ""
 
-#: abaqus.Optimization.TopologyOverhangControl.TopologyOverhangControl:31
+#: abaqus.Optimization.TopologyOverhangControl.TopologyOverhangControl:32
 #: abaqus.Optimization.TopologyOverhangControl.TopologyOverhangControl.setValues:7
 #: of
 msgid ""
@@ -6908,7 +6906,7 @@ msgid ""
 "of the DatumCsys. The default value is None."
 msgstr ""
 
-#: abaqus.Optimization.TopologyOverhangControl.TopologyOverhangControl:43
+#: abaqus.Optimization.TopologyOverhangControl.TopologyOverhangControl:44
 #: abaqus.Optimization.TopologyOverhangControl.TopologyOverhangControl.setValues:19
 #: of
 msgid ""
@@ -6917,7 +6915,7 @@ msgid ""
 "is POINT."
 msgstr ""
 
-#: abaqus.Optimization.TopologyOverhangControl.TopologyOverhangControl:52 of
+#: abaqus.Optimization.TopologyOverhangControl.TopologyOverhangControl:53 of
 msgid ":class:`A TopologyOverhangControl object.`"
 msgstr ""
 

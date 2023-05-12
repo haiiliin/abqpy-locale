@@ -1,29 +1,27 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2022, WANG Hailin
 # This file is distributed under the same license as the abqpy package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: abqpy 2023\n"
+"Project-Id-Version: abqpy \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-09 05:33+0000\n"
+"POT-Creation-Date: 2022-08-23 06:36+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: zh_CN\n"
-"Language-Team: zh_CN <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.12.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../user/python/introduction/oop-basics.md:1
+#: ../../user/python/introduction/oop-basics.rst:3
 msgid "Object-oriented basics"
 msgstr ""
 
-#: ../../user/python/introduction/oop-basics.md:3
+#: ../../user/python/introduction/oop-basics.rst:5
 msgid ""
 "You need to understand some of the fundamentals of object-oriented "
 "programming to understand the terms used in this guide. The following is a"
@@ -31,7 +29,7 @@ msgid ""
 "programming."
 msgstr ""
 
-#: ../../user/python/introduction/oop-basics.md:5
+#: ../../user/python/introduction/oop-basics.rst:7
 msgid ""
 "Traditional procedural languages, such as Fortran and C, are based around "
 "functions or subroutines that perform actions. A typical example is a "
@@ -39,7 +37,7 @@ msgid ""
 " coordinates of each vertex."
 msgstr ""
 
-#: ../../user/python/introduction/oop-basics.md:7
+#: ../../user/python/introduction/oop-basics.rst:9
 msgid ""
 "In contrast, object-oriented programming languages, such as Python and "
 "C++, are based around objects. An object encapsulates some data and "
@@ -48,7 +46,7 @@ msgid ""
 "manipulate the data are called methods."
 msgstr ""
 
-#: ../../user/python/introduction/oop-basics.md:9
+#: ../../user/python/introduction/oop-basics.rst:11
 msgid ""
 "An object can be modeled from a real-world object, such as a tire; or an "
 "object can be modeled from something more abstract, such as an array of "
@@ -60,7 +58,7 @@ msgid ""
 "and a deformation method."
 msgstr ""
 
-#: ../../user/python/introduction/oop-basics.md:11
+#: ../../user/python/introduction/oop-basics.rst:13
 msgid ""
 "Classes are an important concept in object-oriented programming. Classes "
 "are defined by the programmer, and a class defines members and the methods"

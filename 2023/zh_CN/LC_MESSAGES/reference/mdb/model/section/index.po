@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: abqpy 2023\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-09 05:33+0000\n"
+"POT-Creation-Date: 2023-05-05 13:36+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: zh_CN\n"
@@ -62,8 +62,8 @@ msgstr ""
 #: abaqus.Section.ConnectorSection.ConnectorSection:5
 #: abaqus.Section.EulerianSection.EulerianSection:5
 #: abaqus.Section.GasketSection.GasketSection:5
-#: abaqus.Section.GeneralStiffnessSection.GeneralStiffnessSection:5
-#: abaqus.Section.GeometryShellSection.GeometryShellSection:6
+#: abaqus.Section.GeneralStiffnessSection.GeneralStiffnessSection:6
+#: abaqus.Section.GeometryShellSection.GeometryShellSection:7
 #: abaqus.Section.HomogeneousShellSection.HomogeneousShellSection:5
 #: abaqus.Section.HomogeneousSolidSection.HomogeneousSolidSection:5
 #: abaqus.Section.LayerProperties.LayerProperties:5
@@ -71,14 +71,14 @@ msgstr ""
 #: abaqus.Section.MembraneSection.MembraneSection:5
 #: abaqus.Section.PEGSection.PEGSection:5
 #: abaqus.Section.RebarLayers.RebarLayers:4
-#: abaqus.Section.SectionBase.SectionBase:6
+#: abaqus.Section.SectionBase.SectionBase:7
 #: abaqus.Section.SectionLayer.SectionLayer:4
 #: abaqus.Section.SectionModel.SectionModel:4
-#: abaqus.Section.ShellSection.ShellSection:6
-#: abaqus.Section.SolidSection.SolidSection:6
+#: abaqus.Section.ShellSection.ShellSection:7
+#: abaqus.Section.SolidSection.SolidSection:7
 #: abaqus.Section.SurfaceSection.SurfaceSection:5
 #: abaqus.Section.TransverseShearBeam.TransverseShearBeam:4
-#: abaqus.Section.TransverseShearShell.TransverseShearShell:4
+#: abaqus.Section.TransverseShearShell.TransverseShearShell:5
 #: abaqus.Section.TrussSection.TrussSection:5 of
 msgid "This object can be accessed by::"
 msgstr ""
@@ -103,8 +103,8 @@ msgstr ""
 #: abaqus.Section.ConnectorSection.ConnectorSection:24
 #: abaqus.Section.EulerianSection.EulerianSection:22
 #: abaqus.Section.GasketSection.GasketSection:22
-#: abaqus.Section.GeneralStiffnessSection.GeneralStiffnessSection:22
-#: abaqus.Section.GeometryShellSection.GeometryShellSection:20
+#: abaqus.Section.GeneralStiffnessSection.GeneralStiffnessSection:23
+#: abaqus.Section.GeometryShellSection.GeometryShellSection:21
 #: abaqus.Section.GeometryShellSection.GeometryShellSection.RebarLayers:4
 #: abaqus.Section.HomogeneousShellSection.HomogeneousShellSection:24
 #: abaqus.Section.HomogeneousSolidSection.HomogeneousSolidSection:22
@@ -155,7 +155,7 @@ msgstr ""
 #: abaqus.Section.SectionOdb.SectionOdb.TrussSection:4
 #: abaqus.Section.SurfaceSection.SurfaceSection:22
 #: abaqus.Section.TransverseShearBeam.TransverseShearBeam:21
-#: abaqus.Section.TransverseShearShell.TransverseShearShell:21
+#: abaqus.Section.TransverseShearShell.TransverseShearShell:22
 #: abaqus.Section.TrussSection.TrussSection:22 of
 msgid "This function can be accessed by::"
 msgstr ""
@@ -250,7 +250,7 @@ msgstr ""
 #: abaqus.Section.ConnectorSection.ConnectorSection:30
 #: abaqus.Section.EulerianSection.EulerianSection:28
 #: abaqus.Section.GasketSection.GasketSection:28
-#: abaqus.Section.GeneralStiffnessSection.GeneralStiffnessSection:28
+#: abaqus.Section.GeneralStiffnessSection.GeneralStiffnessSection:29
 #: abaqus.Section.HomogeneousShellSection.GeometryShellSection.name:1
 #: abaqus.Section.HomogeneousShellSection.HomogeneousShellSection:31
 #: abaqus.Section.HomogeneousSolidSection.HomogeneousSolidSection:28
@@ -1152,7 +1152,7 @@ msgid ""
 msgstr ""
 
 #: ../../None:19:<autosummary>:1
-#: abaqus.Section.GeneralStiffnessSection.GeneralStiffnessSection:19
+#: abaqus.Section.GeneralStiffnessSection.GeneralStiffnessSection:20
 #: abaqus.Section.SectionModel.SectionModel.GeneralStiffnessSection:1
 #: abaqus.Section.SectionOdb.SectionOdb.GeneralStiffnessSection:1 of
 msgid "This method creates a GeneralStiffnessSection object."
@@ -1535,7 +1535,7 @@ msgstr ""
 
 #: ../../docstring abaqus.Section.BeamSection.BeamSection:56
 #: abaqus.Section.BeamSection.BeamSection.setValues:11
-#: abaqus.Section.GeneralStiffnessSection.GeneralStiffnessSection:39
+#: abaqus.Section.GeneralStiffnessSection.GeneralStiffnessSection:40
 #: abaqus.Section.GeneralStiffnessSection.GeneralStiffnessSection.setValues:13
 #: abaqus.Section.SectionModel.SectionModel.BeamSection:25
 #: abaqus.Section.SectionModel.SectionModel.GeneralStiffnessSection:24
@@ -1550,7 +1550,7 @@ msgstr ""
 
 #: ../../docstring abaqus.Section.BeamSection.BeamSection:58
 #: abaqus.Section.BeamSection.BeamSection.setValues:13
-#: abaqus.Section.GeneralStiffnessSection.GeneralStiffnessSection:41
+#: abaqus.Section.GeneralStiffnessSection.GeneralStiffnessSection:42
 #: abaqus.Section.GeneralStiffnessSection.GeneralStiffnessSection.setValues:15
 #: abaqus.Section.SectionModel.SectionModel.BeamSection:27
 #: abaqus.Section.SectionModel.SectionModel.GeneralStiffnessSection:26
@@ -1901,7 +1901,7 @@ msgstr ""
 #: ../../docstring
 #: abaqus.Section.CompositeShellSection.CompositeShellSection:38
 #: abaqus.Section.CompositeShellSection.CompositeShellSection.setValues:10
-#: abaqus.Section.GeometryShellSection.GeometryShellSection:35
+#: abaqus.Section.GeometryShellSection.GeometryShellSection:36
 #: abaqus.Section.HomogeneousShellSection.GeometryShellSection.thicknessType:1
 #: abaqus.Section.HomogeneousShellSection.HomogeneousShellSection:43
 #: abaqus.Section.HomogeneousShellSection.HomogeneousShellSection.setValues:15
@@ -1921,7 +1921,7 @@ msgstr ""
 #: ../../docstring
 #: abaqus.Section.CompositeShellSection.CompositeShellSection:42
 #: abaqus.Section.CompositeShellSection.CompositeShellSection.setValues:14
-#: abaqus.Section.GeometryShellSection.GeometryShellSection:39
+#: abaqus.Section.GeometryShellSection.GeometryShellSection:40
 #: abaqus.Section.HomogeneousShellSection.GeometryShellSection.preIntegrate:1
 #: abaqus.Section.HomogeneousShellSection.HomogeneousShellSection:47
 #: abaqus.Section.HomogeneousShellSection.HomogeneousShellSection.setValues:19
@@ -1940,9 +1940,9 @@ msgstr ""
 #: ../../docstring
 #: abaqus.Section.CompositeShellSection.CompositeShellSection:46
 #: abaqus.Section.CompositeShellSection.CompositeShellSection.setValues:18
-#: abaqus.Section.GeneralStiffnessSection.GeneralStiffnessSection:43
+#: abaqus.Section.GeneralStiffnessSection.GeneralStiffnessSection:44
 #: abaqus.Section.GeneralStiffnessSection.GeneralStiffnessSection.setValues:17
-#: abaqus.Section.GeometryShellSection.GeometryShellSection:43
+#: abaqus.Section.GeometryShellSection.GeometryShellSection:44
 #: abaqus.Section.HomogeneousShellSection.GeometryShellSection.poissonDefinition:1
 #: abaqus.Section.HomogeneousShellSection.HomogeneousShellSection:51
 #: abaqus.Section.HomogeneousShellSection.HomogeneousShellSection.setValues:23
@@ -1971,9 +1971,9 @@ msgstr ""
 #: ../../docstring
 #: abaqus.Section.CompositeShellSection.CompositeShellSection:52
 #: abaqus.Section.CompositeShellSection.CompositeShellSection.setValues:24
-#: abaqus.Section.GeneralStiffnessSection.GeneralStiffnessSection:49
+#: abaqus.Section.GeneralStiffnessSection.GeneralStiffnessSection:50
 #: abaqus.Section.GeneralStiffnessSection.GeneralStiffnessSection.setValues:23
-#: abaqus.Section.GeometryShellSection.GeometryShellSection:49
+#: abaqus.Section.GeometryShellSection.GeometryShellSection:50
 #: abaqus.Section.HomogeneousShellSection.GeometryShellSection.poisson:1
 #: abaqus.Section.HomogeneousShellSection.HomogeneousShellSection:57
 #: abaqus.Section.HomogeneousShellSection.HomogeneousShellSection.setValues:29
@@ -1995,7 +1995,7 @@ msgstr ""
 #: ../../docstring
 #: abaqus.Section.CompositeShellSection.CompositeShellSection:55
 #: abaqus.Section.CompositeShellSection.CompositeShellSection.setValues:27
-#: abaqus.Section.GeometryShellSection.GeometryShellSection:52
+#: abaqus.Section.GeometryShellSection.GeometryShellSection:53
 #: abaqus.Section.HomogeneousShellSection.GeometryShellSection.integrationRule:1
 #: abaqus.Section.HomogeneousShellSection.HomogeneousShellSection:60
 #: abaqus.Section.HomogeneousShellSection.HomogeneousShellSection.setValues:32
@@ -2013,7 +2013,7 @@ msgstr ""
 #: ../../docstring
 #: abaqus.Section.CompositeShellSection.CompositeShellSection:58
 #: abaqus.Section.CompositeShellSection.CompositeShellSection.setValues:30
-#: abaqus.Section.GeometryShellSection.GeometryShellSection:55
+#: abaqus.Section.GeometryShellSection.GeometryShellSection:56
 #: abaqus.Section.HomogeneousShellSection.GeometryShellSection.temperature:1
 #: abaqus.Section.HomogeneousShellSection.HomogeneousShellSection:63
 #: abaqus.Section.HomogeneousShellSection.HomogeneousShellSection.setValues:35
@@ -2051,7 +2051,7 @@ msgstr ""
 #: ../../docstring
 #: abaqus.Section.CompositeShellSection.CompositeShellSection:67
 #: abaqus.Section.CompositeShellSection.CompositeShellSection.setValues:39
-#: abaqus.Section.GeometryShellSection.GeometryShellSection:59
+#: abaqus.Section.GeometryShellSection.GeometryShellSection:60
 #: abaqus.Section.HomogeneousShellSection.GeometryShellSection.nTemp:1
 #: abaqus.Section.HomogeneousShellSection.HomogeneousShellSection:72
 #: abaqus.Section.HomogeneousShellSection.HomogeneousShellSection.setValues:44
@@ -2070,7 +2070,7 @@ msgstr ""
 #: ../../docstring
 #: abaqus.Section.CompositeShellSection.CompositeShellSection:70
 #: abaqus.Section.CompositeShellSection.CompositeShellSection.setValues:42
-#: abaqus.Section.GeometryShellSection.GeometryShellSection:62
+#: abaqus.Section.GeometryShellSection.GeometryShellSection:63
 #: abaqus.Section.HomogeneousShellSection.GeometryShellSection.thicknessModulus:1
 #: abaqus.Section.HomogeneousShellSection.HomogeneousShellSection:75
 #: abaqus.Section.HomogeneousShellSection.HomogeneousShellSection.setValues:47
@@ -2089,9 +2089,9 @@ msgstr ""
 #: ../../docstring
 #: abaqus.Section.CompositeShellSection.CompositeShellSection:74
 #: abaqus.Section.CompositeShellSection.CompositeShellSection.setValues:46
-#: abaqus.Section.GeneralStiffnessSection.GeneralStiffnessSection:52
+#: abaqus.Section.GeneralStiffnessSection.GeneralStiffnessSection:53
 #: abaqus.Section.GeneralStiffnessSection.GeneralStiffnessSection.setValues:26
-#: abaqus.Section.GeometryShellSection.GeometryShellSection:66
+#: abaqus.Section.GeometryShellSection.GeometryShellSection:67
 #: abaqus.Section.HomogeneousShellSection.GeometryShellSection.useDensity:1
 #: abaqus.Section.HomogeneousShellSection.HomogeneousShellSection:79
 #: abaqus.Section.HomogeneousShellSection.HomogeneousShellSection.setValues:51
@@ -2116,9 +2116,9 @@ msgstr ""
 #: ../../docstring
 #: abaqus.Section.CompositeShellSection.CompositeShellSection:77
 #: abaqus.Section.CompositeShellSection.CompositeShellSection.setValues:49
-#: abaqus.Section.GeneralStiffnessSection.GeneralStiffnessSection:55
+#: abaqus.Section.GeneralStiffnessSection.GeneralStiffnessSection:56
 #: abaqus.Section.GeneralStiffnessSection.GeneralStiffnessSection.setValues:29
-#: abaqus.Section.GeometryShellSection.GeometryShellSection:69
+#: abaqus.Section.GeometryShellSection.GeometryShellSection:70
 #: abaqus.Section.HomogeneousShellSection.GeometryShellSection.density:1
 #: abaqus.Section.HomogeneousShellSection.HomogeneousShellSection:82
 #: abaqus.Section.HomogeneousShellSection.HomogeneousShellSection.setValues:54
@@ -2159,7 +2159,7 @@ msgstr ""
 #: ../../docstring
 #: abaqus.Section.CompositeShellSection.CompositeShellSection:83
 #: abaqus.Section.CompositeShellSection.CompositeShellSection.setValues:55
-#: abaqus.Section.GeometryShellSection.GeometryShellSection:30
+#: abaqus.Section.GeometryShellSection.GeometryShellSection:31
 #: abaqus.Section.HomogeneousShellSection.GeometryShellSection.thicknessField:1
 #: abaqus.Section.HomogeneousShellSection.HomogeneousShellSection:85
 #: abaqus.Section.HomogeneousShellSection.HomogeneousShellSection.setValues:57
@@ -2185,7 +2185,7 @@ msgstr ""
 #: ../../docstring
 #: abaqus.Section.CompositeShellSection.CompositeShellSection:88
 #: abaqus.Section.CompositeShellSection.CompositeShellSection.setValues:60
-#: abaqus.Section.GeometryShellSection.GeometryShellSection:25
+#: abaqus.Section.GeometryShellSection.GeometryShellSection:26
 #: abaqus.Section.HomogeneousShellSection.GeometryShellSection.nodalThicknessField:1
 #: abaqus.Section.HomogeneousShellSection.HomogeneousShellSection:90
 #: abaqus.Section.HomogeneousShellSection.HomogeneousShellSection.setValues:62
@@ -2587,7 +2587,7 @@ msgstr ""
 msgid ":class:`GasketSection`"
 msgstr ""
 
-#: abaqus.Section.GeneralStiffnessSection.GeneralStiffnessSection:17
+#: abaqus.Section.GeneralStiffnessSection.GeneralStiffnessSection:18
 #: abaqus.Section.SectionModel.SectionModel.GeneralStiffnessSection:10
 #: abaqus.Section.SectionOdb.SectionOdb.GeneralStiffnessSection:10 of
 msgid ""
@@ -2597,7 +2597,7 @@ msgid ""
 msgstr ""
 
 #: ../../docstring
-#: abaqus.Section.GeneralStiffnessSection.GeneralStiffnessSection:30
+#: abaqus.Section.GeneralStiffnessSection.GeneralStiffnessSection:31
 #: abaqus.Section.SectionModel.SectionModel.GeneralStiffnessSection:15
 #: abaqus.Section.SectionOdb.GeneralStiffnessSection.stiffnessMatrix:1
 #: abaqus.Section.SectionOdb.SectionOdb.GeneralStiffnessSection:15 of
@@ -2608,7 +2608,7 @@ msgid ""
 msgstr ""
 
 #: ../../docstring
-#: abaqus.Section.GeneralStiffnessSection.GeneralStiffnessSection:33
+#: abaqus.Section.GeneralStiffnessSection.GeneralStiffnessSection:34
 #: abaqus.Section.GeneralStiffnessSection.GeneralStiffnessSection.setValues:7
 #: abaqus.Section.SectionModel.SectionModel.GeneralStiffnessSection:18
 #: abaqus.Section.SectionOdb.GeneralStiffnessSection.referenceTemperature:1
@@ -2619,7 +2619,7 @@ msgid ""
 msgstr ""
 
 #: ../../docstring
-#: abaqus.Section.GeneralStiffnessSection.GeneralStiffnessSection:36
+#: abaqus.Section.GeneralStiffnessSection.GeneralStiffnessSection:37
 #: abaqus.Section.GeneralStiffnessSection.GeneralStiffnessSection.setValues:10
 #: abaqus.Section.SectionModel.SectionModel.GeneralStiffnessSection:21
 #: abaqus.Section.SectionOdb.GeneralStiffnessSection.applyThermalStress:1
@@ -2630,7 +2630,7 @@ msgid ""
 msgstr ""
 
 #: ../../docstring
-#: abaqus.Section.GeneralStiffnessSection.GeneralStiffnessSection:58
+#: abaqus.Section.GeneralStiffnessSection.GeneralStiffnessSection:59
 #: abaqus.Section.GeneralStiffnessSection.GeneralStiffnessSection.setValues:32
 #: abaqus.Section.SectionModel.SectionModel.GeneralStiffnessSection:43
 #: abaqus.Section.SectionOdb.GeneralStiffnessSection.thermalStresses:1
@@ -2642,7 +2642,7 @@ msgid ""
 msgstr ""
 
 #: ../../docstring
-#: abaqus.Section.GeneralStiffnessSection.GeneralStiffnessSection:62
+#: abaqus.Section.GeneralStiffnessSection.GeneralStiffnessSection:63
 #: abaqus.Section.GeneralStiffnessSection.GeneralStiffnessSection.setValues:36
 #: abaqus.Section.SectionModel.SectionModel.GeneralStiffnessSection:47
 #: abaqus.Section.SectionOdb.GeneralStiffnessSection.scalingData:1
@@ -2653,13 +2653,13 @@ msgid ""
 "F1,...,Fn). The default value is an empty sequence."
 msgstr ""
 
-#: abaqus.Section.GeneralStiffnessSection.GeneralStiffnessSection:66
+#: abaqus.Section.GeneralStiffnessSection.GeneralStiffnessSection:67
 #: abaqus.Section.SectionModel.SectionModel.GeneralStiffnessSection:51
 #: abaqus.Section.SectionOdb.SectionOdb.GeneralStiffnessSection:51 of
 msgid "A GeneralStiffnessSection object."
 msgstr ""
 
-#: abaqus.Section.GeneralStiffnessSection.GeneralStiffnessSection:67
+#: abaqus.Section.GeneralStiffnessSection.GeneralStiffnessSection:68
 #: abaqus.Section.SectionModel.SectionModel.GeneralStiffnessSection:52
 #: abaqus.Section.SectionOdb.SectionOdb.GeneralStiffnessSection:52 of
 msgid ":class:`GeneralStiffnessSection`"
@@ -3298,7 +3298,7 @@ msgstr ""
 #: abaqus.Section.ConnectorSection.ConnectorSection:12
 #: abaqus.Section.EulerianSection.EulerianSection:12
 #: abaqus.Section.GasketSection.GasketSection:12
-#: abaqus.Section.GeneralStiffnessSection.GeneralStiffnessSection:12
+#: abaqus.Section.GeneralStiffnessSection.GeneralStiffnessSection:13
 #: abaqus.Section.HomogeneousShellSection.HomogeneousShellSection:13
 #: abaqus.Section.HomogeneousSolidSection.HomogeneousSolidSection:12
 #: abaqus.Section.LayerProperties.LayerProperties:13
@@ -3309,7 +3309,7 @@ msgstr ""
 #: abaqus.Section.SectionLayer.SectionLayer:12
 #: abaqus.Section.SurfaceSection.SurfaceSection:12
 #: abaqus.Section.TransverseShearBeam.TransverseShearBeam:11
-#: abaqus.Section.TransverseShearShell.TransverseShearShell:11
+#: abaqus.Section.TransverseShearShell.TransverseShearShell:12
 #: abaqus.Section.TrussSection.TrussSection:12 of
 msgid "The corresponding analysis keywords are:"
 msgstr ""
@@ -3400,12 +3400,12 @@ msgid ":class:`TransverseShearBeam`"
 msgstr ""
 
 #: abaqus.Section.Section.Section.TransverseShearShell:1
-#: abaqus.Section.TransverseShearShell.TransverseShearShell:18 of
+#: abaqus.Section.TransverseShearShell.TransverseShearShell:19 of
 msgid "This method creates a TransverseShearShell object."
 msgstr ""
 
 #: abaqus.Section.Section.Section.TransverseShearShell:10
-#: abaqus.Section.TransverseShearShell.TransverseShearShell:16 of
+#: abaqus.Section.TransverseShearShell.TransverseShearShell:17 of
 msgid ""
 "Check `TransverseShearShell on help.3ds.com/2023 <https://help.3ds.com/202"
 "3/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
@@ -3413,7 +3413,7 @@ msgid ""
 msgstr ""
 
 #: ../../docstring abaqus.Section.Section.Section.TransverseShearShell:13
-#: abaqus.Section.TransverseShearShell.TransverseShearShell:27
+#: abaqus.Section.TransverseShearShell.TransverseShearShell:28
 #: abaqus.Section.TransverseShearShell.TransverseShearShell.k11:1 of
 msgid ""
 "A Float specifying the shear stiffness of the section in the first "
@@ -3421,7 +3421,7 @@ msgid ""
 msgstr ""
 
 #: ../../docstring abaqus.Section.Section.Section.TransverseShearShell:15
-#: abaqus.Section.TransverseShearShell.TransverseShearShell:29
+#: abaqus.Section.TransverseShearShell.TransverseShearShell:30
 #: abaqus.Section.TransverseShearShell.TransverseShearShell.k22:1 of
 msgid ""
 "A Float specifying the shear stiffness of the section in the second "
@@ -3429,7 +3429,7 @@ msgid ""
 msgstr ""
 
 #: ../../docstring abaqus.Section.Section.Section.TransverseShearShell:17
-#: abaqus.Section.TransverseShearShell.TransverseShearShell:31
+#: abaqus.Section.TransverseShearShell.TransverseShearShell:32
 #: abaqus.Section.TransverseShearShell.TransverseShearShell.k12:1 of
 msgid ""
 "A Float specifying the coupling term in the shear stiffness of the "
@@ -3438,12 +3438,12 @@ msgstr ""
 
 #: ../../docstring abaqus.Section.Section.Section.TransverseShearShell:19
 #: abaqus.Section.SectionBase.SectionBase.transverseShear:1
-#: abaqus.Section.TransverseShearShell.TransverseShearShell:33 of
+#: abaqus.Section.TransverseShearShell.TransverseShearShell:34 of
 msgid "A TransverseShearShell object."
 msgstr ""
 
 #: abaqus.Section.Section.Section.TransverseShearShell:20
-#: abaqus.Section.TransverseShearShell.TransverseShearShell:34 of
+#: abaqus.Section.TransverseShearShell.TransverseShearShell:35 of
 msgid ":class:`TransverseShearShell`"
 msgstr ""
 
@@ -3573,7 +3573,7 @@ msgid ""
 msgstr ""
 
 #: abaqus.Section.TransverseShearBeam.TransverseShearBeam:13
-#: abaqus.Section.TransverseShearShell.TransverseShearShell:13 of
+#: abaqus.Section.TransverseShearShell.TransverseShearShell:14 of
 msgid "TRANSVERSE SHEAR STIFFNESS"
 msgstr ""
 
@@ -3635,7 +3635,7 @@ msgid "SHELL SECTION"
 msgstr ""
 
 #: abaqus.Section.CompositeShellSection.CompositeShellSection:16
-#: abaqus.Section.GeneralStiffnessSection.GeneralStiffnessSection:14
+#: abaqus.Section.GeneralStiffnessSection.GeneralStiffnessSection:15
 #: abaqus.Section.HomogeneousShellSection.HomogeneousShellSection:16
 #: abaqus.Section.SectionLayer.SectionLayer:15 of
 msgid "SHELL GENERAL SECTION"
@@ -3698,22 +3698,22 @@ msgid ""
 "GeometryShellSection object is derived from the ShellSection object."
 msgstr ""
 
-#: abaqus.Section.GeometryShellSection.GeometryShellSection:15 of
+#: abaqus.Section.GeometryShellSection.GeometryShellSection:16 of
 msgid ""
 "Check `GeometryShellSection on help.3ds.com/2023 <https://help.3ds.com/202"
 "3/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "geometryshellsectionpyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: abaqus.Section.GeometryShellSection.GeometryShellSection:17 of
+#: abaqus.Section.GeometryShellSection.GeometryShellSection:18 of
 msgid "This method creates a GeometryShellSection object."
 msgstr ""
 
-#: abaqus.Section.GeometryShellSection.GeometryShellSection:72 of
+#: abaqus.Section.GeometryShellSection.GeometryShellSection:73 of
 msgid "A GeometryShellSection object."
 msgstr ""
 
-#: abaqus.Section.GeometryShellSection.GeometryShellSection:73 of
+#: abaqus.Section.GeometryShellSection.GeometryShellSection:74 of
 msgid ":class:`GeometryShellSection`"
 msgstr ""
 
@@ -3934,7 +3934,7 @@ msgid ""
 "ShellSection object is derived from the Section object."
 msgstr ""
 
-#: abaqus.Section.ShellSection.ShellSection:14 of
+#: abaqus.Section.ShellSection.ShellSection:15 of
 msgid ""
 "Check `ShellSection on help.3ds.com/2023 <https://help.3ds.com/2023/Englis"
 "h/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
@@ -3987,7 +3987,7 @@ msgid ""
 "homogeneoussolidsectionsetvaluespyc>`__."
 msgstr ""
 
-#: abaqus.Section.SolidSection.SolidSection:14 of
+#: abaqus.Section.SolidSection.SolidSection:15 of
 msgid ""
 "Check `SolidSection on help.3ds.com/2023 <https://help.3ds.com/2023/Englis"
 "h/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
@@ -4138,7 +4138,7 @@ msgid ""
 " are common to all objects derived from the Section."
 msgstr ""
 
-#: abaqus.Section.SectionBase.SectionBase:14 of
+#: abaqus.Section.SectionBase.SectionBase:15 of
 msgid ""
 "Check `SectionBase on help.3ds.com/2023 <https://help.3ds.com/2023/English"
 "/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"

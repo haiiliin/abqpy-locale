@@ -1,40 +1,38 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2022, WANG Hailin
 # This file is distributed under the same license as the abqpy package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: abqpy 2023\n"
+"Project-Id-Version: abqpy \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-09 05:33+0000\n"
+"POT-Creation-Date: 2022-08-23 06:36+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: zh_CN\n"
-"Language-Team: zh_CN <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.12.1\n"
+"Generated-By: Babel 2.10.3\n"
 
-#: ../../user/output/cpp/improve-efficiency.md:1
+#: ../../user/output/cpp/improve-efficiency.rst:3
 msgid "Improving the efficiency of your scripts"
 msgstr ""
 
-#: ../../user/output/cpp/improve-efficiency.md:3
+#: ../../user/output/cpp/improve-efficiency.rst:5
 msgid ""
 "If you are accessing large amounts of data from an output database, you "
 "should be aware of potential inefficiencies in your script and techniques "
 "that will help to speed up your scripts."
 msgstr ""
 
-#: ../../user/output/cpp/improve-efficiency.md:5
+#: ../../user/output/cpp/improve-efficiency.rst:8
 msgid "Creating objects to hold loop counters"
 msgstr ""
 
-#: ../../user/output/cpp/improve-efficiency.md:7
+#: ../../user/output/cpp/improve-efficiency.rst:10
 msgid ""
 "A program can spend a large proportion of its computation time executing "
 "statements inside loops. As a result, you can make your scripts more "
@@ -45,29 +43,29 @@ msgid ""
 " next value can slow your program significantly."
 msgstr ""
 
-#: ../../user/output/cpp/improve-efficiency.md:9
+#: ../../user/output/cpp/improve-efficiency.rst:12
 msgid ""
 "The following example uses the number of nodes in a part instance to "
 "determine the range of a loop counter:"
 msgstr ""
 
-#: ../../user/output/cpp/improve-efficiency.md:19
+#: ../../user/output/cpp/improve-efficiency.rst:22
 msgid ""
 "You can make the program more efficient if you create an object to hold "
 "the value of the number of nodes."
 msgstr ""
 
-#: ../../user/output/cpp/improve-efficiency.md:30
+#: ../../user/output/cpp/improve-efficiency.rst:33
 msgid ""
 "You can use this technique only if the maximum value of the loop counter "
 "remains fixed for the duration of the loop."
 msgstr ""
 
-#: ../../user/output/cpp/improve-efficiency.md:32
+#: ../../user/output/cpp/improve-efficiency.rst:36
 msgid "Creating objects to hold temporary variables"
 msgstr ""
 
-#: ../../user/output/cpp/improve-efficiency.md:34
+#: ../../user/output/cpp/improve-efficiency.rst:38
 msgid ""
 "To improve the efficiency of scripts that access an output database, you "
 "should create objects that will be used to hold temporary variables that "
@@ -77,7 +75,7 @@ msgid ""
 "up your program significantly."
 msgstr ""
 
-#: ../../user/output/cpp/improve-efficiency.md:36
+#: ../../user/output/cpp/improve-efficiency.rst:40
 msgid ""
 "The following example examines the von Mises stress in each element during"
 " a particular frame of field output. If the stress is greater than a "
@@ -85,7 +83,7 @@ msgid ""
 "element."
 msgstr ""
 
-#: ../../user/output/cpp/improve-efficiency.md:65
+#: ../../user/output/cpp/improve-efficiency.rst:69
 msgid ""
 "In this example every time the script calls the strainField.values method,"
 " Abaqus must reconstruct the sequence of FieldValue objects. This "
@@ -93,13 +91,13 @@ msgid ""
 "particularly for a large model."
 msgstr ""
 
-#: ../../user/output/cpp/improve-efficiency.md:67
+#: ../../user/output/cpp/improve-efficiency.rst:71
 msgid ""
 "A slight change in the program greatly improves its performance, as shown "
 "in the following example:"
 msgstr ""
 
-#: ../../user/output/cpp/improve-efficiency.md:97
+#: ../../user/output/cpp/improve-efficiency.rst:101
 msgid ""
 "Similarly, if you expect to retrieve more than one frame from an output "
 "database, you should create a temporary variable that holds the entire "
@@ -108,13 +106,13 @@ msgid ""
 "For example, executing the following statements could be very slow:"
 msgstr ""
 
-#: ../../user/output/cpp/improve-efficiency.md:105
+#: ../../user/output/cpp/improve-efficiency.rst:109
 msgid ""
 "Creating a temporary variable to hold the frame repository provides the "
 "same functionality and speeds up the process:"
 msgstr ""
 
-#: ../../user/output/cpp/improve-efficiency.md:114
+#: ../../user/output/cpp/improve-efficiency.rst:118
 msgid ""
 "Such a potential loss of performance will not be a problem when accessing "
 "a load case frame. Accessing a load case frame does not result in the "
@@ -122,11 +120,11 @@ msgid ""
 "corresponding loss of performance."
 msgstr ""
 
-#: ../../user/output/cpp/improve-efficiency.md:116
+#: ../../user/output/cpp/improve-efficiency.rst:121
 msgid "Using references to objects"
 msgstr ""
 
-#: ../../user/output/cpp/improve-efficiency.md:118
+#: ../../user/output/cpp/improve-efficiency.rst:123
 msgid ""
 "Many functions return a reference to an object rather than an object. "
 "Returning a reference is much more efficient because it avoids unnecessary"
@@ -137,13 +135,13 @@ msgid ""
 "expensive copy constructors. For example,"
 msgstr ""
 
-#: ../../user/output/cpp/improve-efficiency.md:126
+#: ../../user/output/cpp/improve-efficiency.rst:131
 msgid ""
 "In the above case a copy of the nodeSequence object has to be created in "
 "memory."
 msgstr ""
 
-#: ../../user/output/cpp/improve-efficiency.md:128
+#: ../../user/output/cpp/improve-efficiency.rst:133
 msgid ""
 "Many of the methods in the Abaqus Scripting Interface that provide access "
 "to an output database return a reference to an object rather than the "
@@ -151,7 +149,7 @@ msgid ""
 " specify the returned type to be a reference:"
 msgstr ""
 
-#: ../../user/output/cpp/improve-efficiency.md:135
+#: ../../user/output/cpp/improve-efficiency.rst:140
 msgid ""
 "In this case no new object is created and no copy constructors are called."
 msgstr ""

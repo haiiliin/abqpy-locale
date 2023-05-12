@@ -1,19 +1,17 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2022, WANG Hailin
 # This file is distributed under the same license as the abqpy package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: abqpy 2023\n"
+"Project-Id-Version: abqpy \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-09 05:33+0000\n"
+"POT-Creation-Date: 2023-04-27 13:38+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: zh_CN\n"
-"Language-Team: zh_CN <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -68,11 +66,11 @@ msgid ""
 msgstr ""
 
 #: abaqus.StepMiscellaneous.CompositeDamping.CompositeDamping:4
-#: abaqus.StepMiscellaneous.CompositeDampingComponent.CompositeDampingComponent:4
+#: abaqus.StepMiscellaneous.CompositeDampingComponent.CompositeDampingComponent:5
 #: abaqus.StepMiscellaneous.Control.Control:4
 #: abaqus.StepMiscellaneous.DirectDamping.DirectDamping:4
 #: abaqus.StepMiscellaneous.DirectDampingByFrequency.DirectDampingByFrequency:4
-#: abaqus.StepMiscellaneous.DirectDampingByFrequencyComponent.DirectDampingByFrequencyComponent:4
+#: abaqus.StepMiscellaneous.DirectDampingByFrequencyComponent.DirectDampingByFrequencyComponent:5
 #: abaqus.StepMiscellaneous.DirectDampingComponent.DirectDampingComponent:4
 #: abaqus.StepMiscellaneous.EmagTimeHarmonicFrequency.EmagTimeHarmonicFrequency:2
 #: abaqus.StepMiscellaneous.MassScaling.MassScaling:4
@@ -80,18 +78,18 @@ msgstr ""
 #: abaqus.StepMiscellaneous.RayleighDamping.RayleighDamping:4
 #: abaqus.StepMiscellaneous.RayleighDampingByFrequency.RayleighDampingByFrequency:4
 #: abaqus.StepMiscellaneous.RayleighDampingByFrequencyComponent.RayleighDampingByFrequencyComponent:5
-#: abaqus.StepMiscellaneous.RayleighDampingComponent.RayleighDampingComponent:4
+#: abaqus.StepMiscellaneous.RayleighDampingComponent.RayleighDampingComponent:5
 #: abaqus.StepMiscellaneous.ResponseSpectrumComponent.ResponseSpectrumComponent:4
 #: abaqus.StepMiscellaneous.SolverControl.SolverControl:4
 #: abaqus.StepMiscellaneous.SteadyStateDirectFrequency.SteadyStateDirectFrequency:4
 #: abaqus.StepMiscellaneous.SteadyStateModalFrequency.SteadyStateModalFrequency:4
-#: abaqus.StepMiscellaneous.SteadyStateSubspaceFrequency.SteadyStateSubspaceFrequency:4
+#: abaqus.StepMiscellaneous.SteadyStateSubspaceFrequency.SteadyStateSubspaceFrequency:5
 #: abaqus.StepMiscellaneous.StructuralDamping.StructuralDamping:4
 #: abaqus.StepMiscellaneous.StructuralDampingByFrequency.StructuralDampingByFrequency:4
 #: abaqus.StepMiscellaneous.StructuralDampingByFrequencyComponent.StructuralDampingByFrequencyComponent:5
-#: abaqus.StepMiscellaneous.StructuralDampingComponent.StructuralDampingComponent:4
-#: abaqus.StepMiscellaneous.SubstructureGenerateFrequency.SubstructureGenerateFrequency:5
-#: abaqus.StepMiscellaneous.SubstructureGenerateModes.SubstructureGenerateModes:4
+#: abaqus.StepMiscellaneous.StructuralDampingComponent.StructuralDampingComponent:5
+#: abaqus.StepMiscellaneous.SubstructureGenerateFrequency.SubstructureGenerateFrequency:6
+#: abaqus.StepMiscellaneous.SubstructureGenerateModes.SubstructureGenerateModes:5
 #: of
 msgid "This object can be accessed by::"
 msgstr ""
@@ -144,7 +142,7 @@ msgid ""
 "over a range of modes."
 msgstr ""
 
-#: abaqus.StepMiscellaneous.CompositeDampingComponent.CompositeDampingComponent:10
+#: abaqus.StepMiscellaneous.CompositeDampingComponent.CompositeDampingComponent:11
 #: of
 msgid ""
 "Check `CompositeDampingComponent on help.3ds.com/2023 <https://help.3ds.co"
@@ -387,7 +385,7 @@ msgid ""
 "damping over a range of frequencies."
 msgstr ""
 
-#: abaqus.StepMiscellaneous.DirectDampingByFrequencyComponent.DirectDampingByFrequencyComponent:10
+#: abaqus.StepMiscellaneous.DirectDampingByFrequencyComponent.DirectDampingByFrequencyComponent:11
 #: of
 msgid ""
 "Check `DirectDampingByFrequencyComponent on help.3ds.com/2023 <https://hel"
@@ -676,7 +674,7 @@ msgid ""
 "a range of modes."
 msgstr ""
 
-#: abaqus.StepMiscellaneous.RayleighDampingComponent.RayleighDampingComponent:10
+#: abaqus.StepMiscellaneous.RayleighDampingComponent.RayleighDampingComponent:11
 #: of
 msgid ""
 "Check `RayleighDampingComponent on help.3ds.com/2023 <https://help.3ds.com"
@@ -855,7 +853,7 @@ msgid ""
 "range of modes."
 msgstr ""
 
-#: abaqus.StepMiscellaneous.SteadyStateSubspaceFrequency.SteadyStateSubspaceFrequency:10
+#: abaqus.StepMiscellaneous.SteadyStateSubspaceFrequency.SteadyStateSubspaceFrequency:11
 #: of
 msgid ""
 "Check `SteadyStateSubspaceFrequency on help.3ds.com/2023 <https://help.3ds"
@@ -929,7 +927,7 @@ msgid ""
 "over a range of modes."
 msgstr ""
 
-#: abaqus.StepMiscellaneous.StructuralDampingComponent.StructuralDampingComponent:10
+#: abaqus.StepMiscellaneous.StructuralDampingComponent.StructuralDampingComponent:11
 #: of
 msgid ""
 "Check `StructuralDampingComponent on help.3ds.com/2023 <https://help.3ds.c"
@@ -945,7 +943,7 @@ msgid ""
 "specified frequency range including the frequency boundary."
 msgstr ""
 
-#: abaqus.StepMiscellaneous.SubstructureGenerateFrequency.SubstructureGenerateFrequency:11
+#: abaqus.StepMiscellaneous.SubstructureGenerateFrequency.SubstructureGenerateFrequency:12
 #: of
 msgid ""
 "Check `SubstructureGenerateFrequency on help.3ds.com/2023 <https://help.3d"
@@ -974,7 +972,7 @@ msgid ""
 "in a modal dynamic analysis."
 msgstr ""
 
-#: abaqus.StepMiscellaneous.SubstructureGenerateModes.SubstructureGenerateModes:10
+#: abaqus.StepMiscellaneous.SubstructureGenerateModes.SubstructureGenerateModes:11
 #: of
 msgid ""
 "Check `SubstructureGenerateModes on help.3ds.com/2023 <https://help.3ds.co"

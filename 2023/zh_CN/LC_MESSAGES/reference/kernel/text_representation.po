@@ -1,23 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2022, WANG Hailin
 # This file is distributed under the same license as the abqpy package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: abqpy 2023\n"
+"Project-Id-Version: abqpy \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-09 05:33+0000\n"
+"POT-Creation-Date: 2022-12-18 00:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: zh_CN\n"
-"Language-Team: zh_CN <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.12.1\n"
+"Generated-By: Babel 2.11.0\n"
 
 #: ../../reference/kernel/text_representation.md:1
 msgid "Text Representation"
@@ -47,11 +45,11 @@ msgid ""
 "**textReprOptions** member when a session is started."
 msgstr ""
 
-#: abaqus.TextRepresentation.TextReprOptions.TextReprOptions:7 of
+#: abaqus.TextRepresentation.TextReprOptions.TextReprOptions:9 of
 msgid "This object can be accessed by::"
 msgstr ""
 
-#: abaqus.TextRepresentation.TextReprOptions.TextReprOptions:14 of
+#: abaqus.TextRepresentation.TextReprOptions.TextReprOptions:16 of
 msgid ""
 "Check `TextReprOptions on help.3ds.com/2023 <https://help.3ds.com/2023/Eng"
 "lish/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
@@ -194,15 +192,15 @@ msgid ""
 "functiontextreprgetindentedreprpyc>`__."
 msgstr ""
 
-#: abaqus.TextRepresentation.textRepr.getIndentedRepr:7 of
+#: abaqus.TextRepresentation.textRepr.getIndentedRepr:6 of
 msgid ""
 "A Python object to be processed. (The Python object can be an Abaqus "
 "object.) This argument can also be a String representation of a Python "
 "object obtained from str(*object*)."
 msgstr ""
 
-#: abaqus.TextRepresentation.textRepr.getIndentedRepr:11
-#: abaqus.TextRepresentation.textRepr.getPaths:11 of
+#: abaqus.TextRepresentation.textRepr.getIndentedRepr:10
+#: abaqus.TextRepresentation.textRepr.getPaths:10 of
 msgid ""
 "An Int specifying the maximum depth to which the object will be printed, "
 "the SymbolicConstant UNLIMITED, or None. A value of None implies that the "
@@ -213,12 +211,12 @@ msgid ""
 "output, you should set **maxElementsInSequence** to a small number."
 msgstr ""
 
-#: abaqus.TextRepresentation.textRepr.getIndentedRepr:18
-#: abaqus.TextRepresentation.textRepr.getPaths:18
-#: abaqus.TextRepresentation.textRepr.getTypes:16
+#: abaqus.TextRepresentation.textRepr.getIndentedRepr:17
+#: abaqus.TextRepresentation.textRepr.getPaths:17
+#: abaqus.TextRepresentation.textRepr.getTypes:15
 #: abaqus.TextRepresentation.textRepr.prettyPrint:17
-#: abaqus.TextRepresentation.textRepr.printPaths:18
-#: abaqus.TextRepresentation.textRepr.printTypes:16 of
+#: abaqus.TextRepresentation.textRepr.printPaths:17
+#: abaqus.TextRepresentation.textRepr.printTypes:15 of
 msgid ""
 "An Int specifying the maximum number of elements of a sequence to return "
 "or the SymbolicConstant UNLIMITED. The initial value is 100. After the "
@@ -226,7 +224,7 @@ msgid ""
 "by the string '...'."
 msgstr ""
 
-#: abaqus.TextRepresentation.textRepr.getIndentedRepr:22
+#: abaqus.TextRepresentation.textRepr.getIndentedRepr:21
 #: abaqus.TextRepresentation.textRepr.prettyPrint:21 of
 msgid ""
 "An Int specifying the number of significant digits for Floats in the "
@@ -234,15 +232,15 @@ msgid ""
 "value is 6."
 msgstr ""
 
-#: abaqus.TextRepresentation.textRepr.getIndentedRepr:25
-#: abaqus.TextRepresentation.textRepr.getPaths:26
-#: abaqus.TextRepresentation.textRepr.getTypes:24 of
+#: abaqus.TextRepresentation.textRepr.getIndentedRepr:24
+#: abaqus.TextRepresentation.textRepr.getPaths:25
+#: abaqus.TextRepresentation.textRepr.getTypes:23 of
 msgid "A String."
 msgstr ""
 
-#: abaqus.TextRepresentation.textRepr.getIndentedRepr:26
-#: abaqus.TextRepresentation.textRepr.getPaths:27
-#: abaqus.TextRepresentation.textRepr.getTypes:25 of
+#: abaqus.TextRepresentation.textRepr.getIndentedRepr:25
+#: abaqus.TextRepresentation.textRepr.getPaths:26
+#: abaqus.TextRepresentation.textRepr.getTypes:24 of
 msgid ":class:`str`"
 msgstr ""
 
@@ -261,15 +259,15 @@ msgid ""
 "functiontextreprgetpathspyc>`__."
 msgstr ""
 
-#: abaqus.TextRepresentation.textRepr.getPaths:8 of
+#: abaqus.TextRepresentation.textRepr.getPaths:7 of
 msgid ""
 "A Python object to be processed. (The Python object can be an Abaqus "
 "object.) This argument can also be a String representation of a Python "
 "object."
 msgstr ""
 
-#: abaqus.TextRepresentation.textRepr.getPaths:22
-#: abaqus.TextRepresentation.textRepr.getTypes:20 of
+#: abaqus.TextRepresentation.textRepr.getPaths:21
+#: abaqus.TextRepresentation.textRepr.getTypes:19 of
 msgid ""
 "A String specifying the root of the paths. This String is prepended to "
 "each path found. The default value is None, implying that the path to "
@@ -291,16 +289,16 @@ msgid ""
 "functiontextreprgettypespyc>`__."
 msgstr ""
 
-#: abaqus.TextRepresentation.textRepr.getTypes:8
+#: abaqus.TextRepresentation.textRepr.getTypes:7
 #: abaqus.TextRepresentation.textRepr.prettyPrint:9
-#: abaqus.TextRepresentation.textRepr.printTypes:8 of
+#: abaqus.TextRepresentation.textRepr.printTypes:7 of
 msgid "An Abaqus object."
 msgstr ""
 
-#: abaqus.TextRepresentation.textRepr.getTypes:10
+#: abaqus.TextRepresentation.textRepr.getTypes:9
 #: abaqus.TextRepresentation.textRepr.prettyPrint:11
-#: abaqus.TextRepresentation.textRepr.printPaths:12
-#: abaqus.TextRepresentation.textRepr.printTypes:10 of
+#: abaqus.TextRepresentation.textRepr.printPaths:11
+#: abaqus.TextRepresentation.textRepr.printTypes:9 of
 msgid ""
 "An Int specifying the maximum depth to which the object will be printed, "
 "the SymbolicConstant UNLIMITED, or None. A value of None implies that the "
@@ -319,7 +317,7 @@ msgid ""
 "memory."
 msgstr ""
 
-#: abaqus.TextRepresentation.textRepr.prettyPrint:6 of
+#: abaqus.TextRepresentation.textRepr.prettyPrint:7 of
 msgid ""
 "Check `textRepr.prettyPrint on help.3ds.com/2023 <https://help.3ds.com/202"
 "3/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
@@ -343,14 +341,14 @@ msgid ""
 "functiontextreprprintpathspyc>`__."
 msgstr ""
 
-#: abaqus.TextRepresentation.textRepr.printPaths:9 of
+#: abaqus.TextRepresentation.textRepr.printPaths:8 of
 msgid ""
 "An Abaqus object. This argument can also be a String representation of an "
 "Abaqus object obtained from str(*object*)."
 msgstr ""
 
-#: abaqus.TextRepresentation.textRepr.printPaths:22
-#: abaqus.TextRepresentation.textRepr.printTypes:20 of
+#: abaqus.TextRepresentation.textRepr.printPaths:21
+#: abaqus.TextRepresentation.textRepr.printTypes:19 of
 msgid ""
 "A String specifying the root of the paths to be printed. This String is "
 "prepended to each path found. The default value is None, implying that the"
