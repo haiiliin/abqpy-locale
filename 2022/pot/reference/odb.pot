@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: abqpy 2022\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-12 14:40+0000\n"
+"POT-Creation-Date: 2023-05-13 03:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -82,7 +82,7 @@ msgstr ""
 
 #: ../../../../../src/abaqus/Odb/Odb.py:docstring of abaqus.Odb.Odb.Odb:12
 #: ../../../../../src/abaqus/Odb/OdbBase.py:docstring of abaqus.Odb.OdbBase.OdbBase:12
-#: ../../../None:7:<autosummary>:1
+#: ../../../../None:7:<autosummary>:1
 msgid "This method creates a new Odb object."
 msgstr ""
 
@@ -245,8 +245,8 @@ msgstr ""
 #: ../../../../../src/abaqus/Odb/OdbStep.py:docstring of abaqus.Odb.OdbStep.OdbStep:9
 #: ../../../../../src/abaqus/Odb/OdbStepBase.py:docstring of abaqus.Odb.OdbStepBase.OdbStepBase:20
 #: ../../../../../src/abaqus/Odb/UserDataBase.py:docstring of abaqus.Odb.UserDataBase.UserDataBase.XYData:12
-#: ../../../docstring of abaqus.Odb.RebarOrientation.OdbDatumCsys.name:1
-#: ../../../docstring of abaqus.Odb.UserDataBase.UserDataBase.name:1
+#: ../../../../docstring of abaqus.Odb.RebarOrientation.OdbDatumCsys.name:1
+#: ../../../../docstring of abaqus.Odb.UserDataBase.UserDataBase.name:1
 msgid "A String specifying the repository key."
 msgstr ""
 
@@ -415,129 +415,129 @@ msgstr ""
 msgid "Public Data Attributes:"
 msgstr ""
 
-#: ../../../None:16:<autosummary>:1
+#: ../../../../None:16:<autosummary>:1
 msgid ":py:obj:`isReadOnly <abaqus.Odb.OdbBase.OdbBase.isReadOnly>`\\"
 msgstr ""
 
-#: ../../../None:16:<autosummary>:1
-#: ../../../docstring of abaqus.Odb.OdbBase.OdbBase.isReadOnly:1
+#: ../../../../None:16:<autosummary>:1
+#: ../../../../docstring of abaqus.Odb.OdbBase.OdbBase.isReadOnly:1
 msgid "A Boolean specifying whether the output database was opened with read-only access."
 msgstr ""
 
-#: ../../../None:16:<autosummary>:1
+#: ../../../../None:16:<autosummary>:1
 msgid ":py:obj:`amplitudes <abaqus.Odb.OdbBase.OdbBase.amplitudes>`\\"
 msgstr ""
 
-#: ../../../None:16:<autosummary>:1
-#: ../../../docstring of abaqus.Odb.OdbBase.OdbBase.amplitudes:1
+#: ../../../../None:16:<autosummary>:1
+#: ../../../../docstring of abaqus.Odb.OdbBase.OdbBase.amplitudes:1
 msgid "A repository of Amplitude objects."
 msgstr ""
 
-#: ../../../None:16:<autosummary>:1
+#: ../../../../None:16:<autosummary>:1
 msgid ":py:obj:`filters <abaqus.Odb.OdbBase.OdbBase.filters>`\\"
 msgstr ""
 
-#: ../../../None:16:<autosummary>:1
-#: ../../../docstring of abaqus.Odb.OdbBase.OdbBase.filters:1
+#: ../../../../None:16:<autosummary>:1
+#: ../../../../docstring of abaqus.Odb.OdbBase.OdbBase.filters:1
 msgid "A repository of Filter objects."
 msgstr ""
 
-#: ../../../None:16:<autosummary>:1
+#: ../../../../None:16:<autosummary>:1
 msgid ":py:obj:`rootAssembly <abaqus.Odb.OdbBase.OdbBase.rootAssembly>`\\"
 msgstr ""
 
-#: ../../../None:16:<autosummary>:1
-#: ../../../docstring of abaqus.Odb.OdbBase.OdbBase.rootAssembly:1
+#: ../../../../None:16:<autosummary>:1
+#: ../../../../docstring of abaqus.Odb.OdbBase.OdbBase.rootAssembly:1
 msgid "An OdbAssembly object."
 msgstr ""
 
-#: ../../../None:16:<autosummary>:1
+#: ../../../../None:16:<autosummary>:1
 msgid ":py:obj:`jobData <abaqus.Odb.OdbBase.OdbBase.jobData>`\\"
 msgstr ""
 
-#: ../../../None:16:<autosummary>:1
-#: ../../../docstring of abaqus.Odb.OdbBase.OdbBase.jobData:1
+#: ../../../../None:16:<autosummary>:1
+#: ../../../../docstring of abaqus.Odb.OdbBase.OdbBase.jobData:1
 msgid "A JobData object."
 msgstr ""
 
-#: ../../../None:16:<autosummary>:1
+#: ../../../../None:16:<autosummary>:1
 msgid ":py:obj:`parts <abaqus.Odb.OdbBase.OdbBase.parts>`\\"
 msgstr ""
 
-#: ../../../None:16:<autosummary>:1
-#: ../../../docstring of abaqus.Odb.OdbBase.OdbBase.parts:1
+#: ../../../../None:16:<autosummary>:1
+#: ../../../../docstring of abaqus.Odb.OdbBase.OdbBase.parts:1
 msgid "A repository of OdbPart objects."
 msgstr ""
 
-#: ../../../None:16:<autosummary>:1
+#: ../../../../None:16:<autosummary>:1
 msgid ":py:obj:`materials <abaqus.Odb.OdbBase.OdbBase.materials>`\\"
 msgstr ""
 
-#: ../../../None:16:<autosummary>:1
-#: ../../../docstring of abaqus.Odb.OdbBase.OdbBase.materials:1
+#: ../../../../None:16:<autosummary>:1
+#: ../../../../docstring of abaqus.Odb.OdbBase.OdbBase.materials:1
 msgid "A repository of Material objects."
 msgstr ""
 
-#: ../../../None:16:<autosummary>:1
+#: ../../../../None:16:<autosummary>:1
 msgid ":py:obj:`steps <abaqus.Odb.OdbBase.OdbBase.steps>`\\"
 msgstr ""
 
-#: ../../../None:16:<autosummary>:1
-#: ../../../docstring of abaqus.Odb.OdbBase.OdbBase.steps:1
+#: ../../../../None:16:<autosummary>:1
+#: ../../../../docstring of abaqus.Odb.OdbBase.OdbBase.steps:1
 msgid "A repository of OdbStep objects."
 msgstr ""
 
-#: ../../../None:16:<autosummary>:1
+#: ../../../../None:16:<autosummary>:1
 msgid ":py:obj:`sections <abaqus.Odb.OdbBase.OdbBase.sections>`\\"
 msgstr ""
 
-#: ../../../None:16:<autosummary>:1
-#: ../../../docstring of abaqus.Odb.OdbBase.OdbBase.sections:1
+#: ../../../../None:16:<autosummary>:1
+#: ../../../../docstring of abaqus.Odb.OdbBase.OdbBase.sections:1
 msgid "A repository of Section objects."
 msgstr ""
 
-#: ../../../None:16:<autosummary>:1
+#: ../../../../None:16:<autosummary>:1
 msgid ":py:obj:`sectionCategories <abaqus.Odb.OdbBase.OdbBase.sectionCategories>`\\"
 msgstr ""
 
-#: ../../../None:16:<autosummary>:1
-#: ../../../docstring of abaqus.Odb.OdbBase.OdbBase.sectionCategories:1
+#: ../../../../None:16:<autosummary>:1
+#: ../../../../docstring of abaqus.Odb.OdbBase.OdbBase.sectionCategories:1
 msgid "A repository of SectionCategory objects."
 msgstr ""
 
-#: ../../../None:16:<autosummary>:1
+#: ../../../../None:16:<autosummary>:1
 msgid ":py:obj:`sectorDefinition <abaqus.Odb.OdbBase.OdbBase.sectorDefinition>`\\"
 msgstr ""
 
-#: ../../../None:16:<autosummary>:1
-#: ../../../docstring of abaqus.Odb.OdbBase.OdbBase.sectorDefinition:1
+#: ../../../../None:16:<autosummary>:1
+#: ../../../../docstring of abaqus.Odb.OdbBase.OdbBase.sectorDefinition:1
 msgid "A SectorDefinition object."
 msgstr ""
 
-#: ../../../None:16:<autosummary>:1
+#: ../../../../None:16:<autosummary>:1
 msgid ":py:obj:`userData <abaqus.Odb.OdbBase.OdbBase.userData>`\\"
 msgstr ""
 
-#: ../../../None:16:<autosummary>:1
-#: ../../../docstring of abaqus.Odb.OdbBase.OdbBase.userData:1
+#: ../../../../None:16:<autosummary>:1
+#: ../../../../docstring of abaqus.Odb.OdbBase.OdbBase.userData:1
 msgid "A UserData object."
 msgstr ""
 
-#: ../../../None:16:<autosummary>:1
+#: ../../../../None:16:<autosummary>:1
 msgid ":py:obj:`customData <abaqus.Odb.OdbBase.OdbBase.customData>`\\"
 msgstr ""
 
-#: ../../../None:16:<autosummary>:1
-#: ../../../docstring of abaqus.Odb.OdbBase.OdbBase.customData:1
+#: ../../../../None:16:<autosummary>:1
+#: ../../../../docstring of abaqus.Odb.OdbBase.OdbBase.customData:1
 msgid "A RepositorySupport object."
 msgstr ""
 
-#: ../../../None:16:<autosummary>:1
+#: ../../../../None:16:<autosummary>:1
 msgid ":py:obj:`profiles <abaqus.Odb.OdbBase.OdbBase.profiles>`\\"
 msgstr ""
 
-#: ../../../None:16:<autosummary>:1
-#: ../../../docstring of abaqus.Odb.OdbBase.OdbBase.profiles:1
+#: ../../../../None:16:<autosummary>:1
+#: ../../../../docstring of abaqus.Odb.OdbBase.OdbBase.profiles:1
 msgid "A repository of Profile objects."
 msgstr ""
 
@@ -545,278 +545,278 @@ msgstr ""
 msgid "Public Methods:"
 msgstr ""
 
-#: ../../../None:5:<autosummary>:1
+#: ../../../../None:5:<autosummary>:1
 msgid ":py:obj:`Part <abaqus.Odb.Odb.Odb.Part>`\\ \\(name\\, embeddedSpace\\, type\\)"
 msgstr ""
 
-#: ../../../None:5:<autosummary>:1
+#: ../../../../None:5:<autosummary>:1
 msgid "This method creates an OdbPart object."
 msgstr ""
 
-#: ../../../None:5:<autosummary>:1
+#: ../../../../None:5:<autosummary>:1
 msgid ":py:obj:`Step <abaqus.Odb.Odb.Odb.Step>`\\ \\(name\\, description\\, domain\\[\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../../../src/abaqus/Odb/Odb.py:docstring of abaqus.Odb.Odb.Odb.Step:1
 #: ../../../../../src/abaqus/Odb/OdbStep.py:docstring of abaqus.Odb.OdbStep.OdbStep:1
 #: ../../../../../src/abaqus/Odb/OdbStepBase.py:docstring of abaqus.Odb.OdbStepBase.OdbStepBase:12
-#: ../../../None:5:<autosummary>:1
+#: ../../../../None:5:<autosummary>:1
 msgid "This method creates an OdbStep object."
 msgstr ""
 
-#: ../../../None:5:<autosummary>:1
+#: ../../../../None:5:<autosummary>:1
 msgid ":py:obj:`SectionCategory <abaqus.Odb.Odb.Odb.SectionCategory>`\\ \\(name\\, description\\)"
 msgstr ""
 
 #: ../../../../../src/abaqus/Odb/Odb.py:docstring of abaqus.Odb.Odb.Odb.SectionCategory:1
 #: ../../../../../src/abaqus/Odb/SectionCategory.py:docstring of abaqus.Odb.SectionCategory.SectionCategory:31
-#: ../../../None:5:<autosummary>:1
+#: ../../../../None:5:<autosummary>:1
 msgid "This method creates a SectionCategory object."
 msgstr ""
 
-#: ../../../None:12:<autosummary>:1
+#: ../../../../None:12:<autosummary>:1
 msgid ":py:obj:`ActuatorAmplitude <abaqus.Amplitude.AmplitudeOdb.AmplitudeOdb.ActuatorAmplitude>`\\ \\(name\\[\\, timeSpan\\]\\)"
 msgstr ""
 
-#: ../../../None:12:<autosummary>:1
+#: ../../../../None:12:<autosummary>:1
 msgid "This method creates a ActuatorAmplitude object."
 msgstr ""
 
-#: ../../../None:12:<autosummary>:1
+#: ../../../../None:12:<autosummary>:1
 msgid ":py:obj:`DecayAmplitude <abaqus.Amplitude.AmplitudeOdb.AmplitudeOdb.DecayAmplitude>`\\ \\(name\\, initial\\, maximum\\, ...\\)"
 msgstr ""
 
-#: ../../../None:12:<autosummary>:1
+#: ../../../../None:12:<autosummary>:1
 msgid "This method creates a DecayAmplitude object."
 msgstr ""
 
-#: ../../../None:12:<autosummary>:1
+#: ../../../../None:12:<autosummary>:1
 msgid ":py:obj:`EquallySpacedAmplitude <abaqus.Amplitude.AmplitudeOdb.AmplitudeOdb.EquallySpacedAmplitude>`\\ \\(name\\, fixedInterval\\, data\\)"
 msgstr ""
 
-#: ../../../None:12:<autosummary>:1
+#: ../../../../None:12:<autosummary>:1
 msgid "This method creates an EquallySpacedAmplitude object."
 msgstr ""
 
-#: ../../../None:12:<autosummary>:1
+#: ../../../../None:12:<autosummary>:1
 msgid ":py:obj:`ModulatedAmplitude <abaqus.Amplitude.AmplitudeOdb.AmplitudeOdb.ModulatedAmplitude>`\\ \\(name\\, initial\\, magnitude\\, ...\\)"
 msgstr ""
 
-#: ../../../None:12:<autosummary>:1
+#: ../../../../None:12:<autosummary>:1
 msgid "This method creates a ModulatedAmplitude object."
 msgstr ""
 
-#: ../../../None:12:<autosummary>:1
+#: ../../../../None:12:<autosummary>:1
 msgid ":py:obj:`PeriodicAmplitude <abaqus.Amplitude.AmplitudeOdb.AmplitudeOdb.PeriodicAmplitude>`\\ \\(name\\, frequency\\, start\\, ...\\)"
 msgstr ""
 
-#: ../../../None:12:<autosummary>:1
+#: ../../../../None:12:<autosummary>:1
 msgid "This method creates a PeriodicAmplitude object."
 msgstr ""
 
-#: ../../../None:12:<autosummary>:1
+#: ../../../../None:12:<autosummary>:1
 msgid ":py:obj:`PsdDefinition <abaqus.Amplitude.AmplitudeOdb.AmplitudeOdb.PsdDefinition>`\\ \\(name\\, data\\[\\, unitType\\, ...\\]\\)"
 msgstr ""
 
-#: ../../../None:12:<autosummary>:1
+#: ../../../../None:12:<autosummary>:1
 msgid "This method creates a PsdDefinition object."
 msgstr ""
 
-#: ../../../None:12:<autosummary>:1
+#: ../../../../None:12:<autosummary>:1
 msgid ":py:obj:`SmoothStepAmplitude <abaqus.Amplitude.AmplitudeOdb.AmplitudeOdb.SmoothStepAmplitude>`\\ \\(name\\, data\\[\\, timeSpan\\]\\)"
 msgstr ""
 
-#: ../../../None:12:<autosummary>:1
+#: ../../../../None:12:<autosummary>:1
 msgid "This method creates a SmoothStepAmplitude object."
 msgstr ""
 
-#: ../../../None:12:<autosummary>:1
+#: ../../../../None:12:<autosummary>:1
 msgid ":py:obj:`SolutionDependentAmplitude <abaqus.Amplitude.AmplitudeOdb.AmplitudeOdb.SolutionDependentAmplitude>`\\ \\(name\\[\\, initial\\, ...\\]\\)"
 msgstr ""
 
-#: ../../../None:12:<autosummary>:1
+#: ../../../../None:12:<autosummary>:1
 msgid "This method creates a SolutionDependentAmplitude object."
 msgstr ""
 
-#: ../../../None:12:<autosummary>:1
+#: ../../../../None:12:<autosummary>:1
 msgid ":py:obj:`SpectrumAmplitude <abaqus.Amplitude.AmplitudeOdb.AmplitudeOdb.SpectrumAmplitude>`\\ \\(name\\, method\\, data\\[\\, ...\\]\\)"
 msgstr ""
 
-#: ../../../None:12:<autosummary>:1
+#: ../../../../None:12:<autosummary>:1
 msgid "This method creates a SpectrumAmplitude object."
 msgstr ""
 
-#: ../../../None:12:<autosummary>:1
+#: ../../../../None:12:<autosummary>:1
 msgid ":py:obj:`TabularAmplitude <abaqus.Amplitude.AmplitudeOdb.AmplitudeOdb.TabularAmplitude>`\\ \\(name\\, data\\[\\, smooth\\, timeSpan\\]\\)"
 msgstr ""
 
-#: ../../../None:12:<autosummary>:1
+#: ../../../../None:12:<autosummary>:1
 msgid "This method creates a TabularAmplitude object."
 msgstr ""
 
-#: ../../../None:6:<autosummary>:1
+#: ../../../../None:6:<autosummary>:1
 msgid ":py:obj:`ButterworthFilter <abaqus.Filter.FilterOdb.FilterOdb.ButterworthFilter>`\\ \\(name\\, cutoffFrequency\\[\\, ...\\]\\)"
 msgstr ""
 
-#: ../../../None:6:<autosummary>:1
+#: ../../../../None:6:<autosummary>:1
 msgid "This method creates a ButterworthFilter object."
 msgstr ""
 
-#: ../../../None:6:<autosummary>:1
+#: ../../../../None:6:<autosummary>:1
 msgid ":py:obj:`Chebyshev1Filter <abaqus.Filter.FilterOdb.FilterOdb.Chebyshev1Filter>`\\ \\(name\\, cutoffFrequency\\[\\, ...\\]\\)"
 msgstr ""
 
-#: ../../../None:6:<autosummary>:1
+#: ../../../../None:6:<autosummary>:1
 msgid "This method creates a Chebyshev1Filter object."
 msgstr ""
 
-#: ../../../None:6:<autosummary>:1
+#: ../../../../None:6:<autosummary>:1
 msgid ":py:obj:`Chebyshev2Filter <abaqus.Filter.FilterOdb.FilterOdb.Chebyshev2Filter>`\\ \\(name\\, cutoffFrequency\\[\\, ...\\]\\)"
 msgstr ""
 
-#: ../../../None:6:<autosummary>:1
+#: ../../../../None:6:<autosummary>:1
 msgid "This method creates a Chebyshev2Filter object."
 msgstr ""
 
-#: ../../../None:6:<autosummary>:1
+#: ../../../../None:6:<autosummary>:1
 msgid ":py:obj:`OperatorFilter <abaqus.Filter.FilterOdb.FilterOdb.OperatorFilter>`\\ \\(name\\, cutoffFrequency\\[\\, ...\\]\\)"
 msgstr ""
 
-#: ../../../None:6:<autosummary>:1
+#: ../../../../None:6:<autosummary>:1
 msgid "This method creates an OperatorFilter object."
 msgstr ""
 
-#: ../../../None:3:<autosummary>:1
+#: ../../../../None:3:<autosummary>:1
 msgid ":py:obj:`Material <abaqus.Material.MaterialOdb.MaterialOdb.Material>`\\ \\(name\\[\\, description\\, materialIdentifier\\]\\)"
 msgstr ""
 
-#: ../../../None:3:<autosummary>:1
+#: ../../../../None:3:<autosummary>:1
 msgid "This method creates a Material object."
 msgstr ""
 
-#: ../../../None:13:<autosummary>:1
+#: ../../../../None:13:<autosummary>:1
 msgid ":py:obj:`ArbitraryProfile <abaqus.BeamSectionProfile.BeamSectionProfileOdb.BeamSectionProfileOdb.ArbitraryProfile>`\\ \\(name\\, table\\)"
 msgstr ""
 
-#: ../../../None:13:<autosummary>:1
+#: ../../../../None:13:<autosummary>:1
 msgid "This method creates a ArbitraryProfile object."
 msgstr ""
 
-#: ../../../None:13:<autosummary>:1
+#: ../../../../None:13:<autosummary>:1
 msgid ":py:obj:`BoxProfile <abaqus.BeamSectionProfile.BeamSectionProfileOdb.BeamSectionProfileOdb.BoxProfile>`\\ \\(name\\, a\\, b\\, uniformThickness\\, t1\\)"
 msgstr ""
 
-#: ../../../None:13:<autosummary>:1
+#: ../../../../None:13:<autosummary>:1
 msgid "This method creates a BoxProfile object."
 msgstr ""
 
-#: ../../../None:13:<autosummary>:1
+#: ../../../../None:13:<autosummary>:1
 msgid ":py:obj:`CircularProfile <abaqus.BeamSectionProfile.BeamSectionProfileOdb.BeamSectionProfileOdb.CircularProfile>`\\ \\(name\\, r\\)"
 msgstr ""
 
-#: ../../../None:13:<autosummary>:1
+#: ../../../../None:13:<autosummary>:1
 msgid "This method creates a CircularProfile object."
 msgstr ""
 
-#: ../../../None:13:<autosummary>:1
+#: ../../../../None:13:<autosummary>:1
 msgid ":py:obj:`GeneralizedProfile <abaqus.BeamSectionProfile.BeamSectionProfileOdb.BeamSectionProfileOdb.GeneralizedProfile>`\\ \\(name\\, area\\, i11\\, i12\\, ...\\)"
 msgstr ""
 
-#: ../../../None:13:<autosummary>:1
+#: ../../../../None:13:<autosummary>:1
 msgid "This method creates a GeneralizedProfile object."
 msgstr ""
 
-#: ../../../None:13:<autosummary>:1
+#: ../../../../None:13:<autosummary>:1
 msgid ":py:obj:`HexagonalProfile <abaqus.BeamSectionProfile.BeamSectionProfileOdb.BeamSectionProfileOdb.HexagonalProfile>`\\ \\(name\\, r\\, t\\)"
 msgstr ""
 
-#: ../../../None:13:<autosummary>:1
+#: ../../../../None:13:<autosummary>:1
 msgid "This method creates a HexagonalProfile object."
 msgstr ""
 
-#: ../../../None:13:<autosummary>:1
+#: ../../../../None:13:<autosummary>:1
 msgid ":py:obj:`IProfile <abaqus.BeamSectionProfile.BeamSectionProfileOdb.BeamSectionProfileOdb.IProfile>`\\ \\(name\\, l\\, h\\, b1\\, b2\\, t1\\, t2\\, t3\\)"
 msgstr ""
 
-#: ../../../None:13:<autosummary>:1
+#: ../../../../None:13:<autosummary>:1
 msgid "This method creates an IProfile object."
 msgstr ""
 
-#: ../../../None:13:<autosummary>:1
+#: ../../../../None:13:<autosummary>:1
 msgid ":py:obj:`LProfile <abaqus.BeamSectionProfile.BeamSectionProfileOdb.BeamSectionProfileOdb.LProfile>`\\ \\(name\\, a\\, b\\, t1\\, t2\\)"
 msgstr ""
 
-#: ../../../None:13:<autosummary>:1
+#: ../../../../None:13:<autosummary>:1
 msgid "This method creates a LProfile object."
 msgstr ""
 
-#: ../../../None:13:<autosummary>:1
+#: ../../../../None:13:<autosummary>:1
 msgid ":py:obj:`PipeProfile <abaqus.BeamSectionProfile.BeamSectionProfileOdb.BeamSectionProfileOdb.PipeProfile>`\\ \\(name\\, r\\, t\\)"
 msgstr ""
 
-#: ../../../None:13:<autosummary>:1
+#: ../../../../None:13:<autosummary>:1
 msgid "This method creates a PipeProfile object."
 msgstr ""
 
-#: ../../../None:13:<autosummary>:1
+#: ../../../../None:13:<autosummary>:1
 msgid ":py:obj:`RectangularProfile <abaqus.BeamSectionProfile.BeamSectionProfileOdb.BeamSectionProfileOdb.RectangularProfile>`\\ \\(name\\, a\\, b\\)"
 msgstr ""
 
-#: ../../../None:13:<autosummary>:1
+#: ../../../../None:13:<autosummary>:1
 msgid "This method creates a RectangularProfile object."
 msgstr ""
 
-#: ../../../None:13:<autosummary>:1
+#: ../../../../None:13:<autosummary>:1
 msgid ":py:obj:`TProfile <abaqus.BeamSectionProfile.BeamSectionProfileOdb.BeamSectionProfileOdb.TProfile>`\\ \\(name\\, b\\, h\\, l\\, tf\\, tw\\)"
 msgstr ""
 
-#: ../../../None:13:<autosummary>:1
+#: ../../../../None:13:<autosummary>:1
 msgid "This method creates a TProfile object."
 msgstr ""
 
-#: ../../../None:13:<autosummary>:1
+#: ../../../../None:13:<autosummary>:1
 msgid ":py:obj:`TrapezoidalProfile <abaqus.BeamSectionProfile.BeamSectionProfileOdb.BeamSectionProfileOdb.TrapezoidalProfile>`\\ \\(name\\, a\\, b\\, c\\, d\\)"
 msgstr ""
 
-#: ../../../None:13:<autosummary>:1
+#: ../../../../None:13:<autosummary>:1
 msgid "This method creates a TrapezoidalProfile object."
 msgstr ""
 
-#: ../../../None:7:<autosummary>:1
+#: ../../../../None:7:<autosummary>:1
 msgid ":py:obj:`__init__ <abaqus.Odb.OdbBase.OdbBase.__init__>`\\ \\(name\\[\\, analysisTitle\\, description\\, ...\\]\\)"
 msgstr ""
 
-#: ../../../None:7:<autosummary>:1
+#: ../../../../None:7:<autosummary>:1
 msgid ":py:obj:`close <abaqus.Odb.OdbBase.OdbBase.close>`\\ \\(\\)"
 msgstr ""
 
 #: ../../../../../src/abaqus/Odb/OdbBase.py:docstring of abaqus.Odb.OdbBase.OdbBase.close:1
-#: ../../../None:7:<autosummary>:1
+#: ../../../../None:7:<autosummary>:1
 msgid "This method closes an output database."
 msgstr ""
 
-#: ../../../None:7:<autosummary>:1
+#: ../../../../None:7:<autosummary>:1
 msgid ":py:obj:`getFrame <abaqus.Odb.OdbBase.OdbBase.getFrame>`\\ \\(frameValue\\[\\, match\\]\\)"
 msgstr ""
 
-#: ../../../None:7:<autosummary>:1
+#: ../../../../None:7:<autosummary>:1
 msgid "This method returns the frame at the specified time, frequency, or mode."
 msgstr ""
 
-#: ../../../None:7:<autosummary>:1
+#: ../../../../None:7:<autosummary>:1
 msgid ":py:obj:`save <abaqus.Odb.OdbBase.OdbBase.save>`\\ \\(\\)"
 msgstr ""
 
 #: ../../../../../src/abaqus/Odb/OdbBase.py:docstring of abaqus.Odb.OdbBase.OdbBase.save:1
-#: ../../../None:7:<autosummary>:1
+#: ../../../../None:7:<autosummary>:1
 msgid "This method saves output to an output database (.odb ) file."
 msgstr ""
 
-#: ../../../None:7:<autosummary>:1
+#: ../../../../None:7:<autosummary>:1
 msgid ":py:obj:`update <abaqus.Odb.OdbBase.OdbBase.update>`\\ \\(\\)"
 msgstr ""
 
-#: ../../../None:7:<autosummary>:1
+#: ../../../../None:7:<autosummary>:1
 msgid "This method is used to update an Odb object in memory while an Abaqus analysis writes data to the associated output database."
 msgstr ""
 
@@ -911,13 +911,13 @@ msgstr ""
 
 #: ../../../../../src/abaqus/Odb/Odb.py:docstring of abaqus.Odb.Odb.Odb.SectionCategory:12
 #: ../../../../../src/abaqus/Odb/SectionCategory.py:docstring of abaqus.Odb.SectionCategory.SectionCategory:39
-#: ../../../docstring of abaqus.Odb.SectionCategory.SectionCategory.name:1
+#: ../../../../docstring of abaqus.Odb.SectionCategory.SectionCategory.name:1
 msgid "A String specifying the name of the category."
 msgstr ""
 
 #: ../../../../../src/abaqus/Odb/Odb.py:docstring of abaqus.Odb.Odb.Odb.SectionCategory:14
 #: ../../../../../src/abaqus/Odb/SectionCategory.py:docstring of abaqus.Odb.SectionCategory.SectionCategory:41
-#: ../../../docstring of abaqus.Odb.SectionCategory.SectionCategory.description:1
+#: ../../../../docstring of abaqus.Odb.SectionCategory.SectionCategory.description:1
 msgid "A String specifying the description of the category."
 msgstr ""
 
@@ -1344,23 +1344,23 @@ msgstr ""
 msgid "Check `AnalyticSurface on help.3ds.com/2022 <https://help.3ds.com/2022/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-analyticsurfacepyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbRigidBody.AnalyticSurface.filletRadius:1
+#: ../../../../docstring of abaqus.Odb.OdbRigidBody.AnalyticSurface.filletRadius:1
 msgid "A Float specifying radius of curvature to smooth discontinuities between adjoining segments. The default value is 0.0."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbRigidBody.AnalyticSurface.localCoordData:1
+#: ../../../../docstring of abaqus.Odb.OdbRigidBody.AnalyticSurface.localCoordData:1
 msgid "A tuple of tuples of Floats specifying the global coordinates of points representing the local coordinate system, if used."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbRigidBody.AnalyticSurface.name:1
+#: ../../../../docstring of abaqus.Odb.OdbRigidBody.AnalyticSurface.name:1
 msgid "A String specifying the name of the analytic surface."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbRigidBody.AnalyticSurface.segments:1
+#: ../../../../docstring of abaqus.Odb.OdbRigidBody.AnalyticSurface.segments:1
 msgid "An OdbSequenceAnalyticSurfaceSegment object specifying the profile associated with the surface."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbRigidBody.AnalyticSurface.type:1
+#: ../../../../docstring of abaqus.Odb.OdbRigidBody.AnalyticSurface.type:1
 msgid "A SymbolicConstant specifying the type of AnalyticSurface object. Possible values are SEGMENTS, CYLINDER, and REVOLUTION."
 msgstr ""
 
@@ -1456,12 +1456,12 @@ msgid "This method creates an AnalyticSurfaceSegment object."
 msgstr ""
 
 #: ../../../../../src/abaqus/Odb/AnalyticSurfaceSegment.py:docstring of abaqus.Odb.AnalyticSurfaceSegment.AnalyticSurfaceSegment:22
-#: ../../../docstring of abaqus.Odb.OdbPartBase.AnalyticSurfaceSegment.type:1
+#: ../../../../docstring of abaqus.Odb.OdbPartBase.AnalyticSurfaceSegment.type:1
 msgid "A SymbolicConstant specifying the type of AnalyticSurfaceSegment. Possible values are START, LINE, CIRCLE, and PARABOLA."
 msgstr ""
 
 #: ../../../../../src/abaqus/Odb/AnalyticSurfaceSegment.py:docstring of abaqus.Odb.AnalyticSurfaceSegment.AnalyticSurfaceSegment:25
-#: ../../../docstring of abaqus.Odb.OdbPartBase.AnalyticSurfaceSegment.data:1
+#: ../../../../docstring of abaqus.Odb.OdbPartBase.AnalyticSurfaceSegment.data:1
 msgid "A sequence of sequences of Floats specifying the coordinates of point/s representing the segment of the AnalyticSurface object. If **type** = CIRCLE, the first row contains coordinates of the end point and the second row contains coordinates of the center point. If **type** = PARABOLA, the first row contains coordinates of the middle point and the second row contains coordinates of the end point. If **type** = START or **type** = LINE, a single row contains coordinates of the start/end point."
 msgstr ""
 
@@ -1481,15 +1481,15 @@ msgstr ""
 msgid "Check `BeamOrientation on help.3ds.com/2022 <https://help.3ds.com/2022/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-beamorientationpyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.BeamOrientationArray.BeamOrientation.method:1
+#: ../../../../docstring of abaqus.Odb.BeamOrientationArray.BeamOrientation.method:1
 msgid "A SymbolicConstant specifying the orientation assignment method. Possible values are N1_COSINES, CSYS, and VECT."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.BeamOrientationArray.BeamOrientation.region:1
+#: ../../../../docstring of abaqus.Odb.BeamOrientationArray.BeamOrientation.region:1
 msgid "An OdbSet object specifying a region for which the beam orientation is defined."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.BeamOrientationArray.BeamOrientation.vector:1
+#: ../../../../docstring of abaqus.Odb.BeamOrientationArray.BeamOrientation.vector:1
 msgid "A tuple of Floats specifying direction cosines of the n1-direction of the beam cross-section."
 msgstr ""
 
@@ -1518,7 +1518,7 @@ msgstr ""
 #: ../../../../../src/abaqus/Odb/OdbSet.py:docstring of abaqus.Odb.OdbSet.OdbSet.MeshSurfaceFromElsets:14
 #: ../../../../../src/abaqus/Odb/OdbSet.py:docstring of abaqus.Odb.OdbSet.OdbSet.MeshSurfaceFromLabels:14
 #: ../../../../../src/abaqus/Odb/OdbSet.py:docstring of abaqus.Odb.OdbSet.OdbSet.NodeSetFromNodeLabels:14
-#: ../../../docstring of abaqus.Odb.RebarOrientation.OdbSet.name:1
+#: ../../../../docstring of abaqus.Odb.RebarOrientation.OdbSet.name:1
 msgid "A String specifying the name of the set and the repository key."
 msgstr ""
 
@@ -1675,35 +1675,35 @@ msgstr ""
 msgid "A sequence of node labels. A node label is a sequence of Int node identifiers. For example, for a part:`nodeLabels=(2,3,5,7)`For an assembly:`nodeLabels=(('Instance-1', (2,3,5,7)), ('Instance-2', (1,2,3)))`"
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.RebarOrientation.OdbSet.elements:1
+#: ../../../../docstring of abaqus.Odb.RebarOrientation.OdbSet.elements:1
 msgid "An OdbMeshElementArray object specifying the elements of an OdbSet. If a set spans more than one part instance, this member is a sequence of sequences for each part instance."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.RebarOrientation.OdbSet.faces:1
+#: ../../../../docstring of abaqus.Odb.RebarOrientation.OdbSet.faces:1
 msgid "A tuple of SymbolicConstants specifying the element face. If a set spans more than one part instance, this member is a sequence of sequences for each part instance."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.RebarOrientation.OdbSet.instanceNames:1
+#: ../../../../docstring of abaqus.Odb.RebarOrientation.OdbSet.instanceNames:1
 msgid "A tuple of Strings specifying the namespaces for the nodes, elements, and faces; None if the set is on a Part or an OdbInstance object."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.RebarOrientation.OdbSet.instances:1
+#: ../../../../docstring of abaqus.Odb.RebarOrientation.OdbSet.instances:1
 msgid "A repository of an OdbInstance object."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.RebarOrientation.OdbSet.instances:3
+#: ../../../../docstring of abaqus.Odb.RebarOrientation.OdbSet.instances:3
 msgid "The ``instances`` attribute was added."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.RebarOrientation.OdbSet.isInternal:1
+#: ../../../../docstring of abaqus.Odb.RebarOrientation.OdbSet.isInternal:1
 msgid "A Boolean specifying whether the set is internal."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.RebarOrientation.OdbSet.isInternal:3
+#: ../../../../docstring of abaqus.Odb.RebarOrientation.OdbSet.isInternal:3
 msgid "The ``isInternal`` attribute was added."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.RebarOrientation.OdbSet.nodes:1
+#: ../../../../docstring of abaqus.Odb.RebarOrientation.OdbSet.nodes:1
 msgid "An OdbMeshNodeArray object specifying the nodes of an OdbSet. If a set spans more than one part instance, this member is a sequence of sequences for each part instance."
 msgstr ""
 
@@ -1715,83 +1715,83 @@ msgstr ""
 msgid "Check `FieldBulkData on help.3ds.com/2022 <https://help.3ds.com/2022/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-fieldbulkdatapyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.FieldBulkData.FieldBulkData.componentLabels:1
+#: ../../../../docstring of abaqus.Odb.FieldBulkData.FieldBulkData.componentLabels:1
 msgid "A sequence of Strings specifying the component labels."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.FieldBulkData.FieldBulkData.conjugateData:1
+#: ../../../../docstring of abaqus.Odb.FieldBulkData.FieldBulkData.conjugateData:1
 msgid "A tuple of Floats specifying data in the form described by **type**. If **type** = TENSOR or VECTOR, **conjugateData** is a sequence containing the imaginary part of the components for each element or node in the block. If the underlying data are in double precision, an exception will be thrown."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.FieldBulkData.FieldBulkData.data:1
+#: ../../../../docstring of abaqus.Odb.FieldBulkData.FieldBulkData.data:1
 msgid "A tuple of Floats specifying data in the form described by **type**. If **type** = TENSOR or VECTOR, **data** is a sequence containing the components for each element or node in the block. If the underlying data are in double precision, an exception will be thrown."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.FieldBulkData.FieldBulkData.elementLabels:1
+#: ../../../../docstring of abaqus.Odb.FieldBulkData.FieldBulkData.elementLabels:1
 msgid "A sequence of Ints specifying the element labels of the elements in the block. **elementLabels** is valid only if **position** = INTEGRATION_POINT, CENTROID, ELEMENT_NODAL, or ELEMENT_FACE."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.FieldBulkData.FieldBulkData.instance:1
-#: ../../../docstring of abaqus.Odb.FieldValueArray.FieldValue.instance:1
+#: ../../../../docstring of abaqus.Odb.FieldBulkData.FieldBulkData.instance:1
+#: ../../../../docstring of abaqus.Odb.FieldValueArray.FieldValue.instance:1
 msgid "An OdbInstance object specifying the part to which the labels belong."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.FieldBulkData.FieldBulkData.integrationPoints:1
+#: ../../../../docstring of abaqus.Odb.FieldBulkData.FieldBulkData.integrationPoints:1
 msgid "A sequence of Ints specifying the integration points in the elements in the block. **integrationPoints** is available only if **position** = INTEGRATION_POINT."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.FieldBulkData.FieldBulkData.localCoordSystem:1
+#: ../../../../docstring of abaqus.Odb.FieldBulkData.FieldBulkData.localCoordSystem:1
 msgid "A pointer to an array of Floats specifying the quaternion representing the local coordinate system (the rotation from global to local) at each output location. The quaternion is returned in the form q=(q,q0), which is the reverse of that shown in [Rotation variables](https://help.3ds.com/2022/english/DSSIMULIA_Established/SIMACAETHERefMap/simathe-c-rotationvars.htm?ContextScope=all). **localCoordSystem** is available for TENSOR data written in a local coordinate system. It is also available for VECTOR data for connector element outputs. For connector element outputs the quaternion form is q=(q0,q)q=(q0,q), which represents the rotation from local to global. If the underlying data are in double precision, an exception will be thrown."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.FieldBulkData.FieldBulkData.mises:1
+#: ../../../../docstring of abaqus.Odb.FieldBulkData.FieldBulkData.mises:1
 msgid "A sequence of Floats specifying the calculated von Mises stress at each output location in the block of element data, or NULL. The value is valid only when the **validInvariants** member includes MISES; otherwise, the value is indeterminate. Conjugate data will be ignored in invariant calculation."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.FieldBulkData.FieldBulkData.nodeLabels:1
+#: ../../../../docstring of abaqus.Odb.FieldBulkData.FieldBulkData.nodeLabels:1
 msgid "A sequence of Ints specifying the node labels of the nodes in the block. **nodelabels** is valid only if **position** = ELEMENT_NODAL or NODAL."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.FieldBulkData.FieldBulkData.position:1
-#: ../../../docstring of abaqus.Odb.FieldValueArray.FieldValue.position:1
+#: ../../../../docstring of abaqus.Odb.FieldBulkData.FieldBulkData.position:1
+#: ../../../../docstring of abaqus.Odb.FieldValueArray.FieldValue.position:1
 msgid "A SymbolicConstant specifying the position of the output in the element. Possible values are:"
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.FieldBulkData.FieldBulkData.position:4
-#: ../../../docstring of abaqus.Odb.FieldValueArray.FieldValue.position:4
-#: ../../../docstring of abaqus.Odb.OdbStepBase.HistoryPoint.position:4
+#: ../../../../docstring of abaqus.Odb.FieldBulkData.FieldBulkData.position:4
+#: ../../../../docstring of abaqus.Odb.FieldValueArray.FieldValue.position:4
+#: ../../../../docstring of abaqus.Odb.OdbStepBase.HistoryPoint.position:4
 msgid "NODAL, specifying the values calculated at the nodes."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.FieldBulkData.FieldBulkData.position:5
-#: ../../../docstring of abaqus.Odb.FieldValueArray.FieldValue.position:5
-#: ../../../docstring of abaqus.Odb.OdbStepBase.HistoryPoint.position:7
+#: ../../../../docstring of abaqus.Odb.FieldBulkData.FieldBulkData.position:5
+#: ../../../../docstring of abaqus.Odb.FieldValueArray.FieldValue.position:5
+#: ../../../../docstring of abaqus.Odb.OdbStepBase.HistoryPoint.position:7
 msgid "INTEGRATION_POINT, specifying the values calculated at the integration points."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.FieldBulkData.FieldBulkData.position:6
-#: ../../../docstring of abaqus.Odb.FieldValueArray.FieldValue.position:6
-#: ../../../docstring of abaqus.Odb.OdbStepBase.HistoryPoint.position:5
+#: ../../../../docstring of abaqus.Odb.FieldBulkData.FieldBulkData.position:6
+#: ../../../../docstring of abaqus.Odb.FieldValueArray.FieldValue.position:6
+#: ../../../../docstring of abaqus.Odb.OdbStepBase.HistoryPoint.position:5
 msgid "ELEMENT_NODAL, specifying the values obtained by extrapolating results calculated at the integration points."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.FieldBulkData.FieldBulkData.position:8
+#: ../../../../docstring of abaqus.Odb.FieldBulkData.FieldBulkData.position:8
 msgid "ELEMENT_FACE."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.FieldBulkData.FieldBulkData.position:9
-#: ../../../docstring of abaqus.Odb.FieldValueArray.FieldValue.position:10
+#: ../../../../docstring of abaqus.Odb.FieldBulkData.FieldBulkData.position:9
+#: ../../../../docstring of abaqus.Odb.FieldValueArray.FieldValue.position:10
 msgid "CENTROID, specifying the value at the centroid obtained by extrapolating results calculated at the integration points."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.FieldBulkData.FieldBulkData.sectionPoint:1
+#: ../../../../docstring of abaqus.Odb.FieldBulkData.FieldBulkData.sectionPoint:1
 msgid "A SectionPoint object specifying the section point number of the current block of data."
 msgstr ""
 
 #: ../../../../../src/abaqus/Odb/FieldOutput.py:docstring of abaqus.Odb.FieldOutput.FieldOutput.setDataType:7
-#: ../../../docstring of abaqus.Odb.FieldBulkData.FieldBulkData.type:1
-#: ../../../docstring of abaqus.Odb.FieldValueArray.FieldValue.type:1
-#: ../../../docstring of abaqus.Odb.OdbStepBase.FieldOutput.type:1
+#: ../../../../docstring of abaqus.Odb.FieldBulkData.FieldBulkData.type:1
+#: ../../../../docstring of abaqus.Odb.FieldValueArray.FieldValue.type:1
+#: ../../../../docstring of abaqus.Odb.OdbStepBase.FieldOutput.type:1
 msgid "A SymbolicConstant specifying the output type. Possible values are SCALAR, VECTOR, TENSOR_3D_FULL, TENSOR_3D_PLANAR, TENSOR_3D_SURFACE, TENSOR_2D_PLANAR, and TENSOR_2D_SURFACE."
 msgstr ""
 
@@ -1808,8 +1808,8 @@ msgstr ""
 #: ../../../../../src/abaqus/Odb/OdbAssembly.py:docstring of abaqus.Odb.OdbAssembly.OdbAssembly.Instance:12
 #: ../../../../../src/abaqus/Odb/OdbInstance.py:docstring of abaqus.Odb.OdbInstance.OdbInstance:9
 #: ../../../../../src/abaqus/Odb/OdbInstanceBase.py:docstring of abaqus.Odb.OdbInstanceBase.OdbInstanceBase:21
-#: ../../../docstring of abaqus.Odb.OdbInstanceBase.OdbInstanceBase.name:1
-#: ../../../docstring of abaqus.Odb.OdbSet.OdbMeshElement.instanceName:1
+#: ../../../../docstring of abaqus.Odb.OdbInstanceBase.OdbInstanceBase.name:1
+#: ../../../../docstring of abaqus.Odb.OdbSet.OdbMeshElement.instanceName:1
 msgid "A String specifying the instance name."
 msgstr ""
 
@@ -1916,20 +1916,20 @@ msgstr ""
 
 #: ../../../../../src/abaqus/Odb/SectionCategory.py:docstring of abaqus.Odb.SectionCategory.SectionCategory.SectionPoint:12
 #: ../../../../../src/abaqus/Odb/SectionPoint.py:docstring of abaqus.Odb.SectionPoint.SectionPoint:38
-#: ../../../docstring of abaqus.Odb.SectionPointArray.SectionPoint.number:1
+#: ../../../../docstring of abaqus.Odb.SectionPointArray.SectionPoint.number:1
 msgid "An Int specifying the number of the section point. See Beam elements and Shell elements for the numbering convention."
 msgstr ""
 
 #: ../../../../../src/abaqus/Odb/SectionCategory.py:docstring of abaqus.Odb.SectionCategory.SectionCategory.SectionPoint:15
 #: ../../../../../src/abaqus/Odb/SectionPoint.py:docstring of abaqus.Odb.SectionPoint.SectionPoint:41
-#: ../../../docstring of abaqus.Odb.SectionPointArray.SectionPoint.description:1
+#: ../../../../docstring of abaqus.Odb.SectionPointArray.SectionPoint.description:1
 msgid "A String specifying the description of the section point."
 msgstr ""
 
 #: ../../../../../src/abaqus/Odb/SectionCategory.py:docstring of abaqus.Odb.SectionCategory.SectionCategory.SectionPoint:17
 #: ../../../../../src/abaqus/Odb/SectionPoint.py:docstring of abaqus.Odb.SectionPoint.SectionPoint:43
-#: ../../../docstring of abaqus.Odb.FieldValueArray.FieldValue.sectionPoint:1
-#: ../../../docstring of abaqus.Odb.OdbStepBase.HistoryPoint.sectionPoint:1
+#: ../../../../docstring of abaqus.Odb.FieldValueArray.FieldValue.sectionPoint:1
+#: ../../../../docstring of abaqus.Odb.OdbStepBase.HistoryPoint.sectionPoint:1
 msgid "A SectionPoint object."
 msgstr ""
 
@@ -1946,12 +1946,12 @@ msgstr ""
 msgid "Check `FieldLocation on help.3ds.com/2022 <https://help.3ds.com/2022/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-fieldlocationpyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.FieldOutput.FieldLocation.position:1
+#: ../../../../docstring of abaqus.Odb.FieldOutput.FieldLocation.position:1
 msgid "A SymbolicConstant specifying the position of the output in the element. Possible values are:NODAL, specifying the values calculated at the nodes.INTEGRATION_POINT, specifying the values calculated at the integration points.ELEMENT_NODAL, specifying the values obtained by extrapolating results calculated at the integration points.ELEMENT_FACE.CENTROID, specifying the value at the centroid obtained by extrapolating results calculated at the integration points."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.FieldOutput.FieldLocation.sectionPoints:1
-#: ../../../docstring of abaqus.Odb.SectionCategory.SectionCategory.sectionPoints:1
+#: ../../../../docstring of abaqus.Odb.FieldOutput.FieldLocation.sectionPoints:1
+#: ../../../../docstring of abaqus.Odb.SectionCategory.SectionCategory.sectionPoints:1
 msgid "A SectionPointArray object."
 msgstr ""
 
@@ -1964,27 +1964,27 @@ msgid "Check `FieldOutput on help.3ds.com/2022 <https://help.3ds.com/2022/Englis
 msgstr ""
 
 #: ../../../../../src/abaqus/Odb/FieldOutput.py:docstring of abaqus.Odb.FieldOutput.FieldOutput.setComponentLabels:7
-#: ../../../docstring of abaqus.Odb.OdbStepBase.FieldOutput.componentLabels:1
+#: ../../../../docstring of abaqus.Odb.OdbStepBase.FieldOutput.componentLabels:1
 msgid "A sequence of Strings specifying the labels for each component of the value. The length of the sequence must match the type. If **type** = TENSOR, the default value is **name** with the suffixes ('11', '22', '33', '12', '13', '23'). If **type** = VECTOR, the default value is **name** with the suffixes ('1', '2', '3'). If **type** = SCALAR, the default value is an empty sequence."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbStepBase.FieldOutput.description:1
+#: ../../../../docstring of abaqus.Odb.OdbStepBase.FieldOutput.description:1
 msgid ") should not be used as a part of the field output description."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbStepBase.FieldOutput.description:0
+#: ../../../../docstring of abaqus.Odb.OdbStepBase.FieldOutput.description:0
 msgid "type"
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbStepBase.FieldOutput.description:4
+#: ../../../../docstring of abaqus.Odb.OdbStepBase.FieldOutput.description:4
 msgid "A String specifying the output variable. Colon ("
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbStepBase.FieldOutput.dim:1
+#: ../../../../docstring of abaqus.Odb.OdbStepBase.FieldOutput.dim:1
 msgid "An Int specifying the dimension of vector or the first dimension (number of rows) of matrix."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbStepBase.FieldOutput.dim2:1
+#: ../../../../docstring of abaqus.Odb.OdbStepBase.FieldOutput.dim2:1
 msgid "An Int specifying the second dimension (number of columns) of matrix."
 msgstr ""
 
@@ -2008,22 +2008,22 @@ msgstr ""
 msgid "The getConnectorFieldXformedToNodeA method throws an exception if the field requires a     deformationField and the argument is not supplied."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbStepBase.FieldOutput.isComplex:1
+#: ../../../../docstring of abaqus.Odb.OdbStepBase.FieldOutput.isComplex:1
 msgid "A Boolean specifying whether the data are complex."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbStepBase.FieldOutput.isEngineeringTensor:1
+#: ../../../../docstring of abaqus.Odb.OdbStepBase.FieldOutput.isEngineeringTensor:1
 msgid "A Boolean specifying whether the field is an engineering tensor or not. Setting isEngineeringTensor to true makes a tensor field behave as a strain like quantity where the off-diagonal components of tensor are halved for invariants computation. This parameter applies only to tensor field outputs. The default value is OFF."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbStepBase.FieldOutput.locations:1
+#: ../../../../docstring of abaqus.Odb.OdbStepBase.FieldOutput.locations:1
 msgid "A FieldLocationArray object."
 msgstr ""
 
 #: ../../../../../src/abaqus/Odb/HistoryOutput.py:docstring of abaqus.Odb.HistoryOutput.HistoryOutput:20
 #: ../../../../../src/abaqus/Odb/HistoryRegion.py:docstring of abaqus.Odb.HistoryRegion.HistoryRegion.HistoryOutput:9
-#: ../../../docstring of abaqus.Odb.HistoryRegion.HistoryOutput.name:1
-#: ../../../docstring of abaqus.Odb.OdbStepBase.FieldOutput.name:1
+#: ../../../../docstring of abaqus.Odb.HistoryRegion.HistoryOutput.name:1
+#: ../../../../docstring of abaqus.Odb.OdbStepBase.FieldOutput.name:1
 msgid "A String specifying the output variable name."
 msgstr ""
 
@@ -2107,11 +2107,11 @@ msgstr ""
 msgid "The default value is an empty sequence."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbStepBase.FieldOutput.validInvariants:1
+#: ../../../../docstring of abaqus.Odb.OdbStepBase.FieldOutput.validInvariants:1
 msgid "A sequence of SymbolicConstants specifying which invariants should be calculated for this field. An empty sequence indicates that no invariants are valid for this field. Possible values are:MAGNITUDEMISESTRESCAPRESSINV3MAX_PRINCIPALMID_PRINCIPALMIN_PRINCIPALMAX_INPLANE_PRINCIPALMIN_INPLANE_PRINCIPALOUTOFPLANE_PRINCIPALThe default value is an empty sequence."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbStepBase.FieldOutput.values:1
+#: ../../../../docstring of abaqus.Odb.OdbStepBase.FieldOutput.values:1
 msgid "A FieldValueArray object specifying the order of the objects in the array is determined by the Abaqus Scripting Interface; see the **data** argument to the addData method for a description of the order."
 msgstr ""
 
@@ -2123,104 +2123,104 @@ msgstr ""
 msgid "Check `FieldValue on help.3ds.com/2022 <https://help.3ds.com/2022/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-fieldvaluepyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.FieldValueArray.FieldValue.conjugateData:1
+#: ../../../../docstring of abaqus.Odb.FieldValueArray.FieldValue.conjugateData:1
 msgid "A tuple of Floats specifying data in the form described by **type**. If **type** = TENSOR or VECTOR, **conjugateData** is a sequence containing the components. If the underlying data are in double precision, an exception will be thrown."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.FieldValueArray.FieldValue.conjugateDataDouble:1
+#: ../../../../docstring of abaqus.Odb.FieldValueArray.FieldValue.conjugateDataDouble:1
 msgid "A tuple of Floats specifying data in the form described by **type**. If **type** = TENSOR or VECTOR, **conjugateData** is a sequence containing the components. If the underlying data are in single precision, an exception will be thrown."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.FieldValueArray.FieldValue.data:1
+#: ../../../../docstring of abaqus.Odb.FieldValueArray.FieldValue.data:1
 msgid "A tuple of Floats specifying data in the form described by **type**. If **type** = TENSOR or VECTOR, **data** is a sequence containing the components. If the underlying data are in double precision an exception will be thrown."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.FieldValueArray.FieldValue.dataDouble:1
+#: ../../../../docstring of abaqus.Odb.FieldValueArray.FieldValue.dataDouble:1
 msgid "A tuple of Floats specifying data in the form described by **type**. If **type** = TENSOR or VECTOR, **data** is a sequence containing the components. If the underlying data are in single precision, an exception will be thrown."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.FieldValueArray.FieldValue.elementLabel:1
+#: ../../../../docstring of abaqus.Odb.FieldValueArray.FieldValue.elementLabel:1
 msgid "An Int specifying the element label of the element containing the location. **elementLabel** is available only if **position** = INTEGRATION_POINT, CENTROID, ELEMENT_NODAL, or ELEMENT_FACE."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.FieldValueArray.FieldValue.face:1
+#: ../../../../docstring of abaqus.Odb.FieldValueArray.FieldValue.face:1
 msgid "A SymbolicConstant specifying the face of the element. **face** is available only if **position** = ELEMENT_FACE."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.FieldValueArray.FieldValue.integrationPoint:1
+#: ../../../../docstring of abaqus.Odb.FieldValueArray.FieldValue.integrationPoint:1
 msgid "An Int specifying the integration point in the element. **integrationPoint** is available only if **position** = INTEGRATION_POINT."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.FieldValueArray.FieldValue.inv3:1
+#: ../../../../docstring of abaqus.Odb.FieldValueArray.FieldValue.inv3:1
 msgid "A Float specifying the calculated third stress invariant. The value is valid only when the **validInvariants** member includes INV3; otherwise, the value is indeterminate. Conjugate data will be ignored in invariant calculation."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.FieldValueArray.FieldValue.localCoordSystem:1
+#: ../../../../docstring of abaqus.Odb.FieldValueArray.FieldValue.localCoordSystem:1
 msgid "A tuple of tuples of Floats specifying the 3 x 3 matrix of Floats specifying the direction cosines of the local coordinate system (the rotation from global to local). Each sequence represents a row in the direction cosine matrix. **localCoordSystem** is available for TENSOR data written in a local coordinate system. It is also available for VECTOR data for connector element outputs. For connector element outputs the rotation is from local to global. If the underlying data are in double precision, an exception will be thrown."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.FieldValueArray.FieldValue.localCoordSystemDouble:1
+#: ../../../../docstring of abaqus.Odb.FieldValueArray.FieldValue.localCoordSystemDouble:1
 msgid "A tuple of tuples of Floats specifying the 3 x 3 matrix of Doubles specifying the direction cosines of the local coordinate system (the rotation from global to local). Each sequence represents a row in the direction cosine matrix. **localCoordSystemDouble** is available for TENSOR data written in a local coordinate system. It is also available for VECTOR data for connector element outputs. For connector element outputs the rotation is from local to global. If the underlying data are in single precision, an exception will be thrown."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.FieldValueArray.FieldValue.magnitude:1
+#: ../../../../docstring of abaqus.Odb.FieldValueArray.FieldValue.magnitude:1
 msgid "A Float specifying the length or magnitude of the vector. **magnitude** is valid only when **type** = VECTOR."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.FieldValueArray.FieldValue.maxInPlanePrincipal:1
+#: ../../../../docstring of abaqus.Odb.FieldValueArray.FieldValue.maxInPlanePrincipal:1
 msgid "A Float specifying the maximum principal in-plane stress. The value is valid only when the **validInvariants** member includes MAX_INPLANE_PRINCIPAL; otherwise, the value is indeterminate. Conjugate data will be ignored in invariant calculation."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.FieldValueArray.FieldValue.maxPrincipal:1
+#: ../../../../docstring of abaqus.Odb.FieldValueArray.FieldValue.maxPrincipal:1
 msgid "A Float specifying the calculated maximum principal stress. The value is valid only when the **validInvariants** member includes MAX_PRINCIPAL; otherwise, the value is indeterminate. Conjugate data will be ignored in invariant calculation."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.FieldValueArray.FieldValue.midPrincipal:1
+#: ../../../../docstring of abaqus.Odb.FieldValueArray.FieldValue.midPrincipal:1
 msgid "A Float specifying the calculated intermediate principal stress. The value is valid only when the **validInvariants** member includes MID_PRINCIPAL; otherwise, the value is indeterminate. Conjugate data will be ignored in invariant calculation."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.FieldValueArray.FieldValue.minInPlanePrincipal:1
+#: ../../../../docstring of abaqus.Odb.FieldValueArray.FieldValue.minInPlanePrincipal:1
 msgid "A Float specifying the calculated minimum principal in-plane stress. The value is valid only when the **validInvariants** member includes MIN_INPLANE_PRINCIPAL; otherwise, the value is indeterminate. Conjugate data will be ignored in invariant calculation."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.FieldValueArray.FieldValue.minPrincipal:1
+#: ../../../../docstring of abaqus.Odb.FieldValueArray.FieldValue.minPrincipal:1
 msgid "A Float specifying the minimum principal stress. The value is valid only when the **validInvariants** member includes MIN_PRINCIPAL; otherwise, the value is indeterminate. Conjugate data will be ignored in invariant calculation."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.FieldValueArray.FieldValue.mises:1
+#: ../../../../docstring of abaqus.Odb.FieldValueArray.FieldValue.mises:1
 msgid "A Float specifying the calculated von Mises stress. The value is valid only when the **validInvariants** member includes MISES; otherwise, the value is indeterminate. Conjugate data will be ignored in invariant calculation."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.FieldValueArray.FieldValue.nodeLabel:1
+#: ../../../../docstring of abaqus.Odb.FieldValueArray.FieldValue.nodeLabel:1
 msgid "An Int specifying the node label of the node containing the location. **nodelabel** is available only if **position** = ELEMENT_NODAL or NODAL."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.FieldValueArray.FieldValue.outOfPlanePrincipal:1
+#: ../../../../docstring of abaqus.Odb.FieldValueArray.FieldValue.outOfPlanePrincipal:1
 msgid "A Float specifying the calculated principal out-of-plane stress. The value is valid only when the **validInvariants** member includes OUTOFPLANE_PRINCIPAL; otherwise, the value is indeterminate. Conjugate data will be ignored in invariant calculation."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.FieldValueArray.FieldValue.position:8
-#: ../../../docstring of abaqus.Odb.OdbStepBase.HistoryPoint.position:8
+#: ../../../../docstring of abaqus.Odb.FieldValueArray.FieldValue.position:8
+#: ../../../../docstring of abaqus.Odb.OdbStepBase.HistoryPoint.position:8
 msgid "ELEMENT_FACE, specifying the results obtained for surface variables such as cavity radiation that are defined for the surface facets of an element."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.FieldValueArray.FieldValue.precision:1
+#: ../../../../docstring of abaqus.Odb.FieldValueArray.FieldValue.precision:1
 msgid "A SymbolicConstant specifying the precision of the output in the element. Possible values are:"
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.FieldValueArray.FieldValue.precision:4
+#: ../../../../docstring of abaqus.Odb.FieldValueArray.FieldValue.precision:4
 msgid "SINGLE_PRECISION, specifying that the output values are in single precision."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.FieldValueArray.FieldValue.precision:5
+#: ../../../../docstring of abaqus.Odb.FieldValueArray.FieldValue.precision:5
 msgid "DOUBLE_PRECISION, specifying that the output values are in double precision."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.FieldValueArray.FieldValue.press:1
+#: ../../../../docstring of abaqus.Odb.FieldValueArray.FieldValue.press:1
 msgid "A Float specifying the calculated pressure stress. The value is valid only when the **validInvariants** member includes PRESS; otherwise, the value is indeterminate. Conjugate data will be ignored in invariant calculation."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.FieldValueArray.FieldValue.tresca:1
+#: ../../../../docstring of abaqus.Odb.FieldValueArray.FieldValue.tresca:1
 msgid "A Float specifying the calculated Tresca stress. The value is valid only when the **validInvariants** member includes TRESCA; otherwise, the value is indeterminate. Conjugate data will be ignored in invariant calculation."
 msgstr ""
 
@@ -2239,19 +2239,19 @@ msgstr ""
 
 #: ../../../../../src/abaqus/Odb/HistoryOutput.py:docstring of abaqus.Odb.HistoryOutput.HistoryOutput:22
 #: ../../../../../src/abaqus/Odb/HistoryRegion.py:docstring of abaqus.Odb.HistoryRegion.HistoryRegion.HistoryOutput:11
-#: ../../../docstring of abaqus.Odb.HistoryRegion.HistoryOutput.description:1
+#: ../../../../docstring of abaqus.Odb.HistoryRegion.HistoryOutput.description:1
 msgid "A String specifying the output variable."
 msgstr ""
 
 #: ../../../../../src/abaqus/Odb/HistoryOutput.py:docstring of abaqus.Odb.HistoryOutput.HistoryOutput:24
 #: ../../../../../src/abaqus/Odb/HistoryRegion.py:docstring of abaqus.Odb.HistoryRegion.HistoryRegion.HistoryOutput:13
-#: ../../../docstring of abaqus.Odb.HistoryRegion.HistoryOutput.type:1
+#: ../../../../docstring of abaqus.Odb.HistoryRegion.HistoryOutput.type:1
 msgid "A SymbolicConstant specifying the output type. Only SCALAR is currently supported."
 msgstr ""
 
 #: ../../../../../src/abaqus/Odb/HistoryOutput.py:docstring of abaqus.Odb.HistoryOutput.HistoryOutput:26
 #: ../../../../../src/abaqus/Odb/HistoryRegion.py:docstring of abaqus.Odb.HistoryRegion.HistoryRegion.HistoryOutput:15
-#: ../../../docstring of abaqus.Odb.HistoryRegion.HistoryOutput.validInvariants:1
+#: ../../../../docstring of abaqus.Odb.HistoryRegion.HistoryOutput.validInvariants:1
 msgid "A sequence of SymbolicConstants specifying which invariants should be calculated for this field. Possible values are MAGNITUDE, MISES, TRESCA, PRESS, INV3, MAX_PRINCIPAL, MID_PRINCIPAL, and MIN_PRINCIPAL. The default value is an empty sequence."
 msgstr ""
 
@@ -2265,11 +2265,11 @@ msgstr ""
 msgid ":class:`HistoryOutput`"
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.HistoryRegion.HistoryOutput.conjugateData:1
+#: ../../../../docstring of abaqus.Odb.HistoryRegion.HistoryOutput.conjugateData:1
 msgid "A tuple of pairs of Floats specifying the imaginary portion of a specified complex variable at each frame value (time, frequency, or mode). The pairs have the form (*frameValue*, **value**)."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.HistoryRegion.HistoryOutput.data:1
+#: ../../../../docstring of abaqus.Odb.HistoryRegion.HistoryOutput.data:1
 msgid "A tuple of pairs of Floats specifying the pairs (*frameValue*, **value**) where **frameValue** is either time, frequency, or mode and **value** is the value of the specified variable at **frameValue**. (This value depends on the type of the variable.)"
 msgstr ""
 
@@ -2281,107 +2281,107 @@ msgstr ""
 msgid "Check `HistoryPoint on help.3ds.com/2022 <https://help.3ds.com/2022/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-historypointpyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbStepBase.HistoryPoint.assembly:1
+#: ../../../../docstring of abaqus.Odb.OdbStepBase.HistoryPoint.assembly:1
 msgid "An OdbAssembly object specifying the assembly for which the data are to be collected."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbStepBase.HistoryPoint.element:1
+#: ../../../../docstring of abaqus.Odb.OdbStepBase.HistoryPoint.element:1
 msgid "An OdbMeshElement object specifying the element for which the data are to be collected."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbStepBase.HistoryPoint.face:1
+#: ../../../../docstring of abaqus.Odb.OdbStepBase.HistoryPoint.face:1
 msgid "A SymbolicConstant specifying the element face. This argument is used to define a history output position of ELEMENT_FACE or ELEMENT_FACE_INTEGRATION_POINT. Possible values are:"
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbStepBase.HistoryPoint.face:5
+#: ../../../../docstring of abaqus.Odb.OdbStepBase.HistoryPoint.face:5
 msgid "FACE_UNKOWN, specifying this value indicates that no value has been specified."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbStepBase.HistoryPoint.face:6
+#: ../../../../docstring of abaqus.Odb.OdbStepBase.HistoryPoint.face:6
 msgid "FACE1, specifying this value indicates that element face 1 has been specified."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbStepBase.HistoryPoint.face:7
+#: ../../../../docstring of abaqus.Odb.OdbStepBase.HistoryPoint.face:7
 msgid "FACE2, specifying this value indicates that element face 2 has been specified."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbStepBase.HistoryPoint.face:8
+#: ../../../../docstring of abaqus.Odb.OdbStepBase.HistoryPoint.face:8
 msgid "FACE3, specifying this value indicates that element face 3 has been specified."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbStepBase.HistoryPoint.face:9
+#: ../../../../docstring of abaqus.Odb.OdbStepBase.HistoryPoint.face:9
 msgid "FACE4, specifying this value indicates that element face 4 has been specified."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbStepBase.HistoryPoint.face:10
+#: ../../../../docstring of abaqus.Odb.OdbStepBase.HistoryPoint.face:10
 msgid "FACE5, specifying this value indicates that element face 5 has been specified."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbStepBase.HistoryPoint.face:11
+#: ../../../../docstring of abaqus.Odb.OdbStepBase.HistoryPoint.face:11
 msgid "FACE6, specifying this value indicates that element face 6 has been specified."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbStepBase.HistoryPoint.face:12
+#: ../../../../docstring of abaqus.Odb.OdbStepBase.HistoryPoint.face:12
 msgid "SIDE1, specifying this value indicates that element side 1 has been specified."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbStepBase.HistoryPoint.face:13
+#: ../../../../docstring of abaqus.Odb.OdbStepBase.HistoryPoint.face:13
 msgid "SIDE2, specifying this value indicates element side 2 has been specified."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbStepBase.HistoryPoint.face:14
+#: ../../../../docstring of abaqus.Odb.OdbStepBase.HistoryPoint.face:14
 msgid "END1, specifying this value indicates that element end 1 has been specified."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbStepBase.HistoryPoint.face:15
+#: ../../../../docstring of abaqus.Odb.OdbStepBase.HistoryPoint.face:15
 msgid "END2, specifying this value indicates that element end 2 has been specified."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbStepBase.HistoryPoint.face:16
+#: ../../../../docstring of abaqus.Odb.OdbStepBase.HistoryPoint.face:16
 msgid "END3, specifying this value indicates that element end 3 has been specified."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbStepBase.HistoryPoint.face:18
+#: ../../../../docstring of abaqus.Odb.OdbStepBase.HistoryPoint.face:18
 msgid "The default value is FACE_UNKNOWN."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbStepBase.HistoryPoint.instance:1
+#: ../../../../docstring of abaqus.Odb.OdbStepBase.HistoryPoint.instance:1
 msgid "An OdbInstance object specifying the instance for which the data are to be collected."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbStepBase.HistoryPoint.ipNumber:1
+#: ../../../../docstring of abaqus.Odb.OdbStepBase.HistoryPoint.ipNumber:1
 msgid "An Int specifying the integration point. This argument is used to define a history output position of INTEGRATION_POINT or ELEMENT_FACE_INTEGRATION_POINT. The default value is 0."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbStepBase.HistoryPoint.node:1
+#: ../../../../docstring of abaqus.Odb.OdbStepBase.HistoryPoint.node:1
 msgid "An OdbMeshNode object specifying the node for which the data are to be collected."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbStepBase.HistoryPoint.position:1
+#: ../../../../docstring of abaqus.Odb.OdbStepBase.HistoryPoint.position:1
 msgid "A SymbolicConstant specifying the result position of the history point. Possible values are:"
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbStepBase.HistoryPoint.position:10
+#: ../../../../docstring of abaqus.Odb.OdbStepBase.HistoryPoint.position:10
 msgid "ELEMENT_FACE_INTEGRATION_POINT, specifying the results obtained for surface variables such as cavity radiation that are defined for the surface facets of an element when the surface facets have integration points."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbStepBase.HistoryPoint.position:13
+#: ../../../../docstring of abaqus.Odb.OdbStepBase.HistoryPoint.position:13
 msgid "WHOLE_ELEMENT, specifying the results obtained for whole element variables."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbStepBase.HistoryPoint.position:14
+#: ../../../../docstring of abaqus.Odb.OdbStepBase.HistoryPoint.position:14
 msgid "WHOLE_REGION, specifying the results for an entire region of the model."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbStepBase.HistoryPoint.position:15
+#: ../../../../docstring of abaqus.Odb.OdbStepBase.HistoryPoint.position:15
 msgid "WHOLE_PART_INSTANCE, specifying the results for an entire part instance of the model."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbStepBase.HistoryPoint.position:16
+#: ../../../../docstring of abaqus.Odb.OdbStepBase.HistoryPoint.position:16
 msgid "WHOLE_MODEL, specifying the results for the entire model."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbStepBase.HistoryPoint.region:1
+#: ../../../../docstring of abaqus.Odb.OdbStepBase.HistoryPoint.region:1
 msgid "An OdbSet object specifying the region for which the data are to be collected."
 msgstr ""
 
@@ -2448,7 +2448,7 @@ msgstr ""
 #: ../../../../../src/abaqus/Odb/OdbDatumCsys.py:docstring of abaqus.Odb.OdbDatumCsys.OdbDatumCsys.DatumCsysByThreeCircNodes:18
 #: ../../../../../src/abaqus/Odb/OdbDatumCsys.py:docstring of abaqus.Odb.OdbDatumCsys.OdbDatumCsys.DatumCsysByThreeNodes:18
 #: ../../../../../src/abaqus/Odb/OdbDatumCsys.py:docstring of abaqus.Odb.OdbDatumCsys.OdbDatumCsys.DatumCsysByThreePoints:15
-#: ../../../docstring of abaqus.Odb.RebarOrientation.OdbDatumCsys.coordSysType:1
+#: ../../../../docstring of abaqus.Odb.RebarOrientation.OdbDatumCsys.coordSysType:1
 msgid "A SymbolicConstant specifying the type of coordinate system. Possible values are CARTESIAN, CYLINDRICAL, and SPHERICAL."
 msgstr ""
 
@@ -2541,43 +2541,43 @@ msgstr ""
 
 #: ../../../../../src/abaqus/Odb/OdbAssembly.py:docstring of abaqus.Odb.OdbAssembly.OdbAssembly.RigidBody:13
 #: ../../../../../src/abaqus/Odb/OdbRigidBody.py:docstring of abaqus.Odb.OdbRigidBody.OdbRigidBody:25
-#: ../../../docstring of abaqus.Odb.OdbRigidBodyArray.OdbRigidBody.referenceNode:1
+#: ../../../../docstring of abaqus.Odb.OdbRigidBodyArray.OdbRigidBody.referenceNode:1
 msgid "An OdbSet object specifying the reference node set associated with the rigid body."
 msgstr ""
 
 #: ../../../../../src/abaqus/Odb/OdbAssembly.py:docstring of abaqus.Odb.OdbAssembly.OdbAssembly.RigidBody:15
 #: ../../../../../src/abaqus/Odb/OdbRigidBody.py:docstring of abaqus.Odb.OdbRigidBody.OdbRigidBody:27
-#: ../../../docstring of abaqus.Odb.OdbRigidBodyArray.OdbRigidBody.position:1
+#: ../../../../docstring of abaqus.Odb.OdbRigidBodyArray.OdbRigidBody.position:1
 msgid "A SymbolicConstant specifying the specific location of the OdbRigidBody reference node relative to the rest of the rigid body. Possible values are INPUT and CENTER_OF_MASS. The default value is INPUT."
 msgstr ""
 
 #: ../../../../../src/abaqus/Odb/OdbAssembly.py:docstring of abaqus.Odb.OdbAssembly.OdbAssembly.RigidBody:19
 #: ../../../../../src/abaqus/Odb/OdbRigidBody.py:docstring of abaqus.Odb.OdbRigidBody.OdbRigidBody:31
-#: ../../../docstring of abaqus.Odb.OdbRigidBodyArray.OdbRigidBody.isothermal:1
+#: ../../../../docstring of abaqus.Odb.OdbRigidBodyArray.OdbRigidBody.isothermal:1
 msgid "A Boolean specifying specify whether the OdbRigidBody can have temperature gradients or be isothermal. This is used only for fully coupled thermal-stress analysis The default value is ON."
 msgstr ""
 
 #: ../../../../../src/abaqus/Odb/OdbAssembly.py:docstring of abaqus.Odb.OdbAssembly.OdbAssembly.RigidBody:23
 #: ../../../../../src/abaqus/Odb/OdbRigidBody.py:docstring of abaqus.Odb.OdbRigidBody.OdbRigidBody:35
-#: ../../../docstring of abaqus.Odb.OdbRigidBodyArray.OdbRigidBody.elements:1
+#: ../../../../docstring of abaqus.Odb.OdbRigidBodyArray.OdbRigidBody.elements:1
 msgid "An OdbSet object specifying the element set whose motion is governed by the motion of rigid body reference node."
 msgstr ""
 
 #: ../../../../../src/abaqus/Odb/OdbAssembly.py:docstring of abaqus.Odb.OdbAssembly.OdbAssembly.RigidBody:26
 #: ../../../../../src/abaqus/Odb/OdbRigidBody.py:docstring of abaqus.Odb.OdbRigidBody.OdbRigidBody:38
-#: ../../../docstring of abaqus.Odb.OdbRigidBodyArray.OdbRigidBody.tieNodes:1
+#: ../../../../docstring of abaqus.Odb.OdbRigidBodyArray.OdbRigidBody.tieNodes:1
 msgid "An OdbSet object specifying the node set which have both translational and rotational degrees of freedom associated with the rigid body."
 msgstr ""
 
 #: ../../../../../src/abaqus/Odb/OdbAssembly.py:docstring of abaqus.Odb.OdbAssembly.OdbAssembly.RigidBody:29
 #: ../../../../../src/abaqus/Odb/OdbRigidBody.py:docstring of abaqus.Odb.OdbRigidBody.OdbRigidBody:41
-#: ../../../docstring of abaqus.Odb.OdbRigidBodyArray.OdbRigidBody.pinNodes:1
+#: ../../../../docstring of abaqus.Odb.OdbRigidBodyArray.OdbRigidBody.pinNodes:1
 msgid "An OdbSet object specifying the node set which have only translational degrees of freedom associated with the rigid body."
 msgstr ""
 
 #: ../../../../../src/abaqus/Odb/OdbAssembly.py:docstring of abaqus.Odb.OdbAssembly.OdbAssembly.RigidBody:32
 #: ../../../../../src/abaqus/Odb/OdbRigidBody.py:docstring of abaqus.Odb.OdbRigidBody.OdbRigidBody:44
-#: ../../../docstring of abaqus.Odb.OdbRigidBodyArray.OdbRigidBody.analyticSurface:1
+#: ../../../../docstring of abaqus.Odb.OdbRigidBodyArray.OdbRigidBody.analyticSurface:1
 msgid "An AnalyticSurface object specifying the analytic surface whose motion is governed by the motion of rigid body reference node."
 msgstr ""
 
@@ -2599,7 +2599,7 @@ msgstr ""
 msgid "Check `OdbMeshElement on help.3ds.com/2022 <https://help.3ds.com/2022/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-odbmeshelementpyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbSet.OdbMeshElement.connectivity:1
+#: ../../../../docstring of abaqus.Odb.OdbSet.OdbMeshElement.connectivity:1
 msgid "A tuple of Ints specifying the element connectivity. For connector elements connected to ground, the other node is repeated in the connectivity data. The position of the ground node cannot be ascertained. This is a limitation. It is important to note the difference with MeshElement object of MDB where the connectivity is node indices instead of node labels."
 msgstr ""
 
@@ -2649,22 +2649,22 @@ msgstr ""
 msgid "If **frameValue** is not provided and **stepName** is empty."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbSet.OdbMeshElement.instanceNames:1
+#: ../../../../docstring of abaqus.Odb.OdbSet.OdbMeshElement.instanceNames:1
 msgid "A tuple of Strings specifying the instance names for nodes in the element connectivity."
 msgstr ""
 
 #: ../../../../../src/abaqus/Odb/OdbInstanceBase.py:docstring of abaqus.Odb.OdbInstanceBase.OdbInstanceBase.getElementFromLabel:7
 #: ../../../../../src/abaqus/Odb/OdbPartBase.py:docstring of abaqus.Odb.OdbPartBase.OdbPartBase.getElementFromLabel:7
-#: ../../../docstring of abaqus.Odb.OdbSet.OdbMeshElement.label:1
+#: ../../../../docstring of abaqus.Odb.OdbSet.OdbMeshElement.label:1
 msgid "An Int specifying the element label."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbSet.OdbMeshElement.sectionCategory:1
+#: ../../../../docstring of abaqus.Odb.OdbSet.OdbMeshElement.sectionCategory:1
 msgid "A SectionCategory object specifying the element section properties."
 msgstr ""
 
 #: ../../../../../src/abaqus/Odb/OdbAssemblyBase.py:docstring of abaqus.Odb.OdbAssemblyBase.OdbAssemblyBase.addElements:18
-#: ../../../docstring of abaqus.Odb.OdbSet.OdbMeshElement.type:1
+#: ../../../../docstring of abaqus.Odb.OdbSet.OdbMeshElement.type:1
 msgid "A String specifying the element type."
 msgstr ""
 
@@ -2676,13 +2676,13 @@ msgstr ""
 msgid "Check `OdbMeshNode on help.3ds.com/2022 <https://help.3ds.com/2022/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-odbmeshnodepyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbSet.OdbMeshNode.coordinates:1
+#: ../../../../docstring of abaqus.Odb.OdbSet.OdbMeshNode.coordinates:1
 msgid "A tuple of Floats specifying the nodal coordinates in the global Cartesian coordinate system."
 msgstr ""
 
 #: ../../../../../src/abaqus/Odb/OdbInstanceBase.py:docstring of abaqus.Odb.OdbInstanceBase.OdbInstanceBase.getNodeFromLabel:7
 #: ../../../../../src/abaqus/Odb/OdbPartBase.py:docstring of abaqus.Odb.OdbPartBase.OdbPartBase.getNodeFromLabel:7
-#: ../../../docstring of abaqus.Odb.OdbSet.OdbMeshNode.label:1
+#: ../../../../docstring of abaqus.Odb.OdbSet.OdbMeshNode.label:1
 msgid "An Int specifying the node label."
 msgstr ""
 
@@ -2702,25 +2702,25 @@ msgstr ""
 
 #: ../../../../../src/abaqus/Odb/HistoryRegion.py:docstring of abaqus.Odb.HistoryRegion.HistoryRegion:20
 #: ../../../../../src/abaqus/Odb/OdbStep.py:docstring of abaqus.Odb.OdbStep.OdbStep.HistoryRegion:12
-#: ../../../docstring of abaqus.Odb.OdbStepBase.HistoryRegion.name:1
+#: ../../../../docstring of abaqus.Odb.OdbStepBase.HistoryRegion.name:1
 msgid "A String specifying the name of the HistoryRegion object."
 msgstr ""
 
 #: ../../../../../src/abaqus/Odb/HistoryRegion.py:docstring of abaqus.Odb.HistoryRegion.HistoryRegion:22
 #: ../../../../../src/abaqus/Odb/OdbStep.py:docstring of abaqus.Odb.OdbStep.OdbStep.HistoryRegion:14
-#: ../../../docstring of abaqus.Odb.OdbStepBase.HistoryRegion.description:1
+#: ../../../../docstring of abaqus.Odb.OdbStepBase.HistoryRegion.description:1
 msgid "A String specifying the description of the HistoryRegion object."
 msgstr ""
 
 #: ../../../../../src/abaqus/Odb/HistoryRegion.py:docstring of abaqus.Odb.HistoryRegion.HistoryRegion:24
 #: ../../../../../src/abaqus/Odb/OdbStep.py:docstring of abaqus.Odb.OdbStep.OdbStep.HistoryRegion:16
-#: ../../../docstring of abaqus.Odb.OdbStepBase.HistoryRegion.point:1
+#: ../../../../docstring of abaqus.Odb.OdbStepBase.HistoryRegion.point:1
 msgid "A HistoryPoint object specifying the point to which the history data refer."
 msgstr ""
 
 #: ../../../../../src/abaqus/Odb/HistoryRegion.py:docstring of abaqus.Odb.HistoryRegion.HistoryRegion:26
 #: ../../../../../src/abaqus/Odb/OdbStep.py:docstring of abaqus.Odb.OdbStep.OdbStep.HistoryRegion:18
-#: ../../../docstring of abaqus.Odb.OdbStepBase.HistoryRegion.loadCase:1
+#: ../../../../docstring of abaqus.Odb.OdbStepBase.HistoryRegion.loadCase:1
 msgid "None or an OdbLoadCase object specifying the load case associated with the HistoryRegion object. The default value is None."
 msgstr ""
 
@@ -2736,11 +2736,11 @@ msgstr ""
 msgid ":class:`HistoryRegion`"
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbStepBase.HistoryRegion.historyOutputs:1
+#: ../../../../docstring of abaqus.Odb.OdbStepBase.HistoryRegion.historyOutputs:1
 msgid "A repository of HistoryOutput objects."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbStepBase.HistoryRegion.position:1
+#: ../../../../docstring of abaqus.Odb.OdbStepBase.HistoryRegion.position:1
 msgid "A SymbolicConstant specifying the position of the history output. Possible values are NODAL, INTEGRATION_POINT, WHOLE_ELEMENT, WHOLE_REGION, and WHOLE_MODEL."
 msgstr ""
 
@@ -2752,35 +2752,35 @@ msgstr ""
 msgid "Check `JobData on help.3ds.com/2022 <https://help.3ds.com/2022/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-jobdatapyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbBase.JobData.analysisCode:1
+#: ../../../../docstring of abaqus.Odb.OdbBase.JobData.analysisCode:1
 msgid "A SymbolicConstant specifying the analysis code. Possible values are ABAQUS_STANDARD, ABAQUS_EXPLICIT, and UNKNOWN_ANALYSIS_CODE."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbBase.JobData.creationTime:1
+#: ../../../../docstring of abaqus.Odb.OdbBase.JobData.creationTime:1
 msgid "A String specifying the date and time at which the analysis was run."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbBase.JobData.machineName:1
+#: ../../../../docstring of abaqus.Odb.OdbBase.JobData.machineName:1
 msgid "A String specifying the name of the machine on which the analysis was run."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbBase.JobData.modificationTime:1
+#: ../../../../docstring of abaqus.Odb.OdbBase.JobData.modificationTime:1
 msgid "A String specifying the date and time at which the database was last modified."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbBase.JobData.name:1
+#: ../../../../docstring of abaqus.Odb.OdbBase.JobData.name:1
 msgid "A String specifying the name of the job."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbBase.JobData.precision:1
+#: ../../../../docstring of abaqus.Odb.OdbBase.JobData.precision:1
 msgid "A SymbolicConstant specifying the precision. Only SINGLE_PRECISION is currently supported. Possible values are DOUBLE_PRECISION and SINGLE_PRECISION."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbBase.JobData.productAddOns:1
+#: ../../../../docstring of abaqus.Odb.OdbBase.JobData.productAddOns:1
 msgid "A String specifying an odb_Sequence of productAddOns. Possible values are AQUA, DESIGN, BIORID, CEL, SOLITER, and CAVPARALLEL."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbBase.JobData.version:1
+#: ../../../../docstring of abaqus.Odb.OdbBase.JobData.version:1
 msgid "A String specifying the release of the analysis code."
 msgstr ""
 
@@ -2795,7 +2795,7 @@ msgstr ""
 
 #: ../../../../../src/abaqus/Odb/OdbLoadCase.py:docstring of abaqus.Odb.OdbLoadCase.OdbLoadCase:22
 #: ../../../../../src/abaqus/Odb/OdbStep.py:docstring of abaqus.Odb.OdbStep.OdbStep.LoadCase:9
-#: ../../../docstring of abaqus.Odb.OdbStepBase.OdbLoadCase.name:1
+#: ../../../../docstring of abaqus.Odb.OdbStepBase.OdbLoadCase.name:1
 msgid "A String specifying the name of the OdbLoadCase object."
 msgstr ""
 
@@ -2960,61 +2960,61 @@ msgstr ""
 msgid "Node location specification does not correspond to part dimensions, If width of coordinate array does not match assembly dimension."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbAssemblyBase.OdbAssemblyBase.connectorOrientations:1
+#: ../../../../docstring of abaqus.Odb.OdbAssemblyBase.OdbAssemblyBase.connectorOrientations:1
 msgid "A ConnectorOrientationArray object."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbAssemblyBase.OdbAssemblyBase.datumCsyses:1
+#: ../../../../docstring of abaqus.Odb.OdbAssemblyBase.OdbAssemblyBase.datumCsyses:1
 msgid "A repository of OdbDatumCsys objects."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbAssemblyBase.OdbAssemblyBase.elementSets:1
-#: ../../../docstring of abaqus.Odb.OdbInstanceBase.OdbInstanceBase.elementSets:1
-#: ../../../docstring of abaqus.Odb.OdbPartBase.OdbPartBase.elementSets:1
+#: ../../../../docstring of abaqus.Odb.OdbAssemblyBase.OdbAssemblyBase.elementSets:1
+#: ../../../../docstring of abaqus.Odb.OdbInstanceBase.OdbInstanceBase.elementSets:1
+#: ../../../../docstring of abaqus.Odb.OdbPartBase.OdbPartBase.elementSets:1
 msgid "A repository of OdbSet objects specifying element sets."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbAssemblyBase.OdbAssemblyBase.elements:1
-#: ../../../docstring of abaqus.Odb.OdbInstanceBase.OdbInstanceBase.elements:1
-#: ../../../docstring of abaqus.Odb.OdbPartBase.OdbPartBase.elements:1
+#: ../../../../docstring of abaqus.Odb.OdbAssemblyBase.OdbAssemblyBase.elements:1
+#: ../../../../docstring of abaqus.Odb.OdbInstanceBase.OdbInstanceBase.elements:1
+#: ../../../../docstring of abaqus.Odb.OdbPartBase.OdbPartBase.elements:1
 msgid "An OdbMeshElementArray object."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbAssemblyBase.OdbAssemblyBase.instances:1
+#: ../../../../docstring of abaqus.Odb.OdbAssemblyBase.OdbAssemblyBase.instances:1
 msgid "A repository of OdbInstance objects."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbAssemblyBase.OdbAssemblyBase.nodeSets:1
-#: ../../../docstring of abaqus.Odb.OdbInstanceBase.OdbInstanceBase.nodeSets:1
-#: ../../../docstring of abaqus.Odb.OdbPartBase.OdbPartBase.nodeSets:1
+#: ../../../../docstring of abaqus.Odb.OdbAssemblyBase.OdbAssemblyBase.nodeSets:1
+#: ../../../../docstring of abaqus.Odb.OdbInstanceBase.OdbInstanceBase.nodeSets:1
+#: ../../../../docstring of abaqus.Odb.OdbPartBase.OdbPartBase.nodeSets:1
 msgid "A repository of OdbSet objects specifying node sets."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbAssemblyBase.OdbAssemblyBase.nodes:1
-#: ../../../docstring of abaqus.Odb.OdbInstanceBase.OdbInstanceBase.nodes:1
-#: ../../../docstring of abaqus.Odb.OdbPartBase.OdbPartBase.nodes:1
+#: ../../../../docstring of abaqus.Odb.OdbAssemblyBase.OdbAssemblyBase.nodes:1
+#: ../../../../docstring of abaqus.Odb.OdbInstanceBase.OdbInstanceBase.nodes:1
+#: ../../../../docstring of abaqus.Odb.OdbPartBase.OdbPartBase.nodes:1
 msgid "An OdbMeshNodeArray object."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbAssemblyBase.OdbAssemblyBase.pretensionSections:1
+#: ../../../../docstring of abaqus.Odb.OdbAssemblyBase.OdbAssemblyBase.pretensionSections:1
 msgid "An OdbPretensionSectionArray object."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbAssemblyBase.OdbAssemblyBase.rigidBodies:1
-#: ../../../docstring of abaqus.Odb.OdbInstanceBase.OdbInstanceBase.rigidBodies:1
-#: ../../../docstring of abaqus.Odb.OdbPartBase.OdbPartBase.rigidBodies:1
+#: ../../../../docstring of abaqus.Odb.OdbAssemblyBase.OdbAssemblyBase.rigidBodies:1
+#: ../../../../docstring of abaqus.Odb.OdbInstanceBase.OdbInstanceBase.rigidBodies:1
+#: ../../../../docstring of abaqus.Odb.OdbPartBase.OdbPartBase.rigidBodies:1
 msgid "An OdbRigidBodyArray object."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbAssemblyBase.OdbAssemblyBase.sectionAssignments:1
-#: ../../../docstring of abaqus.Odb.OdbInstanceBase.OdbInstanceBase.sectionAssignments:1
-#: ../../../docstring of abaqus.Odb.OdbPartBase.OdbPartBase.sectionAssignments:1
+#: ../../../../docstring of abaqus.Odb.OdbAssemblyBase.OdbAssemblyBase.sectionAssignments:1
+#: ../../../../docstring of abaqus.Odb.OdbInstanceBase.OdbInstanceBase.sectionAssignments:1
+#: ../../../../docstring of abaqus.Odb.OdbPartBase.OdbPartBase.sectionAssignments:1
 msgid "A SectionAssignmentArray object."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbAssemblyBase.OdbAssemblyBase.surfaces:1
-#: ../../../docstring of abaqus.Odb.OdbInstanceBase.OdbInstanceBase.surfaces:1
-#: ../../../docstring of abaqus.Odb.OdbPartBase.OdbPartBase.surfaces:1
+#: ../../../../docstring of abaqus.Odb.OdbAssemblyBase.OdbAssemblyBase.surfaces:1
+#: ../../../../docstring of abaqus.Odb.OdbInstanceBase.OdbInstanceBase.surfaces:1
+#: ../../../../docstring of abaqus.Odb.OdbPartBase.OdbPartBase.surfaces:1
 msgid "A repository of OdbSet objects specifying surfaces."
 msgstr ""
 
@@ -3071,19 +3071,19 @@ msgstr ""
 msgid "A tuple of three Floats representing the coordinates in this global coordinate system."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.RebarOrientation.OdbDatumCsys.origin:1
+#: ../../../../docstring of abaqus.Odb.RebarOrientation.OdbDatumCsys.origin:1
 msgid "A tuple of Floats specifying the coordinates of the origin of the datum coordinate system."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.RebarOrientation.OdbDatumCsys.xAxis:1
+#: ../../../../docstring of abaqus.Odb.RebarOrientation.OdbDatumCsys.xAxis:1
 msgid "A tuple of Floats specifying a point on the **X** axis."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.RebarOrientation.OdbDatumCsys.yAxis:1
+#: ../../../../docstring of abaqus.Odb.RebarOrientation.OdbDatumCsys.yAxis:1
 msgid "A tuple of Floats specifying a point on the **Y** axis."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.RebarOrientation.OdbDatumCsys.zAxis:1
+#: ../../../../docstring of abaqus.Odb.RebarOrientation.OdbDatumCsys.zAxis:1
 msgid "A tuple of Floats specifying a point on the **Z** axis."
 msgstr ""
 
@@ -3144,11 +3144,11 @@ msgstr ""
 msgid "Check `SectorDefinition on help.3ds.com/2022 <https://help.3ds.com/2022/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-sectordefinitionpyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.SectorDefinition.SectorDefinition.numSectors:1
+#: ../../../../docstring of abaqus.Odb.SectorDefinition.SectorDefinition.numSectors:1
 msgid "An Int specifying the number of sectors in the cyclic symmetry model."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.SectorDefinition.SectorDefinition.symmetryAxis:1
+#: ../../../../docstring of abaqus.Odb.SectorDefinition.SectorDefinition.symmetryAxis:1
 msgid "A tuple of tuples of Floats specifying the coordinates of two points on the axis of symmetry."
 msgstr ""
 
@@ -3275,43 +3275,43 @@ msgstr ""
 msgid "Helper for @overload to raise when called."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbStepBase.OdbFrame.associatedFrame:1
+#: ../../../../docstring of abaqus.Odb.OdbStepBase.OdbFrame.associatedFrame:1
 msgid "An OdbFrame object specifying the real or imaginary portion of the data corresponding to this cyclic symmetry mode."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbStepBase.OdbFrame.cyclicModeNumber:1
+#: ../../../../docstring of abaqus.Odb.OdbStepBase.OdbFrame.cyclicModeNumber:1
 msgid "An Int specifying the cyclic mode number associated with the data stored on this frame. Only frequency analyses of cyclic symmetry models possess cyclic mode numbers."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbStepBase.OdbFrame.description:1
+#: ../../../../docstring of abaqus.Odb.OdbStepBase.OdbFrame.description:1
 msgid "A String specifying the contents of the frame. The default value is an empty string."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbStepBase.OdbFrame.domain:1
+#: ../../../../docstring of abaqus.Odb.OdbStepBase.OdbFrame.domain:1
 msgid "A SymbolicConstant specifying the domain of the step of which the frame is a member. Possible values are TIME, FREQUENCY, and MODAL."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbStepBase.OdbFrame.fieldOutputs:1
+#: ../../../../docstring of abaqus.Odb.OdbStepBase.OdbFrame.fieldOutputs:1
 msgid "A repository of FieldOutput objects specifying the key to the **fieldOutputs** repository is a String representing an output variable."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbStepBase.OdbFrame.frameValue:1
+#: ../../../../docstring of abaqus.Odb.OdbStepBase.OdbFrame.frameValue:1
 msgid "A Float specifying the value in units determined by the **domain** member of the Step object. The equivalent in the time domain is **stepTime**; in the frequency domain the equivalent is **frequency**; and in the modal domain the equivalent is **mode**."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbStepBase.OdbFrame.frequency:1
+#: ../../../../docstring of abaqus.Odb.OdbStepBase.OdbFrame.frequency:1
 msgid "A Float specifying the frequency. This member is valid only if **domain** = FREQUENCY or if the **procedureType** member of the Step object=FREQUENCY. The default value is 0.0."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbStepBase.OdbFrame.incrementNumber:1
+#: ../../../../docstring of abaqus.Odb.OdbStepBase.OdbFrame.incrementNumber:1
 msgid "An Int specifying the frame increment number within the step. The base frame has normally increment number 0, and the results run from 1. In case of multiple load cases, the same increment number is duplicated for each loadcase."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbStepBase.OdbFrame.loadCase:1
+#: ../../../../docstring of abaqus.Odb.OdbStepBase.OdbFrame.loadCase:1
 msgid "An OdbLoadCase object specifying the load case for the frame."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbStepBase.OdbFrame.mode:1
+#: ../../../../docstring of abaqus.Odb.OdbStepBase.OdbFrame.mode:1
 msgid "An Int specifying the eigenmode. This member is valid only if **domain** = MODAL."
 msgstr ""
 
@@ -3410,8 +3410,8 @@ msgstr ""
 msgid "A symbolic constant specify if the location of the reference node is to be defined by the user. Possible values are INPUT, and CENTER_OF_MASS. The default value is INPUT."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbInstanceBase.OdbInstanceBase.analyticSurface:1
-#: ../../../docstring of abaqus.Odb.OdbPartBase.OdbPartBase.analyticSurface:1
+#: ../../../../docstring of abaqus.Odb.OdbInstanceBase.OdbInstanceBase.analyticSurface:1
+#: ../../../../docstring of abaqus.Odb.OdbPartBase.OdbPartBase.analyticSurface:1
 msgid "An AnalyticSurface object specifying analytic Surface defined on the instance."
 msgstr ""
 
@@ -3499,12 +3499,12 @@ msgstr ""
 msgid "Section assignment requires element set from this part instance, If the element set is not from the current instance."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbInstanceBase.OdbInstanceBase.beamOrientations:1
-#: ../../../docstring of abaqus.Odb.OdbPartBase.OdbPartBase.beamOrientations:1
+#: ../../../../docstring of abaqus.Odb.OdbInstanceBase.OdbInstanceBase.beamOrientations:1
+#: ../../../../docstring of abaqus.Odb.OdbPartBase.OdbPartBase.beamOrientations:1
 msgid "A BeamOrientationArray object."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbInstanceBase.OdbInstanceBase.embeddedSpace:1
+#: ../../../../docstring of abaqus.Odb.OdbInstanceBase.OdbInstanceBase.embeddedSpace:1
 msgid "A SymbolicConstant specifying the dimensionality of the Part object. Possible values are THREE_D, TWO_D_PLANAR, AXISYMMETRIC, and UNKNOWN_DIMENSION."
 msgstr ""
 
@@ -3554,21 +3554,21 @@ msgstr ""
 msgid "Invalid node label, If no node with the specified label exists."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbInstanceBase.OdbInstanceBase.materialOrientations:1
-#: ../../../docstring of abaqus.Odb.OdbPartBase.OdbPartBase.materialOrientations:1
+#: ../../../../docstring of abaqus.Odb.OdbInstanceBase.OdbInstanceBase.materialOrientations:1
+#: ../../../../docstring of abaqus.Odb.OdbPartBase.OdbPartBase.materialOrientations:1
 msgid "A MaterialOrientationArray object."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbInstanceBase.OdbInstanceBase.rebarOrientations:1
-#: ../../../docstring of abaqus.Odb.OdbPartBase.OdbPartBase.rebarOrientations:1
+#: ../../../../docstring of abaqus.Odb.OdbInstanceBase.OdbInstanceBase.rebarOrientations:1
+#: ../../../../docstring of abaqus.Odb.OdbPartBase.OdbPartBase.rebarOrientations:1
 msgid "A RebarOrientationArray object."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbInstanceBase.OdbInstanceBase.resultState:1
+#: ../../../../docstring of abaqus.Odb.OdbInstanceBase.OdbInstanceBase.resultState:1
 msgid "A SymbolicConstant specifying the state of the Instance as modified by the analysis. This member is only present if the Instance is part of the RootAssemblyState tree. Possible values are:PROPAGATED, specifying that the value is the same as the previous frame or the original rootAssembly.MODIFIED, specifying that the geometry of the instance has been changed at this frame.The default value is PROPAGATED."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbInstanceBase.OdbInstanceBase.type:1
+#: ../../../../docstring of abaqus.Odb.OdbInstanceBase.OdbInstanceBase.type:1
 msgid "A SymbolicConstant specifying the type of the Part object. Only a value of DEFORMABLE_BODY is currently supported."
 msgstr ""
 
@@ -3637,19 +3637,19 @@ msgstr ""
 msgid "Check `OdbPretensionSection on help.3ds.com/2022 <https://help.3ds.com/2022/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-odbpretensionsectionpyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbPretensionSectionArray.OdbPretensionSection.element:1
+#: ../../../../docstring of abaqus.Odb.OdbPretensionSectionArray.OdbPretensionSection.element:1
 msgid "An OdbSet object specifying the element set that defines the pretension section."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbPretensionSectionArray.OdbPretensionSection.node:1
+#: ../../../../docstring of abaqus.Odb.OdbPretensionSectionArray.OdbPretensionSection.node:1
 msgid "An OdbSet object specifying the node set containing the pretension node."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbPretensionSectionArray.OdbPretensionSection.normal:1
+#: ../../../../docstring of abaqus.Odb.OdbPretensionSectionArray.OdbPretensionSection.normal:1
 msgid "A tuple of Floats specifying the components of the normal to the pretension section."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbPretensionSectionArray.OdbPretensionSection.surface:1
+#: ../../../../docstring of abaqus.Odb.OdbPretensionSectionArray.OdbPretensionSection.surface:1
 msgid "An OdbSet object specifying the surface set that defines the pretension section."
 msgstr ""
 
@@ -3697,15 +3697,15 @@ msgstr ""
 msgid "Check `OdbStepBase on help.3ds.com/2022 <https://help.3ds.com/2022/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-steppyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbStepBase.OdbStepBase.acousticMass:1
+#: ../../../../docstring of abaqus.Odb.OdbStepBase.OdbStepBase.acousticMass:1
 msgid "A Float specifying the current value of the mass of the acoustic media of the model."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbStepBase.OdbStepBase.acousticMassCenter:1
+#: ../../../../docstring of abaqus.Odb.OdbStepBase.OdbStepBase.acousticMassCenter:1
 msgid "A tuple of Floats specifying the coordinates of the center of mass of the acoustic media."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbStepBase.OdbStepBase.frames:1
+#: ../../../../docstring of abaqus.Odb.OdbStepBase.OdbStepBase.frames:1
 msgid "An OdbFrameArray object."
 msgstr ""
 
@@ -3725,35 +3725,35 @@ msgstr ""
 msgid "HistoryRegion not found, If a HistoryRegion object is not found."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbStepBase.OdbStepBase.historyRegions:1
+#: ../../../../docstring of abaqus.Odb.OdbStepBase.OdbStepBase.historyRegions:1
 msgid "A repository of HistoryRegion objects."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbStepBase.OdbStepBase.inertiaAboutCenter:1
+#: ../../../../docstring of abaqus.Odb.OdbStepBase.OdbStepBase.inertiaAboutCenter:1
 msgid "A tuple of Floats specifying the moments and products of inertia about the center of mass. For 3-D models inertia quantities are written in the following order: I(XX), I(YY), I(ZZ), I(XY), I(XZ), and I(YZ). For 2-D models only I(ZZ) and I(XY) are outputted."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbStepBase.OdbStepBase.inertiaAboutOrigin:1
+#: ../../../../docstring of abaqus.Odb.OdbStepBase.OdbStepBase.inertiaAboutOrigin:1
 msgid "A tuple of Floats specifying the moments and products of inertia about the origin of the global coordinate system. For 3-D models inertia quantities are written in the following order: I(XX), I(YY), I(ZZ), I(XY), I(XZ), and I(YZ). For 2-D models only I(ZZ) and I(XY) are outputted."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbStepBase.OdbStepBase.loadCases:1
+#: ../../../../docstring of abaqus.Odb.OdbStepBase.OdbStepBase.loadCases:1
 msgid "A repository of OdbLoadCase objects."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbStepBase.OdbStepBase.mass:1
+#: ../../../../docstring of abaqus.Odb.OdbStepBase.OdbStepBase.mass:1
 msgid "A Float specifying the current value of the mass of the model. This does not include the mass of the acoustic media if any present."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbStepBase.OdbStepBase.massCenter:1
+#: ../../../../docstring of abaqus.Odb.OdbStepBase.OdbStepBase.massCenter:1
 msgid "A tuple of Floats specifying the coordinates of the center of mass."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbStepBase.OdbStepBase.nlgeom:1
+#: ../../../../docstring of abaqus.Odb.OdbStepBase.OdbStepBase.nlgeom:1
 msgid "A Boolean specifying whether geometric nonlinearity can occur in this step."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.OdbStepBase.OdbStepBase.number:1
+#: ../../../../docstring of abaqus.Odb.OdbStepBase.OdbStepBase.number:1
 msgid "An Int specifying the step number."
 msgstr ""
 
@@ -3789,19 +3789,19 @@ msgstr ""
 msgid "Check `RebarOrientation on help.3ds.com/2022 <https://help.3ds.com/2022/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-rebarorientationpyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.RebarOrientationArray.RebarOrientation.angle:1
+#: ../../../../docstring of abaqus.Odb.RebarOrientationArray.RebarOrientation.angle:1
 msgid "A Float specifying the angle of the additional rotation."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.RebarOrientationArray.RebarOrientation.axis:1
+#: ../../../../docstring of abaqus.Odb.RebarOrientationArray.RebarOrientation.axis:1
 msgid "A SymbolicConstant specifying the axis of a cylindrical or spherical datum coordinate system about which an additional rotation is applied. Possible values are AXIS_1, AXIS_2, and AXIS_3."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.RebarOrientationArray.RebarOrientation.csys:1
+#: ../../../../docstring of abaqus.Odb.RebarOrientationArray.RebarOrientation.csys:1
 msgid "An OdbDatumCsys object specifying a datum coordinates system."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.RebarOrientationArray.RebarOrientation.region:1
+#: ../../../../docstring of abaqus.Odb.RebarOrientationArray.RebarOrientation.region:1
 msgid "An OdbSet object specifying a region for which the rebar orientation is defined."
 msgstr ""
 
@@ -3826,42 +3826,42 @@ msgid "A sequence of pairs of Floats specifying the **X - Y** data pairs."
 msgstr ""
 
 #: ../../../../../src/abaqus/Odb/UserDataBase.py:docstring of abaqus.Odb.UserDataBase.UserDataBase.XYData:16
-#: ../../../docstring of abaqus.Odb.UserDataBase.UserDataBase.sourceDescription:1
+#: ../../../../docstring of abaqus.Odb.UserDataBase.UserDataBase.sourceDescription:1
 msgid "A String specifying the source of the **X - Y** data (e.g., “Entered from keyboard”, “Taken from ASCII file”, “Read from an ODB”, etc.). The default value is an empty string."
 msgstr ""
 
 #: ../../../../../src/abaqus/Odb/UserDataBase.py:docstring of abaqus.Odb.UserDataBase.UserDataBase.XYData:19
-#: ../../../docstring of abaqus.Odb.UserDataBase.UserDataBase.contentDescription:1
+#: ../../../../docstring of abaqus.Odb.UserDataBase.UserDataBase.contentDescription:1
 msgid "A String specifying the content of the **X - Y** data (e.g., “field 1 vs. field 2”). The default value is an empty string."
 msgstr ""
 
 #: ../../../../../src/abaqus/Odb/UserDataBase.py:docstring of abaqus.Odb.UserDataBase.UserDataBase.XYData:22
-#: ../../../docstring of abaqus.Odb.UserDataBase.UserDataBase.positionDescription:1
+#: ../../../../docstring of abaqus.Odb.UserDataBase.UserDataBase.positionDescription:1
 msgid "A String specifying additional information about the **X - Y** data (e.g., “for whole model”). The default value is an empty string."
 msgstr ""
 
 #: ../../../../../src/abaqus/Odb/UserDataBase.py:docstring of abaqus.Odb.UserDataBase.UserDataBase.XYData:25
-#: ../../../docstring of abaqus.Odb.UserDataBase.UserDataBase.legendLabel:1
+#: ../../../../docstring of abaqus.Odb.UserDataBase.UserDataBase.legendLabel:1
 msgid "A String specifying the label to be used in the legend. The default value is the name of the XYData object."
 msgstr ""
 
 #: ../../../../../src/abaqus/Odb/UserDataBase.py:docstring of abaqus.Odb.UserDataBase.UserDataBase.XYData:28
-#: ../../../docstring of abaqus.Odb.UserDataBase.UserDataBase.xValuesLabel:1
+#: ../../../../docstring of abaqus.Odb.UserDataBase.UserDataBase.xValuesLabel:1
 msgid "A String specifying the label for the X-values. This value may be overridden if the **X - Y** data are combined with other **X - Y** data. The default value is an empty string."
 msgstr ""
 
 #: ../../../../../src/abaqus/Odb/UserDataBase.py:docstring of abaqus.Odb.UserDataBase.UserDataBase.XYData:31
-#: ../../../docstring of abaqus.Odb.UserDataBase.UserDataBase.yValuesLabel:1
+#: ../../../../docstring of abaqus.Odb.UserDataBase.UserDataBase.yValuesLabel:1
 msgid "A String specifying the label for the Y-values. This value may be overridden if the **X - Y** data are combined with other **X - Y** data. The default value is an empty string."
 msgstr ""
 
 #: ../../../../../src/abaqus/Odb/UserDataBase.py:docstring of abaqus.Odb.UserDataBase.UserDataBase.XYData:34
-#: ../../../docstring of abaqus.Odb.UserDataBase.UserDataBase.axis1QuantityType:1
+#: ../../../../docstring of abaqus.Odb.UserDataBase.UserDataBase.axis1QuantityType:1
 msgid "A QuantityType object specifying the QuantityType object associated to the X -axis1- values."
 msgstr ""
 
 #: ../../../../../src/abaqus/Odb/UserDataBase.py:docstring of abaqus.Odb.UserDataBase.UserDataBase.XYData:37
-#: ../../../docstring of abaqus.Odb.UserDataBase.UserDataBase.axis2QuantityType:1
+#: ../../../../docstring of abaqus.Odb.UserDataBase.UserDataBase.axis2QuantityType:1
 msgid "A QuantityType object specifying the QuantityType object associated to the Y -axis2- values."
 msgstr ""
 
@@ -3873,14 +3873,14 @@ msgstr ""
 msgid ":class:`XYData`"
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.UserDataBase.UserDataBase.annotations:1
+#: ../../../../docstring of abaqus.Odb.UserDataBase.UserDataBase.annotations:1
 msgid "A repository of Annotation objects."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.UserDataBase.UserDataBase.data:1
+#: ../../../../docstring of abaqus.Odb.UserDataBase.UserDataBase.data:1
 msgid "A tuple of pairs of Floats specifying the **X - Y** data pairs."
 msgstr ""
 
-#: ../../../docstring of abaqus.Odb.UserDataBase.UserDataBase.xyDataObjects:1
+#: ../../../../docstring of abaqus.Odb.UserDataBase.UserDataBase.xyDataObjects:1
 msgid "A repository of XYData objects."
 msgstr ""
