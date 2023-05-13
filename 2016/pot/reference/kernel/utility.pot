@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: abqpy 2016\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-12 14:42+0000\n"
+"POT-Creation-Date: 2023-05-13 03:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -221,12 +221,12 @@ msgstr ""
 msgid "This method returns a list of deprecated methods used since the last call to resetDeprecatedMethodsUsed."
 msgstr ""
 
-#: ../../../docstring of abaqus.UtilityAndView.BackwardCompatibility.BackwardCompatibility.includeDeprecated:1
+#: ../../../../docstring of abaqus.UtilityAndView.BackwardCompatibility.BackwardCompatibility.includeDeprecated:1
 msgid "A Boolean specifying whether deprecated members, methods, and arguments can be seen and used. Possible values are ON and OFF. The default value is ON."
 msgstr ""
 
 #: ../../../../../src/abaqus/UtilityAndView/BackwardCompatibility.py:docstring of abaqus.UtilityAndView.BackwardCompatibility.BackwardCompatibility.setValues:10
-#: ../../../docstring of abaqus.UtilityAndView.BackwardCompatibility.BackwardCompatibility.reportDeprecated:1
+#: ../../../../docstring of abaqus.UtilityAndView.BackwardCompatibility.BackwardCompatibility.reportDeprecated:1
 msgid "A Boolean specifying whether a warning is displayed after running a script that contains deprecated commands. The default value is True."
 msgstr ""
 
@@ -251,7 +251,7 @@ msgid "A Boolean specifying whether deprecated members, methods, and arguments c
 msgstr ""
 
 #: ../../../../../src/abaqus/UtilityAndView/BackwardCompatibility.py:docstring of abaqus.UtilityAndView.BackwardCompatibility.BackwardCompatibility.setValues:13
-#: ../../../docstring of abaqus.UtilityAndView.BackwardCompatibility.BackwardCompatibility.showKeysInReport:1
+#: ../../../../docstring of abaqus.UtilityAndView.BackwardCompatibility.BackwardCompatibility.showKeysInReport:1
 msgid "A Boolean specifying whether the keys and indices are included in the report that is displayed when **reportDeprecated** is True. The default value is False."
 msgstr ""
 
@@ -544,64 +544,64 @@ msgid "A String specifying the name of the view (also used as the repository key
 msgstr ""
 
 #: ../../../../../src/abaqus/UtilityAndView/View.py:docstring of abaqus.UtilityAndView.View.View:32
-#: ../../../docstring of abaqus.UtilityAndView.View.View.nearPlane:1
+#: ../../../../docstring of abaqus.UtilityAndView.View.View.nearPlane:1
 msgid "A Float specifying the distance from the camera to the near clipping plane. Possible values are **nearPlane** > 0.0."
 msgstr ""
 
 #: ../../../../../src/abaqus/UtilityAndView/View.py:docstring of abaqus.UtilityAndView.View.View:35
-#: ../../../docstring of abaqus.UtilityAndView.View.View.farPlane:1
+#: ../../../../docstring of abaqus.UtilityAndView.View.View.farPlane:1
 msgid "A Float specifying the distance from the camera to the far clipping plane when **farPlaneMode** =SPECIFY. Possible values are **farPlane** > **nearPlane**."
 msgstr ""
 
 #: ../../../../../src/abaqus/UtilityAndView/View.py:docstring of abaqus.UtilityAndView.View.View:38
-#: ../../../docstring of abaqus.UtilityAndView.View.View.width:1
+#: ../../../../docstring of abaqus.UtilityAndView.View.View.width:1
 msgid "A Float specifying the width of the front clipping plane. Possible values are **width** > 0.0."
 msgstr ""
 
 #: ../../../../../src/abaqus/UtilityAndView/View.py:docstring of abaqus.UtilityAndView.View.View:41
-#: ../../../docstring of abaqus.UtilityAndView.View.View.height:1
+#: ../../../../docstring of abaqus.UtilityAndView.View.View.height:1
 msgid "A Float specifying the height of the front clipping plane. Possible values are **height** > 0.0."
 msgstr ""
 
 #: ../../../../../src/abaqus/UtilityAndView/View.py:docstring of abaqus.UtilityAndView.View.View:44
 #: ../../../../../src/abaqus/UtilityAndView/View.py:docstring of abaqus.UtilityAndView.View.View.setProjection:9
-#: ../../../docstring of abaqus.UtilityAndView.View.View.projection:1
+#: ../../../../docstring of abaqus.UtilityAndView.View.View.projection:1
 msgid "A SymbolicConstant specifying the projection mode. Possible values are PERSPECTIVE and PARALLEL."
 msgstr ""
 
 #: ../../../../../src/abaqus/UtilityAndView/View.py:docstring of abaqus.UtilityAndView.View.View:47
-#: ../../../docstring of abaqus.UtilityAndView.View.View.cameraPosition:1
+#: ../../../../docstring of abaqus.UtilityAndView.View.View.cameraPosition:1
 msgid "A sequence of three Floats specifying the camera position."
 msgstr ""
 
 #: ../../../../../src/abaqus/UtilityAndView/View.py:docstring of abaqus.UtilityAndView.View.View:49
 #: ../../../../../src/abaqus/UtilityAndView/View.py:docstring of abaqus.UtilityAndView.View.View.setViewpoint:11
-#: ../../../docstring of abaqus.UtilityAndView.View.View.cameraUpVector:1
+#: ../../../../docstring of abaqus.UtilityAndView.View.View.cameraUpVector:1
 msgid "A sequence of three Floats specifying the camera's up vector (the screen's positive **Y** axis). The initial value is (0, 0, 0)."
 msgstr ""
 
 #: ../../../../../src/abaqus/UtilityAndView/View.py:docstring of abaqus.UtilityAndView.View.View:52
-#: ../../../docstring of abaqus.UtilityAndView.View.View.cameraTarget:1
+#: ../../../../docstring of abaqus.UtilityAndView.View.View.cameraTarget:1
 msgid "A sequence of three Floats specifying the center of the scene."
 msgstr ""
 
 #: ../../../../../src/abaqus/UtilityAndView/View.py:docstring of abaqus.UtilityAndView.View.View:54
-#: ../../../docstring of abaqus.UtilityAndView.View.View.viewOffsetX:1
+#: ../../../../docstring of abaqus.UtilityAndView.View.View.viewOffsetX:1
 msgid "A Float specifying the amount to pan the model in the screen **X** direction as a fraction of the viewport width. A positive value pans the model to the right. A negative value pans the model to the left. The *viewOffsetX* and **viewOffsetY** arguments allow you to pan the view without changing the position of the camera or the target (*cameraPosition* and **cameraTarget** arguments to the View method). The resulting change in the view allows you to pan a perspective display without producing an apparent rotation of the model."
 msgstr ""
 
 #: ../../../../../src/abaqus/UtilityAndView/View.py:docstring of abaqus.UtilityAndView.View.View:61
-#: ../../../docstring of abaqus.UtilityAndView.View.View.viewOffsetY:1
+#: ../../../../docstring of abaqus.UtilityAndView.View.View.viewOffsetY:1
 msgid "A Float specifying the amount to pan the model in the screen **Y** direction as a fraction of the viewport height. A positive value pans the model upward. A negative value pans the model downward."
 msgstr ""
 
 #: ../../../../../src/abaqus/UtilityAndView/View.py:docstring of abaqus.UtilityAndView.View.View:65
-#: ../../../docstring of abaqus.UtilityAndView.View.View.autoFit:1
+#: ../../../../docstring of abaqus.UtilityAndView.View.View.autoFit:1
 msgid "A Boolean specifying whether the view is auto-fit when applied."
 msgstr ""
 
 #: ../../../../../src/abaqus/UtilityAndView/View.py:docstring of abaqus.UtilityAndView.View.View:67
-#: ../../../docstring of abaqus.UtilityAndView.View.View.movieMode:1
+#: ../../../../docstring of abaqus.UtilityAndView.View.View.movieMode:1
 msgid "A Boolean specifying whether or not the camera is in movie mode. The default value is OFF."
 msgstr ""
 
@@ -621,11 +621,11 @@ msgstr ""
 msgid "Raises"
 msgstr ""
 
-#: ../../../docstring of abaqus.UtilityAndView.View.View.displayedObjectScreenHeight:1
+#: ../../../../docstring of abaqus.UtilityAndView.View.View.displayedObjectScreenHeight:1
 msgid "A Float specifying the height in viewport millimeters of the bounding rectangle around the viewport contents. This value does not include annotations or symbols and it is not clipped to the size of the viewport window."
 msgstr ""
 
-#: ../../../docstring of abaqus.UtilityAndView.View.View.displayedObjectScreenWidth:1
+#: ../../../../docstring of abaqus.UtilityAndView.View.View.displayedObjectScreenWidth:1
 msgid "A Float specifying the width in viewport millimeters of the bounding rectangle around the viewport contents. This value does not include annotations or symbols and it is not clipped to the size of the viewport window."
 msgstr ""
 
@@ -642,11 +642,11 @@ msgstr ""
 msgid "A Boolean specifying the viewport should refresh immediately after the command is processed. This is typically only used when writing a script and it is desirable to show intermediate results before the script completes. The default value is False."
 msgstr ""
 
-#: ../../../docstring of abaqus.UtilityAndView.View.View.layerTransform:1
+#: ../../../../docstring of abaqus.UtilityAndView.View.View.layerTransform:1
 msgid "A tuple of Floats specifying a transformation matrix used to position the contents of the Layer within a viewport."
 msgstr ""
 
-#: ../../../docstring of abaqus.UtilityAndView.View.View.name:1
+#: ../../../../docstring of abaqus.UtilityAndView.View.View.name:1
 msgid "A String specifying the name of the view (also used as the repository key). Possible values are 'Front', 'Back', 'Top', 'Bottom', 'Left', 'Right', 'Iso', 'User-1', 'User-2', 'User-3', and 'User-4'. The object member associated with this argument is a SymbolicConstant. Possible values of the **name** member are: FRONT, BACK, TOP, BOTTOM, LEFT, RIGHT, ISO, USER1, USER2, USER3, and USER4."
 msgstr ""
 

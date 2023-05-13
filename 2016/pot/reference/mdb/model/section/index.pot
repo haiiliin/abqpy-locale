@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: abqpy 2016\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-12 14:42+0000\n"
+"POT-Creation-Date: 2023-05-13 03:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -79,7 +79,7 @@ msgid "Check `SectionModel on help.3ds.com/2016 <https://help.3ds.com/2016/Engli
 msgstr ""
 
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel:11
-#: ../../../None:7:<autosummary>:1
+#: ../../../../None:7:<autosummary>:1
 msgid "This method creates a Model object."
 msgstr ""
 
@@ -282,11 +282,11 @@ msgstr ""
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.TrussSection:13
 #: ../../../../../src/abaqus/Section/SurfaceSection.py:docstring of abaqus.Section.SurfaceSection.SurfaceSection:28
 #: ../../../../../src/abaqus/Section/TrussSection.py:docstring of abaqus.Section.TrussSection.TrussSection:28
-#: ../../../None:52:<autosummary>:1
-#: ../../../docstring of abaqus.Section.HomogeneousShellSection.GeometryShellSection.name:1
-#: ../../../docstring of abaqus.Section.SectionBase.SectionBase.name:1
-#: ../../../docstring of abaqus.Section.ShellSection.ShellSection.name:1
-#: ../../../docstring of abaqus.Section.SolidSection.SolidSection.name:1
+#: ../../../../None:52:<autosummary>:1
+#: ../../../../docstring of abaqus.Section.HomogeneousShellSection.GeometryShellSection.name:1
+#: ../../../../docstring of abaqus.Section.SectionBase.SectionBase.name:1
+#: ../../../../docstring of abaqus.Section.ShellSection.ShellSection.name:1
+#: ../../../../docstring of abaqus.Section.SolidSection.SolidSection.name:1
 msgid "A String specifying the repository key."
 msgstr ""
 
@@ -471,404 +471,404 @@ msgstr ""
 msgid "Public Data Attributes:"
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`name <abaqus.Model.ModelBase.ModelBase.name>`\\"
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`stefanBoltzmann <abaqus.Model.ModelBase.ModelBase.stefanBoltzmann>`\\"
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "None or a Float specifying the Stefan-Boltzmann constant."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`absoluteZero <abaqus.Model.ModelBase.ModelBase.absoluteZero>`\\"
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "None or a Float specifying the absolute zero constant."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`waveFormulation <abaqus.Model.ModelBase.ModelBase.waveFormulation>`\\"
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "A SymbolicConstant specifying the type of incident wave formulation to be used in acoustic problems."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`universalGas <abaqus.Model.ModelBase.ModelBase.universalGas>`\\"
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "None or a Float specifying the universal gas constant."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`noPartsInputFile <abaqus.Model.ModelBase.ModelBase.noPartsInputFile>`\\"
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "A Boolean specifying whether an input file should be written without parts and assemblies."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`restartIncrement <abaqus.Model.ModelBase.ModelBase.restartIncrement>`\\"
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "An Int specifying the increment, interval, iteration or cycle where the restart analysis will start."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`endRestartStep <abaqus.Model.ModelBase.ModelBase.endRestartStep>`\\"
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "A Boolean specifying that the step specified by **restartStep** should be terminated at the increment specified by **restartIncrement**."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`shellToSolid <abaqus.Model.ModelBase.ModelBase.shellToSolid>`\\"
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "A Boolean specifying that a shell global model drives a solid submodel."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`lastChangedCount <abaqus.Model.ModelBase.ModelBase.lastChangedCount>`\\"
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "A Float specifying the time stamp that indicates when the model was last changed."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`description <abaqus.Model.ModelBase.ModelBase.description>`\\"
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "A String specifying the purpose and contents of the Model object."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`restartJob <abaqus.Model.ModelBase.ModelBase.restartJob>`\\"
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "A String specifying the name of the job that generated the restart data."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`restartStep <abaqus.Model.ModelBase.ModelBase.restartStep>`\\"
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "A String specifying the name of the step where the restart analysis will start."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`globalJob <abaqus.Model.ModelBase.ModelBase.globalJob>`\\"
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "A String specifying the name of the job that generated the results for the global model."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`copyConstraints <abaqus.Model.ModelBase.ModelBase.copyConstraints>`\\"
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "A boolean specifying the status of constraints created in a model, in the model which instances this model."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`copyConnectors <abaqus.Model.ModelBase.ModelBase.copyConnectors>`\\"
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "A boolean specifying the status of connectors created in a model, in the model which instances this model."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`copyInteractions <abaqus.Model.ModelBase.ModelBase.copyInteractions>`\\"
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "A boolean specifying the status of interactions created in a model, in the model which instances this model."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`keywordBlock <abaqus.Model.ModelBase.ModelBase.keywordBlock>`\\"
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "A KeywordBlock object."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`rootAssembly <abaqus.Model.ModelBase.ModelBase.rootAssembly>`\\"
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "An Assembly object."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`amplitudes <abaqus.Model.ModelBase.ModelBase.amplitudes>`\\"
 msgstr ""
 
-#: ../../../None:16:<autosummary>:1
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:16:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "A repository of Amplitude objects."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`profiles <abaqus.Model.ModelBase.ModelBase.profiles>`\\"
 msgstr ""
 
-#: ../../../None:16:<autosummary>:1
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:16:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "A repository of Profile objects."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`boundaryConditions <abaqus.Model.ModelBase.ModelBase.boundaryConditions>`\\"
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "A repository of BoundaryCondition objects."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`constraints <abaqus.Model.ModelBase.ModelBase.constraints>`\\"
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "A repository of ConstrainedSketchConstraint objects."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`analyticalFields <abaqus.Model.ModelBase.ModelBase.analyticalFields>`\\"
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "A repository of AnalyticalField objects."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`discreteFields <abaqus.Model.ModelBase.ModelBase.discreteFields>`\\"
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "A repository of DiscreteField objects."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`predefinedFields <abaqus.Model.ModelBase.ModelBase.predefinedFields>`\\"
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "A repository of PredefinedField objects."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`interactions <abaqus.Model.ModelBase.ModelBase.interactions>`\\"
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "A repository of Interaction objects."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`interactionProperties <abaqus.Model.ModelBase.ModelBase.interactionProperties>`\\"
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "A repository of InteractionProperty objects."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`contactControls <abaqus.Model.ModelBase.ModelBase.contactControls>`\\"
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "A repository of ContactControl objects."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`contactInitializations <abaqus.Model.ModelBase.ModelBase.contactInitializations>`\\"
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "A repository of ContactInitialization objects."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`contactStabilizations <abaqus.Model.ModelBase.ModelBase.contactStabilizations>`\\"
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "A repository of ContactStabilization objects."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`linkedInstances <abaqus.Model.ModelBase.ModelBase.linkedInstances>`\\"
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "A tuple of tuples of Strings specifying the linked child PartInstance name in the current model to the corresponding parent PartInstance name in a different model."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`linkedParts <abaqus.Model.ModelBase.ModelBase.linkedParts>`\\"
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "A tuple of tuples of Strings specifying the linked child Part name in the current model to the corresponding parent Part name in a different model."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`loads <abaqus.Model.ModelBase.ModelBase.loads>`\\"
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "A repository of Load objects."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`materials <abaqus.Model.ModelBase.ModelBase.materials>`\\"
 msgstr ""
 
-#: ../../../None:16:<autosummary>:1
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:16:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "A repository of Material objects."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`calibrations <abaqus.Model.ModelBase.ModelBase.calibrations>`\\"
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "A repository of Calibration objects."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`sections <abaqus.Model.ModelBase.ModelBase.sections>`\\"
 msgstr ""
 
-#: ../../../None:16:<autosummary>:1
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:16:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "A repository of Section objects."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`remeshingRules <abaqus.Model.ModelBase.ModelBase.remeshingRules>`\\"
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "A repository of RemeshingRule objects."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`sketches <abaqus.Model.ModelBase.ModelBase.sketches>`\\"
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "A repository of ConstrainedSketch objects."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`parts <abaqus.Model.ModelBase.ModelBase.parts>`\\"
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "A repository of Part objects."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`steps <abaqus.Model.ModelBase.ModelBase.steps>`\\"
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "A repository of Step objects."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`featureOptions <abaqus.Model.ModelBase.ModelBase.featureOptions>`\\"
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "A FeatureOptions object."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`adaptiveMeshConstraints <abaqus.Model.ModelBase.ModelBase.adaptiveMeshConstraints>`\\"
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "A repository of AdaptiveMeshConstraint objects."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`adaptiveMeshControls <abaqus.Model.ModelBase.ModelBase.adaptiveMeshControls>`\\"
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "A repository of AdaptiveMeshControl objects."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`timePoints <abaqus.Model.ModelBase.ModelBase.timePoints>`\\"
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "A repository of TimePoint objects."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`filters <abaqus.Model.ModelBase.ModelBase.filters>`\\"
 msgstr ""
 
-#: ../../../None:16:<autosummary>:1
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:16:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "A repository of Filter objects."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`integratedOutputSections <abaqus.Model.ModelBase.ModelBase.integratedOutputSections>`\\"
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "A repository of IntegratedOutputSection objects."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`fieldOutputRequests <abaqus.Model.ModelBase.ModelBase.fieldOutputRequests>`\\"
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "A repository of FieldOutputRequest objects."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`historyOutputRequests <abaqus.Model.ModelBase.ModelBase.historyOutputRequests>`\\"
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "A repository of HistoryOutputRequest objects."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`optimizationTasks <abaqus.Model.ModelBase.ModelBase.optimizationTasks>`\\"
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "A repository of OptimizationTask objects."
 msgstr ""
 
@@ -877,226 +877,226 @@ msgstr ""
 msgid "Public Methods:"
 msgstr ""
 
-#: ../../../None:19:<autosummary>:1
+#: ../../../../None:19:<autosummary>:1
 msgid ":py:obj:`AcousticInfiniteSection <abaqus.Section.SectionModel.SectionModel.AcousticInfiniteSection>`\\ \\(name\\, material\\[\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../../../src/abaqus/Section/AcousticInfiniteSection.py:docstring of abaqus.Section.AcousticInfiniteSection.AcousticInfiniteSection:19
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.AcousticInfiniteSection:1
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.AcousticInfiniteSection:1
-#: ../../../None:19:<autosummary>:1
+#: ../../../../None:19:<autosummary>:1
 msgid "This method creates an AcousticInfiniteSection object."
 msgstr ""
 
-#: ../../../None:19:<autosummary>:1
+#: ../../../../None:19:<autosummary>:1
 msgid ":py:obj:`AcousticInterfaceSection <abaqus.Section.SectionModel.SectionModel.AcousticInterfaceSection>`\\ \\(name\\[\\, thickness\\]\\)"
 msgstr ""
 
 #: ../../../../../src/abaqus/Section/AcousticInterfaceSection.py:docstring of abaqus.Section.AcousticInterfaceSection.AcousticInterfaceSection:19
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.AcousticInterfaceSection:1
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.AcousticInterfaceSection:1
-#: ../../../None:19:<autosummary>:1
+#: ../../../../None:19:<autosummary>:1
 msgid "This method creates an AcousticInterfaceSection object."
 msgstr ""
 
-#: ../../../None:19:<autosummary>:1
+#: ../../../../None:19:<autosummary>:1
 msgid ":py:obj:`BeamSection <abaqus.Section.SectionModel.SectionModel.BeamSection>`\\ \\(name\\, integration\\, profile\\[\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../../../src/abaqus/Section/BeamSection.py:docstring of abaqus.Section.BeamSection.BeamSection:35
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.BeamSection:1
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.BeamSection:1
-#: ../../../None:19:<autosummary>:1
+#: ../../../../None:19:<autosummary>:1
 msgid "This method creates a BeamSection object."
 msgstr ""
 
-#: ../../../None:19:<autosummary>:1
+#: ../../../../None:19:<autosummary>:1
 msgid ":py:obj:`CohesiveSection <abaqus.Section.SectionModel.SectionModel.CohesiveSection>`\\ \\(name\\, response\\, material\\[\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../../../src/abaqus/Section/CohesiveSection.py:docstring of abaqus.Section.CohesiveSection.CohesiveSection:19
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.CohesiveSection:1
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.CohesiveSection:1
-#: ../../../None:19:<autosummary>:1
+#: ../../../../None:19:<autosummary>:1
 msgid "This method creates a CohesiveSection object."
 msgstr ""
 
-#: ../../../None:19:<autosummary>:1
+#: ../../../../None:19:<autosummary>:1
 msgid ":py:obj:`CompositeShellSection <abaqus.Section.SectionModel.SectionModel.CompositeShellSection>`\\ \\(name\\, layup\\[\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../../../src/abaqus/Section/CompositeShellSection.py:docstring of abaqus.Section.CompositeShellSection.CompositeShellSection:21
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.CompositeShellSection:1
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.CompositeShellSection:1
-#: ../../../None:19:<autosummary>:1
+#: ../../../../None:19:<autosummary>:1
 msgid "This method creates a CompositeShellSection object."
 msgstr ""
 
-#: ../../../None:19:<autosummary>:1
+#: ../../../../None:19:<autosummary>:1
 msgid ":py:obj:`CompositeSolidSection <abaqus.Section.SectionModel.SectionModel.CompositeSolidSection>`\\ \\(name\\, layup\\[\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../../../src/abaqus/Section/CompositeSolidSection.py:docstring of abaqus.Section.CompositeSolidSection.CompositeSolidSection:19
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.CompositeSolidSection:1
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.CompositeSolidSection:1
-#: ../../../None:19:<autosummary>:1
+#: ../../../../None:19:<autosummary>:1
 msgid "This method creates a CompositeSolidSection object."
 msgstr ""
 
-#: ../../../None:19:<autosummary>:1
+#: ../../../../None:19:<autosummary>:1
 msgid ":py:obj:`ConnectorSection <abaqus.Section.SectionModel.SectionModel.ConnectorSection>`\\ \\(name\\[\\, assembledType\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../../../src/abaqus/Section/ConnectorSection.py:docstring of abaqus.Section.ConnectorSection.ConnectorSection:21
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.ConnectorSection:1
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.ConnectorSection:1
-#: ../../../None:19:<autosummary>:1
+#: ../../../../None:19:<autosummary>:1
 msgid "This method creates a ConnectorSection object."
 msgstr ""
 
-#: ../../../None:19:<autosummary>:1
+#: ../../../../None:19:<autosummary>:1
 msgid ":py:obj:`EulerianSection <abaqus.Section.SectionModel.SectionModel.EulerianSection>`\\ \\(name\\, data\\)"
 msgstr ""
 
 #: ../../../../../src/abaqus/Section/EulerianSection.py:docstring of abaqus.Section.EulerianSection.EulerianSection:19
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.EulerianSection:1
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.EulerianSection:1
-#: ../../../None:19:<autosummary>:1
+#: ../../../../None:19:<autosummary>:1
 msgid "This method creates a EulerianSection object."
 msgstr ""
 
-#: ../../../None:19:<autosummary>:1
+#: ../../../../None:19:<autosummary>:1
 msgid ":py:obj:`GasketSection <abaqus.Section.SectionModel.SectionModel.GasketSection>`\\ \\(name\\, material\\[\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../../../src/abaqus/Section/GasketSection.py:docstring of abaqus.Section.GasketSection.GasketSection:19
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.GasketSection:1
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.GasketSection:1
-#: ../../../None:19:<autosummary>:1
+#: ../../../../None:19:<autosummary>:1
 msgid "This method creates a GasketSection object."
 msgstr ""
 
-#: ../../../None:19:<autosummary>:1
+#: ../../../../None:19:<autosummary>:1
 msgid ":py:obj:`GeneralStiffnessSection <abaqus.Section.SectionModel.SectionModel.GeneralStiffnessSection>`\\ \\(name\\, stiffnessMatrix\\)"
 msgstr ""
 
 #: ../../../../../src/abaqus/Section/GeneralStiffnessSection.py:docstring of abaqus.Section.GeneralStiffnessSection.GeneralStiffnessSection:19
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.GeneralStiffnessSection:1
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.GeneralStiffnessSection:1
-#: ../../../None:19:<autosummary>:1
+#: ../../../../None:19:<autosummary>:1
 msgid "This method creates a GeneralStiffnessSection object."
 msgstr ""
 
-#: ../../../None:19:<autosummary>:1
+#: ../../../../None:19:<autosummary>:1
 msgid ":py:obj:`HomogeneousShellSection <abaqus.Section.SectionModel.SectionModel.HomogeneousShellSection>`\\ \\(name\\, material\\[\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../../../src/abaqus/Section/HomogeneousShellSection.py:docstring of abaqus.Section.HomogeneousShellSection.HomogeneousShellSection:21
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.HomogeneousShellSection:1
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.HomogeneousShellSection:1
-#: ../../../None:19:<autosummary>:1
+#: ../../../../None:19:<autosummary>:1
 msgid "This method creates a HomogeneousShellSection object."
 msgstr ""
 
-#: ../../../None:19:<autosummary>:1
+#: ../../../../None:19:<autosummary>:1
 msgid ":py:obj:`HomogeneousSolidSection <abaqus.Section.SectionModel.SectionModel.HomogeneousSolidSection>`\\ \\(name\\, material\\[\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../../../src/abaqus/Section/HomogeneousSolidSection.py:docstring of abaqus.Section.HomogeneousSolidSection.HomogeneousSolidSection:19
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.HomogeneousSolidSection:1
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.HomogeneousSolidSection:1
-#: ../../../None:19:<autosummary>:1
+#: ../../../../None:19:<autosummary>:1
 msgid "This method creates a HomogeneousSolidSection object."
 msgstr ""
 
-#: ../../../None:19:<autosummary>:1
+#: ../../../../None:19:<autosummary>:1
 msgid ":py:obj:`MembraneSection <abaqus.Section.SectionModel.SectionModel.MembraneSection>`\\ \\(name\\, material\\[\\, thickness\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../../../src/abaqus/Section/MembraneSection.py:docstring of abaqus.Section.MembraneSection.MembraneSection:19
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.MembraneSection:1
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.MembraneSection:1
-#: ../../../None:19:<autosummary>:1
+#: ../../../../None:19:<autosummary>:1
 msgid "This method creates a MembraneSection object."
 msgstr ""
 
-#: ../../../None:19:<autosummary>:1
+#: ../../../../None:19:<autosummary>:1
 msgid ":py:obj:`MPCSection <abaqus.Section.SectionModel.SectionModel.MPCSection>`\\ \\(name\\, mpcType\\[\\, userMode\\, userType\\]\\)"
 msgstr ""
 
 #: ../../../../../src/abaqus/Section/MPCSection.py:docstring of abaqus.Section.MPCSection.MPCSection:19
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.MPCSection:1
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.MPCSection:1
-#: ../../../None:19:<autosummary>:1
+#: ../../../../None:19:<autosummary>:1
 msgid "This method creates a MPCSection object."
 msgstr ""
 
-#: ../../../None:19:<autosummary>:1
+#: ../../../../None:19:<autosummary>:1
 msgid ":py:obj:`PEGSection <abaqus.Section.SectionModel.SectionModel.PEGSection>`\\ \\(name\\, material\\[\\, thickness\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../../../src/abaqus/Section/PEGSection.py:docstring of abaqus.Section.PEGSection.PEGSection:19
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.PEGSection:1
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.PEGSection:1
-#: ../../../None:19:<autosummary>:1
+#: ../../../../None:19:<autosummary>:1
 msgid "This method creates a PEGSection object."
 msgstr ""
 
-#: ../../../None:19:<autosummary>:1
+#: ../../../../None:19:<autosummary>:1
 msgid ":py:obj:`SurfaceSection <abaqus.Section.SectionModel.SectionModel.SurfaceSection>`\\ \\(name\\[\\, useDensity\\, density\\]\\)"
 msgstr ""
 
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.SurfaceSection:1
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.SurfaceSection:1
 #: ../../../../../src/abaqus/Section/SurfaceSection.py:docstring of abaqus.Section.SurfaceSection.SurfaceSection:19
-#: ../../../None:19:<autosummary>:1
+#: ../../../../None:19:<autosummary>:1
 msgid "This method creates a SurfaceSection object."
 msgstr ""
 
-#: ../../../None:19:<autosummary>:1
+#: ../../../../None:19:<autosummary>:1
 msgid ":py:obj:`TrussSection <abaqus.Section.SectionModel.SectionModel.TrussSection>`\\ \\(name\\, material\\[\\, area\\]\\)"
 msgstr ""
 
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.TrussSection:1
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.TrussSection:1
 #: ../../../../../src/abaqus/Section/TrussSection.py:docstring of abaqus.Section.TrussSection.TrussSection:19
-#: ../../../None:19:<autosummary>:1
+#: ../../../../None:19:<autosummary>:1
 msgid "This method creates a TrussSection object."
 msgstr ""
 
-#: ../../../None:7:<autosummary>:1
+#: ../../../../None:7:<autosummary>:1
 msgid ":py:obj:`__init__ <abaqus.Model.ModelBase.ModelBase.__init__>`\\ \\(name\\[\\, description\\, ...\\]\\)"
 msgstr ""
 
-#: ../../../None:7:<autosummary>:1
+#: ../../../../None:7:<autosummary>:1
 msgid ":py:obj:`ModelFromInputFile <abaqus.Model.ModelBase.ModelBase.ModelFromInputFile>`\\ \\(name\\, inputFileName\\)"
 msgstr ""
 
-#: ../../../None:7:<autosummary>:1
+#: ../../../../None:7:<autosummary>:1
 msgid "This method creates a Model object by reading the keywords in an input file and creating the corresponding Abaqus/CAE objects."
 msgstr ""
 
-#: ../../../None:7:<autosummary>:1
+#: ../../../../None:7:<autosummary>:1
 msgid ":py:obj:`ModelFromOdbFile <abaqus.Model.ModelBase.ModelBase.ModelFromOdbFile>`\\ \\(name\\, odbFileName\\)"
 msgstr ""
 
-#: ../../../None:7:<autosummary>:1
+#: ../../../../None:7:<autosummary>:1
 msgid "This method creates a Model object by reading an output database and creating any corresponding Abaqus/CAE objects."
 msgstr ""
 
-#: ../../../None:7:<autosummary>:1
+#: ../../../../None:7:<autosummary>:1
 msgid ":py:obj:`ModelFromNastranFile <abaqus.Model.ModelBase.ModelBase.ModelFromNastranFile>`\\ \\(modelName\\, inputFileName\\)"
 msgstr ""
 
-#: ../../../None:7:<autosummary>:1
+#: ../../../../None:7:<autosummary>:1
 msgid "This method creates a Model object by reading the keywords in a Nastran bulk data file or Nastran input file and creating any corresponding Abaqus/CAE objects."
 msgstr ""
 
-#: ../../../None:7:<autosummary>:1
+#: ../../../../None:7:<autosummary>:1
 msgid ":py:obj:`setValues <abaqus.Model.ModelBase.ModelBase.setValues>`\\ \\(\\[description\\, noPartsInputFile\\, ...\\]\\)"
 msgstr ""
 
-#: ../../../None:7:<autosummary>:1
+#: ../../../../None:7:<autosummary>:1
 msgid "This method modifies the Model object."
 msgstr ""
 
@@ -1156,12 +1156,12 @@ msgstr ""
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.PEGSection:15
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.TrussSection:15
 #: ../../../../../src/abaqus/Section/TrussSection.py:docstring of abaqus.Section.TrussSection.TrussSection:30
-#: ../../../docstring of abaqus.Section.SectionOdb.AcousticInfiniteSection.material:1
-#: ../../../docstring of abaqus.Section.SectionOdb.CohesiveSection.material:1
-#: ../../../docstring of abaqus.Section.SectionOdb.HomogeneousSolidSection.material:1
-#: ../../../docstring of abaqus.Section.SectionOdb.MembraneSection.material:1
-#: ../../../docstring of abaqus.Section.SectionOdb.PEGSection.material:1
-#: ../../../docstring of abaqus.Section.TrussSection.TrussSection.material:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.AcousticInfiniteSection.material:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.CohesiveSection.material:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.HomogeneousSolidSection.material:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.MembraneSection.material:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.PEGSection.material:1
+#: ../../../../docstring of abaqus.Section.TrussSection.TrussSection.material:1
 msgid "A String specifying the name of the material."
 msgstr ""
 
@@ -1177,9 +1177,9 @@ msgstr ""
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.AcousticInfiniteSection:17
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.AcousticInterfaceSection:15
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.PEGSection:17
-#: ../../../docstring of abaqus.Section.SectionOdb.AcousticInfiniteSection.thickness:1
-#: ../../../docstring of abaqus.Section.SectionOdb.AcousticInterfaceSection.thickness:1
-#: ../../../docstring of abaqus.Section.SectionOdb.PEGSection.thickness:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.AcousticInfiniteSection.thickness:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.AcousticInterfaceSection.thickness:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.PEGSection.thickness:1
 msgid "A Float specifying the thickness of the section. Possible values are **thickness** > 0.0. The default value is 1.0."
 msgstr ""
 
@@ -1187,7 +1187,7 @@ msgstr ""
 #: ../../../../../src/abaqus/Section/AcousticInfiniteSection.py:docstring of abaqus.Section.AcousticInfiniteSection.AcousticInfiniteSection.setValues:10
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.AcousticInfiniteSection:20
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.AcousticInfiniteSection:20
-#: ../../../docstring of abaqus.Section.SectionOdb.AcousticInfiniteSection.order:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.AcousticInfiniteSection.order:1
 msgid "An Int specifying the number of ninth-order polynomials that will be used to resolve the variation of the acoustic field in the infinite direction. Possible values are 0 < **order** ≤ 10. The default value is 10."
 msgstr ""
 
@@ -1272,14 +1272,14 @@ msgstr ""
 #: ../../../../../src/abaqus/Section/BeamSection.py:docstring of abaqus.Section.BeamSection.BeamSection:46
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.BeamSection:15
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.BeamSection:15
-#: ../../../docstring of abaqus.Section.SectionOdb.BeamSection.integration:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.BeamSection.integration:1
 msgid "A SymbolicConstant specifying the integration method for the section. Possible values are BEFORE_ANALYSIS and DURING_ANALYSIS."
 msgstr ""
 
 #: ../../../../../src/abaqus/Section/BeamSection.py:docstring of abaqus.Section.BeamSection.BeamSection:49
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.BeamSection:18
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.BeamSection:18
-#: ../../../docstring of abaqus.Section.SectionOdb.BeamSection.profile:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.BeamSection.profile:1
 msgid "A String specifying the name of the profile. This argument represents the start profile in case of **beamShape** = TAPERED."
 msgstr ""
 
@@ -1287,7 +1287,7 @@ msgstr ""
 #: ../../../../../src/abaqus/Section/BeamSection.py:docstring of abaqus.Section.BeamSection.BeamSection.setValues:7
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.BeamSection:21
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.BeamSection:21
-#: ../../../docstring of abaqus.Section.SectionOdb.BeamSection.poissonRatio:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.BeamSection.poissonRatio:1
 msgid "A Float specifying the Poisson's ratio of the section. The default value is 0.0."
 msgstr ""
 
@@ -1295,7 +1295,7 @@ msgstr ""
 #: ../../../../../src/abaqus/Section/BeamSection.py:docstring of abaqus.Section.BeamSection.BeamSection.setValues:9
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.BeamSection:23
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.BeamSection:23
-#: ../../../docstring of abaqus.Section.SectionOdb.BeamSection.thermalExpansion:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.BeamSection.thermalExpansion:1
 msgid "A Boolean specifying whether to use thermal expansion data. The default value is OFF."
 msgstr ""
 
@@ -1307,8 +1307,8 @@ msgstr ""
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.GeneralStiffnessSection:24
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.BeamSection:25
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.GeneralStiffnessSection:24
-#: ../../../docstring of abaqus.Section.SectionOdb.BeamSection.temperatureDependency:1
-#: ../../../docstring of abaqus.Section.SectionOdb.GeneralStiffnessSection.temperatureDependency:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.BeamSection.temperatureDependency:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.GeneralStiffnessSection.temperatureDependency:1
 msgid "A Boolean specifying whether the data depend on temperature. The default value is OFF."
 msgstr ""
 
@@ -1320,8 +1320,8 @@ msgstr ""
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.GeneralStiffnessSection:26
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.BeamSection:27
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.GeneralStiffnessSection:26
-#: ../../../docstring of abaqus.Section.SectionOdb.BeamSection.dependencies:1
-#: ../../../docstring of abaqus.Section.SectionOdb.GeneralStiffnessSection.dependencies:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.BeamSection.dependencies:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.GeneralStiffnessSection.dependencies:1
 msgid "An Int specifying the number of field variable dependencies. The default value is 0."
 msgstr ""
 
@@ -1329,7 +1329,7 @@ msgstr ""
 #: ../../../../../src/abaqus/Section/BeamSection.py:docstring of abaqus.Section.BeamSection.BeamSection.setValues:15
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.BeamSection:29
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.BeamSection:29
-#: ../../../docstring of abaqus.Section.SectionOdb.BeamSection.density:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.BeamSection.density:1
 msgid "None or a Float specifying the density of the section. The default value is None."
 msgstr ""
 
@@ -1337,7 +1337,7 @@ msgstr ""
 #: ../../../../../src/abaqus/Section/BeamSection.py:docstring of abaqus.Section.BeamSection.BeamSection.setValues:17
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.BeamSection:31
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.BeamSection:31
-#: ../../../docstring of abaqus.Section.SectionOdb.BeamSection.referenceTemperature:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.BeamSection.referenceTemperature:1
 msgid "None or a Float specifying the reference temperature of the section. The default value is None."
 msgstr ""
 
@@ -1345,7 +1345,7 @@ msgstr ""
 #: ../../../../../src/abaqus/Section/BeamSection.py:docstring of abaqus.Section.BeamSection.BeamSection.setValues:20
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.BeamSection:34
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.BeamSection:34
-#: ../../../docstring of abaqus.Section.SectionOdb.BeamSection.temperatureVar:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.BeamSection.temperatureVar:1
 msgid "A SymbolicConstant specifying the temperature variation for the section. Possible values are LINEAR and INTERPOLATED. The default value is LINEAR."
 msgstr ""
 
@@ -1353,7 +1353,7 @@ msgstr ""
 #: ../../../../../src/abaqus/Section/BeamSection.py:docstring of abaqus.Section.BeamSection.BeamSection.setValues:23
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.BeamSection:37
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.BeamSection:37
-#: ../../../docstring of abaqus.Section.SectionOdb.BeamSection.alphaDamping:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.BeamSection.alphaDamping:1
 msgid "A Float specifying the αRαR factor to create mass proportional damping in direct-integration dynamics. The default value is 0.0."
 msgstr ""
 
@@ -1361,7 +1361,7 @@ msgstr ""
 #: ../../../../../src/abaqus/Section/BeamSection.py:docstring of abaqus.Section.BeamSection.BeamSection.setValues:26
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.BeamSection:40
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.BeamSection:40
-#: ../../../docstring of abaqus.Section.SectionOdb.BeamSection.betaDamping:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.BeamSection.betaDamping:1
 msgid "A Float specifying the βRβR factor to create stiffness proportional damping in direct-integration dynamics. The default value is 0.0."
 msgstr ""
 
@@ -1369,7 +1369,7 @@ msgstr ""
 #: ../../../../../src/abaqus/Section/BeamSection.py:docstring of abaqus.Section.BeamSection.BeamSection.setValues:29
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.BeamSection:43
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.BeamSection:43
-#: ../../../docstring of abaqus.Section.SectionOdb.BeamSection.compositeDamping:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.BeamSection.compositeDamping:1
 msgid "A Float specifying the fraction of critical damping to be used in calculating composite damping factors for the modes (for use in modal dynamics). The default value is 0.0."
 msgstr ""
 
@@ -1377,7 +1377,7 @@ msgstr ""
 #: ../../../../../src/abaqus/Section/BeamSection.py:docstring of abaqus.Section.BeamSection.BeamSection.setValues:32
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.BeamSection:46
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.BeamSection:46
-#: ../../../docstring of abaqus.Section.SectionOdb.BeamSection.useFluidInertia:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.BeamSection.useFluidInertia:1
 msgid "A Boolean specifying whether added mass effects will be simulated. The default value is OFF."
 msgstr ""
 
@@ -1385,7 +1385,7 @@ msgstr ""
 #: ../../../../../src/abaqus/Section/BeamSection.py:docstring of abaqus.Section.BeamSection.BeamSection.setValues:35
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.BeamSection:49
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.BeamSection:49
-#: ../../../docstring of abaqus.Section.SectionOdb.BeamSection.submerged:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.BeamSection.submerged:1
 msgid "A SymbolicConstant specifying whether the section is either full submerged or half submerged. This argument applies only when **useFluidInertia** = True. Possible values are FULLY and HALF. The default value is FULLY."
 msgstr ""
 
@@ -1393,7 +1393,7 @@ msgstr ""
 #: ../../../../../src/abaqus/Section/BeamSection.py:docstring of abaqus.Section.BeamSection.BeamSection.setValues:39
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.BeamSection:53
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.BeamSection:53
-#: ../../../docstring of abaqus.Section.SectionOdb.BeamSection.fluidMassDensity:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.BeamSection.fluidMassDensity:1
 msgid "None or a Float specifying the mass density of the fluid. This argument applies only when **useFluidInertia** = True and must be specified in that case. The default value is None."
 msgstr ""
 
@@ -1401,7 +1401,7 @@ msgstr ""
 #: ../../../../../src/abaqus/Section/BeamSection.py:docstring of abaqus.Section.BeamSection.BeamSection.setValues:43
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.BeamSection:57
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.BeamSection:57
-#: ../../../docstring of abaqus.Section.SectionOdb.BeamSection.crossSectionRadius:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.BeamSection.crossSectionRadius:1
 msgid "None or a Float specifying the radius of the cylindrical cross-section. This argument applies only when **useFluidInertia** = True and must be specified in that case. The default value is None."
 msgstr ""
 
@@ -1409,7 +1409,7 @@ msgstr ""
 #: ../../../../../src/abaqus/Section/BeamSection.py:docstring of abaqus.Section.BeamSection.BeamSection.setValues:47
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.BeamSection:61
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.BeamSection:61
-#: ../../../docstring of abaqus.Section.SectionOdb.BeamSection.lateralMassCoef:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.BeamSection.lateralMassCoef:1
 msgid "A Float specifying the added mass coefficient, CACA, for lateral motions of the beam. This argument applies only when*useFluidInertia* = True. The default value is 1.0."
 msgstr ""
 
@@ -1417,7 +1417,7 @@ msgstr ""
 #: ../../../../../src/abaqus/Section/BeamSection.py:docstring of abaqus.Section.BeamSection.BeamSection.setValues:50
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.BeamSection:64
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.BeamSection:64
-#: ../../../docstring of abaqus.Section.SectionOdb.BeamSection.axialMassCoef:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.BeamSection.axialMassCoef:1
 msgid "A Float specifying the added mass coefficient, C(A−E)C(A-E), for motions along the axis of the beam. This argument affects only the term added to the free end(s) of the beam, and applies only when **useFluidInertia** = True. The default value is 0.0."
 msgstr ""
 
@@ -1425,7 +1425,7 @@ msgstr ""
 #: ../../../../../src/abaqus/Section/BeamSection.py:docstring of abaqus.Section.BeamSection.BeamSection.setValues:54
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.BeamSection:68
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.BeamSection:68
-#: ../../../docstring of abaqus.Section.SectionOdb.BeamSection.massOffsetX:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.BeamSection.massOffsetX:1
 msgid "A Float specifying the local 1-coordinate of the center of the cylindrical cross-section with respect to the beam cross-section. This argument applies only when **useFluidInertia** = True. The default value is 0.0."
 msgstr ""
 
@@ -1433,7 +1433,7 @@ msgstr ""
 #: ../../../../../src/abaqus/Section/BeamSection.py:docstring of abaqus.Section.BeamSection.BeamSection.setValues:58
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.BeamSection:72
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.BeamSection:72
-#: ../../../docstring of abaqus.Section.SectionOdb.BeamSection.massOffsetY:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.BeamSection.massOffsetY:1
 msgid "A Float specifying the local 2-coordinate of the center of the cylindrical cross-section with respect to the beam cross-section. This argument applies only when **useFluidInertia** = True. The default value is 0.0."
 msgstr ""
 
@@ -1441,7 +1441,7 @@ msgstr ""
 #: ../../../../../src/abaqus/Section/BeamSection.py:docstring of abaqus.Section.BeamSection.BeamSection.setValues:62
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.BeamSection:76
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.BeamSection:76
-#: ../../../docstring of abaqus.Section.SectionOdb.BeamSection.beamShape:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.BeamSection.beamShape:1
 msgid "A SymbolicConstant specifying the change in cross-section of the beam along length. Possible values are CONSTANT and TAPERED. The default value is CONSTANT. This parameter is available for manipulating the model database but not for the ODB API."
 msgstr ""
 
@@ -1449,7 +1449,7 @@ msgstr ""
 #: ../../../../../src/abaqus/Section/BeamSection.py:docstring of abaqus.Section.BeamSection.BeamSection.setValues:66
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.BeamSection:80
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.BeamSection:80
-#: ../../../docstring of abaqus.Section.SectionOdb.BeamSection.material:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.BeamSection.material:1
 msgid "A String specifying the name of the material. The default value is an empty string. The material is required when **integration** is \"DURING_ANALYSIS\"."
 msgstr ""
 
@@ -1457,7 +1457,7 @@ msgstr ""
 #: ../../../../../src/abaqus/Section/BeamSection.py:docstring of abaqus.Section.BeamSection.BeamSection.setValues:69
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.BeamSection:83
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.BeamSection:83
-#: ../../../docstring of abaqus.Section.SectionOdb.BeamSection.table:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.BeamSection.table:1
 msgid "A sequence of sequences of Floats specifying the items described below. The default value is an empty sequence."
 msgstr ""
 
@@ -1465,7 +1465,7 @@ msgstr ""
 #: ../../../../../src/abaqus/Section/BeamSection.py:docstring of abaqus.Section.BeamSection.BeamSection.setValues:72
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.BeamSection:86
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.BeamSection:86
-#: ../../../docstring of abaqus.Section.SectionOdb.BeamSection.outputPts:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.BeamSection.outputPts:1
 msgid "A sequence of pairs of Floats specifying the positions at which output is requested. The default value is an empty sequence."
 msgstr ""
 
@@ -1473,7 +1473,7 @@ msgstr ""
 #: ../../../../../src/abaqus/Section/BeamSection.py:docstring of abaqus.Section.BeamSection.BeamSection.setValues:75
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.BeamSection:89
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.BeamSection:89
-#: ../../../docstring of abaqus.Section.SectionOdb.BeamSection.centroid:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.BeamSection.centroid:1
 msgid "A pair of Floats specifying the **X - Y** coordinates of the centroid. The default value is (0.0, 0.0)."
 msgstr ""
 
@@ -1481,7 +1481,7 @@ msgstr ""
 #: ../../../../../src/abaqus/Section/BeamSection.py:docstring of abaqus.Section.BeamSection.BeamSection.setValues:78
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.BeamSection:92
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.BeamSection:92
-#: ../../../docstring of abaqus.Section.SectionOdb.BeamSection.shearCenter:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.BeamSection.shearCenter:1
 msgid "A pair of Floats specifying the **X - Y** coordinates of the shear center. The default value is (0.0, 0.0)."
 msgstr ""
 
@@ -1489,7 +1489,7 @@ msgstr ""
 #: ../../../../../src/abaqus/Section/BeamSection.py:docstring of abaqus.Section.BeamSection.BeamSection.setValues:81
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.BeamSection:95
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.BeamSection:95
-#: ../../../docstring of abaqus.Section.SectionOdb.BeamSection.profileEnd:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.BeamSection.profileEnd:1
 msgid "A String specifying the name of the end profile. The type of the end profile must be same as that of the start profile. This argument is valid only when **beamShape** = TAPERED. The default value is an empty string. This parameter is available for manipulating the model database but not for the ODB API."
 msgstr ""
 
@@ -1514,7 +1514,7 @@ msgstr ""
 #: ../../../../../src/abaqus/Section/CohesiveSection.py:docstring of abaqus.Section.CohesiveSection.CohesiveSection:30
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.CohesiveSection:15
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.CohesiveSection:15
-#: ../../../docstring of abaqus.Section.SectionOdb.CohesiveSection.response:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.CohesiveSection.response:1
 msgid "A SymbolicConstant specifying the geometric assumption that defines the constitutive behavior of the cohesive elements. Possible values are TRACTION_SEPARATION, CONTINUUM, and GASKET."
 msgstr ""
 
@@ -1529,7 +1529,7 @@ msgstr ""
 #: ../../../../../src/abaqus/Section/CohesiveSection.py:docstring of abaqus.Section.CohesiveSection.CohesiveSection.setValues:13
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.CohesiveSection:27
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.CohesiveSection:27
-#: ../../../docstring of abaqus.Section.SectionOdb.CohesiveSection.initialThickness:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.CohesiveSection.initialThickness:1
 msgid "A Float specifying the initial thickness for the section. The **initialThickness** argument applies only when **initialThicknessType** = SPECIFY. The default value is 1.0."
 msgstr ""
 
@@ -1537,7 +1537,7 @@ msgstr ""
 #: ../../../../../src/abaqus/Section/CohesiveSection.py:docstring of abaqus.Section.CohesiveSection.CohesiveSection.setValues:16
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.CohesiveSection:30
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.CohesiveSection:30
-#: ../../../docstring of abaqus.Section.SectionOdb.CohesiveSection.outOfPlaneThickness:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.CohesiveSection.outOfPlaneThickness:1
 msgid "None or a Float specifying the out-of-plane thickness for the section. The default value is None."
 msgstr ""
 
@@ -1562,7 +1562,7 @@ msgstr ""
 #: ../../../../../src/abaqus/Section/CompositeShellSection.py:docstring of abaqus.Section.CompositeShellSection.CompositeShellSection:33
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.CompositeShellSection:16
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.CompositeShellSection:16
-#: ../../../docstring of abaqus.Section.SectionOdb.CompositeShellSection.layup:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.CompositeShellSection.layup:1
 msgid "A SectionLayerArray object specifying the shell cross-section."
 msgstr ""
 
@@ -1574,8 +1574,8 @@ msgstr ""
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.CompositeSolidSection:17
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.CompositeShellSection:18
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.CompositeSolidSection:17
-#: ../../../docstring of abaqus.Section.SectionOdb.CompositeShellSection.symmetric:1
-#: ../../../docstring of abaqus.Section.SectionOdb.CompositeSolidSection.symmetric:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.CompositeShellSection.symmetric:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.CompositeSolidSection.symmetric:1
 msgid "A Boolean specifying whether or not the layup should be made symmetric by the analysis. The default value is OFF."
 msgstr ""
 
@@ -1588,9 +1588,9 @@ msgstr ""
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.HomogeneousShellSection:26
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.CompositeShellSection:21
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.HomogeneousShellSection:26
-#: ../../../docstring of abaqus.Section.HomogeneousShellSection.GeometryShellSection.thicknessType:1
-#: ../../../docstring of abaqus.Section.SectionOdb.CompositeShellSection.thicknessType:1
-#: ../../../docstring of abaqus.Section.SectionOdb.HomogeneousShellSection.thicknessType:1
+#: ../../../../docstring of abaqus.Section.HomogeneousShellSection.GeometryShellSection.thicknessType:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.CompositeShellSection.thicknessType:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.HomogeneousShellSection.thicknessType:1
 msgid "A SymbolicConstant specifying the distribution used for defining the thickness of the elements. Possible values are UNIFORM, ANALYTICAL_FIELD, DISCRETE_FIELD, NODAL_ANALYTICAL_FIELD, and NODAL_DISCRETE_FIELD. The default value is UNIFORM."
 msgstr ""
 
@@ -1603,9 +1603,9 @@ msgstr ""
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.HomogeneousShellSection:30
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.CompositeShellSection:25
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.HomogeneousShellSection:30
-#: ../../../docstring of abaqus.Section.HomogeneousShellSection.GeometryShellSection.preIntegrate:1
-#: ../../../docstring of abaqus.Section.SectionOdb.CompositeShellSection.preIntegrate:1
-#: ../../../docstring of abaqus.Section.SectionOdb.HomogeneousShellSection.preIntegrate:1
+#: ../../../../docstring of abaqus.Section.HomogeneousShellSection.GeometryShellSection.preIntegrate:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.CompositeShellSection.preIntegrate:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.HomogeneousShellSection.preIntegrate:1
 msgid "A Boolean specifying whether the shell section properties are specified by the user prior to the analysis (ON) or integrated during the analysis (OFF). The default value is OFF."
 msgstr ""
 
@@ -1626,10 +1626,10 @@ msgstr ""
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.GeneralStiffnessSection:28
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.HomogeneousShellSection:34
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.MembraneSection:24
-#: ../../../docstring of abaqus.Section.HomogeneousShellSection.GeometryShellSection.poissonDefinition:1
-#: ../../../docstring of abaqus.Section.SectionOdb.GeneralStiffnessSection.poissonDefinition:1
-#: ../../../docstring of abaqus.Section.SectionOdb.HomogeneousShellSection.poissonDefinition:1
-#: ../../../docstring of abaqus.Section.SectionOdb.MembraneSection.poissonDefinition:1
+#: ../../../../docstring of abaqus.Section.HomogeneousShellSection.GeometryShellSection.poissonDefinition:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.GeneralStiffnessSection.poissonDefinition:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.HomogeneousShellSection.poissonDefinition:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.MembraneSection.poissonDefinition:1
 msgid "A SymbolicConstant specifying whether to use the default value for the Poisson's ratio. Possible values are:DEFAULT, specifying that the default value for the Poisson's ratio is 0.5 in an Abaqus/Standard analysis and is obtained from the material definition in an Abaqus/Explicit analysis.VALUE, specifying that the Poisson's ratio used in the analysis is the value provided in **poisson**.The default value is DEFAULT."
 msgstr ""
 
@@ -1646,10 +1646,10 @@ msgstr ""
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.CompositeShellSection:35
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.GeneralStiffnessSection:34
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.HomogeneousShellSection:40
-#: ../../../docstring of abaqus.Section.HomogeneousShellSection.GeometryShellSection.poisson:1
-#: ../../../docstring of abaqus.Section.SectionOdb.CompositeShellSection.poisson:1
-#: ../../../docstring of abaqus.Section.SectionOdb.GeneralStiffnessSection.poisson:1
-#: ../../../docstring of abaqus.Section.SectionOdb.HomogeneousShellSection.poisson:1
+#: ../../../../docstring of abaqus.Section.HomogeneousShellSection.GeometryShellSection.poisson:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.CompositeShellSection.poisson:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.GeneralStiffnessSection.poisson:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.HomogeneousShellSection.poisson:1
 msgid "A Float specifying the Poisson's ratio. Possible values are −1.0 ≤ **poisson** ≤ 0.5. This argument is valid only when **poissonDefinition** = VALUE. The default value is 0.5."
 msgstr ""
 
@@ -1662,9 +1662,9 @@ msgstr ""
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.HomogeneousShellSection:43
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.CompositeShellSection:38
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.HomogeneousShellSection:43
-#: ../../../docstring of abaqus.Section.HomogeneousShellSection.GeometryShellSection.integrationRule:1
-#: ../../../docstring of abaqus.Section.SectionOdb.CompositeShellSection.integrationRule:1
-#: ../../../docstring of abaqus.Section.SectionOdb.HomogeneousShellSection.integrationRule:1
+#: ../../../../docstring of abaqus.Section.HomogeneousShellSection.GeometryShellSection.integrationRule:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.CompositeShellSection.integrationRule:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.HomogeneousShellSection.integrationRule:1
 msgid "A SymbolicConstant specifying the shell section integration rule. Possible values are SIMPSON and GAUSS. The default value is SIMPSON."
 msgstr ""
 
@@ -1677,9 +1677,9 @@ msgstr ""
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.HomogeneousShellSection:46
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.CompositeShellSection:41
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.HomogeneousShellSection:46
-#: ../../../docstring of abaqus.Section.HomogeneousShellSection.GeometryShellSection.temperature:1
-#: ../../../docstring of abaqus.Section.SectionOdb.CompositeShellSection.temperature:1
-#: ../../../docstring of abaqus.Section.SectionOdb.HomogeneousShellSection.temperature:1
+#: ../../../../docstring of abaqus.Section.HomogeneousShellSection.GeometryShellSection.temperature:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.CompositeShellSection.temperature:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.HomogeneousShellSection.temperature:1
 msgid "A SymbolicConstant specifying the mode used for temperature and field variable input across the section thickness. Possible values are GRADIENT and POINTWISE. The default value is GRADIENT."
 msgstr ""
 
@@ -1691,9 +1691,9 @@ msgstr ""
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.HomogeneousShellSection:50
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.CompositeShellSection:45
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.HomogeneousShellSection:50
-#: ../../../docstring of abaqus.Section.HomogeneousShellSection.GeometryShellSection.idealization:1
-#: ../../../docstring of abaqus.Section.SectionOdb.CompositeShellSection.idealization:1
-#: ../../../docstring of abaqus.Section.SectionOdb.HomogeneousShellSection.idealization:1
+#: ../../../../docstring of abaqus.Section.HomogeneousShellSection.GeometryShellSection.idealization:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.CompositeShellSection.idealization:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.HomogeneousShellSection.idealization:1
 msgid "A SymbolicConstant specifying the mechanical idealization used for the section calculations. This member is only applicable when **preIntegrate** is set to ON. Possible values are NO_IDEALIZATION, SMEAR_ALL_LAYERS, MEMBRANE, and BENDING. The default value is NO_IDEALIZATION."
 msgstr ""
 
@@ -1706,9 +1706,9 @@ msgstr ""
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.HomogeneousShellSection:55
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.CompositeShellSection:50
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.HomogeneousShellSection:55
-#: ../../../docstring of abaqus.Section.HomogeneousShellSection.GeometryShellSection.nTemp:1
-#: ../../../docstring of abaqus.Section.SectionOdb.CompositeShellSection.nTemp:1
-#: ../../../docstring of abaqus.Section.SectionOdb.HomogeneousShellSection.nTemp:1
+#: ../../../../docstring of abaqus.Section.HomogeneousShellSection.GeometryShellSection.nTemp:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.CompositeShellSection.nTemp:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.HomogeneousShellSection.nTemp:1
 msgid "None or an Int specifying the number of temperature points to be input. This argument is valid only when **temperature** = POINTWISE. The default value is None."
 msgstr ""
 
@@ -1721,9 +1721,9 @@ msgstr ""
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.HomogeneousShellSection:58
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.CompositeShellSection:53
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.HomogeneousShellSection:58
-#: ../../../docstring of abaqus.Section.HomogeneousShellSection.GeometryShellSection.thicknessModulus:1
-#: ../../../docstring of abaqus.Section.SectionOdb.CompositeShellSection.thicknessModulus:1
-#: ../../../docstring of abaqus.Section.SectionOdb.HomogeneousShellSection.thicknessModulus:1
+#: ../../../../docstring of abaqus.Section.HomogeneousShellSection.GeometryShellSection.thicknessModulus:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.CompositeShellSection.thicknessModulus:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.HomogeneousShellSection.thicknessModulus:1
 msgid "None or a Float specifying the effective thickness modulus. This argument is relevant only for continuum shells and must be used in conjunction with the argument **poisson**. The default value is None."
 msgstr ""
 
@@ -1743,11 +1743,11 @@ msgstr ""
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.HomogeneousShellSection:62
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.SurfaceSection:15
 #: ../../../../../src/abaqus/Section/SurfaceSection.py:docstring of abaqus.Section.SurfaceSection.SurfaceSection:30
-#: ../../../docstring of abaqus.Section.HomogeneousShellSection.GeometryShellSection.useDensity:1
-#: ../../../docstring of abaqus.Section.SectionOdb.CompositeShellSection.useDensity:1
-#: ../../../docstring of abaqus.Section.SectionOdb.GeneralStiffnessSection.useDensity:1
-#: ../../../docstring of abaqus.Section.SectionOdb.HomogeneousShellSection.useDensity:1
-#: ../../../docstring of abaqus.Section.SurfaceSection.SurfaceSection.useDensity:1
+#: ../../../../docstring of abaqus.Section.HomogeneousShellSection.GeometryShellSection.useDensity:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.CompositeShellSection.useDensity:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.GeneralStiffnessSection.useDensity:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.HomogeneousShellSection.useDensity:1
+#: ../../../../docstring of abaqus.Section.SurfaceSection.SurfaceSection.useDensity:1
 msgid "A Boolean specifying whether or not to use the value of **density**. The default value is OFF."
 msgstr ""
 
@@ -1767,11 +1767,11 @@ msgstr ""
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.HomogeneousShellSection:65
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.SurfaceSection:18
 #: ../../../../../src/abaqus/Section/SurfaceSection.py:docstring of abaqus.Section.SurfaceSection.SurfaceSection:33
-#: ../../../docstring of abaqus.Section.HomogeneousShellSection.GeometryShellSection.density:1
-#: ../../../docstring of abaqus.Section.SectionOdb.CompositeShellSection.density:1
-#: ../../../docstring of abaqus.Section.SectionOdb.GeneralStiffnessSection.density:1
-#: ../../../docstring of abaqus.Section.SectionOdb.HomogeneousShellSection.density:1
-#: ../../../docstring of abaqus.Section.SurfaceSection.SurfaceSection.density:1
+#: ../../../../docstring of abaqus.Section.HomogeneousShellSection.GeometryShellSection.density:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.CompositeShellSection.density:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.GeneralStiffnessSection.density:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.HomogeneousShellSection.density:1
+#: ../../../../docstring of abaqus.Section.SurfaceSection.SurfaceSection.density:1
 msgid "A Float specifying the value of density to apply to this section. The default value is 0.0."
 msgstr ""
 
@@ -1783,8 +1783,8 @@ msgstr ""
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.CompositeSolidSection:20
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.CompositeShellSection:63
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.CompositeSolidSection:20
-#: ../../../docstring of abaqus.Section.SectionOdb.CompositeShellSection.layupName:1
-#: ../../../docstring of abaqus.Section.SectionOdb.CompositeSolidSection.layupName:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.CompositeShellSection.layupName:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.CompositeSolidSection.layupName:1
 msgid "A String specifying the layup name for this section. The default value is an empty string."
 msgstr ""
 
@@ -1801,10 +1801,10 @@ msgstr ""
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.CompositeShellSection:66
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.HomogeneousShellSection:68
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.MembraneSection:34
-#: ../../../docstring of abaqus.Section.HomogeneousShellSection.GeometryShellSection.thicknessField:1
-#: ../../../docstring of abaqus.Section.SectionOdb.CompositeShellSection.thicknessField:1
-#: ../../../docstring of abaqus.Section.SectionOdb.HomogeneousShellSection.thicknessField:1
-#: ../../../docstring of abaqus.Section.SectionOdb.MembraneSection.thicknessField:1
+#: ../../../../docstring of abaqus.Section.HomogeneousShellSection.GeometryShellSection.thicknessField:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.CompositeShellSection.thicknessField:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.HomogeneousShellSection.thicknessField:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.MembraneSection.thicknessField:1
 msgid "A String specifying the name of the AnalyticalField or DiscreteField object used to define the thickness of the shell elements. The **thicknessField** argument applies only when **thicknessType** = ANALYTICAL_FIELD or **thicknessType** = DISCRETE_FIELD. The default value is an empty string."
 msgstr ""
 
@@ -1817,9 +1817,9 @@ msgstr ""
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.HomogeneousShellSection:73
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.CompositeShellSection:71
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.HomogeneousShellSection:73
-#: ../../../docstring of abaqus.Section.HomogeneousShellSection.GeometryShellSection.nodalThicknessField:1
-#: ../../../docstring of abaqus.Section.SectionOdb.CompositeShellSection.nodalThicknessField:1
-#: ../../../docstring of abaqus.Section.SectionOdb.HomogeneousShellSection.nodalThicknessField:1
+#: ../../../../docstring of abaqus.Section.HomogeneousShellSection.GeometryShellSection.nodalThicknessField:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.CompositeShellSection.nodalThicknessField:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.HomogeneousShellSection.nodalThicknessField:1
 msgid "A String specifying the name of the AnalyticalField or DiscreteField object used to define the thickness of the shell elements at each node. The **nodalThicknessField** argument applies only when **thicknessType** = NODAL_ANALYTICAL_FIELD or **thicknessType** = NODAL_DISCRETE_FIELD. The default value is an empty string."
 msgstr ""
 
@@ -1844,7 +1844,7 @@ msgstr ""
 #: ../../../../../src/abaqus/Section/CompositeSolidSection.py:docstring of abaqus.Section.CompositeSolidSection.CompositeSolidSection:30
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.CompositeSolidSection:15
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.CompositeSolidSection:15
-#: ../../../docstring of abaqus.Section.SectionOdb.CompositeSolidSection.layup:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.CompositeSolidSection.layup:1
 msgid "A SectionLayerArray object specifying the solid cross-section."
 msgstr ""
 
@@ -1891,7 +1891,7 @@ msgstr ""
 #: ../../../../../src/abaqus/Section/ConnectorSection.py:docstring of abaqus.Section.ConnectorSection.ConnectorSection.setValues:28
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.ConnectorSection:36
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.ConnectorSection:36
-#: ../../../docstring of abaqus.Section.SectionOdb.ConnectorSection.integration:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.ConnectorSection.integration:1
 msgid "A SymbolicConstant specifying the time integration scheme to use for analysis. This argument is applicable only to an Abaqus/Explicit analysis. Possible values are UNSPECIFIED, IMPLICIT, and EXPLICIT. The default value is UNSPECIFIED."
 msgstr ""
 
@@ -1899,7 +1899,7 @@ msgstr ""
 #: ../../../../../src/abaqus/Section/ConnectorSection.py:docstring of abaqus.Section.ConnectorSection.ConnectorSection.setValues:32
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.ConnectorSection:40
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.ConnectorSection:40
-#: ../../../docstring of abaqus.Section.SectionOdb.ConnectorSection.u1ReferenceLength:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.ConnectorSection.u1ReferenceLength:1
 msgid "None or a Float specifying the reference length associated with constitutive response for the first component of relative motion. The default value is None."
 msgstr ""
 
@@ -1907,7 +1907,7 @@ msgstr ""
 #: ../../../../../src/abaqus/Section/ConnectorSection.py:docstring of abaqus.Section.ConnectorSection.ConnectorSection.setValues:35
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.ConnectorSection:43
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.ConnectorSection:43
-#: ../../../docstring of abaqus.Section.SectionOdb.ConnectorSection.u2ReferenceLength:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.ConnectorSection.u2ReferenceLength:1
 msgid "None or a Float specifying the reference length associated with constitutive response for the second component of relative motion. The default value is None."
 msgstr ""
 
@@ -1915,7 +1915,7 @@ msgstr ""
 #: ../../../../../src/abaqus/Section/ConnectorSection.py:docstring of abaqus.Section.ConnectorSection.ConnectorSection.setValues:38
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.ConnectorSection:46
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.ConnectorSection:46
-#: ../../../docstring of abaqus.Section.SectionOdb.ConnectorSection.u3ReferenceLength:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.ConnectorSection.u3ReferenceLength:1
 msgid "None or a Float specifying the reference length associated with constitutive response for the third component of relative motion. The default value is None."
 msgstr ""
 
@@ -1923,7 +1923,7 @@ msgstr ""
 #: ../../../../../src/abaqus/Section/ConnectorSection.py:docstring of abaqus.Section.ConnectorSection.ConnectorSection.setValues:41
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.ConnectorSection:49
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.ConnectorSection:49
-#: ../../../docstring of abaqus.Section.SectionOdb.ConnectorSection.ur1ReferenceAngle:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.ConnectorSection.ur1ReferenceAngle:1
 msgid "None or a Float specifying the reference angle in degrees associated with constitutive response for the fourth component of relative motion. The default value is None."
 msgstr ""
 
@@ -1931,7 +1931,7 @@ msgstr ""
 #: ../../../../../src/abaqus/Section/ConnectorSection.py:docstring of abaqus.Section.ConnectorSection.ConnectorSection.setValues:44
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.ConnectorSection:52
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.ConnectorSection:52
-#: ../../../docstring of abaqus.Section.SectionOdb.ConnectorSection.ur2ReferenceAngle:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.ConnectorSection.ur2ReferenceAngle:1
 msgid "None or a Float specifying the reference angle in degrees associated with constitutive response for the fifth component of relative motion. The default value is None."
 msgstr ""
 
@@ -1939,7 +1939,7 @@ msgstr ""
 #: ../../../../../src/abaqus/Section/ConnectorSection.py:docstring of abaqus.Section.ConnectorSection.ConnectorSection.setValues:47
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.ConnectorSection:55
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.ConnectorSection:55
-#: ../../../docstring of abaqus.Section.SectionOdb.ConnectorSection.ur3ReferenceAngle:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.ConnectorSection.ur3ReferenceAngle:1
 msgid "None or a Float specifying the reference angle in degrees associated with constitutive response for the sixth component of relative motion. The default value is None."
 msgstr ""
 
@@ -1947,7 +1947,7 @@ msgstr ""
 #: ../../../../../src/abaqus/Section/ConnectorSection.py:docstring of abaqus.Section.ConnectorSection.ConnectorSection.setValues:50
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.ConnectorSection:58
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.ConnectorSection:58
-#: ../../../docstring of abaqus.Section.SectionOdb.ConnectorSection.massPerLength:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.ConnectorSection.massPerLength:1
 msgid "None or a Float specifying the mass per unit reference length of belt material. This argument is applicable only when **assembledType** = SLIPRING, and must be specified in that case. The default value is None."
 msgstr ""
 
@@ -1955,7 +1955,7 @@ msgstr ""
 #: ../../../../../src/abaqus/Section/ConnectorSection.py:docstring of abaqus.Section.ConnectorSection.ConnectorSection.setValues:54
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.ConnectorSection:62
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.ConnectorSection:62
-#: ../../../docstring of abaqus.Section.SectionOdb.ConnectorSection.contactAngle:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.ConnectorSection.contactAngle:1
 msgid "None or a Float specifying the contact angle made by the belt wrapping around node b. This argument is applicable only to an Abaqus/Explicit analysis, and only when **assembledType** = SLIPRING. The default value is None."
 msgstr ""
 
@@ -1963,7 +1963,7 @@ msgstr ""
 #: ../../../../../src/abaqus/Section/ConnectorSection.py:docstring of abaqus.Section.ConnectorSection.ConnectorSection.setValues:58
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.ConnectorSection:66
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.ConnectorSection:66
-#: ../../../docstring of abaqus.Section.SectionOdb.ConnectorSection.materialFlowFactor:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.ConnectorSection.materialFlowFactor:1
 msgid "A Float specifying the scaling factor for material flow at node b. This argument is applicable only when **assembledType** = RETRACTOR or **rotationalType** = FLOW_CONVERTER. The default value is 1.0."
 msgstr ""
 
@@ -1971,7 +1971,7 @@ msgstr ""
 #: ../../../../../src/abaqus/Section/ConnectorSection.py:docstring of abaqus.Section.ConnectorSection.ConnectorSection.setValues:62
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.ConnectorSection:70
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.ConnectorSection:70
-#: ../../../docstring of abaqus.Section.SectionOdb.ConnectorSection.regularize:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.ConnectorSection.regularize:1
 msgid "A Boolean specifying whether or not all tabular data associated with the **behaviorOptions** will be regularized. This argument is applicable only for an Abaqus/Explicit analysis. The default value is ON."
 msgstr ""
 
@@ -1979,7 +1979,7 @@ msgstr ""
 #: ../../../../../src/abaqus/Section/ConnectorSection.py:docstring of abaqus.Section.ConnectorSection.ConnectorSection.setValues:66
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.ConnectorSection:74
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.ConnectorSection:74
-#: ../../../docstring of abaqus.Section.SectionOdb.ConnectorSection.defaultTolerance:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.ConnectorSection.defaultTolerance:1
 msgid "A Boolean specifying whether or not the default regularization tolerance will be used for all tabular data associated with the **behaviorOptions**. This argument is applicable only for an Abaqus/Explicit analysis and only if **regularize** = ON. The default value is ON."
 msgstr ""
 
@@ -1987,7 +1987,7 @@ msgstr ""
 #: ../../../../../src/abaqus/Section/ConnectorSection.py:docstring of abaqus.Section.ConnectorSection.ConnectorSection.setValues:71
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.ConnectorSection:79
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.ConnectorSection:79
-#: ../../../docstring of abaqus.Section.SectionOdb.ConnectorSection.regularization:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.ConnectorSection.regularization:1
 msgid "A Float specifying the regularization increment to be used for all tabular data associated with the **behaviorOptions**. This argument is applicable only for an Abaqus/Explicit analysis and only if **regularize** = ON and **defaultTolerance** = OFF. The default value is 0.03."
 msgstr ""
 
@@ -1995,7 +1995,7 @@ msgstr ""
 #: ../../../../../src/abaqus/Section/ConnectorSection.py:docstring of abaqus.Section.ConnectorSection.ConnectorSection.setValues:76
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.ConnectorSection:84
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.ConnectorSection:84
-#: ../../../docstring of abaqus.Section.SectionOdb.ConnectorSection.extrapolation:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.ConnectorSection.extrapolation:1
 msgid "A SymbolicConstant specifying the extrapolation technique to be used for all tabular data associated with the **behaviorOptions**. Possible values are CONSTANT and LINEAR. The default value is CONSTANT."
 msgstr ""
 
@@ -2003,8 +2003,8 @@ msgstr ""
 #: ../../../../../src/abaqus/Section/ConnectorSection.py:docstring of abaqus.Section.ConnectorSection.ConnectorSection.setValues:80
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.ConnectorSection:88
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.ConnectorSection:88
-#: ../../../docstring of abaqus.Section.SectionBase.SectionBase.behaviorOptions:1
-#: ../../../docstring of abaqus.Section.SectionOdb.ConnectorSection.behaviorOptions:1
+#: ../../../../docstring of abaqus.Section.SectionBase.SectionBase.behaviorOptions:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.ConnectorSection.behaviorOptions:1
 msgid "A ConnectorBehaviorOptionArray object."
 msgstr ""
 
@@ -2029,7 +2029,7 @@ msgstr ""
 #: ../../../../../src/abaqus/Section/EulerianSection.py:docstring of abaqus.Section.EulerianSection.EulerianSection:30
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.EulerianSection:15
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.EulerianSection:15
-#: ../../../docstring of abaqus.Section.SectionOdb.EulerianSection.data:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.EulerianSection.data:1
 msgid "A String-to-String Dictionary specifying a dictionary mapping Material instance names to Material names. Internally the specified mapping gets sorted on Material instance name."
 msgstr ""
 
@@ -2054,7 +2054,7 @@ msgstr ""
 #: ../../../../../src/abaqus/Section/GasketSection.py:docstring of abaqus.Section.GasketSection.GasketSection:30
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.GasketSection:15
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.GasketSection:15
-#: ../../../docstring of abaqus.Section.SectionOdb.GasketSection.material:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.GasketSection.material:1
 msgid "A String specifying the name of the material of which the gasket is made or material that defines gasket behavior."
 msgstr ""
 
@@ -2062,7 +2062,7 @@ msgstr ""
 #: ../../../../../src/abaqus/Section/GasketSection.py:docstring of abaqus.Section.GasketSection.GasketSection.setValues:7
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.GasketSection:18
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.GasketSection:18
-#: ../../../docstring of abaqus.Section.SectionOdb.GasketSection.crossSection:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.GasketSection.crossSection:1
 msgid "A Float specifying the cross-sectional area, width, or out-of-plane thickness, if applicable, depending on the gasket element type. The default value is 1.0."
 msgstr ""
 
@@ -2070,7 +2070,7 @@ msgstr ""
 #: ../../../../../src/abaqus/Section/GasketSection.py:docstring of abaqus.Section.GasketSection.GasketSection.setValues:10
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.GasketSection:21
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.GasketSection:21
-#: ../../../docstring of abaqus.Section.SectionOdb.GasketSection.initialGap:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.GasketSection.initialGap:1
 msgid "A Float specifying the initial gap. The default value is 0.0."
 msgstr ""
 
@@ -2078,7 +2078,7 @@ msgstr ""
 #: ../../../../../src/abaqus/Section/GasketSection.py:docstring of abaqus.Section.GasketSection.GasketSection.setValues:12
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.GasketSection:23
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.GasketSection:23
-#: ../../../docstring of abaqus.Section.SectionOdb.GasketSection.initialThickness:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.GasketSection.initialThickness:1
 msgid "The SymbolicConstant DEFAULT or a Float specifying the initial gasket thickness. If DEFAULT is specified, the initial thickness is determined using nodal coordinates. The default value is DEFAULT."
 msgstr ""
 
@@ -2086,7 +2086,7 @@ msgstr ""
 #: ../../../../../src/abaqus/Section/GasketSection.py:docstring of abaqus.Section.GasketSection.GasketSection.setValues:16
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.GasketSection:27
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.GasketSection:27
-#: ../../../docstring of abaqus.Section.SectionOdb.GasketSection.initialVoid:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.GasketSection.initialVoid:1
 msgid "A Float specifying the initial void. The default value is 0.0."
 msgstr ""
 
@@ -2094,7 +2094,7 @@ msgstr ""
 #: ../../../../../src/abaqus/Section/GasketSection.py:docstring of abaqus.Section.GasketSection.GasketSection.setValues:18
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.GasketSection:29
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.GasketSection:29
-#: ../../../docstring of abaqus.Section.SectionOdb.GasketSection.stabilizationStiffness:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.GasketSection.stabilizationStiffness:1
 msgid "The SymbolicConstant DEFAULT or a Float specifying the default stabilization stiffness used in all but link elements to stabilize gasket elements that are not supported at all nodes, such as those that extend outside neighboring components. If DEFAULT is specified, a value is used equal to 10⁻⁹ times the initial compressive stiffness in the thickness direction. The default value is DEFAULT."
 msgstr ""
 
@@ -2118,7 +2118,7 @@ msgstr ""
 #: ../../../../../src/abaqus/Section/GeneralStiffnessSection.py:docstring of abaqus.Section.GeneralStiffnessSection.GeneralStiffnessSection:30
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.GeneralStiffnessSection:15
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.GeneralStiffnessSection:15
-#: ../../../docstring of abaqus.Section.SectionOdb.GeneralStiffnessSection.stiffnessMatrix:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.GeneralStiffnessSection.stiffnessMatrix:1
 msgid "A sequence of Floats specifying the stiffness matrix for the section in the order D11, D12, D22, D13, D23, D33, ...., D66. Twenty-one entries must be given."
 msgstr ""
 
@@ -2126,7 +2126,7 @@ msgstr ""
 #: ../../../../../src/abaqus/Section/GeneralStiffnessSection.py:docstring of abaqus.Section.GeneralStiffnessSection.GeneralStiffnessSection.setValues:7
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.GeneralStiffnessSection:18
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.GeneralStiffnessSection:18
-#: ../../../docstring of abaqus.Section.SectionOdb.GeneralStiffnessSection.referenceTemperature:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.GeneralStiffnessSection.referenceTemperature:1
 msgid "None or a Float specifying the reference temperature for thermal expansion. The default value is None."
 msgstr ""
 
@@ -2134,7 +2134,7 @@ msgstr ""
 #: ../../../../../src/abaqus/Section/GeneralStiffnessSection.py:docstring of abaqus.Section.GeneralStiffnessSection.GeneralStiffnessSection.setValues:10
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.GeneralStiffnessSection:21
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.GeneralStiffnessSection:21
-#: ../../../docstring of abaqus.Section.SectionOdb.GeneralStiffnessSection.applyThermalStress:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.GeneralStiffnessSection.applyThermalStress:1
 msgid "A Boolean specifying whether or not the section stiffness varies with thermal stresses. The default value is OFF."
 msgstr ""
 
@@ -2142,7 +2142,7 @@ msgstr ""
 #: ../../../../../src/abaqus/Section/GeneralStiffnessSection.py:docstring of abaqus.Section.GeneralStiffnessSection.GeneralStiffnessSection.setValues:32
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.GeneralStiffnessSection:43
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.GeneralStiffnessSection:43
-#: ../../../docstring of abaqus.Section.SectionOdb.GeneralStiffnessSection.thermalStresses:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.GeneralStiffnessSection.thermalStresses:1
 msgid "A sequence of Floats specifying the generalized stress values caused by a unit temperature rise. Six entries must be given if the value of **applyThermalStress** is set to True. The default value is (\"\")."
 msgstr ""
 
@@ -2150,7 +2150,7 @@ msgstr ""
 #: ../../../../../src/abaqus/Section/GeneralStiffnessSection.py:docstring of abaqus.Section.GeneralStiffnessSection.GeneralStiffnessSection.setValues:36
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.GeneralStiffnessSection:47
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.GeneralStiffnessSection:47
-#: ../../../docstring of abaqus.Section.SectionOdb.GeneralStiffnessSection.scalingData:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.GeneralStiffnessSection.scalingData:1
 msgid "A sequence of sequences of Floats specifying the scaling factors for given temperatures and/or field data. Each row should contain (Y, alpha, T, F1,...,Fn). The default value is an empty sequence."
 msgstr ""
 
@@ -2175,7 +2175,7 @@ msgstr ""
 #: ../../../../../src/abaqus/Section/HomogeneousShellSection.py:docstring of abaqus.Section.HomogeneousShellSection.HomogeneousShellSection:33
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.HomogeneousShellSection:16
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.HomogeneousShellSection:16
-#: ../../../docstring of abaqus.Section.SectionOdb.HomogeneousShellSection.material:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.HomogeneousShellSection.material:1
 msgid "A String specifying the name of the section material."
 msgstr ""
 
@@ -2183,7 +2183,7 @@ msgstr ""
 #: ../../../../../src/abaqus/Section/HomogeneousShellSection.py:docstring of abaqus.Section.HomogeneousShellSection.HomogeneousShellSection.setValues:7
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.HomogeneousShellSection:18
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.HomogeneousShellSection:18
-#: ../../../docstring of abaqus.Section.SectionOdb.HomogeneousShellSection.thickness:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.HomogeneousShellSection.thickness:1
 msgid "A Float specifying the thickness of the section. The **thickness** argument applies only when **thicknessType** = UNIFORM. The default value is 0.0."
 msgstr ""
 
@@ -2191,7 +2191,7 @@ msgstr ""
 #: ../../../../../src/abaqus/Section/HomogeneousShellSection.py:docstring of abaqus.Section.HomogeneousShellSection.HomogeneousShellSection.setValues:10
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.HomogeneousShellSection:21
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.HomogeneousShellSection:21
-#: ../../../docstring of abaqus.Section.SectionOdb.HomogeneousShellSection.numIntPts:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.HomogeneousShellSection.numIntPts:1
 msgid "An Int specifying the number of integration points to be used through the section. Possible values are **numIntPts** > 0. The default value is 5.To use the default settings of the analysis products, set **numIntPts** to 5 if **integrationRule** = SIMPSON or set **numIntPts** to 7 if **integrationRule** = GAUSS."
 msgstr ""
 
@@ -2216,7 +2216,7 @@ msgstr ""
 #: ../../../../../src/abaqus/Section/HomogeneousSolidSection.py:docstring of abaqus.Section.HomogeneousSolidSection.HomogeneousSolidSection:32
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.HomogeneousSolidSection:17
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.HomogeneousSolidSection:17
-#: ../../../docstring of abaqus.Section.SectionOdb.HomogeneousSolidSection.thickness:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.HomogeneousSolidSection.thickness:1
 msgid "None or a Float specifying the thickness of the section. Possible values are None or a floating point value such that thickness >  0.0. The default value is None."
 msgstr ""
 
@@ -2241,21 +2241,21 @@ msgstr ""
 #: ../../../../../src/abaqus/Section/MPCSection.py:docstring of abaqus.Section.MPCSection.MPCSection:30
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.MPCSection:15
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.MPCSection:15
-#: ../../../docstring of abaqus.Section.SectionOdb.MPCSection.mpcType:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.MPCSection.mpcType:1
 msgid "A SymbolicConstant specifying the MPC type of the section. Possible values are BEAM_MPC, ELBOW_MPC, PIN_MPC, LINK_MPC, TIE_MPC, and USER_DEFINED."
 msgstr ""
 
 #: ../../../../../src/abaqus/Section/MPCSection.py:docstring of abaqus.Section.MPCSection.MPCSection:33
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.MPCSection:18
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.MPCSection:18
-#: ../../../docstring of abaqus.Section.SectionOdb.MPCSection.userMode:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.MPCSection.userMode:1
 msgid "A SymbolicConstant specifying the mode of the MPC when it is user-defined. Possible values are DOF_MODE and NODE_MODE. The default value is DOF_MODE.The **userMode** argument applies only when **mpcType** = USER_DEFINED."
 msgstr ""
 
 #: ../../../../../src/abaqus/Section/MPCSection.py:docstring of abaqus.Section.MPCSection.MPCSection:37
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.MPCSection:22
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.MPCSection:22
-#: ../../../docstring of abaqus.Section.SectionOdb.MPCSection.userType:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.MPCSection.userType:1
 msgid "An Int specifying to differentiate between different constraint types in a user-defined MPCSection. The default value is 0.The **userType** argument applies only when **mpcType** = USER_DEFINED."
 msgstr ""
 
@@ -2281,7 +2281,7 @@ msgstr ""
 #: ../../../../../src/abaqus/Section/MembraneSection.py:docstring of abaqus.Section.MembraneSection.MembraneSection.setValues:7
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.MembraneSection:17
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.MembraneSection:17
-#: ../../../docstring of abaqus.Section.SectionOdb.MembraneSection.thickness:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.MembraneSection.thickness:1
 msgid "A Float specifying the thickness for the section. Possible values are **thickness** > 0.0. The default value is 1.0."
 msgstr ""
 
@@ -2289,7 +2289,7 @@ msgstr ""
 #: ../../../../../src/abaqus/Section/MembraneSection.py:docstring of abaqus.Section.MembraneSection.MembraneSection.setValues:10
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.MembraneSection:20
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.MembraneSection:20
-#: ../../../docstring of abaqus.Section.SectionOdb.MembraneSection.thicknessType:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.MembraneSection.thicknessType:1
 msgid "A SymbolicConstant specifying the distribution used for defining the thickness of the elements. Possible values are UNIFORM, ANALYTICAL_FIELD, and DISCRETE_FIELD. The default value is UNIFORM."
 msgstr ""
 
@@ -2297,7 +2297,7 @@ msgstr ""
 #: ../../../../../src/abaqus/Section/MembraneSection.py:docstring of abaqus.Section.MembraneSection.MembraneSection.setValues:20
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.MembraneSection:30
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.MembraneSection:30
-#: ../../../docstring of abaqus.Section.SectionOdb.MembraneSection.poisson:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.MembraneSection.poisson:1
 msgid "A Float specifying the section Poisson's ratio. Possible values are −1.0 ≤ **poisson** ≤ 0.5. This argument is valid only when **poissonDefinition** = VALUE. The default value is 0.5."
 msgstr ""
 
@@ -2323,7 +2323,7 @@ msgstr ""
 #: ../../../../../src/abaqus/Section/PEGSection.py:docstring of abaqus.Section.PEGSection.PEGSection.setValues:10
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.PEGSection:20
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.PEGSection:20
-#: ../../../docstring of abaqus.Section.SectionOdb.PEGSection.wedgeAngle1:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.PEGSection.wedgeAngle1:1
 msgid "A Float specifying the value of the x component of the angle between the bounding planes, ΔϕxΔ⁢ϕx. The default value is 0.0."
 msgstr ""
 
@@ -2331,7 +2331,7 @@ msgstr ""
 #: ../../../../../src/abaqus/Section/PEGSection.py:docstring of abaqus.Section.PEGSection.PEGSection.setValues:13
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.PEGSection:23
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.PEGSection:23
-#: ../../../docstring of abaqus.Section.SectionOdb.PEGSection.wedgeAngle2:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.PEGSection.wedgeAngle2:1
 msgid "A Float specifying the value of the y component of the angle between the bounding planes, ΔϕyΔ⁢ϕy. The default value is 0.0."
 msgstr ""
 
@@ -2375,7 +2375,7 @@ msgstr ""
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.TrussSection:17
 #: ../../../../../src/abaqus/Section/TrussSection.py:docstring of abaqus.Section.TrussSection.TrussSection:32
 #: ../../../../../src/abaqus/Section/TrussSection.py:docstring of abaqus.Section.TrussSection.TrussSection.setValues:7
-#: ../../../docstring of abaqus.Section.TrussSection.TrussSection.area:1
+#: ../../../../docstring of abaqus.Section.TrussSection.TrussSection.area:1
 msgid "A Float specifying the cross-sectional area for the section. Possible values are **area** > 0. The default value is 1.0."
 msgstr ""
 
@@ -2400,7 +2400,7 @@ msgid "Bases: :py:class:`~abaqus.Odb.OdbBase.OdbBase`"
 msgstr ""
 
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb:1
-#: ../../../None:7:<autosummary>:1
+#: ../../../../None:7:<autosummary>:1
 msgid "This method creates a new Odb object."
 msgstr ""
 
@@ -2424,199 +2424,199 @@ msgstr ""
 msgid ":class:`Odb`"
 msgstr ""
 
-#: ../../../None:16:<autosummary>:1
+#: ../../../../None:16:<autosummary>:1
 msgid ":py:obj:`isReadOnly <abaqus.Odb.OdbBase.OdbBase.isReadOnly>`\\"
 msgstr ""
 
-#: ../../../None:16:<autosummary>:1
+#: ../../../../None:16:<autosummary>:1
 msgid "A Boolean specifying whether the output database was opened with read-only access."
 msgstr ""
 
-#: ../../../None:16:<autosummary>:1
+#: ../../../../None:16:<autosummary>:1
 msgid ":py:obj:`amplitudes <abaqus.Odb.OdbBase.OdbBase.amplitudes>`\\"
 msgstr ""
 
-#: ../../../None:16:<autosummary>:1
+#: ../../../../None:16:<autosummary>:1
 msgid ":py:obj:`filters <abaqus.Odb.OdbBase.OdbBase.filters>`\\"
 msgstr ""
 
-#: ../../../None:16:<autosummary>:1
+#: ../../../../None:16:<autosummary>:1
 msgid ":py:obj:`rootAssembly <abaqus.Odb.OdbBase.OdbBase.rootAssembly>`\\"
 msgstr ""
 
-#: ../../../None:16:<autosummary>:1
+#: ../../../../None:16:<autosummary>:1
 msgid "An OdbAssembly object."
 msgstr ""
 
-#: ../../../None:16:<autosummary>:1
+#: ../../../../None:16:<autosummary>:1
 msgid ":py:obj:`jobData <abaqus.Odb.OdbBase.OdbBase.jobData>`\\"
 msgstr ""
 
-#: ../../../None:16:<autosummary>:1
+#: ../../../../None:16:<autosummary>:1
 msgid "A JobData object."
 msgstr ""
 
-#: ../../../None:16:<autosummary>:1
+#: ../../../../None:16:<autosummary>:1
 msgid ":py:obj:`parts <abaqus.Odb.OdbBase.OdbBase.parts>`\\"
 msgstr ""
 
-#: ../../../None:16:<autosummary>:1
+#: ../../../../None:16:<autosummary>:1
 msgid "A repository of OdbPart objects."
 msgstr ""
 
-#: ../../../None:16:<autosummary>:1
+#: ../../../../None:16:<autosummary>:1
 msgid ":py:obj:`materials <abaqus.Odb.OdbBase.OdbBase.materials>`\\"
 msgstr ""
 
-#: ../../../None:16:<autosummary>:1
+#: ../../../../None:16:<autosummary>:1
 msgid ":py:obj:`steps <abaqus.Odb.OdbBase.OdbBase.steps>`\\"
 msgstr ""
 
-#: ../../../None:16:<autosummary>:1
+#: ../../../../None:16:<autosummary>:1
 msgid "A repository of OdbStep objects."
 msgstr ""
 
-#: ../../../None:16:<autosummary>:1
+#: ../../../../None:16:<autosummary>:1
 msgid ":py:obj:`sections <abaqus.Odb.OdbBase.OdbBase.sections>`\\"
 msgstr ""
 
-#: ../../../None:16:<autosummary>:1
+#: ../../../../None:16:<autosummary>:1
 msgid ":py:obj:`sectionCategories <abaqus.Odb.OdbBase.OdbBase.sectionCategories>`\\"
 msgstr ""
 
-#: ../../../None:16:<autosummary>:1
+#: ../../../../None:16:<autosummary>:1
 msgid "A repository of SectionCategory objects."
 msgstr ""
 
-#: ../../../None:16:<autosummary>:1
+#: ../../../../None:16:<autosummary>:1
 msgid ":py:obj:`sectorDefinition <abaqus.Odb.OdbBase.OdbBase.sectorDefinition>`\\"
 msgstr ""
 
-#: ../../../None:16:<autosummary>:1
+#: ../../../../None:16:<autosummary>:1
 msgid "A SectorDefinition object."
 msgstr ""
 
-#: ../../../None:16:<autosummary>:1
+#: ../../../../None:16:<autosummary>:1
 msgid ":py:obj:`userData <abaqus.Odb.OdbBase.OdbBase.userData>`\\"
 msgstr ""
 
-#: ../../../None:16:<autosummary>:1
+#: ../../../../None:16:<autosummary>:1
 msgid "A UserData object."
 msgstr ""
 
-#: ../../../None:16:<autosummary>:1
+#: ../../../../None:16:<autosummary>:1
 msgid ":py:obj:`customData <abaqus.Odb.OdbBase.OdbBase.customData>`\\"
 msgstr ""
 
-#: ../../../None:16:<autosummary>:1
+#: ../../../../None:16:<autosummary>:1
 msgid "A RepositorySupport object."
 msgstr ""
 
-#: ../../../None:16:<autosummary>:1
+#: ../../../../None:16:<autosummary>:1
 msgid ":py:obj:`profiles <abaqus.Odb.OdbBase.OdbBase.profiles>`\\"
 msgstr ""
 
-#: ../../../None:19:<autosummary>:1
+#: ../../../../None:19:<autosummary>:1
 msgid ":py:obj:`AcousticInfiniteSection <abaqus.Section.SectionOdb.SectionOdb.AcousticInfiniteSection>`\\ \\(name\\, material\\[\\, ...\\]\\)"
 msgstr ""
 
-#: ../../../None:19:<autosummary>:1
+#: ../../../../None:19:<autosummary>:1
 msgid ":py:obj:`AcousticInterfaceSection <abaqus.Section.SectionOdb.SectionOdb.AcousticInterfaceSection>`\\ \\(name\\[\\, thickness\\]\\)"
 msgstr ""
 
-#: ../../../None:19:<autosummary>:1
+#: ../../../../None:19:<autosummary>:1
 msgid ":py:obj:`BeamSection <abaqus.Section.SectionOdb.SectionOdb.BeamSection>`\\ \\(name\\, integration\\, profile\\[\\, ...\\]\\)"
 msgstr ""
 
-#: ../../../None:19:<autosummary>:1
+#: ../../../../None:19:<autosummary>:1
 msgid ":py:obj:`CohesiveSection <abaqus.Section.SectionOdb.SectionOdb.CohesiveSection>`\\ \\(name\\, response\\, material\\[\\, ...\\]\\)"
 msgstr ""
 
-#: ../../../None:19:<autosummary>:1
+#: ../../../../None:19:<autosummary>:1
 msgid ":py:obj:`CompositeShellSection <abaqus.Section.SectionOdb.SectionOdb.CompositeShellSection>`\\ \\(name\\, layup\\[\\, ...\\]\\)"
 msgstr ""
 
-#: ../../../None:19:<autosummary>:1
+#: ../../../../None:19:<autosummary>:1
 msgid ":py:obj:`CompositeSolidSection <abaqus.Section.SectionOdb.SectionOdb.CompositeSolidSection>`\\ \\(name\\, layup\\[\\, ...\\]\\)"
 msgstr ""
 
-#: ../../../None:19:<autosummary>:1
+#: ../../../../None:19:<autosummary>:1
 msgid ":py:obj:`ConnectorSection <abaqus.Section.SectionOdb.SectionOdb.ConnectorSection>`\\ \\(name\\[\\, assembledType\\, ...\\]\\)"
 msgstr ""
 
-#: ../../../None:19:<autosummary>:1
+#: ../../../../None:19:<autosummary>:1
 msgid ":py:obj:`EulerianSection <abaqus.Section.SectionOdb.SectionOdb.EulerianSection>`\\ \\(name\\, data\\)"
 msgstr ""
 
-#: ../../../None:19:<autosummary>:1
+#: ../../../../None:19:<autosummary>:1
 msgid ":py:obj:`GasketSection <abaqus.Section.SectionOdb.SectionOdb.GasketSection>`\\ \\(name\\, material\\[\\, ...\\]\\)"
 msgstr ""
 
-#: ../../../None:19:<autosummary>:1
+#: ../../../../None:19:<autosummary>:1
 msgid ":py:obj:`GeneralStiffnessSection <abaqus.Section.SectionOdb.SectionOdb.GeneralStiffnessSection>`\\ \\(name\\, stiffnessMatrix\\)"
 msgstr ""
 
-#: ../../../None:19:<autosummary>:1
+#: ../../../../None:19:<autosummary>:1
 msgid ":py:obj:`HomogeneousShellSection <abaqus.Section.SectionOdb.SectionOdb.HomogeneousShellSection>`\\ \\(name\\, material\\[\\, ...\\]\\)"
 msgstr ""
 
-#: ../../../None:19:<autosummary>:1
+#: ../../../../None:19:<autosummary>:1
 msgid ":py:obj:`HomogeneousSolidSection <abaqus.Section.SectionOdb.SectionOdb.HomogeneousSolidSection>`\\ \\(name\\, material\\[\\, ...\\]\\)"
 msgstr ""
 
-#: ../../../None:19:<autosummary>:1
+#: ../../../../None:19:<autosummary>:1
 msgid ":py:obj:`MembraneSection <abaqus.Section.SectionOdb.SectionOdb.MembraneSection>`\\ \\(name\\, material\\[\\, thickness\\, ...\\]\\)"
 msgstr ""
 
-#: ../../../None:19:<autosummary>:1
+#: ../../../../None:19:<autosummary>:1
 msgid ":py:obj:`MPCSection <abaqus.Section.SectionOdb.SectionOdb.MPCSection>`\\ \\(name\\, mpcType\\[\\, userMode\\, userType\\]\\)"
 msgstr ""
 
-#: ../../../None:19:<autosummary>:1
+#: ../../../../None:19:<autosummary>:1
 msgid ":py:obj:`PEGSection <abaqus.Section.SectionOdb.SectionOdb.PEGSection>`\\ \\(name\\, material\\[\\, thickness\\, ...\\]\\)"
 msgstr ""
 
-#: ../../../None:19:<autosummary>:1
+#: ../../../../None:19:<autosummary>:1
 msgid ":py:obj:`SurfaceSection <abaqus.Section.SectionOdb.SectionOdb.SurfaceSection>`\\ \\(name\\[\\, useDensity\\, density\\]\\)"
 msgstr ""
 
-#: ../../../None:19:<autosummary>:1
+#: ../../../../None:19:<autosummary>:1
 msgid ":py:obj:`TrussSection <abaqus.Section.SectionOdb.SectionOdb.TrussSection>`\\ \\(name\\, material\\[\\, area\\]\\)"
 msgstr ""
 
-#: ../../../None:7:<autosummary>:1
+#: ../../../../None:7:<autosummary>:1
 msgid ":py:obj:`__init__ <abaqus.Odb.OdbBase.OdbBase.__init__>`\\ \\(name\\[\\, analysisTitle\\, description\\, ...\\]\\)"
 msgstr ""
 
-#: ../../../None:7:<autosummary>:1
+#: ../../../../None:7:<autosummary>:1
 msgid ":py:obj:`close <abaqus.Odb.OdbBase.OdbBase.close>`\\ \\(\\)"
 msgstr ""
 
-#: ../../../None:7:<autosummary>:1
+#: ../../../../None:7:<autosummary>:1
 msgid "This method closes an output database."
 msgstr ""
 
-#: ../../../None:7:<autosummary>:1
+#: ../../../../None:7:<autosummary>:1
 msgid ":py:obj:`getFrame <abaqus.Odb.OdbBase.OdbBase.getFrame>`\\ \\(frameValue\\[\\, match\\]\\)"
 msgstr ""
 
-#: ../../../None:7:<autosummary>:1
+#: ../../../../None:7:<autosummary>:1
 msgid "This method returns the frame at the specified time, frequency, or mode."
 msgstr ""
 
-#: ../../../None:7:<autosummary>:1
+#: ../../../../None:7:<autosummary>:1
 msgid ":py:obj:`save <abaqus.Odb.OdbBase.OdbBase.save>`\\ \\(\\)"
 msgstr ""
 
-#: ../../../None:7:<autosummary>:1
+#: ../../../../None:7:<autosummary>:1
 msgid "This method saves output to an output database (.odb ) file."
 msgstr ""
 
-#: ../../../None:7:<autosummary>:1
+#: ../../../../None:7:<autosummary>:1
 msgid ":py:obj:`update <abaqus.Odb.OdbBase.OdbBase.update>`\\ \\(\\)"
 msgstr ""
 
-#: ../../../None:7:<autosummary>:1
+#: ../../../../None:7:<autosummary>:1
 msgid "This method is used to update an Odb object in memory while an Abaqus analysis writes data to the associated output database."
 msgstr ""
 
@@ -2703,31 +2703,31 @@ msgstr ""
 
 #: ../../../../../src/abaqus/Section/Section.py:docstring of abaqus.Section.Section.Section.TransverseShearBeam:13
 #: ../../../../../src/abaqus/Section/TransverseShearBeam.py:docstring of abaqus.Section.TransverseShearBeam.TransverseShearBeam:27
-#: ../../../docstring of abaqus.Section.TransverseShearBeam.TransverseShearBeam.scfDefinition:1
+#: ../../../../docstring of abaqus.Section.TransverseShearBeam.TransverseShearBeam.scfDefinition:1
 msgid "A SymbolicConstant specifying how slenderness compensation factor of the section is given. Possible values are ANALYSIS_DEFAULT, COMPUTED, and VALUE."
 msgstr ""
 
 #: ../../../../../src/abaqus/Section/Section.py:docstring of abaqus.Section.Section.Section.TransverseShearBeam:16
 #: ../../../../../src/abaqus/Section/TransverseShearBeam.py:docstring of abaqus.Section.TransverseShearBeam.TransverseShearBeam:30
-#: ../../../docstring of abaqus.Section.TransverseShearBeam.TransverseShearBeam.k23:1
+#: ../../../../docstring of abaqus.Section.TransverseShearBeam.TransverseShearBeam.k23:1
 msgid "None or a Float specifying the k23 shear stiffness of the section. The default value is None."
 msgstr ""
 
 #: ../../../../../src/abaqus/Section/Section.py:docstring of abaqus.Section.Section.Section.TransverseShearBeam:19
 #: ../../../../../src/abaqus/Section/TransverseShearBeam.py:docstring of abaqus.Section.TransverseShearBeam.TransverseShearBeam:33
-#: ../../../docstring of abaqus.Section.TransverseShearBeam.TransverseShearBeam.k13:1
+#: ../../../../docstring of abaqus.Section.TransverseShearBeam.TransverseShearBeam.k13:1
 msgid "None or a Float specifying the k13 shear stiffness of the section. The default value is None."
 msgstr ""
 
 #: ../../../../../src/abaqus/Section/Section.py:docstring of abaqus.Section.Section.Section.TransverseShearBeam:22
 #: ../../../../../src/abaqus/Section/TransverseShearBeam.py:docstring of abaqus.Section.TransverseShearBeam.TransverseShearBeam:36
-#: ../../../docstring of abaqus.Section.TransverseShearBeam.TransverseShearBeam.slendernessCompensation:1
+#: ../../../../docstring of abaqus.Section.TransverseShearBeam.TransverseShearBeam.slendernessCompensation:1
 msgid "The SymbolicConstant COMPUTED or a Float specifying the slenderness compensation factor of the section. The default value is 0.25."
 msgstr ""
 
 #: ../../../../../src/abaqus/Section/Section.py:docstring of abaqus.Section.Section.Section.TransverseShearBeam:25
 #: ../../../../../src/abaqus/Section/TransverseShearBeam.py:docstring of abaqus.Section.TransverseShearBeam.TransverseShearBeam:39
-#: ../../../docstring of abaqus.Section.SectionBase.SectionBase.beamTransverseShear:1
+#: ../../../../docstring of abaqus.Section.SectionBase.SectionBase.beamTransverseShear:1
 msgid "A TransverseShearBeam object."
 msgstr ""
 
@@ -2748,25 +2748,25 @@ msgstr ""
 
 #: ../../../../../src/abaqus/Section/Section.py:docstring of abaqus.Section.Section.Section.TransverseShearShell:13
 #: ../../../../../src/abaqus/Section/TransverseShearShell.py:docstring of abaqus.Section.TransverseShearShell.TransverseShearShell:27
-#: ../../../docstring of abaqus.Section.TransverseShearShell.TransverseShearShell.k11:1
+#: ../../../../docstring of abaqus.Section.TransverseShearShell.TransverseShearShell.k11:1
 msgid "A Float specifying the shear stiffness of the section in the first direction."
 msgstr ""
 
 #: ../../../../../src/abaqus/Section/Section.py:docstring of abaqus.Section.Section.Section.TransverseShearShell:15
 #: ../../../../../src/abaqus/Section/TransverseShearShell.py:docstring of abaqus.Section.TransverseShearShell.TransverseShearShell:29
-#: ../../../docstring of abaqus.Section.TransverseShearShell.TransverseShearShell.k22:1
+#: ../../../../docstring of abaqus.Section.TransverseShearShell.TransverseShearShell.k22:1
 msgid "A Float specifying the shear stiffness of the section in the second direction."
 msgstr ""
 
 #: ../../../../../src/abaqus/Section/Section.py:docstring of abaqus.Section.Section.Section.TransverseShearShell:17
 #: ../../../../../src/abaqus/Section/TransverseShearShell.py:docstring of abaqus.Section.TransverseShearShell.TransverseShearShell:31
-#: ../../../docstring of abaqus.Section.TransverseShearShell.TransverseShearShell.k12:1
+#: ../../../../docstring of abaqus.Section.TransverseShearShell.TransverseShearShell.k12:1
 msgid "A Float specifying the coupling term in the shear stiffness of the section."
 msgstr ""
 
 #: ../../../../../src/abaqus/Section/Section.py:docstring of abaqus.Section.Section.Section.TransverseShearShell:19
 #: ../../../../../src/abaqus/Section/TransverseShearShell.py:docstring of abaqus.Section.TransverseShearShell.TransverseShearShell:33
-#: ../../../docstring of abaqus.Section.SectionBase.SectionBase.transverseShear:1
+#: ../../../../docstring of abaqus.Section.SectionBase.SectionBase.transverseShear:1
 msgid "A TransverseShearShell object."
 msgstr ""
 
@@ -2855,7 +2855,7 @@ msgstr ""
 msgid "SECTION POINTS"
 msgstr ""
 
-#: ../../../docstring of abaqus.Section.SectionOdb.BeamSection.beamTransverseShear:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.BeamSection.beamTransverseShear:1
 msgid "A TransverseShearBeam object specifying the transverse shear stiffness properties."
 msgstr ""
 
@@ -2897,7 +2897,7 @@ msgstr ""
 msgid "COHESIVE SECTION"
 msgstr ""
 
-#: ../../../docstring of abaqus.Section.SectionOdb.CohesiveSection.initialThicknessType:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.CohesiveSection.initialThicknessType:1
 msgid "A SymbolicConstant specifying the method used to compute the initial thickness. Possible values are: SOLVER_DEFAULT, specifying that Abaqus will use the analysis product default; GEOMETRY, specifying that Abaqus will compute the thickness from the nodal coordinates of the elements. SPECIFY, specifying that Abaqus will use the value given for **initialThickness** The default value is SOLVER_DEFAULT."
 msgstr ""
 
@@ -2931,16 +2931,16 @@ msgstr ""
 msgid "SHELL GENERAL SECTION"
 msgstr ""
 
-#: ../../../docstring of abaqus.Section.SectionOdb.CompositeShellSection.poissonDefinition:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.CompositeShellSection.poissonDefinition:1
 msgid "A SymbolicConstant specifying whether to use the default value for the Poisson's ratio. Possible values are: DEFAULT, specifying that the default value for the Poisson's ratio is 0.5 in an Abaqus/Standard analysis and is obtained from the material definition in an Abaqus/Explicit analysis. VALUE, specifying that the Poisson's ratio used in the analysis is the value provided in **poisson**.The default value is DEFAULT."
 msgstr ""
 
-#: ../../../docstring of abaqus.Section.HomogeneousShellSection.GeometryShellSection.rebarLayers:1
-#: ../../../docstring of abaqus.Section.SectionOdb.CompositeShellSection.rebarLayers:1
-#: ../../../docstring of abaqus.Section.SectionOdb.GeneralStiffnessSection.rebarLayers:1
-#: ../../../docstring of abaqus.Section.SectionOdb.HomogeneousShellSection.rebarLayers:1
-#: ../../../docstring of abaqus.Section.SectionOdb.MembraneSection.rebarLayers:1
-#: ../../../docstring of abaqus.Section.SurfaceSection.SurfaceSection.rebarLayers:1
+#: ../../../../docstring of abaqus.Section.HomogeneousShellSection.GeometryShellSection.rebarLayers:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.CompositeShellSection.rebarLayers:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.GeneralStiffnessSection.rebarLayers:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.HomogeneousShellSection.rebarLayers:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.MembraneSection.rebarLayers:1
+#: ../../../../docstring of abaqus.Section.SurfaceSection.SurfaceSection.rebarLayers:1
 msgid "A RebarLayers object specifying reinforcement properties."
 msgstr ""
 
@@ -2952,11 +2952,11 @@ msgstr ""
 msgid "Check `CompositeShellSection.setValues on help.3ds.com/2016 <https://help.3ds.com/2016/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-compositeshellsectionpyc.htm?contextscope=all#simaker-compositeshellsectionsetvaluespyc>`__."
 msgstr ""
 
-#: ../../../docstring of abaqus.Section.HomogeneousShellSection.GeometryShellSection.transverseShear:1
-#: ../../../docstring of abaqus.Section.SectionOdb.CompositeShellSection.transverseShear:1
-#: ../../../docstring of abaqus.Section.SectionOdb.GeneralStiffnessSection.transverseShear:1
-#: ../../../docstring of abaqus.Section.SectionOdb.HomogeneousShellSection.transverseShear:1
-#: ../../../docstring of abaqus.Section.ShellSection.ShellSection.transverseShear:1
+#: ../../../../docstring of abaqus.Section.HomogeneousShellSection.GeometryShellSection.transverseShear:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.CompositeShellSection.transverseShear:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.GeneralStiffnessSection.transverseShear:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.HomogeneousShellSection.transverseShear:1
+#: ../../../../docstring of abaqus.Section.ShellSection.ShellSection.transverseShear:1
 msgid "A TransverseShearShell object specifying the transverse shear stiffness properties."
 msgstr ""
 
@@ -2997,13 +2997,13 @@ msgstr ""
 
 #: ../../../../../src/abaqus/Section/GeometryShellSection.py:docstring of abaqus.Section.GeometryShellSection.GeometryShellSection.RebarLayers:12
 #: ../../../../../src/abaqus/Section/RebarLayers.py:docstring of abaqus.Section.RebarLayers.RebarLayers:29
-#: ../../../docstring of abaqus.Section.SurfaceSection.RebarLayers.rebarSpacing:1
+#: ../../../../docstring of abaqus.Section.SurfaceSection.RebarLayers.rebarSpacing:1
 msgid "A SymbolicConstant specifying the type of rebar geometry. Possible values are CONSTANT, ANGULAR, and LIFT_EQUATION."
 msgstr ""
 
 #: ../../../../../src/abaqus/Section/GeometryShellSection.py:docstring of abaqus.Section.GeometryShellSection.GeometryShellSection.RebarLayers:15
 #: ../../../../../src/abaqus/Section/RebarLayers.py:docstring of abaqus.Section.RebarLayers.RebarLayers:32
-#: ../../../docstring of abaqus.Section.SurfaceSection.RebarLayers.layerTable:1
+#: ../../../../docstring of abaqus.Section.SurfaceSection.RebarLayers.layerTable:1
 msgid "A LayerPropertiesArray object specifying the layers of reinforcement."
 msgstr ""
 
@@ -3066,11 +3066,11 @@ msgstr ""
 msgid "CONNECTOR CONSTITUTIVE REFERENCE"
 msgstr ""
 
-#: ../../../docstring of abaqus.Section.SectionOdb.ConnectorSection.assembledType:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.ConnectorSection.assembledType:1
 msgid "A SymbolicConstant specifying the assembled connection type. Possible values are: NONE, BEAM, BUSHING, CVJOINT, CYLINDRICAL, HINGE, PLANAR, RETRACTOR, SLIPRING, TRANSLATOR, UJOINT, WELD The default value is NONE.You cannot include the **assembledType** argument if **translationalType** or **rotationalType** are given a value other than NONE. At least one of the arguments **assembledType**, **translationalType**, or **rotationalType** must be given a value other than NONE."
 msgstr ""
 
-#: ../../../docstring of abaqus.Section.SectionOdb.ConnectorSection.rotationalType:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.ConnectorSection.rotationalType:1
 msgid "default value is NONE.You cannot include the **rotationalType** argument if **assembledType** is given a value other than NONE. At least one of the arguments **assembledType**, **translationalType**, or **rotationalType** must be given an value other than NONE."
 msgstr ""
 
@@ -3082,7 +3082,7 @@ msgstr ""
 msgid "Check `ConnectorSection.setValues on help.3ds.com/2016 <https://help.3ds.com/2016/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-connectorsectionpyc.htm?contextscope=all#simaker-connectorsectionsetvaluespyc>`__."
 msgstr ""
 
-#: ../../../docstring of abaqus.Section.SectionOdb.ConnectorSection.translationalType:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.ConnectorSection.translationalType:1
 msgid "A SymbolicConstant specifying the basic translational connection type. Possible values are: NONE, ACCELEROMETER, AXIAL, CARTESIAN, JOIN, LINK, PROJECTION_CARTESIAN, RADIAL_THRUST, SLIDE_PLANE, SLOT Thedefault value is NONE. You cannot include the **translationalType** argument if **assembledType** is given a value other than NONE. At least one of the arguments **assembledType**, **translationalType**, or **rotationalType** must be given an value other than NONE."
 msgstr ""
 
@@ -3188,47 +3188,47 @@ msgid "This method creates a LayerProperties object."
 msgstr ""
 
 #: ../../../../../src/abaqus/Section/LayerProperties.py:docstring of abaqus.Section.LayerProperties.LayerProperties:29
-#: ../../../docstring of abaqus.Section.LayerPropertiesArray.LayerProperties.barArea:1
+#: ../../../../docstring of abaqus.Section.LayerPropertiesArray.LayerProperties.barArea:1
 msgid "A Float specifying the area per bar."
 msgstr ""
 
 #: ../../../../../src/abaqus/Section/LayerProperties.py:docstring of abaqus.Section.LayerProperties.LayerProperties:31
-#: ../../../docstring of abaqus.Section.LayerPropertiesArray.LayerProperties.orientationAngle:1
+#: ../../../../docstring of abaqus.Section.LayerPropertiesArray.LayerProperties.orientationAngle:1
 msgid "A Float or a String specifying the orientation of the rebar. A Float specifies the angular orientation; a String specifies an orientation name."
 msgstr ""
 
 #: ../../../../../src/abaqus/Section/LayerProperties.py:docstring of abaqus.Section.LayerProperties.LayerProperties:34
-#: ../../../docstring of abaqus.Section.LayerPropertiesArray.LayerProperties.layerName:1
+#: ../../../../docstring of abaqus.Section.LayerPropertiesArray.LayerProperties.layerName:1
 msgid "A String specifying the name of the rebar layer."
 msgstr ""
 
 #: ../../../../../src/abaqus/Section/LayerProperties.py:docstring of abaqus.Section.LayerProperties.LayerProperties:36
-#: ../../../docstring of abaqus.Section.LayerPropertiesArray.LayerProperties.material:1
+#: ../../../../docstring of abaqus.Section.LayerPropertiesArray.LayerProperties.material:1
 msgid "A String specifying the name of the rebar material."
 msgstr ""
 
 #: ../../../../../src/abaqus/Section/LayerProperties.py:docstring of abaqus.Section.LayerProperties.LayerProperties:38
-#: ../../../docstring of abaqus.Section.LayerPropertiesArray.LayerProperties.barSpacing:1
+#: ../../../../docstring of abaqus.Section.LayerPropertiesArray.LayerProperties.barSpacing:1
 msgid "A Float specifying the spacing of the rebar. This argument is only valid if the **rebarSpacing** argument on the parent RebarLayers object is set to CONSTANT. The default value is 0.0."
 msgstr ""
 
 #: ../../../../../src/abaqus/Section/LayerProperties.py:docstring of abaqus.Section.LayerProperties.LayerProperties:42
-#: ../../../docstring of abaqus.Section.LayerPropertiesArray.LayerProperties.layerPosition:1
+#: ../../../../docstring of abaqus.Section.LayerPropertiesArray.LayerProperties.layerPosition:1
 msgid "A Float specifying the position of the rebar from the middle surface of the shell. **layerPosition** applies only for homogeneous shell sections and composite shell sections. The default value is 0.0."
 msgstr ""
 
 #: ../../../../../src/abaqus/Section/LayerProperties.py:docstring of abaqus.Section.LayerProperties.LayerProperties:46
-#: ../../../docstring of abaqus.Section.LayerPropertiesArray.LayerProperties.spacingAngle:1
+#: ../../../../docstring of abaqus.Section.LayerPropertiesArray.LayerProperties.spacingAngle:1
 msgid "A Float specifying the spacing angle of the rebar. This argument is only valid if the **rebarSpacing** argument on the parent RebarLayers object is set to ANGULAR. The default value is 0.0."
 msgstr ""
 
 #: ../../../../../src/abaqus/Section/LayerProperties.py:docstring of abaqus.Section.LayerProperties.LayerProperties:50
-#: ../../../docstring of abaqus.Section.LayerPropertiesArray.LayerProperties.extensionRatio:1
+#: ../../../../docstring of abaqus.Section.LayerPropertiesArray.LayerProperties.extensionRatio:1
 msgid "A Float specifying the extension ratio for the rebar. This argument is only valid if the **rebarSpacing** argument on the parent RebarLayers object is set to LIFT_EQUATION. The default value is 0.0."
 msgstr ""
 
 #: ../../../../../src/abaqus/Section/LayerProperties.py:docstring of abaqus.Section.LayerProperties.LayerProperties:54
-#: ../../../docstring of abaqus.Section.LayerPropertiesArray.LayerProperties.radius:1
+#: ../../../../docstring of abaqus.Section.LayerPropertiesArray.LayerProperties.radius:1
 msgid "A Float specifying the radius of the rebar. This argument is only valid if the **rebarSpacing** argument on the parent RebarLayers object is set to LIFT_EQUATION. The default value is 0.0."
 msgstr ""
 
@@ -3317,57 +3317,57 @@ msgid "This method creates a SectionLayer object."
 msgstr ""
 
 #: ../../../../../src/abaqus/Section/SectionLayer.py:docstring of abaqus.Section.SectionLayer.SectionLayer:29
-#: ../../../docstring of abaqus.Section.SectionLayerArray.SectionLayer.thickness:1
+#: ../../../../docstring of abaqus.Section.SectionLayerArray.SectionLayer.thickness:1
 msgid "A Float specifying the thickness of the section layer."
 msgstr ""
 
 #: ../../../../../src/abaqus/Section/SectionLayer.py:docstring of abaqus.Section.SectionLayer.SectionLayer:31
-#: ../../../docstring of abaqus.Section.SectionLayerArray.SectionLayer.material:1
+#: ../../../../docstring of abaqus.Section.SectionLayerArray.SectionLayer.material:1
 msgid "A String specifying the name of the section layer material."
 msgstr ""
 
 #: ../../../../../src/abaqus/Section/SectionLayer.py:docstring of abaqus.Section.SectionLayer.SectionLayer:33
-#: ../../../docstring of abaqus.Section.SectionLayerArray.SectionLayer.orientAngle:1
+#: ../../../../docstring of abaqus.Section.SectionLayerArray.SectionLayer.orientAngle:1
 msgid "A Float or a String specifying the relative orientation of the section layer. A Float specifies the angular orientation; a String specifies a user-subroutine orientation name. If a String is specified, a user-subroutine orientation is used, otherwise the Float value is used as an angular orientation. The default value is 0.0."
 msgstr ""
 
 #: ../../../../../src/abaqus/Section/SectionLayer.py:docstring of abaqus.Section.SectionLayer.SectionLayer:38
-#: ../../../docstring of abaqus.Section.SectionLayerArray.SectionLayer.numIntPts:1
+#: ../../../../docstring of abaqus.Section.SectionLayerArray.SectionLayer.numIntPts:1
 msgid "An Int specifying the number of integration points to be used through the section. This argument is valid only if the **preIntegrate** argument on the parent CompositeShellSection object is set to ON. The default value is 3."
 msgstr ""
 
 #: ../../../../../src/abaqus/Section/SectionLayer.py:docstring of abaqus.Section.SectionLayer.SectionLayer:42
-#: ../../../docstring of abaqus.Section.SectionLayerArray.SectionLayer.axis:1
+#: ../../../../docstring of abaqus.Section.SectionLayerArray.SectionLayer.axis:1
 msgid "A SymbolicConstant specifying the axis of a cylindrical or spherical datum coordinate system about which an additional rotation is applied. For shells this axis is also the shell normal. This only applies if a valid reference is provided for the orientation. Possible values are AXIS_1, AXIS_2, and AXIS_3. The default value is AXIS_3."
 msgstr ""
 
 #: ../../../../../src/abaqus/Section/SectionLayer.py:docstring of abaqus.Section.SectionLayer.SectionLayer:47
-#: ../../../docstring of abaqus.Section.SectionLayerArray.SectionLayer.angle:1
+#: ../../../../docstring of abaqus.Section.SectionLayerArray.SectionLayer.angle:1
 msgid "A Float specifying the angle of the additional rotation. This only applies if a valid reference is provided for the orientation. The default value is 0.0."
 msgstr ""
 
 #: ../../../../../src/abaqus/Section/SectionLayer.py:docstring of abaqus.Section.SectionLayer.SectionLayer:50
-#: ../../../docstring of abaqus.Section.SectionLayerArray.SectionLayer.additionalRotationType:1
+#: ../../../../docstring of abaqus.Section.SectionLayerArray.SectionLayer.additionalRotationType:1
 msgid "A SymbolicConstant specifying the method used to describe the additional rotation when a valid orientation is specified. Possible values are ROTATION_NONE, ROTATION_ANGLE, and ROTATION_FIELD. The default value is ROTATION_NONE."
 msgstr ""
 
 #: ../../../../../src/abaqus/Section/SectionLayer.py:docstring of abaqus.Section.SectionLayer.SectionLayer:54
-#: ../../../docstring of abaqus.Section.SectionLayerArray.SectionLayer.thicknessType:1
+#: ../../../../docstring of abaqus.Section.SectionLayerArray.SectionLayer.thicknessType:1
 msgid "A SymbolicConstant specifying the method used to describe the thickness. Possible values are THICKNESS_MAGNITUDE and THICKNESS_DISCRETE_FIELD. The default value is THICKNESS_MAGNITUDE."
 msgstr ""
 
 #: ../../../../../src/abaqus/Section/SectionLayer.py:docstring of abaqus.Section.SectionLayer.SectionLayer:58
-#: ../../../docstring of abaqus.Section.SectionLayerArray.SectionLayer.plyName:1
+#: ../../../../docstring of abaqus.Section.SectionLayerArray.SectionLayer.plyName:1
 msgid "A String specifying the ply identifier for this section layer. The default value is \"\"."
 msgstr ""
 
 #: ../../../../../src/abaqus/Section/SectionLayer.py:docstring of abaqus.Section.SectionLayer.SectionLayer:60
-#: ../../../docstring of abaqus.Section.SectionLayerArray.SectionLayer.orientation:1
+#: ../../../../docstring of abaqus.Section.SectionLayerArray.SectionLayer.orientation:1
 msgid "The SymbolicConstant None or a DatumCsys object specifying a coordinate system reference for the relative orientation of this layer. If this reference is valid it is used as the relative orientation of the layer, otherwise the **orientAngle** is used as described. The default value is None."
 msgstr ""
 
 #: ../../../../../src/abaqus/Section/SectionLayer.py:docstring of abaqus.Section.SectionLayer.SectionLayer:65
-#: ../../../docstring of abaqus.Section.SectionLayerArray.SectionLayer.additionalRotationField:1
+#: ../../../../docstring of abaqus.Section.SectionLayerArray.SectionLayer.additionalRotationField:1
 msgid "A String specifying the name of the field specifying the additional rotation. The default value is \"\"."
 msgstr ""
 
