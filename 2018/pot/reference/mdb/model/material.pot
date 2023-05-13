@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: abqpy 2018\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-12 14:41+0000\n"
+"POT-Creation-Date: 2023-05-13 03:08+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -168,7 +168,7 @@ msgid "Check `MaterialModel on help.3ds.com/2018 <https://help.3ds.com/2018/Engl
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/MaterialModel.py:docstring of abaqus.Material.MaterialModel.MaterialModel:11
-#: ../../../None:7:<autosummary>:1
+#: ../../../../None:7:<autosummary>:1
 msgid "This method creates a Model object."
 msgstr ""
 
@@ -598,7 +598,7 @@ msgstr ""
 
 #: ../../../../../src/abaqus/Material/MaterialModel.py:docstring of abaqus.Material.MaterialModel.MaterialModel:19
 #: ../../../../../src/abaqus/Material/MaterialOdb.py:docstring of abaqus.Material.MaterialOdb.MaterialOdb:20
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "A String specifying the repository key."
 msgstr ""
 
@@ -1064,404 +1064,404 @@ msgstr ""
 msgid "Public Data Attributes:"
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`name <abaqus.Model.ModelBase.ModelBase.name>`\\"
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`stefanBoltzmann <abaqus.Model.ModelBase.ModelBase.stefanBoltzmann>`\\"
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "None or a Float specifying the Stefan-Boltzmann constant."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`absoluteZero <abaqus.Model.ModelBase.ModelBase.absoluteZero>`\\"
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "None or a Float specifying the absolute zero constant."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`waveFormulation <abaqus.Model.ModelBase.ModelBase.waveFormulation>`\\"
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "A SymbolicConstant specifying the type of incident wave formulation to be used in acoustic problems."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`universalGas <abaqus.Model.ModelBase.ModelBase.universalGas>`\\"
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "None or a Float specifying the universal gas constant."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`noPartsInputFile <abaqus.Model.ModelBase.ModelBase.noPartsInputFile>`\\"
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "A Boolean specifying whether an input file should be written without parts and assemblies."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`restartIncrement <abaqus.Model.ModelBase.ModelBase.restartIncrement>`\\"
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "An Int specifying the increment, interval, iteration or cycle where the restart analysis will start."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`endRestartStep <abaqus.Model.ModelBase.ModelBase.endRestartStep>`\\"
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "A Boolean specifying that the step specified by **restartStep** should be terminated at the increment specified by **restartIncrement**."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`shellToSolid <abaqus.Model.ModelBase.ModelBase.shellToSolid>`\\"
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "A Boolean specifying that a shell global model drives a solid submodel."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`lastChangedCount <abaqus.Model.ModelBase.ModelBase.lastChangedCount>`\\"
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "A Float specifying the time stamp that indicates when the model was last changed."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`description <abaqus.Model.ModelBase.ModelBase.description>`\\"
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "A String specifying the purpose and contents of the Model object."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`restartJob <abaqus.Model.ModelBase.ModelBase.restartJob>`\\"
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "A String specifying the name of the job that generated the restart data."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`restartStep <abaqus.Model.ModelBase.ModelBase.restartStep>`\\"
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "A String specifying the name of the step where the restart analysis will start."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`globalJob <abaqus.Model.ModelBase.ModelBase.globalJob>`\\"
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "A String specifying the name of the job that generated the results for the global model."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`copyConstraints <abaqus.Model.ModelBase.ModelBase.copyConstraints>`\\"
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "A boolean specifying the status of constraints created in a model, in the model which instances this model."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`copyConnectors <abaqus.Model.ModelBase.ModelBase.copyConnectors>`\\"
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "A boolean specifying the status of connectors created in a model, in the model which instances this model."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`copyInteractions <abaqus.Model.ModelBase.ModelBase.copyInteractions>`\\"
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "A boolean specifying the status of interactions created in a model, in the model which instances this model."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`keywordBlock <abaqus.Model.ModelBase.ModelBase.keywordBlock>`\\"
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "A KeywordBlock object."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`rootAssembly <abaqus.Model.ModelBase.ModelBase.rootAssembly>`\\"
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "An Assembly object."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`amplitudes <abaqus.Model.ModelBase.ModelBase.amplitudes>`\\"
 msgstr ""
 
-#: ../../../None:16:<autosummary>:1
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:16:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "A repository of Amplitude objects."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`profiles <abaqus.Model.ModelBase.ModelBase.profiles>`\\"
 msgstr ""
 
-#: ../../../None:16:<autosummary>:1
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:16:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "A repository of Profile objects."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`boundaryConditions <abaqus.Model.ModelBase.ModelBase.boundaryConditions>`\\"
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "A repository of BoundaryCondition objects."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`constraints <abaqus.Model.ModelBase.ModelBase.constraints>`\\"
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "A repository of ConstrainedSketchConstraint objects."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`analyticalFields <abaqus.Model.ModelBase.ModelBase.analyticalFields>`\\"
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "A repository of AnalyticalField objects."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`discreteFields <abaqus.Model.ModelBase.ModelBase.discreteFields>`\\"
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "A repository of DiscreteField objects."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`predefinedFields <abaqus.Model.ModelBase.ModelBase.predefinedFields>`\\"
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "A repository of PredefinedField objects."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`interactions <abaqus.Model.ModelBase.ModelBase.interactions>`\\"
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "A repository of Interaction objects."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`interactionProperties <abaqus.Model.ModelBase.ModelBase.interactionProperties>`\\"
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "A repository of InteractionProperty objects."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`contactControls <abaqus.Model.ModelBase.ModelBase.contactControls>`\\"
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "A repository of ContactControl objects."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`contactInitializations <abaqus.Model.ModelBase.ModelBase.contactInitializations>`\\"
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "A repository of ContactInitialization objects."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`contactStabilizations <abaqus.Model.ModelBase.ModelBase.contactStabilizations>`\\"
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "A repository of ContactStabilization objects."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`linkedInstances <abaqus.Model.ModelBase.ModelBase.linkedInstances>`\\"
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "A tuple of tuples of Strings specifying the linked child PartInstance name in the current model to the corresponding parent PartInstance name in a different model."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`linkedParts <abaqus.Model.ModelBase.ModelBase.linkedParts>`\\"
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "A tuple of tuples of Strings specifying the linked child Part name in the current model to the corresponding parent Part name in a different model."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`loads <abaqus.Model.ModelBase.ModelBase.loads>`\\"
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "A repository of Load objects."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`materials <abaqus.Model.ModelBase.ModelBase.materials>`\\"
 msgstr ""
 
-#: ../../../None:16:<autosummary>:1
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:16:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "A repository of Material objects."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`calibrations <abaqus.Model.ModelBase.ModelBase.calibrations>`\\"
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "A repository of Calibration objects."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`sections <abaqus.Model.ModelBase.ModelBase.sections>`\\"
 msgstr ""
 
-#: ../../../None:16:<autosummary>:1
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:16:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "A repository of Section objects."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`remeshingRules <abaqus.Model.ModelBase.ModelBase.remeshingRules>`\\"
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "A repository of RemeshingRule objects."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`sketches <abaqus.Model.ModelBase.ModelBase.sketches>`\\"
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "A repository of ConstrainedSketch objects."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`parts <abaqus.Model.ModelBase.ModelBase.parts>`\\"
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "A repository of Part objects."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`steps <abaqus.Model.ModelBase.ModelBase.steps>`\\"
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "A repository of Step objects."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`featureOptions <abaqus.Model.ModelBase.ModelBase.featureOptions>`\\"
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "A FeatureOptions object."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`adaptiveMeshConstraints <abaqus.Model.ModelBase.ModelBase.adaptiveMeshConstraints>`\\"
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "A repository of AdaptiveMeshConstraint objects."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`adaptiveMeshControls <abaqus.Model.ModelBase.ModelBase.adaptiveMeshControls>`\\"
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "A repository of AdaptiveMeshControl objects."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`timePoints <abaqus.Model.ModelBase.ModelBase.timePoints>`\\"
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "A repository of TimePoint objects."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`filters <abaqus.Model.ModelBase.ModelBase.filters>`\\"
 msgstr ""
 
-#: ../../../None:16:<autosummary>:1
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:16:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "A repository of Filter objects."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`integratedOutputSections <abaqus.Model.ModelBase.ModelBase.integratedOutputSections>`\\"
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "A repository of IntegratedOutputSection objects."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`fieldOutputRequests <abaqus.Model.ModelBase.ModelBase.fieldOutputRequests>`\\"
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "A repository of FieldOutputRequest objects."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`historyOutputRequests <abaqus.Model.ModelBase.ModelBase.historyOutputRequests>`\\"
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "A repository of HistoryOutputRequest objects."
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`optimizationTasks <abaqus.Model.ModelBase.ModelBase.optimizationTasks>`\\"
 msgstr ""
 
-#: ../../../None:52:<autosummary>:1
+#: ../../../../None:52:<autosummary>:1
 msgid "A repository of OptimizationTask objects."
 msgstr ""
 
@@ -1471,7 +1471,7 @@ msgstr ""
 msgid "Public Methods:"
 msgstr ""
 
-#: ../../../None:3:<autosummary>:1
+#: ../../../../None:3:<autosummary>:1
 msgid ":py:obj:`Material <abaqus.Material.MaterialModel.MaterialModel.Material>`\\ \\(name\\[\\, description\\, materialIdentifier\\]\\)"
 msgstr ""
 
@@ -1479,44 +1479,44 @@ msgstr ""
 #: ../../../../../src/abaqus/Material/MaterialBase.py:docstring of abaqus.Material.MaterialBase.MaterialBase:24
 #: ../../../../../src/abaqus/Material/MaterialModel.py:docstring of abaqus.Material.MaterialModel.MaterialModel.Material:1
 #: ../../../../../src/abaqus/Material/MaterialOdb.py:docstring of abaqus.Material.MaterialOdb.MaterialOdb.Material:1
-#: ../../../None:3:<autosummary>:1
-#: ../../../None:4:<autosummary>:1
+#: ../../../../None:3:<autosummary>:1
+#: ../../../../None:4:<autosummary>:1
 msgid "This method creates a Material object."
 msgstr ""
 
-#: ../../../None:7:<autosummary>:1
+#: ../../../../None:7:<autosummary>:1
 msgid ":py:obj:`__init__ <abaqus.Model.ModelBase.ModelBase.__init__>`\\ \\(name\\[\\, description\\, ...\\]\\)"
 msgstr ""
 
-#: ../../../None:7:<autosummary>:1
+#: ../../../../None:7:<autosummary>:1
 msgid ":py:obj:`ModelFromInputFile <abaqus.Model.ModelBase.ModelBase.ModelFromInputFile>`\\ \\(name\\, inputFileName\\)"
 msgstr ""
 
-#: ../../../None:7:<autosummary>:1
+#: ../../../../None:7:<autosummary>:1
 msgid "This method creates a Model object by reading the keywords in an input file and creating the corresponding Abaqus/CAE objects."
 msgstr ""
 
-#: ../../../None:7:<autosummary>:1
+#: ../../../../None:7:<autosummary>:1
 msgid ":py:obj:`ModelFromOdbFile <abaqus.Model.ModelBase.ModelBase.ModelFromOdbFile>`\\ \\(name\\, odbFileName\\)"
 msgstr ""
 
-#: ../../../None:7:<autosummary>:1
+#: ../../../../None:7:<autosummary>:1
 msgid "This method creates a Model object by reading an output database and creating any corresponding Abaqus/CAE objects."
 msgstr ""
 
-#: ../../../None:7:<autosummary>:1
+#: ../../../../None:7:<autosummary>:1
 msgid ":py:obj:`ModelFromNastranFile <abaqus.Model.ModelBase.ModelBase.ModelFromNastranFile>`\\ \\(modelName\\, inputFileName\\)"
 msgstr ""
 
-#: ../../../None:7:<autosummary>:1
+#: ../../../../None:7:<autosummary>:1
 msgid "This method creates a Model object by reading the keywords in a Nastran bulk data file or Nastran input file and creating any corresponding Abaqus/CAE objects."
 msgstr ""
 
-#: ../../../None:7:<autosummary>:1
+#: ../../../../None:7:<autosummary>:1
 msgid ":py:obj:`setValues <abaqus.Model.ModelBase.ModelBase.setValues>`\\ \\(\\[description\\, noPartsInputFile\\, ...\\]\\)"
 msgstr ""
 
-#: ../../../None:7:<autosummary>:1
+#: ../../../../None:7:<autosummary>:1
 msgid "This method modifies the Model object."
 msgstr ""
 
@@ -1702,7 +1702,7 @@ msgid "Check `MaterialOdb on help.3ds.com/2018 <https://help.3ds.com/2018/Englis
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/MaterialOdb.py:docstring of abaqus.Material.MaterialOdb.MaterialOdb:12
-#: ../../../None:7:<autosummary>:1
+#: ../../../../None:7:<autosummary>:1
 msgid "This method creates a new Odb object."
 msgstr ""
 
@@ -1726,135 +1726,135 @@ msgstr ""
 msgid ":class:`Odb`"
 msgstr ""
 
-#: ../../../None:16:<autosummary>:1
+#: ../../../../None:16:<autosummary>:1
 msgid ":py:obj:`isReadOnly <abaqus.Odb.OdbBase.OdbBase.isReadOnly>`\\"
 msgstr ""
 
-#: ../../../None:16:<autosummary>:1
+#: ../../../../None:16:<autosummary>:1
 msgid "A Boolean specifying whether the output database was opened with read-only access."
 msgstr ""
 
-#: ../../../None:16:<autosummary>:1
+#: ../../../../None:16:<autosummary>:1
 msgid ":py:obj:`amplitudes <abaqus.Odb.OdbBase.OdbBase.amplitudes>`\\"
 msgstr ""
 
-#: ../../../None:16:<autosummary>:1
+#: ../../../../None:16:<autosummary>:1
 msgid ":py:obj:`filters <abaqus.Odb.OdbBase.OdbBase.filters>`\\"
 msgstr ""
 
-#: ../../../None:16:<autosummary>:1
+#: ../../../../None:16:<autosummary>:1
 msgid ":py:obj:`rootAssembly <abaqus.Odb.OdbBase.OdbBase.rootAssembly>`\\"
 msgstr ""
 
-#: ../../../None:16:<autosummary>:1
+#: ../../../../None:16:<autosummary>:1
 msgid "An OdbAssembly object."
 msgstr ""
 
-#: ../../../None:16:<autosummary>:1
+#: ../../../../None:16:<autosummary>:1
 msgid ":py:obj:`jobData <abaqus.Odb.OdbBase.OdbBase.jobData>`\\"
 msgstr ""
 
-#: ../../../None:16:<autosummary>:1
+#: ../../../../None:16:<autosummary>:1
 msgid "A JobData object."
 msgstr ""
 
-#: ../../../None:16:<autosummary>:1
+#: ../../../../None:16:<autosummary>:1
 msgid ":py:obj:`parts <abaqus.Odb.OdbBase.OdbBase.parts>`\\"
 msgstr ""
 
-#: ../../../None:16:<autosummary>:1
+#: ../../../../None:16:<autosummary>:1
 msgid "A repository of OdbPart objects."
 msgstr ""
 
-#: ../../../None:16:<autosummary>:1
+#: ../../../../None:16:<autosummary>:1
 msgid ":py:obj:`materials <abaqus.Odb.OdbBase.OdbBase.materials>`\\"
 msgstr ""
 
-#: ../../../None:16:<autosummary>:1
+#: ../../../../None:16:<autosummary>:1
 msgid ":py:obj:`steps <abaqus.Odb.OdbBase.OdbBase.steps>`\\"
 msgstr ""
 
-#: ../../../None:16:<autosummary>:1
+#: ../../../../None:16:<autosummary>:1
 msgid "A repository of OdbStep objects."
 msgstr ""
 
-#: ../../../None:16:<autosummary>:1
+#: ../../../../None:16:<autosummary>:1
 msgid ":py:obj:`sections <abaqus.Odb.OdbBase.OdbBase.sections>`\\"
 msgstr ""
 
-#: ../../../None:16:<autosummary>:1
+#: ../../../../None:16:<autosummary>:1
 msgid ":py:obj:`sectionCategories <abaqus.Odb.OdbBase.OdbBase.sectionCategories>`\\"
 msgstr ""
 
-#: ../../../None:16:<autosummary>:1
+#: ../../../../None:16:<autosummary>:1
 msgid "A repository of SectionCategory objects."
 msgstr ""
 
-#: ../../../None:16:<autosummary>:1
+#: ../../../../None:16:<autosummary>:1
 msgid ":py:obj:`sectorDefinition <abaqus.Odb.OdbBase.OdbBase.sectorDefinition>`\\"
 msgstr ""
 
-#: ../../../None:16:<autosummary>:1
+#: ../../../../None:16:<autosummary>:1
 msgid "A SectorDefinition object."
 msgstr ""
 
-#: ../../../None:16:<autosummary>:1
+#: ../../../../None:16:<autosummary>:1
 msgid ":py:obj:`userData <abaqus.Odb.OdbBase.OdbBase.userData>`\\"
 msgstr ""
 
-#: ../../../None:16:<autosummary>:1
+#: ../../../../None:16:<autosummary>:1
 msgid "A UserData object."
 msgstr ""
 
-#: ../../../None:16:<autosummary>:1
+#: ../../../../None:16:<autosummary>:1
 msgid ":py:obj:`customData <abaqus.Odb.OdbBase.OdbBase.customData>`\\"
 msgstr ""
 
-#: ../../../None:16:<autosummary>:1
+#: ../../../../None:16:<autosummary>:1
 msgid "A RepositorySupport object."
 msgstr ""
 
-#: ../../../None:16:<autosummary>:1
+#: ../../../../None:16:<autosummary>:1
 msgid ":py:obj:`profiles <abaqus.Odb.OdbBase.OdbBase.profiles>`\\"
 msgstr ""
 
-#: ../../../None:3:<autosummary>:1
+#: ../../../../None:3:<autosummary>:1
 msgid ":py:obj:`Material <abaqus.Material.MaterialOdb.MaterialOdb.Material>`\\ \\(name\\[\\, description\\, materialIdentifier\\]\\)"
 msgstr ""
 
-#: ../../../None:7:<autosummary>:1
+#: ../../../../None:7:<autosummary>:1
 msgid ":py:obj:`__init__ <abaqus.Odb.OdbBase.OdbBase.__init__>`\\ \\(name\\[\\, analysisTitle\\, description\\, ...\\]\\)"
 msgstr ""
 
-#: ../../../None:7:<autosummary>:1
+#: ../../../../None:7:<autosummary>:1
 msgid ":py:obj:`close <abaqus.Odb.OdbBase.OdbBase.close>`\\ \\(\\)"
 msgstr ""
 
-#: ../../../None:7:<autosummary>:1
+#: ../../../../None:7:<autosummary>:1
 msgid "This method closes an output database."
 msgstr ""
 
-#: ../../../None:7:<autosummary>:1
+#: ../../../../None:7:<autosummary>:1
 msgid ":py:obj:`getFrame <abaqus.Odb.OdbBase.OdbBase.getFrame>`\\ \\(frameValue\\[\\, match\\]\\)"
 msgstr ""
 
-#: ../../../None:7:<autosummary>:1
+#: ../../../../None:7:<autosummary>:1
 msgid "This method returns the frame at the specified time, frequency, or mode."
 msgstr ""
 
-#: ../../../None:7:<autosummary>:1
+#: ../../../../None:7:<autosummary>:1
 msgid ":py:obj:`save <abaqus.Odb.OdbBase.OdbBase.save>`\\ \\(\\)"
 msgstr ""
 
-#: ../../../None:7:<autosummary>:1
+#: ../../../../None:7:<autosummary>:1
 msgid "This method saves output to an output database (.odb ) file."
 msgstr ""
 
-#: ../../../None:7:<autosummary>:1
+#: ../../../../None:7:<autosummary>:1
 msgid ":py:obj:`update <abaqus.Odb.OdbBase.OdbBase.update>`\\ \\(\\)"
 msgstr ""
 
-#: ../../../None:7:<autosummary>:1
+#: ../../../../None:7:<autosummary>:1
 msgid "This method is used to update an Odb object in memory while an Abaqus analysis writes data to the associated output database."
 msgstr ""
 
@@ -1995,117 +1995,117 @@ msgstr ""
 msgid "MATERIAL"
 msgstr ""
 
-#: ../../../None:74:<autosummary>:1
+#: ../../../../None:74:<autosummary>:1
 msgid ":py:obj:`acousticMedium <abaqus.Material.MaterialBase.MaterialBase.acousticMedium>`\\"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Acoustic/AcousticMedium.py:docstring of abaqus.Material.Acoustic.AcousticMedium.AcousticMedium:61
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.AcousticMedium:47
-#: ../../../None:74:<autosummary>:1
-#: ../../../docstring of abaqus.Material.MaterialBase.MaterialBase.acousticMedium:1
+#: ../../../../None:74:<autosummary>:1
+#: ../../../../docstring of abaqus.Material.MaterialBase.MaterialBase.acousticMedium:1
 msgid "An AcousticMedium object."
 msgstr ""
 
-#: ../../../None:74:<autosummary>:1
+#: ../../../../None:74:<autosummary>:1
 msgid ":py:obj:`brittleCracking <abaqus.Material.MaterialBase.MaterialBase.brittleCracking>`\\"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.BrittleCracking:22
 #: ../../../../../src/abaqus/Material/Plastic/Concrete/BrittleCracking.py:docstring of abaqus.Material.Plastic.Concrete.BrittleCracking.BrittleCracking:64
-#: ../../../None:74:<autosummary>:1
-#: ../../../docstring of abaqus.Material.MaterialBase.MaterialBase.brittleCracking:1
+#: ../../../../None:74:<autosummary>:1
+#: ../../../../docstring of abaqus.Material.MaterialBase.MaterialBase.brittleCracking:1
 msgid "A BrittleCracking object."
 msgstr ""
 
-#: ../../../None:74:<autosummary>:1
+#: ../../../../None:74:<autosummary>:1
 msgid ":py:obj:`capPlasticity <abaqus.Material.MaterialBase.MaterialBase.capPlasticity>`\\"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.CapPlasticity:19
 #: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/ModifiedCap/CapPlasticity.py:docstring of abaqus.Material.Plastic.DruckerPrager.ModifiedCap.CapPlasticity.CapPlasticity:49
-#: ../../../None:74:<autosummary>:1
-#: ../../../docstring of abaqus.Material.MaterialBase.MaterialBase.capPlasticity:1
+#: ../../../../None:74:<autosummary>:1
+#: ../../../../docstring of abaqus.Material.MaterialBase.MaterialBase.capPlasticity:1
 msgid "A CapPlasticity object."
 msgstr ""
 
-#: ../../../None:74:<autosummary>:1
+#: ../../../../None:74:<autosummary>:1
 msgid ":py:obj:`castIronPlasticity <abaqus.Material.MaterialBase.MaterialBase.castIronPlasticity>`\\"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.CastIronPlasticity:19
 #: ../../../../../src/abaqus/Material/Plastic/Metal/CastIron/CastIronPlasticity.py:docstring of abaqus.Material.Plastic.Metal.CastIron.CastIronPlasticity.CastIronPlasticity:41
-#: ../../../None:74:<autosummary>:1
-#: ../../../docstring of abaqus.Material.MaterialBase.MaterialBase.castIronPlasticity:1
+#: ../../../../None:74:<autosummary>:1
+#: ../../../../docstring of abaqus.Material.MaterialBase.MaterialBase.castIronPlasticity:1
 msgid "A CastIronPlasticity object."
 msgstr ""
 
-#: ../../../None:74:<autosummary>:1
+#: ../../../../None:74:<autosummary>:1
 msgid ":py:obj:`clayPlasticity <abaqus.Material.MaterialBase.MaterialBase.clayPlasticity>`\\"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.ClayPlasticity:26
 #: ../../../../../src/abaqus/Material/Plastic/CriticalStateClay/ClayPlasticity.py:docstring of abaqus.Material.Plastic.CriticalStateClay.ClayPlasticity.ClayPlasticity:68
-#: ../../../None:74:<autosummary>:1
-#: ../../../docstring of abaqus.Material.MaterialBase.MaterialBase.clayPlasticity:1
+#: ../../../../None:74:<autosummary>:1
+#: ../../../../docstring of abaqus.Material.MaterialBase.MaterialBase.clayPlasticity:1
 msgid "A ClayPlasticity object."
 msgstr ""
 
-#: ../../../None:74:<autosummary>:1
+#: ../../../../None:74:<autosummary>:1
 msgid ":py:obj:`concrete <abaqus.Material.MaterialBase.MaterialBase.concrete>`\\"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Concrete:19
 #: ../../../../../src/abaqus/Material/Plastic/Concrete/Concrete.py:docstring of abaqus.Material.Plastic.Concrete.Concrete.Concrete:42
-#: ../../../None:74:<autosummary>:1
-#: ../../../docstring of abaqus.Material.MaterialBase.MaterialBase.concrete:1
+#: ../../../../None:74:<autosummary>:1
+#: ../../../../docstring of abaqus.Material.MaterialBase.MaterialBase.concrete:1
 msgid "A Concrete object."
 msgstr ""
 
-#: ../../../None:74:<autosummary>:1
+#: ../../../../None:74:<autosummary>:1
 msgid ":py:obj:`concreteDamagedPlasticity <abaqus.Material.MaterialBase.MaterialBase.concreteDamagedPlasticity>`\\"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.ConcreteDamagedPlasticity:19
 #: ../../../../../src/abaqus/Material/Plastic/Concrete/ConcreteDamagedPlasticity.py:docstring of abaqus.Material.Plastic.Concrete.ConcreteDamagedPlasticity.ConcreteDamagedPlasticity:51
-#: ../../../None:74:<autosummary>:1
-#: ../../../docstring of abaqus.Material.MaterialBase.MaterialBase.concreteDamagedPlasticity:1
+#: ../../../../None:74:<autosummary>:1
+#: ../../../../docstring of abaqus.Material.MaterialBase.MaterialBase.concreteDamagedPlasticity:1
 msgid "A ConcreteDamagedPlasticity object."
 msgstr ""
 
-#: ../../../None:74:<autosummary>:1
+#: ../../../../None:74:<autosummary>:1
 msgid ":py:obj:`conductivity <abaqus.Material.MaterialBase.MaterialBase.conductivity>`\\"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/HeatTransfer/Conductivity.py:docstring of abaqus.Material.HeatTransfer.Conductivity.Conductivity:67
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Conductivity:22
-#: ../../../None:74:<autosummary>:1
-#: ../../../docstring of abaqus.Material.MaterialBase.MaterialBase.conductivity:1
+#: ../../../../None:74:<autosummary>:1
+#: ../../../../docstring of abaqus.Material.MaterialBase.MaterialBase.conductivity:1
 msgid "A Conductivity object."
 msgstr ""
 
-#: ../../../None:74:<autosummary>:1
+#: ../../../../None:74:<autosummary>:1
 msgid ":py:obj:`creep <abaqus.Material.MaterialBase.MaterialBase.creep>`\\"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Creep:25
 #: ../../../../../src/abaqus/Material/Plastic/Creep/Creep.py:docstring of abaqus.Material.Plastic.Creep.Creep.Creep:61
-#: ../../../None:74:<autosummary>:1
-#: ../../../docstring of abaqus.Material.MaterialBase.MaterialBase.creep:1
+#: ../../../../None:74:<autosummary>:1
+#: ../../../../docstring of abaqus.Material.MaterialBase.MaterialBase.creep:1
 msgid "A Creep object."
 msgstr ""
 
-#: ../../../None:74:<autosummary>:1
+#: ../../../../None:74:<autosummary>:1
 msgid ":py:obj:`crushableFoam <abaqus.Material.MaterialBase.MaterialBase.crushableFoam>`\\"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.CrushableFoam:22
 #: ../../../../../src/abaqus/Material/Plastic/CrushableFoam/CrushableFoam.py:docstring of abaqus.Material.Plastic.CrushableFoam.CrushableFoam.CrushableFoam:58
-#: ../../../None:74:<autosummary>:1
-#: ../../../docstring of abaqus.Material.MaterialBase.MaterialBase.crushableFoam:1
+#: ../../../../None:74:<autosummary>:1
+#: ../../../../docstring of abaqus.Material.MaterialBase.MaterialBase.crushableFoam:1
 msgid "A CrushableFoam object."
 msgstr ""
 
-#: ../../../None:74:<autosummary>:1
+#: ../../../../None:74:<autosummary>:1
 msgid ":py:obj:`ductileDamageInitiation <abaqus.Material.MaterialBase.MaterialBase.ductileDamageInitiation>`\\"
 msgstr ""
 
@@ -2137,1138 +2137,1138 @@ msgstr ""
 #: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.QuadeDamageInitiation:57
 #: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.QuadsDamageInitiation:57
 #: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.ShearDamageInitiation:54
-#: ../../../None:74:<autosummary>:1
-#: ../../../docstring of abaqus.Material.MaterialBase.MaterialBase.ductileDamageInitiation:1
-#: ../../../docstring of abaqus.Material.MaterialBase.MaterialBase.fldDamageInitiation:1
-#: ../../../docstring of abaqus.Material.MaterialBase.MaterialBase.flsdDamageInitiation:1
-#: ../../../docstring of abaqus.Material.MaterialBase.MaterialBase.hashinDamageInitiation:1
-#: ../../../docstring of abaqus.Material.MaterialBase.MaterialBase.johnsonCookDamageInitiation:1
-#: ../../../docstring of abaqus.Material.MaterialBase.MaterialBase.maxeDamageInitiation:1
-#: ../../../docstring of abaqus.Material.MaterialBase.MaterialBase.maxpeDamageInitiation:1
-#: ../../../docstring of abaqus.Material.MaterialBase.MaterialBase.maxpsDamageInitiation:1
-#: ../../../docstring of abaqus.Material.MaterialBase.MaterialBase.maxsDamageInitiation:1
-#: ../../../docstring of abaqus.Material.MaterialBase.MaterialBase.mkDamageInitiation:1
-#: ../../../docstring of abaqus.Material.MaterialBase.MaterialBase.msfldDamageInitiation:1
-#: ../../../docstring of abaqus.Material.MaterialBase.MaterialBase.quadeDamageInitiation:1
-#: ../../../docstring of abaqus.Material.MaterialBase.MaterialBase.quadsDamageInitiation:1
-#: ../../../docstring of abaqus.Material.MaterialBase.MaterialBase.shearDamageInitiation:1
+#: ../../../../None:74:<autosummary>:1
+#: ../../../../docstring of abaqus.Material.MaterialBase.MaterialBase.ductileDamageInitiation:1
+#: ../../../../docstring of abaqus.Material.MaterialBase.MaterialBase.fldDamageInitiation:1
+#: ../../../../docstring of abaqus.Material.MaterialBase.MaterialBase.flsdDamageInitiation:1
+#: ../../../../docstring of abaqus.Material.MaterialBase.MaterialBase.hashinDamageInitiation:1
+#: ../../../../docstring of abaqus.Material.MaterialBase.MaterialBase.johnsonCookDamageInitiation:1
+#: ../../../../docstring of abaqus.Material.MaterialBase.MaterialBase.maxeDamageInitiation:1
+#: ../../../../docstring of abaqus.Material.MaterialBase.MaterialBase.maxpeDamageInitiation:1
+#: ../../../../docstring of abaqus.Material.MaterialBase.MaterialBase.maxpsDamageInitiation:1
+#: ../../../../docstring of abaqus.Material.MaterialBase.MaterialBase.maxsDamageInitiation:1
+#: ../../../../docstring of abaqus.Material.MaterialBase.MaterialBase.mkDamageInitiation:1
+#: ../../../../docstring of abaqus.Material.MaterialBase.MaterialBase.msfldDamageInitiation:1
+#: ../../../../docstring of abaqus.Material.MaterialBase.MaterialBase.quadeDamageInitiation:1
+#: ../../../../docstring of abaqus.Material.MaterialBase.MaterialBase.quadsDamageInitiation:1
+#: ../../../../docstring of abaqus.Material.MaterialBase.MaterialBase.shearDamageInitiation:1
 msgid "A DamageInitiation object."
 msgstr ""
 
-#: ../../../None:74:<autosummary>:1
+#: ../../../../None:74:<autosummary>:1
 msgid ":py:obj:`fldDamageInitiation <abaqus.Material.MaterialBase.MaterialBase.fldDamageInitiation>`\\"
 msgstr ""
 
-#: ../../../None:74:<autosummary>:1
+#: ../../../../None:74:<autosummary>:1
 msgid ":py:obj:`flsdDamageInitiation <abaqus.Material.MaterialBase.MaterialBase.flsdDamageInitiation>`\\"
 msgstr ""
 
-#: ../../../None:74:<autosummary>:1
+#: ../../../../None:74:<autosummary>:1
 msgid ":py:obj:`johnsonCookDamageInitiation <abaqus.Material.MaterialBase.MaterialBase.johnsonCookDamageInitiation>`\\"
 msgstr ""
 
-#: ../../../None:74:<autosummary>:1
+#: ../../../../None:74:<autosummary>:1
 msgid ":py:obj:`maxeDamageInitiation <abaqus.Material.MaterialBase.MaterialBase.maxeDamageInitiation>`\\"
 msgstr ""
 
-#: ../../../None:74:<autosummary>:1
+#: ../../../../None:74:<autosummary>:1
 msgid ":py:obj:`maxsDamageInitiation <abaqus.Material.MaterialBase.MaterialBase.maxsDamageInitiation>`\\"
 msgstr ""
 
-#: ../../../None:74:<autosummary>:1
+#: ../../../../None:74:<autosummary>:1
 msgid ":py:obj:`maxpeDamageInitiation <abaqus.Material.MaterialBase.MaterialBase.maxpeDamageInitiation>`\\"
 msgstr ""
 
-#: ../../../None:74:<autosummary>:1
+#: ../../../../None:74:<autosummary>:1
 msgid ":py:obj:`maxpsDamageInitiation <abaqus.Material.MaterialBase.MaterialBase.maxpsDamageInitiation>`\\"
 msgstr ""
 
-#: ../../../None:74:<autosummary>:1
+#: ../../../../None:74:<autosummary>:1
 msgid ":py:obj:`mkDamageInitiation <abaqus.Material.MaterialBase.MaterialBase.mkDamageInitiation>`\\"
 msgstr ""
 
-#: ../../../None:74:<autosummary>:1
+#: ../../../../None:74:<autosummary>:1
 msgid ":py:obj:`msfldDamageInitiation <abaqus.Material.MaterialBase.MaterialBase.msfldDamageInitiation>`\\"
 msgstr ""
 
-#: ../../../None:74:<autosummary>:1
+#: ../../../../None:74:<autosummary>:1
 msgid ":py:obj:`quadeDamageInitiation <abaqus.Material.MaterialBase.MaterialBase.quadeDamageInitiation>`\\"
 msgstr ""
 
-#: ../../../None:74:<autosummary>:1
+#: ../../../../None:74:<autosummary>:1
 msgid ":py:obj:`quadsDamageInitiation <abaqus.Material.MaterialBase.MaterialBase.quadsDamageInitiation>`\\"
 msgstr ""
 
-#: ../../../None:74:<autosummary>:1
+#: ../../../../None:74:<autosummary>:1
 msgid ":py:obj:`shearDamageInitiation <abaqus.Material.MaterialBase.MaterialBase.shearDamageInitiation>`\\"
 msgstr ""
 
-#: ../../../None:74:<autosummary>:1
+#: ../../../../None:74:<autosummary>:1
 msgid ":py:obj:`hashinDamageInitiation <abaqus.Material.MaterialBase.MaterialBase.hashinDamageInitiation>`\\"
 msgstr ""
 
-#: ../../../None:74:<autosummary>:1
+#: ../../../../None:74:<autosummary>:1
 msgid ":py:obj:`damping <abaqus.Material.MaterialBase.MaterialBase.damping>`\\"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Damping:23
 #: ../../../../../src/abaqus/Material/Mechanical/Damping.py:docstring of abaqus.Material.Mechanical.Damping.Damping:40
-#: ../../../None:74:<autosummary>:1
-#: ../../../docstring of abaqus.Material.MaterialBase.MaterialBase.damping:1
+#: ../../../../None:74:<autosummary>:1
+#: ../../../../docstring of abaqus.Material.MaterialBase.MaterialBase.damping:1
 msgid "A Damping object."
 msgstr ""
 
-#: ../../../None:74:<autosummary>:1
+#: ../../../../None:74:<autosummary>:1
 msgid ":py:obj:`deformationPlasticity <abaqus.Material.MaterialBase.MaterialBase.deformationPlasticity>`\\"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.DeformationPlasticity:17
 #: ../../../../../src/abaqus/Material/Plastic/Metal/Deformation/DeformationPlasticity.py:docstring of abaqus.Material.Plastic.Metal.Deformation.DeformationPlasticity.DeformationPlasticity:40
-#: ../../../None:74:<autosummary>:1
-#: ../../../docstring of abaqus.Material.MaterialBase.MaterialBase.deformationPlasticity:1
+#: ../../../../None:74:<autosummary>:1
+#: ../../../../docstring of abaqus.Material.MaterialBase.MaterialBase.deformationPlasticity:1
 msgid "A DeformationPlasticity object."
 msgstr ""
 
-#: ../../../None:74:<autosummary>:1
+#: ../../../../None:74:<autosummary>:1
 msgid ":py:obj:`density <abaqus.Material.MaterialBase.MaterialBase.density>`\\"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Density/Density.py:docstring of abaqus.Material.Density.Density.Density:49
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Density:27
-#: ../../../None:74:<autosummary>:1
-#: ../../../docstring of abaqus.Material.MaterialBase.MaterialBase.density:1
+#: ../../../../None:74:<autosummary>:1
+#: ../../../../docstring of abaqus.Material.MaterialBase.MaterialBase.density:1
 msgid "A Density object."
 msgstr ""
 
-#: ../../../None:74:<autosummary>:1
+#: ../../../../None:74:<autosummary>:1
 msgid ":py:obj:`depvar <abaqus.Material.MaterialBase.MaterialBase.depvar>`\\"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Depvar:19
 #: ../../../../../src/abaqus/Material/User/Depvar.py:docstring of abaqus.Material.User.Depvar.Depvar:33
-#: ../../../None:74:<autosummary>:1
-#: ../../../docstring of abaqus.Material.MaterialBase.MaterialBase.depvar:1
+#: ../../../../None:74:<autosummary>:1
+#: ../../../../docstring of abaqus.Material.MaterialBase.MaterialBase.depvar:1
 msgid "A Depvar object."
 msgstr ""
 
-#: ../../../None:74:<autosummary>:1
+#: ../../../../None:74:<autosummary>:1
 msgid ":py:obj:`dielectric <abaqus.Material.MaterialBase.MaterialBase.dielectric>`\\"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Electromagnetic/Dielectric.py:docstring of abaqus.Material.Electromagnetic.Dielectric.Dielectric:72
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Dielectric:24
-#: ../../../None:74:<autosummary>:1
-#: ../../../docstring of abaqus.Material.MaterialBase.MaterialBase.dielectric:1
+#: ../../../../None:74:<autosummary>:1
+#: ../../../../docstring of abaqus.Material.MaterialBase.MaterialBase.dielectric:1
 msgid "A Dielectric object."
 msgstr ""
 
-#: ../../../None:74:<autosummary>:1
+#: ../../../../None:74:<autosummary>:1
 msgid ":py:obj:`diffusivity <abaqus.Material.MaterialBase.MaterialBase.diffusivity>`\\"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/MassDiffusion/Diffusivity.py:docstring of abaqus.Material.MassDiffusion.Diffusivity.Diffusivity:73
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Diffusivity:25
-#: ../../../None:74:<autosummary>:1
-#: ../../../docstring of abaqus.Material.MaterialBase.MaterialBase.diffusivity:1
+#: ../../../../None:74:<autosummary>:1
+#: ../../../../docstring of abaqus.Material.MaterialBase.MaterialBase.diffusivity:1
 msgid "A Diffusivity object."
 msgstr ""
 
-#: ../../../None:74:<autosummary>:1
+#: ../../../../None:74:<autosummary>:1
 msgid ":py:obj:`druckerPrager <abaqus.Material.MaterialBase.MaterialBase.druckerPrager>`\\"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.DruckerPrager:33
 #: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/Extended/DruckerPrager.py:docstring of abaqus.Material.Plastic.DruckerPrager.Extended.DruckerPrager.DruckerPrager:80
-#: ../../../None:74:<autosummary>:1
-#: ../../../docstring of abaqus.Material.MaterialBase.MaterialBase.druckerPrager:1
+#: ../../../../None:74:<autosummary>:1
+#: ../../../../docstring of abaqus.Material.MaterialBase.MaterialBase.druckerPrager:1
 msgid "A DruckerPrager object."
 msgstr ""
 
-#: ../../../None:74:<autosummary>:1
+#: ../../../../None:74:<autosummary>:1
 msgid ":py:obj:`elastic <abaqus.Material.MaterialBase.MaterialBase.elastic>`\\"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Elastic/Linear/Elastic.py:docstring of abaqus.Material.Elastic.Linear.Elastic.Elastic:158
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Elastic:40
-#: ../../../None:74:<autosummary>:1
-#: ../../../docstring of abaqus.Material.MaterialBase.MaterialBase.elastic:1
+#: ../../../../None:74:<autosummary>:1
+#: ../../../../docstring of abaqus.Material.MaterialBase.MaterialBase.elastic:1
 msgid "An Elastic object."
 msgstr ""
 
-#: ../../../None:74:<autosummary>:1
+#: ../../../../None:74:<autosummary>:1
 msgid ":py:obj:`electricalConductivity <abaqus.Material.MaterialBase.MaterialBase.electricalConductivity>`\\"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Electromagnetic/ElectricalConductivity.py:docstring of abaqus.Material.Electromagnetic.ElectricalConductivity.ElectricalConductivity:72
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.ElectricalConductivity:24
-#: ../../../None:74:<autosummary>:1
-#: ../../../docstring of abaqus.Material.MaterialBase.MaterialBase.electricalConductivity:1
+#: ../../../../None:74:<autosummary>:1
+#: ../../../../docstring of abaqus.Material.MaterialBase.MaterialBase.electricalConductivity:1
 msgid "An ElectricalConductivity object."
 msgstr ""
 
-#: ../../../None:74:<autosummary>:1
+#: ../../../../None:74:<autosummary>:1
 msgid ":py:obj:`eos <abaqus.Material.MaterialBase.MaterialBase.eos>`\\"
 msgstr ""
 
-#: ../../../None:74:<autosummary>:1
-#: ../../../docstring of abaqus.Material.MaterialBase.MaterialBase.eos:1
+#: ../../../../None:74:<autosummary>:1
+#: ../../../../docstring of abaqus.Material.MaterialBase.MaterialBase.eos:1
 msgid "An Eos object."
 msgstr ""
 
-#: ../../../None:74:<autosummary>:1
+#: ../../../../None:74:<autosummary>:1
 msgid ":py:obj:`expansion <abaqus.Material.MaterialBase.MaterialBase.expansion>`\\"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Expansion:29
 #: ../../../../../src/abaqus/Material/Mechanical/Expansion.py:docstring of abaqus.Material.Mechanical.Expansion.Expansion:75
-#: ../../../None:74:<autosummary>:1
-#: ../../../docstring of abaqus.Material.MaterialBase.MaterialBase.expansion:1
+#: ../../../../None:74:<autosummary>:1
+#: ../../../../docstring of abaqus.Material.MaterialBase.MaterialBase.expansion:1
 msgid "An Expansion object."
 msgstr ""
 
-#: ../../../None:74:<autosummary>:1
+#: ../../../../None:74:<autosummary>:1
 msgid ":py:obj:`fluidLeakoff <abaqus.Material.MaterialBase.MaterialBase.fluidLeakoff>`\\"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.FluidLeakoff:23
 #: ../../../../../src/abaqus/Material/PoreFluidFlow/FluidLeakoff.py:docstring of abaqus.Material.PoreFluidFlow.FluidLeakoff.FluidLeakoff:48
-#: ../../../None:74:<autosummary>:1
-#: ../../../docstring of abaqus.Material.MaterialBase.MaterialBase.fluidLeakoff:1
+#: ../../../../None:74:<autosummary>:1
+#: ../../../../docstring of abaqus.Material.MaterialBase.MaterialBase.fluidLeakoff:1
 msgid "A FluidLeakoff object."
 msgstr ""
 
-#: ../../../None:74:<autosummary>:1
+#: ../../../../None:74:<autosummary>:1
 msgid ":py:obj:`gapFlow <abaqus.Material.MaterialBase.MaterialBase.gapFlow>`\\"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Gap/GapFlow.py:docstring of abaqus.Material.Gap.GapFlow.GapFlow:58
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.GapFlow:26
-#: ../../../None:74:<autosummary>:1
-#: ../../../docstring of abaqus.Material.MaterialBase.MaterialBase.gapFlow:1
+#: ../../../../None:74:<autosummary>:1
+#: ../../../../docstring of abaqus.Material.MaterialBase.MaterialBase.gapFlow:1
 msgid "A GapFlow object."
 msgstr ""
 
-#: ../../../None:74:<autosummary>:1
+#: ../../../../None:74:<autosummary>:1
 msgid ":py:obj:`gasketThicknessBehavior <abaqus.Material.MaterialBase.MaterialBase.gasketThicknessBehavior>`\\"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Gasket/GasketThicknessBehavior.py:docstring of abaqus.Material.Gasket.GasketThicknessBehavior.GasketThicknessBehavior:120
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.GasketThicknessBehavior:51
-#: ../../../None:74:<autosummary>:1
-#: ../../../docstring of abaqus.Material.MaterialBase.MaterialBase.gasketThicknessBehavior:1
+#: ../../../../None:74:<autosummary>:1
+#: ../../../../docstring of abaqus.Material.MaterialBase.MaterialBase.gasketThicknessBehavior:1
 msgid "A GasketThicknessBehavior object."
 msgstr ""
 
-#: ../../../None:74:<autosummary>:1
+#: ../../../../None:74:<autosummary>:1
 msgid ":py:obj:`gasketTransverseShearElastic <abaqus.Material.MaterialBase.MaterialBase.gasketTransverseShearElastic>`\\"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Gasket/GasketTransverseShearElastic.py:docstring of abaqus.Material.Gasket.GasketTransverseShearElastic.GasketTransverseShearElastic:45
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.GasketTransverseShearElastic:22
-#: ../../../None:74:<autosummary>:1
-#: ../../../docstring of abaqus.Material.MaterialBase.MaterialBase.gasketTransverseShearElastic:1
+#: ../../../../None:74:<autosummary>:1
+#: ../../../../docstring of abaqus.Material.MaterialBase.MaterialBase.gasketTransverseShearElastic:1
 msgid "A GasketTransverseShearElastic object."
 msgstr ""
 
-#: ../../../None:74:<autosummary>:1
+#: ../../../../None:74:<autosummary>:1
 msgid ":py:obj:`gasketMembraneElastic <abaqus.Material.MaterialBase.MaterialBase.gasketMembraneElastic>`\\"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Gasket/GasketMembraneElastic.py:docstring of abaqus.Material.Gasket.GasketMembraneElastic.GasketMembraneElastic:43
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.GasketMembraneElastic:19
-#: ../../../None:74:<autosummary>:1
-#: ../../../docstring of abaqus.Material.MaterialBase.MaterialBase.gasketMembraneElastic:1
+#: ../../../../None:74:<autosummary>:1
+#: ../../../../docstring of abaqus.Material.MaterialBase.MaterialBase.gasketMembraneElastic:1
 msgid "A GasketMembraneElastic object."
 msgstr ""
 
-#: ../../../None:74:<autosummary>:1
+#: ../../../../None:74:<autosummary>:1
 msgid ":py:obj:`gel <abaqus.Material.MaterialBase.MaterialBase.gel>`\\"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Gel:15
 #: ../../../../../src/abaqus/Material/PoreFluidFlow/Gel.py:docstring of abaqus.Material.PoreFluidFlow.Gel.Gel:36
-#: ../../../None:74:<autosummary>:1
-#: ../../../docstring of abaqus.Material.MaterialBase.MaterialBase.gel:1
+#: ../../../../None:74:<autosummary>:1
+#: ../../../../docstring of abaqus.Material.MaterialBase.MaterialBase.gel:1
 msgid "A Gel object."
 msgstr ""
 
-#: ../../../None:74:<autosummary>:1
+#: ../../../../None:74:<autosummary>:1
 msgid ":py:obj:`heatGeneration <abaqus.Material.MaterialBase.MaterialBase.heatGeneration>`\\"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/HeatTransfer/HeatGeneration.py:docstring of abaqus.Material.HeatTransfer.HeatGeneration.HeatGeneration:26
-#: ../../../None:74:<autosummary>:1
-#: ../../../docstring of abaqus.Material.MaterialBase.MaterialBase.heatGeneration:1
+#: ../../../../None:74:<autosummary>:1
+#: ../../../../docstring of abaqus.Material.MaterialBase.MaterialBase.heatGeneration:1
 msgid "A HeatGeneration object."
 msgstr ""
 
-#: ../../../None:74:<autosummary>:1
+#: ../../../../None:74:<autosummary>:1
 msgid ":py:obj:`hyperelastic <abaqus.Material.MaterialBase.MaterialBase.hyperelastic>`\\"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Elastic/HyperElastic/Hyperelastic.py:docstring of abaqus.Material.Elastic.HyperElastic.Hyperelastic.Hyperelastic:166
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Hyperelastic:72
-#: ../../../None:74:<autosummary>:1
-#: ../../../docstring of abaqus.Material.MaterialBase.MaterialBase.hyperelastic:1
+#: ../../../../None:74:<autosummary>:1
+#: ../../../../docstring of abaqus.Material.MaterialBase.MaterialBase.hyperelastic:1
 msgid "A Hyperelastic object."
 msgstr ""
 
-#: ../../../None:74:<autosummary>:1
+#: ../../../../None:74:<autosummary>:1
 msgid ":py:obj:`hyperfoam <abaqus.Material.MaterialBase.MaterialBase.hyperfoam>`\\"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Elastic/HyperElastic/HyperFoam/Hyperfoam.py:docstring of abaqus.Material.Elastic.HyperElastic.HyperFoam.Hyperfoam.Hyperfoam:51
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Hyperfoam:29
-#: ../../../None:74:<autosummary>:1
-#: ../../../docstring of abaqus.Material.MaterialBase.MaterialBase.hyperfoam:1
+#: ../../../../None:74:<autosummary>:1
+#: ../../../../docstring of abaqus.Material.MaterialBase.MaterialBase.hyperfoam:1
 msgid "A Hyperfoam object."
 msgstr ""
 
-#: ../../../None:74:<autosummary>:1
+#: ../../../../None:74:<autosummary>:1
 msgid ":py:obj:`hypoelastic <abaqus.Material.MaterialBase.MaterialBase.hypoelastic>`\\"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Elastic/HypoElastic/Hypoelastic.py:docstring of abaqus.Material.Elastic.HypoElastic.Hypoelastic.Hypoelastic:40
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Hypoelastic:18
-#: ../../../None:74:<autosummary>:1
-#: ../../../docstring of abaqus.Material.MaterialBase.MaterialBase.hypoelastic:1
+#: ../../../../None:74:<autosummary>:1
+#: ../../../../docstring of abaqus.Material.MaterialBase.MaterialBase.hypoelastic:1
 msgid "A Hypoelastic object."
 msgstr ""
 
-#: ../../../None:74:<autosummary>:1
+#: ../../../../None:74:<autosummary>:1
 msgid ":py:obj:`inelasticHeatFraction <abaqus.Material.MaterialBase.MaterialBase.inelasticHeatFraction>`\\"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/HeatTransfer/InelasticHeatFraction.py:docstring of abaqus.Material.HeatTransfer.InelasticHeatFraction.InelasticHeatFraction:32
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.InelasticHeatFraction:17
-#: ../../../None:74:<autosummary>:1
-#: ../../../docstring of abaqus.Material.MaterialBase.MaterialBase.inelasticHeatFraction:1
+#: ../../../../None:74:<autosummary>:1
+#: ../../../../docstring of abaqus.Material.MaterialBase.MaterialBase.inelasticHeatFraction:1
 msgid "An InelasticHeatFraction object."
 msgstr ""
 
-#: ../../../None:74:<autosummary>:1
+#: ../../../../None:74:<autosummary>:1
 msgid ":py:obj:`jouleHeatFraction <abaqus.Material.MaterialBase.MaterialBase.jouleHeatFraction>`\\"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/HeatTransfer/JouleHeatFraction.py:docstring of abaqus.Material.HeatTransfer.JouleHeatFraction.JouleHeatFraction:30
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.JouleHeatFraction:16
-#: ../../../None:74:<autosummary>:1
-#: ../../../docstring of abaqus.Material.MaterialBase.MaterialBase.jouleHeatFraction:1
+#: ../../../../None:74:<autosummary>:1
+#: ../../../../docstring of abaqus.Material.MaterialBase.MaterialBase.jouleHeatFraction:1
 msgid "A JouleHeatFraction object."
 msgstr ""
 
-#: ../../../None:74:<autosummary>:1
+#: ../../../../None:74:<autosummary>:1
 msgid ":py:obj:`latentHeat <abaqus.Material.MaterialBase.MaterialBase.latentHeat>`\\"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/HeatTransfer/LatentHeat.py:docstring of abaqus.Material.HeatTransfer.LatentHeat.LatentHeat:35
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.LatentHeat:15
-#: ../../../None:74:<autosummary>:1
-#: ../../../docstring of abaqus.Material.MaterialBase.MaterialBase.latentHeat:1
+#: ../../../../None:74:<autosummary>:1
+#: ../../../../docstring of abaqus.Material.MaterialBase.MaterialBase.latentHeat:1
 msgid "A LatentHeat object."
 msgstr ""
 
-#: ../../../None:74:<autosummary>:1
+#: ../../../../None:74:<autosummary>:1
 msgid ":py:obj:`lowDensityFoam <abaqus.Material.MaterialBase.MaterialBase.lowDensityFoam>`\\"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Elastic/LowDensityFoam/LowDensityFoam.py:docstring of abaqus.Material.Elastic.LowDensityFoam.LowDensityFoam.LowDensityFoam:46
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.LowDensityFoam:32
-#: ../../../None:74:<autosummary>:1
-#: ../../../docstring of abaqus.Material.MaterialBase.MaterialBase.lowDensityFoam:1
+#: ../../../../None:74:<autosummary>:1
+#: ../../../../docstring of abaqus.Material.MaterialBase.MaterialBase.lowDensityFoam:1
 msgid "A LowDensityFoam object."
 msgstr ""
 
-#: ../../../None:74:<autosummary>:1
+#: ../../../../None:74:<autosummary>:1
 msgid ":py:obj:`magneticPermeability <abaqus.Material.MaterialBase.MaterialBase.magneticPermeability>`\\"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Electromagnetic/MagneticPermeability.py:docstring of abaqus.Material.Electromagnetic.MagneticPermeability.MagneticPermeability:101
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.MagneticPermeability:37
-#: ../../../None:74:<autosummary>:1
-#: ../../../docstring of abaqus.Material.MaterialBase.MaterialBase.magneticPermeability:1
+#: ../../../../None:74:<autosummary>:1
+#: ../../../../docstring of abaqus.Material.MaterialBase.MaterialBase.magneticPermeability:1
 msgid "A MagneticPermeability object."
 msgstr ""
 
-#: ../../../None:74:<autosummary>:1
+#: ../../../../None:74:<autosummary>:1
 msgid ":py:obj:`mohrCoulombPlasticity <abaqus.Material.MaterialBase.MaterialBase.mohrCoulombPlasticity>`\\"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.MohrCoulombPlasticity:29
 #: ../../../../../src/abaqus/Material/Plastic/MohrCoulomb/MohrCoulombPlasticity.py:docstring of abaqus.Material.Plastic.MohrCoulomb.MohrCoulombPlasticity.MohrCoulombPlasticity:53
-#: ../../../None:74:<autosummary>:1
-#: ../../../docstring of abaqus.Material.MaterialBase.MaterialBase.mohrCoulombPlasticity:1
+#: ../../../../None:74:<autosummary>:1
+#: ../../../../docstring of abaqus.Material.MaterialBase.MaterialBase.mohrCoulombPlasticity:1
 msgid "A MohrCoulombPlasticity object."
 msgstr ""
 
-#: ../../../None:74:<autosummary>:1
+#: ../../../../None:74:<autosummary>:1
 msgid ":py:obj:`moistureSwelling <abaqus.Material.MaterialBase.MaterialBase.moistureSwelling>`\\"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.MoistureSwelling:15
 #: ../../../../../src/abaqus/Material/PoreFluidFlow/MoistureSwelling/MoistureSwelling.py:docstring of abaqus.Material.PoreFluidFlow.MoistureSwelling.MoistureSwelling.MoistureSwelling:34
-#: ../../../None:74:<autosummary>:1
-#: ../../../docstring of abaqus.Material.MaterialBase.MaterialBase.moistureSwelling:1
+#: ../../../../None:74:<autosummary>:1
+#: ../../../../docstring of abaqus.Material.MaterialBase.MaterialBase.moistureSwelling:1
 msgid "A MoistureSwelling object."
 msgstr ""
 
-#: ../../../None:74:<autosummary>:1
+#: ../../../../None:74:<autosummary>:1
 msgid ":py:obj:`mullinsEffect <abaqus.Material.MaterialBase.MaterialBase.mullinsEffect>`\\"
 msgstr ""
 
-#: ../../../None:74:<autosummary>:1
-#: ../../../docstring of abaqus.Material.MaterialBase.MaterialBase.mullinsEffect:1
+#: ../../../../None:74:<autosummary>:1
+#: ../../../../docstring of abaqus.Material.MaterialBase.MaterialBase.mullinsEffect:1
 msgid "A MullinsEffect object."
 msgstr ""
 
-#: ../../../None:74:<autosummary>:1
+#: ../../../../None:74:<autosummary>:1
 msgid ":py:obj:`permeability <abaqus.Material.MaterialBase.MaterialBase.permeability>`\\"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Permeability:26
 #: ../../../../../src/abaqus/Material/PoreFluidFlow/Permeability/Permeability.py:docstring of abaqus.Material.PoreFluidFlow.Permeability.Permeability.Permeability:65
-#: ../../../None:74:<autosummary>:1
-#: ../../../docstring of abaqus.Material.MaterialBase.MaterialBase.permeability:1
+#: ../../../../None:74:<autosummary>:1
+#: ../../../../docstring of abaqus.Material.MaterialBase.MaterialBase.permeability:1
 msgid "A Permeability object."
 msgstr ""
 
-#: ../../../None:74:<autosummary>:1
+#: ../../../../None:74:<autosummary>:1
 msgid ":py:obj:`piezoelectric <abaqus.Material.MaterialBase.MaterialBase.piezoelectric>`\\"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Electromagnetic/Piezoelectric.py:docstring of abaqus.Material.Electromagnetic.Piezoelectric.Piezoelectric:86
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Piezoelectric:22
-#: ../../../None:74:<autosummary>:1
-#: ../../../docstring of abaqus.Material.MaterialBase.MaterialBase.piezoelectric:1
+#: ../../../../None:74:<autosummary>:1
+#: ../../../../docstring of abaqus.Material.MaterialBase.MaterialBase.piezoelectric:1
 msgid "A Piezoelectric object."
 msgstr ""
 
-#: ../../../None:74:<autosummary>:1
+#: ../../../../None:74:<autosummary>:1
 msgid ":py:obj:`plastic <abaqus.Material.MaterialBase.MaterialBase.plastic>`\\"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Plastic:34
 #: ../../../../../src/abaqus/Material/Plastic/Plastic.py:docstring of abaqus.Material.Plastic.Plastic.Plastic:97
-#: ../../../None:74:<autosummary>:1
-#: ../../../docstring of abaqus.Material.MaterialBase.MaterialBase.plastic:1
+#: ../../../../None:74:<autosummary>:1
+#: ../../../../docstring of abaqus.Material.MaterialBase.MaterialBase.plastic:1
 msgid "A Plastic object."
 msgstr ""
 
-#: ../../../None:74:<autosummary>:1
+#: ../../../../None:74:<autosummary>:1
 msgid ":py:obj:`poreFluidExpansion <abaqus.Material.MaterialBase.MaterialBase.poreFluidExpansion>`\\"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.PoreFluidExpansion:21
 #: ../../../../../src/abaqus/Material/Mechanical/PoreFluidExpansion.py:docstring of abaqus.Material.Mechanical.PoreFluidExpansion.PoreFluidExpansion:43
-#: ../../../None:74:<autosummary>:1
-#: ../../../docstring of abaqus.Material.MaterialBase.MaterialBase.poreFluidExpansion:1
+#: ../../../../None:74:<autosummary>:1
+#: ../../../../docstring of abaqus.Material.MaterialBase.MaterialBase.poreFluidExpansion:1
 msgid "A PoreFluidExpansion object."
 msgstr ""
 
-#: ../../../None:74:<autosummary>:1
+#: ../../../../None:74:<autosummary>:1
 msgid ":py:obj:`porousBulkModuli <abaqus.Material.MaterialBase.MaterialBase.porousBulkModuli>`\\"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.PorousBulkModuli:17
 #: ../../../../../src/abaqus/Material/PoreFluidFlow/PorousBulkModuli.py:docstring of abaqus.Material.PoreFluidFlow.PorousBulkModuli.PorousBulkModuli:37
-#: ../../../None:74:<autosummary>:1
-#: ../../../docstring of abaqus.Material.MaterialBase.MaterialBase.porousBulkModuli:1
+#: ../../../../None:74:<autosummary>:1
+#: ../../../../docstring of abaqus.Material.MaterialBase.MaterialBase.porousBulkModuli:1
 msgid "A PorousBulkModuli object."
 msgstr ""
 
-#: ../../../None:74:<autosummary>:1
+#: ../../../../None:74:<autosummary>:1
 msgid ":py:obj:`porousElastic <abaqus.Material.MaterialBase.MaterialBase.porousElastic>`\\"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Elastic/Porous/PorousElastic.py:docstring of abaqus.Material.Elastic.Porous.PorousElastic.PorousElastic:59
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.PorousElastic:22
-#: ../../../None:74:<autosummary>:1
-#: ../../../docstring of abaqus.Material.MaterialBase.MaterialBase.porousElastic:1
+#: ../../../../None:74:<autosummary>:1
+#: ../../../../docstring of abaqus.Material.MaterialBase.MaterialBase.porousElastic:1
 msgid "A PorousElastic object."
 msgstr ""
 
-#: ../../../None:74:<autosummary>:1
+#: ../../../../None:74:<autosummary>:1
 msgid ":py:obj:`porousMetalPlasticity <abaqus.Material.MaterialBase.MaterialBase.porousMetalPlasticity>`\\"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.PorousMetalPlasticity:22
 #: ../../../../../src/abaqus/Material/Plastic/Metal/Porous/PorousMetalPlasticity.py:docstring of abaqus.Material.Plastic.Metal.Porous.PorousMetalPlasticity.PorousMetalPlasticity:46
-#: ../../../None:74:<autosummary>:1
-#: ../../../docstring of abaqus.Material.MaterialBase.MaterialBase.porousMetalPlasticity:1
+#: ../../../../None:74:<autosummary>:1
+#: ../../../../docstring of abaqus.Material.MaterialBase.MaterialBase.porousMetalPlasticity:1
 msgid "A PorousMetalPlasticity object."
 msgstr ""
 
-#: ../../../None:74:<autosummary>:1
+#: ../../../../None:74:<autosummary>:1
 msgid ":py:obj:`regularization <abaqus.Material.MaterialBase.MaterialBase.regularization>`\\"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Regularization:20
 #: ../../../../../src/abaqus/Material/Regularization.py:docstring of abaqus.Material.Regularization.Regularization:34
-#: ../../../None:74:<autosummary>:1
-#: ../../../docstring of abaqus.Material.MaterialBase.MaterialBase.regularization:1
+#: ../../../../None:74:<autosummary>:1
+#: ../../../../docstring of abaqus.Material.MaterialBase.MaterialBase.regularization:1
 msgid "A Regularization object."
 msgstr ""
 
-#: ../../../None:74:<autosummary>:1
+#: ../../../../None:74:<autosummary>:1
 msgid ":py:obj:`solubility <abaqus.Material.MaterialBase.MaterialBase.solubility>`\\"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/MassDiffusion/Solubility.py:docstring of abaqus.Material.MassDiffusion.Solubility.Solubility:41
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Solubility:19
-#: ../../../None:74:<autosummary>:1
-#: ../../../docstring of abaqus.Material.MaterialBase.MaterialBase.solubility:1
+#: ../../../../None:74:<autosummary>:1
+#: ../../../../docstring of abaqus.Material.MaterialBase.MaterialBase.solubility:1
 msgid "A Solubility object."
 msgstr ""
 
-#: ../../../None:74:<autosummary>:1
+#: ../../../../None:74:<autosummary>:1
 msgid ":py:obj:`sorption <abaqus.Material.MaterialBase.MaterialBase.sorption>`\\"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Sorption:30
 #: ../../../../../src/abaqus/Material/PoreFluidFlow/Sorption.py:docstring of abaqus.Material.PoreFluidFlow.Sorption.Sorption:59
-#: ../../../None:74:<autosummary>:1
-#: ../../../docstring of abaqus.Material.MaterialBase.MaterialBase.sorption:1
+#: ../../../../None:74:<autosummary>:1
+#: ../../../../docstring of abaqus.Material.MaterialBase.MaterialBase.sorption:1
 msgid "A Sorption object."
 msgstr ""
 
-#: ../../../None:74:<autosummary>:1
+#: ../../../../None:74:<autosummary>:1
 msgid ":py:obj:`specificHeat <abaqus.Material.MaterialBase.MaterialBase.specificHeat>`\\"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/HeatTransfer/SpecificHeat.py:docstring of abaqus.Material.HeatTransfer.SpecificHeat.SpecificHeat:44
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.SpecificHeat:22
-#: ../../../None:74:<autosummary>:1
-#: ../../../docstring of abaqus.Material.MaterialBase.MaterialBase.specificHeat:1
+#: ../../../../None:74:<autosummary>:1
+#: ../../../../docstring of abaqus.Material.MaterialBase.MaterialBase.specificHeat:1
 msgid "A SpecificHeat object."
 msgstr ""
 
-#: ../../../None:74:<autosummary>:1
+#: ../../../../None:74:<autosummary>:1
 msgid ":py:obj:`swelling <abaqus.Material.MaterialBase.MaterialBase.swelling>`\\"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Swelling:23
 #: ../../../../../src/abaqus/Material/Plastic/Swelling/Swelling.py:docstring of abaqus.Material.Plastic.Swelling.Swelling.Swelling:45
-#: ../../../None:74:<autosummary>:1
-#: ../../../docstring of abaqus.Material.MaterialBase.MaterialBase.swelling:1
+#: ../../../../None:74:<autosummary>:1
+#: ../../../../docstring of abaqus.Material.MaterialBase.MaterialBase.swelling:1
 msgid "A Swelling object."
 msgstr ""
 
-#: ../../../None:74:<autosummary>:1
+#: ../../../../None:74:<autosummary>:1
 msgid ":py:obj:`userDefinedField <abaqus.Material.MaterialBase.MaterialBase.userDefinedField>`\\"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/User/UserDefinedField.py:docstring of abaqus.Material.User.UserDefinedField.UserDefinedField:26
-#: ../../../None:74:<autosummary>:1
-#: ../../../docstring of abaqus.Material.MaterialBase.MaterialBase.userDefinedField:1
+#: ../../../../None:74:<autosummary>:1
+#: ../../../../docstring of abaqus.Material.MaterialBase.MaterialBase.userDefinedField:1
 msgid "A UserDefinedField object."
 msgstr ""
 
-#: ../../../None:74:<autosummary>:1
+#: ../../../../None:74:<autosummary>:1
 msgid ":py:obj:`userMaterial <abaqus.Material.MaterialBase.MaterialBase.userMaterial>`\\"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.UserMaterial:37
 #: ../../../../../src/abaqus/Material/User/UserMaterial.py:docstring of abaqus.Material.User.UserMaterial.UserMaterial:51
-#: ../../../None:74:<autosummary>:1
-#: ../../../docstring of abaqus.Material.MaterialBase.MaterialBase.userMaterial:1
+#: ../../../../None:74:<autosummary>:1
+#: ../../../../docstring of abaqus.Material.MaterialBase.MaterialBase.userMaterial:1
 msgid "A UserMaterial object."
 msgstr ""
 
-#: ../../../None:74:<autosummary>:1
+#: ../../../../None:74:<autosummary>:1
 msgid ":py:obj:`userOutputVariables <abaqus.Material.MaterialBase.MaterialBase.userOutputVariables>`\\"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.UserOutputVariables:16
 #: ../../../../../src/abaqus/Material/User/UserOutputVariables.py:docstring of abaqus.Material.User.UserOutputVariables.UserOutputVariables:30
-#: ../../../None:74:<autosummary>:1
-#: ../../../docstring of abaqus.Material.MaterialBase.MaterialBase.userOutputVariables:1
+#: ../../../../None:74:<autosummary>:1
+#: ../../../../docstring of abaqus.Material.MaterialBase.MaterialBase.userOutputVariables:1
 msgid "A UserOutputVariables object."
 msgstr ""
 
-#: ../../../None:74:<autosummary>:1
+#: ../../../../None:74:<autosummary>:1
 msgid ":py:obj:`viscoelastic <abaqus.Material.MaterialBase.MaterialBase.viscoelastic>`\\"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Elastic/HyperElastic/ViscoElastic/Viscoelastic.py:docstring of abaqus.Material.Elastic.HyperElastic.ViscoElastic.Viscoelastic.Viscoelastic:124
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Viscoelastic:49
-#: ../../../None:74:<autosummary>:1
-#: ../../../docstring of abaqus.Material.MaterialBase.MaterialBase.viscoelastic:1
+#: ../../../../None:74:<autosummary>:1
+#: ../../../../docstring of abaqus.Material.MaterialBase.MaterialBase.viscoelastic:1
 msgid "A Viscoelastic object."
 msgstr ""
 
-#: ../../../None:74:<autosummary>:1
+#: ../../../../None:74:<autosummary>:1
 msgid ":py:obj:`viscosity <abaqus.Material.MaterialBase.MaterialBase.viscosity>`\\"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Viscosity:21
 #: ../../../../../src/abaqus/Material/Mechanical/Viscosity/Viscosity.py:docstring of abaqus.Material.Mechanical.Viscosity.Viscosity.Viscosity:45
-#: ../../../None:74:<autosummary>:1
-#: ../../../docstring of abaqus.Material.MaterialBase.MaterialBase.viscosity:1
+#: ../../../../None:74:<autosummary>:1
+#: ../../../../docstring of abaqus.Material.MaterialBase.MaterialBase.viscosity:1
 msgid "A Viscosity object."
 msgstr ""
 
-#: ../../../None:74:<autosummary>:1
+#: ../../../../None:74:<autosummary>:1
 msgid ":py:obj:`viscous <abaqus.Material.MaterialBase.MaterialBase.viscous>`\\"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Viscous:25
 #: ../../../../../src/abaqus/Material/Plastic/Metal/TwoLayerViscoPlasticity/Viscous.py:docstring of abaqus.Material.Plastic.Metal.TwoLayerViscoPlasticity.Viscous.Viscous:58
-#: ../../../None:74:<autosummary>:1
-#: ../../../docstring of abaqus.Material.MaterialBase.MaterialBase.viscous:1
+#: ../../../../None:74:<autosummary>:1
+#: ../../../../docstring of abaqus.Material.MaterialBase.MaterialBase.viscous:1
 msgid "A Viscous object."
 msgstr ""
 
-#: ../../../None:74:<autosummary>:1
+#: ../../../../None:74:<autosummary>:1
 msgid ":py:obj:`meanFieldHomogenization <abaqus.Material.MaterialBase.MaterialBase.meanFieldHomogenization>`\\"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.MeanFieldHomogenization:28
-#: ../../../None:74:<autosummary>:1
-#: ../../../docstring of abaqus.Material.MaterialBase.MaterialBase.meanFieldHomogenization:1
+#: ../../../../None:74:<autosummary>:1
+#: ../../../../docstring of abaqus.Material.MaterialBase.MaterialBase.meanFieldHomogenization:1
 msgid "A MeanFieldHomogenization object."
 msgstr ""
 
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid ":py:obj:`AcousticMedium <abaqus.Material.Material.Material.AcousticMedium>`\\ \\(\\[acousticVolumetricDrag\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Acoustic/AcousticMedium.py:docstring of abaqus.Material.Acoustic.AcousticMedium.AcousticMedium:18
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.AcousticMedium:1
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid "This method creates an AcousticMedium object."
 msgstr ""
 
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid ":py:obj:`BrittleCracking <abaqus.Material.Material.Material.BrittleCracking>`\\ \\(table\\[\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.BrittleCracking:1
 #: ../../../../../src/abaqus/Material/Plastic/Concrete/BrittleCracking.py:docstring of abaqus.Material.Plastic.Concrete.BrittleCracking.BrittleCracking:46
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid "This method creates a BrittleCracking object."
 msgstr ""
 
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid ":py:obj:`CapPlasticity <abaqus.Material.Material.Material.CapPlasticity>`\\ \\(table\\[\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.CapPlasticity:1
 #: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/ModifiedCap/CapPlasticity.py:docstring of abaqus.Material.Plastic.DruckerPrager.ModifiedCap.CapPlasticity.CapPlasticity:34
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid "This method creates a CapPlasticity object."
 msgstr ""
 
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid ":py:obj:`CastIronPlasticity <abaqus.Material.Material.Material.CastIronPlasticity>`\\ \\(table\\[\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.CastIronPlasticity:1
 #: ../../../../../src/abaqus/Material/Plastic/Metal/CastIron/CastIronPlasticity.py:docstring of abaqus.Material.Plastic.Metal.CastIron.CastIronPlasticity.CastIronPlasticity:26
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid "This method creates a CastIronPlasticity object."
 msgstr ""
 
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid ":py:obj:`ClayPlasticity <abaqus.Material.Material.Material.ClayPlasticity>`\\ \\(table\\[\\, intercept\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.ClayPlasticity:1
 #: ../../../../../src/abaqus/Material/Plastic/CriticalStateClay/ClayPlasticity.py:docstring of abaqus.Material.Plastic.CriticalStateClay.ClayPlasticity.ClayPlasticity:46
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid "This method creates a ClayPlasticity object."
 msgstr ""
 
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid ":py:obj:`Concrete <abaqus.Material.Material.Material.Concrete>`\\ \\(table\\[\\, temperatureDependency\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Concrete:1
 #: ../../../../../src/abaqus/Material/Plastic/Concrete/Concrete.py:docstring of abaqus.Material.Plastic.Concrete.Concrete.Concrete:27
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid "This method creates a Concrete object."
 msgstr ""
 
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid ":py:obj:`ConcreteDamagedPlasticity <abaqus.Material.Material.Material.ConcreteDamagedPlasticity>`\\ \\(table\\[\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.ConcreteDamagedPlasticity:1
 #: ../../../../../src/abaqus/Material/Plastic/Concrete/ConcreteDamagedPlasticity.py:docstring of abaqus.Material.Plastic.Concrete.ConcreteDamagedPlasticity.ConcreteDamagedPlasticity:36
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid "This method creates a ConcreteDamagedPlasticity object."
 msgstr ""
 
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid ":py:obj:`Conductivity <abaqus.Material.Material.Material.Conductivity>`\\ \\(table\\[\\, type\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/HeatTransfer/Conductivity.py:docstring of abaqus.Material.HeatTransfer.Conductivity.Conductivity:49
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Conductivity:1
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid "This method creates a Conductivity object."
 msgstr ""
 
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid ":py:obj:`Creep <abaqus.Material.Material.Material.Creep>`\\ \\(table\\[\\, law\\, temperatureDependency\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Creep:1
 #: ../../../../../src/abaqus/Material/Plastic/Creep/Creep.py:docstring of abaqus.Material.Plastic.Creep.Creep.Creep:40
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid "This method creates a Creep object."
 msgstr ""
 
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid ":py:obj:`CrushableFoam <abaqus.Material.Material.Material.CrushableFoam>`\\ \\(table\\[\\, hardening\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.CrushableFoam:1
 #: ../../../../../src/abaqus/Material/Plastic/CrushableFoam/CrushableFoam.py:docstring of abaqus.Material.Plastic.CrushableFoam.CrushableFoam.CrushableFoam:40
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid "This method creates a CrushableFoam object."
 msgstr ""
 
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid ":py:obj:`Damping <abaqus.Material.Material.Material.Damping>`\\ \\(\\[alpha\\, beta\\, composite\\, structural\\]\\)"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Damping:1
 #: ../../../../../src/abaqus/Material/Mechanical/Damping.py:docstring of abaqus.Material.Mechanical.Damping.Damping:18
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid "This method creates a Damping object."
 msgstr ""
 
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid ":py:obj:`DeformationPlasticity <abaqus.Material.Material.Material.DeformationPlasticity>`\\ \\(table\\[\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.DeformationPlasticity:1
 #: ../../../../../src/abaqus/Material/Plastic/Metal/Deformation/DeformationPlasticity.py:docstring of abaqus.Material.Plastic.Metal.Deformation.DeformationPlasticity.DeformationPlasticity:27
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid "This method creates a DeformationPlasticity object."
 msgstr ""
 
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid ":py:obj:`Density <abaqus.Material.Material.Material.Density>`\\ \\(table\\[\\, temperatureDependency\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Density/Density.py:docstring of abaqus.Material.Density.Density.Density:26
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Density:1
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid "This method creates a Density object."
 msgstr ""
 
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid ":py:obj:`Depvar <abaqus.Material.Material.Material.Depvar>`\\ \\(\\[deleteVar\\, n\\]\\)"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Depvar:1
 #: ../../../../../src/abaqus/Material/User/Depvar.py:docstring of abaqus.Material.User.Depvar.Depvar:18
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid "This method creates a Depvar object."
 msgstr ""
 
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid ":py:obj:`Dielectric <abaqus.Material.Material.Material.Dielectric>`\\ \\(table\\[\\, type\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Electromagnetic/Dielectric.py:docstring of abaqus.Material.Electromagnetic.Dielectric.Dielectric:52
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Dielectric:1
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid "This method creates a Dielectric object."
 msgstr ""
 
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid ":py:obj:`Diffusivity <abaqus.Material.Material.Material.Diffusivity>`\\ \\(table\\[\\, type\\, law\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/MassDiffusion/Diffusivity.py:docstring of abaqus.Material.MassDiffusion.Diffusivity.Diffusivity:52
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Diffusivity:1
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid "This method creates a Diffusivity object."
 msgstr ""
 
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid ":py:obj:`DruckerPrager <abaqus.Material.Material.Material.DruckerPrager>`\\ \\(table\\[\\, shearCriterion\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.DruckerPrager:1
 #: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/Extended/DruckerPrager.py:docstring of abaqus.Material.Plastic.DruckerPrager.Extended.DruckerPrager.DruckerPrager:51
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid "This method creates a DruckerPrager object."
 msgstr ""
 
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid ":py:obj:`Elastic <abaqus.Material.Material.Material.Elastic>`\\ \\(table\\[\\, type\\, noCompression\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Elastic/Linear/Elastic.py:docstring of abaqus.Material.Elastic.Linear.Elastic.Elastic:122
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Elastic:1
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid "This method creates an Elastic object."
 msgstr ""
 
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid ":py:obj:`ElectricalConductivity <abaqus.Material.Material.Material.ElectricalConductivity>`\\ \\(table\\[\\, type\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Electromagnetic/ElectricalConductivity.py:docstring of abaqus.Material.Electromagnetic.ElectricalConductivity.ElectricalConductivity:52
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.ElectricalConductivity:1
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid "This method creates an ElectricalConductivity object."
 msgstr ""
 
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid ":py:obj:`Eos <abaqus.Material.Material.Material.Eos>`\\ \\(\\[type\\, temperatureDependency\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Eos/Eos.py:docstring of abaqus.Material.Eos.Eos.Eos:44
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Eos:1
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid "This method creates an Eos object."
 msgstr ""
 
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid ":py:obj:`Expansion <abaqus.Material.Material.Material.Expansion>`\\ \\(\\[type\\, userSubroutine\\, zero\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Expansion:1
 #: ../../../../../src/abaqus/Material/Mechanical/Expansion.py:docstring of abaqus.Material.Mechanical.Expansion.Expansion:50
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid "This method creates an Expansion object."
 msgstr ""
 
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid ":py:obj:`FluidLeakoff <abaqus.Material.Material.Material.FluidLeakoff>`\\ \\(\\[temperatureDependency\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.FluidLeakoff:1
 #: ../../../../../src/abaqus/Material/PoreFluidFlow/FluidLeakoff.py:docstring of abaqus.Material.PoreFluidFlow.FluidLeakoff.FluidLeakoff:29
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid "This method creates a FluidLeakoff object."
 msgstr ""
 
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid ":py:obj:`GapFlow <abaqus.Material.Material.Material.GapFlow>`\\ \\(table\\[\\, kmax\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Gap/GapFlow.py:docstring of abaqus.Material.Gap.GapFlow.GapFlow:36
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.GapFlow:1
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid "This method creates a GapFlow object."
 msgstr ""
 
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid ":py:obj:`GasketMembraneElastic <abaqus.Material.Material.Material.GasketMembraneElastic>`\\ \\(table\\[\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Gasket/GasketMembraneElastic.py:docstring of abaqus.Material.Gasket.GasketMembraneElastic.GasketMembraneElastic:28
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.GasketMembraneElastic:1
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid "This method creates a GasketMembraneElastic object."
 msgstr ""
 
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid ":py:obj:`GasketThicknessBehavior <abaqus.Material.Material.Material.GasketThicknessBehavior>`\\ \\(table\\[\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Gasket/GasketThicknessBehavior.py:docstring of abaqus.Material.Gasket.GasketThicknessBehavior.GasketThicknessBehavior:73
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.GasketThicknessBehavior:1
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid "This method creates a GasketThicknessBehavior object."
 msgstr ""
 
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid ":py:obj:`GasketTransverseShearElastic <abaqus.Material.Material.Material.GasketTransverseShearElastic>`\\ \\(table\\[\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Gasket/GasketTransverseShearElastic.py:docstring of abaqus.Material.Gasket.GasketTransverseShearElastic.GasketTransverseShearElastic:27
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.GasketTransverseShearElastic:1
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid "This method creates a GasketTransverseShearElastic object."
 msgstr ""
 
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid ":py:obj:`Gel <abaqus.Material.Material.Material.Gel>`\\ \\(table\\)"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Gel:1
 #: ../../../../../src/abaqus/Material/PoreFluidFlow/Gel.py:docstring of abaqus.Material.PoreFluidFlow.Gel.Gel:25
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid "This method creates a Gel object."
 msgstr ""
 
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid ":py:obj:`Hyperelastic <abaqus.Material.Material.Material.Hyperelastic>`\\ \\(table\\[\\, type\\, moduliTimeScale\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Elastic/HyperElastic/Hyperelastic.py:docstring of abaqus.Material.Elastic.HyperElastic.Hyperelastic.Hyperelastic:85
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Hyperelastic:1
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid "This method creates a Hyperelastic object."
 msgstr ""
 
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid ":py:obj:`Hyperfoam <abaqus.Material.Material.Material.Hyperfoam>`\\ \\(\\[testData\\, poisson\\, n\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Elastic/HyperElastic/HyperFoam/Hyperfoam.py:docstring of abaqus.Material.Elastic.HyperElastic.HyperFoam.Hyperfoam.Hyperfoam:26
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Hyperfoam:1
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid "This method creates a Hyperfoam object."
 msgstr ""
 
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid ":py:obj:`Hypoelastic <abaqus.Material.Material.Material.Hypoelastic>`\\ \\(table\\[\\, user\\]\\)"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Elastic/HypoElastic/Hypoelastic.py:docstring of abaqus.Material.Elastic.HypoElastic.Hypoelastic.Hypoelastic:26
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Hypoelastic:1
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid "This method creates a Hypoelastic object."
 msgstr ""
 
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid ":py:obj:`InelasticHeatFraction <abaqus.Material.Material.Material.InelasticHeatFraction>`\\ \\(\\[fraction\\]\\)"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/HeatTransfer/InelasticHeatFraction.py:docstring of abaqus.Material.HeatTransfer.InelasticHeatFraction.InelasticHeatFraction:19
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.InelasticHeatFraction:1
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid "This method creates an InelasticHeatFraction object."
 msgstr ""
 
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid ":py:obj:`JouleHeatFraction <abaqus.Material.Material.Material.JouleHeatFraction>`\\ \\(\\[fraction\\]\\)"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/HeatTransfer/JouleHeatFraction.py:docstring of abaqus.Material.HeatTransfer.JouleHeatFraction.JouleHeatFraction:18
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.JouleHeatFraction:1
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid "This method creates a JouleHeatFraction object."
 msgstr ""
 
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid ":py:obj:`LatentHeat <abaqus.Material.Material.Material.LatentHeat>`\\ \\(table\\)"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/HeatTransfer/LatentHeat.py:docstring of abaqus.Material.HeatTransfer.LatentHeat.LatentHeat:24
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.LatentHeat:1
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid "This method creates a LatentHeat object."
 msgstr ""
 
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid ":py:obj:`LowDensityFoam <abaqus.Material.Material.Material.LowDensityFoam>`\\ \\(\\[elementRemoval\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Elastic/LowDensityFoam/LowDensityFoam.py:docstring of abaqus.Material.Elastic.LowDensityFoam.LowDensityFoam.LowDensityFoam:18
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.LowDensityFoam:1
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid "This method creates a LowDensityFoam object."
 msgstr ""
 
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid ":py:obj:`MagneticPermeability <abaqus.Material.Material.Material.MagneticPermeability>`\\ \\(table\\, table2\\, table3\\)"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Electromagnetic/MagneticPermeability.py:docstring of abaqus.Material.Electromagnetic.MagneticPermeability.MagneticPermeability:68
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.MagneticPermeability:1
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid "This method creates a MagneticPermeability object."
 msgstr ""
 
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid ":py:obj:`MohrCoulombPlasticity <abaqus.Material.Material.Material.MohrCoulombPlasticity>`\\ \\(table\\[\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.MohrCoulombPlasticity:1
 #: ../../../../../src/abaqus/Material/Plastic/MohrCoulomb/MohrCoulombPlasticity.py:docstring of abaqus.Material.Plastic.MohrCoulomb.MohrCoulombPlasticity.MohrCoulombPlasticity:28
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid "This method creates a MohrCoulombPlasticity object."
 msgstr ""
 
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid ":py:obj:`MoistureSwelling <abaqus.Material.Material.Material.MoistureSwelling>`\\ \\(table\\)"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.MoistureSwelling:1
 #: ../../../../../src/abaqus/Material/PoreFluidFlow/MoistureSwelling/MoistureSwelling.py:docstring of abaqus.Material.PoreFluidFlow.MoistureSwelling.MoistureSwelling.MoistureSwelling:23
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid "This method creates a MoistureSwelling object."
 msgstr ""
 
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid ":py:obj:`Permeability <abaqus.Material.Material.Material.Permeability>`\\ \\(specificWeight\\, ...\\[\\, type\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Permeability:1
 #: ../../../../../src/abaqus/Material/PoreFluidFlow/Permeability/Permeability.py:docstring of abaqus.Material.PoreFluidFlow.Permeability.Permeability.Permeability:43
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid "This method creates a Permeability object."
 msgstr ""
 
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid ":py:obj:`Piezoelectric <abaqus.Material.Material.Material.Piezoelectric>`\\ \\(table\\[\\, type\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Electromagnetic/Piezoelectric.py:docstring of abaqus.Material.Electromagnetic.Piezoelectric.Piezoelectric:68
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Piezoelectric:1
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid "This method creates a Piezoelectric object."
 msgstr ""
 
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid ":py:obj:`Plastic <abaqus.Material.Material.Material.Plastic>`\\ \\(table\\[\\, hardening\\, rate\\, dataType\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Plastic:1
 #: ../../../../../src/abaqus/Material/Plastic/Plastic.py:docstring of abaqus.Material.Plastic.Plastic.Plastic:67
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid "This method creates a Plastic object."
 msgstr ""
 
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid ":py:obj:`PoreFluidExpansion <abaqus.Material.Material.Material.PoreFluidExpansion>`\\ \\(table\\[\\, zero\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.PoreFluidExpansion:1
 #: ../../../../../src/abaqus/Material/Mechanical/PoreFluidExpansion.py:docstring of abaqus.Material.Mechanical.PoreFluidExpansion.PoreFluidExpansion:26
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid "This method creates a PoreFluidExpansion object."
 msgstr ""
 
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid ":py:obj:`PorousBulkModuli <abaqus.Material.Material.Material.PorousBulkModuli>`\\ \\(table\\[\\, temperatureDependency\\]\\)"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.PorousBulkModuli:1
 #: ../../../../../src/abaqus/Material/PoreFluidFlow/PorousBulkModuli.py:docstring of abaqus.Material.PoreFluidFlow.PorousBulkModuli.PorousBulkModuli:24
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid "This method creates a PorousBulkModuli object."
 msgstr ""
 
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid ":py:obj:`PorousElastic <abaqus.Material.Material.Material.PorousElastic>`\\ \\(table\\[\\, shear\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Elastic/Porous/PorousElastic.py:docstring of abaqus.Material.Elastic.Porous.PorousElastic.PorousElastic:41
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.PorousElastic:1
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid "This method creates a PorousElastic object."
 msgstr ""
 
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid ":py:obj:`PorousMetalPlasticity <abaqus.Material.Material.Material.PorousMetalPlasticity>`\\ \\(table\\[\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.PorousMetalPlasticity:1
 #: ../../../../../src/abaqus/Material/Plastic/Metal/Porous/PorousMetalPlasticity.py:docstring of abaqus.Material.Plastic.Metal.Porous.PorousMetalPlasticity.PorousMetalPlasticity:28
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid "This method creates a PorousMetalPlasticity object."
 msgstr ""
 
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid ":py:obj:`Regularization <abaqus.Material.Material.Material.Regularization>`\\ \\(\\[rtol\\, strainRateRegularization\\]\\)"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Regularization:1
 #: ../../../../../src/abaqus/Material/Regularization.py:docstring of abaqus.Material.Regularization.Regularization:18
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid "This method creates a Regularization object."
 msgstr ""
 
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid ":py:obj:`Solubility <abaqus.Material.Material.Material.Solubility>`\\ \\(table\\[\\, temperatureDependency\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/MassDiffusion/Solubility.py:docstring of abaqus.Material.MassDiffusion.Solubility.Solubility:26
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Solubility:1
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid "This method creates a Solubility object."
 msgstr ""
 
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid ":py:obj:`Sorption <abaqus.Material.Material.Material.Sorption>`\\ \\(absorptionTable\\[\\, lawAbsorption\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Sorption:1
 #: ../../../../../src/abaqus/Material/PoreFluidFlow/Sorption.py:docstring of abaqus.Material.PoreFluidFlow.Sorption.Sorption:33
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid "This method creates a Sorption object."
 msgstr ""
 
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid ":py:obj:`SpecificHeat <abaqus.Material.Material.Material.SpecificHeat>`\\ \\(table\\[\\, law\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/HeatTransfer/SpecificHeat.py:docstring of abaqus.Material.HeatTransfer.SpecificHeat.SpecificHeat:26
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.SpecificHeat:1
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid "This method creates a SpecificHeat object."
 msgstr ""
 
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid ":py:obj:`Swelling <abaqus.Material.Material.Material.Swelling>`\\ \\(table\\[\\, law\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Swelling:1
 #: ../../../../../src/abaqus/Material/Plastic/Swelling/Swelling.py:docstring of abaqus.Material.Plastic.Swelling.Swelling.Swelling:26
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid "This method creates a Swelling object."
 msgstr ""
 
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid ":py:obj:`UserMaterial <abaqus.Material.Material.Material.UserMaterial>`\\ \\(\\[type\\, unsymm\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.UserMaterial:1
 #: ../../../../../src/abaqus/Material/User/UserMaterial.py:docstring of abaqus.Material.User.UserMaterial.UserMaterial:18
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid "This method creates a UserMaterial object."
 msgstr ""
 
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid ":py:obj:`UserOutputVariables <abaqus.Material.Material.Material.UserOutputVariables>`\\ \\(\\[n\\]\\)"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.UserOutputVariables:1
 #: ../../../../../src/abaqus/Material/User/UserOutputVariables.py:docstring of abaqus.Material.User.UserOutputVariables.UserOutputVariables:18
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid "This method creates a UserOutputVariables object."
 msgstr ""
 
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid ":py:obj:`Viscoelastic <abaqus.Material.Material.Material.Viscoelastic>`\\ \\(domain\\, table\\[\\, frequency\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Elastic/HyperElastic/ViscoElastic/Viscoelastic.py:docstring of abaqus.Material.Elastic.HyperElastic.ViscoElastic.Viscoelastic.Viscoelastic:79
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Viscoelastic:1
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid "This method creates a Viscoelastic object."
 msgstr ""
 
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid ":py:obj:`Viscosity <abaqus.Material.Material.Material.Viscosity>`\\ \\(table\\[\\, type\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Viscosity:1
 #: ../../../../../src/abaqus/Material/Mechanical/Viscosity/Viscosity.py:docstring of abaqus.Material.Mechanical.Viscosity.Viscosity.Viscosity:28
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid "This method creates a Viscosity object."
 msgstr ""
 
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid ":py:obj:`Viscous <abaqus.Material.Material.Material.Viscous>`\\ \\(table\\[\\, law\\, temperatureDependency\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Viscous:1
 #: ../../../../../src/abaqus/Material/Plastic/Metal/TwoLayerViscoPlasticity/Viscous.py:docstring of abaqus.Material.Plastic.Metal.TwoLayerViscoPlasticity.Viscous.Viscous:38
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid "This method creates a Viscous object."
 msgstr ""
 
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid ":py:obj:`DuctileDamageInitiation <abaqus.Material.Material.Material.DuctileDamageInitiation>`\\ \\(table\\[\\, definition\\, ...\\]\\)"
 msgstr ""
 
@@ -3300,81 +3300,81 @@ msgstr ""
 #: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.QuadeDamageInitiation:1
 #: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.QuadsDamageInitiation:1
 #: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.ShearDamageInitiation:1
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid "This method creates A DamageInitiation object."
 msgstr ""
 
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid ":py:obj:`FldDamageInitiation <abaqus.Material.Material.Material.FldDamageInitiation>`\\ \\(table\\[\\, definition\\, ...\\]\\)"
 msgstr ""
 
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid ":py:obj:`FlsdDamageInitiation <abaqus.Material.Material.Material.FlsdDamageInitiation>`\\ \\(table\\[\\, definition\\, ...\\]\\)"
 msgstr ""
 
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid ":py:obj:`JohnsonCookDamageInitiation <abaqus.Material.Material.Material.JohnsonCookDamageInitiation>`\\ \\(table\\[\\, ...\\]\\)"
 msgstr ""
 
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid ":py:obj:`MaxeDamageInitiation <abaqus.Material.Material.Material.MaxeDamageInitiation>`\\ \\(table\\[\\, definition\\, ...\\]\\)"
 msgstr ""
 
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid ":py:obj:`MaxsDamageInitiation <abaqus.Material.Material.Material.MaxsDamageInitiation>`\\ \\(table\\[\\, definition\\, ...\\]\\)"
 msgstr ""
 
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid ":py:obj:`MkDamageInitiation <abaqus.Material.Material.Material.MkDamageInitiation>`\\ \\(table\\[\\, definition\\, feq\\, ...\\]\\)"
 msgstr ""
 
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid ":py:obj:`MsfldDamageInitiation <abaqus.Material.Material.Material.MsfldDamageInitiation>`\\ \\(table\\[\\, definition\\, ...\\]\\)"
 msgstr ""
 
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid ":py:obj:`QuadeDamageInitiation <abaqus.Material.Material.Material.QuadeDamageInitiation>`\\ \\(table\\[\\, definition\\, ...\\]\\)"
 msgstr ""
 
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid ":py:obj:`QuadsDamageInitiation <abaqus.Material.Material.Material.QuadsDamageInitiation>`\\ \\(table\\[\\, definition\\, ...\\]\\)"
 msgstr ""
 
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid ":py:obj:`MaxpeDamageInitiation <abaqus.Material.Material.Material.MaxpeDamageInitiation>`\\ \\(table\\[\\, definition\\, ...\\]\\)"
 msgstr ""
 
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid ":py:obj:`MaxpsDamageInitiation <abaqus.Material.Material.Material.MaxpsDamageInitiation>`\\ \\(table\\[\\, definition\\, ...\\]\\)"
 msgstr ""
 
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid ":py:obj:`ShearDamageInitiation <abaqus.Material.Material.Material.ShearDamageInitiation>`\\ \\(table\\[\\, definition\\, ...\\]\\)"
 msgstr ""
 
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid ":py:obj:`HashinDamageInitiation <abaqus.Material.Material.Material.HashinDamageInitiation>`\\ \\(table\\[\\, definition\\, ...\\]\\)"
 msgstr ""
 
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid ":py:obj:`MeanFieldHomogenization <abaqus.Material.Material.Material.MeanFieldHomogenization>`\\ \\(\\[angleSubdivision\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.MeanFieldHomogenization:1
 #: ../../../../../src/abaqus/Material/Multiscale/MeanFieldHomogenization.py:docstring of abaqus.Material.Multiscale.MeanFieldHomogenization.MeanFieldHomogenization:21
-#: ../../../None:71:<autosummary>:1
+#: ../../../../None:71:<autosummary>:1
 msgid "This method creates a MeanFieldHomogenization object."
 msgstr ""
 
-#: ../../../None:4:<autosummary>:1
+#: ../../../../None:4:<autosummary>:1
 msgid ":py:obj:`__init__ <abaqus.Material.MaterialBase.MaterialBase.__init__>`\\ \\(name\\[\\, description\\, materialIdentifier\\]\\)"
 msgstr ""
 
-#: ../../../None:4:<autosummary>:1
+#: ../../../../None:4:<autosummary>:1
 msgid ":py:obj:`materialsFromOdb <abaqus.Material.MaterialBase.MaterialBase.materialsFromOdb>`\\ \\(fileName\\)"
 msgstr ""
 
-#: ../../../None:4:<autosummary>:1
+#: ../../../../None:4:<autosummary>:1
 msgid "This methods creates Material objects by reading an output database."
 msgstr ""
 
@@ -4441,7 +4441,7 @@ msgstr ""
 #: ../../../../../src/abaqus/Material/TestData/SimpleShearTestData.py:docstring of abaqus.Material.TestData.SimpleShearTestData.SimpleShearTestData:33
 #: ../../../../../src/abaqus/Material/TestData/UniaxialTestData.py:docstring of abaqus.Material.TestData.UniaxialTestData.UniaxialTestData:58
 #: ../../../../../src/abaqus/Material/TestData/VolumetricTestData.py:docstring of abaqus.Material.TestData.VolumetricTestData.VolumetricTestData:55
-#: ../../../docstring of abaqus.Material.Ratios.Ratios.table:1
+#: ../../../../docstring of abaqus.Material.Ratios.Ratios.table:1
 msgid "A sequence of sequences of Floats specifying the items described below."
 msgstr ""
 
@@ -4583,9 +4583,9 @@ msgstr ""
 #: ../../../../../src/abaqus/Material/TestData/PlanarTestData.py:docstring of abaqus.Material.TestData.PlanarTestData.PlanarTestData:55
 #: ../../../../../src/abaqus/Material/TestData/UniaxialTestData.py:docstring of abaqus.Material.TestData.UniaxialTestData.UniaxialTestData:66
 #: ../../../../../src/abaqus/Material/TestData/VolumetricTestData.py:docstring of abaqus.Material.TestData.VolumetricTestData.VolumetricTestData:67
-#: ../../../docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.temperatureDependency:1
-#: ../../../docstring of abaqus.Material.Ratios.Ratios.temperatureDependency:1
-#: ../../../docstring of abaqus.Material.TestData.MullinsEffect.MullinsEffect.temperatureDependency:1
+#: ../../../../docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.temperatureDependency:1
+#: ../../../../docstring of abaqus.Material.Ratios.Ratios.temperatureDependency:1
+#: ../../../../docstring of abaqus.Material.TestData.MullinsEffect.MullinsEffect.temperatureDependency:1
 msgid "A Boolean specifying whether the data depend on temperature. The default value is OFF."
 msgstr ""
 
@@ -4719,9 +4719,9 @@ msgstr ""
 #: ../../../../../src/abaqus/Material/TestData/PlanarTestData.py:docstring of abaqus.Material.TestData.PlanarTestData.PlanarTestData:57
 #: ../../../../../src/abaqus/Material/TestData/UniaxialTestData.py:docstring of abaqus.Material.TestData.UniaxialTestData.UniaxialTestData:68
 #: ../../../../../src/abaqus/Material/TestData/VolumetricTestData.py:docstring of abaqus.Material.TestData.VolumetricTestData.VolumetricTestData:69
-#: ../../../docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.dependencies:1
-#: ../../../docstring of abaqus.Material.Ratios.Ratios.dependencies:1
-#: ../../../docstring of abaqus.Material.TestData.MullinsEffect.MullinsEffect.dependencies:1
+#: ../../../../docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.dependencies:1
+#: ../../../../docstring of abaqus.Material.Ratios.Ratios.dependencies:1
+#: ../../../../docstring of abaqus.Material.TestData.MullinsEffect.MullinsEffect.dependencies:1
 msgid "An Int specifying the number of field variable dependencies. The default value is 0."
 msgstr ""
 
@@ -5054,7 +5054,7 @@ msgstr ""
 #: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.QuadeDamageInitiation:16
 #: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.QuadsDamageInitiation:16
 #: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.ShearDamageInitiation:16
-#: ../../../docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.definition:1
+#: ../../../../docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.definition:1
 msgid "A SymbolicConstant specifying the damage initiation definition. Possible values are FLD and MSFLD. The default value is MSFLD."
 msgstr ""
 
@@ -5086,7 +5086,7 @@ msgstr ""
 #: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.QuadeDamageInitiation:19
 #: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.QuadsDamageInitiation:19
 #: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.ShearDamageInitiation:19
-#: ../../../docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.feq:1
+#: ../../../../docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.feq:1
 msgid "A Float specifying the critical value of the deformation severity index for equivalent Plastic strains. The default value is 10.0."
 msgstr ""
 
@@ -5118,7 +5118,7 @@ msgstr ""
 #: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.QuadeDamageInitiation:22
 #: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.QuadsDamageInitiation:22
 #: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.ShearDamageInitiation:22
-#: ../../../docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.fnn:1
+#: ../../../../docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.fnn:1
 msgid "A Float specifying the critical value of the deformation severity index for strains normal to the groove direction. The default value is 10.0."
 msgstr ""
 
@@ -5150,7 +5150,7 @@ msgstr ""
 #: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.QuadeDamageInitiation:25
 #: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.QuadsDamageInitiation:25
 #: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.ShearDamageInitiation:25
-#: ../../../docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.fnt:1
+#: ../../../../docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.fnt:1
 msgid "A Float specifying the critical value of the deformation severity index for shear strains. The default value is 10.0."
 msgstr ""
 
@@ -5182,7 +5182,7 @@ msgstr ""
 #: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.QuadeDamageInitiation:28
 #: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.QuadsDamageInitiation:28
 #: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.ShearDamageInitiation:28
-#: ../../../docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.frequency:1
+#: ../../../../docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.frequency:1
 msgid "An Int specifying the frequency, in increments, at which the Marciniak-Kuczynski analysis is going to be performed. The default value is 1."
 msgstr ""
 
@@ -5214,7 +5214,7 @@ msgstr ""
 #: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.QuadeDamageInitiation:31
 #: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.QuadsDamageInitiation:31
 #: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.ShearDamageInitiation:31
-#: ../../../docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.ks:1
+#: ../../../../docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.ks:1
 msgid "A Float specifying the value of Ks. The default value is 0.0."
 msgstr ""
 
@@ -5246,7 +5246,7 @@ msgstr ""
 #: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.QuadeDamageInitiation:33
 #: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.QuadsDamageInitiation:33
 #: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.ShearDamageInitiation:33
-#: ../../../docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.numberImperfections:1
+#: ../../../../docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.numberImperfections:1
 msgid "An Int specifying the number of imperfections to be considered for the evaluation of the Marciniak-Kuczynski analysis. These imperfections are assumed to be equally spaced in the angular direction. The default value is 4."
 msgstr ""
 
@@ -5278,7 +5278,7 @@ msgstr ""
 #: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.QuadeDamageInitiation:41
 #: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.QuadsDamageInitiation:41
 #: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.ShearDamageInitiation:41
-#: ../../../docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.alpha:1
+#: ../../../../docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.alpha:1
 msgid "A Float specifying the value of the coefficient that will multiply the shear contribution to the Hashin's fiber initiation criterion. The default value is 0.0."
 msgstr ""
 
@@ -5310,7 +5310,7 @@ msgstr ""
 #: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.QuadeDamageInitiation:44
 #: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.QuadsDamageInitiation:44
 #: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.ShearDamageInitiation:44
-#: ../../../docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.omega:1
+#: ../../../../docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.omega:1
 msgid "A Float specifying the factor used for filtering the ratio of principal strain rates used for the evaluation of the MSFLD damage initiation criterion. The default value is 1.0."
 msgstr ""
 
@@ -5342,7 +5342,7 @@ msgstr ""
 #: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.QuadeDamageInitiation:48
 #: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.QuadsDamageInitiation:48
 #: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.ShearDamageInitiation:48
-#: ../../../docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.tolerance:1
+#: ../../../../docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.tolerance:1
 msgid "A Float specifying the tolerance within which the damage initiation criterion must be satisfied. The default value is 0.05."
 msgstr ""
 
@@ -5374,7 +5374,7 @@ msgstr ""
 #: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.QuadeDamageInitiation:51
 #: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.QuadsDamageInitiation:51
 #: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.ShearDamageInitiation:51
-#: ../../../docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.direction:1
+#: ../../../../docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.direction:1
 msgid "A SymbolicConstant specifying the damage initiation direction. Possible values are NMORI and TMORI. The default value is NMORI."
 msgstr ""
 
@@ -5924,7 +5924,7 @@ msgstr ""
 
 #: ../../../../../src/abaqus/Material/Elastic/HyperElastic/Hyperelastic.py:docstring of abaqus.Material.Elastic.HyperElastic.Hyperelastic.Hyperelastic:133
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Hyperelastic:39
-#: ../../../docstring of abaqus.Material.TestData.MullinsEffect.MullinsEffect.properties:1
+#: ../../../../docstring of abaqus.Material.TestData.MullinsEffect.MullinsEffect.properties:1
 msgid "An Int specifying the number of property values needed as data for the user-defined hyperelastic material. The default value is 0."
 msgstr ""
 
@@ -6411,13 +6411,13 @@ msgstr ""
 
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Regularization:13
 #: ../../../../../src/abaqus/Material/Regularization.py:docstring of abaqus.Material.Regularization.Regularization:27
-#: ../../../docstring of abaqus.Material.Regularization.Regularization.rtol:1
+#: ../../../../docstring of abaqus.Material.Regularization.Regularization.rtol:1
 msgid "A Float specifying the tolerance to be used for regularizing material data. The default value is 0.03."
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Regularization:16
 #: ../../../../../src/abaqus/Material/Regularization.py:docstring of abaqus.Material.Regularization.Regularization:30
-#: ../../../docstring of abaqus.Material.Regularization.Regularization.strainRateRegularization:1
+#: ../../../../docstring of abaqus.Material.Regularization.Regularization.strainRateRegularization:1
 msgid "A SymbolicConstant specifying the form of regularization of strain-rate-dependent material data. Possible values are LOGARITHMIC and LINEAR. The default value is LOGARITHMIC."
 msgstr ""
 
@@ -6927,8 +6927,8 @@ msgid "A Boolean specifying whether to include lateral nominal strain. The defau
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/TestData/BiaxialTestData.py:docstring of abaqus.Material.TestData.BiaxialTestData.BiaxialTestData:50
-#: ../../../docstring of abaqus.Material.MaterialBase.Hyperelastic.biaxialTestData:1
-#: ../../../docstring of abaqus.Material.MaterialBase.Hyperfoam.biaxialTestData:1
+#: ../../../../docstring of abaqus.Material.MaterialBase.Hyperelastic.biaxialTestData:1
+#: ../../../../docstring of abaqus.Material.MaterialBase.Hyperfoam.biaxialTestData:1
 msgid "A BiaxialTestData object."
 msgstr ""
 
@@ -6965,8 +6965,8 @@ msgid "HYPERFOAM"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/TestData/PlanarTestData.py:docstring of abaqus.Material.TestData.PlanarTestData.PlanarTestData:59
-#: ../../../docstring of abaqus.Material.MaterialBase.Hyperelastic.planarTestData:1
-#: ../../../docstring of abaqus.Material.MaterialBase.Hyperfoam.planarTestData:1
+#: ../../../../docstring of abaqus.Material.MaterialBase.Hyperelastic.planarTestData:1
+#: ../../../../docstring of abaqus.Material.MaterialBase.Hyperfoam.planarTestData:1
 msgid "A PlanarTestData object."
 msgstr ""
 
@@ -6975,22 +6975,22 @@ msgid "This method modifies the Hyperfoam object."
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/TestData/SimpleShearTestData.py:docstring of abaqus.Material.TestData.SimpleShearTestData.SimpleShearTestData:35
-#: ../../../docstring of abaqus.Material.MaterialBase.Hyperfoam.simpleShearTestData:1
+#: ../../../../docstring of abaqus.Material.MaterialBase.Hyperfoam.simpleShearTestData:1
 msgid "A SimpleShearTestData object."
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/TestData/UniaxialTestData.py:docstring of abaqus.Material.TestData.UniaxialTestData.UniaxialTestData:70
-#: ../../../docstring of abaqus.Material.MaterialBase.Hyperelastic.uniaxialTestData:1
-#: ../../../docstring of abaqus.Material.MaterialBase.Hyperfoam.uniaxialTestData:1
-#: ../../../docstring of abaqus.Material.MaterialBase.LowDensityFoam.uniaxialCompressionTestData:1
-#: ../../../docstring of abaqus.Material.MaterialBase.LowDensityFoam.uniaxialTensionTestData:1
+#: ../../../../docstring of abaqus.Material.MaterialBase.Hyperelastic.uniaxialTestData:1
+#: ../../../../docstring of abaqus.Material.MaterialBase.Hyperfoam.uniaxialTestData:1
+#: ../../../../docstring of abaqus.Material.MaterialBase.LowDensityFoam.uniaxialCompressionTestData:1
+#: ../../../../docstring of abaqus.Material.MaterialBase.LowDensityFoam.uniaxialTensionTestData:1
 msgid "A UniaxialTestData object."
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/TestData/VolumetricTestData.py:docstring of abaqus.Material.TestData.VolumetricTestData.VolumetricTestData:71
-#: ../../../docstring of abaqus.Material.MaterialBase.Hyperelastic.volumetricTestData:1
-#: ../../../docstring of abaqus.Material.MaterialBase.Hyperfoam.volumetricTestData:1
-#: ../../../docstring of abaqus.Material.MaterialBase.Viscoelastic.volumetricTestData:1
+#: ../../../../docstring of abaqus.Material.MaterialBase.Hyperelastic.volumetricTestData:1
+#: ../../../../docstring of abaqus.Material.MaterialBase.Hyperfoam.volumetricTestData:1
+#: ../../../../docstring of abaqus.Material.MaterialBase.Viscoelastic.volumetricTestData:1
 msgid "A VolumetricTestData object."
 msgstr ""
 
@@ -7401,7 +7401,7 @@ msgid "The default value is UNKNOWN."
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Elastic/HyperElastic/ViscoElastic/Hysteresis.py:docstring of abaqus.Material.Elastic.HyperElastic.ViscoElastic.Hysteresis.Hysteresis:37
-#: ../../../docstring of abaqus.Material.MaterialBase.Hyperelastic.hysteresis:1
+#: ../../../../docstring of abaqus.Material.MaterialBase.Hyperelastic.hysteresis:1
 msgid "A Hysteresis object."
 msgstr ""
 
@@ -7499,7 +7499,7 @@ msgid "None or a Float specifying a normalized shear. The value of **shrinf** de
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Elastic/HyperElastic/ViscoElastic/CombinedTestData.py:docstring of abaqus.Material.Elastic.HyperElastic.ViscoElastic.CombinedTestData.CombinedTestData:59
-#: ../../../docstring of abaqus.Material.MaterialBase.Viscoelastic.combinedTestData:1
+#: ../../../../docstring of abaqus.Material.MaterialBase.Viscoelastic.combinedTestData:1
 msgid "A CombinedTestData object."
 msgstr ""
 
@@ -7544,7 +7544,7 @@ msgid "None or a Float specifying a normalized shear. The value of **shrinf** de
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/TestData/ShearTestData.py:docstring of abaqus.Material.TestData.ShearTestData.ShearTestData:49
-#: ../../../docstring of abaqus.Material.MaterialBase.Viscoelastic.shearTestData:1
+#: ../../../../docstring of abaqus.Material.MaterialBase.Viscoelastic.shearTestData:1
 msgid "A ShearTestData object."
 msgstr ""
 
@@ -7593,8 +7593,8 @@ msgid "A sequence of sequences of Floats specifying the items described below. T
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Mechanical/Viscosity/Trs.py:docstring of abaqus.Material.Mechanical.Viscosity.Trs.Trs:43
-#: ../../../docstring of abaqus.Material.MaterialBase.Viscoelastic.trs:1
-#: ../../../docstring of abaqus.Material.Mechanical.Viscosity.Viscosity.Viscosity.trs:1
+#: ../../../../docstring of abaqus.Material.MaterialBase.Viscoelastic.trs:1
+#: ../../../../docstring of abaqus.Material.Mechanical.Viscosity.Viscosity.Viscosity.trs:1
 msgid "A Trs object."
 msgstr ""
 
@@ -8023,12 +8023,12 @@ msgid "ELASTIC"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Elastic/Linear/FailStrain.py:docstring of abaqus.Material.Elastic.Linear.FailStrain.FailStrain:45
-#: ../../../docstring of abaqus.Material.MaterialBase.Elastic.failStrain:1
+#: ../../../../docstring of abaqus.Material.MaterialBase.Elastic.failStrain:1
 msgid "A FailStrain object."
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Elastic/Linear/FailStress.py:docstring of abaqus.Material.Elastic.Linear.FailStress.FailStress:48
-#: ../../../docstring of abaqus.Material.MaterialBase.Elastic.failStress:1
+#: ../../../../docstring of abaqus.Material.MaterialBase.Elastic.failStress:1
 msgid "A FailStress object."
 msgstr ""
 
@@ -8326,11 +8326,11 @@ msgstr ""
 msgid "This method modifies the SuperElasticity object."
 msgstr ""
 
-#: ../../../docstring of abaqus.Material.Elastic.SuperElastic.SuperElasticity.SuperElasticity.superElasticHardening:1
+#: ../../../../docstring of abaqus.Material.Elastic.SuperElastic.SuperElasticity.SuperElasticity.superElasticHardening:1
 msgid "A [SuperElasticHardening object](https://help.3ds.com/2022/english/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-superelastichardeningpyc.htm?ContextScope=all#simaker-c-superelastichardeningpyc)."
 msgstr ""
 
-#: ../../../docstring of abaqus.Material.Elastic.SuperElastic.SuperElasticity.SuperElasticity.superElasticHardeningModifications:1
+#: ../../../../docstring of abaqus.Material.Elastic.SuperElastic.SuperElasticity.SuperElasticity.superElasticHardeningModifications:1
 msgid "A [SuperElasticHardeningModifications object](https://help.3ds.com/2022/english/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-superelastichardeningmodificationpyc.htm?ContextScope=all#simaker-c-superelastichardeningmodificationpyc)."
 msgstr ""
 
@@ -8925,7 +8925,7 @@ msgid "An Int specifying the number of field variable dependencies included in t
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Gasket/ContactArea.py:docstring of abaqus.Material.Gasket.ContactArea.ContactArea:47
-#: ../../../docstring of abaqus.Material.MaterialBase.GasketThicknessBehavior.contactArea:1
+#: ../../../../docstring of abaqus.Material.MaterialBase.GasketThicknessBehavior.contactArea:1
 msgid "A ContactArea object."
 msgstr ""
 
@@ -9215,7 +9215,7 @@ msgid "DIFFUSIVITY"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/MassDiffusion/PressureEffect.py:docstring of abaqus.Material.MassDiffusion.PressureEffect.PressureEffect:42
-#: ../../../docstring of abaqus.Material.MaterialBase.Diffusivity.pressureEffect:1
+#: ../../../../docstring of abaqus.Material.MaterialBase.Diffusivity.pressureEffect:1
 msgid "A PressureEffect object."
 msgstr ""
 
@@ -9224,7 +9224,7 @@ msgid "This method modifies the Diffusivity object."
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/MassDiffusion/SoretEffect.py:docstring of abaqus.Material.MassDiffusion.SoretEffect.SoretEffect:42
-#: ../../../docstring of abaqus.Material.MaterialBase.Diffusivity.soretEffect:1
+#: ../../../../docstring of abaqus.Material.MaterialBase.Diffusivity.soretEffect:1
 msgid "A SoretEffect object."
 msgstr ""
 
@@ -9344,12 +9344,12 @@ msgid "BRITTLE CRACKING"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Plastic/Concrete/BrittleFailure.py:docstring of abaqus.Material.Plastic.Concrete.BrittleFailure.BrittleFailure:53
-#: ../../../docstring of abaqus.Material.Plastic.Concrete.BrittleCracking.BrittleCracking.brittleFailure:1
+#: ../../../../docstring of abaqus.Material.Plastic.Concrete.BrittleCracking.BrittleCracking.brittleFailure:1
 msgid "A BrittleFailure object."
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Plastic/Concrete/BrittleShear.py:docstring of abaqus.Material.Plastic.Concrete.BrittleShear.BrittleShear:56
-#: ../../../docstring of abaqus.Material.Plastic.Concrete.BrittleCracking.BrittleCracking.brittleShear:1
+#: ../../../../docstring of abaqus.Material.Plastic.Concrete.BrittleCracking.BrittleCracking.brittleShear:1
 msgid "A BrittleShear object."
 msgstr ""
 
@@ -9386,17 +9386,17 @@ msgid "CAP PLASTICITY"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/ModifiedCap/CapCreepCohesion.py:docstring of abaqus.Material.Plastic.DruckerPrager.ModifiedCap.CapCreepCohesion.CapCreepCohesion:61
-#: ../../../docstring of abaqus.Material.Plastic.DruckerPrager.ModifiedCap.CapPlasticity.CapPlasticity.capCreepCohesion:1
+#: ../../../../docstring of abaqus.Material.Plastic.DruckerPrager.ModifiedCap.CapPlasticity.CapPlasticity.capCreepCohesion:1
 msgid "A CapCreepCohesion object."
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/ModifiedCap/CapCreepConsolidation.py:docstring of abaqus.Material.Plastic.DruckerPrager.ModifiedCap.CapCreepConsolidation.CapCreepConsolidation:61
-#: ../../../docstring of abaqus.Material.Plastic.DruckerPrager.ModifiedCap.CapPlasticity.CapPlasticity.capCreepConsolidation:1
+#: ../../../../docstring of abaqus.Material.Plastic.DruckerPrager.ModifiedCap.CapPlasticity.CapPlasticity.capCreepConsolidation:1
 msgid "A CapCreepConsolidation object."
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/ModifiedCap/CapHardening.py:docstring of abaqus.Material.Plastic.DruckerPrager.ModifiedCap.CapHardening.CapHardening:42
-#: ../../../docstring of abaqus.Material.Plastic.DruckerPrager.ModifiedCap.CapPlasticity.CapPlasticity.capHardening:1
+#: ../../../../docstring of abaqus.Material.Plastic.DruckerPrager.ModifiedCap.CapPlasticity.CapPlasticity.capHardening:1
 msgid "A CapHardening object."
 msgstr ""
 
@@ -9417,12 +9417,12 @@ msgid "CAST IRON PLASTICITY"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Plastic/Metal/CastIron/CastIronCompressionHardening.py:docstring of abaqus.Material.Plastic.Metal.CastIron.CastIronCompressionHardening.CastIronCompressionHardening:41
-#: ../../../docstring of abaqus.Material.Plastic.Metal.CastIron.CastIronPlasticity.CastIronPlasticity.castIronCompressionHardening:1
+#: ../../../../docstring of abaqus.Material.Plastic.Metal.CastIron.CastIronPlasticity.CastIronPlasticity.castIronCompressionHardening:1
 msgid "A CastIronCompressionHardening object."
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Plastic/Metal/CastIron/CastIronTensionHardening.py:docstring of abaqus.Material.Plastic.Metal.CastIron.CastIronTensionHardening.CastIronTensionHardening:41
-#: ../../../docstring of abaqus.Material.Plastic.Metal.CastIron.CastIronPlasticity.CastIronPlasticity.castIronTensionHardening:1
+#: ../../../../docstring of abaqus.Material.Plastic.Metal.CastIron.CastIronPlasticity.CastIronPlasticity.castIronTensionHardening:1
 msgid "A CastIronTensionHardening object."
 msgstr ""
 
@@ -9481,7 +9481,7 @@ msgid "CLAY PLASTICITY"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Plastic/CriticalStateClay/ClayHardening.py:docstring of abaqus.Material.Plastic.CriticalStateClay.ClayHardening.ClayHardening:42
-#: ../../../docstring of abaqus.Material.Plastic.CriticalStateClay.ClayPlasticity.ClayPlasticity.clayHardening:1
+#: ../../../../docstring of abaqus.Material.Plastic.CriticalStateClay.ClayPlasticity.ClayPlasticity.clayHardening:1
 msgid "A ClayHardening object."
 msgstr ""
 
@@ -9506,7 +9506,7 @@ msgid "CONCRETE"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Plastic/Concrete/FailureRatios.py:docstring of abaqus.Material.Plastic.Concrete.FailureRatios.FailureRatios:50
-#: ../../../docstring of abaqus.Material.Plastic.Concrete.Concrete.Concrete.failureRatios:1
+#: ../../../../docstring of abaqus.Material.Plastic.Concrete.Concrete.Concrete.failureRatios:1
 msgid "A FailureRatios object."
 msgstr ""
 
@@ -9515,12 +9515,12 @@ msgid "This method modifies the Concrete object."
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Plastic/Concrete/ShearRetention.py:docstring of abaqus.Material.Plastic.Concrete.ShearRetention.ShearRetention:47
-#: ../../../docstring of abaqus.Material.Plastic.Concrete.Concrete.Concrete.shearRetention:1
+#: ../../../../docstring of abaqus.Material.Plastic.Concrete.Concrete.Concrete.shearRetention:1
 msgid "A ShearRetention object."
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Plastic/Concrete/TensionStiffening.py:docstring of abaqus.Material.Plastic.Concrete.TensionStiffening.TensionStiffening:54
-#: ../../../docstring of abaqus.Material.Plastic.Concrete.Concrete.Concrete.tensionStiffening:1
+#: ../../../../docstring of abaqus.Material.Plastic.Concrete.Concrete.Concrete.tensionStiffening:1
 msgid "A TensionStiffening object."
 msgstr ""
 
@@ -9553,22 +9553,22 @@ msgid "CONCRETE DAMAGED PLASTICITY"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Plastic/Concrete/ConcreteCompressionDamage.py:docstring of abaqus.Material.Plastic.Concrete.ConcreteCompressionDamage.ConcreteCompressionDamage:46
-#: ../../../docstring of abaqus.Material.Plastic.Concrete.ConcreteDamagedPlasticity.ConcreteDamagedPlasticity.concreteCompressionDamage:1
+#: ../../../../docstring of abaqus.Material.Plastic.Concrete.ConcreteDamagedPlasticity.ConcreteDamagedPlasticity.concreteCompressionDamage:1
 msgid "A ConcreteCompressionDamage object."
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Plastic/Concrete/ConcreteCompressionHardening.py:docstring of abaqus.Material.Plastic.Concrete.ConcreteCompressionHardening.ConcreteCompressionHardening:45
-#: ../../../docstring of abaqus.Material.Plastic.Concrete.ConcreteDamagedPlasticity.ConcreteDamagedPlasticity.concreteCompressionHardening:1
+#: ../../../../docstring of abaqus.Material.Plastic.Concrete.ConcreteDamagedPlasticity.ConcreteDamagedPlasticity.concreteCompressionHardening:1
 msgid "A ConcreteCompressionHardening object."
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Plastic/Concrete/ConcreteTensionDamage.py:docstring of abaqus.Material.Plastic.Concrete.ConcreteTensionDamage.ConcreteTensionDamage:60
-#: ../../../docstring of abaqus.Material.Plastic.Concrete.ConcreteDamagedPlasticity.ConcreteDamagedPlasticity.concreteTensionDamage:1
+#: ../../../../docstring of abaqus.Material.Plastic.Concrete.ConcreteDamagedPlasticity.ConcreteDamagedPlasticity.concreteTensionDamage:1
 msgid "A ConcreteTensionDamage object."
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Plastic/Concrete/ConcreteTensionStiffening.py:docstring of abaqus.Material.Plastic.Concrete.ConcreteTensionStiffening.ConcreteTensionStiffening:73
-#: ../../../docstring of abaqus.Material.Plastic.Concrete.ConcreteDamagedPlasticity.ConcreteDamagedPlasticity.concreteTensionStiffening:1
+#: ../../../../docstring of abaqus.Material.Plastic.Concrete.ConcreteDamagedPlasticity.ConcreteDamagedPlasticity.concreteTensionStiffening:1
 msgid "A ConcreteTensionStiffening object."
 msgstr ""
 
@@ -9629,15 +9629,15 @@ msgid "A SymbolicConstant specifying the strain-hardening law. Possible values a
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Plastic/Metal/ORNL/Ornl.py:docstring of abaqus.Material.Plastic.Metal.ORNL.Ornl.Ornl:44
-#: ../../../docstring of abaqus.Material.Plastic.Creep.Creep.Creep.ornl:1
-#: ../../../docstring of abaqus.Material.Plastic.Plastic.Plastic.ornl:1
+#: ../../../../docstring of abaqus.Material.Plastic.Creep.Creep.Creep.ornl:1
+#: ../../../../docstring of abaqus.Material.Plastic.Plastic.Plastic.ornl:1
 msgid "An Ornl object."
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Plastic/Potential.py:docstring of abaqus.Material.Plastic.Potential.Potential:54
-#: ../../../docstring of abaqus.Material.Plastic.Creep.Creep.Creep.potential:1
-#: ../../../docstring of abaqus.Material.Plastic.Metal.TwoLayerViscoPlasticity.Viscous.Viscous.potential:1
-#: ../../../docstring of abaqus.Material.Plastic.Plastic.Plastic.potential:1
+#: ../../../../docstring of abaqus.Material.Plastic.Creep.Creep.Creep.potential:1
+#: ../../../../docstring of abaqus.Material.Plastic.Metal.TwoLayerViscoPlasticity.Viscous.Viscous.potential:1
+#: ../../../../docstring of abaqus.Material.Plastic.Plastic.Plastic.potential:1
 msgid "A Potential object."
 msgstr ""
 
@@ -9678,14 +9678,14 @@ msgid "CRUSHABLE FOAM"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Plastic/CrushableFoam/CrushableFoamHardening.py:docstring of abaqus.Material.Plastic.CrushableFoam.CrushableFoamHardening.CrushableFoamHardening:43
-#: ../../../docstring of abaqus.Material.Plastic.CrushableFoam.CrushableFoam.CrushableFoam.crushableFoamHardening:1
+#: ../../../../docstring of abaqus.Material.Plastic.CrushableFoam.CrushableFoam.CrushableFoam.crushableFoamHardening:1
 msgid "A CrushableFoamHardening object."
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Plastic/Metal/RateDependent/RateDependent.py:docstring of abaqus.Material.Plastic.Metal.RateDependent.RateDependent.RateDependent:67
-#: ../../../docstring of abaqus.Material.Plastic.CrushableFoam.CrushableFoam.CrushableFoam.rateDependent:1
-#: ../../../docstring of abaqus.Material.Plastic.DruckerPrager.Extended.DruckerPrager.DruckerPrager.rateDependent:1
-#: ../../../docstring of abaqus.Material.Plastic.Plastic.Plastic.rateDependent:1
+#: ../../../../docstring of abaqus.Material.Plastic.CrushableFoam.CrushableFoam.CrushableFoam.rateDependent:1
+#: ../../../../docstring of abaqus.Material.Plastic.DruckerPrager.Extended.DruckerPrager.DruckerPrager.rateDependent:1
+#: ../../../../docstring of abaqus.Material.Plastic.Plastic.Plastic.rateDependent:1
 msgid "A RateDependent object."
 msgstr ""
 
@@ -9942,7 +9942,7 @@ msgstr ""
 
 #: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageEvolution.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageEvolution.DamageEvolution:204
 #: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.DamageEvolution:58
-#: ../../../docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.damageEvolution:1
+#: ../../../../docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.damageEvolution:1
 msgid "A DamageEvolution object."
 msgstr ""
 
@@ -9968,7 +9968,7 @@ msgstr ""
 
 #: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.DamageStabilizationCohesive:41
 #: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageStabilizationCohesive.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageStabilizationCohesive.DamageStabilizationCohesive:82
-#: ../../../docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.damageStabilizationCohesive:1
+#: ../../../../docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.damageStabilizationCohesive:1
 msgid "A DamageStabilizationCohesive object."
 msgstr ""
 
@@ -9978,7 +9978,7 @@ msgid ":class:`DamageStabilizationCohesive`"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageStabilization.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageStabilization.DamageStabilization:88
-#: ../../../docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.damageStabilization:1
+#: ../../../../docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.damageStabilization:1
 msgid "A DamageStabilization object."
 msgstr ""
 
@@ -9986,7 +9986,7 @@ msgstr ""
 msgid "This method modifies the DamageInitiation object."
 msgstr ""
 
-#: ../../../docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.table:1
+#: ../../../../docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.table:1
 msgid "A tuple of tuples of Floats specifying the items described in the \"Table data\" section."
 msgstr ""
 
@@ -10084,12 +10084,12 @@ msgid "DRUCKER PRAGER"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/Extended/DruckerPragerCreep.py:docstring of abaqus.Material.Plastic.DruckerPrager.Extended.DruckerPragerCreep.DruckerPragerCreep:60
-#: ../../../docstring of abaqus.Material.Plastic.DruckerPrager.Extended.DruckerPrager.DruckerPrager.druckerPragerCreep:1
+#: ../../../../docstring of abaqus.Material.Plastic.DruckerPrager.Extended.DruckerPrager.DruckerPrager.druckerPragerCreep:1
 msgid "A DruckerPragerCreep object."
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/Extended/DruckerPragerHardening.py:docstring of abaqus.Material.Plastic.DruckerPrager.Extended.DruckerPragerHardening.DruckerPragerHardening:50
-#: ../../../docstring of abaqus.Material.Plastic.DruckerPrager.Extended.DruckerPrager.DruckerPrager.druckerPragerHardening:1
+#: ../../../../docstring of abaqus.Material.Plastic.DruckerPrager.Extended.DruckerPrager.DruckerPrager.druckerPragerHardening:1
 msgid "A DruckerPragerHardening object."
 msgstr ""
 
@@ -10098,7 +10098,7 @@ msgid "This method modifies the DruckerPrager object."
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/Extended/TriaxialTestData.py:docstring of abaqus.Material.Plastic.DruckerPrager.Extended.TriaxialTestData.TriaxialTestData:43
-#: ../../../docstring of abaqus.Material.Plastic.DruckerPrager.Extended.DruckerPrager.DruckerPrager.triaxialTestData:1
+#: ../../../../docstring of abaqus.Material.Plastic.DruckerPrager.Extended.DruckerPrager.DruckerPrager.triaxialTestData:1
 msgid "A TriaxialTestData object."
 msgstr ""
 
@@ -10229,7 +10229,7 @@ msgstr ""
 msgid ":class:`List[Material]`"
 msgstr ""
 
-#: ../../../docstring of abaqus.Material.MaterialBase.MaterialBase.meanFieldHomogenization:3
+#: ../../../../docstring of abaqus.Material.MaterialBase.MaterialBase.meanFieldHomogenization:3
 msgid "The ``meanFieldHomogenization`` attribute was added."
 msgstr ""
 
@@ -10407,7 +10407,7 @@ msgid "A Float specifying the flow potential eccentricity in the meridional plan
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Plastic/MohrCoulomb/MohrCoulombHardening.py:docstring of abaqus.Material.Plastic.MohrCoulomb.MohrCoulombHardening.MohrCoulombHardening:41
-#: ../../../docstring of abaqus.Material.Plastic.MohrCoulomb.MohrCoulombPlasticity.MohrCoulombPlasticity.mohrCoulombHardening:1
+#: ../../../../docstring of abaqus.Material.Plastic.MohrCoulomb.MohrCoulombPlasticity.MohrCoulombPlasticity.mohrCoulombHardening:1
 msgid "A MohrCoulombHardening object."
 msgstr ""
 
@@ -10416,7 +10416,7 @@ msgid "This method modifies the MohrCoulombPlasticity object."
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Plastic/MohrCoulomb/TensionCutOff.py:docstring of abaqus.Material.Plastic.MohrCoulomb.TensionCutOff.TensionCutOff:44
-#: ../../../docstring of abaqus.Material.Plastic.MohrCoulomb.MohrCoulombPlasticity.MohrCoulombPlasticity.tensionCutOff:1
+#: ../../../../docstring of abaqus.Material.Plastic.MohrCoulomb.MohrCoulombPlasticity.MohrCoulombPlasticity.tensionCutOff:1
 msgid "A TensionCutOff object."
 msgstr ""
 
@@ -10437,8 +10437,8 @@ msgid "MOISTURE SWELLING"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Ratios.py:docstring of abaqus.Material.Ratios.Ratios:47
-#: ../../../docstring of abaqus.Material.Plastic.Swelling.Swelling.Swelling.ratios:1
-#: ../../../docstring of abaqus.Material.PoreFluidFlow.MoistureSwelling.MoistureSwelling.MoistureSwelling.ratios:1
+#: ../../../../docstring of abaqus.Material.Plastic.Swelling.Swelling.Swelling.ratios:1
+#: ../../../../docstring of abaqus.Material.PoreFluidFlow.MoistureSwelling.MoistureSwelling.MoistureSwelling.ratios:1
 msgid "A Ratios object."
 msgstr ""
 
@@ -10467,7 +10467,7 @@ msgstr ""
 msgid "PERMEABILITY"
 msgstr ""
 
-#: ../../../docstring of abaqus.Material.PoreFluidFlow.Permeability.Permeability.Permeability.saturationDependence:1
+#: ../../../../docstring of abaqus.Material.PoreFluidFlow.Permeability.Permeability.Permeability.saturationDependence:1
 msgid "A SaturationDependence object specifying the dependence of the permeability of a material on the saturation of the wetting liquid."
 msgstr ""
 
@@ -10475,7 +10475,7 @@ msgstr ""
 msgid "This method modifies the Permeability object."
 msgstr ""
 
-#: ../../../docstring of abaqus.Material.PoreFluidFlow.Permeability.Permeability.Permeability.velocityDependence:1
+#: ../../../../docstring of abaqus.Material.PoreFluidFlow.Permeability.Permeability.Permeability.velocityDependence:1
 msgid "A VelocityDependence object specifying the dependence of the permeability of a material on the velocity of fluid flow."
 msgstr ""
 
@@ -10567,17 +10567,17 @@ msgid "PLASTIC"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Plastic/Metal/Annealing/AnnealTemperature.py:docstring of abaqus.Material.Plastic.Metal.Annealing.AnnealTemperature.AnnealTemperature:39
-#: ../../../docstring of abaqus.Material.Plastic.Plastic.Plastic.annealTemperature:1
+#: ../../../../docstring of abaqus.Material.Plastic.Plastic.Plastic.annealTemperature:1
 msgid "An AnnealTemperature object."
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Plastic/Metal/Cyclic/CycledPlastic.py:docstring of abaqus.Material.Plastic.Metal.Cyclic.CycledPlastic.CycledPlastic:37
-#: ../../../docstring of abaqus.Material.Plastic.Plastic.Plastic.cycledPlastic:1
+#: ../../../../docstring of abaqus.Material.Plastic.Plastic.Plastic.cycledPlastic:1
 msgid "A CycledPlastic object."
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Plastic/Metal/Cyclic/CyclicHardening.py:docstring of abaqus.Material.Plastic.Metal.Cyclic.CyclicHardening.CyclicHardening:47
-#: ../../../docstring of abaqus.Material.Plastic.Plastic.Plastic.cyclicHardening:1
+#: ../../../../docstring of abaqus.Material.Plastic.Plastic.Plastic.cyclicHardening:1
 msgid "A CyclicHardening object."
 msgstr ""
 
@@ -10638,7 +10638,7 @@ msgid "POROUS METAL PLASTICITY"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Plastic/Metal/Porous/PorousFailureCriteria.py:docstring of abaqus.Material.Plastic.Metal.Porous.PorousFailureCriteria.PorousFailureCriteria:31
-#: ../../../docstring of abaqus.Material.Plastic.Metal.Porous.PorousMetalPlasticity.PorousMetalPlasticity.porousFailureCriteria:1
+#: ../../../../docstring of abaqus.Material.Plastic.Metal.Porous.PorousMetalPlasticity.PorousMetalPlasticity.porousFailureCriteria:1
 msgid "A PorousFailureCriteria object."
 msgstr ""
 
@@ -10647,7 +10647,7 @@ msgid "This method modifies the PorousMetalPlasticity object."
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Plastic/Metal/Porous/VoidNucleation.py:docstring of abaqus.Material.Plastic.Metal.Porous.VoidNucleation.VoidNucleation:43
-#: ../../../docstring of abaqus.Material.Plastic.Metal.Porous.PorousMetalPlasticity.PorousMetalPlasticity.voidNucleation:1
+#: ../../../../docstring of abaqus.Material.Plastic.Metal.Porous.PorousMetalPlasticity.PorousMetalPlasticity.voidNucleation:1
 msgid "A VoidNucleation object."
 msgstr ""
 
@@ -10792,23 +10792,23 @@ msgstr ""
 msgid "Check `MullinsEffect on help.3ds.com/2018 <https://help.3ds.com/2018/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-mullinseffectpyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: ../../../docstring of abaqus.Material.TestData.MullinsEffect.MullinsEffect.biaxialTests:1
+#: ../../../../docstring of abaqus.Material.TestData.MullinsEffect.MullinsEffect.biaxialTests:1
 msgid "A BiaxialTestDataArray object."
 msgstr ""
 
-#: ../../../docstring of abaqus.Material.TestData.MullinsEffect.MullinsEffect.definition:1
+#: ../../../../docstring of abaqus.Material.TestData.MullinsEffect.MullinsEffect.definition:1
 msgid "A SymbolicConstant specifying the method of specifying the data. Possible values are USER, CONSTANTS, and TEST_DATA. The default value is CONSTANTS."
 msgstr ""
 
-#: ../../../docstring of abaqus.Material.TestData.MullinsEffect.MullinsEffect.planarTests:1
+#: ../../../../docstring of abaqus.Material.TestData.MullinsEffect.MullinsEffect.planarTests:1
 msgid "A PlanarTestDataArray object."
 msgstr ""
 
-#: ../../../docstring of abaqus.Material.TestData.MullinsEffect.MullinsEffect.table:1
+#: ../../../../docstring of abaqus.Material.TestData.MullinsEffect.MullinsEffect.table:1
 msgid "A tuple of tuples of Floats specifying the items described below. The default value is an empty sequence."
 msgstr ""
 
-#: ../../../docstring of abaqus.Material.TestData.MullinsEffect.MullinsEffect.uniaxialTests:1
+#: ../../../../docstring of abaqus.Material.TestData.MullinsEffect.MullinsEffect.uniaxialTests:1
 msgid "A UniaxialTestDataArray object."
 msgstr ""
 

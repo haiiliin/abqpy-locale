@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: abqpy 2018\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-12 14:41+0000\n"
+"POT-Creation-Date: 2023-05-13 03:08+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -364,7 +364,7 @@ msgstr ""
 msgid "Check `Edge on help.3ds.com/2018 <https://help.3ds.com/2018/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-edgepyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: ../../../docstring of abaqus.BasicGeometry.InterestingPoint.Edge.featureName:1
+#: ../../../../docstring of abaqus.BasicGeometry.InterestingPoint.Edge.featureName:1
 msgid "A tuple of Floats specifying the name of the feature that created this edge."
 msgstr ""
 
@@ -547,15 +547,15 @@ msgstr ""
 msgid "This method returns a sequence of indices of the vertices that bound this edge. The first index refers to the vertex where the normalized curve parameter = 0.0, and the second index refers to the vertex where the normalized curve parameter = 1.0. If the edge is a closed curve, only one vertex index is returned."
 msgstr ""
 
-#: ../../../docstring of abaqus.BasicGeometry.InterestingPoint.Edge.index:1
+#: ../../../../docstring of abaqus.BasicGeometry.InterestingPoint.Edge.index:1
 msgid "An Int specifying the index of the edge in the EdgeArray."
 msgstr ""
 
-#: ../../../docstring of abaqus.BasicGeometry.InterestingPoint.Edge.instanceName:1
+#: ../../../../docstring of abaqus.BasicGeometry.InterestingPoint.Edge.instanceName:1
 msgid "A tuple of Floats specifying the name of the part instance for this edge (if applicable)."
 msgstr ""
 
-#: ../../../docstring of abaqus.BasicGeometry.InterestingPoint.Edge.isReferenceRep:1
+#: ../../../../docstring of abaqus.BasicGeometry.InterestingPoint.Edge.isReferenceRep:1
 msgid "A Boolean specifying whether the edge belongs to the reference representation of the Part or Instance."
 msgstr ""
 
@@ -572,8 +572,8 @@ msgstr ""
 msgid ":class:`Boolean`"
 msgstr ""
 
-#: ../../../docstring of abaqus.BasicGeometry.IgnoredEdgeArray.IgnoredEdge.pointOn:1
-#: ../../../docstring of abaqus.BasicGeometry.InterestingPoint.Edge.pointOn:1
+#: ../../../../docstring of abaqus.BasicGeometry.IgnoredEdgeArray.IgnoredEdge.pointOn:1
+#: ../../../../docstring of abaqus.BasicGeometry.InterestingPoint.Edge.pointOn:1
 msgid "A tuple of Floats specifying the **X**, **Y**, and **Z** coordinates of a point located on the edge."
 msgstr ""
 
@@ -605,7 +605,7 @@ msgstr ""
 msgid "Check `Cell on help.3ds.com/2018 <https://help.3ds.com/2018/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-cellpyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: ../../../docstring of abaqus.BasicGeometry.CellArray.Cell.featureName:1
+#: ../../../../docstring of abaqus.BasicGeometry.CellArray.Cell.featureName:1
 msgid "A tuple of Floats specifying the name of the feature that created this cell."
 msgstr ""
 
@@ -686,19 +686,19 @@ msgstr ""
 msgid "This method returns a sequence consisting of the vertex IDs of the vertices on the cell."
 msgstr ""
 
-#: ../../../docstring of abaqus.BasicGeometry.CellArray.Cell.index:1
+#: ../../../../docstring of abaqus.BasicGeometry.CellArray.Cell.index:1
 msgid "An Int specifying the index of the cell in the CellArray."
 msgstr ""
 
-#: ../../../docstring of abaqus.BasicGeometry.CellArray.Cell.instanceName:1
+#: ../../../../docstring of abaqus.BasicGeometry.CellArray.Cell.instanceName:1
 msgid "A tuple of Floats specifying the name of the part instance for this cell (if applicable)."
 msgstr ""
 
-#: ../../../docstring of abaqus.BasicGeometry.CellArray.Cell.isReferenceRep:1
+#: ../../../../docstring of abaqus.BasicGeometry.CellArray.Cell.isReferenceRep:1
 msgid "A Boolean specifying whether the cell belongs to the reference representation of the Part or Instance."
 msgstr ""
 
-#: ../../../docstring of abaqus.BasicGeometry.CellArray.Cell.pointOn:1
+#: ../../../../docstring of abaqus.BasicGeometry.CellArray.Cell.pointOn:1
 msgid "A tuple of Floats specifying the **X**, **Y**, and **Z** coordinates of a point located on the cell."
 msgstr ""
 
@@ -1272,7 +1272,7 @@ msgstr ""
 msgid "Check `Face on help.3ds.com/2018 <https://help.3ds.com/2018/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-facepyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: ../../../docstring of abaqus.BasicGeometry.FaceArray.Face.featureName:1
+#: ../../../../docstring of abaqus.BasicGeometry.FaceArray.Face.featureName:1
 msgid "A tuple of Floats specifying the name of the feature that created this face."
 msgstr ""
 
@@ -1425,11 +1425,11 @@ msgstr ""
 msgid "This method returns a sequence consisting of the vertex ids of the vertices of the face."
 msgstr ""
 
-#: ../../../docstring of abaqus.BasicGeometry.FaceArray.Face.index:1
+#: ../../../../docstring of abaqus.BasicGeometry.FaceArray.Face.index:1
 msgid "An Int specifying the index of the face in the FaceArray."
 msgstr ""
 
-#: ../../../docstring of abaqus.BasicGeometry.FaceArray.Face.instanceName:1
+#: ../../../../docstring of abaqus.BasicGeometry.FaceArray.Face.instanceName:1
 msgid "A tuple of Floats specifying the name of the part instance for this face (if applicable)."
 msgstr ""
 
@@ -1441,11 +1441,11 @@ msgstr ""
 msgid "A Boolean value of True if the normal is flipped and False if not."
 msgstr ""
 
-#: ../../../docstring of abaqus.BasicGeometry.FaceArray.Face.isReferenceRep:1
+#: ../../../../docstring of abaqus.BasicGeometry.FaceArray.Face.isReferenceRep:1
 msgid "A Boolean specifying whether the face belongs to the reference representation of the Part or Instance."
 msgstr ""
 
-#: ../../../docstring of abaqus.BasicGeometry.FaceArray.Face.pointOn:1
+#: ../../../../docstring of abaqus.BasicGeometry.FaceArray.Face.pointOn:1
 msgid "A tuple of tuples of Floats specifying the coordinates. For a face of a shell **pointOn** specifies the **X**, **Y**, and **Z** coordinates of a point located on the face and the **X**, **Y**, and **Z** components of the normal to the face.For a face of a solid **pointOn** specifies the **X**, **Y**, and **Z** coordinates of a point located on the face."
 msgstr ""
 
@@ -1485,7 +1485,7 @@ msgstr ""
 msgid "Check `IgnoredEdge.getSize on help.3ds.com/2018 <https://help.3ds.com/2018/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-ignorededgepyc.htm?contextscope=all#simaker-ignorededgegetsizepyc>`__."
 msgstr ""
 
-#: ../../../docstring of abaqus.BasicGeometry.IgnoredEdgeArray.IgnoredEdge.index:1
+#: ../../../../docstring of abaqus.BasicGeometry.IgnoredEdgeArray.IgnoredEdge.index:1
 msgid "An Int specifying the index of the IgnoredEdge in the IgnoredEdgeArray."
 msgstr ""
 
@@ -1563,11 +1563,11 @@ msgstr ""
 msgid "Check `IgnoredVertex on help.3ds.com/2018 <https://help.3ds.com/2018/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-ignoredvertexpyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: ../../../docstring of abaqus.BasicGeometry.IgnoredVertexArray.IgnoredVertex.index:1
+#: ../../../../docstring of abaqus.BasicGeometry.IgnoredVertexArray.IgnoredVertex.index:1
 msgid "An Int specifying the index of the IgnoredVertex in the IgnoredVertexArray."
 msgstr ""
 
-#: ../../../docstring of abaqus.BasicGeometry.IgnoredVertexArray.IgnoredVertex.pointOn:1
+#: ../../../../docstring of abaqus.BasicGeometry.IgnoredVertexArray.IgnoredVertex.pointOn:1
 msgid "A tuple of Floats specifying the **X**, **Y**, and **Z** coordinates of the vertex."
 msgstr ""
 
@@ -1681,7 +1681,7 @@ msgstr ""
 msgid "Check `Vertex on help.3ds.com/2018 <https://help.3ds.com/2018/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-vertexpyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: ../../../docstring of abaqus.BasicGeometry.VertexArray.Vertex.featureName:1
+#: ../../../../docstring of abaqus.BasicGeometry.VertexArray.Vertex.featureName:1
 msgid "A tuple of Floats specifying the name of the feature that created this vertex."
 msgstr ""
 
@@ -1697,19 +1697,19 @@ msgstr ""
 msgid "This method returns an array of node objects that are associated with the vertex."
 msgstr ""
 
-#: ../../../docstring of abaqus.BasicGeometry.VertexArray.Vertex.index:1
+#: ../../../../docstring of abaqus.BasicGeometry.VertexArray.Vertex.index:1
 msgid "An Int specifying the index of the ConstrainedSketchVertex in the VertexArray."
 msgstr ""
 
-#: ../../../docstring of abaqus.BasicGeometry.VertexArray.Vertex.instanceName:1
+#: ../../../../docstring of abaqus.BasicGeometry.VertexArray.Vertex.instanceName:1
 msgid "A tuple of Floats specifying the name of the part instance for this vertex (if applicable)."
 msgstr ""
 
-#: ../../../docstring of abaqus.BasicGeometry.VertexArray.Vertex.isReferenceRep:1
+#: ../../../../docstring of abaqus.BasicGeometry.VertexArray.Vertex.isReferenceRep:1
 msgid "A Boolean specifying whether the vertex belongs to the reference representation of the Part or Instance."
 msgstr ""
 
-#: ../../../docstring of abaqus.BasicGeometry.VertexArray.Vertex.pointOn:1
+#: ../../../../docstring of abaqus.BasicGeometry.VertexArray.Vertex.pointOn:1
 msgid "A tuple of Floats specifying the **X** -, **Y** -, and **Z** -coordinates of the vertex."
 msgstr ""
 
