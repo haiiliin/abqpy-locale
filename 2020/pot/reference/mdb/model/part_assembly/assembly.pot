@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: abqpy 2020\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-12 14:41+0000\n"
+"POT-Creation-Date: 2023-05-13 03:09+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -54,29 +54,29 @@ msgstr ""
 msgid "Public Methods:"
 msgstr ""
 
-#: ../../../None:5:<autosummary>:1
+#: ../../../../None:5:<autosummary>:1
 msgid ":py:obj:`Instance <abaqus.Assembly.AssemblyModel.AssemblyModel.Instance>`\\ \\(name\\, objectToCopy\\)"
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyModel.py:docstring of abaqus.Assembly.AssemblyModel.AssemblyModel.Instance:1
-#: ../../../None:5:<autosummary>:1
+#: ../../../../None:5:<autosummary>:1
 msgid "This method copies a PartInstance object from the specified model and creates a new PartInstance object."
 msgstr ""
 
-#: ../../../None:5:<autosummary>:1
+#: ../../../../None:5:<autosummary>:1
 msgid ":py:obj:`convertAllSketches <abaqus.Assembly.AssemblyModel.AssemblyModel.convertAllSketches>`\\ \\(\\[regenerate\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyModel.py:docstring of abaqus.Assembly.AssemblyModel.AssemblyModel.convertAllSketches:1
-#: ../../../None:5:<autosummary>:1
+#: ../../../../None:5:<autosummary>:1
 msgid "This method converts all sketches from Abaqus 6.5 or earlier to the equivalent ConstrainedSketch objects."
 msgstr ""
 
-#: ../../../None:5:<autosummary>:1
+#: ../../../../None:5:<autosummary>:1
 msgid ":py:obj:`linkInstances <abaqus.Assembly.AssemblyModel.AssemblyModel.linkInstances>`\\ \\(instancesMap\\)"
 msgstr ""
 
-#: ../../../None:5:<autosummary>:1
+#: ../../../../None:5:<autosummary>:1
 msgid "This method links the selected PartInstance objects to the corresponding PartInstance objects from the specified models."
 msgstr ""
 
@@ -321,13 +321,13 @@ msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/Assembly.py:docstring of abaqus.Assembly.Assembly.Assembly.ConnectorOrientation:13
 #: ../../../../../src/abaqus/Assembly/ConnectorOrientation.py:docstring of abaqus.Assembly.ConnectorOrientation.ConnectorOrientation:23
-#: ../../../docstring of abaqus.Assembly.ConnectorOrientationArray.ConnectorOrientation.region:1
+#: ../../../../docstring of abaqus.Assembly.ConnectorOrientationArray.ConnectorOrientation.region:1
 msgid "A Set object specifying the region to which the orientation is assigned."
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/Assembly.py:docstring of abaqus.Assembly.Assembly.Assembly.ConnectorOrientation:15
 #: ../../../../../src/abaqus/Assembly/ConnectorOrientation.py:docstring of abaqus.Assembly.ConnectorOrientation.ConnectorOrientation:25
-#: ../../../docstring of abaqus.Assembly.ConnectorOrientationArray.ConnectorOrientation.localCsys1:1
+#: ../../../../docstring of abaqus.Assembly.ConnectorOrientationArray.ConnectorOrientation.localCsys1:1
 msgid "A DatumCsys object specifying the local coordinate system of the first connector point. This value may be None, indicating the global coordinate system."
 msgstr ""
 
@@ -335,8 +335,8 @@ msgstr ""
 #: ../../../../../src/abaqus/Assembly/Assembly.py:docstring of abaqus.Assembly.Assembly.Assembly.ConnectorOrientation:30
 #: ../../../../../src/abaqus/Assembly/ConnectorOrientation.py:docstring of abaqus.Assembly.ConnectorOrientation.ConnectorOrientation:28
 #: ../../../../../src/abaqus/Assembly/ConnectorOrientation.py:docstring of abaqus.Assembly.ConnectorOrientation.ConnectorOrientation:40
-#: ../../../docstring of abaqus.Assembly.ConnectorOrientationArray.ConnectorOrientation.axis1:1
-#: ../../../docstring of abaqus.Assembly.ConnectorOrientationArray.ConnectorOrientation.axis2:1
+#: ../../../../docstring of abaqus.Assembly.ConnectorOrientationArray.ConnectorOrientation.axis1:1
+#: ../../../../docstring of abaqus.Assembly.ConnectorOrientationArray.ConnectorOrientation.axis2:1
 msgid "A SymbolicConstant specifying the axis of a datum coordinate system about which an additional rotation is applied. Possible values are AXIS_1, AXIS_2, and AXIS_3. The default value is AXIS_1."
 msgstr ""
 
@@ -344,20 +344,20 @@ msgstr ""
 #: ../../../../../src/abaqus/Assembly/Assembly.py:docstring of abaqus.Assembly.Assembly.Assembly.ConnectorOrientation:34
 #: ../../../../../src/abaqus/Assembly/ConnectorOrientation.py:docstring of abaqus.Assembly.ConnectorOrientation.ConnectorOrientation:32
 #: ../../../../../src/abaqus/Assembly/ConnectorOrientation.py:docstring of abaqus.Assembly.ConnectorOrientation.ConnectorOrientation:44
-#: ../../../docstring of abaqus.Assembly.ConnectorOrientationArray.ConnectorOrientation.angle1:1
-#: ../../../docstring of abaqus.Assembly.ConnectorOrientationArray.ConnectorOrientation.angle2:1
+#: ../../../../docstring of abaqus.Assembly.ConnectorOrientationArray.ConnectorOrientation.angle1:1
+#: ../../../../docstring of abaqus.Assembly.ConnectorOrientationArray.ConnectorOrientation.angle2:1
 msgid "A Float specifying the angle of the additional rotation. The default value is 0.0."
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/Assembly.py:docstring of abaqus.Assembly.Assembly.Assembly.ConnectorOrientation:24
 #: ../../../../../src/abaqus/Assembly/ConnectorOrientation.py:docstring of abaqus.Assembly.ConnectorOrientation.ConnectorOrientation:34
-#: ../../../docstring of abaqus.Assembly.ConnectorOrientationArray.ConnectorOrientation.orient2sameAs1:1
+#: ../../../../docstring of abaqus.Assembly.ConnectorOrientationArray.ConnectorOrientation.orient2sameAs1:1
 msgid "A Boolean specifying whether or not the second connector point is to use the same local coordinate system, axis, and angle as the first point. The default value is ON."
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/Assembly.py:docstring of abaqus.Assembly.Assembly.Assembly.ConnectorOrientation:27
 #: ../../../../../src/abaqus/Assembly/ConnectorOrientation.py:docstring of abaqus.Assembly.ConnectorOrientation.ConnectorOrientation:37
-#: ../../../docstring of abaqus.Assembly.ConnectorOrientationArray.ConnectorOrientation.localCsys2:1
+#: ../../../../docstring of abaqus.Assembly.ConnectorOrientationArray.ConnectorOrientation.localCsys2:1
 msgid "A DatumCsys object specifying the local coordinate system of the second connector point. This value may be None, indicating the global coordinate system."
 msgstr ""
 
@@ -408,7 +408,7 @@ msgstr ""
 #: ../../../../../src/abaqus/Assembly/PartInstance.py:docstring of abaqus.Assembly.PartInstance.PartInstance:21
 #: ../../../../../src/abaqus/Assembly/PartInstance.py:docstring of abaqus.Assembly.PartInstance.PartInstance.InstanceFromBooleanCut:13
 #: ../../../../../src/abaqus/Assembly/PartInstance.py:docstring of abaqus.Assembly.PartInstance.PartInstance.InstanceFromBooleanMerge:13
-#: ../../../docstring of abaqus.Assembly.PartInstanceArray.PartInstance.name:1
+#: ../../../../docstring of abaqus.Assembly.PartInstanceArray.PartInstance.name:1
 msgid "A String specifying the repository key. The name must be a valid Abaqus object name."
 msgstr ""
 
@@ -430,24 +430,24 @@ msgstr ""
 msgid ":class:`PartInstance`"
 msgstr ""
 
-#: ../../../docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.allInstances:1
+#: ../../../../docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.allInstances:1
 msgid "A PartInstance object specifying the PartInstances and A ModelInstance object specifying the ModelInstances."
 msgstr ""
 
-#: ../../../docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.allInternalSets:1
+#: ../../../../docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.allInternalSets:1
 msgid "A repository of Set objects specifying picked regions."
 msgstr ""
 
-#: ../../../docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.allInternalSurfaces:1
+#: ../../../../docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.allInternalSurfaces:1
 msgid "A repository of Surface objects specifying picked regions."
 msgstr ""
 
-#: ../../../docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.allSets:1
+#: ../../../../docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.allSets:1
 msgid "A repository of Set objects specifying for more information, see [Region commands](https://help.3ds.com/2022/english/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-m-RegPyc-sb.htm?ContextScope=all)."
 msgstr ""
 
-#: ../../../docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.allSurfaces:1
-#: ../../../docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.surfaces:1
+#: ../../../../docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.allSurfaces:1
+#: ../../../../docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.surfaces:1
 msgid "A repository of Surface objects specifying for more information, see [Region commands](https://help.3ds.com/2022/english/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-m-RegPyc-sb.htm?ContextScope=all)."
 msgstr ""
 
@@ -467,7 +467,7 @@ msgstr ""
 msgid "Deleting the geometry cache reduces the amount of memory being used."
 msgstr ""
 
-#: ../../../docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.connectorOrientations:1
+#: ../../../../docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.connectorOrientations:1
 msgid "A ConnectorOrientationArray object."
 msgstr ""
 
@@ -503,7 +503,7 @@ msgstr ""
 msgid "A sequence of three-dimensional coordinate tuples specifying the coordinates for each of the given nodes. When specified, the number of coordinate tuples must match the number of given nodes, and be ordered to correspond to the given nodes in *ascending order* according to index. These coordinates are positions of the nodes of a mesh that will be the target face corresponding to nodes provided."
 msgstr ""
 
-#: ../../../docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.datums:1
+#: ../../../../docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.datums:1
 msgid "A repository of Datum objects specifying all Datum objects in the assembly."
 msgstr ""
 
@@ -523,15 +523,15 @@ msgstr ""
 msgid "A sequence of Strings specifying the feature names that will be deleted from the assembly."
 msgstr ""
 
-#: ../../../docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.edges:1
+#: ../../../../docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.edges:1
 msgid "An EdgeArray object specifying all the edges existing at the assembly level. This member does not provide access to the edges at the instance level."
 msgstr ""
 
-#: ../../../docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.elements:1
+#: ../../../../docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.elements:1
 msgid "A MeshElementArray object specifying all the elements existing at the assembly level. This member does not provide access to the elements at the instance level."
 msgstr ""
 
-#: ../../../docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.engineeringFeatures:1
+#: ../../../../docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.engineeringFeatures:1
 msgid "An EngineeringFeature object."
 msgstr ""
 
@@ -555,11 +555,11 @@ msgstr ""
 msgid "This method prints the name and status of all the features in the feature lists."
 msgstr ""
 
-#: ../../../docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.features:1
+#: ../../../../docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.features:1
 msgid "A repository of Feature objects specifying all Feature objects in the assembly."
 msgstr ""
 
-#: ../../../docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.featuresById:1
+#: ../../../../docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.featuresById:1
 msgid "A repository of Feature objects specifying all Feature objects in the assembly.The Feature objects in the featuresById repository are the same as the Feature objects in the features repository. However, the key to the objects in the featuresById repository is an integer specifying the **ID**, whereas the key to the objects in the features repository is a string specifying the **name**."
 msgstr ""
 
@@ -853,15 +853,15 @@ msgstr ""
 msgid "A String specifying the path to the Pro/ENGINEER Elysium Neutral file from which to import the assembly."
 msgstr ""
 
-#: ../../../docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.instances:1
+#: ../../../../docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.instances:1
 msgid "A repository of PartInstance objects."
 msgstr ""
 
-#: ../../../docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.isLocked:1
+#: ../../../../docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.isLocked:1
 msgid "An Int specifying whether the assembly is locked or not. Possible values are 0 and 1."
 msgstr ""
 
-#: ../../../docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.isOutOfDate:1
+#: ../../../../docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.isOutOfDate:1
 msgid "An Int specifying that feature parameters have been modified but that the assembly has not been regenerated. Possible values are 0 and 1."
 msgstr ""
 
@@ -897,15 +897,15 @@ msgstr ""
 msgid "A sequence of PartInstance objects to convert to independent part instances."
 msgstr ""
 
-#: ../../../docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.modelInstances:1
+#: ../../../../docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.modelInstances:1
 msgid "A repository of ModelInstance objects."
 msgstr ""
 
-#: ../../../docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.modelName:1
+#: ../../../../docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.modelName:1
 msgid "A String specifying the name of the model to which the assembly belongs."
 msgstr ""
 
-#: ../../../docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.nodes:1
+#: ../../../../docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.nodes:1
 msgid "A MeshNodeArray object specifying all the nodes existing at the assembly level. This member does not provide access to the nodes at the instance level."
 msgstr ""
 
@@ -953,9 +953,9 @@ msgstr ""
 msgid "The output is displayed in the message area."
 msgstr ""
 
-#: ../../../docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.referencePoints:1
-#: ../../../docstring of abaqus.Assembly.ModelInstance.ModelInstance.referencePoints:1
-#: ../../../docstring of abaqus.Assembly.PartInstanceArray.PartInstance.referencePoints:1
+#: ../../../../docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.referencePoints:1
+#: ../../../../docstring of abaqus.Assembly.ModelInstance.ModelInstance.referencePoints:1
+#: ../../../../docstring of abaqus.Assembly.PartInstanceArray.PartInstance.referencePoints:1
 msgid "A repository of ReferencePoint objects."
 msgstr ""
 
@@ -968,7 +968,7 @@ msgid "When you modify features of an assembly, it may be convenient to postpone
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.setValues:7
-#: ../../../docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.regenerateConstraintsTogether:1
+#: ../../../../docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.regenerateConstraintsTogether:1
 msgid "A Boolean specifying whether the positioning constraints in the assembly should be regenerated together before regenerating other assembly features. The default value is ON.If the assembly has position constraint features and you modify the value of **regenerateConstraintsTogether**, Abaqus/CAE will regenerate the assembly features."
 msgstr ""
 
@@ -1033,7 +1033,7 @@ msgstr ""
 msgid "This method caches the current geometry, which improves regeneration performance."
 msgstr ""
 
-#: ../../../docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.sectionAssignments:1
+#: ../../../../docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.sectionAssignments:1
 msgid "A SectionAssignmentArray object."
 msgstr ""
 
@@ -1080,11 +1080,11 @@ msgstr ""
 msgid "Regeneration failed, If one or more features in the assembly fails to regenerate"
 msgstr ""
 
-#: ../../../docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.sets:1
+#: ../../../../docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.sets:1
 msgid "A repository of Set objects."
 msgstr ""
 
-#: ../../../docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.skins:1
+#: ../../../../docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.skins:1
 msgid "A repository of Skin objects specifying the skins created on the assembly."
 msgstr ""
 
@@ -1108,7 +1108,7 @@ msgstr ""
 msgid "The ``coordinates`` arguments was removed, the ``nodes`` now replaces it."
 msgstr ""
 
-#: ../../../docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.stringers:1
+#: ../../../../docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.stringers:1
 msgid "A repository of Stringer objects specifying the stringers created on the assembly."
 msgstr ""
 
@@ -1124,7 +1124,7 @@ msgstr ""
 msgid "A sequence of Strings specifying the names of features to suppress in the assembly."
 msgstr ""
 
-#: ../../../docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.timeStamp:1
+#: ../../../../docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.timeStamp:1
 msgid "A Float specifying which gives an indication when the assembly was last modified."
 msgstr ""
 
@@ -1166,7 +1166,7 @@ msgstr ""
 msgid "Unlocking the assembly allows it to be regenerated after any modifications to the assembly."
 msgstr ""
 
-#: ../../../docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.vertices:1
+#: ../../../../docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.vertices:1
 msgid "A VertexArray object specifying all the vertices existing at the assembly level. This member does not provide access to the vertices at the instance level."
 msgstr ""
 
@@ -1474,18 +1474,18 @@ msgstr ""
 msgid "The method deletes the constraint features on the instance but preserves the position in space."
 msgstr ""
 
-#: ../../../docstring of abaqus.Assembly.ModelInstance.ModelInstance.datums:1
-#: ../../../docstring of abaqus.Assembly.PartInstanceArray.PartInstance.datums:1
+#: ../../../../docstring of abaqus.Assembly.ModelInstance.ModelInstance.datums:1
+#: ../../../../docstring of abaqus.Assembly.PartInstanceArray.PartInstance.datums:1
 msgid "A repository of Datum objects."
 msgstr ""
 
-#: ../../../docstring of abaqus.Assembly.ModelInstance.ModelInstance.edges:1
-#: ../../../docstring of abaqus.Assembly.PartInstanceArray.PartInstance.edges:1
+#: ../../../../docstring of abaqus.Assembly.ModelInstance.ModelInstance.edges:1
+#: ../../../../docstring of abaqus.Assembly.PartInstanceArray.PartInstance.edges:1
 msgid "An EdgeArray object."
 msgstr ""
 
-#: ../../../docstring of abaqus.Assembly.ModelInstance.ModelInstance.elements:1
-#: ../../../docstring of abaqus.Assembly.PartInstanceArray.PartInstance.elements:1
+#: ../../../../docstring of abaqus.Assembly.ModelInstance.ModelInstance.elements:1
+#: ../../../../docstring of abaqus.Assembly.PartInstanceArray.PartInstance.elements:1
 msgid "A MeshElementArray object."
 msgstr ""
 
@@ -1493,8 +1493,8 @@ msgstr ""
 msgid "This method prints the sum of the translations and rotations applied to the ModelInstance object."
 msgstr ""
 
-#: ../../../docstring of abaqus.Assembly.ModelInstance.ModelInstance.nodes:1
-#: ../../../docstring of abaqus.Assembly.PartInstanceArray.PartInstance.nodes:1
+#: ../../../../docstring of abaqus.Assembly.ModelInstance.ModelInstance.nodes:1
+#: ../../../../docstring of abaqus.Assembly.PartInstanceArray.PartInstance.nodes:1
 msgid "A MeshNodeArray object."
 msgstr ""
 
@@ -1515,11 +1515,11 @@ msgstr ""
 msgid "A Boolean specifying whether to apply existing constraints on the new instance or to position the new instance in the same place as the original instance. The default value is True. A value of False indicates that constraints applies to the instance are deleted will be deleted from the feature list."
 msgstr ""
 
-#: ../../../docstring of abaqus.Assembly.ModelInstance.ModelInstance.sets:1
+#: ../../../../docstring of abaqus.Assembly.ModelInstance.ModelInstance.sets:1
 msgid "A repository of Set objects specifying the sets created on the assembly. For more information, see [Region commands](https://help.3ds.com/2022/english/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-m-RegPyc-sb.htm?ContextScope=all)."
 msgstr ""
 
-#: ../../../docstring of abaqus.Assembly.ModelInstance.ModelInstance.surfaces:1
+#: ../../../../docstring of abaqus.Assembly.ModelInstance.ModelInstance.surfaces:1
 msgid "A repository of Surface objects specifying the surfaces created on the assembly. For more information, see [Region commands](https://help.3ds.com/2022/english/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-m-RegPyc-sb.htm?ContextScope=all)."
 msgstr ""
 
@@ -1533,8 +1533,8 @@ msgstr ""
 msgid "Check `ModelInstance.translate on help.3ds.com/2020 <https://help.3ds.com/2020/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-modelinstancepyc.htm?contextscope=all#simaker-modelinstancetranslatepyc>`__."
 msgstr ""
 
-#: ../../../docstring of abaqus.Assembly.ModelInstance.ModelInstance.vertices:1
-#: ../../../docstring of abaqus.Assembly.PartInstanceArray.PartInstance.vertices:1
+#: ../../../../docstring of abaqus.Assembly.ModelInstance.ModelInstance.vertices:1
+#: ../../../../docstring of abaqus.Assembly.PartInstanceArray.PartInstance.vertices:1
 msgid "A VertexArray object."
 msgstr ""
 
@@ -1555,7 +1555,7 @@ msgid "A Boolean specifying whether to apply an auto offset to the new part inst
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/PartInstance.py:docstring of abaqus.Assembly.PartInstance.PartInstance:29
-#: ../../../docstring of abaqus.Assembly.PartInstanceArray.PartInstance.dependent:1
+#: ../../../../docstring of abaqus.Assembly.PartInstanceArray.PartInstance.dependent:1
 msgid "A Boolean specifying whether the part instance is dependent or independent. If **dependent** = OFF, the part instance is independent. The default value is OFF."
 msgstr ""
 
@@ -1720,11 +1720,11 @@ msgstr ""
 msgid "A sequence of three Floats specifying the central axis of the radial pattern. The default value is (0.0, 0.0, 1.0)."
 msgstr ""
 
-#: ../../../docstring of abaqus.Assembly.PartInstanceArray.PartInstance.analysisType:1
+#: ../../../../docstring of abaqus.Assembly.PartInstanceArray.PartInstance.analysisType:1
 msgid "A SymbolicConstant specifying the part type. Possible values are DEFORMABLE_BODY, EULERIAN, DISCRETE_RIGID_SURFACE, and ANALYTIC_RIGID_SURFACE."
 msgstr ""
 
-#: ../../../docstring of abaqus.Assembly.PartInstanceArray.PartInstance.cells:1
+#: ../../../../docstring of abaqus.Assembly.PartInstanceArray.PartInstance.cells:1
 msgid "A CellArray object."
 msgstr ""
 
@@ -1748,27 +1748,27 @@ msgstr ""
 msgid "An exception is thrown if this is a dependent part instance and **level** was either not     specified or was set to 20, because the validity status cannot be updated for a     dependent part instance. In this case, this command should be called on the Part     instead. The geometry of dependent part instances cannot be changed."
 msgstr ""
 
-#: ../../../docstring of abaqus.Assembly.PartInstanceArray.PartInstance.elemEdges:1
+#: ../../../../docstring of abaqus.Assembly.PartInstanceArray.PartInstance.elemEdges:1
 msgid "A repository of MeshEdge objects specifying all the element edges in the part instance. For a given element and a given edge index on a given face within that element, the corresponding MeshEdge object can be retrieved from the repository by using the key calculated as (i*32 + j*4 + k), where i, j, and k are zero-based element, face, and edge indices, respectively."
 msgstr ""
 
-#: ../../../docstring of abaqus.Assembly.PartInstanceArray.PartInstance.elementEdges:1
+#: ../../../../docstring of abaqus.Assembly.PartInstanceArray.PartInstance.elementEdges:1
 msgid "A MeshEdgeArray object."
 msgstr ""
 
-#: ../../../docstring of abaqus.Assembly.PartInstanceArray.PartInstance.elementFaces:1
+#: ../../../../docstring of abaqus.Assembly.PartInstanceArray.PartInstance.elementFaces:1
 msgid "A MeshFaceArray object."
 msgstr ""
 
-#: ../../../docstring of abaqus.Assembly.PartInstanceArray.PartInstance.excludedFromSimulation:1
+#: ../../../../docstring of abaqus.Assembly.PartInstanceArray.PartInstance.excludedFromSimulation:1
 msgid "A Boolean specifying whether the part instance is excluded from the simulation. If **excludedFromSimulation** = ON, the part instance is excluded from the simulation. The default value is OFF."
 msgstr ""
 
-#: ../../../docstring of abaqus.Assembly.PartInstanceArray.PartInstance.faces:1
+#: ../../../../docstring of abaqus.Assembly.PartInstanceArray.PartInstance.faces:1
 msgid "A FaceArray object."
 msgstr ""
 
-#: ../../../docstring of abaqus.Assembly.PartInstanceArray.PartInstance.geometryValidity:1
+#: ../../../../docstring of abaqus.Assembly.PartInstanceArray.PartInstance.geometryValidity:1
 msgid "A Boolean specifying the validity of the geometry of the instance. The value is computed, but it can be set to ON to perform feature and mesh operations on an invalid instance. There is no guarantee that such operations will work if the instance was originally invalid."
 msgstr ""
 
@@ -1800,23 +1800,23 @@ msgstr ""
 msgid ":class:`Tuple[float`, :class:`float`, :class:`float]`"
 msgstr ""
 
-#: ../../../docstring of abaqus.Assembly.PartInstanceArray.PartInstance.ignoredEdges:1
+#: ../../../../docstring of abaqus.Assembly.PartInstanceArray.PartInstance.ignoredEdges:1
 msgid "An IgnoredEdgeArray object."
 msgstr ""
 
-#: ../../../docstring of abaqus.Assembly.PartInstanceArray.PartInstance.ignoredVertices:1
+#: ../../../../docstring of abaqus.Assembly.PartInstanceArray.PartInstance.ignoredVertices:1
 msgid "An IgnoredVertexArray object."
 msgstr ""
 
-#: ../../../docstring of abaqus.Assembly.PartInstanceArray.PartInstance.part:1
+#: ../../../../docstring of abaqus.Assembly.PartInstanceArray.PartInstance.part:1
 msgid "A Part object specifying the instanced part."
 msgstr ""
 
-#: ../../../docstring of abaqus.Assembly.PartInstanceArray.PartInstance.partName:1
+#: ../../../../docstring of abaqus.Assembly.PartInstanceArray.PartInstance.partName:1
 msgid "A String specifying the name of the part from which the instance was created."
 msgstr ""
 
-#: ../../../docstring of abaqus.Assembly.PartInstanceArray.PartInstance.referenceNode:1
+#: ../../../../docstring of abaqus.Assembly.PartInstanceArray.PartInstance.referenceNode:1
 msgid "An Int specifying the reference node number. This member is valid only if **analysisType** = DISCRETE_RIGID_SURFACE or ANALYTIC_RIGID_SURFACE."
 msgstr ""
 
@@ -1844,19 +1844,19 @@ msgstr ""
 msgid "A sequence of three Floats specifying the direction vector of the axis."
 msgstr ""
 
-#: ../../../docstring of abaqus.Assembly.PartInstanceArray.PartInstance.sets:1
+#: ../../../../docstring of abaqus.Assembly.PartInstanceArray.PartInstance.sets:1
 msgid "A repository of Set objects specifying the sets created on the part. For more information, see Region commands."
 msgstr ""
 
-#: ../../../docstring of abaqus.Assembly.PartInstanceArray.PartInstance.skins:1
+#: ../../../../docstring of abaqus.Assembly.PartInstanceArray.PartInstance.skins:1
 msgid "A repository of Skin objects specifying the skins created on the part. For more information, see Region commands."
 msgstr ""
 
-#: ../../../docstring of abaqus.Assembly.PartInstanceArray.PartInstance.stringers:1
+#: ../../../../docstring of abaqus.Assembly.PartInstanceArray.PartInstance.stringers:1
 msgid "A repository of Stringer objects specifying the stringers created on the part. For more information, see Region commands."
 msgstr ""
 
-#: ../../../docstring of abaqus.Assembly.PartInstanceArray.PartInstance.surfaces:1
+#: ../../../../docstring of abaqus.Assembly.PartInstanceArray.PartInstance.surfaces:1
 msgid "A repository of Surface objects specifying the surfaces created on the part. For more information, see Region commands."
 msgstr ""
 
