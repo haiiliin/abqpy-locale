@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: abqpy 2016\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-24 15:22+0000\n"
+"POT-Creation-Date: 2023-05-28 03:54+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -959,17 +959,6 @@ msgid "**sketch** -- A ConstrainedSketch object."
 msgstr ""
 
 #: ../../../../../src/abaqus/Sketcher/ConstrainedSketch.py:docstring of abaqus.Sketcher.ConstrainedSketch.ConstrainedSketch.ConstrainedSketchFromGeometryFile:15
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/ConstrainedSketchConstraintModel.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.ConstrainedSketchConstraintModel.ConstrainedSketchConstraintModel.CoincidentConstraint:19
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/ConstrainedSketchConstraintModel.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.ConstrainedSketchConstraintModel.ConstrainedSketchConstraintModel.ConcentricConstraint:21
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/ConstrainedSketchConstraintModel.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.ConstrainedSketchConstraintModel.ConstrainedSketchConstraintModel.EqualDistanceConstraint:24
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/ConstrainedSketchConstraintModel.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.ConstrainedSketchConstraintModel.ConstrainedSketchConstraintModel.EqualLengthConstraint:18
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/ConstrainedSketchConstraintModel.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.ConstrainedSketchConstraintModel.ConstrainedSketchConstraintModel.EqualRadiusConstraint:18
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/ConstrainedSketchConstraintModel.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.ConstrainedSketchConstraintModel.ConstrainedSketchConstraintModel.FixedConstraint:18
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/ConstrainedSketchConstraintModel.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.ConstrainedSketchConstraintModel.ConstrainedSketchConstraintModel.HorizontalConstraint:16
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/ConstrainedSketchConstraintModel.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.ConstrainedSketchConstraintModel.ConstrainedSketchConstraintModel.ParallelConstraint:18
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/ConstrainedSketchConstraintModel.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.ConstrainedSketchConstraintModel.ConstrainedSketchConstraintModel.PerpendicularConstraint:18
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/ConstrainedSketchConstraintModel.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.ConstrainedSketchConstraintModel.ConstrainedSketchConstraintModel.TangentConstraint:18
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/ConstrainedSketchConstraintModel.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.ConstrainedSketchConstraintModel.ConstrainedSketchConstraintModel.VerticalConstraint:16
 #: ../../../../../src/abaqus/Sketcher/ConstrainedSketchParameter/Parameter.py:docstring of abaqus.Sketcher.ConstrainedSketchParameter.Parameter.Parameter:23
 #: ../../../../../src/abaqus/Sketcher/SketchModel.py:docstring of abaqus.Sketcher.SketchModel.SketchModel.ConstrainedSketch:28
 msgid ":class:`ConstrainedSketch`"
@@ -992,17 +981,6 @@ msgid "An AcisFile object specifying a file containing geometry. The geometry in
 msgstr ""
 
 #: ../../../../../src/abaqus/Sketcher/ConstrainedSketch.py:docstring of abaqus.Sketcher.ConstrainedSketch.ConstrainedSketch.ConstrainedSketchFromGeometryFile:14
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/ConstrainedSketchConstraintModel.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.ConstrainedSketchConstraintModel.ConstrainedSketchConstraintModel.CoincidentConstraint:18
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/ConstrainedSketchConstraintModel.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.ConstrainedSketchConstraintModel.ConstrainedSketchConstraintModel.ConcentricConstraint:20
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/ConstrainedSketchConstraintModel.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.ConstrainedSketchConstraintModel.ConstrainedSketchConstraintModel.EqualDistanceConstraint:23
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/ConstrainedSketchConstraintModel.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.ConstrainedSketchConstraintModel.ConstrainedSketchConstraintModel.EqualLengthConstraint:17
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/ConstrainedSketchConstraintModel.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.ConstrainedSketchConstraintModel.ConstrainedSketchConstraintModel.EqualRadiusConstraint:17
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/ConstrainedSketchConstraintModel.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.ConstrainedSketchConstraintModel.ConstrainedSketchConstraintModel.FixedConstraint:17
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/ConstrainedSketchConstraintModel.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.ConstrainedSketchConstraintModel.ConstrainedSketchConstraintModel.HorizontalConstraint:15
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/ConstrainedSketchConstraintModel.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.ConstrainedSketchConstraintModel.ConstrainedSketchConstraintModel.ParallelConstraint:17
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/ConstrainedSketchConstraintModel.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.ConstrainedSketchConstraintModel.ConstrainedSketchConstraintModel.PerpendicularConstraint:17
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/ConstrainedSketchConstraintModel.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.ConstrainedSketchConstraintModel.ConstrainedSketchConstraintModel.TangentConstraint:17
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/ConstrainedSketchConstraintModel.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.ConstrainedSketchConstraintModel.ConstrainedSketchConstraintModel.VerticalConstraint:15
 msgid "**sketch** -- A ConstrainedSketch object"
 msgstr ""
 
@@ -1591,6 +1569,45 @@ msgstr ""
 #: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/CoincidentConstraint.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.CoincidentConstraint.CoincidentConstraint:13
 #: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/ConstrainedSketchConstraintModel.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.ConstrainedSketchConstraintModel.ConstrainedSketchConstraintModel.CoincidentConstraint:16
 msgid "A ConstrainedSketchGeometry object or a ConstrainedSketchVertex object specifying the second object."
+msgstr ""
+
+#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/ConstrainedSketchConstraintModel.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.ConstrainedSketchConstraintModel.ConstrainedSketchConstraintModel.CoincidentConstraint:18
+#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/ConstrainedSketchConstraintModel.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.ConstrainedSketchConstraintModel.ConstrainedSketchConstraintModel.ConcentricConstraint:20
+#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/ConstrainedSketchConstraintModel.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.ConstrainedSketchConstraintModel.ConstrainedSketchConstraintModel.EqualDistanceConstraint:23
+#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/ConstrainedSketchConstraintModel.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.ConstrainedSketchConstraintModel.ConstrainedSketchConstraintModel.EqualLengthConstraint:17
+#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/ConstrainedSketchConstraintModel.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.ConstrainedSketchConstraintModel.ConstrainedSketchConstraintModel.EqualRadiusConstraint:17
+#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/ConstrainedSketchConstraintModel.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.ConstrainedSketchConstraintModel.ConstrainedSketchConstraintModel.FixedConstraint:17
+#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/ConstrainedSketchConstraintModel.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.ConstrainedSketchConstraintModel.ConstrainedSketchConstraintModel.HorizontalConstraint:15
+#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/ConstrainedSketchConstraintModel.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.ConstrainedSketchConstraintModel.ConstrainedSketchConstraintModel.ParallelConstraint:17
+#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/ConstrainedSketchConstraintModel.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.ConstrainedSketchConstraintModel.ConstrainedSketchConstraintModel.PerpendicularConstraint:17
+#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/ConstrainedSketchConstraintModel.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.ConstrainedSketchConstraintModel.ConstrainedSketchConstraintModel.TangentConstraint:17
+#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/ConstrainedSketchConstraintModel.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.ConstrainedSketchConstraintModel.ConstrainedSketchConstraintModel.VerticalConstraint:15
+msgid "**constraint** -- A ConstrainedSketchConstraint object"
+msgstr ""
+
+#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/CoincidentConstraint.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.CoincidentConstraint.CoincidentConstraint:16
+#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/ConcentricConstraint.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.ConcentricConstraint.ConcentricConstraint:18
+#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/ConstrainedSketchConstraintModel.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.ConstrainedSketchConstraintModel.ConstrainedSketchConstraintModel.CoincidentConstraint:19
+#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/ConstrainedSketchConstraintModel.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.ConstrainedSketchConstraintModel.ConstrainedSketchConstraintModel.ConcentricConstraint:21
+#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/ConstrainedSketchConstraintModel.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.ConstrainedSketchConstraintModel.ConstrainedSketchConstraintModel.EqualDistanceConstraint:24
+#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/ConstrainedSketchConstraintModel.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.ConstrainedSketchConstraintModel.ConstrainedSketchConstraintModel.EqualLengthConstraint:18
+#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/ConstrainedSketchConstraintModel.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.ConstrainedSketchConstraintModel.ConstrainedSketchConstraintModel.EqualRadiusConstraint:18
+#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/ConstrainedSketchConstraintModel.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.ConstrainedSketchConstraintModel.ConstrainedSketchConstraintModel.FixedConstraint:18
+#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/ConstrainedSketchConstraintModel.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.ConstrainedSketchConstraintModel.ConstrainedSketchConstraintModel.HorizontalConstraint:16
+#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/ConstrainedSketchConstraintModel.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.ConstrainedSketchConstraintModel.ConstrainedSketchConstraintModel.ParallelConstraint:18
+#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/ConstrainedSketchConstraintModel.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.ConstrainedSketchConstraintModel.ConstrainedSketchConstraintModel.PerpendicularConstraint:18
+#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/ConstrainedSketchConstraintModel.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.ConstrainedSketchConstraintModel.ConstrainedSketchConstraintModel.TangentConstraint:18
+#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/ConstrainedSketchConstraintModel.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.ConstrainedSketchConstraintModel.ConstrainedSketchConstraintModel.VerticalConstraint:16
+#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/EqualDistanceConstraint.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.EqualDistanceConstraint.EqualDistanceConstraint:21
+#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/EqualLengthConstraint.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.EqualLengthConstraint.EqualLengthConstraint:15
+#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/EqualRadiusConstraint.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.EqualRadiusConstraint.EqualRadiusConstraint:15
+#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/FixedConstraint.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.FixedConstraint.FixedConstraint:15
+#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/HorizontalConstraint.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.HorizontalConstraint.HorizontalConstraint:13
+#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/ParallelConstraint.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.ParallelConstraint.ParallelConstraint:15
+#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/PerpendicularConstraint.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.PerpendicularConstraint.PerpendicularConstraint:15
+#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/TangentConstraint.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.TangentConstraint.TangentConstraint:15
+#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/VerticalConstraint.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.VerticalConstraint.VerticalConstraint:13
+msgid ":class:`ConstrainedSketchConstraint`"
 msgstr ""
 
 #: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/ConcentricConstraint.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.ConcentricConstraint.ConcentricConstraint:1
@@ -2333,7 +2350,7 @@ msgid "A String specifying the name of the previous ConstrainedSketchParameter, 
 msgstr ""
 
 #: ../../../../../src/abaqus/Sketcher/ConstrainedSketchParameter/ConstrainedSketchParameterModel.py:docstring of abaqus.Sketcher.ConstrainedSketchParameter.ConstrainedSketchParameterModel.ConstrainedSketchParameterModel.ConstrainedSketchParameter:25
-msgid "**obj** -- A ConstrainedSketchParameter object"
+msgid "**parameter** -- A ConstrainedSketchParameter object"
 msgstr ""
 
 #: ../../../../../src/abaqus/Sketcher/ConstrainedSketchParameter/ConstrainedSketchParameter.py:docstring of abaqus.Sketcher.ConstrainedSketchParameter.ConstrainedSketchParameter.ConstrainedSketchParameter.Parameter:26
@@ -2685,20 +2702,6 @@ msgstr ""
 #: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/TangentConstraint.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.TangentConstraint.TangentConstraint:14
 #: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/VerticalConstraint.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.VerticalConstraint.VerticalConstraint:12
 msgid "A ConstrainedSketchConstraint object."
-msgstr ""
-
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/CoincidentConstraint.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.CoincidentConstraint.CoincidentConstraint:16
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/ConcentricConstraint.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.ConcentricConstraint.ConcentricConstraint:18
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/EqualDistanceConstraint.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.EqualDistanceConstraint.EqualDistanceConstraint:21
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/EqualLengthConstraint.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.EqualLengthConstraint.EqualLengthConstraint:15
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/EqualRadiusConstraint.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.EqualRadiusConstraint.EqualRadiusConstraint:15
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/FixedConstraint.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.FixedConstraint.FixedConstraint:15
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/HorizontalConstraint.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.HorizontalConstraint.HorizontalConstraint:13
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/ParallelConstraint.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.ParallelConstraint.ParallelConstraint:15
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/PerpendicularConstraint.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.PerpendicularConstraint.PerpendicularConstraint:15
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/TangentConstraint.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.TangentConstraint.TangentConstraint:15
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/VerticalConstraint.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.VerticalConstraint.VerticalConstraint:13
-msgid ":class:`ConstrainedSketchConstraint`"
 msgstr ""
 
 #: ../../../../../src/abaqus/Sketcher/ConstrainedSketchDimension/AngularDimension.py:docstring of abaqus.Sketcher.ConstrainedSketchDimension.AngularDimension.AngularDimension:1
