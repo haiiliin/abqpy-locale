@@ -8,30 +8,30 @@ msgid ""
 msgstr ""
 "Project-Id-Version: abqpy \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-30 00:31+0000\n"
+"POT-Creation-Date: 2023-06-19 11:01+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.3\n"
+"Generated-By: Babel 2.12.1\n"
 
-#: ../../user/environment/use-pde.md:1
+#: ../../../user/environment/use-pde.md:1
 msgid "Using the Abaqus PDE"
 msgstr ""
 
-#: ../../user/environment/use-pde.md:3
+#: ../../../user/environment/use-pde.md:3
 msgid ""
 "The following sections contain detailed information that you can use to "
 "create and work with files in the Abaqus PDE."
 msgstr ""
 
-#: ../../user/environment/use-pde.md:5
+#: ../../../user/environment/use-pde.md:5
 msgid "Creating .guiLog files"
 msgstr ""
 
-#: ../../user/environment/use-pde.md:7
+#: ../../../user/environment/use-pde.md:7
 msgid ""
 "The Abaqus PDE is designed to work any type of Python files, including "
 "`.guiLog` files. A `.guiLog` is a Python script that records actions in "
@@ -39,7 +39,7 @@ msgid ""
 "click, dialog box entry, and menu, tool, or viewport selection."
 msgstr ""
 
-#: ../../user/environment/use-pde.md:9
+#: ../../../user/environment/use-pde.md:9
 msgid ""
 "To record actions from Abaqus/CAE, the Abaqus PDE session must be "
 "associated with a Abaqus/CAE session. The Abaqus PDE and Abaqus/CAE "
@@ -51,34 +51,34 @@ msgid ""
 "pdestart.htm?contextscope=all)."
 msgstr ""
 
-#: ../../user/environment/use-pde.md:11
+#: ../../../user/environment/use-pde.md:11
 msgid ""
 "From the main menu bar in the Abaqus PDE, select FileNew to create a new "
 "empty file in the main window."
 msgstr ""
 
-#: ../../user/environment/use-pde.md:13
+#: ../../../user/environment/use-pde.md:13
 msgid ""
-"**Tip:** You can also click the New guiLog icon  to create a new `.guiLog`"
-" file."
+"**Tip:** You can also click the New guiLog icon to create a new `.guiLog` "
+"file."
 msgstr ""
 
-#: ../../user/environment/use-pde.md:15
+#: ../../../user/environment/use-pde.md:15
 msgid ""
 "Click the Start Recording icon to begin recording actions from Abaqus/CAE."
 msgstr ""
 
-#: ../../user/environment/use-pde.md:17
+#: ../../../user/environment/use-pde.md:17
 msgid "Abaqus writes the following two lines to begin the file:"
 msgstr ""
 
-#: ../../user/environment/use-pde.md:24
+#: ../../../user/environment/use-pde.md:24
 msgid ""
 "Complete all the desired actions in the Abaqus/CAE session to record them "
 "in the .guiLog file."
 msgstr ""
 
-#: ../../user/environment/use-pde.md:27
+#: ../../../user/environment/use-pde.md:27
 msgid ""
 "When you record .guiLog files, do not use mouse button 2 to close the "
 "dialog box for a procedure. Instead, use the buttons in the dialog box to "
@@ -88,11 +88,11 @@ msgid ""
 "script is played."
 msgstr ""
 
-#: ../../user/environment/use-pde.md:30
-msgid "Click the Stop Recording icon  to stop recording."
+#: ../../../user/environment/use-pde.md:30
+msgid "Click the Stop Recording icon to stop recording."
 msgstr ""
 
-#: ../../user/environment/use-pde.md:32
+#: ../../../user/environment/use-pde.md:32
 msgid ""
 "Use standard text editing techniques to edit the file in the main window. "
 "Additional editing tools are available in the Edit menu (for more "
@@ -101,24 +101,24 @@ msgid ""
 "pdeedit.htm?contextscope=all).)"
 msgstr ""
 
-#: ../../user/environment/use-pde.md:34
+#: ../../../user/environment/use-pde.md:34
 msgid ""
 "To add more recorded commands to the file, position the cursor at the "
 "desired location or click End of Main File to position the cursor at the "
 "end of the file, then repeat Step 2 through Step 4."
 msgstr ""
 
-#: ../../user/environment/use-pde.md:36
+#: ../../../user/environment/use-pde.md:36
 msgid ""
 "Select FileSave to save the file or FileSave As to save the file with a "
 "new name; new files automatically use Save As."
 msgstr ""
 
-#: ../../user/environment/use-pde.md:38
+#: ../../../user/environment/use-pde.md:38
 msgid "Running a script"
 msgstr ""
 
-#: ../../user/environment/use-pde.md:40
+#: ../../../user/environment/use-pde.md:40
 msgid ""
 "The Abaqus PDE runs scripts using one of three processes - GUI, kernel, or"
 " local. By default, `.guiLog` files are run in the Abaqus/CAE GUI process."
@@ -134,7 +134,7 @@ msgid ""
 "process, Abaqus PDE will start Abaqus/CAE to run the script."
 msgstr ""
 
-#: ../../user/environment/use-pde.md:42
+#: ../../../user/environment/use-pde.md:42
 msgid ""
 "To run the main file, click **Play** above the main window. The Abaqus PDE"
 " runs the main file until it completes, encounters an error, or reaches a "
@@ -142,7 +142,7 @@ msgid ""
 "to the **Line Animation** settings."
 msgstr ""
 
-#: ../../user/environment/use-pde.md:44
+#: ../../../user/environment/use-pde.md:44
 msgid ""
 "Use the other buttons - **Next Line**, **Stop**, **Go to Start**, and **Go"
 " to End** - to execute the main file one line at a time, stop running the "
@@ -150,7 +150,7 @@ msgid ""
 "respectively."
 msgstr ""
 
-#: ../../user/environment/use-pde.md:46
+#: ../../../user/environment/use-pde.md:46
 msgid ""
 "As you run a script, you might want to specify a breakpoint to pause "
 "script execution at a particular line. For more information about "
@@ -159,16 +159,16 @@ msgid ""
 "pdebreakpoint.htm?contextscope=all)."
 msgstr ""
 
-#: ../../user/environment/use-pde.md:48
+#: ../../../user/environment/use-pde.md:48
 msgid "Using the debugger"
 msgstr ""
 
-#: ../../user/environment/use-pde.md:50
+#: ../../../user/environment/use-pde.md:50
 msgid ""
 "You can use the debugger in the Abaqus PDE to troubleshoot your scripts."
 msgstr ""
 
-#: ../../user/environment/use-pde.md:52
+#: ../../../user/environment/use-pde.md:52
 msgid ""
 "To open the debugger, select **Window -> Debugger** or click **Start "
 "debugger**. If you have a script paused in the main window, the debugger "
@@ -177,7 +177,7 @@ msgid ""
 "positions the cursor at the start of the script."
 msgstr ""
 
-#: ../../user/environment/use-pde.md:54
+#: ../../../user/environment/use-pde.md:54
 msgid ""
 "The debugger consists of a call stack area, action buttons, and the "
 "debugger command line interface (CLI) window, as shown in {numref}`cmd-"
@@ -185,11 +185,11 @@ msgid ""
 "window and the message area."
 msgstr ""
 
-#: ../../user/environment/use-pde.md:62
+#: ../../../user/environment/use-pde.md:62
 msgid "The Abaqus PDE debugger."
 msgstr ""
 
-#: ../../user/environment/use-pde.md:65
+#: ../../../user/environment/use-pde.md:65
 msgid ""
 "The debugger uses a custom Python module named atxPdb, based on the Python"
 " pdb module. You can enter Pdb commands in the debugger CLI; you can also "
@@ -198,18 +198,18 @@ msgid ""
 "current script (for more information, see [running a script])."
 msgstr ""
 
-#: ../../user/environment/use-pde.md:68
+#: ../../../user/environment/use-pde.md:68
 msgid ""
 "If you enter a command in the debugger CLI and it does not seem to work, "
 "it may be conflicting with a Pdb command."
 msgstr ""
 
-#: ../../user/environment/use-pde.md:71
+#: ../../../user/environment/use-pde.md:71
 msgid ""
 "The call stack area shows the commands that are currently being executed."
 msgstr ""
 
-#: ../../user/environment/use-pde.md:73
+#: ../../../user/environment/use-pde.md:73
 msgid ""
 "The debugger contains a tool to watch variables as scripts are executed. "
 "To add a variable to the watch list, click mouse button 3 over the "
@@ -226,13 +226,13 @@ msgid ""
 "debugger or below the main window if the debugger is not open."
 msgstr ""
 
-#: ../../user/environment/use-pde.md:75
+#: ../../../user/environment/use-pde.md:75
 msgid ""
 "You can also customize the following aspects of variable display in the "
 "Watch **List**:"
 msgstr ""
 
-#: ../../user/environment/use-pde.md:77
+#: ../../../user/environment/use-pde.md:77
 msgid ""
 "You can switch a variable's display format between repr and str formats. "
 "The `repr()` function returns a string that is better suited to being read"
@@ -242,7 +242,7 @@ msgid ""
 "(<https://www.python.org>)."
 msgstr ""
 
-#: ../../user/environment/use-pde.md:79
+#: ../../../user/environment/use-pde.md:79
 msgid ""
 "To toggle between these settings, click mouse button 3 on a watch variable"
 " row and **select Display repr (not str) value of variable name or Display"
@@ -253,7 +253,7 @@ msgid ""
 "running."
 msgstr ""
 
-#: ../../user/environment/use-pde.md:81
+#: ../../../user/environment/use-pde.md:81
 msgid ""
 "You can prompt the Abaqus PDE to pause when the program reaches a line in "
 "which the value of a selected watch variable has changed. To toggle on the"
@@ -263,40 +263,40 @@ msgid ""
 "PDE stops at the line after the change."
 msgstr ""
 
-#: ../../user/environment/use-pde.md:83
+#: ../../../user/environment/use-pde.md:83
 msgid ""
 "You can remove any watch variables from the debugger by clicking mouse "
 "button 3 on the variable's line and selecting **Delete watch var variable "
 "name** from the list that appears."
 msgstr ""
 
-#: ../../user/environment/use-pde.md:85
+#: ../../../user/environment/use-pde.md:85
 msgid "Using breakpoints"
 msgstr ""
 
-#: ../../user/environment/use-pde.md:87
+#: ../../../user/environment/use-pde.md:87
 msgid ""
 "Breakpoints are points where script execution pauses until you select Play"
 " or **Next Line** above the main window."
 msgstr ""
 
-#: ../../user/environment/use-pde.md:89
+#: ../../../user/environment/use-pde.md:89
 msgid ""
 "You can add breakpoints at any line in a script. Breakpoints also allow "
 "you to pause plug-ins and custom applications so you can trace their "
 "execution."
 msgstr ""
 
-#: ../../user/environment/use-pde.md:91
+#: ../../../user/environment/use-pde.md:91
 msgid ""
 "To add a breakpoint, position the cursor on the desired line of the "
 "script, click mouse button 3, and select **Add Breakpoint**. Use the same "
 "process, selecting **Remove Breakpoint**, to remove breakpoints. You can "
-"also add and remove breakpoints using the breakpoint tool  located above "
+"also add and remove breakpoints using the breakpoint tool located above "
 "the main window or the F9 key."
 msgstr ""
 
-#: ../../user/environment/use-pde.md:93
+#: ../../../user/environment/use-pde.md:93
 msgid ""
 "Breakpoints are indicated by an asterisk to the right of the line number "
 "in the Abaqus PDE. If syntax colors are active, the line number, asterisk,"
@@ -306,7 +306,7 @@ msgid ""
 "RefMap/simacmd-c-pdesettings.htm?contextscope=all))."
 msgstr ""
 
-#: ../../user/environment/use-pde.md:95
+#: ../../../user/environment/use-pde.md:95
 msgid ""
 "You can review breakpoints in all open files by selecting **Window -> "
 "Debug Windows -> Breakpoints List**. The **Abaqus PDE Breakpoints** dialog"
@@ -315,11 +315,11 @@ msgid ""
 "main window at the selected breakpoint."
 msgstr ""
 
-#: ../../user/environment/use-pde.md:97
+#: ../../../user/environment/use-pde.md:97
 msgid "Using the Abaqus PDE with plug-ins"
 msgstr ""
 
-#: ../../user/environment/use-pde.md:99
+#: ../../../user/environment/use-pde.md:99
 msgid ""
 "The functions and tools in the Abaqus PDE work the same way for plug-ins "
 "as they do for other scripts. However, since plug-ins are launched within "
@@ -328,7 +328,7 @@ msgid ""
 "usual."
 msgstr ""
 
-#: ../../user/environment/use-pde.md:101
+#: ../../../user/environment/use-pde.md:101
 msgid ""
 "If the plug-in contains both kernel and GUI functions, you must trace them"
 " separately. Tracing the kernel and GUI functions separately prevents "
@@ -338,44 +338,46 @@ msgid ""
 "kernel code versus ones in the user interface."
 msgstr ""
 
-#: ../../user/environment/use-pde.md:103
+#: ../../../user/environment/use-pde.md:103
 msgid ""
 "After you save the changes to your plug-in, you can trace its execution."
 msgstr ""
 
-#: ../../user/environment/use-pde.md:105 ../../user/environment/use-pde.md:133
+#: ../../../user/environment/use-pde.md:105
+#: ../../../user/environment/use-pde.md:133
 msgid "Open the file that you want to debug."
 msgstr ""
 
-#: ../../user/environment/use-pde.md:107 ../../user/environment/use-pde.md:135
+#: ../../../user/environment/use-pde.md:107
+#: ../../../user/environment/use-pde.md:135
 msgid ""
 "Position the cursor where you want to add a breakpoint. Click mouse button"
 " 3, and select **Add Breakpoint**. (For more information, see [using "
 "breakpoints].)"
 msgstr ""
 
-#: ../../user/environment/use-pde.md:109
+#: ../../../user/environment/use-pde.md:109
 msgid "Start the plug-in from within Abaqus/CAE."
 msgstr ""
 
-#: ../../user/environment/use-pde.md:111
+#: ../../../user/environment/use-pde.md:111
 msgid ""
 "The plug-in code appears in the Abaqus PDE window, stopped at the "
 "breakpoint or at the line immediately following the start trace statement,"
 " if you added one."
 msgstr ""
 
-#: ../../user/environment/use-pde.md:113
+#: ../../../user/environment/use-pde.md:113
 msgid ""
 "Use the Abaqus PDE controls and options described in the previous sections"
 " to step through the execution of the plug-in."
 msgstr ""
 
-#: ../../user/environment/use-pde.md:115
+#: ../../../user/environment/use-pde.md:115
 msgid "Using the Abaqus PDE with custom applications"
 msgstr ""
 
-#: ../../user/environment/use-pde.md:117
+#: ../../../user/environment/use-pde.md:117
 msgid ""
 "Custom applications are scripts created to modify or add functionality to "
 "Abaqus/CAE. They typically use a combination of the Abaqus Scripting "
@@ -385,7 +387,7 @@ msgid ""
 "integrated into the existing functionality."
 msgstr ""
 
-#: ../../user/environment/use-pde.md:119
+#: ../../../user/environment/use-pde.md:119
 msgid ""
 "If the application contains both kernel and GUI functions, you must trace "
 "them separately. Tracing the kernel and GUI functions separately prevents "
@@ -395,13 +397,13 @@ msgid ""
 "kernel code versus ones in the GUI code."
 msgstr ""
 
-#: ../../user/environment/use-pde.md:121
+#: ../../../user/environment/use-pde.md:121
 msgid ""
 "Enter the following at a command prompt to start the Abaqus PDE and the "
 "custom application:"
 msgstr ""
 
-#: ../../user/environment/use-pde.md:127
+#: ../../../user/environment/use-pde.md:127
 msgid ""
 "where **abaqus** is the command you use to start Abaqus and **args** are "
 "the arguments required to start the custom application. For example, if "
@@ -409,32 +411,53 @@ msgid ""
 "application, enter `abaqus pde -pde -custom xxx.py`."
 msgstr ""
 
-#: ../../user/environment/use-pde.md:129
+#: ../../../user/environment/use-pde.md:129
 msgid "Note:"
 msgstr ""
 
-#: ../../user/environment/use-pde.md:131
+#: ../../../user/environment/use-pde.md:131
 msgid ""
 "You cannot start the custom application and launch the Abaqus PDE from "
 "within Abaqus/CAE since the initial startup processes would already be "
 "complete."
 msgstr ""
 
-#: ../../user/environment/use-pde.md:137
+#: ../../../user/environment/use-pde.md:137
 msgid ""
 "Click **Start CAE** at the top right of the Abaqus PDE to start Abaqus/CAE"
 " with the custom startup commands."
 msgstr ""
 
-#: ../../user/environment/use-pde.md:139
+#: ../../../user/environment/use-pde.md:139
 msgid ""
 "The application code appears in the Abaqus PDE window, stopped at a "
 "breakpoint."
 msgstr ""
 
-#: ../../user/environment/use-pde.md:141
+#: ../../../user/environment/use-pde.md:141
 msgid ""
 "Use the Abaqus PDE controls and options described in the previous sections"
 " to step through the execution of the custom application."
 msgstr ""
+
+#~ msgid ""
+#~ "**Tip:** You can also click the "
+#~ "New guiLog icon  to create a new"
+#~ " `.guiLog` file."
+#~ msgstr ""
+
+#~ msgid "Click the Stop Recording icon  to stop recording."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To add a breakpoint, position the "
+#~ "cursor on the desired line of the"
+#~ " script, click mouse button 3, and"
+#~ " select **Add Breakpoint**. Use the "
+#~ "same process, selecting **Remove Breakpoint**,"
+#~ " to remove breakpoints. You can also"
+#~ " add and remove breakpoints using the"
+#~ " breakpoint tool  located above the "
+#~ "main window or the F9 key."
+#~ msgstr ""
 
