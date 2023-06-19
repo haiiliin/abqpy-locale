@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: abqpy 2020\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-15 05:55+0000\n"
+"POT-Creation-Date: 2023-06-19 10:29+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -369,74 +369,74 @@ msgstr ""
 msgid "If a statement breaks at any other place, you must include a \\\\ character at the end of the line to indicate that it is continued on the next line. For example,"
 msgstr ""
 
-#: ../../../user/python/introduction/python-basics.md:509
+#: ../../../user/python/introduction/python-basics.md:508
 msgid "When you are running Python from a local Linux or Windows window, the prompt changes to the . . . characters to indicate that you are on a continuation line. Comments in a Python script begin with the # character and continue to the end of the line."
 msgstr ""
 
-#: ../../../user/python/introduction/python-basics.md:517
+#: ../../../user/python/introduction/python-basics.md:516
 msgid "Printing variables using formatted output"
 msgstr ""
 
-#: ../../../user/python/introduction/python-basics.md:519
+#: ../../../user/python/introduction/python-basics.md:518
 msgid "Python provides a print function that displays the value of a variable. For example,"
 msgstr ""
 
-#: ../../../user/python/introduction/python-basics.md:530
+#: ../../../user/python/introduction/python-basics.md:529
 msgid "The string modulus operator % allows you to format your output. The %s operator in the following example converts the variables to strings."
 msgstr ""
 
-#: ../../../user/python/introduction/python-basics.md:537
+#: ../../../user/python/introduction/python-basics.md:536
 msgid "The `%f` operator specifies floating point notation and indicates the total number of characters to print and the number of decimal places."
 msgstr ""
 
-#: ../../../user/python/introduction/python-basics.md:544
+#: ../../../user/python/introduction/python-basics.md:543
 msgid "The `%E` operator specifies scientific notation and indicates the number of decimal places."
 msgstr ""
 
-#: ../../../user/python/introduction/python-basics.md:551
+#: ../../../user/python/introduction/python-basics.md:550
 msgid "The following list includes some additional useful printing operators. The `+` flag indicates that a number should include a sign."
 msgstr ""
 
-#: ../../../user/python/introduction/python-basics.md:554
+#: ../../../user/python/introduction/python-basics.md:553
 msgid "The `\\\\n` escape sequence inserts a new line."
 msgstr ""
 
-#: ../../../user/python/introduction/python-basics.md:556
+#: ../../../user/python/introduction/python-basics.md:555
 msgid "The `\\\\t` escape sequence inserts a tab character."
 msgstr ""
 
-#: ../../../user/python/introduction/python-basics.md:558
+#: ../../../user/python/introduction/python-basics.md:557
 msgid "For example,"
 msgstr ""
 
-#: ../../../user/python/introduction/python-basics.md:566
+#: ../../../user/python/introduction/python-basics.md:565
 msgid "Control blocks"
 msgstr ""
 
-#: ../../../user/python/introduction/python-basics.md:568
+#: ../../../user/python/introduction/python-basics.md:567
 msgid "Python does not use a special character, such as }, to signify the end of a control block such as an if statement. Instead, Python uses indentation to indicate the end of a control block. You define the indentation that governs a block. When your script returns to the original indentation, the block ends. For example,"
 msgstr ""
 
-#: ../../../user/python/introduction/python-basics.md:581
+#: ../../../user/python/introduction/python-basics.md:580
 msgid "When you are using the Python interpreter from the Abaqus/CAE command line interface or if you are running Python from a local Linux or Windows window, the prompt changes to the \"...\"\" characters to indicate that you are in a block controlled by indentation."
 msgstr ""
 
-#: ../../../user/python/introduction/python-basics.md:583
+#: ../../../user/python/introduction/python-basics.md:582
 msgid "if, elif, and else"
 msgstr ""
 
-#: ../../../user/python/introduction/python-basics.md:595
+#: ../../../user/python/introduction/python-basics.md:594
 msgid "while"
 msgstr ""
 
-#: ../../../user/python/introduction/python-basics.md:613
+#: ../../../user/python/introduction/python-basics.md:612
 msgid "Use `continue` to skip the rest of the loop and to go to the next iteration."
 msgstr ""
 
-#: ../../../user/python/introduction/python-basics.md:625
+#: ../../../user/python/introduction/python-basics.md:624
 msgid "for"
 msgstr ""
 
-#: ../../../user/python/introduction/python-basics.md:627
+#: ../../../user/python/introduction/python-basics.md:626
 msgid "Use a sequence to control the start and the end of for loops. The `range()` function is an easy way to create a sequence."
 msgstr ""
