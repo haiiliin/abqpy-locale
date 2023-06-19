@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: abqpy 2022\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-15 05:54+0000\n"
+"POT-Creation-Date: 2023-06-19 10:28+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -257,7 +257,7 @@ msgid "The `verifyMdb` method is used to verify the partial contents of a model 
 msgstr ""
 
 #: ../../../user/python/python-abaqus/extending.md:249
-msgid "When Abaqus opens a model database, its first action is to load only the mdb.\\`customData.appData\\` object and pass that object to each `verifyMdb` method registered in the session. If the model database has no appData, then Abaqus passes None to each `verifyMdb` method. Inside your `verifyMdb` method you can query the appData object to determine if you need to take any action, such as upgrading your data."
+msgid "When Abaqus opens a model database, its first action is to load only the `mdb.customData.appData` object and pass that object to each `verifyMdb` method registered in the session. If the model database has no appData, then Abaqus passes None to each `verifyMdb` method. Inside your `verifyMdb` method you can query the appData object to determine if you need to take any action, such as upgrading your data."
 msgstr ""
 
 #: ../../../user/python/python-abaqus/extending.md:251
