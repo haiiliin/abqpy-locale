@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: abqpy 2022\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-19 11:01+0000\n"
+"POT-Creation-Date: 2023-07-06 10:22+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -133,23 +133,59 @@ msgid "Run your Abaqus/Python script"
 msgstr ""
 
 #: ../../../getting_started.md:155
-msgid "Now you can just run your Abaqus/Python script using your own Python interpreter that `abqpy` is installed."
+msgid "Now you can run your Abaqus/Python script with the following methods:"
 msgstr ""
 
-#: ../../../getting_started.md:158
-msgid "`abqpy` does not support debugging since Abaqus does not provide a debugger for Python scripting outside Abaqus/CAE. If you run the script under the debug mode, the script will not be submitted to Abaqus, but it will run in the Python interpreter where `abqpy` is installed. Since `abqpy` does not implement the whole Abaqus/Python APIs, the script may not (and most likely) run correctly. However, for some simple scripts, it may work, in this way you can use the debugger to check the variables in the Abaqus API roughly. But still, the script will not be submitted to Abaqus."
+#: ../../../getting_started.md:157
+msgid "Open Abaqus/CAE and click `Run Script` in the menu bar, then select your script file, which is the most common way to run a Python script in Abaqus/CAE."
 msgstr ""
 
-#: ../../../getting_started.md:166
-#: ../../../getting_started.md:168
-msgid "Create an Abaqus Model"
+#: ../../../getting_started.md:159
+msgid "Use the `abaqus` command in the command line:"
 msgstr ""
 
-#: ../../../getting_started.md:174
-#: ../../../getting_started.md:176
-msgid "Extract Output Data"
+#: ../../../getting_started.md:163
+msgid "See [here](https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEEXCRefMap/simaexc-c-caeproc.htm?contextscope=all) for more information about the `abaqus` command."
+msgstr ""
+
+#: ../../../getting_started.md:165
+msgid "Use the `abqpy` command in the command line:"
+msgstr ""
+
+#: ../../../getting_started.md:169
+msgid "The advantage using `abqpy` command instead of using `abaqus` command directly is that you are able to customize the default python launch command. See {doc}`cli` for more information about the `abqpy` command."
+msgstr ""
+
+#: ../../../getting_started.md:171
+msgid "Use the Python 3 interpreter to run the script directly:"
+msgstr ""
+
+#: ../../../getting_started.md:175
+msgid "This is the most convenient way to run the script, it is equivalent to the `abqpy` command with some default predefined arguments."
+msgstr ""
+
+#: ../../../getting_started.md:177
+msgid "Use the {py:obj}`abqpy.cli.abaqus` object (an {py:obj}`abqpy.cli.AbqpyCLI` object) to run the script:"
 msgstr ""
 
 #: ../../../getting_started.md:182
+msgid "The {py:obj}`abqpy.cli.abaqus` object is the object used for the `abqpy` command, you can call the methods in this object directly to run the script. This method is convenient when you want to call the Abaqus/Python script in another Python script since typing annotations are provided for the methods, so you can check the docstring of the methods for more information."
+msgstr ""
+
+#: ../../../getting_started.md:188
+msgid "`abqpy` does not support debugging since Abaqus does not provide a debugger for Python scripting outside Abaqus/CAE. If you run the script under the debug mode, the script will not be submitted to Abaqus, but it will run in the Python interpreter where `abqpy` is installed. Since `abqpy` does not implement the whole Abaqus/Python APIs, the script may not (and most likely) run correctly. However, for some simple scripts, it may work, in this way you can use the debugger to check the variables in the Abaqus API roughly. But still, the script will not be submitted to Abaqus."
+msgstr ""
+
+#: ../../../getting_started.md:196
+#: ../../../getting_started.md:198
+msgid "Create an Abaqus Model"
+msgstr ""
+
+#: ../../../getting_started.md:204
+#: ../../../getting_started.md:206
+msgid "Extract Output Data"
+msgstr ""
+
+#: ../../../getting_started.md:212
 msgid "Comments"
 msgstr ""
