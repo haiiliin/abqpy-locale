@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version:  abqpy\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: "
-"2023-07-06 10:22+0000\nPO-Revision-Date: 2023-05-12 10:00+0000\nLast-"
+"2023-07-11 06:25+0000\nPO-Revision-Date: 2023-05-12 10:00+0000\nLast-"
 "Translator: Crowdin\nLanguage: zh_CN\nLanguage-Team: \nPlural-Forms: "
 "nplurals=1; plural=0;\nMIME-Version: 1.0\nContent-Type: text/plain; "
 "charset=utf-8\nContent-Transfer-Encoding: 8bit\nGenerated-By: Babel "
@@ -61,16 +61,13 @@ msgid "You can install `abqpy` with the following commands."
 msgstr "你可以使用以下命令安装 `abqpy`。"
 
 #: ../../../getting_started.md
-msgid "Install with pip"
-msgstr "使用 pip 安装"
+#, fuzzy
+msgid "Install from PyPI"
+msgstr "从源代码安装"
 
 #: ../../../getting_started.md
 msgid "Install from source"
 msgstr "从源代码安装"
-
-#: ../../../getting_started.md
-msgid "Install with jupyter notebook support"
-msgstr "安装支持 jupyter notebook 的 abqpy"
 
 #: ../../../getting_started.md:44
 msgid ""
@@ -364,4 +361,10 @@ msgstr "评论"
 #~ "Python interpreter that `abqpy` is "
 #~ "installed."
 #~ msgstr "现在你可以使用你自己的 Python 解释器来运行你的 Abaqus/Python 脚本。"
+
+#~ msgid "Install with pip"
+#~ msgstr "使用 pip 安装"
+
+#~ msgid "Install with jupyter notebook support"
+#~ msgstr "安装支持 jupyter notebook 的 abqpy"
 
