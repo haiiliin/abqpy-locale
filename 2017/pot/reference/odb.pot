@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: abqpy 2017\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-15 05:55+0000\n"
+"POT-Creation-Date: 2023-08-10 13:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -285,8 +285,8 @@ msgstr ""
 #: ../../../../../src/abaqus/Odb/OdbBase.py:docstring of abaqus.Odb.OdbBase.OdbBase.update:0
 #: ../../../../../src/abaqus/Odb/OdbCommands.py:docstring of abaqus.Odb.OdbCommands.AnalyticSurfaceProfile:0
 #: ../../../../../src/abaqus/Odb/OdbCommands.py:docstring of abaqus.Odb.OdbCommands.isUpgradeRequiredForOdb:0
-#: ../../../../../src/abaqus/Odb/OdbCommands.py:docstring of abaqus.Odb.OdbCommands.maxEnvelop:0
-#: ../../../../../src/abaqus/Odb/OdbCommands.py:docstring of abaqus.Odb.OdbCommands.minEnvelop:0
+#: ../../../../../src/abaqus/Odb/OdbCommands.py:docstring of abaqus.Odb.OdbCommands.maxEnvelope:0
+#: ../../../../../src/abaqus/Odb/OdbCommands.py:docstring of abaqus.Odb.OdbCommands.minEnvelope:0
 #: ../../../../../src/abaqus/Odb/OdbCommands.py:docstring of abaqus.Odb.OdbCommands.openOdb:0
 #: ../../../../../src/abaqus/Odb/OdbDatumCsys.py:docstring of abaqus.Odb.OdbDatumCsys.OdbDatumCsys.DatumCsys:0
 #: ../../../../../src/abaqus/Odb/OdbDatumCsys.py:docstring of abaqus.Odb.OdbDatumCsys.OdbDatumCsys.DatumCsysBy6dofNode:0
@@ -356,8 +356,8 @@ msgstr ""
 #: ../../../../../src/abaqus/Odb/OdbBase.py:docstring of abaqus.Odb.OdbBase.OdbBase.update:0
 #: ../../../../../src/abaqus/Odb/OdbCommands.py:docstring of abaqus.Odb.OdbCommands.AnalyticSurfaceProfile:0
 #: ../../../../../src/abaqus/Odb/OdbCommands.py:docstring of abaqus.Odb.OdbCommands.isUpgradeRequiredForOdb:0
-#: ../../../../../src/abaqus/Odb/OdbCommands.py:docstring of abaqus.Odb.OdbCommands.maxEnvelop:0
-#: ../../../../../src/abaqus/Odb/OdbCommands.py:docstring of abaqus.Odb.OdbCommands.minEnvelop:0
+#: ../../../../../src/abaqus/Odb/OdbCommands.py:docstring of abaqus.Odb.OdbCommands.maxEnvelope:0
+#: ../../../../../src/abaqus/Odb/OdbCommands.py:docstring of abaqus.Odb.OdbCommands.minEnvelope:0
 #: ../../../../../src/abaqus/Odb/OdbCommands.py:docstring of abaqus.Odb.OdbCommands.openOdb:0
 #: ../../../../../src/abaqus/Odb/OdbDatumCsys.py:docstring of abaqus.Odb.OdbDatumCsys.OdbDatumCsys.DatumCsys:0
 #: ../../../../../src/abaqus/Odb/OdbDatumCsys.py:docstring of abaqus.Odb.OdbDatumCsys.OdbDatumCsys.DatumCsysBy6dofNode:0
@@ -1262,8 +1262,8 @@ msgstr ""
 #: ../../../../../src/abaqus/Odb/OdbAssemblyBase.py:docstring of abaqus.Odb.OdbAssemblyBase.OdbAssemblyBase.addNodes:0
 #: ../../../../../src/abaqus/Odb/OdbBase.py:docstring of abaqus.Odb.OdbBase.OdbBase.getFrame:0
 #: ../../../../../src/abaqus/Odb/OdbBase.py:docstring of abaqus.Odb.OdbBase.OdbBase.save:0
-#: ../../../../../src/abaqus/Odb/OdbCommands.py:docstring of abaqus.Odb.OdbCommands.maxEnvelop:0
-#: ../../../../../src/abaqus/Odb/OdbCommands.py:docstring of abaqus.Odb.OdbCommands.minEnvelop:0
+#: ../../../../../src/abaqus/Odb/OdbCommands.py:docstring of abaqus.Odb.OdbCommands.maxEnvelope:0
+#: ../../../../../src/abaqus/Odb/OdbCommands.py:docstring of abaqus.Odb.OdbCommands.minEnvelope:0
 #: ../../../../../src/abaqus/Odb/OdbCommands.py:docstring of abaqus.Odb.OdbCommands.openOdb:0
 #: ../../../../../src/abaqus/Odb/OdbCommands.py:docstring of abaqus.Odb.OdbCommands.upgradeOdb:0
 #: ../../../../../src/abaqus/Odb/OdbInstanceBase.py:docstring of abaqus.Odb.OdbInstanceBase.OdbInstanceBase.AnalyticRigidSurf2DPlanar:0
@@ -3111,29 +3111,29 @@ msgstr ""
 msgid "A Boolean indicating the result of the test. A value of True indicates that the output database needs to be upgraded to the current release."
 msgstr ""
 
-#: ../../../../../src/abaqus/Odb/OdbCommands.py:docstring of abaqus.Odb.OdbCommands.maxEnvelop:1
+#: ../../../../../src/abaqus/Odb/OdbCommands.py:docstring of abaqus.Odb.OdbCommands.maxEnvelope:1
 msgid "Retrieve the maximum value of an output variable over a number of fields."
 msgstr ""
 
-#: ../../../../../src/abaqus/Odb/OdbCommands.py:docstring of abaqus.Odb.OdbCommands.maxEnvelop:3
+#: ../../../../../src/abaqus/Odb/OdbCommands.py:docstring of abaqus.Odb.OdbCommands.maxEnvelope:3
 msgid "A sequence of two fieldOutput objects. The first fieldOutput object contains the maximum value. The second fieldOutput object contains the index of the field containing the maximum value. The index follows the order in which fields are positioned in the list of fieldOutput objects provided as the argument to the function."
 msgstr ""
 
-#: ../../../../../src/abaqus/Odb/OdbCommands.py:docstring of abaqus.Odb.OdbCommands.maxEnvelop:7
-#: ../../../../../src/abaqus/Odb/OdbCommands.py:docstring of abaqus.Odb.OdbCommands.minEnvelop:7
+#: ../../../../../src/abaqus/Odb/OdbCommands.py:docstring of abaqus.Odb.OdbCommands.maxEnvelope:7
+#: ../../../../../src/abaqus/Odb/OdbCommands.py:docstring of abaqus.Odb.OdbCommands.minEnvelope:7
 msgid ":class:`Sequence[FieldOutput]`"
 msgstr ""
 
-#: ../../../../../src/abaqus/Odb/OdbCommands.py:docstring of abaqus.Odb.OdbCommands.maxEnvelop:10
-#: ../../../../../src/abaqus/Odb/OdbCommands.py:docstring of abaqus.Odb.OdbCommands.minEnvelop:10
+#: ../../../../../src/abaqus/Odb/OdbCommands.py:docstring of abaqus.Odb.OdbCommands.maxEnvelope:10
+#: ../../../../../src/abaqus/Odb/OdbCommands.py:docstring of abaqus.Odb.OdbCommands.minEnvelope:10
 msgid "This function takes no keyword arguments."
 msgstr ""
 
-#: ../../../../../src/abaqus/Odb/OdbCommands.py:docstring of abaqus.Odb.OdbCommands.minEnvelop:1
+#: ../../../../../src/abaqus/Odb/OdbCommands.py:docstring of abaqus.Odb.OdbCommands.minEnvelope:1
 msgid "Retrieve the minimum value of an output variable over a number of fields."
 msgstr ""
 
-#: ../../../../../src/abaqus/Odb/OdbCommands.py:docstring of abaqus.Odb.OdbCommands.minEnvelop:3
+#: ../../../../../src/abaqus/Odb/OdbCommands.py:docstring of abaqus.Odb.OdbCommands.minEnvelope:3
 msgid "A sequence of two fieldOutput objects. The first fieldOutput object contains the minimum value. The second fieldOutput object contains the index of the field containing the minimum value. The index follows the order in which fields are positioned in the list of fieldOutput objects provided as the argument to the function."
 msgstr ""
 
