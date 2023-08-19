@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: abqpy 2018\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-15 05:55+0000\n"
+"POT-Creation-Date: 2023-08-19 09:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1928,7 +1928,7 @@ msgid "A Dictionary object containing values for some number of the following ke
 msgstr ""
 
 #: ../../../../../src/abaqus/Mesh/MeshAssembly.py:docstring of abaqus.Mesh.MeshAssembly.MeshAssembly.verifyMeshQuality:68
-msgid ":class:`Dict[str`, :class:`int | float | MeshElement]`"
+msgid ":class:`dict[str`, :class:`int | float | MeshElement]`"
 msgstr ""
 
 #: ../../../../../src/abaqus/Mesh/MeshEdge.py:docstring of abaqus.Mesh.MeshEdge.MeshEdge:1
@@ -2102,7 +2102,7 @@ msgid "A tuple of MeshEdge objects."
 msgstr ""
 
 #: ../../../../../src/abaqus/Mesh/MeshElement.py:docstring of abaqus.Mesh.MeshElement.MeshElement.getElemEdges:4
-msgid ":class:`Tuple[MeshEdge]`"
+msgid ":class:`tuple[MeshEdge]`"
 msgstr ""
 
 #: ../../../../../src/abaqus/Mesh/MeshElement.py:docstring of abaqus.Mesh.MeshElement.MeshElement.getElemFaces:1
@@ -2110,7 +2110,7 @@ msgid "This method returns a tuple of unique element face objects on the element
 msgstr ""
 
 #: ../../../../../src/abaqus/Mesh/MeshElement.py:docstring of abaqus.Mesh.MeshElement.MeshElement.getElemFaces:4
-msgid ":class:`Tuple[MeshFace]`"
+msgid ":class:`tuple[MeshFace]`"
 msgstr ""
 
 #: ../../../../../src/abaqus/Mesh/MeshElement.py:docstring of abaqus.Mesh.MeshElement.MeshElement.getElementsByFeatureEdge:1
@@ -2133,7 +2133,7 @@ msgid "This method returns a tuple of node objects of the element."
 msgstr ""
 
 #: ../../../../../src/abaqus/Mesh/MeshElement.py:docstring of abaqus.Mesh.MeshElement.MeshElement.getNodes:4
-msgid ":class:`Tuple[MeshNode]`"
+msgid ":class:`tuple[MeshNode]`"
 msgstr ""
 
 #: ../../../../docstring of abaqus.Mesh.MeshPart.MeshElement.instanceName:1
@@ -2447,7 +2447,7 @@ msgstr ""
 
 #: ../../../../../src/abaqus/Mesh/MeshElementArray.py:docstring of abaqus.Mesh.MeshElementArray.MeshElementArray.getBoundingBox:10
 #: ../../../../../src/abaqus/Mesh/MeshNodeArray.py:docstring of abaqus.Mesh.MeshNodeArray.MeshNodeArray.getBoundingBox:10
-msgid ":class:`Dict[str`, :class:`Tuple[float`, :class:`float`, :class:`float]]`"
+msgid ":class:`dict[str`, :class:`tuple[float`, :class:`float`, :class:`float]]`"
 msgstr ""
 
 #: ../../../../../src/abaqus/Mesh/MeshElementArray.py:docstring of abaqus.Mesh.MeshElementArray.MeshElementArray.getByBoundingBox:1
@@ -2788,7 +2788,7 @@ msgid "A MeshNode, or a list of MeshNode objects, or a list of lists of MeshNode
 msgstr ""
 
 #: ../../../../../src/abaqus/Mesh/MeshNodeArray.py:docstring of abaqus.Mesh.MeshNodeArray.MeshNodeArray.getClosest:18
-msgid ":class:`MeshNode | List[MeshNode]`"
+msgid ":class:`MeshNode | list[MeshNode]`"
 msgstr ""
 
 #: ../../../../../src/abaqus/Mesh/MeshNodeArray.py:docstring of abaqus.Mesh.MeshNodeArray.MeshNodeArray.getFromLabel:1
@@ -3160,7 +3160,7 @@ msgid "A sequence of Region or MeshElement objects. If you do not specify the **
 msgstr ""
 
 #: ../../../../../src/abaqus/Mesh/MeshPart.py:docstring of abaqus.Mesh.MeshPart.MeshPart.verifyMeshQuality:69
-msgid ":class:`Dict[str`, :class:`int | float`, :class:`MeshElement]`"
+msgid ":class:`dict[str`, :class:`int | float`, :class:`MeshElement]`"
 msgstr ""
 
 #: ../../../../../src/abaqus/Mesh/MeshStats.py:docstring of abaqus.Mesh.MeshStats.MeshStats:1

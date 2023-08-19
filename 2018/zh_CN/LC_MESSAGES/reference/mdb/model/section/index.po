@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: abqpy 2018\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-24 15:23+0000\n"
+"POT-Creation-Date: 2023-08-19 09:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: zh_CN\n"
@@ -558,18 +558,6 @@ msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
 msgid ""
-":py:obj:`restartIncrement "
-"<abaqus.Model.ModelBase.ModelBase.restartIncrement>`\\"
-msgstr ""
-
-#: ../../../../None:52:<autosummary>:1
-msgid ""
-"An Int specifying the increment, interval, iteration or cycle where the "
-"restart analysis will start."
-msgstr ""
-
-#: ../../../../None:52:<autosummary>:1
-msgid ""
 ":py:obj:`endRestartStep "
 "<abaqus.Model.ModelBase.ModelBase.endRestartStep>`\\"
 msgstr ""
@@ -984,6 +972,18 @@ msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
 msgid "A repository of OptimizationTask objects."
+msgstr ""
+
+#: ../../../../None:52:<autosummary>:1
+msgid ""
+":py:obj:`restartIncrement "
+"<abaqus.Model.ModelBase.ModelBase.restartIncrement>`\\"
+msgstr ""
+
+#: ../../../../None:52:<autosummary>:1
+msgid ""
+"An Int specifying the increment, interval, iteration or cycle where the "
+"restart analysis will start."
 msgstr ""
 
 #: abaqus.Section.SectionModel.SectionModel
@@ -2431,7 +2431,6 @@ msgstr ""
 #: abaqus.Section.ConnectorSection.ConnectorSection.setValues:80
 #: abaqus.Section.SectionBase.SectionBase.behaviorOptions:1
 #: abaqus.Section.SectionModel.SectionModel.ConnectorSection:88
-#: abaqus.Section.SectionOdb.ConnectorSection.behaviorOptions:1
 #: abaqus.Section.SectionOdb.SectionOdb.ConnectorSection:88 of
 msgid "A ConnectorBehaviorOptionArray object."
 msgstr ""
@@ -3626,16 +3625,6 @@ msgid ""
 "value provided in **poisson**.The default value is DEFAULT."
 msgstr ""
 
-#: ../../../../docstring
-#: abaqus.Section.HomogeneousShellSection.GeometryShellSection.rebarLayers:1
-#: abaqus.Section.SectionOdb.CompositeShellSection.rebarLayers:1
-#: abaqus.Section.SectionOdb.GeneralStiffnessSection.rebarLayers:1
-#: abaqus.Section.SectionOdb.HomogeneousShellSection.rebarLayers:1
-#: abaqus.Section.SectionOdb.MembraneSection.rebarLayers:1
-#: abaqus.Section.SurfaceSection.SurfaceSection.rebarLayers:1 of
-msgid "A RebarLayers object specifying reinforcement properties."
-msgstr ""
-
 #: abaqus.Section.CompositeShellSection.CompositeShellSection.setValues:1 of
 msgid "This method modifies the CompositeShellSection object."
 msgstr ""
@@ -3646,17 +3635,6 @@ msgid ""
 "3ds.com/2018/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "compositeshellsectionpyc.htm?contextscope=all#simaker-"
 "compositeshellsectionsetvaluespyc>`__."
-msgstr ""
-
-#: ../../../../docstring
-#: abaqus.Section.HomogeneousShellSection.GeometryShellSection.transverseShear:1
-#: abaqus.Section.SectionOdb.CompositeShellSection.transverseShear:1
-#: abaqus.Section.SectionOdb.GeneralStiffnessSection.transverseShear:1
-#: abaqus.Section.SectionOdb.HomogeneousShellSection.transverseShear:1
-#: abaqus.Section.ShellSection.ShellSection.transverseShear:1 of
-msgid ""
-"A TransverseShearShell object specifying the transverse shear stiffness "
-"properties."
 msgstr ""
 
 #: abaqus.Section.GeneralStiffnessSection.GeneralStiffnessSection:1
@@ -3729,6 +3707,14 @@ msgstr ""
 #: abaqus.Section.GeometryShellSection.GeometryShellSection.RebarLayers:18
 #: abaqus.Section.RebarLayers.RebarLayers:35 of
 msgid ":class:`RebarLayers`"
+msgstr ""
+
+#: ../../../../docstring
+#: abaqus.Section.HomogeneousShellSection.GeometryShellSection.rebarLayers:1
+#: abaqus.Section.SectionOdb.GeneralStiffnessSection.rebarLayers:1
+#: abaqus.Section.SectionOdb.MembraneSection.rebarLayers:1
+#: abaqus.Section.SurfaceSection.SurfaceSection.rebarLayers:1 of
+msgid "A RebarLayers object specifying reinforcement properties."
 msgstr ""
 
 #: abaqus.Section.RebarLayers.RebarLayers:1 of
@@ -4144,7 +4130,7 @@ msgid "A list of Section objects."
 msgstr ""
 
 #: abaqus.Section.SectionBase.SectionBase.sectionsFromOdb:18 of
-msgid ":class:`List[Section]`"
+msgid ":class:`list[Section]`"
 msgstr ""
 
 #: abaqus.Section.SectionLayer.SectionLayer:1 of

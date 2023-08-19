@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: abqpy \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-24 15:23+0000\n"
+"POT-Creation-Date: 2023-08-19 09:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2796,7 +2796,7 @@ msgid ""
 msgstr ""
 
 #: abaqus.Mesh.MeshAssembly.MeshAssembly.verifyMeshQuality:68 of
-msgid ":class:`Dict[str`, :class:`int | float | MeshElement]`"
+msgid ":class:`dict[str`, :class:`int | float | MeshElement]`"
 msgstr ""
 
 #: abaqus.Mesh.MeshEdge.MeshEdge:1 of
@@ -3016,7 +3016,7 @@ msgid "A tuple of MeshEdge objects."
 msgstr ""
 
 #: abaqus.Mesh.MeshElement.MeshElement.getElemEdges:4 of
-msgid ":class:`Tuple[MeshEdge]`"
+msgid ":class:`tuple[MeshEdge]`"
 msgstr ""
 
 #: abaqus.Mesh.MeshElement.MeshElement.getElemFaces:1 of
@@ -3025,7 +3025,7 @@ msgid ""
 msgstr ""
 
 #: abaqus.Mesh.MeshElement.MeshElement.getElemFaces:4 of
-msgid ":class:`Tuple[MeshFace]`"
+msgid ":class:`tuple[MeshFace]`"
 msgstr ""
 
 #: abaqus.Mesh.MeshElement.MeshElement.getElementsByFeatureEdge:1 of
@@ -3055,7 +3055,7 @@ msgid "This method returns a tuple of node objects of the element."
 msgstr ""
 
 #: abaqus.Mesh.MeshElement.MeshElement.getNodes:4 of
-msgid ":class:`Tuple[MeshNode]`"
+msgid ":class:`tuple[MeshNode]`"
 msgstr ""
 
 #: ../../../../docstring abaqus.Mesh.MeshPart.MeshElement.instanceName:1 of
@@ -3479,7 +3479,7 @@ msgstr ""
 #: abaqus.Mesh.MeshElementArray.MeshElementArray.getBoundingBox:10
 #: abaqus.Mesh.MeshNodeArray.MeshNodeArray.getBoundingBox:10 of
 msgid ""
-":class:`Dict[str`, :class:`Tuple[float`, :class:`float`, :class:`float]]`"
+":class:`dict[str`, :class:`tuple[float`, :class:`float`, :class:`float]]`"
 msgstr ""
 
 #: abaqus.Mesh.MeshElementArray.MeshElementArray.getByBoundingBox:1 of
@@ -3945,7 +3945,7 @@ msgid ""
 msgstr ""
 
 #: abaqus.Mesh.MeshNodeArray.MeshNodeArray.getClosest:18 of
-msgid ":class:`MeshNode | List[MeshNode]`"
+msgid ":class:`MeshNode | list[MeshNode]`"
 msgstr ""
 
 #: abaqus.Mesh.MeshNodeArray.MeshNodeArray.getFromLabel:1 of
@@ -4631,7 +4631,7 @@ msgid ""
 msgstr ""
 
 #: abaqus.Mesh.MeshPart.MeshPart.verifyMeshQuality:69 of
-msgid ":class:`Dict[str`, :class:`int | float`, :class:`MeshElement]`"
+msgid ":class:`dict[str`, :class:`int | float`, :class:`MeshElement]`"
 msgstr ""
 
 #: abaqus.Mesh.MeshStats.MeshStats:1 of
