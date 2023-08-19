@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: abqpy 2022\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-15 05:54+0000\n"
+"POT-Creation-Date: 2023-08-19 09:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -591,14 +591,6 @@ msgid "A Boolean specifying whether an input file should be written without part
 msgstr ""
 
 #: ../../../../None:55:<autosummary>:1
-msgid ":py:obj:`restartIncrement <abaqus.Model.ModelBase.ModelBase.restartIncrement>`\\"
-msgstr ""
-
-#: ../../../../None:55:<autosummary>:1
-msgid "An Int specifying the increment, interval, iteration or cycle where the restart analysis will start."
-msgstr ""
-
-#: ../../../../None:55:<autosummary>:1
 msgid ":py:obj:`endRestartStep <abaqus.Model.ModelBase.ModelBase.endRestartStep>`\\"
 msgstr ""
 
@@ -964,6 +956,14 @@ msgstr ""
 
 #: ../../../../None:55:<autosummary>:1
 msgid "A repository of EventSeriesData objects."
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid ":py:obj:`restartIncrement <abaqus.Model.ModelBase.ModelBase.restartIncrement>`\\"
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid "An Int specifying the increment, interval, iteration or cycle where the restart analysis will start."
 msgstr ""
 
 #: ../../../../../src/abaqus/Optimization/OptimizationTask.py:docstring of abaqus.Optimization.OptimizationTask.OptimizationTask:0
@@ -3253,7 +3253,6 @@ msgstr ""
 
 #: ../../../../../src/abaqus/Optimization/ObjectiveFunction.py:docstring of abaqus.Optimization.ObjectiveFunction.ObjectiveFunction:22
 #: ../../../../../src/abaqus/Optimization/OptimizationTask.py:docstring of abaqus.Optimization.OptimizationTask.OptimizationTask.ObjectiveFunction:14
-#: ../../../../docstring of abaqus.Optimization.TopologyTask.ObjectiveFunction.objectives:1
 msgid "An OptimizationObjectiveArray object."
 msgstr ""
 
@@ -3688,7 +3687,6 @@ msgstr ""
 
 #: ../../../../../src/abaqus/Optimization/OptimizationTask.py:docstring of abaqus.Optimization.OptimizationTask.OptimizationTask.SizingClusterAreas:14
 #: ../../../../../src/abaqus/Optimization/SizingClusterAreas.py:docstring of abaqus.Optimization.SizingClusterAreas.SizingClusterAreas:23
-#: ../../../../docstring of abaqus.Optimization.SizingClusterAreas.SizingClusterAreas.regions:1
 msgid "Tuple of Region objects specifying the regions to which the geometric restriction is applied."
 msgstr ""
 
@@ -4360,6 +4358,10 @@ msgstr ""
 msgid "The ObjectiveFunction object defines the objective of the optimization."
 msgstr ""
 
+#: ../../../../docstring of abaqus.Optimization.TopologyTask.ObjectiveFunction.objectives:1
+msgid "Optimization objectives"
+msgstr ""
+
 #: ../../../../../src/abaqus/Optimization/ObjectiveFunction.py:docstring of abaqus.Optimization.ObjectiveFunction.ObjectiveFunction.setValues:1
 msgid "This method modifies the ObjectiveFunction object."
 msgstr ""
@@ -5010,6 +5012,10 @@ msgstr ""
 
 #: ../../../../../src/abaqus/Optimization/SizingClusterAreas.py:docstring of abaqus.Optimization.SizingClusterAreas.SizingClusterAreas:1
 msgid "The SizingClusterAreas object defines a sizing cluster areas geometric restriction. The SizingClusterAreas object is derived from the GeometricRestriction object."
+msgstr ""
+
+#: ../../../../docstring of abaqus.Optimization.SizingClusterAreas.SizingClusterAreas.regions:1
+msgid "tuple of Region objects specifying the regions to which the geometric restriction is applied."
 msgstr ""
 
 #: ../../../../../src/abaqus/Optimization/SizingClusterAreas.py:docstring of abaqus.Optimization.SizingClusterAreas.SizingClusterAreas.setValues:1

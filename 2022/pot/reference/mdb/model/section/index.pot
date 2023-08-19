@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: abqpy 2022\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-15 05:54+0000\n"
+"POT-Creation-Date: 2023-08-19 09:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -516,14 +516,6 @@ msgid "A Boolean specifying whether an input file should be written without part
 msgstr ""
 
 #: ../../../../None:55:<autosummary>:1
-msgid ":py:obj:`restartIncrement <abaqus.Model.ModelBase.ModelBase.restartIncrement>`\\"
-msgstr ""
-
-#: ../../../../None:55:<autosummary>:1
-msgid "An Int specifying the increment, interval, iteration or cycle where the restart analysis will start."
-msgstr ""
-
-#: ../../../../None:55:<autosummary>:1
 msgid ":py:obj:`endRestartStep <abaqus.Model.ModelBase.ModelBase.endRestartStep>`\\"
 msgstr ""
 
@@ -894,6 +886,14 @@ msgstr ""
 
 #: ../../../../None:55:<autosummary>:1
 msgid "A repository of EventSeriesData objects."
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid ":py:obj:`restartIncrement <abaqus.Model.ModelBase.ModelBase.restartIncrement>`\\"
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid "An Int specifying the increment, interval, iteration or cycle where the restart analysis will start."
 msgstr ""
 
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel:0
@@ -2028,7 +2028,6 @@ msgstr ""
 #: ../../../../../src/abaqus/Section/SectionModel.py:docstring of abaqus.Section.SectionModel.SectionModel.ConnectorSection:88
 #: ../../../../../src/abaqus/Section/SectionOdb.py:docstring of abaqus.Section.SectionOdb.SectionOdb.ConnectorSection:88
 #: ../../../../docstring of abaqus.Section.SectionBase.SectionBase.behaviorOptions:1
-#: ../../../../docstring of abaqus.Section.SectionOdb.ConnectorSection.behaviorOptions:1
 msgid "A ConnectorBehaviorOptionArray object."
 msgstr ""
 
@@ -2973,29 +2972,12 @@ msgstr ""
 msgid "A SymbolicConstant specifying whether to use the default value for the Poisson's ratio. Possible values are: DEFAULT, specifying that the default value for the Poisson's ratio is 0.5 in an Abaqus/Standard analysis and is obtained from the material definition in an Abaqus/Explicit analysis. VALUE, specifying that the Poisson's ratio used in the analysis is the value provided in **poisson**.The default value is DEFAULT."
 msgstr ""
 
-#: ../../../../docstring of abaqus.Section.HomogeneousShellSection.GeometryShellSection.rebarLayers:1
-#: ../../../../docstring of abaqus.Section.SectionOdb.CompositeShellSection.rebarLayers:1
-#: ../../../../docstring of abaqus.Section.SectionOdb.GeneralStiffnessSection.rebarLayers:1
-#: ../../../../docstring of abaqus.Section.SectionOdb.HomogeneousShellSection.rebarLayers:1
-#: ../../../../docstring of abaqus.Section.SectionOdb.MembraneSection.rebarLayers:1
-#: ../../../../docstring of abaqus.Section.SurfaceSection.SurfaceSection.rebarLayers:1
-msgid "A RebarLayers object specifying reinforcement properties."
-msgstr ""
-
 #: ../../../../../src/abaqus/Section/CompositeShellSection.py:docstring of abaqus.Section.CompositeShellSection.CompositeShellSection.setValues:1
 msgid "This method modifies the CompositeShellSection object."
 msgstr ""
 
 #: ../../../../../src/abaqus/Section/CompositeShellSection.py:docstring of abaqus.Section.CompositeShellSection.CompositeShellSection.setValues:4
 msgid "Check `CompositeShellSection.setValues on help.3ds.com/2022 <https://help.3ds.com/2022/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-compositeshellsectionpyc.htm?contextscope=all#simaker-compositeshellsectionsetvaluespyc>`__."
-msgstr ""
-
-#: ../../../../docstring of abaqus.Section.HomogeneousShellSection.GeometryShellSection.transverseShear:1
-#: ../../../../docstring of abaqus.Section.SectionOdb.CompositeShellSection.transverseShear:1
-#: ../../../../docstring of abaqus.Section.SectionOdb.GeneralStiffnessSection.transverseShear:1
-#: ../../../../docstring of abaqus.Section.SectionOdb.HomogeneousShellSection.transverseShear:1
-#: ../../../../docstring of abaqus.Section.ShellSection.ShellSection.transverseShear:1
-msgid "A TransverseShearShell object specifying the transverse shear stiffness properties."
 msgstr ""
 
 #: ../../../../../src/abaqus/Section/GeneralStiffnessSection.py:docstring of abaqus.Section.GeneralStiffnessSection.GeneralStiffnessSection:1
@@ -3053,6 +3035,13 @@ msgstr ""
 #: ../../../../../src/abaqus/Section/GeometryShellSection.py:docstring of abaqus.Section.GeometryShellSection.GeometryShellSection.RebarLayers:18
 #: ../../../../../src/abaqus/Section/RebarLayers.py:docstring of abaqus.Section.RebarLayers.RebarLayers:35
 msgid ":class:`RebarLayers`"
+msgstr ""
+
+#: ../../../../docstring of abaqus.Section.HomogeneousShellSection.GeometryShellSection.rebarLayers:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.GeneralStiffnessSection.rebarLayers:1
+#: ../../../../docstring of abaqus.Section.SectionOdb.MembraneSection.rebarLayers:1
+#: ../../../../docstring of abaqus.Section.SurfaceSection.SurfaceSection.rebarLayers:1
+msgid "A RebarLayers object specifying reinforcement properties."
 msgstr ""
 
 #: ../../../../../src/abaqus/Section/RebarLayers.py:docstring of abaqus.Section.RebarLayers.RebarLayers:1
@@ -3335,7 +3324,7 @@ msgid "A list of Section objects."
 msgstr ""
 
 #: ../../../../../src/abaqus/Section/SectionBase.py:docstring of abaqus.Section.SectionBase.SectionBase.sectionsFromOdb:18
-msgid ":class:`List[Section]`"
+msgid ":class:`list[Section]`"
 msgstr ""
 
 #: ../../../../../src/abaqus/Section/SectionLayer.py:docstring of abaqus.Section.SectionLayer.SectionLayer:1
