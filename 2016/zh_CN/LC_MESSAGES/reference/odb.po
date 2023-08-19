@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: abqpy \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-24 15:22+0000\n"
+"POT-Creation-Date: 2023-08-19 09:27+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -266,7 +266,7 @@ msgstr ""
 #: abaqus.Odb.OdbBase.OdbBase.getFrame abaqus.Odb.OdbBase.OdbBase.update
 #: abaqus.Odb.OdbCommands.AnalyticSurfaceProfile
 #: abaqus.Odb.OdbCommands.isUpgradeRequiredForOdb
-#: abaqus.Odb.OdbCommands.maxEnvelop abaqus.Odb.OdbCommands.minEnvelop
+#: abaqus.Odb.OdbCommands.maxEnvelope abaqus.Odb.OdbCommands.minEnvelope
 #: abaqus.Odb.OdbCommands.openOdb
 #: abaqus.Odb.OdbDatumCsys.OdbDatumCsys.DatumCsys
 #: abaqus.Odb.OdbDatumCsys.OdbDatumCsys.DatumCsysBy6dofNode
@@ -323,7 +323,7 @@ msgstr ""
 #: abaqus.Odb.OdbBase.OdbBase.getFrame abaqus.Odb.OdbBase.OdbBase.update
 #: abaqus.Odb.OdbCommands.AnalyticSurfaceProfile
 #: abaqus.Odb.OdbCommands.isUpgradeRequiredForOdb
-#: abaqus.Odb.OdbCommands.maxEnvelop abaqus.Odb.OdbCommands.minEnvelop
+#: abaqus.Odb.OdbCommands.maxEnvelope abaqus.Odb.OdbCommands.minEnvelope
 #: abaqus.Odb.OdbCommands.openOdb
 #: abaqus.Odb.OdbDatumCsys.OdbDatumCsys.DatumCsys
 #: abaqus.Odb.OdbDatumCsys.OdbDatumCsys.DatumCsysBy6dofNode
@@ -1286,7 +1286,7 @@ msgstr ""
 #: abaqus.Odb.OdbAssemblyBase.OdbAssemblyBase.addElements
 #: abaqus.Odb.OdbAssemblyBase.OdbAssemblyBase.addNodes
 #: abaqus.Odb.OdbBase.OdbBase.getFrame abaqus.Odb.OdbBase.OdbBase.save
-#: abaqus.Odb.OdbCommands.maxEnvelop abaqus.Odb.OdbCommands.minEnvelop
+#: abaqus.Odb.OdbCommands.maxEnvelope abaqus.Odb.OdbCommands.minEnvelope
 #: abaqus.Odb.OdbCommands.openOdb abaqus.Odb.OdbCommands.upgradeOdb
 #: abaqus.Odb.OdbInstanceBase.OdbInstanceBase.AnalyticRigidSurf2DPlanar
 #: abaqus.Odb.OdbInstanceBase.OdbInstanceBase.AnalyticRigidSurfExtrude
@@ -2457,6 +2457,76 @@ msgid ""
 " to the addData method for a description of the order."
 msgstr ""
 
+#: abaqus.Odb.OdbMeshElement.OdbMeshElement:1 of
+msgid ""
+"OdbMeshElement objects are created with the part.addElements or "
+"rootAssembly.addElements methods."
+msgstr ""
+
+#: abaqus.Odb.OdbMeshElement.OdbMeshElement:25 of
+msgid ""
+"Check `OdbMeshElement on help.3ds.com/2016 <https://help.3ds.com/2016/Engl"
+"ish/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"odbmeshelementpyc.htm?contextscope=all>`__."
+msgstr ""
+
+#: ../../../../docstring abaqus.Odb.OdbSet.OdbMeshElement.connectivity:1 of
+msgid ""
+"A tuple of Ints specifying the element connectivity. For connector "
+"elements connected to ground, the other node is repeated in the "
+"connectivity data. The position of the ground node cannot be ascertained. "
+"This is a limitation. It is important to note the difference with "
+"MeshElement object of MDB where the connectivity is node indices instead "
+"of node labels."
+msgstr ""
+
+#: ../../../../docstring abaqus.Odb.OdbSet.OdbMeshElement.instanceNames:1 of
+msgid ""
+"A tuple of Strings specifying the instance names for nodes in the element "
+"connectivity."
+msgstr ""
+
+#: ../../../../docstring
+#: abaqus.Odb.OdbInstanceBase.OdbInstanceBase.getElementFromLabel:7
+#: abaqus.Odb.OdbPartBase.OdbPartBase.getElementFromLabel:7
+#: abaqus.Odb.OdbSet.OdbMeshElement.label:1 of
+msgid "An Int specifying the element label."
+msgstr ""
+
+#: ../../../../docstring abaqus.Odb.OdbSet.OdbMeshElement.sectionCategory:1 of
+msgid "A SectionCategory object specifying the element section properties."
+msgstr ""
+
+#: ../../../../docstring
+#: abaqus.Odb.OdbAssemblyBase.OdbAssemblyBase.addElements:18
+#: abaqus.Odb.OdbSet.OdbMeshElement.type:1 of
+msgid "A String specifying the element type."
+msgstr ""
+
+#: abaqus.Odb.OdbMeshNode.OdbMeshNode:1 of
+msgid "OdbMeshNode objects are created with the part.addNodes method."
+msgstr ""
+
+#: abaqus.Odb.OdbMeshNode.OdbMeshNode:21 of
+msgid ""
+"Check `OdbMeshNode on help.3ds.com/2016 <https://help.3ds.com/2016/English"
+"/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"odbmeshnodepyc.htm?contextscope=all>`__."
+msgstr ""
+
+#: ../../../../docstring abaqus.Odb.OdbSet.OdbMeshNode.coordinates:1 of
+msgid ""
+"A tuple of Floats specifying the nodal coordinates in the global Cartesian"
+" coordinate system."
+msgstr ""
+
+#: ../../../../docstring
+#: abaqus.Odb.OdbInstanceBase.OdbInstanceBase.getNodeFromLabel:7
+#: abaqus.Odb.OdbPartBase.OdbPartBase.getNodeFromLabel:7
+#: abaqus.Odb.OdbSet.OdbMeshNode.label:1 of
+msgid "An Int specifying the node label."
+msgstr ""
+
 #: abaqus.Odb.FieldValue.FieldValue:1 of
 msgid ""
 "The FieldValue object represents the field data at a point. The FieldValue"
@@ -3192,76 +3262,6 @@ msgstr ""
 msgid ":class:`OdbRigidBody`"
 msgstr ""
 
-#: abaqus.Odb.OdbMeshElement.OdbMeshElement:1 of
-msgid ""
-"OdbMeshElement objects are created with the part.addElements or "
-"rootAssembly.addElements methods."
-msgstr ""
-
-#: abaqus.Odb.OdbMeshElement.OdbMeshElement:25 of
-msgid ""
-"Check `OdbMeshElement on help.3ds.com/2016 <https://help.3ds.com/2016/Engl"
-"ish/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
-"odbmeshelementpyc.htm?contextscope=all>`__."
-msgstr ""
-
-#: ../../../../docstring abaqus.Odb.OdbSet.OdbMeshElement.connectivity:1 of
-msgid ""
-"A tuple of Ints specifying the element connectivity. For connector "
-"elements connected to ground, the other node is repeated in the "
-"connectivity data. The position of the ground node cannot be ascertained. "
-"This is a limitation. It is important to note the difference with "
-"MeshElement object of MDB where the connectivity is node indices instead "
-"of node labels."
-msgstr ""
-
-#: ../../../../docstring abaqus.Odb.OdbSet.OdbMeshElement.instanceNames:1 of
-msgid ""
-"A tuple of Strings specifying the instance names for nodes in the element "
-"connectivity."
-msgstr ""
-
-#: ../../../../docstring
-#: abaqus.Odb.OdbInstanceBase.OdbInstanceBase.getElementFromLabel:7
-#: abaqus.Odb.OdbPartBase.OdbPartBase.getElementFromLabel:7
-#: abaqus.Odb.OdbSet.OdbMeshElement.label:1 of
-msgid "An Int specifying the element label."
-msgstr ""
-
-#: ../../../../docstring abaqus.Odb.OdbSet.OdbMeshElement.sectionCategory:1 of
-msgid "A SectionCategory object specifying the element section properties."
-msgstr ""
-
-#: ../../../../docstring
-#: abaqus.Odb.OdbAssemblyBase.OdbAssemblyBase.addElements:18
-#: abaqus.Odb.OdbSet.OdbMeshElement.type:1 of
-msgid "A String specifying the element type."
-msgstr ""
-
-#: abaqus.Odb.OdbMeshNode.OdbMeshNode:1 of
-msgid "OdbMeshNode objects are created with the part.addNodes method."
-msgstr ""
-
-#: abaqus.Odb.OdbMeshNode.OdbMeshNode:21 of
-msgid ""
-"Check `OdbMeshNode on help.3ds.com/2016 <https://help.3ds.com/2016/English"
-"/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
-"odbmeshnodepyc.htm?contextscope=all>`__."
-msgstr ""
-
-#: ../../../../docstring abaqus.Odb.OdbSet.OdbMeshNode.coordinates:1 of
-msgid ""
-"A tuple of Floats specifying the nodal coordinates in the global Cartesian"
-" coordinate system."
-msgstr ""
-
-#: ../../../../docstring
-#: abaqus.Odb.OdbInstanceBase.OdbInstanceBase.getNodeFromLabel:7
-#: abaqus.Odb.OdbPartBase.OdbPartBase.getNodeFromLabel:7
-#: abaqus.Odb.OdbSet.OdbMeshNode.label:1 of
-msgid "An Int specifying the node label."
-msgstr ""
-
 #: abaqus.Odb.HistoryRegion.HistoryRegion:1 of
 msgid ""
 "The HistoryRegion object contains history data for a single location in "
@@ -3908,12 +3908,12 @@ msgid ""
 "that the output database needs to be upgraded to the current release."
 msgstr ""
 
-#: abaqus.Odb.OdbCommands.maxEnvelop:1 of
+#: abaqus.Odb.OdbCommands.maxEnvelope:1 of
 msgid ""
 "Retrieve the maximum value of an output variable over a number of fields."
 msgstr ""
 
-#: abaqus.Odb.OdbCommands.maxEnvelop:3 of
+#: abaqus.Odb.OdbCommands.maxEnvelope:3 of
 msgid ""
 "A sequence of two fieldOutput objects. The first fieldOutput object "
 "contains the maximum value. The second fieldOutput object contains the "
@@ -3922,26 +3922,31 @@ msgid ""
 "provided as the argument to the function."
 msgstr ""
 
-#: abaqus.Odb.OdbCommands.maxEnvelop:7 abaqus.Odb.OdbCommands.minEnvelop:7 of
+#: abaqus.Odb.OdbCommands.maxEnvelope:7 of
 msgid ":class:`Sequence[FieldOutput]`"
 msgstr ""
 
-#: abaqus.Odb.OdbCommands.maxEnvelop:10 abaqus.Odb.OdbCommands.minEnvelop:10 of
+#: abaqus.Odb.OdbCommands.maxEnvelope:10 abaqus.Odb.OdbCommands.minEnvelope:10
+#: of
 msgid "This function takes no keyword arguments."
 msgstr ""
 
-#: abaqus.Odb.OdbCommands.minEnvelop:1 of
+#: abaqus.Odb.OdbCommands.minEnvelope:1 of
 msgid ""
 "Retrieve the minimum value of an output variable over a number of fields."
 msgstr ""
 
-#: abaqus.Odb.OdbCommands.minEnvelop:3 of
+#: abaqus.Odb.OdbCommands.minEnvelope:3 of
 msgid ""
 "A sequence of two fieldOutput objects. The first fieldOutput object "
 "contains the minimum value. The second fieldOutput object contains the "
 "index of the field containing the minimum value. The index follows the "
 "order in which fields are positioned in the list of fieldOutput objects "
 "provided as the argument to the function."
+msgstr ""
+
+#: abaqus.Odb.OdbCommands.minEnvelope:7 of
+msgid ":class:`Sequence[tuple[FieldOutput`, :class:`FieldOutput]]`"
 msgstr ""
 
 #: abaqus.Odb.OdbCommands.openOdb:1 of
@@ -4038,10 +4043,6 @@ msgid ""
 "Check `OdbFrame on help.3ds.com/2016 <https://help.3ds.com/2016/English/DS"
 "SIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "odbframepyc.htm?contextscope=all>`__."
-msgstr ""
-
-#: abaqus.Odb.OdbFrame.OdbFrame:12 of
-msgid "Helper for @overload to raise when called."
 msgstr ""
 
 #: ../../../../docstring abaqus.Odb.OdbStepBase.OdbFrame.associatedFrame:1 of
