@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: abqpy 2023\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-15 06:40+0000\n"
+"POT-Creation-Date: 2023-08-19 08:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1163,14 +1163,6 @@ msgid "A Boolean specifying whether an input file should be written without part
 msgstr ""
 
 #: ../../../../None:55:<autosummary>:1
-msgid ":py:obj:`restartIncrement <abaqus.Model.ModelBase.ModelBase.restartIncrement>`\\"
-msgstr ""
-
-#: ../../../../None:55:<autosummary>:1
-msgid "An Int specifying the increment, interval, iteration or cycle where the restart analysis will start."
-msgstr ""
-
-#: ../../../../None:55:<autosummary>:1
 msgid ":py:obj:`endRestartStep <abaqus.Model.ModelBase.ModelBase.endRestartStep>`\\"
 msgstr ""
 
@@ -1541,6 +1533,14 @@ msgstr ""
 
 #: ../../../../None:55:<autosummary>:1
 msgid "A repository of EventSeriesData objects."
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid ":py:obj:`restartIncrement <abaqus.Model.ModelBase.ModelBase.restartIncrement>`\\"
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid "An Int specifying the increment, interval, iteration or cycle where the restart analysis will start."
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material:0
@@ -11038,7 +11038,7 @@ msgid "A list of Material objects."
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/MaterialBase.py:docstring of abaqus.Material.MaterialBase.MaterialBase.materialsFromOdb:19
-msgid ":class:`List[Material]`"
+msgid ":class:`list[Material]`"
 msgstr ""
 
 #: ../../../../docstring of abaqus.Material.MaterialBase.MaterialBase.meanFieldHomogenization:3
