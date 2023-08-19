@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: abqpy 2020\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-15 05:55+0000\n"
+"POT-Creation-Date: 2023-08-19 09:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -411,7 +411,6 @@ msgstr ""
 
 #: ../../../../../src/abaqus/BasicGeometry/Edge.py:docstring of abaqus.BasicGeometry.Edge.Edge.getCurvature:18
 #: ../../../../../src/abaqus/BasicGeometry/EdgeArray.py:docstring of abaqus.BasicGeometry.EdgeArray.EdgeArray.getClosest:27
-#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face.getCurvature:23
 #: ../../../../../src/abaqus/BasicGeometry/FaceArray.py:docstring of abaqus.BasicGeometry.FaceArray.FaceArray.getClosest:27
 #: ../../../../../src/abaqus/BasicGeometry/IgnoredEdge.py:docstring of abaqus.BasicGeometry.IgnoredEdge.IgnoredEdge.getCurvature:19
 #: ../../../../../src/abaqus/BasicGeometry/IgnoredEdgeArray.py:docstring of abaqus.BasicGeometry.IgnoredEdgeArray.IgnoredEdgeArray.getClosest:27
@@ -486,7 +485,7 @@ msgstr ""
 #: ../../../../../src/abaqus/BasicGeometry/Edge.py:docstring of abaqus.BasicGeometry.Edge.Edge.getFaces:4
 #: ../../../../../src/abaqus/BasicGeometry/Edge.py:docstring of abaqus.BasicGeometry.Edge.Edge.getVertices:7
 #: ../../../../../src/abaqus/BasicGeometry/Vertex.py:docstring of abaqus.BasicGeometry.Vertex.Vertex.getEdges:4
-msgid ":class:`Tuple[int]`"
+msgid ":class:`tuple[int]`"
 msgstr ""
 
 #: ../../../../../src/abaqus/BasicGeometry/Edge.py:docstring of abaqus.BasicGeometry.Edge.Edge.getNodes:1
@@ -636,7 +635,7 @@ msgstr ""
 
 #: ../../../../../src/abaqus/BasicGeometry/Cell.py:docstring of abaqus.BasicGeometry.Cell.Cell.getCADAttributes:5
 #: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face.getCADAttributes:5
-msgid ":class:`List[str]`"
+msgid ":class:`list[str]`"
 msgstr ""
 
 #: ../../../../../src/abaqus/BasicGeometry/Cell.py:docstring of abaqus.BasicGeometry.Cell.Cell.getEdges:1
@@ -800,7 +799,7 @@ msgstr ""
 #: ../../../../../src/abaqus/BasicGeometry/CellArray.py:docstring of abaqus.BasicGeometry.CellArray.CellArray.getBoundingBox:10
 #: ../../../../../src/abaqus/BasicGeometry/EdgeArray.py:docstring of abaqus.BasicGeometry.EdgeArray.EdgeArray.getBoundingBox:10
 #: ../../../../../src/abaqus/BasicGeometry/VertexArray.py:docstring of abaqus.BasicGeometry.VertexArray.VertexArray.getBoundingBox:10
-msgid ":class:`Dict[str`, :class:`Tuple[float`, :class:`float`, :class:`float]]`"
+msgid ":class:`dict[str`, :class:`tuple[float`, :class:`float`, :class:`float]]`"
 msgstr ""
 
 #: ../../../../../src/abaqus/BasicGeometry/CellArray.py:docstring of abaqus.BasicGeometry.CellArray.CellArray.getByBoundingBox:1
@@ -983,6 +982,203 @@ msgstr ""
 msgid "The mask results in an empty sequence, An exception occurs if the resulting sequence is empty."
 msgstr ""
 
+#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face:1
+msgid "Faces are two-dimensional regions of geometry."
+msgstr ""
+
+#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face:31
+msgid "Check `Face on help.3ds.com/2020 <https://help.3ds.com/2020/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-facepyc.htm?contextscope=all>`__."
+msgstr ""
+
+#: ../../../../docstring of abaqus.BasicGeometry.FaceArray.Face.featureName:1
+msgid "A tuple of Floats specifying the name of the feature that created this face."
+msgstr ""
+
+#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face.getAdjacentFaces:1
+msgid "This method returns an array of face objects that share at least one edge of the face."
+msgstr ""
+
+#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face.getAdjacentFaces:3
+msgid "A FaceArray object which is a sequence of Face objects."
+msgstr ""
+
+#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face.getCADAttributes:1
+msgid "This method returns an array of CAD attribute strings associated with the Face when the part was created from CAD data."
+msgstr ""
+
+#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face.getCells:1
+msgid "This method returns a sequence consisting of the cell ids of the cells to which this face belongs."
+msgstr ""
+
+#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face.getCentroid:1
+msgid "This method returns the centroid of a face."
+msgstr ""
+
+#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face.getCentroid:3
+msgid "A sequence of Floats specifying the **X**, **Y**, and **Z** coordinates of the centroid of the face."
+msgstr ""
+
+#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face.getCentroid:5
+#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face.getNormal:15
+msgid ":class:`Sequence[float]`"
+msgstr ""
+
+#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face.getCurvature:1
+msgid "This method returns information about the curvature at a location on the face."
+msgstr ""
+
+#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face.getCurvature:4
+msgid "Check `Face.getCurvature on help.3ds.com/2020 <https://help.3ds.com/2020/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-facepyc.htm?contextscope=all#simaker-facegetcurvaturepyc>`__."
+msgstr ""
+
+#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face.getCurvature:7
+msgid "A tuple specifying the **X**, **Y**, and **Z** coordinates of the point where the curvature is desired. If the **point** does not lie on the face it will be projected onto the face. This argument and **uParam** and **vParam** are mutually exclusive."
+msgstr ""
+
+#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face.getCurvature:11
+msgid "A Float specifying the normalized **U** parameter value at which the curvature is to be computed. This value must lie between (0,1). **vParam** must also be specified. This argument is mutually exclusive with **point**."
+msgstr ""
+
+#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face.getCurvature:15
+msgid "A Float specifying the normalized **V** parameter value at which the curvature is to be computed. This value must lie between (0,1)."
+msgstr ""
+
+#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face.getCurvature:18
+msgid "A dictionary with keys 'evaluationPoint', 'principalAxis1', 'principalAxis2', 'curvature1', 'curvature2' and 'gaussianCurvature'. Where the evaluationPoint specifies the location at which the curvature was evaluated. 'principalAxis1' and 'principalAxis2' refer to the vectors specifying the two principal axes of the face. 'curvature1' and 'curvature2' specify the curvatures along the two principal axes."
+msgstr ""
+
+#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face.getCurvature:23
+msgid ":class:`dict[str`, :class:`float]`"
+msgstr ""
+
+#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face.getEdges:1
+msgid "This method returns a sequence consisting of the edge ids of the edges on the face."
+msgstr ""
+
+#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face.getEdges:3
+msgid "* :class:`Sequence[int]` * :class:`A tuple` of :class:`integers.`"
+msgstr ""
+
+#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face.getEdges:4
+msgid ":class:`A tuple` of :class:`integers.`"
+msgstr ""
+
+#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face.getElementFaces:1
+msgid "This method returns an array of mesh face objects. Each mesh face object contains the element label and the side of the element that lies on the geometric face."
+msgstr ""
+
+#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face.getElementFaces:5
+msgid "Check `Face.getElementFaces on help.3ds.com/2020 <https://help.3ds.com/2020/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-facepyc.htm?contextscope=all#simaker-facegetelementfacespyc>`__."
+msgstr ""
+
+#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face.getElementFaces:8
+msgid "A symbolic constant specifying the side of the geometric face of a solid from which the element faces should be retrieved. Possible values are **SIDE1**, **SIDE2**, and **BOTH_SIDES**. The default value is **BOTH_SIDES**. For shell faces this option is ignored."
+msgstr ""
+
+#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face.getElementFaces:12
+msgid "A MeshFaceArray object which is a sequence of MeshFace objects."
+msgstr ""
+
+#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face.getElementFaces:13
+msgid ":class:`MeshFaceArray`"
+msgstr ""
+
+#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face.getElements:1
+msgid "This method returns an array of element objects that are associated with the face."
+msgstr ""
+
+#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face.getFacesByCurvature:1
+msgid "This method returns an array of Face objects that are obtained by recursively finding adjacent faces that share the same curvature."
+msgstr ""
+
+#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face.getFacesByCurvature:4
+#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face.getFacesByFaceAngle:10
+#: ../../../../../src/abaqus/BasicGeometry/FaceArray.py:docstring of abaqus.BasicGeometry.FaceArray.FaceArray.getByBoundingBox:19
+#: ../../../../../src/abaqus/BasicGeometry/FaceArray.py:docstring of abaqus.BasicGeometry.FaceArray.FaceArray.getByBoundingCylinder:15
+#: ../../../../../src/abaqus/BasicGeometry/FaceArray.py:docstring of abaqus.BasicGeometry.FaceArray.FaceArray.getByBoundingSphere:11
+msgid "A FaceArray object, which is a sequence of Face objects."
+msgstr ""
+
+#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face.getFacesByFaceAngle:1
+msgid "This method returns an array of Face objects that are obtained by recursively finding adjacent faces that are at an angle of less than or equal to the specified angle."
+msgstr ""
+
+#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face.getFacesByFaceAngle:5
+msgid "Check `Face.getFacesByFaceAngle on help.3ds.com/2020 <https://help.3ds.com/2020/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-facepyc.htm?contextscope=all#simaker-facegetfacesbyfaceanglepyc>`__."
+msgstr ""
+
+#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face.getFacesByFaceAngle:8
+msgid "A float specifying the value of the face angle."
+msgstr ""
+
+#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face.getNodes:1
+msgid "This method returns an array of mesh node objects. Each mesh node object contains the label of the node that lies on the geometric face."
+msgstr ""
+
+#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face.getNodes:5
+msgid "Check `Face.getNodes on help.3ds.com/2020 <https://help.3ds.com/2020/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-facepyc.htm?contextscope=all#simaker-facegetnodespyc>`__."
+msgstr ""
+
+#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face.getNodes:8
+msgid "A symbolic constant specifying the side of the geometric face of a solid from which the nodes should be retrieved. Possible values are xo*SIDE1*, **SIDE2**, and **BOTH_SIDES**. The default value is **BOTH_SIDES**. For shell faces and for faces with compatible meshes on either sides this option is ignored. Otherwise, the nodes on the specified side(s) of the face are output."
+msgstr ""
+
+#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face.getNormal:1
+msgid "This method returns the normal to a face at the location specified by the **pointOn** member. The normal at a different location on the face can be obtained by specifying the optional **point** argument."
+msgstr ""
+
+#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face.getNormal:6
+msgid "Check `Face.getNormal on help.3ds.com/2020 <https://help.3ds.com/2020/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-facepyc.htm?contextscope=all#simaker-facegetnormalpyc>`__."
+msgstr ""
+
+#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face.getNormal:9
+msgid "A tuple specifying the **X**, **Y**, and **Z** coordinates of the point where the normal to the face is desired. If the **point** does not lie on the face it will be projected onto the face."
+msgstr ""
+
+#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face.getNormal:13
+msgid "A sequence of Floats specifying the **X**, **Y**, and **Z** components of the normal to the face."
+msgstr ""
+
+#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face.getSize:1
+msgid "This method returns a Float indicating the area of the face."
+msgstr ""
+
+#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face.getSize:4
+msgid "Check `Face.getSize on help.3ds.com/2020 <https://help.3ds.com/2020/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-facepyc.htm?contextscope=all#simaker-facegetsizepyc>`__."
+msgstr ""
+
+#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face.getSize:7
+msgid "A Bool specifying whether verbose output is printed. The default value is True."
+msgstr ""
+
+#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face.getVertices:1
+msgid "This method returns a sequence consisting of the vertex ids of the vertices of the face."
+msgstr ""
+
+#: ../../../../docstring of abaqus.BasicGeometry.FaceArray.Face.index:1
+msgid "An Int specifying the index of the face in the FaceArray."
+msgstr ""
+
+#: ../../../../docstring of abaqus.BasicGeometry.FaceArray.Face.instanceName:1
+msgid "A tuple of Floats specifying the name of the part instance for this face (if applicable)."
+msgstr ""
+
+#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face.isNormalFlipped:1
+msgid "This method determines whether the normal to the face is flipped from its default direction by the use of the flipNormal method on a Part object."
+msgstr ""
+
+#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face.isNormalFlipped:4
+msgid "A Boolean value of True if the normal is flipped and False if not."
+msgstr ""
+
+#: ../../../../docstring of abaqus.BasicGeometry.FaceArray.Face.isReferenceRep:1
+msgid "A Boolean specifying whether the face belongs to the reference representation of the Part or Instance."
+msgstr ""
+
+#: ../../../../docstring of abaqus.BasicGeometry.FaceArray.Face.pointOn:1
+msgid "A tuple of tuples of Floats specifying the coordinates. For a face of a shell **pointOn** specifies the **X**, **Y**, and **Z** coordinates of a point located on the face and the **X**, **Y**, and **Z** components of the normal to the face.For a face of a solid **pointOn** specifies the **X**, **Y**, and **Z** coordinates of a point located on the face."
+msgstr ""
+
 #: ../../../../../src/abaqus/BasicGeometry/FaceArray.py:docstring of abaqus.BasicGeometry.FaceArray.FaceArray:1
 msgid "Bases: :py:class:`~typing.List`\\ [:py:class:`~abaqus.BasicGeometry.Face.Face`]"
 msgstr ""
@@ -1061,7 +1257,7 @@ msgid "**high**: a tuple of three floats representing the maximum **X** -, **Y**
 msgstr ""
 
 #: ../../../../../src/abaqus/BasicGeometry/FaceArray.py:docstring of abaqus.BasicGeometry.FaceArray.FaceArray.getBoundingBox:10
-msgid ":class:`Dict[str`, :class:`Sequence[float]]`"
+msgid ":class:`dict[str`, :class:`Sequence[float]]`"
 msgstr ""
 
 #: ../../../../../src/abaqus/BasicGeometry/FaceArray.py:docstring of abaqus.BasicGeometry.FaceArray.FaceArray.getByBoundingBox:1
@@ -1070,14 +1266,6 @@ msgstr ""
 
 #: ../../../../../src/abaqus/BasicGeometry/FaceArray.py:docstring of abaqus.BasicGeometry.FaceArray.FaceArray.getByBoundingBox:4
 msgid "Check `FaceArray.getByBoundingBox on help.3ds.com/2020 <https://help.3ds.com/2020/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-facearraypyc.htm?contextscope=all#simaker-facearraygetbyboundingboxpyc>`__."
-msgstr ""
-
-#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face.getFacesByCurvature:4
-#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face.getFacesByFaceAngle:10
-#: ../../../../../src/abaqus/BasicGeometry/FaceArray.py:docstring of abaqus.BasicGeometry.FaceArray.FaceArray.getByBoundingBox:19
-#: ../../../../../src/abaqus/BasicGeometry/FaceArray.py:docstring of abaqus.BasicGeometry.FaceArray.FaceArray.getByBoundingCylinder:15
-#: ../../../../../src/abaqus/BasicGeometry/FaceArray.py:docstring of abaqus.BasicGeometry.FaceArray.FaceArray.getByBoundingSphere:11
-msgid "A FaceArray object, which is a sequence of Face objects."
 msgstr ""
 
 #: ../../../../../src/abaqus/BasicGeometry/FaceArray.py:docstring of abaqus.BasicGeometry.FaceArray.FaceArray.getByBoundingCylinder:1
@@ -1262,191 +1450,6 @@ msgstr ""
 
 #: ../../../../../src/abaqus/BasicGeometry/EdgeArray.py:docstring of abaqus.BasicGeometry.EdgeArray.EdgeArray.getSequenceFromMask:6
 msgid "Check `EdgeArray.getSequenceFromMask on help.3ds.com/2020 <https://help.3ds.com/2020/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-edgearraypyc.htm?contextscope=all#simaker-edgearraygetsequencefrommaskpyc>`__."
-msgstr ""
-
-#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face:1
-msgid "Faces are two-dimensional regions of geometry."
-msgstr ""
-
-#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face:31
-msgid "Check `Face on help.3ds.com/2020 <https://help.3ds.com/2020/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-facepyc.htm?contextscope=all>`__."
-msgstr ""
-
-#: ../../../../docstring of abaqus.BasicGeometry.FaceArray.Face.featureName:1
-msgid "A tuple of Floats specifying the name of the feature that created this face."
-msgstr ""
-
-#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face.getAdjacentFaces:1
-msgid "This method returns an array of face objects that share at least one edge of the face."
-msgstr ""
-
-#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face.getAdjacentFaces:3
-msgid "A FaceArray object which is a sequence of Face objects."
-msgstr ""
-
-#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face.getCADAttributes:1
-msgid "This method returns an array of CAD attribute strings associated with the Face when the part was created from CAD data."
-msgstr ""
-
-#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face.getCells:1
-msgid "This method returns a sequence consisting of the cell ids of the cells to which this face belongs."
-msgstr ""
-
-#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face.getCentroid:1
-msgid "This method returns the centroid of a face."
-msgstr ""
-
-#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face.getCentroid:3
-msgid "A sequence of Floats specifying the **X**, **Y**, and **Z** coordinates of the centroid of the face."
-msgstr ""
-
-#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face.getCentroid:5
-#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face.getNormal:15
-msgid ":class:`Sequence[float]`"
-msgstr ""
-
-#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face.getCurvature:1
-msgid "This method returns information about the curvature at a location on the face."
-msgstr ""
-
-#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face.getCurvature:4
-msgid "Check `Face.getCurvature on help.3ds.com/2020 <https://help.3ds.com/2020/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-facepyc.htm?contextscope=all#simaker-facegetcurvaturepyc>`__."
-msgstr ""
-
-#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face.getCurvature:7
-msgid "A tuple specifying the **X**, **Y**, and **Z** coordinates of the point where the curvature is desired. If the **point** does not lie on the face it will be projected onto the face. This argument and **uParam** and **vParam** are mutually exclusive."
-msgstr ""
-
-#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face.getCurvature:11
-msgid "A Float specifying the normalized **U** parameter value at which the curvature is to be computed. This value must lie between (0,1). **vParam** must also be specified. This argument is mutually exclusive with **point**."
-msgstr ""
-
-#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face.getCurvature:15
-msgid "A Float specifying the normalized **V** parameter value at which the curvature is to be computed. This value must lie between (0,1)."
-msgstr ""
-
-#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face.getCurvature:18
-msgid "A dictionary with keys 'evaluationPoint', 'principalAxis1', 'principalAxis2', 'curvature1', 'curvature2' and 'gaussianCurvature'. Where the evaluationPoint specifies the location at which the curvature was evaluated. 'principalAxis1' and 'principalAxis2' refer to the vectors specifying the two principal axes of the face. 'curvature1' and 'curvature2' specify the curvatures along the two principal axes."
-msgstr ""
-
-#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face.getEdges:1
-msgid "This method returns a sequence consisting of the edge ids of the edges on the face."
-msgstr ""
-
-#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face.getEdges:3
-msgid "* :class:`Sequence[int]` * :class:`A tuple` of :class:`integers.`"
-msgstr ""
-
-#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face.getEdges:4
-msgid ":class:`A tuple` of :class:`integers.`"
-msgstr ""
-
-#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face.getElementFaces:1
-msgid "This method returns an array of mesh face objects. Each mesh face object contains the element label and the side of the element that lies on the geometric face."
-msgstr ""
-
-#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face.getElementFaces:5
-msgid "Check `Face.getElementFaces on help.3ds.com/2020 <https://help.3ds.com/2020/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-facepyc.htm?contextscope=all#simaker-facegetelementfacespyc>`__."
-msgstr ""
-
-#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face.getElementFaces:8
-msgid "A symbolic constant specifying the side of the geometric face of a solid from which the element faces should be retrieved. Possible values are **SIDE1**, **SIDE2**, and **BOTH_SIDES**. The default value is **BOTH_SIDES**. For shell faces this option is ignored."
-msgstr ""
-
-#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face.getElementFaces:12
-msgid "A MeshFaceArray object which is a sequence of MeshFace objects."
-msgstr ""
-
-#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face.getElementFaces:13
-msgid ":class:`MeshFaceArray`"
-msgstr ""
-
-#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face.getElements:1
-msgid "This method returns an array of element objects that are associated with the face."
-msgstr ""
-
-#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face.getFacesByCurvature:1
-msgid "This method returns an array of Face objects that are obtained by recursively finding adjacent faces that share the same curvature."
-msgstr ""
-
-#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face.getFacesByFaceAngle:1
-msgid "This method returns an array of Face objects that are obtained by recursively finding adjacent faces that are at an angle of less than or equal to the specified angle."
-msgstr ""
-
-#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face.getFacesByFaceAngle:5
-msgid "Check `Face.getFacesByFaceAngle on help.3ds.com/2020 <https://help.3ds.com/2020/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-facepyc.htm?contextscope=all#simaker-facegetfacesbyfaceanglepyc>`__."
-msgstr ""
-
-#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face.getFacesByFaceAngle:8
-msgid "A float specifying the value of the face angle."
-msgstr ""
-
-#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face.getNodes:1
-msgid "This method returns an array of mesh node objects. Each mesh node object contains the label of the node that lies on the geometric face."
-msgstr ""
-
-#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face.getNodes:5
-msgid "Check `Face.getNodes on help.3ds.com/2020 <https://help.3ds.com/2020/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-facepyc.htm?contextscope=all#simaker-facegetnodespyc>`__."
-msgstr ""
-
-#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face.getNodes:8
-msgid "A symbolic constant specifying the side of the geometric face of a solid from which the nodes should be retrieved. Possible values are xo*SIDE1*, **SIDE2**, and **BOTH_SIDES**. The default value is **BOTH_SIDES**. For shell faces and for faces with compatible meshes on either sides this option is ignored. Otherwise, the nodes on the specified side(s) of the face are output."
-msgstr ""
-
-#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face.getNormal:1
-msgid "This method returns the normal to a face at the location specified by the **pointOn** member. The normal at a different location on the face can be obtained by specifying the optional **point** argument."
-msgstr ""
-
-#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face.getNormal:6
-msgid "Check `Face.getNormal on help.3ds.com/2020 <https://help.3ds.com/2020/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-facepyc.htm?contextscope=all#simaker-facegetnormalpyc>`__."
-msgstr ""
-
-#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face.getNormal:9
-msgid "A tuple specifying the **X**, **Y**, and **Z** coordinates of the point where the normal to the face is desired. If the **point** does not lie on the face it will be projected onto the face."
-msgstr ""
-
-#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face.getNormal:13
-msgid "A sequence of Floats specifying the **X**, **Y**, and **Z** components of the normal to the face."
-msgstr ""
-
-#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face.getSize:1
-msgid "This method returns a Float indicating the area of the face."
-msgstr ""
-
-#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face.getSize:4
-msgid "Check `Face.getSize on help.3ds.com/2020 <https://help.3ds.com/2020/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-facepyc.htm?contextscope=all#simaker-facegetsizepyc>`__."
-msgstr ""
-
-#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face.getSize:7
-msgid "A Bool specifying whether verbose output is printed. The default value is True."
-msgstr ""
-
-#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face.getVertices:1
-msgid "This method returns a sequence consisting of the vertex ids of the vertices of the face."
-msgstr ""
-
-#: ../../../../docstring of abaqus.BasicGeometry.FaceArray.Face.index:1
-msgid "An Int specifying the index of the face in the FaceArray."
-msgstr ""
-
-#: ../../../../docstring of abaqus.BasicGeometry.FaceArray.Face.instanceName:1
-msgid "A tuple of Floats specifying the name of the part instance for this face (if applicable)."
-msgstr ""
-
-#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face.isNormalFlipped:1
-msgid "This method determines whether the normal to the face is flipped from its default direction by the use of the flipNormal method on a Part object."
-msgstr ""
-
-#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face.isNormalFlipped:4
-msgid "A Boolean value of True if the normal is flipped and False if not."
-msgstr ""
-
-#: ../../../../docstring of abaqus.BasicGeometry.FaceArray.Face.isReferenceRep:1
-msgid "A Boolean specifying whether the face belongs to the reference representation of the Part or Instance."
-msgstr ""
-
-#: ../../../../docstring of abaqus.BasicGeometry.FaceArray.Face.pointOn:1
-msgid "A tuple of tuples of Floats specifying the coordinates. For a face of a shell **pointOn** specifies the **X**, **Y**, and **Z** coordinates of a point located on the face and the **X**, **Y**, and **Z** components of the normal to the face.For a face of a solid **pointOn** specifies the **X**, **Y**, and **Z** coordinates of a point located on the face."
 msgstr ""
 
 #: ../../../../../src/abaqus/BasicGeometry/IgnoredEdge.py:docstring of abaqus.BasicGeometry.IgnoredEdge.IgnoredEdge:1
@@ -1714,7 +1717,7 @@ msgid "A tuple of Floats specifying the **X** -, **Y** -, and **Z** -coordinates
 msgstr ""
 
 #: ../../../../../src/abaqus/BasicGeometry/ReferencePoints.py:docstring of abaqus.BasicGeometry.ReferencePoints.ReferencePoints:1
-msgid "Bases: :py:class:`~typing.Dict`\\ [:py:class:`int`, :py:class:`~abaqus.BasicGeometry.ReferencePoint.ReferencePoint`]"
+msgid "Bases: :py:class:`~typing.Dict`\\ [:py:class:`str`, :py:class:`~abaqus.BasicGeometry.ReferencePoint.ReferencePoint`]"
 msgstr ""
 
 #: ../../../../../src/abaqus/BasicGeometry/Transform.py:docstring of abaqus.BasicGeometry.Transform.Transform:1
@@ -1734,7 +1737,7 @@ msgid "A tuple of 12 Floats."
 msgstr ""
 
 #: ../../../../../src/abaqus/BasicGeometry/Transform.py:docstring of abaqus.BasicGeometry.Transform.Transform.matrix:4
-msgid ":class:`Tuple[float`, :class:`float`, :class:`float`, :class:`float`, :class:`float`, :class:`float`, :class:`float`, :class:`float`, :class:`float`, :class:`float`, :class:`float`, :class:`float]`"
+msgid ":class:`tuple[float`, :class:`float`, :class:`float`, :class:`float`, :class:`float`, :class:`float`, :class:`float`, :class:`float`, :class:`float`, :class:`float`, :class:`float`, :class:`float]`"
 msgstr ""
 
 #: ../../../../../src/abaqus/BasicGeometry/VertexArray.py:docstring of abaqus.BasicGeometry.VertexArray.VertexArray:1
@@ -1794,7 +1797,6 @@ msgid "A ConstrainedSketchVertex object or a sequence of ConstrainedSketchVertex
 msgstr ""
 
 #: ../../../../../src/abaqus/BasicGeometry/VertexArray.py:docstring of abaqus.BasicGeometry.VertexArray.VertexArray.findAt:28
-#: ../../../../../src/abaqus/BasicGeometry/VertexArray.py:docstring of abaqus.BasicGeometry.VertexArray.VertexArray.getSequenceFromMask:12
 msgid ":class:`ConstrainedSketchVertex`"
 msgstr ""
 
@@ -1854,4 +1856,8 @@ msgstr ""
 
 #: ../../../../../src/abaqus/BasicGeometry/VertexArray.py:docstring of abaqus.BasicGeometry.VertexArray.VertexArray.getSequenceFromMask:6
 msgid "Check `VertexArray.getSequenceFromMask on help.3ds.com/2020 <https://help.3ds.com/2020/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-vertexarraypyc.htm?contextscope=all#simaker-vertexarraygetsequencefrommaskpyc>`__."
+msgstr ""
+
+#: ../../../../../src/abaqus/BasicGeometry/VertexArray.py:docstring of abaqus.BasicGeometry.VertexArray.VertexArray.getSequenceFromMask:12
+msgid ":class:`ConstrainedSketchVertex | list[ConstrainedSketchVertex]`"
 msgstr ""
