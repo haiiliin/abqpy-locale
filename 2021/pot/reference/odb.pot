@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: abqpy 2021\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-10 13:13+0000\n"
+"POT-Creation-Date: 2023-08-19 09:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2109,6 +2109,101 @@ msgstr ""
 msgid "A FieldValueArray object specifying the order of the objects in the array is determined by the Abaqus Scripting Interface; see the **data** argument to the addData method for a description of the order."
 msgstr ""
 
+#: ../../../../../src/abaqus/Odb/OdbMeshElement.py:docstring of abaqus.Odb.OdbMeshElement.OdbMeshElement:1
+msgid "OdbMeshElement objects are created with the part.addElements or rootAssembly.addElements methods."
+msgstr ""
+
+#: ../../../../../src/abaqus/Odb/OdbMeshElement.py:docstring of abaqus.Odb.OdbMeshElement.OdbMeshElement:25
+msgid "Check `OdbMeshElement on help.3ds.com/2021 <https://help.3ds.com/2021/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-odbmeshelementpyc.htm?contextscope=all>`__."
+msgstr ""
+
+#: ../../../../docstring of abaqus.Odb.OdbSet.OdbMeshElement.connectivity:1
+msgid "A tuple of Ints specifying the element connectivity. For connector elements connected to ground, the other node is repeated in the connectivity data. The position of the ground node cannot be ascertained. This is a limitation. It is important to note the difference with MeshElement object of MDB where the connectivity is node indices instead of node labels."
+msgstr ""
+
+#: ../../../../../src/abaqus/Odb/OdbMeshElement.py:docstring of abaqus.Odb.OdbMeshElement.OdbMeshElement.getNormal:1
+msgid "This method returns the normal direction for the element face."
+msgstr ""
+
+#: ../../../../../src/abaqus/Odb/OdbMeshElement.py:docstring of abaqus.Odb.OdbMeshElement.OdbMeshElement.getNormal:3
+msgid "The getNormal method was added."
+msgstr ""
+
+#: ../../../../../src/abaqus/Odb/OdbMeshElement.py:docstring of abaqus.Odb.OdbMeshElement.OdbMeshElement.getNormal:7
+msgid "Check `OdbMeshElement.getNormal on help.3ds.com/2021 <https://help.3ds.com/2021/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-odbmeshelementpyc.htm?contextscope=all#simaker-odbmeshelementgetnormalpyc>`__."
+msgstr ""
+
+#: ../../../../../src/abaqus/Odb/OdbMeshElement.py:docstring of abaqus.Odb.OdbMeshElement.OdbMeshElement.getNormal:10
+msgid "The value of **faceIndex** is 0 for a shell element and can range from 0 to 5 for a solid element."
+msgstr ""
+
+#: ../../../../../src/abaqus/Odb/OdbMeshElement.py:docstring of abaqus.Odb.OdbMeshElement.OdbMeshElement.getNormal:13
+msgid "Name of the step."
+msgstr ""
+
+#: ../../../../../src/abaqus/Odb/OdbMeshElement.py:docstring of abaqus.Odb.OdbMeshElement.OdbMeshElement.getNormal:15
+msgid "A Double specifying the value at which the frame is required. **frameValue** can be the total fime or frequency."
+msgstr ""
+
+#: ../../../../../src/abaqus/Odb/OdbBase.py:docstring of abaqus.Odb.OdbBase.OdbBase.getFrame:12
+#: ../../../../../src/abaqus/Odb/OdbMeshElement.py:docstring of abaqus.Odb.OdbMeshElement.OdbMeshElement.getNormal:18
+msgid "A SymbolicConstant specifying which frame to return if there is no frame at the exact frame value. Possible values are CLOSEST, BEFORE, AFTER, and EXACT. The default value is CLOSEST.When **match** = CLOSEST, Abaqus returns the closest frame. If the frame value requested is exactly halfway between two frames, Abaqus returns the frame after the value.When **match** = EXACT, Abaqus raises an exception if the exact frame value does not exist."
+msgstr ""
+
+#: ../../../../../src/abaqus/Odb/OdbMeshElement.py:docstring of abaqus.Odb.OdbMeshElement.OdbMeshElement.getNormal:25
+msgid "A tuple of 3 floats representing the unit normal vector. If the element face is collapsed such that a normal cannot be computed, a zero-length vector is returned."
+msgstr ""
+
+#: ../../../../../src/abaqus/Odb/OdbBase.py:docstring of abaqus.Odb.OdbBase.OdbBase.getFrame:22
+#: ../../../../../src/abaqus/Odb/OdbMeshElement.py:docstring of abaqus.Odb.OdbMeshElement.OdbMeshElement.getNormal:28
+msgid "Frame not found, If the exact frame is not found."
+msgstr ""
+
+#: ../../../../../src/abaqus/Odb/OdbMeshElement.py:docstring of abaqus.Odb.OdbMeshElement.OdbMeshElement.getNormal:29
+msgid "Step is not present in the ODB, If the step name is not found."
+msgstr ""
+
+#: ../../../../../src/abaqus/Odb/OdbMeshElement.py:docstring of abaqus.Odb.OdbMeshElement.OdbMeshElement.getNormal:30
+msgid "If **frameValue** is not provided and **stepName** is empty."
+msgstr ""
+
+#: ../../../../docstring of abaqus.Odb.OdbSet.OdbMeshElement.instanceNames:1
+msgid "A tuple of Strings specifying the instance names for nodes in the element connectivity."
+msgstr ""
+
+#: ../../../../../src/abaqus/Odb/OdbInstanceBase.py:docstring of abaqus.Odb.OdbInstanceBase.OdbInstanceBase.getElementFromLabel:7
+#: ../../../../../src/abaqus/Odb/OdbPartBase.py:docstring of abaqus.Odb.OdbPartBase.OdbPartBase.getElementFromLabel:7
+#: ../../../../docstring of abaqus.Odb.OdbSet.OdbMeshElement.label:1
+msgid "An Int specifying the element label."
+msgstr ""
+
+#: ../../../../docstring of abaqus.Odb.OdbSet.OdbMeshElement.sectionCategory:1
+msgid "A SectionCategory object specifying the element section properties."
+msgstr ""
+
+#: ../../../../../src/abaqus/Odb/OdbAssemblyBase.py:docstring of abaqus.Odb.OdbAssemblyBase.OdbAssemblyBase.addElements:18
+#: ../../../../docstring of abaqus.Odb.OdbSet.OdbMeshElement.type:1
+msgid "A String specifying the element type."
+msgstr ""
+
+#: ../../../../../src/abaqus/Odb/OdbMeshNode.py:docstring of abaqus.Odb.OdbMeshNode.OdbMeshNode:1
+msgid "OdbMeshNode objects are created with the part.addNodes method."
+msgstr ""
+
+#: ../../../../../src/abaqus/Odb/OdbMeshNode.py:docstring of abaqus.Odb.OdbMeshNode.OdbMeshNode:21
+msgid "Check `OdbMeshNode on help.3ds.com/2021 <https://help.3ds.com/2021/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-odbmeshnodepyc.htm?contextscope=all>`__."
+msgstr ""
+
+#: ../../../../docstring of abaqus.Odb.OdbSet.OdbMeshNode.coordinates:1
+msgid "A tuple of Floats specifying the nodal coordinates in the global Cartesian coordinate system."
+msgstr ""
+
+#: ../../../../../src/abaqus/Odb/OdbInstanceBase.py:docstring of abaqus.Odb.OdbInstanceBase.OdbInstanceBase.getNodeFromLabel:7
+#: ../../../../../src/abaqus/Odb/OdbPartBase.py:docstring of abaqus.Odb.OdbPartBase.OdbPartBase.getNodeFromLabel:7
+#: ../../../../docstring of abaqus.Odb.OdbSet.OdbMeshNode.label:1
+msgid "An Int specifying the node label."
+msgstr ""
+
 #: ../../../../../src/abaqus/Odb/FieldValue.py:docstring of abaqus.Odb.FieldValue.FieldValue:1
 msgid "The FieldValue object represents the field data at a point. The FieldValue object has no constructor; it is created by the Odb object when data are added to the FieldOutput object using the addData method. For faster, bulk-data access, see Using bulk data access to an output database."
 msgstr ""
@@ -2585,101 +2680,6 @@ msgstr ""
 msgid ":class:`OdbRigidBody`"
 msgstr ""
 
-#: ../../../../../src/abaqus/Odb/OdbMeshElement.py:docstring of abaqus.Odb.OdbMeshElement.OdbMeshElement:1
-msgid "OdbMeshElement objects are created with the part.addElements or rootAssembly.addElements methods."
-msgstr ""
-
-#: ../../../../../src/abaqus/Odb/OdbMeshElement.py:docstring of abaqus.Odb.OdbMeshElement.OdbMeshElement:25
-msgid "Check `OdbMeshElement on help.3ds.com/2021 <https://help.3ds.com/2021/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-odbmeshelementpyc.htm?contextscope=all>`__."
-msgstr ""
-
-#: ../../../../docstring of abaqus.Odb.OdbSet.OdbMeshElement.connectivity:1
-msgid "A tuple of Ints specifying the element connectivity. For connector elements connected to ground, the other node is repeated in the connectivity data. The position of the ground node cannot be ascertained. This is a limitation. It is important to note the difference with MeshElement object of MDB where the connectivity is node indices instead of node labels."
-msgstr ""
-
-#: ../../../../../src/abaqus/Odb/OdbMeshElement.py:docstring of abaqus.Odb.OdbMeshElement.OdbMeshElement.getNormal:1
-msgid "This method returns the normal direction for the element face."
-msgstr ""
-
-#: ../../../../../src/abaqus/Odb/OdbMeshElement.py:docstring of abaqus.Odb.OdbMeshElement.OdbMeshElement.getNormal:3
-msgid "The getNormal method was added."
-msgstr ""
-
-#: ../../../../../src/abaqus/Odb/OdbMeshElement.py:docstring of abaqus.Odb.OdbMeshElement.OdbMeshElement.getNormal:7
-msgid "Check `OdbMeshElement.getNormal on help.3ds.com/2021 <https://help.3ds.com/2021/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-odbmeshelementpyc.htm?contextscope=all#simaker-odbmeshelementgetnormalpyc>`__."
-msgstr ""
-
-#: ../../../../../src/abaqus/Odb/OdbMeshElement.py:docstring of abaqus.Odb.OdbMeshElement.OdbMeshElement.getNormal:10
-msgid "The value of **faceIndex** is 0 for a shell element and can range from 0 to 5 for a solid element."
-msgstr ""
-
-#: ../../../../../src/abaqus/Odb/OdbMeshElement.py:docstring of abaqus.Odb.OdbMeshElement.OdbMeshElement.getNormal:13
-msgid "Name of the step."
-msgstr ""
-
-#: ../../../../../src/abaqus/Odb/OdbMeshElement.py:docstring of abaqus.Odb.OdbMeshElement.OdbMeshElement.getNormal:15
-msgid "A Double specifying the value at which the frame is required. **frameValue** can be the total fime or frequency."
-msgstr ""
-
-#: ../../../../../src/abaqus/Odb/OdbBase.py:docstring of abaqus.Odb.OdbBase.OdbBase.getFrame:12
-#: ../../../../../src/abaqus/Odb/OdbMeshElement.py:docstring of abaqus.Odb.OdbMeshElement.OdbMeshElement.getNormal:18
-msgid "A SymbolicConstant specifying which frame to return if there is no frame at the exact frame value. Possible values are CLOSEST, BEFORE, AFTER, and EXACT. The default value is CLOSEST.When **match** = CLOSEST, Abaqus returns the closest frame. If the frame value requested is exactly halfway between two frames, Abaqus returns the frame after the value.When **match** = EXACT, Abaqus raises an exception if the exact frame value does not exist."
-msgstr ""
-
-#: ../../../../../src/abaqus/Odb/OdbMeshElement.py:docstring of abaqus.Odb.OdbMeshElement.OdbMeshElement.getNormal:25
-msgid "A tuple of 3 floats representing the unit normal vector. If the element face is collapsed such that a normal cannot be computed, a zero-length vector is returned."
-msgstr ""
-
-#: ../../../../../src/abaqus/Odb/OdbBase.py:docstring of abaqus.Odb.OdbBase.OdbBase.getFrame:22
-#: ../../../../../src/abaqus/Odb/OdbMeshElement.py:docstring of abaqus.Odb.OdbMeshElement.OdbMeshElement.getNormal:28
-msgid "Frame not found, If the exact frame is not found."
-msgstr ""
-
-#: ../../../../../src/abaqus/Odb/OdbMeshElement.py:docstring of abaqus.Odb.OdbMeshElement.OdbMeshElement.getNormal:29
-msgid "Step is not present in the ODB, If the step name is not found."
-msgstr ""
-
-#: ../../../../../src/abaqus/Odb/OdbMeshElement.py:docstring of abaqus.Odb.OdbMeshElement.OdbMeshElement.getNormal:30
-msgid "If **frameValue** is not provided and **stepName** is empty."
-msgstr ""
-
-#: ../../../../docstring of abaqus.Odb.OdbSet.OdbMeshElement.instanceNames:1
-msgid "A tuple of Strings specifying the instance names for nodes in the element connectivity."
-msgstr ""
-
-#: ../../../../../src/abaqus/Odb/OdbInstanceBase.py:docstring of abaqus.Odb.OdbInstanceBase.OdbInstanceBase.getElementFromLabel:7
-#: ../../../../../src/abaqus/Odb/OdbPartBase.py:docstring of abaqus.Odb.OdbPartBase.OdbPartBase.getElementFromLabel:7
-#: ../../../../docstring of abaqus.Odb.OdbSet.OdbMeshElement.label:1
-msgid "An Int specifying the element label."
-msgstr ""
-
-#: ../../../../docstring of abaqus.Odb.OdbSet.OdbMeshElement.sectionCategory:1
-msgid "A SectionCategory object specifying the element section properties."
-msgstr ""
-
-#: ../../../../../src/abaqus/Odb/OdbAssemblyBase.py:docstring of abaqus.Odb.OdbAssemblyBase.OdbAssemblyBase.addElements:18
-#: ../../../../docstring of abaqus.Odb.OdbSet.OdbMeshElement.type:1
-msgid "A String specifying the element type."
-msgstr ""
-
-#: ../../../../../src/abaqus/Odb/OdbMeshNode.py:docstring of abaqus.Odb.OdbMeshNode.OdbMeshNode:1
-msgid "OdbMeshNode objects are created with the part.addNodes method."
-msgstr ""
-
-#: ../../../../../src/abaqus/Odb/OdbMeshNode.py:docstring of abaqus.Odb.OdbMeshNode.OdbMeshNode:21
-msgid "Check `OdbMeshNode on help.3ds.com/2021 <https://help.3ds.com/2021/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-odbmeshnodepyc.htm?contextscope=all>`__."
-msgstr ""
-
-#: ../../../../docstring of abaqus.Odb.OdbSet.OdbMeshNode.coordinates:1
-msgid "A tuple of Floats specifying the nodal coordinates in the global Cartesian coordinate system."
-msgstr ""
-
-#: ../../../../../src/abaqus/Odb/OdbInstanceBase.py:docstring of abaqus.Odb.OdbInstanceBase.OdbInstanceBase.getNodeFromLabel:7
-#: ../../../../../src/abaqus/Odb/OdbPartBase.py:docstring of abaqus.Odb.OdbPartBase.OdbPartBase.getNodeFromLabel:7
-#: ../../../../docstring of abaqus.Odb.OdbSet.OdbMeshNode.label:1
-msgid "An Int specifying the node label."
-msgstr ""
-
 #: ../../../../../src/abaqus/Odb/HistoryRegion.py:docstring of abaqus.Odb.HistoryRegion.HistoryRegion:1
 msgid "The HistoryRegion object contains history data for a single location in the model."
 msgstr ""
@@ -3143,7 +3143,6 @@ msgid "A sequence of two fieldOutput objects. The first fieldOutput object conta
 msgstr ""
 
 #: ../../../../../src/abaqus/Odb/OdbCommands.py:docstring of abaqus.Odb.OdbCommands.maxEnvelope:7
-#: ../../../../../src/abaqus/Odb/OdbCommands.py:docstring of abaqus.Odb.OdbCommands.minEnvelope:7
 msgid ":class:`Sequence[FieldOutput]`"
 msgstr ""
 
@@ -3158,6 +3157,10 @@ msgstr ""
 
 #: ../../../../../src/abaqus/Odb/OdbCommands.py:docstring of abaqus.Odb.OdbCommands.minEnvelope:3
 msgid "A sequence of two fieldOutput objects. The first fieldOutput object contains the minimum value. The second fieldOutput object contains the index of the field containing the minimum value. The index follows the order in which fields are positioned in the list of fieldOutput objects provided as the argument to the function."
+msgstr ""
+
+#: ../../../../../src/abaqus/Odb/OdbCommands.py:docstring of abaqus.Odb.OdbCommands.minEnvelope:7
+msgid ":class:`Sequence[tuple[FieldOutput`, :class:`FieldOutput]]`"
 msgstr ""
 
 #: ../../../../../src/abaqus/Odb/OdbCommands.py:docstring of abaqus.Odb.OdbCommands.openOdb:1
@@ -3218,10 +3221,6 @@ msgstr ""
 
 #: ../../../../../src/abaqus/Odb/OdbFrame.py:docstring of abaqus.Odb.OdbFrame.OdbFrame:10
 msgid "Check `OdbFrame on help.3ds.com/2021 <https://help.3ds.com/2021/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-odbframepyc.htm?contextscope=all>`__."
-msgstr ""
-
-#: ../../../../../src/abaqus/Odb/OdbFrame.py:docstring of abaqus.Odb.OdbFrame.OdbFrame:12
-msgid "Helper for @overload to raise when called."
 msgstr ""
 
 #: ../../../../docstring of abaqus.Odb.OdbStepBase.OdbFrame.associatedFrame:1
