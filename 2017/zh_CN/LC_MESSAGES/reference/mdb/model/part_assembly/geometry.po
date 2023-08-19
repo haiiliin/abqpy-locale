@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: abqpy \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-24 15:22+0000\n"
+"POT-Creation-Date: 2023-08-19 09:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -429,7 +429,6 @@ msgstr ""
 
 #: abaqus.BasicGeometry.Edge.Edge.getCurvature:18
 #: abaqus.BasicGeometry.EdgeArray.EdgeArray.getClosest:27
-#: abaqus.BasicGeometry.Face.Face.getCurvature:23
 #: abaqus.BasicGeometry.FaceArray.FaceArray.getClosest:27
 #: abaqus.BasicGeometry.IgnoredEdge.IgnoredEdge.getCurvature:19
 #: abaqus.BasicGeometry.IgnoredEdgeArray.IgnoredEdgeArray.getClosest:27
@@ -515,7 +514,7 @@ msgstr ""
 #: abaqus.BasicGeometry.Edge.Edge.getFaces:4
 #: abaqus.BasicGeometry.Edge.Edge.getVertices:7
 #: abaqus.BasicGeometry.Vertex.Vertex.getEdges:4 of
-msgid ":class:`Tuple[int]`"
+msgid ":class:`tuple[int]`"
 msgstr ""
 
 #: abaqus.BasicGeometry.Edge.Edge.getNodes:1 of
@@ -924,7 +923,7 @@ msgstr ""
 #: abaqus.BasicGeometry.EdgeArray.EdgeArray.getBoundingBox:10
 #: abaqus.BasicGeometry.VertexArray.VertexArray.getBoundingBox:10 of
 msgid ""
-":class:`Dict[str`, :class:`Tuple[float`, :class:`float`, :class:`float]]`"
+":class:`dict[str`, :class:`tuple[float`, :class:`float`, :class:`float]]`"
 msgstr ""
 
 #: abaqus.BasicGeometry.CellArray.CellArray.getByBoundingBox:1 of
@@ -1441,6 +1440,10 @@ msgid ""
 "'curvature2' specify the curvatures along the two principal axes."
 msgstr ""
 
+#: abaqus.BasicGeometry.Face.Face.getCurvature:23 of
+msgid ":class:`dict[str`, :class:`float]`"
+msgstr ""
+
 #: abaqus.BasicGeometry.Face.Face.getEdges:1 of
 msgid ""
 "This method returns a sequence consisting of the edge ids of the edges on "
@@ -1767,7 +1770,7 @@ msgid ""
 msgstr ""
 
 #: abaqus.BasicGeometry.FaceArray.FaceArray.getBoundingBox:10 of
-msgid ":class:`Dict[str`, :class:`Sequence[float]]`"
+msgid ":class:`dict[str`, :class:`Sequence[float]]`"
 msgstr ""
 
 #: abaqus.BasicGeometry.FaceArray.FaceArray.getByBoundingBox:1 of
@@ -2360,7 +2363,7 @@ msgstr ""
 
 #: abaqus.BasicGeometry.ReferencePoints.ReferencePoints:1 of
 msgid ""
-"Bases: :py:class:`~typing.Dict`\\ [:py:class:`int`, "
+"Bases: :py:class:`~typing.Dict`\\ [:py:class:`str`, "
 ":py:class:`~abaqus.BasicGeometry.ReferencePoint.ReferencePoint`]"
 msgstr ""
 
@@ -2390,7 +2393,7 @@ msgstr ""
 
 #: abaqus.BasicGeometry.Transform.Transform.matrix:4 of
 msgid ""
-":class:`Tuple[float`, :class:`float`, :class:`float`, :class:`float`, "
+":class:`tuple[float`, :class:`float`, :class:`float`, :class:`float`, "
 ":class:`float`, :class:`float`, :class:`float`, :class:`float`, "
 ":class:`float`, :class:`float`, :class:`float`, :class:`float]`"
 msgstr ""
@@ -2488,8 +2491,7 @@ msgid ""
 "objects.."
 msgstr ""
 
-#: abaqus.BasicGeometry.VertexArray.VertexArray.findAt:28
-#: abaqus.BasicGeometry.VertexArray.VertexArray.getSequenceFromMask:12 of
+#: abaqus.BasicGeometry.VertexArray.VertexArray.findAt:28 of
 msgid ":class:`ConstrainedSketchVertex`"
 msgstr ""
 
@@ -2600,6 +2602,10 @@ msgid ""
 "3ds.com/2017/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "vertexarraypyc.htm?contextscope=all#simaker-"
 "vertexarraygetsequencefrommaskpyc>`__."
+msgstr ""
+
+#: abaqus.BasicGeometry.VertexArray.VertexArray.getSequenceFromMask:12 of
+msgid ":class:`ConstrainedSketchVertex | list[ConstrainedSketchVertex]`"
 msgstr ""
 
 #~ msgid "Bases: :py:class:`~abaqus.Part.PartBase.PartBase`"
