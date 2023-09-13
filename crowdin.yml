@@ -1,33 +1,7 @@
 files:
-  - source: /2016/pot/*.pot
+  - source: "/**/pot/*.pot"
+    translation: "/**/%locale_with_underscore%/LC_MESSAGES/%file_name%.po"
     ignore:
-      - /2016/pot/CHANGES.pot
-    translation: /2016/%locale_with_underscore%/LC_MESSAGES/%file_name%.po
-  - source: /2017/pot/*.pot
-    ignore:
-      - /2017/pot/CHANGES.pot
-    translation: /2017/%locale_with_underscore%/LC_MESSAGES/%file_name%.po
-  - source: /2018/pot/*.pot
-    ignore:
-      - /2018/pot/CHANGES.pot
-    translation: /2018/%locale_with_underscore%/LC_MESSAGES/%file_name%.po
-  - source: /2019/pot/*.pot
-    ignore:
-      - /2019/pot/CHANGES.pot
-    translation: /2019/%locale_with_underscore%/LC_MESSAGES/%file_name%.po
-  - source: /2020/pot/*.pot
-    ignore:
-      - /2020/pot/CHANGES.pot
-    translation: /2020/%locale_with_underscore%/LC_MESSAGES/%file_name%.po
-  - source: /2021/pot/*.pot
-    ignore:
-      - /2021/pot/CHANGES.pot
-    translation: /2021/%locale_with_underscore%/LC_MESSAGES/%file_name%.po
-  - source: /2022/pot/*.pot
-    ignore:
-      - /2022/pot/CHANGES.pot
-    translation: /2022/%locale_with_underscore%/LC_MESSAGES/%file_name%.po
-  - source: /2023/pot/*.pot
-    ignore:
-      - /2023/pot/CHANGES.pot
-    translation: /2023/%locale_with_underscore%/LC_MESSAGES/%file_name%.po
+      - "/**/pot/CHANGES.pot"
+  - source: "/**/pot/examples/**.pot"
+    translation: "/**/%locale_with_underscore%/LC_MESSAGES/examples/**.po"
