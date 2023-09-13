@@ -3,5 +3,7 @@ files:
     translation: "/**/%locale_with_underscore%/LC_MESSAGES/%file_name%.po"
     ignore:
       - "/**/pot/CHANGES.pot"
-  - source: "/**/pot/examples/**.pot"
-    translation: "/**/%locale_with_underscore%/LC_MESSAGES/examples/**.po"
+  - source: "/**/pot/**/*.pot"
+    translation: "/**/%locale_with_underscore%/LC_MESSAGES/**/%file_name%.po"
+    ignore:
+      - "/**/pot/reference/**/*.pot"
