@@ -1,16 +1,13 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, WANG Hailin
-# This file is distributed under the same license as the abqpy package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version:  abqpy\nReport-Msgid-Bugs-To: \nPOT-Creation-Date: "
-"2023-07-11 06:26+0000\nPO-Revision-Date: 2023-05-12 09:59+0000\nLast-"
-"Translator: Crowdin\nLanguage: zh_CN\nLanguage-Team: \nPlural-Forms: "
-"nplurals=1; plural=0;\nMIME-Version: 1.0\nContent-Type: text/plain; "
-"charset=utf-8\nContent-Transfer-Encoding: 8bit\nGenerated-By: Babel "
-"2.12.1\n"
+"Project-Id-Version: abqpy-locale\nReport-Msgid-Bugs-To: \nPOT-Creation-"
+"Date: 2023-07-11 06:26+0000\nPO-Revision-Date: 2023-09-13 10:54\nLast-"
+"Translator: \nLanguage-Team: Chinese Simplified\nMIME-Version: "
+"1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: "
+"8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Crowdin-Project: abqpy-"
+"locale\nX-Crowdin-Project-ID: 587413\nX-Crowdin-Language: zh-CN\nX-"
+"Crowdin-File: /main/2017/pot/getting_started.pot\nX-Crowdin-File-ID: "
+"1019\nLanguage: zh_CN\n"
 
 #: ../../../getting_started.md:1
 msgid "Getting Started"
@@ -39,7 +36,6 @@ msgid "Installation"
 msgstr "安装"
 
 #: ../../../getting_started.md:13
-#, fuzzy
 msgid ""
 "Make sure <a href=\"https://www.python.org/downloads/\"> <img "
 "src=\"https://img.shields.io/badge/Python-3.7%2B-brightgreen\" "
@@ -49,23 +45,16 @@ msgid ""
 "align=center /> </a> are installed on your computer before installing "
 "`abqpy`."
 msgstr ""
-"在安装 `abqpy` 之前，请确保 <a href=\"https://www.python.org/downloads/\"> <img "
-"src=\"https://img.shields.io/badge/Python-3.7%2B-brightgreen\" "
-"align=center /> </a> 和 <a href=\"https://www.3ds.com/products-"
-"services/simulia/products/abaqus/\"> <img "
-"src=\"https://img.shields.io/badge/Abaqus-2016%2B-brightgreen\" "
-"align=center /> </a> 已安装到您的计算机上。"
 
 #: ../../../getting_started.md:17
 msgid "You can install `abqpy` with the following commands."
 msgstr "你可以使用以下命令安装 `abqpy`。"
 
-#: ../../../getting_started.md
-#, fuzzy
+#: ../../../getting_started.md:0
 msgid "Install from PyPI"
-msgstr "从源代码安装"
+msgstr ""
 
-#: ../../../getting_started.md
+#: ../../../getting_started.md:0
 msgid "Install from source"
 msgstr "从源代码安装"
 
@@ -166,9 +155,8 @@ msgstr ""
 "**abaqus** 命令实现的，如下所示："
 
 #: ../../../getting_started.md:103
-#, fuzzy
 msgid "The secret is hided in the {py:func}`~abqpy.run.run` function:"
-msgstr "秘密隐藏在 {py:func}`~abqpy.run.run` 函数中："
+msgstr ""
 
 #: ../../../getting_started.md:119
 msgid ""
@@ -249,25 +237,21 @@ msgid "Setup your Abaqus Environment"
 msgstr "配置 Abaqus 环境"
 
 #: ../../../getting_started.md:149
-#, fuzzy
 msgid ""
-"Make sure the `abaqus` command is available in the command line (i.e., "
-"you can run `abaqus` in the command line), otherwise, add a new system "
+"Make sure the `abaqus` command is available in the command line (i.e., you"
+" can run `abaqus` in the command line), otherwise, add a new system "
 "variable named `ABAQUS_BAT_PATH`, and set the value to the file path of "
 "the Abaqus command, for example, `C:/SIMULIA/Commands/abaqus.bat`."
 msgstr ""
-"请确保命令行中的 `abaqus` 命令是可用的 (即您可以在命令行运行 `abaqus`），否则你需要添加一个名为 "
-"`ABAQUS_BAT_PATH` 的系统环境变量， 并将其设置为 Abaqus 批处理文件的文件路径，例如 "
-"`C:/SIMULIA/Commands/abaqus.bat`。"
 
 #: ../../../getting_started.md:153
 msgid "Run your Abaqus/Python script"
 msgstr "运行你的 Abaqus/Python 脚本"
 
 #: ../../../getting_started.md:155
-#, fuzzy
-msgid "Now you can run your Abaqus/Python script with the following methods:"
-msgstr "你可以使用以下命令安装 `abqpy`。"
+msgid ""
+"Now you can run your Abaqus/Python script with the following methods:"
+msgstr ""
 
 #: ../../../getting_started.md:157
 msgid ""
@@ -343,28 +327,17 @@ msgstr ""
 "脚本可能可以正常工作，你可以使用调试器来粗略检查 Abaqus 中的变量。 "
 "但脚本仍然不会提交给 Abaqus。"
 
-#: ../../../getting_started.md:196 ../../../getting_started.md:198
+#: ../../../getting_started.md:196
+#: ../../../getting_started.md:198
 msgid "Create an Abaqus Model"
 msgstr "创建一个 Abaqus 模型"
 
-#: ../../../getting_started.md:204 ../../../getting_started.md:206
+#: ../../../getting_started.md:204
+#: ../../../getting_started.md:206
 msgid "Extract Output Data"
 msgstr "提取输出数据"
 
 #: ../../../getting_started.md:212
 msgid "Comments"
 msgstr "评论"
-
-#~ msgid ""
-#~ "Now you can just run your "
-#~ "Abaqus/Python script using your own "
-#~ "Python interpreter that `abqpy` is "
-#~ "installed."
-#~ msgstr "现在你可以使用你自己的 Python 解释器来运行你的 Abaqus/Python 脚本。"
-
-#~ msgid "Install with pip"
-#~ msgstr "使用 pip 安装"
-
-#~ msgid "Install with jupyter notebook support"
-#~ msgstr "安装支持 jupyter notebook 的 abqpy"
 
