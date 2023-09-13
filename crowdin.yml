@@ -7,3 +7,4 @@ files:
     translation: "/**/%locale_with_underscore%/LC_MESSAGES/**/%file_name%.po"
     ignore:
       - "/**/pot/reference/**/*.pot"
+      - "/**/pot/user/**/*.pot"
