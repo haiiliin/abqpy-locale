@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: abqpy-locale\nReport-Msgid-Bugs-To: \nPOT-Creation-"
-"Date: 2023-06-19 11:01+0000\nPO-Revision-Date: 2023-09-13 10:55\nLast-"
+"Date: 2023-06-19 11:01+0000\nPO-Revision-Date: 2023-09-13 11:23\nLast-"
 "Translator: \nLanguage-Team: Chinese Simplified\nMIME-Version: "
 "1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: "
 "8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Crowdin-Project: abqpy-"
@@ -11,7 +11,7 @@ msgstr ""
 
 #: ../../../localization.md:1
 msgid "Documentation Localization"
-msgstr ""
+msgstr "文档本地化"
 
 #: ../../../localization.md:3
 msgid ""
@@ -25,6 +25,12 @@ msgid ""
 "account. Once you have an account, you can request to join the translation"
 " team."
 msgstr ""
+"该项目文档使用 [sphinx-intl](https://github.com/sphinx-doc/sphinx-intl) "
+"进行本地化，翻译文件已放置到 [abqpy-locale](https://github.com/haiiliin/abqpy-"
+"locale) 仓库。翻译在 [Crowdin](https://crowdin.com/project/abqpy-locale) "
+"进行。如果您想帮助翻译文档，请访问 [Crowdin "
+"项目](https://crowdin.com/project/abqpy-locale) 并注册一个帐户。"
+"一旦您注册好了一个帐户，您便可以申请加入翻译团队。"
 
 #: ../../../localization.md:10
 msgid ""
@@ -34,8 +40,12 @@ msgid ""
 "locale.sh`](https://github.com/haiiliin/abqpy/blob/main/docs/update-"
 "locale.sh) script."
 msgstr ""
+"要添加新的语言，请在 [GitHub 仓库](https://github.com/haiiliin/abqpy/issues) "
+"上创建一个 Issue 或 合并请求，并将语言添加到 [`docs/update-"
+"locale.sh`](https://github.com/haiiliin/abqpy/blob/main/docs/update-"
+"locale.sh) 脚本。"
 
 #: ../../../localization.md:14
 msgid "Comments"
-msgstr ""
+msgstr "评论"
 

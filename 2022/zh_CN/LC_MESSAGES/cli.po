@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: abqpy-locale\nReport-Msgid-Bugs-To: \nPOT-Creation-"
-"Date: 2023-06-19 11:01+0000\nPO-Revision-Date: 2023-09-13 10:55\nLast-"
+"Date: 2023-06-19 11:01+0000\nPO-Revision-Date: 2023-09-13 11:23\nLast-"
 "Translator: \nLanguage-Team: Chinese Simplified\nMIME-Version: "
 "1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: "
 "8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Crowdin-Project: abqpy-"
@@ -20,6 +20,9 @@ msgid ""
 "`20**.5.0`, and it is not compatible with the command line interface of "
 "previous versions."
 msgstr ""
+"自版本 `20**.5.0` 以来，命令行接口基于 "
+"[`fire`](https://github.com/google/python-fire) 库，"
+"与之前版本的命令行接口不兼容。"
 
 #: ../../../cli.md:9
 msgid ""
@@ -73,6 +76,10 @@ msgid ""
 "see the [References](#references) section or run `abqpy COMMAND --help` "
 "for help."
 msgstr ""
+"`COMMAND` 是 `abaqus`、`cae`、`python`、`run` 或任何其他 Abaqus "
+"命令之一，`SCRIPT` 是你的 Python 脚本的文件名称，`flags` "
+"是可以传递给命令的选项，`ARGS` 是命令行选项之后传递的额外参数。 欲了解详情，请参阅 "
+"[References](#reference) 部分或运行 `abqpy COMMAND --help` 获取帮助。"
 
 #: ../../../cli.md:51
 msgid ""
@@ -168,6 +175,8 @@ msgid ""
 "token rather than the boolean value. Thus `--gui=True` instead of `--gui` "
 "is used here to prevent this problem."
 msgstr ""
+"请注意，如果有另外的选项紧跟在布尔值标志之后，则该布尔值标志将采用该标志后面的值。 "
+"因此这里使用 `--gui=True` 而不是 `--gui` 来避免这个问题。"
 
 #: ../../../cli.md:120
 msgid "References"

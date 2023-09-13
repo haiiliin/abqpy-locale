@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: abqpy-locale\nReport-Msgid-Bugs-To: \nPOT-Creation-"
-"Date: 2023-07-10 04:21+0000\nPO-Revision-Date: 2023-09-13 10:54\nLast-"
+"Date: 2023-07-10 04:21+0000\nPO-Revision-Date: 2023-09-13 11:22\nLast-"
 "Translator: \nLanguage-Team: Chinese Simplified\nMIME-Version: "
 "1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: "
 "8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Crowdin-Project: abqpy-"
@@ -45,6 +45,12 @@ msgid ""
 "align=center /> </a> are installed on your computer before installing "
 "`abqpy`."
 msgstr ""
+"在安装 `abqpy` 之前，请确保 <a href=\"https://www.python.org/downloads/\"> "
+"<img src=\"https://img.shields.io/badge/Python-3.7%2B-brightgreen\" "
+"align=center /> </a> 和 <a href=\"https://www.3ds.com/products-"
+"services/simulia/products/abaqus/\"> <img "
+"src=\"https://img.shields.io/badge/Abaqus-2016%2B-brightgreen\" "
+"align=center /> </a> 已安装到您的计算机上。"
 
 #: ../../../getting_started.md:17
 msgid "You can install `abqpy` with the following commands."
@@ -52,7 +58,7 @@ msgstr "你可以使用以下命令安装 `abqpy`。"
 
 #: ../../../getting_started.md:0
 msgid "Install from PyPI"
-msgstr ""
+msgstr "从 PyPI 安装"
 
 #: ../../../getting_started.md:0
 msgid "Install from source"
@@ -156,7 +162,7 @@ msgstr ""
 
 #: ../../../getting_started.md:103
 msgid "The secret is hided in the {py:func}`~abqpy.run.run` function:"
-msgstr ""
+msgstr "秘密隐藏在 {py:func}`~abqpy.run.run` 函数中："
 
 #: ../../../getting_started.md:119
 msgid ""
@@ -243,6 +249,9 @@ msgid ""
 "variable named `ABAQUS_BAT_PATH`, and set the value to the file path of "
 "the Abaqus command, for example, `C:/SIMULIA/Commands/abaqus.bat`."
 msgstr ""
+"请确保命令行中的 `abaqus` 命令是可用的（即您可以在命令行运行 `abaqus`），"
+"否则你需要添加一个名为 `ABAQUS_BAT_PATH` 的系统环境变量， 并将其设置为 Abaqus "
+"批处理文件的文件路径，例如 `C:/SIMULIA/Commands/abaqus.bat`。"
 
 #: ../../../getting_started.md:153
 msgid "Run your Abaqus/Python script"
@@ -251,7 +260,7 @@ msgstr "运行你的 Abaqus/Python 脚本"
 #: ../../../getting_started.md:155
 msgid ""
 "Now you can run your Abaqus/Python script with the following methods:"
-msgstr ""
+msgstr "现在您可以使用以下方法运行您的 Abaqus/Python 脚本："
 
 #: ../../../getting_started.md:157
 msgid ""
@@ -259,10 +268,12 @@ msgid ""
 "script file, which is the most common way to run a Python script in "
 "Abaqus/CAE."
 msgstr ""
+"打开 Abaqus/CAE 并点击菜单栏中的 `运行脚本`，然后选择您的脚本文件， 它是在 "
+"Abaqus/CAE 中运行 Python 脚本的最常见方式。"
 
 #: ../../../getting_started.md:159
 msgid "Use the `abaqus` command in the command line:"
-msgstr ""
+msgstr "在命令行中使用 `abaqus` 命令："
 
 #: ../../../getting_started.md:163
 msgid ""
@@ -270,10 +281,13 @@ msgid ""
 "EXCRefMap/simaexc-c-caeproc.htm?contextscope=all) for more information "
 "about the `abaqus` command."
 msgstr ""
+"更多关于 `abaqus` 命令的信息，请访问 [这里](https://help.3ds.com/2023/English/DS"
+"SIMULIA_Established/SIMACEEXCRefMap/simagec-c-c-"
+"caeproc.htm?contextscope=all)。"
 
 #: ../../../getting_started.md:165
 msgid "Use the `abqpy` command in the command line:"
-msgstr ""
+msgstr "在命令行中使用 `abaqus` 命令："
 
 #: ../../../getting_started.md:169
 msgid ""
@@ -281,22 +295,27 @@ msgid ""
 "directly is that you are able to customize the default python launch "
 "command. See {doc}`cli` for more information about the `abqpy` command."
 msgstr ""
+"使用 `abqpy` 命令而不是直接使用 `abaqus` 命令的好处是，您可以自定义默认的 Python "
+"启动命令。有关 `abqpy` 命令的更多信息，请参见 {doc}`cli`。"
 
 #: ../../../getting_started.md:171
 msgid "Use the Python 3 interpreter to run the script directly:"
-msgstr ""
+msgstr "使用 Python 3 解释器直接运行脚本："
 
 #: ../../../getting_started.md:175
 msgid ""
 "This is the most convenient way to run the script, it is equivalent to the"
 " `abqpy` command with some default predefined arguments."
 msgstr ""
+"这是运行脚本的最方便的方式，它等效于 `abqpy` 命令，并带有一些默认的预定义参数。"
 
 #: ../../../getting_started.md:177
 msgid ""
 "Use the {py:obj}`abqpy.cli.abaqus` object (an {py:obj}`abqpy.cli.AbqpyCLI`"
 " object) to run the script:"
 msgstr ""
+"使用 {py:obj}`abqpy.cli.abaqus` 变量 ({py:obj}`abqpy.cli.AbqpyCLI` 对象) "
+"运行脚本："
 
 #: ../../../getting_started.md:182
 msgid ""
@@ -307,6 +326,11 @@ msgid ""
 "the methods, so you can check the docstring of the methods for more "
 "information."
 msgstr ""
+"`abqpy` 命令使用 {py:obj}`abqpy.cli.abaqus` 变量调用命令行，"
+"你可以直接调用此变量中的方法来运行脚本。 当您想要在另一个 Python 脚本中调用 "
+"Abaqus/Python 脚本时，这个方法是十分方便的，"
+"因为代码编辑器会为这些方法提供类型提示。 "
+"您可以检查变量方法的文档字符串以获取更多信息。"
 
 #: ../../../getting_started.md:188
 msgid ""

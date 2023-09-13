@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: abqpy-locale\nReport-Msgid-Bugs-To: \nPOT-Creation-"
-"Date: 2023-09-05 01:09+0000\nPO-Revision-Date: 2023-09-13 10:54\nLast-"
+"Date: 2023-09-05 01:09+0000\nPO-Revision-Date: 2023-09-13 11:22\nLast-"
 "Translator: \nLanguage-Team: Chinese Simplified\nMIME-Version: "
 "1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: "
 "8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Crowdin-Project: abqpy-"
@@ -15,7 +15,7 @@ msgstr "环境变量"
 
 #: ../../../envvars.md:3
 msgid "`ABAQUS_BAT_PATH`"
-msgstr ""
+msgstr "`ABAQUS_BAT_PATH`"
 
 #: ../../../envvars.md:5
 msgid ""
@@ -25,10 +25,13 @@ msgid ""
 "command line procedure inside the Python interpreter environment where it "
 "is installed."
 msgstr ""
+"`abaqus` 命令行批处理文件的文件路径 (`.bat`)。 仅在 `abaqus` 不是默认的 Abaqus "
+"命令行可执行文件时设置此环境变量。 此变量被用于在安装了 `abqpy` 的 Python "
+"解释器环境中运行 Abaqus 命令行程序。"
 
 #: ../../../envvars.md:9
 msgid "`ABAQUS_COMMAND_OPTIONS`"
-msgstr ""
+msgstr "`ABAQUS_COMMAND_OPTIONS`"
 
 #: ../../../envvars.md:11
 msgid ""
@@ -98,6 +101,8 @@ msgid ""
 " (GUI mode) and load a _database_ file, i.e., it will run the following "
 "command line."
 msgstr ""
+"在这种情况下，程序将使用图形用户界面（GUI ）模式并加载数据库文件，即，"
+"它将运行以下命令。"
 
 #: ../../../envvars.md:85
 msgid "Comments"
