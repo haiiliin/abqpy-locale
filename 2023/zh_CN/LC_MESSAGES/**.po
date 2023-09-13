@@ -13,19 +13,23 @@ msgstr ""
 "X-Crowdin-Project: abqpy-locale\n"
 "X-Crowdin-Project-ID: 587413\n"
 "X-Crowdin-Language: zh-CN\n"
-"X-Crowdin-File: /main/2023/pot/policy.pot\n"
-"X-Crowdin-File-ID: 1107\n"
+"X-Crowdin-File: /main/2023/pot/localization.pot\n"
+"X-Crowdin-File-ID: 1111\n"
 "Language: zh_CN\n"
 
-#: ../../../policy.md:1
-msgid "Comment Policy"
-msgstr "评论策略"
+#: ../../../localization.md:1
+msgid "Documentation Localization"
+msgstr "文档本地化"
 
-#: ../../../policy.md:3
-msgid "Please keep the discussion on topic and respect the opinions of others. We reserve the right to delete comments that are off-topic, rude, or disrespectful. We also reserve the right to ban users who repeatedly violate our comment policy."
-msgstr "请聚焦要讨论的主题，并尊重他人的意见。 我们保留删除离题、粗鲁或无礼评论的权利。 我们还保留禁止多次违反我们评论政策的用户的权利。"
+#: ../../../localization.md:3
+msgid "The documentation is localized using [sphinx-intl](https://github.com/sphinx-doc/sphinx-intl), and the translation files are placed in the [abqpy-locale](https://github.com/haiiliin/abqpy-locale) repository. The translation takes place at [Crowdin](https://crowdin.com/project/abqpy-locale), if you would like to help translate the documentation, please visit the [Crowdin project](https://crowdin.com/project/abqpy-locale) and sign up for an account. Once you have an account, you can request to join the translation team."
+msgstr "该项目文档使用 [sphinx-intl](https://github.com/sphinx-doc/sphinx-intl) 进行本地化，翻译文件已放置到 [abqpy-locale](https://github.com/haiiliin/abqpy-locale) 仓库。翻译在 [Crowdin](https://crowdin.com/project/abqpy-locale) 进行。如果您想帮助翻译文档，请访问 [Crowdin 项目](https://crowdin.com/project/abqpy-locale) 并注册一个帐户。一旦您注册好了一个帐户，您便可以申请加入翻译团队。"
 
-#: ../../../policy.md:6
+#: ../../../localization.md:10
+msgid "To add a new language, please open an issue on the [GitHub repository](https://github.com/haiiliin/abqpy/issues) or open a pull request with the new language code added to the [`docs/update-locale.sh`](https://github.com/haiiliin/abqpy/blob/main/docs/update-locale.sh) script."
+msgstr "要添加新的语言，请在 [GitHub 仓库](https://github.com/haiiliin/abqpy/issues) 上创建一个 Issue 或 合并请求，并将语言添加到 [`docs/update-locale.sh`](https://github.com/haiiliin/abqpy/blob/main/docs/update-locale.sh) 脚本。"
+
+#: ../../../localization.md:14
 msgid "Comments"
 msgstr "评论"
 
