@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: abqpy 2021\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-19 09:17+0000\n"
+"POT-Creation-Date: 2023-09-14 01:59+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -184,6 +184,78 @@ msgstr ""
 #: ../../../../../src/abaqus/Connector/DerivedComponent.py:docstring of abaqus.Connector.DerivedComponent.DerivedComponent:1
 #: ../../../../../src/abaqus/Connector/TangentialBehavior.py:docstring of abaqus.Connector.TangentialBehavior.TangentialBehavior:1
 msgid "Member Details:"
+msgstr ""
+
+#: ../../../../../src/abaqus/Connector/CDCTerm.py:docstring of abaqus.Connector.CDCTerm.CDCTerm:3
+#: ../../../../../src/abaqus/Connector/CDCTerm.py:docstring of abaqus.Connector.CDCTerm.CDCTerm:17
+#: ../../../../../src/abaqus/Connector/CDCTerm.py:docstring of abaqus.Connector.CDCTerm.CDCTerm:22
+#: ../../../../../src/abaqus/Connector/CDCTerm.py:docstring of abaqus.Connector.CDCTerm.CDCTerm.ConnectorOptions:4
+#: ../../../../../src/abaqus/Connector/CDCTerm.py:docstring of abaqus.Connector.CDCTerm.CDCTerm.ConnectorOptions:16
+#: ../../../../../src/abaqus/Connector/ConnectorBehaviorOption.py:docstring of abaqus.Connector.ConnectorBehaviorOption.ConnectorBehaviorOption:5
+#: ../../../../../src/abaqus/Connector/ConnectorBehaviorOption.py:docstring of abaqus.Connector.ConnectorBehaviorOption.ConnectorBehaviorOption:13
+#: ../../../../../src/abaqus/Connector/ConnectorBehaviorOption.py:docstring of abaqus.Connector.ConnectorBehaviorOption.ConnectorBehaviorOption.ConnectorOptions:4
+#: ../../../../../src/abaqus/Connector/ConnectorBehaviorOption.py:docstring of abaqus.Connector.ConnectorBehaviorOption.ConnectorBehaviorOption.ConnectorOptions:10
+#: ../../../../../src/abaqus/Connector/ConnectorBehaviorOption.py:docstring of abaqus.Connector.ConnectorBehaviorOption.ConnectorBehaviorOption.DerivedComponent:3
+#: ../../../../../src/abaqus/Connector/ConnectorBehaviorOption.py:docstring of abaqus.Connector.ConnectorBehaviorOption.ConnectorBehaviorOption.TangentialBehavior:3
+#: ../../../../../src/abaqus/Connector/ConnectorBehaviorOption.py:docstring of abaqus.Connector.ConnectorBehaviorOption.ConnectorBehaviorOption.TangentialBehavior:9
+#: ../../../../../src/abaqus/Connector/ConnectorDamage.py:docstring of abaqus.Connector.ConnectorDamage.ConnectorDamage:4
+#: ../../../../../src/abaqus/Connector/ConnectorDamage.py:docstring of abaqus.Connector.ConnectorDamage.ConnectorDamage:90
+#: ../../../../../src/abaqus/Connector/ConnectorDamage.py:docstring of abaqus.Connector.ConnectorDamage.ConnectorDamage:95
+#: ../../../../../src/abaqus/Connector/ConnectorDamping.py:docstring of abaqus.Connector.ConnectorDamping.ConnectorDamping:4
+#: ../../../../../src/abaqus/Connector/ConnectorDamping.py:docstring of abaqus.Connector.ConnectorDamping.ConnectorDamping:62
+#: ../../../../../src/abaqus/Connector/ConnectorDamping.py:docstring of abaqus.Connector.ConnectorDamping.ConnectorDamping:67
+#: ../../../../../src/abaqus/Connector/ConnectorElasticity.py:docstring of abaqus.Connector.ConnectorElasticity.ConnectorElasticity:4
+#: ../../../../../src/abaqus/Connector/ConnectorElasticity.py:docstring of abaqus.Connector.ConnectorElasticity.ConnectorElasticity:59
+#: ../../../../../src/abaqus/Connector/ConnectorElasticity.py:docstring of abaqus.Connector.ConnectorElasticity.ConnectorElasticity:64
+#: ../../../../../src/abaqus/Connector/ConnectorFailure.py:docstring of abaqus.Connector.ConnectorFailure.ConnectorFailure:4
+#: ../../../../../src/abaqus/Connector/ConnectorFailure.py:docstring of abaqus.Connector.ConnectorFailure.ConnectorFailure:16
+#: ../../../../../src/abaqus/Connector/ConnectorFailure.py:docstring of abaqus.Connector.ConnectorFailure.ConnectorFailure:21
+#: ../../../../../src/abaqus/Connector/ConnectorFriction.py:docstring of abaqus.Connector.ConnectorFriction.ConnectorFriction:5
+#: ../../../../../src/abaqus/Connector/ConnectorFriction.py:docstring of abaqus.Connector.ConnectorFriction.ConnectorFriction:17
+#: ../../../../../src/abaqus/Connector/ConnectorFriction.py:docstring of abaqus.Connector.ConnectorFriction.ConnectorFriction:23
+#: ../../../../../src/abaqus/Connector/ConnectorLock.py:docstring of abaqus.Connector.ConnectorLock.ConnectorLock:4
+#: ../../../../../src/abaqus/Connector/ConnectorLock.py:docstring of abaqus.Connector.ConnectorLock.ConnectorLock:16
+#: ../../../../../src/abaqus/Connector/ConnectorLock.py:docstring of abaqus.Connector.ConnectorLock.ConnectorLock:21
+#: ../../../../../src/abaqus/Connector/ConnectorOptions.py:docstring of abaqus.Connector.ConnectorOptions.ConnectorOptions:10
+#: ../../../../../src/abaqus/Connector/ConnectorOptions.py:docstring of abaqus.Connector.ConnectorOptions.ConnectorOptions:45
+#: ../../../../../src/abaqus/Connector/ConnectorOptions.py:docstring of abaqus.Connector.ConnectorOptions.ConnectorOptions:51
+#: ../../../../../src/abaqus/Connector/ConnectorPlasticity.py:docstring of abaqus.Connector.ConnectorPlasticity.ConnectorPlasticity:4
+#: ../../../../../src/abaqus/Connector/ConnectorPlasticity.py:docstring of abaqus.Connector.ConnectorPlasticity.ConnectorPlasticity:70
+#: ../../../../../src/abaqus/Connector/ConnectorPlasticity.py:docstring of abaqus.Connector.ConnectorPlasticity.ConnectorPlasticity:75
+#: ../../../../../src/abaqus/Connector/ConnectorPotential.py:docstring of abaqus.Connector.ConnectorPotential.ConnectorPotential:8
+#: ../../../../../src/abaqus/Connector/ConnectorPotential.py:docstring of abaqus.Connector.ConnectorPotential.ConnectorPotential:24
+#: ../../../../../src/abaqus/Connector/ConnectorPotential.py:docstring of abaqus.Connector.ConnectorPotential.ConnectorPotential:30
+#: ../../../../../src/abaqus/Connector/ConnectorPotential.py:docstring of abaqus.Connector.ConnectorPotential.ConnectorPotential.DerivedComponent:3
+#: ../../../../../src/abaqus/Connector/ConnectorSection.py:docstring of abaqus.Connector.ConnectorSection.ConnectorSection.ConnectorDamage:3
+#: ../../../../../src/abaqus/Connector/ConnectorSection.py:docstring of abaqus.Connector.ConnectorSection.ConnectorSection.ConnectorDamage:11
+#: ../../../../../src/abaqus/Connector/ConnectorSection.py:docstring of abaqus.Connector.ConnectorSection.ConnectorSection.ConnectorDamping:3
+#: ../../../../../src/abaqus/Connector/ConnectorSection.py:docstring of abaqus.Connector.ConnectorSection.ConnectorSection.ConnectorDamping:11
+#: ../../../../../src/abaqus/Connector/ConnectorSection.py:docstring of abaqus.Connector.ConnectorSection.ConnectorSection.ConnectorElasticity:3
+#: ../../../../../src/abaqus/Connector/ConnectorSection.py:docstring of abaqus.Connector.ConnectorSection.ConnectorSection.ConnectorElasticity:11
+#: ../../../../../src/abaqus/Connector/ConnectorSection.py:docstring of abaqus.Connector.ConnectorSection.ConnectorSection.ConnectorFailure:3
+#: ../../../../../src/abaqus/Connector/ConnectorSection.py:docstring of abaqus.Connector.ConnectorSection.ConnectorSection.ConnectorFailure:11
+#: ../../../../../src/abaqus/Connector/ConnectorSection.py:docstring of abaqus.Connector.ConnectorSection.ConnectorSection.ConnectorFriction:4
+#: ../../../../../src/abaqus/Connector/ConnectorSection.py:docstring of abaqus.Connector.ConnectorSection.ConnectorSection.ConnectorFriction:12
+#: ../../../../../src/abaqus/Connector/ConnectorSection.py:docstring of abaqus.Connector.ConnectorSection.ConnectorSection.ConnectorLock:3
+#: ../../../../../src/abaqus/Connector/ConnectorSection.py:docstring of abaqus.Connector.ConnectorSection.ConnectorSection.ConnectorLock:11
+#: ../../../../../src/abaqus/Connector/ConnectorSection.py:docstring of abaqus.Connector.ConnectorSection.ConnectorSection.ConnectorPlasticity:3
+#: ../../../../../src/abaqus/Connector/ConnectorSection.py:docstring of abaqus.Connector.ConnectorSection.ConnectorSection.ConnectorPlasticity:11
+#: ../../../../../src/abaqus/Connector/ConnectorSection.py:docstring of abaqus.Connector.ConnectorSection.ConnectorSection.ConnectorPotential:4
+#: ../../../../../src/abaqus/Connector/ConnectorSection.py:docstring of abaqus.Connector.ConnectorSection.ConnectorSection.ConnectorPotential:10
+#: ../../../../../src/abaqus/Connector/ConnectorSection.py:docstring of abaqus.Connector.ConnectorSection.ConnectorSection.ConnectorStop:3
+#: ../../../../../src/abaqus/Connector/ConnectorSection.py:docstring of abaqus.Connector.ConnectorSection.ConnectorSection.ConnectorStop:11
+#: ../../../../../src/abaqus/Connector/ConnectorStop.py:docstring of abaqus.Connector.ConnectorStop.ConnectorStop:4
+#: ../../../../../src/abaqus/Connector/ConnectorStop.py:docstring of abaqus.Connector.ConnectorStop.ConnectorStop:16
+#: ../../../../../src/abaqus/Connector/ConnectorStop.py:docstring of abaqus.Connector.ConnectorStop.ConnectorStop:21
+#: ../../../../../src/abaqus/Connector/DerivedComponent.py:docstring of abaqus.Connector.DerivedComponent.DerivedComponent:4
+#: ../../../../../src/abaqus/Connector/DerivedComponent.py:docstring of abaqus.Connector.DerivedComponent.DerivedComponent:22
+#: ../../../../../src/abaqus/Connector/DerivedComponent.py:docstring of abaqus.Connector.DerivedComponent.DerivedComponent:27
+#: ../../../../../src/abaqus/Connector/DerivedComponent.py:docstring of abaqus.Connector.DerivedComponent.DerivedComponent.CDCTerm:3
+#: ../../../../../src/abaqus/Connector/DerivedComponent.py:docstring of abaqus.Connector.DerivedComponent.DerivedComponent.CDCTerm:15
+#: ../../../../../src/abaqus/Connector/TangentialBehavior.py:docstring of abaqus.Connector.TangentialBehavior.TangentialBehavior:3
+#: ../../../../../src/abaqus/Connector/TangentialBehavior.py:docstring of abaqus.Connector.TangentialBehavior.TangentialBehavior:38
+#: ../../../../../src/abaqus/Connector/TangentialBehavior.py:docstring of abaqus.Connector.TangentialBehavior.TangentialBehavior:43
+msgid "Note"
 msgstr ""
 
 #: ../../../../../src/abaqus/Connector/CDCTerm.py:docstring of abaqus.Connector.CDCTerm.CDCTerm:23

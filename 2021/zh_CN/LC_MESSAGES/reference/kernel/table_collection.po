@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: abqpy \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-24 15:22+0000\n"
+"POT-Creation-Date: 2023-09-14 01:59+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,6 +40,68 @@ msgid ""
 "An Assembly object is a container for instances of parts. The Assembly "
 "object has no constructor command. Abaqus creates the **rootAssembly** "
 "member when a Model object is created."
+msgstr ""
+
+#: abaqus.TableCollection.ActivateElements.ActivateElements:3
+#: abaqus.TableCollection.ActivateElements.ActivateElements:16
+#: abaqus.TableCollection.ActivateElements.ActivateElements:21
+#: abaqus.TableCollection.DataTable.DataTable:6
+#: abaqus.TableCollection.DataTable.DataTable:18
+#: abaqus.TableCollection.DataTable.DataTable:23
+#: abaqus.TableCollection.ElementProgressiveActivation.ElementProgressiveActivation:4
+#: abaqus.TableCollection.ElementProgressiveActivation.ElementProgressiveActivation:16
+#: abaqus.TableCollection.ElementProgressiveActivation.ElementProgressiveActivation:22
+#: abaqus.TableCollection.EventSeries.EventSeries:4
+#: abaqus.TableCollection.EventSeries.EventSeries:17
+#: abaqus.TableCollection.EventSeries.EventSeries:22
+#: abaqus.TableCollection.EventSeries.EventSeries.setValues:3
+#: abaqus.TableCollection.EventSeriesType.EventSeriesType:3
+#: abaqus.TableCollection.EventSeriesType.EventSeriesType:16
+#: abaqus.TableCollection.EventSeriesType.EventSeriesType:21
+#: abaqus.TableCollection.EventSeriesType.EventSeriesType.setValues:3
+#: abaqus.TableCollection.ParameterColumn.ParameterColumn:4
+#: abaqus.TableCollection.ParameterColumn.ParameterColumn:17
+#: abaqus.TableCollection.ParameterColumn.ParameterColumn:23
+#: abaqus.TableCollection.ParameterTable.ParameterTable:5
+#: abaqus.TableCollection.ParameterTable.ParameterTable:18
+#: abaqus.TableCollection.ParameterTable.ParameterTable:23
+#: abaqus.TableCollection.ParameterTable.ParameterTable.Column:4
+#: abaqus.TableCollection.ParameterTable.ParameterTable.Column:9
+#: abaqus.TableCollection.PropertyTable.PropertyTable:5
+#: abaqus.TableCollection.PropertyTable.PropertyTable:18
+#: abaqus.TableCollection.PropertyTable.PropertyTable:23
+#: abaqus.TableCollection.PropertyTable.PropertyTable.PropertyTableData:3
+#: abaqus.TableCollection.PropertyTable.PropertyTable.PropertyTableData:8
+#: abaqus.TableCollection.PropertyTable.PropertyTable.setValues:3
+#: abaqus.TableCollection.PropertyTableData.PropertyTableData:5
+#: abaqus.TableCollection.PropertyTableData.PropertyTableData:18
+#: abaqus.TableCollection.PropertyTableData.PropertyTableData:23
+#: abaqus.TableCollection.TableCollection.TableCollection:4
+#: abaqus.TableCollection.TableCollection.TableCollection:16
+#: abaqus.TableCollection.TableCollection.TableCollection:21
+#: abaqus.TableCollection.TableCollection.TableCollection.DataTable:3
+#: abaqus.TableCollection.TableCollection.TableCollection.DataTable:8
+#: abaqus.TableCollection.TableCollection.TableCollection.ParameterTable:3
+#: abaqus.TableCollection.TableCollection.TableCollection.ParameterTable:8
+#: abaqus.TableCollection.TableCollection.TableCollection.PropertyTable:3
+#: abaqus.TableCollection.TableCollection.TableCollection.PropertyTable:8
+#: abaqus.TableCollection.TableCollectionAssembly.TableCollectionAssembly:4
+#: abaqus.TableCollection.TableCollectionAssembly.TableCollectionAssembly:13
+#: abaqus.TableCollection.TableCollectionAssembly.TableCollectionAssembly.ElementProgressiveActivation:4
+#: abaqus.TableCollection.TableCollectionAssembly.TableCollectionAssembly.ElementProgressiveActivation:9
+#: abaqus.TableCollection.TableCollectionModel.TableCollectionModel:3
+#: abaqus.TableCollection.TableCollectionModel.TableCollectionModel:11
+#: abaqus.TableCollection.TableCollectionModel.TableCollectionModel:16
+#: abaqus.TableCollection.TableCollectionModel.TableCollectionModel.EventSeries:3
+#: abaqus.TableCollection.TableCollectionModel.TableCollectionModel.EventSeries:8
+#: abaqus.TableCollection.TableCollectionModel.TableCollectionModel.EventSeriesType:3
+#: abaqus.TableCollection.TableCollectionModel.TableCollectionModel.EventSeriesType:8
+#: abaqus.TableCollection.TableCollectionStep.TableCollectionStep:5
+#: abaqus.TableCollection.TableCollectionStep.TableCollectionStep:14
+#: abaqus.TableCollection.TableCollectionStep.TableCollectionStep.ActivateElements:3
+#: abaqus.TableCollection.TableCollectionStep.TableCollectionStep.ActivateElements:8
+#: of
+msgid "Note"
 msgstr ""
 
 #: abaqus.TableCollection.ActivateElements.ActivateElements:4
@@ -2398,18 +2460,6 @@ msgstr ""
 
 #: ../../../../None:55:<autosummary>:1
 msgid ""
-":py:obj:`restartIncrement "
-"<abaqus.Model.ModelBase.ModelBase.restartIncrement>`\\"
-msgstr ""
-
-#: ../../../../None:55:<autosummary>:1
-msgid ""
-"An Int specifying the increment, interval, iteration or cycle where the "
-"restart analysis will start."
-msgstr ""
-
-#: ../../../../None:55:<autosummary>:1
-msgid ""
 ":py:obj:`endRestartStep "
 "<abaqus.Model.ModelBase.ModelBase.endRestartStep>`\\"
 msgstr ""
@@ -2854,6 +2904,18 @@ msgstr ""
 
 #: ../../../../None:55:<autosummary>:1
 msgid "A repository of EventSeriesData objects."
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid ""
+":py:obj:`restartIncrement "
+"<abaqus.Model.ModelBase.ModelBase.restartIncrement>`\\"
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid ""
+"An Int specifying the increment, interval, iteration or cycle where the "
+"restart analysis will start."
 msgstr ""
 
 #: ../../../../None:4:<autosummary>:1
