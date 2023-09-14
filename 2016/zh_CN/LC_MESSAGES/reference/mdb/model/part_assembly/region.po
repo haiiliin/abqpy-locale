@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: abqpy \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-01 09:59+0000\n"
+"POT-Creation-Date: 2023-09-14 01:33+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -119,6 +119,68 @@ msgstr ""
 msgid ""
 "The following commands operate on Part objects. For more information about"
 " the Part object, see Part object."
+msgstr ""
+
+#: abaqus.Region.Region.Region:35 abaqus.Region.Region.Region:40
+#: abaqus.Region.RegionAssembly.RegionAssembly:4
+#: abaqus.Region.RegionAssembly.RegionAssembly:10
+#: abaqus.Region.RegionAssembly.RegionAssembly.Surface:5
+#: abaqus.Region.RegionAssembly.RegionAssembly.Surface:11
+#: abaqus.Region.RegionAssemblyBase.RegionAssemblyBase:4
+#: abaqus.Region.RegionAssemblyBase.RegionAssemblyBase:9
+#: abaqus.Region.RegionAssemblyBase.RegionAssemblyBase.clashSets:13
+#: abaqus.Region.RegionAssemblyBase.RegionAssemblyBase.deleteSets:3
+#: abaqus.Region.RegionAssemblyBase.RegionAssemblyBase.deleteSurfaces:3
+#: abaqus.Region.RegionAssemblyBase.RegionAssemblyBase.isSetInternal:3
+#: abaqus.Region.RegionAssemblyBase.RegionAssemblyBase.isSurfaceInternal:3
+#: abaqus.Region.RegionAssemblyBase.RegionAssemblyBase.markSetInternal:3
+#: abaqus.Region.RegionAssemblyBase.RegionAssemblyBase.markSurfaceInternal:3
+#: abaqus.Region.RegionPart.RegionPart:4 abaqus.Region.RegionPart.RegionPart:9
+#: abaqus.Region.RegionPart.RegionPart.EditSkin:4
+#: abaqus.Region.RegionPart.RegionPart.EditSkin:9
+#: abaqus.Region.RegionPart.RegionPart.MapSetsFromOdb:3
+#: abaqus.Region.RegionPart.RegionPart.MapSetsFromOdb:8
+#: abaqus.Region.RegionPart.RegionPart.SetByBoolean:3
+#: abaqus.Region.RegionPart.RegionPart.SetFromColor:6
+#: abaqus.Region.RegionPart.RegionPart.SetFromColor:11
+#: abaqus.Region.RegionPart.RegionPart.SetFromElementLabels:3
+#: abaqus.Region.RegionPart.RegionPart.SetFromElementLabels:9
+#: abaqus.Region.RegionPart.RegionPart.SetFromNodeLabels:3
+#: abaqus.Region.RegionPart.RegionPart.SetFromNodeLabels:9
+#: abaqus.Region.RegionPart.RegionPart.Skin:4
+#: abaqus.Region.RegionPart.RegionPart.Skin:9
+#: abaqus.Region.RegionPart.RegionPart.Stringer:4
+#: abaqus.Region.RegionPart.RegionPart.Stringer:9
+#: abaqus.Region.RegionPart.RegionPart.Surface:6
+#: abaqus.Region.RegionPart.RegionPart.Surface:12
+#: abaqus.Region.RegionPartBase.RegionPartBase:4
+#: abaqus.Region.RegionPartBase.RegionPartBase:9
+#: abaqus.Region.RegionPartBase.RegionPartBase.clashSets:13
+#: abaqus.Region.RegionPartBase.RegionPartBase.deleteSets:3
+#: abaqus.Region.RegionPartBase.RegionPartBase.deleteSurfaces:3
+#: abaqus.Region.RegionPartBase.RegionPartBase.isSetInternal:3
+#: abaqus.Region.RegionPartBase.RegionPartBase.isSurfaceInternal:3
+#: abaqus.Region.RegionPartBase.RegionPartBase.markSetInternal:3
+#: abaqus.Region.RegionPartBase.RegionPartBase.markSurfaceInternal:3
+#: abaqus.Region.Set.Set:16 abaqus.Region.Set.Set:31
+#: abaqus.Region.Set.Set.MapSetsFromOdb:3
+#: abaqus.Region.Set.Set.MapSetsFromOdb:8 abaqus.Region.Set.Set.SetByBoolean:3
+#: abaqus.Region.Set.Set.SetFromColor:6 abaqus.Region.Set.Set.SetFromColor:11
+#: abaqus.Region.Set.Set.SetFromElementLabels:3
+#: abaqus.Region.Set.Set.SetFromElementLabels:9
+#: abaqus.Region.Set.Set.SetFromNodeLabels:3
+#: abaqus.Region.Set.Set.SetFromNodeLabels:9 abaqus.Region.Skin.Skin:3
+#: abaqus.Region.Skin.Skin:13 abaqus.Region.Skin.Skin:19
+#: abaqus.Region.Skin.Skin.EditSkin:4 abaqus.Region.Skin.Skin.EditSkin:9
+#: abaqus.Region.Stringer.Stringer:3 abaqus.Region.Stringer.Stringer:13
+#: abaqus.Region.Stringer.Stringer:19
+#: abaqus.Region.Stringer.Stringer.EditStringer:4
+#: abaqus.Region.Stringer.Stringer.EditStringer:9
+#: abaqus.Region.Surface.Surface:5 abaqus.Region.Surface.Surface:20
+#: abaqus.Region.Surface.Surface.SurfaceByBoolean:3
+#: abaqus.Region.Surface.Surface.SurfaceFromElsets:3
+#: abaqus.Region.Surface.Surface.SurfaceFromElsets:9 of
+msgid "Note"
 msgstr ""
 
 #: abaqus.Region.Region.Region:36 abaqus.Region.RegionAssembly.RegionAssembly:5

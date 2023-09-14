@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: abqpy \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-19 09:27+0000\n"
+"POT-Creation-Date: 2023-09-14 01:33+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -51,6 +51,161 @@ msgstr ""
 msgid ""
 "The Odb object is the in-memory representation of an output database (ODB)"
 " file."
+msgstr ""
+
+#: abaqus.Odb.AnalyticSurface.AnalyticSurface:4
+#: abaqus.Odb.AnalyticSurface.AnalyticSurface:12
+#: abaqus.Odb.AnalyticSurfaceSegment.AnalyticSurfaceSegment:3
+#: abaqus.Odb.AnalyticSurfaceSegment.AnalyticSurfaceSegment:11
+#: abaqus.Odb.AnalyticSurfaceSegment.AnalyticSurfaceSegment:16
+#: abaqus.Odb.BeamOrientation.BeamOrientation:4
+#: abaqus.Odb.BeamOrientation.BeamOrientation:12
+#: abaqus.Odb.FieldBulkData.FieldBulkData:4
+#: abaqus.Odb.FieldBulkData.FieldBulkData:10
+#: abaqus.Odb.FieldLocation.FieldLocation:6
+#: abaqus.Odb.FieldLocation.FieldLocation:12
+#: abaqus.Odb.FieldOutput.FieldOutput:3 abaqus.Odb.FieldOutput.FieldOutput:9
+#: abaqus.Odb.FieldOutput.FieldOutput.setComponentLabels:3
+#: abaqus.Odb.FieldOutput.FieldOutput.setDataType:3
+#: abaqus.Odb.FieldOutput.FieldOutput.setValidInvariants:3
+#: abaqus.Odb.FieldValue.FieldValue:5 abaqus.Odb.FieldValue.FieldValue:11
+#: abaqus.Odb.HistoryOutput.HistoryOutput:3
+#: abaqus.Odb.HistoryOutput.HistoryOutput:9
+#: abaqus.Odb.HistoryOutput.HistoryOutput:14
+#: abaqus.Odb.HistoryPoint.HistoryPoint:4
+#: abaqus.Odb.HistoryPoint.HistoryPoint:10
+#: abaqus.Odb.HistoryRegion.HistoryRegion:3
+#: abaqus.Odb.HistoryRegion.HistoryRegion:9
+#: abaqus.Odb.HistoryRegion.HistoryRegion:14
+#: abaqus.Odb.HistoryRegion.HistoryRegion.HistoryOutput:3
+#: abaqus.Odb.JobData.JobData:3 abaqus.Odb.JobData.JobData:9
+#: abaqus.Odb.Odb.Odb:3 abaqus.Odb.Odb.Odb:9 abaqus.Odb.Odb.Odb:14
+#: abaqus.Odb.Odb.Odb.Part:3 abaqus.Odb.Odb.Odb.Part:8
+#: abaqus.Odb.Odb.Odb.SectionCategory:3 abaqus.Odb.Odb.Odb.SectionCategory:8
+#: abaqus.Odb.Odb.Odb.Step:3 abaqus.Odb.Odb.Odb.Step:8
+#: abaqus.Odb.OdbAssembly.OdbAssembly.DatumCsys:3
+#: abaqus.Odb.OdbAssembly.OdbAssembly.DatumCsys:8
+#: abaqus.Odb.OdbAssembly.OdbAssembly.DatumCsysBy6dofNode:7
+#: abaqus.Odb.OdbAssembly.OdbAssembly.DatumCsysBy6dofNode:12
+#: abaqus.Odb.OdbAssembly.OdbAssembly.DatumCsysByThreeCircNodes:7
+#: abaqus.Odb.OdbAssembly.OdbAssembly.DatumCsysByThreeCircNodes:12
+#: abaqus.Odb.OdbAssembly.OdbAssembly.DatumCsysByThreeNodes:7
+#: abaqus.Odb.OdbAssembly.OdbAssembly.DatumCsysByThreeNodes:12
+#: abaqus.Odb.OdbAssembly.OdbAssembly.DatumCsysByThreePoints:4
+#: abaqus.Odb.OdbAssembly.OdbAssembly.DatumCsysByThreePoints:9
+#: abaqus.Odb.OdbAssembly.OdbAssembly.Instance:3
+#: abaqus.Odb.OdbAssembly.OdbAssembly.Instance:8
+#: abaqus.Odb.OdbAssembly.OdbAssembly.NodeSet:4
+#: abaqus.Odb.OdbAssembly.OdbAssembly.NodeSet:11
+#: abaqus.Odb.OdbAssembly.OdbAssembly.RigidBody:3
+#: abaqus.Odb.OdbAssembly.OdbAssembly.RigidBody:9
+#: abaqus.Odb.OdbAssemblyBase.OdbAssemblyBase:4
+#: abaqus.Odb.OdbAssemblyBase.OdbAssemblyBase:10
+#: abaqus.Odb.OdbAssemblyBase.OdbAssemblyBase.ConnectorOrientation:3
+#: abaqus.Odb.OdbAssemblyBase.OdbAssemblyBase.RigidBody:3
+#: abaqus.Odb.OdbAssemblyBase.OdbAssemblyBase.SectionAssignment:4
+#: abaqus.Odb.OdbAssemblyBase.OdbAssemblyBase.addElements:6
+#: abaqus.Odb.OdbAssemblyBase.OdbAssemblyBase.addNodes:4
+#: abaqus.Odb.OdbBase.OdbBase:3 abaqus.Odb.OdbBase.OdbBase:9
+#: abaqus.Odb.OdbBase.OdbBase:14 abaqus.Odb.OdbBase.OdbBase.getFrame:5
+#: abaqus.Odb.OdbCommands.isUpgradeRequiredForOdb:15
+#: abaqus.Odb.OdbCommands.openOdb:8 abaqus.Odb.OdbCommands.upgradeOdb:15
+#: abaqus.Odb.OdbDatumCsys.OdbDatumCsys:6
+#: abaqus.Odb.OdbDatumCsys.OdbDatumCsys:12
+#: abaqus.Odb.OdbDatumCsys.OdbDatumCsys.DatumCsys:3
+#: abaqus.Odb.OdbDatumCsys.OdbDatumCsys.DatumCsys:8
+#: abaqus.Odb.OdbDatumCsys.OdbDatumCsys.DatumCsysBy6dofNode:7
+#: abaqus.Odb.OdbDatumCsys.OdbDatumCsys.DatumCsysBy6dofNode:12
+#: abaqus.Odb.OdbDatumCsys.OdbDatumCsys.DatumCsysByThreeCircNodes:7
+#: abaqus.Odb.OdbDatumCsys.OdbDatumCsys.DatumCsysByThreeCircNodes:12
+#: abaqus.Odb.OdbDatumCsys.OdbDatumCsys.DatumCsysByThreeNodes:7
+#: abaqus.Odb.OdbDatumCsys.OdbDatumCsys.DatumCsysByThreeNodes:12
+#: abaqus.Odb.OdbDatumCsys.OdbDatumCsys.DatumCsysByThreePoints:4
+#: abaqus.Odb.OdbDatumCsys.OdbDatumCsys.DatumCsysByThreePoints:9
+#: abaqus.Odb.OdbFrame.OdbFrame:3 abaqus.Odb.OdbFrame.OdbFrame:9
+#: abaqus.Odb.OdbInstance.OdbInstance:3
+#: abaqus.Odb.OdbInstance.OdbInstance.NodeSet:4
+#: abaqus.Odb.OdbInstance.OdbInstance.NodeSet:11
+#: abaqus.Odb.OdbInstanceBase.OdbInstanceBase:3
+#: abaqus.Odb.OdbInstanceBase.OdbInstanceBase:10
+#: abaqus.Odb.OdbInstanceBase.OdbInstanceBase:15
+#: abaqus.Odb.OdbInstanceBase.OdbInstanceBase.AnalyticRigidSurf2DPlanar:3
+#: abaqus.Odb.OdbInstanceBase.OdbInstanceBase.AnalyticRigidSurfExtrude:3
+#: abaqus.Odb.OdbInstanceBase.OdbInstanceBase.AnalyticRigidSurfRevolve:3
+#: abaqus.Odb.OdbInstanceBase.OdbInstanceBase.RigidBody:3
+#: abaqus.Odb.OdbInstanceBase.OdbInstanceBase.assignBeamOrientation:3
+#: abaqus.Odb.OdbInstanceBase.OdbInstanceBase.assignMaterialOrientation:3
+#: abaqus.Odb.OdbInstanceBase.OdbInstanceBase.assignRebarOrientation:3
+#: abaqus.Odb.OdbInstanceBase.OdbInstanceBase.assignSection:3
+#: abaqus.Odb.OdbInstanceBase.OdbInstanceBase.getElementFromLabel:3
+#: abaqus.Odb.OdbInstanceBase.OdbInstanceBase.getNodeFromLabel:3
+#: abaqus.Odb.OdbLoadCase.OdbLoadCase:3 abaqus.Odb.OdbLoadCase.OdbLoadCase:11
+#: abaqus.Odb.OdbLoadCase.OdbLoadCase:16
+#: abaqus.Odb.OdbMeshElement.OdbMeshElement:3
+#: abaqus.Odb.OdbMeshElement.OdbMeshElement:24
+#: abaqus.Odb.OdbMeshNode.OdbMeshNode:3 abaqus.Odb.OdbMeshNode.OdbMeshNode:20
+#: abaqus.Odb.OdbPart.OdbPart:3 abaqus.Odb.OdbPart.OdbPart.NodeSet:4
+#: abaqus.Odb.OdbPart.OdbPart.NodeSet:11 abaqus.Odb.OdbPart.OdbPart.RigidBody:3
+#: abaqus.Odb.OdbPartBase.OdbPartBase:4 abaqus.Odb.OdbPartBase.OdbPartBase:10
+#: abaqus.Odb.OdbPartBase.OdbPartBase:15
+#: abaqus.Odb.OdbPartBase.OdbPartBase.AnalyticRigidSurf2DPlanar:3
+#: abaqus.Odb.OdbPartBase.OdbPartBase.AnalyticRigidSurfExtrude:3
+#: abaqus.Odb.OdbPartBase.OdbPartBase.AnalyticRigidSurfRevolve:3
+#: abaqus.Odb.OdbPartBase.OdbPartBase.assignMaterialOrientation:3
+#: abaqus.Odb.OdbPartBase.OdbPartBase.assignRebarOrientation:3
+#: abaqus.Odb.OdbPartBase.OdbPartBase.getElementFromLabel:3
+#: abaqus.Odb.OdbPartBase.OdbPartBase.getNodeFromLabel:3
+#: abaqus.Odb.OdbPretensionSection.OdbPretensionSection:4
+#: abaqus.Odb.OdbPretensionSection.OdbPretensionSection:10
+#: abaqus.Odb.OdbRigidBody.OdbRigidBody:4
+#: abaqus.Odb.OdbRigidBody.OdbRigidBody:13
+#: abaqus.Odb.OdbRigidBody.OdbRigidBody:18
+#: abaqus.Odb.OdbSequenceAnalyticSurfaceSegment.OdbSequenceAnalyticSurfaceSegment:3
+#: abaqus.Odb.OdbSequenceAnalyticSurfaceSegment.OdbSequenceAnalyticSurfaceSegment:11
+#: abaqus.Odb.OdbSequenceAnalyticSurfaceSegment.OdbSequenceAnalyticSurfaceSegment:16
+#: abaqus.Odb.OdbSequenceAnalyticSurfaceSegment.OdbSequenceAnalyticSurfaceSegment.Circle:3
+#: abaqus.Odb.OdbSequenceAnalyticSurfaceSegment.OdbSequenceAnalyticSurfaceSegment.Line:3
+#: abaqus.Odb.OdbSequenceAnalyticSurfaceSegment.OdbSequenceAnalyticSurfaceSegment.Parabola:3
+#: abaqus.Odb.OdbSequenceAnalyticSurfaceSegment.OdbSequenceAnalyticSurfaceSegment.Start:3
+#: abaqus.Odb.OdbSession.OdbSession.ScratchOdb:3
+#: abaqus.Odb.OdbSession.OdbSession.ScratchOdb:8 abaqus.Odb.OdbSet.OdbSet:3
+#: abaqus.Odb.OdbSet.OdbSet:20 abaqus.Odb.OdbSet.OdbSet:26
+#: abaqus.Odb.OdbSet.OdbSet.ElementSet:4 abaqus.Odb.OdbSet.OdbSet.ElementSet:11
+#: abaqus.Odb.OdbSet.OdbSet.ElementSetFromElementLabels:3
+#: abaqus.Odb.OdbSet.OdbSet.ElementSetFromElementLabels:10
+#: abaqus.Odb.OdbSet.OdbSet.MeshSurface:3
+#: abaqus.Odb.OdbSet.OdbSet.MeshSurface:10
+#: abaqus.Odb.OdbSet.OdbSet.MeshSurfaceFromElsets:3
+#: abaqus.Odb.OdbSet.OdbSet.MeshSurfaceFromElsets:10
+#: abaqus.Odb.OdbSet.OdbSet.MeshSurfaceFromLabels:3
+#: abaqus.Odb.OdbSet.OdbSet.MeshSurfaceFromLabels:10
+#: abaqus.Odb.OdbSet.OdbSet.NodeSetFromNodeLabels:3
+#: abaqus.Odb.OdbSet.OdbSet.NodeSetFromNodeLabels:10
+#: abaqus.Odb.OdbStep.OdbStep:3 abaqus.Odb.OdbStep.OdbStep.HistoryRegion:3
+#: abaqus.Odb.OdbStep.OdbStep.HistoryRegion:8
+#: abaqus.Odb.OdbStep.OdbStep.LoadCase:3 abaqus.Odb.OdbStepBase.OdbStepBase:3
+#: abaqus.Odb.OdbStepBase.OdbStepBase:9 abaqus.Odb.OdbStepBase.OdbStepBase:14
+#: abaqus.Odb.OdbStepBase.OdbStepBase.setDefaultDeformedField:3
+#: abaqus.Odb.OdbStepBase.OdbStepBase.setDefaultField:3
+#: abaqus.Odb.RebarOrientation.RebarOrientation:3
+#: abaqus.Odb.RebarOrientation.RebarOrientation:11
+#: abaqus.Odb.ScratchOdb.ScratchOdb:6 abaqus.Odb.ScratchOdb.ScratchOdb:12
+#: abaqus.Odb.ScratchOdb.ScratchOdb:17
+#: abaqus.Odb.SectionCategory.SectionCategory:6
+#: abaqus.Odb.SectionCategory.SectionCategory:28
+#: abaqus.Odb.SectionCategory.SectionCategory:33
+#: abaqus.Odb.SectionCategory.SectionCategory.SectionPoint:3
+#: abaqus.Odb.SectionCategory.SectionCategory.SectionPoint:8
+#: abaqus.Odb.SectionPoint.SectionPoint:3
+#: abaqus.Odb.SectionPoint.SectionPoint:27
+#: abaqus.Odb.SectionPoint.SectionPoint:32
+#: abaqus.Odb.SectorDefinition.SectorDefinition:4
+#: abaqus.Odb.SectorDefinition.SectorDefinition:10
+#: abaqus.Odb.UserDataBase.UserDataBase:4
+#: abaqus.Odb.UserDataBase.UserDataBase:10
+#: abaqus.Odb.UserDataBase.UserDataBase.XYData:3
+#: abaqus.Odb.UserDataBase.UserDataBase.XYData:8 of
+msgid "Note"
 msgstr ""
 
 #: abaqus.Odb.AnalyticSurface.AnalyticSurface:5

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: abqpy 2016\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-24 15:22+0000\n"
+"POT-Creation-Date: 2023-09-14 01:33+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: zh_CN\n"
@@ -59,6 +59,57 @@ msgstr ""
 msgid ""
 "The Session object has no constructor. Abaqus creates the **session** "
 "member when a session is started."
+msgstr ""
+
+#: abaqus.Session.AutoColors.AutoColors:3
+#: abaqus.Session.AutoColors.AutoColors:8
+#: abaqus.Session.AutoColors.AutoColors.setValues:3
+#: abaqus.Session.Color.Color:3 abaqus.Session.Color.Color:8
+#: abaqus.Session.Color.Color.setByRGB:4 abaqus.Session.Drawing.Drawing:4
+#: abaqus.Session.Drawing.Drawing:9 abaqus.Session.Drawing.Drawing:14
+#: abaqus.Session.Drawing.Drawing.addArrayDraw:7
+#: abaqus.Session.Drawing.Drawing.addIndexDraw:7
+#: abaqus.Session.Drawing.Drawing.setColors:5
+#: abaqus.Session.Drawing.Drawing.setEdgeColor:6
+#: abaqus.Session.Drawing.Drawing.setNormals:4
+#: abaqus.Session.Drawing.Drawing.setPointColor:6
+#: abaqus.Session.Drawing.Drawing.setValues:3
+#: abaqus.Session.Drawing.Drawing.setVertices:5 abaqus.Session.Image.Image:4
+#: abaqus.Session.Image.Image:9 abaqus.Session.Image.Image:14
+#: abaqus.Session.Image.Image.ImageFromMovie:3
+#: abaqus.Session.JournalOptions.JournalOptions:7
+#: abaqus.Session.JournalOptions.JournalOptions:12
+#: abaqus.Session.JournalOptions.JournalOptions.NumberFormat:3
+#: abaqus.Session.JournalOptions.JournalOptions.NumberFormat:10
+#: abaqus.Session.JournalOptions.JournalOptions.setValues:3
+#: abaqus.Session.MemoryReductionOptions.MemoryReductionOptions:5
+#: abaqus.Session.MemoryReductionOptions.MemoryReductionOptions:10
+#: abaqus.Session.MemoryReductionOptions.MemoryReductionOptions.setValues:3
+#: abaqus.Session.NetworkDatabaseConnector.NetworkDatabaseConnector:3
+#: abaqus.Session.NetworkDatabaseConnector.NetworkDatabaseConnector:8
+#: abaqus.Session.NetworkDatabaseConnector.NetworkDatabaseConnector:17
+#: abaqus.Session.NetworkDatabaseConnector.NetworkDatabaseConnector.setValues:3
+#: abaqus.Session.NetworkDatabaseConnector.NetworkDatabaseConnector.start:3
+#: abaqus.Session.NumberFormat.NumberFormat:6
+#: abaqus.Session.NumberFormat.NumberFormat:16
+#: abaqus.Session.NumberFormat.NumberFormat:21 abaqus.Session.Session.Session:3
+#: abaqus.Session.Session.Session:8 abaqus.Session.SessionBase.SessionBase:3
+#: abaqus.Session.SessionBase.SessionBase:8
+#: abaqus.Session.SessionBase.SessionBase.disableCADConnection:3
+#: abaqus.Session.SessionBase.SessionBase.disableParameterUpdate:3
+#: abaqus.Session.SessionBase.SessionBase.enableCADConnection:3
+#: abaqus.Session.SessionBase.SessionBase.enableParameterUpdate:4
+#: abaqus.Session.SessionBase.SessionBase.openOdb:9
+#: abaqus.Session.SessionBase.SessionBase.printToFile:4
+#: abaqus.Session.SessionBase.SessionBase.printToPrinter:6
+#: abaqus.Session.SessionBase.SessionBase.saveOptions:3
+#: abaqus.Session.SessionBase.SessionBase.setCADPortNumber:5
+#: abaqus.Session.SessionBase.SessionBase.setValues:3
+#: abaqus.Session.SessionBase.SessionBase.updateCADParameters:3
+#: abaqus.Session.SessionBase.SessionBase.write3DXMLFile:3
+#: abaqus.Session.SessionBase.SessionBase.writeOBJFile:3
+#: abaqus.Session.SessionBase.SessionBase.writeVrmlFile:3 of
+msgid "Note"
 msgstr ""
 
 #: abaqus.Session.AutoColors.AutoColors:4 abaqus.Session.Color.Color:4
@@ -958,7 +1009,7 @@ msgstr ""
 #: ../../../../None:14:<autosummary>:1
 msgid ""
 ":py:obj:`QuantityType <abaqus.XY.XYSession.XYSession.QuantityType>`\\ "
-"\\(type\\[\\, label\\]\\)"
+"\\(\\[type\\, label\\]\\)"
 msgstr ""
 
 #: ../../../../None:14:<autosummary>:1

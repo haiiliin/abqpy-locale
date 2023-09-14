@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: abqpy \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-19 09:27+0000\n"
+"POT-Creation-Date: 2023-09-14 01:33+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -98,6 +98,52 @@ msgid ""
 "from the abaqus module. Abaqus Scripting Interface commands that expect an"
 " AbaqusBoolean object will also accept a Python bool (True, False), or a "
 "Python int (1, 0)."
+msgstr ""
+
+#: abaqus.UtilityAndView.AbaqusBoolean.AbaqusBoolean:12
+#: abaqus.UtilityAndView.AbaqusBoolean.AbaqusBoolean:18
+#: abaqus.UtilityAndView.AbaqusBoolean.AbaqusBoolean:23
+#: abaqus.UtilityAndView.BackwardCompatibility.BackwardCompatibility:36
+#: abaqus.UtilityAndView.BackwardCompatibility.BackwardCompatibility:41
+#: abaqus.UtilityAndView.BackwardCompatibility.BackwardCompatibility.setValues:3
+#: abaqus.UtilityAndView.Callback.addImportCallback:4
+#: abaqus.UtilityAndView.Callback.addImportCallback:9
+#: abaqus.UtilityAndView.Callback.removeImportCallback:3
+#: abaqus.UtilityAndView.Callback.removeImportCallback:8
+#: abaqus.UtilityAndView.Customization.journalMethodCall:11
+#: abaqus.UtilityAndView.Customization.journalMethodCall:17
+#: abaqus.UtilityAndView.Customization.journalMethodCall:22
+#: abaqus.UtilityAndView.Delete.deleteObjectCallback:6
+#: abaqus.UtilityAndView.Delete.deleteObjectCallback:11
+#: abaqus.UtilityAndView.Method.addCallback:4
+#: abaqus.UtilityAndView.Method.addCallback:9
+#: abaqus.UtilityAndView.Method.removeCallback:4
+#: abaqus.UtilityAndView.Method.removeCallback:9
+#: abaqus.UtilityAndView.Repository.Repository:18
+#: abaqus.UtilityAndView.Repository.Repository.changeKey:3
+#: abaqus.UtilityAndView.SymbolicConstant.SymbolicConstant:11
+#: abaqus.UtilityAndView.SymbolicConstant.SymbolicConstant:17
+#: abaqus.UtilityAndView.SymbolicConstant.SymbolicConstant:22
+#: abaqus.UtilityAndView.SymbolicConstant.abaqusConstants:3
+#: abaqus.UtilityAndView.Upgrade.upgradeScript:7
+#: abaqus.UtilityAndView.Upgrade.upgradeScript:12
+#: abaqus.UtilityAndView.User.getWarningReply:9
+#: abaqus.UtilityAndView.User.getWarningReply:14
+#: abaqus.UtilityAndView.User.getWarningReply:19
+#: abaqus.UtilityAndView.View.View:7 abaqus.UtilityAndView.View.View:14
+#: abaqus.UtilityAndView.View.View:20 abaqus.UtilityAndView.View.View.fitView:4
+#: abaqus.UtilityAndView.View.View.next:5 abaqus.UtilityAndView.View.View.pan:3
+#: abaqus.UtilityAndView.View.View.previous:5
+#: abaqus.UtilityAndView.View.View.rotate:4
+#: abaqus.UtilityAndView.View.View.setLayerTransform:4
+#: abaqus.UtilityAndView.View.View.setProjection:5
+#: abaqus.UtilityAndView.View.View.setRotationCenter:3
+#: abaqus.UtilityAndView.View.View.setValues:3
+#: abaqus.UtilityAndView.View.View.setValues:11
+#: abaqus.UtilityAndView.View.View.setViewpoint:4
+#: abaqus.UtilityAndView.View.View.zoom:3
+#: abaqus.UtilityAndView.View.View.zoomRectangle:3 of
+msgid "Note"
 msgstr ""
 
 #: abaqus.UtilityAndView.AbaqusBoolean.AbaqusBoolean:13

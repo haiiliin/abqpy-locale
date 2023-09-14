@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: abqpy 2016\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-15 05:55+0000\n"
+"POT-Creation-Date: 2023-09-14 01:33+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -43,6 +43,64 @@ msgstr ""
 #: ../../../../../src/abaqus/Session/Session.py:docstring of abaqus.Session.Session.Session:1
 #: ../../../../../src/abaqus/Session/SessionBase.py:docstring of abaqus.Session.SessionBase.SessionBase:1
 msgid "The Session object has no constructor. Abaqus creates the **session** member when a session is started."
+msgstr ""
+
+#: ../../../../../src/abaqus/Session/AutoColors.py:docstring of abaqus.Session.AutoColors.AutoColors:3
+#: ../../../../../src/abaqus/Session/AutoColors.py:docstring of abaqus.Session.AutoColors.AutoColors:8
+#: ../../../../../src/abaqus/Session/AutoColors.py:docstring of abaqus.Session.AutoColors.AutoColors.setValues:3
+#: ../../../../../src/abaqus/Session/Color.py:docstring of abaqus.Session.Color.Color:3
+#: ../../../../../src/abaqus/Session/Color.py:docstring of abaqus.Session.Color.Color:8
+#: ../../../../../src/abaqus/Session/Color.py:docstring of abaqus.Session.Color.Color.setByRGB:4
+#: ../../../../../src/abaqus/Session/Drawing.py:docstring of abaqus.Session.Drawing.Drawing:4
+#: ../../../../../src/abaqus/Session/Drawing.py:docstring of abaqus.Session.Drawing.Drawing:9
+#: ../../../../../src/abaqus/Session/Drawing.py:docstring of abaqus.Session.Drawing.Drawing:14
+#: ../../../../../src/abaqus/Session/Drawing.py:docstring of abaqus.Session.Drawing.Drawing.addArrayDraw:7
+#: ../../../../../src/abaqus/Session/Drawing.py:docstring of abaqus.Session.Drawing.Drawing.addIndexDraw:7
+#: ../../../../../src/abaqus/Session/Drawing.py:docstring of abaqus.Session.Drawing.Drawing.setColors:5
+#: ../../../../../src/abaqus/Session/Drawing.py:docstring of abaqus.Session.Drawing.Drawing.setEdgeColor:6
+#: ../../../../../src/abaqus/Session/Drawing.py:docstring of abaqus.Session.Drawing.Drawing.setNormals:4
+#: ../../../../../src/abaqus/Session/Drawing.py:docstring of abaqus.Session.Drawing.Drawing.setPointColor:6
+#: ../../../../../src/abaqus/Session/Drawing.py:docstring of abaqus.Session.Drawing.Drawing.setValues:3
+#: ../../../../../src/abaqus/Session/Drawing.py:docstring of abaqus.Session.Drawing.Drawing.setVertices:5
+#: ../../../../../src/abaqus/Session/Image.py:docstring of abaqus.Session.Image.Image:4
+#: ../../../../../src/abaqus/Session/Image.py:docstring of abaqus.Session.Image.Image:9
+#: ../../../../../src/abaqus/Session/Image.py:docstring of abaqus.Session.Image.Image:14
+#: ../../../../../src/abaqus/Session/Image.py:docstring of abaqus.Session.Image.Image.ImageFromMovie:3
+#: ../../../../../src/abaqus/Session/JournalOptions.py:docstring of abaqus.Session.JournalOptions.JournalOptions:7
+#: ../../../../../src/abaqus/Session/JournalOptions.py:docstring of abaqus.Session.JournalOptions.JournalOptions:12
+#: ../../../../../src/abaqus/Session/JournalOptions.py:docstring of abaqus.Session.JournalOptions.JournalOptions.NumberFormat:3
+#: ../../../../../src/abaqus/Session/JournalOptions.py:docstring of abaqus.Session.JournalOptions.JournalOptions.NumberFormat:10
+#: ../../../../../src/abaqus/Session/JournalOptions.py:docstring of abaqus.Session.JournalOptions.JournalOptions.setValues:3
+#: ../../../../../src/abaqus/Session/MemoryReductionOptions.py:docstring of abaqus.Session.MemoryReductionOptions.MemoryReductionOptions:5
+#: ../../../../../src/abaqus/Session/MemoryReductionOptions.py:docstring of abaqus.Session.MemoryReductionOptions.MemoryReductionOptions:10
+#: ../../../../../src/abaqus/Session/MemoryReductionOptions.py:docstring of abaqus.Session.MemoryReductionOptions.MemoryReductionOptions.setValues:3
+#: ../../../../../src/abaqus/Session/NetworkDatabaseConnector.py:docstring of abaqus.Session.NetworkDatabaseConnector.NetworkDatabaseConnector:3
+#: ../../../../../src/abaqus/Session/NetworkDatabaseConnector.py:docstring of abaqus.Session.NetworkDatabaseConnector.NetworkDatabaseConnector:8
+#: ../../../../../src/abaqus/Session/NetworkDatabaseConnector.py:docstring of abaqus.Session.NetworkDatabaseConnector.NetworkDatabaseConnector:17
+#: ../../../../../src/abaqus/Session/NetworkDatabaseConnector.py:docstring of abaqus.Session.NetworkDatabaseConnector.NetworkDatabaseConnector.setValues:3
+#: ../../../../../src/abaqus/Session/NetworkDatabaseConnector.py:docstring of abaqus.Session.NetworkDatabaseConnector.NetworkDatabaseConnector.start:3
+#: ../../../../../src/abaqus/Session/NumberFormat.py:docstring of abaqus.Session.NumberFormat.NumberFormat:6
+#: ../../../../../src/abaqus/Session/NumberFormat.py:docstring of abaqus.Session.NumberFormat.NumberFormat:16
+#: ../../../../../src/abaqus/Session/NumberFormat.py:docstring of abaqus.Session.NumberFormat.NumberFormat:21
+#: ../../../../../src/abaqus/Session/Session.py:docstring of abaqus.Session.Session.Session:3
+#: ../../../../../src/abaqus/Session/Session.py:docstring of abaqus.Session.Session.Session:8
+#: ../../../../../src/abaqus/Session/SessionBase.py:docstring of abaqus.Session.SessionBase.SessionBase:3
+#: ../../../../../src/abaqus/Session/SessionBase.py:docstring of abaqus.Session.SessionBase.SessionBase:8
+#: ../../../../../src/abaqus/Session/SessionBase.py:docstring of abaqus.Session.SessionBase.SessionBase.disableCADConnection:3
+#: ../../../../../src/abaqus/Session/SessionBase.py:docstring of abaqus.Session.SessionBase.SessionBase.disableParameterUpdate:3
+#: ../../../../../src/abaqus/Session/SessionBase.py:docstring of abaqus.Session.SessionBase.SessionBase.enableCADConnection:3
+#: ../../../../../src/abaqus/Session/SessionBase.py:docstring of abaqus.Session.SessionBase.SessionBase.enableParameterUpdate:4
+#: ../../../../../src/abaqus/Session/SessionBase.py:docstring of abaqus.Session.SessionBase.SessionBase.openOdb:9
+#: ../../../../../src/abaqus/Session/SessionBase.py:docstring of abaqus.Session.SessionBase.SessionBase.printToFile:4
+#: ../../../../../src/abaqus/Session/SessionBase.py:docstring of abaqus.Session.SessionBase.SessionBase.printToPrinter:6
+#: ../../../../../src/abaqus/Session/SessionBase.py:docstring of abaqus.Session.SessionBase.SessionBase.saveOptions:3
+#: ../../../../../src/abaqus/Session/SessionBase.py:docstring of abaqus.Session.SessionBase.SessionBase.setCADPortNumber:5
+#: ../../../../../src/abaqus/Session/SessionBase.py:docstring of abaqus.Session.SessionBase.SessionBase.setValues:3
+#: ../../../../../src/abaqus/Session/SessionBase.py:docstring of abaqus.Session.SessionBase.SessionBase.updateCADParameters:3
+#: ../../../../../src/abaqus/Session/SessionBase.py:docstring of abaqus.Session.SessionBase.SessionBase.write3DXMLFile:3
+#: ../../../../../src/abaqus/Session/SessionBase.py:docstring of abaqus.Session.SessionBase.SessionBase.writeOBJFile:3
+#: ../../../../../src/abaqus/Session/SessionBase.py:docstring of abaqus.Session.SessionBase.SessionBase.writeVrmlFile:3
+msgid "Note"
 msgstr ""
 
 #: ../../../../../src/abaqus/Session/AutoColors.py:docstring of abaqus.Session.AutoColors.AutoColors:4
@@ -780,7 +838,7 @@ msgid "This method creates a LineStyle."
 msgstr ""
 
 #: ../../../../None:14:<autosummary>:1
-msgid ":py:obj:`QuantityType <abaqus.XY.XYSession.XYSession.QuantityType>`\\ \\(type\\[\\, label\\]\\)"
+msgid ":py:obj:`QuantityType <abaqus.XY.XYSession.XYSession.QuantityType>`\\ \\(\\[type\\, label\\]\\)"
 msgstr ""
 
 #: ../../../../None:14:<autosummary>:1

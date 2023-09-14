@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: abqpy \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-24 15:22+0000\n"
+"POT-Creation-Date: 2023-09-14 01:33+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -63,6 +63,106 @@ msgstr ""
 
 #: abaqus.PlotOptions.BasicOptions.BasicOptions:16 of
 msgid "The basic options associated with a particular viewport."
+msgstr ""
+
+#: abaqus.PlotOptions.BasicOptions.BasicOptions:18
+#: abaqus.PlotOptions.BasicOptions.BasicOptions:26
+#: abaqus.PlotOptions.BasicOptions.BasicOptions.setValues:3
+#: abaqus.PlotOptions.CouplingConstraint.CouplingConstraint:3
+#: abaqus.PlotOptions.CouplingConstraint.CouplingConstraint:11
+#: abaqus.PlotOptions.DGCommonOptions.DGCommonOptions:6
+#: abaqus.PlotOptions.DGCommonOptions.DGCommonOptions:16
+#: abaqus.PlotOptions.DGContourOptions.DGContourOptions:6
+#: abaqus.PlotOptions.DGContourOptions.DGContourOptions:16
+#: abaqus.PlotOptions.DGDisplayBodyOptions.DGDisplayBodyOptions:6
+#: abaqus.PlotOptions.DGDisplayBodyOptions.DGDisplayBodyOptions:16
+#: abaqus.PlotOptions.DGOrientationOptions.DGOrientationOptions:6
+#: abaqus.PlotOptions.DGOrientationOptions.DGOrientationOptions:16
+#: abaqus.PlotOptions.DGSuperimposeOptions.DGSuperimposeOptions:7
+#: abaqus.PlotOptions.DGSuperimposeOptions.DGSuperimposeOptions:17
+#: abaqus.PlotOptions.DGSymbolOptions.DGSymbolOptions:6
+#: abaqus.PlotOptions.DGSymbolOptions.DGSymbolOptions:16
+#: abaqus.PlotOptions.DetailPlotOptions.DetailPlotOptions:5
+#: abaqus.PlotOptions.DetailPlotOptions.DetailPlotOptions:10
+#: abaqus.PlotOptions.DisplayOptions.DisplayOptions:3
+#: abaqus.PlotOptions.DisplayOptions.DisplayOptions:10
+#: abaqus.PlotOptions.DisplayOptions.DisplayOptions.setValues:3
+#: abaqus.PlotOptions.FreeBodyOptions.FreeBodyOptions:13
+#: abaqus.PlotOptions.FreeBodyOptions.FreeBodyOptions:21
+#: abaqus.PlotOptions.FreeBodyOptions.FreeBodyOptions.setValues:3
+#: abaqus.PlotOptions.HistoryVariable.HistoryVariable:3
+#: abaqus.PlotOptions.HistoryVariable.HistoryVariable:9
+#: abaqus.PlotOptions.MdbData.MdbData:5 abaqus.PlotOptions.MdbData.MdbData:11
+#: abaqus.PlotOptions.MdbDataFrame.MdbDataFrame:3
+#: abaqus.PlotOptions.MdbDataFrame.MdbDataFrame:9
+#: abaqus.PlotOptions.MdbDataInstance.MdbDataInstance:4
+#: abaqus.PlotOptions.MdbDataInstance.MdbDataInstance:10
+#: abaqus.PlotOptions.MdbDataStep.MdbDataStep:3
+#: abaqus.PlotOptions.MdbDataStep.MdbDataStep:9
+#: abaqus.PlotOptions.MpcConstraint.MpcConstraint:3
+#: abaqus.PlotOptions.MpcConstraint.MpcConstraint:9
+#: abaqus.PlotOptions.OdbAnalysisError.OdbAnalysisError:3
+#: abaqus.PlotOptions.OdbAnalysisError.OdbAnalysisError:9
+#: abaqus.PlotOptions.OdbAnalysisWarning.OdbAnalysisWarning:4
+#: abaqus.PlotOptions.OdbAnalysisWarning.OdbAnalysisWarning:10
+#: abaqus.PlotOptions.OdbAuxiliaryData.OdbAuxiliaryData:3
+#: abaqus.PlotOptions.OdbAuxiliaryData.OdbAuxiliaryData:11
+#: abaqus.PlotOptions.OdbContactDiagnostics.OdbContactDiagnostics:3
+#: abaqus.PlotOptions.OdbContactDiagnostics.OdbContactDiagnostics:9
+#: abaqus.PlotOptions.OdbData.OdbData:6 abaqus.PlotOptions.OdbData.OdbData:12
+#: abaqus.PlotOptions.OdbData.OdbData.setValues:3
+#: abaqus.PlotOptions.OdbDataDatumCsys.OdbDataDatumCsys:3
+#: abaqus.PlotOptions.OdbDataDatumCsys.OdbDataDatumCsys:9
+#: abaqus.PlotOptions.OdbDataElementSet.OdbDataElementSet:3
+#: abaqus.PlotOptions.OdbDataElementSet.OdbDataElementSet:9
+#: abaqus.PlotOptions.OdbDataFrame.OdbDataFrame:3
+#: abaqus.PlotOptions.OdbDataFrame.OdbDataFrame:9
+#: abaqus.PlotOptions.OdbDataFrame.OdbDataFrame.setValues:3
+#: abaqus.PlotOptions.OdbDataInstance.OdbDataInstance:3
+#: abaqus.PlotOptions.OdbDataInstance.OdbDataInstance:9
+#: abaqus.PlotOptions.OdbDataMaterial.OdbDataMaterial:3
+#: abaqus.PlotOptions.OdbDataMaterial.OdbDataMaterial:9
+#: abaqus.PlotOptions.OdbDataNodeSet.OdbDataNodeSet:3
+#: abaqus.PlotOptions.OdbDataNodeSet.OdbDataNodeSet:9
+#: abaqus.PlotOptions.OdbDataSection.OdbDataSection:3
+#: abaqus.PlotOptions.OdbDataSection.OdbDataSection:9
+#: abaqus.PlotOptions.OdbDataStep.OdbDataStep:3
+#: abaqus.PlotOptions.OdbDataStep.OdbDataStep:9
+#: abaqus.PlotOptions.OdbDataStep.OdbDataStep.setValues:3
+#: abaqus.PlotOptions.OdbDataSurfaceSet.OdbDataSurfaceSet:3
+#: abaqus.PlotOptions.OdbDataSurfaceSet.OdbDataSurfaceSet:9
+#: abaqus.PlotOptions.OdbDiagnosticAttempt.OdbDiagnosticAttempt:3
+#: abaqus.PlotOptions.OdbDiagnosticAttempt.OdbDiagnosticAttempt:9
+#: abaqus.PlotOptions.OdbDiagnosticData.OdbDiagnosticData:3
+#: abaqus.PlotOptions.OdbDiagnosticData.OdbDiagnosticData:9
+#: abaqus.PlotOptions.OdbDiagnosticIncrement.OdbDiagnosticIncrement:3
+#: abaqus.PlotOptions.OdbDiagnosticIncrement.OdbDiagnosticIncrement:9
+#: abaqus.PlotOptions.OdbDiagnosticStep.OdbDiagnosticStep:3
+#: abaqus.PlotOptions.OdbDiagnosticStep.OdbDiagnosticStep:9
+#: abaqus.PlotOptions.OdbDiagnosticStep.OdbDiagnosticStep.extractData:4
+#: abaqus.PlotOptions.OdbDisplayOptions.OdbDisplayOptions:5
+#: abaqus.PlotOptions.OdbDisplayOptions.OdbDisplayOptions:18
+#: abaqus.PlotOptions.OdbJobTime.OdbJobTime:3
+#: abaqus.PlotOptions.OdbJobTime.OdbJobTime:9
+#: abaqus.PlotOptions.OdbNumericalProblemSummary.OdbNumericalProblemSummary:3
+#: abaqus.PlotOptions.OdbNumericalProblemSummary.OdbNumericalProblemSummary:9
+#: abaqus.PlotOptions.OptionArg.OptionArg:4
+#: abaqus.PlotOptions.OptionArg.OptionArg:18
+#: abaqus.PlotOptions.OptionArg.OptionArg:23
+#: abaqus.PlotOptions.PlyStackPlotOptions.PlyStackPlotOptions:5
+#: abaqus.PlotOptions.PlyStackPlotOptions.PlyStackPlotOptions:10
+#: abaqus.PlotOptions.PlyStackPlotOptions.PlyStackPlotOptions.setValues:3
+#: abaqus.PlotOptions.RigidBodyConstraint.RigidBodyConstraint:3
+#: abaqus.PlotOptions.RigidBodyConstraint.RigidBodyConstraint:9
+#: abaqus.PlotOptions.StreamOptions.StreamOptions:14
+#: abaqus.PlotOptions.StreamOptions.StreamOptions:22
+#: abaqus.PlotOptions.StreamOptions.StreamOptions.setValues:3
+#: abaqus.PlotOptions.TieConstraint.TieConstraint:3
+#: abaqus.PlotOptions.TieConstraint.TieConstraint:9
+#: abaqus.PlotOptions.ViewCutOptions.ViewCutOptions:13
+#: abaqus.PlotOptions.ViewCutOptions.ViewCutOptions:21
+#: abaqus.PlotOptions.ViewCutOptions.ViewCutOptions.setValues:3 of
+msgid "Note"
 msgstr ""
 
 #: abaqus.PlotOptions.BasicOptions.BasicOptions:19
