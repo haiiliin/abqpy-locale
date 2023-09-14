@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: abqpy \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-25 21:11+0000\n"
+"POT-Creation-Date: 2023-09-14 01:59+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -49,6 +49,40 @@ msgstr ""
 msgid ""
 "This method creates a Viewport object with the specified origin and "
 "dimensions."
+msgstr ""
+
+#: abaqus.Canvas.AttributeColorMap.AttributeColorMap:6
+#: abaqus.Canvas.AttributeColorMap.AttributeColorMap:11
+#: abaqus.Canvas.AttributeColorMap.AttributeColorMap.setValues:3
+#: abaqus.Canvas.AttributeColorMap.AttributeColorMap.updateOverrides:3
+#: abaqus.Canvas.CanvasSession.CanvasSession.Viewport:3
+#: abaqus.Canvas.CanvasSession.CanvasSession.Viewport:8
+#: abaqus.Canvas.DrawingArea.DrawingArea:4
+#: abaqus.Canvas.DrawingArea.DrawingArea:9 abaqus.Canvas.Highlight.highlight:3
+#: abaqus.Canvas.Highlight.highlight:8 abaqus.Canvas.Highlight.unhighlight:3
+#: abaqus.Canvas.Highlight.unhighlight:8
+#: abaqus.Canvas.ImageOptions.ImageOptions:6
+#: abaqus.Canvas.ImageOptions.ImageOptions:11
+#: abaqus.Canvas.ImageOptions.ImageOptions.setValues:3
+#: abaqus.Canvas.Layer.Layer:3 abaqus.Canvas.Layer.Layer:8
+#: abaqus.Canvas.Layer.Layer:13 abaqus.Canvas.Layer.Layer.moveAfter:3
+#: abaqus.Canvas.Layer.Layer.moveBefore:3
+#: abaqus.Canvas.MovieOptions.MovieOptions:7
+#: abaqus.Canvas.MovieOptions.MovieOptions:12
+#: abaqus.Canvas.MovieOptions.MovieOptions.setValues:3
+#: abaqus.Canvas.Viewport.Viewport:3 abaqus.Canvas.Viewport.Viewport.Layer:3
+#: abaqus.Canvas.Viewport.Viewport.Layer:8
+#: abaqus.Canvas.ViewportBase.ViewportBase:4
+#: abaqus.Canvas.ViewportBase.ViewportBase:9
+#: abaqus.Canvas.ViewportBase.ViewportBase:14
+#: abaqus.Canvas.ViewportBase.ViewportBase.addDrawings:3
+#: abaqus.Canvas.ViewportBase.ViewportBase.getActiveElementLabels:5
+#: abaqus.Canvas.ViewportBase.ViewportBase.getActiveNodeLabels:5
+#: abaqus.Canvas.ViewportBase.ViewportBase.offset:3
+#: abaqus.Canvas.ViewportBase.ViewportBase.removeDrawings:3
+#: abaqus.Canvas.ViewportBase.ViewportBase.setValues:5
+#: abaqus.Canvas.ViewportBase.ViewportBase.timeDisplay:7 of
+msgid "Note"
 msgstr ""
 
 #: abaqus.Canvas.CanvasSession.CanvasSession.Viewport:4
@@ -293,28 +327,6 @@ msgstr ""
 
 #: ../../../../None:41:<autosummary>:1
 msgid ""
-":py:obj:`displayMode "
-"<abaqus.Canvas.ViewportBase.ViewportBase.displayMode>`\\"
-msgstr ""
-
-#: ../../../../None:41:<autosummary>:1
-msgid "A SymbolicConstant specifying the display mode of the viewport."
-msgstr ""
-
-#: ../../../../None:41:<autosummary>:1
-msgid ""
-":py:obj:`viewManipLayers "
-"<abaqus.Canvas.ViewportBase.ViewportBase.viewManipLayers>`\\"
-msgstr ""
-
-#: ../../../../None:41:<autosummary>:1
-msgid ""
-"A SymbolicConstant specifying which layer or layers will be controlled by "
-"the view manipulation tools when **displayMode** = OVERLAY."
-msgstr ""
-
-#: ../../../../None:41:<autosummary>:1
-msgid ""
 ":py:obj:`layerOffset "
 "<abaqus.Canvas.ViewportBase.ViewportBase.layerOffset>`\\"
 msgstr ""
@@ -323,16 +335,6 @@ msgstr ""
 msgid ""
 "A Float specifying a factor to be used in offsetting layers in the screen "
 "Z direction."
-msgstr ""
-
-#: ../../../../None:41:<autosummary>:1
-msgid ""
-":py:obj:`windowState "
-"<abaqus.Canvas.ViewportBase.ViewportBase.windowState>`\\"
-msgstr ""
-
-#: ../../../../None:41:<autosummary>:1
-msgid "A SymbolicConstant specifying the current state of a viewport."
 msgstr ""
 
 #: ../../../../None:41:<autosummary>:1
@@ -645,6 +647,38 @@ msgstr ""
 
 #: ../../../../None:41:<autosummary>:1
 msgid ":py:obj:`name <abaqus.Canvas.ViewportBase.ViewportBase.name>`\\"
+msgstr ""
+
+#: ../../../../None:41:<autosummary>:1
+msgid ""
+":py:obj:`displayMode "
+"<abaqus.Canvas.ViewportBase.ViewportBase.displayMode>`\\"
+msgstr ""
+
+#: ../../../../None:41:<autosummary>:1
+msgid "A SymbolicConstant specifying the display mode of the viewport."
+msgstr ""
+
+#: ../../../../None:41:<autosummary>:1
+msgid ""
+":py:obj:`viewManipLayers "
+"<abaqus.Canvas.ViewportBase.ViewportBase.viewManipLayers>`\\"
+msgstr ""
+
+#: ../../../../None:41:<autosummary>:1
+msgid ""
+"A SymbolicConstant specifying which layer or layers will be controlled by "
+"the view manipulation tools when **displayMode** = OVERLAY."
+msgstr ""
+
+#: ../../../../None:41:<autosummary>:1
+msgid ""
+":py:obj:`windowState "
+"<abaqus.Canvas.ViewportBase.ViewportBase.windowState>`\\"
+msgstr ""
+
+#: ../../../../None:41:<autosummary>:1
+msgid "A SymbolicConstant specifying the current state of a viewport."
 msgstr ""
 
 #: ../../../../None:41:<autosummary>:1

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: abqpy 2022\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-19 09:17+0000\n"
+"POT-Creation-Date: 2023-09-14 01:59+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,6 +34,87 @@ msgstr ""
 
 #: ../../../../../src/abaqus/Adaptivity/AdaptivityModel.py:docstring of abaqus.Adaptivity.AdaptivityModel.AdaptivityModel:1
 msgid "Abaqus creates a Model object named `Model-1` when a session is started."
+msgstr ""
+
+#: ../../../../../src/abaqus/Adaptivity/AdaptiveMeshConstraint.py:docstring of abaqus.Adaptivity.AdaptiveMeshConstraint.AdaptiveMeshConstraint:6
+#: ../../../../../src/abaqus/Adaptivity/AdaptiveMeshConstraint.py:docstring of abaqus.Adaptivity.AdaptiveMeshConstraint.AdaptiveMeshConstraint:12
+#: ../../../../../src/abaqus/Adaptivity/AdaptiveMeshConstraint.py:docstring of abaqus.Adaptivity.AdaptiveMeshConstraint.AdaptiveMeshConstraint:20
+#: ../../../../../src/abaqus/Adaptivity/AdaptiveMeshConstraint.py:docstring of abaqus.Adaptivity.AdaptiveMeshConstraint.AdaptiveMeshConstraint.deactivate:3
+#: ../../../../../src/abaqus/Adaptivity/AdaptiveMeshConstraint.py:docstring of abaqus.Adaptivity.AdaptiveMeshConstraint.AdaptiveMeshConstraint.delete:3
+#: ../../../../../src/abaqus/Adaptivity/AdaptiveMeshConstraint.py:docstring of abaqus.Adaptivity.AdaptiveMeshConstraint.AdaptiveMeshConstraint.move:3
+#: ../../../../../src/abaqus/Adaptivity/AdaptiveMeshConstraint.py:docstring of abaqus.Adaptivity.AdaptiveMeshConstraint.AdaptiveMeshConstraint.reset:4
+#: ../../../../../src/abaqus/Adaptivity/AdaptiveMeshConstraintState.py:docstring of abaqus.Adaptivity.AdaptiveMeshConstraintState.AdaptiveMeshConstraintState:6
+#: ../../../../../src/abaqus/Adaptivity/AdaptiveMeshConstraintState.py:docstring of abaqus.Adaptivity.AdaptiveMeshConstraintState.AdaptiveMeshConstraintState:12
+#: ../../../../../src/abaqus/Adaptivity/AdaptiveMeshConstraintState.py:docstring of abaqus.Adaptivity.AdaptiveMeshConstraintState.AdaptiveMeshConstraintState:20
+#: ../../../../../src/abaqus/Adaptivity/AdaptiveMeshControl.py:docstring of abaqus.Adaptivity.AdaptiveMeshControl.AdaptiveMeshControl:4
+#: ../../../../../src/abaqus/Adaptivity/AdaptiveMeshControl.py:docstring of abaqus.Adaptivity.AdaptiveMeshControl.AdaptiveMeshControl:10
+#: ../../../../../src/abaqus/Adaptivity/AdaptiveMeshControl.py:docstring of abaqus.Adaptivity.AdaptiveMeshControl.AdaptiveMeshControl:15
+#: ../../../../../src/abaqus/Adaptivity/AdaptiveMeshControl.py:docstring of abaqus.Adaptivity.AdaptiveMeshControl.AdaptiveMeshControl.setValues:3
+#: ../../../../../src/abaqus/Adaptivity/AdaptiveMeshDomain.py:docstring of abaqus.Adaptivity.AdaptiveMeshDomain.AdaptiveMeshDomain:4
+#: ../../../../../src/abaqus/Adaptivity/AdaptiveMeshDomain.py:docstring of abaqus.Adaptivity.AdaptiveMeshDomain.AdaptiveMeshDomain:10
+#: ../../../../../src/abaqus/Adaptivity/AdaptiveMeshDomain.py:docstring of abaqus.Adaptivity.AdaptiveMeshDomain.AdaptiveMeshDomain:15
+#: ../../../../../src/abaqus/Adaptivity/AdaptivityIteration.py:docstring of abaqus.Adaptivity.AdaptivityIteration.AdaptivityIteration:4
+#: ../../../../../src/abaqus/Adaptivity/AdaptivityIteration.py:docstring of abaqus.Adaptivity.AdaptivityIteration.AdaptivityIteration:10
+#: ../../../../../src/abaqus/Adaptivity/AdaptivityIteration.py:docstring of abaqus.Adaptivity.AdaptivityIteration.AdaptivityIteration:15
+#: ../../../../../src/abaqus/Adaptivity/AdaptivityIteration.py:docstring of abaqus.Adaptivity.AdaptivityIteration.AdaptivityIteration.ErrorIndicatorResult:4
+#: ../../../../../src/abaqus/Adaptivity/AdaptivityIteration.py:docstring of abaqus.Adaptivity.AdaptivityIteration.AdaptivityIteration.ErrorIndicatorResult:9
+#: ../../../../../src/abaqus/Adaptivity/AdaptivityIteration.py:docstring of abaqus.Adaptivity.AdaptivityIteration.AdaptivityIteration.RuleResult:3
+#: ../../../../../src/abaqus/Adaptivity/AdaptivityIteration.py:docstring of abaqus.Adaptivity.AdaptivityIteration.AdaptivityIteration.RuleResult:8
+#: ../../../../../src/abaqus/Adaptivity/AdaptivityModel.py:docstring of abaqus.Adaptivity.AdaptivityModel.AdaptivityModel:3
+#: ../../../../../src/abaqus/Adaptivity/AdaptivityModel.py:docstring of abaqus.Adaptivity.AdaptivityModel.AdaptivityModel:8
+#: ../../../../../src/abaqus/Adaptivity/AdaptivityModel.py:docstring of abaqus.Adaptivity.AdaptivityModel.AdaptivityModel:13
+#: ../../../../../src/abaqus/Adaptivity/AdaptivityModel.py:docstring of abaqus.Adaptivity.AdaptivityModel.AdaptivityModel.AdaptiveMeshConstraint:6
+#: ../../../../../src/abaqus/Adaptivity/AdaptivityModel.py:docstring of abaqus.Adaptivity.AdaptivityModel.AdaptivityModel.AdaptiveMeshConstraint:11
+#: ../../../../../src/abaqus/Adaptivity/AdaptivityModel.py:docstring of abaqus.Adaptivity.AdaptivityModel.AdaptivityModel.AdaptiveMeshControl:3
+#: ../../../../../src/abaqus/Adaptivity/AdaptivityModel.py:docstring of abaqus.Adaptivity.AdaptivityModel.AdaptivityModel.AdaptiveMeshControl:8
+#: ../../../../../src/abaqus/Adaptivity/AdaptivityModel.py:docstring of abaqus.Adaptivity.AdaptivityModel.AdaptivityModel.DisplacementAdaptiveMeshConstraint:3
+#: ../../../../../src/abaqus/Adaptivity/AdaptivityModel.py:docstring of abaqus.Adaptivity.AdaptivityModel.AdaptivityModel.DisplacementAdaptiveMeshConstraint:8
+#: ../../../../../src/abaqus/Adaptivity/AdaptivityModel.py:docstring of abaqus.Adaptivity.AdaptivityModel.AdaptivityModel.RemeshingRule:3
+#: ../../../../../src/abaqus/Adaptivity/AdaptivityModel.py:docstring of abaqus.Adaptivity.AdaptivityModel.AdaptivityModel.RemeshingRule:8
+#: ../../../../../src/abaqus/Adaptivity/AdaptivityModel.py:docstring of abaqus.Adaptivity.AdaptivityModel.AdaptivityModel.VelocityAdaptiveMeshConstraint:3
+#: ../../../../../src/abaqus/Adaptivity/AdaptivityModel.py:docstring of abaqus.Adaptivity.AdaptivityModel.AdaptivityModel.VelocityAdaptiveMeshConstraint:8
+#: ../../../../../src/abaqus/Adaptivity/AdaptivityModel.py:docstring of abaqus.Adaptivity.AdaptivityModel.AdaptivityModel.adaptiveRemesh:4
+#: ../../../../../src/abaqus/Adaptivity/AdaptivityProcess.py:docstring of abaqus.Adaptivity.AdaptivityProcess.AdaptivityProcess:4
+#: ../../../../../src/abaqus/Adaptivity/AdaptivityProcess.py:docstring of abaqus.Adaptivity.AdaptivityProcess.AdaptivityProcess:10
+#: ../../../../../src/abaqus/Adaptivity/AdaptivityProcess.py:docstring of abaqus.Adaptivity.AdaptivityProcess.AdaptivityProcess:15
+#: ../../../../../src/abaqus/Adaptivity/AdaptivityProcess.py:docstring of abaqus.Adaptivity.AdaptivityProcess.AdaptivityProcess.AdaptivityIteration:3
+#: ../../../../../src/abaqus/Adaptivity/AdaptivityProcess.py:docstring of abaqus.Adaptivity.AdaptivityProcess.AdaptivityProcess.AdaptivityIteration:8
+#: ../../../../../src/abaqus/Adaptivity/AdaptivityProcess.py:docstring of abaqus.Adaptivity.AdaptivityProcess.AdaptivityProcess.setValues:3
+#: ../../../../../src/abaqus/Adaptivity/AdaptivityProcess.py:docstring of abaqus.Adaptivity.AdaptivityProcess.AdaptivityProcess.submit:3
+#: ../../../../../src/abaqus/Adaptivity/AdaptivityStep.py:docstring of abaqus.Adaptivity.AdaptivityStep.AdaptivityStep:5
+#: ../../../../../src/abaqus/Adaptivity/AdaptivityStep.py:docstring of abaqus.Adaptivity.AdaptivityStep.AdaptivityStep:11
+#: ../../../../../src/abaqus/Adaptivity/AdaptivityStep.py:docstring of abaqus.Adaptivity.AdaptivityStep.AdaptivityStep.AdaptiveMeshConstraintState:6
+#: ../../../../../src/abaqus/Adaptivity/AdaptivityStep.py:docstring of abaqus.Adaptivity.AdaptivityStep.AdaptivityStep.AdaptiveMeshConstraintState:11
+#: ../../../../../src/abaqus/Adaptivity/AdaptivityStep.py:docstring of abaqus.Adaptivity.AdaptivityStep.AdaptivityStep.AdaptiveMeshDomain:6
+#: ../../../../../src/abaqus/Adaptivity/AdaptivityStep.py:docstring of abaqus.Adaptivity.AdaptivityStep.AdaptivityStep.AdaptiveMeshDomain:11
+#: ../../../../../src/abaqus/Adaptivity/AdaptivityStep.py:docstring of abaqus.Adaptivity.AdaptivityStep.AdaptivityStep.DisplacementAdaptiveMeshConstraintState:8
+#: ../../../../../src/abaqus/Adaptivity/AdaptivityStep.py:docstring of abaqus.Adaptivity.AdaptivityStep.AdaptivityStep.DisplacementAdaptiveMeshConstraintState:13
+#: ../../../../../src/abaqus/Adaptivity/AdaptivityStep.py:docstring of abaqus.Adaptivity.AdaptivityStep.AdaptivityStep.VelocityAdaptiveMeshConstraintState:8
+#: ../../../../../src/abaqus/Adaptivity/AdaptivityStep.py:docstring of abaqus.Adaptivity.AdaptivityStep.AdaptivityStep.VelocityAdaptiveMeshConstraintState:13
+#: ../../../../../src/abaqus/Adaptivity/DisplacementAdaptiveMeshConstraint.py:docstring of abaqus.Adaptivity.DisplacementAdaptiveMeshConstraint.DisplacementAdaptiveMeshConstraint:4
+#: ../../../../../src/abaqus/Adaptivity/DisplacementAdaptiveMeshConstraint.py:docstring of abaqus.Adaptivity.DisplacementAdaptiveMeshConstraint.DisplacementAdaptiveMeshConstraint:10
+#: ../../../../../src/abaqus/Adaptivity/DisplacementAdaptiveMeshConstraint.py:docstring of abaqus.Adaptivity.DisplacementAdaptiveMeshConstraint.DisplacementAdaptiveMeshConstraint:15
+#: ../../../../../src/abaqus/Adaptivity/DisplacementAdaptiveMeshConstraint.py:docstring of abaqus.Adaptivity.DisplacementAdaptiveMeshConstraint.DisplacementAdaptiveMeshConstraint.setValues:4
+#: ../../../../../src/abaqus/Adaptivity/DisplacementAdaptiveMeshConstraint.py:docstring of abaqus.Adaptivity.DisplacementAdaptiveMeshConstraint.DisplacementAdaptiveMeshConstraint.setValuesInStep:4
+#: ../../../../../src/abaqus/Adaptivity/DisplacementAdaptiveMeshConstraintState.py:docstring of abaqus.Adaptivity.DisplacementAdaptiveMeshConstraintState.DisplacementAdaptiveMeshConstraintState:8
+#: ../../../../../src/abaqus/Adaptivity/DisplacementAdaptiveMeshConstraintState.py:docstring of abaqus.Adaptivity.DisplacementAdaptiveMeshConstraintState.DisplacementAdaptiveMeshConstraintState:18
+#: ../../../../../src/abaqus/Adaptivity/DisplacementAdaptiveMeshConstraintState.py:docstring of abaqus.Adaptivity.DisplacementAdaptiveMeshConstraintState.DisplacementAdaptiveMeshConstraintState:21
+#: ../../../../../src/abaqus/Adaptivity/RemeshingRule.py:docstring of abaqus.Adaptivity.RemeshingRule.RemeshingRule:4
+#: ../../../../../src/abaqus/Adaptivity/RemeshingRule.py:docstring of abaqus.Adaptivity.RemeshingRule.RemeshingRule:10
+#: ../../../../../src/abaqus/Adaptivity/RemeshingRule.py:docstring of abaqus.Adaptivity.RemeshingRule.RemeshingRule:15
+#: ../../../../../src/abaqus/Adaptivity/RemeshingRule.py:docstring of abaqus.Adaptivity.RemeshingRule.RemeshingRule.setValues:3
+#: ../../../../../src/abaqus/Adaptivity/RuleResult.py:docstring of abaqus.Adaptivity.RuleResult.RuleResult:4
+#: ../../../../../src/abaqus/Adaptivity/RuleResult.py:docstring of abaqus.Adaptivity.RuleResult.RuleResult:10
+#: ../../../../../src/abaqus/Adaptivity/RuleResult.py:docstring of abaqus.Adaptivity.RuleResult.RuleResult:15
+#: ../../../../../src/abaqus/Adaptivity/VelocityAdaptiveMeshConstraint.py:docstring of abaqus.Adaptivity.VelocityAdaptiveMeshConstraint.VelocityAdaptiveMeshConstraint:5
+#: ../../../../../src/abaqus/Adaptivity/VelocityAdaptiveMeshConstraint.py:docstring of abaqus.Adaptivity.VelocityAdaptiveMeshConstraint.VelocityAdaptiveMeshConstraint:11
+#: ../../../../../src/abaqus/Adaptivity/VelocityAdaptiveMeshConstraint.py:docstring of abaqus.Adaptivity.VelocityAdaptiveMeshConstraint.VelocityAdaptiveMeshConstraint:16
+#: ../../../../../src/abaqus/Adaptivity/VelocityAdaptiveMeshConstraint.py:docstring of abaqus.Adaptivity.VelocityAdaptiveMeshConstraint.VelocityAdaptiveMeshConstraint.setValues:4
+#: ../../../../../src/abaqus/Adaptivity/VelocityAdaptiveMeshConstraint.py:docstring of abaqus.Adaptivity.VelocityAdaptiveMeshConstraint.VelocityAdaptiveMeshConstraint.setValuesInStep:4
+#: ../../../../../src/abaqus/Adaptivity/VelocityAdaptiveMeshConstraintState.py:docstring of abaqus.Adaptivity.VelocityAdaptiveMeshConstraintState.VelocityAdaptiveMeshConstraintState:8
+#: ../../../../../src/abaqus/Adaptivity/VelocityAdaptiveMeshConstraintState.py:docstring of abaqus.Adaptivity.VelocityAdaptiveMeshConstraintState.VelocityAdaptiveMeshConstraintState:18
+#: ../../../../../src/abaqus/Adaptivity/VelocityAdaptiveMeshConstraintState.py:docstring of abaqus.Adaptivity.VelocityAdaptiveMeshConstraintState.VelocityAdaptiveMeshConstraintState:28
+msgid "Note"
 msgstr ""
 
 #: ../../../../../src/abaqus/Adaptivity/AdaptiveMeshConstraint.py:docstring of abaqus.Adaptivity.AdaptiveMeshConstraint.AdaptiveMeshConstraint:7

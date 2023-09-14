@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: abqpy \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-25 21:11+0000\n"
+"POT-Creation-Date: 2023-09-14 01:59+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -240,6 +240,77 @@ msgstr ""
 msgid "Member Details:"
 msgstr ""
 
+#: abaqus.Connector.CDCTerm.CDCTerm:3 abaqus.Connector.CDCTerm.CDCTerm:17
+#: abaqus.Connector.CDCTerm.CDCTerm:22
+#: abaqus.Connector.CDCTerm.CDCTerm.ConnectorOptions:4
+#: abaqus.Connector.CDCTerm.CDCTerm.ConnectorOptions:16
+#: abaqus.Connector.ConnectorBehaviorOption.ConnectorBehaviorOption:5
+#: abaqus.Connector.ConnectorBehaviorOption.ConnectorBehaviorOption:13
+#: abaqus.Connector.ConnectorBehaviorOption.ConnectorBehaviorOption.ConnectorOptions:4
+#: abaqus.Connector.ConnectorBehaviorOption.ConnectorBehaviorOption.ConnectorOptions:10
+#: abaqus.Connector.ConnectorBehaviorOption.ConnectorBehaviorOption.DerivedComponent:3
+#: abaqus.Connector.ConnectorBehaviorOption.ConnectorBehaviorOption.TangentialBehavior:3
+#: abaqus.Connector.ConnectorBehaviorOption.ConnectorBehaviorOption.TangentialBehavior:9
+#: abaqus.Connector.ConnectorDamage.ConnectorDamage:4
+#: abaqus.Connector.ConnectorDamage.ConnectorDamage:90
+#: abaqus.Connector.ConnectorDamage.ConnectorDamage:95
+#: abaqus.Connector.ConnectorDamping.ConnectorDamping:4
+#: abaqus.Connector.ConnectorDamping.ConnectorDamping:62
+#: abaqus.Connector.ConnectorDamping.ConnectorDamping:67
+#: abaqus.Connector.ConnectorElasticity.ConnectorElasticity:4
+#: abaqus.Connector.ConnectorElasticity.ConnectorElasticity:59
+#: abaqus.Connector.ConnectorElasticity.ConnectorElasticity:64
+#: abaqus.Connector.ConnectorFailure.ConnectorFailure:4
+#: abaqus.Connector.ConnectorFailure.ConnectorFailure:16
+#: abaqus.Connector.ConnectorFailure.ConnectorFailure:21
+#: abaqus.Connector.ConnectorFriction.ConnectorFriction:5
+#: abaqus.Connector.ConnectorFriction.ConnectorFriction:17
+#: abaqus.Connector.ConnectorFriction.ConnectorFriction:23
+#: abaqus.Connector.ConnectorLock.ConnectorLock:4
+#: abaqus.Connector.ConnectorLock.ConnectorLock:16
+#: abaqus.Connector.ConnectorLock.ConnectorLock:21
+#: abaqus.Connector.ConnectorOptions.ConnectorOptions:10
+#: abaqus.Connector.ConnectorOptions.ConnectorOptions:45
+#: abaqus.Connector.ConnectorOptions.ConnectorOptions:51
+#: abaqus.Connector.ConnectorPlasticity.ConnectorPlasticity:4
+#: abaqus.Connector.ConnectorPlasticity.ConnectorPlasticity:70
+#: abaqus.Connector.ConnectorPlasticity.ConnectorPlasticity:75
+#: abaqus.Connector.ConnectorPotential.ConnectorPotential:8
+#: abaqus.Connector.ConnectorPotential.ConnectorPotential:24
+#: abaqus.Connector.ConnectorPotential.ConnectorPotential:30
+#: abaqus.Connector.ConnectorPotential.ConnectorPotential.DerivedComponent:3
+#: abaqus.Connector.ConnectorSection.ConnectorSection.ConnectorDamage:3
+#: abaqus.Connector.ConnectorSection.ConnectorSection.ConnectorDamage:11
+#: abaqus.Connector.ConnectorSection.ConnectorSection.ConnectorDamping:3
+#: abaqus.Connector.ConnectorSection.ConnectorSection.ConnectorDamping:11
+#: abaqus.Connector.ConnectorSection.ConnectorSection.ConnectorElasticity:3
+#: abaqus.Connector.ConnectorSection.ConnectorSection.ConnectorElasticity:11
+#: abaqus.Connector.ConnectorSection.ConnectorSection.ConnectorFailure:3
+#: abaqus.Connector.ConnectorSection.ConnectorSection.ConnectorFailure:11
+#: abaqus.Connector.ConnectorSection.ConnectorSection.ConnectorFriction:4
+#: abaqus.Connector.ConnectorSection.ConnectorSection.ConnectorFriction:12
+#: abaqus.Connector.ConnectorSection.ConnectorSection.ConnectorLock:3
+#: abaqus.Connector.ConnectorSection.ConnectorSection.ConnectorLock:11
+#: abaqus.Connector.ConnectorSection.ConnectorSection.ConnectorPlasticity:3
+#: abaqus.Connector.ConnectorSection.ConnectorSection.ConnectorPlasticity:11
+#: abaqus.Connector.ConnectorSection.ConnectorSection.ConnectorPotential:4
+#: abaqus.Connector.ConnectorSection.ConnectorSection.ConnectorPotential:10
+#: abaqus.Connector.ConnectorSection.ConnectorSection.ConnectorStop:3
+#: abaqus.Connector.ConnectorSection.ConnectorSection.ConnectorStop:11
+#: abaqus.Connector.ConnectorStop.ConnectorStop:4
+#: abaqus.Connector.ConnectorStop.ConnectorStop:16
+#: abaqus.Connector.ConnectorStop.ConnectorStop:21
+#: abaqus.Connector.DerivedComponent.DerivedComponent:4
+#: abaqus.Connector.DerivedComponent.DerivedComponent:22
+#: abaqus.Connector.DerivedComponent.DerivedComponent:27
+#: abaqus.Connector.DerivedComponent.DerivedComponent.CDCTerm:3
+#: abaqus.Connector.DerivedComponent.DerivedComponent.CDCTerm:15
+#: abaqus.Connector.TangentialBehavior.TangentialBehavior:3
+#: abaqus.Connector.TangentialBehavior.TangentialBehavior:38
+#: abaqus.Connector.TangentialBehavior.TangentialBehavior:43 of
+msgid "Note"
+msgstr ""
+
 #: abaqus.Connector.CDCTerm.CDCTerm:23
 #: abaqus.Connector.CDCTerm.CDCTerm.ConnectorOptions:5
 #: abaqus.Connector.ConnectorBehaviorOption.ConnectorBehaviorOption.ConnectorOptions:5
@@ -452,8 +523,7 @@ msgid ""
 "MOTION, and when **criterion** = FORCE or MOTION."
 msgstr ""
 
-#: ../../../../docstring abaqus.Connector.ConnectorDamage.ConnectorDamage:161
-#: abaqus.Connector.ConnectorSection.ConnectorDamage.initiationPotentials:1
+#: abaqus.Connector.ConnectorDamage.ConnectorDamage:161
 #: abaqus.Connector.ConnectorSection.ConnectorSection.ConnectorDamage:72 of
 msgid ""
 "A ConnectorPotentialArray object specifying one ConnectorPotential object "

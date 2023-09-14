@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: abqpy 2022\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-15 05:54+0000\n"
+"POT-Creation-Date: 2023-09-14 01:59+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -737,6 +737,127 @@ msgstr ""
 #: ../../../../../src/abaqus/DisplayGroup/LeafFromSurfaceSets.py:docstring of abaqus.DisplayGroup.LeafFromSurfaceSets.LeafFromSurfaceSets:1
 #: ../../../../../src/abaqus/DisplayGroup/LeafFromSurfaceVarRange.py:docstring of abaqus.DisplayGroup.LeafFromSurfaceVarRange.LeafFromSurfaceVarRange:1
 msgid "Member Details:"
+msgstr ""
+
+#: ../../../../../src/abaqus/DisplayGroup/DisplayGroup.py:docstring of abaqus.DisplayGroup.DisplayGroup.DisplayGroup:3
+#: ../../../../../src/abaqus/DisplayGroup/DisplayGroup.py:docstring of abaqus.DisplayGroup.DisplayGroup.DisplayGroup:17
+#: ../../../../../src/abaqus/DisplayGroup/DisplayGroup.py:docstring of abaqus.DisplayGroup.DisplayGroup.DisplayGroup:22
+#: ../../../../../src/abaqus/DisplayGroup/DisplayGroup.py:docstring of abaqus.DisplayGroup.DisplayGroup.DisplayGroup.add:3
+#: ../../../../../src/abaqus/DisplayGroup/DisplayGroup.py:docstring of abaqus.DisplayGroup.DisplayGroup.DisplayGroup.either:4
+#: ../../../../../src/abaqus/DisplayGroup/DisplayGroup.py:docstring of abaqus.DisplayGroup.DisplayGroup.DisplayGroup.intersect:4
+#: ../../../../../src/abaqus/DisplayGroup/DisplayGroup.py:docstring of abaqus.DisplayGroup.DisplayGroup.DisplayGroup.remove:3
+#: ../../../../../src/abaqus/DisplayGroup/DisplayGroup.py:docstring of abaqus.DisplayGroup.DisplayGroup.DisplayGroup.replace:3
+#: ../../../../../src/abaqus/DisplayGroup/DisplayGroupInstance.py:docstring of abaqus.DisplayGroup.DisplayGroupInstance.DisplayGroupInstance:6
+#: ../../../../../src/abaqus/DisplayGroup/DisplayGroupInstance.py:docstring of abaqus.DisplayGroup.DisplayGroupInstance.DisplayGroupInstance:19
+#: ../../../../../src/abaqus/DisplayGroup/DisplayGroupInstance.py:docstring of abaqus.DisplayGroup.DisplayGroupInstance.DisplayGroupInstance.setValues:5
+#: ../../../../../src/abaqus/DisplayGroup/DisplayGroupInstanceRepository.py:docstring of abaqus.DisplayGroup.DisplayGroupInstanceRepository.DisplayGroupInstanceRepository:5
+#: ../../../../../src/abaqus/DisplayGroup/DisplayGroupInstanceRepository.py:docstring of abaqus.DisplayGroup.DisplayGroupInstanceRepository.DisplayGroupInstanceRepository:12
+#: ../../../../../src/abaqus/DisplayGroup/DisplayGroupInstanceRepository.py:docstring of abaqus.DisplayGroup.DisplayGroupInstanceRepository.DisplayGroupInstanceRepository.syncOptions:4
+#: ../../../../../src/abaqus/DisplayGroup/DisplayGroupSession.py:docstring of abaqus.DisplayGroup.DisplayGroupSession.DisplayGroupSession.DisplayGroup:3
+#: ../../../../../src/abaqus/DisplayGroup/DisplayGroupSession.py:docstring of abaqus.DisplayGroup.DisplayGroupSession.DisplayGroupSession.DisplayGroup:8
+#: ../../../../../src/abaqus/DisplayGroup/Leaf.py:docstring of abaqus.DisplayGroup.Leaf.Leaf:6
+#: ../../../../../src/abaqus/DisplayGroup/Leaf.py:docstring of abaqus.DisplayGroup.Leaf.Leaf:12
+#: ../../../../../src/abaqus/DisplayGroup/Leaf.py:docstring of abaqus.DisplayGroup.Leaf.Leaf:17
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromConstraintNames.py:docstring of abaqus.DisplayGroup.LeafFromConstraintNames.LeafFromConstraintNames:6
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromConstraintNames.py:docstring of abaqus.DisplayGroup.LeafFromConstraintNames.LeafFromConstraintNames:14
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromConstraintNames.py:docstring of abaqus.DisplayGroup.LeafFromConstraintNames.LeafFromConstraintNames:20
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromDatums.py:docstring of abaqus.DisplayGroup.LeafFromDatums.LeafFromDatums:5
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromDatums.py:docstring of abaqus.DisplayGroup.LeafFromDatums.LeafFromDatums:10
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromDatums.py:docstring of abaqus.DisplayGroup.LeafFromDatums.LeafFromDatums:16
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromDisplayGroup.py:docstring of abaqus.DisplayGroup.LeafFromDisplayGroup.LeafFromDisplayGroup:6
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromDisplayGroup.py:docstring of abaqus.DisplayGroup.LeafFromDisplayGroup.LeafFromDisplayGroup:12
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromDisplayGroup.py:docstring of abaqus.DisplayGroup.LeafFromDisplayGroup.LeafFromDisplayGroup:17
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromElementLabels.py:docstring of abaqus.DisplayGroup.LeafFromElementLabels.LeafFromElementLabels:6
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromElementLabels.py:docstring of abaqus.DisplayGroup.LeafFromElementLabels.LeafFromElementLabels:11
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromElementLabels.py:docstring of abaqus.DisplayGroup.LeafFromElementLabels.LeafFromElementLabels:17
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromElementSets.py:docstring of abaqus.DisplayGroup.LeafFromElementSets.LeafFromElementSets:6
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromElementSets.py:docstring of abaqus.DisplayGroup.LeafFromElementSets.LeafFromElementSets:11
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromElementSets.py:docstring of abaqus.DisplayGroup.LeafFromElementSets.LeafFromElementSets:16
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromElementVarRange.py:docstring of abaqus.DisplayGroup.LeafFromElementVarRange.LeafFromElementVarRange:6
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromElementVarRange.py:docstring of abaqus.DisplayGroup.LeafFromElementVarRange.LeafFromElementVarRange:11
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromElementVarRange.py:docstring of abaqus.DisplayGroup.LeafFromElementVarRange.LeafFromElementVarRange:16
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromGeometry.py:docstring of abaqus.DisplayGroup.LeafFromGeometry.LeafFromGeometry:6
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromGeometry.py:docstring of abaqus.DisplayGroup.LeafFromGeometry.LeafFromGeometry:11
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromGeometry.py:docstring of abaqus.DisplayGroup.LeafFromGeometry.LeafFromGeometry:18
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromInstance.py:docstring of abaqus.DisplayGroup.LeafFromInstance.LeafFromInstance:6
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromInstance.py:docstring of abaqus.DisplayGroup.LeafFromInstance.LeafFromInstance:11
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromInstance.py:docstring of abaqus.DisplayGroup.LeafFromInstance.LeafFromInstance:16
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromInstanceElementLabels.py:docstring of abaqus.DisplayGroup.LeafFromInstanceElementLabels.LeafFromInstanceElementLabels:6
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromInstanceElementLabels.py:docstring of abaqus.DisplayGroup.LeafFromInstanceElementLabels.LeafFromInstanceElementLabels:11
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromInstanceElementLabels.py:docstring of abaqus.DisplayGroup.LeafFromInstanceElementLabels.LeafFromInstanceElementLabels:17
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromInstanceNodeLabels.py:docstring of abaqus.DisplayGroup.LeafFromInstanceNodeLabels.LeafFromInstanceNodeLabels:6
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromInstanceNodeLabels.py:docstring of abaqus.DisplayGroup.LeafFromInstanceNodeLabels.LeafFromInstanceNodeLabels:11
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromInstanceNodeLabels.py:docstring of abaqus.DisplayGroup.LeafFromInstanceNodeLabels.LeafFromInstanceNodeLabels:17
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromMeshElementLabels.py:docstring of abaqus.DisplayGroup.LeafFromMeshElementLabels.LeafFromMeshElementLabels:6
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromMeshElementLabels.py:docstring of abaqus.DisplayGroup.LeafFromMeshElementLabels.LeafFromMeshElementLabels:11
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromMeshElementLabels.py:docstring of abaqus.DisplayGroup.LeafFromMeshElementLabels.LeafFromMeshElementLabels:17
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromMeshNodeLabels.py:docstring of abaqus.DisplayGroup.LeafFromMeshNodeLabels.LeafFromMeshNodeLabels:6
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromMeshNodeLabels.py:docstring of abaqus.DisplayGroup.LeafFromMeshNodeLabels.LeafFromMeshNodeLabels:11
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromMeshNodeLabels.py:docstring of abaqus.DisplayGroup.LeafFromMeshNodeLabels.LeafFromMeshNodeLabels:17
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromMeshSurfaceSets.py:docstring of abaqus.DisplayGroup.LeafFromMeshSurfaceSets.LeafFromMeshSurfaceSets:6
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromMeshSurfaceSets.py:docstring of abaqus.DisplayGroup.LeafFromMeshSurfaceSets.LeafFromMeshSurfaceSets:11
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromMeshSurfaceSets.py:docstring of abaqus.DisplayGroup.LeafFromMeshSurfaceSets.LeafFromMeshSurfaceSets:16
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromModelElemLabels.py:docstring of abaqus.DisplayGroup.LeafFromModelElemLabels.LeafFromModelElemLabels:6
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromModelElemLabels.py:docstring of abaqus.DisplayGroup.LeafFromModelElemLabels.LeafFromModelElemLabels:11
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromModelElemLabels.py:docstring of abaqus.DisplayGroup.LeafFromModelElemLabels.LeafFromModelElemLabels:16
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromModelNodeLabels.py:docstring of abaqus.DisplayGroup.LeafFromModelNodeLabels.LeafFromModelNodeLabels:6
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromModelNodeLabels.py:docstring of abaqus.DisplayGroup.LeafFromModelNodeLabels.LeafFromModelNodeLabels:11
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromModelNodeLabels.py:docstring of abaqus.DisplayGroup.LeafFromModelNodeLabels.LeafFromModelNodeLabels:16
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromNodeLabels.py:docstring of abaqus.DisplayGroup.LeafFromNodeLabels.LeafFromNodeLabels:6
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromNodeLabels.py:docstring of abaqus.DisplayGroup.LeafFromNodeLabels.LeafFromNodeLabels:11
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromNodeLabels.py:docstring of abaqus.DisplayGroup.LeafFromNodeLabels.LeafFromNodeLabels:17
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromNodeSets.py:docstring of abaqus.DisplayGroup.LeafFromNodeSets.LeafFromNodeSets:6
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromNodeSets.py:docstring of abaqus.DisplayGroup.LeafFromNodeSets.LeafFromNodeSets:11
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromNodeSets.py:docstring of abaqus.DisplayGroup.LeafFromNodeSets.LeafFromNodeSets:16
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromNodeVarRange.py:docstring of abaqus.DisplayGroup.LeafFromNodeVarRange.LeafFromNodeVarRange:6
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromNodeVarRange.py:docstring of abaqus.DisplayGroup.LeafFromNodeVarRange.LeafFromNodeVarRange:11
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromNodeVarRange.py:docstring of abaqus.DisplayGroup.LeafFromNodeVarRange.LeafFromNodeVarRange:16
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromOdbEdgePick.py:docstring of abaqus.DisplayGroup.LeafFromOdbEdgePick.LeafFromOdbEdgePick:6
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromOdbEdgePick.py:docstring of abaqus.DisplayGroup.LeafFromOdbEdgePick.LeafFromOdbEdgePick:11
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromOdbEdgePick.py:docstring of abaqus.DisplayGroup.LeafFromOdbEdgePick.LeafFromOdbEdgePick:17
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromOdbElementLayups.py:docstring of abaqus.DisplayGroup.LeafFromOdbElementLayups.LeafFromOdbElementLayups:6
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromOdbElementLayups.py:docstring of abaqus.DisplayGroup.LeafFromOdbElementLayups.LeafFromOdbElementLayups:11
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromOdbElementLayups.py:docstring of abaqus.DisplayGroup.LeafFromOdbElementLayups.LeafFromOdbElementLayups:17
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromOdbElementMaterials.py:docstring of abaqus.DisplayGroup.LeafFromOdbElementMaterials.LeafFromOdbElementMaterials:6
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromOdbElementMaterials.py:docstring of abaqus.DisplayGroup.LeafFromOdbElementMaterials.LeafFromOdbElementMaterials:11
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromOdbElementMaterials.py:docstring of abaqus.DisplayGroup.LeafFromOdbElementMaterials.LeafFromOdbElementMaterials:17
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromOdbElementPick.py:docstring of abaqus.DisplayGroup.LeafFromOdbElementPick.LeafFromOdbElementPick:6
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromOdbElementPick.py:docstring of abaqus.DisplayGroup.LeafFromOdbElementPick.LeafFromOdbElementPick:11
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromOdbElementPick.py:docstring of abaqus.DisplayGroup.LeafFromOdbElementPick.LeafFromOdbElementPick:17
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromOdbElementPlies.py:docstring of abaqus.DisplayGroup.LeafFromOdbElementPlies.LeafFromOdbElementPlies:6
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromOdbElementPlies.py:docstring of abaqus.DisplayGroup.LeafFromOdbElementPlies.LeafFromOdbElementPlies:11
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromOdbElementPlies.py:docstring of abaqus.DisplayGroup.LeafFromOdbElementPlies.LeafFromOdbElementPlies:17
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromOdbElementSections.py:docstring of abaqus.DisplayGroup.LeafFromOdbElementSections.LeafFromOdbElementSections:6
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromOdbElementSections.py:docstring of abaqus.DisplayGroup.LeafFromOdbElementSections.LeafFromOdbElementSections:11
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromOdbElementSections.py:docstring of abaqus.DisplayGroup.LeafFromOdbElementSections.LeafFromOdbElementSections:17
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromOdbElementTypes.py:docstring of abaqus.DisplayGroup.LeafFromOdbElementTypes.LeafFromOdbElementTypes:6
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromOdbElementTypes.py:docstring of abaqus.DisplayGroup.LeafFromOdbElementTypes.LeafFromOdbElementTypes:11
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromOdbElementTypes.py:docstring of abaqus.DisplayGroup.LeafFromOdbElementTypes.LeafFromOdbElementTypes:17
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromOdbNodePick.py:docstring of abaqus.DisplayGroup.LeafFromOdbNodePick.LeafFromOdbNodePick:6
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromOdbNodePick.py:docstring of abaqus.DisplayGroup.LeafFromOdbNodePick.LeafFromOdbNodePick:11
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromOdbNodePick.py:docstring of abaqus.DisplayGroup.LeafFromOdbNodePick.LeafFromOdbNodePick:17
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromPartElementLabels.py:docstring of abaqus.DisplayGroup.LeafFromPartElementLabels.LeafFromPartElementLabels:6
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromPartElementLabels.py:docstring of abaqus.DisplayGroup.LeafFromPartElementLabels.LeafFromPartElementLabels:11
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromPartElementLabels.py:docstring of abaqus.DisplayGroup.LeafFromPartElementLabels.LeafFromPartElementLabels:17
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromPartInstance.py:docstring of abaqus.DisplayGroup.LeafFromPartInstance.LeafFromPartInstance:6
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromPartInstance.py:docstring of abaqus.DisplayGroup.LeafFromPartInstance.LeafFromPartInstance:11
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromPartInstance.py:docstring of abaqus.DisplayGroup.LeafFromPartInstance.LeafFromPartInstance:16
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromPartNodeLabels.py:docstring of abaqus.DisplayGroup.LeafFromPartNodeLabels.LeafFromPartNodeLabels:6
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromPartNodeLabels.py:docstring of abaqus.DisplayGroup.LeafFromPartNodeLabels.LeafFromPartNodeLabels:11
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromPartNodeLabels.py:docstring of abaqus.DisplayGroup.LeafFromPartNodeLabels.LeafFromPartNodeLabels:17
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromReferencePoint.py:docstring of abaqus.DisplayGroup.LeafFromReferencePoint.LeafFromReferencePoint:6
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromReferencePoint.py:docstring of abaqus.DisplayGroup.LeafFromReferencePoint.LeafFromReferencePoint:11
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromReferencePoint.py:docstring of abaqus.DisplayGroup.LeafFromReferencePoint.LeafFromReferencePoint:16
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromSets.py:docstring of abaqus.DisplayGroup.LeafFromSets.LeafFromSets:5
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromSets.py:docstring of abaqus.DisplayGroup.LeafFromSets.LeafFromSets:10
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromSets.py:docstring of abaqus.DisplayGroup.LeafFromSets.LeafFromSets:15
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromSurfaceSets.py:docstring of abaqus.DisplayGroup.LeafFromSurfaceSets.LeafFromSurfaceSets:6
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromSurfaceSets.py:docstring of abaqus.DisplayGroup.LeafFromSurfaceSets.LeafFromSurfaceSets:11
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromSurfaceSets.py:docstring of abaqus.DisplayGroup.LeafFromSurfaceSets.LeafFromSurfaceSets:16
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromSurfaceVarRange.py:docstring of abaqus.DisplayGroup.LeafFromSurfaceVarRange.LeafFromSurfaceVarRange:6
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromSurfaceVarRange.py:docstring of abaqus.DisplayGroup.LeafFromSurfaceVarRange.LeafFromSurfaceVarRange:11
+#: ../../../../../src/abaqus/DisplayGroup/LeafFromSurfaceVarRange.py:docstring of abaqus.DisplayGroup.LeafFromSurfaceVarRange.LeafFromSurfaceVarRange:16
+msgid "Note"
 msgstr ""
 
 #: ../../../../../src/abaqus/DisplayGroup/DisplayGroup.py:docstring of abaqus.DisplayGroup.DisplayGroup.DisplayGroup:23

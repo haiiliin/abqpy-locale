@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: abqpy 2022\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-19 09:17+0000\n"
+"POT-Creation-Date: 2023-09-14 01:59+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -56,6 +56,89 @@ msgstr ""
 #: ../../../../../src/abaqus/BasicGeometry/BasicGeometryPart.py:docstring of abaqus.BasicGeometry.BasicGeometryPart.BasicGeometryPart.InterestingPoint:1
 #: ../../../../../src/abaqus/BasicGeometry/InterestingPoint.py:docstring of abaqus.BasicGeometry.InterestingPoint.InterestingPoint:19
 msgid "This method creates an interesting point along an edge. An InterestingPoint is a temporary object."
+msgstr ""
+
+#: ../../../../../src/abaqus/BasicGeometry/BasicGeometryPart.py:docstring of abaqus.BasicGeometry.BasicGeometryPart.BasicGeometryPart.InterestingPoint:3
+#: ../../../../../src/abaqus/BasicGeometry/BasicGeometryPart.py:docstring of abaqus.BasicGeometry.BasicGeometryPart.BasicGeometryPart.InterestingPoint:9
+#: ../../../../../src/abaqus/BasicGeometry/Cell.py:docstring of abaqus.BasicGeometry.Cell.Cell:3
+#: ../../../../../src/abaqus/BasicGeometry/Cell.py:docstring of abaqus.BasicGeometry.Cell.Cell:21
+#: ../../../../../src/abaqus/BasicGeometry/Cell.py:docstring of abaqus.BasicGeometry.Cell.Cell.getSize:3
+#: ../../../../../src/abaqus/BasicGeometry/CellArray.py:docstring of abaqus.BasicGeometry.CellArray.CellArray:3
+#: ../../../../../src/abaqus/BasicGeometry/CellArray.py:docstring of abaqus.BasicGeometry.CellArray.CellArray:21
+#: ../../../../../src/abaqus/BasicGeometry/CellArray.py:docstring of abaqus.BasicGeometry.CellArray.CellArray:26
+#: ../../../../../src/abaqus/BasicGeometry/CellArray.py:docstring of abaqus.BasicGeometry.CellArray.CellArray.findAt:10
+#: ../../../../../src/abaqus/BasicGeometry/CellArray.py:docstring of abaqus.BasicGeometry.CellArray.CellArray.getByBoundingBox:3
+#: ../../../../../src/abaqus/BasicGeometry/CellArray.py:docstring of abaqus.BasicGeometry.CellArray.CellArray.getByBoundingCylinder:3
+#: ../../../../../src/abaqus/BasicGeometry/CellArray.py:docstring of abaqus.BasicGeometry.CellArray.CellArray.getByBoundingSphere:3
+#: ../../../../../src/abaqus/BasicGeometry/CellArray.py:docstring of abaqus.BasicGeometry.CellArray.CellArray.getSequenceFromMask:5
+#: ../../../../../src/abaqus/BasicGeometry/Edge.py:docstring of abaqus.BasicGeometry.Edge.Edge:3
+#: ../../../../../src/abaqus/BasicGeometry/Edge.py:docstring of abaqus.BasicGeometry.Edge.Edge:32
+#: ../../../../../src/abaqus/BasicGeometry/Edge.py:docstring of abaqus.BasicGeometry.Edge.Edge.getCurvature:3
+#: ../../../../../src/abaqus/BasicGeometry/Edge.py:docstring of abaqus.BasicGeometry.Edge.Edge.getEdgesByEdgeAngle:4
+#: ../../../../../src/abaqus/BasicGeometry/Edge.py:docstring of abaqus.BasicGeometry.Edge.Edge.getSize:3
+#: ../../../../../src/abaqus/BasicGeometry/EdgeArray.py:docstring of abaqus.BasicGeometry.EdgeArray.EdgeArray:4
+#: ../../../../../src/abaqus/BasicGeometry/EdgeArray.py:docstring of abaqus.BasicGeometry.EdgeArray.EdgeArray:33
+#: ../../../../../src/abaqus/BasicGeometry/EdgeArray.py:docstring of abaqus.BasicGeometry.EdgeArray.EdgeArray:38
+#: ../../../../../src/abaqus/BasicGeometry/EdgeArray.py:docstring of abaqus.BasicGeometry.EdgeArray.EdgeArray.findAt:10
+#: ../../../../../src/abaqus/BasicGeometry/EdgeArray.py:docstring of abaqus.BasicGeometry.EdgeArray.EdgeArray.getByBoundingBox:3
+#: ../../../../../src/abaqus/BasicGeometry/EdgeArray.py:docstring of abaqus.BasicGeometry.EdgeArray.EdgeArray.getByBoundingCylinder:3
+#: ../../../../../src/abaqus/BasicGeometry/EdgeArray.py:docstring of abaqus.BasicGeometry.EdgeArray.EdgeArray.getByBoundingSphere:3
+#: ../../../../../src/abaqus/BasicGeometry/EdgeArray.py:docstring of abaqus.BasicGeometry.EdgeArray.EdgeArray.getClosest:4
+#: ../../../../../src/abaqus/BasicGeometry/EdgeArray.py:docstring of abaqus.BasicGeometry.EdgeArray.EdgeArray.getSequenceFromMask:5
+#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face:3
+#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face:30
+#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face.getCurvature:3
+#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face.getElementFaces:4
+#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face.getFacesByFaceAngle:4
+#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face.getNodes:4
+#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face.getNormal:5
+#: ../../../../../src/abaqus/BasicGeometry/Face.py:docstring of abaqus.BasicGeometry.Face.Face.getSize:3
+#: ../../../../../src/abaqus/BasicGeometry/FaceArray.py:docstring of abaqus.BasicGeometry.FaceArray.FaceArray:4
+#: ../../../../../src/abaqus/BasicGeometry/FaceArray.py:docstring of abaqus.BasicGeometry.FaceArray.FaceArray:31
+#: ../../../../../src/abaqus/BasicGeometry/FaceArray.py:docstring of abaqus.BasicGeometry.FaceArray.FaceArray:36
+#: ../../../../../src/abaqus/BasicGeometry/FaceArray.py:docstring of abaqus.BasicGeometry.FaceArray.FaceArray.findAt:10
+#: ../../../../../src/abaqus/BasicGeometry/FaceArray.py:docstring of abaqus.BasicGeometry.FaceArray.FaceArray.getByBoundingBox:3
+#: ../../../../../src/abaqus/BasicGeometry/FaceArray.py:docstring of abaqus.BasicGeometry.FaceArray.FaceArray.getByBoundingCylinder:3
+#: ../../../../../src/abaqus/BasicGeometry/FaceArray.py:docstring of abaqus.BasicGeometry.FaceArray.FaceArray.getByBoundingSphere:3
+#: ../../../../../src/abaqus/BasicGeometry/FaceArray.py:docstring of abaqus.BasicGeometry.FaceArray.FaceArray.getClosest:4
+#: ../../../../../src/abaqus/BasicGeometry/FaceArray.py:docstring of abaqus.BasicGeometry.FaceArray.FaceArray.getSequenceFromMask:5
+#: ../../../../../src/abaqus/BasicGeometry/IgnoredEdge.py:docstring of abaqus.BasicGeometry.IgnoredEdge.IgnoredEdge:4
+#: ../../../../../src/abaqus/BasicGeometry/IgnoredEdge.py:docstring of abaqus.BasicGeometry.IgnoredEdge.IgnoredEdge:13
+#: ../../../../../src/abaqus/BasicGeometry/IgnoredEdge.py:docstring of abaqus.BasicGeometry.IgnoredEdge.IgnoredEdge.getCurvature:3
+#: ../../../../../src/abaqus/BasicGeometry/IgnoredEdge.py:docstring of abaqus.BasicGeometry.IgnoredEdge.IgnoredEdge.getSize:3
+#: ../../../../../src/abaqus/BasicGeometry/IgnoredEdgeArray.py:docstring of abaqus.BasicGeometry.IgnoredEdgeArray.IgnoredEdgeArray:4
+#: ../../../../../src/abaqus/BasicGeometry/IgnoredEdgeArray.py:docstring of abaqus.BasicGeometry.IgnoredEdgeArray.IgnoredEdgeArray:13
+#: ../../../../../src/abaqus/BasicGeometry/IgnoredEdgeArray.py:docstring of abaqus.BasicGeometry.IgnoredEdgeArray.IgnoredEdgeArray.findAt:11
+#: ../../../../../src/abaqus/BasicGeometry/IgnoredEdgeArray.py:docstring of abaqus.BasicGeometry.IgnoredEdgeArray.IgnoredEdgeArray.getClosest:4
+#: ../../../../../src/abaqus/BasicGeometry/IgnoredEdgeArray.py:docstring of abaqus.BasicGeometry.IgnoredEdgeArray.IgnoredEdgeArray.getSequenceFromMask:5
+#: ../../../../../src/abaqus/BasicGeometry/IgnoredVertex.py:docstring of abaqus.BasicGeometry.IgnoredVertex.IgnoredVertex:4
+#: ../../../../../src/abaqus/BasicGeometry/IgnoredVertex.py:docstring of abaqus.BasicGeometry.IgnoredVertex.IgnoredVertex:13
+#: ../../../../../src/abaqus/BasicGeometry/IgnoredVertexArray.py:docstring of abaqus.BasicGeometry.IgnoredVertexArray.IgnoredVertexArray:4
+#: ../../../../../src/abaqus/BasicGeometry/IgnoredVertexArray.py:docstring of abaqus.BasicGeometry.IgnoredVertexArray.IgnoredVertexArray:13
+#: ../../../../../src/abaqus/BasicGeometry/IgnoredVertexArray.py:docstring of abaqus.BasicGeometry.IgnoredVertexArray.IgnoredVertexArray.findAt:9
+#: ../../../../../src/abaqus/BasicGeometry/IgnoredVertexArray.py:docstring of abaqus.BasicGeometry.IgnoredVertexArray.IgnoredVertexArray.getClosest:4
+#: ../../../../../src/abaqus/BasicGeometry/IgnoredVertexArray.py:docstring of abaqus.BasicGeometry.IgnoredVertexArray.IgnoredVertexArray.getSequenceFromMask:5
+#: ../../../../../src/abaqus/BasicGeometry/InterestingPoint.py:docstring of abaqus.BasicGeometry.InterestingPoint.InterestingPoint:10
+#: ../../../../../src/abaqus/BasicGeometry/InterestingPoint.py:docstring of abaqus.BasicGeometry.InterestingPoint.InterestingPoint:16
+#: ../../../../../src/abaqus/BasicGeometry/InterestingPoint.py:docstring of abaqus.BasicGeometry.InterestingPoint.InterestingPoint:21
+#: ../../../../../src/abaqus/BasicGeometry/ModelDot.py:docstring of abaqus.BasicGeometry.ModelDot.ModelDot:4
+#: ../../../../../src/abaqus/BasicGeometry/ReferencePoint.py:docstring of abaqus.BasicGeometry.ReferencePoint.ReferencePoint:4
+#: ../../../../../src/abaqus/BasicGeometry/ReferencePoint.py:docstring of abaqus.BasicGeometry.ReferencePoint.ReferencePoint:24
+#: ../../../../../src/abaqus/BasicGeometry/ReferencePoint.py:docstring of abaqus.BasicGeometry.ReferencePoint.ReferencePoint:29
+#: ../../../../../src/abaqus/BasicGeometry/Transform.py:docstring of abaqus.BasicGeometry.Transform.Transform:5
+#: ../../../../../src/abaqus/BasicGeometry/Transform.py:docstring of abaqus.BasicGeometry.Transform.Transform:11
+#: ../../../../../src/abaqus/BasicGeometry/Vertex.py:docstring of abaqus.BasicGeometry.Vertex.Vertex:3
+#: ../../../../../src/abaqus/BasicGeometry/Vertex.py:docstring of abaqus.BasicGeometry.Vertex.Vertex:23
+#: ../../../../../src/abaqus/BasicGeometry/VertexArray.py:docstring of abaqus.BasicGeometry.VertexArray.VertexArray:4
+#: ../../../../../src/abaqus/BasicGeometry/VertexArray.py:docstring of abaqus.BasicGeometry.VertexArray.VertexArray:24
+#: ../../../../../src/abaqus/BasicGeometry/VertexArray.py:docstring of abaqus.BasicGeometry.VertexArray.VertexArray:29
+#: ../../../../../src/abaqus/BasicGeometry/VertexArray.py:docstring of abaqus.BasicGeometry.VertexArray.VertexArray.findAt:9
+#: ../../../../../src/abaqus/BasicGeometry/VertexArray.py:docstring of abaqus.BasicGeometry.VertexArray.VertexArray.getByBoundingBox:3
+#: ../../../../../src/abaqus/BasicGeometry/VertexArray.py:docstring of abaqus.BasicGeometry.VertexArray.VertexArray.getByBoundingCylinder:3
+#: ../../../../../src/abaqus/BasicGeometry/VertexArray.py:docstring of abaqus.BasicGeometry.VertexArray.VertexArray.getByBoundingSphere:3
+#: ../../../../../src/abaqus/BasicGeometry/VertexArray.py:docstring of abaqus.BasicGeometry.VertexArray.VertexArray.getClosest:4
+#: ../../../../../src/abaqus/BasicGeometry/VertexArray.py:docstring of abaqus.BasicGeometry.VertexArray.VertexArray.getSequenceFromMask:5
+msgid "Note"
 msgstr ""
 
 #: ../../../../../src/abaqus/BasicGeometry/BasicGeometryPart.py:docstring of abaqus.BasicGeometry.BasicGeometryPart.BasicGeometryPart.InterestingPoint:4

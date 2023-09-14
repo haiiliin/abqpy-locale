@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: abqpy 2022\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-19 09:17+0000\n"
+"POT-Creation-Date: 2023-09-14 01:59+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,6 +34,100 @@ msgstr ""
 
 #: ../../../../../src/abaqus/PredefinedField/PredefinedFieldModel.py:docstring of abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel:1
 msgid "Abaqus creates a Model object named `Model-1` when a session is started."
+msgstr ""
+
+#: ../../../../../src/abaqus/PredefinedField/Field.py:docstring of abaqus.PredefinedField.Field.Field:5
+#: ../../../../../src/abaqus/PredefinedField/Field.py:docstring of abaqus.PredefinedField.Field.Field:19
+#: ../../../../../src/abaqus/PredefinedField/Field.py:docstring of abaqus.PredefinedField.Field.Field:24
+#: ../../../../../src/abaqus/PredefinedField/Field.py:docstring of abaqus.PredefinedField.Field.Field:68
+#: ../../../../../src/abaqus/PredefinedField/Field.py:docstring of abaqus.PredefinedField.Field.Field.move:3
+#: ../../../../../src/abaqus/PredefinedField/Field.py:docstring of abaqus.PredefinedField.Field.Field.setValues:3
+#: ../../../../../src/abaqus/PredefinedField/Field.py:docstring of abaqus.PredefinedField.Field.Field.setValuesInStep:3
+#: ../../../../../src/abaqus/PredefinedField/FieldState.py:docstring of abaqus.PredefinedField.FieldState.FieldState:5
+#: ../../../../../src/abaqus/PredefinedField/FieldState.py:docstring of abaqus.PredefinedField.FieldState.FieldState:14
+#: ../../../../../src/abaqus/PredefinedField/FluidCavityPressure.py:docstring of abaqus.PredefinedField.FluidCavityPressure.FluidCavityPressure:5
+#: ../../../../../src/abaqus/PredefinedField/FluidCavityPressure.py:docstring of abaqus.PredefinedField.FluidCavityPressure.FluidCavityPressure:15
+#: ../../../../../src/abaqus/PredefinedField/FluidCavityPressure.py:docstring of abaqus.PredefinedField.FluidCavityPressure.FluidCavityPressure:20
+#: ../../../../../src/abaqus/PredefinedField/IMAField.py:docstring of abaqus.PredefinedField.IMAField.IMAField:4
+#: ../../../../../src/abaqus/PredefinedField/IMAField.py:docstring of abaqus.PredefinedField.IMAField.IMAField:10
+#: ../../../../../src/abaqus/PredefinedField/IMARegion.py:docstring of abaqus.PredefinedField.IMARegion.IMARegion:4
+#: ../../../../../src/abaqus/PredefinedField/IMARegion.py:docstring of abaqus.PredefinedField.IMARegion.IMARegion:10
+#: ../../../../../src/abaqus/PredefinedField/InitialState.py:docstring of abaqus.PredefinedField.InitialState.InitialState:4
+#: ../../../../../src/abaqus/PredefinedField/InitialState.py:docstring of abaqus.PredefinedField.InitialState.InitialState:14
+#: ../../../../../src/abaqus/PredefinedField/InitialState.py:docstring of abaqus.PredefinedField.InitialState.InitialState:19
+#: ../../../../../src/abaqus/PredefinedField/InitialState.py:docstring of abaqus.PredefinedField.InitialState.InitialState.setValues:3
+#: ../../../../../src/abaqus/PredefinedField/KinematicHardening.py:docstring of abaqus.PredefinedField.KinematicHardening.KinematicHardening:4
+#: ../../../../../src/abaqus/PredefinedField/KinematicHardening.py:docstring of abaqus.PredefinedField.KinematicHardening.KinematicHardening:14
+#: ../../../../../src/abaqus/PredefinedField/KinematicHardening.py:docstring of abaqus.PredefinedField.KinematicHardening.KinematicHardening:19
+#: ../../../../../src/abaqus/PredefinedField/KinematicHardening.py:docstring of abaqus.PredefinedField.KinematicHardening.KinematicHardening.setValues:3
+#: ../../../../../src/abaqus/PredefinedField/MaterialAssignment.py:docstring of abaqus.PredefinedField.MaterialAssignment.MaterialAssignment:4
+#: ../../../../../src/abaqus/PredefinedField/MaterialAssignment.py:docstring of abaqus.PredefinedField.MaterialAssignment.MaterialAssignment:14
+#: ../../../../../src/abaqus/PredefinedField/MaterialAssignment.py:docstring of abaqus.PredefinedField.MaterialAssignment.MaterialAssignment:19
+#: ../../../../../src/abaqus/PredefinedField/MaterialAssignment.py:docstring of abaqus.PredefinedField.MaterialAssignment.MaterialAssignment.setValues:3
+#: ../../../../../src/abaqus/PredefinedField/PorePressure.py:docstring of abaqus.PredefinedField.PorePressure.PorePressure:4
+#: ../../../../../src/abaqus/PredefinedField/PorePressure.py:docstring of abaqus.PredefinedField.PorePressure.PorePressure:14
+#: ../../../../../src/abaqus/PredefinedField/PorePressure.py:docstring of abaqus.PredefinedField.PorePressure.PorePressure:19
+#: ../../../../../src/abaqus/PredefinedField/PorePressure.py:docstring of abaqus.PredefinedField.PorePressure.PorePressure.setValues:3
+#: ../../../../../src/abaqus/PredefinedField/PredefinedField.py:docstring of abaqus.PredefinedField.PredefinedField.PredefinedField:7
+#: ../../../../../src/abaqus/PredefinedField/PredefinedField.py:docstring of abaqus.PredefinedField.PredefinedField.PredefinedField:13
+#: ../../../../../src/abaqus/PredefinedField/PredefinedField.py:docstring of abaqus.PredefinedField.PredefinedField.PredefinedField.delete:3
+#: ../../../../../src/abaqus/PredefinedField/PredefinedField.py:docstring of abaqus.PredefinedField.PredefinedField.PredefinedField.move:3
+#: ../../../../../src/abaqus/PredefinedField/PredefinedFieldModel.py:docstring of abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel:3
+#: ../../../../../src/abaqus/PredefinedField/PredefinedFieldModel.py:docstring of abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel:8
+#: ../../../../../src/abaqus/PredefinedField/PredefinedFieldModel.py:docstring of abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel:13
+#: ../../../../../src/abaqus/PredefinedField/PredefinedFieldModel.py:docstring of abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.Field:3
+#: ../../../../../src/abaqus/PredefinedField/PredefinedFieldModel.py:docstring of abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.Field:11
+#: ../../../../../src/abaqus/PredefinedField/PredefinedFieldModel.py:docstring of abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.Field:53
+#: ../../../../../src/abaqus/PredefinedField/PredefinedFieldModel.py:docstring of abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.FluidCavityPressure:3
+#: ../../../../../src/abaqus/PredefinedField/PredefinedFieldModel.py:docstring of abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.FluidCavityPressure:8
+#: ../../../../../src/abaqus/PredefinedField/PredefinedFieldModel.py:docstring of abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.InitialState:3
+#: ../../../../../src/abaqus/PredefinedField/PredefinedFieldModel.py:docstring of abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.InitialState:8
+#: ../../../../../src/abaqus/PredefinedField/PredefinedFieldModel.py:docstring of abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.KinematicHardening:3
+#: ../../../../../src/abaqus/PredefinedField/PredefinedFieldModel.py:docstring of abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.KinematicHardening:8
+#: ../../../../../src/abaqus/PredefinedField/PredefinedFieldModel.py:docstring of abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.MaterialAssignment:3
+#: ../../../../../src/abaqus/PredefinedField/PredefinedFieldModel.py:docstring of abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.MaterialAssignment:8
+#: ../../../../../src/abaqus/PredefinedField/PredefinedFieldModel.py:docstring of abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.PorePressure:3
+#: ../../../../../src/abaqus/PredefinedField/PredefinedFieldModel.py:docstring of abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.PorePressure:8
+#: ../../../../../src/abaqus/PredefinedField/PredefinedFieldModel.py:docstring of abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.Saturation:3
+#: ../../../../../src/abaqus/PredefinedField/PredefinedFieldModel.py:docstring of abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.Saturation:8
+#: ../../../../../src/abaqus/PredefinedField/PredefinedFieldModel.py:docstring of abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.Stress:3
+#: ../../../../../src/abaqus/PredefinedField/PredefinedFieldModel.py:docstring of abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.Stress:11
+#: ../../../../../src/abaqus/PredefinedField/PredefinedFieldModel.py:docstring of abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.Temperature:3
+#: ../../../../../src/abaqus/PredefinedField/PredefinedFieldModel.py:docstring of abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.Temperature:8
+#: ../../../../../src/abaqus/PredefinedField/PredefinedFieldModel.py:docstring of abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.Velocity:3
+#: ../../../../../src/abaqus/PredefinedField/PredefinedFieldModel.py:docstring of abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.Velocity:8
+#: ../../../../../src/abaqus/PredefinedField/PredefinedFieldModel.py:docstring of abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.VoidsRatio:3
+#: ../../../../../src/abaqus/PredefinedField/PredefinedFieldModel.py:docstring of abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.VoidsRatio:8
+#: ../../../../../src/abaqus/PredefinedField/PredefinedFieldState.py:docstring of abaqus.PredefinedField.PredefinedFieldState.PredefinedFieldState:5
+#: ../../../../../src/abaqus/PredefinedField/PredefinedFieldState.py:docstring of abaqus.PredefinedField.PredefinedFieldState.PredefinedFieldState:11
+#: ../../../../../src/abaqus/PredefinedField/Saturation.py:docstring of abaqus.PredefinedField.Saturation.Saturation:4
+#: ../../../../../src/abaqus/PredefinedField/Saturation.py:docstring of abaqus.PredefinedField.Saturation.Saturation:14
+#: ../../../../../src/abaqus/PredefinedField/Saturation.py:docstring of abaqus.PredefinedField.Saturation.Saturation:19
+#: ../../../../../src/abaqus/PredefinedField/Saturation.py:docstring of abaqus.PredefinedField.Saturation.Saturation.setValues:3
+#: ../../../../../src/abaqus/PredefinedField/Stress.py:docstring of abaqus.PredefinedField.Stress.Stress:4
+#: ../../../../../src/abaqus/PredefinedField/Stress.py:docstring of abaqus.PredefinedField.Stress.Stress:17
+#: ../../../../../src/abaqus/PredefinedField/Stress.py:docstring of abaqus.PredefinedField.Stress.Stress:22
+#: ../../../../../src/abaqus/PredefinedField/Stress.py:docstring of abaqus.PredefinedField.Stress.Stress.setValues:3
+#: ../../../../../src/abaqus/PredefinedField/Temperature.py:docstring of abaqus.PredefinedField.Temperature.Temperature:4
+#: ../../../../../src/abaqus/PredefinedField/Temperature.py:docstring of abaqus.PredefinedField.Temperature.Temperature:15
+#: ../../../../../src/abaqus/PredefinedField/Temperature.py:docstring of abaqus.PredefinedField.Temperature.Temperature:20
+#: ../../../../../src/abaqus/PredefinedField/Temperature.py:docstring of abaqus.PredefinedField.Temperature.Temperature.move:3
+#: ../../../../../src/abaqus/PredefinedField/Temperature.py:docstring of abaqus.PredefinedField.Temperature.Temperature.setValues:3
+#: ../../../../../src/abaqus/PredefinedField/Temperature.py:docstring of abaqus.PredefinedField.Temperature.Temperature.setValuesInStep:3
+#: ../../../../../src/abaqus/PredefinedField/TemperatureState.py:docstring of abaqus.PredefinedField.TemperatureState.TemperatureState:5
+#: ../../../../../src/abaqus/PredefinedField/TemperatureState.py:docstring of abaqus.PredefinedField.TemperatureState.TemperatureState:11
+#: ../../../../../src/abaqus/PredefinedField/TiffOptions.py:docstring of abaqus.PredefinedField.TiffOptions.TiffOptions:4
+#: ../../../../../src/abaqus/PredefinedField/TiffOptions.py:docstring of abaqus.PredefinedField.TiffOptions.TiffOptions:9
+#: ../../../../../src/abaqus/PredefinedField/TiffOptions.py:docstring of abaqus.PredefinedField.TiffOptions.TiffOptions.setValues:3
+#: ../../../../../src/abaqus/PredefinedField/Velocity.py:docstring of abaqus.PredefinedField.Velocity.Velocity:4
+#: ../../../../../src/abaqus/PredefinedField/Velocity.py:docstring of abaqus.PredefinedField.Velocity.Velocity:14
+#: ../../../../../src/abaqus/PredefinedField/Velocity.py:docstring of abaqus.PredefinedField.Velocity.Velocity:19
+#: ../../../../../src/abaqus/PredefinedField/Velocity.py:docstring of abaqus.PredefinedField.Velocity.Velocity.setValues:3
+#: ../../../../../src/abaqus/PredefinedField/VoidsRatio.py:docstring of abaqus.PredefinedField.VoidsRatio.VoidsRatio:4
+#: ../../../../../src/abaqus/PredefinedField/VoidsRatio.py:docstring of abaqus.PredefinedField.VoidsRatio.VoidsRatio:14
+#: ../../../../../src/abaqus/PredefinedField/VoidsRatio.py:docstring of abaqus.PredefinedField.VoidsRatio.VoidsRatio:19
+#: ../../../../../src/abaqus/PredefinedField/VoidsRatio.py:docstring of abaqus.PredefinedField.VoidsRatio.VoidsRatio.setValues:3
+msgid "Note"
 msgstr ""
 
 #: ../../../../../src/abaqus/PredefinedField/Field.py:docstring of abaqus.PredefinedField.Field.Field:6
