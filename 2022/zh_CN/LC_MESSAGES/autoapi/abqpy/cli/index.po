@@ -1,13 +1,21 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: abqpy-locale\nReport-Msgid-Bugs-To: \nPOT-Creation-"
-"Date: 2023-09-05 01:08+0000\nPO-Revision-Date: 2023-09-14 10:45\nLast-"
-"Translator: \nLanguage-Team: Chinese Simplified\nMIME-Version: "
-"1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: "
-"8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Crowdin-Project: abqpy-"
-"locale\nX-Crowdin-Project-ID: 587413\nX-Crowdin-Language: zh-CN\nX-"
-"Crowdin-File: /main/2022/pot/autoapi/abqpy/cli/index.pot\nX-Crowdin-File-"
-"ID: 3505\nLanguage: zh_CN\n"
+"Project-Id-Version: abqpy-locale\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-09-05 01:08+0000\n"
+"PO-Revision-Date: 2023-09-14 13:58\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: abqpy-locale\n"
+"X-Crowdin-Project-ID: 587413\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /main/2022/pot/autoapi/abqpy/cli/index.pot\n"
+"X-Crowdin-File-ID: 3505\n"
+"Language: zh_CN\n"
 
 #: ../../../autoapi/abqpy/cli/index.rst:2
 msgid ":py:mod:`abqpy.cli`"
@@ -27,8 +35,7 @@ msgstr ":py:obj:`AbqpyCLIBase <abqpy.cli.AbqpyCLIBase>`\\"
 
 #: ../../../autoapi/abqpy/cli/index.rst:31
 #: ../../../autoapi/abqpy/cli/index.rst:20:<autosummary>:1
-msgid ""
-"Base class for Abaqus/CAE command line interface to run Abaqus commands."
+msgid "Base class for Abaqus/CAE command line interface to run Abaqus commands."
 msgstr "用于运行 Abaqus/CAE 命令行接口的基础类。"
 
 #: ../../../autoapi/abqpy/cli/index.rst:20:<autosummary>:1
@@ -62,34 +69,21 @@ msgid "Run custom command."
 msgstr "运行自定义命令。"
 
 #: ../../../../None:4:<autosummary>:1
-msgid ""
-":py:obj:`abaqus <abqpy.cli.AbqpyCLIBase.abaqus>`\\ \\(\\*args\\, "
-"\\*\\*options\\)"
-msgstr ""
-":py:obj:`abaqus <abqpy.cli.AbqpyCLIBase.abaqus>`\\ \\(\\*args\\, "
-"\\*\\*options\\)"
+msgid ":py:obj:`abaqus <abqpy.cli.AbqpyCLIBase.abaqus>`\\ \\(\\*args\\, \\*\\*options\\)"
+msgstr ":py:obj:`abaqus <abqpy.cli.AbqpyCLIBase.abaqus>`\\ \\(\\*args\\, \\*\\*options\\)"
 
 #: ../../../autoapi/abqpy/cli/index.rst:52
 #: ../../../../None:4:<autosummary>:1
-msgid ""
-"Run custom Abaqus command: ``abaqus {args} {options}``, arguments are "
-"separated by space, options are handled by the :meth:`._parse_options` "
-"method."
-msgstr ""
-"运行自定义 Abaqus 命令:：``abaqus {args} {options}``，参数以空格分隔，选项由 "
-":meth:`._parse_options` 方法处理。"
+msgid "Run custom Abaqus command: ``abaqus {args} {options}``, arguments are separated by space, options are handled by the :meth:`._parse_options` method."
+msgstr "运行自定义 Abaqus 命令:：``abaqus {args} {options}``，参数以空格分隔，选项由 :meth:`._parse_options` 方法处理。"
 
 #: ../../../autoapi/abqpy/cli/index.rst:0
 msgid "Private Methods:"
 msgstr "私有方法："
 
 #: ../../../../None:3:<autosummary>:1
-msgid ""
-":py:obj:`_parse_options <abqpy.cli.AbqpyCLIBase._parse_options>`\\ "
-"\\(\\*\\*options\\)"
-msgstr ""
-":py:obj:`_parse_options <abqpy.cli.AbqpyCLIBase._parse_options>`\\ "
-"\\(\\*\\*options\\)"
+msgid ":py:obj:`_parse_options <abqpy.cli.AbqpyCLIBase._parse_options>`\\ \\(\\*\\*options\\)"
+msgstr ":py:obj:`_parse_options <abqpy.cli.AbqpyCLIBase._parse_options>`\\ \\(\\*\\*options\\)"
 
 #: ../../../autoapi/abqpy/cli/index.rst:38
 #: ../../../../None:3:<autosummary>:1
@@ -97,15 +91,8 @@ msgid "Parse options to be passed to Abaqus/CAE command line interface."
 msgstr "传递给 Abaqus/CAE 命令行选项。"
 
 #: ../../../autoapi/abqpy/cli/index.rst:40
-msgid ""
-"If the value is a string or an integer, the option will be passed as "
-"``option=value``; if the value is a boolean, the option will be passed as "
-"``option`` if True, or ignored if False; if the value is None, the option "
-"will be ignored."
-msgstr ""
-"如果该值是一个字符串或一个整数，则该选项将传递为 ``option=value`` ； "
-"如果值为布尔值，则如果为 True 则传入选项名，如果为 False 则忽略； 如果值为无 None，"
-"则选项将被忽略。"
+msgid "If the value is a string or an integer, the option will be passed as ``option=value``; if the value is a boolean, the option will be passed as ``option`` if True, or ignored if False; if the value is None, the option will be ignored."
+msgstr "如果该值是一个字符串或一个整数，则该选项将传递为 ``option=value`` ； 如果值为布尔值，则如果为 True 则传入选项名，如果为 False 则忽略； 如果值为无 None，则选项将被忽略。"
 
 #: ../../../autoapi/abqpy/cli/index.rst:0
 msgid "Parameters"
@@ -134,12 +121,8 @@ msgid "Miscellaneous commands for backward compatibility."
 msgstr "为向后兼容性的杂项命令。"
 
 #: ../../../../None:50:<autosummary>:1
-msgid ""
-":py:obj:`cae <abqpy.cli.AbqpyCLI.cae>`\\ \\(script\\, \\*args\\[\\, "
-"database\\, replay\\, ...\\]\\)"
-msgstr ""
-":py:obj:`cae <abqpy.cli.AbqpyCLI.cae>`\\ \\(script\\, \\*args\\[\\, "
-"database\\, replay\\, ...\\]\\)"
+msgid ":py:obj:`cae <abqpy.cli.AbqpyCLI.cae>`\\ \\(script\\, \\*args\\[\\, database\\, replay\\, ...\\]\\)"
+msgstr ":py:obj:`cae <abqpy.cli.AbqpyCLI.cae>`\\ \\(script\\, \\*args\\[\\, database\\, replay\\, ...\\]\\)"
 
 #: ../../../autoapi/abqpy/cli/index.rst:80
 #: ../../../../None:50:<autosummary>:1
@@ -147,20 +130,12 @@ msgid "Run Abaqus/CAE command."
 msgstr "运行 Abaqus/CAE 命令。"
 
 #: ../../../../None:50:<autosummary>:1
-msgid ""
-":py:obj:`viewer <abqpy.cli.AbqpyCLI.viewer>`\\ \\(script\\, \\*args\\[\\, "
-"database\\, replay\\, ...\\]\\)"
-msgstr ""
-":py:obj:`viewer <abqpy.cli.AbqpyCLI.viewer>`\\ \\(script\\, \\*args\\[\\, "
-"database\\, replay\\, ...\\]\\)"
+msgid ":py:obj:`viewer <abqpy.cli.AbqpyCLI.viewer>`\\ \\(script\\, \\*args\\[\\, database\\, replay\\, ...\\]\\)"
+msgstr ":py:obj:`viewer <abqpy.cli.AbqpyCLI.viewer>`\\ \\(script\\, \\*args\\[\\, database\\, replay\\, ...\\]\\)"
 
 #: ../../../../None:50:<autosummary>:1
-msgid ""
-":py:obj:`python <abqpy.cli.AbqpyCLI.python>`\\ \\(script\\, \\*args\\[\\, "
-"sim\\, log\\]\\)"
-msgstr ""
-":py:obj:`python <abqpy.cli.AbqpyCLI.python>`\\ \\(script\\, \\*args\\[\\, "
-"sim\\, log\\]\\)"
+msgid ":py:obj:`python <abqpy.cli.AbqpyCLI.python>`\\ \\(script\\, \\*args\\[\\, sim\\, log\\]\\)"
+msgstr ":py:obj:`python <abqpy.cli.AbqpyCLI.python>`\\ \\(script\\, \\*args\\[\\, sim\\, log\\]\\)"
 
 #: ../../../autoapi/abqpy/cli/index.rst:113
 #: ../../../../None:50:<autosummary>:1
@@ -168,12 +143,8 @@ msgid "Run Abaqus/Python command."
 msgstr "运行 Abaqus/Python 命令。"
 
 #: ../../../../None:50:<autosummary>:1
-msgid ""
-":py:obj:`optimization <abqpy.cli.AbqpyCLI.optimization>`\\ \\(task\\, "
-"job\\, \\*\\[\\, cpus\\, gpus\\, ...\\]\\)"
-msgstr ""
-":py:obj:`optimization <abqpy.cli.AbqpyCLI.optimization>`\\ \\(task\\, "
-"job\\, \\*\\[\\, cpus\\, gpus\\, ...\\]\\)"
+msgid ":py:obj:`optimization <abqpy.cli.AbqpyCLI.optimization>`\\ \\(task\\, job\\, \\*\\[\\, cpus\\, gpus\\, ...\\]\\)"
+msgstr ":py:obj:`optimization <abqpy.cli.AbqpyCLI.optimization>`\\ \\(task\\, job\\, \\*\\[\\, cpus\\, gpus\\, ...\\]\\)"
 
 #: ../../../autoapi/abqpy/cli/index.rst:127
 #: ../../../../None:50:<autosummary>:1
@@ -181,346 +152,180 @@ msgid "Run Abaqus optimization command."
 msgstr "运行 Abaqus 优化命令。"
 
 #: ../../../../None:50:<autosummary>:1
-msgid ""
-":py:obj:`help <abqpy.cli.AbqpyCLI.help>`\\ \\(\\*args\\, \\*\\*options\\)"
-msgstr ""
-":py:obj:`help <abqpy.cli.AbqpyCLI.help>`\\ \\(\\*args\\, \\*\\*options\\)"
+msgid ":py:obj:`help <abqpy.cli.AbqpyCLI.help>`\\ \\(\\*args\\, \\*\\*options\\)"
+msgstr ":py:obj:`help <abqpy.cli.AbqpyCLI.help>`\\ \\(\\*args\\, \\*\\*options\\)"
 
 #: ../../../../None:50:<autosummary>:1
-msgid ""
-":py:obj:`information <abqpy.cli.AbqpyCLI.information>`\\ \\(\\*args\\, "
-"\\*\\*options\\)"
-msgstr ""
-":py:obj:`information <abqpy.cli.AbqpyCLI.information>`\\ \\(\\*args\\, "
-"\\*\\*options\\)"
+msgid ":py:obj:`information <abqpy.cli.AbqpyCLI.information>`\\ \\(\\*args\\, \\*\\*options\\)"
+msgstr ":py:obj:`information <abqpy.cli.AbqpyCLI.information>`\\ \\(\\*args\\, \\*\\*options\\)"
 
 #: ../../../../None:50:<autosummary>:1
-msgid ""
-":py:obj:`whereami <abqpy.cli.AbqpyCLI.whereami>`\\ \\(\\*args\\, "
-"\\*\\*options\\)"
-msgstr ""
-":py:obj:`whereami <abqpy.cli.AbqpyCLI.whereami>`\\ \\(\\*args\\, "
-"\\*\\*options\\)"
+msgid ":py:obj:`whereami <abqpy.cli.AbqpyCLI.whereami>`\\ \\(\\*args\\, \\*\\*options\\)"
+msgstr ":py:obj:`whereami <abqpy.cli.AbqpyCLI.whereami>`\\ \\(\\*args\\, \\*\\*options\\)"
 
 #: ../../../../None:50:<autosummary>:1
-msgid ""
-":py:obj:`cse <abqpy.cli.AbqpyCLI.cse>`\\ \\(\\*args\\, \\*\\*options\\)"
-msgstr ""
-":py:obj:`cse <abqpy.cli.AbqpyCLI.cse>`\\ \\(\\*args\\, \\*\\*options\\)"
+msgid ":py:obj:`cse <abqpy.cli.AbqpyCLI.cse>`\\ \\(\\*args\\, \\*\\*options\\)"
+msgstr ":py:obj:`cse <abqpy.cli.AbqpyCLI.cse>`\\ \\(\\*args\\, \\*\\*options\\)"
 
 #: ../../../../None:50:<autosummary>:1
-msgid ""
-":py:obj:`cosimulation <abqpy.cli.AbqpyCLI.cosimulation>`\\ \\(\\*args\\, "
-"\\*\\*options\\)"
-msgstr ""
-":py:obj:`cosimulation <abqpy.cli.AbqpyCLI.cosimulation>`\\ \\(\\*args\\, "
-"\\*\\*options\\)"
+msgid ":py:obj:`cosimulation <abqpy.cli.AbqpyCLI.cosimulation>`\\ \\(\\*args\\, \\*\\*options\\)"
+msgstr ":py:obj:`cosimulation <abqpy.cli.AbqpyCLI.cosimulation>`\\ \\(\\*args\\, \\*\\*options\\)"
 
 #: ../../../../None:50:<autosummary>:1
-msgid ""
-":py:obj:`fmu <abqpy.cli.AbqpyCLI.fmu>`\\ \\(\\*args\\, \\*\\*options\\)"
-msgstr ""
-":py:obj:`fmu <abqpy.cli.AbqpyCLI.fmu>`\\ \\(\\*args\\, \\*\\*options\\)"
+msgid ":py:obj:`fmu <abqpy.cli.AbqpyCLI.fmu>`\\ \\(\\*args\\, \\*\\*options\\)"
+msgstr ":py:obj:`fmu <abqpy.cli.AbqpyCLI.fmu>`\\ \\(\\*args\\, \\*\\*options\\)"
 
 #: ../../../../None:50:<autosummary>:1
-msgid ""
-":py:obj:`script <abqpy.cli.AbqpyCLI.script>`\\ \\(\\*args\\, "
-"\\*\\*options\\)"
-msgstr ""
-":py:obj:`script <abqpy.cli.AbqpyCLI.script>`\\ \\(\\*args\\, "
-"\\*\\*options\\)"
+msgid ":py:obj:`script <abqpy.cli.AbqpyCLI.script>`\\ \\(\\*args\\, \\*\\*options\\)"
+msgstr ":py:obj:`script <abqpy.cli.AbqpyCLI.script>`\\ \\(\\*args\\, \\*\\*options\\)"
 
 #: ../../../../None:50:<autosummary>:1
-msgid ""
-":py:obj:`doc <abqpy.cli.AbqpyCLI.doc>`\\ \\(\\*args\\, \\*\\*options\\)"
-msgstr ""
-":py:obj:`doc <abqpy.cli.AbqpyCLI.doc>`\\ \\(\\*args\\, \\*\\*options\\)"
+msgid ":py:obj:`doc <abqpy.cli.AbqpyCLI.doc>`\\ \\(\\*args\\, \\*\\*options\\)"
+msgstr ":py:obj:`doc <abqpy.cli.AbqpyCLI.doc>`\\ \\(\\*args\\, \\*\\*options\\)"
 
 #: ../../../../None:50:<autosummary>:1
-msgid ""
-":py:obj:`licensing <abqpy.cli.AbqpyCLI.licensing>`\\ \\(\\*args\\, "
-"\\*\\*options\\)"
-msgstr ""
-":py:obj:`licensing <abqpy.cli.AbqpyCLI.licensing>`\\ \\(\\*args\\, "
-"\\*\\*options\\)"
+msgid ":py:obj:`licensing <abqpy.cli.AbqpyCLI.licensing>`\\ \\(\\*args\\, \\*\\*options\\)"
+msgstr ":py:obj:`licensing <abqpy.cli.AbqpyCLI.licensing>`\\ \\(\\*args\\, \\*\\*options\\)"
 
 #: ../../../../None:50:<autosummary>:1
-msgid ""
-":py:obj:`ascfil <abqpy.cli.AbqpyCLI.ascfil>`\\ \\(\\*args\\, "
-"\\*\\*options\\)"
-msgstr ""
-":py:obj:`ascfil <abqpy.cli.AbqpyCLI.ascfil>`\\ \\(\\*args\\, "
-"\\*\\*options\\)"
+msgid ":py:obj:`ascfil <abqpy.cli.AbqpyCLI.ascfil>`\\ \\(\\*args\\, \\*\\*options\\)"
+msgstr ":py:obj:`ascfil <abqpy.cli.AbqpyCLI.ascfil>`\\ \\(\\*args\\, \\*\\*options\\)"
 
 #: ../../../../None:50:<autosummary>:1
-msgid ""
-":py:obj:`append <abqpy.cli.AbqpyCLI.append>`\\ \\(\\*args\\, "
-"\\*\\*options\\)"
-msgstr ""
-":py:obj:`append <abqpy.cli.AbqpyCLI.append>`\\ \\(\\*args\\, "
-"\\*\\*options\\)"
+msgid ":py:obj:`append <abqpy.cli.AbqpyCLI.append>`\\ \\(\\*args\\, \\*\\*options\\)"
+msgstr ":py:obj:`append <abqpy.cli.AbqpyCLI.append>`\\ \\(\\*args\\, \\*\\*options\\)"
 
 #: ../../../../None:50:<autosummary>:1
-msgid ""
-":py:obj:`findkeyword <abqpy.cli.AbqpyCLI.findkeyword>`\\ \\(\\*args\\, "
-"\\*\\*options\\)"
-msgstr ""
-":py:obj:`findkeyword <abqpy.cli.AbqpyCLI.findkeyword>`\\ \\(\\*args\\, "
-"\\*\\*options\\)"
+msgid ":py:obj:`findkeyword <abqpy.cli.AbqpyCLI.findkeyword>`\\ \\(\\*args\\, \\*\\*options\\)"
+msgstr ":py:obj:`findkeyword <abqpy.cli.AbqpyCLI.findkeyword>`\\ \\(\\*args\\, \\*\\*options\\)"
 
 #: ../../../../None:50:<autosummary>:1
-msgid ""
-":py:obj:`fetch <abqpy.cli.AbqpyCLI.fetch>`\\ \\(\\*args\\, "
-"\\*\\*options\\)"
-msgstr ""
-":py:obj:`fetch <abqpy.cli.AbqpyCLI.fetch>`\\ \\(\\*args\\, "
-"\\*\\*options\\)"
+msgid ":py:obj:`fetch <abqpy.cli.AbqpyCLI.fetch>`\\ \\(\\*args\\, \\*\\*options\\)"
+msgstr ":py:obj:`fetch <abqpy.cli.AbqpyCLI.fetch>`\\ \\(\\*args\\, \\*\\*options\\)"
 
 #: ../../../../None:50:<autosummary>:1
-msgid ""
-":py:obj:`make <abqpy.cli.AbqpyCLI.make>`\\ \\(\\*args\\, \\*\\*options\\)"
-msgstr ""
-":py:obj:`make <abqpy.cli.AbqpyCLI.make>`\\ \\(\\*args\\, \\*\\*options\\)"
+msgid ":py:obj:`make <abqpy.cli.AbqpyCLI.make>`\\ \\(\\*args\\, \\*\\*options\\)"
+msgstr ":py:obj:`make <abqpy.cli.AbqpyCLI.make>`\\ \\(\\*args\\, \\*\\*options\\)"
 
 #: ../../../../None:50:<autosummary>:1
-msgid ""
-":py:obj:`upgrade <abqpy.cli.AbqpyCLI.upgrade>`\\ \\(\\*args\\, "
-"\\*\\*options\\)"
-msgstr ""
-":py:obj:`upgrade <abqpy.cli.AbqpyCLI.upgrade>`\\ \\(\\*args\\, "
-"\\*\\*options\\)"
+msgid ":py:obj:`upgrade <abqpy.cli.AbqpyCLI.upgrade>`\\ \\(\\*args\\, \\*\\*options\\)"
+msgstr ":py:obj:`upgrade <abqpy.cli.AbqpyCLI.upgrade>`\\ \\(\\*args\\, \\*\\*options\\)"
 
 #: ../../../../None:50:<autosummary>:1
-msgid ""
-":py:obj:`sim_version <abqpy.cli.AbqpyCLI.sim_version>`\\ \\(\\*args\\, "
-"\\*\\*options\\)"
-msgstr ""
-":py:obj:`sim_version <abqpy.cli.AbqpyCLI.sim_version>`\\ \\(\\*args\\, "
-"\\*\\*options\\)"
+msgid ":py:obj:`sim_version <abqpy.cli.AbqpyCLI.sim_version>`\\ \\(\\*args\\, \\*\\*options\\)"
+msgstr ":py:obj:`sim_version <abqpy.cli.AbqpyCLI.sim_version>`\\ \\(\\*args\\, \\*\\*options\\)"
 
 #: ../../../../None:50:<autosummary>:1
-msgid ""
-":py:obj:`odb2sim <abqpy.cli.AbqpyCLI.odb2sim>`\\ \\(\\*args\\, "
-"\\*\\*options\\)"
-msgstr ""
-":py:obj:`odb2sim <abqpy.cli.AbqpyCLI.odb2sim>`\\ \\(\\*args\\, "
-"\\*\\*options\\)"
+msgid ":py:obj:`odb2sim <abqpy.cli.AbqpyCLI.odb2sim>`\\ \\(\\*args\\, \\*\\*options\\)"
+msgstr ":py:obj:`odb2sim <abqpy.cli.AbqpyCLI.odb2sim>`\\ \\(\\*args\\, \\*\\*options\\)"
 
 #: ../../../../None:50:<autosummary>:1
-msgid ""
-":py:obj:`odbreport <abqpy.cli.AbqpyCLI.odbreport>`\\ \\(\\*args\\, "
-"\\*\\*options\\)"
-msgstr ""
-":py:obj:`odbreport <abqpy.cli.AbqpyCLI.odbreport>`\\ \\(\\*args\\, "
-"\\*\\*options\\)"
+msgid ":py:obj:`odbreport <abqpy.cli.AbqpyCLI.odbreport>`\\ \\(\\*args\\, \\*\\*options\\)"
+msgstr ":py:obj:`odbreport <abqpy.cli.AbqpyCLI.odbreport>`\\ \\(\\*args\\, \\*\\*options\\)"
 
 #: ../../../../None:50:<autosummary>:1
-msgid ""
-":py:obj:`restartjoin <abqpy.cli.AbqpyCLI.restartjoin>`\\ \\(\\*args\\, "
-"\\*\\*options\\)"
-msgstr ""
-":py:obj:`restartjoin <abqpy.cli.AbqpyCLI.restartjoin>`\\ \\(\\*args\\, "
-"\\*\\*options\\)"
+msgid ":py:obj:`restartjoin <abqpy.cli.AbqpyCLI.restartjoin>`\\ \\(\\*args\\, \\*\\*options\\)"
+msgstr ":py:obj:`restartjoin <abqpy.cli.AbqpyCLI.restartjoin>`\\ \\(\\*args\\, \\*\\*options\\)"
 
 #: ../../../../None:50:<autosummary>:1
-msgid ""
-":py:obj:`substructurecombine <abqpy.cli.AbqpyCLI.substructurecombine>`\\ "
-"\\(\\*args\\, \\*\\*options\\)"
-msgstr ""
-":py:obj:`substructurecombine <abqpy.cli.AbqpyCLI.substructurecombine>`\\ "
-"\\(\\*args\\, \\*\\*options\\)"
+msgid ":py:obj:`substructurecombine <abqpy.cli.AbqpyCLI.substructurecombine>`\\ \\(\\*args\\, \\*\\*options\\)"
+msgstr ":py:obj:`substructurecombine <abqpy.cli.AbqpyCLI.substructurecombine>`\\ \\(\\*args\\, \\*\\*options\\)"
 
 #: ../../../../None:50:<autosummary>:1
-msgid ""
-":py:obj:`substructurerecover <abqpy.cli.AbqpyCLI.substructurerecover>`\\ "
-"\\(\\*args\\, \\*\\*options\\)"
-msgstr ""
-":py:obj:`substructurerecover <abqpy.cli.AbqpyCLI.substructurerecover>`\\ "
-"\\(\\*args\\, \\*\\*options\\)"
+msgid ":py:obj:`substructurerecover <abqpy.cli.AbqpyCLI.substructurerecover>`\\ \\(\\*args\\, \\*\\*options\\)"
+msgstr ":py:obj:`substructurerecover <abqpy.cli.AbqpyCLI.substructurerecover>`\\ \\(\\*args\\, \\*\\*options\\)"
 
 #: ../../../../None:50:<autosummary>:1
-msgid ""
-":py:obj:`odbcombine <abqpy.cli.AbqpyCLI.odbcombine>`\\ \\(\\*args\\, "
-"\\*\\*options\\)"
-msgstr ""
-":py:obj:`odbcombine <abqpy.cli.AbqpyCLI.odbcombine>`\\ \\(\\*args\\, "
-"\\*\\*options\\)"
+msgid ":py:obj:`odbcombine <abqpy.cli.AbqpyCLI.odbcombine>`\\ \\(\\*args\\, \\*\\*options\\)"
+msgstr ":py:obj:`odbcombine <abqpy.cli.AbqpyCLI.odbcombine>`\\ \\(\\*args\\, \\*\\*options\\)"
 
 #: ../../../../None:50:<autosummary>:1
-msgid ""
-":py:obj:`networkDBConnector <abqpy.cli.AbqpyCLI.networkDBConnector>`\\ "
-"\\(\\*args\\, \\*\\*options\\)"
-msgstr ""
-":py:obj:`networkDBConnector <abqpy.cli.AbqpyCLI.networkDBConnector>`\\ "
-"\\(\\*args\\, \\*\\*options\\)"
+msgid ":py:obj:`networkDBConnector <abqpy.cli.AbqpyCLI.networkDBConnector>`\\ \\(\\*args\\, \\*\\*options\\)"
+msgstr ":py:obj:`networkDBConnector <abqpy.cli.AbqpyCLI.networkDBConnector>`\\ \\(\\*args\\, \\*\\*options\\)"
 
 #: ../../../../None:50:<autosummary>:1
-msgid ""
-":py:obj:`emloads <abqpy.cli.AbqpyCLI.emloads>`\\ \\(\\*args\\, "
-"\\*\\*options\\)"
-msgstr ""
-":py:obj:`emloads <abqpy.cli.AbqpyCLI.emloads>`\\ \\(\\*args\\, "
-"\\*\\*options\\)"
+msgid ":py:obj:`emloads <abqpy.cli.AbqpyCLI.emloads>`\\ \\(\\*args\\, \\*\\*options\\)"
+msgstr ":py:obj:`emloads <abqpy.cli.AbqpyCLI.emloads>`\\ \\(\\*args\\, \\*\\*options\\)"
 
 #: ../../../../None:50:<autosummary>:1
-msgid ""
-":py:obj:`mtxasm <abqpy.cli.AbqpyCLI.mtxasm>`\\ \\(\\*args\\, "
-"\\*\\*options\\)"
-msgstr ""
-":py:obj:`mtxasm <abqpy.cli.AbqpyCLI.mtxasm>`\\ \\(\\*args\\, "
-"\\*\\*options\\)"
+msgid ":py:obj:`mtxasm <abqpy.cli.AbqpyCLI.mtxasm>`\\ \\(\\*args\\, \\*\\*options\\)"
+msgstr ":py:obj:`mtxasm <abqpy.cli.AbqpyCLI.mtxasm>`\\ \\(\\*args\\, \\*\\*options\\)"
 
 #: ../../../../None:50:<autosummary>:1
-msgid ""
-":py:obj:`fromnastran <abqpy.cli.AbqpyCLI.fromnastran>`\\ \\(\\*args\\, "
-"\\*\\*options\\)"
-msgstr ""
-":py:obj:`fromnastran <abqpy.cli.AbqpyCLI.fromnastran>`\\ \\(\\*args\\, "
-"\\*\\*options\\)"
+msgid ":py:obj:`fromnastran <abqpy.cli.AbqpyCLI.fromnastran>`\\ \\(\\*args\\, \\*\\*options\\)"
+msgstr ":py:obj:`fromnastran <abqpy.cli.AbqpyCLI.fromnastran>`\\ \\(\\*args\\, \\*\\*options\\)"
 
 #: ../../../../None:50:<autosummary>:1
-msgid ""
-":py:obj:`tonastran <abqpy.cli.AbqpyCLI.tonastran>`\\ \\(\\*args\\, "
-"\\*\\*options\\)"
-msgstr ""
-":py:obj:`tonastran <abqpy.cli.AbqpyCLI.tonastran>`\\ \\(\\*args\\, "
-"\\*\\*options\\)"
+msgid ":py:obj:`tonastran <abqpy.cli.AbqpyCLI.tonastran>`\\ \\(\\*args\\, \\*\\*options\\)"
+msgstr ":py:obj:`tonastran <abqpy.cli.AbqpyCLI.tonastran>`\\ \\(\\*args\\, \\*\\*options\\)"
 
 #: ../../../../None:50:<autosummary>:1
-msgid ""
-":py:obj:`fromansys <abqpy.cli.AbqpyCLI.fromansys>`\\ \\(\\*args\\, "
-"\\*\\*options\\)"
-msgstr ""
-":py:obj:`fromansys <abqpy.cli.AbqpyCLI.fromansys>`\\ \\(\\*args\\, "
-"\\*\\*options\\)"
+msgid ":py:obj:`fromansys <abqpy.cli.AbqpyCLI.fromansys>`\\ \\(\\*args\\, \\*\\*options\\)"
+msgstr ":py:obj:`fromansys <abqpy.cli.AbqpyCLI.fromansys>`\\ \\(\\*args\\, \\*\\*options\\)"
 
 #: ../../../../None:50:<autosummary>:1
-msgid ""
-":py:obj:`frompamcrash <abqpy.cli.AbqpyCLI.frompamcrash>`\\ \\(\\*args\\, "
-"\\*\\*options\\)"
-msgstr ""
-":py:obj:`frompamcrash <abqpy.cli.AbqpyCLI.frompamcrash>`\\ \\(\\*args\\, "
-"\\*\\*options\\)"
+msgid ":py:obj:`frompamcrash <abqpy.cli.AbqpyCLI.frompamcrash>`\\ \\(\\*args\\, \\*\\*options\\)"
+msgstr ":py:obj:`frompamcrash <abqpy.cli.AbqpyCLI.frompamcrash>`\\ \\(\\*args\\, \\*\\*options\\)"
 
 #: ../../../../None:50:<autosummary>:1
-msgid ""
-":py:obj:`fromradioss <abqpy.cli.AbqpyCLI.fromradioss>`\\ \\(\\*args\\, "
-"\\*\\*options\\)"
-msgstr ""
-":py:obj:`fromradioss <abqpy.cli.AbqpyCLI.fromradioss>`\\ \\(\\*args\\, "
-"\\*\\*options\\)"
+msgid ":py:obj:`fromradioss <abqpy.cli.AbqpyCLI.fromradioss>`\\ \\(\\*args\\, \\*\\*options\\)"
+msgstr ":py:obj:`fromradioss <abqpy.cli.AbqpyCLI.fromradioss>`\\ \\(\\*args\\, \\*\\*options\\)"
 
 #: ../../../../None:50:<autosummary>:1
-msgid ""
-":py:obj:`toOutput2 <abqpy.cli.AbqpyCLI.toOutput2>`\\ \\(\\*args\\, "
-"\\*\\*options\\)"
-msgstr ""
-":py:obj:`toOutput2 <abqpy.cli.AbqpyCLI.toOutput2>`\\ \\(\\*args\\, "
-"\\*\\*options\\)"
+msgid ":py:obj:`toOutput2 <abqpy.cli.AbqpyCLI.toOutput2>`\\ \\(\\*args\\, \\*\\*options\\)"
+msgstr ":py:obj:`toOutput2 <abqpy.cli.AbqpyCLI.toOutput2>`\\ \\(\\*args\\, \\*\\*options\\)"
 
 #: ../../../../None:50:<autosummary>:1
-msgid ""
-":py:obj:`fromdyna <abqpy.cli.AbqpyCLI.fromdyna>`\\ \\(\\*args\\, "
-"\\*\\*options\\)"
-msgstr ""
-":py:obj:`fromdyna <abqpy.cli.AbqpyCLI.fromdyna>`\\ \\(\\*args\\, "
-"\\*\\*options\\)"
+msgid ":py:obj:`fromdyna <abqpy.cli.AbqpyCLI.fromdyna>`\\ \\(\\*args\\, \\*\\*options\\)"
+msgstr ":py:obj:`fromdyna <abqpy.cli.AbqpyCLI.fromdyna>`\\ \\(\\*args\\, \\*\\*options\\)"
 
 #: ../../../../None:50:<autosummary>:1
-msgid ""
-":py:obj:`tozaero <abqpy.cli.AbqpyCLI.tozaero>`\\ \\(\\*args\\, "
-"\\*\\*options\\)"
-msgstr ""
-":py:obj:`tozaero <abqpy.cli.AbqpyCLI.tozaero>`\\ \\(\\*args\\, "
-"\\*\\*options\\)"
+msgid ":py:obj:`tozaero <abqpy.cli.AbqpyCLI.tozaero>`\\ \\(\\*args\\, \\*\\*options\\)"
+msgstr ":py:obj:`tozaero <abqpy.cli.AbqpyCLI.tozaero>`\\ \\(\\*args\\, \\*\\*options\\)"
 
 #: ../../../../None:50:<autosummary>:1
-msgid ""
-":py:obj:`adams <abqpy.cli.AbqpyCLI.adams>`\\ \\(\\*args\\, "
-"\\*\\*options\\)"
-msgstr ""
-":py:obj:`adams <abqpy.cli.AbqpyCLI.adams>`\\ \\(\\*args\\, "
-"\\*\\*options\\)"
+msgid ":py:obj:`adams <abqpy.cli.AbqpyCLI.adams>`\\ \\(\\*args\\, \\*\\*options\\)"
+msgstr ":py:obj:`adams <abqpy.cli.AbqpyCLI.adams>`\\ \\(\\*args\\, \\*\\*options\\)"
 
 #: ../../../../None:50:<autosummary>:1
-msgid ""
-":py:obj:`tosimpack <abqpy.cli.AbqpyCLI.tosimpack>`\\ \\(\\*args\\, "
-"\\*\\*options\\)"
-msgstr ""
-":py:obj:`tosimpack <abqpy.cli.AbqpyCLI.tosimpack>`\\ \\(\\*args\\, "
-"\\*\\*options\\)"
+msgid ":py:obj:`tosimpack <abqpy.cli.AbqpyCLI.tosimpack>`\\ \\(\\*args\\, \\*\\*options\\)"
+msgstr ":py:obj:`tosimpack <abqpy.cli.AbqpyCLI.tosimpack>`\\ \\(\\*args\\, \\*\\*options\\)"
 
 #: ../../../../None:50:<autosummary>:1
-msgid ""
-":py:obj:`fromsimpack <abqpy.cli.AbqpyCLI.fromsimpack>`\\ \\(\\*args\\, "
-"\\*\\*options\\)"
-msgstr ""
-":py:obj:`fromsimpack <abqpy.cli.AbqpyCLI.fromsimpack>`\\ \\(\\*args\\, "
-"\\*\\*options\\)"
+msgid ":py:obj:`fromsimpack <abqpy.cli.AbqpyCLI.fromsimpack>`\\ \\(\\*args\\, \\*\\*options\\)"
+msgstr ":py:obj:`fromsimpack <abqpy.cli.AbqpyCLI.fromsimpack>`\\ \\(\\*args\\, \\*\\*options\\)"
 
 #: ../../../../None:50:<autosummary>:1
-msgid ""
-":py:obj:`toexcite <abqpy.cli.AbqpyCLI.toexcite>`\\ \\(\\*args\\, "
-"\\*\\*options\\)"
-msgstr ""
-":py:obj:`toexcite <abqpy.cli.AbqpyCLI.toexcite>`\\ \\(\\*args\\, "
-"\\*\\*options\\)"
+msgid ":py:obj:`toexcite <abqpy.cli.AbqpyCLI.toexcite>`\\ \\(\\*args\\, \\*\\*options\\)"
+msgstr ":py:obj:`toexcite <abqpy.cli.AbqpyCLI.toexcite>`\\ \\(\\*args\\, \\*\\*options\\)"
 
 #: ../../../../None:50:<autosummary>:1
-msgid ""
-":py:obj:`moldflow <abqpy.cli.AbqpyCLI.moldflow>`\\ \\(\\*args\\, "
-"\\*\\*options\\)"
-msgstr ""
-":py:obj:`moldflow <abqpy.cli.AbqpyCLI.moldflow>`\\ \\(\\*args\\, "
-"\\*\\*options\\)"
+msgid ":py:obj:`moldflow <abqpy.cli.AbqpyCLI.moldflow>`\\ \\(\\*args\\, \\*\\*options\\)"
+msgstr ":py:obj:`moldflow <abqpy.cli.AbqpyCLI.moldflow>`\\ \\(\\*args\\, \\*\\*options\\)"
 
 #: ../../../../None:50:<autosummary>:1
-msgid ""
-":py:obj:`encrypt <abqpy.cli.AbqpyCLI.encrypt>`\\ \\(\\*args\\, "
-"\\*\\*options\\)"
-msgstr ""
-":py:obj:`encrypt <abqpy.cli.AbqpyCLI.encrypt>`\\ \\(\\*args\\, "
-"\\*\\*options\\)"
+msgid ":py:obj:`encrypt <abqpy.cli.AbqpyCLI.encrypt>`\\ \\(\\*args\\, \\*\\*options\\)"
+msgstr ":py:obj:`encrypt <abqpy.cli.AbqpyCLI.encrypt>`\\ \\(\\*args\\, \\*\\*options\\)"
 
 #: ../../../../None:50:<autosummary>:1
-msgid ""
-":py:obj:`decrypt <abqpy.cli.AbqpyCLI.decrypt>`\\ \\(\\*args\\, "
-"\\*\\*options\\)"
-msgstr ""
-":py:obj:`decrypt <abqpy.cli.AbqpyCLI.decrypt>`\\ \\(\\*args\\, "
-"\\*\\*options\\)"
+msgid ":py:obj:`decrypt <abqpy.cli.AbqpyCLI.decrypt>`\\ \\(\\*args\\, \\*\\*options\\)"
+msgstr ":py:obj:`decrypt <abqpy.cli.AbqpyCLI.decrypt>`\\ \\(\\*args\\, \\*\\*options\\)"
 
 #: ../../../../None:50:<autosummary>:1
-msgid ""
-":py:obj:`suspend <abqpy.cli.AbqpyCLI.suspend>`\\ \\(\\*args\\, "
-"\\*\\*options\\)"
-msgstr ""
-":py:obj:`suspend <abqpy.cli.AbqpyCLI.suspend>`\\ \\(\\*args\\, "
-"\\*\\*options\\)"
+msgid ":py:obj:`suspend <abqpy.cli.AbqpyCLI.suspend>`\\ \\(\\*args\\, \\*\\*options\\)"
+msgstr ":py:obj:`suspend <abqpy.cli.AbqpyCLI.suspend>`\\ \\(\\*args\\, \\*\\*options\\)"
 
 #: ../../../../None:50:<autosummary>:1
-msgid ""
-":py:obj:`resume <abqpy.cli.AbqpyCLI.resume>`\\ \\(\\*args\\, "
-"\\*\\*options\\)"
-msgstr ""
-":py:obj:`resume <abqpy.cli.AbqpyCLI.resume>`\\ \\(\\*args\\, "
-"\\*\\*options\\)"
+msgid ":py:obj:`resume <abqpy.cli.AbqpyCLI.resume>`\\ \\(\\*args\\, \\*\\*options\\)"
+msgstr ":py:obj:`resume <abqpy.cli.AbqpyCLI.resume>`\\ \\(\\*args\\, \\*\\*options\\)"
 
 #: ../../../../None:50:<autosummary>:1
-msgid ""
-":py:obj:`terminate <abqpy.cli.AbqpyCLI.terminate>`\\ \\(\\*args\\, "
-"\\*\\*options\\)"
-msgstr ""
-":py:obj:`terminate <abqpy.cli.AbqpyCLI.terminate>`\\ \\(\\*args\\, "
-"\\*\\*options\\)"
+msgid ":py:obj:`terminate <abqpy.cli.AbqpyCLI.terminate>`\\ \\(\\*args\\, \\*\\*options\\)"
+msgstr ":py:obj:`terminate <abqpy.cli.AbqpyCLI.terminate>`\\ \\(\\*args\\, \\*\\*options\\)"
 
 #: ../../../../None:50:<autosummary>:1
-msgid ""
-":py:obj:`sysVerify <abqpy.cli.AbqpyCLI.sysVerify>`\\ \\(\\*args\\, "
-"\\*\\*options\\)"
-msgstr ""
-":py:obj:`sysVerify <abqpy.cli.AbqpyCLI.sysVerify>`\\ \\(\\*args\\, "
-"\\*\\*options\\)"
+msgid ":py:obj:`sysVerify <abqpy.cli.AbqpyCLI.sysVerify>`\\ \\(\\*args\\, \\*\\*options\\)"
+msgstr ":py:obj:`sysVerify <abqpy.cli.AbqpyCLI.sysVerify>`\\ \\(\\*args\\, \\*\\*options\\)"
 
 #: ../../../autoapi/abqpy/cli/index.rst:82
 #: ../../../autoapi/abqpy/cli/index.rst:115
@@ -529,8 +334,7 @@ msgstr "要运行的 python 脚本名称"
 
 #: ../../../autoapi/abqpy/cli/index.rst:84
 #: ../../../autoapi/abqpy/cli/index.rst:117
-msgid ""
-"Extra arguments to be passed after the Abaqus/CAE command line options"
+msgid "Extra arguments to be passed after the Abaqus/CAE command line options"
 msgstr "Abaqus/CAE 命令行后传递的额外参数"
 
 #: ../../../autoapi/abqpy/cli/index.rst:86
@@ -546,11 +350,8 @@ msgid "The name of the journal file to open, by default None"
 msgstr "要打开的 journal 文件名称，默认不打开"
 
 #: ../../../autoapi/abqpy/cli/index.rst:92
-msgid ""
-"Run Abaqus/CAE command with the graphical user interface (GUI mode), by "
-"default False."
-msgstr ""
-"是否使用图形用户界面 (GUI 模式) 运行 Abaqus/CAE 命令，默认不使用 GUI 打开。"
+msgid "Run Abaqus/CAE command with the graphical user interface (GUI mode), by default False."
+msgstr "是否使用图形用户界面 (GUI 模式) 运行 Abaqus/CAE 命令，默认不使用 GUI 打开。"
 
 #: ../../../autoapi/abqpy/cli/index.rst:94
 msgid "Execute the Abaqus/CAE startup file, by default True"
@@ -569,17 +370,12 @@ msgid "Display the startup dialog, by default True"
 msgstr "是否显示启动对话框，默认显示"
 
 #: ../../../autoapi/abqpy/cli/index.rst:102
-msgid ""
-"The name of the file containing Abaqus GUI Toolkit commands to be "
-"executed, by default None"
+msgid "The name of the file containing Abaqus GUI Toolkit commands to be executed, by default None"
 msgstr "包含 Abaqus GUI 工具包命令的文件名称，默认不执行"
 
 #: ../../../autoapi/abqpy/cli/index.rst:104
-msgid ""
-"This option starts a separate user interface containing the Abaqus Python "
-"development environment along with Abaqus/CAE."
-msgstr ""
-"此选项将启动一个包含 Abaqus Python 开发环境以及 Abaqus/CAE 的单独用户界面。"
+msgid "This option starts a separate user interface containing the Abaqus Python development environment along with Abaqus/CAE."
+msgstr "此选项将启动一个包含 Abaqus Python 开发环境以及 Abaqus/CAE 的单独用户界面。"
 
 #: ../../../autoapi/abqpy/cli/index.rst:107
 msgid "Record the GUI commands to a file, by default None"
@@ -594,21 +390,15 @@ msgid "The name of the log file to open, by default None"
 msgstr "要打开的 log 文件名称，默认不打开"
 
 #: ../../../autoapi/abqpy/cli/index.rst:129
-msgid ""
-"The file containing the parameters that are used to execute the "
-"optimization."
+msgid "The file containing the parameters that are used to execute the optimization."
 msgstr "包含用于执行参数优化的文件。"
 
 #: ../../../autoapi/abqpy/cli/index.rst:131
-msgid ""
-"The name of the folder in which the results of the optimization are "
-"stored."
+msgid "The name of the folder in which the results of the optimization are stored."
 msgstr "保存优化结果的文件夹名称。"
 
 #: ../../../autoapi/abqpy/cli/index.rst:133
-msgid ""
-"The number of processors to use during an analysis run if parallel "
-"processing is available."
+msgid "The number of processors to use during an analysis run if parallel processing is available."
 msgstr "如果并行处理可用，则分析运行期间要使用的处理器数量。"
 
 #: ../../../autoapi/abqpy/cli/index.rst:135
@@ -616,9 +406,7 @@ msgid "This acceleration of the Abaqus/Standard direct solver."
 msgstr "Abaqus/Standard 直接求解器加速。"
 
 #: ../../../autoapi/abqpy/cli/index.rst:137
-msgid ""
-"Maximum amount of memory or maximum percentage of the physical memory that"
-" can be allocated."
+msgid "Maximum amount of memory or maximum percentage of the physical memory that can be allocated."
 msgstr "可以分配的最大内存量或物理内存的最大百分比。"
 
 #: ../../../autoapi/abqpy/cli/index.rst:139
@@ -626,9 +414,7 @@ msgid "This option will cause the job to run interactively."
 msgstr "此选项将使作业以交互方式运行。"
 
 #: ../../../autoapi/abqpy/cli/index.rst:141
-msgid ""
-"The name of the global model's results file, ODB output database file, or "
-"SIM database file."
+msgid "The name of the global model's results file, ODB output database file, or SIM database file."
 msgstr "全局模型的结果文件、ODB 输出数据库文件或 SIM 数据库文件的名称。"
 
 #: ../../../autoapi/abqpy/cli/index.rst:143
