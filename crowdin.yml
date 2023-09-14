@@ -1,10 +1,7 @@
 files:
-  - source: "/**/pot/*.pot"
-    translation: "/**/%locale_with_underscore%/LC_MESSAGES/%file_name%.po"
+  - source: /**/pot/**/*.pot
     ignore:
-      - "/**/pot/CHANGES.pot"
-  - source: "/**/pot/**/*.pot"
-    translation: "/**/%locale_with_underscore%/LC_MESSAGES/**/%file_name%.po"
-    ignore:
-      - "/**/pot/reference/**/*.pot"
-      - "/**/pot/user/**/*.pot"
+      - /**/pot/reference/**/*.pot
+      - /**/pot/user/**/*.pot
+      - /**/pot/CHANGES.pot
+    translation: /**/%locale_with_underscore%/LC_MESSAGES/**/%file_name%.po
