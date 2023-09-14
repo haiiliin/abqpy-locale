@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: abqpy 2017\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-19 11:02+0000\n"
+"POT-Creation-Date: 2023-09-14 01:59+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,6 +18,11 @@ msgstr ""
 
 #: ../../../cli.md:1
 msgid "Command Line Interface"
+msgstr ""
+
+#: ../../../cli.md:3
+#: ../../../cli.md:112
+msgid "Warning"
 msgstr ""
 
 #: ../../../cli.md:4
@@ -50,6 +55,10 @@ msgstr ""
 
 #: ../../../cli.md:44
 msgid "where `COMMAND` is one of `abaqus`, `cae`, `python`, `run` or any other Abaqus commands, `SCRIPT` is the file name of your python script, `flags` are the options that could be passed to the command, and `ARGS` are the extra arguments to be passed after the command line options. For details, see the [References](#references) section or run `abqpy COMMAND --help` for help."
+msgstr ""
+
+#: ../../../cli.md:50
+msgid "Note"
 msgstr ""
 
 #: ../../../cli.md:51
@@ -121,9 +130,5 @@ msgid "Abaqus Python Execution Mode"
 msgstr ""
 
 #: ../../../cli.md:138
-msgid "Less Frequently Used Commands"
-msgstr ""
-
-#: ../../../cli.md:144
 msgid "Comments"
 msgstr ""

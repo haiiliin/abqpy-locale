@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: abqpy \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-27 13:50+0000\n"
+"POT-Creation-Date: 2023-09-14 01:59+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,11 +17,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.12.1\n"
 
-#: ../../user/examples/cantilever.md:1
+#: ../../../user/examples/cantilever.md:1
 msgid "Reproducing the cantilever beam tutorial"
 msgstr ""
 
-#: ../../user/examples/cantilever.md:3
+#: ../../../user/examples/cantilever.md:3
 msgid ""
 "This section explains how to use the Abaqus Scripting Interface commands "
 "to reproduce a tutorial that shows the basic steps to create and analyze a"
@@ -33,11 +33,11 @@ msgid ""
 "ov.htm?contextscope=all#simagsa-c-ov)."
 msgstr ""
 
-#: ../../user/examples/cantilever.md:5
+#: ../../../user/examples/cantilever.md:5
 msgid "About the cantilever beam example"
 msgstr ""
 
-#: ../../user/examples/cantilever.md:7
+#: ../../../user/examples/cantilever.md:7
 msgid ""
 "The example leads you through the Abaqus/CAE modeling process by visiting "
 "each of the modules and shows you the basic steps to create and analyze a "
@@ -49,55 +49,59 @@ msgid ""
 "{numref}`gst-beam` illustrates the model that you create and analyze."
 msgstr ""
 
-#: ../../user/examples/cantilever.md:15
+#: ../../../user/examples/cantilever.md:15
 msgid "A loaded cantilever beam."
 msgstr ""
 
-#: ../../user/examples/cantilever.md:18
+#: ../../../user/examples/cantilever.md:18
 msgid "Running the example"
 msgstr ""
 
-#: ../../user/examples/cantilever.md:20
+#: ../../../user/examples/cantilever.md:20
 msgid ""
 "Use the following command to retrieve the output database that is read by "
 "the scripts:"
 msgstr ""
 
-#: ../../user/examples/cantilever.md:26
+#: ../../../user/examples/cantilever.md:26
 msgid "To run the script, do the following:"
 msgstr ""
 
-#: ../../user/examples/cantilever.md:28
+#: ../../../user/examples/cantilever.md:28
 msgid ""
 "Start Abaqus/CAE from a directory in which you have write permission by "
 "typing `abaqus cae`."
 msgstr ""
 
-#: ../../user/examples/cantilever.md:29
+#: ../../../user/examples/cantilever.md:29
 msgid "From the startup screen, select **Run Script**."
 msgstr ""
 
-#: ../../user/examples/cantilever.md:30
+#: ../../../user/examples/cantilever.md:30
 msgid ""
 "From the **Run Script** dialog box that appears, enter the path given "
 "above and select the file containing the script."
 msgstr ""
 
-#: ../../user/examples/cantilever.md:31
+#: ../../../user/examples/cantilever.md:31
 msgid "Click **OK** to run the script."
 msgstr ""
 
-#: ../../user/examples/cantilever.md:34
+#: ../../../user/examples/cantilever.md:33
+msgid "Note"
+msgstr ""
+
+#: ../../../user/examples/cantilever.md:34
 msgid ""
 "If Abaqus/CAE is already running, you can run the script by selecting "
 "**File -> Run Script** from the main menu bar."
 msgstr ""
 
-#: ../../user/examples/cantilever.md:37
+#: ../../../user/examples/cantilever.md:37
 msgid "The cantilever beam example script"
 msgstr ""
 
-#: ../../user/examples/cantilever.md:39
+#: ../../../user/examples/cantilever.md:39
 msgid ""
 "The first line of the script, `from abaqus import *`, imports the Mdb and "
 "Session objects. The current viewport is `session.viewports['Viewport: "
@@ -111,7 +115,7 @@ msgid ""
 "section, see the appropriate sections in the {doc}`/reference/index`."
 msgstr ""
 
-#: ../../user/examples/cantilever.md:41
+#: ../../../user/examples/cantilever.md:41
 msgid ""
 "The script then imports the `Part` module. Most of the sections in this "
 "example begin with importing the appropriate module, which illustrates how"

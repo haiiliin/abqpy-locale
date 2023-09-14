@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: abqpy \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-24 15:22+0000\n"
+"POT-Creation-Date: 2023-09-14 01:59+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -44,6 +44,43 @@ msgid ""
 "An Assembly object is a container for instances of parts. The Assembly "
 "object has no constructor command. Abaqus creates the **rootAssembly** "
 "member when a Model object is created."
+msgstr ""
+
+#: abaqus.EditMesh.MeshEditAssembly.MeshEditAssembly:4
+#: abaqus.EditMesh.MeshEditAssembly.MeshEditAssembly:10
+#: abaqus.EditMesh.MeshEditAssembly.MeshEditAssembly.collapseMeshEdge:3
+#: abaqus.EditMesh.MeshEditAssembly.MeshEditAssembly.combineElement:3
+#: abaqus.EditMesh.MeshEditAssembly.MeshEditAssembly.deleteElement:4
+#: abaqus.EditMesh.MeshEditAssembly.MeshEditAssembly.editNode:3
+#: abaqus.EditMesh.MeshEditAssembly.MeshEditAssembly.generateMeshByOffset:4
+#: abaqus.EditMesh.MeshEditAssembly.MeshEditAssembly.projectNode:4
+#: abaqus.EditMesh.MeshEditAssembly.MeshEditAssembly.splitMeshEdge:3
+#: abaqus.EditMesh.MeshEditAssembly.MeshEditAssembly.swapMeshEdge:3
+#: abaqus.EditMesh.MeshEditOptions.MeshEditOptions:5
+#: abaqus.EditMesh.MeshEditOptions.MeshEditOptions:10
+#: abaqus.EditMesh.MeshEditOptions.MeshEditOptions.setValues:3
+#: abaqus.EditMesh.MeshEditPart.MeshEditPart:4
+#: abaqus.EditMesh.MeshEditPart.MeshEditPart.adjustMidsideNode:3
+#: abaqus.EditMesh.MeshEditPart.MeshEditPart.cleanMesh:4
+#: abaqus.EditMesh.MeshEditPart.MeshEditPart.collapseMeshEdge:4
+#: abaqus.EditMesh.MeshEditPart.MeshEditPart.combineElement:3
+#: abaqus.EditMesh.MeshEditPart.MeshEditPart.deleteElement:5
+#: abaqus.EditMesh.MeshEditPart.MeshEditPart.deleteNode:3
+#: abaqus.EditMesh.MeshEditPart.MeshEditPart.editNode:4
+#: abaqus.EditMesh.MeshEditPart.MeshEditPart.generateMesh:3
+#: abaqus.EditMesh.MeshEditPart.MeshEditPart.generateMeshByOffset:4
+#: abaqus.EditMesh.MeshEditPart.MeshEditPart.mergeElement:3
+#: abaqus.EditMesh.MeshEditPart.MeshEditPart.projectNode:4
+#: abaqus.EditMesh.MeshEditPart.MeshEditPart.renumberElement:3
+#: abaqus.EditMesh.MeshEditPart.MeshEditPart.renumberNode:3
+#: abaqus.EditMesh.MeshEditPart.MeshEditPart.setElementSize:3
+#: abaqus.EditMesh.MeshEditPart.MeshEditPart.splitElement:4
+#: abaqus.EditMesh.MeshEditPart.MeshEditPart.splitMeshEdge:4
+#: abaqus.EditMesh.MeshEditPart.MeshEditPart.subdivideElement:3
+#: abaqus.EditMesh.MeshEditPart.MeshEditPart.swapMeshEdge:4
+#: abaqus.EditMesh.MeshEditPart.MeshEditPart.wrapMesh:3
+#: abaqus.EditMesh.MeshEditPart.Node:3 of
+msgid "Note"
 msgstr ""
 
 #: abaqus.EditMesh.MeshEditAssembly.MeshEditAssembly:5

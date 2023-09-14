@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: abqpy 2017\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-15 05:55+0000\n"
+"POT-Creation-Date: 2023-09-14 01:59+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,6 +34,19 @@ msgstr ""
 
 #: ../../../../../src/abaqus/TextRepresentation/TextReprOptions.py:docstring of abaqus.TextRepresentation.TextReprOptions.TextReprOptions:1
 msgid "The TextReprOptions object is used to configure the output of the Python `str()` command within Abaqus/CAE. (The `str()` command is used by the Python print function.) The TextReprOptions object stores the various settings that determine how objects are printed on the Python command line. The TextReprOptions object has no constructor. Abaqus creates the **textReprOptions** member when a session is started."
+msgstr ""
+
+#: ../../../../../src/abaqus/TextRepresentation/TextReprOptions.py:docstring of abaqus.TextRepresentation.TextReprOptions.TextReprOptions:6
+#: ../../../../../src/abaqus/TextRepresentation/TextReprOptions.py:docstring of abaqus.TextRepresentation.TextReprOptions.TextReprOptions:13
+#: ../../../../../src/abaqus/TextRepresentation/TextReprOptions.py:docstring of abaqus.TextRepresentation.TextReprOptions.TextReprOptions.setValues:3
+#: ../../../../../src/abaqus/TextRepresentation/redentABQ.py:docstring of abaqus.TextRepresentation.redentABQ.indentFile:4
+#: ../../../../../src/abaqus/TextRepresentation/textRepr.py:docstring of abaqus.TextRepresentation.textRepr.getIndentedRepr:3
+#: ../../../../../src/abaqus/TextRepresentation/textRepr.py:docstring of abaqus.TextRepresentation.textRepr.getPaths:4
+#: ../../../../../src/abaqus/TextRepresentation/textRepr.py:docstring of abaqus.TextRepresentation.textRepr.getTypes:4
+#: ../../../../../src/abaqus/TextRepresentation/textRepr.py:docstring of abaqus.TextRepresentation.textRepr.prettyPrint:5
+#: ../../../../../src/abaqus/TextRepresentation/textRepr.py:docstring of abaqus.TextRepresentation.textRepr.printPaths:5
+#: ../../../../../src/abaqus/TextRepresentation/textRepr.py:docstring of abaqus.TextRepresentation.textRepr.printTypes:4
+msgid "Note"
 msgstr ""
 
 #: ../../../../../src/abaqus/TextRepresentation/TextReprOptions.py:docstring of abaqus.TextRepresentation.TextReprOptions.TextReprOptions:7

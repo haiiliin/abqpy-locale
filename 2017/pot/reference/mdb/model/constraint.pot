@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: abqpy 2017\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-19 09:26+0000\n"
+"POT-Creation-Date: 2023-09-14 01:59+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,6 +34,66 @@ msgstr ""
 
 #: ../../../../../src/abaqus/Constraint/ConstraintModel.py:docstring of abaqus.Constraint.ConstraintModel.ConstraintModel:1
 msgid "Abaqus creates a Model object named `Model-1` when a session is started."
+msgstr ""
+
+#: ../../../../../src/abaqus/Constraint/AdjustPoints.py:docstring of abaqus.Constraint.AdjustPoints.AdjustPoints:4
+#: ../../../../../src/abaqus/Constraint/AdjustPoints.py:docstring of abaqus.Constraint.AdjustPoints.AdjustPoints:14
+#: ../../../../../src/abaqus/Constraint/AdjustPoints.py:docstring of abaqus.Constraint.AdjustPoints.AdjustPoints:19
+#: ../../../../../src/abaqus/Constraint/Constraint.py:docstring of abaqus.Constraint.Constraint.Constraint:5
+#: ../../../../../src/abaqus/Constraint/Constraint.py:docstring of abaqus.Constraint.Constraint.Constraint:11
+#: ../../../../../src/abaqus/Constraint/Constraint.py:docstring of abaqus.Constraint.Constraint.Constraint.delete:3
+#: ../../../../../src/abaqus/Constraint/ConstraintModel.py:docstring of abaqus.Constraint.ConstraintModel.ConstraintModel:3
+#: ../../../../../src/abaqus/Constraint/ConstraintModel.py:docstring of abaqus.Constraint.ConstraintModel.ConstraintModel:8
+#: ../../../../../src/abaqus/Constraint/ConstraintModel.py:docstring of abaqus.Constraint.ConstraintModel.ConstraintModel:13
+#: ../../../../../src/abaqus/Constraint/ConstraintModel.py:docstring of abaqus.Constraint.ConstraintModel.ConstraintModel.AdjustPoints:3
+#: ../../../../../src/abaqus/Constraint/ConstraintModel.py:docstring of abaqus.Constraint.ConstraintModel.ConstraintModel.AdjustPoints:8
+#: ../../../../../src/abaqus/Constraint/ConstraintModel.py:docstring of abaqus.Constraint.ConstraintModel.ConstraintModel.Coupling:3
+#: ../../../../../src/abaqus/Constraint/ConstraintModel.py:docstring of abaqus.Constraint.ConstraintModel.ConstraintModel.Coupling:8
+#: ../../../../../src/abaqus/Constraint/ConstraintModel.py:docstring of abaqus.Constraint.ConstraintModel.ConstraintModel.DisplayBody:3
+#: ../../../../../src/abaqus/Constraint/ConstraintModel.py:docstring of abaqus.Constraint.ConstraintModel.ConstraintModel.DisplayBody:8
+#: ../../../../../src/abaqus/Constraint/ConstraintModel.py:docstring of abaqus.Constraint.ConstraintModel.ConstraintModel.EmbeddedRegion:3
+#: ../../../../../src/abaqus/Constraint/ConstraintModel.py:docstring of abaqus.Constraint.ConstraintModel.ConstraintModel.EmbeddedRegion:8
+#: ../../../../../src/abaqus/Constraint/ConstraintModel.py:docstring of abaqus.Constraint.ConstraintModel.ConstraintModel.Equation:3
+#: ../../../../../src/abaqus/Constraint/ConstraintModel.py:docstring of abaqus.Constraint.ConstraintModel.ConstraintModel.Equation:8
+#: ../../../../../src/abaqus/Constraint/ConstraintModel.py:docstring of abaqus.Constraint.ConstraintModel.ConstraintModel.MultipointConstraint:3
+#: ../../../../../src/abaqus/Constraint/ConstraintModel.py:docstring of abaqus.Constraint.ConstraintModel.ConstraintModel.MultipointConstraint:8
+#: ../../../../../src/abaqus/Constraint/ConstraintModel.py:docstring of abaqus.Constraint.ConstraintModel.ConstraintModel.RigidBody:3
+#: ../../../../../src/abaqus/Constraint/ConstraintModel.py:docstring of abaqus.Constraint.ConstraintModel.ConstraintModel.RigidBody:8
+#: ../../../../../src/abaqus/Constraint/ConstraintModel.py:docstring of abaqus.Constraint.ConstraintModel.ConstraintModel.ShellSolidCoupling:3
+#: ../../../../../src/abaqus/Constraint/ConstraintModel.py:docstring of abaqus.Constraint.ConstraintModel.ConstraintModel.ShellSolidCoupling:8
+#: ../../../../../src/abaqus/Constraint/ConstraintModel.py:docstring of abaqus.Constraint.ConstraintModel.ConstraintModel.Tie:3
+#: ../../../../../src/abaqus/Constraint/ConstraintModel.py:docstring of abaqus.Constraint.ConstraintModel.ConstraintModel.Tie:8
+#: ../../../../../src/abaqus/Constraint/Coupling.py:docstring of abaqus.Constraint.Coupling.Coupling:4
+#: ../../../../../src/abaqus/Constraint/Coupling.py:docstring of abaqus.Constraint.Coupling.Coupling:14
+#: ../../../../../src/abaqus/Constraint/Coupling.py:docstring of abaqus.Constraint.Coupling.Coupling:19
+#: ../../../../../src/abaqus/Constraint/Coupling.py:docstring of abaqus.Constraint.Coupling.Coupling.setValues:3
+#: ../../../../../src/abaqus/Constraint/DisplayBody.py:docstring of abaqus.Constraint.DisplayBody.DisplayBody:6
+#: ../../../../../src/abaqus/Constraint/DisplayBody.py:docstring of abaqus.Constraint.DisplayBody.DisplayBody:16
+#: ../../../../../src/abaqus/Constraint/DisplayBody.py:docstring of abaqus.Constraint.DisplayBody.DisplayBody:21
+#: ../../../../../src/abaqus/Constraint/EmbeddedRegion.py:docstring of abaqus.Constraint.EmbeddedRegion.EmbeddedRegion:4
+#: ../../../../../src/abaqus/Constraint/EmbeddedRegion.py:docstring of abaqus.Constraint.EmbeddedRegion.EmbeddedRegion:14
+#: ../../../../../src/abaqus/Constraint/EmbeddedRegion.py:docstring of abaqus.Constraint.EmbeddedRegion.EmbeddedRegion:19
+#: ../../../../../src/abaqus/Constraint/EmbeddedRegion.py:docstring of abaqus.Constraint.EmbeddedRegion.EmbeddedRegion.setValues:3
+#: ../../../../../src/abaqus/Constraint/Equation.py:docstring of abaqus.Constraint.Equation.Equation:4
+#: ../../../../../src/abaqus/Constraint/Equation.py:docstring of abaqus.Constraint.Equation.Equation:14
+#: ../../../../../src/abaqus/Constraint/Equation.py:docstring of abaqus.Constraint.Equation.Equation:19
+#: ../../../../../src/abaqus/Constraint/MultipointConstraint.py:docstring of abaqus.Constraint.MultipointConstraint.MultipointConstraint:5
+#: ../../../../../src/abaqus/Constraint/MultipointConstraint.py:docstring of abaqus.Constraint.MultipointConstraint.MultipointConstraint:15
+#: ../../../../../src/abaqus/Constraint/MultipointConstraint.py:docstring of abaqus.Constraint.MultipointConstraint.MultipointConstraint:20
+#: ../../../../../src/abaqus/Constraint/MultipointConstraint.py:docstring of abaqus.Constraint.MultipointConstraint.MultipointConstraint.setValues:3
+#: ../../../../../src/abaqus/Constraint/RigidBody.py:docstring of abaqus.Constraint.RigidBody.RigidBody:5
+#: ../../../../../src/abaqus/Constraint/RigidBody.py:docstring of abaqus.Constraint.RigidBody.RigidBody:15
+#: ../../../../../src/abaqus/Constraint/RigidBody.py:docstring of abaqus.Constraint.RigidBody.RigidBody:20
+#: ../../../../../src/abaqus/Constraint/RigidBody.py:docstring of abaqus.Constraint.RigidBody.RigidBody.setValues:3
+#: ../../../../../src/abaqus/Constraint/ShellSolidCoupling.py:docstring of abaqus.Constraint.ShellSolidCoupling.ShellSolidCoupling:4
+#: ../../../../../src/abaqus/Constraint/ShellSolidCoupling.py:docstring of abaqus.Constraint.ShellSolidCoupling.ShellSolidCoupling:14
+#: ../../../../../src/abaqus/Constraint/ShellSolidCoupling.py:docstring of abaqus.Constraint.ShellSolidCoupling.ShellSolidCoupling:19
+#: ../../../../../src/abaqus/Constraint/ShellSolidCoupling.py:docstring of abaqus.Constraint.ShellSolidCoupling.ShellSolidCoupling.setValues:3
+#: ../../../../../src/abaqus/Constraint/Tie.py:docstring of abaqus.Constraint.Tie.Tie:4
+#: ../../../../../src/abaqus/Constraint/Tie.py:docstring of abaqus.Constraint.Tie.Tie:14
+#: ../../../../../src/abaqus/Constraint/Tie.py:docstring of abaqus.Constraint.Tie.Tie:19
+#: ../../../../../src/abaqus/Constraint/Tie.py:docstring of abaqus.Constraint.Tie.Tie.setValues:3
+msgid "Note"
 msgstr ""
 
 #: ../../../../../src/abaqus/Constraint/AdjustPoints.py:docstring of abaqus.Constraint.AdjustPoints.AdjustPoints:5

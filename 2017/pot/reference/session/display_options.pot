@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: abqpy 2017\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-15 05:55+0000\n"
+"POT-Creation-Date: 2023-09-14 01:59+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -52,6 +52,65 @@ msgstr ""
 
 #: ../../../../../src/abaqus/DisplayOptions/AssemblyDisplayOptions.py:docstring of abaqus.DisplayOptions.AssemblyDisplayOptions.AssemblyDisplayOptions:1
 msgid "The AssemblyDisplayOptions object stores settings that specify how assemblies are to be displayed in a particular viewport. The AssemblyDisplayOptions object has no constructor. When you create a new viewport, the settings are copied from the current viewport."
+msgstr ""
+
+#: ../../../../../src/abaqus/DisplayOptions/AssemblyDisplayOptions.py:docstring of abaqus.DisplayOptions.AssemblyDisplayOptions.AssemblyDisplayOptions:5
+#: ../../../../../src/abaqus/DisplayOptions/AssemblyDisplayOptions.py:docstring of abaqus.DisplayOptions.AssemblyDisplayOptions.AssemblyDisplayOptions:12
+#: ../../../../../src/abaqus/DisplayOptions/AssemblyDisplayOptions.py:docstring of abaqus.DisplayOptions.AssemblyDisplayOptions.AssemblyDisplayOptions.setValues:3
+#: ../../../../../src/abaqus/DisplayOptions/BCDisplayOptions.py:docstring of abaqus.DisplayOptions.BCDisplayOptions.BCDisplayOptions:5
+#: ../../../../../src/abaqus/DisplayOptions/BCDisplayOptions.py:docstring of abaqus.DisplayOptions.BCDisplayOptions.BCDisplayOptions:11
+#: ../../../../../src/abaqus/DisplayOptions/BCDisplayOptions.py:docstring of abaqus.DisplayOptions.BCDisplayOptions.BCDisplayOptions.setValues:3
+#: ../../../../../src/abaqus/DisplayOptions/ConstraintDisplayOptions.py:docstring of abaqus.DisplayOptions.ConstraintDisplayOptions.ConstraintDisplayOptions:6
+#: ../../../../../src/abaqus/DisplayOptions/ConstraintDisplayOptions.py:docstring of abaqus.DisplayOptions.ConstraintDisplayOptions.ConstraintDisplayOptions:12
+#: ../../../../../src/abaqus/DisplayOptions/ConstraintDisplayOptions.py:docstring of abaqus.DisplayOptions.ConstraintDisplayOptions.ConstraintDisplayOptions.setValues:3
+#: ../../../../../src/abaqus/DisplayOptions/EngineeringFeatureDisplayOptions.py:docstring of abaqus.DisplayOptions.EngineeringFeatureDisplayOptions.EngineeringFeatureDisplayOptions:6
+#: ../../../../../src/abaqus/DisplayOptions/EngineeringFeatureDisplayOptions.py:docstring of abaqus.DisplayOptions.EngineeringFeatureDisplayOptions.EngineeringFeatureDisplayOptions:15
+#: ../../../../../src/abaqus/DisplayOptions/EngineeringFeatureDisplayOptions.py:docstring of abaqus.DisplayOptions.EngineeringFeatureDisplayOptions.EngineeringFeatureDisplayOptions.setValues:3
+#: ../../../../../src/abaqus/DisplayOptions/GeometricRestrictionDisplayOptions.py:docstring of abaqus.DisplayOptions.GeometricRestrictionDisplayOptions.GeometricRestrictionDisplayOptions:6
+#: ../../../../../src/abaqus/DisplayOptions/GeometricRestrictionDisplayOptions.py:docstring of abaqus.DisplayOptions.GeometricRestrictionDisplayOptions.GeometricRestrictionDisplayOptions:12
+#: ../../../../../src/abaqus/DisplayOptions/GeometricRestrictionDisplayOptions.py:docstring of abaqus.DisplayOptions.GeometricRestrictionDisplayOptions.GeometricRestrictionDisplayOptions.setValues:3
+#: ../../../../../src/abaqus/DisplayOptions/GeometryDisplayOptions.py:docstring of abaqus.DisplayOptions.GeometryDisplayOptions.GeometryDisplayOptions:5
+#: ../../../../../src/abaqus/DisplayOptions/GeometryDisplayOptions.py:docstring of abaqus.DisplayOptions.GeometryDisplayOptions.GeometryDisplayOptions:13
+#: ../../../../../src/abaqus/DisplayOptions/GeometryDisplayOptions.py:docstring of abaqus.DisplayOptions.GeometryDisplayOptions.GeometryDisplayOptions.setValues:3
+#: ../../../../../src/abaqus/DisplayOptions/GraphicsInfo.py:docstring of abaqus.DisplayOptions.GraphicsInfo.GraphicsInfo:11
+#: ../../../../../src/abaqus/DisplayOptions/GraphicsInfo.py:docstring of abaqus.DisplayOptions.GraphicsInfo.GraphicsInfo:16
+#: ../../../../../src/abaqus/DisplayOptions/GraphicsOptions.py:docstring of abaqus.DisplayOptions.GraphicsOptions.GraphicsOptions:15
+#: ../../../../../src/abaqus/DisplayOptions/GraphicsOptions.py:docstring of abaqus.DisplayOptions.GraphicsOptions.GraphicsOptions:21
+#: ../../../../../src/abaqus/DisplayOptions/GraphicsOptions.py:docstring of abaqus.DisplayOptions.GraphicsOptions.GraphicsOptions.setValues:3
+#: ../../../../../src/abaqus/DisplayOptions/InteractionDisplayOptions.py:docstring of abaqus.DisplayOptions.InteractionDisplayOptions.InteractionDisplayOptions:6
+#: ../../../../../src/abaqus/DisplayOptions/InteractionDisplayOptions.py:docstring of abaqus.DisplayOptions.InteractionDisplayOptions.InteractionDisplayOptions:12
+#: ../../../../../src/abaqus/DisplayOptions/InteractionDisplayOptions.py:docstring of abaqus.DisplayOptions.InteractionDisplayOptions.InteractionDisplayOptions.setValues:3
+#: ../../../../../src/abaqus/DisplayOptions/Light.py:docstring of abaqus.DisplayOptions.Light.Light:6
+#: ../../../../../src/abaqus/DisplayOptions/Light.py:docstring of abaqus.DisplayOptions.Light.Light:12
+#: ../../../../../src/abaqus/DisplayOptions/Light.py:docstring of abaqus.DisplayOptions.Light.Light.setValues:3
+#: ../../../../../src/abaqus/DisplayOptions/LightOptions.py:docstring of abaqus.DisplayOptions.LightOptions.LightOptions:11
+#: ../../../../../src/abaqus/DisplayOptions/LightOptions.py:docstring of abaqus.DisplayOptions.LightOptions.LightOptions:17
+#: ../../../../../src/abaqus/DisplayOptions/LightOptions.py:docstring of abaqus.DisplayOptions.LightOptions.LightOptions.setValues:3
+#: ../../../../../src/abaqus/DisplayOptions/LoadDisplayOptions.py:docstring of abaqus.DisplayOptions.LoadDisplayOptions.LoadDisplayOptions:5
+#: ../../../../../src/abaqus/DisplayOptions/LoadDisplayOptions.py:docstring of abaqus.DisplayOptions.LoadDisplayOptions.LoadDisplayOptions:11
+#: ../../../../../src/abaqus/DisplayOptions/LoadDisplayOptions.py:docstring of abaqus.DisplayOptions.LoadDisplayOptions.LoadDisplayOptions.setValues:3
+#: ../../../../../src/abaqus/DisplayOptions/MeshDisplayOptions.py:docstring of abaqus.DisplayOptions.MeshDisplayOptions.MeshDisplayOptions:5
+#: ../../../../../src/abaqus/DisplayOptions/MeshDisplayOptions.py:docstring of abaqus.DisplayOptions.MeshDisplayOptions.MeshDisplayOptions:13
+#: ../../../../../src/abaqus/DisplayOptions/MeshDisplayOptions.py:docstring of abaqus.DisplayOptions.MeshDisplayOptions.MeshDisplayOptions.setValues:3
+#: ../../../../../src/abaqus/DisplayOptions/OptimizationTaskDisplayOptions.py:docstring of abaqus.DisplayOptions.OptimizationTaskDisplayOptions.OptimizationTaskDisplayOptions:6
+#: ../../../../../src/abaqus/DisplayOptions/OptimizationTaskDisplayOptions.py:docstring of abaqus.DisplayOptions.OptimizationTaskDisplayOptions.OptimizationTaskDisplayOptions:12
+#: ../../../../../src/abaqus/DisplayOptions/OptimizationTaskDisplayOptions.py:docstring of abaqus.DisplayOptions.OptimizationTaskDisplayOptions.OptimizationTaskDisplayOptions.setValues:3
+#: ../../../../../src/abaqus/DisplayOptions/PartDisplayOptions.py:docstring of abaqus.DisplayOptions.PartDisplayOptions.PartDisplayOptions:5
+#: ../../../../../src/abaqus/DisplayOptions/PartDisplayOptions.py:docstring of abaqus.DisplayOptions.PartDisplayOptions.PartDisplayOptions:12
+#: ../../../../../src/abaqus/DisplayOptions/PartDisplayOptions.py:docstring of abaqus.DisplayOptions.PartDisplayOptions.PartDisplayOptions.setValues:3
+#: ../../../../../src/abaqus/DisplayOptions/PredefinedFieldDisplayOptions.py:docstring of abaqus.DisplayOptions.PredefinedFieldDisplayOptions.PredefinedFieldDisplayOptions:6
+#: ../../../../../src/abaqus/DisplayOptions/PredefinedFieldDisplayOptions.py:docstring of abaqus.DisplayOptions.PredefinedFieldDisplayOptions.PredefinedFieldDisplayOptions:12
+#: ../../../../../src/abaqus/DisplayOptions/PredefinedFieldDisplayOptions.py:docstring of abaqus.DisplayOptions.PredefinedFieldDisplayOptions.PredefinedFieldDisplayOptions.setValues:3
+#: ../../../../../src/abaqus/DisplayOptions/StopConditionDisplayOptions.py:docstring of abaqus.DisplayOptions.StopConditionDisplayOptions.StopConditionDisplayOptions:6
+#: ../../../../../src/abaqus/DisplayOptions/StopConditionDisplayOptions.py:docstring of abaqus.DisplayOptions.StopConditionDisplayOptions.StopConditionDisplayOptions:12
+#: ../../../../../src/abaqus/DisplayOptions/StopConditionDisplayOptions.py:docstring of abaqus.DisplayOptions.StopConditionDisplayOptions.StopConditionDisplayOptions.setValues:3
+#: ../../../../../src/abaqus/DisplayOptions/SymbolDisplayOptions.py:docstring of abaqus.DisplayOptions.SymbolDisplayOptions.SymbolDisplayOptions:5
+#: ../../../../../src/abaqus/DisplayOptions/SymbolDisplayOptions.py:docstring of abaqus.DisplayOptions.SymbolDisplayOptions.SymbolDisplayOptions:11
+#: ../../../../../src/abaqus/DisplayOptions/SymbolDisplayOptions.py:docstring of abaqus.DisplayOptions.SymbolDisplayOptions.SymbolDisplayOptions.setValues:3
+#: ../../../../../src/abaqus/DisplayOptions/ViewportAnnotationOptions.py:docstring of abaqus.DisplayOptions.ViewportAnnotationOptions.ViewportAnnotationOptions:13
+#: ../../../../../src/abaqus/DisplayOptions/ViewportAnnotationOptions.py:docstring of abaqus.DisplayOptions.ViewportAnnotationOptions.ViewportAnnotationOptions:19
+#: ../../../../../src/abaqus/DisplayOptions/ViewportAnnotationOptions.py:docstring of abaqus.DisplayOptions.ViewportAnnotationOptions.ViewportAnnotationOptions.setValues:3
+msgid "Note"
 msgstr ""
 
 #: ../../../../../src/abaqus/DisplayOptions/AssemblyDisplayOptions.py:docstring of abaqus.DisplayOptions.AssemblyDisplayOptions.AssemblyDisplayOptions:6

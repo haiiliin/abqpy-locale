@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: abqpy 2017\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-15 05:55+0000\n"
+"POT-Creation-Date: 2023-09-14 01:59+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -64,6 +64,10 @@ msgstr ""
 msgid "The name can include spaces and most punctuation marks and special characters; however, only 7-bit ASCII characters are supported."
 msgstr ""
 
+#: ../../../user/python/python-abaqus/errors.md:25
+msgid "Warning"
+msgstr ""
+
 #: ../../../user/python/python-abaqus/errors.md:26
 msgid "While Python allows most punctuation marks and special characters, some of the strings you provide will be used in an Abaqus input file; therefore, you cannot use the following characters: `` \\$\\&\\*\\~\\!\\(\\)\\[\\]\\{\\}\\|\\;\\'\\`\\\"\\,\\.\\?\\/\\\\ `` when you are naming an object, such as a part, a model or a job."
 msgstr ""
@@ -99,6 +103,10 @@ msgstr ""
 
 #: ../../../user/python/python-abaqus/errors.md:43
 msgid "**AbaqusException**"
+msgstr ""
+
+#: ../../../user/python/python-abaqus/errors.md:47
+msgid "Note"
 msgstr ""
 
 #: ../../../user/python/python-abaqus/errors.md:48
