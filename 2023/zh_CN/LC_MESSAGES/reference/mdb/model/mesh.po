@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: abqpy \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-19 08:18+0000\n"
+"POT-Creation-Date: 2023-09-14 01:32+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -43,6 +43,122 @@ msgstr ""
 msgid ""
 "The ElemType object is an argument object used as an argument in the "
 "setElementType command."
+msgstr ""
+
+#: abaqus.Mesh.ElemType.ElemType:3 abaqus.Mesh.ElemType.ElemType:8
+#: abaqus.Mesh.ElemType.ElemType:13 abaqus.Mesh.MeshAssembly.MeshAssembly:4
+#: abaqus.Mesh.MeshAssembly.MeshAssembly:10
+#: abaqus.Mesh.MeshAssembly.MeshAssembly.assignStackDirection:4
+#: abaqus.Mesh.MeshAssembly.MeshAssembly.associateMeshWithGeometry:4
+#: abaqus.Mesh.MeshAssembly.MeshAssembly.createVirtualTopology:5
+#: abaqus.Mesh.MeshAssembly.MeshAssembly.deleteBoundaryLayerControls:3
+#: abaqus.Mesh.MeshAssembly.MeshAssembly.deleteMesh:4
+#: abaqus.Mesh.MeshAssembly.MeshAssembly.deleteMeshAssociationWithGeometry:3
+#: abaqus.Mesh.MeshAssembly.MeshAssembly.deleteSeeds:4
+#: abaqus.Mesh.MeshAssembly.MeshAssembly.generateBottomUpExtrudedMesh:4
+#: abaqus.Mesh.MeshAssembly.MeshAssembly.generateBottomUpRevolvedMesh:4
+#: abaqus.Mesh.MeshAssembly.MeshAssembly.generateBottomUpSweptMesh:4
+#: abaqus.Mesh.MeshAssembly.MeshAssembly.generateMesh:3
+#: abaqus.Mesh.MeshAssembly.MeshAssembly.getEdgeSeeds:3
+#: abaqus.Mesh.MeshAssembly.MeshAssembly.getElementType:4
+#: abaqus.Mesh.MeshAssembly.MeshAssembly.getIncompatibleMeshInterfaces:3
+#: abaqus.Mesh.MeshAssembly.MeshAssembly.getMeshControl:3
+#: abaqus.Mesh.MeshAssembly.MeshAssembly.getMeshStats:3
+#: abaqus.Mesh.MeshAssembly.MeshAssembly.getPartSeeds:3
+#: abaqus.Mesh.MeshAssembly.MeshAssembly.ignoreEntity:5
+#: abaqus.Mesh.MeshAssembly.MeshAssembly.restoreIgnoredEntity:3
+#: abaqus.Mesh.MeshAssembly.MeshAssembly.seedEdgeByBias:4
+#: abaqus.Mesh.MeshAssembly.MeshAssembly.seedEdgeByNumber:3
+#: abaqus.Mesh.MeshAssembly.MeshAssembly.seedEdgeBySize:4
+#: abaqus.Mesh.MeshAssembly.MeshAssembly.seedPartInstance:3
+#: abaqus.Mesh.MeshAssembly.MeshAssembly.setBoundaryLayerControls:3
+#: abaqus.Mesh.MeshAssembly.MeshAssembly.setElementType:3
+#: abaqus.Mesh.MeshAssembly.MeshAssembly.setLogicalCorners:3
+#: abaqus.Mesh.MeshAssembly.MeshAssembly.setMeshControls:3
+#: abaqus.Mesh.MeshAssembly.MeshAssembly.setSweepPath:3
+#: abaqus.Mesh.MeshAssembly.MeshAssembly.verifyMeshQuality:3
+#: abaqus.Mesh.MeshEdge.MeshEdge:4 abaqus.Mesh.MeshEdge.MeshEdge:16
+#: abaqus.Mesh.MeshEdge.MeshEdge.getElementsViaTopology:4
+#: abaqus.Mesh.MeshEdge.MeshEdge.getNodesViaTopology:4
+#: abaqus.Mesh.MeshEdgeArray.MeshEdgeArray:3
+#: abaqus.Mesh.MeshEdgeArray.MeshEdgeArray:12
+#: abaqus.Mesh.MeshEdgeArray.MeshEdgeArray:17
+#: abaqus.Mesh.MeshEdgeArray.MeshEdgeArray.getSequenceFromMask:4
+#: abaqus.Mesh.MeshElement.MeshElement:5 abaqus.Mesh.MeshElement.MeshElement:34
+#: abaqus.Mesh.MeshElement.MeshElement.Element:3
+#: abaqus.Mesh.MeshElement.MeshElement.Element:8
+#: abaqus.Mesh.MeshElement.MeshElement.getElementsByFeatureEdge:4
+#: abaqus.Mesh.MeshElement.MeshElement.setValues:3
+#: abaqus.Mesh.MeshElementArray.MeshElementArray:3
+#: abaqus.Mesh.MeshElementArray.MeshElementArray:32
+#: abaqus.Mesh.MeshElementArray.MeshElementArray:37
+#: abaqus.Mesh.MeshElementArray.MeshElementArray.getByBoundingBox:3
+#: abaqus.Mesh.MeshElementArray.MeshElementArray.getByBoundingCylinder:3
+#: abaqus.Mesh.MeshElementArray.MeshElementArray.getByBoundingSphere:3
+#: abaqus.Mesh.MeshElementArray.MeshElementArray.getFromLabel:3
+#: abaqus.Mesh.MeshElementArray.MeshElementArray.getSequenceFromMask:5
+#: abaqus.Mesh.MeshElementArray.MeshElementArray.sequenceFromLabels:3
+#: abaqus.Mesh.MeshFace.MeshFace:4 abaqus.Mesh.MeshFace.MeshFace:16
+#: abaqus.Mesh.MeshFace.MeshFace.getElemEdgesByFaceAngle:4
+#: abaqus.Mesh.MeshFace.MeshFace.getElemFacesByFaceAngle:4
+#: abaqus.Mesh.MeshFace.MeshFace.getElemFacesByLayer:4
+#: abaqus.Mesh.MeshFace.MeshFace.getElemFacesByLimitingAngle:5
+#: abaqus.Mesh.MeshFace.MeshFace.getElementsByFaceAngle:4
+#: abaqus.Mesh.MeshFace.MeshFace.getNodesByFaceAngle:4
+#: abaqus.Mesh.MeshFaceArray.MeshFaceArray:3
+#: abaqus.Mesh.MeshFaceArray.MeshFaceArray:12
+#: abaqus.Mesh.MeshFaceArray.MeshFaceArray:17
+#: abaqus.Mesh.MeshFaceArray.MeshFaceArray.getSequenceFromMask:4
+#: abaqus.Mesh.MeshNode.MeshNode:5 abaqus.Mesh.MeshNode.MeshNode:35
+#: abaqus.Mesh.MeshNode.MeshNode:40
+#: abaqus.Mesh.MeshNode.MeshNode.getNodesByFeatureEdge:4
+#: abaqus.Mesh.MeshNode.MeshNode.setValues:3
+#: abaqus.Mesh.MeshNodeArray.MeshNodeArray:3
+#: abaqus.Mesh.MeshNodeArray.MeshNodeArray:33
+#: abaqus.Mesh.MeshNodeArray.MeshNodeArray:38
+#: abaqus.Mesh.MeshNodeArray.MeshNodeArray.getByBoundingBox:3
+#: abaqus.Mesh.MeshNodeArray.MeshNodeArray.getByBoundingCylinder:3
+#: abaqus.Mesh.MeshNodeArray.MeshNodeArray.getByBoundingSphere:3
+#: abaqus.Mesh.MeshNodeArray.MeshNodeArray.getClosest:3
+#: abaqus.Mesh.MeshNodeArray.MeshNodeArray.getFromLabel:3
+#: abaqus.Mesh.MeshNodeArray.MeshNodeArray.getSequenceFromMask:5
+#: abaqus.Mesh.MeshNodeArray.MeshNodeArray.sequenceFromLabels:3
+#: abaqus.Mesh.MeshPart.MeshPart:4 abaqus.Mesh.MeshPart.MeshPart:9
+#: abaqus.Mesh.MeshPart.MeshPart.Node:3 abaqus.Mesh.MeshPart.MeshPart.Node:8
+#: abaqus.Mesh.MeshPart.MeshPart.assignStackDirection:4
+#: abaqus.Mesh.MeshPart.MeshPart.associateMeshWithGeometry:4
+#: abaqus.Mesh.MeshPart.MeshPart.createVirtualTopology:5
+#: abaqus.Mesh.MeshPart.MeshPart.deleteBoundaryLayerControls:3
+#: abaqus.Mesh.MeshPart.MeshPart.deleteMesh:4
+#: abaqus.Mesh.MeshPart.MeshPart.deleteMeshAssociationWithGeometry:3
+#: abaqus.Mesh.MeshPart.MeshPart.deleteSeeds:4
+#: abaqus.Mesh.MeshPart.MeshPart.generateBottomUpExtrudedMesh:4
+#: abaqus.Mesh.MeshPart.MeshPart.generateBottomUpRevolvedMesh:4
+#: abaqus.Mesh.MeshPart.MeshPart.generateBottomUpSweptMesh:4
+#: abaqus.Mesh.MeshPart.MeshPart.generateMesh:3
+#: abaqus.Mesh.MeshPart.MeshPart.getEdgeSeeds:3
+#: abaqus.Mesh.MeshPart.MeshPart.getElementType:3
+#: abaqus.Mesh.MeshPart.MeshPart.getIncompatibleMeshInterfaces:3
+#: abaqus.Mesh.MeshPart.MeshPart.getMeshControl:3
+#: abaqus.Mesh.MeshPart.MeshPart.getMeshStats:3
+#: abaqus.Mesh.MeshPart.MeshPart.getPartSeeds:3
+#: abaqus.Mesh.MeshPart.MeshPart.ignoreEntity:5
+#: abaqus.Mesh.MeshPart.MeshPart.restoreIgnoredEntity:3
+#: abaqus.Mesh.MeshPart.MeshPart.seedEdgeByBias:4
+#: abaqus.Mesh.MeshPart.MeshPart.seedEdgeByNumber:3
+#: abaqus.Mesh.MeshPart.MeshPart.seedEdgeBySize:4
+#: abaqus.Mesh.MeshPart.MeshPart.seedPart:3
+#: abaqus.Mesh.MeshPart.MeshPart.setBoundaryLayerControls:3
+#: abaqus.Mesh.MeshPart.MeshPart.setElementType:3
+#: abaqus.Mesh.MeshPart.MeshPart.setLogicalCorners:3
+#: abaqus.Mesh.MeshPart.MeshPart.setMeshControls:3
+#: abaqus.Mesh.MeshPart.MeshPart.setSweepPath:3
+#: abaqus.Mesh.MeshPart.MeshPart.verifyMeshQuality:3
+#: abaqus.Mesh.MeshStats.MeshStats:4 abaqus.Mesh.MeshStats.MeshStats:9
+#: abaqus.Mesh.MesherOptions.MesherOptions:6
+#: abaqus.Mesh.MesherOptions.MesherOptions:11
+#: abaqus.Mesh.MesherOptions.MesherOptions.setValues:3 of
+msgid "Note"
 msgstr ""
 
 #: abaqus.Mesh.ElemType.ElemType:4 abaqus.Mesh.MeshAssembly.MeshAssembly:5

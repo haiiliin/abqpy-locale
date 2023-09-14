@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: abqpy 2023\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-19 08:18+0000\n"
+"POT-Creation-Date: 2023-09-14 01:32+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,6 +34,67 @@ msgstr ""
 
 #: ../../../../../src/abaqus/TableCollection/TableCollectionAssembly.py:docstring of abaqus.TableCollection.TableCollectionAssembly.TableCollectionAssembly:1
 msgid "An Assembly object is a container for instances of parts. The Assembly object has no constructor command. Abaqus creates the **rootAssembly** member when a Model object is created."
+msgstr ""
+
+#: ../../../../../src/abaqus/TableCollection/ActivateElements.py:docstring of abaqus.TableCollection.ActivateElements.ActivateElements:3
+#: ../../../../../src/abaqus/TableCollection/ActivateElements.py:docstring of abaqus.TableCollection.ActivateElements.ActivateElements:16
+#: ../../../../../src/abaqus/TableCollection/ActivateElements.py:docstring of abaqus.TableCollection.ActivateElements.ActivateElements:21
+#: ../../../../../src/abaqus/TableCollection/DataTable.py:docstring of abaqus.TableCollection.DataTable.DataTable:6
+#: ../../../../../src/abaqus/TableCollection/DataTable.py:docstring of abaqus.TableCollection.DataTable.DataTable:18
+#: ../../../../../src/abaqus/TableCollection/DataTable.py:docstring of abaqus.TableCollection.DataTable.DataTable:23
+#: ../../../../../src/abaqus/TableCollection/ElementProgressiveActivation.py:docstring of abaqus.TableCollection.ElementProgressiveActivation.ElementProgressiveActivation:4
+#: ../../../../../src/abaqus/TableCollection/ElementProgressiveActivation.py:docstring of abaqus.TableCollection.ElementProgressiveActivation.ElementProgressiveActivation:16
+#: ../../../../../src/abaqus/TableCollection/ElementProgressiveActivation.py:docstring of abaqus.TableCollection.ElementProgressiveActivation.ElementProgressiveActivation:22
+#: ../../../../../src/abaqus/TableCollection/EventSeries.py:docstring of abaqus.TableCollection.EventSeries.EventSeries:4
+#: ../../../../../src/abaqus/TableCollection/EventSeries.py:docstring of abaqus.TableCollection.EventSeries.EventSeries:17
+#: ../../../../../src/abaqus/TableCollection/EventSeries.py:docstring of abaqus.TableCollection.EventSeries.EventSeries:22
+#: ../../../../../src/abaqus/TableCollection/EventSeries.py:docstring of abaqus.TableCollection.EventSeries.EventSeries.setValues:3
+#: ../../../../../src/abaqus/TableCollection/EventSeriesType.py:docstring of abaqus.TableCollection.EventSeriesType.EventSeriesType:3
+#: ../../../../../src/abaqus/TableCollection/EventSeriesType.py:docstring of abaqus.TableCollection.EventSeriesType.EventSeriesType:16
+#: ../../../../../src/abaqus/TableCollection/EventSeriesType.py:docstring of abaqus.TableCollection.EventSeriesType.EventSeriesType:21
+#: ../../../../../src/abaqus/TableCollection/EventSeriesType.py:docstring of abaqus.TableCollection.EventSeriesType.EventSeriesType.setValues:3
+#: ../../../../../src/abaqus/TableCollection/ParameterColumn.py:docstring of abaqus.TableCollection.ParameterColumn.ParameterColumn:4
+#: ../../../../../src/abaqus/TableCollection/ParameterColumn.py:docstring of abaqus.TableCollection.ParameterColumn.ParameterColumn:17
+#: ../../../../../src/abaqus/TableCollection/ParameterColumn.py:docstring of abaqus.TableCollection.ParameterColumn.ParameterColumn:23
+#: ../../../../../src/abaqus/TableCollection/ParameterTable.py:docstring of abaqus.TableCollection.ParameterTable.ParameterTable:5
+#: ../../../../../src/abaqus/TableCollection/ParameterTable.py:docstring of abaqus.TableCollection.ParameterTable.ParameterTable:18
+#: ../../../../../src/abaqus/TableCollection/ParameterTable.py:docstring of abaqus.TableCollection.ParameterTable.ParameterTable:23
+#: ../../../../../src/abaqus/TableCollection/ParameterTable.py:docstring of abaqus.TableCollection.ParameterTable.ParameterTable.Column:4
+#: ../../../../../src/abaqus/TableCollection/ParameterTable.py:docstring of abaqus.TableCollection.ParameterTable.ParameterTable.Column:9
+#: ../../../../../src/abaqus/TableCollection/PropertyTable.py:docstring of abaqus.TableCollection.PropertyTable.PropertyTable:5
+#: ../../../../../src/abaqus/TableCollection/PropertyTable.py:docstring of abaqus.TableCollection.PropertyTable.PropertyTable:18
+#: ../../../../../src/abaqus/TableCollection/PropertyTable.py:docstring of abaqus.TableCollection.PropertyTable.PropertyTable:23
+#: ../../../../../src/abaqus/TableCollection/PropertyTable.py:docstring of abaqus.TableCollection.PropertyTable.PropertyTable.PropertyTableData:3
+#: ../../../../../src/abaqus/TableCollection/PropertyTable.py:docstring of abaqus.TableCollection.PropertyTable.PropertyTable.PropertyTableData:8
+#: ../../../../../src/abaqus/TableCollection/PropertyTable.py:docstring of abaqus.TableCollection.PropertyTable.PropertyTable.setValues:3
+#: ../../../../../src/abaqus/TableCollection/PropertyTableData.py:docstring of abaqus.TableCollection.PropertyTableData.PropertyTableData:5
+#: ../../../../../src/abaqus/TableCollection/PropertyTableData.py:docstring of abaqus.TableCollection.PropertyTableData.PropertyTableData:18
+#: ../../../../../src/abaqus/TableCollection/PropertyTableData.py:docstring of abaqus.TableCollection.PropertyTableData.PropertyTableData:23
+#: ../../../../../src/abaqus/TableCollection/TableCollection.py:docstring of abaqus.TableCollection.TableCollection.TableCollection:4
+#: ../../../../../src/abaqus/TableCollection/TableCollection.py:docstring of abaqus.TableCollection.TableCollection.TableCollection:16
+#: ../../../../../src/abaqus/TableCollection/TableCollection.py:docstring of abaqus.TableCollection.TableCollection.TableCollection:21
+#: ../../../../../src/abaqus/TableCollection/TableCollection.py:docstring of abaqus.TableCollection.TableCollection.TableCollection.DataTable:3
+#: ../../../../../src/abaqus/TableCollection/TableCollection.py:docstring of abaqus.TableCollection.TableCollection.TableCollection.DataTable:8
+#: ../../../../../src/abaqus/TableCollection/TableCollection.py:docstring of abaqus.TableCollection.TableCollection.TableCollection.ParameterTable:3
+#: ../../../../../src/abaqus/TableCollection/TableCollection.py:docstring of abaqus.TableCollection.TableCollection.TableCollection.ParameterTable:8
+#: ../../../../../src/abaqus/TableCollection/TableCollection.py:docstring of abaqus.TableCollection.TableCollection.TableCollection.PropertyTable:3
+#: ../../../../../src/abaqus/TableCollection/TableCollection.py:docstring of abaqus.TableCollection.TableCollection.TableCollection.PropertyTable:8
+#: ../../../../../src/abaqus/TableCollection/TableCollectionAssembly.py:docstring of abaqus.TableCollection.TableCollectionAssembly.TableCollectionAssembly:4
+#: ../../../../../src/abaqus/TableCollection/TableCollectionAssembly.py:docstring of abaqus.TableCollection.TableCollectionAssembly.TableCollectionAssembly:13
+#: ../../../../../src/abaqus/TableCollection/TableCollectionAssembly.py:docstring of abaqus.TableCollection.TableCollectionAssembly.TableCollectionAssembly.ElementProgressiveActivation:4
+#: ../../../../../src/abaqus/TableCollection/TableCollectionAssembly.py:docstring of abaqus.TableCollection.TableCollectionAssembly.TableCollectionAssembly.ElementProgressiveActivation:9
+#: ../../../../../src/abaqus/TableCollection/TableCollectionModel.py:docstring of abaqus.TableCollection.TableCollectionModel.TableCollectionModel:3
+#: ../../../../../src/abaqus/TableCollection/TableCollectionModel.py:docstring of abaqus.TableCollection.TableCollectionModel.TableCollectionModel:11
+#: ../../../../../src/abaqus/TableCollection/TableCollectionModel.py:docstring of abaqus.TableCollection.TableCollectionModel.TableCollectionModel:16
+#: ../../../../../src/abaqus/TableCollection/TableCollectionModel.py:docstring of abaqus.TableCollection.TableCollectionModel.TableCollectionModel.EventSeries:3
+#: ../../../../../src/abaqus/TableCollection/TableCollectionModel.py:docstring of abaqus.TableCollection.TableCollectionModel.TableCollectionModel.EventSeries:8
+#: ../../../../../src/abaqus/TableCollection/TableCollectionModel.py:docstring of abaqus.TableCollection.TableCollectionModel.TableCollectionModel.EventSeriesType:3
+#: ../../../../../src/abaqus/TableCollection/TableCollectionModel.py:docstring of abaqus.TableCollection.TableCollectionModel.TableCollectionModel.EventSeriesType:8
+#: ../../../../../src/abaqus/TableCollection/TableCollectionStep.py:docstring of abaqus.TableCollection.TableCollectionStep.TableCollectionStep:5
+#: ../../../../../src/abaqus/TableCollection/TableCollectionStep.py:docstring of abaqus.TableCollection.TableCollectionStep.TableCollectionStep:14
+#: ../../../../../src/abaqus/TableCollection/TableCollectionStep.py:docstring of abaqus.TableCollection.TableCollectionStep.TableCollectionStep.ActivateElements:3
+#: ../../../../../src/abaqus/TableCollection/TableCollectionStep.py:docstring of abaqus.TableCollection.TableCollectionStep.TableCollectionStep.ActivateElements:8
+msgid "Note"
 msgstr ""
 
 #: ../../../../../src/abaqus/TableCollection/ActivateElements.py:docstring of abaqus.TableCollection.ActivateElements.ActivateElements:4

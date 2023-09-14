@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: abqpy \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-24 15:21+0000\n"
+"POT-Creation-Date: 2023-09-14 01:32+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -48,6 +48,124 @@ msgid ""
 "evaluation of the parameters is called regeneration of the feature. "
 "Feature objects contain both the parameters and the resulting model "
 "modification."
+msgstr ""
+
+#: abaqus.Feature.Feature.Feature:6 abaqus.Feature.Feature.Feature:16
+#: abaqus.Feature.Feature.Feature.AttachmentPoints:5
+#: abaqus.Feature.Feature.Feature.AttachmentPoints:11
+#: abaqus.Feature.Feature.Feature.AttachmentPointsAlongDirection:6
+#: abaqus.Feature.Feature.Feature.AttachmentPointsAlongDirection:12
+#: abaqus.Feature.Feature.Feature.AttachmentPointsOffsetFromEdges:4
+#: abaqus.Feature.Feature.Feature.AttachmentPointsOffsetFromEdges:10
+#: abaqus.Feature.Feature.Feature.DatumAxisByCylFace:3
+#: abaqus.Feature.Feature.Feature.DatumAxisByCylFace:9
+#: abaqus.Feature.Feature.Feature.DatumAxisByNormalToPlane:4
+#: abaqus.Feature.Feature.Feature.DatumAxisByNormalToPlane:10
+#: abaqus.Feature.Feature.Feature.DatumAxisByParToEdge:4
+#: abaqus.Feature.Feature.Feature.DatumAxisByParToEdge:10
+#: abaqus.Feature.Feature.Feature.DatumAxisByPrincipalAxis:3
+#: abaqus.Feature.Feature.Feature.DatumAxisByPrincipalAxis:9
+#: abaqus.Feature.Feature.Feature.DatumAxisByThreePoint:4
+#: abaqus.Feature.Feature.Feature.DatumAxisByThruEdge:3
+#: abaqus.Feature.Feature.Feature.DatumAxisByThruEdge:9
+#: abaqus.Feature.Feature.Feature.DatumAxisByTwoPlane:3
+#: abaqus.Feature.Feature.Feature.DatumAxisByTwoPlane:9
+#: abaqus.Feature.Feature.Feature.DatumAxisByTwoPoint:3
+#: abaqus.Feature.Feature.Feature.DatumAxisByTwoPoint:9
+#: abaqus.Feature.Feature.Feature.DatumCsysByDefault:4
+#: abaqus.Feature.Feature.Feature.DatumCsysByDefault:10
+#: abaqus.Feature.Feature.Feature.DatumCsysByOffset:4
+#: abaqus.Feature.Feature.Feature.DatumCsysByOffset:10
+#: abaqus.Feature.Feature.Feature.DatumCsysByThreePoints:3
+#: abaqus.Feature.Feature.Feature.DatumCsysByThreePoints:9
+#: abaqus.Feature.Feature.Feature.DatumCsysByTwoLines:4
+#: abaqus.Feature.Feature.Feature.DatumCsysByTwoLines:10
+#: abaqus.Feature.Feature.Feature.DatumPlaneByLinePoint:4
+#: abaqus.Feature.Feature.Feature.DatumPlaneByLinePoint:10
+#: abaqus.Feature.Feature.Feature.DatumPlaneByPointNormal:4
+#: abaqus.Feature.Feature.Feature.DatumPlaneByPointNormal:10
+#: abaqus.Feature.Feature.Feature.DatumPlaneByPrincipalPlane:4
+#: abaqus.Feature.Feature.Feature.DatumPlaneByPrincipalPlane:10
+#: abaqus.Feature.Feature.Feature.DatumPlaneByRotation:4
+#: abaqus.Feature.Feature.Feature.DatumPlaneByThreePoints:3
+#: abaqus.Feature.Feature.Feature.DatumPlaneByThreePoints:9
+#: abaqus.Feature.Feature.Feature.DatumPlaneByTwoPoint:4
+#: abaqus.Feature.Feature.Feature.DatumPlaneByTwoPoint:10
+#: abaqus.Feature.Feature.Feature.DatumPointByCoordinate:4
+#: abaqus.Feature.Feature.Feature.DatumPointByCoordinate:10
+#: abaqus.Feature.Feature.Feature.DatumPointByEdgeParam:4
+#: abaqus.Feature.Feature.Feature.DatumPointByEdgeParam:10
+#: abaqus.Feature.Feature.Feature.DatumPointByMidPoint:3
+#: abaqus.Feature.Feature.Feature.DatumPointByMidPoint:9
+#: abaqus.Feature.Feature.Feature.DatumPointByOffset:4
+#: abaqus.Feature.Feature.Feature.DatumPointByOffset:10
+#: abaqus.Feature.Feature.Feature.DatumPointByOnFace:4
+#: abaqus.Feature.Feature.Feature.DatumPointByOnFace:10
+#: abaqus.Feature.Feature.Feature.DatumPointByProjOnEdge:4
+#: abaqus.Feature.Feature.Feature.DatumPointByProjOnEdge:10
+#: abaqus.Feature.Feature.Feature.DatumPointByProjOnFace:4
+#: abaqus.Feature.Feature.Feature.DatumPointByProjOnFace:10
+#: abaqus.Feature.Feature.Feature.MakeSketchTransform:4
+#: abaqus.Feature.Feature.Feature.MakeSketchTransform:10
+#: abaqus.Feature.Feature.Feature.PartitionCellByDatumPlane:3
+#: abaqus.Feature.Feature.Feature.PartitionCellByDatumPlane:9
+#: abaqus.Feature.Feature.Feature.PartitionCellByExtendFace:4
+#: abaqus.Feature.Feature.Feature.PartitionCellByExtendFace:10
+#: abaqus.Feature.Feature.Feature.PartitionCellByExtrudeEdge:3
+#: abaqus.Feature.Feature.Feature.PartitionCellByExtrudeEdge:9
+#: abaqus.Feature.Feature.Feature.PartitionCellByPatchNCorners:3
+#: abaqus.Feature.Feature.Feature.PartitionCellByPatchNCorners:9
+#: abaqus.Feature.Feature.Feature.PartitionCellByPatchNEdges:3
+#: abaqus.Feature.Feature.Feature.PartitionCellByPatchNEdges:9
+#: abaqus.Feature.Feature.Feature.PartitionCellByPlaneNormalToEdge:3
+#: abaqus.Feature.Feature.Feature.PartitionCellByPlaneNormalToEdge:9
+#: abaqus.Feature.Feature.Feature.PartitionCellByPlanePointNormal:3
+#: abaqus.Feature.Feature.Feature.PartitionCellByPlanePointNormal:9
+#: abaqus.Feature.Feature.Feature.PartitionCellByPlaneThreePoints:3
+#: abaqus.Feature.Feature.Feature.PartitionCellByPlaneThreePoints:9
+#: abaqus.Feature.Feature.Feature.PartitionCellBySweepEdge:3
+#: abaqus.Feature.Feature.Feature.PartitionCellBySweepEdge:9
+#: abaqus.Feature.Feature.Feature.PartitionEdgeByDatumPlane:3
+#: abaqus.Feature.Feature.Feature.PartitionEdgeByDatumPlane:9
+#: abaqus.Feature.Feature.Feature.PartitionEdgeByParam:3
+#: abaqus.Feature.Feature.Feature.PartitionEdgeByParam:9
+#: abaqus.Feature.Feature.Feature.PartitionEdgeByPoint:3
+#: abaqus.Feature.Feature.Feature.PartitionEdgeByPoint:9
+#: abaqus.Feature.Feature.Feature.PartitionFaceByAuto:4
+#: abaqus.Feature.Feature.Feature.PartitionFaceByAuto:10
+#: abaqus.Feature.Feature.Feature.PartitionFaceByCurvedPathEdgeParams:4
+#: abaqus.Feature.Feature.Feature.PartitionFaceByCurvedPathEdgeParams:10
+#: abaqus.Feature.Feature.Feature.PartitionFaceByCurvedPathEdgePoints:4
+#: abaqus.Feature.Feature.Feature.PartitionFaceByCurvedPathEdgePoints:10
+#: abaqus.Feature.Feature.Feature.PartitionFaceByDatumPlane:3
+#: abaqus.Feature.Feature.Feature.PartitionFaceByDatumPlane:9
+#: abaqus.Feature.Feature.Feature.PartitionFaceByExtendFace:4
+#: abaqus.Feature.Feature.Feature.PartitionFaceByExtendFace:10
+#: abaqus.Feature.Feature.Feature.PartitionFaceByIntersectFace:3
+#: abaqus.Feature.Feature.Feature.PartitionFaceByIntersectFace:9
+#: abaqus.Feature.Feature.Feature.PartitionFaceByProjectingEdges:3
+#: abaqus.Feature.Feature.Feature.PartitionFaceByProjectingEdges:9
+#: abaqus.Feature.Feature.Feature.PartitionFaceByShortestPath:3
+#: abaqus.Feature.Feature.Feature.PartitionFaceByShortestPath:9
+#: abaqus.Feature.Feature.Feature.PartitionFaceBySketch:3
+#: abaqus.Feature.Feature.Feature.PartitionFaceBySketch:9
+#: abaqus.Feature.Feature.Feature.PartitionFaceBySketchDistance:4
+#: abaqus.Feature.Feature.Feature.PartitionFaceBySketchDistance:10
+#: abaqus.Feature.Feature.Feature.PartitionFaceBySketchRefPoint:4
+#: abaqus.Feature.Feature.Feature.PartitionFaceBySketchRefPoint:10
+#: abaqus.Feature.Feature.Feature.PartitionFaceBySketchThruAll:4
+#: abaqus.Feature.Feature.Feature.PartitionFaceBySketchThruAll:10
+#: abaqus.Feature.Feature.Feature.ReferencePoint:3
+#: abaqus.Feature.Feature.Feature.ReferencePoint:9
+#: abaqus.Feature.Feature.Feature.RemoveWireEdges:3
+#: abaqus.Feature.Feature.Feature.RemoveWireEdges:9
+#: abaqus.Feature.Feature.Feature.WirePolyLine:7
+#: abaqus.Feature.Feature.Feature.WirePolyLine:13
+#: abaqus.Feature.Feature.Feature.setValues:3
+#: abaqus.Feature.FeatureOptions.FeatureOptions:4
+#: abaqus.Feature.FeatureOptions.FeatureOptions:10
+#: abaqus.Feature.FeatureOptions.FeatureOptions.setValues:3 of
+msgid "Note"
 msgstr ""
 
 #: abaqus.Feature.Feature.Feature:7
