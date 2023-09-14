@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: abqpy 2019\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-24 15:23+0000\n"
+"POT-Creation-Date: 2023-09-14 01:59+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -58,6 +58,61 @@ msgstr ""
 
 #: ../../../../../src/abaqus/StepMiscellaneous/CompositeDamping.py:docstring of abaqus.StepMiscellaneous.CompositeDamping.CompositeDamping:1
 msgid "A CompositeDamping object contains composite modal damping parameters."
+msgstr ""
+
+#: ../../../../../src/abaqus/StepMiscellaneous/CompositeDamping.py:docstring of abaqus.StepMiscellaneous.CompositeDamping.CompositeDamping:3
+#: ../../../../../src/abaqus/StepMiscellaneous/CompositeDamping.py:docstring of abaqus.StepMiscellaneous.CompositeDamping.CompositeDamping:9
+#: ../../../../../src/abaqus/StepMiscellaneous/CompositeDampingComponent.py:docstring of abaqus.StepMiscellaneous.CompositeDampingComponent.CompositeDampingComponent:3
+#: ../../../../../src/abaqus/StepMiscellaneous/CompositeDampingComponent.py:docstring of abaqus.StepMiscellaneous.CompositeDampingComponent.CompositeDampingComponent:9
+#: ../../../../../src/abaqus/StepMiscellaneous/Control.py:docstring of abaqus.StepMiscellaneous.Control.Control:3
+#: ../../../../../src/abaqus/StepMiscellaneous/Control.py:docstring of abaqus.StepMiscellaneous.Control.Control:9
+#: ../../../../../src/abaqus/StepMiscellaneous/Control.py:docstring of abaqus.StepMiscellaneous.Control.Control.setValues:3
+#: ../../../../../src/abaqus/StepMiscellaneous/DirectDamping.py:docstring of abaqus.StepMiscellaneous.DirectDamping.DirectDamping:3
+#: ../../../../../src/abaqus/StepMiscellaneous/DirectDamping.py:docstring of abaqus.StepMiscellaneous.DirectDamping.DirectDamping:9
+#: ../../../../../src/abaqus/StepMiscellaneous/DirectDampingByFrequency.py:docstring of abaqus.StepMiscellaneous.DirectDampingByFrequency.DirectDampingByFrequency:3
+#: ../../../../../src/abaqus/StepMiscellaneous/DirectDampingByFrequency.py:docstring of abaqus.StepMiscellaneous.DirectDampingByFrequency.DirectDampingByFrequency:9
+#: ../../../../../src/abaqus/StepMiscellaneous/DirectDampingByFrequencyComponent.py:docstring of abaqus.StepMiscellaneous.DirectDampingByFrequencyComponent.DirectDampingByFrequencyComponent:3
+#: ../../../../../src/abaqus/StepMiscellaneous/DirectDampingByFrequencyComponent.py:docstring of abaqus.StepMiscellaneous.DirectDampingByFrequencyComponent.DirectDampingByFrequencyComponent:9
+#: ../../../../../src/abaqus/StepMiscellaneous/DirectDampingComponent.py:docstring of abaqus.StepMiscellaneous.DirectDampingComponent.DirectDampingComponent:3
+#: ../../../../../src/abaqus/StepMiscellaneous/DirectDampingComponent.py:docstring of abaqus.StepMiscellaneous.DirectDampingComponent.DirectDampingComponent:9
+#: ../../../../../src/abaqus/StepMiscellaneous/EmagTimeHarmonicFrequency.py:docstring of abaqus.StepMiscellaneous.EmagTimeHarmonicFrequency.EmagTimeHarmonicFrequency:1
+#: ../../../../../src/abaqus/StepMiscellaneous/EmagTimeHarmonicFrequency.py:docstring of abaqus.StepMiscellaneous.EmagTimeHarmonicFrequency.EmagTimeHarmonicFrequency:7
+#: ../../../../../src/abaqus/StepMiscellaneous/MassScaling.py:docstring of abaqus.StepMiscellaneous.MassScaling.MassScaling:3
+#: ../../../../../src/abaqus/StepMiscellaneous/MassScaling.py:docstring of abaqus.StepMiscellaneous.MassScaling.MassScaling:9
+#: ../../../../../src/abaqus/StepMiscellaneous/RandomResponseFrequency.py:docstring of abaqus.StepMiscellaneous.RandomResponseFrequency.RandomResponseFrequency:4
+#: ../../../../../src/abaqus/StepMiscellaneous/RandomResponseFrequency.py:docstring of abaqus.StepMiscellaneous.RandomResponseFrequency.RandomResponseFrequency:10
+#: ../../../../../src/abaqus/StepMiscellaneous/RayleighDamping.py:docstring of abaqus.StepMiscellaneous.RayleighDamping.RayleighDamping:3
+#: ../../../../../src/abaqus/StepMiscellaneous/RayleighDamping.py:docstring of abaqus.StepMiscellaneous.RayleighDamping.RayleighDamping:9
+#: ../../../../../src/abaqus/StepMiscellaneous/RayleighDampingByFrequency.py:docstring of abaqus.StepMiscellaneous.RayleighDampingByFrequency.RayleighDampingByFrequency:3
+#: ../../../../../src/abaqus/StepMiscellaneous/RayleighDampingByFrequency.py:docstring of abaqus.StepMiscellaneous.RayleighDampingByFrequency.RayleighDampingByFrequency:9
+#: ../../../../../src/abaqus/StepMiscellaneous/RayleighDampingByFrequencyComponent.py:docstring of abaqus.StepMiscellaneous.RayleighDampingByFrequencyComponent.RayleighDampingByFrequencyComponent:4
+#: ../../../../../src/abaqus/StepMiscellaneous/RayleighDampingByFrequencyComponent.py:docstring of abaqus.StepMiscellaneous.RayleighDampingByFrequencyComponent.RayleighDampingByFrequencyComponent:10
+#: ../../../../../src/abaqus/StepMiscellaneous/RayleighDampingComponent.py:docstring of abaqus.StepMiscellaneous.RayleighDampingComponent.RayleighDampingComponent:3
+#: ../../../../../src/abaqus/StepMiscellaneous/RayleighDampingComponent.py:docstring of abaqus.StepMiscellaneous.RayleighDampingComponent.RayleighDampingComponent:9
+#: ../../../../../src/abaqus/StepMiscellaneous/ResponseSpectrumComponent.py:docstring of abaqus.StepMiscellaneous.ResponseSpectrumComponent.ResponseSpectrumComponent:3
+#: ../../../../../src/abaqus/StepMiscellaneous/ResponseSpectrumComponent.py:docstring of abaqus.StepMiscellaneous.ResponseSpectrumComponent.ResponseSpectrumComponent:9
+#: ../../../../../src/abaqus/StepMiscellaneous/SolverControl.py:docstring of abaqus.StepMiscellaneous.SolverControl.SolverControl:3
+#: ../../../../../src/abaqus/StepMiscellaneous/SolverControl.py:docstring of abaqus.StepMiscellaneous.SolverControl.SolverControl:9
+#: ../../../../../src/abaqus/StepMiscellaneous/SolverControl.py:docstring of abaqus.StepMiscellaneous.SolverControl.SolverControl.setValues:3
+#: ../../../../../src/abaqus/StepMiscellaneous/SteadyStateDirectFrequency.py:docstring of abaqus.StepMiscellaneous.SteadyStateDirectFrequency.SteadyStateDirectFrequency:3
+#: ../../../../../src/abaqus/StepMiscellaneous/SteadyStateDirectFrequency.py:docstring of abaqus.StepMiscellaneous.SteadyStateDirectFrequency.SteadyStateDirectFrequency:9
+#: ../../../../../src/abaqus/StepMiscellaneous/SteadyStateModalFrequency.py:docstring of abaqus.StepMiscellaneous.SteadyStateModalFrequency.SteadyStateModalFrequency:3
+#: ../../../../../src/abaqus/StepMiscellaneous/SteadyStateModalFrequency.py:docstring of abaqus.StepMiscellaneous.SteadyStateModalFrequency.SteadyStateModalFrequency:9
+#: ../../../../../src/abaqus/StepMiscellaneous/SteadyStateSubspaceFrequency.py:docstring of abaqus.StepMiscellaneous.SteadyStateSubspaceFrequency.SteadyStateSubspaceFrequency:3
+#: ../../../../../src/abaqus/StepMiscellaneous/SteadyStateSubspaceFrequency.py:docstring of abaqus.StepMiscellaneous.SteadyStateSubspaceFrequency.SteadyStateSubspaceFrequency:9
+#: ../../../../../src/abaqus/StepMiscellaneous/StructuralDamping.py:docstring of abaqus.StepMiscellaneous.StructuralDamping.StructuralDamping:3
+#: ../../../../../src/abaqus/StepMiscellaneous/StructuralDamping.py:docstring of abaqus.StepMiscellaneous.StructuralDamping.StructuralDamping:9
+#: ../../../../../src/abaqus/StepMiscellaneous/StructuralDampingByFrequency.py:docstring of abaqus.StepMiscellaneous.StructuralDampingByFrequency.StructuralDampingByFrequency:3
+#: ../../../../../src/abaqus/StepMiscellaneous/StructuralDampingByFrequency.py:docstring of abaqus.StepMiscellaneous.StructuralDampingByFrequency.StructuralDampingByFrequency:9
+#: ../../../../../src/abaqus/StepMiscellaneous/StructuralDampingByFrequencyComponent.py:docstring of abaqus.StepMiscellaneous.StructuralDampingByFrequencyComponent.StructuralDampingByFrequencyComponent:4
+#: ../../../../../src/abaqus/StepMiscellaneous/StructuralDampingByFrequencyComponent.py:docstring of abaqus.StepMiscellaneous.StructuralDampingByFrequencyComponent.StructuralDampingByFrequencyComponent:10
+#: ../../../../../src/abaqus/StepMiscellaneous/StructuralDampingComponent.py:docstring of abaqus.StepMiscellaneous.StructuralDampingComponent.StructuralDampingComponent:3
+#: ../../../../../src/abaqus/StepMiscellaneous/StructuralDampingComponent.py:docstring of abaqus.StepMiscellaneous.StructuralDampingComponent.StructuralDampingComponent:9
+#: ../../../../../src/abaqus/StepMiscellaneous/SubstructureGenerateFrequency.py:docstring of abaqus.StepMiscellaneous.SubstructureGenerateFrequency.SubstructureGenerateFrequency:4
+#: ../../../../../src/abaqus/StepMiscellaneous/SubstructureGenerateFrequency.py:docstring of abaqus.StepMiscellaneous.SubstructureGenerateFrequency.SubstructureGenerateFrequency:10
+#: ../../../../../src/abaqus/StepMiscellaneous/SubstructureGenerateModes.py:docstring of abaqus.StepMiscellaneous.SubstructureGenerateModes.SubstructureGenerateModes:3
+#: ../../../../../src/abaqus/StepMiscellaneous/SubstructureGenerateModes.py:docstring of abaqus.StepMiscellaneous.SubstructureGenerateModes.SubstructureGenerateModes:9
+msgid "Note"
 msgstr ""
 
 #: ../../../../../src/abaqus/StepMiscellaneous/CompositeDamping.py:docstring of abaqus.StepMiscellaneous.CompositeDamping.CompositeDamping:4

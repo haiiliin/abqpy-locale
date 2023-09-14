@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: abqpy 2019\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-13 03:18+0000\n"
+"POT-Creation-Date: 2023-09-14 01:59+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -267,6 +267,11 @@ msgstr ""
 
 #: ../../../user/output/cpp/read.md:541
 msgid "The data in the FieldValue object depend on the field output variable, which is displacement in the above example. In the example above the field output for displacements was of type NODAL and there is a FieldValue object for the output at each node. In this case the data method returns a pointer to an array containing the displacements at the node. For INTEGRATION_POINT data each integration point in an element will correspond to a different FieldValue object, and the data method will return a pointer to an array containing the element results data at that particular integration point."
+msgstr ""
+
+#: ../../../user/output/cpp/read.md:543
+#: ../../../user/output/cpp/read.md:713
+msgid "Note"
 msgstr ""
 
 #: ../../../user/output/cpp/read.md:544

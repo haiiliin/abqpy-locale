@@ -1,17 +1,20 @@
+
 msgid ""
 msgstr ""
-"Project-Id-Version: abqpy-locale\nReport-Msgid-Bugs-To: \nPOT-Creation-"
-"Date: 2023-07-06 10:24+0000\nPO-Revision-Date: 2023-09-13 16:57\nLast-"
-"Translator: \nLanguage-Team: Chinese Simplified\nMIME-Version: "
-"1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: "
-"8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Crowdin-Project: abqpy-"
-"locale\nX-Crowdin-Project-ID: 587413\nX-Crowdin-Language: zh-CN\nX-"
-"Crowdin-File: /main/2019/pot/cli.pot\nX-Crowdin-File-ID: 1043\nLanguage: "
-"zh_CN\n"
+"Project-Id-Version:  abqpy-locale\nReport-Msgid-Bugs-To: \nPOT-Creation-"
+"Date: 2023-09-14 01:59+0000\nPO-Revision-Date: 2023-09-13 "
+"16:57+0000\nLast-Translator: \nLanguage: zh_CN\nLanguage-Team: Chinese "
+"Simplified\nPlural-Forms: nplurals=1; plural=0;\nMIME-Version: "
+"1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: "
+"8bit\nGenerated-By: Babel 2.12.1\n"
 
 #: ../../../cli.md:1
 msgid "Command Line Interface"
 msgstr "命令行接口"
+
+#: ../../../cli.md:3 ../../../cli.md:112
+msgid "Warning"
+msgstr ""
 
 #: ../../../cli.md:4
 msgid ""
@@ -80,6 +83,10 @@ msgstr ""
 "命令之一，`SCRIPT` 是你的 Python 脚本的文件名称，`flags` "
 "是可以传递给命令的选项，`ARGS` 是命令行选项之后传递的额外参数。 欲了解详情，请参阅 "
 "[References](#reference) 部分或运行 `abqpy COMMAND --help` 获取帮助。"
+
+#: ../../../cli.md:50
+msgid "Note"
+msgstr ""
 
 #: ../../../cli.md:51
 msgid ""
@@ -191,10 +198,9 @@ msgid "Abaqus Python Execution Mode"
 msgstr "Abaqus Python 运行模式"
 
 #: ../../../cli.md:138
-msgid "Less Frequently Used Commands"
-msgstr "使用较少的命令"
-
-#: ../../../cli.md:144
 msgid "Comments"
 msgstr "评论"
+
+#~ msgid "Less Frequently Used Commands"
+#~ msgstr "使用较少的命令"
 
