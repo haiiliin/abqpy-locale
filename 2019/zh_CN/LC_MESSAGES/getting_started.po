@@ -1,12 +1,13 @@
-
 msgid ""
 msgstr ""
-"Project-Id-Version:  abqpy-locale\nReport-Msgid-Bugs-To: \nPOT-Creation-"
-"Date: 2023-09-14 01:59+0000\nPO-Revision-Date: 2023-09-13 "
-"16:57+0000\nLast-Translator: \nLanguage: zh_CN\nLanguage-Team: Chinese "
-"Simplified\nPlural-Forms: nplurals=1; plural=0;\nMIME-Version: "
-"1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: "
-"8bit\nGenerated-By: Babel 2.12.1\n"
+"Project-Id-Version: abqpy-locale\nReport-Msgid-Bugs-To: \nPOT-Creation-"
+"Date: 2023-09-14 01:59+0000\nPO-Revision-Date: 2023-09-14 02:55\nLast-"
+"Translator: \nLanguage-Team: Chinese Simplified\nMIME-Version: "
+"1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: "
+"8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Crowdin-Project: abqpy-"
+"locale\nX-Crowdin-Project-ID: 587413\nX-Crowdin-Language: zh-CN\nX-"
+"Crowdin-File: /main/2019/pot/getting_started.pot\nX-Crowdin-File-ID: "
+"3197\nLanguage: zh_CN\n"
 
 #: ../../../getting_started.md:1
 msgid "Getting Started"
@@ -57,7 +58,7 @@ msgstr "你可以使用以下命令安装 `abqpy`。"
 
 #: ../../../getting_started.md:45
 msgid "Note"
-msgstr ""
+msgstr "备注"
 
 #: ../../../getting_started.md:46
 msgid ""
@@ -271,14 +272,14 @@ msgid "Use the `abaqus` command in the command line:"
 msgstr "在命令行中使用 `abaqus` 命令："
 
 #: ../../../getting_started.md:165
-#, fuzzy
 msgid ""
-"See "
-"[here](https://help.3ds.com/2019/English/DSSIMULIA_Established/SIMACAEEXCRefMap/simaexc-c-caeproc.htm?contextscope=all)"
-" for more information about the `abaqus` command."
+"See [here](https://help.3ds.com/2019/English/DSSIMULIA_Established/SIMACAE"
+"EXCRefMap/simaexc-c-caeproc.htm?contextscope=all) for more information "
+"about the `abaqus` command."
 msgstr ""
-"更多关于 `abaqus` 命令的信息，请访问 "
-"[这里](https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACEEXCRefMap/simagec-c-c-caeproc.htm?contextscope=all)。"
+"更多关于 `abaqus` 命令的信息，请访问 [这里](https://help.3ds.com/2019/English/DS"
+"SIMULIA_Established/SIMACEEXCRefMap/simagec-c-c-"
+"caeproc.htm?contextscope=all)。"
 
 #: ../../../getting_started.md:167
 msgid "Use the `abqpy` command in the command line:"
@@ -329,7 +330,7 @@ msgstr ""
 
 #: ../../../getting_started.md:189
 msgid "Warning"
-msgstr ""
+msgstr "警告"
 
 #: ../../../getting_started.md:190
 msgid ""
@@ -350,21 +351,17 @@ msgstr ""
 "脚本可能可以正常工作，你可以使用调试器来粗略检查 Abaqus 中的变量。 "
 "但脚本仍然不会提交给 Abaqus。"
 
-#: ../../../getting_started.md:198 ../../../getting_started.md:200
+#: ../../../getting_started.md:198
+#: ../../../getting_started.md:200
 msgid "Create an Abaqus Model"
 msgstr "创建一个 Abaqus 模型"
 
-#: ../../../getting_started.md:206 ../../../getting_started.md:208
+#: ../../../getting_started.md:206
+#: ../../../getting_started.md:208
 msgid "Extract Output Data"
 msgstr "提取输出数据"
 
 #: ../../../getting_started.md:214
 msgid "Comments"
 msgstr "评论"
-
-#~ msgid "Install from PyPI"
-#~ msgstr "从 PyPI 安装"
-
-#~ msgid "Install from source"
-#~ msgstr "从源代码安装"
 
