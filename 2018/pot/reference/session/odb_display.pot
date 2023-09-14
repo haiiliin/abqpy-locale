@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: abqpy 2018\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-15 05:55+0000\n"
+"POT-Creation-Date: 2023-09-14 01:59+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,6 +34,46 @@ msgstr ""
 
 #: ../../../../../src/abaqus/OdbDisplay/CommonOptions.py:docstring of abaqus.OdbDisplay.CommonOptions.CommonOptions:1
 msgid "The CommonOptions object stores values and attributes that are common to all plot states. The CommonOptions object has no constructor command. Abaqus creates a *defaultOdbDisplay.commonOptions* member when you import the Visualization module. Abaqus creates a **commonOptions** member when it creates the OdbDisplay object, using the values from *defaultOdbDisplay.commonOptions*. Abaqus creates the **odbDisplay** member when a viewport is created, using the values from **defaultOdbDisplay**. CommonOptions objects are accessed in one of two ways: - The default common options. These settings are used as defaults when other **commonOptions** members are created. These settings can be set to customize user preferences. - The common options associated with a particular viewport. The CommonOptions object is derived from the DGCommonOptions object."
+msgstr ""
+
+#: ../../../../../src/abaqus/OdbDisplay/CommonOptions.py:docstring of abaqus.OdbDisplay.CommonOptions.CommonOptions:14
+#: ../../../../../src/abaqus/OdbDisplay/CommonOptions.py:docstring of abaqus.OdbDisplay.CommonOptions.CommonOptions:28
+#: ../../../../../src/abaqus/OdbDisplay/CommonOptions.py:docstring of abaqus.OdbDisplay.CommonOptions.CommonOptions.setValues:3
+#: ../../../../../src/abaqus/OdbDisplay/ContourOptions.py:docstring of abaqus.OdbDisplay.ContourOptions.ContourOptions:14
+#: ../../../../../src/abaqus/OdbDisplay/ContourOptions.py:docstring of abaqus.OdbDisplay.ContourOptions.ContourOptions:28
+#: ../../../../../src/abaqus/OdbDisplay/ContourOptions.py:docstring of abaqus.OdbDisplay.ContourOptions.ContourOptions.setValues:3
+#: ../../../../../src/abaqus/OdbDisplay/DefaultOdbDisplay.py:docstring of abaqus.OdbDisplay.DefaultOdbDisplay.DefaultOdbDisplay:3
+#: ../../../../../src/abaqus/OdbDisplay/DefaultOdbDisplay.py:docstring of abaqus.OdbDisplay.DefaultOdbDisplay.DefaultOdbDisplay:9
+#: ../../../../../src/abaqus/OdbDisplay/DisplayBodyOptions.py:docstring of abaqus.OdbDisplay.DisplayBodyOptions.DisplayBodyOptions:15
+#: ../../../../../src/abaqus/OdbDisplay/DisplayBodyOptions.py:docstring of abaqus.OdbDisplay.DisplayBodyOptions.DisplayBodyOptions:29
+#: ../../../../../src/abaqus/OdbDisplay/DisplayBodyOptions.py:docstring of abaqus.OdbDisplay.DisplayBodyOptions.DisplayBodyOptions.setValues:3
+#: ../../../../../src/abaqus/OdbDisplay/OdbDisplay.py:docstring of abaqus.OdbDisplay.OdbDisplay.OdbDisplay:13
+#: ../../../../../src/abaqus/OdbDisplay/OdbDisplay.py:docstring of abaqus.OdbDisplay.OdbDisplay.OdbDisplay:20
+#: ../../../../../src/abaqus/OdbDisplay/OdbDisplay.py:docstring of abaqus.OdbDisplay.OdbDisplay.OdbDisplay.ViewCut:3
+#: ../../../../../src/abaqus/OdbDisplay/OdbDisplay.py:docstring of abaqus.OdbDisplay.OdbDisplay.OdbDisplay.ViewCut:9
+#: ../../../../../src/abaqus/OdbDisplay/OdbDisplay.py:docstring of abaqus.OdbDisplay.OdbDisplay.OdbDisplay.setDeformedVariable:4
+#: ../../../../../src/abaqus/OdbDisplay/OdbDisplay.py:docstring of abaqus.OdbDisplay.OdbDisplay.OdbDisplay.setPrimarySectionPoint:3
+#: ../../../../../src/abaqus/OdbDisplay/OdbDisplay.py:docstring of abaqus.OdbDisplay.OdbDisplay.OdbDisplay.setStatusVariable:4
+#: ../../../../../src/abaqus/OdbDisplay/OdbDisplay.py:docstring of abaqus.OdbDisplay.OdbDisplay.OdbDisplay.setStreamVariable:4
+#: ../../../../../src/abaqus/OdbDisplay/OdbDisplay.py:docstring of abaqus.OdbDisplay.OdbDisplay.OdbDisplay.setSymbolVariable:5
+#: ../../../../../src/abaqus/OdbDisplay/OdbDisplay.py:docstring of abaqus.OdbDisplay.OdbDisplay.OdbDisplay.setValues:3
+#: ../../../../../src/abaqus/OdbDisplay/OrientationOptions.py:docstring of abaqus.OdbDisplay.OrientationOptions.OrientationOptions:15
+#: ../../../../../src/abaqus/OdbDisplay/OrientationOptions.py:docstring of abaqus.OdbDisplay.OrientationOptions.OrientationOptions:29
+#: ../../../../../src/abaqus/OdbDisplay/OrientationOptions.py:docstring of abaqus.OdbDisplay.OrientationOptions.OrientationOptions.setValues:3
+#: ../../../../../src/abaqus/OdbDisplay/SuperimposeOptions.py:docstring of abaqus.OdbDisplay.SuperimposeOptions.SuperimposeOptions:16
+#: ../../../../../src/abaqus/OdbDisplay/SuperimposeOptions.py:docstring of abaqus.OdbDisplay.SuperimposeOptions.SuperimposeOptions:30
+#: ../../../../../src/abaqus/OdbDisplay/SuperimposeOptions.py:docstring of abaqus.OdbDisplay.SuperimposeOptions.SuperimposeOptions.setValues:3
+#: ../../../../../src/abaqus/OdbDisplay/SymbolOptions.py:docstring of abaqus.OdbDisplay.SymbolOptions.SymbolOptions:14
+#: ../../../../../src/abaqus/OdbDisplay/SymbolOptions.py:docstring of abaqus.OdbDisplay.SymbolOptions.SymbolOptions:28
+#: ../../../../../src/abaqus/OdbDisplay/SymbolOptions.py:docstring of abaqus.OdbDisplay.SymbolOptions.SymbolOptions.setValues:3
+#: ../../../../../src/abaqus/OdbDisplay/ViewCut.py:docstring of abaqus.OdbDisplay.ViewCut.ViewCut:5
+#: ../../../../../src/abaqus/OdbDisplay/ViewCut.py:docstring of abaqus.OdbDisplay.ViewCut.ViewCut:12
+#: ../../../../../src/abaqus/OdbDisplay/ViewCut.py:docstring of abaqus.OdbDisplay.ViewCut.ViewCut:17
+#: ../../../../../src/abaqus/OdbDisplay/ViewCut.py:docstring of abaqus.OdbDisplay.ViewCut.ViewCut.setValues:3
+#: ../../../../../src/abaqus/OdbDisplay/ViewerOptions.py:docstring of abaqus.OdbDisplay.ViewerOptions.ViewerOptions:4
+#: ../../../../../src/abaqus/OdbDisplay/ViewerOptions.py:docstring of abaqus.OdbDisplay.ViewerOptions.ViewerOptions:10
+#: ../../../../../src/abaqus/OdbDisplay/ViewerOptions.py:docstring of abaqus.OdbDisplay.ViewerOptions.ViewerOptions.setValues:3
+msgid "Note"
 msgstr ""
 
 #: ../../../../../src/abaqus/OdbDisplay/CommonOptions.py:docstring of abaqus.OdbDisplay.CommonOptions.CommonOptions:15

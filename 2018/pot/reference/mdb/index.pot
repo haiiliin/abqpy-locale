@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: abqpy 2018\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-19 09:19+0000\n"
+"POT-Creation-Date: 2023-09-14 01:59+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -45,6 +45,26 @@ msgstr ""
 msgid "The Mdb object is the high-level Abaqus model database. A model database stores models and analysis controls."
 msgstr ""
 
+#: ../../../../../src/abaqus/Mdb/Mdb.py:docstring of abaqus.Mdb.Mdb.Mdb:4
+#: ../../../../../src/abaqus/Mdb/Mdb.py:docstring of abaqus.Mdb.Mdb.Mdb:9
+#: ../../../../../src/abaqus/Mdb/Mdb.py:docstring of abaqus.Mdb.Mdb.Mdb:14
+#: ../../../../../src/abaqus/Mdb/Mdb.py:docstring of abaqus.Mdb.Mdb.Mdb.Model:3
+#: ../../../../../src/abaqus/Mdb/Mdb.py:docstring of abaqus.Mdb.Mdb.Mdb.Model:8
+#: ../../../../../src/abaqus/Mdb/MdbBase.py:docstring of abaqus.Mdb.MdbBase.MdbBase:4
+#: ../../../../../src/abaqus/Mdb/MdbBase.py:docstring of abaqus.Mdb.MdbBase.MdbBase:9
+#: ../../../../../src/abaqus/Mdb/MdbBase.py:docstring of abaqus.Mdb.MdbBase.MdbBase:14
+#: ../../../../../src/abaqus/Mdb/MdbBase.py:docstring of abaqus.Mdb.MdbBase.MdbBase.copyAuxMdbModel:4
+#: ../../../../../src/abaqus/Mdb/MdbBase.py:docstring of abaqus.Mdb.MdbBase.MdbBase.importDxf:5
+#: ../../../../../src/abaqus/Mdb/MdbBase.py:docstring of abaqus.Mdb.MdbBase.MdbBase.importDxf:10
+#: ../../../../../src/abaqus/Mdb/MdbBase.py:docstring of abaqus.Mdb.MdbBase.MdbBase.openAuxMdb:4
+#: ../../../../../src/abaqus/Mdb/MdbBase.py:docstring of abaqus.Mdb.MdbBase.MdbBase.openMdb:3
+#: ../../../../../src/abaqus/Mdb/MdbBase.py:docstring of abaqus.Mdb.MdbBase.MdbBase.openMdb:8
+#: ../../../../../src/abaqus/Mdb/MdbBase.py:docstring of abaqus.Mdb.MdbBase.MdbBase.saveAs:3
+#: ../../../../../src/abaqus/Mdb/MdbCommands.py:docstring of abaqus.Mdb.MdbCommands.openMdb:3
+#: ../../../../../src/abaqus/Mdb/MdbCommands.py:docstring of abaqus.Mdb.MdbCommands.openMdb:8
+msgid "Note"
+msgstr ""
+
 #: ../../../../../src/abaqus/Mdb/Mdb.py:docstring of abaqus.Mdb.Mdb.Mdb:5
 #: ../../../../../src/abaqus/Mdb/MdbBase.py:docstring of abaqus.Mdb.MdbBase.MdbBase:5
 msgid "This object can be accessed by::"
@@ -72,12 +92,10 @@ msgstr ""
 #: ../../../../../src/abaqus/Mdb/Mdb.py:docstring of abaqus.Mdb.Mdb.Mdb:0
 #: ../../../../../src/abaqus/Mdb/Mdb.py:docstring of abaqus.Mdb.Mdb.Mdb.Model:0
 #: ../../../../../src/abaqus/Mdb/MdbBase.py:docstring of abaqus.Mdb.MdbBase.MdbBase:0
-#: ../../../../../src/abaqus/Mdb/MdbBase.py:docstring of abaqus.Mdb.MdbBase.MdbBase.closeAuxMdb:0
 #: ../../../../../src/abaqus/Mdb/MdbBase.py:docstring of abaqus.Mdb.MdbBase.MdbBase.copyAuxMdbModel:0
 #: ../../../../../src/abaqus/Mdb/MdbBase.py:docstring of abaqus.Mdb.MdbBase.MdbBase.importDxf:0
 #: ../../../../../src/abaqus/Mdb/MdbBase.py:docstring of abaqus.Mdb.MdbBase.MdbBase.openAuxMdb:0
 #: ../../../../../src/abaqus/Mdb/MdbBase.py:docstring of abaqus.Mdb.MdbBase.MdbBase.openMdb:0
-#: ../../../../../src/abaqus/Mdb/MdbBase.py:docstring of abaqus.Mdb.MdbBase.MdbBase.save:0
 #: ../../../../../src/abaqus/Mdb/MdbBase.py:docstring of abaqus.Mdb.MdbBase.MdbBase.saveAs:0
 #: ../../../../../src/abaqus/Mdb/MdbCommands.py:docstring of abaqus.Mdb.MdbCommands.CombineOptResults:0
 #: ../../../../../src/abaqus/Mdb/MdbCommands.py:docstring of abaqus.Mdb.MdbCommands.openMdb:0
@@ -460,12 +478,22 @@ msgstr ""
 msgid "After closing the Mdb object, this method creates a new unnamed empty Mdb object."
 msgstr ""
 
-#: ../../../../../src/abaqus/Mdb/MdbBase.py:docstring of abaqus.Mdb.MdbBase.MdbBase.closeAuxMdb:4
-msgid "Check `MdbBase.closeAuxMdb on help.3ds.com/2018 <https://help.3ds.com/2018/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-mdbpyc.htm?contextscope=all#simaker-mdbcloseauxmdbpyc>`__."
+#: ../../../../../src/abaqus/Mdb/MdbBase.py:docstring of abaqus.Mdb.MdbBase.MdbBase.closeAuxMdb:0
+#: ../../../../../src/abaqus/Mdb/MdbBase.py:docstring of abaqus.Mdb.MdbBase.MdbBase.copyAuxMdbModel:0
+#: ../../../../../src/abaqus/Mdb/MdbBase.py:docstring of abaqus.Mdb.MdbBase.MdbBase.getAuxMdbModelNames:0
+#: ../../../../../src/abaqus/Mdb/MdbBase.py:docstring of abaqus.Mdb.MdbBase.MdbBase.openAuxMdb:0
+#: ../../../../../src/abaqus/Mdb/MdbBase.py:docstring of abaqus.Mdb.MdbBase.MdbBase.openMdb:0
+#: ../../../../../src/abaqus/Mdb/MdbBase.py:docstring of abaqus.Mdb.MdbBase.MdbBase.save:0
+#: ../../../../../src/abaqus/Mdb/MdbBase.py:docstring of abaqus.Mdb.MdbBase.MdbBase.saveAs:0
+#: ../../../../../src/abaqus/Mdb/MdbCommands.py:docstring of abaqus.Mdb.MdbCommands.openMdb:0
+#: ../../../../../src/abaqus/Mdb/MdbCommands.py:docstring of abaqus.Mdb.MdbCommands.upgradeMdb:0
+msgid "Raises"
 msgstr ""
 
-#: ../../../../../src/abaqus/Mdb/MdbBase.py:docstring of abaqus.Mdb.MdbBase.MdbBase.closeAuxMdb:6
-msgid "The auxiliary Mdb was not opened; If the auxiliary Mdb was not opened earlier"
+#: ../../../../../src/abaqus/Mdb/MdbBase.py:docstring of abaqus.Mdb.MdbBase.MdbBase.closeAuxMdb:3
+#: ../../../../../src/abaqus/Mdb/MdbBase.py:docstring of abaqus.Mdb.MdbBase.MdbBase.copyAuxMdbModel:14
+#: ../../../../../src/abaqus/Mdb/MdbBase.py:docstring of abaqus.Mdb.MdbBase.MdbBase.getAuxMdbModelNames:7
+msgid "The auxiliary Mdb was not opened;     If the auxiliary Mdb was not opened earlier"
 msgstr ""
 
 #: ../../../../../src/abaqus/Mdb/MdbBase.py:docstring of abaqus.Mdb.MdbBase.MdbBase.copyAuxMdbModel:5
@@ -478,22 +506,6 @@ msgstr ""
 
 #: ../../../../../src/abaqus/Mdb/MdbBase.py:docstring of abaqus.Mdb.MdbBase.MdbBase.copyAuxMdbModel:10
 msgid "A String specifying the name to be given to the model after it is copied into the Mdb. If this argument is not specified **toName** is assumed to be the same as **fromName**. If a model with name **toName** already exists in Mdb, it is overwritten."
-msgstr ""
-
-#: ../../../../../src/abaqus/Mdb/MdbBase.py:docstring of abaqus.Mdb.MdbBase.MdbBase.copyAuxMdbModel:0
-#: ../../../../../src/abaqus/Mdb/MdbBase.py:docstring of abaqus.Mdb.MdbBase.MdbBase.getAuxMdbModelNames:0
-#: ../../../../../src/abaqus/Mdb/MdbBase.py:docstring of abaqus.Mdb.MdbBase.MdbBase.openAuxMdb:0
-#: ../../../../../src/abaqus/Mdb/MdbBase.py:docstring of abaqus.Mdb.MdbBase.MdbBase.openMdb:0
-#: ../../../../../src/abaqus/Mdb/MdbBase.py:docstring of abaqus.Mdb.MdbBase.MdbBase.save:0
-#: ../../../../../src/abaqus/Mdb/MdbBase.py:docstring of abaqus.Mdb.MdbBase.MdbBase.saveAs:0
-#: ../../../../../src/abaqus/Mdb/MdbCommands.py:docstring of abaqus.Mdb.MdbCommands.openMdb:0
-#: ../../../../../src/abaqus/Mdb/MdbCommands.py:docstring of abaqus.Mdb.MdbCommands.upgradeMdb:0
-msgid "Raises"
-msgstr ""
-
-#: ../../../../../src/abaqus/Mdb/MdbBase.py:docstring of abaqus.Mdb.MdbBase.MdbBase.copyAuxMdbModel:14
-#: ../../../../../src/abaqus/Mdb/MdbBase.py:docstring of abaqus.Mdb.MdbBase.MdbBase.getAuxMdbModelNames:7
-msgid "The auxiliary Mdb was not opened;     If the auxiliary Mdb was not opened earlier"
 msgstr ""
 
 #: ../../../../../src/abaqus/Mdb/MdbBase.py:docstring of abaqus.Mdb.MdbBase.MdbBase.copyAuxMdbModel:15
@@ -571,19 +583,16 @@ msgstr ""
 msgid "cannot open file; may be in use by another CAE session;     If the model database file is already opened in write mode"
 msgstr ""
 
+#: ../../../../../src/abaqus/Mdb/MdbBase.py:docstring of abaqus.Mdb.MdbBase.MdbBase.save:4
+#: ../../../../../src/abaqus/Mdb/MdbBase.py:docstring of abaqus.Mdb.MdbBase.MdbBase.saveAs:12
+msgid "cannot save file;     If the command fails to save the Mdb object to disk for reasons not mentioned above"
+msgstr ""
+
 #: ../../../../../src/abaqus/Mdb/MdbBase.py:docstring of abaqus.Mdb.MdbBase.MdbBase.save:5
-msgid "Check `MdbBase.save on help.3ds.com/2018 <https://help.3ds.com/2018/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-mdbpyc.htm?contextscope=all#simaker-mdbsavepyc>`__."
-msgstr ""
-
-#: ../../../../../src/abaqus/Mdb/MdbBase.py:docstring of abaqus.Mdb.MdbBase.MdbBase.save:7
-msgid "cannot save file; If the command fails to save the Mdb object to disk for reasons not mentioned above"
-msgstr ""
-
-#: ../../../../../src/abaqus/Mdb/MdbBase.py:docstring of abaqus.Mdb.MdbBase.MdbBase.save:10
 msgid "cannot save file: pathname member is empty;     If **pathName** is empty"
 msgstr ""
 
-#: ../../../../../src/abaqus/Mdb/MdbBase.py:docstring of abaqus.Mdb.MdbBase.MdbBase.save:11
+#: ../../../../../src/abaqus/Mdb/MdbBase.py:docstring of abaqus.Mdb.MdbBase.MdbBase.save:6
 #: ../../../../../src/abaqus/Mdb/MdbBase.py:docstring of abaqus.Mdb.MdbBase.MdbBase.saveAs:11
 msgid "“abaqus.cae” is an invalid CAE filename;     If **pathName** is abaqus.cae"
 msgstr ""
@@ -594,10 +603,6 @@ msgstr ""
 
 #: ../../../../../src/abaqus/Mdb/MdbBase.py:docstring of abaqus.Mdb.MdbBase.MdbBase.saveAs:7
 msgid "A String specifying the path to be used when the model database is saved to a file. If you do not provide a file extension, .cae is appended automatically to the path."
-msgstr ""
-
-#: ../../../../../src/abaqus/Mdb/MdbBase.py:docstring of abaqus.Mdb.MdbBase.MdbBase.saveAs:12
-msgid "cannot save file;     If the command fails to save the Mdb object to disk for reasons not mentioned above"
 msgstr ""
 
 #: ../../../../../src/abaqus/Mdb/MdbCommands.py:docstring of abaqus.Mdb.MdbCommands.CombineOptResults:1

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: abqpy 2018\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-19 09:19+0000\n"
+"POT-Creation-Date: 2023-09-14 01:59+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,6 +34,93 @@ msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyModel.py:docstring of abaqus.Assembly.AssemblyModel.AssemblyModel:1
 msgid "Abaqus creates a Model object named `Model-1` when a session is started."
+msgstr ""
+
+#: ../../../../../src/abaqus/Assembly/Assembly.py:docstring of abaqus.Assembly.Assembly.Assembly:4
+#: ../../../../../src/abaqus/Assembly/Assembly.py:docstring of abaqus.Assembly.Assembly.Assembly:10
+#: ../../../../../src/abaqus/Assembly/Assembly.py:docstring of abaqus.Assembly.Assembly.Assembly.ConnectorOrientation:3
+#: ../../../../../src/abaqus/Assembly/Assembly.py:docstring of abaqus.Assembly.Assembly.Assembly.ConnectorOrientation:9
+#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase:4
+#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase:10
+#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.Instance:3
+#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.Instance:8
+#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.InstanceFromBooleanCut:4
+#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.InstanceFromBooleanCut:9
+#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.InstanceFromBooleanMerge:4
+#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.InstanceFromBooleanMerge:9
+#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.LinearInstancePattern:4
+#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.LinearInstancePattern:9
+#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.RadialInstancePattern:4
+#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.RadialInstancePattern:9
+#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.copyMeshPattern:5
+#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.deleteFeatures:3
+#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.excludeFromSimulation:3
+#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.getAngle:3
+#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.getCoordinates:3
+#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.getDistance:7
+#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.getFacesAndVerticesOfAttachmentLines:4
+#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.getMassProperties:4
+#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.getSurfaceSections:4
+#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.importCatiaV5File:3
+#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.importEafFile:3
+#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.importEnfFile:4
+#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.importIdeasFile:3
+#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.importParasolidFile:3
+#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.importProEFile:3
+#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.makeDependent:3
+#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.makeIndependent:3
+#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.projectReferencesOntoSketch:5
+#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.resumeFeatures:3
+#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.rotate:3
+#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.setMeshNumberingControl:5
+#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.setValues:3
+#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.smoothNodes:4
+#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.suppressFeatures:3
+#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.translate:3
+#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.unlinkInstances:4
+#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.writeAcisFile:3
+#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.writeCADParameters:3
+#: ../../../../../src/abaqus/Assembly/AssemblyFeature.py:docstring of abaqus.Assembly.AssemblyFeature.AssemblyFeature:4
+#: ../../../../../src/abaqus/Assembly/AssemblyFeature.py:docstring of abaqus.Assembly.AssemblyFeature.AssemblyFeature:9
+#: ../../../../../src/abaqus/Assembly/AssemblyFeature.py:docstring of abaqus.Assembly.AssemblyFeature.AssemblyFeature.AttachmentLines:8
+#: ../../../../../src/abaqus/Assembly/AssemblyFeature.py:docstring of abaqus.Assembly.AssemblyFeature.AssemblyFeature.AttachmentLines:13
+#: ../../../../../src/abaqus/Assembly/AssemblyFeature.py:docstring of abaqus.Assembly.AssemblyFeature.AssemblyFeature.Coaxial:4
+#: ../../../../../src/abaqus/Assembly/AssemblyFeature.py:docstring of abaqus.Assembly.AssemblyFeature.AssemblyFeature.Coaxial:9
+#: ../../../../../src/abaqus/Assembly/AssemblyFeature.py:docstring of abaqus.Assembly.AssemblyFeature.AssemblyFeature.CoincidentPoint:4
+#: ../../../../../src/abaqus/Assembly/AssemblyFeature.py:docstring of abaqus.Assembly.AssemblyFeature.AssemblyFeature.CoincidentPoint:9
+#: ../../../../../src/abaqus/Assembly/AssemblyFeature.py:docstring of abaqus.Assembly.AssemblyFeature.AssemblyFeature.EdgeToEdge:3
+#: ../../../../../src/abaqus/Assembly/AssemblyFeature.py:docstring of abaqus.Assembly.AssemblyFeature.AssemblyFeature.EdgeToEdge:8
+#: ../../../../../src/abaqus/Assembly/AssemblyFeature.py:docstring of abaqus.Assembly.AssemblyFeature.AssemblyFeature.FaceToFace:3
+#: ../../../../../src/abaqus/Assembly/AssemblyFeature.py:docstring of abaqus.Assembly.AssemblyFeature.AssemblyFeature.FaceToFace:8
+#: ../../../../../src/abaqus/Assembly/AssemblyFeature.py:docstring of abaqus.Assembly.AssemblyFeature.AssemblyFeature.ParallelCsys:4
+#: ../../../../../src/abaqus/Assembly/AssemblyFeature.py:docstring of abaqus.Assembly.AssemblyFeature.AssemblyFeature.ParallelCsys:9
+#: ../../../../../src/abaqus/Assembly/AssemblyFeature.py:docstring of abaqus.Assembly.AssemblyFeature.AssemblyFeature.ParallelEdge:3
+#: ../../../../../src/abaqus/Assembly/AssemblyFeature.py:docstring of abaqus.Assembly.AssemblyFeature.AssemblyFeature.ParallelEdge:8
+#: ../../../../../src/abaqus/Assembly/AssemblyFeature.py:docstring of abaqus.Assembly.AssemblyFeature.AssemblyFeature.ParallelFace:3
+#: ../../../../../src/abaqus/Assembly/AssemblyFeature.py:docstring of abaqus.Assembly.AssemblyFeature.AssemblyFeature.ParallelFace:8
+#: ../../../../../src/abaqus/Assembly/AssemblyModel.py:docstring of abaqus.Assembly.AssemblyModel.AssemblyModel:3
+#: ../../../../../src/abaqus/Assembly/AssemblyModel.py:docstring of abaqus.Assembly.AssemblyModel.AssemblyModel:8
+#: ../../../../../src/abaqus/Assembly/AssemblyModel.py:docstring of abaqus.Assembly.AssemblyModel.AssemblyModel.Instance:4
+#: ../../../../../src/abaqus/Assembly/AssemblyModel.py:docstring of abaqus.Assembly.AssemblyModel.AssemblyModel.Instance:9
+#: ../../../../../src/abaqus/Assembly/AssemblyModel.py:docstring of abaqus.Assembly.AssemblyModel.AssemblyModel.convertAllSketches:4
+#: ../../../../../src/abaqus/Assembly/AssemblyModel.py:docstring of abaqus.Assembly.AssemblyModel.AssemblyModel.linkInstances:5
+#: ../../../../../src/abaqus/Assembly/ConnectorOrientation.py:docstring of abaqus.Assembly.ConnectorOrientation.ConnectorOrientation:3
+#: ../../../../../src/abaqus/Assembly/ConnectorOrientation.py:docstring of abaqus.Assembly.ConnectorOrientation.ConnectorOrientation:11
+#: ../../../../../src/abaqus/Assembly/ConnectorOrientation.py:docstring of abaqus.Assembly.ConnectorOrientation.ConnectorOrientation:16
+#: ../../../../../src/abaqus/Assembly/ModelInstance.py:docstring of abaqus.Assembly.ModelInstance.ModelInstance:3
+#: ../../../../../src/abaqus/Assembly/ModelInstance.py:docstring of abaqus.Assembly.ModelInstance.ModelInstance:9
+#: ../../../../../src/abaqus/Assembly/ModelInstance.py:docstring of abaqus.Assembly.ModelInstance.ModelInstance:14
+#: ../../../../../src/abaqus/Assembly/ModelInstance.py:docstring of abaqus.Assembly.ModelInstance.ModelInstance.translate:3
+#: ../../../../../src/abaqus/Assembly/PartInstance.py:docstring of abaqus.Assembly.PartInstance.PartInstance:3
+#: ../../../../../src/abaqus/Assembly/PartInstance.py:docstring of abaqus.Assembly.PartInstance.PartInstance:10
+#: ../../../../../src/abaqus/Assembly/PartInstance.py:docstring of abaqus.Assembly.PartInstance.PartInstance:15
+#: ../../../../../src/abaqus/Assembly/PartInstance.py:docstring of abaqus.Assembly.PartInstance.PartInstance.Contact:4
+#: ../../../../../src/abaqus/Assembly/PartInstance.py:docstring of abaqus.Assembly.PartInstance.PartInstance.checkGeometry:4
+#: ../../../../../src/abaqus/Assembly/PartInstance.py:docstring of abaqus.Assembly.PartInstance.PartInstance.replace:3
+#: ../../../../../src/abaqus/Assembly/PartInstance.py:docstring of abaqus.Assembly.PartInstance.PartInstance.rotateAboutAxis:3
+#: ../../../../../src/abaqus/Assembly/PartInstance.py:docstring of abaqus.Assembly.PartInstance.PartInstance.translate:3
+#: ../../../../../src/abaqus/Assembly/PartInstance.py:docstring of abaqus.Assembly.PartInstance.PartInstance.translateTo:4
+msgid "Note"
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/Assembly.py:docstring of abaqus.Assembly.Assembly.Assembly:5

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: abqpy 2018\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-15 05:55+0000\n"
+"POT-Creation-Date: 2023-09-14 01:59+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -215,6 +215,87 @@ msgstr ""
 #: ../../../../../src/abaqus/EngineeringFeature/AssembledFastener.py:docstring of abaqus.EngineeringFeature.AssembledFastener.AssembledFastener:15
 #: ../../../../../src/abaqus/EngineeringFeature/EngineeringFeature.py:docstring of abaqus.EngineeringFeature.EngineeringFeature.EngineeringFeature.AssembledFastener:1
 msgid "This method creates an AssembledFastener object. Although the constructor is available both for parts and for the assembly, AssembledFastener objects are currently supported only under the assembly."
+msgstr ""
+
+#: ../../../../../src/abaqus/EngineeringFeature/AssembledFastener.py:docstring of abaqus.EngineeringFeature.AssembledFastener.AssembledFastener:4
+#: ../../../../../src/abaqus/EngineeringFeature/AssembledFastener.py:docstring of abaqus.EngineeringFeature.AssembledFastener.AssembledFastener:12
+#: ../../../../../src/abaqus/EngineeringFeature/AssembledFastener.py:docstring of abaqus.EngineeringFeature.AssembledFastener.AssembledFastener:18
+#: ../../../../../src/abaqus/EngineeringFeature/AssembledFastener.py:docstring of abaqus.EngineeringFeature.AssembledFastener.AssembledFastener.setValues:3
+#: ../../../../../src/abaqus/EngineeringFeature/ContourIntegral.py:docstring of abaqus.EngineeringFeature.ContourIntegral.ContourIntegral:4
+#: ../../../../../src/abaqus/EngineeringFeature/ContourIntegral.py:docstring of abaqus.EngineeringFeature.ContourIntegral.ContourIntegral:16
+#: ../../../../../src/abaqus/EngineeringFeature/ContourIntegral.py:docstring of abaqus.EngineeringFeature.ContourIntegral.ContourIntegral:22
+#: ../../../../../src/abaqus/EngineeringFeature/ContourIntegral.py:docstring of abaqus.EngineeringFeature.ContourIntegral.ContourIntegral.setValues:3
+#: ../../../../../src/abaqus/EngineeringFeature/Crack.py:docstring of abaqus.EngineeringFeature.Crack.Crack:3
+#: ../../../../../src/abaqus/EngineeringFeature/Crack.py:docstring of abaqus.EngineeringFeature.Crack.Crack:11
+#: ../../../../../src/abaqus/EngineeringFeature/DebondVCCT.py:docstring of abaqus.EngineeringFeature.DebondVCCT.DebondVCCT:4
+#: ../../../../../src/abaqus/EngineeringFeature/DebondVCCT.py:docstring of abaqus.EngineeringFeature.DebondVCCT.DebondVCCT:16
+#: ../../../../../src/abaqus/EngineeringFeature/DebondVCCT.py:docstring of abaqus.EngineeringFeature.DebondVCCT.DebondVCCT:22
+#: ../../../../../src/abaqus/EngineeringFeature/DebondVCCT.py:docstring of abaqus.EngineeringFeature.DebondVCCT.DebondVCCT.setValues:3
+#: ../../../../../src/abaqus/EngineeringFeature/DiscreteFastener.py:docstring of abaqus.EngineeringFeature.DiscreteFastener.DiscreteFastener:4
+#: ../../../../../src/abaqus/EngineeringFeature/DiscreteFastener.py:docstring of abaqus.EngineeringFeature.DiscreteFastener.DiscreteFastener:16
+#: ../../../../../src/abaqus/EngineeringFeature/DiscreteFastener.py:docstring of abaqus.EngineeringFeature.DiscreteFastener.DiscreteFastener:22
+#: ../../../../../src/abaqus/EngineeringFeature/DiscreteFastener.py:docstring of abaqus.EngineeringFeature.DiscreteFastener.DiscreteFastener.setValues:3
+#: ../../../../../src/abaqus/EngineeringFeature/EngineeringFeature.py:docstring of abaqus.EngineeringFeature.EngineeringFeature.EngineeringFeature.AssembledFastener:4
+#: ../../../../../src/abaqus/EngineeringFeature/EngineeringFeature.py:docstring of abaqus.EngineeringFeature.EngineeringFeature.EngineeringFeature.AssembledFastener:10
+#: ../../../../../src/abaqus/EngineeringFeature/EngineeringFeature.py:docstring of abaqus.EngineeringFeature.EngineeringFeature.EngineeringFeature.ContourIntegral:4
+#: ../../../../../src/abaqus/EngineeringFeature/EngineeringFeature.py:docstring of abaqus.EngineeringFeature.EngineeringFeature.EngineeringFeature.ContourIntegral:10
+#: ../../../../../src/abaqus/EngineeringFeature/EngineeringFeature.py:docstring of abaqus.EngineeringFeature.EngineeringFeature.EngineeringFeature.DebondVCCT:4
+#: ../../../../../src/abaqus/EngineeringFeature/EngineeringFeature.py:docstring of abaqus.EngineeringFeature.EngineeringFeature.EngineeringFeature.DebondVCCT:10
+#: ../../../../../src/abaqus/EngineeringFeature/EngineeringFeature.py:docstring of abaqus.EngineeringFeature.EngineeringFeature.EngineeringFeature.DiscreteFastener:4
+#: ../../../../../src/abaqus/EngineeringFeature/EngineeringFeature.py:docstring of abaqus.EngineeringFeature.EngineeringFeature.EngineeringFeature.DiscreteFastener:10
+#: ../../../../../src/abaqus/EngineeringFeature/EngineeringFeature.py:docstring of abaqus.EngineeringFeature.EngineeringFeature.EngineeringFeature.HeatCapacitance:3
+#: ../../../../../src/abaqus/EngineeringFeature/EngineeringFeature.py:docstring of abaqus.EngineeringFeature.EngineeringFeature.EngineeringFeature.HeatCapacitance:9
+#: ../../../../../src/abaqus/EngineeringFeature/EngineeringFeature.py:docstring of abaqus.EngineeringFeature.EngineeringFeature.EngineeringFeature.NonstructuralMass:3
+#: ../../../../../src/abaqus/EngineeringFeature/EngineeringFeature.py:docstring of abaqus.EngineeringFeature.EngineeringFeature.EngineeringFeature.NonstructuralMass:9
+#: ../../../../../src/abaqus/EngineeringFeature/EngineeringFeature.py:docstring of abaqus.EngineeringFeature.EngineeringFeature.EngineeringFeature.PointFastener:4
+#: ../../../../../src/abaqus/EngineeringFeature/EngineeringFeature.py:docstring of abaqus.EngineeringFeature.EngineeringFeature.EngineeringFeature.PointFastener:10
+#: ../../../../../src/abaqus/EngineeringFeature/EngineeringFeature.py:docstring of abaqus.EngineeringFeature.EngineeringFeature.EngineeringFeature.PointMassInertia:3
+#: ../../../../../src/abaqus/EngineeringFeature/EngineeringFeature.py:docstring of abaqus.EngineeringFeature.EngineeringFeature.EngineeringFeature.PointMassInertia:9
+#: ../../../../../src/abaqus/EngineeringFeature/EngineeringFeature.py:docstring of abaqus.EngineeringFeature.EngineeringFeature.EngineeringFeature.SpringDashpotToGround:3
+#: ../../../../../src/abaqus/EngineeringFeature/EngineeringFeature.py:docstring of abaqus.EngineeringFeature.EngineeringFeature.EngineeringFeature.SpringDashpotToGround:9
+#: ../../../../../src/abaqus/EngineeringFeature/EngineeringFeature.py:docstring of abaqus.EngineeringFeature.EngineeringFeature.EngineeringFeature.TwoPointSpringDashpot:3
+#: ../../../../../src/abaqus/EngineeringFeature/EngineeringFeature.py:docstring of abaqus.EngineeringFeature.EngineeringFeature.EngineeringFeature.TwoPointSpringDashpot:9
+#: ../../../../../src/abaqus/EngineeringFeature/EngineeringFeature.py:docstring of abaqus.EngineeringFeature.EngineeringFeature.EngineeringFeature.XFEMCrack:4
+#: ../../../../../src/abaqus/EngineeringFeature/EngineeringFeature.py:docstring of abaqus.EngineeringFeature.EngineeringFeature.EngineeringFeature.XFEMCrack:10
+#: ../../../../../src/abaqus/EngineeringFeature/EngineeringFeatureBase.py:docstring of abaqus.EngineeringFeature.EngineeringFeatureBase.EngineeringFeatureBase:4
+#: ../../../../../src/abaqus/EngineeringFeature/EngineeringFeatureBase.py:docstring of abaqus.EngineeringFeature.EngineeringFeatureBase.EngineeringFeatureBase:12
+#: ../../../../../src/abaqus/EngineeringFeature/EngineeringFeatureBase.py:docstring of abaqus.EngineeringFeature.EngineeringFeatureBase.EngineeringFeatureBase.assignSeam:3
+#: ../../../../../src/abaqus/EngineeringFeature/EngineeringFeatureBase.py:docstring of abaqus.EngineeringFeature.EngineeringFeatureBase.EngineeringFeatureBase.deleteSeam:3
+#: ../../../../../src/abaqus/EngineeringFeature/Fastener.py:docstring of abaqus.EngineeringFeature.Fastener.Fastener:3
+#: ../../../../../src/abaqus/EngineeringFeature/Fastener.py:docstring of abaqus.EngineeringFeature.Fastener.Fastener:11
+#: ../../../../../src/abaqus/EngineeringFeature/HeatCapacitance.py:docstring of abaqus.EngineeringFeature.HeatCapacitance.HeatCapacitance:4
+#: ../../../../../src/abaqus/EngineeringFeature/HeatCapacitance.py:docstring of abaqus.EngineeringFeature.HeatCapacitance.HeatCapacitance:24
+#: ../../../../../src/abaqus/EngineeringFeature/HeatCapacitance.py:docstring of abaqus.EngineeringFeature.HeatCapacitance.HeatCapacitance:29
+#: ../../../../../src/abaqus/EngineeringFeature/HeatCapacitance.py:docstring of abaqus.EngineeringFeature.HeatCapacitance.HeatCapacitance.setValues:3
+#: ../../../../../src/abaqus/EngineeringFeature/Inertia.py:docstring of abaqus.EngineeringFeature.Inertia.Inertia:4
+#: ../../../../../src/abaqus/EngineeringFeature/Inertia.py:docstring of abaqus.EngineeringFeature.Inertia.Inertia:12
+#: ../../../../../src/abaqus/EngineeringFeature/NonstructuralMass.py:docstring of abaqus.EngineeringFeature.NonstructuralMass.NonstructuralMass:4
+#: ../../../../../src/abaqus/EngineeringFeature/NonstructuralMass.py:docstring of abaqus.EngineeringFeature.NonstructuralMass.NonstructuralMass:16
+#: ../../../../../src/abaqus/EngineeringFeature/NonstructuralMass.py:docstring of abaqus.EngineeringFeature.NonstructuralMass.NonstructuralMass:21
+#: ../../../../../src/abaqus/EngineeringFeature/NonstructuralMass.py:docstring of abaqus.EngineeringFeature.NonstructuralMass.NonstructuralMass.setValues:3
+#: ../../../../../src/abaqus/EngineeringFeature/PointFastener.py:docstring of abaqus.EngineeringFeature.PointFastener.PointFastener:4
+#: ../../../../../src/abaqus/EngineeringFeature/PointFastener.py:docstring of abaqus.EngineeringFeature.PointFastener.PointFastener:16
+#: ../../../../../src/abaqus/EngineeringFeature/PointFastener.py:docstring of abaqus.EngineeringFeature.PointFastener.PointFastener:22
+#: ../../../../../src/abaqus/EngineeringFeature/PointFastener.py:docstring of abaqus.EngineeringFeature.PointFastener.PointFastener.setValues:3
+#: ../../../../../src/abaqus/EngineeringFeature/PointMassInertia.py:docstring of abaqus.EngineeringFeature.PointMassInertia.PointMassInertia:4
+#: ../../../../../src/abaqus/EngineeringFeature/PointMassInertia.py:docstring of abaqus.EngineeringFeature.PointMassInertia.PointMassInertia:16
+#: ../../../../../src/abaqus/EngineeringFeature/PointMassInertia.py:docstring of abaqus.EngineeringFeature.PointMassInertia.PointMassInertia:21
+#: ../../../../../src/abaqus/EngineeringFeature/PointMassInertia.py:docstring of abaqus.EngineeringFeature.PointMassInertia.PointMassInertia.setValues:3
+#: ../../../../../src/abaqus/EngineeringFeature/SpringDashpot.py:docstring of abaqus.EngineeringFeature.SpringDashpot.SpringDashpot:4
+#: ../../../../../src/abaqus/EngineeringFeature/SpringDashpot.py:docstring of abaqus.EngineeringFeature.SpringDashpot.SpringDashpot:12
+#: ../../../../../src/abaqus/EngineeringFeature/SpringDashpotToGround.py:docstring of abaqus.EngineeringFeature.SpringDashpotToGround.SpringDashpotToGround:4
+#: ../../../../../src/abaqus/EngineeringFeature/SpringDashpotToGround.py:docstring of abaqus.EngineeringFeature.SpringDashpotToGround.SpringDashpotToGround:18
+#: ../../../../../src/abaqus/EngineeringFeature/SpringDashpotToGround.py:docstring of abaqus.EngineeringFeature.SpringDashpotToGround.SpringDashpotToGround:23
+#: ../../../../../src/abaqus/EngineeringFeature/SpringDashpotToGround.py:docstring of abaqus.EngineeringFeature.SpringDashpotToGround.SpringDashpotToGround.setValues:3
+#: ../../../../../src/abaqus/EngineeringFeature/TwoPointSpringDashpot.py:docstring of abaqus.EngineeringFeature.TwoPointSpringDashpot.TwoPointSpringDashpot:4
+#: ../../../../../src/abaqus/EngineeringFeature/TwoPointSpringDashpot.py:docstring of abaqus.EngineeringFeature.TwoPointSpringDashpot.TwoPointSpringDashpot:18
+#: ../../../../../src/abaqus/EngineeringFeature/TwoPointSpringDashpot.py:docstring of abaqus.EngineeringFeature.TwoPointSpringDashpot.TwoPointSpringDashpot:23
+#: ../../../../../src/abaqus/EngineeringFeature/TwoPointSpringDashpot.py:docstring of abaqus.EngineeringFeature.TwoPointSpringDashpot.TwoPointSpringDashpot.setValues:3
+#: ../../../../../src/abaqus/EngineeringFeature/XFEMCrack.py:docstring of abaqus.EngineeringFeature.XFEMCrack.XFEMCrack:5
+#: ../../../../../src/abaqus/EngineeringFeature/XFEMCrack.py:docstring of abaqus.EngineeringFeature.XFEMCrack.XFEMCrack:18
+#: ../../../../../src/abaqus/EngineeringFeature/XFEMCrack.py:docstring of abaqus.EngineeringFeature.XFEMCrack.XFEMCrack:24
+#: ../../../../../src/abaqus/EngineeringFeature/XFEMCrack.py:docstring of abaqus.EngineeringFeature.XFEMCrack.XFEMCrack.setValues:3
+msgid "Note"
 msgstr ""
 
 #: ../../../../../src/abaqus/EngineeringFeature/AssembledFastener.py:docstring of abaqus.EngineeringFeature.AssembledFastener.AssembledFastener:19

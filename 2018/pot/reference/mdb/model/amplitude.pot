@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: abqpy 2018\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-19 09:19+0000\n"
+"POT-Creation-Date: 2023-09-14 01:59+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,6 +38,102 @@ msgstr ""
 
 #: ../../../../../src/abaqus/Amplitude/AmplitudeModel.py:docstring of abaqus.Amplitude.AmplitudeModel.AmplitudeModel:1
 msgid "Abaqus creates a Model object named `Model-1` when a session is started."
+msgstr ""
+
+#: ../../../../../src/abaqus/Amplitude/ActuatorAmplitude.py:docstring of abaqus.Amplitude.ActuatorAmplitude.ActuatorAmplitude:4
+#: ../../../../../src/abaqus/Amplitude/ActuatorAmplitude.py:docstring of abaqus.Amplitude.ActuatorAmplitude.ActuatorAmplitude:16
+#: ../../../../../src/abaqus/Amplitude/ActuatorAmplitude.py:docstring of abaqus.Amplitude.ActuatorAmplitude.ActuatorAmplitude:21
+#: ../../../../../src/abaqus/Amplitude/ActuatorAmplitude.py:docstring of abaqus.Amplitude.ActuatorAmplitude.ActuatorAmplitude.setValues:3
+#: ../../../../../src/abaqus/Amplitude/Amplitude.py:docstring of abaqus.Amplitude.Amplitude.Amplitude:5
+#: ../../../../../src/abaqus/Amplitude/Amplitude.py:docstring of abaqus.Amplitude.Amplitude.Amplitude:13
+#: ../../../../../src/abaqus/Amplitude/AmplitudeModel.py:docstring of abaqus.Amplitude.AmplitudeModel.AmplitudeModel:3
+#: ../../../../../src/abaqus/Amplitude/AmplitudeModel.py:docstring of abaqus.Amplitude.AmplitudeModel.AmplitudeModel:8
+#: ../../../../../src/abaqus/Amplitude/AmplitudeModel.py:docstring of abaqus.Amplitude.AmplitudeModel.AmplitudeModel:13
+#: ../../../../../src/abaqus/Amplitude/AmplitudeModel.py:docstring of abaqus.Amplitude.AmplitudeModel.AmplitudeModel.ActuatorAmplitude:3
+#: ../../../../../src/abaqus/Amplitude/AmplitudeModel.py:docstring of abaqus.Amplitude.AmplitudeModel.AmplitudeModel.ActuatorAmplitude:9
+#: ../../../../../src/abaqus/Amplitude/AmplitudeModel.py:docstring of abaqus.Amplitude.AmplitudeModel.AmplitudeModel.DecayAmplitude:3
+#: ../../../../../src/abaqus/Amplitude/AmplitudeModel.py:docstring of abaqus.Amplitude.AmplitudeModel.AmplitudeModel.DecayAmplitude:9
+#: ../../../../../src/abaqus/Amplitude/AmplitudeModel.py:docstring of abaqus.Amplitude.AmplitudeModel.AmplitudeModel.EquallySpacedAmplitude:3
+#: ../../../../../src/abaqus/Amplitude/AmplitudeModel.py:docstring of abaqus.Amplitude.AmplitudeModel.AmplitudeModel.EquallySpacedAmplitude:9
+#: ../../../../../src/abaqus/Amplitude/AmplitudeModel.py:docstring of abaqus.Amplitude.AmplitudeModel.AmplitudeModel.ModulatedAmplitude:3
+#: ../../../../../src/abaqus/Amplitude/AmplitudeModel.py:docstring of abaqus.Amplitude.AmplitudeModel.AmplitudeModel.ModulatedAmplitude:9
+#: ../../../../../src/abaqus/Amplitude/AmplitudeModel.py:docstring of abaqus.Amplitude.AmplitudeModel.AmplitudeModel.PeriodicAmplitude:3
+#: ../../../../../src/abaqus/Amplitude/AmplitudeModel.py:docstring of abaqus.Amplitude.AmplitudeModel.AmplitudeModel.PeriodicAmplitude:9
+#: ../../../../../src/abaqus/Amplitude/AmplitudeModel.py:docstring of abaqus.Amplitude.AmplitudeModel.AmplitudeModel.PsdDefinition:3
+#: ../../../../../src/abaqus/Amplitude/AmplitudeModel.py:docstring of abaqus.Amplitude.AmplitudeModel.AmplitudeModel.PsdDefinition:9
+#: ../../../../../src/abaqus/Amplitude/AmplitudeModel.py:docstring of abaqus.Amplitude.AmplitudeModel.AmplitudeModel.SmoothStepAmplitude:3
+#: ../../../../../src/abaqus/Amplitude/AmplitudeModel.py:docstring of abaqus.Amplitude.AmplitudeModel.AmplitudeModel.SmoothStepAmplitude:9
+#: ../../../../../src/abaqus/Amplitude/AmplitudeModel.py:docstring of abaqus.Amplitude.AmplitudeModel.AmplitudeModel.SolutionDependentAmplitude:3
+#: ../../../../../src/abaqus/Amplitude/AmplitudeModel.py:docstring of abaqus.Amplitude.AmplitudeModel.AmplitudeModel.SolutionDependentAmplitude:9
+#: ../../../../../src/abaqus/Amplitude/AmplitudeModel.py:docstring of abaqus.Amplitude.AmplitudeModel.AmplitudeModel.SpectrumAmplitude:3
+#: ../../../../../src/abaqus/Amplitude/AmplitudeModel.py:docstring of abaqus.Amplitude.AmplitudeModel.AmplitudeModel.SpectrumAmplitude:9
+#: ../../../../../src/abaqus/Amplitude/AmplitudeModel.py:docstring of abaqus.Amplitude.AmplitudeModel.AmplitudeModel.TabularAmplitude:3
+#: ../../../../../src/abaqus/Amplitude/AmplitudeModel.py:docstring of abaqus.Amplitude.AmplitudeModel.AmplitudeModel.TabularAmplitude:9
+#: ../../../../../src/abaqus/Amplitude/AmplitudeOdb.py:docstring of abaqus.Amplitude.AmplitudeOdb.AmplitudeOdb:3
+#: ../../../../../src/abaqus/Amplitude/AmplitudeOdb.py:docstring of abaqus.Amplitude.AmplitudeOdb.AmplitudeOdb:9
+#: ../../../../../src/abaqus/Amplitude/AmplitudeOdb.py:docstring of abaqus.Amplitude.AmplitudeOdb.AmplitudeOdb:14
+#: ../../../../../src/abaqus/Amplitude/AmplitudeOdb.py:docstring of abaqus.Amplitude.AmplitudeOdb.AmplitudeOdb.ActuatorAmplitude:3
+#: ../../../../../src/abaqus/Amplitude/AmplitudeOdb.py:docstring of abaqus.Amplitude.AmplitudeOdb.AmplitudeOdb.ActuatorAmplitude:9
+#: ../../../../../src/abaqus/Amplitude/AmplitudeOdb.py:docstring of abaqus.Amplitude.AmplitudeOdb.AmplitudeOdb.DecayAmplitude:3
+#: ../../../../../src/abaqus/Amplitude/AmplitudeOdb.py:docstring of abaqus.Amplitude.AmplitudeOdb.AmplitudeOdb.DecayAmplitude:9
+#: ../../../../../src/abaqus/Amplitude/AmplitudeOdb.py:docstring of abaqus.Amplitude.AmplitudeOdb.AmplitudeOdb.EquallySpacedAmplitude:3
+#: ../../../../../src/abaqus/Amplitude/AmplitudeOdb.py:docstring of abaqus.Amplitude.AmplitudeOdb.AmplitudeOdb.EquallySpacedAmplitude:9
+#: ../../../../../src/abaqus/Amplitude/AmplitudeOdb.py:docstring of abaqus.Amplitude.AmplitudeOdb.AmplitudeOdb.ModulatedAmplitude:3
+#: ../../../../../src/abaqus/Amplitude/AmplitudeOdb.py:docstring of abaqus.Amplitude.AmplitudeOdb.AmplitudeOdb.ModulatedAmplitude:9
+#: ../../../../../src/abaqus/Amplitude/AmplitudeOdb.py:docstring of abaqus.Amplitude.AmplitudeOdb.AmplitudeOdb.PeriodicAmplitude:3
+#: ../../../../../src/abaqus/Amplitude/AmplitudeOdb.py:docstring of abaqus.Amplitude.AmplitudeOdb.AmplitudeOdb.PeriodicAmplitude:9
+#: ../../../../../src/abaqus/Amplitude/AmplitudeOdb.py:docstring of abaqus.Amplitude.AmplitudeOdb.AmplitudeOdb.PsdDefinition:3
+#: ../../../../../src/abaqus/Amplitude/AmplitudeOdb.py:docstring of abaqus.Amplitude.AmplitudeOdb.AmplitudeOdb.PsdDefinition:9
+#: ../../../../../src/abaqus/Amplitude/AmplitudeOdb.py:docstring of abaqus.Amplitude.AmplitudeOdb.AmplitudeOdb.SmoothStepAmplitude:3
+#: ../../../../../src/abaqus/Amplitude/AmplitudeOdb.py:docstring of abaqus.Amplitude.AmplitudeOdb.AmplitudeOdb.SmoothStepAmplitude:9
+#: ../../../../../src/abaqus/Amplitude/AmplitudeOdb.py:docstring of abaqus.Amplitude.AmplitudeOdb.AmplitudeOdb.SolutionDependentAmplitude:3
+#: ../../../../../src/abaqus/Amplitude/AmplitudeOdb.py:docstring of abaqus.Amplitude.AmplitudeOdb.AmplitudeOdb.SolutionDependentAmplitude:9
+#: ../../../../../src/abaqus/Amplitude/AmplitudeOdb.py:docstring of abaqus.Amplitude.AmplitudeOdb.AmplitudeOdb.SpectrumAmplitude:3
+#: ../../../../../src/abaqus/Amplitude/AmplitudeOdb.py:docstring of abaqus.Amplitude.AmplitudeOdb.AmplitudeOdb.SpectrumAmplitude:9
+#: ../../../../../src/abaqus/Amplitude/AmplitudeOdb.py:docstring of abaqus.Amplitude.AmplitudeOdb.AmplitudeOdb.TabularAmplitude:3
+#: ../../../../../src/abaqus/Amplitude/AmplitudeOdb.py:docstring of abaqus.Amplitude.AmplitudeOdb.AmplitudeOdb.TabularAmplitude:9
+#: ../../../../../src/abaqus/Amplitude/BaselineCorrection.py:docstring of abaqus.Amplitude.BaselineCorrection.BaselineCorrection:4
+#: ../../../../../src/abaqus/Amplitude/BaselineCorrection.py:docstring of abaqus.Amplitude.BaselineCorrection.BaselineCorrection:16
+#: ../../../../../src/abaqus/Amplitude/BaselineCorrection.py:docstring of abaqus.Amplitude.BaselineCorrection.BaselineCorrection:21
+#: ../../../../../src/abaqus/Amplitude/Correlation.py:docstring of abaqus.Amplitude.Correlation.Correlation:4
+#: ../../../../../src/abaqus/Amplitude/Correlation.py:docstring of abaqus.Amplitude.Correlation.Correlation:10
+#: ../../../../../src/abaqus/Amplitude/DecayAmplitude.py:docstring of abaqus.Amplitude.DecayAmplitude.DecayAmplitude:4
+#: ../../../../../src/abaqus/Amplitude/DecayAmplitude.py:docstring of abaqus.Amplitude.DecayAmplitude.DecayAmplitude:16
+#: ../../../../../src/abaqus/Amplitude/DecayAmplitude.py:docstring of abaqus.Amplitude.DecayAmplitude.DecayAmplitude:21
+#: ../../../../../src/abaqus/Amplitude/DecayAmplitude.py:docstring of abaqus.Amplitude.DecayAmplitude.DecayAmplitude.setValues:3
+#: ../../../../../src/abaqus/Amplitude/EquallySpacedAmplitude.py:docstring of abaqus.Amplitude.EquallySpacedAmplitude.EquallySpacedAmplitude:4
+#: ../../../../../src/abaqus/Amplitude/EquallySpacedAmplitude.py:docstring of abaqus.Amplitude.EquallySpacedAmplitude.EquallySpacedAmplitude:16
+#: ../../../../../src/abaqus/Amplitude/EquallySpacedAmplitude.py:docstring of abaqus.Amplitude.EquallySpacedAmplitude.EquallySpacedAmplitude:21
+#: ../../../../../src/abaqus/Amplitude/EquallySpacedAmplitude.py:docstring of abaqus.Amplitude.EquallySpacedAmplitude.EquallySpacedAmplitude.setValues:3
+#: ../../../../../src/abaqus/Amplitude/ModulatedAmplitude.py:docstring of abaqus.Amplitude.ModulatedAmplitude.ModulatedAmplitude:4
+#: ../../../../../src/abaqus/Amplitude/ModulatedAmplitude.py:docstring of abaqus.Amplitude.ModulatedAmplitude.ModulatedAmplitude:16
+#: ../../../../../src/abaqus/Amplitude/ModulatedAmplitude.py:docstring of abaqus.Amplitude.ModulatedAmplitude.ModulatedAmplitude:21
+#: ../../../../../src/abaqus/Amplitude/ModulatedAmplitude.py:docstring of abaqus.Amplitude.ModulatedAmplitude.ModulatedAmplitude.setValues:3
+#: ../../../../../src/abaqus/Amplitude/PeriodicAmplitude.py:docstring of abaqus.Amplitude.PeriodicAmplitude.PeriodicAmplitude:4
+#: ../../../../../src/abaqus/Amplitude/PeriodicAmplitude.py:docstring of abaqus.Amplitude.PeriodicAmplitude.PeriodicAmplitude:16
+#: ../../../../../src/abaqus/Amplitude/PeriodicAmplitude.py:docstring of abaqus.Amplitude.PeriodicAmplitude.PeriodicAmplitude:21
+#: ../../../../../src/abaqus/Amplitude/PeriodicAmplitude.py:docstring of abaqus.Amplitude.PeriodicAmplitude.PeriodicAmplitude.setValues:3
+#: ../../../../../src/abaqus/Amplitude/PsdDefinition.py:docstring of abaqus.Amplitude.PsdDefinition.PsdDefinition:4
+#: ../../../../../src/abaqus/Amplitude/PsdDefinition.py:docstring of abaqus.Amplitude.PsdDefinition.PsdDefinition:16
+#: ../../../../../src/abaqus/Amplitude/PsdDefinition.py:docstring of abaqus.Amplitude.PsdDefinition.PsdDefinition:21
+#: ../../../../../src/abaqus/Amplitude/PsdDefinition.py:docstring of abaqus.Amplitude.PsdDefinition.PsdDefinition.setValues:3
+#: ../../../../../src/abaqus/Amplitude/SmoothStepAmplitude.py:docstring of abaqus.Amplitude.SmoothStepAmplitude.SmoothStepAmplitude:4
+#: ../../../../../src/abaqus/Amplitude/SmoothStepAmplitude.py:docstring of abaqus.Amplitude.SmoothStepAmplitude.SmoothStepAmplitude:16
+#: ../../../../../src/abaqus/Amplitude/SmoothStepAmplitude.py:docstring of abaqus.Amplitude.SmoothStepAmplitude.SmoothStepAmplitude:21
+#: ../../../../../src/abaqus/Amplitude/SmoothStepAmplitude.py:docstring of abaqus.Amplitude.SmoothStepAmplitude.SmoothStepAmplitude.setValues:3
+#: ../../../../../src/abaqus/Amplitude/SolutionDependentAmplitude.py:docstring of abaqus.Amplitude.SolutionDependentAmplitude.SolutionDependentAmplitude:4
+#: ../../../../../src/abaqus/Amplitude/SolutionDependentAmplitude.py:docstring of abaqus.Amplitude.SolutionDependentAmplitude.SolutionDependentAmplitude:16
+#: ../../../../../src/abaqus/Amplitude/SolutionDependentAmplitude.py:docstring of abaqus.Amplitude.SolutionDependentAmplitude.SolutionDependentAmplitude:21
+#: ../../../../../src/abaqus/Amplitude/SolutionDependentAmplitude.py:docstring of abaqus.Amplitude.SolutionDependentAmplitude.SolutionDependentAmplitude.setValues:3
+#: ../../../../../src/abaqus/Amplitude/SpectrumAmplitude.py:docstring of abaqus.Amplitude.SpectrumAmplitude.SpectrumAmplitude:5
+#: ../../../../../src/abaqus/Amplitude/SpectrumAmplitude.py:docstring of abaqus.Amplitude.SpectrumAmplitude.SpectrumAmplitude:17
+#: ../../../../../src/abaqus/Amplitude/SpectrumAmplitude.py:docstring of abaqus.Amplitude.SpectrumAmplitude.SpectrumAmplitude:22
+#: ../../../../../src/abaqus/Amplitude/SpectrumAmplitude.py:docstring of abaqus.Amplitude.SpectrumAmplitude.SpectrumAmplitude.setValues:3
+#: ../../../../../src/abaqus/Amplitude/TabularAmplitude.py:docstring of abaqus.Amplitude.TabularAmplitude.TabularAmplitude:4
+#: ../../../../../src/abaqus/Amplitude/TabularAmplitude.py:docstring of abaqus.Amplitude.TabularAmplitude.TabularAmplitude:16
+#: ../../../../../src/abaqus/Amplitude/TabularAmplitude.py:docstring of abaqus.Amplitude.TabularAmplitude.TabularAmplitude:21
+#: ../../../../../src/abaqus/Amplitude/TabularAmplitude.py:docstring of abaqus.Amplitude.TabularAmplitude.TabularAmplitude.setValues:3
+msgid "Note"
 msgstr ""
 
 #: ../../../../../src/abaqus/Amplitude/ActuatorAmplitude.py:docstring of abaqus.Amplitude.ActuatorAmplitude.ActuatorAmplitude:5

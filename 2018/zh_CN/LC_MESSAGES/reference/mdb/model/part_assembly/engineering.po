@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: abqpy \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-24 15:23+0000\n"
+"POT-Creation-Date: 2023-09-14 01:59+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -272,6 +272,87 @@ msgid ""
 "This method creates an AssembledFastener object. Although the constructor "
 "is available both for parts and for the assembly, AssembledFastener "
 "objects are currently supported only under the assembly."
+msgstr ""
+
+#: abaqus.EngineeringFeature.AssembledFastener.AssembledFastener:4
+#: abaqus.EngineeringFeature.AssembledFastener.AssembledFastener:12
+#: abaqus.EngineeringFeature.AssembledFastener.AssembledFastener:18
+#: abaqus.EngineeringFeature.AssembledFastener.AssembledFastener.setValues:3
+#: abaqus.EngineeringFeature.ContourIntegral.ContourIntegral:4
+#: abaqus.EngineeringFeature.ContourIntegral.ContourIntegral:16
+#: abaqus.EngineeringFeature.ContourIntegral.ContourIntegral:22
+#: abaqus.EngineeringFeature.ContourIntegral.ContourIntegral.setValues:3
+#: abaqus.EngineeringFeature.Crack.Crack:3
+#: abaqus.EngineeringFeature.Crack.Crack:11
+#: abaqus.EngineeringFeature.DebondVCCT.DebondVCCT:4
+#: abaqus.EngineeringFeature.DebondVCCT.DebondVCCT:16
+#: abaqus.EngineeringFeature.DebondVCCT.DebondVCCT:22
+#: abaqus.EngineeringFeature.DebondVCCT.DebondVCCT.setValues:3
+#: abaqus.EngineeringFeature.DiscreteFastener.DiscreteFastener:4
+#: abaqus.EngineeringFeature.DiscreteFastener.DiscreteFastener:16
+#: abaqus.EngineeringFeature.DiscreteFastener.DiscreteFastener:22
+#: abaqus.EngineeringFeature.DiscreteFastener.DiscreteFastener.setValues:3
+#: abaqus.EngineeringFeature.EngineeringFeature.EngineeringFeature.AssembledFastener:4
+#: abaqus.EngineeringFeature.EngineeringFeature.EngineeringFeature.AssembledFastener:10
+#: abaqus.EngineeringFeature.EngineeringFeature.EngineeringFeature.ContourIntegral:4
+#: abaqus.EngineeringFeature.EngineeringFeature.EngineeringFeature.ContourIntegral:10
+#: abaqus.EngineeringFeature.EngineeringFeature.EngineeringFeature.DebondVCCT:4
+#: abaqus.EngineeringFeature.EngineeringFeature.EngineeringFeature.DebondVCCT:10
+#: abaqus.EngineeringFeature.EngineeringFeature.EngineeringFeature.DiscreteFastener:4
+#: abaqus.EngineeringFeature.EngineeringFeature.EngineeringFeature.DiscreteFastener:10
+#: abaqus.EngineeringFeature.EngineeringFeature.EngineeringFeature.HeatCapacitance:3
+#: abaqus.EngineeringFeature.EngineeringFeature.EngineeringFeature.HeatCapacitance:9
+#: abaqus.EngineeringFeature.EngineeringFeature.EngineeringFeature.NonstructuralMass:3
+#: abaqus.EngineeringFeature.EngineeringFeature.EngineeringFeature.NonstructuralMass:9
+#: abaqus.EngineeringFeature.EngineeringFeature.EngineeringFeature.PointFastener:4
+#: abaqus.EngineeringFeature.EngineeringFeature.EngineeringFeature.PointFastener:10
+#: abaqus.EngineeringFeature.EngineeringFeature.EngineeringFeature.PointMassInertia:3
+#: abaqus.EngineeringFeature.EngineeringFeature.EngineeringFeature.PointMassInertia:9
+#: abaqus.EngineeringFeature.EngineeringFeature.EngineeringFeature.SpringDashpotToGround:3
+#: abaqus.EngineeringFeature.EngineeringFeature.EngineeringFeature.SpringDashpotToGround:9
+#: abaqus.EngineeringFeature.EngineeringFeature.EngineeringFeature.TwoPointSpringDashpot:3
+#: abaqus.EngineeringFeature.EngineeringFeature.EngineeringFeature.TwoPointSpringDashpot:9
+#: abaqus.EngineeringFeature.EngineeringFeature.EngineeringFeature.XFEMCrack:4
+#: abaqus.EngineeringFeature.EngineeringFeature.EngineeringFeature.XFEMCrack:10
+#: abaqus.EngineeringFeature.EngineeringFeatureBase.EngineeringFeatureBase:4
+#: abaqus.EngineeringFeature.EngineeringFeatureBase.EngineeringFeatureBase:12
+#: abaqus.EngineeringFeature.EngineeringFeatureBase.EngineeringFeatureBase.assignSeam:3
+#: abaqus.EngineeringFeature.EngineeringFeatureBase.EngineeringFeatureBase.deleteSeam:3
+#: abaqus.EngineeringFeature.Fastener.Fastener:3
+#: abaqus.EngineeringFeature.Fastener.Fastener:11
+#: abaqus.EngineeringFeature.HeatCapacitance.HeatCapacitance:4
+#: abaqus.EngineeringFeature.HeatCapacitance.HeatCapacitance:24
+#: abaqus.EngineeringFeature.HeatCapacitance.HeatCapacitance:29
+#: abaqus.EngineeringFeature.HeatCapacitance.HeatCapacitance.setValues:3
+#: abaqus.EngineeringFeature.Inertia.Inertia:4
+#: abaqus.EngineeringFeature.Inertia.Inertia:12
+#: abaqus.EngineeringFeature.NonstructuralMass.NonstructuralMass:4
+#: abaqus.EngineeringFeature.NonstructuralMass.NonstructuralMass:16
+#: abaqus.EngineeringFeature.NonstructuralMass.NonstructuralMass:21
+#: abaqus.EngineeringFeature.NonstructuralMass.NonstructuralMass.setValues:3
+#: abaqus.EngineeringFeature.PointFastener.PointFastener:4
+#: abaqus.EngineeringFeature.PointFastener.PointFastener:16
+#: abaqus.EngineeringFeature.PointFastener.PointFastener:22
+#: abaqus.EngineeringFeature.PointFastener.PointFastener.setValues:3
+#: abaqus.EngineeringFeature.PointMassInertia.PointMassInertia:4
+#: abaqus.EngineeringFeature.PointMassInertia.PointMassInertia:16
+#: abaqus.EngineeringFeature.PointMassInertia.PointMassInertia:21
+#: abaqus.EngineeringFeature.PointMassInertia.PointMassInertia.setValues:3
+#: abaqus.EngineeringFeature.SpringDashpot.SpringDashpot:4
+#: abaqus.EngineeringFeature.SpringDashpot.SpringDashpot:12
+#: abaqus.EngineeringFeature.SpringDashpotToGround.SpringDashpotToGround:4
+#: abaqus.EngineeringFeature.SpringDashpotToGround.SpringDashpotToGround:18
+#: abaqus.EngineeringFeature.SpringDashpotToGround.SpringDashpotToGround:23
+#: abaqus.EngineeringFeature.SpringDashpotToGround.SpringDashpotToGround.setValues:3
+#: abaqus.EngineeringFeature.TwoPointSpringDashpot.TwoPointSpringDashpot:4
+#: abaqus.EngineeringFeature.TwoPointSpringDashpot.TwoPointSpringDashpot:18
+#: abaqus.EngineeringFeature.TwoPointSpringDashpot.TwoPointSpringDashpot:23
+#: abaqus.EngineeringFeature.TwoPointSpringDashpot.TwoPointSpringDashpot.setValues:3
+#: abaqus.EngineeringFeature.XFEMCrack.XFEMCrack:5
+#: abaqus.EngineeringFeature.XFEMCrack.XFEMCrack:18
+#: abaqus.EngineeringFeature.XFEMCrack.XFEMCrack:24
+#: abaqus.EngineeringFeature.XFEMCrack.XFEMCrack.setValues:3 of
+msgid "Note"
 msgstr ""
 
 #: abaqus.EngineeringFeature.AssembledFastener.AssembledFastener:19
