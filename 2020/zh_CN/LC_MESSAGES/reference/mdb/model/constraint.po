@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: abqpy \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-24 15:23+0000\n"
+"POT-Creation-Date: 2023-09-14 01:32+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,6 +37,62 @@ msgstr ""
 #: abaqus.Constraint.ConstraintModel.ConstraintModel:1 of
 msgid ""
 "Abaqus creates a Model object named `Model-1` when a session is started."
+msgstr ""
+
+#: abaqus.Constraint.AdjustPoints.AdjustPoints:4
+#: abaqus.Constraint.AdjustPoints.AdjustPoints:14
+#: abaqus.Constraint.AdjustPoints.AdjustPoints:19
+#: abaqus.Constraint.Constraint.Constraint:5
+#: abaqus.Constraint.Constraint.Constraint:11
+#: abaqus.Constraint.Constraint.Constraint.delete:3
+#: abaqus.Constraint.ConstraintModel.ConstraintModel:3
+#: abaqus.Constraint.ConstraintModel.ConstraintModel:8
+#: abaqus.Constraint.ConstraintModel.ConstraintModel:13
+#: abaqus.Constraint.ConstraintModel.ConstraintModel.AdjustPoints:3
+#: abaqus.Constraint.ConstraintModel.ConstraintModel.AdjustPoints:8
+#: abaqus.Constraint.ConstraintModel.ConstraintModel.Coupling:3
+#: abaqus.Constraint.ConstraintModel.ConstraintModel.Coupling:8
+#: abaqus.Constraint.ConstraintModel.ConstraintModel.DisplayBody:3
+#: abaqus.Constraint.ConstraintModel.ConstraintModel.DisplayBody:8
+#: abaqus.Constraint.ConstraintModel.ConstraintModel.EmbeddedRegion:3
+#: abaqus.Constraint.ConstraintModel.ConstraintModel.EmbeddedRegion:8
+#: abaqus.Constraint.ConstraintModel.ConstraintModel.Equation:3
+#: abaqus.Constraint.ConstraintModel.ConstraintModel.Equation:8
+#: abaqus.Constraint.ConstraintModel.ConstraintModel.MultipointConstraint:3
+#: abaqus.Constraint.ConstraintModel.ConstraintModel.MultipointConstraint:8
+#: abaqus.Constraint.ConstraintModel.ConstraintModel.RigidBody:3
+#: abaqus.Constraint.ConstraintModel.ConstraintModel.RigidBody:8
+#: abaqus.Constraint.ConstraintModel.ConstraintModel.ShellSolidCoupling:3
+#: abaqus.Constraint.ConstraintModel.ConstraintModel.ShellSolidCoupling:8
+#: abaqus.Constraint.ConstraintModel.ConstraintModel.Tie:3
+#: abaqus.Constraint.ConstraintModel.ConstraintModel.Tie:8
+#: abaqus.Constraint.Coupling.Coupling:4 abaqus.Constraint.Coupling.Coupling:14
+#: abaqus.Constraint.Coupling.Coupling:19
+#: abaqus.Constraint.Coupling.Coupling.setValues:3
+#: abaqus.Constraint.DisplayBody.DisplayBody:6
+#: abaqus.Constraint.DisplayBody.DisplayBody:16
+#: abaqus.Constraint.DisplayBody.DisplayBody:21
+#: abaqus.Constraint.EmbeddedRegion.EmbeddedRegion:4
+#: abaqus.Constraint.EmbeddedRegion.EmbeddedRegion:14
+#: abaqus.Constraint.EmbeddedRegion.EmbeddedRegion:19
+#: abaqus.Constraint.EmbeddedRegion.EmbeddedRegion.setValues:3
+#: abaqus.Constraint.Equation.Equation:4 abaqus.Constraint.Equation.Equation:14
+#: abaqus.Constraint.Equation.Equation:19
+#: abaqus.Constraint.MultipointConstraint.MultipointConstraint:5
+#: abaqus.Constraint.MultipointConstraint.MultipointConstraint:15
+#: abaqus.Constraint.MultipointConstraint.MultipointConstraint:20
+#: abaqus.Constraint.MultipointConstraint.MultipointConstraint.setValues:3
+#: abaqus.Constraint.RigidBody.RigidBody:5
+#: abaqus.Constraint.RigidBody.RigidBody:15
+#: abaqus.Constraint.RigidBody.RigidBody:20
+#: abaqus.Constraint.RigidBody.RigidBody.setValues:3
+#: abaqus.Constraint.ShellSolidCoupling.ShellSolidCoupling:4
+#: abaqus.Constraint.ShellSolidCoupling.ShellSolidCoupling:14
+#: abaqus.Constraint.ShellSolidCoupling.ShellSolidCoupling:19
+#: abaqus.Constraint.ShellSolidCoupling.ShellSolidCoupling.setValues:3
+#: abaqus.Constraint.Tie.Tie:4 abaqus.Constraint.Tie.Tie:14
+#: abaqus.Constraint.Tie.Tie:19 abaqus.Constraint.Tie.Tie.setValues:3 of
+msgid "Note"
 msgstr ""
 
 #: abaqus.Constraint.AdjustPoints.AdjustPoints:5
@@ -285,18 +341,6 @@ msgstr ""
 msgid ""
 "A Boolean specifying whether an input file should be written without parts"
 " and assemblies."
-msgstr ""
-
-#: ../../../../None:55:<autosummary>:1
-msgid ""
-":py:obj:`restartIncrement "
-"<abaqus.Model.ModelBase.ModelBase.restartIncrement>`\\"
-msgstr ""
-
-#: ../../../../None:55:<autosummary>:1
-msgid ""
-"An Int specifying the increment, interval, iteration or cycle where the "
-"restart analysis will start."
 msgstr ""
 
 #: ../../../../None:55:<autosummary>:1
@@ -745,6 +789,18 @@ msgstr ""
 
 #: ../../../../None:55:<autosummary>:1
 msgid "A repository of EventSeriesData objects."
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid ""
+":py:obj:`restartIncrement "
+"<abaqus.Model.ModelBase.ModelBase.restartIncrement>`\\"
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid ""
+"An Int specifying the increment, interval, iteration or cycle where the "
+"restart analysis will start."
 msgstr ""
 
 #: abaqus.Constraint.ConstraintModel.ConstraintModel of

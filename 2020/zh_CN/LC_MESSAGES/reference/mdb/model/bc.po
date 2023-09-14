@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: abqpy \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-24 15:23+0000\n"
+"POT-Creation-Date: 2023-09-14 01:32+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -44,6 +44,253 @@ msgstr ""
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel:1 of
 msgid ""
 "Abaqus creates a Model object named `Model-1` when a session is started."
+msgstr ""
+
+#: abaqus.BoundaryCondition.AccelerationBC.AccelerationBC:4
+#: abaqus.BoundaryCondition.AccelerationBC.AccelerationBC:10
+#: abaqus.BoundaryCondition.AccelerationBC.AccelerationBC:15
+#: abaqus.BoundaryCondition.AccelerationBC.AccelerationBC.setValues:3
+#: abaqus.BoundaryCondition.AccelerationBC.AccelerationBC.setValuesInStep:4
+#: abaqus.BoundaryCondition.AccelerationBCState.AccelerationBCState:6
+#: abaqus.BoundaryCondition.AccelerationBCState.AccelerationBCState:16
+#: abaqus.BoundaryCondition.AccelerationBaseMotionBC.AccelerationBaseMotionBC:4
+#: abaqus.BoundaryCondition.AccelerationBaseMotionBC.AccelerationBaseMotionBC:10
+#: abaqus.BoundaryCondition.AccelerationBaseMotionBC.AccelerationBaseMotionBC:15
+#: abaqus.BoundaryCondition.AccelerationBaseMotionBC.AccelerationBaseMotionBC.setValues:4
+#: abaqus.BoundaryCondition.AccelerationBaseMotionBC.AccelerationBaseMotionBC.setValuesInStep:4
+#: abaqus.BoundaryCondition.AccelerationBaseMotionBCState.AccelerationBaseMotionBCState:7
+#: abaqus.BoundaryCondition.AccelerationBaseMotionBCState.AccelerationBaseMotionBCState:17
+#: abaqus.BoundaryCondition.AcousticPressureBC.AcousticPressureBC:4
+#: abaqus.BoundaryCondition.AcousticPressureBC.AcousticPressureBC:10
+#: abaqus.BoundaryCondition.AcousticPressureBC.AcousticPressureBC:15
+#: abaqus.BoundaryCondition.AcousticPressureBC.AcousticPressureBC.setValues:4
+#: abaqus.BoundaryCondition.AcousticPressureBC.AcousticPressureBC.setValuesInStep:4
+#: abaqus.BoundaryCondition.AcousticPressureBCState.AcousticPressureBCState:7
+#: abaqus.BoundaryCondition.AcousticPressureBCState.AcousticPressureBCState:17
+#: abaqus.BoundaryCondition.BoundaryCondition.BoundaryCondition:5
+#: abaqus.BoundaryCondition.BoundaryCondition.BoundaryCondition:11
+#: abaqus.BoundaryCondition.BoundaryCondition.BoundaryCondition.deactivate:3
+#: abaqus.BoundaryCondition.BoundaryCondition.BoundaryCondition.delete:3
+#: abaqus.BoundaryCondition.BoundaryCondition.BoundaryCondition.move:3
+#: abaqus.BoundaryCondition.BoundaryCondition.BoundaryCondition.reset:4
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel:3
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel:8
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel:13
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.AccelerationBC:3
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.AccelerationBC:8
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.AccelerationBaseMotionBC:3
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.AccelerationBaseMotionBC:8
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.AcousticPressureBC:3
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.AcousticPressureBC:8
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConcentrationBC:3
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConcentrationBC:8
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnAccelerationBC:4
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnAccelerationBC:9
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnDisplacementBC:4
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnDisplacementBC:9
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnVelocityBC:4
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnVelocityBC:9
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.DisplacementBC:3
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.DisplacementBC:8
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.DisplacementBaseMotionBC:3
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.DisplacementBaseMotionBC:8
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ElectricPotentialBC:3
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ElectricPotentialBC:8
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.EncastreBC:3
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.EncastreBC:8
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.EulerianBC:3
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.EulerianBC:8
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.EulerianMotionBC:3
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.EulerianMotionBC:8
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.FluidCavityPressureBC:3
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.FluidCavityPressureBC:8
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.MagneticVectorPotentialBC:3
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.MagneticVectorPotentialBC:8
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.MaterialFlowBC:3
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.MaterialFlowBC:8
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.PinnedBC:3
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.PinnedBC:8
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.PorePressureBC:3
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.PorePressureBC:8
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.RetainedNodalDofsBC:3
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.RetainedNodalDofsBC:8
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.SecondaryBaseBC:3
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.SecondaryBaseBC:8
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.SubmodelBC:3
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.SubmodelBC:8
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.TemperatureBC:3
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.TemperatureBC:8
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.VelocityBC:3
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.VelocityBC:8
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.VelocityBaseMotionBC:3
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.VelocityBaseMotionBC:8
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.XasymmBC:3
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.XasymmBC:8
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.XsymmBC:3
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.XsymmBC:8
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.YasymmBC:3
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.YasymmBC:8
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.YsymmBC:3
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.YsymmBC:8
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ZasymmBC:3
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ZasymmBC:8
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ZsymmBC:3
+#: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ZsymmBC:8
+#: abaqus.BoundaryCondition.BoundaryConditionState.BoundaryConditionState:5
+#: abaqus.BoundaryCondition.BoundaryConditionState.BoundaryConditionState:11
+#: abaqus.BoundaryCondition.ConcentrationBC.ConcentrationBC:4
+#: abaqus.BoundaryCondition.ConcentrationBC.ConcentrationBC:10
+#: abaqus.BoundaryCondition.ConcentrationBC.ConcentrationBC:15
+#: abaqus.BoundaryCondition.ConcentrationBC.ConcentrationBC.setValues:3
+#: abaqus.BoundaryCondition.ConcentrationBC.ConcentrationBC.setValuesInStep:4
+#: abaqus.BoundaryCondition.ConcentrationBCState.ConcentrationBCState:6
+#: abaqus.BoundaryCondition.ConcentrationBCState.ConcentrationBCState:16
+#: abaqus.BoundaryCondition.ConnAccelerationBC.ConnAccelerationBC:4
+#: abaqus.BoundaryCondition.ConnAccelerationBC.ConnAccelerationBC:10
+#: abaqus.BoundaryCondition.ConnAccelerationBC.ConnAccelerationBC:16
+#: abaqus.BoundaryCondition.ConnAccelerationBC.ConnAccelerationBC.setValues:4
+#: abaqus.BoundaryCondition.ConnAccelerationBC.ConnAccelerationBC.setValuesInStep:4
+#: abaqus.BoundaryCondition.ConnAccelerationBCState.ConnAccelerationBCState:7
+#: abaqus.BoundaryCondition.ConnAccelerationBCState.ConnAccelerationBCState:17
+#: abaqus.BoundaryCondition.ConnDisplacementBC.ConnDisplacementBC:4
+#: abaqus.BoundaryCondition.ConnDisplacementBC.ConnDisplacementBC:10
+#: abaqus.BoundaryCondition.ConnDisplacementBC.ConnDisplacementBC:16
+#: abaqus.BoundaryCondition.ConnDisplacementBC.ConnDisplacementBC.setValues:4
+#: abaqus.BoundaryCondition.ConnDisplacementBC.ConnDisplacementBC.setValuesInStep:4
+#: abaqus.BoundaryCondition.ConnDisplacementBCState.ConnDisplacementBCState:7
+#: abaqus.BoundaryCondition.ConnDisplacementBCState.ConnDisplacementBCState:17
+#: abaqus.BoundaryCondition.ConnVelocityBC.ConnVelocityBC:4
+#: abaqus.BoundaryCondition.ConnVelocityBC.ConnVelocityBC:10
+#: abaqus.BoundaryCondition.ConnVelocityBC.ConnVelocityBC:16
+#: abaqus.BoundaryCondition.ConnVelocityBC.ConnVelocityBC.setValues:3
+#: abaqus.BoundaryCondition.ConnVelocityBC.ConnVelocityBC.setValuesInStep:4
+#: abaqus.BoundaryCondition.ConnVelocityBCState.ConnVelocityBCState:6
+#: abaqus.BoundaryCondition.ConnVelocityBCState.ConnVelocityBCState:16
+#: abaqus.BoundaryCondition.DisplacementBC.DisplacementBC:4
+#: abaqus.BoundaryCondition.DisplacementBC.DisplacementBC:10
+#: abaqus.BoundaryCondition.DisplacementBC.DisplacementBC:15
+#: abaqus.BoundaryCondition.DisplacementBC.DisplacementBC.setValues:3
+#: abaqus.BoundaryCondition.DisplacementBC.DisplacementBC.setValuesInStep:4
+#: abaqus.BoundaryCondition.DisplacementBCState.DisplacementBCState:6
+#: abaqus.BoundaryCondition.DisplacementBCState.DisplacementBCState:16
+#: abaqus.BoundaryCondition.DisplacementBaseMotionBC.DisplacementBaseMotionBC:4
+#: abaqus.BoundaryCondition.DisplacementBaseMotionBC.DisplacementBaseMotionBC:10
+#: abaqus.BoundaryCondition.DisplacementBaseMotionBC.DisplacementBaseMotionBC:15
+#: abaqus.BoundaryCondition.DisplacementBaseMotionBC.DisplacementBaseMotionBC.setValues:4
+#: abaqus.BoundaryCondition.DisplacementBaseMotionBC.DisplacementBaseMotionBC.setValuesInStep:4
+#: abaqus.BoundaryCondition.DisplacementBaseMotionBCState.DisplacementBaseMotionBCState:7
+#: abaqus.BoundaryCondition.DisplacementBaseMotionBCState.DisplacementBaseMotionBCState:17
+#: abaqus.BoundaryCondition.ElectricPotentialBC.ElectricPotentialBC:4
+#: abaqus.BoundaryCondition.ElectricPotentialBC.ElectricPotentialBC:10
+#: abaqus.BoundaryCondition.ElectricPotentialBC.ElectricPotentialBC:15
+#: abaqus.BoundaryCondition.ElectricPotentialBC.ElectricPotentialBC.setValues:4
+#: abaqus.BoundaryCondition.ElectricPotentialBC.ElectricPotentialBC.setValuesInStep:4
+#: abaqus.BoundaryCondition.ElectricPotentialBCState.ElectricPotentialBCState:7
+#: abaqus.BoundaryCondition.ElectricPotentialBCState.ElectricPotentialBCState:17
+#: abaqus.BoundaryCondition.EulerianBC.EulerianBC:4
+#: abaqus.BoundaryCondition.EulerianBC.EulerianBC:10
+#: abaqus.BoundaryCondition.EulerianBC.EulerianBC:15
+#: abaqus.BoundaryCondition.EulerianBC.EulerianBC.setValues:3
+#: abaqus.BoundaryCondition.EulerianBC.EulerianBC.setValuesInStep:3
+#: abaqus.BoundaryCondition.EulerianBCState.EulerianBCState:6
+#: abaqus.BoundaryCondition.EulerianBCState.EulerianBCState:16
+#: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC:4
+#: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC:10
+#: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC:15
+#: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC.setValues:4
+#: abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC.setValuesInStep:4
+#: abaqus.BoundaryCondition.EulerianMotionBCState.EulerianMotionBCState:7
+#: abaqus.BoundaryCondition.EulerianMotionBCState.EulerianMotionBCState:17
+#: abaqus.BoundaryCondition.FluidCavityPressureBC.FluidCavityPressureBC:4
+#: abaqus.BoundaryCondition.FluidCavityPressureBC.FluidCavityPressureBC:10
+#: abaqus.BoundaryCondition.FluidCavityPressureBC.FluidCavityPressureBC:15
+#: abaqus.BoundaryCondition.FluidCavityPressureBC.FluidCavityPressureBC.setValues:4
+#: abaqus.BoundaryCondition.FluidCavityPressureBC.FluidCavityPressureBC.setValuesInStep:4
+#: abaqus.BoundaryCondition.FluidCavityPressureBCState.FluidCavityPressureBCState:7
+#: abaqus.BoundaryCondition.FluidCavityPressureBCState.FluidCavityPressureBCState:17
+#: abaqus.BoundaryCondition.MagneticVectorPotentialBC.MagneticVectorPotentialBC:4
+#: abaqus.BoundaryCondition.MagneticVectorPotentialBC.MagneticVectorPotentialBC:10
+#: abaqus.BoundaryCondition.MagneticVectorPotentialBC.MagneticVectorPotentialBC:15
+#: abaqus.BoundaryCondition.MagneticVectorPotentialBC.MagneticVectorPotentialBC.setValues:4
+#: abaqus.BoundaryCondition.MagneticVectorPotentialBC.MagneticVectorPotentialBC.setValuesInStep:4
+#: abaqus.BoundaryCondition.MaterialFlowBC.MaterialFlowBC:4
+#: abaqus.BoundaryCondition.MaterialFlowBC.MaterialFlowBC:10
+#: abaqus.BoundaryCondition.MaterialFlowBC.MaterialFlowBC:15
+#: abaqus.BoundaryCondition.MaterialFlowBC.MaterialFlowBC.setValues:3
+#: abaqus.BoundaryCondition.MaterialFlowBC.MaterialFlowBC.setValuesInStep:4
+#: abaqus.BoundaryCondition.MaterialFlowBCState.MaterialFlowBCState:7
+#: abaqus.BoundaryCondition.MaterialFlowBCState.MaterialFlowBCState:17
+#: abaqus.BoundaryCondition.PorePressureBC.PorePressureBC:4
+#: abaqus.BoundaryCondition.PorePressureBC.PorePressureBC:10
+#: abaqus.BoundaryCondition.PorePressureBC.PorePressureBC:15
+#: abaqus.BoundaryCondition.PorePressureBC.PorePressureBC.setValues:3
+#: abaqus.BoundaryCondition.PorePressureBC.PorePressureBC.setValuesInStep:4
+#: abaqus.BoundaryCondition.PorePressureBCState.PorePressureBCState:6
+#: abaqus.BoundaryCondition.PorePressureBCState.PorePressureBCState:16
+#: abaqus.BoundaryCondition.RetainedNodalDofsBC.RetainedNodalDofsBC:4
+#: abaqus.BoundaryCondition.RetainedNodalDofsBC.RetainedNodalDofsBC:10
+#: abaqus.BoundaryCondition.RetainedNodalDofsBC.RetainedNodalDofsBC:15
+#: abaqus.BoundaryCondition.RetainedNodalDofsBC.RetainedNodalDofsBC.setValues:4
+#: abaqus.BoundaryCondition.RetainedNodalDofsBC.RetainedNodalDofsBC.setValuesInStep:4
+#: abaqus.BoundaryCondition.SecondaryBaseBC.SecondaryBaseBC:4
+#: abaqus.BoundaryCondition.SecondaryBaseBC.SecondaryBaseBC:10
+#: abaqus.BoundaryCondition.SecondaryBaseBC.SecondaryBaseBC:15
+#: abaqus.BoundaryCondition.SecondaryBaseBC.SecondaryBaseBC.setValuesInStep:4
+#: abaqus.BoundaryCondition.SecondaryBaseBCState.SecondaryBaseBCState:6
+#: abaqus.BoundaryCondition.SecondaryBaseBCState.SecondaryBaseBCState:16
+#: abaqus.BoundaryCondition.SubmodelBC.SubmodelBC:4
+#: abaqus.BoundaryCondition.SubmodelBC.SubmodelBC:10
+#: abaqus.BoundaryCondition.SubmodelBC.SubmodelBC:15
+#: abaqus.BoundaryCondition.SubmodelBC.SubmodelBC.setValues:3
+#: abaqus.BoundaryCondition.SubmodelBC.SubmodelBC.setValuesInStep:3
+#: abaqus.BoundaryCondition.SubmodelBCState.SubmodelBCState:6
+#: abaqus.BoundaryCondition.SubmodelBCState.SubmodelBCState:17
+#: abaqus.BoundaryCondition.TemperatureBC.TemperatureBC:4
+#: abaqus.BoundaryCondition.TemperatureBC.TemperatureBC:10
+#: abaqus.BoundaryCondition.TemperatureBC.TemperatureBC:15
+#: abaqus.BoundaryCondition.TemperatureBC.TemperatureBC.setValues:3
+#: abaqus.BoundaryCondition.TemperatureBC.TemperatureBC.setValuesInStep:3
+#: abaqus.BoundaryCondition.TemperatureBCState.TemperatureBCState:6
+#: abaqus.BoundaryCondition.TemperatureBCState.TemperatureBCState:16
+#: abaqus.BoundaryCondition.TypeBC.TypeBC:4
+#: abaqus.BoundaryCondition.TypeBC.TypeBC:10
+#: abaqus.BoundaryCondition.TypeBC.TypeBC:15
+#: abaqus.BoundaryCondition.TypeBC.TypeBC.EncastreBC:3
+#: abaqus.BoundaryCondition.TypeBC.TypeBC.EncastreBC:8
+#: abaqus.BoundaryCondition.TypeBC.TypeBC.PinnedBC:3
+#: abaqus.BoundaryCondition.TypeBC.TypeBC.PinnedBC:8
+#: abaqus.BoundaryCondition.TypeBC.TypeBC.XasymmBC:3
+#: abaqus.BoundaryCondition.TypeBC.TypeBC.XasymmBC:8
+#: abaqus.BoundaryCondition.TypeBC.TypeBC.XsymmBC:3
+#: abaqus.BoundaryCondition.TypeBC.TypeBC.XsymmBC:8
+#: abaqus.BoundaryCondition.TypeBC.TypeBC.YasymmBC:3
+#: abaqus.BoundaryCondition.TypeBC.TypeBC.YasymmBC:8
+#: abaqus.BoundaryCondition.TypeBC.TypeBC.YsymmBC:3
+#: abaqus.BoundaryCondition.TypeBC.TypeBC.YsymmBC:8
+#: abaqus.BoundaryCondition.TypeBC.TypeBC.ZasymmBC:3
+#: abaqus.BoundaryCondition.TypeBC.TypeBC.ZasymmBC:8
+#: abaqus.BoundaryCondition.TypeBC.TypeBC.ZsymmBC:3
+#: abaqus.BoundaryCondition.TypeBC.TypeBC.ZsymmBC:8
+#: abaqus.BoundaryCondition.TypeBC.TypeBC.setValues:3
+#: abaqus.BoundaryCondition.TypeBC.TypeBC.setValuesInStep:4
+#: abaqus.BoundaryCondition.TypeBCState.TypeBCState:6
+#: abaqus.BoundaryCondition.TypeBCState.TypeBCState:16
+#: abaqus.BoundaryCondition.VelocityBC.VelocityBC:4
+#: abaqus.BoundaryCondition.VelocityBC.VelocityBC:10
+#: abaqus.BoundaryCondition.VelocityBC.VelocityBC:15
+#: abaqus.BoundaryCondition.VelocityBC.VelocityBC.setValues:3
+#: abaqus.BoundaryCondition.VelocityBC.VelocityBC.setValuesInStep:3
+#: abaqus.BoundaryCondition.VelocityBCState.VelocityBCState:6
+#: abaqus.BoundaryCondition.VelocityBCState.VelocityBCState:16
+#: abaqus.BoundaryCondition.VelocityBaseMotionBC.VelocityBaseMotionBC:4
+#: abaqus.BoundaryCondition.VelocityBaseMotionBC.VelocityBaseMotionBC:10
+#: abaqus.BoundaryCondition.VelocityBaseMotionBC.VelocityBaseMotionBC:15
+#: abaqus.BoundaryCondition.VelocityBaseMotionBC.VelocityBaseMotionBC.setValues:4
+#: abaqus.BoundaryCondition.VelocityBaseMotionBC.VelocityBaseMotionBC.setValuesInStep:4
+#: abaqus.BoundaryCondition.VelocityBaseMotionBCState.VelocityBaseMotionBCState:7
+#: abaqus.BoundaryCondition.VelocityBaseMotionBCState.VelocityBaseMotionBCState:17
+#: of
+msgid "Note"
 msgstr ""
 
 #: abaqus.BoundaryCondition.AccelerationBC.AccelerationBC:5
@@ -547,18 +794,6 @@ msgstr ""
 
 #: ../../../../None:55:<autosummary>:1
 msgid ""
-":py:obj:`restartIncrement "
-"<abaqus.Model.ModelBase.ModelBase.restartIncrement>`\\"
-msgstr ""
-
-#: ../../../../None:55:<autosummary>:1
-msgid ""
-"An Int specifying the increment, interval, iteration or cycle where the "
-"restart analysis will start."
-msgstr ""
-
-#: ../../../../None:55:<autosummary>:1
-msgid ""
 ":py:obj:`endRestartStep "
 "<abaqus.Model.ModelBase.ModelBase.endRestartStep>`\\"
 msgstr ""
@@ -1003,6 +1238,18 @@ msgstr ""
 
 #: ../../../../None:55:<autosummary>:1
 msgid "A repository of EventSeriesData objects."
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid ""
+":py:obj:`restartIncrement "
+"<abaqus.Model.ModelBase.ModelBase.restartIncrement>`\\"
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid ""
+"An Int specifying the increment, interval, iteration or cycle where the "
+"restart analysis will start."
 msgstr ""
 
 #: abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel of

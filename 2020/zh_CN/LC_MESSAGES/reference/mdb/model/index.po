@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: abqpy 2020\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-24 15:23+0000\n"
+"POT-Creation-Date: 2023-09-14 01:32+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: zh_CN\n"
@@ -65,6 +65,25 @@ msgstr ""
 #: abaqus.Model.Model.Model:1 abaqus.Model.ModelBase.ModelBase:1 of
 msgid ""
 "Abaqus creates a Model object named `Model-1` when a session is started."
+msgstr ""
+
+#: abaqus.Model.KeywordBlock.KeywordBlock:8
+#: abaqus.Model.KeywordBlock.KeywordBlock:13
+#: abaqus.Model.KeywordBlock.KeywordBlock.insert:3
+#: abaqus.Model.KeywordBlock.KeywordBlock.replace:3
+#: abaqus.Model.KeywordBlock.KeywordBlock.setValues:3
+#: abaqus.Model.KeywordBlock.KeywordBlock.synchVersions:7
+#: abaqus.Model.Model.Model:3 abaqus.Model.Model.Model:12
+#: abaqus.Model.Model.Model:17 abaqus.Model.ModelBase.ModelBase:3
+#: abaqus.Model.ModelBase.ModelBase:12 abaqus.Model.ModelBase.ModelBase:17
+#: abaqus.Model.ModelBase.ModelBase.ModelFromInputFile:4
+#: abaqus.Model.ModelBase.ModelBase.ModelFromInputFile:9
+#: abaqus.Model.ModelBase.ModelBase.ModelFromNastranFile:6
+#: abaqus.Model.ModelBase.ModelBase.ModelFromNastranFile:11
+#: abaqus.Model.ModelBase.ModelBase.ModelFromOdbFile:4
+#: abaqus.Model.ModelBase.ModelBase.ModelFromOdbFile:9
+#: abaqus.Model.ModelBase.ModelBase.setValues:3 of
+msgid "Note"
 msgstr ""
 
 #: abaqus.Model.KeywordBlock.KeywordBlock:9 abaqus.Model.Model.Model:4
@@ -276,18 +295,6 @@ msgstr ""
 msgid ""
 "A Boolean specifying whether an input file should be written without parts"
 " and assemblies."
-msgstr ""
-
-#: ../../../../None:55:<autosummary>:1
-msgid ""
-":py:obj:`restartIncrement "
-"<abaqus.Model.ModelBase.ModelBase.restartIncrement>`\\"
-msgstr ""
-
-#: ../../../../None:55:<autosummary>:1
-msgid ""
-"An Int specifying the increment, interval, iteration or cycle where the "
-"restart analysis will start."
 msgstr ""
 
 #: ../../../../None:55:<autosummary>:1
@@ -786,6 +793,18 @@ msgstr ""
 #: ../../../../None:55:<autosummary>:1 ../../../../docstring
 #: abaqus.Model.ModelBase.ModelBase.eventSeriesDatas:1 of
 msgid "A repository of EventSeriesData objects."
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid ""
+":py:obj:`restartIncrement "
+"<abaqus.Model.ModelBase.ModelBase.restartIncrement>`\\"
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid ""
+"An Int specifying the increment, interval, iteration or cycle where the "
+"restart analysis will start."
 msgstr ""
 
 #: abaqus.Model.Model.Model of

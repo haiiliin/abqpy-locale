@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: abqpy \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-19 09:17+0000\n"
+"POT-Creation-Date: 2023-09-14 01:32+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -58,6 +58,85 @@ msgstr ""
 msgid ""
 "This method creates an interesting point along an edge. An "
 "InterestingPoint is a temporary object."
+msgstr ""
+
+#: abaqus.BasicGeometry.BasicGeometryPart.BasicGeometryPart.InterestingPoint:3
+#: abaqus.BasicGeometry.BasicGeometryPart.BasicGeometryPart.InterestingPoint:9
+#: abaqus.BasicGeometry.Cell.Cell:3 abaqus.BasicGeometry.Cell.Cell:21
+#: abaqus.BasicGeometry.Cell.Cell.getSize:3
+#: abaqus.BasicGeometry.CellArray.CellArray:3
+#: abaqus.BasicGeometry.CellArray.CellArray:21
+#: abaqus.BasicGeometry.CellArray.CellArray:26
+#: abaqus.BasicGeometry.CellArray.CellArray.findAt:10
+#: abaqus.BasicGeometry.CellArray.CellArray.getByBoundingBox:3
+#: abaqus.BasicGeometry.CellArray.CellArray.getByBoundingCylinder:3
+#: abaqus.BasicGeometry.CellArray.CellArray.getByBoundingSphere:3
+#: abaqus.BasicGeometry.CellArray.CellArray.getSequenceFromMask:5
+#: abaqus.BasicGeometry.Edge.Edge:3 abaqus.BasicGeometry.Edge.Edge:32
+#: abaqus.BasicGeometry.Edge.Edge.getCurvature:3
+#: abaqus.BasicGeometry.Edge.Edge.getEdgesByEdgeAngle:4
+#: abaqus.BasicGeometry.Edge.Edge.getSize:3
+#: abaqus.BasicGeometry.EdgeArray.EdgeArray:4
+#: abaqus.BasicGeometry.EdgeArray.EdgeArray:33
+#: abaqus.BasicGeometry.EdgeArray.EdgeArray:38
+#: abaqus.BasicGeometry.EdgeArray.EdgeArray.findAt:10
+#: abaqus.BasicGeometry.EdgeArray.EdgeArray.getByBoundingBox:3
+#: abaqus.BasicGeometry.EdgeArray.EdgeArray.getByBoundingCylinder:3
+#: abaqus.BasicGeometry.EdgeArray.EdgeArray.getByBoundingSphere:3
+#: abaqus.BasicGeometry.EdgeArray.EdgeArray.getClosest:4
+#: abaqus.BasicGeometry.EdgeArray.EdgeArray.getSequenceFromMask:5
+#: abaqus.BasicGeometry.Face.Face:3 abaqus.BasicGeometry.Face.Face:30
+#: abaqus.BasicGeometry.Face.Face.getCurvature:3
+#: abaqus.BasicGeometry.Face.Face.getElementFaces:4
+#: abaqus.BasicGeometry.Face.Face.getFacesByFaceAngle:4
+#: abaqus.BasicGeometry.Face.Face.getNodes:4
+#: abaqus.BasicGeometry.Face.Face.getNormal:5
+#: abaqus.BasicGeometry.Face.Face.getSize:3
+#: abaqus.BasicGeometry.FaceArray.FaceArray:4
+#: abaqus.BasicGeometry.FaceArray.FaceArray:31
+#: abaqus.BasicGeometry.FaceArray.FaceArray:36
+#: abaqus.BasicGeometry.FaceArray.FaceArray.findAt:10
+#: abaqus.BasicGeometry.FaceArray.FaceArray.getByBoundingBox:3
+#: abaqus.BasicGeometry.FaceArray.FaceArray.getByBoundingCylinder:3
+#: abaqus.BasicGeometry.FaceArray.FaceArray.getByBoundingSphere:3
+#: abaqus.BasicGeometry.FaceArray.FaceArray.getClosest:4
+#: abaqus.BasicGeometry.FaceArray.FaceArray.getSequenceFromMask:5
+#: abaqus.BasicGeometry.IgnoredEdge.IgnoredEdge:4
+#: abaqus.BasicGeometry.IgnoredEdge.IgnoredEdge:13
+#: abaqus.BasicGeometry.IgnoredEdge.IgnoredEdge.getCurvature:3
+#: abaqus.BasicGeometry.IgnoredEdge.IgnoredEdge.getSize:3
+#: abaqus.BasicGeometry.IgnoredEdgeArray.IgnoredEdgeArray:4
+#: abaqus.BasicGeometry.IgnoredEdgeArray.IgnoredEdgeArray:13
+#: abaqus.BasicGeometry.IgnoredEdgeArray.IgnoredEdgeArray.findAt:11
+#: abaqus.BasicGeometry.IgnoredEdgeArray.IgnoredEdgeArray.getClosest:4
+#: abaqus.BasicGeometry.IgnoredEdgeArray.IgnoredEdgeArray.getSequenceFromMask:5
+#: abaqus.BasicGeometry.IgnoredVertex.IgnoredVertex:4
+#: abaqus.BasicGeometry.IgnoredVertex.IgnoredVertex:13
+#: abaqus.BasicGeometry.IgnoredVertexArray.IgnoredVertexArray:4
+#: abaqus.BasicGeometry.IgnoredVertexArray.IgnoredVertexArray:13
+#: abaqus.BasicGeometry.IgnoredVertexArray.IgnoredVertexArray.findAt:9
+#: abaqus.BasicGeometry.IgnoredVertexArray.IgnoredVertexArray.getClosest:4
+#: abaqus.BasicGeometry.IgnoredVertexArray.IgnoredVertexArray.getSequenceFromMask:5
+#: abaqus.BasicGeometry.InterestingPoint.InterestingPoint:10
+#: abaqus.BasicGeometry.InterestingPoint.InterestingPoint:16
+#: abaqus.BasicGeometry.InterestingPoint.InterestingPoint:21
+#: abaqus.BasicGeometry.ModelDot.ModelDot:4
+#: abaqus.BasicGeometry.ReferencePoint.ReferencePoint:4
+#: abaqus.BasicGeometry.ReferencePoint.ReferencePoint:24
+#: abaqus.BasicGeometry.ReferencePoint.ReferencePoint:29
+#: abaqus.BasicGeometry.Transform.Transform:5
+#: abaqus.BasicGeometry.Transform.Transform:11
+#: abaqus.BasicGeometry.Vertex.Vertex:3 abaqus.BasicGeometry.Vertex.Vertex:23
+#: abaqus.BasicGeometry.VertexArray.VertexArray:4
+#: abaqus.BasicGeometry.VertexArray.VertexArray:24
+#: abaqus.BasicGeometry.VertexArray.VertexArray:29
+#: abaqus.BasicGeometry.VertexArray.VertexArray.findAt:9
+#: abaqus.BasicGeometry.VertexArray.VertexArray.getByBoundingBox:3
+#: abaqus.BasicGeometry.VertexArray.VertexArray.getByBoundingCylinder:3
+#: abaqus.BasicGeometry.VertexArray.VertexArray.getByBoundingSphere:3
+#: abaqus.BasicGeometry.VertexArray.VertexArray.getClosest:4
+#: abaqus.BasicGeometry.VertexArray.VertexArray.getSequenceFromMask:5 of
+msgid "Note"
 msgstr ""
 
 #: abaqus.BasicGeometry.BasicGeometryPart.BasicGeometryPart.InterestingPoint:4

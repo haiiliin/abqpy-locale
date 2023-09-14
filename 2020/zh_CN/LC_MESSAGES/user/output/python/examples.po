@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: abqpy \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-27 13:49+0000\n"
+"POT-Creation-Date: 2023-09-14 01:32+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,28 +17,28 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.12.1\n"
 
-#: ../../user/output/python/examples.md:1
+#: ../../../user/output/python/examples.md:1
 msgid "Example scripts that access data from an output database"
 msgstr ""
 
-#: ../../user/output/python/examples.md:3
+#: ../../../user/output/python/examples.md:3
 msgid ""
 "The following examples illustrate how you use the output database commands"
 " to access data from an output database."
 msgstr ""
 
-#: ../../user/output/python/examples.md:5
+#: ../../../user/output/python/examples.md:5
 msgid ""
 "In addition, the Abaqus Scripting Interface examples, "
 "{doc}`/user/about/examples/read-output` and {doc}`/user/examples/index` "
 "illustrate how to read data from an output database."
 msgstr ""
 
-#: ../../user/output/python/examples.md:7
+#: ../../../user/output/python/examples.md:7
 msgid "Finding the maximum value of von Mises stress"
 msgstr ""
 
-#: ../../user/output/python/examples.md:9
+#: ../../../user/output/python/examples.md:9
 msgid ""
 "This example illustrates how you can iterate through an output database "
 "and search for the maximum value of von Mises stress. The script opens the"
@@ -46,101 +46,106 @@ msgid ""
 "iterates through the following:"
 msgstr ""
 
-#: ../../user/output/python/examples.md:11
+#: ../../../user/output/python/examples.md:11
 msgid "Each step."
 msgstr ""
 
-#: ../../user/output/python/examples.md:12
+#: ../../../user/output/python/examples.md:12
 msgid "Each frame in each step."
 msgstr ""
 
-#: ../../user/output/python/examples.md:13
+#: ../../../user/output/python/examples.md:13
 msgid "Each value of von Mises stress in each frame."
 msgstr ""
 
-#: ../../user/output/python/examples.md:15
+#: ../../../user/output/python/examples.md:15
 msgid ""
 "In addition, you can supply an optional assembly element set argument from"
 " the command line, in which case the script searches only the element set "
 "for the maximum value of von Mises stress."
 msgstr ""
 
-#: ../../user/output/python/examples.md:17
+#: ../../../user/output/python/examples.md:17
 msgid ""
 "The following illustrates how you can run the example script from the "
 "system prompt. The script will search the element set ALL ELEMENTS in the "
 "viewer tutorial output database for the maximum value of von Mises stress:"
 msgstr ""
 
-#: ../../user/output/python/examples.md:25
+#: ../../../user/output/python/examples.md:24
+#: ../../../user/output/python/examples.md:899
+msgid "Note"
+msgstr ""
+
+#: ../../../user/output/python/examples.md:25
 msgid ""
 "If a command line argument is a String that contains spaces, some systems "
 "will interpret the String correctly only if it is enclosed in double "
 "quotation marks. For example, `\"ALL ELEMENTS\"`."
 msgstr ""
 
-#: ../../user/output/python/examples.md:28
+#: ../../../user/output/python/examples.md:28
 msgid ""
 "You can also run the example with only the **-help** parameter for a "
 "summary of the usage."
 msgstr ""
 
-#: ../../user/output/python/examples.md:30
+#: ../../../user/output/python/examples.md:30
 msgid ""
 "Use the following commands to retrieve the example script and the viewer "
 "tutorial output database:"
 msgstr ""
 
-#: ../../user/output/python/examples.md:150
+#: ../../../user/output/python/examples.md:150
 msgid "Creating an output database"
 msgstr ""
 
-#: ../../user/output/python/examples.md:152
+#: ../../../user/output/python/examples.md:152
 msgid ""
 "The following example illustrates how you can use the Abaqus Scripting "
 "Interface commands to do the following:"
 msgstr ""
 
-#: ../../user/output/python/examples.md:154
+#: ../../../user/output/python/examples.md:154
 msgid "Create a new output database."
 msgstr ""
 
-#: ../../user/output/python/examples.md:155
+#: ../../../user/output/python/examples.md:155
 msgid "Add model data."
 msgstr ""
 
-#: ../../user/output/python/examples.md:156
+#: ../../../user/output/python/examples.md:156
 msgid "Add field data."
 msgstr ""
 
-#: ../../user/output/python/examples.md:157
+#: ../../../user/output/python/examples.md:157
 msgid "Add history data."
 msgstr ""
 
-#: ../../user/output/python/examples.md:158
+#: ../../../user/output/python/examples.md:158
 msgid "Read history data."
 msgstr ""
 
-#: ../../user/output/python/examples.md:159
+#: ../../../user/output/python/examples.md:159
 msgid "Save the output database."
 msgstr ""
 
-#: ../../user/output/python/examples.md:161
-#: ../../user/output/python/examples.md:431
-#: ../../user/output/python/examples.md:514
-#: ../../user/output/python/examples.md:561
-#: ../../user/output/python/examples.md:618
-#: ../../user/output/python/examples.md:683
-#: ../../user/output/python/examples.md:741
-#: ../../user/output/python/examples.md:857
+#: ../../../user/output/python/examples.md:161
+#: ../../../user/output/python/examples.md:428
+#: ../../../user/output/python/examples.md:511
+#: ../../../user/output/python/examples.md:558
+#: ../../../user/output/python/examples.md:615
+#: ../../../user/output/python/examples.md:680
+#: ../../../user/output/python/examples.md:738
+#: ../../../user/output/python/examples.md:852
 msgid "Use the following command to retrieve the example script:"
 msgstr ""
 
-#: ../../user/output/python/examples.md:420
+#: ../../../user/output/python/examples.md:417
 msgid "An Abaqus Scripting Interface version of FPERT"
 msgstr ""
 
-#: ../../user/output/python/examples.md:422
+#: ../../../user/output/python/examples.md:419
 msgid ""
 "A Fortran program that reads the Abaqus results file and creates a "
 "deformed mesh from the original coordinate data and eigenvectors is "
@@ -151,228 +156,228 @@ msgid ""
 "output database and performs similar calculations."
 msgstr ""
 
-#: ../../user/output/python/examples.md:424
-#: ../../user/output/python/examples.md:676
+#: ../../../user/output/python/examples.md:421
+#: ../../../user/output/python/examples.md:673
 msgid "The command line arguments provide the following:"
 msgstr ""
 
-#: ../../user/output/python/examples.md:426
-#: ../../user/output/python/examples.md:678
+#: ../../../user/output/python/examples.md:423
+#: ../../../user/output/python/examples.md:675
 msgid "**odbName**: The output database file name."
 msgstr ""
 
-#: ../../user/output/python/examples.md:427
+#: ../../../user/output/python/examples.md:424
 msgid "**modeList**: A list of eigenmodes to use in the perturbation."
 msgstr ""
 
-#: ../../user/output/python/examples.md:428
+#: ../../../user/output/python/examples.md:425
 msgid "**weightList**: The perturbation weighting factors."
 msgstr ""
 
-#: ../../user/output/python/examples.md:429
+#: ../../../user/output/python/examples.md:426
 msgid "**outNameUser**: The output file name (optional)."
 msgstr ""
 
-#: ../../user/output/python/examples.md:503
+#: ../../../user/output/python/examples.md:500
 msgid "Computations with FieldOutput objects"
 msgstr ""
 
-#: ../../user/output/python/examples.md:505
+#: ../../../user/output/python/examples.md:502
 msgid ""
 "This example illustrates how you can operate on FieldOutput objects and "
 "save the computed field to the output database. The example script does "
 "the following:"
 msgstr ""
 
-#: ../../user/output/python/examples.md:507
+#: ../../../user/output/python/examples.md:504
 msgid "Retrieves two specified fields from the output database."
 msgstr ""
 
-#: ../../user/output/python/examples.md:509
+#: ../../../user/output/python/examples.md:506
 msgid "Computes a new field by subtracting the fields that were retrieved."
 msgstr ""
 
-#: ../../user/output/python/examples.md:510
+#: ../../../user/output/python/examples.md:507
 msgid "Creates a new Step object in the output database."
 msgstr ""
 
-#: ../../user/output/python/examples.md:511
+#: ../../../user/output/python/examples.md:508
 msgid "Creates a new Frame object in the new step."
 msgstr ""
 
-#: ../../user/output/python/examples.md:512
+#: ../../../user/output/python/examples.md:509
 msgid "Creates a new FieldOutput object in the new frame."
 msgstr ""
 
-#: ../../user/output/python/examples.md:513
+#: ../../../user/output/python/examples.md:510
 msgid ""
 "Uses the `addData` method to add the computed field to the new FieldOutput"
 " object."
 msgstr ""
 
-#: ../../user/output/python/examples.md:520
-#: ../../user/output/python/examples.md:567
-#: ../../user/output/python/examples.md:624
+#: ../../../user/output/python/examples.md:517
+#: ../../../user/output/python/examples.md:564
+#: ../../../user/output/python/examples.md:621
 msgid ""
 "The fetch command also retrieves an input file that you can use to "
 "generate the output database that is read by the example script."
 msgstr ""
 
-#: ../../user/output/python/examples.md:553
+#: ../../../user/output/python/examples.md:550
 msgid "Computations with FieldValue objects"
 msgstr ""
 
-#: ../../user/output/python/examples.md:555
+#: ../../../user/output/python/examples.md:552
 msgid ""
 "This example illustrates how you can use the fieldValue operators to sum "
 "and average fieldValues in a region. The example script does the "
 "following:"
 msgstr ""
 
-#: ../../user/output/python/examples.md:557
+#: ../../../user/output/python/examples.md:554
 msgid ""
 "Retrieves the stress field for a specified region during the last step and"
 " frame of the output database."
 msgstr ""
 
-#: ../../user/output/python/examples.md:558
+#: ../../../user/output/python/examples.md:555
 msgid "Sums all the stress fieldValues and computes the average value."
 msgstr ""
 
-#: ../../user/output/python/examples.md:559
+#: ../../../user/output/python/examples.md:556
 msgid "For each component of stress, print the sum and the average stress."
 msgstr ""
 
-#: ../../user/output/python/examples.md:607
+#: ../../../user/output/python/examples.md:604
 msgid "Computations with HistoryOutput objects"
 msgstr ""
 
-#: ../../user/output/python/examples.md:609
+#: ../../../user/output/python/examples.md:606
 msgid ""
 "This example illustrates how you can use the historyOutput operators to "
 "compute the displacement magnitude from the components. The example script"
 " does the following:"
 msgstr ""
 
-#: ../../user/output/python/examples.md:611
+#: ../../../user/output/python/examples.md:608
 msgid "Retrieves the node of interest using a nodeSet."
 msgstr ""
 
-#: ../../user/output/python/examples.md:612
+#: ../../../user/output/python/examples.md:609
 msgid "Uses the node of interest to construct a HistoryPoint object."
 msgstr ""
 
-#: ../../user/output/python/examples.md:613
+#: ../../../user/output/python/examples.md:610
 msgid "Uses the HistoryPoint to retrieve the historyRegion."
 msgstr ""
 
-#: ../../user/output/python/examples.md:614
+#: ../../../user/output/python/examples.md:611
 msgid ""
 "Computes the displacement magnitude history from the displacement "
 "component HistoryOutput objects in the historyRegion."
 msgstr ""
 
-#: ../../user/output/python/examples.md:615
+#: ../../../user/output/python/examples.md:612
 msgid "Scales the displacement magnitude history using a predefined value."
 msgstr ""
 
-#: ../../user/output/python/examples.md:616
+#: ../../../user/output/python/examples.md:613
 msgid "Prints the displacement magnitude history."
 msgstr ""
 
-#: ../../user/output/python/examples.md:667
+#: ../../../user/output/python/examples.md:664
 msgid "Creating a new load combination from different load cases"
 msgstr ""
 
-#: ../../user/output/python/examples.md:669
+#: ../../../user/output/python/examples.md:666
 msgid ""
 "This example illustrates how you can use the frame operators to create a "
 "new load combination from existing load cases. The example script does the"
 " following:"
 msgstr ""
 
-#: ../../user/output/python/examples.md:671
+#: ../../../user/output/python/examples.md:668
 msgid ""
 "Retrieves the information describing the new load combination from the "
 "command line."
 msgstr ""
 
-#: ../../user/output/python/examples.md:672
+#: ../../../user/output/python/examples.md:669
 msgid "Retrieves the frames for each load case."
 msgstr ""
 
-#: ../../user/output/python/examples.md:673
+#: ../../../user/output/python/examples.md:670
 msgid "Computes the new stresses and displacements."
 msgstr ""
 
-#: ../../user/output/python/examples.md:674
+#: ../../../user/output/python/examples.md:671
 msgid ""
 "Saves data computed to the output database as a new load combination."
 msgstr ""
 
-#: ../../user/output/python/examples.md:679
+#: ../../../user/output/python/examples.md:676
 msgid "**stepName**: The name of the step containing the load cases."
 msgstr ""
 
-#: ../../user/output/python/examples.md:680
+#: ../../../user/output/python/examples.md:677
 msgid "**loadCaseNames**: The load case names."
 msgstr ""
 
-#: ../../user/output/python/examples.md:681
+#: ../../../user/output/python/examples.md:678
 msgid "**scaling**: The scale factors to apply to each load case."
 msgstr ""
 
-#: ../../user/output/python/examples.md:689
-#: ../../user/output/python/examples.md:747
+#: ../../../user/output/python/examples.md:686
+#: ../../../user/output/python/examples.md:744
 msgid ""
 "The fetch command also retrieves an input file that you can use to "
 "generate an output database that can be read by the example script."
 msgstr ""
 
-#: ../../user/output/python/examples.md:731
+#: ../../../user/output/python/examples.md:728
 msgid "Stress range for multiple load cases"
 msgstr ""
 
-#: ../../user/output/python/examples.md:733
+#: ../../../user/output/python/examples.md:730
 msgid ""
 "This example illustrates how you can use the envelope operations to "
 "compute the stress range over a number of load cases. The example script "
 "does the following:"
 msgstr ""
 
-#: ../../user/output/python/examples.md:735
+#: ../../../user/output/python/examples.md:732
 msgid ""
 "For each load case during a specified step, the script collects the S11 "
 "components of the stress tensor fields into a list of scalar fields."
 msgstr ""
 
-#: ../../user/output/python/examples.md:736
+#: ../../../user/output/python/examples.md:733
 msgid ""
 "Computes the maximum and minimum of the S11 stress component using the "
 "envelope calculations."
 msgstr ""
 
-#: ../../user/output/python/examples.md:737
+#: ../../../user/output/python/examples.md:734
 msgid ""
 "Computes the stress range using the maximum and minimum values of the "
 "stress component."
 msgstr ""
 
-#: ../../user/output/python/examples.md:738
+#: ../../../user/output/python/examples.md:735
 msgid "Creates a new frame in the step."
 msgstr ""
 
-#: ../../user/output/python/examples.md:739
+#: ../../../user/output/python/examples.md:736
 msgid ""
 "Writes the computed stress range into a new FieldOutput object in the new "
 "frame."
 msgstr ""
 
-#: ../../user/output/python/examples.md:784
+#: ../../../user/output/python/examples.md:779
 msgid "Transformation of field results"
 msgstr ""
 
-#: ../../user/output/python/examples.md:786
+#: ../../../user/output/python/examples.md:781
 msgid ""
 "This example illustrates how field results can be transformed to a "
 "different coordinate system. The example computes deviation of the nodal "
@@ -380,39 +385,39 @@ msgid ""
 "(cylinder bore distortion). The example does the following:"
 msgstr ""
 
-#: ../../user/output/python/examples.md:788
+#: ../../../user/output/python/examples.md:783
 msgid "Creates a cylindrical coordinate system."
 msgstr ""
 
-#: ../../user/output/python/examples.md:789
+#: ../../../user/output/python/examples.md:784
 msgid "Transforms the results to the new coordinate system."
 msgstr ""
 
-#: ../../user/output/python/examples.md:790
+#: ../../../user/output/python/examples.md:785
 msgid "Computes the average radial displacement."
 msgstr ""
 
-#: ../../user/output/python/examples.md:791
+#: ../../../user/output/python/examples.md:786
 msgid ""
 "Computes the distortion as the difference between radial displacement and "
 "the average radial displacement."
 msgstr ""
 
-#: ../../user/output/python/examples.md:792
+#: ../../../user/output/python/examples.md:787
 msgid "Saves the distortion field to the output database for viewing."
 msgstr ""
 
-#: ../../user/output/python/examples.md:794
+#: ../../../user/output/python/examples.md:789
 msgid ""
 "Use the following commands to retrieve the example script and an input "
 "file to create a sample output database:"
 msgstr ""
 
-#: ../../user/output/python/examples.md:850
+#: ../../../user/output/python/examples.md:845
 msgid "Viewing the analysis of a meshed beam cross-section"
 msgstr ""
 
-#: ../../user/output/python/examples.md:852
+#: ../../../user/output/python/examples.md:847
 msgid ""
 "This example illustrates how you can view the results of a meshed beam "
 "cross-section analysis that was generated using Timoshenko beams, as "
@@ -423,20 +428,20 @@ msgid ""
 "database files:"
 msgstr ""
 
-#: ../../user/output/python/examples.md:854
+#: ../../../user/output/python/examples.md:849
 msgid ""
 "An output database generated by the two-dimensional cross-section "
 "analysis. The script reads cross-section data, including the out-of-plane "
 "warping function, from this output database."
 msgstr ""
 
-#: ../../user/output/python/examples.md:855
+#: ../../../user/output/python/examples.md:850
 msgid ""
 "An output database generated by the beam analysis. The script reads "
 "generalized section strains (SE) from this output database."
 msgstr ""
 
-#: ../../user/output/python/examples.md:863
+#: ../../../user/output/python/examples.md:858
 msgid ""
 "You must run the script from Abaqus/CAE by selecting **File -> Run "
 "Script** from the main menu. The script uses `getInputs` to display a "
@@ -447,31 +452,31 @@ msgid ""
 "for the following:"
 msgstr ""
 
-#: ../../user/output/python/examples.md:865
+#: ../../../user/output/python/examples.md:860
 msgid "The name of the step"
 msgstr ""
 
-#: ../../user/output/python/examples.md:866
+#: ../../../user/output/python/examples.md:861
 msgid "The increment or mode number (for a frequency analysis)"
 msgstr ""
 
-#: ../../user/output/python/examples.md:867
+#: ../../../user/output/python/examples.md:862
 msgid "The name of the load case (if any)"
 msgstr ""
 
-#: ../../user/output/python/examples.md:868
+#: ../../../user/output/python/examples.md:863
 msgid "The name of the part instance"
 msgstr ""
 
-#: ../../user/output/python/examples.md:869
+#: ../../../user/output/python/examples.md:864
 msgid "The element number"
 msgstr ""
 
-#: ../../user/output/python/examples.md:870
+#: ../../../user/output/python/examples.md:865
 msgid "The integration point number"
 msgstr ""
 
-#: ../../user/output/python/examples.md:872
+#: ../../../user/output/python/examples.md:867
 msgid ""
 "If you do not enter a value in a field, the script looks in the beam "
 "analysis output database for possible values. The script then enters a "
@@ -484,7 +489,7 @@ msgid ""
 "box the next time you run the example script."
 msgstr ""
 
-#: ../../user/output/python/examples.md:874
+#: ../../../user/output/python/examples.md:869
 msgid ""
 "After the `getInputs` method returns acceptable values, the script reads "
 "the two output databases and writes the generated data back to the output "
@@ -503,7 +508,7 @@ msgid ""
 "selecting `Result -> Field Output` from the main menu."
 msgstr ""
 
-#: ../../user/output/python/examples.md:876
+#: ../../../user/output/python/examples.md:871
 msgid ""
 "The example script writes new stress and strain fields. The script must "
 "provide a unique name for the generated field output because each of these"
@@ -512,7 +517,7 @@ msgid ""
 " script constructs this unique name as follows:"
 msgstr ""
 
-#: ../../user/output/python/examples.md:878
+#: ../../../user/output/python/examples.md:873
 msgid ""
 "All contour stress and strain fields for a specific beam analysis output "
 "database are written to a new frame, where the description of the frame is"
@@ -521,7 +526,7 @@ msgid ""
 "beam_run17**."
 msgstr ""
 
-#: ../../user/output/python/examples.md:879
+#: ../../../user/output/python/examples.md:874
 msgid ""
 "The field name is assembled from a concatenation of the **step name**, "
 "**frame index**, **instance name**, **element**, and **integration "
@@ -529,7 +534,7 @@ msgid ""
 "Any spaces in a step or instance name are replaced by underscores."
 msgstr ""
 
-#: ../../user/output/python/examples.md:881
+#: ../../../user/output/python/examples.md:876
 msgid ""
 "You can run the script many times; for example, to create contour data for"
 " a particular step, increment, and integration point along each element of"
@@ -537,7 +542,7 @@ msgid ""
 "select which element to display."
 msgstr ""
 
-#: ../../user/output/python/examples.md:883
+#: ../../../user/output/python/examples.md:878
 msgid ""
 "The contour data generated by the example script are written back to the "
 "output database that was originally created by the two-dimensional, cross-"
@@ -545,13 +550,13 @@ msgid ""
 "form, you must save a copy before you run the example script."
 msgstr ""
 
-#: ../../user/output/python/examples.md:885
+#: ../../../user/output/python/examples.md:880
 msgid ""
 "Using infinite elements to compute and view the results of an acoustic "
 "far-field analysis"
 msgstr ""
 
-#: ../../user/output/python/examples.md:887
+#: ../../../user/output/python/examples.md:882
 msgid ""
 "This example illustrates how you can use the Abaqus Scripting Interface to"
 " compute acoustic far-field pressure values from infinite element sets and"
@@ -569,31 +574,31 @@ msgid ""
 "the far-field results."
 msgstr ""
 
-#: ../../user/output/python/examples.md:889
+#: ../../../user/output/python/examples.md:884
 msgid "The far-field pressure is defined as"
 msgstr ""
 
-#: ../../user/output/python/examples.md:891
+#: ../../../user/output/python/examples.md:886
 msgid ""
 "$$ \\lim _{r \\rightarrow \\infty} p(r)=\\lim _{r \\rightarrow "
 "\\infty}\\left(\\frac{1}{k r} e^{-i k r} p_{F A R}\\right) $$"
 msgstr ""
 
-#: ../../user/output/python/examples.md:895
+#: ../../../user/output/python/examples.md:890
 msgid ""
 "where $p(r)$ is the acoustic pressure at a distance $r$ from the reference"
 " point, $k$ is the wave number, and $p_{F A R}$ is the acoustic far-field "
 "pressure. The acoustic pressure decibel value is defined as"
 msgstr ""
 
-#: ../../user/output/python/examples.md:897
+#: ../../../user/output/python/examples.md:892
 msgid ""
 "$$ &\\mathrm{PORdB}=20 \\log _{10}\\left(\\frac{p_{R M S}}{d B R e "
 "f}\\right) \\\\ &p_{R M "
 "S}=\\left(\\frac{|\\mathrm{POR}|}{\\sqrt{2}}\\right) $$"
 msgstr ""
 
-#: ../../user/output/python/examples.md:902
+#: ../../../user/output/python/examples.md:897
 msgid ""
 "where $|\\mathrm{POR}|$ is the magnitude of the acoustic pressure at a "
 "point, $p_{R M S}$ is the root mean square acoustic pressure, and $d B R e"
@@ -602,31 +607,31 @@ msgid ""
 "$\\operatorname{POR} d B$, using the same reference value $d B R e f)$"
 msgstr ""
 
-#: ../../user/output/python/examples.md:905
+#: ../../../user/output/python/examples.md:900
 msgid ""
 "If $d B R e f=20 \\mu P a$ (in SI units), POR $d B$ corresponds to $d B S "
 "P L$"
 msgstr ""
 
-#: ../../user/output/python/examples.md:908
+#: ../../../user/output/python/examples.md:903
 msgid ""
 "The script also calculates the far-field acoustic intensity, which is "
 "defined as"
 msgstr ""
 
-#: ../../user/output/python/examples.md:910
+#: ../../../user/output/python/examples.md:905
 msgid ""
 "$$ \\mathrm{INTEN}_{\\mathrm{FAR}}=\\left(\\frac{p_{R M S F A "
 "R}^{2}}{\\rho\\times c}\\right) $$"
 msgstr ""
 
-#: ../../user/output/python/examples.md:914
+#: ../../../user/output/python/examples.md:909
 msgid ""
 "where $p_{R M S F A R}$ is the far-field rms pressure, $\\rho$ is the "
 "fluid density, and $c$ is the speed of sound in the medium."
 msgstr ""
 
-#: ../../user/output/python/examples.md:916
+#: ../../../user/output/python/examples.md:911
 msgid ""
 "Before you execute the script, you must run a direct-solution, steady-"
 "state dynamics acoustics analysis that includes three-dimensional acoustic"
@@ -635,38 +640,38 @@ msgid ""
 "variables:"
 msgstr ""
 
-#: ../../user/output/python/examples.md:918
+#: ../../../user/output/python/examples.md:913
 msgid "INFN, the acoustic infinite element normal vector."
 msgstr ""
 
-#: ../../user/output/python/examples.md:919
+#: ../../../user/output/python/examples.md:914
 msgid ""
 "INFR, the acoustic infinite element “radius,” used in the coordinate map "
 "for these elements."
 msgstr ""
 
-#: ../../user/output/python/examples.md:920
+#: ../../../user/output/python/examples.md:915
 msgid "PINF, the acoustic infinite element pressure coefficients."
 msgstr ""
 
-#: ../../user/output/python/examples.md:922
+#: ../../../user/output/python/examples.md:917
 msgid "Use the following command to retrieve the script:"
 msgstr ""
 
-#: ../../user/output/python/examples.md:928
+#: ../../../user/output/python/examples.md:923
 msgid ""
 "Enter the Visualization module, and display the output database in the "
 "current viewport. Run the script by selecting **File -> Run Script** from "
 "the main menu bar."
 msgstr ""
 
-#: ../../user/output/python/examples.md:930
+#: ../../../user/output/python/examples.md:925
 msgid ""
 "The script uses getInputs to display a dialog box that prompts you for the"
 " following information:"
 msgstr ""
 
-#: ../../user/output/python/examples.md:932
+#: ../../../user/output/python/examples.md:927
 msgid ""
 "The name of the element set containing the infinite elements (the name is "
 "case sensitive). By default, the script locates all the infinite elements "
@@ -675,36 +680,36 @@ msgid ""
 "a list of the available element sets in the message area."
 msgstr ""
 
-#: ../../user/output/python/examples.md:934
+#: ../../../user/output/python/examples.md:929
 msgid ""
 "The radius of the sphere (required). The script asks you to enter a new "
 "value if the sphere with this radius does not intersect any of the "
 "selected infinite elements."
 msgstr ""
 
-#: ../../user/output/python/examples.md:936
+#: ../../../user/output/python/examples.md:931
 msgid ""
 "The coordinates of the center of the sphere. By default, the script uses "
 "(0,0,0)."
 msgstr ""
 
-#: ../../user/output/python/examples.md:938
+#: ../../../user/output/python/examples.md:933
 msgid "The analysis steps. You can enter one of the following:"
 msgstr ""
 
-#: ../../user/output/python/examples.md:940
+#: ../../../user/output/python/examples.md:935
 msgid "An Int"
 msgstr ""
 
-#: ../../user/output/python/examples.md:941
+#: ../../../user/output/python/examples.md:936
 msgid "A comma-separated list of Ints"
 msgstr ""
 
-#: ../../user/output/python/examples.md:942
+#: ../../../user/output/python/examples.md:937
 msgid "A range; for example, 1:20"
 msgstr ""
 
-#: ../../user/output/python/examples.md:944
+#: ../../../user/output/python/examples.md:939
 msgid ""
 "You can also enter a combination of Ints and ranges; for example, "
 "4,5,10:20,30. By default, the script reads data from all the steps. The "
@@ -712,39 +717,39 @@ msgid ""
 "state dynamics acoustics analysis or that have no results."
 msgstr ""
 
-#: ../../user/output/python/examples.md:946
+#: ../../../user/output/python/examples.md:941
 msgid ""
 "The frequencies for which output should be generated (Hz). You can enter a"
 " Float, a list of Floats, or a range. By default, the script generates "
 "output for all the frequencies in the original output database."
 msgstr ""
 
-#: ../../user/output/python/examples.md:948
+#: ../../../user/output/python/examples.md:943
 msgid "A decibel reference value (required)."
 msgstr ""
 
-#: ../../user/output/python/examples.md:950
+#: ../../../user/output/python/examples.md:945
 msgid ""
 "The name of the part instance to create (required). The script appends "
 "this name to the name of the instance containing the infinite elements "
 "being used."
 msgstr ""
 
-#: ../../user/output/python/examples.md:952
+#: ../../../user/output/python/examples.md:947
 msgid "The speed of sound (required)."
 msgstr ""
 
-#: ../../user/output/python/examples.md:954
+#: ../../../user/output/python/examples.md:949
 msgid "The fluid density (required)"
 msgstr ""
 
-#: ../../user/output/python/examples.md:956
+#: ../../../user/output/python/examples.md:951
 msgid ""
 "Whether to write data to the original output database. By default, the "
 "script writes to an output database called `current-odb-name_acvis.odb`."
 msgstr ""
 
-#: ../../user/output/python/examples.md:958
+#: ../../../user/output/python/examples.md:953
 msgid ""
 "After the `getInputs` method returns acceptable values, the script "
 "processes the elements in the specified element sets. The visualization "
@@ -756,36 +761,36 @@ msgid ""
 "normal (INFN) at each node of the element."
 msgstr ""
 
-#: ../../user/output/python/examples.md:960
+#: ../../../user/output/python/examples.md:955
 msgid ""
 "Once the new display elements have been created, the script writes results"
 " at the nodes in the set. The following output results are written back to"
 " the output database:"
 msgstr ""
 
-#: ../../user/output/python/examples.md:962
+#: ../../../user/output/python/examples.md:957
 msgid "POR, the acoustic pressure."
 msgstr ""
 
-#: ../../user/output/python/examples.md:963
+#: ../../../user/output/python/examples.md:958
 msgid ""
 "PORdB, the acoustic pressure decibel value. If the reference value used is"
 " $2\\times10^{-5}$ Pa, the PFARdB corresponds to dB SPL."
 msgstr ""
 
-#: ../../user/output/python/examples.md:964
+#: ../../../user/output/python/examples.md:959
 msgid "PFAR, the acoustic far-field pressure."
 msgstr ""
 
-#: ../../user/output/python/examples.md:965
+#: ../../../user/output/python/examples.md:960
 msgid "PFARdB, the far-field pressure decibel value."
 msgstr ""
 
-#: ../../user/output/python/examples.md:966
+#: ../../../user/output/python/examples.md:961
 msgid "INTEN_FAR, the far-field acoustic intensity."
 msgstr ""
 
-#: ../../user/output/python/examples.md:968
+#: ../../../user/output/python/examples.md:963
 msgid ""
 "To create the output at each node, the script first determines the point "
 "at which the node ray intersects the sphere. Using the distance from the "
@@ -793,7 +798,7 @@ msgid ""
 " the required output variables are calculated at the intersection point."
 msgstr ""
 
-#: ../../user/output/python/examples.md:970
+#: ../../../user/output/python/examples.md:965
 msgid ""
 "After the script has finished writing data, it opens the output database "
 "containing the new data. For comparison, the original instance is "
@@ -805,7 +810,7 @@ msgid ""
 "the message area."
 msgstr ""
 
-#: ../../user/output/python/examples.md:972
+#: ../../../user/output/python/examples.md:967
 msgid ""
 "You can run the script more than once and continue writing data to the "
 "same output database. For example, you can run the script several times to"
@@ -813,18 +818,18 @@ msgid ""
 "on several spheres will be written to the output database."
 msgstr ""
 
-#: ../../user/output/python/examples.md:974
+#: ../../../user/output/python/examples.md:969
 msgid ""
 "To see how the script operates on a single triangular-element model, use "
 "the following command to retrieve the input file:"
 msgstr ""
 
-#: ../../user/output/python/examples.md:980
+#: ../../../user/output/python/examples.md:975
 msgid ""
 "Use the following command to create the corresponding output database:"
 msgstr ""
 
-#: ../../user/output/python/examples.md:986
+#: ../../../user/output/python/examples.md:981
 msgid ""
 "The results from running the script twice using the single triangular-"
 "element model, changing the radius of the sphere, and writing the data "
@@ -832,11 +837,11 @@ msgid ""
 "acousticviz`"
 msgstr ""
 
-#: ../../user/output/python/examples.md:994
+#: ../../../user/output/python/examples.md:989
 msgid "Displaying the acoustic pressure on several spheres."
 msgstr ""
 
-#: ../../user/output/python/examples.md:997
+#: ../../../user/output/python/examples.md:992
 msgid ""
 "This model simulates the response of a sphere in \"breathing\" mode (a "
 "uniform radial expansion/compression mode). The model consists of one "
@@ -852,28 +857,28 @@ msgid ""
 "sphere are"
 msgstr ""
 
-#: ../../user/output/python/examples.md:999
+#: ../../../user/output/python/examples.md:994
 msgid ""
 "$$ p(r)=p_{0}\\left(\\frac{r_{0}}{r}\\right) e^{-i "
 "k\\left(r-r_{0}\\right)} $$"
 msgstr ""
 
-#: ../../user/output/python/examples.md:1003
-#: ../../user/output/python/examples.md:1017
+#: ../../../user/output/python/examples.md:998
+#: ../../../user/output/python/examples.md:1012
 msgid "and"
 msgstr ""
 
-#: ../../user/output/python/examples.md:1005
+#: ../../../user/output/python/examples.md:1000
 msgid "$$ p_{F A R}(r)=p_{0} r_{0} k e^{i k r_{0}} $$"
 msgstr ""
 
-#: ../../user/output/python/examples.md:1009
+#: ../../../user/output/python/examples.md:1004
 msgid ""
 "where $p_{0}$ is the known acoustic pressure at some reference distance "
 "$r_{0}$ and $k$ is the wave number."
 msgstr ""
 
-#: ../../user/output/python/examples.md:1011
+#: ../../../user/output/python/examples.md:1006
 msgid ""
 "For this single-element example, you should enter a value of $1.0$ for the"
 " speed of sound; thus, $k=2 \\pi f$, where $f$ is the frequency in "
@@ -882,19 +887,19 @@ msgid ""
 "pressure, $p_{F A R}$, reduce to"
 msgstr ""
 
-#: ../../user/output/python/examples.md:1013
+#: ../../../user/output/python/examples.md:1008
 msgid "$$ p(r)=\\frac{0.001}{r} e^{-i k(r-1)} $$"
 msgstr ""
 
-#: ../../user/output/python/examples.md:1019
+#: ../../../user/output/python/examples.md:1014
 msgid "$$ p_{F A R}(r)=0.001 k e^{i k}. $$"
 msgstr ""
 
-#: ../../user/output/python/examples.md:1023
+#: ../../../user/output/python/examples.md:1018
 msgid "An Abaqus Scripting Interface version of FELBOW"
 msgstr ""
 
-#: ../../user/output/python/examples.md:1025
+#: ../../../user/output/python/examples.md:1020
 msgid ""
 "This example illustrates the use of an Abaqus Scripting Interface script "
 "to read selected element integration point records from an output database"
@@ -906,29 +911,29 @@ msgid ""
 "SIMACAEEXARefMap/simaexa-c-felbow.htm?contextscope=all)."
 msgstr ""
 
-#: ../../user/output/python/examples.md:1027
+#: ../../../user/output/python/examples.md:1022
 msgid ""
 "The script reads integration point data for elbow elements from an output "
 "database to visualize one of the following:"
 msgstr ""
 
-#: ../../user/output/python/examples.md:1029
+#: ../../../user/output/python/examples.md:1024
 msgid ""
 "Variation of an output variable around the circumference of a given elbow "
 "element, or"
 msgstr ""
 
-#: ../../user/output/python/examples.md:1030
+#: ../../../user/output/python/examples.md:1025
 msgid "Ovalization of a given elbow element."
 msgstr ""
 
-#: ../../user/output/python/examples.md:1032
+#: ../../../user/output/python/examples.md:1027
 msgid ""
 "The script creates either an ASCII file containing **X - Y** data or a new"
 " output database file that can be viewed using Abaqus/CAE."
 msgstr ""
 
-#: ../../user/output/python/examples.md:1034
+#: ../../../user/output/python/examples.md:1029
 msgid ""
 "To use option 2, you must ensure that the integration point coordinates "
 "(COORD) are written to the output database. For option 1 the **X** - data "
@@ -943,55 +948,55 @@ msgid ""
 " the cross-section."
 msgstr ""
 
-#: ../../user/output/python/examples.md:1036
+#: ../../../user/output/python/examples.md:1031
 msgid ""
 "You should specify the name of the output database during program "
 "execution. The script prompts for more information, depending on the "
 "option that was chosen; this information includes the following:"
 msgstr ""
 
-#: ../../user/output/python/examples.md:1038
+#: ../../../user/output/python/examples.md:1033
 msgid ""
 "Your choice for storing results (ASCII file or a new output database)"
 msgstr ""
 
-#: ../../user/output/python/examples.md:1039
+#: ../../../user/output/python/examples.md:1034
 msgid "File name based on the above choice"
 msgstr ""
 
-#: ../../user/output/python/examples.md:1040
+#: ../../../user/output/python/examples.md:1035
 msgid "The postprocessing option (1 or 2)"
 msgstr ""
 
-#: ../../user/output/python/examples.md:1041
+#: ../../../user/output/python/examples.md:1036
 msgid "The part name"
 msgstr ""
 
-#: ../../user/output/python/examples.md:1042
+#: ../../../user/output/python/examples.md:1037
 msgid "The step name"
 msgstr ""
 
-#: ../../user/output/python/examples.md:1043
+#: ../../../user/output/python/examples.md:1038
 msgid "The frame number"
 msgstr ""
 
-#: ../../user/output/python/examples.md:1044
+#: ../../../user/output/python/examples.md:1039
 msgid "The element output variable (option 1 only)"
 msgstr ""
 
-#: ../../user/output/python/examples.md:1045
+#: ../../../user/output/python/examples.md:1040
 msgid "The component of the variable (option 1 only)"
 msgstr ""
 
-#: ../../user/output/python/examples.md:1046
+#: ../../../user/output/python/examples.md:1041
 msgid "The section point number (option 1 only)"
 msgstr ""
 
-#: ../../user/output/python/examples.md:1047
+#: ../../../user/output/python/examples.md:1042
 msgid "The element number or element set name"
 msgstr ""
 
-#: ../../user/output/python/examples.md:1049
+#: ../../../user/output/python/examples.md:1044
 msgid ""
 "Before executing the script, run an analysis that creates an output "
 "database file containing the appropriate output. This analysis includes, "
@@ -999,7 +1004,7 @@ msgid ""
 " of the elements. Execute the script using the following command:"
 msgstr ""
 
-#: ../../user/output/python/examples.md:1055
+#: ../../../user/output/python/examples.md:1050
 msgid ""
 "The script prompts for other information, such as the desired "
 "postprocessing option, part name, etc. The script processes the data and "
@@ -1007,7 +1012,7 @@ msgid ""
 "information required to visualize the elbow element results."
 msgstr ""
 
-#: ../../user/output/python/examples.md:1057
+#: ../../../user/output/python/examples.md:1052
 msgid ""
 "[Elastic-plastic collapse of a thin-walled elbow under in-plane bending "
 "and internal pressure](https://help.3ds.com/2021/English/DSSIMULIA_Establi"

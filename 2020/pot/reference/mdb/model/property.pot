@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: abqpy 2020\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-19 09:17+0000\n"
+"POT-Creation-Date: 2023-09-14 01:32+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1919,6 +1919,80 @@ msgstr ""
 #: ../../../../../src/abaqus/Property/PropertyPart.py:docstring of abaqus.Property.PropertyPart.PropertyPart:1
 #: ../../../../../src/abaqus/Property/SectionAssignment.py:docstring of abaqus.Property.SectionAssignment.SectionAssignment:1
 msgid "Member Details:"
+msgstr ""
+
+#: ../../../../../src/abaqus/Property/CompositeLayup.py:docstring of abaqus.Property.CompositeLayup.CompositeLayup:3
+#: ../../../../../src/abaqus/Property/CompositeLayup.py:docstring of abaqus.Property.CompositeLayup.CompositeLayup:15
+#: ../../../../../src/abaqus/Property/CompositeLayup.py:docstring of abaqus.Property.CompositeLayup.CompositeLayup:20
+#: ../../../../../src/abaqus/Property/CompositeLayup.py:docstring of abaqus.Property.CompositeLayup.CompositeLayup.CompositePly:3
+#: ../../../../../src/abaqus/Property/CompositeLayup.py:docstring of abaqus.Property.CompositeLayup.CompositeLayup.CompositePly:8
+#: ../../../../../src/abaqus/Property/CompositeLayup.py:docstring of abaqus.Property.CompositeLayup.CompositeLayup.CompositeShellSection:3
+#: ../../../../../src/abaqus/Property/CompositeLayup.py:docstring of abaqus.Property.CompositeLayup.CompositeLayup.CompositeShellSection:8
+#: ../../../../../src/abaqus/Property/CompositeLayup.py:docstring of abaqus.Property.CompositeLayup.CompositeLayup.GeometryShellSection:3
+#: ../../../../../src/abaqus/Property/CompositeLayup.py:docstring of abaqus.Property.CompositeLayup.CompositeLayup.GeometryShellSection:8
+#: ../../../../../src/abaqus/Property/CompositeLayup.py:docstring of abaqus.Property.CompositeLayup.CompositeLayup.HomogeneousShellSection:3
+#: ../../../../../src/abaqus/Property/CompositeLayup.py:docstring of abaqus.Property.CompositeLayup.CompositeLayup.HomogeneousShellSection:8
+#: ../../../../../src/abaqus/Property/CompositeLayup.py:docstring of abaqus.Property.CompositeLayup.CompositeLayup.setValues:3
+#: ../../../../../src/abaqus/Property/CompositePly.py:docstring of abaqus.Property.CompositePly.CompositePly:3
+#: ../../../../../src/abaqus/Property/CompositePly.py:docstring of abaqus.Property.CompositePly.CompositePly:9
+#: ../../../../../src/abaqus/Property/CompositePly.py:docstring of abaqus.Property.CompositePly.CompositePly:14
+#: ../../../../../src/abaqus/Property/MaterialOrientation.py:docstring of abaqus.Property.MaterialOrientation.MaterialOrientation:4
+#: ../../../../../src/abaqus/Property/MaterialOrientation.py:docstring of abaqus.Property.MaterialOrientation.MaterialOrientation:15
+#: ../../../../../src/abaqus/Property/MaterialOrientation.py:docstring of abaqus.Property.MaterialOrientation.MaterialOrientation:20
+#: ../../../../../src/abaqus/Property/MaterialOrientation.py:docstring of abaqus.Property.MaterialOrientation.MaterialOrientation.ReferenceOrientation:3
+#: ../../../../../src/abaqus/Property/MaterialOrientation.py:docstring of abaqus.Property.MaterialOrientation.MaterialOrientation.ReferenceOrientation:8
+#: ../../../../../src/abaqus/Property/PlyStackPlot.py:docstring of abaqus.Property.PlyStackPlot.MdbPlyStackPlot:3
+#: ../../../../../src/abaqus/Property/PlyStackPlot.py:docstring of abaqus.Property.PlyStackPlot.MdbPlyStackPlot:8
+#: ../../../../../src/abaqus/Property/PlyStackPlot.py:docstring of abaqus.Property.PlyStackPlot.OdbPlyStackPlot:3
+#: ../../../../../src/abaqus/Property/PlyStackPlot.py:docstring of abaqus.Property.PlyStackPlot.OdbPlyStackPlot:8
+#: ../../../../../src/abaqus/Property/PlyStackPlot.py:docstring of abaqus.Property.PlyStackPlot.PlyStackPlot:4
+#: ../../../../../src/abaqus/Property/PlyStackPlot.py:docstring of abaqus.Property.PlyStackPlot.PlyStackPlot:10
+#: ../../../../../src/abaqus/Property/Property.py:docstring of abaqus.Property.Property.assignBeamSectionOrientation:3
+#: ../../../../../src/abaqus/Property/Property.py:docstring of abaqus.Property.Property.assignBeamSectionOrientation:8
+#: ../../../../../src/abaqus/Property/Property.py:docstring of abaqus.Property.Property.assignMaterialOrientation:3
+#: ../../../../../src/abaqus/Property/Property.py:docstring of abaqus.Property.Property.assignMaterialOrientation:8
+#: ../../../../../src/abaqus/Property/Property.py:docstring of abaqus.Property.Property.assignRebarOrientation:3
+#: ../../../../../src/abaqus/Property/Property.py:docstring of abaqus.Property.Property.assignRebarOrientation:8
+#: ../../../../../src/abaqus/Property/Property.py:docstring of abaqus.Property.Property.flipNormal:4
+#: ../../../../../src/abaqus/Property/Property.py:docstring of abaqus.Property.Property.flipNormal:9
+#: ../../../../../src/abaqus/Property/Property.py:docstring of abaqus.Property.Property.flipTangent:4
+#: ../../../../../src/abaqus/Property/Property.py:docstring of abaqus.Property.Property.flipTangent:9
+#: ../../../../../src/abaqus/Property/Property.py:docstring of abaqus.Property.Property.unassignBeamSectionOrientation:3
+#: ../../../../../src/abaqus/Property/Property.py:docstring of abaqus.Property.Property.unassignBeamSectionOrientation:8
+#: ../../../../../src/abaqus/Property/Property.py:docstring of abaqus.Property.Property.unassignMaterialOrientation:3
+#: ../../../../../src/abaqus/Property/Property.py:docstring of abaqus.Property.Property.unassignMaterialOrientation:8
+#: ../../../../../src/abaqus/Property/Property.py:docstring of abaqus.Property.Property.unassignRebarOrientation:3
+#: ../../../../../src/abaqus/Property/Property.py:docstring of abaqus.Property.Property.unassignRebarOrientation:8
+#: ../../../../../src/abaqus/Property/PropertyAssembly.py:docstring of abaqus.Property.PropertyAssembly.PropertyAssembly:4
+#: ../../../../../src/abaqus/Property/PropertyAssembly.py:docstring of abaqus.Property.PropertyAssembly.PropertyAssembly:10
+#: ../../../../../src/abaqus/Property/PropertyAssembly.py:docstring of abaqus.Property.PropertyAssembly.PropertyAssembly.SectionAssignment:3
+#: ../../../../../src/abaqus/Property/PropertyAssembly.py:docstring of abaqus.Property.PropertyAssembly.PropertyAssembly.SectionAssignment:9
+#: ../../../../../src/abaqus/Property/PropertyPart.py:docstring of abaqus.Property.PropertyPart.PropertyPart.CompositeLayup:3
+#: ../../../../../src/abaqus/Property/PropertyPart.py:docstring of abaqus.Property.PropertyPart.PropertyPart.CompositeLayup:8
+#: ../../../../../src/abaqus/Property/PropertyPart.py:docstring of abaqus.Property.PropertyPart.PropertyPart.MaterialOrientation:3
+#: ../../../../../src/abaqus/Property/PropertyPart.py:docstring of abaqus.Property.PropertyPart.PropertyPart.MaterialOrientation:8
+#: ../../../../../src/abaqus/Property/PropertyPart.py:docstring of abaqus.Property.PropertyPart.PropertyPart.SectionAssignment:3
+#: ../../../../../src/abaqus/Property/PropertyPart.py:docstring of abaqus.Property.PropertyPart.PropertyPart.SectionAssignment:9
+#: ../../../../../src/abaqus/Property/PropertyPart.py:docstring of abaqus.Property.PropertyPart.PropertyPart.assignBeamSectionOrientation:3
+#: ../../../../../src/abaqus/Property/PropertyPart.py:docstring of abaqus.Property.PropertyPart.PropertyPart.assignBeamSectionOrientation:8
+#: ../../../../../src/abaqus/Property/PropertyPart.py:docstring of abaqus.Property.PropertyPart.PropertyPart.assignMaterialOrientation:3
+#: ../../../../../src/abaqus/Property/PropertyPart.py:docstring of abaqus.Property.PropertyPart.PropertyPart.assignMaterialOrientation:8
+#: ../../../../../src/abaqus/Property/PropertyPart.py:docstring of abaqus.Property.PropertyPart.PropertyPart.assignRebarOrientation:3
+#: ../../../../../src/abaqus/Property/PropertyPart.py:docstring of abaqus.Property.PropertyPart.PropertyPart.assignRebarOrientation:8
+#: ../../../../../src/abaqus/Property/PropertyPart.py:docstring of abaqus.Property.PropertyPart.PropertyPart.flipNormal:4
+#: ../../../../../src/abaqus/Property/PropertyPart.py:docstring of abaqus.Property.PropertyPart.PropertyPart.flipNormal:9
+#: ../../../../../src/abaqus/Property/PropertyPart.py:docstring of abaqus.Property.PropertyPart.PropertyPart.flipTangent:4
+#: ../../../../../src/abaqus/Property/PropertyPart.py:docstring of abaqus.Property.PropertyPart.PropertyPart.flipTangent:9
+#: ../../../../../src/abaqus/Property/PropertyPart.py:docstring of abaqus.Property.PropertyPart.PropertyPart.unassignBeamSectionOrientation:3
+#: ../../../../../src/abaqus/Property/PropertyPart.py:docstring of abaqus.Property.PropertyPart.PropertyPart.unassignBeamSectionOrientation:8
+#: ../../../../../src/abaqus/Property/PropertyPart.py:docstring of abaqus.Property.PropertyPart.PropertyPart.unassignMaterialOrientation:3
+#: ../../../../../src/abaqus/Property/PropertyPart.py:docstring of abaqus.Property.PropertyPart.PropertyPart.unassignMaterialOrientation:8
+#: ../../../../../src/abaqus/Property/PropertyPart.py:docstring of abaqus.Property.PropertyPart.PropertyPart.unassignRebarOrientation:3
+#: ../../../../../src/abaqus/Property/PropertyPart.py:docstring of abaqus.Property.PropertyPart.PropertyPart.unassignRebarOrientation:8
+#: ../../../../../src/abaqus/Property/SectionAssignment.py:docstring of abaqus.Property.SectionAssignment.SectionAssignment:4
+#: ../../../../../src/abaqus/Property/SectionAssignment.py:docstring of abaqus.Property.SectionAssignment.SectionAssignment:17
+#: ../../../../../src/abaqus/Property/SectionAssignment.py:docstring of abaqus.Property.SectionAssignment.SectionAssignment:22
+msgid "Note"
 msgstr ""
 
 #: ../../../../../src/abaqus/Property/CompositeLayup.py:docstring of abaqus.Property.CompositeLayup.CompositeLayup:21
