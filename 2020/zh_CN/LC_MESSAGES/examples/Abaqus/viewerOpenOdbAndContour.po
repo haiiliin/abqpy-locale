@@ -1,25 +1,18 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, WANG Hailin
-# This file is distributed under the same license as the abqpy package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
-#
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: abqpy 2020\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-14 01:32+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.12.1\n"
+"Project-Id-Version: abqpy-locale\nReport-Msgid-Bugs-To: \nPOT-Creation-"
+"Date: 2023-09-14 01:32+0000\nPO-Revision-Date: 2023-09-14 10:44\nLast-"
+"Translator: \nLanguage-Team: Chinese Simplified\nMIME-Version: "
+"1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: "
+"8bit\nPlural-Forms: nplurals=1; plural=0;\nX-Crowdin-Project: abqpy-"
+"locale\nX-Crowdin-Project-ID: 587413\nX-Crowdin-Language: zh-CN\nX-"
+"Crowdin-File: "
+"/main/2020/pot/examples/Abaqus/viewerOpenOdbAndContour.pot\nX-Crowdin-"
+"File-ID: 3445\nLanguage: zh_CN\n"
 
 #: ../../../examples/Abaqus/viewerOpenOdbAndContour.rst:10
 msgid "Note"
-msgstr ""
+msgstr "备注"
 
 #: ../../../examples/Abaqus/viewerOpenOdbAndContour.rst:13
 msgid ""
@@ -27,10 +20,13 @@ msgid ""
 "<sphx_glr_download_examples_Abaqus_viewerOpenOdbAndContour.py>` to "
 "download the full example code"
 msgstr ""
+":ref:`转到最后 "
+"<sphx_glr_download_examples_Abaqus_viewerOpenOdbAndContour.py>` "
+"下载完整的示例代码"
 
 #: ../../../examples/Abaqus/viewerOpenOdbAndContour.rst:22
 msgid "Open Odb and Display a Contour Plot"
-msgstr ""
+msgstr "打开 Odb 并显示等值线图"
 
 #: ../../../examples/Abaqus/viewerOpenOdbAndContour.rst:24
 msgid ""
@@ -39,14 +35,18 @@ msgid ""
 "ablished/SIMACAECMDRefMap/simacmd-c-"
 "intexaopenodb.htm?contextscope=all&id=0d282d5c2d004c5d9f115b9e7853cacf>`_."
 msgstr ""
+"`viewerOpenOdbAndContour.py` 来自于 `Opening an output database and "
+"displaying a contour plot <https://help.3ds.com/2021/English/DSSIMULIA_Est"
+"ablished/SIMACAECMDRefMap/simacmd-c-"
+"intexaopenodb.htm?contextscope=all&id=0d282d5c2d004c5d9f115b9e7853cacf>`_."
 
 #: ../../../examples/Abaqus/viewerOpenOdbAndContour.rst:26
 msgid "Print a contour plot to a local PNG-format file."
-msgstr ""
+msgstr "将等值线图打印到本地 PNG 格式文件中。"
 
 #: ../../../examples/Abaqus/viewerOpenOdbAndContour.rst:28
 msgid "Run the following command before running this script:"
-msgstr ""
+msgstr "在运行此脚本之前运行以下命令："
 
 #: ../../../examples/Abaqus/viewerOpenOdbAndContour.rst:34
 msgid ""
@@ -56,60 +56,65 @@ msgid ""
 "SARefMap/simagsa-m-Caevismod-sb.htm?contextscope=all#simagsa-m-Caevismod-"
 "sb>`_."
 msgstr ""
+"下面是一个包含 Abaqus 脚本接口命令的脚本示例，其中使用了 `Viewing the Output "
+"from Your Analysis <https://help.3ds.com/2021/English/DSSIMULIA_Establishe"
+"d/SIMACAEGSARefMap/simagsa-m-Caevismod-sb.htm?contextscope=all#simagsa-m-"
+"Caevismod-sb>`_ 所使用的输出数据库。"
 
 #: ../../../examples/Abaqus/viewerOpenOdbAndContour.rst:36
 msgid "Use the following command to retrieve the example script:"
-msgstr ""
+msgstr "使用以下命令获取示例脚本："
 
 #: ../../../examples/Abaqus/viewerOpenOdbAndContour.rst:42
 msgid "The script does the following:"
-msgstr ""
+msgstr "该脚本执行以下操作："
 
 #: ../../../examples/Abaqus/viewerOpenOdbAndContour.rst:44
 msgid "Creates a viewport, and makes it the current viewport."
-msgstr ""
+msgstr "创建一个视图，并使其成为当前视图。"
 
 #: ../../../examples/Abaqus/viewerOpenOdbAndContour.rst:45
 msgid "Opens an output database."
-msgstr ""
+msgstr "打开输出数据库。"
 
 #: ../../../examples/Abaqus/viewerOpenOdbAndContour.rst:46
 msgid "Displays a contour plot."
-msgstr ""
+msgstr "显示等值线图。"
 
 #: ../../../examples/Abaqus/viewerOpenOdbAndContour.rst:47
 msgid "Displays the model in the first frame of the third step."
-msgstr ""
+msgstr "显示第三步第一帧的模型。"
 
 #: ../../../examples/Abaqus/viewerOpenOdbAndContour.rst:48
 msgid "Sets the number of contour intervals and the contour limits."
-msgstr ""
+msgstr "设置等值线间隔数和等值线限值。"
 
 #: ../../../examples/Abaqus/viewerOpenOdbAndContour.rst:49
 msgid "Prints a color image of the viewport to a .png file."
-msgstr ""
+msgstr "将视图的彩色图像打印成 .png 文件。"
 
 #: ../../../examples/Abaqus/viewerOpenOdbAndContour.rst:107
 msgid "**Total running time of the script:** (0 minutes 0.000 seconds)"
-msgstr ""
+msgstr "** 脚本的总运行时间：** (0 分钟 0.000 秒)"
 
 #: ../../../examples/Abaqus/viewerOpenOdbAndContour.rst:121
 msgid ""
 ":download:`Download Python source code: viewerOpenOdbAndContour.py "
 "<viewerOpenOdbAndContour.py>`"
 msgstr ""
+":download:`下载 Python 源代码: viewerOpenOdbAndContour.py "
+"<viewerOpenOdbAndContour.py>`"
 
 #: ../../../examples/Abaqus/viewerOpenOdbAndContour.rst:125
 msgid ""
 ":download:`Download Jupyter notebook: viewerOpenOdbAndContour.ipynb "
 "<viewerOpenOdbAndContour.ipynb>`"
 msgstr ""
+":download:`下载 Jupyter notebook: viewerOpenOdbAndContour.ipynb "
+"<viewerOpenOdbAndContour.ipynb>`"
 
 #: ../../../examples/Abaqus/viewerOpenOdbAndContour.rst:132
 msgid ""
 "`Gallery generated by Sphinx-Gallery <https://sphinx-gallery.github.io>`_"
-msgstr ""
-
-#~ msgid "**Total running time of the script:** ( 0 minutes  0.000 seconds)"
-#~ msgstr ""
+msgstr "由 `Sphinx-Gallery <https://sphinx-gallery.github.io>`_ 生成"
 
