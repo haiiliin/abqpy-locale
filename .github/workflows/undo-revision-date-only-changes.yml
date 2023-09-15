@@ -16,6 +16,10 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
+      - run: |
+          git switch -
+          git checkout main
+          git checkout ${{ github.head_ref }}
       - uses: actions/setup-python@v4
         with:
           python-version: "3.11"
