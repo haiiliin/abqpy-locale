@@ -16,8 +16,8 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          ref: ${{ github.head_ref }}
       - run: |
-          git switch -
           git checkout main
           git pull
           git checkout ${{ github.head_ref }}
