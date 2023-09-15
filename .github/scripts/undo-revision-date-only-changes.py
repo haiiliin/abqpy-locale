@@ -4,10 +4,6 @@ from git import Diff, Repo
 
 pattern = r'"PO-Revision-Date: \d+-\d+-\d+ \d+:\d+\\n"'
 repo = Repo(".")
-branch_name = repo.active_branch.name
-repo.git.checkout("main")
-repo.git.pull()
-repo.git.checkout(branch_name)
 for diff in repo.index.diff(repo.branches["main"].commit).iter_change_type("M"):  # type: Diff
     # Get deleted lines
     filepath = diff.a_blob.path
