@@ -16,3 +16,4 @@ for diff in repo.index.diff(repo.branches["main"].commit).iter_change_type("M"):
     if all([re.match(pattern, line) for line in deleted_lines + added_lines]):
         with open(filepath, "w", encoding="utf-8") as f:
             f.write(original_text)
+            print(f"# Reverted {filepath}")
