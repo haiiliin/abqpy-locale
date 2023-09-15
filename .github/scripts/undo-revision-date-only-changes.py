@@ -4,10 +4,7 @@ from git import Diff, Repo
 
 pattern = r'"PO-Revision-Date: \d+-\d+-\d+ \d+:\d+\\n"'
 repo = Repo(".")
-diff_index = repo.index.diff(repo.branches.main.commit).iter_change_type("M")
-for diff in repo.index.diff(repo.branches.main.commit).iter_change_type(
-    "M"
-):  # type: Diff
+for diff in repo.index.diff(repo.branches["main"].commit).iter_change_type("M"):  # type: Diff
     # Get deleted lines
     filepath = diff.a_blob.path
     original_text = diff.b_blob.data_stream.read().decode("utf-8")
