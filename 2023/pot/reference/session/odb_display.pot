@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: abqpy 2023\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-14 01:32+0000\n"
+"POT-Creation-Date: 2023-10-06 02:35+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -68,7 +68,6 @@ msgstr ""
 #: ../../../../../src/abaqus/OdbDisplay/SymbolOptions.py:docstring of abaqus.OdbDisplay.SymbolOptions.SymbolOptions.setValues:3
 #: ../../../../../src/abaqus/OdbDisplay/ViewCut.py:docstring of abaqus.OdbDisplay.ViewCut.ViewCut:5
 #: ../../../../../src/abaqus/OdbDisplay/ViewCut.py:docstring of abaqus.OdbDisplay.ViewCut.ViewCut:12
-#: ../../../../../src/abaqus/OdbDisplay/ViewCut.py:docstring of abaqus.OdbDisplay.ViewCut.ViewCut:17
 #: ../../../../../src/abaqus/OdbDisplay/ViewCut.py:docstring of abaqus.OdbDisplay.ViewCut.ViewCut.setValues:3
 #: ../../../../../src/abaqus/OdbDisplay/ViewerOptions.py:docstring of abaqus.OdbDisplay.ViewerOptions.ViewerOptions:4
 #: ../../../../../src/abaqus/OdbDisplay/ViewerOptions.py:docstring of abaqus.OdbDisplay.ViewerOptions.ViewerOptions:10
@@ -419,7 +418,6 @@ msgstr ""
 #: ../../../../../src/abaqus/OdbDisplay/OrientationOptions.py:docstring of abaqus.OdbDisplay.OrientationOptions.OrientationOptions.setValues:0
 #: ../../../../../src/abaqus/OdbDisplay/SuperimposeOptions.py:docstring of abaqus.OdbDisplay.SuperimposeOptions.SuperimposeOptions.setValues:0
 #: ../../../../../src/abaqus/OdbDisplay/SymbolOptions.py:docstring of abaqus.OdbDisplay.SymbolOptions.SymbolOptions.setValues:0
-#: ../../../../../src/abaqus/OdbDisplay/ViewCut.py:docstring of abaqus.OdbDisplay.ViewCut.ViewCut:0
 #: ../../../../../src/abaqus/OdbDisplay/ViewCut.py:docstring of abaqus.OdbDisplay.ViewCut.ViewCut.setValues:0
 #: ../../../../../src/abaqus/OdbDisplay/ViewerOptions.py:docstring of abaqus.OdbDisplay.ViewerOptions.ViewerOptions.setValues:0
 msgid "Parameters"
@@ -1219,12 +1217,10 @@ msgid "Check `OdbDisplay on help.3ds.com/2023 <https://help.3ds.com/2023/English
 msgstr ""
 
 #: ../../../../../src/abaqus/OdbDisplay/OdbDisplay.py:docstring of abaqus.OdbDisplay.OdbDisplay.OdbDisplay.ViewCut:1
-#: ../../../../../src/abaqus/OdbDisplay/ViewCut.py:docstring of abaqus.OdbDisplay.ViewCut.ViewCut:15
 msgid "This method creates a ViewCut object."
 msgstr ""
 
 #: ../../../../../src/abaqus/OdbDisplay/OdbDisplay.py:docstring of abaqus.OdbDisplay.OdbDisplay.OdbDisplay.ViewCut:4
-#: ../../../../../src/abaqus/OdbDisplay/ViewCut.py:docstring of abaqus.OdbDisplay.ViewCut.ViewCut:18
 msgid "This function can be accessed by::"
 msgstr ""
 
@@ -1234,90 +1230,76 @@ msgid "Check `ViewCut on help.3ds.com/2023 <https://help.3ds.com/2023/English/DS
 msgstr ""
 
 #: ../../../../../src/abaqus/OdbDisplay/OdbDisplay.py:docstring of abaqus.OdbDisplay.OdbDisplay.OdbDisplay.ViewCut:13
-#: ../../../../../src/abaqus/OdbDisplay/ViewCut.py:docstring of abaqus.OdbDisplay.ViewCut.ViewCut:24
 #: ../../../../docstring of abaqus.OdbDisplay.ViewCut.ViewCut.name:1
 msgid "A String specifying the repository key."
 msgstr ""
 
 #: ../../../../../src/abaqus/OdbDisplay/OdbDisplay.py:docstring of abaqus.OdbDisplay.OdbDisplay.OdbDisplay.ViewCut:15
-#: ../../../../../src/abaqus/OdbDisplay/ViewCut.py:docstring of abaqus.OdbDisplay.ViewCut.ViewCut:26
 #: ../../../../docstring of abaqus.OdbDisplay.ViewCut.ViewCut.shape:1
 msgid "A SymbolicConstant specifying the shape of the ViewCut object. Possible values are PLANE, CYLINDER, SPHERE, and ISOSURFACE."
 msgstr ""
 
 #: ../../../../../src/abaqus/OdbDisplay/OdbDisplay.py:docstring of abaqus.OdbDisplay.OdbDisplay.OdbDisplay.ViewCut:18
-#: ../../../../../src/abaqus/OdbDisplay/ViewCut.py:docstring of abaqus.OdbDisplay.ViewCut.ViewCut:29
 #: ../../../../../src/abaqus/OdbDisplay/ViewCut.py:docstring of abaqus.OdbDisplay.ViewCut.ViewCut.setValues:36
 #: ../../../../docstring of abaqus.OdbDisplay.ViewCut.ViewCut.origin:1
 msgid "A sequence of three Floats specifying the X-, Y-, and Z-coordinates of the origin of the plane, cylinder or sphere cut. This origin is not required if the cut shape is ISOSURFACE or if the cut is defined by the **csysName** argument."
 msgstr ""
 
 #: ../../../../../src/abaqus/OdbDisplay/OdbDisplay.py:docstring of abaqus.OdbDisplay.OdbDisplay.OdbDisplay.ViewCut:22
-#: ../../../../../src/abaqus/OdbDisplay/ViewCut.py:docstring of abaqus.OdbDisplay.ViewCut.ViewCut:33
 #: ../../../../../src/abaqus/OdbDisplay/ViewCut.py:docstring of abaqus.OdbDisplay.ViewCut.ViewCut.setValues:40
 #: ../../../../docstring of abaqus.OdbDisplay.ViewCut.ViewCut.normal:1
 msgid "A sequence of Floats specifying the X-, Y-, and Z-coordinates of the normal axis to the plane defining the cut, when the plane is defined using the **origin** argument or a SymbolicConstant defining this normal axis, when the cut is defined by the **csysName** argument. Possible values are AXIS_1, AXIS_2, AXIS_3. This axis is not required if the cut **shape** is CYLINDER, SPHERE or ISOSURFACE."
 msgstr ""
 
 #: ../../../../../src/abaqus/OdbDisplay/OdbDisplay.py:docstring of abaqus.OdbDisplay.OdbDisplay.OdbDisplay.ViewCut:28
-#: ../../../../../src/abaqus/OdbDisplay/ViewCut.py:docstring of abaqus.OdbDisplay.ViewCut.ViewCut:39
 #: ../../../../../src/abaqus/OdbDisplay/ViewCut.py:docstring of abaqus.OdbDisplay.ViewCut.ViewCut.setValues:46
 #: ../../../../docstring of abaqus.OdbDisplay.ViewCut.ViewCut.axis2:1
 msgid "A sequence of three Floats specifying the X-, Y-, and Z-coordinates of the second axis of the plane defining the cut, when the plane is defined using the **origin** argument or a SymbolicConstant defining this second axis, when the cut is defined by the **csysName** argument. Possible values are AXIS_1, AXIS_2, AXIS_3. This axis is used to rotate the plane cut. It is not required if the cut **shape** is CYLINDER, SPHERE or ISOSURFACE."
 msgstr ""
 
 #: ../../../../../src/abaqus/OdbDisplay/OdbDisplay.py:docstring of abaqus.OdbDisplay.OdbDisplay.OdbDisplay.ViewCut:34
-#: ../../../../../src/abaqus/OdbDisplay/ViewCut.py:docstring of abaqus.OdbDisplay.ViewCut.ViewCut:45
 #: ../../../../../src/abaqus/OdbDisplay/ViewCut.py:docstring of abaqus.OdbDisplay.ViewCut.ViewCut.setValues:32
 #: ../../../../docstring of abaqus.OdbDisplay.ViewCut.ViewCut.csysName:1
 msgid "A String specifying the name of the DatumCsys object to be used to define the cut. This name is not required if the cut **shape** is ISOSURFACE or if the cut is defined by the **origin** argument."
 msgstr ""
 
 #: ../../../../../src/abaqus/OdbDisplay/OdbDisplay.py:docstring of abaqus.OdbDisplay.OdbDisplay.OdbDisplay.ViewCut:38
-#: ../../../../../src/abaqus/OdbDisplay/ViewCut.py:docstring of abaqus.OdbDisplay.ViewCut.ViewCut:49
 #: ../../../../../src/abaqus/OdbDisplay/ViewCut.py:docstring of abaqus.OdbDisplay.ViewCut.ViewCut.setValues:52
 #: ../../../../docstring of abaqus.OdbDisplay.ViewCut.ViewCut.cylinderAxis:1
 msgid "A sequence of Floats specifying the X-, Y-, and Z-coordinates of the cylinder axis defining the cut, when the cut is defined using the **origin** argument or a SymbolicConstant defining this cylinder axis, when the cut is defined by the **csysName** argument. Possible values are AXIS_1, AXIS_2, AXIS_3. This axis is not required if the cut **shape** is PLANE, SPHERE, or ISOSURFACE."
 msgstr ""
 
 #: ../../../../../src/abaqus/OdbDisplay/OdbDisplay.py:docstring of abaqus.OdbDisplay.OdbDisplay.OdbDisplay.ViewCut:44
-#: ../../../../../src/abaqus/OdbDisplay/ViewCut.py:docstring of abaqus.OdbDisplay.ViewCut.ViewCut:55
 #: ../../../../../src/abaqus/OdbDisplay/ViewCut.py:docstring of abaqus.OdbDisplay.ViewCut.ViewCut.setValues:58
 #: ../../../../docstring of abaqus.OdbDisplay.ViewCut.ViewCut.followDeformation:1
 msgid "A Boolean specifying whether the cut will follow the deformation or be static. The default value is OFF."
 msgstr ""
 
 #: ../../../../../src/abaqus/OdbDisplay/OdbDisplay.py:docstring of abaqus.OdbDisplay.OdbDisplay.OdbDisplay.ViewCut:47
-#: ../../../../../src/abaqus/OdbDisplay/ViewCut.py:docstring of abaqus.OdbDisplay.ViewCut.ViewCut:58
 #: ../../../../../src/abaqus/OdbDisplay/ViewCut.py:docstring of abaqus.OdbDisplay.ViewCut.ViewCut.setValues:61
 #: ../../../../docstring of abaqus.OdbDisplay.ViewCut.ViewCut.overrideAveraging:1
 msgid "A Boolean specifying averaging for element based fields associated with isosurface cuts will be set to compute-average with a threshold of 100% when true. The current field options will be used when false. The default value is ON."
 msgstr ""
 
 #: ../../../../../src/abaqus/OdbDisplay/OdbDisplay.py:docstring of abaqus.OdbDisplay.OdbDisplay.OdbDisplay.ViewCut:51
-#: ../../../../../src/abaqus/OdbDisplay/ViewCut.py:docstring of abaqus.OdbDisplay.ViewCut.ViewCut:62
 #: ../../../../../src/abaqus/OdbDisplay/ViewCut.py:docstring of abaqus.OdbDisplay.ViewCut.ViewCut.setValues:65
 #: ../../../../docstring of abaqus.OdbDisplay.ViewCut.ViewCut.referenceFrame:1
 msgid "A SymbolicConstant specifying which reference frame will be used when the cut follows the deformation. Possible values are FIRST_FRAME, LAST_FRAME, and CURRENT_FRAME. The default value is FIRST_FRAME."
 msgstr ""
 
 #: ../../../../../src/abaqus/OdbDisplay/OdbDisplay.py:docstring of abaqus.OdbDisplay.OdbDisplay.OdbDisplay.ViewCut:0
-#: ../../../../../src/abaqus/OdbDisplay/ViewCut.py:docstring of abaqus.OdbDisplay.ViewCut.ViewCut:0
 msgid "Returns"
 msgstr ""
 
 #: ../../../../../src/abaqus/OdbDisplay/OdbDisplay.py:docstring of abaqus.OdbDisplay.OdbDisplay.OdbDisplay.ViewCut:55
-#: ../../../../../src/abaqus/OdbDisplay/ViewCut.py:docstring of abaqus.OdbDisplay.ViewCut.ViewCut:66
 msgid "A ViewCut object."
 msgstr ""
 
 #: ../../../../../src/abaqus/OdbDisplay/OdbDisplay.py:docstring of abaqus.OdbDisplay.OdbDisplay.OdbDisplay.ViewCut:0
-#: ../../../../../src/abaqus/OdbDisplay/ViewCut.py:docstring of abaqus.OdbDisplay.ViewCut.ViewCut:0
 msgid "Return type"
 msgstr ""
 
 #: ../../../../../src/abaqus/OdbDisplay/OdbDisplay.py:docstring of abaqus.OdbDisplay.OdbDisplay.OdbDisplay.ViewCut:56
-#: ../../../../../src/abaqus/OdbDisplay/ViewCut.py:docstring of abaqus.OdbDisplay.ViewCut.ViewCut:67
 msgid ":class:`ViewCut`"
 msgstr ""
 

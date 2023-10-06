@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: abqpy 2023\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-14 01:32+0000\n"
+"POT-Creation-Date: 2023-10-06 02:35+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -113,94 +113,94 @@ msgstr ""
 msgid "The example follows:"
 msgstr ""
 
-#: ../../../user/about/examples/create-part.md:103
+#: ../../../user/about/examples/create-part.md:110
 msgid "How does the script work?"
 msgstr ""
 
-#: ../../../user/about/examples/create-part.md:105
+#: ../../../user/about/examples/create-part.md:112
 msgid "This section explains each portion of the example script."
 msgstr ""
 
-#: ../../../user/about/examples/create-part.md:111
+#: ../../../user/about/examples/create-part.md:118
 msgid "This statement makes the basic Abaqus objects accessible to the script. It also provides access to a default model database using the variable named mdb. The statement, `from abaqusConstants import *`, makes the Symbolic Constants defined by the Abaqus Scripting Interface available to the script."
 msgstr ""
 
-#: ../../../user/about/examples/create-part.md:118
+#: ../../../user/about/examples/create-part.md:125
 msgid "These statements provide access to the objects related to sketches and parts. sketch and part are called Python modules."
 msgstr ""
 
-#: ../../../user/about/examples/create-part.md:120
+#: ../../../user/about/examples/create-part.md:127
 msgid "The next statement in the script is shown in {numref}`cmd-righttoleft-nls`. You can read this statement from right to left as follows:"
 msgstr ""
 
-#: ../../../user/about/examples/create-part.md:122
+#: ../../../user/about/examples/create-part.md:129
 msgid "Create a new model named Model A."
 msgstr ""
 
-#: ../../../user/about/examples/create-part.md:123
+#: ../../../user/about/examples/create-part.md:130
 msgid "Store the new model in the model database mdb."
 msgstr ""
 
-#: ../../../user/about/examples/create-part.md:124
+#: ../../../user/about/examples/create-part.md:131
 msgid "Assign the new model to a variable called myModel."
 msgstr ""
 
-#: ../../../user/about/examples/create-part.md:132
+#: ../../../user/about/examples/create-part.md:139
 msgid "Creating a new model."
 msgstr ""
 
-#: ../../../user/about/examples/create-part.md:139
+#: ../../../user/about/examples/create-part.md:146
 msgid "This statement creates a new sketch object named Sketch A in myModel. The variable mySketch is assigned to the new sketch. The sketch will be placed on a sheet 200 units square. Note the following:"
 msgstr ""
 
-#: ../../../user/about/examples/create-part.md:141
+#: ../../../user/about/examples/create-part.md:148
 msgid "A command that creates something (an \"object\" in object-oriented programming terms) is called a constructor and starts with an uppercase character. You have seen the Model and Sketch commands that create Model objects and Sketch objects, respectively."
 msgstr ""
 
-#: ../../../user/about/examples/create-part.md:142
+#: ../../../user/about/examples/create-part.md:149
 msgid "The command uses the variable myModel that we created in the previous statement. Using variables with meaningful names in a script makes the script easier to read and understand."
 msgstr ""
 
-#: ../../../user/about/examples/create-part.md:153
+#: ../../../user/about/examples/create-part.md:167
 msgid "These two statements define the X- and Y-coordinates of the vertices that form the inner and outer profile of the letter A. The variable xyCoordsInner refers to the vertices of the inner profile, and the variable xyCoordsOuter refers to the vertices of the outer profile."
 msgstr ""
 
-#: ../../../user/about/examples/create-part.md:161
+#: ../../../user/about/examples/create-part.md:174
 msgid "This loop creates the inner profile of the letter A in mySketch. Four lines are created using the X- and Y-coordinates of the vertices in xyCoordsInner to define the beginning point and the end point of each line. Note the following:"
 msgstr ""
 
-#: ../../../user/about/examples/create-part.md:163
+#: ../../../user/about/examples/create-part.md:176
 msgid "Python uses only indentation to signify the start and the end of a loop. Python does not use the brackets {} of C and C++."
 msgstr ""
 
-#: ../../../user/about/examples/create-part.md:164
+#: ../../../user/about/examples/create-part.md:177
 msgid "The `len()` function returns the number of coordinate pairs in xyCoordsInner—five in our example."
 msgstr ""
 
-#: ../../../user/about/examples/create-part.md:165
+#: ../../../user/about/examples/create-part.md:178
 msgid "The `range()` function returns a sequence of integers. In Python, as in C and C++, the index of an array starts at zero. In our example range(4) returns 0,1,2,3. For each iteration of the loop in the example the variable i is assigned to the next value in the sequence of integers."
 msgstr ""
 
-#: ../../../user/about/examples/create-part.md:167
+#: ../../../user/about/examples/create-part.md:180
 msgid "Similarly, a second loop creates the outer profile of the A character."
 msgstr ""
 
-#: ../../../user/about/examples/create-part.md:174
+#: ../../../user/about/examples/create-part.md:186
 msgid "This statement creates a three-dimensional, deformable part named Part A in myModel. The new part is assigned to the variable myPart."
 msgstr ""
 
-#: ../../../user/about/examples/create-part.md:180
+#: ../../../user/about/examples/create-part.md:192
 msgid "This statement creates a base solid extrude feature in myPart by extruding mySketch through a depth of 20.0."
 msgstr ""
 
-#: ../../../user/about/examples/create-part.md:187
+#: ../../../user/about/examples/create-part.md:200
 msgid "This statement creates a new viewport named Viewport for Model A in session. The new viewport is assigned to the variable myViewport. The origin of the viewport is at (20, 20), and it has a width of 150 and a height of 100."
 msgstr ""
 
-#: ../../../user/about/examples/create-part.md:193
+#: ../../../user/about/examples/create-part.md:206
 msgid "This statement tells Abaqus to display the new part, myPart, in the new viewport, myViewport."
 msgstr ""
 
-#: ../../../user/about/examples/create-part.md:199
+#: ../../../user/about/examples/create-part.md:212
 msgid "This statement sets the render style of the part display options in myViewport to shaded. As a result, myPart appears in the shaded render style."
 msgstr ""
