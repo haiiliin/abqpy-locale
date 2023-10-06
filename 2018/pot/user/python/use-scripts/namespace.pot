@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: abqpy 2018\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-15 05:55+0000\n"
+"POT-Creation-Date: 2023-10-06 02:36+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,38 +40,38 @@ msgstr ""
 msgid "Abaqus Scripting Interface commands issued from scripts and from the command line interface are executed in the script namespace. Commands issued from **File -> Run Script** are also executed in the script namespace. For example, if you enter the following statement from the command line interface to create a viewport:"
 msgstr ""
 
-#: ../../../user/python/use-scripts/namespace.md:25
+#: ../../../user/python/use-scripts/namespace.md:24
 msgid "the variable myViewport exists only in the script namespace. The name of the script namespace is main."
 msgstr ""
 
-#: ../../../user/python/use-scripts/namespace.md:27
+#: ../../../user/python/use-scripts/namespace.md:26
 msgid "**Journal namespace**"
 msgstr ""
 
-#: ../../../user/python/use-scripts/namespace.md:29
+#: ../../../user/python/use-scripts/namespace.md:28
 msgid "Abaqus Scripting Interface commands issued by the GUI are executed in the journal namespace. For example, if you use the GUI to partition an edge, Abaqus/CAE writes the following statements to the replay file, abaqus.rpy:"
 msgstr ""
 
-#: ../../../user/python/use-scripts/namespace.md:38
+#: ../../../user/python/use-scripts/namespace.md:37
 msgid "The variables defined in the replay file (p1, e, and edges, in the above example) exist only in the journal namespace. Abaqus/CAE issues an exception if you attempt to refer to one of these variables from the script namespace. For example, the following statement was issued from the command line interface and tries to partition the same edge:"
 msgstr ""
 
-#: ../../../user/python/use-scripts/namespace.md:45
+#: ../../../user/python/use-scripts/namespace.md:44
 msgid "The name of the journal namespace is journaling."
 msgstr ""
 
-#: ../../../user/python/use-scripts/namespace.md:47
+#: ../../../user/python/use-scripts/namespace.md:46
 msgid "The statement `from abaqus import *` described in Executing scripts imports the mdb variable into the script namespace. You can then use the mdb variable in your scripts to access the objects in the object model. Although variables in one namespace are not visible to the other namespace, the object repositories are now available in both. As a result, an object created in one namespace can still be referred to in another namespace if you use its full path (`mdb.models['Model A']...`) and its repository key."
 msgstr ""
 
-#: ../../../user/python/use-scripts/namespace.md:49
+#: ../../../user/python/use-scripts/namespace.md:48
 msgid "For example, although the variable `p1` in the above statement cannot be accessed from the script namespace, you can still use the command line interface to access the part to which `p1` referred."
 msgstr ""
 
-#: ../../../user/python/use-scripts/namespace.md:55
+#: ../../../user/python/use-scripts/namespace.md:54
 msgid "The model and part repositories are available in both the journal and script namespaces. You can also create your own variable `p1` from the command line interface or from a script."
 msgstr ""
 
-#: ../../../user/python/use-scripts/namespace.md:61
+#: ../../../user/python/use-scripts/namespace.md:60
 msgid "The variable `p1` in the script namespace is independent of the variable p1 in the journal namespace."
 msgstr ""

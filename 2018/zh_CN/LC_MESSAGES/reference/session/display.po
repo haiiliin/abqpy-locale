@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: abqpy \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-14 01:59+0000\n"
+"POT-Creation-Date: 2023-10-06 02:36+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.12.1\n"
+"Generated-By: Babel 2.13.0\n"
 
 #: ../../../reference/session/display.md:1
 msgid "Display Group"
@@ -707,7 +707,6 @@ msgid ""
 msgstr ""
 
 #: ../../../../None:3:<autosummary>:1
-#: abaqus.DisplayGroup.DisplayGroup.DisplayGroup:20
 #: abaqus.DisplayGroup.DisplayGroupSession.DisplayGroupSession.DisplayGroup:1
 #: of
 msgid "This method creates a DisplayGroup object."
@@ -930,7 +929,6 @@ msgstr ""
 
 #: abaqus.DisplayGroup.DisplayGroup.DisplayGroup:3
 #: abaqus.DisplayGroup.DisplayGroup.DisplayGroup:17
-#: abaqus.DisplayGroup.DisplayGroup.DisplayGroup:22
 #: abaqus.DisplayGroup.DisplayGroup.DisplayGroup.add:3
 #: abaqus.DisplayGroup.DisplayGroup.DisplayGroup.either:4
 #: abaqus.DisplayGroup.DisplayGroup.DisplayGroup.intersect:4
@@ -945,141 +943,75 @@ msgstr ""
 #: abaqus.DisplayGroup.DisplayGroupSession.DisplayGroupSession.DisplayGroup:3
 #: abaqus.DisplayGroup.DisplayGroupSession.DisplayGroupSession.DisplayGroup:8
 #: abaqus.DisplayGroup.Leaf.Leaf:6 abaqus.DisplayGroup.Leaf.Leaf:12
-#: abaqus.DisplayGroup.Leaf.Leaf:17
 #: abaqus.DisplayGroup.LeafFromDatums.LeafFromDatums:5
 #: abaqus.DisplayGroup.LeafFromDatums.LeafFromDatums:10
-#: abaqus.DisplayGroup.LeafFromDatums.LeafFromDatums:16
 #: abaqus.DisplayGroup.LeafFromDisplayGroup.LeafFromDisplayGroup:6
 #: abaqus.DisplayGroup.LeafFromDisplayGroup.LeafFromDisplayGroup:12
-#: abaqus.DisplayGroup.LeafFromDisplayGroup.LeafFromDisplayGroup:17
 #: abaqus.DisplayGroup.LeafFromElementLabels.LeafFromElementLabels:6
 #: abaqus.DisplayGroup.LeafFromElementLabels.LeafFromElementLabels:11
-#: abaqus.DisplayGroup.LeafFromElementLabels.LeafFromElementLabels:17
 #: abaqus.DisplayGroup.LeafFromElementSets.LeafFromElementSets:6
 #: abaqus.DisplayGroup.LeafFromElementSets.LeafFromElementSets:11
-#: abaqus.DisplayGroup.LeafFromElementSets.LeafFromElementSets:16
 #: abaqus.DisplayGroup.LeafFromElementVarRange.LeafFromElementVarRange:6
 #: abaqus.DisplayGroup.LeafFromElementVarRange.LeafFromElementVarRange:11
-#: abaqus.DisplayGroup.LeafFromElementVarRange.LeafFromElementVarRange:16
 #: abaqus.DisplayGroup.LeafFromGeometry.LeafFromGeometry:6
 #: abaqus.DisplayGroup.LeafFromGeometry.LeafFromGeometry:11
-#: abaqus.DisplayGroup.LeafFromGeometry.LeafFromGeometry:18
 #: abaqus.DisplayGroup.LeafFromInstance.LeafFromInstance:6
 #: abaqus.DisplayGroup.LeafFromInstance.LeafFromInstance:11
-#: abaqus.DisplayGroup.LeafFromInstance.LeafFromInstance:16
 #: abaqus.DisplayGroup.LeafFromInstanceElementLabels.LeafFromInstanceElementLabels:6
 #: abaqus.DisplayGroup.LeafFromInstanceElementLabels.LeafFromInstanceElementLabels:11
-#: abaqus.DisplayGroup.LeafFromInstanceElementLabels.LeafFromInstanceElementLabels:17
 #: abaqus.DisplayGroup.LeafFromInstanceNodeLabels.LeafFromInstanceNodeLabels:6
 #: abaqus.DisplayGroup.LeafFromInstanceNodeLabels.LeafFromInstanceNodeLabels:11
-#: abaqus.DisplayGroup.LeafFromInstanceNodeLabels.LeafFromInstanceNodeLabels:17
 #: abaqus.DisplayGroup.LeafFromMeshElementLabels.LeafFromMeshElementLabels:6
 #: abaqus.DisplayGroup.LeafFromMeshElementLabels.LeafFromMeshElementLabels:11
-#: abaqus.DisplayGroup.LeafFromMeshElementLabels.LeafFromMeshElementLabels:17
 #: abaqus.DisplayGroup.LeafFromMeshNodeLabels.LeafFromMeshNodeLabels:6
 #: abaqus.DisplayGroup.LeafFromMeshNodeLabels.LeafFromMeshNodeLabels:11
-#: abaqus.DisplayGroup.LeafFromMeshNodeLabels.LeafFromMeshNodeLabels:17
 #: abaqus.DisplayGroup.LeafFromMeshSurfaceSets.LeafFromMeshSurfaceSets:6
 #: abaqus.DisplayGroup.LeafFromMeshSurfaceSets.LeafFromMeshSurfaceSets:11
-#: abaqus.DisplayGroup.LeafFromMeshSurfaceSets.LeafFromMeshSurfaceSets:16
 #: abaqus.DisplayGroup.LeafFromModelElemLabels.LeafFromModelElemLabels:6
 #: abaqus.DisplayGroup.LeafFromModelElemLabels.LeafFromModelElemLabels:11
-#: abaqus.DisplayGroup.LeafFromModelElemLabels.LeafFromModelElemLabels:16
 #: abaqus.DisplayGroup.LeafFromModelNodeLabels.LeafFromModelNodeLabels:6
 #: abaqus.DisplayGroup.LeafFromModelNodeLabels.LeafFromModelNodeLabels:11
-#: abaqus.DisplayGroup.LeafFromModelNodeLabels.LeafFromModelNodeLabels:16
 #: abaqus.DisplayGroup.LeafFromNodeLabels.LeafFromNodeLabels:6
 #: abaqus.DisplayGroup.LeafFromNodeLabels.LeafFromNodeLabels:11
-#: abaqus.DisplayGroup.LeafFromNodeLabels.LeafFromNodeLabels:17
 #: abaqus.DisplayGroup.LeafFromNodeSets.LeafFromNodeSets:6
 #: abaqus.DisplayGroup.LeafFromNodeSets.LeafFromNodeSets:11
-#: abaqus.DisplayGroup.LeafFromNodeSets.LeafFromNodeSets:16
 #: abaqus.DisplayGroup.LeafFromNodeVarRange.LeafFromNodeVarRange:6
 #: abaqus.DisplayGroup.LeafFromNodeVarRange.LeafFromNodeVarRange:11
-#: abaqus.DisplayGroup.LeafFromNodeVarRange.LeafFromNodeVarRange:16
 #: abaqus.DisplayGroup.LeafFromOdbEdgePick.LeafFromOdbEdgePick:6
 #: abaqus.DisplayGroup.LeafFromOdbEdgePick.LeafFromOdbEdgePick:11
-#: abaqus.DisplayGroup.LeafFromOdbEdgePick.LeafFromOdbEdgePick:17
 #: abaqus.DisplayGroup.LeafFromOdbElementLayups.LeafFromOdbElementLayups:6
 #: abaqus.DisplayGroup.LeafFromOdbElementLayups.LeafFromOdbElementLayups:11
-#: abaqus.DisplayGroup.LeafFromOdbElementLayups.LeafFromOdbElementLayups:17
 #: abaqus.DisplayGroup.LeafFromOdbElementMaterials.LeafFromOdbElementMaterials:6
 #: abaqus.DisplayGroup.LeafFromOdbElementMaterials.LeafFromOdbElementMaterials:11
-#: abaqus.DisplayGroup.LeafFromOdbElementMaterials.LeafFromOdbElementMaterials:17
 #: abaqus.DisplayGroup.LeafFromOdbElementPick.LeafFromOdbElementPick:6
 #: abaqus.DisplayGroup.LeafFromOdbElementPick.LeafFromOdbElementPick:11
-#: abaqus.DisplayGroup.LeafFromOdbElementPick.LeafFromOdbElementPick:17
 #: abaqus.DisplayGroup.LeafFromOdbElementPlies.LeafFromOdbElementPlies:6
 #: abaqus.DisplayGroup.LeafFromOdbElementPlies.LeafFromOdbElementPlies:11
-#: abaqus.DisplayGroup.LeafFromOdbElementPlies.LeafFromOdbElementPlies:17
 #: abaqus.DisplayGroup.LeafFromOdbElementSections.LeafFromOdbElementSections:6
 #: abaqus.DisplayGroup.LeafFromOdbElementSections.LeafFromOdbElementSections:11
-#: abaqus.DisplayGroup.LeafFromOdbElementSections.LeafFromOdbElementSections:17
 #: abaqus.DisplayGroup.LeafFromOdbElementTypes.LeafFromOdbElementTypes:6
 #: abaqus.DisplayGroup.LeafFromOdbElementTypes.LeafFromOdbElementTypes:11
-#: abaqus.DisplayGroup.LeafFromOdbElementTypes.LeafFromOdbElementTypes:17
 #: abaqus.DisplayGroup.LeafFromOdbNodePick.LeafFromOdbNodePick:6
 #: abaqus.DisplayGroup.LeafFromOdbNodePick.LeafFromOdbNodePick:11
-#: abaqus.DisplayGroup.LeafFromOdbNodePick.LeafFromOdbNodePick:17
 #: abaqus.DisplayGroup.LeafFromPartElementLabels.LeafFromPartElementLabels:6
 #: abaqus.DisplayGroup.LeafFromPartElementLabels.LeafFromPartElementLabels:11
-#: abaqus.DisplayGroup.LeafFromPartElementLabels.LeafFromPartElementLabels:17
 #: abaqus.DisplayGroup.LeafFromPartInstance.LeafFromPartInstance:6
 #: abaqus.DisplayGroup.LeafFromPartInstance.LeafFromPartInstance:11
-#: abaqus.DisplayGroup.LeafFromPartInstance.LeafFromPartInstance:16
 #: abaqus.DisplayGroup.LeafFromPartNodeLabels.LeafFromPartNodeLabels:6
 #: abaqus.DisplayGroup.LeafFromPartNodeLabels.LeafFromPartNodeLabels:11
-#: abaqus.DisplayGroup.LeafFromPartNodeLabels.LeafFromPartNodeLabels:17
 #: abaqus.DisplayGroup.LeafFromReferencePoint.LeafFromReferencePoint:6
 #: abaqus.DisplayGroup.LeafFromReferencePoint.LeafFromReferencePoint:11
-#: abaqus.DisplayGroup.LeafFromReferencePoint.LeafFromReferencePoint:16
 #: abaqus.DisplayGroup.LeafFromSets.LeafFromSets:5
 #: abaqus.DisplayGroup.LeafFromSets.LeafFromSets:10
-#: abaqus.DisplayGroup.LeafFromSets.LeafFromSets:15
 #: abaqus.DisplayGroup.LeafFromSurfaceSets.LeafFromSurfaceSets:6
 #: abaqus.DisplayGroup.LeafFromSurfaceSets.LeafFromSurfaceSets:11
-#: abaqus.DisplayGroup.LeafFromSurfaceSets.LeafFromSurfaceSets:16
 #: abaqus.DisplayGroup.LeafFromSurfaceVarRange.LeafFromSurfaceVarRange:6
-#: abaqus.DisplayGroup.LeafFromSurfaceVarRange.LeafFromSurfaceVarRange:11
-#: abaqus.DisplayGroup.LeafFromSurfaceVarRange.LeafFromSurfaceVarRange:16 of
+#: abaqus.DisplayGroup.LeafFromSurfaceVarRange.LeafFromSurfaceVarRange:11 of
 msgid "Note"
 msgstr ""
 
-#: abaqus.DisplayGroup.DisplayGroup.DisplayGroup:23
 #: abaqus.DisplayGroup.DisplayGroupSession.DisplayGroupSession.DisplayGroup:4
-#: abaqus.DisplayGroup.Leaf.Leaf:18
-#: abaqus.DisplayGroup.LeafFromDatums.LeafFromDatums:17
-#: abaqus.DisplayGroup.LeafFromDisplayGroup.LeafFromDisplayGroup:18
-#: abaqus.DisplayGroup.LeafFromElementLabels.LeafFromElementLabels:18
-#: abaqus.DisplayGroup.LeafFromElementSets.LeafFromElementSets:17
-#: abaqus.DisplayGroup.LeafFromElementVarRange.LeafFromElementVarRange:17
-#: abaqus.DisplayGroup.LeafFromGeometry.LeafFromGeometry:19
-#: abaqus.DisplayGroup.LeafFromInstance.LeafFromInstance:17
-#: abaqus.DisplayGroup.LeafFromInstanceElementLabels.LeafFromInstanceElementLabels:18
-#: abaqus.DisplayGroup.LeafFromInstanceNodeLabels.LeafFromInstanceNodeLabels:18
-#: abaqus.DisplayGroup.LeafFromMeshElementLabels.LeafFromMeshElementLabels:18
-#: abaqus.DisplayGroup.LeafFromMeshNodeLabels.LeafFromMeshNodeLabels:18
-#: abaqus.DisplayGroup.LeafFromMeshSurfaceSets.LeafFromMeshSurfaceSets:17
-#: abaqus.DisplayGroup.LeafFromModelElemLabels.LeafFromModelElemLabels:17
-#: abaqus.DisplayGroup.LeafFromModelNodeLabels.LeafFromModelNodeLabels:17
-#: abaqus.DisplayGroup.LeafFromNodeLabels.LeafFromNodeLabels:18
-#: abaqus.DisplayGroup.LeafFromNodeSets.LeafFromNodeSets:17
-#: abaqus.DisplayGroup.LeafFromNodeVarRange.LeafFromNodeVarRange:17
-#: abaqus.DisplayGroup.LeafFromOdbEdgePick.LeafFromOdbEdgePick:18
-#: abaqus.DisplayGroup.LeafFromOdbElementLayups.LeafFromOdbElementLayups:18
-#: abaqus.DisplayGroup.LeafFromOdbElementMaterials.LeafFromOdbElementMaterials:18
-#: abaqus.DisplayGroup.LeafFromOdbElementPick.LeafFromOdbElementPick:18
-#: abaqus.DisplayGroup.LeafFromOdbElementPlies.LeafFromOdbElementPlies:18
-#: abaqus.DisplayGroup.LeafFromOdbElementSections.LeafFromOdbElementSections:18
-#: abaqus.DisplayGroup.LeafFromOdbElementTypes.LeafFromOdbElementTypes:18
-#: abaqus.DisplayGroup.LeafFromOdbNodePick.LeafFromOdbNodePick:18
-#: abaqus.DisplayGroup.LeafFromPartElementLabels.LeafFromPartElementLabels:18
-#: abaqus.DisplayGroup.LeafFromPartInstance.LeafFromPartInstance:17
-#: abaqus.DisplayGroup.LeafFromPartNodeLabels.LeafFromPartNodeLabels:18
-#: abaqus.DisplayGroup.LeafFromReferencePoint.LeafFromReferencePoint:17
-#: abaqus.DisplayGroup.LeafFromSets.LeafFromSets:16
-#: abaqus.DisplayGroup.LeafFromSurfaceSets.LeafFromSurfaceSets:17
-#: abaqus.DisplayGroup.LeafFromSurfaceVarRange.LeafFromSurfaceVarRange:17 of
+#: of
 msgid "This function can be accessed by::"
 msgstr ""
 
@@ -1092,7 +1024,6 @@ msgid ""
 "displaygrouppyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: abaqus.DisplayGroup.DisplayGroup.DisplayGroup
 #: abaqus.DisplayGroup.DisplayGroup.DisplayGroup.add
 #: abaqus.DisplayGroup.DisplayGroup.DisplayGroup.either
 #: abaqus.DisplayGroup.DisplayGroup.DisplayGroup.intersect
@@ -1100,44 +1031,11 @@ msgstr ""
 #: abaqus.DisplayGroup.DisplayGroup.DisplayGroup.replace
 #: abaqus.DisplayGroup.DisplayGroupInstance.DisplayGroupInstance.setValues
 #: abaqus.DisplayGroup.DisplayGroupInstanceRepository.DisplayGroupInstanceRepository.syncOptions
-#: abaqus.DisplayGroup.DisplayGroupSession.DisplayGroupSession.DisplayGroup
-#: abaqus.DisplayGroup.Leaf.Leaf
-#: abaqus.DisplayGroup.LeafFromDatums.LeafFromDatums
-#: abaqus.DisplayGroup.LeafFromDisplayGroup.LeafFromDisplayGroup
-#: abaqus.DisplayGroup.LeafFromElementLabels.LeafFromElementLabels
-#: abaqus.DisplayGroup.LeafFromElementSets.LeafFromElementSets
-#: abaqus.DisplayGroup.LeafFromElementVarRange.LeafFromElementVarRange
-#: abaqus.DisplayGroup.LeafFromGeometry.LeafFromGeometry
-#: abaqus.DisplayGroup.LeafFromInstance.LeafFromInstance
-#: abaqus.DisplayGroup.LeafFromInstanceElementLabels.LeafFromInstanceElementLabels
-#: abaqus.DisplayGroup.LeafFromInstanceNodeLabels.LeafFromInstanceNodeLabels
-#: abaqus.DisplayGroup.LeafFromMeshElementLabels.LeafFromMeshElementLabels
-#: abaqus.DisplayGroup.LeafFromMeshNodeLabels.LeafFromMeshNodeLabels
-#: abaqus.DisplayGroup.LeafFromMeshSurfaceSets.LeafFromMeshSurfaceSets
-#: abaqus.DisplayGroup.LeafFromModelElemLabels.LeafFromModelElemLabels
-#: abaqus.DisplayGroup.LeafFromModelNodeLabels.LeafFromModelNodeLabels
-#: abaqus.DisplayGroup.LeafFromNodeLabels.LeafFromNodeLabels
-#: abaqus.DisplayGroup.LeafFromNodeSets.LeafFromNodeSets
-#: abaqus.DisplayGroup.LeafFromNodeVarRange.LeafFromNodeVarRange
-#: abaqus.DisplayGroup.LeafFromOdbEdgePick.LeafFromOdbEdgePick
-#: abaqus.DisplayGroup.LeafFromOdbElementLayups.LeafFromOdbElementLayups
-#: abaqus.DisplayGroup.LeafFromOdbElementMaterials.LeafFromOdbElementMaterials
-#: abaqus.DisplayGroup.LeafFromOdbElementPick.LeafFromOdbElementPick
-#: abaqus.DisplayGroup.LeafFromOdbElementPlies.LeafFromOdbElementPlies
-#: abaqus.DisplayGroup.LeafFromOdbElementSections.LeafFromOdbElementSections
-#: abaqus.DisplayGroup.LeafFromOdbElementTypes.LeafFromOdbElementTypes
-#: abaqus.DisplayGroup.LeafFromOdbNodePick.LeafFromOdbNodePick
-#: abaqus.DisplayGroup.LeafFromPartElementLabels.LeafFromPartElementLabels
-#: abaqus.DisplayGroup.LeafFromPartInstance.LeafFromPartInstance
-#: abaqus.DisplayGroup.LeafFromPartNodeLabels.LeafFromPartNodeLabels
-#: abaqus.DisplayGroup.LeafFromReferencePoint.LeafFromReferencePoint
-#: abaqus.DisplayGroup.LeafFromSets.LeafFromSets
-#: abaqus.DisplayGroup.LeafFromSurfaceSets.LeafFromSurfaceSets
-#: abaqus.DisplayGroup.LeafFromSurfaceVarRange.LeafFromSurfaceVarRange of
+#: abaqus.DisplayGroup.DisplayGroupSession.DisplayGroupSession.DisplayGroup of
 msgid "Parameters"
 msgstr ""
 
-#: ../../../../docstring abaqus.DisplayGroup.DisplayGroup.DisplayGroup:28
+#: ../../../../docstring
 #: abaqus.DisplayGroup.DisplayGroupInstance.DisplayGroupInstance.name:1
 #: abaqus.DisplayGroup.DisplayGroupInstanceRepository.DisplayGroupInstanceRepository.syncOptions:8
 #: abaqus.DisplayGroup.DisplayGroupSession.DisplayGroup.name:1
@@ -1146,99 +1044,28 @@ msgstr ""
 msgid "A String specifying the repository key."
 msgstr ""
 
-#: abaqus.DisplayGroup.DisplayGroup.DisplayGroup:30
 #: abaqus.DisplayGroup.DisplayGroupSession.DisplayGroupSession.DisplayGroup:14
 #: of
 msgid "A Leaf object specifying the items in the display group."
 msgstr ""
 
-#: abaqus.DisplayGroup.DisplayGroup.DisplayGroup
 #: abaqus.DisplayGroup.DisplayGroupInstance.DisplayGroupInstance.elements
 #: abaqus.DisplayGroup.DisplayGroupInstance.DisplayGroupInstance.nodes
-#: abaqus.DisplayGroup.DisplayGroupSession.DisplayGroupSession.DisplayGroup
-#: abaqus.DisplayGroup.Leaf.Leaf
-#: abaqus.DisplayGroup.LeafFromDatums.LeafFromDatums
-#: abaqus.DisplayGroup.LeafFromDisplayGroup.LeafFromDisplayGroup
-#: abaqus.DisplayGroup.LeafFromElementLabels.LeafFromElementLabels
-#: abaqus.DisplayGroup.LeafFromElementSets.LeafFromElementSets
-#: abaqus.DisplayGroup.LeafFromElementVarRange.LeafFromElementVarRange
-#: abaqus.DisplayGroup.LeafFromGeometry.LeafFromGeometry
-#: abaqus.DisplayGroup.LeafFromInstance.LeafFromInstance
-#: abaqus.DisplayGroup.LeafFromInstanceElementLabels.LeafFromInstanceElementLabels
-#: abaqus.DisplayGroup.LeafFromInstanceNodeLabels.LeafFromInstanceNodeLabels
-#: abaqus.DisplayGroup.LeafFromMeshElementLabels.LeafFromMeshElementLabels
-#: abaqus.DisplayGroup.LeafFromMeshNodeLabels.LeafFromMeshNodeLabels
-#: abaqus.DisplayGroup.LeafFromMeshSurfaceSets.LeafFromMeshSurfaceSets
-#: abaqus.DisplayGroup.LeafFromModelElemLabels.LeafFromModelElemLabels
-#: abaqus.DisplayGroup.LeafFromModelNodeLabels.LeafFromModelNodeLabels
-#: abaqus.DisplayGroup.LeafFromNodeLabels.LeafFromNodeLabels
-#: abaqus.DisplayGroup.LeafFromNodeSets.LeafFromNodeSets
-#: abaqus.DisplayGroup.LeafFromNodeVarRange.LeafFromNodeVarRange
-#: abaqus.DisplayGroup.LeafFromOdbEdgePick.LeafFromOdbEdgePick
-#: abaqus.DisplayGroup.LeafFromOdbElementLayups.LeafFromOdbElementLayups
-#: abaqus.DisplayGroup.LeafFromOdbElementMaterials.LeafFromOdbElementMaterials
-#: abaqus.DisplayGroup.LeafFromOdbElementPick.LeafFromOdbElementPick
-#: abaqus.DisplayGroup.LeafFromOdbElementPlies.LeafFromOdbElementPlies
-#: abaqus.DisplayGroup.LeafFromOdbElementSections.LeafFromOdbElementSections
-#: abaqus.DisplayGroup.LeafFromOdbElementTypes.LeafFromOdbElementTypes
-#: abaqus.DisplayGroup.LeafFromOdbNodePick.LeafFromOdbNodePick
-#: abaqus.DisplayGroup.LeafFromPartElementLabels.LeafFromPartElementLabels
-#: abaqus.DisplayGroup.LeafFromPartInstance.LeafFromPartInstance
-#: abaqus.DisplayGroup.LeafFromPartNodeLabels.LeafFromPartNodeLabels
-#: abaqus.DisplayGroup.LeafFromReferencePoint.LeafFromReferencePoint
-#: abaqus.DisplayGroup.LeafFromSets.LeafFromSets
-#: abaqus.DisplayGroup.LeafFromSurfaceSets.LeafFromSurfaceSets
-#: abaqus.DisplayGroup.LeafFromSurfaceVarRange.LeafFromSurfaceVarRange of
+#: abaqus.DisplayGroup.DisplayGroupSession.DisplayGroupSession.DisplayGroup of
 msgid "Returns"
 msgstr ""
 
-#: abaqus.DisplayGroup.DisplayGroup.DisplayGroup:32
 #: abaqus.DisplayGroup.DisplayGroupSession.DisplayGroupSession.DisplayGroup:16
 #: of
 msgid "A DisplayGroup object."
 msgstr ""
 
-#: abaqus.DisplayGroup.DisplayGroup.DisplayGroup
 #: abaqus.DisplayGroup.DisplayGroupInstance.DisplayGroupInstance.elements
 #: abaqus.DisplayGroup.DisplayGroupInstance.DisplayGroupInstance.nodes
-#: abaqus.DisplayGroup.DisplayGroupSession.DisplayGroupSession.DisplayGroup
-#: abaqus.DisplayGroup.Leaf.Leaf
-#: abaqus.DisplayGroup.LeafFromDatums.LeafFromDatums
-#: abaqus.DisplayGroup.LeafFromDisplayGroup.LeafFromDisplayGroup
-#: abaqus.DisplayGroup.LeafFromElementLabels.LeafFromElementLabels
-#: abaqus.DisplayGroup.LeafFromElementSets.LeafFromElementSets
-#: abaqus.DisplayGroup.LeafFromElementVarRange.LeafFromElementVarRange
-#: abaqus.DisplayGroup.LeafFromGeometry.LeafFromGeometry
-#: abaqus.DisplayGroup.LeafFromInstance.LeafFromInstance
-#: abaqus.DisplayGroup.LeafFromInstanceElementLabels.LeafFromInstanceElementLabels
-#: abaqus.DisplayGroup.LeafFromInstanceNodeLabels.LeafFromInstanceNodeLabels
-#: abaqus.DisplayGroup.LeafFromMeshElementLabels.LeafFromMeshElementLabels
-#: abaqus.DisplayGroup.LeafFromMeshNodeLabels.LeafFromMeshNodeLabels
-#: abaqus.DisplayGroup.LeafFromMeshSurfaceSets.LeafFromMeshSurfaceSets
-#: abaqus.DisplayGroup.LeafFromModelElemLabels.LeafFromModelElemLabels
-#: abaqus.DisplayGroup.LeafFromModelNodeLabels.LeafFromModelNodeLabels
-#: abaqus.DisplayGroup.LeafFromNodeLabels.LeafFromNodeLabels
-#: abaqus.DisplayGroup.LeafFromNodeSets.LeafFromNodeSets
-#: abaqus.DisplayGroup.LeafFromNodeVarRange.LeafFromNodeVarRange
-#: abaqus.DisplayGroup.LeafFromOdbEdgePick.LeafFromOdbEdgePick
-#: abaqus.DisplayGroup.LeafFromOdbElementLayups.LeafFromOdbElementLayups
-#: abaqus.DisplayGroup.LeafFromOdbElementMaterials.LeafFromOdbElementMaterials
-#: abaqus.DisplayGroup.LeafFromOdbElementPick.LeafFromOdbElementPick
-#: abaqus.DisplayGroup.LeafFromOdbElementPlies.LeafFromOdbElementPlies
-#: abaqus.DisplayGroup.LeafFromOdbElementSections.LeafFromOdbElementSections
-#: abaqus.DisplayGroup.LeafFromOdbElementTypes.LeafFromOdbElementTypes
-#: abaqus.DisplayGroup.LeafFromOdbNodePick.LeafFromOdbNodePick
-#: abaqus.DisplayGroup.LeafFromPartElementLabels.LeafFromPartElementLabels
-#: abaqus.DisplayGroup.LeafFromPartInstance.LeafFromPartInstance
-#: abaqus.DisplayGroup.LeafFromPartNodeLabels.LeafFromPartNodeLabels
-#: abaqus.DisplayGroup.LeafFromReferencePoint.LeafFromReferencePoint
-#: abaqus.DisplayGroup.LeafFromSets.LeafFromSets
-#: abaqus.DisplayGroup.LeafFromSurfaceSets.LeafFromSurfaceSets
-#: abaqus.DisplayGroup.LeafFromSurfaceVarRange.LeafFromSurfaceVarRange of
+#: abaqus.DisplayGroup.DisplayGroupSession.DisplayGroupSession.DisplayGroup of
 msgid "Return type"
 msgstr ""
 
-#: abaqus.DisplayGroup.DisplayGroup.DisplayGroup:33
 #: abaqus.DisplayGroup.DisplayGroupSession.DisplayGroupSession.DisplayGroup:17
 #: of
 msgid ":class:`DisplayGroup`"
@@ -1443,11 +1270,7 @@ msgid ""
 "leafpyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: abaqus.DisplayGroup.Leaf.Leaf:15 of
-msgid "This method creates a Leaf object."
-msgstr ""
-
-#: ../../../../docstring abaqus.DisplayGroup.Leaf.Leaf:23
+#: ../../../../docstring
 #: abaqus.DisplayGroup.LeafFromDatums.LeafFromDatums.leafType:1
 #: abaqus.DisplayGroup.LeafFromDisplayGroup.LeafFromDisplayGroup.leafType:1
 #: abaqus.DisplayGroup.LeafFromElementLabels.LeafFromElementLabels.leafType:1
@@ -1485,14 +1308,6 @@ msgstr ""
 msgid ""
 "A SymbolicConstant specifying the leaf type. Possible values are "
 "EMPTY_LEAF, DEFAULT_MODEL, ALL_ELEMENTS, ALL_NODES, and ALL_SURFACES."
-msgstr ""
-
-#: abaqus.DisplayGroup.Leaf.Leaf:26 of
-msgid "A Leaf object."
-msgstr ""
-
-#: abaqus.DisplayGroup.Leaf.Leaf:27 of
-msgid ":class:`Leaf`"
 msgstr ""
 
 #: abaqus.DisplayGroup.DisplayGroupInstance.DisplayGroupInstance:1 of
@@ -1672,24 +1487,6 @@ msgid ""
 "leaffromdatumspyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: abaqus.DisplayGroup.LeafFromDatums.LeafFromDatums:13 of
-msgid ""
-"This method creates a Leaf object from a sequence of datum objects. Leaf "
-"objects specify the items in a display group."
-msgstr ""
-
-#: abaqus.DisplayGroup.LeafFromDatums.LeafFromDatums:22 of
-msgid "A sequence of datum objects."
-msgstr ""
-
-#: abaqus.DisplayGroup.LeafFromDatums.LeafFromDatums:24 of
-msgid "A LeafFromDatums object."
-msgstr ""
-
-#: abaqus.DisplayGroup.LeafFromDatums.LeafFromDatums:25 of
-msgid ":class:`LeafFromDatums`"
-msgstr ""
-
 #: abaqus.DisplayGroup.LeafFromDisplayGroup.LeafFromDisplayGroup:1 of
 msgid ""
 "The LeafFromDisplayGroup object can be used whenever a Leaf object is "
@@ -1706,25 +1503,10 @@ msgid ""
 "leaffromdisplaygrouppyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: abaqus.DisplayGroup.LeafFromDisplayGroup.LeafFromDisplayGroup:15 of
-msgid ""
-"This method creates a Leaf object from a sequence of Display Group "
-"objects."
-msgstr ""
-
 #: ../../../../docstring
-#: abaqus.DisplayGroup.LeafFromDisplayGroup.LeafFromDisplayGroup:23
 #: abaqus.DisplayGroup.LeafFromDisplayGroup.LeafFromDisplayGroup.displayGroup:1
 #: of
 msgid "A DisplayGroupArray object."
-msgstr ""
-
-#: abaqus.DisplayGroup.LeafFromDisplayGroup.LeafFromDisplayGroup:25 of
-msgid "A LeafFromDisplayGroup object."
-msgstr ""
-
-#: abaqus.DisplayGroup.LeafFromDisplayGroup.LeafFromDisplayGroup:26 of
-msgid ":class:`LeafFromDisplayGroup`"
 msgstr ""
 
 #: abaqus.DisplayGroup.LeafFromElementLabels.LeafFromElementLabels:1 of
@@ -1744,23 +1526,7 @@ msgid ""
 "leaffromelementlabelspyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: abaqus.DisplayGroup.LeafFromElementLabels.LeafFromElementLabels:14 of
-msgid ""
-"This method creates a Leaf object from a sequence of element labels that "
-"belong to a single part instance."
-msgstr ""
-
 #: ../../../../docstring
-#: abaqus.DisplayGroup.LeafFromElementLabels.LeafFromElementLabels:23
-#: abaqus.DisplayGroup.LeafFromElementLabels.LeafFromElementLabels.partInstanceName:1
-#: of
-msgid ""
-"A String specifying the name of the part instance to which "
-"**elementLabels** refers."
-msgstr ""
-
-#: ../../../../docstring
-#: abaqus.DisplayGroup.LeafFromElementLabels.LeafFromElementLabels:25
 #: abaqus.DisplayGroup.LeafFromElementLabels.LeafFromElementLabels.elementLabels:1
 #: of
 msgid ""
@@ -1771,12 +1537,12 @@ msgid ""
 "labels; for example, `'3:5'` and `'3:15:3'`."
 msgstr ""
 
-#: abaqus.DisplayGroup.LeafFromElementLabels.LeafFromElementLabels:30 of
-msgid "A LeafFromElementLabels object."
-msgstr ""
-
-#: abaqus.DisplayGroup.LeafFromElementLabels.LeafFromElementLabels:31 of
-msgid ":class:`LeafFromElementLabels`"
+#: ../../../../docstring
+#: abaqus.DisplayGroup.LeafFromElementLabels.LeafFromElementLabels.partInstanceName:1
+#: of
+msgid ""
+"A String specifying the name of the part instance to which "
+"**elementLabels** refers."
 msgstr ""
 
 #: abaqus.DisplayGroup.LeafFromElementSets.LeafFromElementSets:1 of
@@ -1795,24 +1561,11 @@ msgid ""
 "leaffromelementsetspyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: abaqus.DisplayGroup.LeafFromElementSets.LeafFromElementSets:14 of
-msgid "This method creates a Leaf object from a sequence of element sets."
-msgstr ""
-
 #: ../../../../docstring
-#: abaqus.DisplayGroup.LeafFromElementSets.LeafFromElementSets:22
 #: abaqus.DisplayGroup.LeafFromElementSets.LeafFromElementSets.elementSets:1 of
 msgid ""
 "A sequence of Strings specifying element sets or a String specifying a "
 "single element set."
-msgstr ""
-
-#: abaqus.DisplayGroup.LeafFromElementSets.LeafFromElementSets:25 of
-msgid "A LeafFromElementSets object."
-msgstr ""
-
-#: abaqus.DisplayGroup.LeafFromElementSets.LeafFromElementSets:26 of
-msgid ":class:`LeafFromElementSets`"
 msgstr ""
 
 #: abaqus.DisplayGroup.LeafFromElementVarRange.LeafFromElementVarRange:1 of
@@ -1831,44 +1584,9 @@ msgid ""
 "leaffromelementvarrangepyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: abaqus.DisplayGroup.LeafFromElementVarRange.LeafFromElementVarRange:14 of
-msgid ""
-"This method creates a Leaf object from elements with values lying in a "
-"variable range."
-msgstr ""
-
 #: ../../../../docstring
-#: abaqus.DisplayGroup.LeafFromElementVarRange.LeafFromElementVarRange:22
-#: abaqus.DisplayGroup.LeafFromElementVarRange.LeafFromElementVarRange.minimumRange:1
-#: abaqus.DisplayGroup.LeafFromNodeVarRange.LeafFromNodeVarRange:22
-#: abaqus.DisplayGroup.LeafFromNodeVarRange.LeafFromNodeVarRange.minimumRange:1
-#: abaqus.DisplayGroup.LeafFromSurfaceVarRange.LeafFromSurfaceVarRange:22
-#: abaqus.DisplayGroup.LeafFromSurfaceVarRange.LeafFromSurfaceVarRange.minimumRange:1
-#: of
-msgid ""
-"A Float specifying the minimum value for the variable range. The default "
-"value is −3.40282346639E38."
-msgstr ""
-
-#: ../../../../docstring
-#: abaqus.DisplayGroup.LeafFromElementVarRange.LeafFromElementVarRange:25
-#: abaqus.DisplayGroup.LeafFromElementVarRange.LeafFromElementVarRange.maximumRange:1
-#: abaqus.DisplayGroup.LeafFromNodeVarRange.LeafFromNodeVarRange:25
-#: abaqus.DisplayGroup.LeafFromNodeVarRange.LeafFromNodeVarRange.maximumRange:1
-#: abaqus.DisplayGroup.LeafFromSurfaceVarRange.LeafFromSurfaceVarRange:25
-#: abaqus.DisplayGroup.LeafFromSurfaceVarRange.LeafFromSurfaceVarRange.maximumRange:1
-#: of
-msgid ""
-"A Float specifying the maximum value for the variable range. The default "
-"value is 3.40282346639e+038."
-msgstr ""
-
-#: ../../../../docstring
-#: abaqus.DisplayGroup.LeafFromElementVarRange.LeafFromElementVarRange:28
 #: abaqus.DisplayGroup.LeafFromElementVarRange.LeafFromElementVarRange.insideRange:1
-#: abaqus.DisplayGroup.LeafFromNodeVarRange.LeafFromNodeVarRange:28
 #: abaqus.DisplayGroup.LeafFromNodeVarRange.LeafFromNodeVarRange.insideRange:1
-#: abaqus.DisplayGroup.LeafFromSurfaceVarRange.LeafFromSurfaceVarRange:28
 #: abaqus.DisplayGroup.LeafFromSurfaceVarRange.LeafFromSurfaceVarRange.insideRange:1
 #: of
 msgid ""
@@ -1877,12 +1595,24 @@ msgid ""
 "maximum values. The default value is ON."
 msgstr ""
 
-#: abaqus.DisplayGroup.LeafFromElementVarRange.LeafFromElementVarRange:31 of
-msgid "A LeafFromElementVarRange object."
+#: ../../../../docstring
+#: abaqus.DisplayGroup.LeafFromElementVarRange.LeafFromElementVarRange.maximumRange:1
+#: abaqus.DisplayGroup.LeafFromNodeVarRange.LeafFromNodeVarRange.maximumRange:1
+#: abaqus.DisplayGroup.LeafFromSurfaceVarRange.LeafFromSurfaceVarRange.maximumRange:1
+#: of
+msgid ""
+"A Float specifying the maximum value for the variable range. The default "
+"value is 3.40282346639e+038."
 msgstr ""
 
-#: abaqus.DisplayGroup.LeafFromElementVarRange.LeafFromElementVarRange:32 of
-msgid ":class:`LeafFromElementVarRange`"
+#: ../../../../docstring
+#: abaqus.DisplayGroup.LeafFromElementVarRange.LeafFromElementVarRange.minimumRange:1
+#: abaqus.DisplayGroup.LeafFromNodeVarRange.LeafFromNodeVarRange.minimumRange:1
+#: abaqus.DisplayGroup.LeafFromSurfaceVarRange.LeafFromSurfaceVarRange.minimumRange:1
+#: of
+msgid ""
+"A Float specifying the minimum value for the variable range. The default "
+"value is −3.40282346639E38."
 msgstr ""
 
 #: abaqus.DisplayGroup.LeafFromGeometry.LeafFromGeometry:1 of
@@ -1901,43 +1631,6 @@ msgid ""
 "leaffromgeometrypyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: abaqus.DisplayGroup.LeafFromGeometry.LeafFromGeometry:14 of
-msgid ""
-"This method creates a Leaf object from a sequence of edge, face and cell "
-"geometry objects. Any combination of edge, face or cell arguments is "
-"allowed however the arguments must specify at least one object--it is not "
-"permissible to create an empty leaf."
-msgstr ""
-
-#: abaqus.DisplayGroup.LeafFromGeometry.LeafFromGeometry:24 of
-msgid "A sequence of geometry edges."
-msgstr ""
-
-#: abaqus.DisplayGroup.LeafFromGeometry.LeafFromGeometry:26 of
-msgid "A sequence of geometry faces."
-msgstr ""
-
-#: abaqus.DisplayGroup.LeafFromGeometry.LeafFromGeometry:28 of
-msgid "A sequence of geometry cells."
-msgstr ""
-
-#: abaqus.DisplayGroup.LeafFromGeometry.LeafFromGeometry:30 of
-msgid "A LeafFromGeometry object."
-msgstr ""
-
-#: abaqus.DisplayGroup.LeafFromGeometry.LeafFromGeometry:31 of
-msgid ":class:`LeafFromGeometry`"
-msgstr ""
-
-#: abaqus.DisplayGroup.LeafFromGeometry.LeafFromGeometry
-#: abaqus.DisplayGroup.LeafFromInstance.LeafFromInstance of
-msgid "Raises"
-msgstr ""
-
-#: abaqus.DisplayGroup.LeafFromGeometry.LeafFromGeometry:33 of
-msgid "If at least one of the sequences is not passed to this method."
-msgstr ""
-
 #: abaqus.DisplayGroup.LeafFromInstance.LeafFromInstance:1 of
 msgid ""
 "The LeafFromInstance object can be used whenever a Leaf object is expected"
@@ -1952,28 +1645,6 @@ msgid ""
 "Check `LeafFromInstance on help.3ds.com/2018 <https://help.3ds.com/2018/En"
 "glish/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "leaffrominstancepyc.htm?contextscope=all>`__."
-msgstr ""
-
-#: abaqus.DisplayGroup.LeafFromInstance.LeafFromInstance:14 of
-msgid ""
-"This method creates a Leaf object from a sequence of part instance "
-"objects."
-msgstr ""
-
-#: abaqus.DisplayGroup.LeafFromInstance.LeafFromInstance:22 of
-msgid "A PartInstance object or a Sequence of PartInstance objects."
-msgstr ""
-
-#: abaqus.DisplayGroup.LeafFromInstance.LeafFromInstance:24 of
-msgid "A LeafFromInstance object."
-msgstr ""
-
-#: abaqus.DisplayGroup.LeafFromInstance.LeafFromInstance:25 of
-msgid ":class:`LeafFromInstance`"
-msgstr ""
-
-#: abaqus.DisplayGroup.LeafFromInstance.LeafFromInstance:27 of
-msgid "If an invalid argument is passed to this method."
 msgstr ""
 
 #: abaqus.DisplayGroup.LeafFromInstanceElementLabels.LeafFromInstanceElementLabels:1
@@ -1994,31 +1665,6 @@ msgid ""
 "leaffrominstanceelementlabelspyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: abaqus.DisplayGroup.LeafFromInstanceElementLabels.LeafFromInstanceElementLabels:14
-#: of
-msgid ""
-"This method creates a Leaf object from a sequence of Strings specifying "
-"the element labels. Leaf objects specify the items in a display group."
-msgstr ""
-
-#: abaqus.DisplayGroup.LeafFromInstanceElementLabels.LeafFromInstanceElementLabels:23
-#: of
-msgid ""
-"A sequence of sequences specifying element labels. Each inner sequence "
-"consists of a PartInstance object followed by a sequence of Strings "
-"specifying element labels."
-msgstr ""
-
-#: abaqus.DisplayGroup.LeafFromInstanceElementLabels.LeafFromInstanceElementLabels:26
-#: of
-msgid "A LeafFromInstanceElementLabels object."
-msgstr ""
-
-#: abaqus.DisplayGroup.LeafFromInstanceElementLabels.LeafFromInstanceElementLabels:27
-#: of
-msgid ":class:`LeafFromInstanceElementLabels`"
-msgstr ""
-
 #: abaqus.DisplayGroup.LeafFromInstanceNodeLabels.LeafFromInstanceNodeLabels:1
 #: of
 msgid ""
@@ -2035,31 +1681,6 @@ msgid ""
 "Check `LeafFromInstanceNodeLabels on help.3ds.com/2018 <https://help.3ds.c"
 "om/2018/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "leaffrominstancenodelabelspyc.htm?contextscope=all>`__."
-msgstr ""
-
-#: abaqus.DisplayGroup.LeafFromInstanceNodeLabels.LeafFromInstanceNodeLabels:14
-#: of
-msgid ""
-"This method creates a Leaf object from a sequence of Strings specifying "
-"the node labels. Leaf objects specify the items in a display group."
-msgstr ""
-
-#: abaqus.DisplayGroup.LeafFromInstanceNodeLabels.LeafFromInstanceNodeLabels:23
-#: of
-msgid ""
-"A sequence of sequences specifying node labels. Each inner sequence "
-"consists of a PartInstance object followed by a sequence of Strings "
-"specifying node labels."
-msgstr ""
-
-#: abaqus.DisplayGroup.LeafFromInstanceNodeLabels.LeafFromInstanceNodeLabels:26
-#: of
-msgid "A LeafFromInstanceNodeLabels object."
-msgstr ""
-
-#: abaqus.DisplayGroup.LeafFromInstanceNodeLabels.LeafFromInstanceNodeLabels:27
-#: of
-msgid ":class:`LeafFromInstanceNodeLabels`"
 msgstr ""
 
 #: abaqus.DisplayGroup.LeafFromMeshElementLabels.LeafFromMeshElementLabels:1 of
@@ -2079,28 +1700,6 @@ msgid ""
 "leaffrommeshelementlabelspyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: abaqus.DisplayGroup.LeafFromMeshElementLabels.LeafFromMeshElementLabels:14
-#: of
-msgid ""
-"This method creates a Leaf object from a sequence of mesh element objects."
-" Leaf objects specify the items in a display group."
-msgstr ""
-
-#: abaqus.DisplayGroup.LeafFromMeshElementLabels.LeafFromMeshElementLabels:23
-#: of
-msgid "A sequence of MeshElement objects specifying elements."
-msgstr ""
-
-#: abaqus.DisplayGroup.LeafFromMeshElementLabels.LeafFromMeshElementLabels:25
-#: of
-msgid "A LeafFromMeshElementLabels object."
-msgstr ""
-
-#: abaqus.DisplayGroup.LeafFromMeshElementLabels.LeafFromMeshElementLabels:26
-#: of
-msgid ":class:`LeafFromMeshElementLabels`"
-msgstr ""
-
 #: abaqus.DisplayGroup.LeafFromMeshNodeLabels.LeafFromMeshNodeLabels:1 of
 msgid ""
 "The LeafFromMeshNodeLabels object can be used whenever a Leaf object is "
@@ -2115,24 +1714,6 @@ msgid ""
 "Check `LeafFromMeshNodeLabels on help.3ds.com/2018 <https://help.3ds.com/2"
 "018/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "leaffrommeshnodelabelspyc.htm?contextscope=all>`__."
-msgstr ""
-
-#: abaqus.DisplayGroup.LeafFromMeshNodeLabels.LeafFromMeshNodeLabels:14 of
-msgid ""
-"This method creates a Leaf object from a sequence of mesh node objects. "
-"Leaf objects specify the items in a display group."
-msgstr ""
-
-#: abaqus.DisplayGroup.LeafFromMeshNodeLabels.LeafFromMeshNodeLabels:23 of
-msgid "A sequence of MeshNode objects specifying nodes."
-msgstr ""
-
-#: abaqus.DisplayGroup.LeafFromMeshNodeLabels.LeafFromMeshNodeLabels:25 of
-msgid "A LeafFromMeshNodeLabels object."
-msgstr ""
-
-#: abaqus.DisplayGroup.LeafFromMeshNodeLabels.LeafFromMeshNodeLabels:26 of
-msgid ":class:`LeafFromMeshNodeLabels`"
 msgstr ""
 
 #: abaqus.DisplayGroup.LeafFromMeshSurfaceSets.LeafFromMeshSurfaceSets:1 of
@@ -2151,23 +1732,6 @@ msgid ""
 "leaffrommeshsurfacesetspyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: abaqus.DisplayGroup.LeafFromMeshSurfaceSets.LeafFromMeshSurfaceSets:14
-#: abaqus.DisplayGroup.LeafFromSurfaceSets.LeafFromSurfaceSets:14 of
-msgid "This method creates a Leaf object from a sequence of surface sets."
-msgstr ""
-
-#: abaqus.DisplayGroup.LeafFromMeshSurfaceSets.LeafFromMeshSurfaceSets:22 of
-msgid "A sequence of Surface objects."
-msgstr ""
-
-#: abaqus.DisplayGroup.LeafFromMeshSurfaceSets.LeafFromMeshSurfaceSets:24 of
-msgid "A LeafFromMeshSurfaceSets object."
-msgstr ""
-
-#: abaqus.DisplayGroup.LeafFromMeshSurfaceSets.LeafFromMeshSurfaceSets:25 of
-msgid ":class:`LeafFromMeshSurfaceSets`"
-msgstr ""
-
 #: abaqus.DisplayGroup.LeafFromModelElemLabels.LeafFromModelElemLabels:1 of
 msgid ""
 "The LeafFromModelElemLabels object can be used whenever a Leaf object is "
@@ -2184,14 +1748,7 @@ msgid ""
 "leaffrommodelelemlabelspyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: abaqus.DisplayGroup.LeafFromModelElemLabels.LeafFromModelElemLabels:14 of
-msgid ""
-"This method creates a Leaf object from a sequence of element labels "
-"spanning several part instances."
-msgstr ""
-
 #: ../../../../docstring
-#: abaqus.DisplayGroup.LeafFromModelElemLabels.LeafFromModelElemLabels:22
 #: abaqus.DisplayGroup.LeafFromModelElemLabels.LeafFromModelElemLabels.elementLabels:1
 #: of
 msgid ""
@@ -2204,14 +1761,6 @@ msgid ""
 "String specifying a single element label; for example, `'7'`.A String "
 "specifying a sequence of element labels; for example, `'3:5'` and "
 "`'3:15:3'`."
-msgstr ""
-
-#: abaqus.DisplayGroup.LeafFromModelElemLabels.LeafFromModelElemLabels:30 of
-msgid "A LeafFromModelElemLabels object."
-msgstr ""
-
-#: abaqus.DisplayGroup.LeafFromModelElemLabels.LeafFromModelElemLabels:31 of
-msgid ":class:`LeafFromModelElemLabels`"
 msgstr ""
 
 #: abaqus.DisplayGroup.LeafFromModelNodeLabels.LeafFromModelNodeLabels:1 of
@@ -2230,14 +1779,7 @@ msgid ""
 "leaffrommodelnodelabelspyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: abaqus.DisplayGroup.LeafFromModelNodeLabels.LeafFromModelNodeLabels:14 of
-msgid ""
-"This method creates a Leaf object from a sequence of node labels spanning "
-"several part instances."
-msgstr ""
-
 #: ../../../../docstring
-#: abaqus.DisplayGroup.LeafFromModelNodeLabels.LeafFromModelNodeLabels:22
 #: abaqus.DisplayGroup.LeafFromModelNodeLabels.LeafFromModelNodeLabels.nodeLabels:1
 #: of
 msgid ""
@@ -2249,14 +1791,6 @@ msgid ""
 "following:An Int specifying a single node label; for example, `1`.A String"
 " specifying a single node label; for example, `'7'`.A String specifying a "
 "sequence of node labels; for example, `'3:5'` and `'3:15:3'`."
-msgstr ""
-
-#: abaqus.DisplayGroup.LeafFromModelNodeLabels.LeafFromModelNodeLabels:30 of
-msgid "A LeafFromModelNodeLabels object."
-msgstr ""
-
-#: abaqus.DisplayGroup.LeafFromModelNodeLabels.LeafFromModelNodeLabels:31 of
-msgid ":class:`LeafFromModelNodeLabels`"
 msgstr ""
 
 #: abaqus.DisplayGroup.LeafFromNodeLabels.LeafFromNodeLabels:1 of
@@ -2275,23 +1809,7 @@ msgid ""
 "leaffromnodelabelspyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: abaqus.DisplayGroup.LeafFromNodeLabels.LeafFromNodeLabels:14 of
-msgid ""
-"This method creates a Leaf object from a sequence of node labels that "
-"belong to a single part instance."
-msgstr ""
-
 #: ../../../../docstring
-#: abaqus.DisplayGroup.LeafFromNodeLabels.LeafFromNodeLabels:23
-#: abaqus.DisplayGroup.LeafFromNodeLabels.LeafFromNodeLabels.partInstanceName:1
-#: of
-msgid ""
-"A String specifying the name of the part instance to which **nodeLabels** "
-"refers."
-msgstr ""
-
-#: ../../../../docstring
-#: abaqus.DisplayGroup.LeafFromNodeLabels.LeafFromNodeLabels:25
 #: abaqus.DisplayGroup.LeafFromNodeLabels.LeafFromNodeLabels.nodeLabels:1 of
 msgid ""
 "A sequence of Strings specifying expressions that denote node labels. The "
@@ -2301,12 +1819,12 @@ msgid ""
 " `'3:5'` and `'3:15:3'`."
 msgstr ""
 
-#: abaqus.DisplayGroup.LeafFromNodeLabels.LeafFromNodeLabels:30 of
-msgid "A LeafFromNodeLabels object."
-msgstr ""
-
-#: abaqus.DisplayGroup.LeafFromNodeLabels.LeafFromNodeLabels:31 of
-msgid ":class:`LeafFromNodeLabels`"
+#: ../../../../docstring
+#: abaqus.DisplayGroup.LeafFromNodeLabels.LeafFromNodeLabels.partInstanceName:1
+#: of
+msgid ""
+"A String specifying the name of the part instance to which **nodeLabels** "
+"refers."
 msgstr ""
 
 #: abaqus.DisplayGroup.LeafFromNodeSets.LeafFromNodeSets:1 of
@@ -2325,24 +1843,11 @@ msgid ""
 "leaffromnodesetspyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: abaqus.DisplayGroup.LeafFromNodeSets.LeafFromNodeSets:14 of
-msgid "This method creates a Leaf object from a sequence of node sets."
-msgstr ""
-
 #: ../../../../docstring
-#: abaqus.DisplayGroup.LeafFromNodeSets.LeafFromNodeSets:22
 #: abaqus.DisplayGroup.LeafFromNodeSets.LeafFromNodeSets.nodeSets:1 of
 msgid ""
 "A sequence of Strings specifying node sets or a String specifying a single"
 " node set."
-msgstr ""
-
-#: abaqus.DisplayGroup.LeafFromNodeSets.LeafFromNodeSets:24 of
-msgid "A LeafFromNodeSets object."
-msgstr ""
-
-#: abaqus.DisplayGroup.LeafFromNodeSets.LeafFromNodeSets:25 of
-msgid ":class:`LeafFromNodeSets`"
 msgstr ""
 
 #: abaqus.DisplayGroup.LeafFromNodeVarRange.LeafFromNodeVarRange:1 of
@@ -2361,20 +1866,6 @@ msgid ""
 "leaffromnodevarrangepyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: abaqus.DisplayGroup.LeafFromNodeVarRange.LeafFromNodeVarRange:14 of
-msgid ""
-"This method creates a Leaf object from nodes with values lying in a "
-"variable range."
-msgstr ""
-
-#: abaqus.DisplayGroup.LeafFromNodeVarRange.LeafFromNodeVarRange:31 of
-msgid "A LeafFromNodeVarRange object."
-msgstr ""
-
-#: abaqus.DisplayGroup.LeafFromNodeVarRange.LeafFromNodeVarRange:32 of
-msgid ":class:`LeafFromNodeVarRange`"
-msgstr ""
-
 #: abaqus.DisplayGroup.LeafFromOdbEdgePick.LeafFromOdbEdgePick:1 of
 msgid ""
 "The LeafFromOdbEdgePick object can be used whenever a Leaf object is "
@@ -2391,29 +1882,6 @@ msgid ""
 "leaffromodbedgepickpyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: abaqus.DisplayGroup.LeafFromOdbEdgePick.LeafFromOdbEdgePick:14 of
-msgid ""
-"This method creates a Leaf object from a tuple containing machine "
-"readable, compact strings defining the edges picked for each part "
-"instance. Leaf objects specify the items in a display group."
-msgstr ""
-
-#: abaqus.DisplayGroup.LeafFromOdbEdgePick.LeafFromOdbEdgePick:23
-#: abaqus.DisplayGroup.LeafFromOdbElementPick.LeafFromOdbElementPick:23
-#: abaqus.DisplayGroup.LeafFromOdbNodePick.LeafFromOdbNodePick:23 of
-msgid ""
-"A sequence of tuples of the form [part name, entity count, machine "
-"readable pick strings]."
-msgstr ""
-
-#: abaqus.DisplayGroup.LeafFromOdbEdgePick.LeafFromOdbEdgePick:26 of
-msgid "A LeafFromOdbEdgePick object."
-msgstr ""
-
-#: abaqus.DisplayGroup.LeafFromOdbEdgePick.LeafFromOdbEdgePick:27 of
-msgid ":class:`LeafFromOdbEdgePick`"
-msgstr ""
-
 #: abaqus.DisplayGroup.LeafFromOdbElementLayups.LeafFromOdbElementLayups:1 of
 msgid ""
 "The LeafFromOdbElementLayups object can be used whenever a Leaf object is "
@@ -2428,24 +1896,6 @@ msgid ""
 "Check `LeafFromOdbElementLayups on help.3ds.com/2018 <https://help.3ds.com"
 "/2018/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "leaffromodbelementlayupspyc.htm?contextscope=all>`__."
-msgstr ""
-
-#: abaqus.DisplayGroup.LeafFromOdbElementLayups.LeafFromOdbElementLayups:14 of
-msgid ""
-"This method creates a Leaf object from a sequence of Strings specifying "
-"layup names. Leaf objects specify the items in a display group."
-msgstr ""
-
-#: abaqus.DisplayGroup.LeafFromOdbElementLayups.LeafFromOdbElementLayups:23 of
-msgid "A sequence of Strings specifying element layups."
-msgstr ""
-
-#: abaqus.DisplayGroup.LeafFromOdbElementLayups.LeafFromOdbElementLayups:25 of
-msgid "A LeafFromOdbElementLayups object."
-msgstr ""
-
-#: abaqus.DisplayGroup.LeafFromOdbElementLayups.LeafFromOdbElementLayups:26 of
-msgid ":class:`LeafFromOdbElementLayups`"
 msgstr ""
 
 #: abaqus.DisplayGroup.LeafFromOdbElementMaterials.LeafFromOdbElementMaterials:1
@@ -2466,28 +1916,6 @@ msgid ""
 "leaffromodbelementmaterialspyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: abaqus.DisplayGroup.LeafFromOdbElementMaterials.LeafFromOdbElementMaterials:14
-#: of
-msgid ""
-"This method creates a Leaf object from a sequence of Strings specifying "
-"material names. Leaf objects specify the items in a display group."
-msgstr ""
-
-#: abaqus.DisplayGroup.LeafFromOdbElementMaterials.LeafFromOdbElementMaterials:23
-#: of
-msgid "A sequence of Strings specifying element materials."
-msgstr ""
-
-#: abaqus.DisplayGroup.LeafFromOdbElementMaterials.LeafFromOdbElementMaterials:25
-#: of
-msgid "A LeafFromOdbElementMaterials object."
-msgstr ""
-
-#: abaqus.DisplayGroup.LeafFromOdbElementMaterials.LeafFromOdbElementMaterials:26
-#: of
-msgid ":class:`LeafFromOdbElementMaterials`"
-msgstr ""
-
 #: abaqus.DisplayGroup.LeafFromOdbElementPick.LeafFromOdbElementPick:1 of
 msgid ""
 "The LeafFromOdbElementPick object can be used whenever a Leaf object is "
@@ -2504,21 +1932,6 @@ msgid ""
 "leaffromodbelementpickpyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: abaqus.DisplayGroup.LeafFromOdbElementPick.LeafFromOdbElementPick:14 of
-msgid ""
-"This method creates a Leaf object from a tuple containing machine "
-"readable, compact strings defining the elements picked for each part "
-"instance. Leaf objects specify the items in a display group."
-msgstr ""
-
-#: abaqus.DisplayGroup.LeafFromOdbElementPick.LeafFromOdbElementPick:26 of
-msgid "A LeafFromOdbElementPick object."
-msgstr ""
-
-#: abaqus.DisplayGroup.LeafFromOdbElementPick.LeafFromOdbElementPick:27 of
-msgid ":class:`LeafFromOdbElementPick`"
-msgstr ""
-
 #: abaqus.DisplayGroup.LeafFromOdbElementPlies.LeafFromOdbElementPlies:1 of
 msgid ""
 "The LeafFromOdbElementPlies object can be used whenever a Leaf object is "
@@ -2533,24 +1946,6 @@ msgid ""
 "Check `LeafFromOdbElementPlies on help.3ds.com/2018 <https://help.3ds.com/"
 "2018/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "leaffromodbelementpliespyc.htm?contextscope=all>`__."
-msgstr ""
-
-#: abaqus.DisplayGroup.LeafFromOdbElementPlies.LeafFromOdbElementPlies:14 of
-msgid ""
-"This method creates a Leaf object from a sequence of Strings specifying "
-"ply names. Leaf objects specify the items in a display group."
-msgstr ""
-
-#: abaqus.DisplayGroup.LeafFromOdbElementPlies.LeafFromOdbElementPlies:23 of
-msgid "A sequence of Strings specifying element plies."
-msgstr ""
-
-#: abaqus.DisplayGroup.LeafFromOdbElementPlies.LeafFromOdbElementPlies:25 of
-msgid "A LeafFromOdbElementPlies object."
-msgstr ""
-
-#: abaqus.DisplayGroup.LeafFromOdbElementPlies.LeafFromOdbElementPlies:26 of
-msgid ":class:`LeafFromOdbElementPlies`"
 msgstr ""
 
 #: abaqus.DisplayGroup.LeafFromOdbElementSections.LeafFromOdbElementSections:1
@@ -2571,28 +1966,6 @@ msgid ""
 "leaffromodbelementsectionspyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: abaqus.DisplayGroup.LeafFromOdbElementSections.LeafFromOdbElementSections:14
-#: of
-msgid ""
-"This method creates a Leaf object from a sequence of Strings specifying "
-"section names. Leaf objects specify the items in a display group."
-msgstr ""
-
-#: abaqus.DisplayGroup.LeafFromOdbElementSections.LeafFromOdbElementSections:23
-#: of
-msgid "A sequence of Strings specifying element Sections."
-msgstr ""
-
-#: abaqus.DisplayGroup.LeafFromOdbElementSections.LeafFromOdbElementSections:25
-#: of
-msgid "A LeafFromOdbElementSections object."
-msgstr ""
-
-#: abaqus.DisplayGroup.LeafFromOdbElementSections.LeafFromOdbElementSections:26
-#: of
-msgid ":class:`LeafFromOdbElementSections`"
-msgstr ""
-
 #: abaqus.DisplayGroup.LeafFromOdbElementTypes.LeafFromOdbElementTypes:1 of
 msgid ""
 "The LeafFromOdbElementTypes object can be used whenever a Leaf object is "
@@ -2609,24 +1982,6 @@ msgid ""
 "leaffromodbelementtypespyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: abaqus.DisplayGroup.LeafFromOdbElementTypes.LeafFromOdbElementTypes:14 of
-msgid ""
-"This method creates a Leaf object from a sequence of Strings specifying "
-"element names. Leaf objects specify the items in a display group."
-msgstr ""
-
-#: abaqus.DisplayGroup.LeafFromOdbElementTypes.LeafFromOdbElementTypes:23 of
-msgid "A sequence of Strings specifying element Types."
-msgstr ""
-
-#: abaqus.DisplayGroup.LeafFromOdbElementTypes.LeafFromOdbElementTypes:25 of
-msgid "A LeafFromOdbElementTypes object."
-msgstr ""
-
-#: abaqus.DisplayGroup.LeafFromOdbElementTypes.LeafFromOdbElementTypes:26 of
-msgid ":class:`LeafFromOdbElementTypes`"
-msgstr ""
-
 #: abaqus.DisplayGroup.LeafFromOdbNodePick.LeafFromOdbNodePick:1 of
 msgid ""
 "The LeafFromOdbNodePick object can be used whenever a Leaf object is "
@@ -2641,21 +1996,6 @@ msgid ""
 "Check `LeafFromOdbNodePick on help.3ds.com/2018 <https://help.3ds.com/2018"
 "/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "leaffromodbnodepickpyc.htm?contextscope=all>`__."
-msgstr ""
-
-#: abaqus.DisplayGroup.LeafFromOdbNodePick.LeafFromOdbNodePick:14 of
-msgid ""
-"This method creates a Leaf object from a tuple containing machine "
-"readable, compact strings defining the nodes picked for each part "
-"instance. Leaf objects specify the items in a display group."
-msgstr ""
-
-#: abaqus.DisplayGroup.LeafFromOdbNodePick.LeafFromOdbNodePick:26 of
-msgid "A LeafFromOdbNodePick object."
-msgstr ""
-
-#: abaqus.DisplayGroup.LeafFromOdbNodePick.LeafFromOdbNodePick:27 of
-msgid ":class:`LeafFromOdbNodePick`"
 msgstr ""
 
 #: abaqus.DisplayGroup.LeafFromPartElementLabels.LeafFromPartElementLabels:1 of
@@ -2675,33 +2015,6 @@ msgid ""
 "leaffrompartelementlabelspyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: abaqus.DisplayGroup.LeafFromPartElementLabels.LeafFromPartElementLabels:14
-#: of
-msgid ""
-"This method creates a Leaf object from a sequence of Strings specifying "
-"element labels. Leaf objects specify the items in a display group."
-msgstr ""
-
-#: abaqus.DisplayGroup.LeafFromPartElementLabels.LeafFromPartElementLabels:23
-#: abaqus.DisplayGroup.LeafFromPartNodeLabels.LeafFromPartNodeLabels:23 of
-msgid "A Part object."
-msgstr ""
-
-#: abaqus.DisplayGroup.LeafFromPartElementLabels.LeafFromPartElementLabels:25
-#: of
-msgid "A sequence of Strings specifying element labels."
-msgstr ""
-
-#: abaqus.DisplayGroup.LeafFromPartElementLabels.LeafFromPartElementLabels:27
-#: of
-msgid "A LeafFromPartElementLabels object."
-msgstr ""
-
-#: abaqus.DisplayGroup.LeafFromPartElementLabels.LeafFromPartElementLabels:28
-#: of
-msgid ":class:`LeafFromPartElementLabels`"
-msgstr ""
-
 #: abaqus.DisplayGroup.LeafFromPartInstance.LeafFromPartInstance:1 of
 msgid ""
 "The LeafFromPartInstance object can be used whenever a Leaf object is "
@@ -2718,24 +2031,10 @@ msgid ""
 "leaffrompartinstancepyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: abaqus.DisplayGroup.LeafFromPartInstance.LeafFromPartInstance:14 of
-msgid ""
-"This method creates a Leaf object from a list of part instance names."
-msgstr ""
-
 #: ../../../../docstring
-#: abaqus.DisplayGroup.LeafFromPartInstance.LeafFromPartInstance:22
 #: abaqus.DisplayGroup.LeafFromPartInstance.LeafFromPartInstance.partInstanceName:1
 #: of
 msgid "A sequence of Strings specifying the names of the part instances."
-msgstr ""
-
-#: abaqus.DisplayGroup.LeafFromPartInstance.LeafFromPartInstance:24 of
-msgid "A LeafFromPartInstance object."
-msgstr ""
-
-#: abaqus.DisplayGroup.LeafFromPartInstance.LeafFromPartInstance:25 of
-msgid ":class:`LeafFromPartInstance`"
 msgstr ""
 
 #: abaqus.DisplayGroup.LeafFromPartNodeLabels.LeafFromPartNodeLabels:1 of
@@ -2754,24 +2053,6 @@ msgid ""
 "leaffrompartnodelabelspyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: abaqus.DisplayGroup.LeafFromPartNodeLabels.LeafFromPartNodeLabels:14 of
-msgid ""
-"This method creates a Leaf object from a sequence of Strings specifying "
-"node labels. Leaf objects specify the items in a display group."
-msgstr ""
-
-#: abaqus.DisplayGroup.LeafFromPartNodeLabels.LeafFromPartNodeLabels:25 of
-msgid "A sequence of Strings specifying node labels."
-msgstr ""
-
-#: abaqus.DisplayGroup.LeafFromPartNodeLabels.LeafFromPartNodeLabels:27 of
-msgid "A LeafFromPartNodeLabels object."
-msgstr ""
-
-#: abaqus.DisplayGroup.LeafFromPartNodeLabels.LeafFromPartNodeLabels:28 of
-msgid ":class:`LeafFromPartNodeLabels`"
-msgstr ""
-
 #: abaqus.DisplayGroup.LeafFromReferencePoint.LeafFromReferencePoint:1 of
 msgid ""
 "The LeafFromReferencePoint object can be used whenever a Leaf object is "
@@ -2788,24 +2069,6 @@ msgid ""
 "leaffromreferencepointpyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: abaqus.DisplayGroup.LeafFromReferencePoint.LeafFromReferencePoint:14 of
-msgid ""
-"This method creates a Leaf object from a sequence of ReferencePoint "
-"objects."
-msgstr ""
-
-#: abaqus.DisplayGroup.LeafFromReferencePoint.LeafFromReferencePoint:22 of
-msgid "A sequence of Reference Point objects."
-msgstr ""
-
-#: abaqus.DisplayGroup.LeafFromReferencePoint.LeafFromReferencePoint:24 of
-msgid "A LeafFromReferencePoint object."
-msgstr ""
-
-#: abaqus.DisplayGroup.LeafFromReferencePoint.LeafFromReferencePoint:25 of
-msgid ":class:`LeafFromReferencePoint`"
-msgstr ""
-
 #: abaqus.DisplayGroup.LeafFromSets.LeafFromSets:1 of
 msgid ""
 "The LeafFromSets object can be used whenever a Leaf object is expected as "
@@ -2820,22 +2083,6 @@ msgid ""
 "Check `LeafFromSets on help.3ds.com/2018 <https://help.3ds.com/2018/Englis"
 "h/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "leaffromsetspyc.htm?contextscope=all>`__."
-msgstr ""
-
-#: abaqus.DisplayGroup.LeafFromSets.LeafFromSets:13 of
-msgid "This method creates a Leaf object from a sequence of Set objects."
-msgstr ""
-
-#: abaqus.DisplayGroup.LeafFromSets.LeafFromSets:21 of
-msgid "A sequence of Set objects."
-msgstr ""
-
-#: abaqus.DisplayGroup.LeafFromSets.LeafFromSets:23 of
-msgid "A LeafFromSets object."
-msgstr ""
-
-#: abaqus.DisplayGroup.LeafFromSets.LeafFromSets:24 of
-msgid ":class:`LeafFromSets`"
 msgstr ""
 
 #: abaqus.DisplayGroup.LeafFromSurfaceSets.LeafFromSurfaceSets:1 of
@@ -2855,19 +2102,10 @@ msgid ""
 msgstr ""
 
 #: ../../../../docstring
-#: abaqus.DisplayGroup.LeafFromSurfaceSets.LeafFromSurfaceSets:22
 #: abaqus.DisplayGroup.LeafFromSurfaceSets.LeafFromSurfaceSets.surfaceSets:1 of
 msgid ""
 "A sequence of Strings specifying surface sets, or a String specifying a "
 "single surface set."
-msgstr ""
-
-#: abaqus.DisplayGroup.LeafFromSurfaceSets.LeafFromSurfaceSets:25 of
-msgid "A LeafFromSurfaceSets object."
-msgstr ""
-
-#: abaqus.DisplayGroup.LeafFromSurfaceSets.LeafFromSurfaceSets:26 of
-msgid ":class:`LeafFromSurfaceSets`"
 msgstr ""
 
 #: abaqus.DisplayGroup.LeafFromSurfaceVarRange.LeafFromSurfaceVarRange:1 of
@@ -2884,20 +2122,6 @@ msgid ""
 "Check `LeafFromSurfaceVarRange on help.3ds.com/2018 <https://help.3ds.com/"
 "2018/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "leaffromsurfacevarrangepyc.htm?contextscope=all>`__."
-msgstr ""
-
-#: abaqus.DisplayGroup.LeafFromSurfaceVarRange.LeafFromSurfaceVarRange:14 of
-msgid ""
-"This method creates a Leaf object from surfaces with values lying in a "
-"variable range."
-msgstr ""
-
-#: abaqus.DisplayGroup.LeafFromSurfaceVarRange.LeafFromSurfaceVarRange:31 of
-msgid "A LeafFromSurfaceVarRange object."
-msgstr ""
-
-#: abaqus.DisplayGroup.LeafFromSurfaceVarRange.LeafFromSurfaceVarRange:32 of
-msgid ":class:`LeafFromSurfaceVarRange`"
 msgstr ""
 
 #~ msgid "Bases: :py:class:`~abaqus.Session.SessionBase.SessionBase`"

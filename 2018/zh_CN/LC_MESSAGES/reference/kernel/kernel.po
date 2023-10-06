@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: abqpy \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-14 01:59+0000\n"
+"POT-Creation-Date: 2023-10-06 02:36+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.12.1\n"
+"Generated-By: Babel 2.13.0\n"
 
 #: ../../../reference/kernel/kernel.md:1
 msgid "Custom Kernel"
@@ -60,8 +60,7 @@ msgstr ""
 msgid "Bases: :py:class:`object`"
 msgstr ""
 
-#: abaqus.CustomKernel.CommandRegister.CommandRegister:1
-#: abaqus.CustomKernel.CommandRegister.CommandRegister:12 of
+#: abaqus.CustomKernel.CommandRegister.CommandRegister:1 of
 msgid ""
 "This class allows you to derive a general class that can be queried from "
 "the GUI and is capable of notifying the GUI when the contents of the class"
@@ -70,20 +69,15 @@ msgstr ""
 
 #: abaqus.CustomKernel.CommandRegister.CommandRegister:4
 #: abaqus.CustomKernel.CommandRegister.CommandRegister:9
-#: abaqus.CustomKernel.CommandRegister.CommandRegister:15
 #: abaqus.CustomKernel.RegisteredDictionary.RegisteredDictionary:5
 #: abaqus.CustomKernel.RegisteredDictionary.RegisteredDictionary:10
-#: abaqus.CustomKernel.RegisteredDictionary.RegisteredDictionary:15
 #: abaqus.CustomKernel.RegisteredDictionary.RegisteredDictionary.changeKey:3
 #: abaqus.CustomKernel.RegisteredList.RegisteredList:5
 #: abaqus.CustomKernel.RegisteredList.RegisteredList:10
-#: abaqus.CustomKernel.RegisteredList.RegisteredList:15
 #: abaqus.CustomKernel.RegisteredTuple.RegisteredTuple:5
 #: abaqus.CustomKernel.RegisteredTuple.RegisteredTuple:10
-#: abaqus.CustomKernel.RegisteredTuple.RegisteredTuple:15
 #: abaqus.CustomKernel.RepositorySupport.RepositorySupport:5
 #: abaqus.CustomKernel.RepositorySupport.RepositorySupport:13
-#: abaqus.CustomKernel.RepositorySupport.RepositorySupport:18
 #: abaqus.CustomKernel.RepositorySupport.RepositorySupport.Repository:6 of
 msgid "Note"
 msgstr ""
@@ -101,38 +95,6 @@ msgid ""
 "Check `CommandRegister on help.3ds.com/2018 <https://help.3ds.com/2018/Eng"
 "lish/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "commandregisterpyc.htm?contextscope=all>`__."
-msgstr ""
-
-#: abaqus.CustomKernel.CommandRegister.CommandRegister:16
-#: abaqus.CustomKernel.RegisteredDictionary.RegisteredDictionary:16
-#: abaqus.CustomKernel.RegisteredList.RegisteredList:16
-#: abaqus.CustomKernel.RegisteredTuple.RegisteredTuple:16
-#: abaqus.CustomKernel.RepositorySupport.RepositorySupport:19 of
-msgid "This function can be accessed by::"
-msgstr ""
-
-#: abaqus.CustomKernel.CommandRegister.CommandRegister
-#: abaqus.CustomKernel.RegisteredDictionary.RegisteredDictionary
-#: abaqus.CustomKernel.RegisteredList.RegisteredList
-#: abaqus.CustomKernel.RegisteredTuple.RegisteredTuple
-#: abaqus.CustomKernel.RepositorySupport.RepositorySupport of
-msgid "Returns"
-msgstr ""
-
-#: abaqus.CustomKernel.CommandRegister.CommandRegister:20 of
-msgid "A CommandRegister object."
-msgstr ""
-
-#: abaqus.CustomKernel.CommandRegister.CommandRegister
-#: abaqus.CustomKernel.RegisteredDictionary.RegisteredDictionary
-#: abaqus.CustomKernel.RegisteredList.RegisteredList
-#: abaqus.CustomKernel.RegisteredTuple.RegisteredTuple
-#: abaqus.CustomKernel.RepositorySupport.RepositorySupport of
-msgid "Return type"
-msgstr ""
-
-#: abaqus.CustomKernel.CommandRegister.CommandRegister:21 of
-msgid ":class:`CommandRegister`"
 msgstr ""
 
 #: abaqus.CustomKernel.CommandRegister.CommandRegister:1
@@ -165,18 +127,6 @@ msgid ""
 "registereddictionarypyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: abaqus.CustomKernel.RegisteredDictionary.RegisteredDictionary:13 of
-msgid "This method creates a RegisteredDictionary object."
-msgstr ""
-
-#: abaqus.CustomKernel.RegisteredDictionary.RegisteredDictionary:20 of
-msgid "A RegisteredDictionary object."
-msgstr ""
-
-#: abaqus.CustomKernel.RegisteredDictionary.RegisteredDictionary:21 of
-msgid ":class:`RegisteredDictionary`"
-msgstr ""
-
 #: abaqus.CustomKernel.RegisteredDictionary.RegisteredDictionary.Methods:1 of
 msgid ""
 "The RegisteredDictionary object supports the same methods as a Python "
@@ -202,7 +152,6 @@ msgid ""
 msgstr ""
 
 #: abaqus.CustomKernel.RegisteredDictionary.RegisteredDictionary.changeKey
-#: abaqus.CustomKernel.RegisteredTuple.RegisteredTuple
 #: abaqus.CustomKernel.RepositorySupport.RepositorySupport.Repository of
 msgid "Parameters"
 msgstr ""
@@ -235,18 +184,6 @@ msgid ""
 "registeredlistpyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: abaqus.CustomKernel.RegisteredList.RegisteredList:13 of
-msgid "This method creates a RegisteredList object."
-msgstr ""
-
-#: abaqus.CustomKernel.RegisteredList.RegisteredList:20 of
-msgid "A RegisteredList object."
-msgstr ""
-
-#: abaqus.CustomKernel.RegisteredList.RegisteredList:21 of
-msgid ":class:`RegisteredList`"
-msgstr ""
-
 #: abaqus.CustomKernel.RegisteredList.RegisteredList.Methods:1 of
 msgid ""
 "The RegisteredList object supports the same methods as a standard Python "
@@ -274,24 +211,6 @@ msgid ""
 "registeredtuplepyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: abaqus.CustomKernel.RegisteredTuple.RegisteredTuple:13 of
-msgid "This method creates a RegisteredTuple object."
-msgstr ""
-
-#: abaqus.CustomKernel.RegisteredTuple.RegisteredTuple:21 of
-msgid ""
-"A tuple of objects. These objects must be derived from the CommandRegister"
-" class."
-msgstr ""
-
-#: abaqus.CustomKernel.RegisteredTuple.RegisteredTuple:23 of
-msgid "A RegisteredTuple object."
-msgstr ""
-
-#: abaqus.CustomKernel.RegisteredTuple.RegisteredTuple:24 of
-msgid ":class:`RegisteredTuple`"
-msgstr ""
-
 #: abaqus.CustomKernel.RegisteredTuple.RegisteredTuple.Methods:1 of
 msgid ""
 "The RegisteredTuple object supports the same methods as a standard Python "
@@ -317,18 +236,6 @@ msgid ""
 "Check `RepositorySupport on help.3ds.com/2018 <https://help.3ds.com/2018/E"
 "nglish/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "repositorysupportpyc.htm?contextscope=all>`__."
-msgstr ""
-
-#: abaqus.CustomKernel.RepositorySupport.RepositorySupport:16 of
-msgid "This method creates a RepositorySupport object."
-msgstr ""
-
-#: abaqus.CustomKernel.RepositorySupport.RepositorySupport:23 of
-msgid "A RepositorySupport object."
-msgstr ""
-
-#: abaqus.CustomKernel.RepositorySupport.RepositorySupport:24 of
-msgid ":class:`RepositorySupport`"
 msgstr ""
 
 #: abaqus.CustomKernel.RepositorySupport.RepositorySupport.Repository:1 of

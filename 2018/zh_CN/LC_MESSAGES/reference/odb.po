@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: abqpy \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-14 01:59+0000\n"
+"POT-Creation-Date: 2023-10-06 02:36+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.12.1\n"
+"Generated-By: Babel 2.13.0\n"
 
 #: ../../../reference/odb.md:1
 msgid "Abaqus Output Database"
@@ -57,7 +57,6 @@ msgstr ""
 #: abaqus.Odb.AnalyticSurface.AnalyticSurface:12
 #: abaqus.Odb.AnalyticSurfaceSegment.AnalyticSurfaceSegment:3
 #: abaqus.Odb.AnalyticSurfaceSegment.AnalyticSurfaceSegment:11
-#: abaqus.Odb.AnalyticSurfaceSegment.AnalyticSurfaceSegment:16
 #: abaqus.Odb.BeamOrientation.BeamOrientation:4
 #: abaqus.Odb.BeamOrientation.BeamOrientation:12
 #: abaqus.Odb.FieldBulkData.FieldBulkData:4
@@ -71,19 +70,16 @@ msgstr ""
 #: abaqus.Odb.FieldValue.FieldValue:5 abaqus.Odb.FieldValue.FieldValue:11
 #: abaqus.Odb.HistoryOutput.HistoryOutput:3
 #: abaqus.Odb.HistoryOutput.HistoryOutput:9
-#: abaqus.Odb.HistoryOutput.HistoryOutput:14
 #: abaqus.Odb.HistoryPoint.HistoryPoint:4
 #: abaqus.Odb.HistoryPoint.HistoryPoint:10
 #: abaqus.Odb.HistoryRegion.HistoryRegion:3
 #: abaqus.Odb.HistoryRegion.HistoryRegion:9
-#: abaqus.Odb.HistoryRegion.HistoryRegion:14
 #: abaqus.Odb.HistoryRegion.HistoryRegion.HistoryOutput:3
 #: abaqus.Odb.JobData.JobData:3 abaqus.Odb.JobData.JobData:9
-#: abaqus.Odb.Odb.Odb:3 abaqus.Odb.Odb.Odb:9 abaqus.Odb.Odb.Odb:14
-#: abaqus.Odb.Odb.Odb.Part:3 abaqus.Odb.Odb.Odb.Part:8
-#: abaqus.Odb.Odb.Odb.SectionCategory:3 abaqus.Odb.Odb.Odb.SectionCategory:8
-#: abaqus.Odb.Odb.Odb.Step:3 abaqus.Odb.Odb.Odb.Step:8
-#: abaqus.Odb.OdbAssembly.OdbAssembly.DatumCsys:3
+#: abaqus.Odb.Odb.Odb:3 abaqus.Odb.Odb.Odb:9 abaqus.Odb.Odb.Odb.Part:3
+#: abaqus.Odb.Odb.Odb.Part:8 abaqus.Odb.Odb.Odb.SectionCategory:3
+#: abaqus.Odb.Odb.Odb.SectionCategory:8 abaqus.Odb.Odb.Odb.Step:3
+#: abaqus.Odb.Odb.Odb.Step:8 abaqus.Odb.OdbAssembly.OdbAssembly.DatumCsys:3
 #: abaqus.Odb.OdbAssembly.OdbAssembly.DatumCsys:8
 #: abaqus.Odb.OdbAssembly.OdbAssembly.DatumCsysBy6dofNode:7
 #: abaqus.Odb.OdbAssembly.OdbAssembly.DatumCsysBy6dofNode:12
@@ -107,7 +103,7 @@ msgstr ""
 #: abaqus.Odb.OdbAssemblyBase.OdbAssemblyBase.addElements:6
 #: abaqus.Odb.OdbAssemblyBase.OdbAssemblyBase.addNodes:4
 #: abaqus.Odb.OdbBase.OdbBase:3 abaqus.Odb.OdbBase.OdbBase:9
-#: abaqus.Odb.OdbBase.OdbBase:14 abaqus.Odb.OdbBase.OdbBase.getFrame:5
+#: abaqus.Odb.OdbBase.OdbBase.getFrame:5
 #: abaqus.Odb.OdbCommands.isUpgradeRequiredForOdb:15
 #: abaqus.Odb.OdbCommands.openOdb:8 abaqus.Odb.OdbCommands.upgradeOdb:15
 #: abaqus.Odb.OdbDatumCsys.OdbDatumCsys:6
@@ -123,12 +119,10 @@ msgstr ""
 #: abaqus.Odb.OdbDatumCsys.OdbDatumCsys.DatumCsysByThreePoints:4
 #: abaqus.Odb.OdbDatumCsys.OdbDatumCsys.DatumCsysByThreePoints:9
 #: abaqus.Odb.OdbFrame.OdbFrame:3 abaqus.Odb.OdbFrame.OdbFrame:9
-#: abaqus.Odb.OdbInstance.OdbInstance:3
 #: abaqus.Odb.OdbInstance.OdbInstance.NodeSet:4
 #: abaqus.Odb.OdbInstance.OdbInstance.NodeSet:11
 #: abaqus.Odb.OdbInstanceBase.OdbInstanceBase:3
 #: abaqus.Odb.OdbInstanceBase.OdbInstanceBase:10
-#: abaqus.Odb.OdbInstanceBase.OdbInstanceBase:15
 #: abaqus.Odb.OdbInstanceBase.OdbInstanceBase.AnalyticRigidSurf2DPlanar:3
 #: abaqus.Odb.OdbInstanceBase.OdbInstanceBase.AnalyticRigidSurfExtrude:3
 #: abaqus.Odb.OdbInstanceBase.OdbInstanceBase.AnalyticRigidSurfRevolve:3
@@ -140,15 +134,13 @@ msgstr ""
 #: abaqus.Odb.OdbInstanceBase.OdbInstanceBase.getElementFromLabel:3
 #: abaqus.Odb.OdbInstanceBase.OdbInstanceBase.getNodeFromLabel:3
 #: abaqus.Odb.OdbLoadCase.OdbLoadCase:3 abaqus.Odb.OdbLoadCase.OdbLoadCase:11
-#: abaqus.Odb.OdbLoadCase.OdbLoadCase:16
 #: abaqus.Odb.OdbMeshElement.OdbMeshElement:3
 #: abaqus.Odb.OdbMeshElement.OdbMeshElement:24
 #: abaqus.Odb.OdbMeshElement.OdbMeshElement.getNormal:6
 #: abaqus.Odb.OdbMeshNode.OdbMeshNode:3 abaqus.Odb.OdbMeshNode.OdbMeshNode:20
-#: abaqus.Odb.OdbPart.OdbPart:3 abaqus.Odb.OdbPart.OdbPart.NodeSet:4
-#: abaqus.Odb.OdbPart.OdbPart.NodeSet:11 abaqus.Odb.OdbPart.OdbPart.RigidBody:3
-#: abaqus.Odb.OdbPartBase.OdbPartBase:4 abaqus.Odb.OdbPartBase.OdbPartBase:10
-#: abaqus.Odb.OdbPartBase.OdbPartBase:15
+#: abaqus.Odb.OdbPart.OdbPart.NodeSet:4 abaqus.Odb.OdbPart.OdbPart.NodeSet:11
+#: abaqus.Odb.OdbPart.OdbPart.RigidBody:3 abaqus.Odb.OdbPartBase.OdbPartBase:4
+#: abaqus.Odb.OdbPartBase.OdbPartBase:10
 #: abaqus.Odb.OdbPartBase.OdbPartBase.AnalyticRigidSurf2DPlanar:3
 #: abaqus.Odb.OdbPartBase.OdbPartBase.AnalyticRigidSurfExtrude:3
 #: abaqus.Odb.OdbPartBase.OdbPartBase.AnalyticRigidSurfRevolve:3
@@ -160,18 +152,16 @@ msgstr ""
 #: abaqus.Odb.OdbPretensionSection.OdbPretensionSection:10
 #: abaqus.Odb.OdbRigidBody.OdbRigidBody:4
 #: abaqus.Odb.OdbRigidBody.OdbRigidBody:13
-#: abaqus.Odb.OdbRigidBody.OdbRigidBody:18
 #: abaqus.Odb.OdbSequenceAnalyticSurfaceSegment.OdbSequenceAnalyticSurfaceSegment:3
 #: abaqus.Odb.OdbSequenceAnalyticSurfaceSegment.OdbSequenceAnalyticSurfaceSegment:11
-#: abaqus.Odb.OdbSequenceAnalyticSurfaceSegment.OdbSequenceAnalyticSurfaceSegment:16
 #: abaqus.Odb.OdbSequenceAnalyticSurfaceSegment.OdbSequenceAnalyticSurfaceSegment.Circle:3
 #: abaqus.Odb.OdbSequenceAnalyticSurfaceSegment.OdbSequenceAnalyticSurfaceSegment.Line:3
 #: abaqus.Odb.OdbSequenceAnalyticSurfaceSegment.OdbSequenceAnalyticSurfaceSegment.Parabola:3
 #: abaqus.Odb.OdbSequenceAnalyticSurfaceSegment.OdbSequenceAnalyticSurfaceSegment.Start:3
 #: abaqus.Odb.OdbSession.OdbSession.ScratchOdb:3
 #: abaqus.Odb.OdbSession.OdbSession.ScratchOdb:8 abaqus.Odb.OdbSet.OdbSet:3
-#: abaqus.Odb.OdbSet.OdbSet:20 abaqus.Odb.OdbSet.OdbSet:26
-#: abaqus.Odb.OdbSet.OdbSet.ElementSet:4 abaqus.Odb.OdbSet.OdbSet.ElementSet:11
+#: abaqus.Odb.OdbSet.OdbSet:20 abaqus.Odb.OdbSet.OdbSet.ElementSet:4
+#: abaqus.Odb.OdbSet.OdbSet.ElementSet:11
 #: abaqus.Odb.OdbSet.OdbSet.ElementSetFromElementLabels:3
 #: abaqus.Odb.OdbSet.OdbSet.ElementSetFromElementLabels:10
 #: abaqus.Odb.OdbSet.OdbSet.MeshSurface:3
@@ -182,24 +172,21 @@ msgstr ""
 #: abaqus.Odb.OdbSet.OdbSet.MeshSurfaceFromLabels:10
 #: abaqus.Odb.OdbSet.OdbSet.NodeSetFromNodeLabels:3
 #: abaqus.Odb.OdbSet.OdbSet.NodeSetFromNodeLabels:10
-#: abaqus.Odb.OdbStep.OdbStep:3 abaqus.Odb.OdbStep.OdbStep.HistoryRegion:3
+#: abaqus.Odb.OdbStep.OdbStep.HistoryRegion:3
 #: abaqus.Odb.OdbStep.OdbStep.HistoryRegion:8
 #: abaqus.Odb.OdbStep.OdbStep.LoadCase:3 abaqus.Odb.OdbStepBase.OdbStepBase:3
-#: abaqus.Odb.OdbStepBase.OdbStepBase:9 abaqus.Odb.OdbStepBase.OdbStepBase:14
+#: abaqus.Odb.OdbStepBase.OdbStepBase:9
 #: abaqus.Odb.OdbStepBase.OdbStepBase.setDefaultDeformedField:3
 #: abaqus.Odb.OdbStepBase.OdbStepBase.setDefaultField:3
 #: abaqus.Odb.RebarOrientation.RebarOrientation:3
 #: abaqus.Odb.RebarOrientation.RebarOrientation:11
 #: abaqus.Odb.ScratchOdb.ScratchOdb:6 abaqus.Odb.ScratchOdb.ScratchOdb:12
-#: abaqus.Odb.ScratchOdb.ScratchOdb:17
 #: abaqus.Odb.SectionCategory.SectionCategory:6
 #: abaqus.Odb.SectionCategory.SectionCategory:28
-#: abaqus.Odb.SectionCategory.SectionCategory:33
 #: abaqus.Odb.SectionCategory.SectionCategory.SectionPoint:3
 #: abaqus.Odb.SectionCategory.SectionCategory.SectionPoint:8
 #: abaqus.Odb.SectionPoint.SectionPoint:3
 #: abaqus.Odb.SectionPoint.SectionPoint:27
-#: abaqus.Odb.SectionPoint.SectionPoint:32
 #: abaqus.Odb.SectorDefinition.SectorDefinition:4
 #: abaqus.Odb.SectorDefinition.SectorDefinition:10
 #: abaqus.Odb.UserDataBase.UserDataBase:4
@@ -241,286 +228,6 @@ msgstr ""
 msgid ""
 "Check `Odb on help.3ds.com/2018 <https://help.3ds.com/2018/English/DSSIMUL"
 "IA_Established/SIMACAEKERRefMap/simaker-c-odbpyc.htm?contextscope=all>`__."
-msgstr ""
-
-#: ../../../../None:7:<autosummary>:1 abaqus.Odb.Odb.Odb:12
-#: abaqus.Odb.OdbBase.OdbBase:12 of
-msgid "This method creates a new Odb object."
-msgstr ""
-
-#: abaqus.Odb.AnalyticSurfaceSegment.AnalyticSurfaceSegment:17
-#: abaqus.Odb.HistoryOutput.HistoryOutput:15
-#: abaqus.Odb.HistoryRegion.HistoryRegion:15
-#: abaqus.Odb.HistoryRegion.HistoryRegion.HistoryOutput:4 abaqus.Odb.Odb.Odb:15
-#: abaqus.Odb.Odb.Odb.Part:4 abaqus.Odb.Odb.Odb.SectionCategory:4
-#: abaqus.Odb.Odb.Odb.Step:4 abaqus.Odb.OdbAssembly.OdbAssembly.DatumCsys:4
-#: abaqus.Odb.OdbAssembly.OdbAssembly.DatumCsysBy6dofNode:8
-#: abaqus.Odb.OdbAssembly.OdbAssembly.DatumCsysByThreeCircNodes:8
-#: abaqus.Odb.OdbAssembly.OdbAssembly.DatumCsysByThreeNodes:8
-#: abaqus.Odb.OdbAssembly.OdbAssembly.DatumCsysByThreePoints:5
-#: abaqus.Odb.OdbAssembly.OdbAssembly.Instance:4
-#: abaqus.Odb.OdbAssembly.OdbAssembly.NodeSet:5
-#: abaqus.Odb.OdbAssembly.OdbAssembly.RigidBody:4 abaqus.Odb.OdbBase.OdbBase:15
-#: abaqus.Odb.OdbDatumCsys.OdbDatumCsys.DatumCsys:4
-#: abaqus.Odb.OdbDatumCsys.OdbDatumCsys.DatumCsysBy6dofNode:8
-#: abaqus.Odb.OdbDatumCsys.OdbDatumCsys.DatumCsysByThreeCircNodes:8
-#: abaqus.Odb.OdbDatumCsys.OdbDatumCsys.DatumCsysByThreeNodes:8
-#: abaqus.Odb.OdbDatumCsys.OdbDatumCsys.DatumCsysByThreePoints:5
-#: abaqus.Odb.OdbInstance.OdbInstance:4
-#: abaqus.Odb.OdbInstance.OdbInstance.NodeSet:5
-#: abaqus.Odb.OdbInstanceBase.OdbInstanceBase:16
-#: abaqus.Odb.OdbLoadCase.OdbLoadCase:17 abaqus.Odb.OdbPart.OdbPart:4
-#: abaqus.Odb.OdbPart.OdbPart.NodeSet:5 abaqus.Odb.OdbPartBase.OdbPartBase:16
-#: abaqus.Odb.OdbRigidBody.OdbRigidBody:19
-#: abaqus.Odb.OdbSequenceAnalyticSurfaceSegment.OdbSequenceAnalyticSurfaceSegment:17
-#: abaqus.Odb.OdbSession.OdbSession.ScratchOdb:4 abaqus.Odb.OdbSet.OdbSet:27
-#: abaqus.Odb.OdbSet.OdbSet.ElementSet:5
-#: abaqus.Odb.OdbSet.OdbSet.ElementSetFromElementLabels:4
-#: abaqus.Odb.OdbSet.OdbSet.MeshSurface:4
-#: abaqus.Odb.OdbSet.OdbSet.MeshSurfaceFromElsets:4
-#: abaqus.Odb.OdbSet.OdbSet.MeshSurfaceFromLabels:4
-#: abaqus.Odb.OdbSet.OdbSet.NodeSetFromNodeLabels:4
-#: abaqus.Odb.OdbStep.OdbStep:4 abaqus.Odb.OdbStep.OdbStep.HistoryRegion:4
-#: abaqus.Odb.OdbStep.OdbStep.LoadCase:4 abaqus.Odb.OdbStepBase.OdbStepBase:15
-#: abaqus.Odb.ScratchOdb.ScratchOdb:18
-#: abaqus.Odb.SectionCategory.SectionCategory:34
-#: abaqus.Odb.SectionCategory.SectionCategory.SectionPoint:4
-#: abaqus.Odb.SectionPoint.SectionPoint:33
-#: abaqus.Odb.UserDataBase.UserDataBase.XYData:4 of
-msgid "This function can be accessed by::"
-msgstr ""
-
-#: abaqus.Odb.AnalyticSurfaceSegment.AnalyticSurfaceSegment
-#: abaqus.Odb.FieldOutput.FieldOutput.getConnectorFieldXformedToNodeA
-#: abaqus.Odb.FieldOutput.FieldOutput.setComponentLabels
-#: abaqus.Odb.FieldOutput.FieldOutput.setDataType
-#: abaqus.Odb.FieldOutput.FieldOutput.setValidInvariants
-#: abaqus.Odb.HistoryOutput.HistoryOutput
-#: abaqus.Odb.HistoryRegion.HistoryRegion
-#: abaqus.Odb.HistoryRegion.HistoryRegion.HistoryOutput abaqus.Odb.Odb.Odb
-#: abaqus.Odb.Odb.Odb.Part abaqus.Odb.Odb.Odb.SectionCategory
-#: abaqus.Odb.Odb.Odb.Step abaqus.Odb.OdbAssembly.OdbAssembly.DatumCsys
-#: abaqus.Odb.OdbAssembly.OdbAssembly.DatumCsysBy6dofNode
-#: abaqus.Odb.OdbAssembly.OdbAssembly.DatumCsysByThreeCircNodes
-#: abaqus.Odb.OdbAssembly.OdbAssembly.DatumCsysByThreeNodes
-#: abaqus.Odb.OdbAssembly.OdbAssembly.DatumCsysByThreePoints
-#: abaqus.Odb.OdbAssembly.OdbAssembly.Instance
-#: abaqus.Odb.OdbAssembly.OdbAssembly.NodeSet
-#: abaqus.Odb.OdbAssembly.OdbAssembly.RigidBody
-#: abaqus.Odb.OdbAssemblyBase.OdbAssemblyBase.ConnectorOrientation
-#: abaqus.Odb.OdbAssemblyBase.OdbAssemblyBase.RigidBody
-#: abaqus.Odb.OdbAssemblyBase.OdbAssemblyBase.SectionAssignment
-#: abaqus.Odb.OdbAssemblyBase.OdbAssemblyBase.addElements
-#: abaqus.Odb.OdbAssemblyBase.OdbAssemblyBase.addNodes
-#: abaqus.Odb.OdbBase.OdbBase abaqus.Odb.OdbBase.OdbBase.getFrame
-#: abaqus.Odb.OdbCommands.isUpgradeRequiredForOdb
-#: abaqus.Odb.OdbCommands.openOdb abaqus.Odb.OdbCommands.upgradeOdb
-#: abaqus.Odb.OdbDatumCsys.OdbDatumCsys.DatumCsys
-#: abaqus.Odb.OdbDatumCsys.OdbDatumCsys.DatumCsysBy6dofNode
-#: abaqus.Odb.OdbDatumCsys.OdbDatumCsys.DatumCsysByThreeCircNodes
-#: abaqus.Odb.OdbDatumCsys.OdbDatumCsys.DatumCsysByThreeNodes
-#: abaqus.Odb.OdbDatumCsys.OdbDatumCsys.DatumCsysByThreePoints
-#: abaqus.Odb.OdbInstance.OdbInstance
-#: abaqus.Odb.OdbInstance.OdbInstance.NodeSet
-#: abaqus.Odb.OdbInstanceBase.OdbInstanceBase
-#: abaqus.Odb.OdbInstanceBase.OdbInstanceBase.AnalyticRigidSurf2DPlanar
-#: abaqus.Odb.OdbInstanceBase.OdbInstanceBase.AnalyticRigidSurfExtrude
-#: abaqus.Odb.OdbInstanceBase.OdbInstanceBase.AnalyticRigidSurfRevolve
-#: abaqus.Odb.OdbInstanceBase.OdbInstanceBase.RigidBody
-#: abaqus.Odb.OdbInstanceBase.OdbInstanceBase.assignBeamOrientation
-#: abaqus.Odb.OdbInstanceBase.OdbInstanceBase.assignMaterialOrientation
-#: abaqus.Odb.OdbInstanceBase.OdbInstanceBase.assignRebarOrientation
-#: abaqus.Odb.OdbInstanceBase.OdbInstanceBase.assignSection
-#: abaqus.Odb.OdbInstanceBase.OdbInstanceBase.getElementFromLabel
-#: abaqus.Odb.OdbInstanceBase.OdbInstanceBase.getNodeFromLabel
-#: abaqus.Odb.OdbLoadCase.OdbLoadCase
-#: abaqus.Odb.OdbMeshElement.OdbMeshElement.getNormal
-#: abaqus.Odb.OdbPart.OdbPart abaqus.Odb.OdbPart.OdbPart.NodeSet
-#: abaqus.Odb.OdbPart.OdbPart.RigidBody abaqus.Odb.OdbPartBase.OdbPartBase
-#: abaqus.Odb.OdbPartBase.OdbPartBase.AnalyticRigidSurf2DPlanar
-#: abaqus.Odb.OdbPartBase.OdbPartBase.AnalyticRigidSurfExtrude
-#: abaqus.Odb.OdbPartBase.OdbPartBase.AnalyticRigidSurfRevolve
-#: abaqus.Odb.OdbPartBase.OdbPartBase.assignBeamOrientation
-#: abaqus.Odb.OdbPartBase.OdbPartBase.assignMaterialOrientation
-#: abaqus.Odb.OdbPartBase.OdbPartBase.assignRebarOrientation
-#: abaqus.Odb.OdbPartBase.OdbPartBase.getElementFromLabel
-#: abaqus.Odb.OdbPartBase.OdbPartBase.getNodeFromLabel
-#: abaqus.Odb.OdbRigidBody.OdbRigidBody
-#: abaqus.Odb.OdbSequenceAnalyticSurfaceSegment.OdbSequenceAnalyticSurfaceSegment.Circle
-#: abaqus.Odb.OdbSequenceAnalyticSurfaceSegment.OdbSequenceAnalyticSurfaceSegment.Line
-#: abaqus.Odb.OdbSequenceAnalyticSurfaceSegment.OdbSequenceAnalyticSurfaceSegment.Parabola
-#: abaqus.Odb.OdbSequenceAnalyticSurfaceSegment.OdbSequenceAnalyticSurfaceSegment.Start
-#: abaqus.Odb.OdbSession.OdbSession.ScratchOdb abaqus.Odb.OdbSet.OdbSet
-#: abaqus.Odb.OdbSet.OdbSet.ElementSet
-#: abaqus.Odb.OdbSet.OdbSet.ElementSetFromElementLabels
-#: abaqus.Odb.OdbSet.OdbSet.MeshSurface
-#: abaqus.Odb.OdbSet.OdbSet.MeshSurfaceFromElsets
-#: abaqus.Odb.OdbSet.OdbSet.MeshSurfaceFromLabels
-#: abaqus.Odb.OdbSet.OdbSet.NodeSetFromNodeLabels abaqus.Odb.OdbStep.OdbStep
-#: abaqus.Odb.OdbStep.OdbStep.HistoryRegion abaqus.Odb.OdbStep.OdbStep.LoadCase
-#: abaqus.Odb.OdbStepBase.OdbStepBase
-#: abaqus.Odb.OdbStepBase.OdbStepBase.getHistoryRegion
-#: abaqus.Odb.OdbStepBase.OdbStepBase.setDefaultDeformedField
-#: abaqus.Odb.OdbStepBase.OdbStepBase.setDefaultField
-#: abaqus.Odb.ScratchOdb.ScratchOdb abaqus.Odb.SectionCategory.SectionCategory
-#: abaqus.Odb.SectionCategory.SectionCategory.SectionPoint
-#: abaqus.Odb.SectionPoint.SectionPoint
-#: abaqus.Odb.UserDataBase.UserDataBase.XYData of
-msgid "Parameters"
-msgstr ""
-
-#: ../../../../docstring abaqus.Odb.Odb.Odb:20 abaqus.Odb.Odb.Odb.Step:12
-#: abaqus.Odb.OdbAssembly.OdbAssembly.DatumCsys:12
-#: abaqus.Odb.OdbAssembly.OdbAssembly.DatumCsysBy6dofNode:16
-#: abaqus.Odb.OdbAssembly.OdbAssembly.DatumCsysByThreeCircNodes:16
-#: abaqus.Odb.OdbAssembly.OdbAssembly.DatumCsysByThreeNodes:16
-#: abaqus.Odb.OdbAssembly.OdbAssembly.DatumCsysByThreePoints:13
-#: abaqus.Odb.OdbBase.OdbBase:20
-#: abaqus.Odb.OdbDatumCsys.OdbDatumCsys.DatumCsys:12
-#: abaqus.Odb.OdbDatumCsys.OdbDatumCsys.DatumCsysBy6dofNode:16
-#: abaqus.Odb.OdbDatumCsys.OdbDatumCsys.DatumCsysByThreeCircNodes:16
-#: abaqus.Odb.OdbDatumCsys.OdbDatumCsys.DatumCsysByThreeNodes:16
-#: abaqus.Odb.OdbDatumCsys.OdbDatumCsys.DatumCsysByThreePoints:13
-#: abaqus.Odb.OdbStep.OdbStep:9 abaqus.Odb.OdbStepBase.OdbStepBase:20
-#: abaqus.Odb.RebarOrientation.OdbDatumCsys.name:1
-#: abaqus.Odb.UserDataBase.UserDataBase.XYData:12
-#: abaqus.Odb.UserDataBase.UserDataBase.name:1 of
-msgid "A String specifying the repository key."
-msgstr ""
-
-#: abaqus.Odb.Odb.Odb:22 abaqus.Odb.OdbBase.OdbBase:22 of
-msgid ""
-"A String specifying the title of the output database. The default value is"
-" an empty string."
-msgstr ""
-
-#: abaqus.Odb.Odb.Odb:25 abaqus.Odb.OdbBase.OdbBase:25 of
-msgid ""
-"A String specifying the description of the output database. The default "
-"value is an empty string."
-msgstr ""
-
-#: abaqus.Odb.Odb.Odb:28 abaqus.Odb.OdbBase.OdbBase:28 of
-msgid ""
-"A String specifying the path to the file where the new output database "
-"(.odb ) file will be written. The default value is an empty string."
-msgstr ""
-
-#: abaqus.Odb.AnalyticSurfaceSegment.AnalyticSurfaceSegment
-#: abaqus.Odb.FieldOutput.FieldOutput.getConnectorFieldXformedToNodeA
-#: abaqus.Odb.HistoryOutput.HistoryOutput
-#: abaqus.Odb.HistoryRegion.HistoryRegion
-#: abaqus.Odb.HistoryRegion.HistoryRegion.HistoryOutput abaqus.Odb.Odb.Odb
-#: abaqus.Odb.Odb.Odb.Part abaqus.Odb.Odb.Odb.SectionCategory
-#: abaqus.Odb.Odb.Odb.Step abaqus.Odb.OdbAssembly.OdbAssembly.DatumCsys
-#: abaqus.Odb.OdbAssembly.OdbAssembly.DatumCsysBy6dofNode
-#: abaqus.Odb.OdbAssembly.OdbAssembly.DatumCsysByThreeCircNodes
-#: abaqus.Odb.OdbAssembly.OdbAssembly.DatumCsysByThreeNodes
-#: abaqus.Odb.OdbAssembly.OdbAssembly.DatumCsysByThreePoints
-#: abaqus.Odb.OdbAssembly.OdbAssembly.Instance
-#: abaqus.Odb.OdbAssembly.OdbAssembly.NodeSet
-#: abaqus.Odb.OdbAssembly.OdbAssembly.RigidBody abaqus.Odb.OdbBase.OdbBase
-#: abaqus.Odb.OdbBase.OdbBase.getFrame abaqus.Odb.OdbBase.OdbBase.update
-#: abaqus.Odb.OdbCommands.AnalyticSurfaceProfile
-#: abaqus.Odb.OdbCommands.isUpgradeRequiredForOdb
-#: abaqus.Odb.OdbCommands.maxEnvelope abaqus.Odb.OdbCommands.minEnvelope
-#: abaqus.Odb.OdbCommands.openOdb
-#: abaqus.Odb.OdbDatumCsys.OdbDatumCsys.DatumCsys
-#: abaqus.Odb.OdbDatumCsys.OdbDatumCsys.DatumCsysBy6dofNode
-#: abaqus.Odb.OdbDatumCsys.OdbDatumCsys.DatumCsysByThreeCircNodes
-#: abaqus.Odb.OdbDatumCsys.OdbDatumCsys.DatumCsysByThreeNodes
-#: abaqus.Odb.OdbDatumCsys.OdbDatumCsys.DatumCsysByThreePoints
-#: abaqus.Odb.OdbInstance.OdbInstance
-#: abaqus.Odb.OdbInstance.OdbInstance.NodeSet
-#: abaqus.Odb.OdbInstanceBase.OdbInstanceBase
-#: abaqus.Odb.OdbInstanceBase.OdbInstanceBase.getElementFromLabel
-#: abaqus.Odb.OdbInstanceBase.OdbInstanceBase.getNodeFromLabel
-#: abaqus.Odb.OdbLoadCase.OdbLoadCase
-#: abaqus.Odb.OdbMeshElement.OdbMeshElement.getNormal
-#: abaqus.Odb.OdbPart.OdbPart abaqus.Odb.OdbPart.OdbPart.NodeSet
-#: abaqus.Odb.OdbPartBase.OdbPartBase
-#: abaqus.Odb.OdbPartBase.OdbPartBase.getElementFromLabel
-#: abaqus.Odb.OdbPartBase.OdbPartBase.getNodeFromLabel
-#: abaqus.Odb.OdbRigidBody.OdbRigidBody
-#: abaqus.Odb.OdbSequenceAnalyticSurfaceSegment.OdbSequenceAnalyticSurfaceSegment
-#: abaqus.Odb.OdbSession.OdbSession.ScratchOdb abaqus.Odb.OdbSet.OdbSet
-#: abaqus.Odb.OdbSet.OdbSet.ElementSet
-#: abaqus.Odb.OdbSet.OdbSet.ElementSetFromElementLabels
-#: abaqus.Odb.OdbSet.OdbSet.MeshSurface
-#: abaqus.Odb.OdbSet.OdbSet.MeshSurfaceFromElsets
-#: abaqus.Odb.OdbSet.OdbSet.MeshSurfaceFromLabels
-#: abaqus.Odb.OdbSet.OdbSet.NodeSetFromNodeLabels abaqus.Odb.OdbStep.OdbStep
-#: abaqus.Odb.OdbStep.OdbStep.HistoryRegion abaqus.Odb.OdbStep.OdbStep.LoadCase
-#: abaqus.Odb.OdbStepBase.OdbStepBase
-#: abaqus.Odb.OdbStepBase.OdbStepBase.getHistoryRegion
-#: abaqus.Odb.ScratchOdb.ScratchOdb abaqus.Odb.SectionCategory.SectionCategory
-#: abaqus.Odb.SectionCategory.SectionCategory.SectionPoint
-#: abaqus.Odb.SectionPoint.SectionPoint
-#: abaqus.Odb.UserDataBase.UserDataBase.XYData of
-msgid "Returns"
-msgstr ""
-
-#: abaqus.Odb.Odb.Odb:31 abaqus.Odb.OdbBase.OdbBase:31
-#: abaqus.Odb.OdbCommands.openOdb:22 of
-msgid "An Odb object."
-msgstr ""
-
-#: abaqus.Odb.AnalyticSurfaceSegment.AnalyticSurfaceSegment
-#: abaqus.Odb.FieldOutput.FieldOutput.getConnectorFieldXformedToNodeA
-#: abaqus.Odb.HistoryOutput.HistoryOutput
-#: abaqus.Odb.HistoryRegion.HistoryRegion
-#: abaqus.Odb.HistoryRegion.HistoryRegion.HistoryOutput abaqus.Odb.Odb.Odb
-#: abaqus.Odb.Odb.Odb.Part abaqus.Odb.Odb.Odb.SectionCategory
-#: abaqus.Odb.Odb.Odb.Step abaqus.Odb.OdbAssembly.OdbAssembly.DatumCsys
-#: abaqus.Odb.OdbAssembly.OdbAssembly.DatumCsysBy6dofNode
-#: abaqus.Odb.OdbAssembly.OdbAssembly.DatumCsysByThreeCircNodes
-#: abaqus.Odb.OdbAssembly.OdbAssembly.DatumCsysByThreeNodes
-#: abaqus.Odb.OdbAssembly.OdbAssembly.DatumCsysByThreePoints
-#: abaqus.Odb.OdbAssembly.OdbAssembly.Instance
-#: abaqus.Odb.OdbAssembly.OdbAssembly.NodeSet
-#: abaqus.Odb.OdbAssembly.OdbAssembly.RigidBody abaqus.Odb.OdbBase.OdbBase
-#: abaqus.Odb.OdbBase.OdbBase.getFrame abaqus.Odb.OdbBase.OdbBase.update
-#: abaqus.Odb.OdbCommands.AnalyticSurfaceProfile
-#: abaqus.Odb.OdbCommands.isUpgradeRequiredForOdb
-#: abaqus.Odb.OdbCommands.maxEnvelope abaqus.Odb.OdbCommands.minEnvelope
-#: abaqus.Odb.OdbCommands.openOdb
-#: abaqus.Odb.OdbDatumCsys.OdbDatumCsys.DatumCsys
-#: abaqus.Odb.OdbDatumCsys.OdbDatumCsys.DatumCsysBy6dofNode
-#: abaqus.Odb.OdbDatumCsys.OdbDatumCsys.DatumCsysByThreeCircNodes
-#: abaqus.Odb.OdbDatumCsys.OdbDatumCsys.DatumCsysByThreeNodes
-#: abaqus.Odb.OdbDatumCsys.OdbDatumCsys.DatumCsysByThreePoints
-#: abaqus.Odb.OdbInstance.OdbInstance
-#: abaqus.Odb.OdbInstance.OdbInstance.NodeSet
-#: abaqus.Odb.OdbInstanceBase.OdbInstanceBase
-#: abaqus.Odb.OdbInstanceBase.OdbInstanceBase.getElementFromLabel
-#: abaqus.Odb.OdbInstanceBase.OdbInstanceBase.getNodeFromLabel
-#: abaqus.Odb.OdbLoadCase.OdbLoadCase abaqus.Odb.OdbPart.OdbPart
-#: abaqus.Odb.OdbPart.OdbPart.NodeSet abaqus.Odb.OdbPart.OdbPart.RigidBody
-#: abaqus.Odb.OdbPartBase.OdbPartBase
-#: abaqus.Odb.OdbPartBase.OdbPartBase.getElementFromLabel
-#: abaqus.Odb.OdbPartBase.OdbPartBase.getNodeFromLabel
-#: abaqus.Odb.OdbRigidBody.OdbRigidBody
-#: abaqus.Odb.OdbSequenceAnalyticSurfaceSegment.OdbSequenceAnalyticSurfaceSegment
-#: abaqus.Odb.OdbSession.OdbSession.ScratchOdb abaqus.Odb.OdbSet.OdbSet
-#: abaqus.Odb.OdbSet.OdbSet.ElementSet
-#: abaqus.Odb.OdbSet.OdbSet.ElementSetFromElementLabels
-#: abaqus.Odb.OdbSet.OdbSet.MeshSurface
-#: abaqus.Odb.OdbSet.OdbSet.MeshSurfaceFromElsets
-#: abaqus.Odb.OdbSet.OdbSet.MeshSurfaceFromLabels
-#: abaqus.Odb.OdbSet.OdbSet.NodeSetFromNodeLabels abaqus.Odb.OdbStep.OdbStep
-#: abaqus.Odb.OdbStep.OdbStep.HistoryRegion abaqus.Odb.OdbStep.OdbStep.LoadCase
-#: abaqus.Odb.OdbStepBase.OdbStepBase
-#: abaqus.Odb.OdbStepBase.OdbStepBase.getHistoryRegion
-#: abaqus.Odb.ScratchOdb.ScratchOdb abaqus.Odb.SectionCategory.SectionCategory
-#: abaqus.Odb.SectionCategory.SectionCategory.SectionPoint
-#: abaqus.Odb.SectionPoint.SectionPoint
-#: abaqus.Odb.UserDataBase.UserDataBase.XYData of
-msgid "Return type"
-msgstr ""
-
-#: abaqus.Odb.Odb.Odb:32 abaqus.Odb.OdbBase.OdbBase:32
-#: abaqus.Odb.OdbCommands.openOdb:23 of
-msgid ":class:`Odb`"
 msgstr ""
 
 #: abaqus.Odb.Odb.Odb of
@@ -678,8 +385,7 @@ msgid ""
 "domain\\[\\, ...\\]\\)"
 msgstr ""
 
-#: ../../../../None:5:<autosummary>:1 abaqus.Odb.Odb.Odb.Step:1
-#: abaqus.Odb.OdbStep.OdbStep:1 abaqus.Odb.OdbStepBase.OdbStepBase:12 of
+#: ../../../../None:5:<autosummary>:1 abaqus.Odb.Odb.Odb.Step:1 of
 msgid "This method creates an OdbStep object."
 msgstr ""
 
@@ -689,8 +395,7 @@ msgid ""
 "\\(name\\, description\\)"
 msgstr ""
 
-#: ../../../../None:5:<autosummary>:1 abaqus.Odb.Odb.Odb.SectionCategory:1
-#: abaqus.Odb.SectionCategory.SectionCategory:31 of
+#: ../../../../None:5:<autosummary>:1 abaqus.Odb.Odb.Odb.SectionCategory:1 of
 msgid "This method creates a SectionCategory object."
 msgstr ""
 
@@ -979,6 +684,10 @@ msgid ""
 msgstr ""
 
 #: ../../../../None:7:<autosummary>:1
+msgid "This method creates a new Odb object."
+msgstr ""
+
+#: ../../../../None:7:<autosummary>:1
 msgid ":py:obj:`close <abaqus.Odb.OdbBase.OdbBase.close>`\\ \\(\\)"
 msgstr ""
 
@@ -1047,11 +756,41 @@ msgstr ""
 msgid "Member Details:"
 msgstr ""
 
-#: abaqus.Odb.Odb.Odb.Part:1 abaqus.Odb.OdbPart.OdbPart:1
-#: abaqus.Odb.OdbPartBase.OdbPartBase:13 of
+#: abaqus.Odb.Odb.Odb.Part:1 of
 msgid ""
 "This method creates an OdbPart object. Nodes and elements are added to "
 "this object at a later stage."
+msgstr ""
+
+#: abaqus.Odb.HistoryRegion.HistoryRegion.HistoryOutput:4
+#: abaqus.Odb.Odb.Odb.Part:4 abaqus.Odb.Odb.Odb.SectionCategory:4
+#: abaqus.Odb.Odb.Odb.Step:4 abaqus.Odb.OdbAssembly.OdbAssembly.DatumCsys:4
+#: abaqus.Odb.OdbAssembly.OdbAssembly.DatumCsysBy6dofNode:8
+#: abaqus.Odb.OdbAssembly.OdbAssembly.DatumCsysByThreeCircNodes:8
+#: abaqus.Odb.OdbAssembly.OdbAssembly.DatumCsysByThreeNodes:8
+#: abaqus.Odb.OdbAssembly.OdbAssembly.DatumCsysByThreePoints:5
+#: abaqus.Odb.OdbAssembly.OdbAssembly.Instance:4
+#: abaqus.Odb.OdbAssembly.OdbAssembly.NodeSet:5
+#: abaqus.Odb.OdbAssembly.OdbAssembly.RigidBody:4
+#: abaqus.Odb.OdbDatumCsys.OdbDatumCsys.DatumCsys:4
+#: abaqus.Odb.OdbDatumCsys.OdbDatumCsys.DatumCsysBy6dofNode:8
+#: abaqus.Odb.OdbDatumCsys.OdbDatumCsys.DatumCsysByThreeCircNodes:8
+#: abaqus.Odb.OdbDatumCsys.OdbDatumCsys.DatumCsysByThreeNodes:8
+#: abaqus.Odb.OdbDatumCsys.OdbDatumCsys.DatumCsysByThreePoints:5
+#: abaqus.Odb.OdbInstance.OdbInstance.NodeSet:5
+#: abaqus.Odb.OdbPart.OdbPart.NodeSet:5
+#: abaqus.Odb.OdbSession.OdbSession.ScratchOdb:4
+#: abaqus.Odb.OdbSet.OdbSet.ElementSet:5
+#: abaqus.Odb.OdbSet.OdbSet.ElementSetFromElementLabels:4
+#: abaqus.Odb.OdbSet.OdbSet.MeshSurface:4
+#: abaqus.Odb.OdbSet.OdbSet.MeshSurfaceFromElsets:4
+#: abaqus.Odb.OdbSet.OdbSet.MeshSurfaceFromLabels:4
+#: abaqus.Odb.OdbSet.OdbSet.NodeSetFromNodeLabels:4
+#: abaqus.Odb.OdbStep.OdbStep.HistoryRegion:4
+#: abaqus.Odb.OdbStep.OdbStep.LoadCase:4
+#: abaqus.Odb.SectionCategory.SectionCategory.SectionPoint:4
+#: abaqus.Odb.UserDataBase.UserDataBase.XYData:4 of
+msgid "This function can be accessed by::"
 msgstr ""
 
 #: abaqus.Odb.Odb.Odb.Part:9 of
@@ -1061,34 +800,178 @@ msgid ""
 "partpyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: abaqus.Odb.Odb.Odb.Part:12 abaqus.Odb.OdbPart.OdbPart:9
-#: abaqus.Odb.OdbPartBase.OdbPartBase:21 of
+#: abaqus.Odb.FieldOutput.FieldOutput.getConnectorFieldXformedToNodeA
+#: abaqus.Odb.FieldOutput.FieldOutput.setComponentLabels
+#: abaqus.Odb.FieldOutput.FieldOutput.setDataType
+#: abaqus.Odb.FieldOutput.FieldOutput.setValidInvariants
+#: abaqus.Odb.HistoryRegion.HistoryRegion.HistoryOutput abaqus.Odb.Odb.Odb.Part
+#: abaqus.Odb.Odb.Odb.SectionCategory abaqus.Odb.Odb.Odb.Step
+#: abaqus.Odb.OdbAssembly.OdbAssembly.DatumCsys
+#: abaqus.Odb.OdbAssembly.OdbAssembly.DatumCsysBy6dofNode
+#: abaqus.Odb.OdbAssembly.OdbAssembly.DatumCsysByThreeCircNodes
+#: abaqus.Odb.OdbAssembly.OdbAssembly.DatumCsysByThreeNodes
+#: abaqus.Odb.OdbAssembly.OdbAssembly.DatumCsysByThreePoints
+#: abaqus.Odb.OdbAssembly.OdbAssembly.Instance
+#: abaqus.Odb.OdbAssembly.OdbAssembly.NodeSet
+#: abaqus.Odb.OdbAssembly.OdbAssembly.RigidBody
+#: abaqus.Odb.OdbAssemblyBase.OdbAssemblyBase.ConnectorOrientation
+#: abaqus.Odb.OdbAssemblyBase.OdbAssemblyBase.RigidBody
+#: abaqus.Odb.OdbAssemblyBase.OdbAssemblyBase.SectionAssignment
+#: abaqus.Odb.OdbAssemblyBase.OdbAssemblyBase.addElements
+#: abaqus.Odb.OdbAssemblyBase.OdbAssemblyBase.addNodes
+#: abaqus.Odb.OdbBase.OdbBase.getFrame
+#: abaqus.Odb.OdbCommands.isUpgradeRequiredForOdb
+#: abaqus.Odb.OdbCommands.openOdb abaqus.Odb.OdbCommands.upgradeOdb
+#: abaqus.Odb.OdbDatumCsys.OdbDatumCsys.DatumCsys
+#: abaqus.Odb.OdbDatumCsys.OdbDatumCsys.DatumCsysBy6dofNode
+#: abaqus.Odb.OdbDatumCsys.OdbDatumCsys.DatumCsysByThreeCircNodes
+#: abaqus.Odb.OdbDatumCsys.OdbDatumCsys.DatumCsysByThreeNodes
+#: abaqus.Odb.OdbDatumCsys.OdbDatumCsys.DatumCsysByThreePoints
+#: abaqus.Odb.OdbInstance.OdbInstance.NodeSet
+#: abaqus.Odb.OdbInstanceBase.OdbInstanceBase.AnalyticRigidSurf2DPlanar
+#: abaqus.Odb.OdbInstanceBase.OdbInstanceBase.AnalyticRigidSurfExtrude
+#: abaqus.Odb.OdbInstanceBase.OdbInstanceBase.AnalyticRigidSurfRevolve
+#: abaqus.Odb.OdbInstanceBase.OdbInstanceBase.RigidBody
+#: abaqus.Odb.OdbInstanceBase.OdbInstanceBase.assignBeamOrientation
+#: abaqus.Odb.OdbInstanceBase.OdbInstanceBase.assignMaterialOrientation
+#: abaqus.Odb.OdbInstanceBase.OdbInstanceBase.assignRebarOrientation
+#: abaqus.Odb.OdbInstanceBase.OdbInstanceBase.assignSection
+#: abaqus.Odb.OdbInstanceBase.OdbInstanceBase.getElementFromLabel
+#: abaqus.Odb.OdbInstanceBase.OdbInstanceBase.getNodeFromLabel
+#: abaqus.Odb.OdbMeshElement.OdbMeshElement.getNormal
+#: abaqus.Odb.OdbPart.OdbPart.NodeSet abaqus.Odb.OdbPart.OdbPart.RigidBody
+#: abaqus.Odb.OdbPartBase.OdbPartBase.AnalyticRigidSurf2DPlanar
+#: abaqus.Odb.OdbPartBase.OdbPartBase.AnalyticRigidSurfExtrude
+#: abaqus.Odb.OdbPartBase.OdbPartBase.AnalyticRigidSurfRevolve
+#: abaqus.Odb.OdbPartBase.OdbPartBase.assignBeamOrientation
+#: abaqus.Odb.OdbPartBase.OdbPartBase.assignMaterialOrientation
+#: abaqus.Odb.OdbPartBase.OdbPartBase.assignRebarOrientation
+#: abaqus.Odb.OdbPartBase.OdbPartBase.getElementFromLabel
+#: abaqus.Odb.OdbPartBase.OdbPartBase.getNodeFromLabel
+#: abaqus.Odb.OdbSequenceAnalyticSurfaceSegment.OdbSequenceAnalyticSurfaceSegment.Circle
+#: abaqus.Odb.OdbSequenceAnalyticSurfaceSegment.OdbSequenceAnalyticSurfaceSegment.Line
+#: abaqus.Odb.OdbSequenceAnalyticSurfaceSegment.OdbSequenceAnalyticSurfaceSegment.Parabola
+#: abaqus.Odb.OdbSequenceAnalyticSurfaceSegment.OdbSequenceAnalyticSurfaceSegment.Start
+#: abaqus.Odb.OdbSession.OdbSession.ScratchOdb
+#: abaqus.Odb.OdbSet.OdbSet.ElementSet
+#: abaqus.Odb.OdbSet.OdbSet.ElementSetFromElementLabels
+#: abaqus.Odb.OdbSet.OdbSet.MeshSurface
+#: abaqus.Odb.OdbSet.OdbSet.MeshSurfaceFromElsets
+#: abaqus.Odb.OdbSet.OdbSet.MeshSurfaceFromLabels
+#: abaqus.Odb.OdbSet.OdbSet.NodeSetFromNodeLabels
+#: abaqus.Odb.OdbStep.OdbStep.HistoryRegion abaqus.Odb.OdbStep.OdbStep.LoadCase
+#: abaqus.Odb.OdbStepBase.OdbStepBase.getHistoryRegion
+#: abaqus.Odb.OdbStepBase.OdbStepBase.setDefaultDeformedField
+#: abaqus.Odb.OdbStepBase.OdbStepBase.setDefaultField
+#: abaqus.Odb.SectionCategory.SectionCategory.SectionPoint
+#: abaqus.Odb.UserDataBase.UserDataBase.XYData of
+msgid "Parameters"
+msgstr ""
+
+#: abaqus.Odb.Odb.Odb.Part:12 of
 msgid "A String specifying the part name."
 msgstr ""
 
-#: abaqus.Odb.Odb.Odb.Part:14 abaqus.Odb.OdbPart.OdbPart:11
-#: abaqus.Odb.OdbPartBase.OdbPartBase:23 of
+#: abaqus.Odb.Odb.Odb.Part:14 of
 msgid ""
 "A SymbolicConstant specifying the dimensionality of the Part object. "
 "Possible values are THREE_D, TWO_D_PLANAR, and AXISYMMETRIC."
 msgstr ""
 
-#: abaqus.Odb.Odb.Odb.Part:17 abaqus.Odb.OdbPart.OdbPart:14
-#: abaqus.Odb.OdbPartBase.OdbPartBase:26 of
+#: abaqus.Odb.Odb.Odb.Part:17 of
 msgid ""
 "A SymbolicConstant specifying the type of the Part object. Possible values"
 " are DEFORMABLE_BODY and ANALYTIC_RIGID_SURFACE."
 msgstr ""
 
-#: abaqus.Odb.Odb.Odb.Part:20 abaqus.Odb.OdbAssembly.OdbAssembly.Instance:14
-#: abaqus.Odb.OdbInstance.OdbInstance:11
-#: abaqus.Odb.OdbInstanceBase.OdbInstanceBase:23 abaqus.Odb.OdbPart.OdbPart:17
-#: abaqus.Odb.OdbPartBase.OdbPartBase:29 of
+#: abaqus.Odb.FieldOutput.FieldOutput.getConnectorFieldXformedToNodeA
+#: abaqus.Odb.HistoryRegion.HistoryRegion.HistoryOutput abaqus.Odb.Odb.Odb.Part
+#: abaqus.Odb.Odb.Odb.SectionCategory abaqus.Odb.Odb.Odb.Step
+#: abaqus.Odb.OdbAssembly.OdbAssembly.DatumCsys
+#: abaqus.Odb.OdbAssembly.OdbAssembly.DatumCsysBy6dofNode
+#: abaqus.Odb.OdbAssembly.OdbAssembly.DatumCsysByThreeCircNodes
+#: abaqus.Odb.OdbAssembly.OdbAssembly.DatumCsysByThreeNodes
+#: abaqus.Odb.OdbAssembly.OdbAssembly.DatumCsysByThreePoints
+#: abaqus.Odb.OdbAssembly.OdbAssembly.Instance
+#: abaqus.Odb.OdbAssembly.OdbAssembly.NodeSet
+#: abaqus.Odb.OdbAssembly.OdbAssembly.RigidBody
+#: abaqus.Odb.OdbBase.OdbBase.getFrame abaqus.Odb.OdbBase.OdbBase.update
+#: abaqus.Odb.OdbCommands.AnalyticSurfaceProfile
+#: abaqus.Odb.OdbCommands.isUpgradeRequiredForOdb
+#: abaqus.Odb.OdbCommands.maxEnvelope abaqus.Odb.OdbCommands.minEnvelope
+#: abaqus.Odb.OdbCommands.openOdb
+#: abaqus.Odb.OdbDatumCsys.OdbDatumCsys.DatumCsys
+#: abaqus.Odb.OdbDatumCsys.OdbDatumCsys.DatumCsysBy6dofNode
+#: abaqus.Odb.OdbDatumCsys.OdbDatumCsys.DatumCsysByThreeCircNodes
+#: abaqus.Odb.OdbDatumCsys.OdbDatumCsys.DatumCsysByThreeNodes
+#: abaqus.Odb.OdbDatumCsys.OdbDatumCsys.DatumCsysByThreePoints
+#: abaqus.Odb.OdbInstance.OdbInstance.NodeSet
+#: abaqus.Odb.OdbInstanceBase.OdbInstanceBase.getElementFromLabel
+#: abaqus.Odb.OdbInstanceBase.OdbInstanceBase.getNodeFromLabel
+#: abaqus.Odb.OdbMeshElement.OdbMeshElement.getNormal
+#: abaqus.Odb.OdbPart.OdbPart.NodeSet
+#: abaqus.Odb.OdbPartBase.OdbPartBase.getElementFromLabel
+#: abaqus.Odb.OdbPartBase.OdbPartBase.getNodeFromLabel
+#: abaqus.Odb.OdbSession.OdbSession.ScratchOdb
+#: abaqus.Odb.OdbSet.OdbSet.ElementSet
+#: abaqus.Odb.OdbSet.OdbSet.ElementSetFromElementLabels
+#: abaqus.Odb.OdbSet.OdbSet.MeshSurface
+#: abaqus.Odb.OdbSet.OdbSet.MeshSurfaceFromElsets
+#: abaqus.Odb.OdbSet.OdbSet.MeshSurfaceFromLabels
+#: abaqus.Odb.OdbSet.OdbSet.NodeSetFromNodeLabels
+#: abaqus.Odb.OdbStep.OdbStep.HistoryRegion abaqus.Odb.OdbStep.OdbStep.LoadCase
+#: abaqus.Odb.OdbStepBase.OdbStepBase.getHistoryRegion
+#: abaqus.Odb.SectionCategory.SectionCategory.SectionPoint
+#: abaqus.Odb.UserDataBase.UserDataBase.XYData of
+msgid "Returns"
+msgstr ""
+
+#: abaqus.Odb.Odb.Odb.Part:20 abaqus.Odb.OdbAssembly.OdbAssembly.Instance:14 of
 msgid "An OdbPart object."
 msgstr ""
 
-#: abaqus.Odb.Odb.Odb.Part:21 abaqus.Odb.OdbPart.OdbPart:18
-#: abaqus.Odb.OdbPartBase.OdbPartBase:30 of
+#: abaqus.Odb.FieldOutput.FieldOutput.getConnectorFieldXformedToNodeA
+#: abaqus.Odb.HistoryRegion.HistoryRegion.HistoryOutput abaqus.Odb.Odb.Odb.Part
+#: abaqus.Odb.Odb.Odb.SectionCategory abaqus.Odb.Odb.Odb.Step
+#: abaqus.Odb.OdbAssembly.OdbAssembly.DatumCsys
+#: abaqus.Odb.OdbAssembly.OdbAssembly.DatumCsysBy6dofNode
+#: abaqus.Odb.OdbAssembly.OdbAssembly.DatumCsysByThreeCircNodes
+#: abaqus.Odb.OdbAssembly.OdbAssembly.DatumCsysByThreeNodes
+#: abaqus.Odb.OdbAssembly.OdbAssembly.DatumCsysByThreePoints
+#: abaqus.Odb.OdbAssembly.OdbAssembly.Instance
+#: abaqus.Odb.OdbAssembly.OdbAssembly.NodeSet
+#: abaqus.Odb.OdbAssembly.OdbAssembly.RigidBody
+#: abaqus.Odb.OdbBase.OdbBase.getFrame abaqus.Odb.OdbBase.OdbBase.update
+#: abaqus.Odb.OdbCommands.AnalyticSurfaceProfile
+#: abaqus.Odb.OdbCommands.isUpgradeRequiredForOdb
+#: abaqus.Odb.OdbCommands.maxEnvelope abaqus.Odb.OdbCommands.minEnvelope
+#: abaqus.Odb.OdbCommands.openOdb
+#: abaqus.Odb.OdbDatumCsys.OdbDatumCsys.DatumCsys
+#: abaqus.Odb.OdbDatumCsys.OdbDatumCsys.DatumCsysBy6dofNode
+#: abaqus.Odb.OdbDatumCsys.OdbDatumCsys.DatumCsysByThreeCircNodes
+#: abaqus.Odb.OdbDatumCsys.OdbDatumCsys.DatumCsysByThreeNodes
+#: abaqus.Odb.OdbDatumCsys.OdbDatumCsys.DatumCsysByThreePoints
+#: abaqus.Odb.OdbInstance.OdbInstance.NodeSet
+#: abaqus.Odb.OdbInstanceBase.OdbInstanceBase.getElementFromLabel
+#: abaqus.Odb.OdbInstanceBase.OdbInstanceBase.getNodeFromLabel
+#: abaqus.Odb.OdbPart.OdbPart.NodeSet abaqus.Odb.OdbPart.OdbPart.RigidBody
+#: abaqus.Odb.OdbPartBase.OdbPartBase.getElementFromLabel
+#: abaqus.Odb.OdbPartBase.OdbPartBase.getNodeFromLabel
+#: abaqus.Odb.OdbSession.OdbSession.ScratchOdb
+#: abaqus.Odb.OdbSet.OdbSet.ElementSet
+#: abaqus.Odb.OdbSet.OdbSet.ElementSetFromElementLabels
+#: abaqus.Odb.OdbSet.OdbSet.MeshSurface
+#: abaqus.Odb.OdbSet.OdbSet.MeshSurfaceFromElsets
+#: abaqus.Odb.OdbSet.OdbSet.MeshSurfaceFromLabels
+#: abaqus.Odb.OdbSet.OdbSet.NodeSetFromNodeLabels
+#: abaqus.Odb.OdbStep.OdbStep.HistoryRegion abaqus.Odb.OdbStep.OdbStep.LoadCase
+#: abaqus.Odb.OdbStepBase.OdbStepBase.getHistoryRegion
+#: abaqus.Odb.SectionCategory.SectionCategory.SectionPoint
+#: abaqus.Odb.UserDataBase.UserDataBase.XYData of
+msgid "Return type"
+msgstr ""
+
+#: abaqus.Odb.Odb.Odb.Part:21 of
 msgid ":class:`OdbPart`"
 msgstr ""
 
@@ -1101,24 +984,20 @@ msgid ""
 msgstr ""
 
 #: ../../../../docstring abaqus.Odb.Odb.Odb.SectionCategory:12
-#: abaqus.Odb.SectionCategory.SectionCategory:39
 #: abaqus.Odb.SectionCategory.SectionCategory.name:1 of
 msgid "A String specifying the name of the category."
 msgstr ""
 
 #: ../../../../docstring abaqus.Odb.Odb.Odb.SectionCategory:14
-#: abaqus.Odb.SectionCategory.SectionCategory:41
 #: abaqus.Odb.SectionCategory.SectionCategory.description:1 of
 msgid "A String specifying the description of the category."
 msgstr ""
 
-#: abaqus.Odb.Odb.Odb.SectionCategory:16
-#: abaqus.Odb.SectionCategory.SectionCategory:43 of
+#: abaqus.Odb.Odb.Odb.SectionCategory:16 of
 msgid "A SectionCategory object."
 msgstr ""
 
-#: abaqus.Odb.Odb.Odb.SectionCategory:17
-#: abaqus.Odb.SectionCategory.SectionCategory:44 of
+#: abaqus.Odb.Odb.Odb.SectionCategory:17 of
 msgid ":class:`SectionCategory`"
 msgstr ""
 
@@ -1129,13 +1008,28 @@ msgid ""
 "steppyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: abaqus.Odb.Odb.Odb.Step:14 abaqus.Odb.OdbStep.OdbStep:11
-#: abaqus.Odb.OdbStepBase.OdbStepBase:22 of
+#: ../../../../docstring abaqus.Odb.Odb.Odb.Step:12
+#: abaqus.Odb.OdbAssembly.OdbAssembly.DatumCsys:12
+#: abaqus.Odb.OdbAssembly.OdbAssembly.DatumCsysBy6dofNode:16
+#: abaqus.Odb.OdbAssembly.OdbAssembly.DatumCsysByThreeCircNodes:16
+#: abaqus.Odb.OdbAssembly.OdbAssembly.DatumCsysByThreeNodes:16
+#: abaqus.Odb.OdbAssembly.OdbAssembly.DatumCsysByThreePoints:13
+#: abaqus.Odb.OdbDatumCsys.OdbDatumCsys.DatumCsys:12
+#: abaqus.Odb.OdbDatumCsys.OdbDatumCsys.DatumCsysBy6dofNode:16
+#: abaqus.Odb.OdbDatumCsys.OdbDatumCsys.DatumCsysByThreeCircNodes:16
+#: abaqus.Odb.OdbDatumCsys.OdbDatumCsys.DatumCsysByThreeNodes:16
+#: abaqus.Odb.OdbDatumCsys.OdbDatumCsys.DatumCsysByThreePoints:13
+#: abaqus.Odb.RebarOrientation.OdbDatumCsys.name:1
+#: abaqus.Odb.UserDataBase.UserDataBase.XYData:12
+#: abaqus.Odb.UserDataBase.UserDataBase.name:1 of
+msgid "A String specifying the repository key."
+msgstr ""
+
+#: abaqus.Odb.Odb.Odb.Step:14 of
 msgid "A String specifying the step description."
 msgstr ""
 
-#: abaqus.Odb.Odb.Odb.Step:16 abaqus.Odb.OdbStep.OdbStep:13
-#: abaqus.Odb.OdbStepBase.OdbStepBase:24 of
+#: abaqus.Odb.Odb.Odb.Step:16 of
 msgid ""
 "A SymbolicConstant specifying the domain of the step. Possible values are "
 "TIME, FREQUENCY, ARC_LENGTH, and MODAL.The type of OdbFrame object that "
@@ -1143,16 +1037,14 @@ msgid ""
 "argument."
 msgstr ""
 
-#: abaqus.Odb.Odb.Odb.Step:20 abaqus.Odb.OdbStep.OdbStep:17
-#: abaqus.Odb.OdbStepBase.OdbStepBase:28 of
+#: abaqus.Odb.Odb.Odb.Step:20 of
 msgid ""
 "A Float specifying the time period of the step. **timePeriod** is required"
 " if **domain** = TIME; otherwise, this argument is not applicable. The "
 "default value is 0.0."
 msgstr ""
 
-#: abaqus.Odb.Odb.Odb.Step:23 abaqus.Odb.OdbStep.OdbStep:20
-#: abaqus.Odb.OdbStepBase.OdbStepBase:31 of
+#: abaqus.Odb.Odb.Odb.Step:23 of
 msgid ""
 "A String specifying the preceding step. If **previousStepName** is the "
 "empty string, the last step in the repository is used. If "
@@ -1163,8 +1055,7 @@ msgid ""
 "any other existing steps. The default value is an empty string."
 msgstr ""
 
-#: abaqus.Odb.Odb.Odb.Step:30 abaqus.Odb.OdbStep.OdbStep:27
-#: abaqus.Odb.OdbStepBase.OdbStepBase:38 of
+#: abaqus.Odb.Odb.Odb.Step:30 of
 msgid ""
 "A String specifying the step procedure. The default value is an empty "
 "string. The following is the list of valid procedures:  - `*ANNEAL` - "
@@ -1188,252 +1079,203 @@ msgid ""
 "GENERATE` - `*USA ADDDED MASS GENERATION` - `*VISCO`"
 msgstr ""
 
-#: abaqus.Odb.Odb.Odb.Step:30 abaqus.Odb.OdbStep.OdbStep:27
-#: abaqus.Odb.OdbStepBase.OdbStepBase:38 of
+#: abaqus.Odb.Odb.Odb.Step:30 of
 msgid ""
 "A String specifying the step procedure. The default value is an empty "
 "string. The following is the list of valid procedures:"
 msgstr ""
 
-#: abaqus.Odb.Odb.Odb.Step:33 abaqus.Odb.OdbStep.OdbStep:30
-#: abaqus.Odb.OdbStepBase.OdbStepBase:41 of
+#: abaqus.Odb.Odb.Odb.Step:33 of
 msgid "`*ANNEAL`"
 msgstr ""
 
-#: abaqus.Odb.Odb.Odb.Step:34 abaqus.Odb.OdbStep.OdbStep:31
-#: abaqus.Odb.OdbStepBase.OdbStepBase:42 of
+#: abaqus.Odb.Odb.Odb.Step:34 of
 msgid "`*BUCKLE`"
 msgstr ""
 
-#: abaqus.Odb.Odb.Odb.Step:35 abaqus.Odb.OdbStep.OdbStep:32
-#: abaqus.Odb.OdbStepBase.OdbStepBase:43 of
+#: abaqus.Odb.Odb.Odb.Step:35 of
 msgid "`*COMPLEX FREQUENCY`"
 msgstr ""
 
-#: abaqus.Odb.Odb.Odb.Step:36 abaqus.Odb.OdbStep.OdbStep:33
-#: abaqus.Odb.OdbStepBase.OdbStepBase:44 of
+#: abaqus.Odb.Odb.Odb.Step:36 of
 msgid "`*COUPLED TEMPERATURE-DISPLACEMENT`"
 msgstr ""
 
-#: abaqus.Odb.Odb.Odb.Step:37 abaqus.Odb.OdbStep.OdbStep:34
-#: abaqus.Odb.OdbStepBase.OdbStepBase:45 of
+#: abaqus.Odb.Odb.Odb.Step:37 of
 msgid "`*COUPLED TEMPERATURE-DISPLACEMENT, CETOL`"
 msgstr ""
 
-#: abaqus.Odb.Odb.Odb.Step:38 abaqus.Odb.OdbStep.OdbStep:35
-#: abaqus.Odb.OdbStepBase.OdbStepBase:46 of
+#: abaqus.Odb.Odb.Odb.Step:38 of
 msgid "`*COUPLED TEMPERATURE-DISPLACEMENT, STEADY STATE`"
 msgstr ""
 
-#: abaqus.Odb.Odb.Odb.Step:39 abaqus.Odb.OdbStep.OdbStep:36
-#: abaqus.Odb.OdbStepBase.OdbStepBase:47 of
+#: abaqus.Odb.Odb.Odb.Step:39 of
 msgid "`*COUPLED THERMAL-ELECTRICAL, STEADY STATE`"
 msgstr ""
 
-#: abaqus.Odb.Odb.Odb.Step:40 abaqus.Odb.OdbStep.OdbStep:37
-#: abaqus.Odb.OdbStepBase.OdbStepBase:48 of
+#: abaqus.Odb.Odb.Odb.Step:40 of
 msgid "`*COUPLED THERMAL-ELECTRICAL`"
 msgstr ""
 
-#: abaqus.Odb.Odb.Odb.Step:41 abaqus.Odb.OdbStep.OdbStep:38
-#: abaqus.Odb.OdbStepBase.OdbStepBase:49 of
+#: abaqus.Odb.Odb.Odb.Step:41 of
 msgid "`*COUPLED THERMAL-ELECTRICAL, DELTMX`"
 msgstr ""
 
-#: abaqus.Odb.Odb.Odb.Step:42 abaqus.Odb.OdbStep.OdbStep:39
-#: abaqus.Odb.OdbStepBase.OdbStepBase:50 of
+#: abaqus.Odb.Odb.Odb.Step:42 of
 msgid "`*DYNAMIC`"
 msgstr ""
 
-#: abaqus.Odb.Odb.Odb.Step:43 abaqus.Odb.OdbStep.OdbStep:40
-#: abaqus.Odb.OdbStepBase.OdbStepBase:51 of
+#: abaqus.Odb.Odb.Odb.Step:43 of
 msgid "`*DYNAMIC, DIRECT`"
 msgstr ""
 
-#: abaqus.Odb.Odb.Odb.Step:44 abaqus.Odb.OdbStep.OdbStep:41
-#: abaqus.Odb.OdbStepBase.OdbStepBase:52 of
+#: abaqus.Odb.Odb.Odb.Step:44 of
 msgid "`*DYNAMIC, EXPLICIT`"
 msgstr ""
 
-#: abaqus.Odb.Odb.Odb.Step:45 abaqus.Odb.OdbStep.OdbStep:42
-#: abaqus.Odb.OdbStepBase.OdbStepBase:53 of
+#: abaqus.Odb.Odb.Odb.Step:45 of
 msgid "`*DYNAMIC, SUBSPACE`"
 msgstr ""
 
-#: abaqus.Odb.Odb.Odb.Step:46 abaqus.Odb.OdbStep.OdbStep:43
-#: abaqus.Odb.OdbStepBase.OdbStepBase:54 of
+#: abaqus.Odb.Odb.Odb.Step:46 of
 msgid "`*DYNAMIC TEMPERATURE-DISPLACEMENT, EXPLICT`"
 msgstr ""
 
-#: abaqus.Odb.Odb.Odb.Step:47 abaqus.Odb.OdbStep.OdbStep:44
-#: abaqus.Odb.OdbStepBase.OdbStepBase:55 of
+#: abaqus.Odb.Odb.Odb.Step:47 of
 msgid "`*ELECTROMAGNETIC, HIGH FREQUENCY, TIME HARMONIC`"
 msgstr ""
 
-#: abaqus.Odb.Odb.Odb.Step:48 abaqus.Odb.OdbStep.OdbStep:45
-#: abaqus.Odb.OdbStepBase.OdbStepBase:56 of
+#: abaqus.Odb.Odb.Odb.Step:48 of
 msgid "`*ELECTROMAGNETIC, LOW FREQUENCY, TIME DOMAIN`"
 msgstr ""
 
-#: abaqus.Odb.Odb.Odb.Step:49 abaqus.Odb.OdbStep.OdbStep:46
-#: abaqus.Odb.OdbStepBase.OdbStepBase:57 of
+#: abaqus.Odb.Odb.Odb.Step:49 of
 msgid "`*ELECTROMAGNETIC, LOW FREQUENCY, TIME DOMAIN, DIRECT`"
 msgstr ""
 
-#: abaqus.Odb.Odb.Odb.Step:50 abaqus.Odb.OdbStep.OdbStep:47
-#: abaqus.Odb.OdbStepBase.OdbStepBase:58 of
+#: abaqus.Odb.Odb.Odb.Step:50 of
 msgid "`*ELECTROMAGNETIC, LOW FREQUENCY, TIME HARMONIC`"
 msgstr ""
 
-#: abaqus.Odb.Odb.Odb.Step:51 abaqus.Odb.OdbStep.OdbStep:48
-#: abaqus.Odb.OdbStepBase.OdbStepBase:59 of
+#: abaqus.Odb.Odb.Odb.Step:51 of
 msgid "`*FREQUENCY`"
 msgstr ""
 
-#: abaqus.Odb.Odb.Odb.Step:52 abaqus.Odb.OdbStep.OdbStep:49
-#: abaqus.Odb.OdbStepBase.OdbStepBase:60 of
+#: abaqus.Odb.Odb.Odb.Step:52 of
 msgid "`*GEOSTATIC`"
 msgstr ""
 
-#: abaqus.Odb.Odb.Odb.Step:53 abaqus.Odb.OdbStep.OdbStep:50
-#: abaqus.Odb.OdbStepBase.OdbStepBase:61 of
+#: abaqus.Odb.Odb.Odb.Step:53 of
 msgid "`*HEAT TRANSFER`"
 msgstr ""
 
-#: abaqus.Odb.Odb.Odb.Step:54 abaqus.Odb.OdbStep.OdbStep:51
-#: abaqus.Odb.OdbStepBase.OdbStepBase:62 of
+#: abaqus.Odb.Odb.Odb.Step:54 of
 msgid "`*HEAT TRANSFER, DELTAMX=__`"
 msgstr ""
 
-#: abaqus.Odb.Odb.Odb.Step:55 abaqus.Odb.OdbStep.OdbStep:52
-#: abaqus.Odb.OdbStepBase.OdbStepBase:63 of
+#: abaqus.Odb.Odb.Odb.Step:55 of
 msgid "`*HEAT TRANSFER, STEADY STATE`"
 msgstr ""
 
-#: abaqus.Odb.Odb.Odb.Step:56 abaqus.Odb.OdbStep.OdbStep:53
-#: abaqus.Odb.OdbStepBase.OdbStepBase:64 of
+#: abaqus.Odb.Odb.Odb.Step:56 of
 msgid "`*MAGNETOSTATIC`"
 msgstr ""
 
-#: abaqus.Odb.Odb.Odb.Step:57 abaqus.Odb.OdbStep.OdbStep:54
-#: abaqus.Odb.OdbStepBase.OdbStepBase:65 of
+#: abaqus.Odb.Odb.Odb.Step:57 of
 msgid "`*MAGNETOSTATIC, DIRECT`"
 msgstr ""
 
-#: abaqus.Odb.Odb.Odb.Step:58 abaqus.Odb.OdbStep.OdbStep:55
-#: abaqus.Odb.OdbStepBase.OdbStepBase:66 of
+#: abaqus.Odb.Odb.Odb.Step:58 of
 msgid "`*MASS DIFFUSION`"
 msgstr ""
 
-#: abaqus.Odb.Odb.Odb.Step:59 abaqus.Odb.OdbStep.OdbStep:56
-#: abaqus.Odb.OdbStepBase.OdbStepBase:67 of
+#: abaqus.Odb.Odb.Odb.Step:59 of
 msgid "`*MASS DIFFUSION, DCMAX=`"
 msgstr ""
 
-#: abaqus.Odb.Odb.Odb.Step:60 abaqus.Odb.OdbStep.OdbStep:57
-#: abaqus.Odb.OdbStepBase.OdbStepBase:68 of
+#: abaqus.Odb.Odb.Odb.Step:60 of
 msgid "`*MASS DIFFUSION, STEADY STATE`"
 msgstr ""
 
-#: abaqus.Odb.Odb.Odb.Step:61 abaqus.Odb.OdbStep.OdbStep:58
-#: abaqus.Odb.OdbStepBase.OdbStepBase:69 of
+#: abaqus.Odb.Odb.Odb.Step:61 of
 msgid "`*MODAL DYNAMIC`"
 msgstr ""
 
-#: abaqus.Odb.Odb.Odb.Step:62 abaqus.Odb.OdbStep.OdbStep:59
-#: abaqus.Odb.OdbStepBase.OdbStepBase:70 of
+#: abaqus.Odb.Odb.Odb.Step:62 of
 msgid "`*RANDOM RESPONSE`"
 msgstr ""
 
-#: abaqus.Odb.Odb.Odb.Step:63 abaqus.Odb.OdbStep.OdbStep:60
-#: abaqus.Odb.OdbStepBase.OdbStepBase:71 of
+#: abaqus.Odb.Odb.Odb.Step:63 of
 msgid "`*RESPONSE SPECTRUM`"
 msgstr ""
 
-#: abaqus.Odb.Odb.Odb.Step:64 abaqus.Odb.OdbStep.OdbStep:61
-#: abaqus.Odb.OdbStepBase.OdbStepBase:72 of
+#: abaqus.Odb.Odb.Odb.Step:64 of
 msgid "`*SOILS`"
 msgstr ""
 
-#: abaqus.Odb.Odb.Odb.Step:65 abaqus.Odb.OdbStep.OdbStep:62
-#: abaqus.Odb.OdbStepBase.OdbStepBase:73 of
+#: abaqus.Odb.Odb.Odb.Step:65 of
 msgid "`*SOILS, CETOL/UTOL`"
 msgstr ""
 
-#: abaqus.Odb.Odb.Odb.Step:66 abaqus.Odb.OdbStep.OdbStep:63
-#: abaqus.Odb.OdbStepBase.OdbStepBase:74 of
+#: abaqus.Odb.Odb.Odb.Step:66 of
 msgid "`*SOILS, CONSOLIDATION`"
 msgstr ""
 
-#: abaqus.Odb.Odb.Odb.Step:67 abaqus.Odb.OdbStep.OdbStep:64
-#: abaqus.Odb.OdbStepBase.OdbStepBase:75 of
+#: abaqus.Odb.Odb.Odb.Step:67 of
 msgid "`*SOILS, CONSOLIDATION, CETOL/UTOL`"
 msgstr ""
 
-#: abaqus.Odb.Odb.Odb.Step:68 abaqus.Odb.OdbStep.OdbStep:65
-#: abaqus.Odb.OdbStepBase.OdbStepBase:76 of
+#: abaqus.Odb.Odb.Odb.Step:68 of
 msgid "`*STATIC`"
 msgstr ""
 
-#: abaqus.Odb.Odb.Odb.Step:69 abaqus.Odb.OdbStep.OdbStep:66
-#: abaqus.Odb.OdbStepBase.OdbStepBase:77 of
+#: abaqus.Odb.Odb.Odb.Step:69 of
 msgid "`*STATIC, DIRECT`"
 msgstr ""
 
-#: abaqus.Odb.Odb.Odb.Step:70 abaqus.Odb.OdbStep.OdbStep:67
-#: abaqus.Odb.OdbStepBase.OdbStepBase:78 of
+#: abaqus.Odb.Odb.Odb.Step:70 of
 msgid "`*STATIC, RIKS`"
 msgstr ""
 
-#: abaqus.Odb.Odb.Odb.Step:71 abaqus.Odb.OdbStep.OdbStep:68
-#: abaqus.Odb.OdbStepBase.OdbStepBase:79 of
+#: abaqus.Odb.Odb.Odb.Step:71 of
 msgid "`*STEADY STATE DYNAMICS`"
 msgstr ""
 
-#: abaqus.Odb.Odb.Odb.Step:72 abaqus.Odb.OdbStep.OdbStep:69
-#: abaqus.Odb.OdbStepBase.OdbStepBase:80 of
+#: abaqus.Odb.Odb.Odb.Step:72 of
 msgid "`*STEADY STATE TRANSPORT`"
 msgstr ""
 
-#: abaqus.Odb.Odb.Odb.Step:73 abaqus.Odb.OdbStep.OdbStep:70
-#: abaqus.Odb.OdbStepBase.OdbStepBase:81 of
+#: abaqus.Odb.Odb.Odb.Step:73 of
 msgid "`*STEADY STATE TRANSPORT, DIRECT`"
 msgstr ""
 
-#: abaqus.Odb.Odb.Odb.Step:74 abaqus.Odb.OdbStep.OdbStep:71
-#: abaqus.Odb.OdbStepBase.OdbStepBase:82 of
+#: abaqus.Odb.Odb.Odb.Step:74 of
 msgid "`*STEP PERTURBATION, *STATIC`"
 msgstr ""
 
-#: abaqus.Odb.Odb.Odb.Step:75 abaqus.Odb.OdbStep.OdbStep:72
-#: abaqus.Odb.OdbStepBase.OdbStepBase:83 of
+#: abaqus.Odb.Odb.Odb.Step:75 of
 msgid "`*SUBSTRUCTURE GENERATE`"
 msgstr ""
 
-#: abaqus.Odb.Odb.Odb.Step:76 abaqus.Odb.OdbStep.OdbStep:73
-#: abaqus.Odb.OdbStepBase.OdbStepBase:84 of
+#: abaqus.Odb.Odb.Odb.Step:76 of
 msgid "`*USA ADDDED MASS GENERATION`"
 msgstr ""
 
-#: abaqus.Odb.Odb.Odb.Step:77 abaqus.Odb.OdbStep.OdbStep:74
-#: abaqus.Odb.OdbStepBase.OdbStepBase:85 of
+#: abaqus.Odb.Odb.Odb.Step:77 of
 msgid "`*VISCO`"
 msgstr ""
 
-#: abaqus.Odb.Odb.Odb.Step:79 abaqus.Odb.OdbStep.OdbStep:76
-#: abaqus.Odb.OdbStepBase.OdbStepBase:87 of
+#: abaqus.Odb.Odb.Odb.Step:79 of
 msgid ""
 "A Float specifying the analysis time spend in all the steps previous to "
 "this step. The default value is −1.0."
 msgstr ""
 
-#: abaqus.Odb.Odb.Odb.Step:82 abaqus.Odb.OdbStep.OdbStep:79
-#: abaqus.Odb.OdbStepBase.OdbStepBase:90 of
+#: abaqus.Odb.Odb.Odb.Step:82 of
 msgid "An OdbStep object."
 msgstr ""
 
-#: abaqus.Odb.Odb.Odb.Step:83 abaqus.Odb.OdbStep.OdbStep:80
-#: abaqus.Odb.OdbStepBase.OdbStepBase:91 of
+#: abaqus.Odb.Odb.Odb.Step:83 of
 msgid ":class:`OdbStep`"
 msgstr ""
 
@@ -1461,13 +1303,11 @@ msgstr ""
 #: abaqus.Odb.OdbPartBase.OdbPartBase.AnalyticRigidSurfRevolve
 #: abaqus.Odb.OdbPartBase.OdbPartBase.getElementFromLabel
 #: abaqus.Odb.OdbPartBase.OdbPartBase.getNodeFromLabel
-#: abaqus.Odb.OdbStep.OdbStep abaqus.Odb.OdbStepBase.OdbStepBase
 #: abaqus.Odb.OdbStepBase.OdbStepBase.getHistoryRegion of
 msgid "Raises"
 msgstr ""
 
-#: abaqus.Odb.Odb.Odb.Step:85 abaqus.Odb.OdbStep.OdbStep:82
-#: abaqus.Odb.OdbStepBase.OdbStepBase:93 of
+#: abaqus.Odb.Odb.Odb.Step:85 of
 msgid "previousStepName is invalid, If **previousStepName** is invalid."
 msgstr ""
 
@@ -1559,24 +1399,6 @@ msgid ""
 "Check `OdbSequenceAnalyticSurfaceSegment on help.3ds.com/2018 <https://hel"
 "p.3ds.com/2018/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "odbsequenceanalyticsurfacesegmentpyc.htm?contextscope=all>`__."
-msgstr ""
-
-#: abaqus.Odb.OdbCommands.AnalyticSurfaceProfile:1
-#: abaqus.Odb.OdbSequenceAnalyticSurfaceSegment.OdbSequenceAnalyticSurfaceSegment:14
-#: of
-msgid "This method creates a OdbSequenceAnalyticSurfaceSegment object."
-msgstr ""
-
-#: abaqus.Odb.OdbCommands.AnalyticSurfaceProfile:7
-#: abaqus.Odb.OdbSequenceAnalyticSurfaceSegment.OdbSequenceAnalyticSurfaceSegment:21
-#: of
-msgid "An OdbSequenceAnalyticSurfaceSegment object."
-msgstr ""
-
-#: abaqus.Odb.OdbCommands.AnalyticSurfaceProfile:8
-#: abaqus.Odb.OdbSequenceAnalyticSurfaceSegment.OdbSequenceAnalyticSurfaceSegment:22
-#: of
-msgid ":class:`OdbSequenceAnalyticSurfaceSegment`"
 msgstr ""
 
 #: abaqus.Odb.OdbSequenceAnalyticSurfaceSegment.OdbSequenceAnalyticSurfaceSegment.Circle:1
@@ -1688,21 +1510,8 @@ msgid ""
 "analyticsurfacesegmentpyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: abaqus.Odb.AnalyticSurfaceSegment.AnalyticSurfaceSegment:14 of
-msgid "This method creates an AnalyticSurfaceSegment object."
-msgstr ""
-
-#: ../../../../docstring
-#: abaqus.Odb.AnalyticSurfaceSegment.AnalyticSurfaceSegment:22
-#: abaqus.Odb.OdbPartBase.AnalyticSurfaceSegment.type:1 of
-msgid ""
-"A SymbolicConstant specifying the type of AnalyticSurfaceSegment. Possible"
-" values are START, LINE, CIRCLE, and PARABOLA."
-msgstr ""
-
-#: ../../../../docstring
-#: abaqus.Odb.AnalyticSurfaceSegment.AnalyticSurfaceSegment:25
-#: abaqus.Odb.OdbPartBase.AnalyticSurfaceSegment.data:1 of
+#: ../../../../docstring abaqus.Odb.OdbPartBase.AnalyticSurfaceSegment.data:1
+#: of
 msgid ""
 "A sequence of sequences of Floats specifying the coordinates of point/s "
 "representing the segment of the AnalyticSurface object. If **type** = "
@@ -1713,12 +1522,11 @@ msgid ""
 "LINE, a single row contains coordinates of the start/end point."
 msgstr ""
 
-#: abaqus.Odb.AnalyticSurfaceSegment.AnalyticSurfaceSegment:32 of
-msgid "An AnalyticSurfaceSegment object."
-msgstr ""
-
-#: abaqus.Odb.AnalyticSurfaceSegment.AnalyticSurfaceSegment:33 of
-msgid ":class:`AnalyticSurfaceSegment`"
+#: ../../../../docstring abaqus.Odb.OdbPartBase.AnalyticSurfaceSegment.type:1
+#: of
+msgid ""
+"A SymbolicConstant specifying the type of AnalyticSurfaceSegment. Possible"
+" values are START, LINE, CIRCLE, and PARABOLA."
 msgstr ""
 
 #: abaqus.Odb.BeamOrientation.BeamOrientation:1 of
@@ -1767,61 +1575,6 @@ msgid ""
 "odbsetpyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: abaqus.Odb.OdbAssembly.OdbAssembly.NodeSet:1
-#: abaqus.Odb.OdbInstance.OdbInstance.NodeSet:1
-#: abaqus.Odb.OdbPart.OdbPart.NodeSet:1 abaqus.Odb.OdbSet.OdbSet:23 of
-msgid ""
-"This method creates a node set from an array of OdbMeshNode objects (for "
-"part instance-level sets) or from a sequence of arrays of OdbMeshNode "
-"objects (for assembly-level sets)."
-msgstr ""
-
-#: ../../../../docstring abaqus.Odb.OdbAssembly.OdbAssembly.NodeSet:15
-#: abaqus.Odb.OdbInstance.OdbInstance.NodeSet:15
-#: abaqus.Odb.OdbPart.OdbPart.NodeSet:15 abaqus.Odb.OdbSet.OdbSet:34
-#: abaqus.Odb.OdbSet.OdbSet.ElementSet:15
-#: abaqus.Odb.OdbSet.OdbSet.ElementSetFromElementLabels:14
-#: abaqus.Odb.OdbSet.OdbSet.MeshSurface:14
-#: abaqus.Odb.OdbSet.OdbSet.MeshSurfaceFromElsets:14
-#: abaqus.Odb.OdbSet.OdbSet.MeshSurfaceFromLabels:14
-#: abaqus.Odb.OdbSet.OdbSet.NodeSetFromNodeLabels:14
-#: abaqus.Odb.RebarOrientation.OdbSet.name:1 of
-msgid "A String specifying the name of the set and the repository key."
-msgstr ""
-
-#: abaqus.Odb.OdbAssembly.OdbAssembly.NodeSet:17
-#: abaqus.Odb.OdbInstance.OdbInstance.NodeSet:17
-#: abaqus.Odb.OdbPart.OdbPart.NodeSet:17 abaqus.Odb.OdbSet.OdbSet:36 of
-msgid ""
-"A sequence of OdbMeshNode objects. For example, for a "
-"part:`nodes=part1.nodes[1:5]`For an assembly:`nodes=(instance1.nodes[6:7],"
-" instance2.nodes[1:5])`"
-msgstr ""
-
-#: abaqus.Odb.OdbAssembly.OdbAssembly.NodeSet:20
-#: abaqus.Odb.OdbInstance.OdbInstance.NodeSet:20
-#: abaqus.Odb.OdbPart.OdbPart.NodeSet:20 abaqus.Odb.OdbSet.OdbSet:39
-#: abaqus.Odb.OdbSet.OdbSet.ElementSet:21
-#: abaqus.Odb.OdbSet.OdbSet.ElementSetFromElementLabels:20
-#: abaqus.Odb.OdbSet.OdbSet.MeshSurface:36
-#: abaqus.Odb.OdbSet.OdbSet.MeshSurfaceFromElsets:24
-#: abaqus.Odb.OdbSet.OdbSet.MeshSurfaceFromLabels:23
-#: abaqus.Odb.OdbSet.OdbSet.NodeSetFromNodeLabels:20 of
-msgid "An OdbSet object."
-msgstr ""
-
-#: abaqus.Odb.OdbAssembly.OdbAssembly.NodeSet:21
-#: abaqus.Odb.OdbInstance.OdbInstance.NodeSet:21
-#: abaqus.Odb.OdbPart.OdbPart.NodeSet:21 abaqus.Odb.OdbSet.OdbSet:40
-#: abaqus.Odb.OdbSet.OdbSet.ElementSet:22
-#: abaqus.Odb.OdbSet.OdbSet.ElementSetFromElementLabels:21
-#: abaqus.Odb.OdbSet.OdbSet.MeshSurface:37
-#: abaqus.Odb.OdbSet.OdbSet.MeshSurfaceFromElsets:25
-#: abaqus.Odb.OdbSet.OdbSet.MeshSurfaceFromLabels:24
-#: abaqus.Odb.OdbSet.OdbSet.NodeSetFromNodeLabels:21 of
-msgid ":class:`OdbSet`"
-msgstr ""
-
 #: abaqus.Odb.OdbSet.OdbSet.ElementSet:1 of
 msgid ""
 "This method creates an element set from an array of OdbMeshElement objects"
@@ -1836,11 +1589,45 @@ msgid ""
 "elementsetpyc.htm?contextscope=all>`__."
 msgstr ""
 
+#: ../../../../docstring abaqus.Odb.OdbAssembly.OdbAssembly.NodeSet:15
+#: abaqus.Odb.OdbInstance.OdbInstance.NodeSet:15
+#: abaqus.Odb.OdbPart.OdbPart.NodeSet:15 abaqus.Odb.OdbSet.OdbSet.ElementSet:15
+#: abaqus.Odb.OdbSet.OdbSet.ElementSetFromElementLabels:14
+#: abaqus.Odb.OdbSet.OdbSet.MeshSurface:14
+#: abaqus.Odb.OdbSet.OdbSet.MeshSurfaceFromElsets:14
+#: abaqus.Odb.OdbSet.OdbSet.MeshSurfaceFromLabels:14
+#: abaqus.Odb.OdbSet.OdbSet.NodeSetFromNodeLabels:14
+#: abaqus.Odb.RebarOrientation.OdbSet.name:1 of
+msgid "A String specifying the name of the set and the repository key."
+msgstr ""
+
 #: abaqus.Odb.OdbSet.OdbSet.ElementSet:17 of
 msgid ""
 "A sequence of OdbMeshElement objects. For example, for a "
 "part:`elements=instance1.elements[1:5]`For an "
 "assembly:`elements=(instance1.elements[1:5], instance2.elements[1:5])`"
+msgstr ""
+
+#: abaqus.Odb.OdbAssembly.OdbAssembly.NodeSet:20
+#: abaqus.Odb.OdbInstance.OdbInstance.NodeSet:20
+#: abaqus.Odb.OdbPart.OdbPart.NodeSet:20 abaqus.Odb.OdbSet.OdbSet.ElementSet:21
+#: abaqus.Odb.OdbSet.OdbSet.ElementSetFromElementLabels:20
+#: abaqus.Odb.OdbSet.OdbSet.MeshSurface:36
+#: abaqus.Odb.OdbSet.OdbSet.MeshSurfaceFromElsets:24
+#: abaqus.Odb.OdbSet.OdbSet.MeshSurfaceFromLabels:23
+#: abaqus.Odb.OdbSet.OdbSet.NodeSetFromNodeLabels:20 of
+msgid "An OdbSet object."
+msgstr ""
+
+#: abaqus.Odb.OdbAssembly.OdbAssembly.NodeSet:21
+#: abaqus.Odb.OdbInstance.OdbInstance.NodeSet:21
+#: abaqus.Odb.OdbPart.OdbPart.NodeSet:21 abaqus.Odb.OdbSet.OdbSet.ElementSet:22
+#: abaqus.Odb.OdbSet.OdbSet.ElementSetFromElementLabels:21
+#: abaqus.Odb.OdbSet.OdbSet.MeshSurface:37
+#: abaqus.Odb.OdbSet.OdbSet.MeshSurfaceFromElsets:25
+#: abaqus.Odb.OdbSet.OdbSet.MeshSurfaceFromLabels:24
+#: abaqus.Odb.OdbSet.OdbSet.NodeSetFromNodeLabels:21 of
+msgid ":class:`OdbSet`"
 msgstr ""
 
 #: abaqus.Odb.OdbSet.OdbSet.ElementSetFromElementLabels:1 of
@@ -2197,49 +1984,13 @@ msgstr ""
 msgid "Bases: :py:class:`~abaqus.Odb.OdbInstanceBase.OdbInstanceBase`"
 msgstr ""
 
-#: abaqus.Odb.OdbAssembly.OdbAssembly.Instance:1
-#: abaqus.Odb.OdbInstance.OdbInstance:1
-#: abaqus.Odb.OdbInstanceBase.OdbInstanceBase:13 of
-msgid "This method creates an OdbInstance object from an OdbPart object."
-msgstr ""
-
-#: ../../../../docstring abaqus.Odb.OdbAssembly.OdbAssembly.Instance:12
-#: abaqus.Odb.OdbInstance.OdbInstance:9
-#: abaqus.Odb.OdbInstanceBase.OdbInstanceBase:21
-#: abaqus.Odb.OdbInstanceBase.OdbInstanceBase.name:1
-#: abaqus.Odb.OdbSet.OdbMeshElement.instanceName:1 of
-msgid "A String specifying the instance name."
-msgstr ""
-
-#: abaqus.Odb.OdbInstance.OdbInstance:13
-#: abaqus.Odb.OdbInstanceBase.OdbInstanceBase:25 of
+#: abaqus.Odb.OdbAssembly.OdbAssembly.NodeSet:1
+#: abaqus.Odb.OdbInstance.OdbInstance.NodeSet:1
+#: abaqus.Odb.OdbPart.OdbPart.NodeSet:1 of
 msgid ""
-"A sequence of sequences of three Floats specifying the rotation and "
-"translation of the part instance in the global Cartesian coordinate "
-"system. The first three sequences specify the new local coordinate system "
-"with its center at the origin.The first sequence specifies a point on the "
-"1-axis.The second sequence specifies a point on the 2-axis.The third "
-"sequence specifies a point on the 3-axis.The fourth sequence specifies the"
-" translation of the local coordinate system from the origin to its "
-"intended location.For example, the following sequence moves a part 10 "
-"units in the **X** direction with no rotation: `localCoordSystem = ((1, 0,"
-" 0), (0, 1, 0), (0, 0, 1), (10, 0, 0))`The following sequence moves a part"
-" 5 units in the **X** direction with rotation: `localCoordSystem = ((0, 1,"
-" 0), (1, 0, 0), (0, 0, 1), (5, 0, 0))` transforms a part containing the "
-"two points `Pt1= (1,0,0) Pt2= (2,0,0)` to `Pt1 = (0, 6, 0) Pt2 = (0, 7, "
-"0)`"
-msgstr ""
-
-#: abaqus.Odb.OdbAssembly.OdbAssembly.Instance:28
-#: abaqus.Odb.OdbInstance.OdbInstance:25
-#: abaqus.Odb.OdbInstanceBase.OdbInstanceBase:37 of
-msgid "An OdbInstance object."
-msgstr ""
-
-#: abaqus.Odb.OdbAssembly.OdbAssembly.Instance:29
-#: abaqus.Odb.OdbInstance.OdbInstance:26
-#: abaqus.Odb.OdbInstanceBase.OdbInstanceBase:38 of
-msgid ":class:`OdbInstance`"
+"This method creates a node set from an array of OdbMeshNode objects (for "
+"part instance-level sets) or from a sequence of arrays of OdbMeshNode "
+"objects (for assembly-level sets)."
 msgstr ""
 
 #: abaqus.Odb.OdbAssembly.OdbAssembly.NodeSet:12
@@ -2249,6 +2000,15 @@ msgid ""
 "Check `NodeSet on help.3ds.com/2018 <https://help.3ds.com/2018/English/DSS"
 "IMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "nodesetpyc.htm?contextscope=all>`__."
+msgstr ""
+
+#: abaqus.Odb.OdbAssembly.OdbAssembly.NodeSet:17
+#: abaqus.Odb.OdbInstance.OdbInstance.NodeSet:17
+#: abaqus.Odb.OdbPart.OdbPart.NodeSet:17 of
+msgid ""
+"A sequence of OdbMeshNode objects. For example, for a "
+"part:`nodes=part1.nodes[1:5]`For an assembly:`nodes=(instance1.nodes[6:7],"
+" instance2.nodes[1:5])`"
 msgstr ""
 
 #: abaqus.Odb.OdbPart.OdbPart:1 of
@@ -2333,37 +2093,18 @@ msgid ""
 "sectionpointpyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: abaqus.Odb.SectionCategory.SectionCategory.SectionPoint:1
-#: abaqus.Odb.SectionPoint.SectionPoint:30 of
-msgid "This method creates a SectionPoint object."
-msgstr ""
-
-#: ../../../../docstring
-#: abaqus.Odb.SectionCategory.SectionCategory.SectionPoint:12
-#: abaqus.Odb.SectionPoint.SectionPoint:38
-#: abaqus.Odb.SectionPointArray.SectionPoint.number:1 of
-msgid ""
-"An Int specifying the number of the section point. See Beam elements and "
-"Shell elements for the numbering convention."
-msgstr ""
-
 #: ../../../../docstring
 #: abaqus.Odb.SectionCategory.SectionCategory.SectionPoint:15
-#: abaqus.Odb.SectionPoint.SectionPoint:41
 #: abaqus.Odb.SectionPointArray.SectionPoint.description:1 of
 msgid "A String specifying the description of the section point."
 msgstr ""
 
-#: ../../../../docstring abaqus.Odb.FieldValueArray.FieldValue.sectionPoint:1
-#: abaqus.Odb.OdbStepBase.HistoryPoint.sectionPoint:1
-#: abaqus.Odb.SectionCategory.SectionCategory.SectionPoint:17
-#: abaqus.Odb.SectionPoint.SectionPoint:43 of
-msgid "A SectionPoint object."
-msgstr ""
-
-#: abaqus.Odb.SectionCategory.SectionCategory.SectionPoint:18
-#: abaqus.Odb.SectionPoint.SectionPoint:44 of
-msgid ":class:`SectionPoint`"
+#: ../../../../docstring
+#: abaqus.Odb.SectionCategory.SectionCategory.SectionPoint:12
+#: abaqus.Odb.SectionPointArray.SectionPoint.number:1 of
+msgid ""
+"An Int specifying the number of the section point. See Beam elements and "
+"Shell elements for the numbering convention."
 msgstr ""
 
 #: abaqus.Odb.FieldLocation.FieldLocation:1 of
@@ -2493,8 +2234,7 @@ msgstr ""
 msgid "A FieldLocationArray object."
 msgstr ""
 
-#: ../../../../docstring abaqus.Odb.HistoryOutput.HistoryOutput:20
-#: abaqus.Odb.HistoryRegion.HistoryOutput.name:1
+#: ../../../../docstring abaqus.Odb.HistoryRegion.HistoryOutput.name:1
 #: abaqus.Odb.HistoryRegion.HistoryRegion.HistoryOutput:9
 #: abaqus.Odb.OdbStepBase.FieldOutput.name:1 of
 msgid "A String specifying the output variable name."
@@ -2702,6 +2442,12 @@ msgstr ""
 
 #: abaqus.Odb.OdbMeshElement.OdbMeshElement.getNormal:30 of
 msgid "If **frameValue** is not provided and **stepName** is empty."
+msgstr ""
+
+#: ../../../../docstring abaqus.Odb.OdbAssembly.OdbAssembly.Instance:12
+#: abaqus.Odb.OdbInstanceBase.OdbInstanceBase.name:1
+#: abaqus.Odb.OdbSet.OdbMeshElement.instanceName:1 of
+msgid "A String specifying the instance name."
 msgstr ""
 
 #: ../../../../docstring abaqus.Odb.OdbSet.OdbMeshElement.instanceNames:1 of
@@ -2962,6 +2708,12 @@ msgid ""
 "is indeterminate. Conjugate data will be ignored in invariant calculation."
 msgstr ""
 
+#: ../../../../docstring abaqus.Odb.FieldValueArray.FieldValue.sectionPoint:1
+#: abaqus.Odb.OdbStepBase.HistoryPoint.sectionPoint:1
+#: abaqus.Odb.SectionCategory.SectionCategory.SectionPoint:17 of
+msgid "A SectionPoint object."
+msgstr ""
+
 #: ../../../../docstring abaqus.Odb.FieldValueArray.FieldValue.tresca:1 of
 msgid ""
 "A Float specifying the calculated Tresca stress. The value is valid only "
@@ -2982,45 +2734,6 @@ msgid ""
 "historyoutputpyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: abaqus.Odb.HistoryOutput.HistoryOutput:12
-#: abaqus.Odb.HistoryRegion.HistoryRegion.HistoryOutput:1 of
-msgid "This method creates a HistoryOutput object."
-msgstr ""
-
-#: ../../../../docstring abaqus.Odb.HistoryOutput.HistoryOutput:22
-#: abaqus.Odb.HistoryRegion.HistoryOutput.description:1
-#: abaqus.Odb.HistoryRegion.HistoryRegion.HistoryOutput:11 of
-msgid "A String specifying the output variable."
-msgstr ""
-
-#: ../../../../docstring abaqus.Odb.HistoryOutput.HistoryOutput:24
-#: abaqus.Odb.HistoryRegion.HistoryOutput.type:1
-#: abaqus.Odb.HistoryRegion.HistoryRegion.HistoryOutput:13 of
-msgid ""
-"A SymbolicConstant specifying the output type. Only SCALAR is currently "
-"supported."
-msgstr ""
-
-#: ../../../../docstring abaqus.Odb.HistoryOutput.HistoryOutput:26
-#: abaqus.Odb.HistoryRegion.HistoryOutput.validInvariants:1
-#: abaqus.Odb.HistoryRegion.HistoryRegion.HistoryOutput:15 of
-msgid ""
-"A sequence of SymbolicConstants specifying which invariants should be "
-"calculated for this field. Possible values are MAGNITUDE, MISES, TRESCA, "
-"PRESS, INV3, MAX_PRINCIPAL, MID_PRINCIPAL, and MIN_PRINCIPAL. The default "
-"value is an empty sequence."
-msgstr ""
-
-#: abaqus.Odb.HistoryOutput.HistoryOutput:30
-#: abaqus.Odb.HistoryRegion.HistoryRegion.HistoryOutput:19 of
-msgid "A HistoryOutput object."
-msgstr ""
-
-#: abaqus.Odb.HistoryOutput.HistoryOutput:31
-#: abaqus.Odb.HistoryRegion.HistoryRegion.HistoryOutput:20 of
-msgid ":class:`HistoryOutput`"
-msgstr ""
-
 #: ../../../../docstring abaqus.Odb.HistoryRegion.HistoryOutput.conjugateData:1
 #: of
 msgid ""
@@ -3035,6 +2748,28 @@ msgid ""
 "where **frameValue** is either time, frequency, or mode and **value** is "
 "the value of the specified variable at **frameValue**. (This value depends"
 " on the type of the variable.)"
+msgstr ""
+
+#: ../../../../docstring abaqus.Odb.HistoryRegion.HistoryOutput.description:1
+#: abaqus.Odb.HistoryRegion.HistoryRegion.HistoryOutput:11 of
+msgid "A String specifying the output variable."
+msgstr ""
+
+#: ../../../../docstring abaqus.Odb.HistoryRegion.HistoryOutput.type:1
+#: abaqus.Odb.HistoryRegion.HistoryRegion.HistoryOutput:13 of
+msgid ""
+"A SymbolicConstant specifying the output type. Only SCALAR is currently "
+"supported."
+msgstr ""
+
+#: ../../../../docstring
+#: abaqus.Odb.HistoryRegion.HistoryOutput.validInvariants:1
+#: abaqus.Odb.HistoryRegion.HistoryRegion.HistoryOutput:15 of
+msgid ""
+"A sequence of SymbolicConstants specifying which invariants should be "
+"calculated for this field. Possible values are MAGNITUDE, MISES, TRESCA, "
+"PRESS, INV3, MAX_PRINCIPAL, MID_PRINCIPAL, and MIN_PRINCIPAL. The default "
+"value is an empty sequence."
 msgstr ""
 
 #: abaqus.Odb.HistoryPoint.HistoryPoint:1 of
@@ -3397,6 +3132,10 @@ msgid ""
 "rr-θθ plane."
 msgstr ""
 
+#: abaqus.Odb.OdbAssembly.OdbAssembly.Instance:1 of
+msgid "This method creates an OdbInstance object from an OdbPart object."
+msgstr ""
+
 #: abaqus.Odb.OdbAssembly.OdbAssembly.Instance:9 of
 msgid ""
 "Check `Instance on help.3ds.com/2018 <https://help.3ds.com/2018/English/DS"
@@ -3421,13 +3160,19 @@ msgid ""
 "points`Pt1= (1,0,0) Pt2= (2,0,0)` to `Pt1 = (0, 6, 0) Pt2 = (0, 7, 0)`"
 msgstr ""
 
-#: abaqus.Odb.OdbAssembly.OdbAssembly.RigidBody:1
-#: abaqus.Odb.OdbRigidBody.OdbRigidBody:16 of
+#: abaqus.Odb.OdbAssembly.OdbAssembly.Instance:28 of
+msgid "An OdbInstance object."
+msgstr ""
+
+#: abaqus.Odb.OdbAssembly.OdbAssembly.Instance:29 of
+msgid ":class:`OdbInstance`"
+msgstr ""
+
+#: abaqus.Odb.OdbAssembly.OdbAssembly.RigidBody:1 of
 msgid "This method creates a OdbRigidBody object."
 msgstr ""
 
 #: ../../../../docstring abaqus.Odb.OdbAssembly.OdbAssembly.RigidBody:13
-#: abaqus.Odb.OdbRigidBody.OdbRigidBody:25
 #: abaqus.Odb.OdbRigidBodyArray.OdbRigidBody.referenceNode:1 of
 msgid ""
 "An OdbSet object specifying the reference node set associated with the "
@@ -3435,7 +3180,6 @@ msgid ""
 msgstr ""
 
 #: ../../../../docstring abaqus.Odb.OdbAssembly.OdbAssembly.RigidBody:15
-#: abaqus.Odb.OdbRigidBody.OdbRigidBody:27
 #: abaqus.Odb.OdbRigidBodyArray.OdbRigidBody.position:1 of
 msgid ""
 "A SymbolicConstant specifying the specific location of the OdbRigidBody "
@@ -3444,7 +3188,6 @@ msgid ""
 msgstr ""
 
 #: ../../../../docstring abaqus.Odb.OdbAssembly.OdbAssembly.RigidBody:19
-#: abaqus.Odb.OdbRigidBody.OdbRigidBody:31
 #: abaqus.Odb.OdbRigidBodyArray.OdbRigidBody.isothermal:1 of
 msgid ""
 "A Boolean specifying specify whether the OdbRigidBody can have temperature"
@@ -3453,7 +3196,6 @@ msgid ""
 msgstr ""
 
 #: ../../../../docstring abaqus.Odb.OdbAssembly.OdbAssembly.RigidBody:23
-#: abaqus.Odb.OdbRigidBody.OdbRigidBody:35
 #: abaqus.Odb.OdbRigidBodyArray.OdbRigidBody.elements:1 of
 msgid ""
 "An OdbSet object specifying the element set whose motion is governed by "
@@ -3461,7 +3203,6 @@ msgid ""
 msgstr ""
 
 #: ../../../../docstring abaqus.Odb.OdbAssembly.OdbAssembly.RigidBody:26
-#: abaqus.Odb.OdbRigidBody.OdbRigidBody:38
 #: abaqus.Odb.OdbRigidBodyArray.OdbRigidBody.tieNodes:1 of
 msgid ""
 "An OdbSet object specifying the node set which have both translational and"
@@ -3469,20 +3210,17 @@ msgid ""
 msgstr ""
 
 #: ../../../../docstring abaqus.Odb.OdbAssembly.OdbAssembly.RigidBody:29
-#: abaqus.Odb.OdbRigidBody.OdbRigidBody:41
 #: abaqus.Odb.OdbRigidBodyArray.OdbRigidBody.pinNodes:1 of
 msgid ""
 "An OdbSet object specifying the node set which have only translational "
 "degrees of freedom associated with the rigid body."
 msgstr ""
 
-#: abaqus.Odb.OdbAssembly.OdbAssembly.RigidBody:32
-#: abaqus.Odb.OdbRigidBody.OdbRigidBody:47 of
+#: abaqus.Odb.OdbAssembly.OdbAssembly.RigidBody:32 of
 msgid "An OdbRigidBody object."
 msgstr ""
 
-#: abaqus.Odb.OdbAssembly.OdbAssembly.RigidBody:33
-#: abaqus.Odb.OdbRigidBody.OdbRigidBody:48 of
+#: abaqus.Odb.OdbAssembly.OdbAssembly.RigidBody:33 of
 msgid ":class:`OdbRigidBody`"
 msgstr ""
 
@@ -3500,54 +3238,45 @@ msgid ""
 "historyregionpyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: abaqus.Odb.HistoryRegion.HistoryRegion:12
-#: abaqus.Odb.OdbStep.OdbStep.HistoryRegion:1 of
-msgid "This method creates a HistoryRegion object."
+#: abaqus.Odb.HistoryRegion.HistoryRegion.HistoryOutput:1 of
+msgid "This method creates a HistoryOutput object."
 msgstr ""
 
-#: ../../../../docstring abaqus.Odb.HistoryRegion.HistoryRegion:20
-#: abaqus.Odb.OdbStep.OdbStep.HistoryRegion:12
-#: abaqus.Odb.OdbStepBase.HistoryRegion.name:1 of
-msgid "A String specifying the name of the HistoryRegion object."
+#: abaqus.Odb.HistoryRegion.HistoryRegion.HistoryOutput:19 of
+msgid "A HistoryOutput object."
 msgstr ""
 
-#: ../../../../docstring abaqus.Odb.HistoryRegion.HistoryRegion:22
-#: abaqus.Odb.OdbStep.OdbStep.HistoryRegion:14
+#: abaqus.Odb.HistoryRegion.HistoryRegion.HistoryOutput:20 of
+msgid ":class:`HistoryOutput`"
+msgstr ""
+
+#: ../../../../docstring abaqus.Odb.OdbStep.OdbStep.HistoryRegion:14
 #: abaqus.Odb.OdbStepBase.HistoryRegion.description:1 of
 msgid "A String specifying the description of the HistoryRegion object."
 msgstr ""
 
-#: ../../../../docstring abaqus.Odb.HistoryRegion.HistoryRegion:24
-#: abaqus.Odb.OdbStep.OdbStep.HistoryRegion:16
-#: abaqus.Odb.OdbStepBase.HistoryRegion.point:1 of
-msgid ""
-"A HistoryPoint object specifying the point to which the history data "
-"refer."
+#: ../../../../docstring abaqus.Odb.OdbStepBase.HistoryRegion.historyOutputs:1
+#: of
+msgid "A repository of HistoryOutput objects."
 msgstr ""
 
-#: ../../../../docstring abaqus.Odb.HistoryRegion.HistoryRegion:26
-#: abaqus.Odb.OdbStep.OdbStep.HistoryRegion:18
+#: ../../../../docstring abaqus.Odb.OdbStep.OdbStep.HistoryRegion:18
 #: abaqus.Odb.OdbStepBase.HistoryRegion.loadCase:1 of
 msgid ""
 "None or an OdbLoadCase object specifying the load case associated with the"
 " HistoryRegion object. The default value is None."
 msgstr ""
 
-#: abaqus.Odb.HistoryRegion.HistoryRegion:29
-#: abaqus.Odb.OdbStep.OdbStep.HistoryRegion:21
-#: abaqus.Odb.OdbStepBase.OdbStepBase.getHistoryRegion:8 of
-msgid "A HistoryRegion object."
+#: ../../../../docstring abaqus.Odb.OdbStep.OdbStep.HistoryRegion:12
+#: abaqus.Odb.OdbStepBase.HistoryRegion.name:1 of
+msgid "A String specifying the name of the HistoryRegion object."
 msgstr ""
 
-#: abaqus.Odb.HistoryRegion.HistoryRegion:30
-#: abaqus.Odb.OdbStep.OdbStep.HistoryRegion:22
-#: abaqus.Odb.OdbStepBase.OdbStepBase.getHistoryRegion:9 of
-msgid ":class:`HistoryRegion`"
-msgstr ""
-
-#: ../../../../docstring abaqus.Odb.OdbStepBase.HistoryRegion.historyOutputs:1
-#: of
-msgid "A repository of HistoryOutput objects."
+#: ../../../../docstring abaqus.Odb.OdbStep.OdbStep.HistoryRegion:16
+#: abaqus.Odb.OdbStepBase.HistoryRegion.point:1 of
+msgid ""
+"A HistoryPoint object specifying the point to which the history data "
+"refer."
 msgstr ""
 
 #: ../../../../docstring abaqus.Odb.OdbStepBase.HistoryRegion.position:1 of
@@ -3615,24 +3344,34 @@ msgstr ""
 msgid "Bases: :py:class:`~abaqus.Odb.OdbStepBase.OdbStepBase`"
 msgstr ""
 
-#: abaqus.Odb.OdbLoadCase.OdbLoadCase:14 abaqus.Odb.OdbStep.OdbStep.LoadCase:1
-#: of
+#: abaqus.Odb.OdbStep.OdbStep.HistoryRegion:1 of
+msgid "This method creates a HistoryRegion object."
+msgstr ""
+
+#: abaqus.Odb.OdbStep.OdbStep.HistoryRegion:21
+#: abaqus.Odb.OdbStepBase.OdbStepBase.getHistoryRegion:8 of
+msgid "A HistoryRegion object."
+msgstr ""
+
+#: abaqus.Odb.OdbStep.OdbStep.HistoryRegion:22
+#: abaqus.Odb.OdbStepBase.OdbStepBase.getHistoryRegion:9 of
+msgid ":class:`HistoryRegion`"
+msgstr ""
+
+#: abaqus.Odb.OdbStep.OdbStep.LoadCase:1 of
 msgid "This method creates an OdbLoadCase object."
 msgstr ""
 
-#: ../../../../docstring abaqus.Odb.OdbLoadCase.OdbLoadCase:22
-#: abaqus.Odb.OdbStep.OdbStep.LoadCase:9
+#: ../../../../docstring abaqus.Odb.OdbStep.OdbStep.LoadCase:9
 #: abaqus.Odb.OdbStepBase.OdbLoadCase.name:1 of
 msgid "A String specifying the name of the OdbLoadCase object."
 msgstr ""
 
-#: abaqus.Odb.OdbLoadCase.OdbLoadCase:24 abaqus.Odb.OdbStep.OdbStep.LoadCase:11
-#: of
+#: abaqus.Odb.OdbStep.OdbStep.LoadCase:11 of
 msgid "An OdbLoadCase object."
 msgstr ""
 
-#: abaqus.Odb.OdbLoadCase.OdbLoadCase:25 abaqus.Odb.OdbStep.OdbStep.LoadCase:12
-#: of
+#: abaqus.Odb.OdbStep.OdbStep.LoadCase:12 of
 msgid ":class:`OdbLoadCase`"
 msgstr ""
 
@@ -3644,6 +3383,14 @@ msgid ""
 "particular section definition, use the individual Section objects in the "
 "output database. For more information, see Beam Section profile commands "
 "and Section commands."
+msgstr ""
+
+#: abaqus.Odb.SectionCategory.SectionCategory.SectionPoint:1 of
+msgid "This method creates a SectionPoint object."
+msgstr ""
+
+#: abaqus.Odb.SectionCategory.SectionCategory.SectionPoint:18 of
+msgid ":class:`SectionPoint`"
 msgstr ""
 
 #: abaqus.Odb.OdbAssemblyBase.OdbAssemblyBase:1 of
@@ -3976,7 +3723,7 @@ msgid ""
 "odbrigidbodypyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: ../../../../docstring abaqus.Odb.OdbRigidBody.OdbRigidBody:44
+#: ../../../../docstring
 #: abaqus.Odb.OdbRigidBodyArray.OdbRigidBody.analyticSurface:1 of
 msgid ""
 "An AnalyticSurface object specifying the analytic surface whose motion is "
@@ -4076,8 +3823,20 @@ msgid ""
 "Bases: :py:class:`~abaqus.Annotation.AnimationUserData.AnimationUserData`"
 msgstr ""
 
+#: abaqus.Odb.OdbCommands.AnalyticSurfaceProfile:1 of
+msgid "This method creates a OdbSequenceAnalyticSurfaceSegment object."
+msgstr ""
+
 #: abaqus.Odb.OdbCommands.AnalyticSurfaceProfile:3 of
 msgid "Path::"
+msgstr ""
+
+#: abaqus.Odb.OdbCommands.AnalyticSurfaceProfile:7 of
+msgid "An OdbSequenceAnalyticSurfaceSegment object."
+msgstr ""
+
+#: abaqus.Odb.OdbCommands.AnalyticSurfaceProfile:8 of
+msgid ":class:`OdbSequenceAnalyticSurfaceSegment`"
 msgstr ""
 
 #: abaqus.Odb.OdbCommands.isUpgradeRequiredForOdb:1 of
@@ -4191,6 +3950,14 @@ msgid ""
 "A Boolean specifying whether the file will permit access to sets specified"
 " as Internal on the database. The initial value is ``False``, indicating "
 "that internal sets will not be read."
+msgstr ""
+
+#: abaqus.Odb.OdbCommands.openOdb:22 of
+msgid "An Odb object."
+msgstr ""
+
+#: abaqus.Odb.OdbCommands.openOdb:23 of
+msgid ":class:`Odb`"
 msgstr ""
 
 #: abaqus.Odb.OdbCommands.openOdb:25 of
@@ -4815,8 +4582,7 @@ msgstr ""
 msgid "Bases: :py:class:`~abaqus.Session.SessionBase.SessionBase`"
 msgstr ""
 
-#: abaqus.Odb.OdbSession.OdbSession.ScratchOdb:1
-#: abaqus.Odb.ScratchOdb.ScratchOdb:15 of
+#: abaqus.Odb.OdbSession.OdbSession.ScratchOdb:1 of
 msgid "This method creates a new ScratchOdb object."
 msgstr ""
 
@@ -4827,19 +4593,16 @@ msgid ""
 "scratchodbpyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: abaqus.Odb.OdbSession.OdbSession.ScratchOdb:12
-#: abaqus.Odb.ScratchOdb.ScratchOdb:23 of
+#: abaqus.Odb.OdbSession.OdbSession.ScratchOdb:12 of
 msgid ""
 "An Odb object specifying the output database with which to associate."
 msgstr ""
 
-#: abaqus.Odb.OdbSession.OdbSession.ScratchOdb:14
-#: abaqus.Odb.ScratchOdb.ScratchOdb:25 of
+#: abaqus.Odb.OdbSession.OdbSession.ScratchOdb:14 of
 msgid "A ScratchOdb object."
 msgstr ""
 
-#: abaqus.Odb.OdbSession.OdbSession.ScratchOdb:15
-#: abaqus.Odb.ScratchOdb.ScratchOdb:26 of
+#: abaqus.Odb.OdbSession.OdbSession.ScratchOdb:15 of
 msgid ":class:`ScratchOdb`"
 msgstr ""
 

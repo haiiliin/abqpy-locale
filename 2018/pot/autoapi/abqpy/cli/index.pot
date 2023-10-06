@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: abqpy 2018\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-05 01:10+0000\n"
+"POT-Creation-Date: 2023-10-06 02:36+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -119,220 +119,229 @@ msgstr ""
 msgid "Miscellaneous commands for backward compatibility."
 msgstr ""
 
-#: ../../../../None:50:<autosummary>:1
+#: ../../../../None:51:<autosummary>:1
 msgid ":py:obj:`cae <abqpy.cli.AbqpyCLI.cae>`\\ \\(script\\, \\*args\\[\\, database\\, replay\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../autoapi/abqpy/cli/index.rst:80
-#: ../../../../None:50:<autosummary>:1
+#: ../../../../None:51:<autosummary>:1
 msgid "Run Abaqus/CAE command."
 msgstr ""
 
-#: ../../../../None:50:<autosummary>:1
+#: ../../../../None:51:<autosummary>:1
 msgid ":py:obj:`viewer <abqpy.cli.AbqpyCLI.viewer>`\\ \\(script\\, \\*args\\[\\, database\\, replay\\, ...\\]\\)"
 msgstr ""
 
-#: ../../../../None:50:<autosummary>:1
-msgid ":py:obj:`python <abqpy.cli.AbqpyCLI.python>`\\ \\(script\\, \\*args\\[\\, sim\\, log\\]\\)"
+#: ../../../../None:51:<autosummary>:1
+msgid ":py:obj:`pde <abqpy.cli.AbqpyCLI.pde>`\\ \\(\\*scripts\\[\\, script\\]\\)"
 msgstr ""
 
 #: ../../../autoapi/abqpy/cli/index.rst:113
-#: ../../../../None:50:<autosummary>:1
+#: ../../../../None:51:<autosummary>:1
+msgid "Run Abaqus/PDE command."
+msgstr ""
+
+#: ../../../../None:51:<autosummary>:1
+msgid ":py:obj:`python <abqpy.cli.AbqpyCLI.python>`\\ \\(script\\, \\*args\\[\\, sim\\, log\\]\\)"
+msgstr ""
+
+#: ../../../autoapi/abqpy/cli/index.rst:124
+#: ../../../../None:51:<autosummary>:1
 msgid "Run Abaqus/Python command."
 msgstr ""
 
-#: ../../../../None:50:<autosummary>:1
+#: ../../../../None:51:<autosummary>:1
 msgid ":py:obj:`optimization <abqpy.cli.AbqpyCLI.optimization>`\\ \\(task\\, job\\, \\*\\[\\, cpus\\, gpus\\, ...\\]\\)"
 msgstr ""
 
-#: ../../../autoapi/abqpy/cli/index.rst:127
-#: ../../../../None:50:<autosummary>:1
+#: ../../../autoapi/abqpy/cli/index.rst:138
+#: ../../../../None:51:<autosummary>:1
 msgid "Run Abaqus optimization command."
 msgstr ""
 
-#: ../../../../None:50:<autosummary>:1
+#: ../../../../None:51:<autosummary>:1
 msgid ":py:obj:`help <abqpy.cli.AbqpyCLI.help>`\\ \\(\\*args\\, \\*\\*options\\)"
 msgstr ""
 
-#: ../../../../None:50:<autosummary>:1
+#: ../../../../None:51:<autosummary>:1
 msgid ":py:obj:`information <abqpy.cli.AbqpyCLI.information>`\\ \\(\\*args\\, \\*\\*options\\)"
 msgstr ""
 
-#: ../../../../None:50:<autosummary>:1
+#: ../../../../None:51:<autosummary>:1
 msgid ":py:obj:`whereami <abqpy.cli.AbqpyCLI.whereami>`\\ \\(\\*args\\, \\*\\*options\\)"
 msgstr ""
 
-#: ../../../../None:50:<autosummary>:1
+#: ../../../../None:51:<autosummary>:1
 msgid ":py:obj:`cse <abqpy.cli.AbqpyCLI.cse>`\\ \\(\\*args\\, \\*\\*options\\)"
 msgstr ""
 
-#: ../../../../None:50:<autosummary>:1
+#: ../../../../None:51:<autosummary>:1
 msgid ":py:obj:`cosimulation <abqpy.cli.AbqpyCLI.cosimulation>`\\ \\(\\*args\\, \\*\\*options\\)"
 msgstr ""
 
-#: ../../../../None:50:<autosummary>:1
+#: ../../../../None:51:<autosummary>:1
 msgid ":py:obj:`fmu <abqpy.cli.AbqpyCLI.fmu>`\\ \\(\\*args\\, \\*\\*options\\)"
 msgstr ""
 
-#: ../../../../None:50:<autosummary>:1
+#: ../../../../None:51:<autosummary>:1
 msgid ":py:obj:`script <abqpy.cli.AbqpyCLI.script>`\\ \\(\\*args\\, \\*\\*options\\)"
 msgstr ""
 
-#: ../../../../None:50:<autosummary>:1
+#: ../../../../None:51:<autosummary>:1
 msgid ":py:obj:`doc <abqpy.cli.AbqpyCLI.doc>`\\ \\(\\*args\\, \\*\\*options\\)"
 msgstr ""
 
-#: ../../../../None:50:<autosummary>:1
+#: ../../../../None:51:<autosummary>:1
 msgid ":py:obj:`licensing <abqpy.cli.AbqpyCLI.licensing>`\\ \\(\\*args\\, \\*\\*options\\)"
 msgstr ""
 
-#: ../../../../None:50:<autosummary>:1
+#: ../../../../None:51:<autosummary>:1
 msgid ":py:obj:`ascfil <abqpy.cli.AbqpyCLI.ascfil>`\\ \\(\\*args\\, \\*\\*options\\)"
 msgstr ""
 
-#: ../../../../None:50:<autosummary>:1
+#: ../../../../None:51:<autosummary>:1
 msgid ":py:obj:`append <abqpy.cli.AbqpyCLI.append>`\\ \\(\\*args\\, \\*\\*options\\)"
 msgstr ""
 
-#: ../../../../None:50:<autosummary>:1
+#: ../../../../None:51:<autosummary>:1
 msgid ":py:obj:`findkeyword <abqpy.cli.AbqpyCLI.findkeyword>`\\ \\(\\*args\\, \\*\\*options\\)"
 msgstr ""
 
-#: ../../../../None:50:<autosummary>:1
+#: ../../../../None:51:<autosummary>:1
 msgid ":py:obj:`fetch <abqpy.cli.AbqpyCLI.fetch>`\\ \\(\\*args\\, \\*\\*options\\)"
 msgstr ""
 
-#: ../../../../None:50:<autosummary>:1
+#: ../../../../None:51:<autosummary>:1
 msgid ":py:obj:`make <abqpy.cli.AbqpyCLI.make>`\\ \\(\\*args\\, \\*\\*options\\)"
 msgstr ""
 
-#: ../../../../None:50:<autosummary>:1
+#: ../../../../None:51:<autosummary>:1
 msgid ":py:obj:`upgrade <abqpy.cli.AbqpyCLI.upgrade>`\\ \\(\\*args\\, \\*\\*options\\)"
 msgstr ""
 
-#: ../../../../None:50:<autosummary>:1
+#: ../../../../None:51:<autosummary>:1
 msgid ":py:obj:`sim_version <abqpy.cli.AbqpyCLI.sim_version>`\\ \\(\\*args\\, \\*\\*options\\)"
 msgstr ""
 
-#: ../../../../None:50:<autosummary>:1
+#: ../../../../None:51:<autosummary>:1
 msgid ":py:obj:`odb2sim <abqpy.cli.AbqpyCLI.odb2sim>`\\ \\(\\*args\\, \\*\\*options\\)"
 msgstr ""
 
-#: ../../../../None:50:<autosummary>:1
+#: ../../../../None:51:<autosummary>:1
 msgid ":py:obj:`odbreport <abqpy.cli.AbqpyCLI.odbreport>`\\ \\(\\*args\\, \\*\\*options\\)"
 msgstr ""
 
-#: ../../../../None:50:<autosummary>:1
+#: ../../../../None:51:<autosummary>:1
 msgid ":py:obj:`restartjoin <abqpy.cli.AbqpyCLI.restartjoin>`\\ \\(\\*args\\, \\*\\*options\\)"
 msgstr ""
 
-#: ../../../../None:50:<autosummary>:1
+#: ../../../../None:51:<autosummary>:1
 msgid ":py:obj:`substructurecombine <abqpy.cli.AbqpyCLI.substructurecombine>`\\ \\(\\*args\\, \\*\\*options\\)"
 msgstr ""
 
-#: ../../../../None:50:<autosummary>:1
+#: ../../../../None:51:<autosummary>:1
 msgid ":py:obj:`substructurerecover <abqpy.cli.AbqpyCLI.substructurerecover>`\\ \\(\\*args\\, \\*\\*options\\)"
 msgstr ""
 
-#: ../../../../None:50:<autosummary>:1
+#: ../../../../None:51:<autosummary>:1
 msgid ":py:obj:`odbcombine <abqpy.cli.AbqpyCLI.odbcombine>`\\ \\(\\*args\\, \\*\\*options\\)"
 msgstr ""
 
-#: ../../../../None:50:<autosummary>:1
+#: ../../../../None:51:<autosummary>:1
 msgid ":py:obj:`networkDBConnector <abqpy.cli.AbqpyCLI.networkDBConnector>`\\ \\(\\*args\\, \\*\\*options\\)"
 msgstr ""
 
-#: ../../../../None:50:<autosummary>:1
+#: ../../../../None:51:<autosummary>:1
 msgid ":py:obj:`emloads <abqpy.cli.AbqpyCLI.emloads>`\\ \\(\\*args\\, \\*\\*options\\)"
 msgstr ""
 
-#: ../../../../None:50:<autosummary>:1
+#: ../../../../None:51:<autosummary>:1
 msgid ":py:obj:`mtxasm <abqpy.cli.AbqpyCLI.mtxasm>`\\ \\(\\*args\\, \\*\\*options\\)"
 msgstr ""
 
-#: ../../../../None:50:<autosummary>:1
+#: ../../../../None:51:<autosummary>:1
 msgid ":py:obj:`fromnastran <abqpy.cli.AbqpyCLI.fromnastran>`\\ \\(\\*args\\, \\*\\*options\\)"
 msgstr ""
 
-#: ../../../../None:50:<autosummary>:1
+#: ../../../../None:51:<autosummary>:1
 msgid ":py:obj:`tonastran <abqpy.cli.AbqpyCLI.tonastran>`\\ \\(\\*args\\, \\*\\*options\\)"
 msgstr ""
 
-#: ../../../../None:50:<autosummary>:1
+#: ../../../../None:51:<autosummary>:1
 msgid ":py:obj:`fromansys <abqpy.cli.AbqpyCLI.fromansys>`\\ \\(\\*args\\, \\*\\*options\\)"
 msgstr ""
 
-#: ../../../../None:50:<autosummary>:1
+#: ../../../../None:51:<autosummary>:1
 msgid ":py:obj:`frompamcrash <abqpy.cli.AbqpyCLI.frompamcrash>`\\ \\(\\*args\\, \\*\\*options\\)"
 msgstr ""
 
-#: ../../../../None:50:<autosummary>:1
+#: ../../../../None:51:<autosummary>:1
 msgid ":py:obj:`fromradioss <abqpy.cli.AbqpyCLI.fromradioss>`\\ \\(\\*args\\, \\*\\*options\\)"
 msgstr ""
 
-#: ../../../../None:50:<autosummary>:1
+#: ../../../../None:51:<autosummary>:1
 msgid ":py:obj:`toOutput2 <abqpy.cli.AbqpyCLI.toOutput2>`\\ \\(\\*args\\, \\*\\*options\\)"
 msgstr ""
 
-#: ../../../../None:50:<autosummary>:1
+#: ../../../../None:51:<autosummary>:1
 msgid ":py:obj:`fromdyna <abqpy.cli.AbqpyCLI.fromdyna>`\\ \\(\\*args\\, \\*\\*options\\)"
 msgstr ""
 
-#: ../../../../None:50:<autosummary>:1
+#: ../../../../None:51:<autosummary>:1
 msgid ":py:obj:`tozaero <abqpy.cli.AbqpyCLI.tozaero>`\\ \\(\\*args\\, \\*\\*options\\)"
 msgstr ""
 
-#: ../../../../None:50:<autosummary>:1
+#: ../../../../None:51:<autosummary>:1
 msgid ":py:obj:`adams <abqpy.cli.AbqpyCLI.adams>`\\ \\(\\*args\\, \\*\\*options\\)"
 msgstr ""
 
-#: ../../../../None:50:<autosummary>:1
+#: ../../../../None:51:<autosummary>:1
 msgid ":py:obj:`tosimpack <abqpy.cli.AbqpyCLI.tosimpack>`\\ \\(\\*args\\, \\*\\*options\\)"
 msgstr ""
 
-#: ../../../../None:50:<autosummary>:1
+#: ../../../../None:51:<autosummary>:1
 msgid ":py:obj:`fromsimpack <abqpy.cli.AbqpyCLI.fromsimpack>`\\ \\(\\*args\\, \\*\\*options\\)"
 msgstr ""
 
-#: ../../../../None:50:<autosummary>:1
+#: ../../../../None:51:<autosummary>:1
 msgid ":py:obj:`toexcite <abqpy.cli.AbqpyCLI.toexcite>`\\ \\(\\*args\\, \\*\\*options\\)"
 msgstr ""
 
-#: ../../../../None:50:<autosummary>:1
+#: ../../../../None:51:<autosummary>:1
 msgid ":py:obj:`moldflow <abqpy.cli.AbqpyCLI.moldflow>`\\ \\(\\*args\\, \\*\\*options\\)"
 msgstr ""
 
-#: ../../../../None:50:<autosummary>:1
+#: ../../../../None:51:<autosummary>:1
 msgid ":py:obj:`encrypt <abqpy.cli.AbqpyCLI.encrypt>`\\ \\(\\*args\\, \\*\\*options\\)"
 msgstr ""
 
-#: ../../../../None:50:<autosummary>:1
+#: ../../../../None:51:<autosummary>:1
 msgid ":py:obj:`decrypt <abqpy.cli.AbqpyCLI.decrypt>`\\ \\(\\*args\\, \\*\\*options\\)"
 msgstr ""
 
-#: ../../../../None:50:<autosummary>:1
+#: ../../../../None:51:<autosummary>:1
 msgid ":py:obj:`suspend <abqpy.cli.AbqpyCLI.suspend>`\\ \\(\\*args\\, \\*\\*options\\)"
 msgstr ""
 
-#: ../../../../None:50:<autosummary>:1
+#: ../../../../None:51:<autosummary>:1
 msgid ":py:obj:`resume <abqpy.cli.AbqpyCLI.resume>`\\ \\(\\*args\\, \\*\\*options\\)"
 msgstr ""
 
-#: ../../../../None:50:<autosummary>:1
+#: ../../../../None:51:<autosummary>:1
 msgid ":py:obj:`terminate <abqpy.cli.AbqpyCLI.terminate>`\\ \\(\\*args\\, \\*\\*options\\)"
 msgstr ""
 
-#: ../../../../None:50:<autosummary>:1
+#: ../../../../None:51:<autosummary>:1
 msgid ":py:obj:`sysVerify <abqpy.cli.AbqpyCLI.sysVerify>`\\ \\(\\*args\\, \\*\\*options\\)"
 msgstr ""
 
 #: ../../../autoapi/abqpy/cli/index.rst:82
-#: ../../../autoapi/abqpy/cli/index.rst:115
+#: ../../../autoapi/abqpy/cli/index.rst:126
 msgid "The name of the python script to run"
 msgstr ""
 
 #: ../../../autoapi/abqpy/cli/index.rst:84
-#: ../../../autoapi/abqpy/cli/index.rst:117
+#: ../../../autoapi/abqpy/cli/index.rst:128
 msgid "Extra arguments to be passed after the Abaqus/CAE command line options"
 msgstr ""
 
@@ -380,42 +389,54 @@ msgstr ""
 msgid "Record the GUI commands to a file, by default None"
 msgstr ""
 
+#: ../../../autoapi/abqpy/cli/index.rst:115
+msgid "Scripts to be included in the Abaqus/PDE session"
+msgstr ""
+
+#: ../../../autoapi/abqpy/cli/index.rst:117
+msgid "Script to be opened at startup in Abaqus/PDE, by default None"
+msgstr ""
+
 #: ../../../autoapi/abqpy/cli/index.rst:119
+msgid "Abaqus/CAE command line arguments"
+msgstr ""
+
+#: ../../../autoapi/abqpy/cli/index.rst:130
 msgid "The name of the simulation file to open, by default None"
 msgstr ""
 
-#: ../../../autoapi/abqpy/cli/index.rst:121
+#: ../../../autoapi/abqpy/cli/index.rst:132
 msgid "The name of the log file to open, by default None"
 msgstr ""
 
-#: ../../../autoapi/abqpy/cli/index.rst:129
+#: ../../../autoapi/abqpy/cli/index.rst:140
 msgid "The file containing the parameters that are used to execute the optimization."
 msgstr ""
 
-#: ../../../autoapi/abqpy/cli/index.rst:131
+#: ../../../autoapi/abqpy/cli/index.rst:142
 msgid "The name of the folder in which the results of the optimization are stored."
 msgstr ""
 
-#: ../../../autoapi/abqpy/cli/index.rst:133
+#: ../../../autoapi/abqpy/cli/index.rst:144
 msgid "The number of processors to use during an analysis run if parallel processing is available."
 msgstr ""
 
-#: ../../../autoapi/abqpy/cli/index.rst:135
+#: ../../../autoapi/abqpy/cli/index.rst:146
 msgid "This acceleration of the Abaqus/Standard direct solver."
 msgstr ""
 
-#: ../../../autoapi/abqpy/cli/index.rst:137
+#: ../../../autoapi/abqpy/cli/index.rst:148
 msgid "Maximum amount of memory or maximum percentage of the physical memory that can be allocated."
 msgstr ""
 
-#: ../../../autoapi/abqpy/cli/index.rst:139
+#: ../../../autoapi/abqpy/cli/index.rst:150
 msgid "This option will cause the job to run interactively."
 msgstr ""
 
-#: ../../../autoapi/abqpy/cli/index.rst:141
+#: ../../../autoapi/abqpy/cli/index.rst:152
 msgid "The name of the global model's results file, ODB output database file, or SIM database file."
 msgstr ""
 
-#: ../../../autoapi/abqpy/cli/index.rst:143
+#: ../../../autoapi/abqpy/cli/index.rst:154
 msgid "The name of the directory used for scratch files."
 msgstr ""
