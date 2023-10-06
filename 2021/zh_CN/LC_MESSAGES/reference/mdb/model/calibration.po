@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: abqpy \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-14 01:59+0000\n"
+"POT-Creation-Date: 2023-10-06 02:35+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.12.1\n"
+"Generated-By: Babel 2.13.0\n"
 
 #: ../../../reference/mdb/model/calibration.md:1
 msgid "Calibration of Material"
@@ -40,7 +40,6 @@ msgstr ""
 
 #: abaqus.Calibration.Behavior.Behavior:3
 #: abaqus.Calibration.Behavior.Behavior:9
-#: abaqus.Calibration.Behavior.Behavior:14
 #: abaqus.Calibration.Behavior.Behavior.compute_E:4
 #: abaqus.Calibration.Behavior.Behavior.compute_elasticModulus:4
 #: abaqus.Calibration.Behavior.Behavior.compute_nu:4
@@ -51,18 +50,15 @@ msgstr ""
 #: abaqus.Calibration.Behavior.Behavior.xyDataDissect:4
 #: abaqus.Calibration.Calibration.Calibration:4
 #: abaqus.Calibration.Calibration.Calibration:10
-#: abaqus.Calibration.Calibration.Calibration:15
 #: abaqus.Calibration.Calibration.Calibration.Behavior:3
 #: abaqus.Calibration.Calibration.Calibration.Behavior:8
 #: abaqus.Calibration.Calibration.Calibration.DataSet:3
 #: abaqus.Calibration.Calibration.Calibration.DataSet:8
 #: abaqus.Calibration.CalibrationModel.CalibrationModel:3
 #: abaqus.Calibration.CalibrationModel.CalibrationModel:8
-#: abaqus.Calibration.CalibrationModel.CalibrationModel:13
 #: abaqus.Calibration.CalibrationModel.CalibrationModel.Calibration:3
 #: abaqus.Calibration.CalibrationModel.CalibrationModel.Calibration:8
 #: abaqus.Calibration.DataSet.DataSet:3 abaqus.Calibration.DataSet.DataSet:9
-#: abaqus.Calibration.DataSet.DataSet:14
 #: abaqus.Calibration.DataSet.DataSet.setValues:3 of
 msgid "Note"
 msgstr ""
@@ -81,146 +77,16 @@ msgid ""
 "modelpyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: ../../../../None:7:<autosummary>:1
-#: abaqus.Calibration.CalibrationModel.CalibrationModel:11 of
-msgid "This method creates a Model object."
-msgstr ""
-
-#: abaqus.Calibration.Behavior.Behavior:15
-#: abaqus.Calibration.Calibration.Calibration:16
-#: abaqus.Calibration.Calibration.Calibration.Behavior:4
-#: abaqus.Calibration.Calibration.Calibration.DataSet:4
-#: abaqus.Calibration.CalibrationModel.CalibrationModel:14
-#: abaqus.Calibration.CalibrationModel.CalibrationModel.Calibration:4
-#: abaqus.Calibration.DataSet.DataSet:15 of
-msgid "This function can be accessed by::"
-msgstr ""
-
-#: abaqus.Calibration.Behavior.Behavior
-#: abaqus.Calibration.Behavior.Behavior.compute_E
-#: abaqus.Calibration.Behavior.Behavior.compute_elasticModulus
-#: abaqus.Calibration.Behavior.Behavior.compute_nu
-#: abaqus.Calibration.Behavior.Behavior.compute_plasticPoints
-#: abaqus.Calibration.Behavior.Behavior.compute_ultimatePoint
-#: abaqus.Calibration.Behavior.Behavior.mapToMaterial
-#: abaqus.Calibration.Behavior.Behavior.setValues
-#: abaqus.Calibration.Behavior.Behavior.xyDataDissect
-#: abaqus.Calibration.Calibration.Calibration
-#: abaqus.Calibration.Calibration.Calibration.Behavior
-#: abaqus.Calibration.Calibration.Calibration.DataSet
-#: abaqus.Calibration.CalibrationModel.CalibrationModel
-#: abaqus.Calibration.CalibrationModel.CalibrationModel.Calibration
-#: abaqus.Calibration.DataSet.DataSet
-#: abaqus.Calibration.DataSet.DataSet.setValues of
-msgid "Parameters"
-msgstr ""
-
-#: ../../../../None:55:<autosummary>:1
-#: abaqus.Calibration.CalibrationModel.CalibrationModel:19 of
-msgid "A String specifying the repository key."
-msgstr ""
-
-#: abaqus.Calibration.CalibrationModel.CalibrationModel:21 of
-msgid ""
-"A String specifying the purpose and contents of the Model object. The "
-"default value is an empty string."
-msgstr ""
-
-#: abaqus.Calibration.CalibrationModel.CalibrationModel:24 of
-msgid ""
-"None or a Float specifying the Stefan-Boltzmann constant. The default "
-"value is None."
-msgstr ""
-
-#: abaqus.Calibration.CalibrationModel.CalibrationModel:26 of
-msgid ""
-"None or a Float specifying the absolute zero constant. The default value "
-"is None."
-msgstr ""
-
-#: abaqus.Calibration.CalibrationModel.CalibrationModel:28 of
-msgid ""
-"A SymbolicConstant specifying the type of incident wave formulation to be "
-"used in acoustic problems. Possible values are NOT_SET, SCATTERED, and "
-"TOTAL. The default value is NOT_SET."
-msgstr ""
-
-#: abaqus.Calibration.CalibrationModel.CalibrationModel:32 of
-msgid ""
-"A SymbolicConstant specifying the analysis model type. Possible values are"
-" STANDARD_EXPLICIT and ELECTROMAGNETIC. The default is STANDARD_EXPLICIT."
-msgstr ""
-
-#: abaqus.Calibration.CalibrationModel.CalibrationModel:35 of
-msgid ""
-"None or a Float specifying the universal gas constant. The default value "
-"is None."
-msgstr ""
-
-#: abaqus.Calibration.CalibrationModel.CalibrationModel:37 of
-msgid ""
-"A boolean specifying whether to copy the constraints created in the model "
-"to the model that instances this model. The default value is ON."
-msgstr ""
-
-#: abaqus.Calibration.CalibrationModel.CalibrationModel:40 of
-msgid ""
-"A boolean specifying whether to copy the connectors created in the model "
-"to the model that instances this model. The default value is ON."
-msgstr ""
-
-#: abaqus.Calibration.CalibrationModel.CalibrationModel:43 of
-msgid ""
-"A boolean specifying whether to copy the interactions created in the model"
-" to the model that instances this model. The default value is ON."
-msgstr ""
-
-#: abaqus.Calibration.Behavior.Behavior
-#: abaqus.Calibration.Behavior.Behavior.compute_E
-#: abaqus.Calibration.Behavior.Behavior.compute_elasticModulus
-#: abaqus.Calibration.Behavior.Behavior.compute_nu
-#: abaqus.Calibration.Behavior.Behavior.compute_plasticPoints
-#: abaqus.Calibration.Behavior.Behavior.compute_ultimatePoint
-#: abaqus.Calibration.Behavior.Behavior.xyDataDissect
-#: abaqus.Calibration.Calibration.Calibration
-#: abaqus.Calibration.Calibration.Calibration.Behavior
-#: abaqus.Calibration.Calibration.Calibration.DataSet
-#: abaqus.Calibration.CalibrationModel.CalibrationModel
-#: abaqus.Calibration.CalibrationModel.CalibrationModel.Calibration
-#: abaqus.Calibration.DataSet.DataSet of
-msgid "Returns"
-msgstr ""
-
-#: abaqus.Calibration.CalibrationModel.CalibrationModel:46 of
-msgid "A Model object."
-msgstr ""
-
-#: abaqus.Calibration.Behavior.Behavior
-#: abaqus.Calibration.Behavior.Behavior.compute_E
-#: abaqus.Calibration.Behavior.Behavior.compute_elasticModulus
-#: abaqus.Calibration.Behavior.Behavior.compute_nu
-#: abaqus.Calibration.Behavior.Behavior.compute_plasticPoints
-#: abaqus.Calibration.Behavior.Behavior.compute_ultimatePoint
-#: abaqus.Calibration.Behavior.Behavior.xyDataDissect
-#: abaqus.Calibration.Calibration.Calibration
-#: abaqus.Calibration.Calibration.Calibration.Behavior
-#: abaqus.Calibration.Calibration.Calibration.DataSet
-#: abaqus.Calibration.CalibrationModel.CalibrationModel
-#: abaqus.Calibration.CalibrationModel.CalibrationModel.Calibration
-#: abaqus.Calibration.DataSet.DataSet of
-msgid "Return type"
-msgstr ""
-
-#: abaqus.Calibration.CalibrationModel.CalibrationModel:47 of
-msgid ":class:`Model`"
-msgstr ""
-
 #: abaqus.Calibration.CalibrationModel.CalibrationModel of
 msgid "Public Data Attributes:"
 msgstr ""
 
 #: ../../../../None:55:<autosummary>:1
 msgid ":py:obj:`name <abaqus.Model.ModelBase.ModelBase.name>`\\"
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid "A String specifying the repository key."
 msgstr ""
 
 #: ../../../../None:55:<autosummary>:1
@@ -747,7 +613,6 @@ msgid ""
 msgstr ""
 
 #: ../../../../None:3:<autosummary>:1
-#: abaqus.Calibration.Calibration.Calibration:13
 #: abaqus.Calibration.CalibrationModel.CalibrationModel.Calibration:1 of
 msgid "This method creates a Calibration object."
 msgstr ""
@@ -756,6 +621,10 @@ msgstr ""
 msgid ""
 ":py:obj:`__init__ <abaqus.Model.ModelBase.ModelBase.__init__>`\\ "
 "\\(name\\[\\, description\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../../None:7:<autosummary>:1
+msgid "This method creates a Model object."
 msgstr ""
 
 #: ../../../../None:7:<autosummary>:1
@@ -815,6 +684,12 @@ msgstr ""
 msgid "Member Details:"
 msgstr ""
 
+#: abaqus.Calibration.Calibration.Calibration.Behavior:4
+#: abaqus.Calibration.Calibration.Calibration.DataSet:4
+#: abaqus.Calibration.CalibrationModel.CalibrationModel.Calibration:4 of
+msgid "This function can be accessed by::"
+msgstr ""
+
 #: abaqus.Calibration.Calibration.Calibration:11
 #: abaqus.Calibration.CalibrationModel.CalibrationModel.Calibration:9 of
 msgid ""
@@ -823,18 +698,54 @@ msgid ""
 "calibrationpyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: ../../../../docstring abaqus.Calibration.Calibration.Calibration:21
-#: abaqus.Calibration.CalibrationModel.Calibration.name:1
+#: abaqus.Calibration.Behavior.Behavior.compute_E
+#: abaqus.Calibration.Behavior.Behavior.compute_elasticModulus
+#: abaqus.Calibration.Behavior.Behavior.compute_nu
+#: abaqus.Calibration.Behavior.Behavior.compute_plasticPoints
+#: abaqus.Calibration.Behavior.Behavior.compute_ultimatePoint
+#: abaqus.Calibration.Behavior.Behavior.mapToMaterial
+#: abaqus.Calibration.Behavior.Behavior.setValues
+#: abaqus.Calibration.Behavior.Behavior.xyDataDissect
+#: abaqus.Calibration.Calibration.Calibration.Behavior
+#: abaqus.Calibration.Calibration.Calibration.DataSet
+#: abaqus.Calibration.CalibrationModel.CalibrationModel.Calibration
+#: abaqus.Calibration.DataSet.DataSet.setValues of
+msgid "Parameters"
+msgstr ""
+
+#: ../../../../docstring abaqus.Calibration.CalibrationModel.Calibration.name:1
 #: abaqus.Calibration.CalibrationModel.CalibrationModel.Calibration:12 of
 msgid "A String specifying the name of the new calibration."
 msgstr ""
 
-#: abaqus.Calibration.Calibration.Calibration:23
+#: abaqus.Calibration.Behavior.Behavior.compute_E
+#: abaqus.Calibration.Behavior.Behavior.compute_elasticModulus
+#: abaqus.Calibration.Behavior.Behavior.compute_nu
+#: abaqus.Calibration.Behavior.Behavior.compute_plasticPoints
+#: abaqus.Calibration.Behavior.Behavior.compute_ultimatePoint
+#: abaqus.Calibration.Behavior.Behavior.xyDataDissect
+#: abaqus.Calibration.Calibration.Calibration.Behavior
+#: abaqus.Calibration.Calibration.Calibration.DataSet
+#: abaqus.Calibration.CalibrationModel.CalibrationModel.Calibration of
+msgid "Returns"
+msgstr ""
+
 #: abaqus.Calibration.CalibrationModel.CalibrationModel.Calibration:14 of
 msgid "A Calibration object."
 msgstr ""
 
-#: abaqus.Calibration.Calibration.Calibration:24
+#: abaqus.Calibration.Behavior.Behavior.compute_E
+#: abaqus.Calibration.Behavior.Behavior.compute_elasticModulus
+#: abaqus.Calibration.Behavior.Behavior.compute_nu
+#: abaqus.Calibration.Behavior.Behavior.compute_plasticPoints
+#: abaqus.Calibration.Behavior.Behavior.compute_ultimatePoint
+#: abaqus.Calibration.Behavior.Behavior.xyDataDissect
+#: abaqus.Calibration.Calibration.Calibration.Behavior
+#: abaqus.Calibration.Calibration.Calibration.DataSet
+#: abaqus.Calibration.CalibrationModel.CalibrationModel.Calibration of
+msgid "Return type"
+msgstr ""
+
 #: abaqus.Calibration.CalibrationModel.CalibrationModel.Calibration:15 of
 msgid ":class:`Calibration`"
 msgstr ""
@@ -860,37 +771,6 @@ msgid ""
 "Check `Behavior on help.3ds.com/2021 <https://help.3ds.com/2021/English/DS"
 "SIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "behaviorpyc.htm?contextscope=all>`__."
-msgstr ""
-
-#: abaqus.Calibration.Behavior.Behavior:12
-#: abaqus.Calibration.Calibration.Calibration.Behavior:1 of
-msgid "This method creates a Behavior object."
-msgstr ""
-
-#: ../../../../docstring abaqus.Calibration.Behavior.Behavior:20
-#: abaqus.Calibration.Calibration.Behavior.name:1
-#: abaqus.Calibration.Calibration.Calibration.Behavior:12 of
-msgid "A String specifying the name of the new behavior."
-msgstr ""
-
-#: ../../../../docstring abaqus.Calibration.Behavior.Behavior:22
-#: abaqus.Calibration.Calibration.Behavior.typeName:1
-#: abaqus.Calibration.Calibration.Calibration.Behavior:14 of
-msgid ""
-"A String specifying the type of the new Behavior. Values can be "
-"\"ElasIsoBehavior\", \"ElasPlasIsoBehavior\", \"FeFpBehavior\", or a user "
-"plug-in behavior type."
-msgstr ""
-
-#: ../../../../docstring abaqus.Calibration.Behavior.Behavior:25
-#: abaqus.Calibration.Calibration.Calibration.Behavior:17
-#: abaqus.Calibration.CalibrationModel.Calibration.behaviors:1 of
-msgid "A Behavior object."
-msgstr ""
-
-#: abaqus.Calibration.Behavior.Behavior:26
-#: abaqus.Calibration.Calibration.Calibration.Behavior:18 of
-msgid ":class:`Behavior`"
 msgstr ""
 
 #: ../../../../docstring
@@ -926,8 +806,7 @@ msgstr ""
 #: abaqus.Calibration.Behavior.Behavior.compute_plasticPoints:8
 #: abaqus.Calibration.Behavior.Behavior.compute_ultimatePoint:8
 #: abaqus.Calibration.Calibration.Calibration.DataSet:24
-#: abaqus.Calibration.CalibrationModel.Calibration.dataSets:1
-#: abaqus.Calibration.DataSet.DataSet:32 of
+#: abaqus.Calibration.CalibrationModel.Calibration.dataSets:1 of
 msgid "A DataSet object."
 msgstr ""
 
@@ -1066,6 +945,11 @@ msgstr ""
 #: ../../../../docstring abaqus.Calibration.Calibration.Behavior.modelName:1 of
 msgid ""
 "A string specifying the name of the model to which the behavior belongs."
+msgstr ""
+
+#: ../../../../docstring abaqus.Calibration.Calibration.Behavior.name:1
+#: abaqus.Calibration.Calibration.Calibration.Behavior:12 of
+msgid "A String specifying the name of the new behavior."
 msgstr ""
 
 #: abaqus.Calibration.Behavior.Behavior.setValues:1 of
@@ -1224,6 +1108,14 @@ msgid ""
 "behavior is of type FeFpBehavior"
 msgstr ""
 
+#: ../../../../docstring abaqus.Calibration.Calibration.Behavior.typeName:1
+#: abaqus.Calibration.Calibration.Calibration.Behavior:14 of
+msgid ""
+"A String specifying the type of the new Behavior. Values can be "
+"\"ElasIsoBehavior\", \"ElasPlasIsoBehavior\", \"FeFpBehavior\", or a user "
+"plug-in behavior type."
+msgstr ""
+
 #: abaqus.Calibration.Behavior.Behavior.xyDataDissect:1 of
 msgid ""
 "This method extracts primary, unload, reload and permanent DataSet objects"
@@ -1282,19 +1174,7 @@ msgid ""
 "datasetpyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: abaqus.Calibration.Calibration.Calibration.DataSet:1
-#: abaqus.Calibration.DataSet.DataSet:12 of
-msgid "This method creates a DataSet object."
-msgstr ""
-
-#: ../../../../docstring abaqus.Calibration.Calibration.Calibration.DataSet:12
-#: abaqus.Calibration.DataSet.DataSet:20
-#: abaqus.Calibration.DataSet.DataSet.name:1 of
-msgid "A String specifying the name of the new dataset."
-msgstr ""
-
 #: ../../../../docstring abaqus.Calibration.Calibration.Calibration.DataSet:14
-#: abaqus.Calibration.DataSet.DataSet:22
 #: abaqus.Calibration.DataSet.DataSet.data:1 of
 msgid ""
 "A sequence of pairs of Floats specifying data set type pairs. Possible "
@@ -1302,26 +1182,16 @@ msgid ""
 "strain/axial strain pairs."
 msgstr ""
 
-#: ../../../../docstring abaqus.Calibration.Calibration.Calibration.DataSet:17
-#: abaqus.Calibration.DataSet.DataSet:25
-#: abaqus.Calibration.DataSet.DataSet.type:1 of
-msgid ""
-"A String specifying the type of the new dataset. Values can be "
-"\"STRESS/STRAIN\", \"FORCE/DISPLACEMENT\", or "
-"\"AXIALSTRAIN/TRANSVERSESTRAIN\". The default value is \"STRESS/STRAIN\"."
-msgstr ""
-
 #: ../../../../docstring abaqus.Calibration.Calibration.Calibration.DataSet:21
-#: abaqus.Calibration.DataSet.DataSet:29
 #: abaqus.Calibration.DataSet.DataSet.form:1 of
 msgid ""
 "A String specifying the form of the new dataset. Values can be \"NOMINAL\""
 " or \"TRUE\". The default value is \"NOMINAl\"."
 msgstr ""
 
-#: abaqus.Calibration.Calibration.Calibration.DataSet:25
-#: abaqus.Calibration.DataSet.DataSet:33 of
-msgid ":class:`DataSet`"
+#: ../../../../docstring abaqus.Calibration.Calibration.Calibration.DataSet:12
+#: abaqus.Calibration.DataSet.DataSet.name:1 of
+msgid "A String specifying the name of the new dataset."
 msgstr ""
 
 #: abaqus.Calibration.DataSet.DataSet.setValues:1 of
@@ -1339,11 +1209,40 @@ msgstr ""
 msgid "A sequence of pairs of Floats specifying data set type pairs."
 msgstr ""
 
+#: ../../../../docstring abaqus.Calibration.Calibration.Calibration.DataSet:17
+#: abaqus.Calibration.DataSet.DataSet.type:1 of
+msgid ""
+"A String specifying the type of the new dataset. Values can be "
+"\"STRESS/STRAIN\", \"FORCE/DISPLACEMENT\", or "
+"\"AXIALSTRAIN/TRANSVERSESTRAIN\". The default value is \"STRESS/STRAIN\"."
+msgstr ""
+
 #: abaqus.Calibration.Calibration.Calibration:1 of
 msgid ""
 "A Calibration object is the object used to specify a material calibration."
 " The Calibration object stores the data that is used for specifying "
 "materials from test data."
+msgstr ""
+
+#: abaqus.Calibration.Calibration.Calibration.Behavior:1 of
+msgid "This method creates a Behavior object."
+msgstr ""
+
+#: ../../../../docstring abaqus.Calibration.Calibration.Calibration.Behavior:17
+#: abaqus.Calibration.CalibrationModel.Calibration.behaviors:1 of
+msgid "A Behavior object."
+msgstr ""
+
+#: abaqus.Calibration.Calibration.Calibration.Behavior:18 of
+msgid ":class:`Behavior`"
+msgstr ""
+
+#: abaqus.Calibration.Calibration.Calibration.DataSet:1 of
+msgid "This method creates a DataSet object."
+msgstr ""
+
+#: abaqus.Calibration.Calibration.Calibration.DataSet:25 of
+msgid ":class:`DataSet`"
 msgstr ""
 
 #~ msgid "Bases: :py:class:`~abaqus.Model.ModelBase.ModelBase`"

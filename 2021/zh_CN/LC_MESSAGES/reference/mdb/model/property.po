@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: abqpy \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-14 01:59+0000\n"
+"POT-Creation-Date: 2023-10-06 02:35+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.12.1\n"
+"Generated-By: Babel 2.13.0\n"
 
 #: ../../../reference/mdb/model/property.md:1
 msgid "Property"
@@ -353,7 +353,7 @@ msgid ":py:obj:`name <abaqus.Part.PartBase.PartBase.name>`\\"
 msgstr ""
 
 #: ../../../../None:36:<autosummary>:1 ../../../../None:4:<autosummary>:1
-#: ../../../../docstring abaqus.Property.CompositeLayup.CompositeLayup:26
+#: ../../../../docstring
 #: abaqus.Property.CompositeLayup.CompositeLayup.CompositeShellSection:12
 #: abaqus.Property.CompositeLayup.CompositeLayup.HomogeneousShellSection:12
 #: abaqus.Property.PropertyPart.CompositeLayup.name:1
@@ -389,7 +389,6 @@ msgid ""
 msgstr ""
 
 #: ../../../../None:13:<autosummary>:1
-#: abaqus.Property.CompositeLayup.CompositeLayup:18
 #: abaqus.Property.PropertyPart.PropertyPart.CompositeLayup:1 of
 msgid "This method creates a CompositeLayup object."
 msgstr ""
@@ -403,8 +402,7 @@ msgstr ""
 
 #: ../../../../None:13:<autosummary>:1
 #: abaqus.Property.PropertyAssembly.PropertyAssembly.SectionAssignment:1
-#: abaqus.Property.PropertyPart.PropertyPart.SectionAssignment:1
-#: abaqus.Property.SectionAssignment.SectionAssignment:20 of
+#: abaqus.Property.PropertyPart.PropertyPart.SectionAssignment:1 of
 msgid "This method creates a SectionAssignment object."
 msgstr ""
 
@@ -416,7 +414,6 @@ msgid ""
 msgstr ""
 
 #: ../../../../None:13:<autosummary>:1
-#: abaqus.Property.MaterialOrientation.MaterialOrientation:18
 #: abaqus.Property.MaterialOrientation.MaterialOrientation.ReferenceOrientation:1
 #: abaqus.Property.PropertyPart.PropertyPart.MaterialOrientation:1 of
 msgid "This method creates a MaterialOrientation object."
@@ -2760,7 +2757,6 @@ msgstr ""
 
 #: abaqus.Property.CompositeLayup.CompositeLayup:3
 #: abaqus.Property.CompositeLayup.CompositeLayup:15
-#: abaqus.Property.CompositeLayup.CompositeLayup:20
 #: abaqus.Property.CompositeLayup.CompositeLayup.CompositePly:3
 #: abaqus.Property.CompositeLayup.CompositeLayup.CompositePly:8
 #: abaqus.Property.CompositeLayup.CompositeLayup.CompositeShellSection:3
@@ -2772,10 +2768,8 @@ msgstr ""
 #: abaqus.Property.CompositeLayup.CompositeLayup.setValues:3
 #: abaqus.Property.CompositePly.CompositePly:3
 #: abaqus.Property.CompositePly.CompositePly:9
-#: abaqus.Property.CompositePly.CompositePly:14
 #: abaqus.Property.MaterialOrientation.MaterialOrientation:4
 #: abaqus.Property.MaterialOrientation.MaterialOrientation:15
-#: abaqus.Property.MaterialOrientation.MaterialOrientation:20
 #: abaqus.Property.MaterialOrientation.MaterialOrientation.ReferenceOrientation:3
 #: abaqus.Property.MaterialOrientation.MaterialOrientation.ReferenceOrientation:8
 #: abaqus.Property.PlyStackPlot.MdbPlyStackPlot:3
@@ -2826,18 +2820,14 @@ msgstr ""
 #: abaqus.Property.PropertyPart.PropertyPart.unassignRebarOrientation:3
 #: abaqus.Property.PropertyPart.PropertyPart.unassignRebarOrientation:8
 #: abaqus.Property.SectionAssignment.SectionAssignment:4
-#: abaqus.Property.SectionAssignment.SectionAssignment:17
-#: abaqus.Property.SectionAssignment.SectionAssignment:22 of
+#: abaqus.Property.SectionAssignment.SectionAssignment:17 of
 msgid "Note"
 msgstr ""
 
-#: abaqus.Property.CompositeLayup.CompositeLayup:21
 #: abaqus.Property.CompositeLayup.CompositeLayup.CompositePly:4
 #: abaqus.Property.CompositeLayup.CompositeLayup.CompositeShellSection:4
 #: abaqus.Property.CompositeLayup.CompositeLayup.GeometryShellSection:4
 #: abaqus.Property.CompositeLayup.CompositeLayup.HomogeneousShellSection:4
-#: abaqus.Property.CompositePly.CompositePly:15
-#: abaqus.Property.MaterialOrientation.MaterialOrientation:21
 #: abaqus.Property.MaterialOrientation.MaterialOrientation.ReferenceOrientation:4
 #: abaqus.Property.PlyStackPlot.MdbPlyStackPlot:4
 #: abaqus.Property.PlyStackPlot.OdbPlyStackPlot:4
@@ -2859,8 +2849,7 @@ msgstr ""
 #: abaqus.Property.PropertyPart.PropertyPart.flipTangent:5
 #: abaqus.Property.PropertyPart.PropertyPart.unassignBeamSectionOrientation:4
 #: abaqus.Property.PropertyPart.PropertyPart.unassignMaterialOrientation:4
-#: abaqus.Property.PropertyPart.PropertyPart.unassignRebarOrientation:4
-#: abaqus.Property.SectionAssignment.SectionAssignment:23 of
+#: abaqus.Property.PropertyPart.PropertyPart.unassignRebarOrientation:4 of
 msgid "This function can be accessed by::"
 msgstr ""
 
@@ -2872,14 +2861,11 @@ msgid ""
 "compositelayuppyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: abaqus.Property.CompositeLayup.CompositeLayup
 #: abaqus.Property.CompositeLayup.CompositeLayup.CompositePly
 #: abaqus.Property.CompositeLayup.CompositeLayup.CompositeShellSection
 #: abaqus.Property.CompositeLayup.CompositeLayup.GeometryShellSection
 #: abaqus.Property.CompositeLayup.CompositeLayup.HomogeneousShellSection
 #: abaqus.Property.CompositeLayup.CompositeLayup.setValues
-#: abaqus.Property.CompositePly.CompositePly
-#: abaqus.Property.MaterialOrientation.MaterialOrientation
 #: abaqus.Property.MaterialOrientation.MaterialOrientation.ReferenceOrientation
 #: abaqus.Property.PlyStackPlot.MdbPlyStackPlot
 #: abaqus.Property.PlyStackPlot.OdbPlyStackPlot
@@ -2901,19 +2887,18 @@ msgstr ""
 #: abaqus.Property.PropertyPart.PropertyPart.flipTangent
 #: abaqus.Property.PropertyPart.PropertyPart.unassignBeamSectionOrientation
 #: abaqus.Property.PropertyPart.PropertyPart.unassignMaterialOrientation
-#: abaqus.Property.PropertyPart.PropertyPart.unassignRebarOrientation
-#: abaqus.Property.SectionAssignment.SectionAssignment of
+#: abaqus.Property.PropertyPart.PropertyPart.unassignRebarOrientation of
 msgid "Parameters"
 msgstr ""
 
-#: ../../../../docstring abaqus.Property.CompositeLayup.CompositeLayup:28
+#: ../../../../docstring
 #: abaqus.Property.CompositeLayup.CompositeLayup.setValues:7
 #: abaqus.Property.PropertyPart.CompositeLayup.description:1
 #: abaqus.Property.PropertyPart.PropertyPart.CompositeLayup:14 of
 msgid "A String specifying a description of the composite layup."
 msgstr ""
 
-#: ../../../../docstring abaqus.Property.CompositeLayup.CompositeLayup:30
+#: ../../../../docstring
 #: abaqus.Property.CompositeLayup.CompositeLayup.setValues:9
 #: abaqus.Property.PropertyPart.CompositeLayup.offsetType:1
 #: abaqus.Property.PropertyPart.PropertyPart.CompositeLayup:16 of
@@ -2925,7 +2910,7 @@ msgid ""
 "and GLOBAL. The default value is GLOBAL."
 msgstr ""
 
-#: ../../../../docstring abaqus.Property.CompositeLayup.CompositeLayup:35
+#: ../../../../docstring
 #: abaqus.Property.CompositeLayup.CompositeLayup.setValues:14
 #: abaqus.Property.PropertyPart.CompositeLayup.offsetField:1
 #: abaqus.Property.PropertyPart.PropertyPart.CompositeLayup:21 of
@@ -2935,7 +2920,7 @@ msgid ""
 "empty string."
 msgstr ""
 
-#: ../../../../docstring abaqus.Property.CompositeLayup.CompositeLayup:38
+#: ../../../../docstring
 #: abaqus.Property.CompositeLayup.CompositeLayup.setValues:17
 #: abaqus.Property.PropertyPart.CompositeLayup.offsetValues:1
 #: abaqus.Property.PropertyPart.PropertyPart.CompositeLayup:24 of
@@ -2944,7 +2929,7 @@ msgid ""
 "only if **elementType** = SHELL. The default value is 0.0."
 msgstr ""
 
-#: ../../../../docstring abaqus.Property.CompositeLayup.CompositeLayup:41
+#: ../../../../docstring
 #: abaqus.Property.CompositeLayup.CompositeLayup.setValues:20
 #: abaqus.Property.PropertyPart.CompositeLayup.elementType:1
 #: abaqus.Property.PropertyPart.PropertyPart.CompositeLayup:27 of
@@ -2954,7 +2939,7 @@ msgid ""
 "is SHELL."
 msgstr ""
 
-#: ../../../../docstring abaqus.Property.CompositeLayup.CompositeLayup:44
+#: ../../../../docstring
 #: abaqus.Property.CompositeLayup.CompositeLayup.CompositeShellSection:16
 #: abaqus.Property.CompositeLayup.CompositeLayup.setValues:23
 #: abaqus.Property.PropertyPart.CompositeLayup.symmetric:1
@@ -2964,13 +2949,10 @@ msgid ""
 "the analysis. The default value is OFF."
 msgstr ""
 
-#: abaqus.Property.CompositeLayup.CompositeLayup
 #: abaqus.Property.CompositeLayup.CompositeLayup.CompositePly
 #: abaqus.Property.CompositeLayup.CompositeLayup.CompositeShellSection
 #: abaqus.Property.CompositeLayup.CompositeLayup.GeometryShellSection
 #: abaqus.Property.CompositeLayup.CompositeLayup.HomogeneousShellSection
-#: abaqus.Property.CompositePly.CompositePly
-#: abaqus.Property.MaterialOrientation.MaterialOrientation
 #: abaqus.Property.MaterialOrientation.MaterialOrientation.ReferenceOrientation
 #: abaqus.Property.PlyStackPlot.MdbPlyStackPlot
 #: abaqus.Property.PlyStackPlot.OdbPlyStackPlot
@@ -2978,7 +2960,6 @@ msgstr ""
 #: abaqus.Property.PropertyPart.PropertyPart.CompositeLayup
 #: abaqus.Property.PropertyPart.PropertyPart.MaterialOrientation
 #: abaqus.Property.PropertyPart.PropertyPart.SectionAssignment
-#: abaqus.Property.SectionAssignment.SectionAssignment
 #: abaqus.Property.SectionAssignment.SectionAssignment.getVertices of
 msgid "Returns"
 msgstr ""
@@ -2987,32 +2968,25 @@ msgstr ""
 msgid "**layup** -- A CompositeLayup object."
 msgstr ""
 
-#: abaqus.Property.CompositeLayup.CompositeLayup
 #: abaqus.Property.CompositeLayup.CompositeLayup.CompositePly
 #: abaqus.Property.CompositeLayup.CompositeLayup.CompositeShellSection
 #: abaqus.Property.CompositeLayup.CompositeLayup.GeometryShellSection
 #: abaqus.Property.CompositeLayup.CompositeLayup.HomogeneousShellSection
-#: abaqus.Property.CompositePly.CompositePly
-#: abaqus.Property.MaterialOrientation.MaterialOrientation
 #: abaqus.Property.MaterialOrientation.MaterialOrientation.ReferenceOrientation
 #: abaqus.Property.PlyStackPlot.MdbPlyStackPlot
 #: abaqus.Property.PropertyAssembly.PropertyAssembly.SectionAssignment
 #: abaqus.Property.PropertyPart.PropertyPart.CompositeLayup
 #: abaqus.Property.PropertyPart.PropertyPart.MaterialOrientation
 #: abaqus.Property.PropertyPart.PropertyPart.SectionAssignment
-#: abaqus.Property.SectionAssignment.SectionAssignment
 #: abaqus.Property.SectionAssignment.SectionAssignment.getVertices of
 msgid "Return type"
 msgstr ""
 
-#: abaqus.Property.CompositeLayup.CompositeLayup:48
 #: abaqus.Property.PropertyPart.PropertyPart.CompositeLayup:34 of
 msgid ":class:`CompositeLayup`"
 msgstr ""
 
-#: abaqus.Property.CompositeLayup.CompositeLayup
 #: abaqus.Property.CompositeLayup.CompositeLayup.CompositePly
-#: abaqus.Property.CompositePly.CompositePly
 #: abaqus.Property.PlyStackPlot.MdbPlyStackPlot
 #: abaqus.Property.PlyStackPlot.OdbPlyStackPlot
 #: abaqus.Property.PropertyPart.PropertyPart.CompositeLayup
@@ -3029,7 +3003,6 @@ msgid ""
 msgstr ""
 
 #: ../../../../docstring
-#: abaqus.Property.MaterialOrientation.MaterialOrientation:26
 #: abaqus.Property.PropertyPart.MaterialOrientation.region:1
 #: abaqus.Property.PropertyPart.PropertyPart.MaterialOrientation:12 of
 msgid ""
@@ -3038,7 +3011,6 @@ msgid ""
 msgstr ""
 
 #: ../../../../docstring
-#: abaqus.Property.MaterialOrientation.MaterialOrientation:28
 #: abaqus.Property.MaterialOrientation.MaterialOrientation.ReferenceOrientation:12
 #: abaqus.Property.PropertyPart.MaterialOrientation.localCsys:1
 #: abaqus.Property.PropertyPart.PropertyPart.MaterialOrientation:14 of
@@ -3050,7 +3022,6 @@ msgid ""
 msgstr ""
 
 #: ../../../../docstring
-#: abaqus.Property.MaterialOrientation.MaterialOrientation:33
 #: abaqus.Property.MaterialOrientation.MaterialOrientation.ReferenceOrientation:17
 #: abaqus.Property.PropertyPart.MaterialOrientation.axis:1
 #: abaqus.Property.PropertyPart.PropertyPart.MaterialOrientation:19 of
@@ -3062,7 +3033,6 @@ msgid ""
 msgstr ""
 
 #: ../../../../docstring
-#: abaqus.Property.MaterialOrientation.MaterialOrientation:37
 #: abaqus.Property.MaterialOrientation.MaterialOrientation.ReferenceOrientation:21
 #: abaqus.Property.PropertyPart.MaterialOrientation.angle:1
 #: abaqus.Property.PropertyPart.PropertyPart.MaterialOrientation:23 of
@@ -3073,7 +3043,6 @@ msgid ""
 msgstr ""
 
 #: ../../../../docstring
-#: abaqus.Property.MaterialOrientation.MaterialOrientation:40
 #: abaqus.Property.MaterialOrientation.MaterialOrientation.ReferenceOrientation:24
 #: abaqus.Property.PropertyPart.MaterialOrientation.stackDirection:1
 #: abaqus.Property.PropertyPart.PropertyPart.MaterialOrientation:26 of
@@ -3084,7 +3053,6 @@ msgid ""
 msgstr ""
 
 #: ../../../../docstring
-#: abaqus.Property.MaterialOrientation.MaterialOrientation:43
 #: abaqus.Property.MaterialOrientation.MaterialOrientation.ReferenceOrientation:27
 #: abaqus.Property.PropertyPart.MaterialOrientation.fieldName:1
 #: abaqus.Property.PropertyPart.PropertyPart.MaterialOrientation:29 of
@@ -3094,7 +3062,6 @@ msgid ""
 msgstr ""
 
 #: ../../../../docstring
-#: abaqus.Property.MaterialOrientation.MaterialOrientation:46
 #: abaqus.Property.MaterialOrientation.MaterialOrientation.ReferenceOrientation:30
 #: abaqus.Property.PropertyPart.MaterialOrientation.orientationType:1
 #: abaqus.Property.PropertyPart.PropertyPart.MaterialOrientation:32 of
@@ -3107,7 +3074,6 @@ msgid ""
 msgstr ""
 
 #: ../../../../docstring
-#: abaqus.Property.MaterialOrientation.MaterialOrientation:51
 #: abaqus.Property.MaterialOrientation.MaterialOrientation.ReferenceOrientation:42
 #: abaqus.Property.PropertyPart.MaterialOrientation.normalAxisDirection:1
 #: abaqus.Property.PropertyPart.PropertyPart.MaterialOrientation:37 of
@@ -3118,7 +3084,6 @@ msgid ""
 msgstr ""
 
 #: ../../../../docstring
-#: abaqus.Property.MaterialOrientation.MaterialOrientation:55
 #: abaqus.Property.PropertyPart.MaterialOrientation.normalAxisDefinition:1
 #: abaqus.Property.PropertyPart.PropertyPart.MaterialOrientation:41 of
 msgid ""
@@ -3128,7 +3093,6 @@ msgid ""
 msgstr ""
 
 #: ../../../../docstring
-#: abaqus.Property.MaterialOrientation.MaterialOrientation:59
 #: abaqus.Property.MaterialOrientation.MaterialOrientation.ReferenceOrientation:50
 #: abaqus.Property.PropertyPart.MaterialOrientation.normalAxisRegion:1
 #: abaqus.Property.PropertyPart.PropertyPart.MaterialOrientation:45 of
@@ -3138,7 +3102,6 @@ msgid ""
 msgstr ""
 
 #: ../../../../docstring
-#: abaqus.Property.MaterialOrientation.MaterialOrientation:62
 #: abaqus.Property.MaterialOrientation.MaterialOrientation.ReferenceOrientation:53
 #: abaqus.Property.PropertyPart.MaterialOrientation.normalAxisDatum:1
 #: abaqus.Property.PropertyPart.PropertyPart.MaterialOrientation:48 of
@@ -3148,7 +3111,6 @@ msgid ""
 msgstr ""
 
 #: ../../../../docstring
-#: abaqus.Property.MaterialOrientation.MaterialOrientation:65
 #: abaqus.Property.MaterialOrientation.MaterialOrientation.ReferenceOrientation:56
 #: abaqus.Property.PropertyPart.MaterialOrientation.flipNormalDirection:1
 #: abaqus.Property.PropertyPart.PropertyPart.MaterialOrientation:51 of
@@ -3158,7 +3120,6 @@ msgid ""
 msgstr ""
 
 #: ../../../../docstring
-#: abaqus.Property.MaterialOrientation.MaterialOrientation:68
 #: abaqus.Property.MaterialOrientation.MaterialOrientation.ReferenceOrientation:59
 #: abaqus.Property.PropertyPart.MaterialOrientation.normalAxisVector:1
 #: abaqus.Property.PropertyPart.PropertyPart.MaterialOrientation:54 of
@@ -3168,7 +3129,6 @@ msgid ""
 msgstr ""
 
 #: ../../../../docstring
-#: abaqus.Property.MaterialOrientation.MaterialOrientation:71
 #: abaqus.Property.MaterialOrientation.MaterialOrientation.ReferenceOrientation:62
 #: abaqus.Property.PropertyPart.MaterialOrientation.primaryAxisDirection:1
 #: abaqus.Property.PropertyPart.PropertyPart.MaterialOrientation:57 of
@@ -3179,7 +3139,6 @@ msgid ""
 msgstr ""
 
 #: ../../../../docstring
-#: abaqus.Property.MaterialOrientation.MaterialOrientation:75
 #: abaqus.Property.PropertyPart.MaterialOrientation.primaryAxisDefinition:1
 #: abaqus.Property.PropertyPart.PropertyPart.MaterialOrientation:61 of
 msgid ""
@@ -3189,7 +3148,6 @@ msgid ""
 msgstr ""
 
 #: ../../../../docstring
-#: abaqus.Property.MaterialOrientation.MaterialOrientation:79
 #: abaqus.Property.MaterialOrientation.MaterialOrientation.ReferenceOrientation:70
 #: abaqus.Property.PropertyPart.MaterialOrientation.primaryAxisRegion:1
 #: abaqus.Property.PropertyPart.PropertyPart.MaterialOrientation:65 of
@@ -3199,7 +3157,6 @@ msgid ""
 msgstr ""
 
 #: ../../../../docstring
-#: abaqus.Property.MaterialOrientation.MaterialOrientation:82
 #: abaqus.Property.MaterialOrientation.MaterialOrientation.ReferenceOrientation:73
 #: abaqus.Property.PropertyPart.MaterialOrientation.primaryAxisDatum:1
 #: abaqus.Property.PropertyPart.PropertyPart.MaterialOrientation:68 of
@@ -3209,7 +3166,6 @@ msgid ""
 msgstr ""
 
 #: ../../../../docstring
-#: abaqus.Property.MaterialOrientation.MaterialOrientation:85
 #: abaqus.Property.MaterialOrientation.MaterialOrientation.ReferenceOrientation:76
 #: abaqus.Property.PropertyPart.MaterialOrientation.flipPrimaryDirection:1
 #: abaqus.Property.PropertyPart.PropertyPart.MaterialOrientation:71 of
@@ -3219,7 +3175,6 @@ msgid ""
 msgstr ""
 
 #: ../../../../docstring
-#: abaqus.Property.MaterialOrientation.MaterialOrientation:88
 #: abaqus.Property.MaterialOrientation.MaterialOrientation.ReferenceOrientation:79
 #: abaqus.Property.PropertyPart.MaterialOrientation.primaryAxisVector:1
 #: abaqus.Property.PropertyPart.PropertyPart.MaterialOrientation:74 of
@@ -3232,7 +3187,6 @@ msgstr ""
 msgid "**orientation** -- A MaterialOrientation object."
 msgstr ""
 
-#: abaqus.Property.MaterialOrientation.MaterialOrientation:92
 #: abaqus.Property.MaterialOrientation.MaterialOrientation.ReferenceOrientation:83
 #: abaqus.Property.PropertyPart.PropertyPart.MaterialOrientation:78 of
 msgid ":class:`MaterialOrientation`"
@@ -3250,7 +3204,6 @@ msgstr ""
 #: ../../../../docstring
 #: abaqus.Property.PropertyAssembly.PropertyAssembly.SectionAssignment:13
 #: abaqus.Property.PropertyPart.PropertyPart.SectionAssignment:13
-#: abaqus.Property.SectionAssignment.SectionAssignment:29
 #: abaqus.Property.SectionAssignmentArray.SectionAssignment.region:1 of
 msgid "A Set object specifying the region to which the section is assigned."
 msgstr ""
@@ -3258,7 +3211,6 @@ msgstr ""
 #: ../../../../docstring
 #: abaqus.Property.PropertyAssembly.PropertyAssembly.SectionAssignment:15
 #: abaqus.Property.PropertyPart.PropertyPart.SectionAssignment:15
-#: abaqus.Property.SectionAssignment.SectionAssignment:31
 #: abaqus.Property.SectionAssignmentArray.SectionAssignment.sectionName:1 of
 msgid "A String specifying the name of the section."
 msgstr ""
@@ -3266,7 +3218,6 @@ msgstr ""
 #: ../../../../docstring
 #: abaqus.Property.PropertyAssembly.PropertyAssembly.SectionAssignment:17
 #: abaqus.Property.PropertyPart.PropertyPart.SectionAssignment:17
-#: abaqus.Property.SectionAssignment.SectionAssignment:33
 #: abaqus.Property.SectionAssignmentArray.SectionAssignment.thicknessAssignment:1
 #: of
 msgid ""
@@ -3278,7 +3229,6 @@ msgstr ""
 #: ../../../../docstring
 #: abaqus.Property.PropertyAssembly.PropertyAssembly.SectionAssignment:20
 #: abaqus.Property.PropertyPart.PropertyPart.SectionAssignment:20
-#: abaqus.Property.SectionAssignment.SectionAssignment:36
 #: abaqus.Property.SectionAssignmentArray.SectionAssignment.offset:1 of
 msgid ""
 "A Float specifying the offset of the shell section. The default value is "
@@ -3288,7 +3238,6 @@ msgstr ""
 #: ../../../../docstring
 #: abaqus.Property.PropertyAssembly.PropertyAssembly.SectionAssignment:22
 #: abaqus.Property.PropertyPart.PropertyPart.SectionAssignment:22
-#: abaqus.Property.SectionAssignment.SectionAssignment:38
 #: abaqus.Property.SectionAssignmentArray.SectionAssignment.offsetType:1 of
 msgid ""
 "A SymbolicConstant specifying the method used to define the shell offset. "
@@ -3301,7 +3250,6 @@ msgstr ""
 #: ../../../../docstring
 #: abaqus.Property.PropertyAssembly.PropertyAssembly.SectionAssignment:27
 #: abaqus.Property.PropertyPart.PropertyPart.SectionAssignment:27
-#: abaqus.Property.SectionAssignment.SectionAssignment:43
 #: abaqus.Property.SectionAssignmentArray.SectionAssignment.offsetField:1 of
 msgid ""
 "A String specifying the name of the field specifying the offset. The "
@@ -3313,8 +3261,7 @@ msgid "**assignment** -- A SectionAssignment object"
 msgstr ""
 
 #: abaqus.Property.PropertyAssembly.PropertyAssembly.SectionAssignment:31
-#: abaqus.Property.PropertyPart.PropertyPart.SectionAssignment:31
-#: abaqus.Property.SectionAssignment.SectionAssignment:47 of
+#: abaqus.Property.PropertyPart.PropertyPart.SectionAssignment:31 of
 msgid ":class:`SectionAssignment`"
 msgstr ""
 
@@ -3528,12 +3475,7 @@ msgstr ""
 msgid "SOLID SECTION"
 msgstr ""
 
-#: abaqus.Property.CompositeLayup.CompositeLayup:47 of
-msgid "A CompositeLayup object."
-msgstr ""
-
-#: abaqus.Property.CompositeLayup.CompositeLayup.CompositePly:1
-#: abaqus.Property.CompositePly.CompositePly:12 of
+#: abaqus.Property.CompositeLayup.CompositeLayup.CompositePly:1 of
 msgid "This method creates a CompositePly object."
 msgstr ""
 
@@ -3547,14 +3489,12 @@ msgstr ""
 
 #: ../../../../docstring
 #: abaqus.Property.CompositeLayup.CompositeLayup.CompositePly:12
-#: abaqus.Property.CompositePly.CompositePly:20
 #: abaqus.Property.CompositePlyArray.CompositePly.thickness:1 of
 msgid "A Float specifying the thickness of the section layer."
 msgstr ""
 
 #: ../../../../docstring
 #: abaqus.Property.CompositeLayup.CompositeLayup.CompositePly:14
-#: abaqus.Property.CompositePly.CompositePly:22
 #: abaqus.Property.CompositePlyArray.CompositePly.region:1 of
 msgid ""
 "A Region object specifying the region to which the composite ply applies."
@@ -3562,14 +3502,12 @@ msgstr ""
 
 #: ../../../../docstring
 #: abaqus.Property.CompositeLayup.CompositeLayup.CompositePly:16
-#: abaqus.Property.CompositePly.CompositePly:24
 #: abaqus.Property.CompositePlyArray.CompositePly.material:1 of
 msgid "A String specifying the name of the material for the ply."
 msgstr ""
 
 #: ../../../../docstring
 #: abaqus.Property.CompositeLayup.CompositeLayup.CompositePly:18
-#: abaqus.Property.CompositePly.CompositePly:26
 #: abaqus.Property.CompositePlyArray.CompositePly.plyName:1 of
 msgid ""
 "A String specifying the ply identifier for this section layer. The default"
@@ -3578,7 +3516,6 @@ msgstr ""
 
 #: ../../../../docstring
 #: abaqus.Property.CompositeLayup.CompositeLayup.CompositePly:21
-#: abaqus.Property.CompositePly.CompositePly:29
 #: abaqus.Property.CompositePlyArray.CompositePly.orientationType:1 of
 msgid ""
 "A SymbolicConstant specifying the method used to define the relative "
@@ -3589,8 +3526,7 @@ msgid ""
 "value is ANGLE_0."
 msgstr ""
 
-#: abaqus.Property.CompositeLayup.CompositeLayup.CompositePly:27
-#: abaqus.Property.CompositePly.CompositePly:35 of
+#: abaqus.Property.CompositeLayup.CompositeLayup.CompositePly:27 of
 msgid ""
 "A SymbolicConstant specifying the method used to define the thickness. If "
 "**thicknessType** = SPECIFY_THICKNESS, the **thickness** argument is "
@@ -3600,15 +3536,13 @@ msgstr ""
 
 #: ../../../../docstring
 #: abaqus.Property.CompositeLayup.CompositeLayup.CompositePly:32
-#: abaqus.Property.CompositePly.CompositePly:43
 #: abaqus.Property.CompositePlyArray.CompositePly.orientationValue:1 of
 msgid ""
 "A Float specifying the relative orientation of the section layer. The "
 "default value is 0.0."
 msgstr ""
 
-#: abaqus.Property.CompositeLayup.CompositeLayup.CompositePly:35
-#: abaqus.Property.CompositePly.CompositePly:46 of
+#: abaqus.Property.CompositeLayup.CompositeLayup.CompositePly:35 of
 msgid ""
 "A String specifying the name of the AnalyticalField or DiscreteField "
 "object used to define the thickness of the shell elements and composite "
@@ -3621,7 +3555,6 @@ msgstr ""
 
 #: ../../../../docstring
 #: abaqus.Property.CompositeLayup.CompositeLayup.CompositePly:42
-#: abaqus.Property.CompositePly.CompositePly:56
 #: abaqus.Property.CompositePlyArray.CompositePly.numIntPts:1 of
 msgid ""
 "An Int specifying the number of integration points to be used through the "
@@ -3631,7 +3564,6 @@ msgstr ""
 
 #: ../../../../docstring
 #: abaqus.Property.CompositeLayup.CompositeLayup.CompositePly:45
-#: abaqus.Property.CompositePly.CompositePly:59
 #: abaqus.Property.CompositePlyArray.CompositePly.axis:1 of
 msgid ""
 "A SymbolicConstant specifying the axis of a cylindrical or spherical datum"
@@ -3643,7 +3575,6 @@ msgstr ""
 
 #: ../../../../docstring
 #: abaqus.Property.CompositeLayup.CompositeLayup.CompositePly:51
-#: abaqus.Property.CompositePly.CompositePly:65
 #: abaqus.Property.CompositePlyArray.CompositePly.angle:1 of
 msgid ""
 "A Float specifying the angle of the additional rotation. The **angle** "
@@ -3653,7 +3584,6 @@ msgstr ""
 
 #: ../../../../docstring
 #: abaqus.Property.CompositeLayup.CompositeLayup.CompositePly:54
-#: abaqus.Property.CompositePly.CompositePly:68
 #: abaqus.Property.CompositePlyArray.CompositePly.additionalRotationType:1 of
 msgid ""
 "A SymbolicConstant specifying the method used to describe the additional "
@@ -3666,7 +3596,6 @@ msgstr ""
 
 #: ../../../../docstring
 #: abaqus.Property.CompositeLayup.CompositeLayup.CompositePly:60
-#: abaqus.Property.CompositePly.CompositePly:74
 #: abaqus.Property.CompositePlyArray.CompositePly.orientation:1 of
 msgid ""
 "The SymbolicConstant None or a DatumCsys object specifying a coordinate "
@@ -3676,20 +3605,17 @@ msgstr ""
 
 #: ../../../../docstring
 #: abaqus.Property.CompositeLayup.CompositeLayup.CompositePly:63
-#: abaqus.Property.CompositePly.CompositePly:77
 #: abaqus.Property.CompositePlyArray.CompositePly.additionalRotationField:1 of
 msgid ""
 "A String specifying the name of the field specifying the additional "
 "rotation. The default value is an empty string."
 msgstr ""
 
-#: abaqus.Property.CompositeLayup.CompositeLayup.CompositePly:66
-#: abaqus.Property.CompositePly.CompositePly:80 of
+#: abaqus.Property.CompositeLayup.CompositeLayup.CompositePly:66 of
 msgid "A CompositePly object."
 msgstr ""
 
-#: abaqus.Property.CompositeLayup.CompositeLayup.CompositePly:67
-#: abaqus.Property.CompositePly.CompositePly:81 of
+#: abaqus.Property.CompositeLayup.CompositeLayup.CompositePly:67 of
 msgid ":class:`CompositePly`"
 msgstr ""
 
@@ -3909,7 +3835,6 @@ msgid "This method deletes all of the plies from a composite layup."
 msgstr ""
 
 #: ../../../../docstring
-#: abaqus.Property.MaterialOrientation.MaterialOrientation:91
 #: abaqus.Property.MaterialOrientation.MaterialOrientation.ReferenceOrientation:82
 #: abaqus.Property.PropertyPart.CompositeLayup.orientation:1 of
 msgid "A MaterialOrientation object."
@@ -3947,37 +3872,6 @@ msgid ""
 "The CompositePly object defines the material layers in a composite layup."
 msgstr ""
 
-#: abaqus.Property.CompositePly.CompositePly:35 of
-msgid ""
-"A SymbolicConstant specifying the method used to define the thickness. If "
-"**thicknessType** = SPECIFY_THICKNESS, the **thickness** argument is "
-"required. Possible values are SPECIFY_THICKNESS, FIELD_THICKNESS, and "
-"ANALYTICAL_FIELD_THICKNESS. The default value is SPECIFY_THICKNESS.  .. "
-"versionchanged:: 2021     Add possible value ANALYTICAL_FIELD_THICKNESS."
-msgstr ""
-
-#: ../../../../docstring abaqus.Property.CompositePly.CompositePly:40
-#: abaqus.Property.CompositePlyArray.CompositePly.thicknessType:6 of
-msgid "Add possible value ANALYTICAL_FIELD_THICKNESS."
-msgstr ""
-
-#: abaqus.Property.CompositePly.CompositePly:46 of
-msgid ""
-"A String specifying the name of the AnalyticalField or DiscreteField "
-"object used to define the thickness of the shell elements and composite "
-"ply. The **thicknessField** argument applies when **thicknessType** = "
-"ANALYTICAL_FIELD or **thicknessType** = DISCRETE_FIELD for shell elements "
-"and **thicknessType** = FIELD_THICKNESS or **thicknessType** = "
-"ANALYTICAL_FIELD_THICKNESS for composite ply. The default value is an "
-"empty string.  .. versionchanged:: 2021     Update docs for "
-"ANALYTICAL_FIELD_THICKNESS"
-msgstr ""
-
-#: ../../../../docstring abaqus.Property.CompositePly.CompositePly:53
-#: abaqus.Property.CompositePlyArray.CompositePly.thicknessField:6 of
-msgid "Update docs for ANALYTICAL_FIELD_THICKNESS"
-msgstr ""
-
 #: ../../../../docstring
 #: abaqus.Property.CompositePlyArray.CompositePly.thicknessField:1 of
 msgid ""
@@ -3988,12 +3882,22 @@ msgid ""
 msgstr ""
 
 #: ../../../../docstring
+#: abaqus.Property.CompositePlyArray.CompositePly.thicknessField:6 of
+msgid "Update docs for ANALYTICAL_FIELD_THICKNESS"
+msgstr ""
+
+#: ../../../../docstring
 #: abaqus.Property.CompositePlyArray.CompositePly.thicknessType:1 of
 msgid ""
 "A SymbolicConstant specifying the method used to define the thickness. If "
 "thicknessType=SPECIFY_THICKNESS, the thickness argument is required. "
 "Possible values are SPECIFY_THICKNESS and FIELD_THICKNESS. The default "
 "value is SPECIFY_THICKNESS."
+msgstr ""
+
+#: ../../../../docstring
+#: abaqus.Property.CompositePlyArray.CompositePly.thicknessType:6 of
+msgid "Add possible value ANALYTICAL_FIELD_THICKNESS."
 msgstr ""
 
 #: abaqus.Property.MaterialOrientation.MaterialOrientation:1 of
@@ -4201,8 +4105,7 @@ msgid ""
 "assemblypyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: abaqus.Property.PropertyAssembly.PropertyAssembly.SectionAssignment:30
-#: abaqus.Property.SectionAssignment.SectionAssignment:46 of
+#: abaqus.Property.PropertyAssembly.PropertyAssembly.SectionAssignment:30 of
 msgid "A SectionAssignment object."
 msgstr ""
 
