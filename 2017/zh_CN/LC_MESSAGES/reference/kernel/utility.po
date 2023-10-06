@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: abqpy \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-14 01:59+0000\n"
+"POT-Creation-Date: 2023-10-06 02:35+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.12.1\n"
+"Generated-By: Babel 2.13.0\n"
 
 #: ../../../reference/kernel/utility.md:1
 msgid "Utility and View"
@@ -102,7 +102,6 @@ msgstr ""
 
 #: abaqus.UtilityAndView.AbaqusBoolean.AbaqusBoolean:12
 #: abaqus.UtilityAndView.AbaqusBoolean.AbaqusBoolean:18
-#: abaqus.UtilityAndView.AbaqusBoolean.AbaqusBoolean:23
 #: abaqus.UtilityAndView.BackwardCompatibility.BackwardCompatibility:36
 #: abaqus.UtilityAndView.BackwardCompatibility.BackwardCompatibility:41
 #: abaqus.UtilityAndView.BackwardCompatibility.BackwardCompatibility.setValues:3
@@ -123,15 +122,13 @@ msgstr ""
 #: abaqus.UtilityAndView.Repository.Repository.changeKey:3
 #: abaqus.UtilityAndView.SymbolicConstant.SymbolicConstant:11
 #: abaqus.UtilityAndView.SymbolicConstant.SymbolicConstant:17
-#: abaqus.UtilityAndView.SymbolicConstant.SymbolicConstant:22
-#: abaqus.UtilityAndView.SymbolicConstant.abaqusConstants:3
 #: abaqus.UtilityAndView.Upgrade.upgradeScript:7
 #: abaqus.UtilityAndView.Upgrade.upgradeScript:12
 #: abaqus.UtilityAndView.User.getWarningReply:9
 #: abaqus.UtilityAndView.User.getWarningReply:14
 #: abaqus.UtilityAndView.User.getWarningReply:19
 #: abaqus.UtilityAndView.View.View:7 abaqus.UtilityAndView.View.View:14
-#: abaqus.UtilityAndView.View.View:20 abaqus.UtilityAndView.View.View.fitView:4
+#: abaqus.UtilityAndView.View.View.fitView:4
 #: abaqus.UtilityAndView.View.View.next:5 abaqus.UtilityAndView.View.View.pan:3
 #: abaqus.UtilityAndView.View.View.previous:5
 #: abaqus.UtilityAndView.View.View.rotate:4
@@ -158,87 +155,6 @@ msgid ""
 "Check `AbaqusBoolean on help.3ds.com/2017 <https://help.3ds.com/2017/Engli"
 "sh/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "abaqusbooleanpyc.htm?contextscope=all>`__."
-msgstr ""
-
-#: abaqus.UtilityAndView.AbaqusBoolean.AbaqusBoolean:21 of
-msgid "The AbaqusBoolean method creates an AbaqusBoolean object."
-msgstr ""
-
-#: abaqus.UtilityAndView.AbaqusBoolean.AbaqusBoolean:24
-#: abaqus.UtilityAndView.Callback.addImportCallback:5
-#: abaqus.UtilityAndView.Callback.removeImportCallback:4
-#: abaqus.UtilityAndView.Customization.journalMethodCall:18
-#: abaqus.UtilityAndView.Delete.deleteObjectCallback:7
-#: abaqus.UtilityAndView.Method.addCallback:5
-#: abaqus.UtilityAndView.Method.removeCallback:5
-#: abaqus.UtilityAndView.SymbolicConstant.SymbolicConstant:23
-#: abaqus.UtilityAndView.SymbolicConstant.abaqusConstants:4
-#: abaqus.UtilityAndView.Upgrade.upgradeScript:8
-#: abaqus.UtilityAndView.User.getWarningReply:15
-#: abaqus.UtilityAndView.View.View:21 of
-msgid "This function can be accessed by::"
-msgstr ""
-
-#: abaqus.UtilityAndView.AbaqusBoolean.AbaqusBoolean
-#: abaqus.UtilityAndView.BackwardCompatibility.BackwardCompatibility.setValues
-#: abaqus.UtilityAndView.Callback.addImportCallback
-#: abaqus.UtilityAndView.Callback.removeImportCallback
-#: abaqus.UtilityAndView.Customization.journalMethodCall
-#: abaqus.UtilityAndView.Delete.deleteObjectCallback
-#: abaqus.UtilityAndView.Method.addCallback
-#: abaqus.UtilityAndView.Method.removeCallback
-#: abaqus.UtilityAndView.Repository.Repository.changeKey
-#: abaqus.UtilityAndView.SymbolicConstant.SymbolicConstant
-#: abaqus.UtilityAndView.SymbolicConstant.abaqusConstants
-#: abaqus.UtilityAndView.Upgrade.upgradeScript
-#: abaqus.UtilityAndView.User.getWarningReply abaqus.UtilityAndView.View.View
-#: abaqus.UtilityAndView.View.View.fitView abaqus.UtilityAndView.View.View.next
-#: abaqus.UtilityAndView.View.View.pan abaqus.UtilityAndView.View.View.previous
-#: abaqus.UtilityAndView.View.View.rotate
-#: abaqus.UtilityAndView.View.View.setLayerTransform
-#: abaqus.UtilityAndView.View.View.setProjection
-#: abaqus.UtilityAndView.View.View.setRotationCenter
-#: abaqus.UtilityAndView.View.View.setValues
-#: abaqus.UtilityAndView.View.View.setViewpoint
-#: abaqus.UtilityAndView.View.View.zoom
-#: abaqus.UtilityAndView.View.View.zoomRectangle of
-msgid "Parameters"
-msgstr ""
-
-#: abaqus.UtilityAndView.AbaqusBoolean.AbaqusBoolean:29 of
-msgid ""
-"An Int specifying whether the AbaqusBoolean object will test true or "
-"false. Possible values are 0 and 1, which will create the AbaqusBoolean "
-"method OFF and ON, respectively."
-msgstr ""
-
-#: abaqus.UtilityAndView.AbaqusBoolean.AbaqusBoolean
-#: abaqus.UtilityAndView.BackwardCompatibility.BackwardCompatibility.getDeprecatedArgsUsed
-#: abaqus.UtilityAndView.BackwardCompatibility.BackwardCompatibility.getDeprecatedMethodsUsed
-#: abaqus.UtilityAndView.SymbolicConstant.SymbolicConstant
-#: abaqus.UtilityAndView.SymbolicConstant.abaqusConstants
-#: abaqus.UtilityAndView.Upgrade.upgradeScript abaqus.UtilityAndView.View.View
-#: of
-msgid "Returns"
-msgstr ""
-
-#: abaqus.UtilityAndView.AbaqusBoolean.AbaqusBoolean:32 of
-msgid "An AbaqusBoolean object."
-msgstr ""
-
-#: abaqus.UtilityAndView.AbaqusBoolean.AbaqusBoolean
-#: abaqus.UtilityAndView.BackwardCompatibility.BackwardCompatibility.getDeprecatedArgsUsed
-#: abaqus.UtilityAndView.BackwardCompatibility.BackwardCompatibility.getDeprecatedMethodsUsed
-#: abaqus.UtilityAndView.SymbolicConstant.SymbolicConstant
-#: abaqus.UtilityAndView.SymbolicConstant.abaqusConstants
-#: abaqus.UtilityAndView.Upgrade.upgradeScript
-#: abaqus.UtilityAndView.User.getWarningReply abaqus.UtilityAndView.View.View
-#: abaqus.UtilityAndView.View.View.setValues of
-msgid "Return type"
-msgstr ""
-
-#: abaqus.UtilityAndView.AbaqusBoolean.AbaqusBoolean:33 of
-msgid ":class:`AbaqusBoolean`"
 msgstr ""
 
 #: abaqus.UtilityAndView.AbaqusBoolean.AbaqusBoolean:1
@@ -306,10 +222,24 @@ msgid ""
 "call to resetDeprecatedArgsUsed."
 msgstr ""
 
+#: abaqus.UtilityAndView.BackwardCompatibility.BackwardCompatibility.getDeprecatedArgsUsed
+#: abaqus.UtilityAndView.BackwardCompatibility.BackwardCompatibility.getDeprecatedMethodsUsed
+#: abaqus.UtilityAndView.Upgrade.upgradeScript of
+msgid "Returns"
+msgstr ""
+
 #: abaqus.UtilityAndView.BackwardCompatibility.BackwardCompatibility.getDeprecatedArgsUsed:4
 #: abaqus.UtilityAndView.BackwardCompatibility.BackwardCompatibility.getDeprecatedMethodsUsed:4
 #: of
 msgid "A list of Strings."
+msgstr ""
+
+#: abaqus.UtilityAndView.BackwardCompatibility.BackwardCompatibility.getDeprecatedArgsUsed
+#: abaqus.UtilityAndView.BackwardCompatibility.BackwardCompatibility.getDeprecatedMethodsUsed
+#: abaqus.UtilityAndView.Upgrade.upgradeScript
+#: abaqus.UtilityAndView.User.getWarningReply
+#: abaqus.UtilityAndView.View.View.setValues of
+msgid "Return type"
 msgstr ""
 
 #: abaqus.UtilityAndView.BackwardCompatibility.BackwardCompatibility.getDeprecatedArgsUsed:5
@@ -367,6 +297,29 @@ msgid ""
 "backwardcompatibilitysetvaluespyc>`__."
 msgstr ""
 
+#: abaqus.UtilityAndView.BackwardCompatibility.BackwardCompatibility.setValues
+#: abaqus.UtilityAndView.Callback.addImportCallback
+#: abaqus.UtilityAndView.Callback.removeImportCallback
+#: abaqus.UtilityAndView.Customization.journalMethodCall
+#: abaqus.UtilityAndView.Delete.deleteObjectCallback
+#: abaqus.UtilityAndView.Method.addCallback
+#: abaqus.UtilityAndView.Method.removeCallback
+#: abaqus.UtilityAndView.Repository.Repository.changeKey
+#: abaqus.UtilityAndView.Upgrade.upgradeScript
+#: abaqus.UtilityAndView.User.getWarningReply
+#: abaqus.UtilityAndView.View.View.fitView abaqus.UtilityAndView.View.View.next
+#: abaqus.UtilityAndView.View.View.pan abaqus.UtilityAndView.View.View.previous
+#: abaqus.UtilityAndView.View.View.rotate
+#: abaqus.UtilityAndView.View.View.setLayerTransform
+#: abaqus.UtilityAndView.View.View.setProjection
+#: abaqus.UtilityAndView.View.View.setRotationCenter
+#: abaqus.UtilityAndView.View.View.setValues
+#: abaqus.UtilityAndView.View.View.setViewpoint
+#: abaqus.UtilityAndView.View.View.zoom
+#: abaqus.UtilityAndView.View.View.zoomRectangle of
+msgid "Parameters"
+msgstr ""
+
 #: abaqus.UtilityAndView.BackwardCompatibility.BackwardCompatibility.setValues:7
 #: of
 msgid ""
@@ -389,6 +342,17 @@ msgid ""
 "This function defines a function to be called when a specified Abaqus/CAE "
 "module is imported. You cannot specify a custom module. For more "
 "information, see An example of a callback function."
+msgstr ""
+
+#: abaqus.UtilityAndView.Callback.addImportCallback:5
+#: abaqus.UtilityAndView.Callback.removeImportCallback:4
+#: abaqus.UtilityAndView.Customization.journalMethodCall:18
+#: abaqus.UtilityAndView.Delete.deleteObjectCallback:7
+#: abaqus.UtilityAndView.Method.addCallback:5
+#: abaqus.UtilityAndView.Method.removeCallback:5
+#: abaqus.UtilityAndView.Upgrade.upgradeScript:8
+#: abaqus.UtilityAndView.User.getWarningReply:15 of
+msgid "This function can be accessed by::"
 msgstr ""
 
 #: abaqus.UtilityAndView.Callback.addImportCallback:10 of
@@ -697,29 +661,6 @@ msgid ""
 "symbolicconstantpyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: abaqus.UtilityAndView.SymbolicConstant.SymbolicConstant:20
-#: abaqus.UtilityAndView.SymbolicConstant.abaqusConstants:1 of
-msgid "The SymbolicConstant method creates a SymbolicConstant object."
-msgstr ""
-
-#: abaqus.UtilityAndView.SymbolicConstant.SymbolicConstant:28
-#: abaqus.UtilityAndView.SymbolicConstant.abaqusConstants:9 of
-msgid ""
-"A String specifying the text of the SymbolicConstant object. The String "
-"must contain only capital letters, digits, or underscores and must not "
-"start with a digit."
-msgstr ""
-
-#: abaqus.UtilityAndView.SymbolicConstant.SymbolicConstant:31
-#: abaqus.UtilityAndView.SymbolicConstant.abaqusConstants:12 of
-msgid "A SymbolicConstant object."
-msgstr ""
-
-#: abaqus.UtilityAndView.SymbolicConstant.SymbolicConstant:32
-#: abaqus.UtilityAndView.SymbolicConstant.abaqusConstants:13 of
-msgid ":class:`SymbolicConstant`"
-msgstr ""
-
 #: abaqus.UtilityAndView.SymbolicConstant.abaqusConstants:1 of
 msgid ""
 "Bases: "
@@ -882,125 +823,23 @@ msgid ""
 "viewpyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: abaqus.UtilityAndView.View.View:17 of
-msgid ""
-"This method creates a View object. Note:All dimensions and coordinates are"
-" specified in the model coordinate system. Note:This method cannot be used"
-" to create a View for a Layer object."
+#: ../../../../docstring abaqus.UtilityAndView.View.View.autoFit:1 of
+msgid "A Boolean specifying whether the view is auto-fit when applied."
 msgstr ""
 
-#: abaqus.UtilityAndView.View.View:26 of
-msgid ""
-"A String specifying the name of the view (also used as the repository "
-"key). Possible values are 'Front', 'Back', 'Top', 'Bottom', 'Left', "
-"'Right', 'Iso', 'User-1', 'User-2', 'User-3', and 'User-4'. The object "
-"member associated with this argument is a SymbolicConstant. Possible "
-"values of the **name** member are:FRONT, BACK, TOP, BOTTOM, LEFT, RIGHT, "
-"ISO, USER1, USER2, USER3, and USER4."
-msgstr ""
-
-#: ../../../../docstring abaqus.UtilityAndView.View.View:32
-#: abaqus.UtilityAndView.View.View.nearPlane:1 of
-msgid ""
-"A Float specifying the distance from the camera to the near clipping "
-"plane. Possible values are **nearPlane** > 0.0."
-msgstr ""
-
-#: ../../../../docstring abaqus.UtilityAndView.View.View:35
-#: abaqus.UtilityAndView.View.View.farPlane:1 of
-msgid ""
-"A Float specifying the distance from the camera to the far clipping plane "
-"when **farPlaneMode** =SPECIFY. Possible values are **farPlane** > "
-"**nearPlane**."
-msgstr ""
-
-#: ../../../../docstring abaqus.UtilityAndView.View.View:38
-#: abaqus.UtilityAndView.View.View.width:1 of
-msgid ""
-"A Float specifying the width of the front clipping plane. Possible values "
-"are **width** > 0.0."
-msgstr ""
-
-#: ../../../../docstring abaqus.UtilityAndView.View.View:41
-#: abaqus.UtilityAndView.View.View.height:1 of
-msgid ""
-"A Float specifying the height of the front clipping plane. Possible values"
-" are **height** > 0.0."
-msgstr ""
-
-#: ../../../../docstring abaqus.UtilityAndView.View.View:44
-#: abaqus.UtilityAndView.View.View.projection:1
-#: abaqus.UtilityAndView.View.View.setProjection:9 of
-msgid ""
-"A SymbolicConstant specifying the projection mode. Possible values are "
-"PERSPECTIVE and PARALLEL."
-msgstr ""
-
-#: ../../../../docstring abaqus.UtilityAndView.View.View:47
-#: abaqus.UtilityAndView.View.View.cameraPosition:1 of
+#: ../../../../docstring abaqus.UtilityAndView.View.View.cameraPosition:1 of
 msgid "A sequence of three Floats specifying the camera position."
 msgstr ""
 
-#: ../../../../docstring abaqus.UtilityAndView.View.View:49
-#: abaqus.UtilityAndView.View.View.cameraUpVector:1
+#: ../../../../docstring abaqus.UtilityAndView.View.View.cameraTarget:1 of
+msgid "A sequence of three Floats specifying the center of the scene."
+msgstr ""
+
+#: ../../../../docstring abaqus.UtilityAndView.View.View.cameraUpVector:1
 #: abaqus.UtilityAndView.View.View.setViewpoint:11 of
 msgid ""
 "A sequence of three Floats specifying the camera's up vector (the screen's"
 " positive **Y** axis). The initial value is (0, 0, 0)."
-msgstr ""
-
-#: ../../../../docstring abaqus.UtilityAndView.View.View:52
-#: abaqus.UtilityAndView.View.View.cameraTarget:1 of
-msgid "A sequence of three Floats specifying the center of the scene."
-msgstr ""
-
-#: ../../../../docstring abaqus.UtilityAndView.View.View:54
-#: abaqus.UtilityAndView.View.View.viewOffsetX:1 of
-msgid ""
-"A Float specifying the amount to pan the model in the screen **X** "
-"direction as a fraction of the viewport width. A positive value pans the "
-"model to the right. A negative value pans the model to the left. The "
-"*viewOffsetX* and **viewOffsetY** arguments allow you to pan the view "
-"without changing the position of the camera or the target "
-"(*cameraPosition* and **cameraTarget** arguments to the View method). The "
-"resulting change in the view allows you to pan a perspective display "
-"without producing an apparent rotation of the model."
-msgstr ""
-
-#: ../../../../docstring abaqus.UtilityAndView.View.View:61
-#: abaqus.UtilityAndView.View.View.viewOffsetY:1 of
-msgid ""
-"A Float specifying the amount to pan the model in the screen **Y** "
-"direction as a fraction of the viewport height. A positive value pans the "
-"model upward. A negative value pans the model downward."
-msgstr ""
-
-#: ../../../../docstring abaqus.UtilityAndView.View.View:65
-#: abaqus.UtilityAndView.View.View.autoFit:1 of
-msgid "A Boolean specifying whether the view is auto-fit when applied."
-msgstr ""
-
-#: ../../../../docstring abaqus.UtilityAndView.View.View:67
-#: abaqus.UtilityAndView.View.View.movieMode:1 of
-msgid ""
-"A Boolean specifying whether or not the camera is in movie mode. The "
-"default value is OFF."
-msgstr ""
-
-#: abaqus.UtilityAndView.View.View:70 of
-msgid "A View object."
-msgstr ""
-
-#: abaqus.UtilityAndView.View.View:71 of
-msgid ":class:`View`"
-msgstr ""
-
-#: abaqus.UtilityAndView.View.View
-#: abaqus.UtilityAndView.View.View.setProjection
-#: abaqus.UtilityAndView.View.View.setRotationCenter
-#: abaqus.UtilityAndView.View.View.setValues
-#: abaqus.UtilityAndView.View.View.zoom of
-msgid "Raises"
 msgstr ""
 
 #: ../../../../docstring
@@ -1019,6 +858,13 @@ msgid ""
 "rectangle around the viewport contents. This value does not include "
 "annotations or symbols and it is not clipped to the size of the viewport "
 "window."
+msgstr ""
+
+#: ../../../../docstring abaqus.UtilityAndView.View.View.farPlane:1 of
+msgid ""
+"A Float specifying the distance from the camera to the far clipping plane "
+"when **farPlaneMode** =SPECIFY. Possible values are **farPlane** > "
+"**nearPlane**."
 msgstr ""
 
 #: abaqus.UtilityAndView.View.View.fitView:1 of
@@ -1043,10 +889,22 @@ msgid ""
 "completes. The default value is False."
 msgstr ""
 
+#: ../../../../docstring abaqus.UtilityAndView.View.View.height:1 of
+msgid ""
+"A Float specifying the height of the front clipping plane. Possible values"
+" are **height** > 0.0."
+msgstr ""
+
 #: ../../../../docstring abaqus.UtilityAndView.View.View.layerTransform:1 of
 msgid ""
 "A tuple of Floats specifying a transformation matrix used to position the "
 "contents of the Layer within a viewport."
+msgstr ""
+
+#: ../../../../docstring abaqus.UtilityAndView.View.View.movieMode:1 of
+msgid ""
+"A Boolean specifying whether or not the camera is in movie mode. The "
+"default value is OFF."
 msgstr ""
 
 #: ../../../../docstring abaqus.UtilityAndView.View.View.name:1 of
@@ -1057,6 +915,12 @@ msgid ""
 "member associated with this argument is a SymbolicConstant. Possible "
 "values of the **name** member are: FRONT, BACK, TOP, BOTTOM, LEFT, RIGHT, "
 "ISO, USER1, USER2, USER3, and USER4."
+msgstr ""
+
+#: ../../../../docstring abaqus.UtilityAndView.View.View.nearPlane:1 of
+msgid ""
+"A Float specifying the distance from the camera to the near clipping "
+"plane. Possible values are **nearPlane** > 0.0."
 msgstr ""
 
 #: abaqus.UtilityAndView.View.View.next:1 of
@@ -1139,6 +1003,13 @@ msgid ""
 "Check `View.previous on help.3ds.com/2017 <https://help.3ds.com/2017/Engli"
 "sh/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "viewpyc.htm?contextscope=all#simaker-viewpreviouspyc>`__."
+msgstr ""
+
+#: ../../../../docstring abaqus.UtilityAndView.View.View.projection:1
+#: abaqus.UtilityAndView.View.View.setProjection:9 of
+msgid ""
+"A SymbolicConstant specifying the projection mode. Possible values are "
+"PERSPECTIVE and PARALLEL."
 msgstr ""
 
 #: abaqus.UtilityAndView.View.View.rotate:1 of
@@ -1253,6 +1124,13 @@ msgid ""
 "viewpyc.htm?contextscope=all#simaker-viewsetprojectionpyc>`__."
 msgstr ""
 
+#: abaqus.UtilityAndView.View.View.setProjection
+#: abaqus.UtilityAndView.View.View.setRotationCenter
+#: abaqus.UtilityAndView.View.View.setValues
+#: abaqus.UtilityAndView.View.View.zoom of
+msgid "Raises"
+msgstr ""
+
 #: abaqus.UtilityAndView.View.View.setRotationCenter:1 of
 msgid "This method sets the center of rotation to the specified location."
 msgstr ""
@@ -1338,6 +1216,31 @@ msgstr ""
 msgid ""
 "A sequence of three Floats specifying the viewing vector (from the camera "
 "to the origin of the model)."
+msgstr ""
+
+#: ../../../../docstring abaqus.UtilityAndView.View.View.viewOffsetX:1 of
+msgid ""
+"A Float specifying the amount to pan the model in the screen **X** "
+"direction as a fraction of the viewport width. A positive value pans the "
+"model to the right. A negative value pans the model to the left. The "
+"*viewOffsetX* and **viewOffsetY** arguments allow you to pan the view "
+"without changing the position of the camera or the target "
+"(*cameraPosition* and **cameraTarget** arguments to the View method). The "
+"resulting change in the view allows you to pan a perspective display "
+"without producing an apparent rotation of the model."
+msgstr ""
+
+#: ../../../../docstring abaqus.UtilityAndView.View.View.viewOffsetY:1 of
+msgid ""
+"A Float specifying the amount to pan the model in the screen **Y** "
+"direction as a fraction of the viewport height. A positive value pans the "
+"model upward. A negative value pans the model downward."
+msgstr ""
+
+#: ../../../../docstring abaqus.UtilityAndView.View.View.width:1 of
+msgid ""
+"A Float specifying the width of the front clipping plane. Possible values "
+"are **width** > 0.0."
 msgstr ""
 
 #: abaqus.UtilityAndView.View.View.zoom:1 of

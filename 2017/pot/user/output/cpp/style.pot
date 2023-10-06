@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: abqpy 2017\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-15 05:55+0000\n"
+"POT-Creation-Date: 2023-10-06 02:35+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -69,34 +69,46 @@ msgid "MeshStats"
 msgstr ""
 
 #: ../../../user/output/cpp/style.md:20
-msgid "Within each object description, the commands are listed in the following order: \\- Constructors (in alphabetical order) \\- Methods (in alphabetical order) \\- Members"
+msgid "Within each object description, the commands are listed in the following order:"
 msgstr ""
 
-#: ../../../user/output/cpp/style.md:25
+#: ../../../user/output/cpp/style.md:22
+msgid "Constructors (in alphabetical order)"
+msgstr ""
+
+#: ../../../user/output/cpp/style.md:23
+msgid "Methods (in alphabetical order)"
+msgstr ""
+
+#: ../../../user/output/cpp/style.md:24
+msgid "Members"
+msgstr ""
+
+#: ../../../user/output/cpp/style.md:26
 msgid "Some methods are not associated with an object and appear at the end of a chapter; for example, the {py:meth}`~abaqus.Material.evaluateMaterial` method appears at the end of {doc}`/reference/mdb/model/material`."
 msgstr ""
 
-#: ../../../user/output/cpp/style.md:27
+#: ../../../user/output/cpp/style.md:28
 msgid "Access"
 msgstr ""
 
-#: ../../../user/output/cpp/style.md:29
+#: ../../../user/output/cpp/style.md:30
 msgid "The description of each object in the {doc}`/reference/index` begins with a section that describes how you access an instance of the object."
 msgstr ""
 
-#: ../../../user/output/cpp/style.md:31
+#: ../../../user/output/cpp/style.md:32
 msgid "The following is the access description for the Part object:"
 msgstr ""
 
-#: ../../../user/output/cpp/style.md:37
+#: ../../../user/output/cpp/style.md:38
 msgid "The access description specifies where instances of the object are located in the data model. The Part object can accordingly be accessed as:"
 msgstr ""
 
-#: ../../../user/output/cpp/style.md:44
+#: ../../../user/output/cpp/style.md:45
 msgid "The Access description for the FieldOutput object is"
 msgstr ""
 
-#: ../../../user/output/cpp/style.md:50
+#: ../../../user/output/cpp/style.md:51
 msgid "The following statements show how you use the object described by this `Access` description:"
 msgstr ""
 
@@ -136,30 +148,30 @@ msgstr ""
 msgid "The following statement creates a FieldOutput object:"
 msgstr ""
 
-#: ../../../user/output/cpp/style.md:105
+#: ../../../user/output/cpp/style.md:104
 msgid "Prototype"
 msgstr ""
 
-#: ../../../user/output/cpp/style.md:107
+#: ../../../user/output/cpp/style.md:106
 msgid "{doc}`/reference/odb` contains a prototype section for each C++ command. The prototype provides the type returned by the command, the name of the command, and a list of all its arguments along with the type of each argument. Required arguments appear first in the list followed by default arguments along with their default value. For example, the Frame constructor is given as"
 msgstr ""
 
-#: ../../../user/output/cpp/style.md:114
+#: ../../../user/output/cpp/style.md:112
 msgid "indicating that the **incrementNumber** and **frameValue** arguments are required, that the optional **description** argument has a default value of the empty string, and that the method returns a reference to the Frame object created."
 msgstr ""
 
-#: ../../../user/output/cpp/style.md:116
+#: ../../../user/output/cpp/style.md:114
 msgid "Return value"
 msgstr ""
 
-#: ../../../user/output/cpp/style.md:118
+#: ../../../user/output/cpp/style.md:116
 msgid "All commands return a value. Many commands return the value void. Constructors (methods that create an object) always return the object being created. The return value of a command can be assigned to a variable. For example, in the following statement the Odb constructor returns an Odb object, and the variable newOdb refers to this new object."
 msgstr ""
 
-#: ../../../user/output/cpp/style.md:124
+#: ../../../user/output/cpp/style.md:122
 msgid "You can use the object returned by a command in subsequent statements. The following statement uses the output database created by the previous statement:"
 msgstr ""
 
-#: ../../../user/output/cpp/style.md:131
+#: ../../../user/output/cpp/style.md:128
 msgid "If an exception is raised while a statement is executing, the command does not return a value."
 msgstr ""

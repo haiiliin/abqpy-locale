@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: abqpy 2017\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-14 01:59+0000\n"
+"POT-Creation-Date: 2023-10-06 02:35+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: zh_CN\n"
@@ -17,7 +17,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.12.1\n"
+"Generated-By: Babel 2.13.0\n"
 
 #: ../../../reference/mdb/model/index.md:5
 msgid "Objects in Model"
@@ -74,8 +74,7 @@ msgstr ""
 #: abaqus.Model.KeywordBlock.KeywordBlock.setValues:3
 #: abaqus.Model.KeywordBlock.KeywordBlock.synchVersions:7
 #: abaqus.Model.Model.Model:3 abaqus.Model.Model.Model:12
-#: abaqus.Model.Model.Model:17 abaqus.Model.ModelBase.ModelBase:3
-#: abaqus.Model.ModelBase.ModelBase:12 abaqus.Model.ModelBase.ModelBase:17
+#: abaqus.Model.ModelBase.ModelBase:3 abaqus.Model.ModelBase.ModelBase:12
 #: abaqus.Model.ModelBase.ModelBase.ModelFromInputFile:4
 #: abaqus.Model.ModelBase.ModelBase.ModelFromInputFile:9
 #: abaqus.Model.ModelBase.ModelBase.ModelFromNastranFile:6
@@ -106,143 +105,20 @@ msgid ""
 "modelpyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: ../../../../None:7:<autosummary>:1 abaqus.Model.Model.Model:15
-#: abaqus.Model.ModelBase.ModelBase:15 of
-msgid "This method creates a Model object."
-msgstr ""
-
-#: abaqus.Model.Model.Model:18 abaqus.Model.ModelBase.ModelBase:18
-#: abaqus.Model.ModelBase.ModelBase.ModelFromInputFile:5
-#: abaqus.Model.ModelBase.ModelBase.ModelFromNastranFile:7
-#: abaqus.Model.ModelBase.ModelBase.ModelFromOdbFile:5 of
-msgid "This function can be accessed by::"
-msgstr ""
-
-#: abaqus.Model.KeywordBlock.KeywordBlock.insert
-#: abaqus.Model.KeywordBlock.KeywordBlock.replace
-#: abaqus.Model.KeywordBlock.KeywordBlock.setValues
-#: abaqus.Model.KeywordBlock.KeywordBlock.synchVersions
-#: abaqus.Model.Model.Model abaqus.Model.ModelBase.ModelBase
-#: abaqus.Model.ModelBase.ModelBase.ModelFromInputFile
-#: abaqus.Model.ModelBase.ModelBase.ModelFromNastranFile
-#: abaqus.Model.ModelBase.ModelBase.ModelFromOdbFile
-#: abaqus.Model.ModelBase.ModelBase.setValues of
-msgid "Parameters"
-msgstr ""
-
-#: ../../../../None:52:<autosummary>:1 ../../../../docstring
-#: abaqus.Model.Model.Model:23 abaqus.Model.ModelBase.ModelBase:23
-#: abaqus.Model.ModelBase.ModelBase.ModelFromInputFile:13
-#: abaqus.Model.ModelBase.ModelBase.ModelFromNastranFile:15
-#: abaqus.Model.ModelBase.ModelBase.ModelFromOdbFile:13
-#: abaqus.Model.ModelBase.ModelBase.name:1 of
-msgid "A String specifying the repository key."
-msgstr ""
-
-#: ../../../../docstring abaqus.Model.Model.Model:25
-#: abaqus.Model.ModelBase.ModelBase:25
-#: abaqus.Model.ModelBase.ModelBase.description:1
-#: abaqus.Model.ModelBase.ModelBase.setValues:7 of
-msgid ""
-"A String specifying the purpose and contents of the Model object. The "
-"default value is an empty string."
-msgstr ""
-
-#: ../../../../docstring abaqus.Model.Model.Model:28
-#: abaqus.Model.ModelBase.ModelBase:28
-#: abaqus.Model.ModelBase.ModelBase.setValues:15
-#: abaqus.Model.ModelBase.ModelBase.stefanBoltzmann:1 of
-msgid ""
-"None or a Float specifying the Stefan-Boltzmann constant. The default "
-"value is None."
-msgstr ""
-
-#: ../../../../docstring abaqus.Model.Model.Model:30
-#: abaqus.Model.ModelBase.ModelBase:30
-#: abaqus.Model.ModelBase.ModelBase.absoluteZero:1
-#: abaqus.Model.ModelBase.ModelBase.setValues:13 of
-msgid ""
-"None or a Float specifying the absolute zero constant. The default value "
-"is None."
-msgstr ""
-
-#: ../../../../docstring abaqus.Model.Model.Model:32
-#: abaqus.Model.ModelBase.ModelBase:32
-#: abaqus.Model.ModelBase.ModelBase.setValues:17
-#: abaqus.Model.ModelBase.ModelBase.waveFormulation:1 of
-msgid ""
-"A SymbolicConstant specifying the type of incident wave formulation to be "
-"used in acoustic problems. Possible values are NOT_SET, SCATTERED, and "
-"TOTAL. The default value is NOT_SET."
-msgstr ""
-
-#: abaqus.Model.Model.Model:36 abaqus.Model.ModelBase.ModelBase:36 of
-msgid ""
-"A SymbolicConstant specifying the analysis model type. Possible values are"
-" STANDARD_EXPLICIT and ELECTROMAGNETIC. The default is STANDARD_EXPLICIT."
-msgstr ""
-
-#: ../../../../docstring abaqus.Model.Model.Model:39
-#: abaqus.Model.ModelBase.ModelBase:39
-#: abaqus.Model.ModelBase.ModelBase.setValues:21
-#: abaqus.Model.ModelBase.ModelBase.universalGas:1 of
-msgid ""
-"None or a Float specifying the universal gas constant. The default value "
-"is None."
-msgstr ""
-
-#: abaqus.Model.Model.Model:41 abaqus.Model.ModelBase.ModelBase:41 of
-msgid ""
-"A boolean specifying whether to copy the constraints created in the model "
-"to the model that instances this model. The default value is ON."
-msgstr ""
-
-#: abaqus.Model.Model.Model:44 abaqus.Model.ModelBase.ModelBase:44 of
-msgid ""
-"A boolean specifying whether to copy the connectors created in the model "
-"to the model that instances this model. The default value is ON."
-msgstr ""
-
-#: abaqus.Model.Model.Model:47 abaqus.Model.ModelBase.ModelBase:47 of
-msgid ""
-"A boolean specifying whether to copy the interactions created in the model"
-" to the model that instances this model. The default value is ON."
-msgstr ""
-
-#: abaqus.Model.Model.Model abaqus.Model.ModelBase.ModelBase
-#: abaqus.Model.ModelBase.ModelBase.ModelFromInputFile
-#: abaqus.Model.ModelBase.ModelBase.ModelFromNastranFile
-#: abaqus.Model.ModelBase.ModelBase.ModelFromOdbFile of
-msgid "Returns"
-msgstr ""
-
-#: abaqus.Model.Model.Model:50 abaqus.Model.ModelBase.ModelBase:50
-#: abaqus.Model.ModelBase.ModelBase.ModelFromInputFile:19
-#: abaqus.Model.ModelBase.ModelBase.ModelFromNastranFile:65
-#: abaqus.Model.ModelBase.ModelBase.ModelFromOdbFile:19 of
-msgid "A Model object."
-msgstr ""
-
-#: abaqus.Model.Model.Model abaqus.Model.ModelBase.ModelBase
-#: abaqus.Model.ModelBase.ModelBase.ModelFromInputFile
-#: abaqus.Model.ModelBase.ModelBase.ModelFromNastranFile
-#: abaqus.Model.ModelBase.ModelBase.ModelFromOdbFile of
-msgid "Return type"
-msgstr ""
-
-#: abaqus.Model.Model.Model:51 abaqus.Model.ModelBase.ModelBase:51
-#: abaqus.Model.ModelBase.ModelBase.ModelFromInputFile:20
-#: abaqus.Model.ModelBase.ModelBase.ModelFromNastranFile:66
-#: abaqus.Model.ModelBase.ModelBase.ModelFromOdbFile:20 of
-msgid ":class:`Model`"
-msgstr ""
-
 #: abaqus.Model.Model.Model of
 msgid "Public Data Attributes:"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
 msgid ":py:obj:`name <abaqus.Model.ModelBase.ModelBase.name>`\\"
+msgstr ""
+
+#: ../../../../None:52:<autosummary>:1 ../../../../docstring
+#: abaqus.Model.ModelBase.ModelBase.ModelFromInputFile:13
+#: abaqus.Model.ModelBase.ModelBase.ModelFromNastranFile:15
+#: abaqus.Model.ModelBase.ModelBase.ModelFromOdbFile:13
+#: abaqus.Model.ModelBase.ModelBase.name:1 of
+msgid "A String specifying the repository key."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
@@ -3081,6 +2957,10 @@ msgid ""
 msgstr ""
 
 #: ../../../../None:7:<autosummary>:1
+msgid "This method creates a Model object."
+msgstr ""
+
+#: ../../../../None:7:<autosummary>:1
 msgid ""
 ":py:obj:`ModelFromInputFile "
 "<abaqus.Model.ModelBase.ModelBase.ModelFromInputFile>`\\ \\(name\\, "
@@ -3184,6 +3064,17 @@ msgid ""
 "Check `KeywordBlock.insert on help.3ds.com/2017 <https://help.3ds.com/2017"
 "/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "keywordblockpyc.htm?contextscope=all#simaker-keywordblockinsertpyc>`__."
+msgstr ""
+
+#: abaqus.Model.KeywordBlock.KeywordBlock.insert
+#: abaqus.Model.KeywordBlock.KeywordBlock.replace
+#: abaqus.Model.KeywordBlock.KeywordBlock.setValues
+#: abaqus.Model.KeywordBlock.KeywordBlock.synchVersions
+#: abaqus.Model.ModelBase.ModelBase.ModelFromInputFile
+#: abaqus.Model.ModelBase.ModelBase.ModelFromNastranFile
+#: abaqus.Model.ModelBase.ModelBase.ModelFromOdbFile
+#: abaqus.Model.ModelBase.ModelBase.setValues of
+msgid "Parameters"
 msgstr ""
 
 #: abaqus.Model.KeywordBlock.KeywordBlock.insert:7 of
@@ -3312,6 +3203,12 @@ msgid ""
 "modelpyc.htm?contextscope=all>`__."
 msgstr ""
 
+#: abaqus.Model.ModelBase.ModelBase.ModelFromInputFile:5
+#: abaqus.Model.ModelBase.ModelBase.ModelFromNastranFile:7
+#: abaqus.Model.ModelBase.ModelBase.ModelFromOdbFile:5 of
+msgid "This function can be accessed by::"
+msgstr ""
+
 #: abaqus.Model.ModelBase.ModelBase.ModelFromInputFile:10 of
 msgid ""
 "Check `ModelFromInputFile on help.3ds.com/2017 <https://help.3ds.com/2017/"
@@ -3324,6 +3221,30 @@ msgid ""
 "A String specifying the name of the input file (including the .inp "
 "extension) to be parsed into the new model. This String can also be the "
 "full path to the input file if it is located in another directory."
+msgstr ""
+
+#: abaqus.Model.ModelBase.ModelBase.ModelFromInputFile
+#: abaqus.Model.ModelBase.ModelBase.ModelFromNastranFile
+#: abaqus.Model.ModelBase.ModelBase.ModelFromOdbFile of
+msgid "Returns"
+msgstr ""
+
+#: abaqus.Model.ModelBase.ModelBase.ModelFromInputFile:19
+#: abaqus.Model.ModelBase.ModelBase.ModelFromNastranFile:65
+#: abaqus.Model.ModelBase.ModelBase.ModelFromOdbFile:19 of
+msgid "A Model object."
+msgstr ""
+
+#: abaqus.Model.ModelBase.ModelBase.ModelFromInputFile
+#: abaqus.Model.ModelBase.ModelBase.ModelFromNastranFile
+#: abaqus.Model.ModelBase.ModelBase.ModelFromOdbFile of
+msgid "Return type"
+msgstr ""
+
+#: abaqus.Model.ModelBase.ModelBase.ModelFromInputFile:20
+#: abaqus.Model.ModelBase.ModelBase.ModelFromNastranFile:66
+#: abaqus.Model.ModelBase.ModelBase.ModelFromOdbFile:20 of
+msgid ":class:`Model`"
 msgstr ""
 
 #: abaqus.Model.ModelBase.ModelBase.ModelFromNastranFile:1 of
@@ -3446,6 +3367,20 @@ msgid ""
 "directory."
 msgstr ""
 
+#: ../../../../docstring abaqus.Model.ModelBase.ModelBase.absoluteZero:1
+#: abaqus.Model.ModelBase.ModelBase.setValues:13 of
+msgid ""
+"None or a Float specifying the absolute zero constant. The default value "
+"is None."
+msgstr ""
+
+#: ../../../../docstring abaqus.Model.ModelBase.ModelBase.description:1
+#: abaqus.Model.ModelBase.ModelBase.setValues:7 of
+msgid ""
+"A String specifying the purpose and contents of the Model object. The "
+"default value is an empty string."
+msgstr ""
+
 #: ../../../../docstring abaqus.Model.ModelBase.ModelBase.noPartsInputFile:1
 #: abaqus.Model.ModelBase.ModelBase.setValues:10 of
 msgid ""
@@ -3466,6 +3401,28 @@ msgid ""
 "Check `ModelBase.setValues on help.3ds.com/2017 <https://help.3ds.com/2017"
 "/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "modelpyc.htm?contextscope=all#simaker-modelsetvaluespyc>`__."
+msgstr ""
+
+#: ../../../../docstring abaqus.Model.ModelBase.ModelBase.setValues:15
+#: abaqus.Model.ModelBase.ModelBase.stefanBoltzmann:1 of
+msgid ""
+"None or a Float specifying the Stefan-Boltzmann constant. The default "
+"value is None."
+msgstr ""
+
+#: ../../../../docstring abaqus.Model.ModelBase.ModelBase.setValues:17
+#: abaqus.Model.ModelBase.ModelBase.waveFormulation:1 of
+msgid ""
+"A SymbolicConstant specifying the type of incident wave formulation to be "
+"used in acoustic problems. Possible values are NOT_SET, SCATTERED, and "
+"TOTAL. The default value is NOT_SET."
+msgstr ""
+
+#: ../../../../docstring abaqus.Model.ModelBase.ModelBase.setValues:21
+#: abaqus.Model.ModelBase.ModelBase.universalGas:1 of
+msgid ""
+"None or a Float specifying the universal gas constant. The default value "
+"is None."
 msgstr ""
 
 #: abaqus.Model.ModelBase.ModelBase.setValues:37 of

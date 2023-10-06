@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: abqpy \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-14 01:59+0000\n"
+"POT-Creation-Date: 2023-10-06 02:35+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.12.1\n"
+"Generated-By: Babel 2.13.0\n"
 
 #: ../../../reference/session/xy.md:1
 msgid "XY"
@@ -708,8 +708,7 @@ msgid ""
 "\\(\\[color\\, fill\\, style\\]\\)"
 msgstr ""
 
-#: ../../../../None:14:<autosummary>:1 abaqus.XY.AreaStyle.AreaStyle:29
-#: abaqus.XY.XYPlot.XYPlot.AreaStyle:1
+#: ../../../../None:14:<autosummary>:1 abaqus.XY.XYPlot.XYPlot.AreaStyle:1
 #: abaqus.XY.XYSession.XYSession.AreaStyle:1 of
 msgid "This method creates an AreaStyle."
 msgstr ""
@@ -720,8 +719,7 @@ msgid ""
 "\\(\\[color\\, show\\, style\\, thickness\\]\\)"
 msgstr ""
 
-#: ../../../../None:14:<autosummary>:1 abaqus.XY.LineStyle.LineStyle:61
-#: abaqus.XY.XYPlot.XYPlot.LineStyle:1
+#: ../../../../None:14:<autosummary>:1 abaqus.XY.XYPlot.XYPlot.LineStyle:1
 #: abaqus.XY.XYSession.XYSession.LineStyle:1 of
 msgid "This method creates a LineStyle."
 msgstr ""
@@ -732,8 +730,7 @@ msgid ""
 "\\(\\[type\\, label\\]\\)"
 msgstr ""
 
-#: ../../../../None:14:<autosummary>:1 abaqus.XY.QuantityType.QuantityType:49
-#: abaqus.XY.XYPlot.XYPlot.QuantityType:1
+#: ../../../../None:14:<autosummary>:1 abaqus.XY.XYPlot.XYPlot.QuantityType:1
 #: abaqus.XY.XYSession.XYSession.QuantityType:1 of
 msgid "This method creates a QuantityType object."
 msgstr ""
@@ -744,8 +741,7 @@ msgid ""
 "\\(\\[color\\, show\\, marker\\, size\\]\\)"
 msgstr ""
 
-#: ../../../../None:14:<autosummary>:1 abaqus.XY.SymbolStyle.SymbolStyle:22
-#: abaqus.XY.XYPlot.XYPlot.SymbolStyle:1
+#: ../../../../None:14:<autosummary>:1 abaqus.XY.XYPlot.XYPlot.SymbolStyle:1
 #: abaqus.XY.XYSession.XYSession.SymbolStyle:1 of
 msgid "This method creates a SymbolStyle object."
 msgstr ""
@@ -756,8 +752,7 @@ msgid ""
 "\\(\\[color\\, show\\, font\\, rotationAngle\\]\\)"
 msgstr ""
 
-#: ../../../../None:14:<autosummary>:1 abaqus.XY.TextStyle.TextStyle:36
-#: abaqus.XY.XYPlot.XYPlot.TextStyle:1
+#: ../../../../None:14:<autosummary>:1 abaqus.XY.XYPlot.XYPlot.TextStyle:1
 #: abaqus.XY.XYSession.XYSession.TextStyle:1 of
 msgid "This method creates a TextStyle."
 msgstr ""
@@ -1112,8 +1107,8 @@ msgstr ""
 
 #: abaqus.XY.Area.Area:4 abaqus.XY.Area.Area:21 abaqus.XY.Area.Area.setValues:3
 #: abaqus.XY.AreaStyle.AreaStyle:5 abaqus.XY.AreaStyle.AreaStyle:26
-#: abaqus.XY.AreaStyle.AreaStyle:31 abaqus.XY.AreaStyle.AreaStyle.setValues:3
-#: abaqus.XY.Axis.Axis:4 abaqus.XY.Axis.Axis:15 abaqus.XY.Axis.Axis.setValues:3
+#: abaqus.XY.AreaStyle.AreaStyle.setValues:3 abaqus.XY.Axis.Axis:4
+#: abaqus.XY.Axis.Axis:15 abaqus.XY.Axis.Axis.setValues:3
 #: abaqus.XY.AxisData.AxisData:4 abaqus.XY.AxisData.AxisData:15
 #: abaqus.XY.AxisData.AxisData.setValues:3 abaqus.XY.Chart.Chart:4
 #: abaqus.XY.Chart.Chart:11 abaqus.XY.Chart.Chart.autoColor:4
@@ -1126,20 +1121,17 @@ msgstr ""
 #: abaqus.XY.DefaultPlot.DefaultPlot:5 abaqus.XY.DefaultPlot.DefaultPlot:11
 #: abaqus.XY.Legend.Legend:4 abaqus.XY.Legend.Legend:12
 #: abaqus.XY.Legend.Legend.setValues:3 abaqus.XY.LineStyle.LineStyle:4
-#: abaqus.XY.LineStyle.LineStyle:58 abaqus.XY.LineStyle.LineStyle:63
-#: abaqus.XY.LineStyle.LineStyle.setValues:3
+#: abaqus.XY.LineStyle.LineStyle:58 abaqus.XY.LineStyle.LineStyle.setValues:3
 #: abaqus.XY.QuantityType.QuantityType:6 abaqus.XY.QuantityType.QuantityType:46
-#: abaqus.XY.QuantityType.QuantityType:51 abaqus.XY.SymbolStyle.SymbolStyle:4
-#: abaqus.XY.SymbolStyle.SymbolStyle:19 abaqus.XY.SymbolStyle.SymbolStyle:24
+#: abaqus.XY.SymbolStyle.SymbolStyle:4 abaqus.XY.SymbolStyle.SymbolStyle:19
 #: abaqus.XY.SymbolStyle.SymbolStyle.setValues:3
 #: abaqus.XY.TextStyle.TextStyle:5 abaqus.XY.TextStyle.TextStyle:33
-#: abaqus.XY.TextStyle.TextStyle:38 abaqus.XY.TextStyle.TextStyle.setValues:3
-#: abaqus.XY.Title.Title:4 abaqus.XY.Title.Title:11
-#: abaqus.XY.Title.Title.setValues:3 abaqus.XY.XYCurve.XYCurve:3
-#: abaqus.XY.XYCurve.XYCurve:18 abaqus.XY.XYCurve.XYCurve.Curve:3
-#: abaqus.XY.XYCurve.XYCurve.Curve:8 abaqus.XY.XYCurve.XYCurve.setValues:3
-#: abaqus.XY.XYData.XYData:8 abaqus.XY.XYData.XYData:26
-#: abaqus.XY.XYData.XYData.XYDataFromFile:3
+#: abaqus.XY.TextStyle.TextStyle.setValues:3 abaqus.XY.Title.Title:4
+#: abaqus.XY.Title.Title:11 abaqus.XY.Title.Title.setValues:3
+#: abaqus.XY.XYCurve.XYCurve:3 abaqus.XY.XYCurve.XYCurve:18
+#: abaqus.XY.XYCurve.XYCurve.Curve:3 abaqus.XY.XYCurve.XYCurve.Curve:8
+#: abaqus.XY.XYCurve.XYCurve.setValues:3 abaqus.XY.XYData.XYData:8
+#: abaqus.XY.XYData.XYData:26 abaqus.XY.XYData.XYData.XYDataFromFile:3
 #: abaqus.XY.XYData.XYData.XYDataFromFreeBody:3
 #: abaqus.XY.XYData.XYData.XYDataFromFreeBody:9
 #: abaqus.XY.XYData.XYData.XYDataFromHistory:3
@@ -1162,14 +1154,14 @@ msgstr ""
 #: abaqus.XY.XYDataCommands.XYDataFromShellThickness:4
 #: abaqus.XY.XYDataCommands.XYDataFromShellThickness:10
 #: abaqus.XY.XYDataCommands.xyDataListFromField:3
-#: abaqus.XY.XYDataCommands.xyDataListFromField:9 abaqus.XY.XYPlot.XYPlot:3
+#: abaqus.XY.XYDataCommands.xyDataListFromField:9
 #: abaqus.XY.XYPlot.XYPlot.AreaStyle:3 abaqus.XY.XYPlot.XYPlot.AreaStyle:9
 #: abaqus.XY.XYPlot.XYPlot.LineStyle:3 abaqus.XY.XYPlot.XYPlot.LineStyle:9
 #: abaqus.XY.XYPlot.XYPlot.QuantityType:3
 #: abaqus.XY.XYPlot.XYPlot.QuantityType:9 abaqus.XY.XYPlot.XYPlot.SymbolStyle:3
 #: abaqus.XY.XYPlot.XYPlot.SymbolStyle:9 abaqus.XY.XYPlot.XYPlot.TextStyle:3
 #: abaqus.XY.XYPlot.XYPlot.TextStyle:9 abaqus.XY.XYPlotBase.XYPlotBase:3
-#: abaqus.XY.XYPlotBase.XYPlotBase:9 abaqus.XY.XYPlotBase.XYPlotBase:14
+#: abaqus.XY.XYPlotBase.XYPlotBase:9
 #: abaqus.XY.XYPlotBase.XYPlotBase.autoColor:4
 #: abaqus.XY.XYPlotBase.XYPlotBase.next:5
 #: abaqus.XY.XYPlotBase.XYPlotBase.previous:5
@@ -1208,10 +1200,7 @@ msgstr ""
 msgid "Note"
 msgstr ""
 
-#: abaqus.XY.AreaStyle.AreaStyle:32 abaqus.XY.LineStyle.LineStyle:64
-#: abaqus.XY.QuantityType.QuantityType:52 abaqus.XY.SymbolStyle.SymbolStyle:25
-#: abaqus.XY.TextStyle.TextStyle:39 abaqus.XY.XYCurve.XYCurve.Curve:4
-#: abaqus.XY.XYData.XYData.XYDataFromFile:4
+#: abaqus.XY.XYCurve.XYCurve.Curve:4 abaqus.XY.XYData.XYData.XYDataFromFile:4
 #: abaqus.XY.XYData.XYData.XYDataFromFreeBody:4
 #: abaqus.XY.XYData.XYData.XYDataFromHistory:4
 #: abaqus.XY.XYData.XYData.XYDataFromPath:4
@@ -1222,10 +1211,10 @@ msgstr ""
 #: abaqus.XY.XYDataCommands.XYDataFromHistory:4
 #: abaqus.XY.XYDataCommands.XYDataFromPath:4
 #: abaqus.XY.XYDataCommands.XYDataFromShellThickness:5
-#: abaqus.XY.XYDataCommands.xyDataListFromField:4 abaqus.XY.XYPlot.XYPlot:4
+#: abaqus.XY.XYDataCommands.xyDataListFromField:4
 #: abaqus.XY.XYPlot.XYPlot.AreaStyle:4 abaqus.XY.XYPlot.XYPlot.LineStyle:4
 #: abaqus.XY.XYPlot.XYPlot.QuantityType:4 abaqus.XY.XYPlot.XYPlot.SymbolStyle:4
-#: abaqus.XY.XYPlot.XYPlot.TextStyle:4 abaqus.XY.XYPlotBase.XYPlotBase:15
+#: abaqus.XY.XYPlot.XYPlot.TextStyle:4
 #: abaqus.XY.XYSession.XYSession.AreaStyle:4
 #: abaqus.XY.XYSession.XYSession.LineStyle:4
 #: abaqus.XY.XYSession.XYSession.QuantityType:4
@@ -1249,17 +1238,15 @@ msgid ""
 "areastylepyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: abaqus.XY.Area.Area.setValues abaqus.XY.AreaStyle.AreaStyle
-#: abaqus.XY.AreaStyle.AreaStyle.setValues abaqus.XY.Axis.Axis.setValues
-#: abaqus.XY.AxisData.AxisData.setValues abaqus.XY.Chart.Chart.autoColor
-#: abaqus.XY.Chart.Chart.getAxis1 abaqus.XY.Chart.Chart.getAxis2
-#: abaqus.XY.Chart.Chart.moveAxisDown abaqus.XY.Chart.Chart.moveAxisUp
-#: abaqus.XY.Chart.Chart.removeCurve abaqus.XY.Chart.Chart.setValues
+#: abaqus.XY.Area.Area.setValues abaqus.XY.AreaStyle.AreaStyle.setValues
+#: abaqus.XY.Axis.Axis.setValues abaqus.XY.AxisData.AxisData.setValues
+#: abaqus.XY.Chart.Chart.autoColor abaqus.XY.Chart.Chart.getAxis1
+#: abaqus.XY.Chart.Chart.getAxis2 abaqus.XY.Chart.Chart.moveAxisDown
+#: abaqus.XY.Chart.Chart.moveAxisUp abaqus.XY.Chart.Chart.removeCurve
+#: abaqus.XY.Chart.Chart.setValues
 #: abaqus.XY.DefaultChartOptions.DefaultChartOptions.setValues
-#: abaqus.XY.Legend.Legend.setValues abaqus.XY.LineStyle.LineStyle
-#: abaqus.XY.LineStyle.LineStyle.setValues abaqus.XY.QuantityType.QuantityType
-#: abaqus.XY.SymbolStyle.SymbolStyle
-#: abaqus.XY.SymbolStyle.SymbolStyle.setValues abaqus.XY.TextStyle.TextStyle
+#: abaqus.XY.Legend.Legend.setValues abaqus.XY.LineStyle.LineStyle.setValues
+#: abaqus.XY.SymbolStyle.SymbolStyle.setValues
 #: abaqus.XY.TextStyle.TextStyle.setValues abaqus.XY.Title.Title.setValues
 #: abaqus.XY.XYCurve.XYCurve.Curve abaqus.XY.XYCurve.XYCurve.setValues
 #: abaqus.XY.XYData.XYData.XYDataFromFile
@@ -1274,11 +1261,10 @@ msgstr ""
 #: abaqus.XY.XYDataCommands.XYDataFromHistory
 #: abaqus.XY.XYDataCommands.XYDataFromPath
 #: abaqus.XY.XYDataCommands.XYDataFromShellThickness
-#: abaqus.XY.XYDataCommands.xyDataListFromField abaqus.XY.XYPlot.XYPlot
+#: abaqus.XY.XYDataCommands.xyDataListFromField
 #: abaqus.XY.XYPlot.XYPlot.AreaStyle abaqus.XY.XYPlot.XYPlot.LineStyle
 #: abaqus.XY.XYPlot.XYPlot.QuantityType abaqus.XY.XYPlot.XYPlot.SymbolStyle
-#: abaqus.XY.XYPlot.XYPlot.TextStyle abaqus.XY.XYPlotBase.XYPlotBase
-#: abaqus.XY.XYPlotBase.XYPlotBase.autoColor
+#: abaqus.XY.XYPlot.XYPlot.TextStyle abaqus.XY.XYPlotBase.XYPlotBase.autoColor
 #: abaqus.XY.XYPlotBase.XYPlotBase.next
 #: abaqus.XY.XYPlotBase.XYPlotBase.previous
 #: abaqus.XY.XYPlotBase.XYPlotBase.setValues
@@ -1301,8 +1287,7 @@ msgstr ""
 msgid "Parameters"
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.AreaStyle.AreaStyle:38
-#: abaqus.XY.AreaStyle.AreaStyle.setValues:7
+#: ../../../../docstring abaqus.XY.AreaStyle.AreaStyle.setValues:7
 #: abaqus.XY.XYPlot.XYPlot.AreaStyle:13 abaqus.XY.XYSession.AreaStyle.color:1
 #: abaqus.XY.XYSession.XYSession.AreaStyle:13 of
 msgid ""
@@ -1310,8 +1295,7 @@ msgid ""
 "AreaStyle object. The default value is \"White\"."
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.AreaStyle.AreaStyle:41
-#: abaqus.XY.AreaStyle.AreaStyle.setValues:10
+#: ../../../../docstring abaqus.XY.AreaStyle.AreaStyle.setValues:10
 #: abaqus.XY.XYPlot.XYPlot.AreaStyle:16 abaqus.XY.XYSession.AreaStyle.fill:1
 #: abaqus.XY.XYSession.XYSession.AreaStyle:16 of
 msgid ""
@@ -1319,8 +1303,7 @@ msgid ""
 "The default value is ON."
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.AreaStyle.AreaStyle:44
-#: abaqus.XY.AreaStyle.AreaStyle.setValues:13
+#: ../../../../docstring abaqus.XY.AreaStyle.AreaStyle.setValues:13
 #: abaqus.XY.XYPlot.XYPlot.AreaStyle:19 abaqus.XY.XYSession.AreaStyle.style:1
 #: abaqus.XY.XYSession.XYSession.AreaStyle:19 of
 msgid ""
@@ -1328,11 +1311,8 @@ msgid ""
 "filling an area using this AreaStyle. The default value is SOLID."
 msgstr ""
 
-#: abaqus.XY.AreaStyle.AreaStyle abaqus.XY.Chart.Chart.getAxis1
-#: abaqus.XY.Chart.Chart.getAxis2 abaqus.XY.LineStyle.LineStyle
-#: abaqus.XY.QuantityType.QuantityType abaqus.XY.SymbolStyle.SymbolStyle
-#: abaqus.XY.TextStyle.TextStyle abaqus.XY.XYCurve.XYCurve.Curve
-#: abaqus.XY.XYData.XYData.XYDataFromFile
+#: abaqus.XY.Chart.Chart.getAxis1 abaqus.XY.Chart.Chart.getAxis2
+#: abaqus.XY.XYCurve.XYCurve.Curve abaqus.XY.XYData.XYData.XYDataFromFile
 #: abaqus.XY.XYData.XYData.XYDataFromFreeBody
 #: abaqus.XY.XYData.XYData.XYDataFromHistory
 #: abaqus.XY.XYData.XYData.XYDataFromPath
@@ -1343,11 +1323,10 @@ msgstr ""
 #: abaqus.XY.XYDataCommands.XYDataFromHistory
 #: abaqus.XY.XYDataCommands.XYDataFromPath
 #: abaqus.XY.XYDataCommands.XYDataFromShellThickness
-#: abaqus.XY.XYDataCommands.xyDataListFromField abaqus.XY.XYPlot.XYPlot
+#: abaqus.XY.XYDataCommands.xyDataListFromField
 #: abaqus.XY.XYPlot.XYPlot.AreaStyle abaqus.XY.XYPlot.XYPlot.LineStyle
 #: abaqus.XY.XYPlot.XYPlot.QuantityType abaqus.XY.XYPlot.XYPlot.SymbolStyle
-#: abaqus.XY.XYPlot.XYPlot.TextStyle abaqus.XY.XYPlotBase.XYPlotBase
-#: abaqus.XY.XYSession.XYSession.AreaStyle
+#: abaqus.XY.XYPlot.XYPlot.TextStyle abaqus.XY.XYSession.XYSession.AreaStyle
 #: abaqus.XY.XYSession.XYSession.LineStyle
 #: abaqus.XY.XYSession.XYSession.QuantityType
 #: abaqus.XY.XYSession.XYSession.SymbolStyle
@@ -1364,17 +1343,13 @@ msgstr ""
 msgid "Returns"
 msgstr ""
 
-#: abaqus.XY.Area.Area.setValues:9 abaqus.XY.AreaStyle.AreaStyle:47
-#: abaqus.XY.XYPlot.XYPlot.AreaStyle:22
+#: abaqus.XY.Area.Area.setValues:9 abaqus.XY.XYPlot.XYPlot.AreaStyle:22
 #: abaqus.XY.XYSession.XYSession.AreaStyle:22 of
 msgid "An AreaStyle object."
 msgstr ""
 
-#: abaqus.XY.AreaStyle.AreaStyle abaqus.XY.Chart.Chart.getAxis1
-#: abaqus.XY.Chart.Chart.getAxis2 abaqus.XY.LineStyle.LineStyle
-#: abaqus.XY.QuantityType.QuantityType abaqus.XY.SymbolStyle.SymbolStyle
-#: abaqus.XY.TextStyle.TextStyle abaqus.XY.XYCurve.XYCurve.Curve
-#: abaqus.XY.XYData.XYData.XYDataFromFile
+#: abaqus.XY.Chart.Chart.getAxis1 abaqus.XY.Chart.Chart.getAxis2
+#: abaqus.XY.XYCurve.XYCurve.Curve abaqus.XY.XYData.XYData.XYDataFromFile
 #: abaqus.XY.XYData.XYData.XYDataFromFreeBody
 #: abaqus.XY.XYData.XYData.XYDataFromHistory
 #: abaqus.XY.XYData.XYData.XYDataFromShellThickness
@@ -1383,11 +1358,10 @@ msgstr ""
 #: abaqus.XY.XYDataCommands.XYDataFromFreeBody
 #: abaqus.XY.XYDataCommands.XYDataFromHistory
 #: abaqus.XY.XYDataCommands.XYDataFromShellThickness
-#: abaqus.XY.XYDataCommands.xyDataListFromField abaqus.XY.XYPlot.XYPlot
+#: abaqus.XY.XYDataCommands.xyDataListFromField
 #: abaqus.XY.XYPlot.XYPlot.AreaStyle abaqus.XY.XYPlot.XYPlot.LineStyle
 #: abaqus.XY.XYPlot.XYPlot.QuantityType abaqus.XY.XYPlot.XYPlot.SymbolStyle
-#: abaqus.XY.XYPlot.XYPlot.TextStyle abaqus.XY.XYPlotBase.XYPlotBase
-#: abaqus.XY.XYSession.XYSession.AreaStyle
+#: abaqus.XY.XYPlot.XYPlot.TextStyle abaqus.XY.XYSession.XYSession.AreaStyle
 #: abaqus.XY.XYSession.XYSession.LineStyle
 #: abaqus.XY.XYSession.XYSession.QuantityType
 #: abaqus.XY.XYSession.XYSession.SymbolStyle
@@ -1405,16 +1379,14 @@ msgstr ""
 msgid "Return type"
 msgstr ""
 
-#: abaqus.XY.AreaStyle.AreaStyle:48 abaqus.XY.XYPlot.XYPlot.AreaStyle:23
+#: abaqus.XY.XYPlot.XYPlot.AreaStyle:23
 #: abaqus.XY.XYSession.XYSession.AreaStyle:23 of
 msgid ":class:`AreaStyle`"
 msgstr ""
 
-#: abaqus.XY.Area.Area.setValues abaqus.XY.AreaStyle.AreaStyle
-#: abaqus.XY.AxisData.AxisData.setValues abaqus.XY.Chart.Chart.getAxis1
-#: abaqus.XY.Chart.Chart.getAxis2 abaqus.XY.Chart.Chart.setValues
-#: abaqus.XY.LineStyle.LineStyle abaqus.XY.SymbolStyle.SymbolStyle
-#: abaqus.XY.TextStyle.TextStyle abaqus.XY.XYData.XYData.XYDataFromFile
+#: abaqus.XY.Area.Area.setValues abaqus.XY.AxisData.AxisData.setValues
+#: abaqus.XY.Chart.Chart.getAxis1 abaqus.XY.Chart.Chart.getAxis2
+#: abaqus.XY.Chart.Chart.setValues abaqus.XY.XYData.XYData.XYDataFromFile
 #: abaqus.XY.XYData.XYData.XYDataFromFreeBody
 #: abaqus.XY.XYData.XYData.XYDataFromHistory
 #: abaqus.XY.XYData.XYData.XYDataFromPath
@@ -1451,8 +1423,7 @@ msgid ""
 "linestylepyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.LineStyle.LineStyle:70
-#: abaqus.XY.LineStyle.LineStyle.setValues:7
+#: ../../../../docstring abaqus.XY.LineStyle.LineStyle.setValues:7
 #: abaqus.XY.XYPlot.XYPlot.LineStyle:13 abaqus.XY.XYSession.LineStyle.color:1
 #: abaqus.XY.XYSession.XYSession.LineStyle:13 of
 msgid ""
@@ -1460,8 +1431,7 @@ msgid ""
 "LineStyle object. The default value is \"White\"."
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.LineStyle.LineStyle:73
-#: abaqus.XY.LineStyle.LineStyle.setValues:10
+#: ../../../../docstring abaqus.XY.LineStyle.LineStyle.setValues:10
 #: abaqus.XY.XYPlot.XYPlot.LineStyle:16 abaqus.XY.XYSession.LineStyle.show:1
 #: abaqus.XY.XYSession.XYSession.LineStyle:16 of
 msgid ""
@@ -1469,8 +1439,7 @@ msgid ""
 "The default value is ON."
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.LineStyle.LineStyle:76
-#: abaqus.XY.LineStyle.LineStyle.setValues:13
+#: ../../../../docstring abaqus.XY.LineStyle.LineStyle.setValues:13
 #: abaqus.XY.XYPlot.XYPlot.LineStyle:19 abaqus.XY.XYSession.LineStyle.style:1
 #: abaqus.XY.XYSession.XYSession.LineStyle:19 of
 msgid ""
@@ -1479,8 +1448,7 @@ msgid ""
 "DOT_DASH. The default value is SOLID."
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.LineStyle.LineStyle:80
-#: abaqus.XY.LineStyle.LineStyle.setValues:17
+#: ../../../../docstring abaqus.XY.LineStyle.LineStyle.setValues:17
 #: abaqus.XY.XYPlot.XYPlot.LineStyle:23
 #: abaqus.XY.XYSession.LineStyle.thickness:1
 #: abaqus.XY.XYSession.XYSession.LineStyle:23 of
@@ -1489,13 +1457,12 @@ msgid ""
 "using this LineStyle. The default value is 0.2."
 msgstr ""
 
-#: abaqus.XY.Area.Area.setValues:11 abaqus.XY.LineStyle.LineStyle:83
-#: abaqus.XY.XYPlot.XYPlot.LineStyle:26
+#: abaqus.XY.Area.Area.setValues:11 abaqus.XY.XYPlot.XYPlot.LineStyle:26
 #: abaqus.XY.XYSession.XYSession.LineStyle:26 of
 msgid "A LineStyle object."
 msgstr ""
 
-#: abaqus.XY.LineStyle.LineStyle:84 abaqus.XY.XYPlot.XYPlot.LineStyle:27
+#: abaqus.XY.XYPlot.XYPlot.LineStyle:27
 #: abaqus.XY.XYSession.XYSession.LineStyle:27 of
 msgid ":class:`LineStyle`"
 msgstr ""
@@ -1509,7 +1476,6 @@ msgid ""
 "quantitytypepyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: abaqus.XY.QuantityType.QuantityType:58
 #: abaqus.XY.XYPlot.XYPlot.QuantityType:13
 #: abaqus.XY.XYSession.XYSession.QuantityType:13 of
 msgid ""
@@ -1544,8 +1510,7 @@ msgid ""
 "\"Volume flux per area\". - VOLUME_FRACTION."
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.QuantityType.QuantityType:58
-#: abaqus.XY.XYPlot.XYPlot.QuantityType:13
+#: ../../../../docstring abaqus.XY.XYPlot.XYPlot.QuantityType:13
 #: abaqus.XY.XYSession.QuantityType.type:1
 #: abaqus.XY.XYSession.XYSession.QuantityType:13 of
 msgid ""
@@ -1553,106 +1518,91 @@ msgid ""
 " values are:"
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.QuantityType.QuantityType:60
-#: abaqus.XY.XYPlot.XYPlot.QuantityType:15
+#: ../../../../docstring abaqus.XY.XYPlot.XYPlot.QuantityType:15
 #: abaqus.XY.XYSession.QuantityType.type:3
 #: abaqus.XY.XYSession.XYSession.QuantityType:15 of
 msgid "NONE."
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.QuantityType.QuantityType:61
-#: abaqus.XY.XYPlot.XYPlot.QuantityType:16
+#: ../../../../docstring abaqus.XY.XYPlot.XYPlot.QuantityType:16
 #: abaqus.XY.XYSession.QuantityType.type:4
 #: abaqus.XY.XYSession.XYSession.QuantityType:16 of
 msgid "ACCELERATION."
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.QuantityType.QuantityType:62
-#: abaqus.XY.XYPlot.XYPlot.QuantityType:17
+#: ../../../../docstring abaqus.XY.XYPlot.XYPlot.QuantityType:17
 #: abaqus.XY.XYSession.QuantityType.type:5
 #: abaqus.XY.XYSession.XYSession.QuantityType:17 of
 msgid "ACOUSTIC_INTENSITY."
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.QuantityType.QuantityType:63
-#: abaqus.XY.XYPlot.XYPlot.QuantityType:18
+#: ../../../../docstring abaqus.XY.XYPlot.XYPlot.QuantityType:18
 #: abaqus.XY.XYSession.QuantityType.type:6
 #: abaqus.XY.XYSession.XYSession.QuantityType:18 of
 msgid "ANGLE."
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.QuantityType.QuantityType:64
-#: abaqus.XY.XYPlot.XYPlot.QuantityType:19
+#: ../../../../docstring abaqus.XY.XYPlot.XYPlot.QuantityType:19
 #: abaqus.XY.XYSession.QuantityType.type:7
 #: abaqus.XY.XYSession.XYSession.QuantityType:19 of
 msgid "ANGULAR_MOMENTUM."
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.QuantityType.QuantityType:65
-#: abaqus.XY.XYPlot.XYPlot.QuantityType:20
+#: ../../../../docstring abaqus.XY.XYPlot.XYPlot.QuantityType:20
 #: abaqus.XY.XYSession.QuantityType.type:8
 #: abaqus.XY.XYSession.XYSession.QuantityType:20 of
 msgid "ARC_LENGTH."
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.QuantityType.QuantityType:66
-#: abaqus.XY.XYPlot.XYPlot.QuantityType:21
+#: ../../../../docstring abaqus.XY.XYPlot.XYPlot.QuantityType:21
 #: abaqus.XY.XYSession.QuantityType.type:9
 #: abaqus.XY.XYSession.XYSession.QuantityType:21 of
 msgid "AREA."
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.QuantityType.QuantityType:67
-#: abaqus.XY.XYPlot.XYPlot.QuantityType:22
+#: ../../../../docstring abaqus.XY.XYPlot.XYPlot.QuantityType:22
 #: abaqus.XY.XYSession.QuantityType.type:10
 #: abaqus.XY.XYSession.XYSession.QuantityType:22 of
 msgid "AREA_VELOCITY_SQUARED, specifying \"Velocity squared per area\"."
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.QuantityType.QuantityType:68
-#: abaqus.XY.XYPlot.XYPlot.QuantityType:23
+#: ../../../../docstring abaqus.XY.XYPlot.XYPlot.QuantityType:23
 #: abaqus.XY.XYSession.QuantityType.type:11
 #: abaqus.XY.XYSession.XYSession.QuantityType:23 of
 msgid "BIMOMENT."
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.QuantityType.QuantityType:69
-#: abaqus.XY.XYPlot.XYPlot.QuantityType:24
+#: ../../../../docstring abaqus.XY.XYPlot.XYPlot.QuantityType:24
 #: abaqus.XY.XYSession.QuantityType.type:12
 #: abaqus.XY.XYSession.XYSession.QuantityType:24 of
 msgid "CURVATURE."
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.QuantityType.QuantityType:70
-#: abaqus.XY.XYPlot.XYPlot.QuantityType:25
+#: ../../../../docstring abaqus.XY.XYPlot.XYPlot.QuantityType:25
 #: abaqus.XY.XYSession.QuantityType.type:13
 #: abaqus.XY.XYSession.XYSession.QuantityType:25 of
 msgid "CORIOLIS_LOAD."
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.QuantityType.QuantityType:71
-#: abaqus.XY.XYPlot.XYPlot.QuantityType:26
+#: ../../../../docstring abaqus.XY.XYPlot.XYPlot.QuantityType:26
 #: abaqus.XY.XYSession.QuantityType.type:14
 #: abaqus.XY.XYSession.XYSession.QuantityType:26 of
 msgid "DAMAGE."
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.QuantityType.QuantityType:72
-#: abaqus.XY.XYPlot.XYPlot.QuantityType:27
+#: ../../../../docstring abaqus.XY.XYPlot.XYPlot.QuantityType:27
 #: abaqus.XY.XYSession.QuantityType.type:15
 #: abaqus.XY.XYSession.XYSession.QuantityType:27 of
 msgid "DAMAGE_CRITERION."
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.QuantityType.QuantityType:73
-#: abaqus.XY.XYPlot.XYPlot.QuantityType:28
+#: ../../../../docstring abaqus.XY.XYPlot.XYPlot.QuantityType:28
 #: abaqus.XY.XYSession.QuantityType.type:16
 #: abaqus.XY.XYSession.XYSession.QuantityType:28 of
 msgid "DENSITY."
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.QuantityType.QuantityType:74
-#: abaqus.XY.XYPlot.XYPlot.QuantityType:29
+#: ../../../../docstring abaqus.XY.XYPlot.XYPlot.QuantityType:29
 #: abaqus.XY.XYSession.QuantityType.type:17
 #: abaqus.XY.XYSession.XYSession.QuantityType:29 of
 msgid ""
@@ -1660,15 +1610,13 @@ msgid ""
 "acceleration\"."
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.QuantityType.QuantityType:75
-#: abaqus.XY.XYPlot.XYPlot.QuantityType:30
+#: ../../../../docstring abaqus.XY.XYPlot.XYPlot.QuantityType:30
 #: abaqus.XY.XYSession.QuantityType.type:18
 #: abaqus.XY.XYSession.XYSession.QuantityType:30 of
 msgid "DISPLACEMENT."
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.QuantityType.QuantityType:76
-#: abaqus.XY.XYPlot.XYPlot.QuantityType:31
+#: ../../../../docstring abaqus.XY.XYPlot.XYPlot.QuantityType:31
 #: abaqus.XY.XYSession.QuantityType.type:19
 #: abaqus.XY.XYSession.XYSession.QuantityType:31 of
 msgid ""
@@ -1676,408 +1624,350 @@ msgid ""
 "area\"."
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.QuantityType.QuantityType:77
-#: abaqus.XY.XYPlot.XYPlot.QuantityType:32
+#: ../../../../docstring abaqus.XY.XYPlot.XYPlot.QuantityType:32
 #: abaqus.XY.XYSession.QuantityType.type:20
 #: abaqus.XY.XYSession.XYSession.QuantityType:32 of
 msgid "ELECTRIC_CHARGE."
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.QuantityType.QuantityType:78
-#: abaqus.XY.XYPlot.XYPlot.QuantityType:33
+#: ../../../../docstring abaqus.XY.XYPlot.XYPlot.QuantityType:33
 #: abaqus.XY.XYSession.QuantityType.type:21
 #: abaqus.XY.XYSession.XYSession.QuantityType:33 of
 msgid "ELECTRIC_CURRENT."
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.QuantityType.QuantityType:79
-#: abaqus.XY.XYPlot.XYPlot.QuantityType:34
+#: ../../../../docstring abaqus.XY.XYPlot.XYPlot.QuantityType:34
 #: abaqus.XY.XYSession.QuantityType.type:22
 #: abaqus.XY.XYSession.XYSession.QuantityType:34 of
 msgid ""
 "ELECTRIC_CURRENT_AREA, specifying \"Electric current per unit area\"."
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.QuantityType.QuantityType:80
-#: abaqus.XY.XYPlot.XYPlot.QuantityType:35
+#: ../../../../docstring abaqus.XY.XYPlot.XYPlot.QuantityType:35
 #: abaqus.XY.XYSession.QuantityType.type:23
 #: abaqus.XY.XYSession.XYSession.QuantityType:35 of
 msgid "ELECTRIC_POTENTIAL."
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.QuantityType.QuantityType:81
-#: abaqus.XY.XYPlot.XYPlot.QuantityType:36
+#: ../../../../docstring abaqus.XY.XYPlot.XYPlot.QuantityType:36
 #: abaqus.XY.XYSession.QuantityType.type:24
 #: abaqus.XY.XYSession.XYSession.QuantityType:36 of
 msgid "ENERGY."
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.QuantityType.QuantityType:82
-#: abaqus.XY.XYPlot.XYPlot.QuantityType:37
+#: ../../../../docstring abaqus.XY.XYPlot.XYPlot.QuantityType:37
 #: abaqus.XY.XYSession.QuantityType.type:25
 #: abaqus.XY.XYSession.XYSession.QuantityType:37 of
 msgid "ENERGY_DENSITY."
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.QuantityType.QuantityType:83
-#: abaqus.XY.XYPlot.XYPlot.QuantityType:38
+#: ../../../../docstring abaqus.XY.XYPlot.XYPlot.QuantityType:38
 #: abaqus.XY.XYSession.QuantityType.type:26
 #: abaqus.XY.XYSession.XYSession.QuantityType:38 of
 msgid "ENERGY_RELEASE_RATE."
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.QuantityType.QuantityType:84
-#: abaqus.XY.XYPlot.XYPlot.QuantityType:39
+#: ../../../../docstring abaqus.XY.XYPlot.XYPlot.QuantityType:39
 #: abaqus.XY.XYSession.QuantityType.type:27
 #: abaqus.XY.XYSession.XYSession.QuantityType:39 of
 msgid "EPOTENTIAL_GRADIENT, specifying \"Electric potential gradient\"."
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.QuantityType.QuantityType:85
-#: abaqus.XY.XYPlot.XYPlot.QuantityType:40
+#: ../../../../docstring abaqus.XY.XYPlot.XYPlot.QuantityType:40
 #: abaqus.XY.XYSession.QuantityType.type:28
 #: abaqus.XY.XYSession.XYSession.QuantityType:40 of
 msgid "FREQUENCY."
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.QuantityType.QuantityType:86
-#: abaqus.XY.XYPlot.XYPlot.QuantityType:41
+#: ../../../../docstring abaqus.XY.XYPlot.XYPlot.QuantityType:41
 #: abaqus.XY.XYSession.QuantityType.type:29
 #: abaqus.XY.XYSession.XYSession.QuantityType:41 of
 msgid "FORCE."
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.QuantityType.QuantityType:87
-#: abaqus.XY.XYPlot.XYPlot.QuantityType:42
+#: ../../../../docstring abaqus.XY.XYPlot.XYPlot.QuantityType:42
 #: abaqus.XY.XYSession.QuantityType.type:30
 #: abaqus.XY.XYSession.XYSession.QuantityType:42 of
 msgid "FORCE_VOLUME, specifying \"Force per volume\"."
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.QuantityType.QuantityType:88
-#: abaqus.XY.XYPlot.XYPlot.QuantityType:43
+#: ../../../../docstring abaqus.XY.XYPlot.XYPlot.QuantityType:43
 #: abaqus.XY.XYSession.QuantityType.type:31
 #: abaqus.XY.XYSession.XYSession.QuantityType:43 of
 msgid "HEAT_FLUX."
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.QuantityType.QuantityType:89
-#: abaqus.XY.XYPlot.XYPlot.QuantityType:44
+#: ../../../../docstring abaqus.XY.XYPlot.XYPlot.QuantityType:44
 #: abaqus.XY.XYSession.QuantityType.type:32
 #: abaqus.XY.XYSession.XYSession.QuantityType:44 of
 msgid "HEAT_FLUX_AREA, specifying \"Heat flux per area\"."
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.QuantityType.QuantityType:90
-#: abaqus.XY.XYPlot.XYPlot.QuantityType:45
+#: ../../../../docstring abaqus.XY.XYPlot.XYPlot.QuantityType:45
 #: abaqus.XY.XYSession.QuantityType.type:33
 #: abaqus.XY.XYSession.XYSession.QuantityType:45 of
 msgid "HEAT_FLUX_RATE."
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.QuantityType.QuantityType:91
-#: abaqus.XY.XYPlot.XYPlot.QuantityType:46
+#: ../../../../docstring abaqus.XY.XYPlot.XYPlot.QuantityType:46
 #: abaqus.XY.XYSession.QuantityType.type:34
 #: abaqus.XY.XYSession.XYSession.QuantityType:46 of
 msgid "HEAT_FLUX_VOLUME, specifying \"Heat flux per volume\"."
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.QuantityType.QuantityType:92
-#: abaqus.XY.XYPlot.XYPlot.QuantityType:47
+#: ../../../../docstring abaqus.XY.XYPlot.XYPlot.QuantityType:47
 #: abaqus.XY.XYSession.QuantityType.type:35
 #: abaqus.XY.XYSession.XYSession.QuantityType:47 of
 msgid "LENGTH."
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.QuantityType.QuantityType:93
-#: abaqus.XY.XYPlot.XYPlot.QuantityType:48
+#: ../../../../docstring abaqus.XY.XYPlot.XYPlot.QuantityType:48
 #: abaqus.XY.XYSession.QuantityType.type:36
 #: abaqus.XY.XYSession.XYSession.QuantityType:48 of
 msgid "LINEAR_PRESSURE."
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.QuantityType.QuantityType:94
-#: abaqus.XY.XYPlot.XYPlot.QuantityType:49
+#: ../../../../docstring abaqus.XY.XYPlot.XYPlot.QuantityType:49
 #: abaqus.XY.XYSession.QuantityType.type:37
 #: abaqus.XY.XYSession.XYSession.QuantityType:49 of
 msgid "LUMIN, specifying \"Luminous intensity\"."
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.QuantityType.QuantityType:95
-#: abaqus.XY.XYPlot.XYPlot.QuantityType:50
+#: ../../../../docstring abaqus.XY.XYPlot.XYPlot.QuantityType:50
 #: abaqus.XY.XYSession.QuantityType.type:38
 #: abaqus.XY.XYSession.XYSession.QuantityType:50 of
 msgid "MASS."
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.QuantityType.QuantityType:96
-#: abaqus.XY.XYPlot.XYPlot.QuantityType:51
+#: ../../../../docstring abaqus.XY.XYPlot.XYPlot.QuantityType:51
 #: abaqus.XY.XYSession.QuantityType.type:39
 #: abaqus.XY.XYSession.XYSession.QuantityType:51 of
 msgid "MASS_FLOW_AREA, specifying \"Mass flow per area\"."
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.QuantityType.QuantityType:97
-#: abaqus.XY.XYPlot.XYPlot.QuantityType:52
+#: ../../../../docstring abaqus.XY.XYPlot.XYPlot.QuantityType:52
 #: abaqus.XY.XYSession.QuantityType.type:40
 #: abaqus.XY.XYSession.XYSession.QuantityType:52 of
 msgid "MASS_FLOW_AREA_RATE, specifying \"Mass flow rate per area\"."
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.QuantityType.QuantityType:98
-#: abaqus.XY.XYPlot.XYPlot.QuantityType:53
+#: ../../../../docstring abaqus.XY.XYPlot.XYPlot.QuantityType:53
 #: abaqus.XY.XYSession.QuantityType.type:41
 #: abaqus.XY.XYSession.XYSession.QuantityType:53 of
 msgid "MASS_FLOW_RATE."
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.QuantityType.QuantityType:99
-#: abaqus.XY.XYPlot.XYPlot.QuantityType:54
+#: ../../../../docstring abaqus.XY.XYPlot.XYPlot.QuantityType:54
 #: abaqus.XY.XYSession.QuantityType.type:42
 #: abaqus.XY.XYSession.XYSession.QuantityType:54 of
 msgid "MODE_NUMBER."
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.QuantityType.QuantityType:100
-#: abaqus.XY.XYPlot.XYPlot.QuantityType:55
+#: ../../../../docstring abaqus.XY.XYPlot.XYPlot.QuantityType:55
 #: abaqus.XY.XYSession.QuantityType.type:43
 #: abaqus.XY.XYSession.XYSession.QuantityType:55 of
 msgid "MOMENT."
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.QuantityType.QuantityType:101
-#: abaqus.XY.XYPlot.XYPlot.QuantityType:56
+#: ../../../../docstring abaqus.XY.XYPlot.XYPlot.QuantityType:56
 #: abaqus.XY.XYSession.QuantityType.type:44
 #: abaqus.XY.XYSession.XYSession.QuantityType:56 of
 msgid "NUMBER."
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.QuantityType.QuantityType:102
-#: abaqus.XY.XYPlot.XYPlot.QuantityType:57
+#: ../../../../docstring abaqus.XY.XYPlot.XYPlot.QuantityType:57
 #: abaqus.XY.XYSession.QuantityType.type:45
 #: abaqus.XY.XYSession.XYSession.QuantityType:57 of
 msgid "PATH."
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.QuantityType.QuantityType:103
-#: abaqus.XY.XYPlot.XYPlot.QuantityType:58
+#: ../../../../docstring abaqus.XY.XYPlot.XYPlot.QuantityType:58
 #: abaqus.XY.XYSession.QuantityType.type:46
 #: abaqus.XY.XYSession.XYSession.QuantityType:58 of
 msgid "PHASE."
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.QuantityType.QuantityType:104
-#: abaqus.XY.XYPlot.XYPlot.QuantityType:59
+#: ../../../../docstring abaqus.XY.XYPlot.XYPlot.QuantityType:59
 #: abaqus.XY.XYSession.QuantityType.type:47
 #: abaqus.XY.XYSession.XYSession.QuantityType:59 of
 msgid "POSITION."
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.QuantityType.QuantityType:105
-#: abaqus.XY.XYPlot.XYPlot.QuantityType:60
+#: ../../../../docstring abaqus.XY.XYPlot.XYPlot.QuantityType:60
 #: abaqus.XY.XYSession.QuantityType.type:48
 #: abaqus.XY.XYSession.XYSession.QuantityType:60 of
 msgid "PRESSURE."
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.QuantityType.QuantityType:106
-#: abaqus.XY.XYPlot.XYPlot.QuantityType:61
+#: ../../../../docstring abaqus.XY.XYPlot.XYPlot.QuantityType:61
 #: abaqus.XY.XYSession.QuantityType.type:49
 #: abaqus.XY.XYSession.XYSession.QuantityType:61 of
 msgid "PRESSURE_GRADIENT."
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.QuantityType.QuantityType:107
-#: abaqus.XY.XYPlot.XYPlot.QuantityType:62
+#: ../../../../docstring abaqus.XY.XYPlot.XYPlot.QuantityType:62
 #: abaqus.XY.XYSession.QuantityType.type:50
 #: abaqus.XY.XYSession.XYSession.QuantityType:62 of
 msgid "RATE."
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.QuantityType.QuantityType:108
-#: abaqus.XY.XYPlot.XYPlot.QuantityType:63
+#: ../../../../docstring abaqus.XY.XYPlot.XYPlot.QuantityType:63
 #: abaqus.XY.XYSession.QuantityType.type:51
 #: abaqus.XY.XYSession.XYSession.QuantityType:63 of
 msgid "ROTARY_INERTIA."
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.QuantityType.QuantityType:109
-#: abaqus.XY.XYPlot.XYPlot.QuantityType:64
+#: ../../../../docstring abaqus.XY.XYPlot.XYPlot.QuantityType:64
 #: abaqus.XY.XYSession.QuantityType.type:52
 #: abaqus.XY.XYSession.XYSession.QuantityType:64 of
 msgid "ROTATIONAL_ACCELERATION."
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.QuantityType.QuantityType:110
-#: abaqus.XY.XYPlot.XYPlot.QuantityType:65
+#: ../../../../docstring abaqus.XY.XYPlot.XYPlot.QuantityType:65
 #: abaqus.XY.XYSession.QuantityType.type:53
 #: abaqus.XY.XYSession.XYSession.QuantityType:65 of
 msgid "ROTATIONAL_VELOCITY."
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.QuantityType.QuantityType:111
-#: abaqus.XY.XYPlot.XYPlot.QuantityType:66
+#: ../../../../docstring abaqus.XY.XYPlot.XYPlot.QuantityType:66
 #: abaqus.XY.XYSession.QuantityType.type:54
 #: abaqus.XY.XYSession.XYSession.QuantityType:66 of
 msgid "STATUS."
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.QuantityType.QuantityType:112
-#: abaqus.XY.XYPlot.XYPlot.QuantityType:67
+#: ../../../../docstring abaqus.XY.XYPlot.XYPlot.QuantityType:67
 #: abaqus.XY.XYSession.QuantityType.type:55
 #: abaqus.XY.XYSession.XYSession.QuantityType:67 of
 msgid "STRAIN."
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.QuantityType.QuantityType:113
-#: abaqus.XY.XYPlot.XYPlot.QuantityType:68
+#: ../../../../docstring abaqus.XY.XYPlot.XYPlot.QuantityType:68
 #: abaqus.XY.XYSession.QuantityType.type:56
 #: abaqus.XY.XYSession.XYSession.QuantityType:68 of
 msgid "STRAIN_RATE."
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.QuantityType.QuantityType:114
-#: abaqus.XY.XYPlot.XYPlot.QuantityType:69
+#: ../../../../docstring abaqus.XY.XYPlot.XYPlot.QuantityType:69
 #: abaqus.XY.XYSession.QuantityType.type:57
 #: abaqus.XY.XYSession.XYSession.QuantityType:69 of
 msgid "STRESS."
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.QuantityType.QuantityType:115
-#: abaqus.XY.XYPlot.XYPlot.QuantityType:70
+#: ../../../../docstring abaqus.XY.XYPlot.XYPlot.QuantityType:70
 #: abaqus.XY.XYSession.QuantityType.type:58
 #: abaqus.XY.XYSession.XYSession.QuantityType:70 of
 msgid "STRESS_INTENS_FACTOR, specifying \"Stress intensity factor\"."
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.QuantityType.QuantityType:116
-#: abaqus.XY.XYPlot.XYPlot.QuantityType:71
+#: ../../../../docstring abaqus.XY.XYPlot.XYPlot.QuantityType:71
 #: abaqus.XY.XYSession.QuantityType.type:59
 #: abaqus.XY.XYSession.XYSession.QuantityType:71 of
 msgid "SUBSTANCE, specifying \"Amount of substance\"."
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.QuantityType.QuantityType:117
-#: abaqus.XY.XYPlot.XYPlot.QuantityType:72
+#: ../../../../docstring abaqus.XY.XYPlot.XYPlot.QuantityType:72
 #: abaqus.XY.XYSession.QuantityType.type:60
 #: abaqus.XY.XYSession.XYSession.QuantityType:72 of
 msgid "TEMPERATURE."
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.QuantityType.QuantityType:118
-#: abaqus.XY.XYPlot.XYPlot.QuantityType:73
+#: ../../../../docstring abaqus.XY.XYPlot.XYPlot.QuantityType:73
 #: abaqus.XY.XYSession.QuantityType.type:61
 #: abaqus.XY.XYSession.XYSession.QuantityType:73 of
 msgid "THICKNESS."
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.QuantityType.QuantityType:119
-#: abaqus.XY.XYPlot.XYPlot.QuantityType:74
+#: ../../../../docstring abaqus.XY.XYPlot.XYPlot.QuantityType:74
 #: abaqus.XY.XYSession.QuantityType.type:62
 #: abaqus.XY.XYSession.XYSession.QuantityType:74 of
 msgid "TIME."
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.QuantityType.QuantityType:120
-#: abaqus.XY.XYPlot.XYPlot.QuantityType:75
+#: ../../../../docstring abaqus.XY.XYPlot.XYPlot.QuantityType:75
 #: abaqus.XY.XYSession.QuantityType.type:63
 #: abaqus.XY.XYSession.XYSession.QuantityType:75 of
 msgid "TIME_INCREMENT."
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.QuantityType.QuantityType:121
-#: abaqus.XY.XYPlot.XYPlot.QuantityType:76
+#: ../../../../docstring abaqus.XY.XYPlot.XYPlot.QuantityType:76
 #: abaqus.XY.XYSession.QuantityType.type:64
 #: abaqus.XY.XYSession.XYSession.QuantityType:76 of
 msgid "TIME_HEAT_FLUX, specifying \"Time integrated heat flux\"."
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.QuantityType.QuantityType:122
-#: abaqus.XY.XYPlot.XYPlot.QuantityType:77
+#: ../../../../docstring abaqus.XY.XYPlot.XYPlot.QuantityType:77
 #: abaqus.XY.XYSession.QuantityType.type:65
 #: abaqus.XY.XYSession.XYSession.QuantityType:77 of
 msgid ""
 "TIME_HEAT_FLUX_AREA, specifying \"Time integrated heat flux per area\"."
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.QuantityType.QuantityType:123
-#: abaqus.XY.XYPlot.XYPlot.QuantityType:78
+#: ../../../../docstring abaqus.XY.XYPlot.XYPlot.QuantityType:78
 #: abaqus.XY.XYSession.QuantityType.type:66
 #: abaqus.XY.XYSession.XYSession.QuantityType:78 of
 msgid "TIME_VOLUME, specifying \"Time integrated volume\"."
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.QuantityType.QuantityType:124
-#: abaqus.XY.XYPlot.XYPlot.QuantityType:79
+#: ../../../../docstring abaqus.XY.XYPlot.XYPlot.QuantityType:79
 #: abaqus.XY.XYSession.QuantityType.type:67
 #: abaqus.XY.XYSession.XYSession.QuantityType:79 of
 msgid ""
 "TIME_VOLUME_FLUX, specifying \"Time integrated volume flux per area\"."
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.QuantityType.QuantityType:125
-#: abaqus.XY.XYPlot.XYPlot.QuantityType:80
+#: ../../../../docstring abaqus.XY.XYPlot.XYPlot.QuantityType:80
 #: abaqus.XY.XYSession.QuantityType.type:68
 #: abaqus.XY.XYSession.XYSession.QuantityType:80 of
 msgid "TWIST."
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.QuantityType.QuantityType:126
-#: abaqus.XY.XYPlot.XYPlot.QuantityType:81
+#: ../../../../docstring abaqus.XY.XYPlot.XYPlot.QuantityType:81
 #: abaqus.XY.XYSession.QuantityType.type:69
 #: abaqus.XY.XYSession.XYSession.QuantityType:81 of
 msgid "VELOCITY."
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.QuantityType.QuantityType:127
-#: abaqus.XY.XYPlot.XYPlot.QuantityType:82
+#: ../../../../docstring abaqus.XY.XYPlot.XYPlot.QuantityType:82
 #: abaqus.XY.XYSession.QuantityType.type:70
 #: abaqus.XY.XYSession.XYSession.QuantityType:82 of
 msgid "VELOCITY_SQUARED."
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.QuantityType.QuantityType:128
-#: abaqus.XY.XYPlot.XYPlot.QuantityType:83
+#: ../../../../docstring abaqus.XY.XYPlot.XYPlot.QuantityType:83
 #: abaqus.XY.XYSession.QuantityType.type:71
 #: abaqus.XY.XYSession.XYSession.QuantityType:83 of
 msgid "VOLUME."
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.QuantityType.QuantityType:129
-#: abaqus.XY.XYPlot.XYPlot.QuantityType:84
+#: ../../../../docstring abaqus.XY.XYPlot.XYPlot.QuantityType:84
 #: abaqus.XY.XYSession.QuantityType.type:72
 #: abaqus.XY.XYSession.XYSession.QuantityType:84 of
 msgid "VOLUME_FLUX."
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.QuantityType.QuantityType:130
-#: abaqus.XY.XYPlot.XYPlot.QuantityType:85
+#: ../../../../docstring abaqus.XY.XYPlot.XYPlot.QuantityType:85
 #: abaqus.XY.XYSession.QuantityType.type:73
 #: abaqus.XY.XYSession.XYSession.QuantityType:85 of
 msgid "VOLUME_FLUX_AREA, specifying \"Volume flux per area\"."
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.QuantityType.QuantityType:131
-#: abaqus.XY.XYPlot.XYPlot.QuantityType:86
+#: ../../../../docstring abaqus.XY.XYPlot.XYPlot.QuantityType:86
 #: abaqus.XY.XYSession.QuantityType.type:74
 #: abaqus.XY.XYSession.XYSession.QuantityType:86 of
 msgid "VOLUME_FRACTION."
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.QuantityType.QuantityType:133
-#: abaqus.XY.XYPlot.XYPlot.QuantityType:88
+#: ../../../../docstring abaqus.XY.XYPlot.XYPlot.QuantityType:88
 #: abaqus.XY.XYSession.QuantityType.label:1
 #: abaqus.XY.XYSession.XYSession.QuantityType:88 of
 msgid "A String specifying the label for this quantity type."
 msgstr ""
 
-#: abaqus.XY.QuantityType.QuantityType:135
 #: abaqus.XY.XYPlot.XYPlot.QuantityType:90
 #: abaqus.XY.XYSession.XYSession.QuantityType:90 of
 msgid "A QuantityType object."
 msgstr ""
 
-#: abaqus.XY.QuantityType.QuantityType:136
 #: abaqus.XY.XYPlot.XYPlot.QuantityType:91
 #: abaqus.XY.XYSession.XYSession.QuantityType:91 of
 msgid ":class:`QuantityType`"
@@ -2091,8 +1981,7 @@ msgid ""
 "symbolstylepyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.SymbolStyle.SymbolStyle:31
-#: abaqus.XY.SymbolStyle.SymbolStyle.setValues:7
+#: ../../../../docstring abaqus.XY.SymbolStyle.SymbolStyle.setValues:7
 #: abaqus.XY.XYPlot.XYPlot.SymbolStyle:13
 #: abaqus.XY.XYSession.SymbolStyle.color:1
 #: abaqus.XY.XYSession.XYSession.SymbolStyle:13 of
@@ -2101,8 +1990,7 @@ msgid ""
 "SymbolStyle object. The default value is \"White\"."
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.SymbolStyle.SymbolStyle:34
-#: abaqus.XY.SymbolStyle.SymbolStyle.setValues:10
+#: ../../../../docstring abaqus.XY.SymbolStyle.SymbolStyle.setValues:10
 #: abaqus.XY.XYPlot.XYPlot.SymbolStyle:16
 #: abaqus.XY.XYSession.SymbolStyle.show:1
 #: abaqus.XY.XYSession.XYSession.SymbolStyle:16 of
@@ -2111,7 +1999,6 @@ msgid ""
 "SymbolStyle object. The default value is ON."
 msgstr ""
 
-#: abaqus.XY.SymbolStyle.SymbolStyle:37
 #: abaqus.XY.SymbolStyle.SymbolStyle.setValues:13
 #: abaqus.XY.XYPlot.XYPlot.SymbolStyle:19
 #: abaqus.XY.XYSession.XYSession.SymbolStyle:19 of
@@ -2123,7 +2010,6 @@ msgid ""
 " default value is FILLED_CIRCLE."
 msgstr ""
 
-#: abaqus.XY.SymbolStyle.SymbolStyle:37
 #: abaqus.XY.SymbolStyle.SymbolStyle.setValues:13
 #: abaqus.XY.XYPlot.XYPlot.SymbolStyle:19
 #: abaqus.XY.XYSession.XYSession.SymbolStyle:19 of
@@ -2132,104 +2018,91 @@ msgid ""
 " using this SymbolStyle object. Possible values are:"
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.SymbolStyle.SymbolStyle:40
-#: abaqus.XY.SymbolStyle.SymbolStyle.setValues:16
+#: ../../../../docstring abaqus.XY.SymbolStyle.SymbolStyle.setValues:16
 #: abaqus.XY.XYPlot.XYPlot.SymbolStyle:22
 #: abaqus.XY.XYSession.SymbolStyle.marker:5
 #: abaqus.XY.XYSession.XYSession.SymbolStyle:22 of
 msgid "FILLED_CIRCLE"
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.SymbolStyle.SymbolStyle:41
-#: abaqus.XY.SymbolStyle.SymbolStyle.setValues:17
+#: ../../../../docstring abaqus.XY.SymbolStyle.SymbolStyle.setValues:17
 #: abaqus.XY.XYPlot.XYPlot.SymbolStyle:23
 #: abaqus.XY.XYSession.SymbolStyle.marker:6
 #: abaqus.XY.XYSession.XYSession.SymbolStyle:23 of
 msgid "FILLED_SQUARE"
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.SymbolStyle.SymbolStyle:42
-#: abaqus.XY.SymbolStyle.SymbolStyle.setValues:18
+#: ../../../../docstring abaqus.XY.SymbolStyle.SymbolStyle.setValues:18
 #: abaqus.XY.XYPlot.XYPlot.SymbolStyle:24
 #: abaqus.XY.XYSession.SymbolStyle.marker:7
 #: abaqus.XY.XYSession.XYSession.SymbolStyle:24 of
 msgid "FILLED_DIAMOND"
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.SymbolStyle.SymbolStyle:43
-#: abaqus.XY.SymbolStyle.SymbolStyle.setValues:19
+#: ../../../../docstring abaqus.XY.SymbolStyle.SymbolStyle.setValues:19
 #: abaqus.XY.XYPlot.XYPlot.SymbolStyle:25
 #: abaqus.XY.XYSession.SymbolStyle.marker:8
 #: abaqus.XY.XYSession.XYSession.SymbolStyle:25 of
 msgid "FILLED_TRI"
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.SymbolStyle.SymbolStyle:44
-#: abaqus.XY.SymbolStyle.SymbolStyle.setValues:20
+#: ../../../../docstring abaqus.XY.SymbolStyle.SymbolStyle.setValues:20
 #: abaqus.XY.XYPlot.XYPlot.SymbolStyle:26
 #: abaqus.XY.XYSession.SymbolStyle.marker:9
 #: abaqus.XY.XYSession.XYSession.SymbolStyle:26 of
 msgid "HOLLOW_CIRCLE"
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.SymbolStyle.SymbolStyle:45
-#: abaqus.XY.SymbolStyle.SymbolStyle.setValues:21
+#: ../../../../docstring abaqus.XY.SymbolStyle.SymbolStyle.setValues:21
 #: abaqus.XY.XYPlot.XYPlot.SymbolStyle:27
 #: abaqus.XY.XYSession.SymbolStyle.marker:10
 #: abaqus.XY.XYSession.XYSession.SymbolStyle:27 of
 msgid "HOLLOW_SQUARE"
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.SymbolStyle.SymbolStyle:46
-#: abaqus.XY.SymbolStyle.SymbolStyle.setValues:22
+#: ../../../../docstring abaqus.XY.SymbolStyle.SymbolStyle.setValues:22
 #: abaqus.XY.XYPlot.XYPlot.SymbolStyle:28
 #: abaqus.XY.XYSession.SymbolStyle.marker:11
 #: abaqus.XY.XYSession.XYSession.SymbolStyle:28 of
 msgid "HOLLOW_DIAMOND"
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.SymbolStyle.SymbolStyle:47
-#: abaqus.XY.SymbolStyle.SymbolStyle.setValues:23
+#: ../../../../docstring abaqus.XY.SymbolStyle.SymbolStyle.setValues:23
 #: abaqus.XY.XYPlot.XYPlot.SymbolStyle:29
 #: abaqus.XY.XYSession.SymbolStyle.marker:12
 #: abaqus.XY.XYSession.XYSession.SymbolStyle:29 of
 msgid "HOLLOW_TRI"
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.SymbolStyle.SymbolStyle:48
-#: abaqus.XY.SymbolStyle.SymbolStyle.setValues:24
+#: ../../../../docstring abaqus.XY.SymbolStyle.SymbolStyle.setValues:24
 #: abaqus.XY.XYPlot.XYPlot.SymbolStyle:30
 #: abaqus.XY.XYSession.SymbolStyle.marker:13
 #: abaqus.XY.XYSession.XYSession.SymbolStyle:30 of
 msgid "CROSS"
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.SymbolStyle.SymbolStyle:49
-#: abaqus.XY.SymbolStyle.SymbolStyle.setValues:25
+#: ../../../../docstring abaqus.XY.SymbolStyle.SymbolStyle.setValues:25
 #: abaqus.XY.XYPlot.XYPlot.SymbolStyle:31
 #: abaqus.XY.XYSession.SymbolStyle.marker:14
 #: abaqus.XY.XYSession.XYSession.SymbolStyle:31 of
 msgid "XMARKER"
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.SymbolStyle.SymbolStyle:50
-#: abaqus.XY.SymbolStyle.SymbolStyle.setValues:26
+#: ../../../../docstring abaqus.XY.SymbolStyle.SymbolStyle.setValues:26
 #: abaqus.XY.XYPlot.XYPlot.SymbolStyle:32
 #: abaqus.XY.XYSession.SymbolStyle.marker:15
 #: abaqus.XY.XYSession.XYSession.SymbolStyle:32 of
 msgid "POINT"
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.SymbolStyle.SymbolStyle:52
-#: abaqus.XY.SymbolStyle.SymbolStyle.setValues:28
+#: ../../../../docstring abaqus.XY.SymbolStyle.SymbolStyle.setValues:28
 #: abaqus.XY.XYPlot.XYPlot.SymbolStyle:34
 #: abaqus.XY.XYSession.SymbolStyle.marker:17
 #: abaqus.XY.XYSession.XYSession.SymbolStyle:34 of
 msgid "The default value is FILLED_CIRCLE."
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.SymbolStyle.SymbolStyle:54
-#: abaqus.XY.SymbolStyle.SymbolStyle.setValues:30
+#: ../../../../docstring abaqus.XY.SymbolStyle.SymbolStyle.setValues:30
 #: abaqus.XY.XYPlot.XYPlot.SymbolStyle:36
 #: abaqus.XY.XYSession.SymbolStyle.size:1
 #: abaqus.XY.XYSession.XYSession.SymbolStyle:36 of
@@ -2238,12 +2111,12 @@ msgid ""
 "this SymbolStyle object. The default value is 2.0."
 msgstr ""
 
-#: abaqus.XY.SymbolStyle.SymbolStyle:57 abaqus.XY.XYPlot.XYPlot.SymbolStyle:39
+#: abaqus.XY.XYPlot.XYPlot.SymbolStyle:39
 #: abaqus.XY.XYSession.XYSession.SymbolStyle:39 of
 msgid "A SymbolStyle object."
 msgstr ""
 
-#: abaqus.XY.SymbolStyle.SymbolStyle:58 abaqus.XY.XYPlot.XYPlot.SymbolStyle:40
+#: abaqus.XY.XYPlot.XYPlot.SymbolStyle:40
 #: abaqus.XY.XYSession.XYSession.SymbolStyle:40 of
 msgid ":class:`SymbolStyle`"
 msgstr ""
@@ -2256,8 +2129,7 @@ msgid ""
 "textstylepyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.TextStyle.TextStyle:45
-#: abaqus.XY.TextStyle.TextStyle.setValues:7
+#: ../../../../docstring abaqus.XY.TextStyle.TextStyle.setValues:7
 #: abaqus.XY.XYPlot.XYPlot.TextStyle:13 abaqus.XY.XYSession.TextStyle.color:1
 #: abaqus.XY.XYSession.XYSession.TextStyle:13 of
 msgid ""
@@ -2265,8 +2137,7 @@ msgid ""
 "TextStyle object. The default value is \"White\"."
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.TextStyle.TextStyle:48
-#: abaqus.XY.TextStyle.TextStyle.setValues:10
+#: ../../../../docstring abaqus.XY.TextStyle.TextStyle.setValues:10
 #: abaqus.XY.XYPlot.XYPlot.TextStyle:16 abaqus.XY.XYSession.TextStyle.show:1
 #: abaqus.XY.XYSession.XYSession.TextStyle:16 of
 msgid ""
@@ -2274,8 +2145,7 @@ msgid ""
 "object. The default value is ON."
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.TextStyle.TextStyle:51
-#: abaqus.XY.TextStyle.TextStyle.setValues:13
+#: ../../../../docstring abaqus.XY.TextStyle.TextStyle.setValues:13
 #: abaqus.XY.XYPlot.XYPlot.TextStyle:19 abaqus.XY.XYSession.TextStyle.font:1
 #: abaqus.XY.XYSession.XYSession.TextStyle:19 of
 msgid ""
@@ -2284,8 +2154,7 @@ msgid ""
 "normal-*-*-120-*-*-p-*-*-*\"."
 msgstr ""
 
-#: ../../../../docstring abaqus.XY.TextStyle.TextStyle:54
-#: abaqus.XY.TextStyle.TextStyle.setValues:16
+#: ../../../../docstring abaqus.XY.TextStyle.TextStyle.setValues:16
 #: abaqus.XY.XYPlot.XYPlot.TextStyle:22
 #: abaqus.XY.XYSession.TextStyle.rotationAngle:1
 #: abaqus.XY.XYSession.XYSession.TextStyle:22 of
@@ -2294,12 +2163,12 @@ msgid ""
 "default value is 0.0."
 msgstr ""
 
-#: abaqus.XY.TextStyle.TextStyle:57 abaqus.XY.XYPlot.XYPlot.TextStyle:25
+#: abaqus.XY.XYPlot.XYPlot.TextStyle:25
 #: abaqus.XY.XYSession.XYSession.TextStyle:25 of
 msgid "A TextStyle object."
 msgstr ""
 
-#: abaqus.XY.TextStyle.TextStyle:58 abaqus.XY.XYPlot.XYPlot.TextStyle:26
+#: abaqus.XY.XYPlot.XYPlot.TextStyle:26
 #: abaqus.XY.XYSession.XYSession.TextStyle:26 of
 msgid ":class:`TextStyle`"
 msgstr ""
@@ -4826,22 +4695,6 @@ msgstr ""
 
 #: abaqus.XY.XYPlot.XYPlot:1 of
 msgid "Bases: :py:class:`~abaqus.XY.XYPlotBase.XYPlotBase`"
-msgstr ""
-
-#: abaqus.XY.XYPlot.XYPlot:1 abaqus.XY.XYPlotBase.XYPlotBase:12 of
-msgid "This method creates an empty XYPlot object."
-msgstr ""
-
-#: abaqus.XY.XYPlot.XYPlot:9 abaqus.XY.XYPlotBase.XYPlotBase:20 of
-msgid "A String specifying the name of the XYPlot object."
-msgstr ""
-
-#: abaqus.XY.XYPlot.XYPlot:11 abaqus.XY.XYPlotBase.XYPlotBase:22 of
-msgid "An XYPlot object."
-msgstr ""
-
-#: abaqus.XY.XYPlot.XYPlot:12 abaqus.XY.XYPlotBase.XYPlotBase:23 of
-msgid ":class:`XYPlot`"
 msgstr ""
 
 #: abaqus.XY.XYPlotBase.XYPlotBase:1 of

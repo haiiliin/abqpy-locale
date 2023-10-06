@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: abqpy 2017\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-14 01:59+0000\n"
+"POT-Creation-Date: 2023-10-06 02:35+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -56,62 +56,62 @@ msgstr ""
 msgid "The following examples illustrate the use of the `getInput` function. The first example shows a script that uses the `getInput` function to obtain a number from the user. The script then prints the square root of that number."
 msgstr ""
 
-#: ../../../user/python/use-scripts/user-input.md:26
+#: ../../../user/python/use-scripts/user-input.md:27
 msgid "The `float` function on the third line converts the string returned by `getInput` into a floating point number. The following figure shows the dialog box that appears when this script is executed:"
 msgstr ""
 
-#: ../../../user/python/use-scripts/user-input.md:35
+#: ../../../user/python/use-scripts/user-input.md:36
 msgid "The next example shows how to modify a macro recorded by the **Macro Manager** in Abaqus/CAE to use the getInput function. The following text shows a macro named `createViewport` that was recorded by Abaqus/CAE while the user created a viewport. Macros are stored in the file `abaqusMacros.py` in your local or home directory."
 msgstr ""
 
-#: ../../../user/python/use-scripts/user-input.md:46
+#: ../../../user/python/use-scripts/user-input.md:47
 msgid "The following shows how you can modify the macro to accept input from the user. Default values for the viewport width and height have been added to the input request."
 msgstr ""
 
-#: ../../../user/python/use-scripts/user-input.md:59
+#: ../../../user/python/use-scripts/user-input.md:62
 msgid "The `eval` function in the third line of the macro converts the string returned by the `getInput` function into two integers. When you supply the default values shown in this example to the `getInput` function, the prompt and the text field in the dialog box that appears are shown in the following figure. If the user clicks **\\[OK\\]** or presses **\\[Enter\\]**, the default values are accepted and returned to the `getInput` function. If the user clicks **\\[Cancel\\]**, None is returned."
 msgstr ""
 
-#: ../../../user/python/use-scripts/user-input.md:68
+#: ../../../user/python/use-scripts/user-input.md:71
 msgid "Requesting multiple inputs from the user"
 msgstr ""
 
-#: ../../../user/python/use-scripts/user-input.md:70
+#: ../../../user/python/use-scripts/user-input.md:73
 msgid "The `getInputs` function displays a dialog box in the center of the main window, and the user enters the requested values in text fields in the dialog box. The values are returned to the executing script as a sequence of Strings after the user clicks the **\\[OK\\]** button or presses **\\[Enter\\]**. Optionally, you can specify default values to be displayed in the text fields. For more information, see {func}`~abaqus.UtilityAndView.User.getInputs`."
 msgstr ""
 
-#: ../../../user/python/use-scripts/user-input.md:72
+#: ../../../user/python/use-scripts/user-input.md:75
 msgid "The following examples illustrate the use of the `getInputs` function to obtain a sequence of numbers from the user:"
 msgstr ""
 
-#: ../../../user/python/use-scripts/user-input.md:83
+#: ../../../user/python/use-scripts/user-input.md:89
 msgid "The following figure shows the dialog box that these statements create:"
 msgstr ""
 
-#: ../../../user/python/use-scripts/user-input.md:92
+#: ../../../user/python/use-scripts/user-input.md:98
 msgid "The `fields` argument to the `getInputs` method is a sequence of sequences of Strings. The inner sequence is a pair of Strings that specifies the description of the text field and the default value of the field. If the text field does not have a default value, you must specify an empty string; for example,"
 msgstr ""
 
-#: ../../../user/python/use-scripts/user-input.md:100
+#: ../../../user/python/use-scripts/user-input.md:105
 msgid "The `label` argument to the `getInputs` method is an optional label that appears across the top of the dialog box. The dialogTitle argument is an optional string that appears in the title bar of the dialog box."
 msgstr ""
 
-#: ../../../user/python/use-scripts/user-input.md:102
+#: ../../../user/python/use-scripts/user-input.md:107
 msgid "If the user clicks **\\[Cancel\\]**, the `getInputs` method returns a sequence of `None` objects. You can check the first value in the sequence to determine if the user clicked **\\[Cancel\\]**; for example:"
 msgstr ""
 
-#: ../../../user/python/use-scripts/user-input.md:111
+#: ../../../user/python/use-scripts/user-input.md:116
 msgid "Requesting a warning reply from the user"
 msgstr ""
 
-#: ../../../user/python/use-scripts/user-input.md:113
+#: ../../../user/python/use-scripts/user-input.md:118
 msgid "The `getWarningReply` function displays a warning dialog box in the center of the main window, and the user clicks on one of the standard reply buttons in the dialog box. The clicked button value is returned to the executing script. For more information, see {func}`~abaqus.UtilityAndView.User.getWarningReply`."
 msgstr ""
 
-#: ../../../user/python/use-scripts/user-input.md:115
+#: ../../../user/python/use-scripts/user-input.md:120
 msgid "The following example illustrates the use of the `getWarningReply` function:"
 msgstr ""
 
-#: ../../../user/python/use-scripts/user-input.md:127
+#: ../../../user/python/use-scripts/user-input.md:132
 msgid "The following figure shows the dialog box that appears when this script is executed:"
 msgstr ""
