@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: abqpy 2019\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-14 01:59+0000\n"
+"POT-Creation-Date: 2023-10-06 02:36+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -55,7 +55,6 @@ msgstr ""
 #: ../../../../../src/abaqus/Part/AcisFile.py:docstring of abaqus.Part.AcisFile.AcisFile.writeAcisFile:3
 #: ../../../../../src/abaqus/Part/AcisMdb.py:docstring of abaqus.Part.AcisMdb.AcisMdb:4
 #: ../../../../../src/abaqus/Part/AcisMdb.py:docstring of abaqus.Part.AcisMdb.AcisMdb:9
-#: ../../../../../src/abaqus/Part/AcisMdb.py:docstring of abaqus.Part.AcisMdb.AcisMdb:14
 #: ../../../../../src/abaqus/Part/AcisMdb.py:docstring of abaqus.Part.AcisMdb.AcisMdb.openAcis:4
 #: ../../../../../src/abaqus/Part/AcisMdb.py:docstring of abaqus.Part.AcisMdb.AcisMdb.openAcis:9
 #: ../../../../../src/abaqus/Part/AcisMdb.py:docstring of abaqus.Part.AcisMdb.AcisMdb.openCatia:4
@@ -244,7 +243,6 @@ msgstr ""
 #: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.WireSpline:9
 #: ../../../../../src/abaqus/Part/PartModel.py:docstring of abaqus.Part.PartModel.PartModel:3
 #: ../../../../../src/abaqus/Part/PartModel.py:docstring of abaqus.Part.PartModel.PartModel:8
-#: ../../../../../src/abaqus/Part/PartModel.py:docstring of abaqus.Part.PartModel.PartModel:13
 #: ../../../../../src/abaqus/Part/PartModel.py:docstring of abaqus.Part.PartModel.PartModel.Part:3
 #: ../../../../../src/abaqus/Part/PartModel.py:docstring of abaqus.Part.PartModel.PartModel.Part:8
 msgid "Note"
@@ -263,218 +261,13 @@ msgstr ""
 msgid "Check `PartModel on help.3ds.com/2019 <https://help.3ds.com/2019/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-modelpyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: ../../../../../src/abaqus/Part/PartModel.py:docstring of abaqus.Part.PartModel.PartModel:11
-#: ../../../../None:7:<autosummary>:1
-msgid "This method creates a Model object."
-msgstr ""
-
-#: ../../../../../src/abaqus/Part/AcisFile.py:docstring of abaqus.Part.AcisFile.AcisFile.openAcis:5
-#: ../../../../../src/abaqus/Part/AcisFile.py:docstring of abaqus.Part.AcisFile.AcisFile.openCatia:5
-#: ../../../../../src/abaqus/Part/AcisFile.py:docstring of abaqus.Part.AcisFile.AcisFile.openEnf:6
-#: ../../../../../src/abaqus/Part/AcisFile.py:docstring of abaqus.Part.AcisFile.AcisFile.openIges:5
-#: ../../../../../src/abaqus/Part/AcisFile.py:docstring of abaqus.Part.AcisFile.AcisFile.openParasolid:5
-#: ../../../../../src/abaqus/Part/AcisFile.py:docstring of abaqus.Part.AcisFile.AcisFile.openStep:5
-#: ../../../../../src/abaqus/Part/AcisFile.py:docstring of abaqus.Part.AcisFile.AcisFile.openVda:5
-#: ../../../../../src/abaqus/Part/AcisMdb.py:docstring of abaqus.Part.AcisMdb.AcisMdb:15
-#: ../../../../../src/abaqus/Part/AcisMdb.py:docstring of abaqus.Part.AcisMdb.AcisMdb.openAcis:5
-#: ../../../../../src/abaqus/Part/AcisMdb.py:docstring of abaqus.Part.AcisMdb.AcisMdb.openCatia:5
-#: ../../../../../src/abaqus/Part/AcisMdb.py:docstring of abaqus.Part.AcisMdb.AcisMdb.openEnf:6
-#: ../../../../../src/abaqus/Part/AcisMdb.py:docstring of abaqus.Part.AcisMdb.AcisMdb.openIges:5
-#: ../../../../../src/abaqus/Part/AcisMdb.py:docstring of abaqus.Part.AcisMdb.AcisMdb.openParasolid:5
-#: ../../../../../src/abaqus/Part/AcisMdb.py:docstring of abaqus.Part.AcisMdb.AcisMdb.openStep:5
-#: ../../../../../src/abaqus/Part/AcisMdb.py:docstring of abaqus.Part.AcisMdb.AcisMdb.openVda:5
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.Part2DGeomFrom2DMesh:7
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.PartFromBooleanCut:5
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.PartFromBooleanMerge:6
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.PartFromExtrude2DMesh:5
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.PartFromGeometryFile:4
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.PartFromInstanceMesh:5
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.PartFromMesh:5
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.PartFromMeshMirror:8
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.PartFromNodesAndElements:4
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.PartFromOdb:5
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.PartFromSection3DMeshByPlane:6
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.PartFromSubstructure:5
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.AddCells:5
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.AnalyticRigidSurf2DPlanar:5
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.AnalyticRigidSurfExtrude:5
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.AnalyticRigidSurfRevolve:5
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.AssignMidsurfaceRegion:6
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.AutoRepair:8
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.BaseShell:5
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.BaseShellExtrude:5
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.BaseShellRevolve:6
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.BaseShellSweep:8
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.BaseSolidExtrude:5
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.BaseSolidRevolve:6
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.BaseSolidSweep:8
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.BaseWire:5
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.BlendFaces:4
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.Chamfer:5
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.ConvertToAnalytical:5
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.ConvertToPrecise:4
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.CoverEdges:6
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.Cut:5
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.CutExtrude:8
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.CutLoft:6
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.CutRevolve:6
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.CutSweep:8
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.ExtendFaces:6
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.FaceFromElementFaces:4
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.HoleBlindFromEdges:6
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.HoleFromEdges:6
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.HoleThruAllFromEdges:6
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.MergeEdges:4
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.Mirror:4
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.OffsetFaces:4
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.RemoveCells:4
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.RemoveFaces:4
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.RemoveFacesAndStitch:5
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.RemoveRedundantEntities:5
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.RepairFaceNormals:7
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.RepairInvalidEdges:5
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.RepairSliver:6
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.RepairSmallEdges:6
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.RepairSmallFaces:6
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.ReplaceFaces:5
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.Round:5
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.Shell:5
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.ShellExtrude:6
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.ShellLoft:6
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.ShellRevolve:7
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.ShellSweep:8
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.SolidExtrude:5
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.SolidLoft:5
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.SolidRevolve:6
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.SolidSweep:8
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.Stitch:6
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.Wire:5
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.WireFromEdge:5
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.WirePolyLine:5
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.WireSpline:5
-#: ../../../../../src/abaqus/Part/PartModel.py:docstring of abaqus.Part.PartModel.PartModel:14
-#: ../../../../../src/abaqus/Part/PartModel.py:docstring of abaqus.Part.PartModel.PartModel.Part:4
-msgid "This function can be accessed by::"
-msgstr ""
-
-#: ../../../../../src/abaqus/Part/AcisFile.py:docstring of abaqus.Part.AcisFile.AcisFile.openAcis:0
-#: ../../../../../src/abaqus/Part/AcisFile.py:docstring of abaqus.Part.AcisFile.AcisFile.openCatia:0
-#: ../../../../../src/abaqus/Part/AcisFile.py:docstring of abaqus.Part.AcisFile.AcisFile.openEnf:0
-#: ../../../../../src/abaqus/Part/AcisFile.py:docstring of abaqus.Part.AcisFile.AcisFile.openIges:0
-#: ../../../../../src/abaqus/Part/AcisFile.py:docstring of abaqus.Part.AcisFile.AcisFile.openParasolid:0
-#: ../../../../../src/abaqus/Part/AcisFile.py:docstring of abaqus.Part.AcisFile.AcisFile.openStep:0
-#: ../../../../../src/abaqus/Part/AcisFile.py:docstring of abaqus.Part.AcisFile.AcisFile.openVda:0
-#: ../../../../../src/abaqus/Part/AcisFile.py:docstring of abaqus.Part.AcisFile.AcisFile.writeAcisFile:0
-#: ../../../../../src/abaqus/Part/AcisMdb.py:docstring of abaqus.Part.AcisMdb.AcisMdb:0
-#: ../../../../../src/abaqus/Part/AcisMdb.py:docstring of abaqus.Part.AcisMdb.AcisMdb.openAcis:0
-#: ../../../../../src/abaqus/Part/AcisMdb.py:docstring of abaqus.Part.AcisMdb.AcisMdb.openCatia:0
-#: ../../../../../src/abaqus/Part/AcisMdb.py:docstring of abaqus.Part.AcisMdb.AcisMdb.openEnf:0
-#: ../../../../../src/abaqus/Part/AcisMdb.py:docstring of abaqus.Part.AcisMdb.AcisMdb.openIges:0
-#: ../../../../../src/abaqus/Part/AcisMdb.py:docstring of abaqus.Part.AcisMdb.AcisMdb.openParasolid:0
-#: ../../../../../src/abaqus/Part/AcisMdb.py:docstring of abaqus.Part.AcisMdb.AcisMdb.openStep:0
-#: ../../../../../src/abaqus/Part/AcisMdb.py:docstring of abaqus.Part.AcisMdb.AcisMdb.openVda:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.Part2DGeomFrom2DMesh:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.PartFromBooleanCut:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.PartFromBooleanMerge:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.PartFromExtrude2DMesh:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.PartFromGeometryFile:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.PartFromInstanceMesh:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.PartFromMesh:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.PartFromMeshMirror:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.PartFromNodesAndElements:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.PartFromOdb:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.PartFromSection3DMeshByPlane:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.PartFromSubstructure:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.addGeomToSketch:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.assignThickness:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.checkGeometry:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.copyMeshPattern:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.deleteFeatures:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.getAngle:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.getArea:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.getCentroid:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.getCoordinates:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.getCurvature:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.getDistance:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.getFeatureCells:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.getFeatureEdges:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.getFeatureFaces:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.getFeatureVertices:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.getLength:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.getMassProperties:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.getPerimeter:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.getVolume:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.projectEdgesOntoSketch:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.projectReferencesOntoSketch:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.queryAttributes:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.queryGeometry:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.resumeFeatures:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.setAssociatedCADPaths:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.smoothNodes:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.suppressFeatures:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.writeAcisFile:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.writeCADParameters:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.writeIgesFile:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.writeStepFile:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.writeVdaFile:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.AddCells:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.AnalyticRigidSurf2DPlanar:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.AnalyticRigidSurfExtrude:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.AnalyticRigidSurfRevolve:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.AssignMidsurfaceRegion:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.BaseShell:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.BaseShellExtrude:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.BaseShellRevolve:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.BaseShellSweep:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.BaseSolidExtrude:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.BaseSolidRevolve:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.BaseSolidSweep:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.BaseWire:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.BlendFaces:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.Chamfer:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.ConvertToPrecise:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.CoverEdges:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.Cut:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.CutExtrude:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.CutLoft:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.CutRevolve:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.CutSweep:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.ExtendFaces:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.FaceFromElementFaces:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.HoleBlindFromEdges:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.HoleFromEdges:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.HoleThruAllFromEdges:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.MergeEdges:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.Mirror:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.OffsetFaces:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.RemoveCells:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.RemoveFaces:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.RemoveFacesAndStitch:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.RemoveRedundantEntities:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.RepairFaceNormals:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.RepairInvalidEdges:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.RepairSliver:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.RepairSmallEdges:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.RepairSmallFaces:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.ReplaceFaces:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.Round:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.Shell:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.ShellExtrude:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.ShellLoft:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.ShellRevolve:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.ShellSweep:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.SolidExtrude:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.SolidLoft:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.SolidRevolve:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.SolidSweep:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.Stitch:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.Wire:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.WireFromEdge:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.WirePolyLine:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.WireSpline:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase:0
 #: ../../../../../src/abaqus/Part/PartModel.py:docstring of abaqus.Part.PartModel.PartModel:0
-#: ../../../../../src/abaqus/Part/PartModel.py:docstring of abaqus.Part.PartModel.PartModel.Part:0
-msgid "Parameters"
+msgid "Public Data Attributes:"
+msgstr ""
+
+#: ../../../../None:52:<autosummary>:1
+msgid ":py:obj:`name <abaqus.Model.ModelBase.ModelBase.name>`\\"
 msgstr ""
 
 #: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.Part2DGeomFrom2DMesh:15
@@ -489,283 +282,11 @@ msgstr ""
 #: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.PartFromOdb:13
 #: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.PartFromSection3DMeshByPlane:14
 #: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.PartFromSubstructure:13
-#: ../../../../../src/abaqus/Part/PartModel.py:docstring of abaqus.Part.PartModel.PartModel:19
 #: ../../../../../src/abaqus/Part/PartModel.py:docstring of abaqus.Part.PartModel.PartModel.Part:12
 #: ../../../../None:36:<autosummary>:1
 #: ../../../../None:4:<autosummary>:1
 #: ../../../../None:52:<autosummary>:1
 msgid "A String specifying the repository key."
-msgstr ""
-
-#: ../../../../../src/abaqus/Part/PartModel.py:docstring of abaqus.Part.PartModel.PartModel:21
-msgid "A String specifying the purpose and contents of the Model object. The default value is an empty string."
-msgstr ""
-
-#: ../../../../../src/abaqus/Part/PartModel.py:docstring of abaqus.Part.PartModel.PartModel:24
-msgid "None or a Float specifying the Stefan-Boltzmann constant. The default value is None."
-msgstr ""
-
-#: ../../../../../src/abaqus/Part/PartModel.py:docstring of abaqus.Part.PartModel.PartModel:26
-msgid "None or a Float specifying the absolute zero constant. The default value is None."
-msgstr ""
-
-#: ../../../../../src/abaqus/Part/PartModel.py:docstring of abaqus.Part.PartModel.PartModel:28
-msgid "A SymbolicConstant specifying the type of incident wave formulation to be used in acoustic problems. Possible values are NOT_SET, SCATTERED, and TOTAL. The default value is NOT_SET."
-msgstr ""
-
-#: ../../../../../src/abaqus/Part/PartModel.py:docstring of abaqus.Part.PartModel.PartModel:32
-msgid "A SymbolicConstant specifying the analysis model type. Possible values are STANDARD_EXPLICIT and ELECTROMAGNETIC. The default is STANDARD_EXPLICIT."
-msgstr ""
-
-#: ../../../../../src/abaqus/Part/PartModel.py:docstring of abaqus.Part.PartModel.PartModel:35
-msgid "None or a Float specifying the universal gas constant. The default value is None."
-msgstr ""
-
-#: ../../../../../src/abaqus/Part/PartModel.py:docstring of abaqus.Part.PartModel.PartModel:37
-msgid "A boolean specifying whether to copy the constraints created in the model to the model that instances this model. The default value is ON."
-msgstr ""
-
-#: ../../../../../src/abaqus/Part/PartModel.py:docstring of abaqus.Part.PartModel.PartModel:40
-msgid "A boolean specifying whether to copy the connectors created in the model to the model that instances this model. The default value is ON."
-msgstr ""
-
-#: ../../../../../src/abaqus/Part/PartModel.py:docstring of abaqus.Part.PartModel.PartModel:43
-msgid "A boolean specifying whether to copy the interactions created in the model to the model that instances this model. The default value is ON."
-msgstr ""
-
-#: ../../../../../src/abaqus/Part/AcisFile.py:docstring of abaqus.Part.AcisFile.AcisFile.openAcis:0
-#: ../../../../../src/abaqus/Part/AcisFile.py:docstring of abaqus.Part.AcisFile.AcisFile.openCatia:0
-#: ../../../../../src/abaqus/Part/AcisFile.py:docstring of abaqus.Part.AcisFile.AcisFile.openEnf:0
-#: ../../../../../src/abaqus/Part/AcisFile.py:docstring of abaqus.Part.AcisFile.AcisFile.openIges:0
-#: ../../../../../src/abaqus/Part/AcisFile.py:docstring of abaqus.Part.AcisFile.AcisFile.openParasolid:0
-#: ../../../../../src/abaqus/Part/AcisFile.py:docstring of abaqus.Part.AcisFile.AcisFile.openStep:0
-#: ../../../../../src/abaqus/Part/AcisFile.py:docstring of abaqus.Part.AcisFile.AcisFile.openVda:0
-#: ../../../../../src/abaqus/Part/AcisMdb.py:docstring of abaqus.Part.AcisMdb.AcisMdb:0
-#: ../../../../../src/abaqus/Part/AcisMdb.py:docstring of abaqus.Part.AcisMdb.AcisMdb.openAcis:0
-#: ../../../../../src/abaqus/Part/AcisMdb.py:docstring of abaqus.Part.AcisMdb.AcisMdb.openCatia:0
-#: ../../../../../src/abaqus/Part/AcisMdb.py:docstring of abaqus.Part.AcisMdb.AcisMdb.openEnf:0
-#: ../../../../../src/abaqus/Part/AcisMdb.py:docstring of abaqus.Part.AcisMdb.AcisMdb.openIges:0
-#: ../../../../../src/abaqus/Part/AcisMdb.py:docstring of abaqus.Part.AcisMdb.AcisMdb.openParasolid:0
-#: ../../../../../src/abaqus/Part/AcisMdb.py:docstring of abaqus.Part.AcisMdb.AcisMdb.openStep:0
-#: ../../../../../src/abaqus/Part/AcisMdb.py:docstring of abaqus.Part.AcisMdb.AcisMdb.openVda:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.Part2DGeomFrom2DMesh:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.PartFromBooleanCut:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.PartFromBooleanMerge:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.PartFromExtrude2DMesh:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.PartFromGeometryFile:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.PartFromInstanceMesh:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.PartFromMesh:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.PartFromMeshMirror:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.PartFromNodesAndElements:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.PartFromOdb:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.PartFromSection3DMeshByPlane:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.PartFromSubstructure:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.getAngle:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.getArea:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.getAssociatedCADPaths:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.getCADParameters:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.getCentroid:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.getCoordinates:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.getCurvature:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.getDistance:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.getFeatureCells:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.getFeatureEdges:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.getFeatureFaces:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.getFeatureVertices:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.getLength:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.getMassProperties:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.getPerimeter:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.getVolume:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.isAlignedWithSketch:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.queryAttributes:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.queryGeometry:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.queryRegionsMissingSections:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.AddCells:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.AnalyticRigidSurf2DPlanar:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.AnalyticRigidSurfExtrude:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.AnalyticRigidSurfRevolve:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.AssignMidsurfaceRegion:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.AutoRepair:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.BaseShell:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.BaseShellExtrude:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.BaseShellRevolve:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.BaseShellSweep:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.BaseSolidExtrude:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.BaseSolidRevolve:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.BaseSolidSweep:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.BaseWire:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.BlendFaces:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.Chamfer:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.ConvertToAnalytical:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.ConvertToPrecise:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.CoverEdges:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.Cut:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.CutExtrude:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.CutLoft:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.CutRevolve:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.CutSweep:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.ExtendFaces:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.FaceFromElementFaces:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.HoleBlindFromEdges:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.HoleFromEdges:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.HoleThruAllFromEdges:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.MergeEdges:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.Mirror:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.OffsetFaces:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.RemoveCells:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.RemoveFaces:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.RemoveFacesAndStitch:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.RemoveRedundantEntities:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.RepairFaceNormals:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.RepairInvalidEdges:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.RepairSliver:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.RepairSmallEdges:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.RepairSmallFaces:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.ReplaceFaces:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.Round:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.Shell:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.ShellExtrude:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.ShellLoft:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.ShellRevolve:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.ShellSweep:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.SolidExtrude:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.SolidLoft:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.SolidRevolve:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.SolidSweep:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.Stitch:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.Wire:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.WireFromEdge:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.WirePolyLine:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.WireSpline:0
-#: ../../../../../src/abaqus/Part/PartModel.py:docstring of abaqus.Part.PartModel.PartModel:0
-#: ../../../../../src/abaqus/Part/PartModel.py:docstring of abaqus.Part.PartModel.PartModel.Part:0
-msgid "Returns"
-msgstr ""
-
-#: ../../../../../src/abaqus/Part/PartModel.py:docstring of abaqus.Part.PartModel.PartModel:46
-msgid "A Model object."
-msgstr ""
-
-#: ../../../../../src/abaqus/Part/AcisFile.py:docstring of abaqus.Part.AcisFile.AcisFile.openAcis:0
-#: ../../../../../src/abaqus/Part/AcisFile.py:docstring of abaqus.Part.AcisFile.AcisFile.openCatia:0
-#: ../../../../../src/abaqus/Part/AcisFile.py:docstring of abaqus.Part.AcisFile.AcisFile.openEnf:0
-#: ../../../../../src/abaqus/Part/AcisFile.py:docstring of abaqus.Part.AcisFile.AcisFile.openIges:0
-#: ../../../../../src/abaqus/Part/AcisFile.py:docstring of abaqus.Part.AcisFile.AcisFile.openParasolid:0
-#: ../../../../../src/abaqus/Part/AcisFile.py:docstring of abaqus.Part.AcisFile.AcisFile.openStep:0
-#: ../../../../../src/abaqus/Part/AcisFile.py:docstring of abaqus.Part.AcisFile.AcisFile.openVda:0
-#: ../../../../../src/abaqus/Part/AcisMdb.py:docstring of abaqus.Part.AcisMdb.AcisMdb:0
-#: ../../../../../src/abaqus/Part/AcisMdb.py:docstring of abaqus.Part.AcisMdb.AcisMdb.openAcis:0
-#: ../../../../../src/abaqus/Part/AcisMdb.py:docstring of abaqus.Part.AcisMdb.AcisMdb.openCatia:0
-#: ../../../../../src/abaqus/Part/AcisMdb.py:docstring of abaqus.Part.AcisMdb.AcisMdb.openEnf:0
-#: ../../../../../src/abaqus/Part/AcisMdb.py:docstring of abaqus.Part.AcisMdb.AcisMdb.openIges:0
-#: ../../../../../src/abaqus/Part/AcisMdb.py:docstring of abaqus.Part.AcisMdb.AcisMdb.openParasolid:0
-#: ../../../../../src/abaqus/Part/AcisMdb.py:docstring of abaqus.Part.AcisMdb.AcisMdb.openStep:0
-#: ../../../../../src/abaqus/Part/AcisMdb.py:docstring of abaqus.Part.AcisMdb.AcisMdb.openVda:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.Part2DGeomFrom2DMesh:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.PartFromBooleanCut:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.PartFromBooleanMerge:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.PartFromExtrude2DMesh:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.PartFromGeometryFile:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.PartFromInstanceMesh:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.PartFromMesh:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.PartFromMeshMirror:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.PartFromNodesAndElements:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.PartFromOdb:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.PartFromSection3DMeshByPlane:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.PartFromSubstructure:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.getAngle:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.getArea:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.getAssociatedCADPaths:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.getCADParameters:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.getCentroid:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.getCoordinates:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.getCurvature:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.getDistance:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.getFeatureCells:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.getFeatureEdges:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.getFeatureFaces:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.getFeatureVertices:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.getLength:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.getMassProperties:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.getPerimeter:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.getVolume:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.isAlignedWithSketch:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.queryAttributes:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.queryGeometry:0
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.queryRegionsMissingSections:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.AddCells:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.AnalyticRigidSurf2DPlanar:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.AnalyticRigidSurfExtrude:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.AnalyticRigidSurfRevolve:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.AssignMidsurfaceRegion:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.AutoRepair:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.BaseShell:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.BaseShellExtrude:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.BaseShellRevolve:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.BaseShellSweep:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.BaseSolidExtrude:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.BaseSolidRevolve:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.BaseSolidSweep:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.BaseWire:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.BlendFaces:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.Chamfer:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.ConvertToAnalytical:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.ConvertToPrecise:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.CoverEdges:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.Cut:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.CutExtrude:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.CutLoft:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.CutRevolve:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.CutSweep:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.ExtendFaces:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.FaceFromElementFaces:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.HoleBlindFromEdges:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.HoleFromEdges:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.HoleThruAllFromEdges:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.MergeEdges:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.Mirror:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.OffsetFaces:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.RemoveCells:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.RemoveFaces:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.RemoveFacesAndStitch:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.RemoveRedundantEntities:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.RepairFaceNormals:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.RepairInvalidEdges:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.RepairSliver:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.RepairSmallEdges:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.RepairSmallFaces:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.ReplaceFaces:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.Round:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.Shell:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.ShellExtrude:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.ShellLoft:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.ShellRevolve:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.ShellSweep:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.SolidExtrude:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.SolidLoft:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.SolidRevolve:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.SolidSweep:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.Stitch:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.Wire:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.WireFromEdge:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.WirePolyLine:0
-#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.WireSpline:0
-#: ../../../../../src/abaqus/Part/PartModel.py:docstring of abaqus.Part.PartModel.PartModel:0
-#: ../../../../../src/abaqus/Part/PartModel.py:docstring of abaqus.Part.PartModel.PartModel.Part:0
-msgid "Return type"
-msgstr ""
-
-#: ../../../../../src/abaqus/Part/PartModel.py:docstring of abaqus.Part.PartModel.PartModel:47
-msgid ":class:`Model`"
-msgstr ""
-
-#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase:0
-#: ../../../../../src/abaqus/Part/PartModel.py:docstring of abaqus.Part.PartModel.PartModel:0
-msgid "Public Data Attributes:"
-msgstr ""
-
-#: ../../../../None:52:<autosummary>:1
-msgid ":py:obj:`name <abaqus.Model.ModelBase.ModelBase.name>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
@@ -1181,6 +702,10 @@ msgid ":py:obj:`__init__ <abaqus.Model.ModelBase.ModelBase.__init__>`\\ \\(name\
 msgstr ""
 
 #: ../../../../None:7:<autosummary>:1
+msgid "This method creates a Model object."
+msgstr ""
+
+#: ../../../../None:7:<autosummary>:1
 msgid ":py:obj:`ModelFromInputFile <abaqus.Model.ModelBase.ModelBase.ModelFromInputFile>`\\ \\(name\\, inputFileName\\)"
 msgstr ""
 
@@ -1222,9 +747,214 @@ msgstr ""
 msgid "Member Details:"
 msgstr ""
 
+#: ../../../../../src/abaqus/Part/AcisFile.py:docstring of abaqus.Part.AcisFile.AcisFile.openAcis:5
+#: ../../../../../src/abaqus/Part/AcisFile.py:docstring of abaqus.Part.AcisFile.AcisFile.openCatia:5
+#: ../../../../../src/abaqus/Part/AcisFile.py:docstring of abaqus.Part.AcisFile.AcisFile.openEnf:6
+#: ../../../../../src/abaqus/Part/AcisFile.py:docstring of abaqus.Part.AcisFile.AcisFile.openIges:5
+#: ../../../../../src/abaqus/Part/AcisFile.py:docstring of abaqus.Part.AcisFile.AcisFile.openParasolid:5
+#: ../../../../../src/abaqus/Part/AcisFile.py:docstring of abaqus.Part.AcisFile.AcisFile.openStep:5
+#: ../../../../../src/abaqus/Part/AcisFile.py:docstring of abaqus.Part.AcisFile.AcisFile.openVda:5
+#: ../../../../../src/abaqus/Part/AcisMdb.py:docstring of abaqus.Part.AcisMdb.AcisMdb.openAcis:5
+#: ../../../../../src/abaqus/Part/AcisMdb.py:docstring of abaqus.Part.AcisMdb.AcisMdb.openCatia:5
+#: ../../../../../src/abaqus/Part/AcisMdb.py:docstring of abaqus.Part.AcisMdb.AcisMdb.openEnf:6
+#: ../../../../../src/abaqus/Part/AcisMdb.py:docstring of abaqus.Part.AcisMdb.AcisMdb.openIges:5
+#: ../../../../../src/abaqus/Part/AcisMdb.py:docstring of abaqus.Part.AcisMdb.AcisMdb.openParasolid:5
+#: ../../../../../src/abaqus/Part/AcisMdb.py:docstring of abaqus.Part.AcisMdb.AcisMdb.openStep:5
+#: ../../../../../src/abaqus/Part/AcisMdb.py:docstring of abaqus.Part.AcisMdb.AcisMdb.openVda:5
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.Part2DGeomFrom2DMesh:7
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.PartFromBooleanCut:5
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.PartFromBooleanMerge:6
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.PartFromExtrude2DMesh:5
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.PartFromGeometryFile:4
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.PartFromInstanceMesh:5
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.PartFromMesh:5
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.PartFromMeshMirror:8
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.PartFromNodesAndElements:4
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.PartFromOdb:5
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.PartFromSection3DMeshByPlane:6
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.PartFromSubstructure:5
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.AddCells:5
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.AnalyticRigidSurf2DPlanar:5
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.AnalyticRigidSurfExtrude:5
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.AnalyticRigidSurfRevolve:5
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.AssignMidsurfaceRegion:6
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.AutoRepair:8
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.BaseShell:5
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.BaseShellExtrude:5
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.BaseShellRevolve:6
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.BaseShellSweep:8
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.BaseSolidExtrude:5
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.BaseSolidRevolve:6
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.BaseSolidSweep:8
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.BaseWire:5
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.BlendFaces:4
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.Chamfer:5
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.ConvertToAnalytical:5
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.ConvertToPrecise:4
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.CoverEdges:6
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.Cut:5
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.CutExtrude:8
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.CutLoft:6
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.CutRevolve:6
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.CutSweep:8
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.ExtendFaces:6
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.FaceFromElementFaces:4
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.HoleBlindFromEdges:6
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.HoleFromEdges:6
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.HoleThruAllFromEdges:6
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.MergeEdges:4
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.Mirror:4
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.OffsetFaces:4
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.RemoveCells:4
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.RemoveFaces:4
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.RemoveFacesAndStitch:5
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.RemoveRedundantEntities:5
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.RepairFaceNormals:7
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.RepairInvalidEdges:5
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.RepairSliver:6
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.RepairSmallEdges:6
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.RepairSmallFaces:6
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.ReplaceFaces:5
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.Round:5
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.Shell:5
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.ShellExtrude:6
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.ShellLoft:6
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.ShellRevolve:7
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.ShellSweep:8
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.SolidExtrude:5
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.SolidLoft:5
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.SolidRevolve:6
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.SolidSweep:8
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.Stitch:6
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.Wire:5
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.WireFromEdge:5
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.WirePolyLine:5
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.WireSpline:5
+#: ../../../../../src/abaqus/Part/PartModel.py:docstring of abaqus.Part.PartModel.PartModel.Part:4
+msgid "This function can be accessed by::"
+msgstr ""
+
 #: ../../../../../src/abaqus/Part/Part.py:docstring of abaqus.Part.Part.Part:11
 #: ../../../../../src/abaqus/Part/PartModel.py:docstring of abaqus.Part.PartModel.PartModel.Part:9
 msgid "Check `Part on help.3ds.com/2019 <https://help.3ds.com/2019/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-partpyc.htm?contextscope=all>`__."
+msgstr ""
+
+#: ../../../../../src/abaqus/Part/AcisFile.py:docstring of abaqus.Part.AcisFile.AcisFile.openAcis:0
+#: ../../../../../src/abaqus/Part/AcisFile.py:docstring of abaqus.Part.AcisFile.AcisFile.openCatia:0
+#: ../../../../../src/abaqus/Part/AcisFile.py:docstring of abaqus.Part.AcisFile.AcisFile.openEnf:0
+#: ../../../../../src/abaqus/Part/AcisFile.py:docstring of abaqus.Part.AcisFile.AcisFile.openIges:0
+#: ../../../../../src/abaqus/Part/AcisFile.py:docstring of abaqus.Part.AcisFile.AcisFile.openParasolid:0
+#: ../../../../../src/abaqus/Part/AcisFile.py:docstring of abaqus.Part.AcisFile.AcisFile.openStep:0
+#: ../../../../../src/abaqus/Part/AcisFile.py:docstring of abaqus.Part.AcisFile.AcisFile.openVda:0
+#: ../../../../../src/abaqus/Part/AcisFile.py:docstring of abaqus.Part.AcisFile.AcisFile.writeAcisFile:0
+#: ../../../../../src/abaqus/Part/AcisMdb.py:docstring of abaqus.Part.AcisMdb.AcisMdb.openAcis:0
+#: ../../../../../src/abaqus/Part/AcisMdb.py:docstring of abaqus.Part.AcisMdb.AcisMdb.openCatia:0
+#: ../../../../../src/abaqus/Part/AcisMdb.py:docstring of abaqus.Part.AcisMdb.AcisMdb.openEnf:0
+#: ../../../../../src/abaqus/Part/AcisMdb.py:docstring of abaqus.Part.AcisMdb.AcisMdb.openIges:0
+#: ../../../../../src/abaqus/Part/AcisMdb.py:docstring of abaqus.Part.AcisMdb.AcisMdb.openParasolid:0
+#: ../../../../../src/abaqus/Part/AcisMdb.py:docstring of abaqus.Part.AcisMdb.AcisMdb.openStep:0
+#: ../../../../../src/abaqus/Part/AcisMdb.py:docstring of abaqus.Part.AcisMdb.AcisMdb.openVda:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.Part2DGeomFrom2DMesh:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.PartFromBooleanCut:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.PartFromBooleanMerge:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.PartFromExtrude2DMesh:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.PartFromGeometryFile:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.PartFromInstanceMesh:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.PartFromMesh:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.PartFromMeshMirror:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.PartFromNodesAndElements:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.PartFromOdb:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.PartFromSection3DMeshByPlane:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.PartFromSubstructure:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.addGeomToSketch:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.assignThickness:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.checkGeometry:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.copyMeshPattern:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.deleteFeatures:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.getAngle:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.getArea:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.getCentroid:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.getCoordinates:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.getCurvature:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.getDistance:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.getFeatureCells:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.getFeatureEdges:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.getFeatureFaces:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.getFeatureVertices:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.getLength:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.getMassProperties:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.getPerimeter:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.getVolume:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.projectEdgesOntoSketch:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.projectReferencesOntoSketch:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.queryAttributes:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.queryGeometry:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.resumeFeatures:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.setAssociatedCADPaths:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.smoothNodes:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.suppressFeatures:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.writeAcisFile:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.writeCADParameters:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.writeIgesFile:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.writeStepFile:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.writeVdaFile:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.AddCells:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.AnalyticRigidSurf2DPlanar:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.AnalyticRigidSurfExtrude:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.AnalyticRigidSurfRevolve:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.AssignMidsurfaceRegion:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.BaseShell:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.BaseShellExtrude:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.BaseShellRevolve:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.BaseShellSweep:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.BaseSolidExtrude:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.BaseSolidRevolve:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.BaseSolidSweep:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.BaseWire:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.BlendFaces:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.Chamfer:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.ConvertToPrecise:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.CoverEdges:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.Cut:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.CutExtrude:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.CutLoft:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.CutRevolve:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.CutSweep:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.ExtendFaces:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.FaceFromElementFaces:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.HoleBlindFromEdges:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.HoleFromEdges:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.HoleThruAllFromEdges:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.MergeEdges:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.Mirror:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.OffsetFaces:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.RemoveCells:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.RemoveFaces:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.RemoveFacesAndStitch:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.RemoveRedundantEntities:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.RepairFaceNormals:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.RepairInvalidEdges:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.RepairSliver:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.RepairSmallEdges:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.RepairSmallFaces:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.ReplaceFaces:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.Round:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.Shell:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.ShellExtrude:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.ShellLoft:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.ShellRevolve:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.ShellSweep:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.SolidExtrude:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.SolidLoft:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.SolidRevolve:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.SolidSweep:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.Stitch:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.Wire:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.WireFromEdge:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.WirePolyLine:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.WireSpline:0
+#: ../../../../../src/abaqus/Part/PartModel.py:docstring of abaqus.Part.PartModel.PartModel.Part:0
+msgid "Parameters"
 msgstr ""
 
 #: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.PartFromGeometryFile:16
@@ -1246,8 +976,222 @@ msgstr ""
 msgid "A Boolean specifying whether to include a twist DEGREE OF FREEDOM in the part (only available when **dimensionality** = AXISYMMETRIC and **type** = DEFORMABLE_BODY). The default value is OFF."
 msgstr ""
 
+#: ../../../../../src/abaqus/Part/AcisFile.py:docstring of abaqus.Part.AcisFile.AcisFile.openAcis:0
+#: ../../../../../src/abaqus/Part/AcisFile.py:docstring of abaqus.Part.AcisFile.AcisFile.openCatia:0
+#: ../../../../../src/abaqus/Part/AcisFile.py:docstring of abaqus.Part.AcisFile.AcisFile.openEnf:0
+#: ../../../../../src/abaqus/Part/AcisFile.py:docstring of abaqus.Part.AcisFile.AcisFile.openIges:0
+#: ../../../../../src/abaqus/Part/AcisFile.py:docstring of abaqus.Part.AcisFile.AcisFile.openParasolid:0
+#: ../../../../../src/abaqus/Part/AcisFile.py:docstring of abaqus.Part.AcisFile.AcisFile.openStep:0
+#: ../../../../../src/abaqus/Part/AcisFile.py:docstring of abaqus.Part.AcisFile.AcisFile.openVda:0
+#: ../../../../../src/abaqus/Part/AcisMdb.py:docstring of abaqus.Part.AcisMdb.AcisMdb.openAcis:0
+#: ../../../../../src/abaqus/Part/AcisMdb.py:docstring of abaqus.Part.AcisMdb.AcisMdb.openCatia:0
+#: ../../../../../src/abaqus/Part/AcisMdb.py:docstring of abaqus.Part.AcisMdb.AcisMdb.openEnf:0
+#: ../../../../../src/abaqus/Part/AcisMdb.py:docstring of abaqus.Part.AcisMdb.AcisMdb.openIges:0
+#: ../../../../../src/abaqus/Part/AcisMdb.py:docstring of abaqus.Part.AcisMdb.AcisMdb.openParasolid:0
+#: ../../../../../src/abaqus/Part/AcisMdb.py:docstring of abaqus.Part.AcisMdb.AcisMdb.openStep:0
+#: ../../../../../src/abaqus/Part/AcisMdb.py:docstring of abaqus.Part.AcisMdb.AcisMdb.openVda:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.Part2DGeomFrom2DMesh:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.PartFromBooleanCut:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.PartFromBooleanMerge:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.PartFromExtrude2DMesh:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.PartFromGeometryFile:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.PartFromInstanceMesh:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.PartFromMesh:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.PartFromMeshMirror:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.PartFromNodesAndElements:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.PartFromOdb:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.PartFromSection3DMeshByPlane:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.PartFromSubstructure:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.getAngle:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.getArea:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.getAssociatedCADPaths:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.getCADParameters:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.getCentroid:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.getCoordinates:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.getCurvature:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.getDistance:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.getFeatureCells:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.getFeatureEdges:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.getFeatureFaces:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.getFeatureVertices:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.getLength:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.getMassProperties:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.getPerimeter:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.getVolume:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.isAlignedWithSketch:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.queryAttributes:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.queryGeometry:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.queryRegionsMissingSections:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.AddCells:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.AnalyticRigidSurf2DPlanar:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.AnalyticRigidSurfExtrude:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.AnalyticRigidSurfRevolve:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.AssignMidsurfaceRegion:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.AutoRepair:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.BaseShell:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.BaseShellExtrude:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.BaseShellRevolve:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.BaseShellSweep:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.BaseSolidExtrude:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.BaseSolidRevolve:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.BaseSolidSweep:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.BaseWire:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.BlendFaces:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.Chamfer:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.ConvertToAnalytical:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.ConvertToPrecise:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.CoverEdges:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.Cut:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.CutExtrude:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.CutLoft:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.CutRevolve:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.CutSweep:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.ExtendFaces:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.FaceFromElementFaces:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.HoleBlindFromEdges:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.HoleFromEdges:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.HoleThruAllFromEdges:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.MergeEdges:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.Mirror:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.OffsetFaces:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.RemoveCells:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.RemoveFaces:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.RemoveFacesAndStitch:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.RemoveRedundantEntities:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.RepairFaceNormals:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.RepairInvalidEdges:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.RepairSliver:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.RepairSmallEdges:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.RepairSmallFaces:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.ReplaceFaces:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.Round:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.Shell:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.ShellExtrude:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.ShellLoft:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.ShellRevolve:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.ShellSweep:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.SolidExtrude:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.SolidLoft:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.SolidRevolve:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.SolidSweep:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.Stitch:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.Wire:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.WireFromEdge:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.WirePolyLine:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.WireSpline:0
+#: ../../../../../src/abaqus/Part/PartModel.py:docstring of abaqus.Part.PartModel.PartModel.Part:0
+msgid "Returns"
+msgstr ""
+
 #: ../../../../../src/abaqus/Part/PartModel.py:docstring of abaqus.Part.PartModel.PartModel.Part:24
 msgid "A Part object."
+msgstr ""
+
+#: ../../../../../src/abaqus/Part/AcisFile.py:docstring of abaqus.Part.AcisFile.AcisFile.openAcis:0
+#: ../../../../../src/abaqus/Part/AcisFile.py:docstring of abaqus.Part.AcisFile.AcisFile.openCatia:0
+#: ../../../../../src/abaqus/Part/AcisFile.py:docstring of abaqus.Part.AcisFile.AcisFile.openEnf:0
+#: ../../../../../src/abaqus/Part/AcisFile.py:docstring of abaqus.Part.AcisFile.AcisFile.openIges:0
+#: ../../../../../src/abaqus/Part/AcisFile.py:docstring of abaqus.Part.AcisFile.AcisFile.openParasolid:0
+#: ../../../../../src/abaqus/Part/AcisFile.py:docstring of abaqus.Part.AcisFile.AcisFile.openStep:0
+#: ../../../../../src/abaqus/Part/AcisFile.py:docstring of abaqus.Part.AcisFile.AcisFile.openVda:0
+#: ../../../../../src/abaqus/Part/AcisMdb.py:docstring of abaqus.Part.AcisMdb.AcisMdb.openAcis:0
+#: ../../../../../src/abaqus/Part/AcisMdb.py:docstring of abaqus.Part.AcisMdb.AcisMdb.openCatia:0
+#: ../../../../../src/abaqus/Part/AcisMdb.py:docstring of abaqus.Part.AcisMdb.AcisMdb.openEnf:0
+#: ../../../../../src/abaqus/Part/AcisMdb.py:docstring of abaqus.Part.AcisMdb.AcisMdb.openIges:0
+#: ../../../../../src/abaqus/Part/AcisMdb.py:docstring of abaqus.Part.AcisMdb.AcisMdb.openParasolid:0
+#: ../../../../../src/abaqus/Part/AcisMdb.py:docstring of abaqus.Part.AcisMdb.AcisMdb.openStep:0
+#: ../../../../../src/abaqus/Part/AcisMdb.py:docstring of abaqus.Part.AcisMdb.AcisMdb.openVda:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.Part2DGeomFrom2DMesh:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.PartFromBooleanCut:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.PartFromBooleanMerge:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.PartFromExtrude2DMesh:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.PartFromGeometryFile:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.PartFromInstanceMesh:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.PartFromMesh:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.PartFromMeshMirror:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.PartFromNodesAndElements:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.PartFromOdb:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.PartFromSection3DMeshByPlane:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.PartFromSubstructure:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.getAngle:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.getArea:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.getAssociatedCADPaths:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.getCADParameters:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.getCentroid:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.getCoordinates:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.getCurvature:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.getDistance:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.getFeatureCells:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.getFeatureEdges:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.getFeatureFaces:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.getFeatureVertices:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.getLength:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.getMassProperties:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.getPerimeter:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.getVolume:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.isAlignedWithSketch:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.queryAttributes:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.queryGeometry:0
+#: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.queryRegionsMissingSections:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.AddCells:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.AnalyticRigidSurf2DPlanar:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.AnalyticRigidSurfExtrude:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.AnalyticRigidSurfRevolve:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.AssignMidsurfaceRegion:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.AutoRepair:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.BaseShell:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.BaseShellExtrude:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.BaseShellRevolve:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.BaseShellSweep:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.BaseSolidExtrude:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.BaseSolidRevolve:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.BaseSolidSweep:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.BaseWire:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.BlendFaces:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.Chamfer:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.ConvertToAnalytical:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.ConvertToPrecise:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.CoverEdges:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.Cut:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.CutExtrude:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.CutLoft:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.CutRevolve:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.CutSweep:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.ExtendFaces:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.FaceFromElementFaces:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.HoleBlindFromEdges:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.HoleFromEdges:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.HoleThruAllFromEdges:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.MergeEdges:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.Mirror:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.OffsetFaces:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.RemoveCells:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.RemoveFaces:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.RemoveFacesAndStitch:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.RemoveRedundantEntities:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.RepairFaceNormals:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.RepairInvalidEdges:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.RepairSliver:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.RepairSmallEdges:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.RepairSmallFaces:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.ReplaceFaces:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.Round:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.Shell:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.ShellExtrude:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.ShellLoft:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.ShellRevolve:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.ShellSweep:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.SolidExtrude:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.SolidLoft:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.SolidRevolve:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.SolidSweep:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.Stitch:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.Wire:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.WireFromEdge:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.WirePolyLine:0
+#: ../../../../../src/abaqus/Part/PartFeature.py:docstring of abaqus.Part.PartFeature.PartFeature.WireSpline:0
+#: ../../../../../src/abaqus/Part/PartModel.py:docstring of abaqus.Part.PartModel.PartModel.Part:0
+msgid "Return type"
 msgstr ""
 
 #: ../../../../../src/abaqus/Part/PartBase.py:docstring of abaqus.Part.PartBase.PartBase.Part2DGeomFrom2DMesh:39
@@ -4680,22 +4624,6 @@ msgstr ""
 
 #: ../../../../../src/abaqus/Part/AcisMdb.py:docstring of abaqus.Part.AcisMdb.AcisMdb:10
 msgid "Check `AcisMdb on help.3ds.com/2019 <https://help.3ds.com/2019/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-mdbpyc.htm?contextscope=all>`__."
-msgstr ""
-
-#: ../../../../../src/abaqus/Part/AcisMdb.py:docstring of abaqus.Part.AcisMdb.AcisMdb:12
-msgid "This constructor creates an empty Mdb object."
-msgstr ""
-
-#: ../../../../../src/abaqus/Part/AcisMdb.py:docstring of abaqus.Part.AcisMdb.AcisMdb:20
-msgid "A String specifying the path to be used when the model database is saved to a file. If you do not provide a file extension, .cae is appended automatically to the path. The default value is an empty string."
-msgstr ""
-
-#: ../../../../../src/abaqus/Part/AcisMdb.py:docstring of abaqus.Part.AcisMdb.AcisMdb:25
-msgid "A Mdb object"
-msgstr ""
-
-#: ../../../../../src/abaqus/Part/AcisMdb.py:docstring of abaqus.Part.AcisMdb.AcisMdb:26
-msgid ":class:`Mdb`"
 msgstr ""
 
 #: ../../../../../src/abaqus/Part/AcisMdb.py:docstring of abaqus.Part.AcisMdb.AcisMdb.openAcis:10
