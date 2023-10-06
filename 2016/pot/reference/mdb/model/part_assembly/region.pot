@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: abqpy 2016\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-14 01:33+0000\n"
+"POT-Creation-Date: 2023-10-06 02:35+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -155,12 +155,10 @@ msgstr ""
 #: ../../../../../src/abaqus/Region/Set.py:docstring of abaqus.Region.Set.Set.SetFromNodeLabels:9
 #: ../../../../../src/abaqus/Region/Skin.py:docstring of abaqus.Region.Skin.Skin:3
 #: ../../../../../src/abaqus/Region/Skin.py:docstring of abaqus.Region.Skin.Skin:13
-#: ../../../../../src/abaqus/Region/Skin.py:docstring of abaqus.Region.Skin.Skin:19
 #: ../../../../../src/abaqus/Region/Skin.py:docstring of abaqus.Region.Skin.Skin.EditSkin:4
 #: ../../../../../src/abaqus/Region/Skin.py:docstring of abaqus.Region.Skin.Skin.EditSkin:9
 #: ../../../../../src/abaqus/Region/Stringer.py:docstring of abaqus.Region.Stringer.Stringer:3
 #: ../../../../../src/abaqus/Region/Stringer.py:docstring of abaqus.Region.Stringer.Stringer:13
-#: ../../../../../src/abaqus/Region/Stringer.py:docstring of abaqus.Region.Stringer.Stringer:19
 #: ../../../../../src/abaqus/Region/Stringer.py:docstring of abaqus.Region.Stringer.Stringer.EditStringer:4
 #: ../../../../../src/abaqus/Region/Stringer.py:docstring of abaqus.Region.Stringer.Stringer.EditStringer:9
 #: ../../../../../src/abaqus/Region/Surface.py:docstring of abaqus.Region.Surface.Surface:5
@@ -2155,9 +2153,7 @@ msgstr ""
 #: ../../../../../src/abaqus/Region/Set.py:docstring of abaqus.Region.Set.Set.SetFromColor:7
 #: ../../../../../src/abaqus/Region/Set.py:docstring of abaqus.Region.Set.Set.SetFromElementLabels:4
 #: ../../../../../src/abaqus/Region/Set.py:docstring of abaqus.Region.Set.Set.SetFromNodeLabels:4
-#: ../../../../../src/abaqus/Region/Skin.py:docstring of abaqus.Region.Skin.Skin:20
 #: ../../../../../src/abaqus/Region/Skin.py:docstring of abaqus.Region.Skin.Skin.EditSkin:5
-#: ../../../../../src/abaqus/Region/Stringer.py:docstring of abaqus.Region.Stringer.Stringer:20
 #: ../../../../../src/abaqus/Region/Stringer.py:docstring of abaqus.Region.Stringer.Stringer.EditStringer:5
 #: ../../../../../src/abaqus/Region/Surface.py:docstring of abaqus.Region.Surface.Surface.SurfaceByBoolean:4
 #: ../../../../../src/abaqus/Region/Surface.py:docstring of abaqus.Region.Surface.Surface.SurfaceFromElsets:4
@@ -2197,9 +2193,7 @@ msgstr ""
 #: ../../../../../src/abaqus/Region/Set.py:docstring of abaqus.Region.Set.Set.SetFromColor:0
 #: ../../../../../src/abaqus/Region/Set.py:docstring of abaqus.Region.Set.Set.SetFromElementLabels:0
 #: ../../../../../src/abaqus/Region/Set.py:docstring of abaqus.Region.Set.Set.SetFromNodeLabels:0
-#: ../../../../../src/abaqus/Region/Skin.py:docstring of abaqus.Region.Skin.Skin:0
 #: ../../../../../src/abaqus/Region/Skin.py:docstring of abaqus.Region.Skin.Skin.EditSkin:0
-#: ../../../../../src/abaqus/Region/Stringer.py:docstring of abaqus.Region.Stringer.Stringer:0
 #: ../../../../../src/abaqus/Region/Stringer.py:docstring of abaqus.Region.Stringer.Stringer.EditStringer:0
 #: ../../../../../src/abaqus/Region/Surface.py:docstring of abaqus.Region.Surface.Surface.SurfaceByBoolean:0
 #: ../../../../../src/abaqus/Region/Surface.py:docstring of abaqus.Region.Surface.Surface.SurfaceFromElsets:0
@@ -2211,9 +2205,7 @@ msgstr ""
 #: ../../../../../src/abaqus/Region/RegionPart.py:docstring of abaqus.Region.RegionPart.RegionPart.Skin:13
 #: ../../../../../src/abaqus/Region/RegionPart.py:docstring of abaqus.Region.RegionPart.RegionPart.Stringer:13
 #: ../../../../../src/abaqus/Region/RegionPart.py:docstring of abaqus.Region.RegionPart.RegionPart.Surface:16
-#: ../../../../../src/abaqus/Region/Skin.py:docstring of abaqus.Region.Skin.Skin:25
 #: ../../../../../src/abaqus/Region/Skin.py:docstring of abaqus.Region.Skin.Skin.EditSkin:13
-#: ../../../../../src/abaqus/Region/Stringer.py:docstring of abaqus.Region.Stringer.Stringer:25
 #: ../../../../../src/abaqus/Region/Stringer.py:docstring of abaqus.Region.Stringer.Stringer.EditStringer:13
 msgid "A String specifying the repository key. The default value is an empty string."
 msgstr ""
@@ -2225,7 +2217,6 @@ msgstr ""
 
 #: ../../../../../src/abaqus/Region/RegionPart.py:docstring of abaqus.Region.RegionPart.RegionPart.EditSkin:18
 #: ../../../../../src/abaqus/Region/RegionPart.py:docstring of abaqus.Region.RegionPart.RegionPart.Skin:18
-#: ../../../../../src/abaqus/Region/Skin.py:docstring of abaqus.Region.Skin.Skin:30
 #: ../../../../../src/abaqus/Region/Skin.py:docstring of abaqus.Region.Skin.Skin.EditSkin:18
 msgid "A sequence of Edge objects specifying the edges on which skins should be created. Applicable to axisymmetric parts."
 msgstr ""
@@ -2237,7 +2228,6 @@ msgstr ""
 
 #: ../../../../../src/abaqus/Region/RegionPart.py:docstring of abaqus.Region.RegionPart.RegionPart.EditSkin:24
 #: ../../../../../src/abaqus/Region/RegionPart.py:docstring of abaqus.Region.RegionPart.RegionPart.Skin:24
-#: ../../../../../src/abaqus/Region/Skin.py:docstring of abaqus.Region.Skin.Skin:36
 #: ../../../../../src/abaqus/Region/Skin.py:docstring of abaqus.Region.Skin.Skin.EditSkin:24
 msgid "A sequence of MeshEdge objects specifying the mesh edges on which skins should be created. Applicable to axisymmetric parts."
 msgstr ""
@@ -2257,9 +2247,7 @@ msgstr ""
 #: ../../../../../src/abaqus/Region/Set.py:docstring of abaqus.Region.Set.Set.SetFromColor:0
 #: ../../../../../src/abaqus/Region/Set.py:docstring of abaqus.Region.Set.Set.SetFromElementLabels:0
 #: ../../../../../src/abaqus/Region/Set.py:docstring of abaqus.Region.Set.Set.SetFromNodeLabels:0
-#: ../../../../../src/abaqus/Region/Skin.py:docstring of abaqus.Region.Skin.Skin:0
 #: ../../../../../src/abaqus/Region/Skin.py:docstring of abaqus.Region.Skin.Skin.EditSkin:0
-#: ../../../../../src/abaqus/Region/Stringer.py:docstring of abaqus.Region.Stringer.Stringer:0
 #: ../../../../../src/abaqus/Region/Stringer.py:docstring of abaqus.Region.Stringer.Stringer.EditStringer:0
 #: ../../../../../src/abaqus/Region/Surface.py:docstring of abaqus.Region.Surface.Surface.SurfaceByBoolean:0
 #: ../../../../../src/abaqus/Region/Surface.py:docstring of abaqus.Region.Surface.Surface.SurfaceFromElsets:0
@@ -2286,9 +2274,7 @@ msgstr ""
 #: ../../../../../src/abaqus/Region/Set.py:docstring of abaqus.Region.Set.Set.SetFromColor:0
 #: ../../../../../src/abaqus/Region/Set.py:docstring of abaqus.Region.Set.Set.SetFromElementLabels:0
 #: ../../../../../src/abaqus/Region/Set.py:docstring of abaqus.Region.Set.Set.SetFromNodeLabels:0
-#: ../../../../../src/abaqus/Region/Skin.py:docstring of abaqus.Region.Skin.Skin:0
 #: ../../../../../src/abaqus/Region/Skin.py:docstring of abaqus.Region.Skin.Skin.EditSkin:0
-#: ../../../../../src/abaqus/Region/Stringer.py:docstring of abaqus.Region.Stringer.Stringer:0
 #: ../../../../../src/abaqus/Region/Stringer.py:docstring of abaqus.Region.Stringer.Stringer.EditStringer:0
 #: ../../../../../src/abaqus/Region/Surface.py:docstring of abaqus.Region.Surface.Surface.SurfaceByBoolean:0
 #: ../../../../../src/abaqus/Region/Surface.py:docstring of abaqus.Region.Surface.Surface.SurfaceFromElsets:0
@@ -2297,7 +2283,6 @@ msgstr ""
 
 #: ../../../../../src/abaqus/Region/RegionPart.py:docstring of abaqus.Region.RegionPart.RegionPart.EditSkin:28
 #: ../../../../../src/abaqus/Region/RegionPart.py:docstring of abaqus.Region.RegionPart.RegionPart.Skin:28
-#: ../../../../../src/abaqus/Region/Skin.py:docstring of abaqus.Region.Skin.Skin:40
 #: ../../../../../src/abaqus/Region/Skin.py:docstring of abaqus.Region.Skin.Skin.EditSkin:28
 msgid ":class:`Skin`"
 msgstr ""
@@ -2415,7 +2400,6 @@ msgid "A sequence of node labels. A node label is a sequence of Int node identif
 msgstr ""
 
 #: ../../../../../src/abaqus/Region/RegionPart.py:docstring of abaqus.Region.RegionPart.RegionPart.Skin:1
-#: ../../../../../src/abaqus/Region/Skin.py:docstring of abaqus.Region.Skin.Skin:16
 msgid "This method creates a skin from a sequence of objects in a model database. At least one of the optional arguments needs to be specified."
 msgstr ""
 
@@ -2424,7 +2408,6 @@ msgid "Check `Skin on help.3ds.com/2016 <https://help.3ds.com/2016/English/DSSIM
 msgstr ""
 
 #: ../../../../../src/abaqus/Region/RegionPart.py:docstring of abaqus.Region.RegionPart.RegionPart.Stringer:1
-#: ../../../../../src/abaqus/Region/Stringer.py:docstring of abaqus.Region.Stringer.Stringer:16
 msgid "This method creates a stringer from a sequence of objects in a model database. At least one of the optional arguments needs to be specified."
 msgstr ""
 
@@ -2445,7 +2428,6 @@ msgid "**stringer** -- A Stringer object"
 msgstr ""
 
 #: ../../../../../src/abaqus/Region/RegionPart.py:docstring of abaqus.Region.RegionPart.RegionPart.Stringer:22
-#: ../../../../../src/abaqus/Region/Stringer.py:docstring of abaqus.Region.Stringer.Stringer:34
 #: ../../../../../src/abaqus/Region/Stringer.py:docstring of abaqus.Region.Stringer.Stringer.EditStringer:22
 msgid ":class:`Stringer`"
 msgstr ""
@@ -3618,23 +3600,20 @@ msgstr ""
 msgid "Check `Skin on help.3ds.com/2016 <https://help.3ds.com/2016/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-skinpyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: ../../../../../src/abaqus/Region/Skin.py:docstring of abaqus.Region.Skin.Skin:27
+#: ../../../../../src/abaqus/Region/Skin.py:docstring of abaqus.Region.Skin.Skin.EditSkin:10
+msgid "Check `EditSkin on help.3ds.com/2016 <https://help.3ds.com/2016/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-editskinpyc.htm?contextscope=all>`__."
+msgstr ""
+
 #: ../../../../../src/abaqus/Region/Skin.py:docstring of abaqus.Region.Skin.Skin.EditSkin:15
 msgid "A sequence of Face objects specifying the faces on which skins should be created. Applicable to three and two dimensional parts."
 msgstr ""
 
-#: ../../../../../src/abaqus/Region/Skin.py:docstring of abaqus.Region.Skin.Skin:33
 #: ../../../../../src/abaqus/Region/Skin.py:docstring of abaqus.Region.Skin.Skin.EditSkin:21
 msgid "A sequence of MeshFace objects specifying the mesh faces on which skins should be created. Applicable to three and two dimensional parts."
 msgstr ""
 
-#: ../../../../../src/abaqus/Region/Skin.py:docstring of abaqus.Region.Skin.Skin:39
 #: ../../../../../src/abaqus/Region/Skin.py:docstring of abaqus.Region.Skin.Skin.EditSkin:27
 msgid "A Skin object."
-msgstr ""
-
-#: ../../../../../src/abaqus/Region/Skin.py:docstring of abaqus.Region.Skin.Skin.EditSkin:10
-msgid "Check `EditSkin on help.3ds.com/2016 <https://help.3ds.com/2016/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-editskinpyc.htm?contextscope=all>`__."
 msgstr ""
 
 #: ../../../../../src/abaqus/Region/Stringer.py:docstring of abaqus.Region.Stringer.Stringer:1
@@ -3645,25 +3624,22 @@ msgstr ""
 msgid "Check `Stringer on help.3ds.com/2016 <https://help.3ds.com/2016/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-stringerpyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: ../../../../../src/abaqus/Region/Stringer.py:docstring of abaqus.Region.Stringer.Stringer:27
-#: ../../../../../src/abaqus/Region/Stringer.py:docstring of abaqus.Region.Stringer.Stringer.EditStringer:15
-msgid "A sequence of Edge objects specifying the edges on which stringers should be created. Applicable to three and two dimensional parts."
-msgstr ""
-
-#: ../../../../../src/abaqus/Region/Stringer.py:docstring of abaqus.Region.Stringer.Stringer:30
-#: ../../../../../src/abaqus/Region/Stringer.py:docstring of abaqus.Region.Stringer.Stringer.EditStringer:18
-msgid "A sequence of MeshEdge objects specifying the mesh edges on which stringers should be created. Applicable to three and two dimensional parts."
-msgstr ""
-
-#: ../../../../../src/abaqus/Region/Stringer.py:docstring of abaqus.Region.Stringer.Stringer:33
-#: ../../../../../src/abaqus/Region/Stringer.py:docstring of abaqus.Region.Stringer.Stringer.EditStringer:21
-msgid "A Stringer object."
-msgstr ""
-
 #: ../../../../../src/abaqus/Region/Stringer.py:docstring of abaqus.Region.Stringer.Stringer.EditStringer:1
 msgid "This method modifies underlying entities of the selected stringer. At least one of the optional arguments needs to be specified."
 msgstr ""
 
 #: ../../../../../src/abaqus/Region/Stringer.py:docstring of abaqus.Region.Stringer.Stringer.EditStringer:10
 msgid "Check `EditStringer on help.3ds.com/2016 <https://help.3ds.com/2016/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-editstringerpyc.htm?contextscope=all>`__."
+msgstr ""
+
+#: ../../../../../src/abaqus/Region/Stringer.py:docstring of abaqus.Region.Stringer.Stringer.EditStringer:15
+msgid "A sequence of Edge objects specifying the edges on which stringers should be created. Applicable to three and two dimensional parts."
+msgstr ""
+
+#: ../../../../../src/abaqus/Region/Stringer.py:docstring of abaqus.Region.Stringer.Stringer.EditStringer:18
+msgid "A sequence of MeshEdge objects specifying the mesh edges on which stringers should be created. Applicable to three and two dimensional parts."
+msgstr ""
+
+#: ../../../../../src/abaqus/Region/Stringer.py:docstring of abaqus.Region.Stringer.Stringer.EditStringer:21
+msgid "A Stringer object."
 msgstr ""

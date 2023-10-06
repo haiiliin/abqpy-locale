@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: abqpy \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-14 01:33+0000\n"
+"POT-Creation-Date: 2023-10-06 02:35+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.12.1\n"
+"Generated-By: Babel 2.13.0\n"
 
 #: ../../../reference/session/animation.md:1
 msgid "Animation Options"
@@ -66,13 +66,12 @@ msgstr ""
 #: abaqus.Animation.AnimationSession.AnimationSession.writeImageAnimation:5
 #: abaqus.Animation.ImageAnimation.ImageAnimation:3
 #: abaqus.Animation.ImageAnimation.ImageAnimation:9
-#: abaqus.Animation.ImageAnimation.ImageAnimation:14
 #: abaqus.Animation.ImageAnimation.ImageAnimation.writeFrame:3
 #: abaqus.Animation.ImageAnimationOptions.ImageAnimationOptions:5
 #: abaqus.Animation.ImageAnimationOptions.ImageAnimationOptions:11
 #: abaqus.Animation.ImageAnimationOptions.ImageAnimationOptions.setValues:3
 #: abaqus.Animation.Movie.Movie:4 abaqus.Animation.Movie.Movie:10
-#: abaqus.Animation.Movie.Movie:15 abaqus.Animation.Movie.Movie.setValues:3
+#: abaqus.Animation.Movie.Movie.setValues:3
 #: abaqus.Animation.QuickTimeOptions.QuickTimeOptions:5
 #: abaqus.Animation.QuickTimeOptions.QuickTimeOptions:11
 #: abaqus.Animation.QuickTimeOptions.QuickTimeOptions.setValues:3 of
@@ -189,10 +188,9 @@ msgstr ""
 #: abaqus.Animation.AnimationOptions.AnimationOptions.setValues
 #: abaqus.Animation.AnimationSession.AnimationSession.Movie
 #: abaqus.Animation.AnimationSession.AnimationSession.writeImageAnimation
-#: abaqus.Animation.ImageAnimation.ImageAnimation
 #: abaqus.Animation.ImageAnimation.ImageAnimation.writeFrame
 #: abaqus.Animation.ImageAnimationOptions.ImageAnimationOptions.setValues
-#: abaqus.Animation.Movie.Movie abaqus.Animation.Movie.Movie.setValues
+#: abaqus.Animation.Movie.Movie.setValues
 #: abaqus.Animation.QuickTimeOptions.QuickTimeOptions.setValues of
 msgid "Parameters"
 msgstr ""
@@ -285,7 +283,7 @@ msgstr ""
 #: abaqus.Animation.AnimationController.AnimationController.play
 #: abaqus.Animation.AnimationController.AnimationController.setValues
 #: abaqus.Animation.AnimationSession.AnimationSession.Movie
-#: abaqus.Animation.Movie.Movie abaqus.Animation.Movie.Movie.setValues of
+#: abaqus.Animation.Movie.Movie.setValues of
 msgid "Raises"
 msgstr ""
 
@@ -665,16 +663,13 @@ msgid ""
 "animationsessionpyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: abaqus.Animation.AnimationSession.AnimationSession.Movie:1
-#: abaqus.Animation.Movie.Movie:13 of
+#: abaqus.Animation.AnimationSession.AnimationSession.Movie:1 of
 msgid ""
 "This method creates a Movie object from the contents of the specified "
 "file."
 msgstr ""
 
-#: abaqus.Animation.AnimationSession.AnimationSession.Movie:4
-#: abaqus.Animation.ImageAnimation.ImageAnimation:15
-#: abaqus.Animation.Movie.Movie:16 of
+#: abaqus.Animation.AnimationSession.AnimationSession.Movie:4 of
 msgid "This function can be accessed by::"
 msgstr ""
 
@@ -688,13 +683,13 @@ msgstr ""
 
 #: ../../../../docstring
 #: abaqus.Animation.AnimationSession.AnimationSession.Movie:12
-#: abaqus.Animation.Movie.Movie:21 abaqus.Animation.Movie.Movie.name:1 of
+#: abaqus.Animation.Movie.Movie.name:1 of
 msgid "A String specifying the repository name for the movie."
 msgstr ""
 
 #: ../../../../docstring
 #: abaqus.Animation.AnimationSession.AnimationSession.Movie:14
-#: abaqus.Animation.Movie.Movie:23 abaqus.Animation.Movie.Movie.fileName:1 of
+#: abaqus.Animation.Movie.Movie.fileName:1 of
 msgid ""
 "A String specifying the file from which the movie is to be read. The file "
 "extension must be specified and indicates the movie format (.avi, .mov, "
@@ -703,7 +698,7 @@ msgstr ""
 
 #: ../../../../docstring
 #: abaqus.Animation.AnimationSession.AnimationSession.Movie:17
-#: abaqus.Animation.Movie.Movie:26 abaqus.Animation.Movie.Movie.setValues:7
+#: abaqus.Animation.Movie.Movie.setValues:7
 #: abaqus.Animation.Movie.Movie.startFrame:1 of
 msgid ""
 "An Int specifying the first frame to be displayed from this movie. The "
@@ -712,7 +707,7 @@ msgstr ""
 
 #: ../../../../docstring
 #: abaqus.Animation.AnimationSession.AnimationSession.Movie:20
-#: abaqus.Animation.Movie.Movie:29 abaqus.Animation.Movie.Movie.endFrame:1
+#: abaqus.Animation.Movie.Movie.endFrame:1
 #: abaqus.Animation.Movie.Movie.setValues:10 of
 msgid ""
 "An Int specifying the last frame to be displayed from this movie. A "
@@ -722,7 +717,7 @@ msgstr ""
 
 #: ../../../../docstring
 #: abaqus.Animation.AnimationSession.AnimationSession.Movie:23
-#: abaqus.Animation.Movie.Movie:32 abaqus.Animation.Movie.Movie.setValues:13
+#: abaqus.Animation.Movie.Movie.setValues:13
 #: abaqus.Animation.Movie.Movie.timelineStartFrame:1 of
 msgid ""
 "An Int specifying the global timeline frame number that corresponds to "
@@ -732,7 +727,7 @@ msgstr ""
 
 #: ../../../../docstring
 #: abaqus.Animation.AnimationSession.AnimationSession.Movie:27
-#: abaqus.Animation.Movie.Movie:36 abaqus.Animation.Movie.Movie.setValues:17
+#: abaqus.Animation.Movie.Movie.setValues:17
 #: abaqus.Animation.Movie.Movie.timelineEndFrame:1 of
 msgid ""
 "An Int specifying the global timeline frame number that corresponds to "
@@ -743,7 +738,7 @@ msgstr ""
 
 #: ../../../../docstring
 #: abaqus.Animation.AnimationSession.AnimationSession.Movie:31
-#: abaqus.Animation.Movie.Movie:40 abaqus.Animation.Movie.Movie.setValues:21
+#: abaqus.Animation.Movie.Movie.setValues:21
 #: abaqus.Animation.Movie.Movie.timelineStartTime:1 of
 msgid ""
 "A Float specifying the global timeline time that corresponds to the time "
@@ -752,7 +747,7 @@ msgstr ""
 
 #: ../../../../docstring
 #: abaqus.Animation.AnimationSession.AnimationSession.Movie:34
-#: abaqus.Animation.Movie.Movie:43 abaqus.Animation.Movie.Movie.setValues:24
+#: abaqus.Animation.Movie.Movie.setValues:24
 #: abaqus.Animation.Movie.Movie.timelineEndTime:1 of
 msgid ""
 "The SymbolicConstant END_FRAME_TIME or a Float specifying the global "
@@ -761,30 +756,23 @@ msgid ""
 "corresponding to **endFrame**. The default value is END_FRAME_TIME."
 msgstr ""
 
-#: abaqus.Animation.AnimationSession.AnimationSession.Movie
-#: abaqus.Animation.ImageAnimation.ImageAnimation abaqus.Animation.Movie.Movie
-#: of
+#: abaqus.Animation.AnimationSession.AnimationSession.Movie of
 msgid "Returns"
 msgstr ""
 
-#: abaqus.Animation.AnimationSession.AnimationSession.Movie:38
-#: abaqus.Animation.Movie.Movie:47 of
+#: abaqus.Animation.AnimationSession.AnimationSession.Movie:38 of
 msgid "A Movie object."
 msgstr ""
 
-#: abaqus.Animation.AnimationSession.AnimationSession.Movie
-#: abaqus.Animation.ImageAnimation.ImageAnimation abaqus.Animation.Movie.Movie
-#: of
+#: abaqus.Animation.AnimationSession.AnimationSession.Movie of
 msgid "Return type"
 msgstr ""
 
-#: abaqus.Animation.AnimationSession.AnimationSession.Movie:39
-#: abaqus.Animation.Movie.Movie:48 of
+#: abaqus.Animation.AnimationSession.AnimationSession.Movie:39 of
 msgid ":class:`Movie`"
 msgstr ""
 
-#: abaqus.Animation.AnimationSession.AnimationSession.Movie:41
-#: abaqus.Animation.Movie.Movie:50 of
+#: abaqus.Animation.AnimationSession.AnimationSession.Movie:41 of
 msgid ""
 "Unable to open movie file, If **fileName** does not exist or can not be "
 "read."
@@ -796,8 +784,7 @@ msgid ""
 "file format"
 msgstr ""
 
-#: abaqus.Animation.AnimationSession.AnimationSession.Movie:43
-#: abaqus.Animation.Movie.Movie:52 of
+#: abaqus.Animation.AnimationSession.AnimationSession.Movie:43 of
 msgid ""
 "Unable to decode movie file, If the contents of **fileName** are corrupt "
 "or can not be decoded."
@@ -818,8 +805,7 @@ msgid ""
 "animationsessionwriteimageanimationpyc>`__."
 msgstr ""
 
-#: abaqus.Animation.AnimationSession.AnimationSession.writeImageAnimation:9
-#: abaqus.Animation.ImageAnimation.ImageAnimation:20 of
+#: abaqus.Animation.AnimationSession.AnimationSession.writeImageAnimation:9 of
 msgid "A String specifying the name of the animation file to generate."
 msgstr ""
 
@@ -840,12 +826,6 @@ msgid ""
 "The Movie object is used to store values and attributes associated with a "
 "movie file. Upon creation, the Movie object is added to the session.movies"
 " repository."
-msgstr ""
-
-#: abaqus.Animation.Movie.Movie:51 of
-msgid ""
-"Unsupported movie format, If **fileName** references an unsupported movie "
-"file format."
 msgstr ""
 
 #: ../../../../docstring abaqus.Animation.Movie.Movie.duration:1 of
@@ -899,26 +879,6 @@ msgid ""
 "Check `ImageAnimation on help.3ds.com/2016 <https://help.3ds.com/2016/Engl"
 "ish/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "imageanimationpyc.htm?contextscope=all>`__."
-msgstr ""
-
-#: abaqus.Animation.ImageAnimation.ImageAnimation:12 of
-msgid ""
-"This method creates an ImageAnimation object from the specified filename "
-"and format."
-msgstr ""
-
-#: abaqus.Animation.ImageAnimation.ImageAnimation:22 of
-msgid ""
-"A SymbolicConstant specifying the format of the generated file. Possible "
-"values are AVI, QUICKTIME."
-msgstr ""
-
-#: abaqus.Animation.ImageAnimation.ImageAnimation:25 of
-msgid "An ImageAnimation object."
-msgstr ""
-
-#: abaqus.Animation.ImageAnimation.ImageAnimation:26 of
-msgid ":class:`ImageAnimation`"
 msgstr ""
 
 #: abaqus.Animation.ImageAnimation.ImageAnimation.close:1 of

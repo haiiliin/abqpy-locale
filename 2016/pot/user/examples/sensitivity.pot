@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: abqpy 2016\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-15 05:55+0000\n"
+"POT-Creation-Date: 2023-10-06 02:35+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -160,143 +160,143 @@ msgstr ""
 msgid "If you want, you can complete the above steps for creating the model using a function in `skewExampleUtils.py`. In the command line interface area of Abaqus/CAE, type the following commands:"
 msgstr ""
 
-#: ../../../user/examples/sensitivity.md:87
+#: ../../../user/examples/sensitivity.md:88
 msgid "When you execute the function, a new database is created, so you should save your work first."
 msgstr ""
 
-#: ../../../user/examples/sensitivity.md:89
+#: ../../../user/examples/sensitivity.md:90
 msgid "Finally, save the database as `skew.cae`."
 msgstr ""
 
-#: ../../../user/examples/sensitivity.md:91
+#: ../../../user/examples/sensitivity.md:92
 msgid "Changing the skew angle"
 msgstr ""
 
-#: ../../../user/examples/sensitivity.md:93
-#: ../../../user/examples/sensitivity.md:95
+#: ../../../user/examples/sensitivity.md:94
+#: ../../../user/examples/sensitivity.md:96
 msgid "The parameterized script changes the skew angle of the plate and computes the maximum bending moment at the center for two different element types. The script changes the skew angle by modifying an angular dimension and selecting the vertices to move. You need to add the angular dimension and determine the indices of the dimension to modify and the vertices to move."
 msgstr ""
 
-#: ../../../user/examples/sensitivity.md:97
+#: ../../../user/examples/sensitivity.md:98
 msgid "Add the angular dimension"
 msgstr ""
 
-#: ../../../user/examples/sensitivity.md:99
+#: ../../../user/examples/sensitivity.md:100
 msgid "Return to the Part module."
 msgstr ""
 
-#: ../../../user/examples/sensitivity.md:100
+#: ../../../user/examples/sensitivity.md:101
 msgid "From the main menu bar, select **Feature -> Edit** and select the plate to edit."
 msgstr ""
 
-#: ../../../user/examples/sensitivity.md:101
+#: ../../../user/examples/sensitivity.md:102
 msgid "From the **Edit Feature** dialog box, select **Edit Section Sketch**."
 msgstr ""
 
-#: ../../../user/examples/sensitivity.md:102
+#: ../../../user/examples/sensitivity.md:103
 msgid "From the Sketcher toolbox, select the dimension tool and dimension the angle at the lower left corner of the plate as shown in {numref}`cmd-skew-dim`"
 msgstr ""
 
-#: ../../../user/examples/sensitivity.md:110
+#: ../../../user/examples/sensitivity.md:111
 msgid "Dimension the angle at the lower left corner of the plate."
 msgstr ""
 
-#: ../../../user/examples/sensitivity.md:113
+#: ../../../user/examples/sensitivity.md:114
 msgid "Determine the indices of the dimension to modify and the vertices to move"
 msgstr ""
 
-#: ../../../user/examples/sensitivity.md:115
+#: ../../../user/examples/sensitivity.md:116
 msgid "From the Sketcher toolbox, select the edit dimension tool."
 msgstr ""
 
-#: ../../../user/examples/sensitivity.md:116
+#: ../../../user/examples/sensitivity.md:117
 msgid "Select the lower left angular dimension."
 msgstr ""
 
-#: ../../../user/examples/sensitivity.md:117
+#: ../../../user/examples/sensitivity.md:118
 msgid "Enter a dimension of `60`, and click **OK**."
 msgstr ""
 
-#: ../../../user/examples/sensitivity.md:118
+#: ../../../user/examples/sensitivity.md:119
 msgid "Exit the Sketcher tools, and exit the Sketcher."
 msgstr ""
 
-#: ../../../user/examples/sensitivity.md:119
+#: ../../../user/examples/sensitivity.md:120
 msgid "From the **Edit Feature** dialog box, select **OK**."
 msgstr ""
 
-#: ../../../user/examples/sensitivity.md:120
+#: ../../../user/examples/sensitivity.md:121
 msgid "Examine the replay file, `abaqus.rpy`. The last few lines of the replay file will contain the statements that modified the angular dimension. The statement will look similar to the following:"
 msgstr ""
 
-#: ../../../user/examples/sensitivity.md:126
+#: ../../../user/examples/sensitivity.md:127
 msgid "The example script, `skewExample.py`, contains a similar statement that modifies the angular dimension of the plate. The index of the angular dimension in your model must be the same as the index in the example script. If the indices are not the same, you must edit the example script and enter the correct indices."
 msgstr ""
 
-#: ../../../user/examples/sensitivity.md:132
+#: ../../../user/examples/sensitivity.md:133
 msgid "Save the model database, and name it `skew`. Abaqus/CAE saves the model database in a file called `skew.cae`. The example script opens this model database and parameterizes the model it contains."
 msgstr ""
 
-#: ../../../user/examples/sensitivity.md:134
+#: ../../../user/examples/sensitivity.md:135
 msgid "Using a script to perform a parametric study"
 msgstr ""
 
-#: ../../../user/examples/sensitivity.md:136
+#: ../../../user/examples/sensitivity.md:137
 msgid "The following shows the contents of the script skewExample.py. The parametric study does the following:"
 msgstr ""
 
-#: ../../../user/examples/sensitivity.md:138
+#: ../../../user/examples/sensitivity.md:139
 msgid "Opens the model database and creates variables that refer to the part, the assembly, and the part instance stored in `Model-1`."
 msgstr ""
 
-#: ../../../user/examples/sensitivity.md:140
+#: ../../../user/examples/sensitivity.md:141
 msgid "Creates variables that refer to the four faces and the nine vertices in the instance of the planar shell part."
 msgstr ""
 
-#: ../../../user/examples/sensitivity.md:142
+#: ../../../user/examples/sensitivity.md:143
 msgid "Skews the plate by modifying the angular dimension in the sketch of the base feature."
 msgstr ""
 
-#: ../../../user/examples/sensitivity.md:144
+#: ../../../user/examples/sensitivity.md:145
 msgid "Defines the logical corners of the four faces, and generates a structured mesh."
 msgstr ""
 
-#: ../../../user/examples/sensitivity.md:146
+#: ../../../user/examples/sensitivity.md:147
 msgid "Runs the analysis for a range of angles using two element types for each angle."
 msgstr ""
 
-#: ../../../user/examples/sensitivity.md:148
+#: ../../../user/examples/sensitivity.md:149
 msgid "Calculates the maximum moment and displacement at the center of the shell."
 msgstr ""
 
-#: ../../../user/examples/sensitivity.md:150
+#: ../../../user/examples/sensitivity.md:151
 msgid "Displays **X - Y** plots in separate viewports of the following:"
 msgstr ""
 
-#: ../../../user/examples/sensitivity.md:152
+#: ../../../user/examples/sensitivity.md:153
 msgid "Displacement versus skew angle"
 msgstr ""
 
-#: ../../../user/examples/sensitivity.md:153
+#: ../../../user/examples/sensitivity.md:154
 msgid "Maximum bending moment versus skew angle"
 msgstr ""
 
-#: ../../../user/examples/sensitivity.md:154
+#: ../../../user/examples/sensitivity.md:155
 msgid "Minimum bending moment versus skew angle"
 msgstr ""
 
-#: ../../../user/examples/sensitivity.md:156
+#: ../../../user/examples/sensitivity.md:157
 msgid "The theoretical results are also plotted."
 msgstr ""
 
-#: ../../../user/examples/sensitivity.md:285
+#: ../../../user/examples/sensitivity.md:315
 msgid "The script imports two functions from `skewExampleUtils`. The functions do the following:"
 msgstr ""
 
-#: ../../../user/examples/sensitivity.md:287
+#: ../../../user/examples/sensitivity.md:317
 msgid "Retrieve the displacement and calculate the maximum bending moment at the center of the plate."
 msgstr ""
 
-#: ../../../user/examples/sensitivity.md:288
+#: ../../../user/examples/sensitivity.md:318
 msgid "Display curves of theoretical and computed results in a new viewport."
 msgstr ""
