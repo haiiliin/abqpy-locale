@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: abqpy 2022\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-14 01:59+0000\n"
+"POT-Creation-Date: 2023-10-06 02:35+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -73,7 +73,6 @@ msgstr ""
 #: ../../../../../src/abaqus/EditMesh/MeshEditPart.py:docstring of abaqus.EditMesh.MeshEditPart.MeshEditPart.subdivideElement:3
 #: ../../../../../src/abaqus/EditMesh/MeshEditPart.py:docstring of abaqus.EditMesh.MeshEditPart.MeshEditPart.swapMeshEdge:4
 #: ../../../../../src/abaqus/EditMesh/MeshEditPart.py:docstring of abaqus.EditMesh.MeshEditPart.MeshEditPart.wrapMesh:3
-#: ../../../../../src/abaqus/EditMesh/MeshEditPart.py:docstring of abaqus.EditMesh.MeshEditPart.Node:3
 msgid "Note"
 msgstr ""
 
@@ -1432,7 +1431,6 @@ msgstr ""
 #: ../../../../../src/abaqus/EditMesh/MeshEditPart.py:docstring of abaqus.EditMesh.MeshEditPart.MeshEditPart.subdivideElement:0
 #: ../../../../../src/abaqus/EditMesh/MeshEditPart.py:docstring of abaqus.EditMesh.MeshEditPart.MeshEditPart.swapMeshEdge:0
 #: ../../../../../src/abaqus/EditMesh/MeshEditPart.py:docstring of abaqus.EditMesh.MeshEditPart.MeshEditPart.wrapMesh:0
-#: ../../../../../src/abaqus/EditMesh/MeshEditPart.py:docstring of abaqus.EditMesh.MeshEditPart.Node:0
 msgid "Parameters"
 msgstr ""
 
@@ -1520,7 +1518,6 @@ msgstr ""
 
 #: ../../../../../src/abaqus/EditMesh/MeshEditAssembly.py:docstring of abaqus.EditMesh.MeshEditAssembly.MeshEditAssembly.editNode:33
 #: ../../../../../src/abaqus/EditMesh/MeshEditPart.py:docstring of abaqus.EditMesh.MeshEditPart.MeshEditPart.editNode:34
-#: ../../../../../src/abaqus/EditMesh/MeshEditPart.py:docstring of abaqus.EditMesh.MeshEditPart.Node:11
 msgid "A DatumCsys object specifying the local coordinate system. If unspecified, the global coordinate system will be used."
 msgstr ""
 
@@ -3344,36 +3341,4 @@ msgstr ""
 
 #: ../../../../../src/abaqus/EditMesh/MeshEditPart.py:docstring of abaqus.EditMesh.MeshEditPart.Node:1
 msgid "Bases: :py:class:`~abaqus.Mesh.MeshNode.MeshNode`"
-msgstr ""
-
-#: ../../../../../src/abaqus/EditMesh/MeshEditPart.py:docstring of abaqus.EditMesh.MeshEditPart.Node:1
-msgid "This method creates a node on an orphan mesh part."
-msgstr ""
-
-#: ../../../../../src/abaqus/EditMesh/MeshEditPart.py:docstring of abaqus.EditMesh.MeshEditPart.Node:4
-msgid "This function can be accessed by::"
-msgstr ""
-
-#: ../../../../../src/abaqus/EditMesh/MeshEditPart.py:docstring of abaqus.EditMesh.MeshEditPart.Node:9
-msgid "A sequence of three Floats specifying the coordinates of the new node."
-msgstr ""
-
-#: ../../../../../src/abaqus/EditMesh/MeshEditPart.py:docstring of abaqus.EditMesh.MeshEditPart.Node:14
-msgid "An Int specifying the node label."
-msgstr ""
-
-#: ../../../../../src/abaqus/EditMesh/MeshEditPart.py:docstring of abaqus.EditMesh.MeshEditPart.Node:0
-msgid "Returns"
-msgstr ""
-
-#: ../../../../../src/abaqus/EditMesh/MeshEditPart.py:docstring of abaqus.EditMesh.MeshEditPart.Node:16
-msgid "**node** -- A MeshNode object"
-msgstr ""
-
-#: ../../../../../src/abaqus/EditMesh/MeshEditPart.py:docstring of abaqus.EditMesh.MeshEditPart.Node:0
-msgid "Return type"
-msgstr ""
-
-#: ../../../../../src/abaqus/EditMesh/MeshEditPart.py:docstring of abaqus.EditMesh.MeshEditPart.Node:17
-msgid ":class:`MeshNode`"
 msgstr ""

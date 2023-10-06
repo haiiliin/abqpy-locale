@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: abqpy 2022\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-14 01:59+0000\n"
+"POT-Creation-Date: 2023-10-06 02:35+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -117,14 +117,14 @@ msgid "For example, the following statement displays the node sets in the OdbAss
 msgstr ""
 
 #: ../../../user/output/python/read.md:88
-#: ../../../user/output/python/read.md:103
-#: ../../../user/output/python/read.md:256
-#: ../../../user/output/python/read.md:272
-#: ../../../user/output/python/read.md:383
-#: ../../../user/output/python/read.md:400
-#: ../../../user/output/python/read.md:425
-#: ../../../user/output/python/read.md:465
-#: ../../../user/output/python/read.md:711
+#: ../../../user/output/python/read.md:101
+#: ../../../user/output/python/read.md:250
+#: ../../../user/output/python/read.md:266
+#: ../../../user/output/python/read.md:377
+#: ../../../user/output/python/read.md:394
+#: ../../../user/output/python/read.md:419
+#: ../../../user/output/python/read.md:463
+#: ../../../user/output/python/read.md:714
 msgid "The resulting output is"
 msgstr ""
 
@@ -132,344 +132,344 @@ msgstr ""
 msgid "The following statements display the node sets and the element sets in the PART-1-1 part instance:"
 msgstr ""
 
-#: ../../../user/output/python/read.md:111
+#: ../../../user/output/python/read.md:109
 msgid "The following statement assigns a variable (topNodeSet) to the 'TOP' node set in the PART-1-1 part instance:"
 msgstr ""
 
-#: ../../../user/output/python/read.md:118
+#: ../../../user/output/python/read.md:115
 msgid "The type of the object to which topNodeSet refers is OdbSet. After you create a variable that refers to a region, you can use the variable to refer to a subset of field output data, as described in [using regions to read a subset of field output data]."
 msgstr ""
 
-#: ../../../user/output/python/read.md:120
+#: ../../../user/output/python/read.md:117
 msgid "**Materials**"
 msgstr ""
 
-#: ../../../user/output/python/read.md:122
+#: ../../../user/output/python/read.md:119
 msgid "You can read material data from an output database."
 msgstr ""
 
-#: ../../../user/output/python/read.md:124
+#: ../../../user/output/python/read.md:121
 msgid "Materials are stored in the materials repository under the Odb object."
 msgstr ""
 
-#: ../../../user/output/python/read.md:126
+#: ../../../user/output/python/read.md:123
 msgid "Access the materials repository using the command:"
 msgstr ""
 
-#: ../../../user/output/python/read.md:134
+#: ../../../user/output/python/read.md:131
 msgid "To print isotropic elastic material properties in a material object:"
 msgstr ""
 
-#: ../../../user/output/python/read.md:156
+#: ../../../user/output/python/read.md:152
 msgid "Some Material definitions have suboptions. For example, to access the smoothing type used for biaxial test data specified for a hyperelastic material:"
 msgstr ""
 
-#: ../../../user/output/python/read.md:168
+#: ../../../user/output/python/read.md:164
 msgid "{doc}`/reference/mdb/model/material` describes the Material object commands in more detail."
 msgstr ""
 
-#: ../../../user/output/python/read.md:170
+#: ../../../user/output/python/read.md:166
 msgid "**Sections**"
 msgstr ""
 
-#: ../../../user/output/python/read.md:172
+#: ../../../user/output/python/read.md:168
 msgid "You can read section data from an output database."
 msgstr ""
 
-#: ../../../user/output/python/read.md:174
+#: ../../../user/output/python/read.md:170
 msgid "Sections are stored in the sections repository under the Odb object."
 msgstr ""
 
-#: ../../../user/output/python/read.md:176
+#: ../../../user/output/python/read.md:172
 msgid "The following statements display the repository keys of the sections in an output database:"
 msgstr ""
 
-#: ../../../user/output/python/read.md:184
+#: ../../../user/output/python/read.md:180
 msgid "The Section object can be one of the various section types. The type command provides information on the section type. For example, to determine whether a section is of type homogeneous solid section and to print its thickness and associated material name:"
 msgstr ""
 
-#: ../../../user/output/python/read.md:193
+#: ../../../user/output/python/read.md:189
 msgid "Similarily, to access the beam profile repository:"
 msgstr ""
 
-#: ../../../user/output/python/read.md:202
+#: ../../../user/output/python/read.md:197
 msgid "The Profile object can be one of the various profile types. The type command provides information on the profile type. For example, to output the radius of all circular profiles in the odb:"
 msgstr ""
 
-#: ../../../user/output/python/read.md:211
+#: ../../../user/output/python/read.md:205
 msgid "**Section assignments**"
 msgstr ""
 
-#: ../../../user/output/python/read.md:213
+#: ../../../user/output/python/read.md:207
 msgid "Section assignments are stored in the odbSectionAssignmentArray repository under the OdbAssembly object."
 msgstr ""
 
-#: ../../../user/output/python/read.md:215
+#: ../../../user/output/python/read.md:209
 msgid "All elements in an Abaqus analysis need to be associated with section and material properties. Section assignments provide the relationship between elements in a part instance and their section properties. The section properties include the associated material name. To access the sectionAssignments repository from the PartInstance object:"
 msgstr ""
 
-#: ../../../user/output/python/read.md:231
+#: ../../../user/output/python/read.md:225
 msgid "**Analytical rigid surfaces**"
 msgstr ""
 
-#: ../../../user/output/python/read.md:233
+#: ../../../user/output/python/read.md:227
 msgid "Analytical rigid surfaces are defined under a OdbPart object or a OdbInstance object. Each OdbPart or OdbInstance can have only one analytical rigid surface."
 msgstr ""
 
-#: ../../../user/output/python/read.md:235
+#: ../../../user/output/python/read.md:229
 msgid "Rigid bodies"
 msgstr ""
 
-#: ../../../user/output/python/read.md:237
+#: ../../../user/output/python/read.md:231
 msgid "Rigid bodies are stored in the odbRigidBodyArray. The OdbPart object, OdbInstance object, and OdbAssembly object each have an odbRigidBodyArray."
 msgstr ""
 
-#: ../../../user/output/python/read.md:239
+#: ../../../user/output/python/read.md:233
 msgid "Pretension sections"
 msgstr ""
 
-#: ../../../user/output/python/read.md:241
+#: ../../../user/output/python/read.md:235
 msgid "Pretension sections are stored in odbPretensionSectionArray under the OdbAssembly object."
 msgstr ""
 
-#: ../../../user/output/python/read.md:243
+#: ../../../user/output/python/read.md:237
 msgid "Reading results data"
 msgstr ""
 
-#: ../../../user/output/python/read.md:245
+#: ../../../user/output/python/read.md:239
 msgid "The following list describes the objects in results data and the commands you use to read results data. As with model data you will find it useful to use the `keys()` method to determine the keys of the results data repositories."
 msgstr ""
 
-#: ../../../user/output/python/read.md:247
+#: ../../../user/output/python/read.md:241
 msgid "**Steps**"
 msgstr ""
 
-#: ../../../user/output/python/read.md:249
+#: ../../../user/output/python/read.md:243
 msgid "Steps are stored in the steps repository under the Odb object. The key to the steps repository is the name of the step. The following statements print out the keys of each step in the repository:"
 msgstr ""
 
-#: ../../../user/output/python/read.md:264
-#: ../../../user/output/python/read.md:501
+#: ../../../user/output/python/read.md:258
+#: ../../../user/output/python/read.md:499
 msgid "Note"
 msgstr ""
 
-#: ../../../user/output/python/read.md:265
+#: ../../../user/output/python/read.md:259
 msgid "An index of 0 in a sequence refers to the first value in the sequence, and an index of −1 refers to the last value. You can use the following syntax to refer to an individual item in a repository:"
 msgstr ""
 
-#: ../../../user/output/python/read.md:279
+#: ../../../user/output/python/read.md:273
 msgid "**Frames**"
 msgstr ""
 
-#: ../../../user/output/python/read.md:281
+#: ../../../user/output/python/read.md:275
 msgid "Each step contains a sequence of frames, where each increment of the analysis (or each mode in an eigenvalue analysis) that resulted in output to the output database is called a frame. The following statement assigns a variable to the last frame in the first step:"
 msgstr ""
 
-#: ../../../user/output/python/read.md:287
+#: ../../../user/output/python/read.md:281
 msgid "Reading field output data"
 msgstr ""
 
-#: ../../../user/output/python/read.md:289
+#: ../../../user/output/python/read.md:283
 msgid "Field output data are stored in the fieldOutputs repository under the OdbFrame object. The key to the repository is the name of the variable. The following statements list all the variables found in the last frame of the first step (the statements use the variable `lastFrame` that we defined previously):"
 msgstr ""
 
-#: ../../../user/output/python/read.md:306
+#: ../../../user/output/python/read.md:301
 msgid "Different variables can be written to the output database at different frequencies. As a result, not all frames will contain all the field output variables."
 msgstr ""
 
-#: ../../../user/output/python/read.md:308
+#: ../../../user/output/python/read.md:303
 msgid "You can use the following to view all the available field data in a frame:"
 msgstr ""
 
-#: ../../../user/output/python/read.md:325
+#: ../../../user/output/python/read.md:320
 msgid "The resulting print output lists all the field output variables in a particular frame, along with their type and position."
 msgstr ""
 
-#: ../../../user/output/python/read.md:369
+#: ../../../user/output/python/read.md:364
 msgid "In turn, a FieldOutput object has a member **values** that is a sequence of FieldValue objects that contain data. Each data value in the sequence has a particular location in the model. You can query the FieldValue object to determine the location of a data value; for example,"
 msgstr ""
 
-#: ../../../user/output/python/read.md:394
+#: ../../../user/output/python/read.md:388
 msgid "The data in the FieldValue object depend on the field output variable, which is displacement in the above example. The following command lists all the members of a particular FieldValue object:"
 msgstr ""
 
-#: ../../../user/output/python/read.md:411
+#: ../../../user/output/python/read.md:405
 msgid "Where applicable, you can obtain section point information from the FieldValue object."
 msgstr ""
 
-#: ../../../user/output/python/read.md:413
+#: ../../../user/output/python/read.md:407
 msgid "Using regions to read a subset of field output data"
 msgstr ""
 
-#: ../../../user/output/python/read.md:415
+#: ../../../user/output/python/read.md:409
 msgid "After you have created an OdbSet object using model data, you can use the getSubset method to read only the data corresponding to that region. Typically, you will be reading data from a region that refers to a node set or an element set. For example, the following statements create a variable called center that refers to the node set PUNCH at the center of the hemispherical punch. In a previous section you created the displacement variable that refers to the displacement of the entire model in the final frame of the first step. Now you use the getSubset command to get the displacement for only the center region."
 msgstr ""
 
-#: ../../../user/output/python/read.md:431
+#: ../../../user/output/python/read.md:425
 msgid "The arguments to getSubset are a region, an element type, a position, or section point data. The following is a second example that uses an element set to define the region and generates formatted output. For more information on tuples, the `len()` function, and the ``range() `function, see :doc:``/user/python/introduction/python-basics:sequences\\` and {ref}`sequence-operations`."
 msgstr ""
 
-#: ../../../user/output/python/read.md:483
+#: ../../../user/output/python/read.md:481
 msgid "Possible values for the position argument to the `getSubset` command are:"
 msgstr ""
 
-#: ../../../user/output/python/read.md:485
+#: ../../../user/output/python/read.md:483
 msgid "INTEGRATION_POINT"
 msgstr ""
 
-#: ../../../user/output/python/read.md:486
+#: ../../../user/output/python/read.md:484
 msgid "NODAL"
 msgstr ""
 
-#: ../../../user/output/python/read.md:487
+#: ../../../user/output/python/read.md:485
 msgid "ELEMENT_NODAL"
 msgstr ""
 
-#: ../../../user/output/python/read.md:488
+#: ../../../user/output/python/read.md:486
 msgid "CENTROID"
 msgstr ""
 
-#: ../../../user/output/python/read.md:490
+#: ../../../user/output/python/read.md:488
 msgid "If the requested field values are not found in the output database at the specified ELEMENT_NODAL or CENTROID positions, they are extrapolated from the field data at the INTEGRATION_POINT position."
 msgstr ""
 
-#: ../../../user/output/python/read.md:492
+#: ../../../user/output/python/read.md:490
 msgid "Reading history output data"
 msgstr ""
 
-#: ../../../user/output/python/read.md:494
+#: ../../../user/output/python/read.md:492
 msgid "History output is output defined for a single point or for values calculated for a portion of the model as a whole, such as energy. Depending on the type of output expected, the historyRegions repository contains data from one of the following:"
 msgstr ""
 
-#: ../../../user/output/python/read.md:496
+#: ../../../user/output/python/read.md:494
 msgid "a node"
 msgstr ""
 
-#: ../../../user/output/python/read.md:497
+#: ../../../user/output/python/read.md:495
 msgid "an integration point"
 msgstr ""
 
-#: ../../../user/output/python/read.md:498
+#: ../../../user/output/python/read.md:496
 msgid "a region"
 msgstr ""
 
-#: ../../../user/output/python/read.md:499
+#: ../../../user/output/python/read.md:497
 msgid "a material point"
 msgstr ""
 
-#: ../../../user/output/python/read.md:502
+#: ../../../user/output/python/read.md:500
 msgid "History data from an analysis cannot contain multiple points."
 msgstr ""
 
-#: ../../../user/output/python/read.md:505
+#: ../../../user/output/python/read.md:503
 msgid "The history data object model is shown in {numref}`odb-history-nls`"
 msgstr ""
 
-#: ../../../user/output/python/read.md:513
+#: ../../../user/output/python/read.md:511
 msgid "The history data object model."
 msgstr ""
 
-#: ../../../user/output/python/read.md:516
+#: ../../../user/output/python/read.md:514
 msgid "In contrast to field output, which is associated with a frame, history output is associated with a step. History output data are stored in the historyRegions repository under an OdbStep object. Abaqus creates keys to the historyRegions repository that describe the region; for example,"
 msgstr ""
 
-#: ../../../user/output/python/read.md:518
-#: ../../../user/output/python/read.md:540
+#: ../../../user/output/python/read.md:516
+#: ../../../user/output/python/read.md:538
 msgid "`'Node PART-1-1.1000'`"
 msgstr ""
 
-#: ../../../user/output/python/read.md:519
+#: ../../../user/output/python/read.md:517
 msgid "`'Element PART-1-1.2 Int Point 1'`"
 msgstr ""
 
-#: ../../../user/output/python/read.md:520
+#: ../../../user/output/python/read.md:518
 msgid "`'Assembly ASSEMBLY'`"
 msgstr ""
 
-#: ../../../user/output/python/read.md:522
+#: ../../../user/output/python/read.md:520
 msgid "The output from all history requests that relate to a specified point is collected in one HistoryRegion object. A HistoryRegion object contains multiple HistoryOutput objects. Each HistoryOutput object, in turn, contains a sequence of (**frameValue**, **value**) sequences. In a time domain analysis (**domain** = TIME) the sequence is a tuple of (**stepTime**, **value**). In a frequency domain analysis (**domain** = FREQUENCY) the sequence is a tuple of (**frequency**, **value**). In a modal domain analysis (**domain** = MODAL) the sequence is a tuple of (**mode**, **value**)."
 msgstr ""
 
-#: ../../../user/output/python/read.md:524
+#: ../../../user/output/python/read.md:522
 msgid "In the analysis that generated the Abaqus/CAE Visualization module tutorial output database, the user asked for the following history output:"
 msgstr ""
 
-#: ../../../user/output/python/read.md:526
+#: ../../../user/output/python/read.md:524
 msgid "**At the rigid body reference point (Node 1000)**"
 msgstr ""
 
-#: ../../../user/output/python/read.md:528
+#: ../../../user/output/python/read.md:526
 msgid "U"
 msgstr ""
 
-#: ../../../user/output/python/read.md:529
+#: ../../../user/output/python/read.md:527
 msgid "V"
 msgstr ""
 
-#: ../../../user/output/python/read.md:530
+#: ../../../user/output/python/read.md:528
 msgid "A"
 msgstr ""
 
-#: ../../../user/output/python/read.md:532
+#: ../../../user/output/python/read.md:530
 msgid "**At the corner element**"
 msgstr ""
 
-#: ../../../user/output/python/read.md:534
+#: ../../../user/output/python/read.md:532
 msgid "MISES"
 msgstr ""
 
-#: ../../../user/output/python/read.md:535
+#: ../../../user/output/python/read.md:533
 msgid "LE22"
 msgstr ""
 
-#: ../../../user/output/python/read.md:536
+#: ../../../user/output/python/read.md:534
 msgid "S22"
 msgstr ""
 
-#: ../../../user/output/python/read.md:538
+#: ../../../user/output/python/read.md:536
 msgid "The history output data can be retrieved from the HistoryRegion objects in the output database. The tutorial output database contains HistoryRegion objects that relate to the rigid body reference point and the integration points of the corner element as follows:"
 msgstr ""
 
-#: ../../../user/output/python/read.md:541
+#: ../../../user/output/python/read.md:539
 msgid "`'Element PART-1-1.1 Int Point 1'`"
 msgstr ""
 
-#: ../../../user/output/python/read.md:542
+#: ../../../user/output/python/read.md:540
 msgid "`'Element PART-1-1.1 Int Point 2'`"
 msgstr ""
 
-#: ../../../user/output/python/read.md:543
+#: ../../../user/output/python/read.md:541
 msgid "`'Element PART-1-1.1 Int Point 3'`"
 msgstr ""
 
-#: ../../../user/output/python/read.md:544
+#: ../../../user/output/python/read.md:542
 msgid "`'Element PART-1-1.1 Int Point 4'`"
 msgstr ""
 
-#: ../../../user/output/python/read.md:546
+#: ../../../user/output/python/read.md:544
 msgid "The following statements read the tutorial output database and write the U2 history data from the second step to an ASCII file that can be plotted by Abaqus/CAE:"
 msgstr ""
 
-#: ../../../user/output/python/read.md:561
+#: ../../../user/output/python/read.md:559
 msgid "The output in this example is a sequence of tuples containing the frame time and the displacement value. The example uses nodal history data output. If the analysis requested history output from an element, the output database would contain one HistoryRegion object and one HistoryPoint object for each integration point."
 msgstr ""
 
-#: ../../../user/output/python/read.md:563
+#: ../../../user/output/python/read.md:561
 msgid "An example of reading node and element information from an output database"
 msgstr ""
 
-#: ../../../user/output/python/read.md:565
+#: ../../../user/output/python/read.md:563
 msgid "The following script illustrates how you can open the output database used by the Abaqus/CAE Visualization module tutorial output database and print out some nodal and element information. Use the following commands to retrieve the example script and the tutorial output database:"
 msgstr ""
 
-#: ../../../user/output/python/read.md:659
+#: ../../../user/output/python/read.md:662
 msgid "An example of reading field data from an output database"
 msgstr ""
 
-#: ../../../user/output/python/read.md:661
+#: ../../../user/output/python/read.md:664
 msgid "The following script combines many of the commands you have already seen and illustrates how you read model data and field output data from the output database used by the Abaqus/CAE Visualization module tutorial. Use the following commands to retrieve the example script and the tutorial output database: .. code-block:: sh"
 msgstr ""
 
-#: ../../../user/output/python/read.md:664
+#: ../../../user/output/python/read.md:667
 msgid "abaqus fetch job=odbRead abaqus fetch job=viewer_tutorial"
 msgstr ""

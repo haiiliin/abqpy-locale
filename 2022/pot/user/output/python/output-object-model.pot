@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: abqpy 2022\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-14 01:59+0000\n"
+"POT-Creation-Date: 2023-10-06 02:35+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -176,78 +176,78 @@ msgstr ""
 msgid "You can use the `prettyPrint` method to display a text representation of an output database and to view the structure of the model data in the object model. For example, the following shows the output from `prettyPrint` applied to the output database created by the Abaqus/CAE cantilever beam tutorial:"
 msgstr ""
 
-#: ../../../user/output/python/output-object-model.md:151
+#: ../../../user/output/python/output-object-model.md:172
 msgid "For more information, see {func}`~abaqus.TextRepresentation.TextRepr.prettyprint`."
 msgstr ""
 
-#: ../../../user/output/python/output-object-model.md:153
+#: ../../../user/output/python/output-object-model.md:174
 msgid "Results data"
 msgstr ""
 
-#: ../../../user/output/python/output-object-model.md:155
+#: ../../../user/output/python/output-object-model.md:176
 msgid "Results data describe the results of your analysis. Abaqus organizes the analysis results in an output database into the following components:"
 msgstr ""
 
-#: ../../../user/output/python/output-object-model.md:157
+#: ../../../user/output/python/output-object-model.md:178
 msgid "**Steps**"
 msgstr ""
 
-#: ../../../user/output/python/output-object-model.md:159
+#: ../../../user/output/python/output-object-model.md:180
 msgid "An Abaqus analysis contains a sequence of one or more analysis steps. Each step is associated with an analysis procedure."
 msgstr ""
 
-#: ../../../user/output/python/output-object-model.md:161
+#: ../../../user/output/python/output-object-model.md:182
 msgid "**Frames**"
 msgstr ""
 
-#: ../../../user/output/python/output-object-model.md:163
+#: ../../../user/output/python/output-object-model.md:184
 msgid "Each step contains a sequence of frames, where each increment of the analysis that resulted in output to the output database is called a frame. In a frequency or buckling analysis each eigenmode is stored as a separate frame. Similarly, in a steady-state harmonic response analysis each frequency is stored as a separate frame."
 msgstr ""
 
-#: ../../../user/output/python/output-object-model.md:165
+#: ../../../user/output/python/output-object-model.md:186
 msgid "**Field output**"
 msgstr ""
 
-#: ../../../user/output/python/output-object-model.md:167
+#: ../../../user/output/python/output-object-model.md:188
 msgid "Field output is intended for infrequent requests for a large portion of the model and can be used to generate contour plots, animations, symbol plots, and displaced shape plots in the Visualization module of Abaqus/CAE. You can also use field output to generate an **X - Y** data plot. Only complete sets of basic variables (for example, all the stress or strain components) can be requested as field output. Field output is composed of a cloud of data values (e.g., stress tensors at each integration point for all elements). Each data value has a location, type, and value. You use the regions defined in the model data, such as an element set, to access subsets of the field output data. {numref}`odb-field-nls` shows the field output data object model within an output database."
 msgstr ""
 
-#: ../../../user/output/python/output-object-model.md:175
+#: ../../../user/output/python/output-object-model.md:196
 msgid "The field output data object model."
 msgstr ""
 
-#: ../../../user/output/python/output-object-model.md:178
+#: ../../../user/output/python/output-object-model.md:199
 msgid "**History output**"
 msgstr ""
 
-#: ../../../user/output/python/output-object-model.md:180
+#: ../../../user/output/python/output-object-model.md:201
 msgid "History output is output defined for a single point or for values calculated for a portion of the model as a whole, such as energy. History output is intended for relatively frequent output requests for small portions of the model and can be displayed in the form of **X - Y** data plots in the Visualization module of Abaqus/CAE. Individual variables (such as a particular stress component) can be requested."
 msgstr ""
 
-#: ../../../user/output/python/output-object-model.md:182
+#: ../../../user/output/python/output-object-model.md:203
 msgid "Depending on the type of output expected, a HistoryRegion object can be defined for one of the following:"
 msgstr ""
 
-#: ../../../user/output/python/output-object-model.md:184
+#: ../../../user/output/python/output-object-model.md:205
 msgid "a node"
 msgstr ""
 
-#: ../../../user/output/python/output-object-model.md:185
+#: ../../../user/output/python/output-object-model.md:206
 msgid "an integration point"
 msgstr ""
 
-#: ../../../user/output/python/output-object-model.md:186
+#: ../../../user/output/python/output-object-model.md:207
 msgid "a region"
 msgstr ""
 
-#: ../../../user/output/python/output-object-model.md:187
+#: ../../../user/output/python/output-object-model.md:208
 msgid "the whole model"
 msgstr ""
 
-#: ../../../user/output/python/output-object-model.md:189
+#: ../../../user/output/python/output-object-model.md:210
 msgid "The output from all history requests that relate to a particular point or region is then collected in one HistoryRegion object. {numref}`odb-history-nls` shows the history output data object model within an output database."
 msgstr ""
 
-#: ../../../user/output/python/output-object-model.md:197
+#: ../../../user/output/python/output-object-model.md:218
 msgid "The history output data."
 msgstr ""

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: abqpy 2022\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-14 01:59+0000\n"
+"POT-Creation-Date: 2023-10-06 02:35+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: zh_CN\n"
@@ -17,7 +17,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.12.1\n"
+"Generated-By: Babel 2.13.0\n"
 
 #: ../../../reference/mdb/model/part_assembly/part.md:1
 msgid "Part"
@@ -64,8 +64,7 @@ msgstr ""
 #: abaqus.Part.AcisFile.AcisFile.openVda:4
 #: abaqus.Part.AcisFile.AcisFile.openVda:9
 #: abaqus.Part.AcisFile.AcisFile.writeAcisFile:3 abaqus.Part.AcisMdb.AcisMdb:4
-#: abaqus.Part.AcisMdb.AcisMdb:9 abaqus.Part.AcisMdb.AcisMdb:14
-#: abaqus.Part.AcisMdb.AcisMdb.openAcis:4
+#: abaqus.Part.AcisMdb.AcisMdb:9 abaqus.Part.AcisMdb.AcisMdb.openAcis:4
 #: abaqus.Part.AcisMdb.AcisMdb.openAcis:9
 #: abaqus.Part.AcisMdb.AcisMdb.openCatia:4
 #: abaqus.Part.AcisMdb.AcisMdb.openCatia:9
@@ -249,7 +248,7 @@ msgstr ""
 #: abaqus.Part.PartFeature.PartFeature.WireSpline:4
 #: abaqus.Part.PartFeature.PartFeature.WireSpline:9
 #: abaqus.Part.PartModel.PartModel:3 abaqus.Part.PartModel.PartModel:8
-#: abaqus.Part.PartModel.PartModel:13 abaqus.Part.PartModel.PartModel.Part:3
+#: abaqus.Part.PartModel.PartModel.Part:3
 #: abaqus.Part.PartModel.PartModel.Part:8 of
 msgid "Note"
 msgstr ""
@@ -267,209 +266,12 @@ msgid ""
 "modelpyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: ../../../../None:7:<autosummary>:1 abaqus.Part.PartModel.PartModel:11 of
-msgid "This method creates a Model object."
+#: abaqus.Part.PartBase.PartBase abaqus.Part.PartModel.PartModel of
+msgid "Public Data Attributes:"
 msgstr ""
 
-#: abaqus.Part.AcisFile.AcisFile.openAcis:5
-#: abaqus.Part.AcisFile.AcisFile.openCatia:5
-#: abaqus.Part.AcisFile.AcisFile.openEnf:6
-#: abaqus.Part.AcisFile.AcisFile.openIges:5
-#: abaqus.Part.AcisFile.AcisFile.openParasolid:5
-#: abaqus.Part.AcisFile.AcisFile.openSolidworks:5
-#: abaqus.Part.AcisFile.AcisFile.openStep:5
-#: abaqus.Part.AcisFile.AcisFile.openVda:5 abaqus.Part.AcisMdb.AcisMdb:15
-#: abaqus.Part.AcisMdb.AcisMdb.openAcis:5
-#: abaqus.Part.AcisMdb.AcisMdb.openCatia:5
-#: abaqus.Part.AcisMdb.AcisMdb.openEnf:6 abaqus.Part.AcisMdb.AcisMdb.openIges:5
-#: abaqus.Part.AcisMdb.AcisMdb.openParasolid:5
-#: abaqus.Part.AcisMdb.AcisMdb.openSolidworks:5
-#: abaqus.Part.AcisMdb.AcisMdb.openStep:5 abaqus.Part.AcisMdb.AcisMdb.openVda:5
-#: abaqus.Part.PartBase.PartBase.Part2DGeomFrom2DMesh:7
-#: abaqus.Part.PartBase.PartBase.PartFromBooleanCut:5
-#: abaqus.Part.PartBase.PartBase.PartFromBooleanMerge:6
-#: abaqus.Part.PartBase.PartBase.PartFromExtrude2DMesh:5
-#: abaqus.Part.PartBase.PartBase.PartFromGeometryFile:4
-#: abaqus.Part.PartBase.PartBase.PartFromInstanceMesh:5
-#: abaqus.Part.PartBase.PartBase.PartFromMesh:5
-#: abaqus.Part.PartBase.PartBase.PartFromMeshMirror:8
-#: abaqus.Part.PartBase.PartBase.PartFromNodesAndElements:4
-#: abaqus.Part.PartBase.PartBase.PartFromOdb:5
-#: abaqus.Part.PartBase.PartBase.PartFromSection3DMeshByPlane:6
-#: abaqus.Part.PartBase.PartBase.PartFromSubstructure:5
-#: abaqus.Part.PartFeature.PartFeature.AddCells:5
-#: abaqus.Part.PartFeature.PartFeature.AnalyticRigidSurf2DPlanar:5
-#: abaqus.Part.PartFeature.PartFeature.AnalyticRigidSurfExtrude:5
-#: abaqus.Part.PartFeature.PartFeature.AnalyticRigidSurfRevolve:5
-#: abaqus.Part.PartFeature.PartFeature.AssignMidsurfaceRegion:6
-#: abaqus.Part.PartFeature.PartFeature.AutoRepair:8
-#: abaqus.Part.PartFeature.PartFeature.BaseShell:5
-#: abaqus.Part.PartFeature.PartFeature.BaseShellExtrude:5
-#: abaqus.Part.PartFeature.PartFeature.BaseShellRevolve:6
-#: abaqus.Part.PartFeature.PartFeature.BaseShellSweep:8
-#: abaqus.Part.PartFeature.PartFeature.BaseSolidExtrude:5
-#: abaqus.Part.PartFeature.PartFeature.BaseSolidRevolve:6
-#: abaqus.Part.PartFeature.PartFeature.BaseSolidSweep:8
-#: abaqus.Part.PartFeature.PartFeature.BaseWire:5
-#: abaqus.Part.PartFeature.PartFeature.BlendFaces:4
-#: abaqus.Part.PartFeature.PartFeature.Chamfer:5
-#: abaqus.Part.PartFeature.PartFeature.ConvertToAnalytical:5
-#: abaqus.Part.PartFeature.PartFeature.ConvertToPrecise:4
-#: abaqus.Part.PartFeature.PartFeature.CoverEdges:6
-#: abaqus.Part.PartFeature.PartFeature.Cut:5
-#: abaqus.Part.PartFeature.PartFeature.CutExtrude:8
-#: abaqus.Part.PartFeature.PartFeature.CutLoft:6
-#: abaqus.Part.PartFeature.PartFeature.CutRevolve:6
-#: abaqus.Part.PartFeature.PartFeature.CutSweep:8
-#: abaqus.Part.PartFeature.PartFeature.ExtendFaces:6
-#: abaqus.Part.PartFeature.PartFeature.FaceFromElementFaces:4
-#: abaqus.Part.PartFeature.PartFeature.HoleBlindFromEdges:6
-#: abaqus.Part.PartFeature.PartFeature.HoleFromEdges:6
-#: abaqus.Part.PartFeature.PartFeature.HoleThruAllFromEdges:6
-#: abaqus.Part.PartFeature.PartFeature.MergeEdges:4
-#: abaqus.Part.PartFeature.PartFeature.Mirror:4
-#: abaqus.Part.PartFeature.PartFeature.OffsetFaces:4
-#: abaqus.Part.PartFeature.PartFeature.RemoveCells:4
-#: abaqus.Part.PartFeature.PartFeature.RemoveFaces:4
-#: abaqus.Part.PartFeature.PartFeature.RemoveFacesAndStitch:5
-#: abaqus.Part.PartFeature.PartFeature.RemoveRedundantEntities:5
-#: abaqus.Part.PartFeature.PartFeature.RepairFaceNormals:7
-#: abaqus.Part.PartFeature.PartFeature.RepairInvalidEdges:5
-#: abaqus.Part.PartFeature.PartFeature.RepairSliver:6
-#: abaqus.Part.PartFeature.PartFeature.RepairSmallEdges:6
-#: abaqus.Part.PartFeature.PartFeature.RepairSmallFaces:6
-#: abaqus.Part.PartFeature.PartFeature.ReplaceFaces:5
-#: abaqus.Part.PartFeature.PartFeature.Round:5
-#: abaqus.Part.PartFeature.PartFeature.Shell:5
-#: abaqus.Part.PartFeature.PartFeature.ShellExtrude:6
-#: abaqus.Part.PartFeature.PartFeature.ShellLoft:6
-#: abaqus.Part.PartFeature.PartFeature.ShellRevolve:7
-#: abaqus.Part.PartFeature.PartFeature.ShellSweep:8
-#: abaqus.Part.PartFeature.PartFeature.SolidExtrude:5
-#: abaqus.Part.PartFeature.PartFeature.SolidLoft:5
-#: abaqus.Part.PartFeature.PartFeature.SolidRevolve:6
-#: abaqus.Part.PartFeature.PartFeature.SolidSweep:8
-#: abaqus.Part.PartFeature.PartFeature.Stitch:6
-#: abaqus.Part.PartFeature.PartFeature.Wire:5
-#: abaqus.Part.PartFeature.PartFeature.WireFromEdge:5
-#: abaqus.Part.PartFeature.PartFeature.WirePolyLine:5
-#: abaqus.Part.PartFeature.PartFeature.WireSpline:5
-#: abaqus.Part.PartModel.PartModel:14 abaqus.Part.PartModel.PartModel.Part:4 of
-msgid "This function can be accessed by::"
-msgstr ""
-
-#: abaqus.Part.AcisFile.AcisFile.openAcis
-#: abaqus.Part.AcisFile.AcisFile.openCatia
-#: abaqus.Part.AcisFile.AcisFile.openEnf abaqus.Part.AcisFile.AcisFile.openIges
-#: abaqus.Part.AcisFile.AcisFile.openParasolid
-#: abaqus.Part.AcisFile.AcisFile.openSolidworks
-#: abaqus.Part.AcisFile.AcisFile.openStep abaqus.Part.AcisFile.AcisFile.openVda
-#: abaqus.Part.AcisFile.AcisFile.writeAcisFile abaqus.Part.AcisMdb.AcisMdb
-#: abaqus.Part.AcisMdb.AcisMdb.openAcis abaqus.Part.AcisMdb.AcisMdb.openCatia
-#: abaqus.Part.AcisMdb.AcisMdb.openEnf abaqus.Part.AcisMdb.AcisMdb.openIges
-#: abaqus.Part.AcisMdb.AcisMdb.openParasolid
-#: abaqus.Part.AcisMdb.AcisMdb.openSolidworks
-#: abaqus.Part.AcisMdb.AcisMdb.openStep abaqus.Part.AcisMdb.AcisMdb.openVda
-#: abaqus.Part.PartBase.PartBase.Part2DGeomFrom2DMesh
-#: abaqus.Part.PartBase.PartBase.PartFromBooleanCut
-#: abaqus.Part.PartBase.PartBase.PartFromBooleanMerge
-#: abaqus.Part.PartBase.PartBase.PartFromExtrude2DMesh
-#: abaqus.Part.PartBase.PartBase.PartFromGeometryFile
-#: abaqus.Part.PartBase.PartBase.PartFromInstanceMesh
-#: abaqus.Part.PartBase.PartBase.PartFromMesh
-#: abaqus.Part.PartBase.PartBase.PartFromMeshMirror
-#: abaqus.Part.PartBase.PartBase.PartFromNodesAndElements
-#: abaqus.Part.PartBase.PartBase.PartFromOdb
-#: abaqus.Part.PartBase.PartBase.PartFromSection3DMeshByPlane
-#: abaqus.Part.PartBase.PartBase.PartFromSubstructure
-#: abaqus.Part.PartBase.PartBase.addGeomToSketch
-#: abaqus.Part.PartBase.PartBase.assignThickness
-#: abaqus.Part.PartBase.PartBase.checkGeometry
-#: abaqus.Part.PartBase.PartBase.copyMeshPattern
-#: abaqus.Part.PartBase.PartBase.deleteFeatures
-#: abaqus.Part.PartBase.PartBase.getAngle abaqus.Part.PartBase.PartBase.getArea
-#: abaqus.Part.PartBase.PartBase.getCentroid
-#: abaqus.Part.PartBase.PartBase.getCoordinates
-#: abaqus.Part.PartBase.PartBase.getCurvature
-#: abaqus.Part.PartBase.PartBase.getDistance
-#: abaqus.Part.PartBase.PartBase.getFeatureCells
-#: abaqus.Part.PartBase.PartBase.getFeatureEdges
-#: abaqus.Part.PartBase.PartBase.getFeatureFaces
-#: abaqus.Part.PartBase.PartBase.getFeatureVertices
-#: abaqus.Part.PartBase.PartBase.getLength
-#: abaqus.Part.PartBase.PartBase.getMassProperties
-#: abaqus.Part.PartBase.PartBase.getPerimeter
-#: abaqus.Part.PartBase.PartBase.getVolume
-#: abaqus.Part.PartBase.PartBase.projectEdgesOntoSketch
-#: abaqus.Part.PartBase.PartBase.projectReferencesOntoSketch
-#: abaqus.Part.PartBase.PartBase.queryAttributes
-#: abaqus.Part.PartBase.PartBase.queryGeometry
-#: abaqus.Part.PartBase.PartBase.resumeFeatures
-#: abaqus.Part.PartBase.PartBase.setAssociatedCADPaths
-#: abaqus.Part.PartBase.PartBase.smoothNodes
-#: abaqus.Part.PartBase.PartBase.suppressFeatures
-#: abaqus.Part.PartBase.PartBase.writeAcisFile
-#: abaqus.Part.PartBase.PartBase.writeCADParameters
-#: abaqus.Part.PartBase.PartBase.writeIgesFile
-#: abaqus.Part.PartBase.PartBase.writeStepFile
-#: abaqus.Part.PartBase.PartBase.writeVdaFile
-#: abaqus.Part.PartFeature.PartFeature.AddCells
-#: abaqus.Part.PartFeature.PartFeature.AnalyticRigidSurf2DPlanar
-#: abaqus.Part.PartFeature.PartFeature.AnalyticRigidSurfExtrude
-#: abaqus.Part.PartFeature.PartFeature.AnalyticRigidSurfRevolve
-#: abaqus.Part.PartFeature.PartFeature.AssignMidsurfaceRegion
-#: abaqus.Part.PartFeature.PartFeature.BaseShell
-#: abaqus.Part.PartFeature.PartFeature.BaseShellExtrude
-#: abaqus.Part.PartFeature.PartFeature.BaseShellRevolve
-#: abaqus.Part.PartFeature.PartFeature.BaseShellSweep
-#: abaqus.Part.PartFeature.PartFeature.BaseSolidExtrude
-#: abaqus.Part.PartFeature.PartFeature.BaseSolidRevolve
-#: abaqus.Part.PartFeature.PartFeature.BaseSolidSweep
-#: abaqus.Part.PartFeature.PartFeature.BaseWire
-#: abaqus.Part.PartFeature.PartFeature.BlendFaces
-#: abaqus.Part.PartFeature.PartFeature.Chamfer
-#: abaqus.Part.PartFeature.PartFeature.ConvertToPrecise
-#: abaqus.Part.PartFeature.PartFeature.CoverEdges
-#: abaqus.Part.PartFeature.PartFeature.Cut
-#: abaqus.Part.PartFeature.PartFeature.CutExtrude
-#: abaqus.Part.PartFeature.PartFeature.CutLoft
-#: abaqus.Part.PartFeature.PartFeature.CutRevolve
-#: abaqus.Part.PartFeature.PartFeature.CutSweep
-#: abaqus.Part.PartFeature.PartFeature.ExtendFaces
-#: abaqus.Part.PartFeature.PartFeature.FaceFromElementFaces
-#: abaqus.Part.PartFeature.PartFeature.HoleBlindFromEdges
-#: abaqus.Part.PartFeature.PartFeature.HoleFromEdges
-#: abaqus.Part.PartFeature.PartFeature.HoleThruAllFromEdges
-#: abaqus.Part.PartFeature.PartFeature.MergeEdges
-#: abaqus.Part.PartFeature.PartFeature.Mirror
-#: abaqus.Part.PartFeature.PartFeature.OffsetFaces
-#: abaqus.Part.PartFeature.PartFeature.RemoveCells
-#: abaqus.Part.PartFeature.PartFeature.RemoveFaces
-#: abaqus.Part.PartFeature.PartFeature.RemoveFacesAndStitch
-#: abaqus.Part.PartFeature.PartFeature.RemoveRedundantEntities
-#: abaqus.Part.PartFeature.PartFeature.RepairFaceNormals
-#: abaqus.Part.PartFeature.PartFeature.RepairInvalidEdges
-#: abaqus.Part.PartFeature.PartFeature.RepairSliver
-#: abaqus.Part.PartFeature.PartFeature.RepairSmallEdges
-#: abaqus.Part.PartFeature.PartFeature.RepairSmallFaces
-#: abaqus.Part.PartFeature.PartFeature.ReplaceFaces
-#: abaqus.Part.PartFeature.PartFeature.Round
-#: abaqus.Part.PartFeature.PartFeature.Shell
-#: abaqus.Part.PartFeature.PartFeature.ShellExtrude
-#: abaqus.Part.PartFeature.PartFeature.ShellLoft
-#: abaqus.Part.PartFeature.PartFeature.ShellRevolve
-#: abaqus.Part.PartFeature.PartFeature.ShellSweep
-#: abaqus.Part.PartFeature.PartFeature.SolidExtrude
-#: abaqus.Part.PartFeature.PartFeature.SolidLoft
-#: abaqus.Part.PartFeature.PartFeature.SolidRevolve
-#: abaqus.Part.PartFeature.PartFeature.SolidSweep
-#: abaqus.Part.PartFeature.PartFeature.Stitch
-#: abaqus.Part.PartFeature.PartFeature.Wire
-#: abaqus.Part.PartFeature.PartFeature.WireFromEdge
-#: abaqus.Part.PartFeature.PartFeature.WirePolyLine
-#: abaqus.Part.PartFeature.PartFeature.WireSpline
-#: abaqus.Part.PartModel.PartModel abaqus.Part.PartModel.PartModel.Part of
-msgid "Parameters"
+#: ../../../../None:55:<autosummary>:1
+msgid ":py:obj:`name <abaqus.Model.ModelBase.ModelBase.name>`\\"
 msgstr ""
 
 #: ../../../../None:36:<autosummary>:1 ../../../../None:4:<autosummary>:1
@@ -486,285 +288,8 @@ msgstr ""
 #: abaqus.Part.PartBase.PartBase.PartFromOdb:13
 #: abaqus.Part.PartBase.PartBase.PartFromSection3DMeshByPlane:14
 #: abaqus.Part.PartBase.PartBase.PartFromSubstructure:13
-#: abaqus.Part.PartModel.PartModel:19 abaqus.Part.PartModel.PartModel.Part:12
-#: of
+#: abaqus.Part.PartModel.PartModel.Part:12 of
 msgid "A String specifying the repository key."
-msgstr ""
-
-#: abaqus.Part.PartModel.PartModel:21 of
-msgid ""
-"A String specifying the purpose and contents of the Model object. The "
-"default value is an empty string."
-msgstr ""
-
-#: abaqus.Part.PartModel.PartModel:24 of
-msgid ""
-"None or a Float specifying the Stefan-Boltzmann constant. The default "
-"value is None."
-msgstr ""
-
-#: abaqus.Part.PartModel.PartModel:26 of
-msgid ""
-"None or a Float specifying the absolute zero constant. The default value "
-"is None."
-msgstr ""
-
-#: abaqus.Part.PartModel.PartModel:28 of
-msgid ""
-"A SymbolicConstant specifying the type of incident wave formulation to be "
-"used in acoustic problems. Possible values are NOT_SET, SCATTERED, and "
-"TOTAL. The default value is NOT_SET."
-msgstr ""
-
-#: abaqus.Part.PartModel.PartModel:32 of
-msgid ""
-"A SymbolicConstant specifying the analysis model type. Possible values are"
-" STANDARD_EXPLICIT and ELECTROMAGNETIC. The default is STANDARD_EXPLICIT."
-msgstr ""
-
-#: abaqus.Part.PartModel.PartModel:35 of
-msgid ""
-"None or a Float specifying the universal gas constant. The default value "
-"is None."
-msgstr ""
-
-#: abaqus.Part.PartModel.PartModel:37 of
-msgid ""
-"A boolean specifying whether to copy the constraints created in the model "
-"to the model that instances this model. The default value is ON."
-msgstr ""
-
-#: abaqus.Part.PartModel.PartModel:40 of
-msgid ""
-"A boolean specifying whether to copy the connectors created in the model "
-"to the model that instances this model. The default value is ON."
-msgstr ""
-
-#: abaqus.Part.PartModel.PartModel:43 of
-msgid ""
-"A boolean specifying whether to copy the interactions created in the model"
-" to the model that instances this model. The default value is ON."
-msgstr ""
-
-#: abaqus.Part.AcisFile.AcisFile.openAcis
-#: abaqus.Part.AcisFile.AcisFile.openCatia
-#: abaqus.Part.AcisFile.AcisFile.openEnf abaqus.Part.AcisFile.AcisFile.openIges
-#: abaqus.Part.AcisFile.AcisFile.openParasolid
-#: abaqus.Part.AcisFile.AcisFile.openSolidworks
-#: abaqus.Part.AcisFile.AcisFile.openStep abaqus.Part.AcisFile.AcisFile.openVda
-#: abaqus.Part.AcisMdb.AcisMdb abaqus.Part.AcisMdb.AcisMdb.openAcis
-#: abaqus.Part.AcisMdb.AcisMdb.openCatia abaqus.Part.AcisMdb.AcisMdb.openEnf
-#: abaqus.Part.AcisMdb.AcisMdb.openIges
-#: abaqus.Part.AcisMdb.AcisMdb.openParasolid
-#: abaqus.Part.AcisMdb.AcisMdb.openSolidworks
-#: abaqus.Part.AcisMdb.AcisMdb.openStep abaqus.Part.AcisMdb.AcisMdb.openVda
-#: abaqus.Part.PartBase.PartBase.Part2DGeomFrom2DMesh
-#: abaqus.Part.PartBase.PartBase.PartFromBooleanCut
-#: abaqus.Part.PartBase.PartBase.PartFromBooleanMerge
-#: abaqus.Part.PartBase.PartBase.PartFromExtrude2DMesh
-#: abaqus.Part.PartBase.PartBase.PartFromGeometryFile
-#: abaqus.Part.PartBase.PartBase.PartFromInstanceMesh
-#: abaqus.Part.PartBase.PartBase.PartFromMesh
-#: abaqus.Part.PartBase.PartBase.PartFromMeshMirror
-#: abaqus.Part.PartBase.PartBase.PartFromNodesAndElements
-#: abaqus.Part.PartBase.PartBase.PartFromOdb
-#: abaqus.Part.PartBase.PartBase.PartFromSection3DMeshByPlane
-#: abaqus.Part.PartBase.PartBase.PartFromSubstructure
-#: abaqus.Part.PartBase.PartBase.getAngle abaqus.Part.PartBase.PartBase.getArea
-#: abaqus.Part.PartBase.PartBase.getAssociatedCADPaths
-#: abaqus.Part.PartBase.PartBase.getCADParameters
-#: abaqus.Part.PartBase.PartBase.getCentroid
-#: abaqus.Part.PartBase.PartBase.getCoordinates
-#: abaqus.Part.PartBase.PartBase.getCurvature
-#: abaqus.Part.PartBase.PartBase.getDistance
-#: abaqus.Part.PartBase.PartBase.getFeatureCells
-#: abaqus.Part.PartBase.PartBase.getFeatureEdges
-#: abaqus.Part.PartBase.PartBase.getFeatureFaces
-#: abaqus.Part.PartBase.PartBase.getFeatureVertices
-#: abaqus.Part.PartBase.PartBase.getLength
-#: abaqus.Part.PartBase.PartBase.getMassProperties
-#: abaqus.Part.PartBase.PartBase.getPerimeter
-#: abaqus.Part.PartBase.PartBase.getVolume
-#: abaqus.Part.PartBase.PartBase.isAlignedWithSketch
-#: abaqus.Part.PartBase.PartBase.queryAttributes
-#: abaqus.Part.PartBase.PartBase.queryGeometry
-#: abaqus.Part.PartBase.PartBase.queryRegionsMissingSections
-#: abaqus.Part.PartFeature.PartFeature.AddCells
-#: abaqus.Part.PartFeature.PartFeature.AnalyticRigidSurf2DPlanar
-#: abaqus.Part.PartFeature.PartFeature.AnalyticRigidSurfExtrude
-#: abaqus.Part.PartFeature.PartFeature.AnalyticRigidSurfRevolve
-#: abaqus.Part.PartFeature.PartFeature.AssignMidsurfaceRegion
-#: abaqus.Part.PartFeature.PartFeature.AutoRepair
-#: abaqus.Part.PartFeature.PartFeature.BaseShell
-#: abaqus.Part.PartFeature.PartFeature.BaseShellExtrude
-#: abaqus.Part.PartFeature.PartFeature.BaseShellRevolve
-#: abaqus.Part.PartFeature.PartFeature.BaseShellSweep
-#: abaqus.Part.PartFeature.PartFeature.BaseSolidExtrude
-#: abaqus.Part.PartFeature.PartFeature.BaseSolidRevolve
-#: abaqus.Part.PartFeature.PartFeature.BaseSolidSweep
-#: abaqus.Part.PartFeature.PartFeature.BaseWire
-#: abaqus.Part.PartFeature.PartFeature.BlendFaces
-#: abaqus.Part.PartFeature.PartFeature.Chamfer
-#: abaqus.Part.PartFeature.PartFeature.ConvertToAnalytical
-#: abaqus.Part.PartFeature.PartFeature.ConvertToPrecise
-#: abaqus.Part.PartFeature.PartFeature.CoverEdges
-#: abaqus.Part.PartFeature.PartFeature.Cut
-#: abaqus.Part.PartFeature.PartFeature.CutExtrude
-#: abaqus.Part.PartFeature.PartFeature.CutLoft
-#: abaqus.Part.PartFeature.PartFeature.CutRevolve
-#: abaqus.Part.PartFeature.PartFeature.CutSweep
-#: abaqus.Part.PartFeature.PartFeature.ExtendFaces
-#: abaqus.Part.PartFeature.PartFeature.FaceFromElementFaces
-#: abaqus.Part.PartFeature.PartFeature.HoleBlindFromEdges
-#: abaqus.Part.PartFeature.PartFeature.HoleFromEdges
-#: abaqus.Part.PartFeature.PartFeature.HoleThruAllFromEdges
-#: abaqus.Part.PartFeature.PartFeature.MergeEdges
-#: abaqus.Part.PartFeature.PartFeature.Mirror
-#: abaqus.Part.PartFeature.PartFeature.OffsetFaces
-#: abaqus.Part.PartFeature.PartFeature.RemoveCells
-#: abaqus.Part.PartFeature.PartFeature.RemoveFaces
-#: abaqus.Part.PartFeature.PartFeature.RemoveFacesAndStitch
-#: abaqus.Part.PartFeature.PartFeature.RemoveRedundantEntities
-#: abaqus.Part.PartFeature.PartFeature.RepairFaceNormals
-#: abaqus.Part.PartFeature.PartFeature.RepairInvalidEdges
-#: abaqus.Part.PartFeature.PartFeature.RepairSliver
-#: abaqus.Part.PartFeature.PartFeature.RepairSmallEdges
-#: abaqus.Part.PartFeature.PartFeature.RepairSmallFaces
-#: abaqus.Part.PartFeature.PartFeature.ReplaceFaces
-#: abaqus.Part.PartFeature.PartFeature.Round
-#: abaqus.Part.PartFeature.PartFeature.Shell
-#: abaqus.Part.PartFeature.PartFeature.ShellExtrude
-#: abaqus.Part.PartFeature.PartFeature.ShellLoft
-#: abaqus.Part.PartFeature.PartFeature.ShellRevolve
-#: abaqus.Part.PartFeature.PartFeature.ShellSweep
-#: abaqus.Part.PartFeature.PartFeature.SolidExtrude
-#: abaqus.Part.PartFeature.PartFeature.SolidLoft
-#: abaqus.Part.PartFeature.PartFeature.SolidRevolve
-#: abaqus.Part.PartFeature.PartFeature.SolidSweep
-#: abaqus.Part.PartFeature.PartFeature.Stitch
-#: abaqus.Part.PartFeature.PartFeature.Wire
-#: abaqus.Part.PartFeature.PartFeature.WireFromEdge
-#: abaqus.Part.PartFeature.PartFeature.WirePolyLine
-#: abaqus.Part.PartFeature.PartFeature.WireSpline
-#: abaqus.Part.PartModel.PartModel abaqus.Part.PartModel.PartModel.Part of
-msgid "Returns"
-msgstr ""
-
-#: abaqus.Part.PartModel.PartModel:46 of
-msgid "A Model object."
-msgstr ""
-
-#: abaqus.Part.AcisFile.AcisFile.openAcis
-#: abaqus.Part.AcisFile.AcisFile.openCatia
-#: abaqus.Part.AcisFile.AcisFile.openEnf abaqus.Part.AcisFile.AcisFile.openIges
-#: abaqus.Part.AcisFile.AcisFile.openParasolid
-#: abaqus.Part.AcisFile.AcisFile.openStep abaqus.Part.AcisFile.AcisFile.openVda
-#: abaqus.Part.AcisMdb.AcisMdb abaqus.Part.AcisMdb.AcisMdb.openAcis
-#: abaqus.Part.AcisMdb.AcisMdb.openCatia abaqus.Part.AcisMdb.AcisMdb.openEnf
-#: abaqus.Part.AcisMdb.AcisMdb.openIges
-#: abaqus.Part.AcisMdb.AcisMdb.openParasolid
-#: abaqus.Part.AcisMdb.AcisMdb.openStep abaqus.Part.AcisMdb.AcisMdb.openVda
-#: abaqus.Part.PartBase.PartBase.Part2DGeomFrom2DMesh
-#: abaqus.Part.PartBase.PartBase.PartFromBooleanCut
-#: abaqus.Part.PartBase.PartBase.PartFromBooleanMerge
-#: abaqus.Part.PartBase.PartBase.PartFromExtrude2DMesh
-#: abaqus.Part.PartBase.PartBase.PartFromGeometryFile
-#: abaqus.Part.PartBase.PartBase.PartFromInstanceMesh
-#: abaqus.Part.PartBase.PartBase.PartFromMesh
-#: abaqus.Part.PartBase.PartBase.PartFromMeshMirror
-#: abaqus.Part.PartBase.PartBase.PartFromNodesAndElements
-#: abaqus.Part.PartBase.PartBase.PartFromOdb
-#: abaqus.Part.PartBase.PartBase.PartFromSection3DMeshByPlane
-#: abaqus.Part.PartBase.PartBase.PartFromSubstructure
-#: abaqus.Part.PartBase.PartBase.getAngle abaqus.Part.PartBase.PartBase.getArea
-#: abaqus.Part.PartBase.PartBase.getAssociatedCADPaths
-#: abaqus.Part.PartBase.PartBase.getCADParameters
-#: abaqus.Part.PartBase.PartBase.getCentroid
-#: abaqus.Part.PartBase.PartBase.getCurvature
-#: abaqus.Part.PartBase.PartBase.getDistance
-#: abaqus.Part.PartBase.PartBase.getFeatureCells
-#: abaqus.Part.PartBase.PartBase.getFeatureEdges
-#: abaqus.Part.PartBase.PartBase.getFeatureFaces
-#: abaqus.Part.PartBase.PartBase.getFeatureVertices
-#: abaqus.Part.PartBase.PartBase.getLength
-#: abaqus.Part.PartBase.PartBase.getMassProperties
-#: abaqus.Part.PartBase.PartBase.getPerimeter
-#: abaqus.Part.PartBase.PartBase.getVolume
-#: abaqus.Part.PartBase.PartBase.isAlignedWithSketch
-#: abaqus.Part.PartBase.PartBase.queryAttributes
-#: abaqus.Part.PartBase.PartBase.queryGeometry
-#: abaqus.Part.PartBase.PartBase.queryRegionsMissingSections
-#: abaqus.Part.PartFeature.PartFeature.AddCells
-#: abaqus.Part.PartFeature.PartFeature.AnalyticRigidSurf2DPlanar
-#: abaqus.Part.PartFeature.PartFeature.AnalyticRigidSurfExtrude
-#: abaqus.Part.PartFeature.PartFeature.AnalyticRigidSurfRevolve
-#: abaqus.Part.PartFeature.PartFeature.AssignMidsurfaceRegion
-#: abaqus.Part.PartFeature.PartFeature.AutoRepair
-#: abaqus.Part.PartFeature.PartFeature.BaseShell
-#: abaqus.Part.PartFeature.PartFeature.BaseShellExtrude
-#: abaqus.Part.PartFeature.PartFeature.BaseShellRevolve
-#: abaqus.Part.PartFeature.PartFeature.BaseShellSweep
-#: abaqus.Part.PartFeature.PartFeature.BaseSolidExtrude
-#: abaqus.Part.PartFeature.PartFeature.BaseSolidRevolve
-#: abaqus.Part.PartFeature.PartFeature.BaseSolidSweep
-#: abaqus.Part.PartFeature.PartFeature.BaseWire
-#: abaqus.Part.PartFeature.PartFeature.BlendFaces
-#: abaqus.Part.PartFeature.PartFeature.Chamfer
-#: abaqus.Part.PartFeature.PartFeature.ConvertToAnalytical
-#: abaqus.Part.PartFeature.PartFeature.ConvertToPrecise
-#: abaqus.Part.PartFeature.PartFeature.CoverEdges
-#: abaqus.Part.PartFeature.PartFeature.Cut
-#: abaqus.Part.PartFeature.PartFeature.CutExtrude
-#: abaqus.Part.PartFeature.PartFeature.CutLoft
-#: abaqus.Part.PartFeature.PartFeature.CutRevolve
-#: abaqus.Part.PartFeature.PartFeature.CutSweep
-#: abaqus.Part.PartFeature.PartFeature.ExtendFaces
-#: abaqus.Part.PartFeature.PartFeature.FaceFromElementFaces
-#: abaqus.Part.PartFeature.PartFeature.HoleBlindFromEdges
-#: abaqus.Part.PartFeature.PartFeature.HoleFromEdges
-#: abaqus.Part.PartFeature.PartFeature.HoleThruAllFromEdges
-#: abaqus.Part.PartFeature.PartFeature.MergeEdges
-#: abaqus.Part.PartFeature.PartFeature.Mirror
-#: abaqus.Part.PartFeature.PartFeature.OffsetFaces
-#: abaqus.Part.PartFeature.PartFeature.RemoveCells
-#: abaqus.Part.PartFeature.PartFeature.RemoveFaces
-#: abaqus.Part.PartFeature.PartFeature.RemoveFacesAndStitch
-#: abaqus.Part.PartFeature.PartFeature.RemoveRedundantEntities
-#: abaqus.Part.PartFeature.PartFeature.RepairFaceNormals
-#: abaqus.Part.PartFeature.PartFeature.RepairInvalidEdges
-#: abaqus.Part.PartFeature.PartFeature.RepairSliver
-#: abaqus.Part.PartFeature.PartFeature.RepairSmallEdges
-#: abaqus.Part.PartFeature.PartFeature.RepairSmallFaces
-#: abaqus.Part.PartFeature.PartFeature.ReplaceFaces
-#: abaqus.Part.PartFeature.PartFeature.Round
-#: abaqus.Part.PartFeature.PartFeature.Shell
-#: abaqus.Part.PartFeature.PartFeature.ShellExtrude
-#: abaqus.Part.PartFeature.PartFeature.ShellLoft
-#: abaqus.Part.PartFeature.PartFeature.ShellRevolve
-#: abaqus.Part.PartFeature.PartFeature.ShellSweep
-#: abaqus.Part.PartFeature.PartFeature.SolidExtrude
-#: abaqus.Part.PartFeature.PartFeature.SolidLoft
-#: abaqus.Part.PartFeature.PartFeature.SolidRevolve
-#: abaqus.Part.PartFeature.PartFeature.SolidSweep
-#: abaqus.Part.PartFeature.PartFeature.Stitch
-#: abaqus.Part.PartFeature.PartFeature.Wire
-#: abaqus.Part.PartFeature.PartFeature.WireFromEdge
-#: abaqus.Part.PartFeature.PartFeature.WirePolyLine
-#: abaqus.Part.PartFeature.PartFeature.WireSpline
-#: abaqus.Part.PartModel.PartModel abaqus.Part.PartModel.PartModel.Part of
-msgid "Return type"
-msgstr ""
-
-#: abaqus.Part.PartModel.PartModel:47 of
-msgid ":class:`Model`"
-msgstr ""
-
-#: abaqus.Part.PartBase.PartBase abaqus.Part.PartModel.PartModel of
-msgid "Public Data Attributes:"
-msgstr ""
-
-#: ../../../../None:55:<autosummary>:1
-msgid ":py:obj:`name <abaqus.Model.ModelBase.ModelBase.name>`\\"
 msgstr ""
 
 #: ../../../../None:55:<autosummary>:1
@@ -1303,6 +828,10 @@ msgid ""
 msgstr ""
 
 #: ../../../../None:7:<autosummary>:1
+msgid "This method creates a Model object."
+msgstr ""
+
+#: ../../../../None:7:<autosummary>:1
 msgid ""
 ":py:obj:`ModelFromInputFile "
 "<abaqus.Model.ModelBase.ModelBase.ModelFromInputFile>`\\ \\(name\\, "
@@ -1359,11 +888,212 @@ msgstr ""
 msgid "Member Details:"
 msgstr ""
 
+#: abaqus.Part.AcisFile.AcisFile.openAcis:5
+#: abaqus.Part.AcisFile.AcisFile.openCatia:5
+#: abaqus.Part.AcisFile.AcisFile.openEnf:6
+#: abaqus.Part.AcisFile.AcisFile.openIges:5
+#: abaqus.Part.AcisFile.AcisFile.openParasolid:5
+#: abaqus.Part.AcisFile.AcisFile.openSolidworks:5
+#: abaqus.Part.AcisFile.AcisFile.openStep:5
+#: abaqus.Part.AcisFile.AcisFile.openVda:5
+#: abaqus.Part.AcisMdb.AcisMdb.openAcis:5
+#: abaqus.Part.AcisMdb.AcisMdb.openCatia:5
+#: abaqus.Part.AcisMdb.AcisMdb.openEnf:6 abaqus.Part.AcisMdb.AcisMdb.openIges:5
+#: abaqus.Part.AcisMdb.AcisMdb.openParasolid:5
+#: abaqus.Part.AcisMdb.AcisMdb.openSolidworks:5
+#: abaqus.Part.AcisMdb.AcisMdb.openStep:5 abaqus.Part.AcisMdb.AcisMdb.openVda:5
+#: abaqus.Part.PartBase.PartBase.Part2DGeomFrom2DMesh:7
+#: abaqus.Part.PartBase.PartBase.PartFromBooleanCut:5
+#: abaqus.Part.PartBase.PartBase.PartFromBooleanMerge:6
+#: abaqus.Part.PartBase.PartBase.PartFromExtrude2DMesh:5
+#: abaqus.Part.PartBase.PartBase.PartFromGeometryFile:4
+#: abaqus.Part.PartBase.PartBase.PartFromInstanceMesh:5
+#: abaqus.Part.PartBase.PartBase.PartFromMesh:5
+#: abaqus.Part.PartBase.PartBase.PartFromMeshMirror:8
+#: abaqus.Part.PartBase.PartBase.PartFromNodesAndElements:4
+#: abaqus.Part.PartBase.PartBase.PartFromOdb:5
+#: abaqus.Part.PartBase.PartBase.PartFromSection3DMeshByPlane:6
+#: abaqus.Part.PartBase.PartBase.PartFromSubstructure:5
+#: abaqus.Part.PartFeature.PartFeature.AddCells:5
+#: abaqus.Part.PartFeature.PartFeature.AnalyticRigidSurf2DPlanar:5
+#: abaqus.Part.PartFeature.PartFeature.AnalyticRigidSurfExtrude:5
+#: abaqus.Part.PartFeature.PartFeature.AnalyticRigidSurfRevolve:5
+#: abaqus.Part.PartFeature.PartFeature.AssignMidsurfaceRegion:6
+#: abaqus.Part.PartFeature.PartFeature.AutoRepair:8
+#: abaqus.Part.PartFeature.PartFeature.BaseShell:5
+#: abaqus.Part.PartFeature.PartFeature.BaseShellExtrude:5
+#: abaqus.Part.PartFeature.PartFeature.BaseShellRevolve:6
+#: abaqus.Part.PartFeature.PartFeature.BaseShellSweep:8
+#: abaqus.Part.PartFeature.PartFeature.BaseSolidExtrude:5
+#: abaqus.Part.PartFeature.PartFeature.BaseSolidRevolve:6
+#: abaqus.Part.PartFeature.PartFeature.BaseSolidSweep:8
+#: abaqus.Part.PartFeature.PartFeature.BaseWire:5
+#: abaqus.Part.PartFeature.PartFeature.BlendFaces:4
+#: abaqus.Part.PartFeature.PartFeature.Chamfer:5
+#: abaqus.Part.PartFeature.PartFeature.ConvertToAnalytical:5
+#: abaqus.Part.PartFeature.PartFeature.ConvertToPrecise:4
+#: abaqus.Part.PartFeature.PartFeature.CoverEdges:6
+#: abaqus.Part.PartFeature.PartFeature.Cut:5
+#: abaqus.Part.PartFeature.PartFeature.CutExtrude:8
+#: abaqus.Part.PartFeature.PartFeature.CutLoft:6
+#: abaqus.Part.PartFeature.PartFeature.CutRevolve:6
+#: abaqus.Part.PartFeature.PartFeature.CutSweep:8
+#: abaqus.Part.PartFeature.PartFeature.ExtendFaces:6
+#: abaqus.Part.PartFeature.PartFeature.FaceFromElementFaces:4
+#: abaqus.Part.PartFeature.PartFeature.HoleBlindFromEdges:6
+#: abaqus.Part.PartFeature.PartFeature.HoleFromEdges:6
+#: abaqus.Part.PartFeature.PartFeature.HoleThruAllFromEdges:6
+#: abaqus.Part.PartFeature.PartFeature.MergeEdges:4
+#: abaqus.Part.PartFeature.PartFeature.Mirror:4
+#: abaqus.Part.PartFeature.PartFeature.OffsetFaces:4
+#: abaqus.Part.PartFeature.PartFeature.RemoveCells:4
+#: abaqus.Part.PartFeature.PartFeature.RemoveFaces:4
+#: abaqus.Part.PartFeature.PartFeature.RemoveFacesAndStitch:5
+#: abaqus.Part.PartFeature.PartFeature.RemoveRedundantEntities:5
+#: abaqus.Part.PartFeature.PartFeature.RepairFaceNormals:7
+#: abaqus.Part.PartFeature.PartFeature.RepairInvalidEdges:5
+#: abaqus.Part.PartFeature.PartFeature.RepairSliver:6
+#: abaqus.Part.PartFeature.PartFeature.RepairSmallEdges:6
+#: abaqus.Part.PartFeature.PartFeature.RepairSmallFaces:6
+#: abaqus.Part.PartFeature.PartFeature.ReplaceFaces:5
+#: abaqus.Part.PartFeature.PartFeature.Round:5
+#: abaqus.Part.PartFeature.PartFeature.Shell:5
+#: abaqus.Part.PartFeature.PartFeature.ShellExtrude:6
+#: abaqus.Part.PartFeature.PartFeature.ShellLoft:6
+#: abaqus.Part.PartFeature.PartFeature.ShellRevolve:7
+#: abaqus.Part.PartFeature.PartFeature.ShellSweep:8
+#: abaqus.Part.PartFeature.PartFeature.SolidExtrude:5
+#: abaqus.Part.PartFeature.PartFeature.SolidLoft:5
+#: abaqus.Part.PartFeature.PartFeature.SolidRevolve:6
+#: abaqus.Part.PartFeature.PartFeature.SolidSweep:8
+#: abaqus.Part.PartFeature.PartFeature.Stitch:6
+#: abaqus.Part.PartFeature.PartFeature.Wire:5
+#: abaqus.Part.PartFeature.PartFeature.WireFromEdge:5
+#: abaqus.Part.PartFeature.PartFeature.WirePolyLine:5
+#: abaqus.Part.PartFeature.PartFeature.WireSpline:5
+#: abaqus.Part.PartModel.PartModel.Part:4 of
+msgid "This function can be accessed by::"
+msgstr ""
+
 #: abaqus.Part.Part.Part:11 abaqus.Part.PartModel.PartModel.Part:9 of
 msgid ""
 "Check `Part on help.3ds.com/2022 <https://help.3ds.com/2022/English/DSSIMU"
 "LIA_Established/SIMACAEKERRefMap/simaker-c-"
 "partpyc.htm?contextscope=all>`__."
+msgstr ""
+
+#: abaqus.Part.AcisFile.AcisFile.openAcis
+#: abaqus.Part.AcisFile.AcisFile.openCatia
+#: abaqus.Part.AcisFile.AcisFile.openEnf abaqus.Part.AcisFile.AcisFile.openIges
+#: abaqus.Part.AcisFile.AcisFile.openParasolid
+#: abaqus.Part.AcisFile.AcisFile.openSolidworks
+#: abaqus.Part.AcisFile.AcisFile.openStep abaqus.Part.AcisFile.AcisFile.openVda
+#: abaqus.Part.AcisFile.AcisFile.writeAcisFile
+#: abaqus.Part.AcisMdb.AcisMdb.openAcis abaqus.Part.AcisMdb.AcisMdb.openCatia
+#: abaqus.Part.AcisMdb.AcisMdb.openEnf abaqus.Part.AcisMdb.AcisMdb.openIges
+#: abaqus.Part.AcisMdb.AcisMdb.openParasolid
+#: abaqus.Part.AcisMdb.AcisMdb.openSolidworks
+#: abaqus.Part.AcisMdb.AcisMdb.openStep abaqus.Part.AcisMdb.AcisMdb.openVda
+#: abaqus.Part.PartBase.PartBase.Part2DGeomFrom2DMesh
+#: abaqus.Part.PartBase.PartBase.PartFromBooleanCut
+#: abaqus.Part.PartBase.PartBase.PartFromBooleanMerge
+#: abaqus.Part.PartBase.PartBase.PartFromExtrude2DMesh
+#: abaqus.Part.PartBase.PartBase.PartFromGeometryFile
+#: abaqus.Part.PartBase.PartBase.PartFromInstanceMesh
+#: abaqus.Part.PartBase.PartBase.PartFromMesh
+#: abaqus.Part.PartBase.PartBase.PartFromMeshMirror
+#: abaqus.Part.PartBase.PartBase.PartFromNodesAndElements
+#: abaqus.Part.PartBase.PartBase.PartFromOdb
+#: abaqus.Part.PartBase.PartBase.PartFromSection3DMeshByPlane
+#: abaqus.Part.PartBase.PartBase.PartFromSubstructure
+#: abaqus.Part.PartBase.PartBase.addGeomToSketch
+#: abaqus.Part.PartBase.PartBase.assignThickness
+#: abaqus.Part.PartBase.PartBase.checkGeometry
+#: abaqus.Part.PartBase.PartBase.copyMeshPattern
+#: abaqus.Part.PartBase.PartBase.deleteFeatures
+#: abaqus.Part.PartBase.PartBase.getAngle abaqus.Part.PartBase.PartBase.getArea
+#: abaqus.Part.PartBase.PartBase.getCentroid
+#: abaqus.Part.PartBase.PartBase.getCoordinates
+#: abaqus.Part.PartBase.PartBase.getCurvature
+#: abaqus.Part.PartBase.PartBase.getDistance
+#: abaqus.Part.PartBase.PartBase.getFeatureCells
+#: abaqus.Part.PartBase.PartBase.getFeatureEdges
+#: abaqus.Part.PartBase.PartBase.getFeatureFaces
+#: abaqus.Part.PartBase.PartBase.getFeatureVertices
+#: abaqus.Part.PartBase.PartBase.getLength
+#: abaqus.Part.PartBase.PartBase.getMassProperties
+#: abaqus.Part.PartBase.PartBase.getPerimeter
+#: abaqus.Part.PartBase.PartBase.getVolume
+#: abaqus.Part.PartBase.PartBase.projectEdgesOntoSketch
+#: abaqus.Part.PartBase.PartBase.projectReferencesOntoSketch
+#: abaqus.Part.PartBase.PartBase.queryAttributes
+#: abaqus.Part.PartBase.PartBase.queryGeometry
+#: abaqus.Part.PartBase.PartBase.resumeFeatures
+#: abaqus.Part.PartBase.PartBase.setAssociatedCADPaths
+#: abaqus.Part.PartBase.PartBase.smoothNodes
+#: abaqus.Part.PartBase.PartBase.suppressFeatures
+#: abaqus.Part.PartBase.PartBase.writeAcisFile
+#: abaqus.Part.PartBase.PartBase.writeCADParameters
+#: abaqus.Part.PartBase.PartBase.writeIgesFile
+#: abaqus.Part.PartBase.PartBase.writeStepFile
+#: abaqus.Part.PartBase.PartBase.writeVdaFile
+#: abaqus.Part.PartFeature.PartFeature.AddCells
+#: abaqus.Part.PartFeature.PartFeature.AnalyticRigidSurf2DPlanar
+#: abaqus.Part.PartFeature.PartFeature.AnalyticRigidSurfExtrude
+#: abaqus.Part.PartFeature.PartFeature.AnalyticRigidSurfRevolve
+#: abaqus.Part.PartFeature.PartFeature.AssignMidsurfaceRegion
+#: abaqus.Part.PartFeature.PartFeature.BaseShell
+#: abaqus.Part.PartFeature.PartFeature.BaseShellExtrude
+#: abaqus.Part.PartFeature.PartFeature.BaseShellRevolve
+#: abaqus.Part.PartFeature.PartFeature.BaseShellSweep
+#: abaqus.Part.PartFeature.PartFeature.BaseSolidExtrude
+#: abaqus.Part.PartFeature.PartFeature.BaseSolidRevolve
+#: abaqus.Part.PartFeature.PartFeature.BaseSolidSweep
+#: abaqus.Part.PartFeature.PartFeature.BaseWire
+#: abaqus.Part.PartFeature.PartFeature.BlendFaces
+#: abaqus.Part.PartFeature.PartFeature.Chamfer
+#: abaqus.Part.PartFeature.PartFeature.ConvertToPrecise
+#: abaqus.Part.PartFeature.PartFeature.CoverEdges
+#: abaqus.Part.PartFeature.PartFeature.Cut
+#: abaqus.Part.PartFeature.PartFeature.CutExtrude
+#: abaqus.Part.PartFeature.PartFeature.CutLoft
+#: abaqus.Part.PartFeature.PartFeature.CutRevolve
+#: abaqus.Part.PartFeature.PartFeature.CutSweep
+#: abaqus.Part.PartFeature.PartFeature.ExtendFaces
+#: abaqus.Part.PartFeature.PartFeature.FaceFromElementFaces
+#: abaqus.Part.PartFeature.PartFeature.HoleBlindFromEdges
+#: abaqus.Part.PartFeature.PartFeature.HoleFromEdges
+#: abaqus.Part.PartFeature.PartFeature.HoleThruAllFromEdges
+#: abaqus.Part.PartFeature.PartFeature.MergeEdges
+#: abaqus.Part.PartFeature.PartFeature.Mirror
+#: abaqus.Part.PartFeature.PartFeature.OffsetFaces
+#: abaqus.Part.PartFeature.PartFeature.RemoveCells
+#: abaqus.Part.PartFeature.PartFeature.RemoveFaces
+#: abaqus.Part.PartFeature.PartFeature.RemoveFacesAndStitch
+#: abaqus.Part.PartFeature.PartFeature.RemoveRedundantEntities
+#: abaqus.Part.PartFeature.PartFeature.RepairFaceNormals
+#: abaqus.Part.PartFeature.PartFeature.RepairInvalidEdges
+#: abaqus.Part.PartFeature.PartFeature.RepairSliver
+#: abaqus.Part.PartFeature.PartFeature.RepairSmallEdges
+#: abaqus.Part.PartFeature.PartFeature.RepairSmallFaces
+#: abaqus.Part.PartFeature.PartFeature.ReplaceFaces
+#: abaqus.Part.PartFeature.PartFeature.Round
+#: abaqus.Part.PartFeature.PartFeature.Shell
+#: abaqus.Part.PartFeature.PartFeature.ShellExtrude
+#: abaqus.Part.PartFeature.PartFeature.ShellLoft
+#: abaqus.Part.PartFeature.PartFeature.ShellRevolve
+#: abaqus.Part.PartFeature.PartFeature.ShellSweep
+#: abaqus.Part.PartFeature.PartFeature.SolidExtrude
+#: abaqus.Part.PartFeature.PartFeature.SolidLoft
+#: abaqus.Part.PartFeature.PartFeature.SolidRevolve
+#: abaqus.Part.PartFeature.PartFeature.SolidSweep
+#: abaqus.Part.PartFeature.PartFeature.Stitch
+#: abaqus.Part.PartFeature.PartFeature.Wire
+#: abaqus.Part.PartFeature.PartFeature.WireFromEdge
+#: abaqus.Part.PartFeature.PartFeature.WirePolyLine
+#: abaqus.Part.PartFeature.PartFeature.WireSpline
+#: abaqus.Part.PartModel.PartModel.Part of
+msgid "Parameters"
 msgstr ""
 
 #: abaqus.Part.PartBase.PartBase.PartFromGeometryFile:16
@@ -1393,8 +1123,211 @@ msgid ""
 " DEFORMABLE_BODY). The default value is OFF."
 msgstr ""
 
+#: abaqus.Part.AcisFile.AcisFile.openAcis
+#: abaqus.Part.AcisFile.AcisFile.openCatia
+#: abaqus.Part.AcisFile.AcisFile.openEnf abaqus.Part.AcisFile.AcisFile.openIges
+#: abaqus.Part.AcisFile.AcisFile.openParasolid
+#: abaqus.Part.AcisFile.AcisFile.openSolidworks
+#: abaqus.Part.AcisFile.AcisFile.openStep abaqus.Part.AcisFile.AcisFile.openVda
+#: abaqus.Part.AcisMdb.AcisMdb.openAcis abaqus.Part.AcisMdb.AcisMdb.openCatia
+#: abaqus.Part.AcisMdb.AcisMdb.openEnf abaqus.Part.AcisMdb.AcisMdb.openIges
+#: abaqus.Part.AcisMdb.AcisMdb.openParasolid
+#: abaqus.Part.AcisMdb.AcisMdb.openSolidworks
+#: abaqus.Part.AcisMdb.AcisMdb.openStep abaqus.Part.AcisMdb.AcisMdb.openVda
+#: abaqus.Part.PartBase.PartBase.Part2DGeomFrom2DMesh
+#: abaqus.Part.PartBase.PartBase.PartFromBooleanCut
+#: abaqus.Part.PartBase.PartBase.PartFromBooleanMerge
+#: abaqus.Part.PartBase.PartBase.PartFromExtrude2DMesh
+#: abaqus.Part.PartBase.PartBase.PartFromGeometryFile
+#: abaqus.Part.PartBase.PartBase.PartFromInstanceMesh
+#: abaqus.Part.PartBase.PartBase.PartFromMesh
+#: abaqus.Part.PartBase.PartBase.PartFromMeshMirror
+#: abaqus.Part.PartBase.PartBase.PartFromNodesAndElements
+#: abaqus.Part.PartBase.PartBase.PartFromOdb
+#: abaqus.Part.PartBase.PartBase.PartFromSection3DMeshByPlane
+#: abaqus.Part.PartBase.PartBase.PartFromSubstructure
+#: abaqus.Part.PartBase.PartBase.getAngle abaqus.Part.PartBase.PartBase.getArea
+#: abaqus.Part.PartBase.PartBase.getAssociatedCADPaths
+#: abaqus.Part.PartBase.PartBase.getCADParameters
+#: abaqus.Part.PartBase.PartBase.getCentroid
+#: abaqus.Part.PartBase.PartBase.getCoordinates
+#: abaqus.Part.PartBase.PartBase.getCurvature
+#: abaqus.Part.PartBase.PartBase.getDistance
+#: abaqus.Part.PartBase.PartBase.getFeatureCells
+#: abaqus.Part.PartBase.PartBase.getFeatureEdges
+#: abaqus.Part.PartBase.PartBase.getFeatureFaces
+#: abaqus.Part.PartBase.PartBase.getFeatureVertices
+#: abaqus.Part.PartBase.PartBase.getLength
+#: abaqus.Part.PartBase.PartBase.getMassProperties
+#: abaqus.Part.PartBase.PartBase.getPerimeter
+#: abaqus.Part.PartBase.PartBase.getVolume
+#: abaqus.Part.PartBase.PartBase.isAlignedWithSketch
+#: abaqus.Part.PartBase.PartBase.queryAttributes
+#: abaqus.Part.PartBase.PartBase.queryGeometry
+#: abaqus.Part.PartBase.PartBase.queryRegionsMissingSections
+#: abaqus.Part.PartFeature.PartFeature.AddCells
+#: abaqus.Part.PartFeature.PartFeature.AnalyticRigidSurf2DPlanar
+#: abaqus.Part.PartFeature.PartFeature.AnalyticRigidSurfExtrude
+#: abaqus.Part.PartFeature.PartFeature.AnalyticRigidSurfRevolve
+#: abaqus.Part.PartFeature.PartFeature.AssignMidsurfaceRegion
+#: abaqus.Part.PartFeature.PartFeature.AutoRepair
+#: abaqus.Part.PartFeature.PartFeature.BaseShell
+#: abaqus.Part.PartFeature.PartFeature.BaseShellExtrude
+#: abaqus.Part.PartFeature.PartFeature.BaseShellRevolve
+#: abaqus.Part.PartFeature.PartFeature.BaseShellSweep
+#: abaqus.Part.PartFeature.PartFeature.BaseSolidExtrude
+#: abaqus.Part.PartFeature.PartFeature.BaseSolidRevolve
+#: abaqus.Part.PartFeature.PartFeature.BaseSolidSweep
+#: abaqus.Part.PartFeature.PartFeature.BaseWire
+#: abaqus.Part.PartFeature.PartFeature.BlendFaces
+#: abaqus.Part.PartFeature.PartFeature.Chamfer
+#: abaqus.Part.PartFeature.PartFeature.ConvertToAnalytical
+#: abaqus.Part.PartFeature.PartFeature.ConvertToPrecise
+#: abaqus.Part.PartFeature.PartFeature.CoverEdges
+#: abaqus.Part.PartFeature.PartFeature.Cut
+#: abaqus.Part.PartFeature.PartFeature.CutExtrude
+#: abaqus.Part.PartFeature.PartFeature.CutLoft
+#: abaqus.Part.PartFeature.PartFeature.CutRevolve
+#: abaqus.Part.PartFeature.PartFeature.CutSweep
+#: abaqus.Part.PartFeature.PartFeature.ExtendFaces
+#: abaqus.Part.PartFeature.PartFeature.FaceFromElementFaces
+#: abaqus.Part.PartFeature.PartFeature.HoleBlindFromEdges
+#: abaqus.Part.PartFeature.PartFeature.HoleFromEdges
+#: abaqus.Part.PartFeature.PartFeature.HoleThruAllFromEdges
+#: abaqus.Part.PartFeature.PartFeature.MergeEdges
+#: abaqus.Part.PartFeature.PartFeature.Mirror
+#: abaqus.Part.PartFeature.PartFeature.OffsetFaces
+#: abaqus.Part.PartFeature.PartFeature.RemoveCells
+#: abaqus.Part.PartFeature.PartFeature.RemoveFaces
+#: abaqus.Part.PartFeature.PartFeature.RemoveFacesAndStitch
+#: abaqus.Part.PartFeature.PartFeature.RemoveRedundantEntities
+#: abaqus.Part.PartFeature.PartFeature.RepairFaceNormals
+#: abaqus.Part.PartFeature.PartFeature.RepairInvalidEdges
+#: abaqus.Part.PartFeature.PartFeature.RepairSliver
+#: abaqus.Part.PartFeature.PartFeature.RepairSmallEdges
+#: abaqus.Part.PartFeature.PartFeature.RepairSmallFaces
+#: abaqus.Part.PartFeature.PartFeature.ReplaceFaces
+#: abaqus.Part.PartFeature.PartFeature.Round
+#: abaqus.Part.PartFeature.PartFeature.Shell
+#: abaqus.Part.PartFeature.PartFeature.ShellExtrude
+#: abaqus.Part.PartFeature.PartFeature.ShellLoft
+#: abaqus.Part.PartFeature.PartFeature.ShellRevolve
+#: abaqus.Part.PartFeature.PartFeature.ShellSweep
+#: abaqus.Part.PartFeature.PartFeature.SolidExtrude
+#: abaqus.Part.PartFeature.PartFeature.SolidLoft
+#: abaqus.Part.PartFeature.PartFeature.SolidRevolve
+#: abaqus.Part.PartFeature.PartFeature.SolidSweep
+#: abaqus.Part.PartFeature.PartFeature.Stitch
+#: abaqus.Part.PartFeature.PartFeature.Wire
+#: abaqus.Part.PartFeature.PartFeature.WireFromEdge
+#: abaqus.Part.PartFeature.PartFeature.WirePolyLine
+#: abaqus.Part.PartFeature.PartFeature.WireSpline
+#: abaqus.Part.PartModel.PartModel.Part of
+msgid "Returns"
+msgstr ""
+
 #: abaqus.Part.PartModel.PartModel.Part:24 of
 msgid "A Part object."
+msgstr ""
+
+#: abaqus.Part.AcisFile.AcisFile.openAcis
+#: abaqus.Part.AcisFile.AcisFile.openCatia
+#: abaqus.Part.AcisFile.AcisFile.openEnf abaqus.Part.AcisFile.AcisFile.openIges
+#: abaqus.Part.AcisFile.AcisFile.openParasolid
+#: abaqus.Part.AcisFile.AcisFile.openStep abaqus.Part.AcisFile.AcisFile.openVda
+#: abaqus.Part.AcisMdb.AcisMdb.openAcis abaqus.Part.AcisMdb.AcisMdb.openCatia
+#: abaqus.Part.AcisMdb.AcisMdb.openEnf abaqus.Part.AcisMdb.AcisMdb.openIges
+#: abaqus.Part.AcisMdb.AcisMdb.openParasolid
+#: abaqus.Part.AcisMdb.AcisMdb.openStep abaqus.Part.AcisMdb.AcisMdb.openVda
+#: abaqus.Part.PartBase.PartBase.Part2DGeomFrom2DMesh
+#: abaqus.Part.PartBase.PartBase.PartFromBooleanCut
+#: abaqus.Part.PartBase.PartBase.PartFromBooleanMerge
+#: abaqus.Part.PartBase.PartBase.PartFromExtrude2DMesh
+#: abaqus.Part.PartBase.PartBase.PartFromGeometryFile
+#: abaqus.Part.PartBase.PartBase.PartFromInstanceMesh
+#: abaqus.Part.PartBase.PartBase.PartFromMesh
+#: abaqus.Part.PartBase.PartBase.PartFromMeshMirror
+#: abaqus.Part.PartBase.PartBase.PartFromNodesAndElements
+#: abaqus.Part.PartBase.PartBase.PartFromOdb
+#: abaqus.Part.PartBase.PartBase.PartFromSection3DMeshByPlane
+#: abaqus.Part.PartBase.PartBase.PartFromSubstructure
+#: abaqus.Part.PartBase.PartBase.getAngle abaqus.Part.PartBase.PartBase.getArea
+#: abaqus.Part.PartBase.PartBase.getAssociatedCADPaths
+#: abaqus.Part.PartBase.PartBase.getCADParameters
+#: abaqus.Part.PartBase.PartBase.getCentroid
+#: abaqus.Part.PartBase.PartBase.getCurvature
+#: abaqus.Part.PartBase.PartBase.getDistance
+#: abaqus.Part.PartBase.PartBase.getFeatureCells
+#: abaqus.Part.PartBase.PartBase.getFeatureEdges
+#: abaqus.Part.PartBase.PartBase.getFeatureFaces
+#: abaqus.Part.PartBase.PartBase.getFeatureVertices
+#: abaqus.Part.PartBase.PartBase.getLength
+#: abaqus.Part.PartBase.PartBase.getMassProperties
+#: abaqus.Part.PartBase.PartBase.getPerimeter
+#: abaqus.Part.PartBase.PartBase.getVolume
+#: abaqus.Part.PartBase.PartBase.isAlignedWithSketch
+#: abaqus.Part.PartBase.PartBase.queryAttributes
+#: abaqus.Part.PartBase.PartBase.queryGeometry
+#: abaqus.Part.PartBase.PartBase.queryRegionsMissingSections
+#: abaqus.Part.PartFeature.PartFeature.AddCells
+#: abaqus.Part.PartFeature.PartFeature.AnalyticRigidSurf2DPlanar
+#: abaqus.Part.PartFeature.PartFeature.AnalyticRigidSurfExtrude
+#: abaqus.Part.PartFeature.PartFeature.AnalyticRigidSurfRevolve
+#: abaqus.Part.PartFeature.PartFeature.AssignMidsurfaceRegion
+#: abaqus.Part.PartFeature.PartFeature.AutoRepair
+#: abaqus.Part.PartFeature.PartFeature.BaseShell
+#: abaqus.Part.PartFeature.PartFeature.BaseShellExtrude
+#: abaqus.Part.PartFeature.PartFeature.BaseShellRevolve
+#: abaqus.Part.PartFeature.PartFeature.BaseShellSweep
+#: abaqus.Part.PartFeature.PartFeature.BaseSolidExtrude
+#: abaqus.Part.PartFeature.PartFeature.BaseSolidRevolve
+#: abaqus.Part.PartFeature.PartFeature.BaseSolidSweep
+#: abaqus.Part.PartFeature.PartFeature.BaseWire
+#: abaqus.Part.PartFeature.PartFeature.BlendFaces
+#: abaqus.Part.PartFeature.PartFeature.Chamfer
+#: abaqus.Part.PartFeature.PartFeature.ConvertToAnalytical
+#: abaqus.Part.PartFeature.PartFeature.ConvertToPrecise
+#: abaqus.Part.PartFeature.PartFeature.CoverEdges
+#: abaqus.Part.PartFeature.PartFeature.Cut
+#: abaqus.Part.PartFeature.PartFeature.CutExtrude
+#: abaqus.Part.PartFeature.PartFeature.CutLoft
+#: abaqus.Part.PartFeature.PartFeature.CutRevolve
+#: abaqus.Part.PartFeature.PartFeature.CutSweep
+#: abaqus.Part.PartFeature.PartFeature.ExtendFaces
+#: abaqus.Part.PartFeature.PartFeature.FaceFromElementFaces
+#: abaqus.Part.PartFeature.PartFeature.HoleBlindFromEdges
+#: abaqus.Part.PartFeature.PartFeature.HoleFromEdges
+#: abaqus.Part.PartFeature.PartFeature.HoleThruAllFromEdges
+#: abaqus.Part.PartFeature.PartFeature.MergeEdges
+#: abaqus.Part.PartFeature.PartFeature.Mirror
+#: abaqus.Part.PartFeature.PartFeature.OffsetFaces
+#: abaqus.Part.PartFeature.PartFeature.RemoveCells
+#: abaqus.Part.PartFeature.PartFeature.RemoveFaces
+#: abaqus.Part.PartFeature.PartFeature.RemoveFacesAndStitch
+#: abaqus.Part.PartFeature.PartFeature.RemoveRedundantEntities
+#: abaqus.Part.PartFeature.PartFeature.RepairFaceNormals
+#: abaqus.Part.PartFeature.PartFeature.RepairInvalidEdges
+#: abaqus.Part.PartFeature.PartFeature.RepairSliver
+#: abaqus.Part.PartFeature.PartFeature.RepairSmallEdges
+#: abaqus.Part.PartFeature.PartFeature.RepairSmallFaces
+#: abaqus.Part.PartFeature.PartFeature.ReplaceFaces
+#: abaqus.Part.PartFeature.PartFeature.Round
+#: abaqus.Part.PartFeature.PartFeature.Shell
+#: abaqus.Part.PartFeature.PartFeature.ShellExtrude
+#: abaqus.Part.PartFeature.PartFeature.ShellLoft
+#: abaqus.Part.PartFeature.PartFeature.ShellRevolve
+#: abaqus.Part.PartFeature.PartFeature.ShellSweep
+#: abaqus.Part.PartFeature.PartFeature.SolidExtrude
+#: abaqus.Part.PartFeature.PartFeature.SolidLoft
+#: abaqus.Part.PartFeature.PartFeature.SolidRevolve
+#: abaqus.Part.PartFeature.PartFeature.SolidSweep
+#: abaqus.Part.PartFeature.PartFeature.Stitch
+#: abaqus.Part.PartFeature.PartFeature.Wire
+#: abaqus.Part.PartFeature.PartFeature.WireFromEdge
+#: abaqus.Part.PartFeature.PartFeature.WirePolyLine
+#: abaqus.Part.PartFeature.PartFeature.WireSpline
+#: abaqus.Part.PartModel.PartModel.Part of
+msgid "Return type"
 msgstr ""
 
 #: abaqus.Part.PartBase.PartBase.Part2DGeomFrom2DMesh:39
@@ -6567,25 +6500,6 @@ msgid ""
 "Check `AcisMdb on help.3ds.com/2022 <https://help.3ds.com/2022/English/DSS"
 "IMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "mdbpyc.htm?contextscope=all>`__."
-msgstr ""
-
-#: abaqus.Part.AcisMdb.AcisMdb:12 of
-msgid "This constructor creates an empty Mdb object."
-msgstr ""
-
-#: abaqus.Part.AcisMdb.AcisMdb:20 of
-msgid ""
-"A String specifying the path to be used when the model database is saved "
-"to a file. If you do not provide a file extension, .cae is appended "
-"automatically to the path. The default value is an empty string."
-msgstr ""
-
-#: abaqus.Part.AcisMdb.AcisMdb:25 of
-msgid "A Mdb object"
-msgstr ""
-
-#: abaqus.Part.AcisMdb.AcisMdb:26 of
-msgid ":class:`Mdb`"
 msgstr ""
 
 #: abaqus.Part.AcisMdb.AcisMdb.openAcis:10 of

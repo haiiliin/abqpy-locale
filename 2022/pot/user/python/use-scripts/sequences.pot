@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: abqpy 2022\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-15 05:54+0000\n"
+"POT-Creation-Date: 2023-10-06 02:35+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -32,50 +32,50 @@ msgstr ""
 msgid "The equivalent Abaqus Scripting Interface command is"
 msgstr ""
 
-#: ../../../user/python/use-scripts/sequences.md:25
+#: ../../../user/python/use-scripts/sequences.md:28
 msgid "The `table` argument is described in the {doc}`/reference/index` as a sequence of sequences of Floats."
 msgstr ""
 
-#: ../../../user/python/use-scripts/sequences.md:27
+#: ../../../user/python/use-scripts/sequences.md:30
 msgid "Lists, tuples, strings, and arrays are described in Sequences. In addition, the Abaqus Scripting Interface defines some of its own sequences that contain objects of the same type."
 msgstr ""
 
-#: ../../../user/python/use-scripts/sequences.md:29
+#: ../../../user/python/use-scripts/sequences.md:32
 msgid "**GeomSequence**"
 msgstr ""
 
-#: ../../../user/python/use-scripts/sequences.md:31
+#: ../../../user/python/use-scripts/sequences.md:34
 msgid "A GeomSequence is a sequence of geometry objects, such as Vertices or Edges. An Edge sequence is derived from the GeomSequence object. Use the len() function to determine the number of objects in a GeomSequence. A GeomSequence has methods and members too."
 msgstr ""
 
-#: ../../../user/python/use-scripts/sequences.md:33
+#: ../../../user/python/use-scripts/sequences.md:36
 msgid "For example, the following creates a three-dimensional part by extruding a 70 x 70 square through a distance of 20. The members of the resulting Part object are listed along with some information about the sequence of Edge objects."
 msgstr ""
 
-#: ../../../user/python/use-scripts/sequences.md:46
+#: ../../../user/python/use-scripts/sequences.md:48
 msgid "The following statement displays the members of the resulting three-dimensional part:"
 msgstr ""
 
-#: ../../../user/python/use-scripts/sequences.md:63
+#: ../../../user/python/use-scripts/sequences.md:65
 msgid "The edges, faces, vertices, cells, and ips members are all derived from the `GeomSequence` object."
 msgstr ""
 
-#: ../../../user/python/use-scripts/sequences.md:65
+#: ../../../user/python/use-scripts/sequences.md:67
 msgid "The following statements display some information about the edges sequence:"
 msgstr ""
 
-#: ../../../user/python/use-scripts/sequences.md:84
+#: ../../../user/python/use-scripts/sequences.md:83
 msgid "**MeshSequence**"
 msgstr ""
 
-#: ../../../user/python/use-scripts/sequences.md:86
+#: ../../../user/python/use-scripts/sequences.md:85
 msgid "A sequence of Nodes or Elements."
 msgstr ""
 
-#: ../../../user/python/use-scripts/sequences.md:88
+#: ../../../user/python/use-scripts/sequences.md:87
 msgid "**SurfSequence**"
 msgstr ""
 
-#: ../../../user/python/use-scripts/sequences.md:90
+#: ../../../user/python/use-scripts/sequences.md:89
 msgid "A sequence of Surfaces."
 msgstr ""

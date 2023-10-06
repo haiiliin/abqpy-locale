@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: abqpy 2022\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-14 01:59+0000\n"
+"POT-Creation-Date: 2023-10-06 02:35+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,207 +34,6 @@ msgstr ""
 
 #: ../../../../../src/abaqus/Canvas/Viewport.py:docstring of abaqus.Canvas.Viewport.Viewport:1
 msgid "Bases: :py:class:`~abaqus.Annotation.AnnotationViewport.AnnotationViewport`"
-msgstr ""
-
-#: ../../../../../src/abaqus/Canvas/CanvasSession.py:docstring of abaqus.Canvas.CanvasSession.CanvasSession.Viewport:1
-#: ../../../../../src/abaqus/Canvas/Viewport.py:docstring of abaqus.Canvas.Viewport.Viewport:1
-#: ../../../../../src/abaqus/Canvas/ViewportBase.py:docstring of abaqus.Canvas.ViewportBase.ViewportBase:12
-#: ../../../../None:25:<autosummary>:1
-msgid "This method creates a Viewport object with the specified origin and dimensions."
-msgstr ""
-
-#: ../../../../../src/abaqus/Canvas/AttributeColorMap.py:docstring of abaqus.Canvas.AttributeColorMap.AttributeColorMap:6
-#: ../../../../../src/abaqus/Canvas/AttributeColorMap.py:docstring of abaqus.Canvas.AttributeColorMap.AttributeColorMap:11
-#: ../../../../../src/abaqus/Canvas/AttributeColorMap.py:docstring of abaqus.Canvas.AttributeColorMap.AttributeColorMap.setValues:3
-#: ../../../../../src/abaqus/Canvas/AttributeColorMap.py:docstring of abaqus.Canvas.AttributeColorMap.AttributeColorMap.updateOverrides:3
-#: ../../../../../src/abaqus/Canvas/CanvasSession.py:docstring of abaqus.Canvas.CanvasSession.CanvasSession.Viewport:3
-#: ../../../../../src/abaqus/Canvas/CanvasSession.py:docstring of abaqus.Canvas.CanvasSession.CanvasSession.Viewport:8
-#: ../../../../../src/abaqus/Canvas/DrawingArea.py:docstring of abaqus.Canvas.DrawingArea.DrawingArea:4
-#: ../../../../../src/abaqus/Canvas/DrawingArea.py:docstring of abaqus.Canvas.DrawingArea.DrawingArea:9
-#: ../../../../../src/abaqus/Canvas/Highlight.py:docstring of abaqus.Canvas.Highlight.highlight:3
-#: ../../../../../src/abaqus/Canvas/Highlight.py:docstring of abaqus.Canvas.Highlight.highlight:8
-#: ../../../../../src/abaqus/Canvas/Highlight.py:docstring of abaqus.Canvas.Highlight.unhighlight:3
-#: ../../../../../src/abaqus/Canvas/Highlight.py:docstring of abaqus.Canvas.Highlight.unhighlight:8
-#: ../../../../../src/abaqus/Canvas/ImageOptions.py:docstring of abaqus.Canvas.ImageOptions.ImageOptions:6
-#: ../../../../../src/abaqus/Canvas/ImageOptions.py:docstring of abaqus.Canvas.ImageOptions.ImageOptions:11
-#: ../../../../../src/abaqus/Canvas/ImageOptions.py:docstring of abaqus.Canvas.ImageOptions.ImageOptions.setValues:3
-#: ../../../../../src/abaqus/Canvas/Layer.py:docstring of abaqus.Canvas.Layer.Layer:3
-#: ../../../../../src/abaqus/Canvas/Layer.py:docstring of abaqus.Canvas.Layer.Layer:8
-#: ../../../../../src/abaqus/Canvas/Layer.py:docstring of abaqus.Canvas.Layer.Layer:13
-#: ../../../../../src/abaqus/Canvas/Layer.py:docstring of abaqus.Canvas.Layer.Layer.moveAfter:3
-#: ../../../../../src/abaqus/Canvas/Layer.py:docstring of abaqus.Canvas.Layer.Layer.moveBefore:3
-#: ../../../../../src/abaqus/Canvas/MovieOptions.py:docstring of abaqus.Canvas.MovieOptions.MovieOptions:7
-#: ../../../../../src/abaqus/Canvas/MovieOptions.py:docstring of abaqus.Canvas.MovieOptions.MovieOptions:12
-#: ../../../../../src/abaqus/Canvas/MovieOptions.py:docstring of abaqus.Canvas.MovieOptions.MovieOptions.setValues:3
-#: ../../../../../src/abaqus/Canvas/Viewport.py:docstring of abaqus.Canvas.Viewport.Viewport:3
-#: ../../../../../src/abaqus/Canvas/Viewport.py:docstring of abaqus.Canvas.Viewport.Viewport.Layer:3
-#: ../../../../../src/abaqus/Canvas/Viewport.py:docstring of abaqus.Canvas.Viewport.Viewport.Layer:8
-#: ../../../../../src/abaqus/Canvas/ViewportBase.py:docstring of abaqus.Canvas.ViewportBase.ViewportBase:4
-#: ../../../../../src/abaqus/Canvas/ViewportBase.py:docstring of abaqus.Canvas.ViewportBase.ViewportBase:9
-#: ../../../../../src/abaqus/Canvas/ViewportBase.py:docstring of abaqus.Canvas.ViewportBase.ViewportBase:14
-#: ../../../../../src/abaqus/Canvas/ViewportBase.py:docstring of abaqus.Canvas.ViewportBase.ViewportBase.addDrawings:3
-#: ../../../../../src/abaqus/Canvas/ViewportBase.py:docstring of abaqus.Canvas.ViewportBase.ViewportBase.getActiveElementLabels:5
-#: ../../../../../src/abaqus/Canvas/ViewportBase.py:docstring of abaqus.Canvas.ViewportBase.ViewportBase.getActiveNodeLabels:5
-#: ../../../../../src/abaqus/Canvas/ViewportBase.py:docstring of abaqus.Canvas.ViewportBase.ViewportBase.offset:3
-#: ../../../../../src/abaqus/Canvas/ViewportBase.py:docstring of abaqus.Canvas.ViewportBase.ViewportBase.removeDrawings:3
-#: ../../../../../src/abaqus/Canvas/ViewportBase.py:docstring of abaqus.Canvas.ViewportBase.ViewportBase.setValues:5
-#: ../../../../../src/abaqus/Canvas/ViewportBase.py:docstring of abaqus.Canvas.ViewportBase.ViewportBase.timeDisplay:7
-msgid "Note"
-msgstr ""
-
-#: ../../../../../src/abaqus/Canvas/CanvasSession.py:docstring of abaqus.Canvas.CanvasSession.CanvasSession.Viewport:4
-#: ../../../../../src/abaqus/Canvas/Highlight.py:docstring of abaqus.Canvas.Highlight.highlight:4
-#: ../../../../../src/abaqus/Canvas/Highlight.py:docstring of abaqus.Canvas.Highlight.unhighlight:4
-#: ../../../../../src/abaqus/Canvas/Layer.py:docstring of abaqus.Canvas.Layer.Layer:14
-#: ../../../../../src/abaqus/Canvas/Viewport.py:docstring of abaqus.Canvas.Viewport.Viewport:4
-#: ../../../../../src/abaqus/Canvas/Viewport.py:docstring of abaqus.Canvas.Viewport.Viewport.Layer:4
-#: ../../../../../src/abaqus/Canvas/ViewportBase.py:docstring of abaqus.Canvas.ViewportBase.ViewportBase:15
-msgid "This function can be accessed by::"
-msgstr ""
-
-#: ../../../../../src/abaqus/Canvas/AttributeColorMap.py:docstring of abaqus.Canvas.AttributeColorMap.AttributeColorMap.setValues:0
-#: ../../../../../src/abaqus/Canvas/AttributeColorMap.py:docstring of abaqus.Canvas.AttributeColorMap.AttributeColorMap.updateOverrides:0
-#: ../../../../../src/abaqus/Canvas/CanvasSession.py:docstring of abaqus.Canvas.CanvasSession.CanvasSession.Viewport:0
-#: ../../../../../src/abaqus/Canvas/Highlight.py:docstring of abaqus.Canvas.Highlight.highlight:0
-#: ../../../../../src/abaqus/Canvas/Highlight.py:docstring of abaqus.Canvas.Highlight.unhighlight:0
-#: ../../../../../src/abaqus/Canvas/ImageOptions.py:docstring of abaqus.Canvas.ImageOptions.ImageOptions.setValues:0
-#: ../../../../../src/abaqus/Canvas/Layer.py:docstring of abaqus.Canvas.Layer.Layer:0
-#: ../../../../../src/abaqus/Canvas/Layer.py:docstring of abaqus.Canvas.Layer.Layer.moveAfter:0
-#: ../../../../../src/abaqus/Canvas/Layer.py:docstring of abaqus.Canvas.Layer.Layer.moveBefore:0
-#: ../../../../../src/abaqus/Canvas/MovieOptions.py:docstring of abaqus.Canvas.MovieOptions.MovieOptions.setValues:0
-#: ../../../../../src/abaqus/Canvas/Viewport.py:docstring of abaqus.Canvas.Viewport.Viewport:0
-#: ../../../../../src/abaqus/Canvas/Viewport.py:docstring of abaqus.Canvas.Viewport.Viewport.Layer:0
-#: ../../../../../src/abaqus/Canvas/ViewportBase.py:docstring of abaqus.Canvas.ViewportBase.ViewportBase:0
-#: ../../../../../src/abaqus/Canvas/ViewportBase.py:docstring of abaqus.Canvas.ViewportBase.ViewportBase.addDrawings:0
-#: ../../../../../src/abaqus/Canvas/ViewportBase.py:docstring of abaqus.Canvas.ViewportBase.ViewportBase.getActiveElementLabels:0
-#: ../../../../../src/abaqus/Canvas/ViewportBase.py:docstring of abaqus.Canvas.ViewportBase.ViewportBase.getActiveNodeLabels:0
-#: ../../../../../src/abaqus/Canvas/ViewportBase.py:docstring of abaqus.Canvas.ViewportBase.ViewportBase.offset:0
-#: ../../../../../src/abaqus/Canvas/ViewportBase.py:docstring of abaqus.Canvas.ViewportBase.ViewportBase.removeDrawings:0
-#: ../../../../../src/abaqus/Canvas/ViewportBase.py:docstring of abaqus.Canvas.ViewportBase.ViewportBase.setValues:0
-#: ../../../../../src/abaqus/Canvas/ViewportBase.py:docstring of abaqus.Canvas.ViewportBase.ViewportBase.timeDisplay:0
-msgid "Parameters"
-msgstr ""
-
-#: ../../../../../src/abaqus/Canvas/CanvasSession.py:docstring of abaqus.Canvas.CanvasSession.CanvasSession.Viewport:12
-#: ../../../../../src/abaqus/Canvas/Layer.py:docstring of abaqus.Canvas.Layer.Layer:19
-#: ../../../../../src/abaqus/Canvas/Viewport.py:docstring of abaqus.Canvas.Viewport.Viewport:9
-#: ../../../../../src/abaqus/Canvas/Viewport.py:docstring of abaqus.Canvas.Viewport.Viewport.Layer:12
-#: ../../../../../src/abaqus/Canvas/ViewportBase.py:docstring of abaqus.Canvas.ViewportBase.ViewportBase:20
-#: ../../../../None:41:<autosummary>:1
-#: ../../../../docstring of abaqus.Canvas.ViewportBase.Layer.name:1
-#: ../../../../docstring of abaqus.Canvas.ViewportBase.ViewportBase.name:1
-msgid "A String specifying the repository key."
-msgstr ""
-
-#: ../../../../../src/abaqus/Canvas/CanvasSession.py:docstring of abaqus.Canvas.CanvasSession.CanvasSession.Viewport:14
-#: ../../../../../src/abaqus/Canvas/Viewport.py:docstring of abaqus.Canvas.Viewport.Viewport:11
-#: ../../../../../src/abaqus/Canvas/ViewportBase.py:docstring of abaqus.Canvas.ViewportBase.ViewportBase:22
-#: ../../../../docstring of abaqus.Canvas.ViewportBase.ViewportBase.origin:1
-msgid "A pair of Floats specifying the **X**  and **Y** coordinates in millimeters in the canvas coordinate system of the lower left corner of the viewport. The default origin is (0, 0)."
-msgstr ""
-
-#: ../../../../../src/abaqus/Canvas/CanvasSession.py:docstring of abaqus.Canvas.CanvasSession.CanvasSession.Viewport:18
-#: ../../../../../src/abaqus/Canvas/Viewport.py:docstring of abaqus.Canvas.Viewport.Viewport:15
-#: ../../../../../src/abaqus/Canvas/ViewportBase.py:docstring of abaqus.Canvas.ViewportBase.ViewportBase:26
-msgid "A Float specifying the width in millimeters of the viewport. Possible values are 30 ≤ **width** ≤ (*maxWidth*). The default value is 120.0. Note: The maximum value of width (*maxWidth*) is the width of the screen in millimeters."
-msgstr ""
-
-#: ../../../../../src/abaqus/Canvas/CanvasSession.py:docstring of abaqus.Canvas.CanvasSession.CanvasSession.Viewport:22
-#: ../../../../../src/abaqus/Canvas/Viewport.py:docstring of abaqus.Canvas.Viewport.Viewport:19
-#: ../../../../../src/abaqus/Canvas/ViewportBase.py:docstring of abaqus.Canvas.ViewportBase.ViewportBase:30
-#: ../../../../docstring of abaqus.Canvas.ViewportBase.ViewportBase.height:1
-msgid "A Float specifying the height in millimeters of the viewport. This height includes the title bar. Possible values are 30 ≤ **height** ≤ (*maxHeight*). The default value is 80.0. Note: The maximum value of height (*maxHeight*) is the height of the screen in millimeters."
-msgstr ""
-
-#: ../../../../../src/abaqus/Canvas/CanvasSession.py:docstring of abaqus.Canvas.CanvasSession.CanvasSession.Viewport:27
-#: ../../../../../src/abaqus/Canvas/Viewport.py:docstring of abaqus.Canvas.Viewport.Viewport:24
-#: ../../../../../src/abaqus/Canvas/ViewportBase.py:docstring of abaqus.Canvas.ViewportBase.ViewportBase:35
-#: ../../../../docstring of abaqus.Canvas.ViewportBase.ViewportBase.border:1
-msgid "A Boolean specifying whether the viewport border is visible in a printed image. The default value is ON."
-msgstr ""
-
-#: ../../../../../src/abaqus/Canvas/CanvasSession.py:docstring of abaqus.Canvas.CanvasSession.CanvasSession.Viewport:30
-#: ../../../../../src/abaqus/Canvas/Viewport.py:docstring of abaqus.Canvas.Viewport.Viewport:27
-#: ../../../../../src/abaqus/Canvas/ViewportBase.py:docstring of abaqus.Canvas.ViewportBase.ViewportBase:38
-#: ../../../../docstring of abaqus.Canvas.ViewportBase.ViewportBase.titleBar:1
-msgid "A Boolean specifying whether the viewport title should be displayed in a printed image. The default value is ON.If **border** = OFF, the title will not be visible, even if **titleBar** =ON."
-msgstr ""
-
-#: ../../../../../src/abaqus/Canvas/CanvasSession.py:docstring of abaqus.Canvas.CanvasSession.CanvasSession.Viewport:34
-#: ../../../../../src/abaqus/Canvas/Viewport.py:docstring of abaqus.Canvas.Viewport.Viewport:31
-#: ../../../../../src/abaqus/Canvas/ViewportBase.py:docstring of abaqus.Canvas.ViewportBase.ViewportBase:42
-#: ../../../../docstring of abaqus.Canvas.ViewportBase.ViewportBase.titleStyle:1
-msgid "A SymbolicConstant specifying which title to use for the viewport title. Possible values are CUSTOM and SYSTEM. The default value is SYSTEM.If **titleStyle** = CUSTOM, **customTitleString** will be used. If **titleStyle** =  SYSTEM, a system-generated string will be used."
-msgstr ""
-
-#: ../../../../../src/abaqus/Canvas/CanvasSession.py:docstring of abaqus.Canvas.CanvasSession.CanvasSession.Viewport:39
-#: ../../../../../src/abaqus/Canvas/Viewport.py:docstring of abaqus.Canvas.Viewport.Viewport:36
-#: ../../../../../src/abaqus/Canvas/ViewportBase.py:docstring of abaqus.Canvas.ViewportBase.ViewportBase:47
-#: ../../../../docstring of abaqus.Canvas.ViewportBase.ViewportBase.customTitleString:1
-msgid "A String specifying the viewport title when **titleStyle** =CUSTOM. The default value is an empty string."
-msgstr ""
-
-#: ../../../../../src/abaqus/Canvas/CanvasSession.py:docstring of abaqus.Canvas.CanvasSession.CanvasSession.Viewport:0
-#: ../../../../../src/abaqus/Canvas/Layer.py:docstring of abaqus.Canvas.Layer.Layer:0
-#: ../../../../../src/abaqus/Canvas/Viewport.py:docstring of abaqus.Canvas.Viewport.Viewport:0
-#: ../../../../../src/abaqus/Canvas/Viewport.py:docstring of abaqus.Canvas.Viewport.Viewport.Layer:0
-#: ../../../../../src/abaqus/Canvas/ViewportBase.py:docstring of abaqus.Canvas.ViewportBase.ViewportBase:0
-#: ../../../../../src/abaqus/Canvas/ViewportBase.py:docstring of abaqus.Canvas.ViewportBase.ViewportBase.getActiveElementLabels:0
-#: ../../../../../src/abaqus/Canvas/ViewportBase.py:docstring of abaqus.Canvas.ViewportBase.ViewportBase.getActiveNodeLabels:0
-#: ../../../../../src/abaqus/Canvas/ViewportBase.py:docstring of abaqus.Canvas.ViewportBase.ViewportBase.getPrimVarMinMaxLoc:0
-msgid "Returns"
-msgstr ""
-
-#: ../../../../../src/abaqus/Canvas/CanvasSession.py:docstring of abaqus.Canvas.CanvasSession.CanvasSession.Viewport:42
-#: ../../../../../src/abaqus/Canvas/Viewport.py:docstring of abaqus.Canvas.Viewport.Viewport:39
-#: ../../../../../src/abaqus/Canvas/ViewportBase.py:docstring of abaqus.Canvas.ViewportBase.ViewportBase:50
-msgid "A Viewport object."
-msgstr ""
-
-#: ../../../../../src/abaqus/Canvas/CanvasSession.py:docstring of abaqus.Canvas.CanvasSession.CanvasSession.Viewport:0
-#: ../../../../../src/abaqus/Canvas/Layer.py:docstring of abaqus.Canvas.Layer.Layer:0
-#: ../../../../../src/abaqus/Canvas/Viewport.py:docstring of abaqus.Canvas.Viewport.Viewport:0
-#: ../../../../../src/abaqus/Canvas/Viewport.py:docstring of abaqus.Canvas.Viewport.Viewport.Layer:0
-#: ../../../../../src/abaqus/Canvas/ViewportBase.py:docstring of abaqus.Canvas.ViewportBase.ViewportBase:0
-#: ../../../../../src/abaqus/Canvas/ViewportBase.py:docstring of abaqus.Canvas.ViewportBase.ViewportBase.getActiveElementLabels:0
-#: ../../../../../src/abaqus/Canvas/ViewportBase.py:docstring of abaqus.Canvas.ViewportBase.ViewportBase.getActiveNodeLabels:0
-#: ../../../../../src/abaqus/Canvas/ViewportBase.py:docstring of abaqus.Canvas.ViewportBase.ViewportBase.getPrimVarMinMaxLoc:0
-msgid "Return type"
-msgstr ""
-
-#: ../../../../../src/abaqus/Canvas/CanvasSession.py:docstring of abaqus.Canvas.CanvasSession.CanvasSession.Viewport:43
-#: ../../../../../src/abaqus/Canvas/Viewport.py:docstring of abaqus.Canvas.Viewport.Viewport:40
-#: ../../../../../src/abaqus/Canvas/ViewportBase.py:docstring of abaqus.Canvas.ViewportBase.ViewportBase:51
-msgid ":class:`Viewport`"
-msgstr ""
-
-#: ../../../../../src/abaqus/Canvas/CanvasSession.py:docstring of abaqus.Canvas.CanvasSession.CanvasSession.Viewport:0
-#: ../../../../../src/abaqus/Canvas/ImageOptions.py:docstring of abaqus.Canvas.ImageOptions.ImageOptions.setValues:0
-#: ../../../../../src/abaqus/Canvas/MovieOptions.py:docstring of abaqus.Canvas.MovieOptions.MovieOptions.setValues:0
-#: ../../../../../src/abaqus/Canvas/Viewport.py:docstring of abaqus.Canvas.Viewport.Viewport:0
-#: ../../../../../src/abaqus/Canvas/ViewportBase.py:docstring of abaqus.Canvas.ViewportBase.ViewportBase:0
-#: ../../../../../src/abaqus/Canvas/ViewportBase.py:docstring of abaqus.Canvas.ViewportBase.ViewportBase.addDrawings:0
-#: ../../../../../src/abaqus/Canvas/ViewportBase.py:docstring of abaqus.Canvas.ViewportBase.ViewportBase.removeDrawings:0
-#: ../../../../../src/abaqus/Canvas/ViewportBase.py:docstring of abaqus.Canvas.ViewportBase.ViewportBase.setValues:0
-msgid "Raises"
-msgstr ""
-
-#: ../../../../../src/abaqus/Canvas/CanvasSession.py:docstring of abaqus.Canvas.CanvasSession.CanvasSession.Viewport:45
-#: ../../../../../src/abaqus/Canvas/Viewport.py:docstring of abaqus.Canvas.Viewport.Viewport:42
-#: ../../../../../src/abaqus/Canvas/ViewportBase.py:docstring of abaqus.Canvas.ViewportBase.ViewportBase:53
-msgid "the current viewport may not be deleted, If the user attempts to delete the only viewport."
-msgstr ""
-
-#: ../../../../../src/abaqus/Canvas/CanvasSession.py:docstring of abaqus.Canvas.CanvasSession.CanvasSession.Viewport:46
-#: ../../../../../src/abaqus/Canvas/Viewport.py:docstring of abaqus.Canvas.Viewport.Viewport:43
-#: ../../../../../src/abaqus/Canvas/ViewportBase.py:docstring of abaqus.Canvas.ViewportBase.ViewportBase:54
-msgid "If **width** is out of range."
-msgstr ""
-
-#: ../../../../../src/abaqus/Canvas/CanvasSession.py:docstring of abaqus.Canvas.CanvasSession.CanvasSession.Viewport:47
-#: ../../../../../src/abaqus/Canvas/Viewport.py:docstring of abaqus.Canvas.Viewport.Viewport:44
-#: ../../../../../src/abaqus/Canvas/ViewportBase.py:docstring of abaqus.Canvas.ViewportBase.ViewportBase:55
-msgid "If **height** is out of range."
 msgstr ""
 
 #: ../../../../../src/abaqus/Canvas/Viewport.py:docstring of abaqus.Canvas.Viewport.Viewport:0
@@ -537,6 +336,14 @@ msgstr ""
 msgid ":py:obj:`name <abaqus.Canvas.ViewportBase.ViewportBase.name>`\\"
 msgstr ""
 
+#: ../../../../../src/abaqus/Canvas/CanvasSession.py:docstring of abaqus.Canvas.CanvasSession.CanvasSession.Viewport:12
+#: ../../../../../src/abaqus/Canvas/Viewport.py:docstring of abaqus.Canvas.Viewport.Viewport.Layer:12
+#: ../../../../None:41:<autosummary>:1
+#: ../../../../docstring of abaqus.Canvas.ViewportBase.Layer.name:1
+#: ../../../../docstring of abaqus.Canvas.ViewportBase.ViewportBase.name:1
+msgid "A String specifying the repository key."
+msgstr ""
+
 #: ../../../../None:41:<autosummary>:1
 msgid ":py:obj:`displayMode <abaqus.Canvas.ViewportBase.ViewportBase.displayMode>`\\"
 msgstr ""
@@ -578,7 +385,6 @@ msgstr ""
 msgid ":py:obj:`Layer <abaqus.Canvas.Viewport.Viewport.Layer>`\\ \\(name\\[\\, copyViewName\\]\\)"
 msgstr ""
 
-#: ../../../../../src/abaqus/Canvas/Layer.py:docstring of abaqus.Canvas.Layer.Layer:11
 #: ../../../../../src/abaqus/Canvas/Viewport.py:docstring of abaqus.Canvas.Viewport.Viewport.Layer:1
 #: ../../../../None:3:<autosummary>:1
 msgid "This method creates a Layer object in the Layer repository."
@@ -594,6 +400,11 @@ msgstr ""
 
 #: ../../../../None:25:<autosummary>:1
 msgid ":py:obj:`__init__ <abaqus.Canvas.ViewportBase.ViewportBase.__init__>`\\ \\(name\\[\\, origin\\, width\\, height\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../../../src/abaqus/Canvas/CanvasSession.py:docstring of abaqus.Canvas.CanvasSession.CanvasSession.Viewport:1
+#: ../../../../None:25:<autosummary>:1
+msgid "This method creates a Viewport object with the specified origin and dimensions."
 msgstr ""
 
 #: ../../../../None:25:<autosummary>:1
@@ -813,23 +624,99 @@ msgstr ""
 msgid "Member Details:"
 msgstr ""
 
+#: ../../../../../src/abaqus/Canvas/AttributeColorMap.py:docstring of abaqus.Canvas.AttributeColorMap.AttributeColorMap:6
+#: ../../../../../src/abaqus/Canvas/AttributeColorMap.py:docstring of abaqus.Canvas.AttributeColorMap.AttributeColorMap:11
+#: ../../../../../src/abaqus/Canvas/AttributeColorMap.py:docstring of abaqus.Canvas.AttributeColorMap.AttributeColorMap.setValues:3
+#: ../../../../../src/abaqus/Canvas/AttributeColorMap.py:docstring of abaqus.Canvas.AttributeColorMap.AttributeColorMap.updateOverrides:3
+#: ../../../../../src/abaqus/Canvas/CanvasSession.py:docstring of abaqus.Canvas.CanvasSession.CanvasSession.Viewport:3
+#: ../../../../../src/abaqus/Canvas/CanvasSession.py:docstring of abaqus.Canvas.CanvasSession.CanvasSession.Viewport:8
+#: ../../../../../src/abaqus/Canvas/DrawingArea.py:docstring of abaqus.Canvas.DrawingArea.DrawingArea:4
+#: ../../../../../src/abaqus/Canvas/DrawingArea.py:docstring of abaqus.Canvas.DrawingArea.DrawingArea:9
+#: ../../../../../src/abaqus/Canvas/Highlight.py:docstring of abaqus.Canvas.Highlight.highlight:3
+#: ../../../../../src/abaqus/Canvas/Highlight.py:docstring of abaqus.Canvas.Highlight.highlight:8
+#: ../../../../../src/abaqus/Canvas/Highlight.py:docstring of abaqus.Canvas.Highlight.unhighlight:3
+#: ../../../../../src/abaqus/Canvas/Highlight.py:docstring of abaqus.Canvas.Highlight.unhighlight:8
+#: ../../../../../src/abaqus/Canvas/ImageOptions.py:docstring of abaqus.Canvas.ImageOptions.ImageOptions:6
+#: ../../../../../src/abaqus/Canvas/ImageOptions.py:docstring of abaqus.Canvas.ImageOptions.ImageOptions:11
+#: ../../../../../src/abaqus/Canvas/ImageOptions.py:docstring of abaqus.Canvas.ImageOptions.ImageOptions.setValues:3
+#: ../../../../../src/abaqus/Canvas/Layer.py:docstring of abaqus.Canvas.Layer.Layer:3
+#: ../../../../../src/abaqus/Canvas/Layer.py:docstring of abaqus.Canvas.Layer.Layer:8
+#: ../../../../../src/abaqus/Canvas/Layer.py:docstring of abaqus.Canvas.Layer.Layer.moveAfter:3
+#: ../../../../../src/abaqus/Canvas/Layer.py:docstring of abaqus.Canvas.Layer.Layer.moveBefore:3
+#: ../../../../../src/abaqus/Canvas/MovieOptions.py:docstring of abaqus.Canvas.MovieOptions.MovieOptions:7
+#: ../../../../../src/abaqus/Canvas/MovieOptions.py:docstring of abaqus.Canvas.MovieOptions.MovieOptions:12
+#: ../../../../../src/abaqus/Canvas/MovieOptions.py:docstring of abaqus.Canvas.MovieOptions.MovieOptions.setValues:3
+#: ../../../../../src/abaqus/Canvas/Viewport.py:docstring of abaqus.Canvas.Viewport.Viewport.Layer:3
+#: ../../../../../src/abaqus/Canvas/Viewport.py:docstring of abaqus.Canvas.Viewport.Viewport.Layer:8
+#: ../../../../../src/abaqus/Canvas/ViewportBase.py:docstring of abaqus.Canvas.ViewportBase.ViewportBase:4
+#: ../../../../../src/abaqus/Canvas/ViewportBase.py:docstring of abaqus.Canvas.ViewportBase.ViewportBase:9
+#: ../../../../../src/abaqus/Canvas/ViewportBase.py:docstring of abaqus.Canvas.ViewportBase.ViewportBase.addDrawings:3
+#: ../../../../../src/abaqus/Canvas/ViewportBase.py:docstring of abaqus.Canvas.ViewportBase.ViewportBase.getActiveElementLabels:5
+#: ../../../../../src/abaqus/Canvas/ViewportBase.py:docstring of abaqus.Canvas.ViewportBase.ViewportBase.getActiveNodeLabels:5
+#: ../../../../../src/abaqus/Canvas/ViewportBase.py:docstring of abaqus.Canvas.ViewportBase.ViewportBase.offset:3
+#: ../../../../../src/abaqus/Canvas/ViewportBase.py:docstring of abaqus.Canvas.ViewportBase.ViewportBase.removeDrawings:3
+#: ../../../../../src/abaqus/Canvas/ViewportBase.py:docstring of abaqus.Canvas.ViewportBase.ViewportBase.setValues:5
+#: ../../../../../src/abaqus/Canvas/ViewportBase.py:docstring of abaqus.Canvas.ViewportBase.ViewportBase.timeDisplay:7
+msgid "Note"
+msgstr ""
+
+#: ../../../../../src/abaqus/Canvas/CanvasSession.py:docstring of abaqus.Canvas.CanvasSession.CanvasSession.Viewport:4
+#: ../../../../../src/abaqus/Canvas/Highlight.py:docstring of abaqus.Canvas.Highlight.highlight:4
+#: ../../../../../src/abaqus/Canvas/Highlight.py:docstring of abaqus.Canvas.Highlight.unhighlight:4
+#: ../../../../../src/abaqus/Canvas/Viewport.py:docstring of abaqus.Canvas.Viewport.Viewport.Layer:4
+msgid "This function can be accessed by::"
+msgstr ""
+
 #: ../../../../../src/abaqus/Canvas/Layer.py:docstring of abaqus.Canvas.Layer.Layer:9
 #: ../../../../../src/abaqus/Canvas/Viewport.py:docstring of abaqus.Canvas.Viewport.Viewport.Layer:9
 msgid "Check `Layer on help.3ds.com/2022 <https://help.3ds.com/2022/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-layerpyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: ../../../../../src/abaqus/Canvas/Layer.py:docstring of abaqus.Canvas.Layer.Layer:21
+#: ../../../../../src/abaqus/Canvas/AttributeColorMap.py:docstring of abaqus.Canvas.AttributeColorMap.AttributeColorMap.setValues:0
+#: ../../../../../src/abaqus/Canvas/AttributeColorMap.py:docstring of abaqus.Canvas.AttributeColorMap.AttributeColorMap.updateOverrides:0
+#: ../../../../../src/abaqus/Canvas/CanvasSession.py:docstring of abaqus.Canvas.CanvasSession.CanvasSession.Viewport:0
+#: ../../../../../src/abaqus/Canvas/Highlight.py:docstring of abaqus.Canvas.Highlight.highlight:0
+#: ../../../../../src/abaqus/Canvas/Highlight.py:docstring of abaqus.Canvas.Highlight.unhighlight:0
+#: ../../../../../src/abaqus/Canvas/ImageOptions.py:docstring of abaqus.Canvas.ImageOptions.ImageOptions.setValues:0
+#: ../../../../../src/abaqus/Canvas/Layer.py:docstring of abaqus.Canvas.Layer.Layer.moveAfter:0
+#: ../../../../../src/abaqus/Canvas/Layer.py:docstring of abaqus.Canvas.Layer.Layer.moveBefore:0
+#: ../../../../../src/abaqus/Canvas/MovieOptions.py:docstring of abaqus.Canvas.MovieOptions.MovieOptions.setValues:0
+#: ../../../../../src/abaqus/Canvas/Viewport.py:docstring of abaqus.Canvas.Viewport.Viewport.Layer:0
+#: ../../../../../src/abaqus/Canvas/ViewportBase.py:docstring of abaqus.Canvas.ViewportBase.ViewportBase.addDrawings:0
+#: ../../../../../src/abaqus/Canvas/ViewportBase.py:docstring of abaqus.Canvas.ViewportBase.ViewportBase.getActiveElementLabels:0
+#: ../../../../../src/abaqus/Canvas/ViewportBase.py:docstring of abaqus.Canvas.ViewportBase.ViewportBase.getActiveNodeLabels:0
+#: ../../../../../src/abaqus/Canvas/ViewportBase.py:docstring of abaqus.Canvas.ViewportBase.ViewportBase.offset:0
+#: ../../../../../src/abaqus/Canvas/ViewportBase.py:docstring of abaqus.Canvas.ViewportBase.ViewportBase.removeDrawings:0
+#: ../../../../../src/abaqus/Canvas/ViewportBase.py:docstring of abaqus.Canvas.ViewportBase.ViewportBase.setValues:0
+#: ../../../../../src/abaqus/Canvas/ViewportBase.py:docstring of abaqus.Canvas.ViewportBase.ViewportBase.timeDisplay:0
+msgid "Parameters"
+msgstr ""
+
 #: ../../../../../src/abaqus/Canvas/Viewport.py:docstring of abaqus.Canvas.Viewport.Viewport.Layer:14
 #: ../../../../docstring of abaqus.Canvas.ViewportBase.Layer.copyViewName:1
 msgid "A String specifying the name of the layer to copy."
 msgstr ""
 
-#: ../../../../../src/abaqus/Canvas/Layer.py:docstring of abaqus.Canvas.Layer.Layer:23
+#: ../../../../../src/abaqus/Canvas/CanvasSession.py:docstring of abaqus.Canvas.CanvasSession.CanvasSession.Viewport:0
+#: ../../../../../src/abaqus/Canvas/Viewport.py:docstring of abaqus.Canvas.Viewport.Viewport.Layer:0
+#: ../../../../../src/abaqus/Canvas/ViewportBase.py:docstring of abaqus.Canvas.ViewportBase.ViewportBase.getActiveElementLabels:0
+#: ../../../../../src/abaqus/Canvas/ViewportBase.py:docstring of abaqus.Canvas.ViewportBase.ViewportBase.getActiveNodeLabels:0
+#: ../../../../../src/abaqus/Canvas/ViewportBase.py:docstring of abaqus.Canvas.ViewportBase.ViewportBase.getPrimVarMinMaxLoc:0
+msgid "Returns"
+msgstr ""
+
 #: ../../../../../src/abaqus/Canvas/Viewport.py:docstring of abaqus.Canvas.Viewport.Viewport.Layer:16
 msgid "A Layer object."
 msgstr ""
 
-#: ../../../../../src/abaqus/Canvas/Layer.py:docstring of abaqus.Canvas.Layer.Layer:24
+#: ../../../../../src/abaqus/Canvas/CanvasSession.py:docstring of abaqus.Canvas.CanvasSession.CanvasSession.Viewport:0
+#: ../../../../../src/abaqus/Canvas/Viewport.py:docstring of abaqus.Canvas.Viewport.Viewport.Layer:0
+#: ../../../../../src/abaqus/Canvas/ViewportBase.py:docstring of abaqus.Canvas.ViewportBase.ViewportBase.getActiveElementLabels:0
+#: ../../../../../src/abaqus/Canvas/ViewportBase.py:docstring of abaqus.Canvas.ViewportBase.ViewportBase.getActiveNodeLabels:0
+#: ../../../../../src/abaqus/Canvas/ViewportBase.py:docstring of abaqus.Canvas.ViewportBase.ViewportBase.getPrimVarMinMaxLoc:0
+msgid "Return type"
+msgstr ""
+
 #: ../../../../../src/abaqus/Canvas/Viewport.py:docstring of abaqus.Canvas.Viewport.Viewport.Layer:17
 msgid ":class:`Layer`"
 msgstr ""
@@ -918,6 +805,69 @@ msgstr ""
 
 #: ../../../../../src/abaqus/Canvas/CanvasSession.py:docstring of abaqus.Canvas.CanvasSession.CanvasSession.Viewport:9
 msgid "Check `Viewport on help.3ds.com/2022 <https://help.3ds.com/2022/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-viewportpyc.htm?contextscope=all>`__."
+msgstr ""
+
+#: ../../../../../src/abaqus/Canvas/CanvasSession.py:docstring of abaqus.Canvas.CanvasSession.CanvasSession.Viewport:14
+#: ../../../../docstring of abaqus.Canvas.ViewportBase.ViewportBase.origin:1
+msgid "A pair of Floats specifying the **X**  and **Y** coordinates in millimeters in the canvas coordinate system of the lower left corner of the viewport. The default origin is (0, 0)."
+msgstr ""
+
+#: ../../../../../src/abaqus/Canvas/CanvasSession.py:docstring of abaqus.Canvas.CanvasSession.CanvasSession.Viewport:18
+msgid "A Float specifying the width in millimeters of the viewport. Possible values are 30 ≤ **width** ≤ (*maxWidth*). The default value is 120.0. Note: The maximum value of width (*maxWidth*) is the width of the screen in millimeters."
+msgstr ""
+
+#: ../../../../../src/abaqus/Canvas/CanvasSession.py:docstring of abaqus.Canvas.CanvasSession.CanvasSession.Viewport:22
+#: ../../../../docstring of abaqus.Canvas.ViewportBase.ViewportBase.height:1
+msgid "A Float specifying the height in millimeters of the viewport. This height includes the title bar. Possible values are 30 ≤ **height** ≤ (*maxHeight*). The default value is 80.0. Note: The maximum value of height (*maxHeight*) is the height of the screen in millimeters."
+msgstr ""
+
+#: ../../../../../src/abaqus/Canvas/CanvasSession.py:docstring of abaqus.Canvas.CanvasSession.CanvasSession.Viewport:27
+#: ../../../../docstring of abaqus.Canvas.ViewportBase.ViewportBase.border:1
+msgid "A Boolean specifying whether the viewport border is visible in a printed image. The default value is ON."
+msgstr ""
+
+#: ../../../../../src/abaqus/Canvas/CanvasSession.py:docstring of abaqus.Canvas.CanvasSession.CanvasSession.Viewport:30
+#: ../../../../docstring of abaqus.Canvas.ViewportBase.ViewportBase.titleBar:1
+msgid "A Boolean specifying whether the viewport title should be displayed in a printed image. The default value is ON.If **border** = OFF, the title will not be visible, even if **titleBar** =ON."
+msgstr ""
+
+#: ../../../../../src/abaqus/Canvas/CanvasSession.py:docstring of abaqus.Canvas.CanvasSession.CanvasSession.Viewport:34
+#: ../../../../docstring of abaqus.Canvas.ViewportBase.ViewportBase.titleStyle:1
+msgid "A SymbolicConstant specifying which title to use for the viewport title. Possible values are CUSTOM and SYSTEM. The default value is SYSTEM.If **titleStyle** = CUSTOM, **customTitleString** will be used. If **titleStyle** =  SYSTEM, a system-generated string will be used."
+msgstr ""
+
+#: ../../../../../src/abaqus/Canvas/CanvasSession.py:docstring of abaqus.Canvas.CanvasSession.CanvasSession.Viewport:39
+#: ../../../../docstring of abaqus.Canvas.ViewportBase.ViewportBase.customTitleString:1
+msgid "A String specifying the viewport title when **titleStyle** =CUSTOM. The default value is an empty string."
+msgstr ""
+
+#: ../../../../../src/abaqus/Canvas/CanvasSession.py:docstring of abaqus.Canvas.CanvasSession.CanvasSession.Viewport:42
+msgid "A Viewport object."
+msgstr ""
+
+#: ../../../../../src/abaqus/Canvas/CanvasSession.py:docstring of abaqus.Canvas.CanvasSession.CanvasSession.Viewport:43
+msgid ":class:`Viewport`"
+msgstr ""
+
+#: ../../../../../src/abaqus/Canvas/CanvasSession.py:docstring of abaqus.Canvas.CanvasSession.CanvasSession.Viewport:0
+#: ../../../../../src/abaqus/Canvas/ImageOptions.py:docstring of abaqus.Canvas.ImageOptions.ImageOptions.setValues:0
+#: ../../../../../src/abaqus/Canvas/MovieOptions.py:docstring of abaqus.Canvas.MovieOptions.MovieOptions.setValues:0
+#: ../../../../../src/abaqus/Canvas/ViewportBase.py:docstring of abaqus.Canvas.ViewportBase.ViewportBase.addDrawings:0
+#: ../../../../../src/abaqus/Canvas/ViewportBase.py:docstring of abaqus.Canvas.ViewportBase.ViewportBase.removeDrawings:0
+#: ../../../../../src/abaqus/Canvas/ViewportBase.py:docstring of abaqus.Canvas.ViewportBase.ViewportBase.setValues:0
+msgid "Raises"
+msgstr ""
+
+#: ../../../../../src/abaqus/Canvas/CanvasSession.py:docstring of abaqus.Canvas.CanvasSession.CanvasSession.Viewport:45
+msgid "the current viewport may not be deleted, If the user attempts to delete the only viewport."
+msgstr ""
+
+#: ../../../../../src/abaqus/Canvas/CanvasSession.py:docstring of abaqus.Canvas.CanvasSession.CanvasSession.Viewport:46
+msgid "If **width** is out of range."
+msgstr ""
+
+#: ../../../../../src/abaqus/Canvas/CanvasSession.py:docstring of abaqus.Canvas.CanvasSession.CanvasSession.Viewport:47
+msgid "If **height** is out of range."
 msgstr ""
 
 #: ../../../../../src/abaqus/Canvas/DrawingArea.py:docstring of abaqus.Canvas.DrawingArea.DrawingArea:1
