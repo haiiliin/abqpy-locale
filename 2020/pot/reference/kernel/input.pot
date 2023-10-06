@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: abqpy 2020\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-14 01:32+0000\n"
+"POT-Creation-Date: 2023-10-06 02:36+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -41,7 +41,6 @@ msgstr ""
 #: ../../../../../src/abaqus/InputFileParser/AbaqusNDarray.py:docstring of abaqus.InputFileParser.AbaqusNDarray.AbaqusNDarray:12
 #: ../../../../../src/abaqus/InputFileParser/InputFile.py:docstring of abaqus.InputFileParser.InputFile.InputFile:4
 #: ../../../../../src/abaqus/InputFileParser/InputFile.py:docstring of abaqus.InputFileParser.InputFile.InputFile:9
-#: ../../../../../src/abaqus/InputFileParser/InputFile.py:docstring of abaqus.InputFileParser.InputFile.InputFile:14
 #: ../../../../../src/abaqus/InputFileParser/InputFile.py:docstring of abaqus.InputFileParser.InputFile.InputFile.parse:3
 #: ../../../../../src/abaqus/InputFileParser/Keyword.py:docstring of abaqus.InputFileParser.Keyword.Keyword:4
 #: ../../../../../src/abaqus/InputFileParser/Keyword.py:docstring of abaqus.InputFileParser.Keyword.Keyword:9
@@ -55,46 +54,6 @@ msgstr ""
 
 #: ../../../../../src/abaqus/InputFileParser/InputFile.py:docstring of abaqus.InputFileParser.InputFile.InputFile:10
 msgid "Check `InputFile on help.3ds.com/2020 <https://help.3ds.com/2020/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-inputfilepyc.htm?contextscope=all>`__."
-msgstr ""
-
-#: ../../../../../src/abaqus/InputFileParser/InputFile.py:docstring of abaqus.InputFileParser.InputFile.InputFile:12
-#: ../../../../None:4:<autosummary>:1
-msgid "This method creates an InputFile object by reading an Abaqus input file."
-msgstr ""
-
-#: ../../../../../src/abaqus/InputFileParser/InputFile.py:docstring of abaqus.InputFileParser.InputFile.InputFile:15
-msgid "This function can be accessed by::"
-msgstr ""
-
-#: ../../../../../src/abaqus/InputFileParser/InputFile.py:docstring of abaqus.InputFileParser.InputFile.InputFile:0
-#: ../../../../../src/abaqus/InputFileParser/InputFile.py:docstring of abaqus.InputFileParser.InputFile.InputFile.parse:0
-msgid "Parameters"
-msgstr ""
-
-#: ../../../../../src/abaqus/InputFileParser/InputFile.py:docstring of abaqus.InputFileParser.InputFile.InputFile:20
-msgid "A String specifying the path to the input file."
-msgstr ""
-
-#: ../../../../../src/abaqus/InputFileParser/InputFile.py:docstring of abaqus.InputFileParser.InputFile.InputFile:22
-msgid "A String specifying the path to the directory containing the input file."
-msgstr ""
-
-#: ../../../../../src/abaqus/InputFileParser/InputFile.py:docstring of abaqus.InputFileParser.InputFile.InputFile:0
-#: ../../../../../src/abaqus/InputFileParser/InputFile.py:docstring of abaqus.InputFileParser.InputFile.InputFile.parse:0
-msgid "Returns"
-msgstr ""
-
-#: ../../../../../src/abaqus/InputFileParser/InputFile.py:docstring of abaqus.InputFileParser.InputFile.InputFile:24
-msgid "An InputFile object."
-msgstr ""
-
-#: ../../../../../src/abaqus/InputFileParser/InputFile.py:docstring of abaqus.InputFileParser.InputFile.InputFile:0
-#: ../../../../../src/abaqus/InputFileParser/InputFile.py:docstring of abaqus.InputFileParser.InputFile.InputFile.parse:0
-msgid "Return type"
-msgstr ""
-
-#: ../../../../../src/abaqus/InputFileParser/InputFile.py:docstring of abaqus.InputFileParser.InputFile.InputFile:25
-msgid ":class:`InputFile`"
 msgstr ""
 
 #: ../../../../../src/abaqus/InputFileParser/InputFile.py:docstring of abaqus.InputFileParser.InputFile.InputFile:0
@@ -146,6 +105,10 @@ msgid ":py:obj:`__init__ <abaqus.InputFileParser.InputFile.InputFile.__init__>`\
 msgstr ""
 
 #: ../../../../None:4:<autosummary>:1
+msgid "This method creates an InputFile object by reading an Abaqus input file."
+msgstr ""
+
+#: ../../../../None:4:<autosummary>:1
 msgid ":py:obj:`parse <abaqus.InputFileParser.InputFile.InputFile.parse>`\\ \\(\\[organize\\, verbose\\, bulk\\, usePyArray\\]\\)"
 msgstr ""
 
@@ -164,6 +127,10 @@ msgstr ""
 msgid "Check `InputFile.parse on help.3ds.com/2020 <https://help.3ds.com/2020/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-inputfilepyc.htm?contextscope=all#simaker-inputfileparsepyc>`__."
 msgstr ""
 
+#: ../../../../../src/abaqus/InputFileParser/InputFile.py:docstring of abaqus.InputFileParser.InputFile.InputFile.parse:0
+msgid "Parameters"
+msgstr ""
+
 #: ../../../../../src/abaqus/InputFileParser/InputFile.py:docstring of abaqus.InputFileParser.InputFile.InputFile.parse:7
 msgid "A Boolean specifying whether keywords should be organized into suboptions. The default is False."
 msgstr ""
@@ -180,8 +147,16 @@ msgstr ""
 msgid "A Boolean specifying that parse method can return an AbaqusNDarray object for a keyword data value. In cases where large amounts of numerical data (i.e., large node arrays) are expected, it is recommended that you use the option usePyArray=True. The default is False."
 msgstr ""
 
+#: ../../../../../src/abaqus/InputFileParser/InputFile.py:docstring of abaqus.InputFileParser.InputFile.InputFile.parse:0
+msgid "Returns"
+msgstr ""
+
 #: ../../../../../src/abaqus/InputFileParser/InputFile.py:docstring of abaqus.InputFileParser.InputFile.InputFile.parse:22
 msgid "A KeywordSequence object."
+msgstr ""
+
+#: ../../../../../src/abaqus/InputFileParser/InputFile.py:docstring of abaqus.InputFileParser.InputFile.InputFile.parse:0
+msgid "Return type"
 msgstr ""
 
 #: ../../../../../src/abaqus/InputFileParser/InputFile.py:docstring of abaqus.InputFileParser.InputFile.InputFile.parse:23

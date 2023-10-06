@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: abqpy 2020\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-14 01:32+0000\n"
+"POT-Creation-Date: 2023-10-06 02:36+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: zh_CN\n"
@@ -17,7 +17,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.12.1\n"
+"Generated-By: Babel 2.13.0\n"
 
 #: ../../../reference/mdb/model/part_assembly/assembly.md:1
 msgid "Assembly"
@@ -115,15 +115,12 @@ msgstr ""
 #: abaqus.Assembly.AssemblyModel.AssemblyModel.linkInstances:5
 #: abaqus.Assembly.ConnectorOrientation.ConnectorOrientation:3
 #: abaqus.Assembly.ConnectorOrientation.ConnectorOrientation:11
-#: abaqus.Assembly.ConnectorOrientation.ConnectorOrientation:16
 #: abaqus.Assembly.ModelInstance.ModelInstance:3
 #: abaqus.Assembly.ModelInstance.ModelInstance:9
-#: abaqus.Assembly.ModelInstance.ModelInstance:14
 #: abaqus.Assembly.ModelInstance.ModelInstance.replace:6
 #: abaqus.Assembly.ModelInstance.ModelInstance.translate:3
 #: abaqus.Assembly.PartInstance.PartInstance:3
 #: abaqus.Assembly.PartInstance.PartInstance:10
-#: abaqus.Assembly.PartInstance.PartInstance:15
 #: abaqus.Assembly.PartInstance.PartInstance.Contact:4
 #: abaqus.Assembly.PartInstance.PartInstance.checkGeometry:4
 #: abaqus.Assembly.PartInstance.PartInstance.replace:3
@@ -221,10 +218,7 @@ msgstr ""
 #: abaqus.Assembly.AssemblyFeature.AssemblyFeature.ParallelCsys:5
 #: abaqus.Assembly.AssemblyFeature.AssemblyFeature.ParallelEdge:4
 #: abaqus.Assembly.AssemblyFeature.AssemblyFeature.ParallelFace:4
-#: abaqus.Assembly.AssemblyModel.AssemblyModel.Instance:5
-#: abaqus.Assembly.ConnectorOrientation.ConnectorOrientation:17
-#: abaqus.Assembly.ModelInstance.ModelInstance:15
-#: abaqus.Assembly.PartInstance.PartInstance:16 of
+#: abaqus.Assembly.AssemblyModel.AssemblyModel.Instance:5 of
 msgid "This function can be accessed by::"
 msgstr ""
 
@@ -280,11 +274,8 @@ msgstr ""
 #: abaqus.Assembly.AssemblyModel.AssemblyModel.Instance
 #: abaqus.Assembly.AssemblyModel.AssemblyModel.convertAllSketches
 #: abaqus.Assembly.AssemblyModel.AssemblyModel.linkInstances
-#: abaqus.Assembly.ConnectorOrientation.ConnectorOrientation
-#: abaqus.Assembly.ModelInstance.ModelInstance
 #: abaqus.Assembly.ModelInstance.ModelInstance.replace
 #: abaqus.Assembly.ModelInstance.ModelInstance.translate
-#: abaqus.Assembly.PartInstance.PartInstance
 #: abaqus.Assembly.PartInstance.PartInstance.Contact
 #: abaqus.Assembly.PartInstance.PartInstance.checkGeometry
 #: abaqus.Assembly.PartInstance.PartInstance.replace
@@ -325,9 +316,6 @@ msgstr ""
 #: abaqus.Assembly.AssemblyModel.AssemblyModel.Instance
 #: abaqus.Assembly.AssemblyModel.AssemblyModel.convertAllSketches
 #: abaqus.Assembly.AssemblyModel.AssemblyModel.linkInstances
-#: abaqus.Assembly.ConnectorOrientation.ConnectorOrientation
-#: abaqus.Assembly.ModelInstance.ModelInstance
-#: abaqus.Assembly.PartInstance.PartInstance
 #: abaqus.Assembly.PartInstance.PartInstance.Contact
 #: abaqus.Assembly.PartInstance.PartInstance.getRotation
 #: abaqus.Assembly.PartInstance.PartInstance.getTranslation
@@ -362,9 +350,6 @@ msgstr ""
 #: abaqus.Assembly.AssemblyModel.AssemblyModel.Instance
 #: abaqus.Assembly.AssemblyModel.AssemblyModel.convertAllSketches
 #: abaqus.Assembly.AssemblyModel.AssemblyModel.linkInstances
-#: abaqus.Assembly.ConnectorOrientation.ConnectorOrientation
-#: abaqus.Assembly.ModelInstance.ModelInstance
-#: abaqus.Assembly.PartInstance.PartInstance
 #: abaqus.Assembly.PartInstance.PartInstance.Contact
 #: abaqus.Assembly.PartInstance.PartInstance.getRotation
 #: abaqus.Assembly.PartInstance.PartInstance.getTranslation
@@ -458,8 +443,7 @@ msgid ""
 "assemblypyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: abaqus.Assembly.Assembly.Assembly.ConnectorOrientation:1
-#: abaqus.Assembly.ConnectorOrientation.ConnectorOrientation:14 of
+#: abaqus.Assembly.Assembly.Assembly.ConnectorOrientation:1 of
 msgid "This method creates a ConnectorOrientation object."
 msgstr ""
 
@@ -473,7 +457,6 @@ msgstr ""
 
 #: ../../../../docstring
 #: abaqus.Assembly.Assembly.Assembly.ConnectorOrientation:13
-#: abaqus.Assembly.ConnectorOrientation.ConnectorOrientation:23
 #: abaqus.Assembly.ConnectorOrientationArray.ConnectorOrientation.region:1 of
 msgid ""
 "A Set object specifying the region to which the orientation is assigned."
@@ -481,7 +464,6 @@ msgstr ""
 
 #: ../../../../docstring
 #: abaqus.Assembly.Assembly.Assembly.ConnectorOrientation:15
-#: abaqus.Assembly.ConnectorOrientation.ConnectorOrientation:25
 #: abaqus.Assembly.ConnectorOrientationArray.ConnectorOrientation.localCsys1:1
 #: of
 msgid ""
@@ -493,8 +475,6 @@ msgstr ""
 #: ../../../../docstring
 #: abaqus.Assembly.Assembly.Assembly.ConnectorOrientation:18
 #: abaqus.Assembly.Assembly.Assembly.ConnectorOrientation:30
-#: abaqus.Assembly.ConnectorOrientation.ConnectorOrientation:28
-#: abaqus.Assembly.ConnectorOrientation.ConnectorOrientation:40
 #: abaqus.Assembly.ConnectorOrientationArray.ConnectorOrientation.axis1:1
 #: abaqus.Assembly.ConnectorOrientationArray.ConnectorOrientation.axis2:1 of
 msgid ""
@@ -506,8 +486,6 @@ msgstr ""
 #: ../../../../docstring
 #: abaqus.Assembly.Assembly.Assembly.ConnectorOrientation:22
 #: abaqus.Assembly.Assembly.Assembly.ConnectorOrientation:34
-#: abaqus.Assembly.ConnectorOrientation.ConnectorOrientation:32
-#: abaqus.Assembly.ConnectorOrientation.ConnectorOrientation:44
 #: abaqus.Assembly.ConnectorOrientationArray.ConnectorOrientation.angle1:1
 #: abaqus.Assembly.ConnectorOrientationArray.ConnectorOrientation.angle2:1 of
 msgid ""
@@ -517,7 +495,6 @@ msgstr ""
 
 #: ../../../../docstring
 #: abaqus.Assembly.Assembly.Assembly.ConnectorOrientation:24
-#: abaqus.Assembly.ConnectorOrientation.ConnectorOrientation:34
 #: abaqus.Assembly.ConnectorOrientationArray.ConnectorOrientation.orient2sameAs1:1
 #: of
 msgid ""
@@ -528,7 +505,6 @@ msgstr ""
 
 #: ../../../../docstring
 #: abaqus.Assembly.Assembly.Assembly.ConnectorOrientation:27
-#: abaqus.Assembly.ConnectorOrientation.ConnectorOrientation:37
 #: abaqus.Assembly.ConnectorOrientationArray.ConnectorOrientation.localCsys2:1
 #: of
 msgid ""
@@ -537,13 +513,11 @@ msgid ""
 "system."
 msgstr ""
 
-#: abaqus.Assembly.Assembly.Assembly.ConnectorOrientation:36
-#: abaqus.Assembly.ConnectorOrientation.ConnectorOrientation:46 of
+#: abaqus.Assembly.Assembly.Assembly.ConnectorOrientation:36 of
 msgid "A ConnectorOrientation object."
 msgstr ""
 
-#: abaqus.Assembly.Assembly.Assembly.ConnectorOrientation:37
-#: abaqus.Assembly.ConnectorOrientation.ConnectorOrientation:47 of
+#: abaqus.Assembly.Assembly.Assembly.ConnectorOrientation:37 of
 msgid ":class:`ConnectorOrientation`"
 msgstr ""
 
@@ -576,8 +550,7 @@ msgid ""
 "assemblypyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: abaqus.Assembly.AssemblyBase.AssemblyBase.Instance:1
-#: abaqus.Assembly.PartInstance.PartInstance:13 of
+#: abaqus.Assembly.AssemblyBase.AssemblyBase.Instance:1 of
 msgid ""
 "This method creates a PartInstance object and puts it into the instances "
 "repository."
@@ -593,7 +566,6 @@ msgstr ""
 #: ../../../../docstring abaqus.Assembly.AssemblyBase.AssemblyBase.Instance:12
 #: abaqus.Assembly.AssemblyBase.AssemblyBase.InstanceFromBooleanCut:13
 #: abaqus.Assembly.AssemblyBase.AssemblyBase.InstanceFromBooleanMerge:13
-#: abaqus.Assembly.PartInstance.PartInstance:21
 #: abaqus.Assembly.PartInstanceArray.PartInstance.name:1 of
 msgid ""
 "A String specifying the repository key. The name must be a valid Abaqus "
@@ -606,15 +578,13 @@ msgstr ""
 
 #: abaqus.Assembly.AssemblyBase.AssemblyBase.Instance:16
 #: abaqus.Assembly.AssemblyBase.AssemblyBase.InstanceFromBooleanCut:24
-#: abaqus.Assembly.AssemblyBase.AssemblyBase.InstanceFromBooleanMerge:41
-#: abaqus.Assembly.PartInstance.PartInstance:32 of
+#: abaqus.Assembly.AssemblyBase.AssemblyBase.InstanceFromBooleanMerge:41 of
 msgid "A PartInstance object."
 msgstr ""
 
 #: abaqus.Assembly.AssemblyBase.AssemblyBase.Instance:17
 #: abaqus.Assembly.AssemblyBase.AssemblyBase.InstanceFromBooleanCut:25
-#: abaqus.Assembly.AssemblyBase.AssemblyBase.InstanceFromBooleanMerge:42
-#: abaqus.Assembly.PartInstance.PartInstance:33 of
+#: abaqus.Assembly.AssemblyBase.AssemblyBase.InstanceFromBooleanMerge:42 of
 msgid ":class:`PartInstance`"
 msgstr ""
 
@@ -2387,37 +2357,6 @@ msgid ""
 "modelinstancepyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: abaqus.Assembly.ModelInstance.ModelInstance:12 of
-msgid ""
-"This method creates a ModelInstance object and puts it into the instances "
-"repository."
-msgstr ""
-
-#: abaqus.Assembly.ModelInstance.ModelInstance:20 of
-msgid "The repository key. The name must be a valid Abaqus object name."
-msgstr ""
-
-#: abaqus.Assembly.ModelInstance.ModelInstance:22
-#: abaqus.Assembly.ModelInstance.ModelInstance.replace:10 of
-msgid ""
-"A Model object to be instanced. If the model does not exist, no "
-"ModelInstance object is created."
-msgstr ""
-
-#: abaqus.Assembly.ModelInstance.ModelInstance:25 of
-msgid ""
-"A Boolean specifying whether to apply an auto offset to the new instance "
-"that will offset it from existing instances. The default value is OFF."
-msgstr ""
-
-#: abaqus.Assembly.ModelInstance.ModelInstance:28 of
-msgid "A ModelInstance object."
-msgstr ""
-
-#: abaqus.Assembly.ModelInstance.ModelInstance:29 of
-msgid ":class:`ModelInstance`"
-msgstr ""
-
 #: abaqus.Assembly.ModelInstance.ModelInstance.ConvertConstraints:1
 #: abaqus.Assembly.PartInstance.PartInstance.ConvertConstraints:1 of
 msgid ""
@@ -2471,6 +2410,12 @@ msgid ""
 "Check `ModelInstance.replace on help.3ds.com/2020 <https://help.3ds.com/20"
 "20/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "modelinstancepyc.htm?contextscope=all#simaker-modelinstancereplacepyc>`__."
+msgstr ""
+
+#: abaqus.Assembly.ModelInstance.ModelInstance.replace:10 of
+msgid ""
+"A Model object to be instanced. If the model does not exist, no "
+"ModelInstance object is created."
 msgstr ""
 
 #: abaqus.Assembly.ModelInstance.ModelInstance.replace:13
@@ -2528,27 +2473,6 @@ msgid ""
 "Check `PartInstance on help.3ds.com/2020 <https://help.3ds.com/2020/Englis"
 "h/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "partinstancepyc.htm?contextscope=all>`__."
-msgstr ""
-
-#: abaqus.Assembly.PartInstance.PartInstance:23 of
-msgid ""
-"A Part object to be instanced. If the part does not exist, no PartInstance"
-" object is created."
-msgstr ""
-
-#: abaqus.Assembly.PartInstance.PartInstance:26 of
-msgid ""
-"A Boolean specifying whether to apply an auto offset to the new part "
-"instance that will offset it from existing part instances. The default "
-"value is OFF."
-msgstr ""
-
-#: ../../../../docstring abaqus.Assembly.PartInstance.PartInstance:29
-#: abaqus.Assembly.PartInstanceArray.PartInstance.dependent:1 of
-msgid ""
-"A Boolean specifying whether the part instance is dependent or "
-"independent. If **dependent** = OFF, the part instance is independent. The"
-" default value is OFF."
 msgstr ""
 
 #: abaqus.Assembly.PartInstance.PartInstance.Contact:1
@@ -2650,6 +2574,14 @@ msgid ""
 " cannot be updated for a     dependent part instance. In this case, this "
 "command should be called on the Part     instead. The geometry of "
 "dependent part instances cannot be changed."
+msgstr ""
+
+#: ../../../../docstring
+#: abaqus.Assembly.PartInstanceArray.PartInstance.dependent:1 of
+msgid ""
+"A Boolean specifying whether the part instance is dependent or "
+"independent. If **dependent** = OFF, the part instance is independent. The"
+" default value is OFF."
 msgstr ""
 
 #: ../../../../docstring
