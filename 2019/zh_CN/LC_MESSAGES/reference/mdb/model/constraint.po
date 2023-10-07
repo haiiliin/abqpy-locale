@@ -22,8 +22,7 @@ msgid "Constraint"
 msgstr ""
 
 #: ../../../reference/mdb/model/constraint.md:3
-msgid ""
-"The Constraint commands define constraints between regions of the model."
+msgid "The Constraint commands define constraints between regions of the model."
 msgstr ""
 
 #: ../../../reference/mdb/model/constraint.md:5
@@ -35,8 +34,7 @@ msgid "Bases: :py:class:`~abaqus.Model.ModelBase.ModelBase`"
 msgstr ""
 
 #: abaqus.Constraint.ConstraintModel.ConstraintModel:1 of
-msgid ""
-"Abaqus creates a Model object named `Model-1` when a session is started."
+msgid "Abaqus creates a Model object named `Model-1` when a session is started."
 msgstr ""
 
 #: abaqus.Constraint.AdjustPoints.AdjustPoints:4
@@ -102,8 +100,8 @@ msgstr ""
 
 #: abaqus.Constraint.ConstraintModel.ConstraintModel:9 of
 msgid ""
-"Check `ConstraintModel on help.3ds.com/2019 <https://help.3ds.com/2019/Eng"
-"lish/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"Check `ConstraintModel on help.3ds.com/2019 "
+"<https://help.3ds.com/2019/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "modelpyc.htm?contextscope=all>`__."
 msgstr ""
 
@@ -120,9 +118,7 @@ msgid "A String specifying the repository key."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
-msgid ""
-":py:obj:`stefanBoltzmann "
-"<abaqus.Model.ModelBase.ModelBase.stefanBoltzmann>`\\"
+msgid ":py:obj:`stefanBoltzmann <abaqus.Model.ModelBase.ModelBase.stefanBoltzmann>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
@@ -130,8 +126,7 @@ msgid "None or a Float specifying the Stefan-Boltzmann constant."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
-msgid ""
-":py:obj:`absoluteZero <abaqus.Model.ModelBase.ModelBase.absoluteZero>`\\"
+msgid ":py:obj:`absoluteZero <abaqus.Model.ModelBase.ModelBase.absoluteZero>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
@@ -139,20 +134,17 @@ msgid "None or a Float specifying the absolute zero constant."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
-msgid ""
-":py:obj:`waveFormulation "
-"<abaqus.Model.ModelBase.ModelBase.waveFormulation>`\\"
+msgid ":py:obj:`waveFormulation <abaqus.Model.ModelBase.ModelBase.waveFormulation>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
 msgid ""
-"A SymbolicConstant specifying the type of incident wave formulation to be "
-"used in acoustic problems."
+"A SymbolicConstant specifying the type of incident wave formulation to be used in "
+"acoustic problems."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
-msgid ""
-":py:obj:`universalGas <abaqus.Model.ModelBase.ModelBase.universalGas>`\\"
+msgid ":py:obj:`universalGas <abaqus.Model.ModelBase.ModelBase.universalGas>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
@@ -160,54 +152,44 @@ msgid "None or a Float specifying the universal gas constant."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
-msgid ""
-":py:obj:`noPartsInputFile "
-"<abaqus.Model.ModelBase.ModelBase.noPartsInputFile>`\\"
+msgid ":py:obj:`noPartsInputFile <abaqus.Model.ModelBase.ModelBase.noPartsInputFile>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
 msgid ""
-"A Boolean specifying whether an input file should be written without parts"
-" and assemblies."
+"A Boolean specifying whether an input file should be written without parts and "
+"assemblies."
+msgstr ""
+
+#: ../../../../None:52:<autosummary>:1
+msgid ":py:obj:`endRestartStep <abaqus.Model.ModelBase.ModelBase.endRestartStep>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
 msgid ""
-":py:obj:`endRestartStep "
-"<abaqus.Model.ModelBase.ModelBase.endRestartStep>`\\"
+"A Boolean specifying that the step specified by **restartStep** should be terminated "
+"at the increment specified by **restartIncrement**."
+msgstr ""
+
+#: ../../../../None:52:<autosummary>:1
+msgid ":py:obj:`shellToSolid <abaqus.Model.ModelBase.ModelBase.shellToSolid>`\\"
+msgstr ""
+
+#: ../../../../None:52:<autosummary>:1
+msgid "A Boolean specifying that a shell global model drives a solid submodel."
+msgstr ""
+
+#: ../../../../None:52:<autosummary>:1
+msgid ":py:obj:`lastChangedCount <abaqus.Model.ModelBase.ModelBase.lastChangedCount>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
 msgid ""
-"A Boolean specifying that the step specified by **restartStep** should be "
-"terminated at the increment specified by **restartIncrement**."
+"A Float specifying the time stamp that indicates when the model was last changed."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
-msgid ""
-":py:obj:`shellToSolid <abaqus.Model.ModelBase.ModelBase.shellToSolid>`\\"
-msgstr ""
-
-#: ../../../../None:52:<autosummary>:1
-msgid ""
-"A Boolean specifying that a shell global model drives a solid submodel."
-msgstr ""
-
-#: ../../../../None:52:<autosummary>:1
-msgid ""
-":py:obj:`lastChangedCount "
-"<abaqus.Model.ModelBase.ModelBase.lastChangedCount>`\\"
-msgstr ""
-
-#: ../../../../None:52:<autosummary>:1
-msgid ""
-"A Float specifying the time stamp that indicates when the model was last "
-"changed."
-msgstr ""
-
-#: ../../../../None:52:<autosummary>:1
-msgid ""
-":py:obj:`description <abaqus.Model.ModelBase.ModelBase.description>`\\"
+msgid ":py:obj:`description <abaqus.Model.ModelBase.ModelBase.description>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
@@ -219,19 +201,15 @@ msgid ":py:obj:`restartJob <abaqus.Model.ModelBase.ModelBase.restartJob>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
-msgid ""
-"A String specifying the name of the job that generated the restart data."
+msgid "A String specifying the name of the job that generated the restart data."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
-msgid ""
-":py:obj:`restartStep <abaqus.Model.ModelBase.ModelBase.restartStep>`\\"
+msgid ":py:obj:`restartStep <abaqus.Model.ModelBase.ModelBase.restartStep>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
-msgid ""
-"A String specifying the name of the step where the restart analysis will "
-"start."
+msgid "A String specifying the name of the step where the restart analysis will start."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
@@ -240,49 +218,42 @@ msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
 msgid ""
-"A String specifying the name of the job that generated the results for the"
-" global model."
+"A String specifying the name of the job that generated the results for the global "
+"model."
+msgstr ""
+
+#: ../../../../None:52:<autosummary>:1
+msgid ":py:obj:`copyConstraints <abaqus.Model.ModelBase.ModelBase.copyConstraints>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
 msgid ""
-":py:obj:`copyConstraints "
-"<abaqus.Model.ModelBase.ModelBase.copyConstraints>`\\"
+"A boolean specifying the status of constraints created in a model, in the model which "
+"instances this model."
+msgstr ""
+
+#: ../../../../None:52:<autosummary>:1
+msgid ":py:obj:`copyConnectors <abaqus.Model.ModelBase.ModelBase.copyConnectors>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
 msgid ""
-"A boolean specifying the status of constraints created in a model, in the "
-"model which instances this model."
+"A boolean specifying the status of connectors created in a model, in the model which "
+"instances this model."
+msgstr ""
+
+#: ../../../../None:52:<autosummary>:1
+msgid ":py:obj:`copyInteractions <abaqus.Model.ModelBase.ModelBase.copyInteractions>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
 msgid ""
-":py:obj:`copyConnectors "
-"<abaqus.Model.ModelBase.ModelBase.copyConnectors>`\\"
+"A boolean specifying the status of interactions created in a model, in the model which"
+" instances this model."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
-msgid ""
-"A boolean specifying the status of connectors created in a model, in the "
-"model which instances this model."
-msgstr ""
-
-#: ../../../../None:52:<autosummary>:1
-msgid ""
-":py:obj:`copyInteractions "
-"<abaqus.Model.ModelBase.ModelBase.copyInteractions>`\\"
-msgstr ""
-
-#: ../../../../None:52:<autosummary>:1
-msgid ""
-"A boolean specifying the status of interactions created in a model, in the"
-" model which instances this model."
-msgstr ""
-
-#: ../../../../None:52:<autosummary>:1
-msgid ""
-":py:obj:`keywordBlock <abaqus.Model.ModelBase.ModelBase.keywordBlock>`\\"
+msgid ":py:obj:`keywordBlock <abaqus.Model.ModelBase.ModelBase.keywordBlock>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
@@ -290,8 +261,7 @@ msgid "A KeywordBlock object."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
-msgid ""
-":py:obj:`rootAssembly <abaqus.Model.ModelBase.ModelBase.rootAssembly>`\\"
+msgid ":py:obj:`rootAssembly <abaqus.Model.ModelBase.ModelBase.rootAssembly>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
@@ -316,8 +286,7 @@ msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
 msgid ""
-":py:obj:`boundaryConditions "
-"<abaqus.Model.ModelBase.ModelBase.boundaryConditions>`\\"
+":py:obj:`boundaryConditions <abaqus.Model.ModelBase.ModelBase.boundaryConditions>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
@@ -325,8 +294,7 @@ msgid "A repository of BoundaryCondition objects."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
-msgid ""
-":py:obj:`constraints <abaqus.Model.ModelBase.ModelBase.constraints>`\\"
+msgid ":py:obj:`constraints <abaqus.Model.ModelBase.ModelBase.constraints>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
@@ -334,9 +302,7 @@ msgid "A repository of ConstrainedSketchConstraint objects."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
-msgid ""
-":py:obj:`analyticalFields "
-"<abaqus.Model.ModelBase.ModelBase.analyticalFields>`\\"
+msgid ":py:obj:`analyticalFields <abaqus.Model.ModelBase.ModelBase.analyticalFields>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
@@ -344,9 +310,7 @@ msgid "A repository of AnalyticalField objects."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
-msgid ""
-":py:obj:`discreteFields "
-"<abaqus.Model.ModelBase.ModelBase.discreteFields>`\\"
+msgid ":py:obj:`discreteFields <abaqus.Model.ModelBase.ModelBase.discreteFields>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
@@ -354,9 +318,7 @@ msgid "A repository of DiscreteField objects."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
-msgid ""
-":py:obj:`predefinedFields "
-"<abaqus.Model.ModelBase.ModelBase.predefinedFields>`\\"
+msgid ":py:obj:`predefinedFields <abaqus.Model.ModelBase.ModelBase.predefinedFields>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
@@ -364,8 +326,7 @@ msgid "A repository of PredefinedField objects."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
-msgid ""
-":py:obj:`interactions <abaqus.Model.ModelBase.ModelBase.interactions>`\\"
+msgid ":py:obj:`interactions <abaqus.Model.ModelBase.ModelBase.interactions>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
@@ -383,9 +344,7 @@ msgid "A repository of InteractionProperty objects."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
-msgid ""
-":py:obj:`contactControls "
-"<abaqus.Model.ModelBase.ModelBase.contactControls>`\\"
+msgid ":py:obj:`contactControls <abaqus.Model.ModelBase.ModelBase.contactControls>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
@@ -413,27 +372,23 @@ msgid "A repository of ContactStabilization objects."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
-msgid ""
-":py:obj:`linkedInstances "
-"<abaqus.Model.ModelBase.ModelBase.linkedInstances>`\\"
+msgid ":py:obj:`linkedInstances <abaqus.Model.ModelBase.ModelBase.linkedInstances>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
 msgid ""
-"A tuple of tuples of Strings specifying the linked child PartInstance name"
-" in the current model to the corresponding parent PartInstance name in a "
-"different model."
+"A tuple of tuples of Strings specifying the linked child PartInstance name in the "
+"current model to the corresponding parent PartInstance name in a different model."
+msgstr ""
+
+#: ../../../../None:52:<autosummary>:1
+msgid ":py:obj:`linkedParts <abaqus.Model.ModelBase.ModelBase.linkedParts>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
 msgid ""
-":py:obj:`linkedParts <abaqus.Model.ModelBase.ModelBase.linkedParts>`\\"
-msgstr ""
-
-#: ../../../../None:52:<autosummary>:1
-msgid ""
-"A tuple of tuples of Strings specifying the linked child Part name in the "
-"current model to the corresponding parent Part name in a different model."
+"A tuple of tuples of Strings specifying the linked child Part name in the current "
+"model to the corresponding parent Part name in a different model."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
@@ -453,8 +408,7 @@ msgid "A repository of Material objects."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
-msgid ""
-":py:obj:`calibrations <abaqus.Model.ModelBase.ModelBase.calibrations>`\\"
+msgid ":py:obj:`calibrations <abaqus.Model.ModelBase.ModelBase.calibrations>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
@@ -470,9 +424,7 @@ msgid "A repository of Section objects."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
-msgid ""
-":py:obj:`remeshingRules "
-"<abaqus.Model.ModelBase.ModelBase.remeshingRules>`\\"
+msgid ":py:obj:`remeshingRules <abaqus.Model.ModelBase.ModelBase.remeshingRules>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
@@ -504,9 +456,7 @@ msgid "A repository of Step objects."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
-msgid ""
-":py:obj:`featureOptions "
-"<abaqus.Model.ModelBase.ModelBase.featureOptions>`\\"
+msgid ":py:obj:`featureOptions <abaqus.Model.ModelBase.ModelBase.featureOptions>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
@@ -561,8 +511,7 @@ msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
 msgid ""
-":py:obj:`fieldOutputRequests "
-"<abaqus.Model.ModelBase.ModelBase.fieldOutputRequests>`\\"
+":py:obj:`fieldOutputRequests <abaqus.Model.ModelBase.ModelBase.fieldOutputRequests>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
@@ -581,8 +530,7 @@ msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
 msgid ""
-":py:obj:`optimizationTasks "
-"<abaqus.Model.ModelBase.ModelBase.optimizationTasks>`\\"
+":py:obj:`optimizationTasks <abaqus.Model.ModelBase.ModelBase.optimizationTasks>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
@@ -590,15 +538,13 @@ msgid "A repository of OptimizationTask objects."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
-msgid ""
-":py:obj:`restartIncrement "
-"<abaqus.Model.ModelBase.ModelBase.restartIncrement>`\\"
+msgid ":py:obj:`restartIncrement <abaqus.Model.ModelBase.ModelBase.restartIncrement>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
 msgid ""
-"An Int specifying the increment, interval, iteration or cycle where the "
-"restart analysis will start."
+"An Int specifying the increment, interval, iteration or cycle where the restart "
+"analysis will start."
 msgstr ""
 
 #: abaqus.Constraint.ConstraintModel.ConstraintModel of
@@ -608,8 +554,8 @@ msgstr ""
 #: ../../../../None:11:<autosummary>:1
 msgid ""
 ":py:obj:`AdjustPoints "
-"<abaqus.Constraint.ConstraintModel.ConstraintModel.AdjustPoints>`\\ "
-"\\(name\\, surface\\, controlPoints\\)"
+"<abaqus.Constraint.ConstraintModel.ConstraintModel.AdjustPoints>`\\ \\(name\\, "
+"surface\\, controlPoints\\)"
 msgstr ""
 
 #: ../../../../None:11:<autosummary>:1
@@ -619,9 +565,8 @@ msgstr ""
 
 #: ../../../../None:11:<autosummary>:1
 msgid ""
-":py:obj:`Coupling "
-"<abaqus.Constraint.ConstraintModel.ConstraintModel.Coupling>`\\ \\(name\\,"
-" surface\\, controlPoint\\, ...\\[\\, ...\\]\\)"
+":py:obj:`Coupling <abaqus.Constraint.ConstraintModel.ConstraintModel.Coupling>`\\ "
+"\\(name\\, surface\\, controlPoint\\, ...\\[\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../../None:11:<autosummary>:1
@@ -632,8 +577,8 @@ msgstr ""
 #: ../../../../None:11:<autosummary>:1
 msgid ""
 ":py:obj:`DisplayBody "
-"<abaqus.Constraint.ConstraintModel.ConstraintModel.DisplayBody>`\\ "
-"\\(name\\, instance\\, controlPoints\\)"
+"<abaqus.Constraint.ConstraintModel.ConstraintModel.DisplayBody>`\\ \\(name\\, "
+"instance\\, controlPoints\\)"
 msgstr ""
 
 #: ../../../../None:11:<autosummary>:1
@@ -644,8 +589,8 @@ msgstr ""
 #: ../../../../None:11:<autosummary>:1
 msgid ""
 ":py:obj:`EmbeddedRegion "
-"<abaqus.Constraint.ConstraintModel.ConstraintModel.EmbeddedRegion>`\\ "
-"\\(name\\, embeddedRegion\\, hostRegion\\)"
+"<abaqus.Constraint.ConstraintModel.ConstraintModel.EmbeddedRegion>`\\ \\(name\\, "
+"embeddedRegion\\, hostRegion\\)"
 msgstr ""
 
 #: ../../../../None:11:<autosummary>:1
@@ -655,9 +600,8 @@ msgstr ""
 
 #: ../../../../None:11:<autosummary>:1
 msgid ""
-":py:obj:`Equation "
-"<abaqus.Constraint.ConstraintModel.ConstraintModel.Equation>`\\ \\(name\\,"
-" terms\\)"
+":py:obj:`Equation <abaqus.Constraint.ConstraintModel.ConstraintModel.Equation>`\\ "
+"\\(name\\, terms\\)"
 msgstr ""
 
 #: ../../../../None:11:<autosummary>:1
@@ -667,8 +611,9 @@ msgstr ""
 
 #: ../../../../None:11:<autosummary>:1
 msgid ""
-":py:obj:`MultipointConstraint <abaqus.Constraint.ConstraintModel.Constrain"
-"tModel.MultipointConstraint>`\\ \\(name\\, surface\\, ...\\[\\, ...\\]\\)"
+":py:obj:`MultipointConstraint "
+"<abaqus.Constraint.ConstraintModel.ConstraintModel.MultipointConstraint>`\\ \\(name\\,"
+" surface\\, ...\\[\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../../None:11:<autosummary>:1
@@ -678,8 +623,7 @@ msgstr ""
 
 #: ../../../../None:11:<autosummary>:1
 msgid ""
-":py:obj:`RigidBody "
-"<abaqus.Constraint.ConstraintModel.ConstraintModel.RigidBody>`\\ "
+":py:obj:`RigidBody <abaqus.Constraint.ConstraintModel.ConstraintModel.RigidBody>`\\ "
 "\\(name\\, refPointRegion\\[\\, ...\\]\\)"
 msgstr ""
 
@@ -691,8 +635,8 @@ msgstr ""
 #: ../../../../None:11:<autosummary>:1
 msgid ""
 ":py:obj:`ShellSolidCoupling "
-"<abaqus.Constraint.ConstraintModel.ConstraintModel.ShellSolidCoupling>`\\ "
-"\\(name\\, shellEdge\\, solidFace\\)"
+"<abaqus.Constraint.ConstraintModel.ConstraintModel.ShellSolidCoupling>`\\ \\(name\\, "
+"shellEdge\\, solidFace\\)"
 msgstr ""
 
 #: ../../../../None:11:<autosummary>:1
@@ -702,8 +646,8 @@ msgstr ""
 
 #: ../../../../None:11:<autosummary>:1
 msgid ""
-":py:obj:`Tie <abaqus.Constraint.ConstraintModel.ConstraintModel.Tie>`\\ "
-"\\(name\\, master\\, slave\\[\\, adjust\\, ...\\]\\)"
+":py:obj:`Tie <abaqus.Constraint.ConstraintModel.ConstraintModel.Tie>`\\ \\(name\\, "
+"master\\, slave\\[\\, adjust\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../../None:11:<autosummary>:1
@@ -713,8 +657,8 @@ msgstr ""
 
 #: ../../../../None:7:<autosummary>:1
 msgid ""
-":py:obj:`__init__ <abaqus.Model.ModelBase.ModelBase.__init__>`\\ "
-"\\(name\\[\\, description\\, ...\\]\\)"
+":py:obj:`__init__ <abaqus.Model.ModelBase.ModelBase.__init__>`\\ \\(name\\[\\, "
+"description\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../../None:7:<autosummary>:1
@@ -723,42 +667,39 @@ msgstr ""
 
 #: ../../../../None:7:<autosummary>:1
 msgid ""
-":py:obj:`ModelFromInputFile "
-"<abaqus.Model.ModelBase.ModelBase.ModelFromInputFile>`\\ \\(name\\, "
-"inputFileName\\)"
+":py:obj:`ModelFromInputFile <abaqus.Model.ModelBase.ModelBase.ModelFromInputFile>`\\ "
+"\\(name\\, inputFileName\\)"
 msgstr ""
 
 #: ../../../../None:7:<autosummary>:1
 msgid ""
-"This method creates a Model object by reading the keywords in an input "
-"file and creating the corresponding Abaqus/CAE objects."
+"This method creates a Model object by reading the keywords in an input file and "
+"creating the corresponding Abaqus/CAE objects."
 msgstr ""
 
 #: ../../../../None:7:<autosummary>:1
 msgid ""
-":py:obj:`ModelFromOdbFile "
-"<abaqus.Model.ModelBase.ModelBase.ModelFromOdbFile>`\\ \\(name\\, "
-"odbFileName\\)"
+":py:obj:`ModelFromOdbFile <abaqus.Model.ModelBase.ModelBase.ModelFromOdbFile>`\\ "
+"\\(name\\, odbFileName\\)"
 msgstr ""
 
 #: ../../../../None:7:<autosummary>:1
 msgid ""
-"This method creates a Model object by reading an output database and "
-"creating any corresponding Abaqus/CAE objects."
+"This method creates a Model object by reading an output database and creating any "
+"corresponding Abaqus/CAE objects."
 msgstr ""
 
 #: ../../../../None:7:<autosummary>:1
 msgid ""
 ":py:obj:`ModelFromNastranFile "
-"<abaqus.Model.ModelBase.ModelBase.ModelFromNastranFile>`\\ \\(modelName\\,"
-" inputFileName\\)"
+"<abaqus.Model.ModelBase.ModelBase.ModelFromNastranFile>`\\ \\(modelName\\, "
+"inputFileName\\)"
 msgstr ""
 
 #: ../../../../None:7:<autosummary>:1
 msgid ""
-"This method creates a Model object by reading the keywords in a Nastran "
-"bulk data file or Nastran input file and creating any corresponding "
-"Abaqus/CAE objects."
+"This method creates a Model object by reading the keywords in a Nastran bulk data file"
+" or Nastran input file and creating any corresponding Abaqus/CAE objects."
 msgstr ""
 
 #: ../../../../None:7:<autosummary>:1
@@ -800,8 +741,8 @@ msgstr ""
 #: abaqus.Constraint.AdjustPoints.AdjustPoints:15
 #: abaqus.Constraint.ConstraintModel.ConstraintModel.AdjustPoints:9 of
 msgid ""
-"Check `AdjustPoints on help.3ds.com/2019 <https://help.3ds.com/2019/Englis"
-"h/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"Check `AdjustPoints on help.3ds.com/2019 "
+"<https://help.3ds.com/2019/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "adjustpointspyc.htm?contextscope=all>`__."
 msgstr ""
 
@@ -842,8 +783,7 @@ msgstr ""
 #: abaqus.Constraint.ConstraintModel.AdjustPoints.surface:1
 #: abaqus.Constraint.ConstraintModel.ConstraintModel.AdjustPoints:14 of
 msgid ""
-"A Region object specifying the surface to which the **controlPoints** are "
-"adjusted."
+"A Region object specifying the surface to which the **controlPoints** are adjusted."
 msgstr ""
 
 #: ../../../../docstring
@@ -887,17 +827,15 @@ msgstr ""
 #: abaqus.Constraint.ConstraintModel.ConstraintModel.Coupling:9
 #: abaqus.Constraint.Coupling.Coupling:15 of
 msgid ""
-"Check `Coupling on help.3ds.com/2019 <https://help.3ds.com/2019/English/DS"
-"SIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"Check `Coupling on help.3ds.com/2019 "
+"<https://help.3ds.com/2019/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "couplingpyc.htm?contextscope=all>`__."
 msgstr ""
 
 #: ../../../../docstring
 #: abaqus.Constraint.ConstraintModel.ConstraintModel.Coupling:14
 #: abaqus.Constraint.Coupling.Coupling.surface:1 of
-msgid ""
-"A Region object specifying the surface on which the coupling nodes are "
-"located."
+msgid "A Region object specifying the surface on which the coupling nodes are located."
 msgstr ""
 
 #: ../../../../docstring
@@ -912,17 +850,15 @@ msgstr ""
 #: ../../../../docstring
 #: abaqus.Constraint.ConstraintModel.ConstraintModel.Coupling:18
 #: abaqus.Constraint.Coupling.Coupling.influenceRadius:1 of
-msgid ""
-"The SymbolicConstant WHOLE_SURFACE or a Float specifying the influence "
-"radius."
+msgid "The SymbolicConstant WHOLE_SURFACE or a Float specifying the influence radius."
 msgstr ""
 
 #: ../../../../docstring
 #: abaqus.Constraint.ConstraintModel.ConstraintModel.Coupling:20
 #: abaqus.Constraint.Coupling.Coupling.couplingType:1 of
 msgid ""
-"A SymbolicConstant specifying the coupling constraint type. Possible "
-"values are KINEMATIC, DISTRIBUTING, and STRUCTURAL."
+"A SymbolicConstant specifying the coupling constraint type. Possible values are "
+"KINEMATIC, DISTRIBUTING, and STRUCTURAL."
 msgstr ""
 
 #: ../../../../docstring
@@ -930,9 +866,9 @@ msgstr ""
 #: abaqus.Constraint.Coupling.Coupling.adjust:1
 #: abaqus.Constraint.Coupling.Coupling.setValues:7 of
 msgid ""
-"A Boolean specifying if the control point will be adjusted (moved) to the "
-"surface. The point will be adjusted in the direction normal to the "
-"specified surface. The default value is OFF."
+"A Boolean specifying if the control point will be adjusted (moved) to the surface. The"
+" point will be adjusted in the direction normal to the specified surface. The default "
+"value is OFF."
 msgstr ""
 
 #: ../../../../docstring
@@ -940,10 +876,9 @@ msgstr ""
 #: abaqus.Constraint.Coupling.Coupling.localCsys:1
 #: abaqus.Constraint.Coupling.Coupling.setValues:11 of
 msgid ""
-"None or a DatumCsys object specifying the initial orientation of the local"
-" coordinate system for the coupling's degrees of freedom. If **localCsys**"
-" = None, the coupling is defined in the global coordinate system. The "
-"default value is None."
+"None or a DatumCsys object specifying the initial orientation of the local coordinate "
+"system for the coupling's degrees of freedom. If **localCsys** = None, the coupling is"
+" defined in the global coordinate system. The default value is None."
 msgstr ""
 
 #: ../../../../docstring
@@ -951,10 +886,9 @@ msgstr ""
 #: abaqus.Constraint.Coupling.Coupling.setValues:15
 #: abaqus.Constraint.Coupling.Coupling.u1:1 of
 msgid ""
-"A Boolean specifying if the displacement component in the 1-direction is "
-"constrained to the reference node for a kinematic coupling constraint. The"
-" default value is ON.The **u1** argument applies only when "
-"**couplingType** = KINEMATIC."
+"A Boolean specifying if the displacement component in the 1-direction is constrained "
+"to the reference node for a kinematic coupling constraint. The default value is ON.The"
+" **u1** argument applies only when **couplingType** = KINEMATIC."
 msgstr ""
 
 #: ../../../../docstring
@@ -962,10 +896,9 @@ msgstr ""
 #: abaqus.Constraint.Coupling.Coupling.setValues:19
 #: abaqus.Constraint.Coupling.Coupling.u2:1 of
 msgid ""
-"A Boolean specifying if the displacement component in the 2-direction is "
-"constrained to the reference node for a kinematic coupling constraint. The"
-" default value is ON.The **u2** argument applies only when "
-"**couplingType** = KINEMATIC."
+"A Boolean specifying if the displacement component in the 2-direction is constrained "
+"to the reference node for a kinematic coupling constraint. The default value is ON.The"
+" **u2** argument applies only when **couplingType** = KINEMATIC."
 msgstr ""
 
 #: ../../../../docstring
@@ -973,10 +906,9 @@ msgstr ""
 #: abaqus.Constraint.Coupling.Coupling.setValues:23
 #: abaqus.Constraint.Coupling.Coupling.u3:1 of
 msgid ""
-"A Boolean specifying if the displacement component in the 3-direction is "
-"constrained to the reference node for a kinematic coupling constraint. The"
-" default value is ON.The **u3** argument applies only when "
-"**couplingType** = KINEMATIC."
+"A Boolean specifying if the displacement component in the 3-direction is constrained "
+"to the reference node for a kinematic coupling constraint. The default value is ON.The"
+" **u3** argument applies only when **couplingType** = KINEMATIC."
 msgstr ""
 
 #: ../../../../docstring
@@ -984,10 +916,9 @@ msgstr ""
 #: abaqus.Constraint.Coupling.Coupling.setValues:27
 #: abaqus.Constraint.Coupling.Coupling.ur1:1 of
 msgid ""
-"A Boolean specifying if the rotational displacement component about the "
-"1-direction is constrained to the reference node for a kinematic coupling "
-"constraint. The default value is ON.The **ur1** argument applies only when"
-" **couplingType** = KINEMATIC."
+"A Boolean specifying if the rotational displacement component about the 1-direction is"
+" constrained to the reference node for a kinematic coupling constraint. The default "
+"value is ON.The **ur1** argument applies only when **couplingType** = KINEMATIC."
 msgstr ""
 
 #: ../../../../docstring
@@ -995,10 +926,9 @@ msgstr ""
 #: abaqus.Constraint.Coupling.Coupling.setValues:31
 #: abaqus.Constraint.Coupling.Coupling.ur2:1 of
 msgid ""
-"A Boolean specifying if the rotational displacement component about the "
-"2-direction is constrained to the reference node for a kinematic coupling "
-"constraint. The default value is ON.The **ur2** argument applies only when"
-" **couplingType** = KINEMATIC."
+"A Boolean specifying if the rotational displacement component about the 2-direction is"
+" constrained to the reference node for a kinematic coupling constraint. The default "
+"value is ON.The **ur2** argument applies only when **couplingType** = KINEMATIC."
 msgstr ""
 
 #: ../../../../docstring
@@ -1006,10 +936,9 @@ msgstr ""
 #: abaqus.Constraint.Coupling.Coupling.setValues:35
 #: abaqus.Constraint.Coupling.Coupling.ur3:1 of
 msgid ""
-"A Boolean specifying if the rotational displacement component about the "
-"3-direction is constrained to the reference node for a kinematic coupling "
-"constraint. The default value is ON.The **ur3** argument applies only when"
-" **couplingType** = KINEMATIC."
+"A Boolean specifying if the rotational displacement component about the 3-direction is"
+" constrained to the reference node for a kinematic coupling constraint. The default "
+"value is ON.The **ur3** argument applies only when **couplingType** = KINEMATIC."
 msgstr ""
 
 #: ../../../../docstring
@@ -1017,11 +946,10 @@ msgstr ""
 #: abaqus.Constraint.Coupling.Coupling.setValues:39
 #: abaqus.Constraint.Coupling.Coupling.weightingMethod:1 of
 msgid ""
-"A SymbolicConstant specifying an optional weighting method used for "
-"calculating the distributing weight factors. Possible values are UNIFORM, "
-"LINEAR, QUADRATIC, and CUBIC. The default value is UNIFORM.The "
-"**weightingMethod** argument applies only when **couplingType** = "
-"DISTRIBUTING."
+"A SymbolicConstant specifying an optional weighting method used for calculating the "
+"distributing weight factors. Possible values are UNIFORM, LINEAR, QUADRATIC, and "
+"CUBIC. The default value is UNIFORM.The **weightingMethod** argument applies only when"
+" **couplingType** = DISTRIBUTING."
 msgstr ""
 
 #: abaqus.Constraint.ConstraintModel.ConstraintModel.Coupling:60 of
@@ -1035,8 +963,8 @@ msgstr ""
 #: abaqus.Constraint.ConstraintModel.ConstraintModel.DisplayBody:9
 #: abaqus.Constraint.DisplayBody.DisplayBody:17 of
 msgid ""
-"Check `DisplayBody on help.3ds.com/2019 <https://help.3ds.com/2019/English"
-"/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"Check `DisplayBody on help.3ds.com/2019 "
+"<https://help.3ds.com/2019/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "displaybodypyc.htm?contextscope=all>`__."
 msgstr ""
 
@@ -1044,20 +972,19 @@ msgstr ""
 #: abaqus.Constraint.ConstraintModel.ConstraintModel.DisplayBody:14
 #: abaqus.Constraint.DisplayBody.DisplayBody.instance:1 of
 msgid ""
-"A PartInstance object specifying the part instance that is to be used for "
-"display only."
+"A PartInstance object specifying the part instance that is to be used for display "
+"only."
 msgstr ""
 
 #: ../../../../docstring
 #: abaqus.Constraint.ConstraintModel.ConstraintModel.DisplayBody:16
 #: abaqus.Constraint.DisplayBody.DisplayBody.controlPoints:1 of
 msgid ""
-"A ModelDotArray object specifying the motion of the PartInstance. The "
-"control points may be ConstrainedSketchVertex, ReferencePoint, or MeshNode"
-" objects. Their motion will control the motion of the PartInstance. If "
-"this argument is set to an empty sequence, the PartInstance will remain "
-"fixed in space during the analysis. The sequence can have either one "
-"object or three objects."
+"A ModelDotArray object specifying the motion of the PartInstance. The control points "
+"may be ConstrainedSketchVertex, ReferencePoint, or MeshNode objects. Their motion will"
+" control the motion of the PartInstance. If this argument is set to an empty sequence,"
+" the PartInstance will remain fixed in space during the analysis. The sequence can "
+"have either one object or three objects."
 msgstr ""
 
 #: abaqus.Constraint.ConstraintModel.ConstraintModel.DisplayBody:22 of
@@ -1071,8 +998,8 @@ msgstr ""
 #: abaqus.Constraint.ConstraintModel.ConstraintModel.EmbeddedRegion:9
 #: abaqus.Constraint.EmbeddedRegion.EmbeddedRegion:15 of
 msgid ""
-"Check `EmbeddedRegion on help.3ds.com/2019 <https://help.3ds.com/2019/Engl"
-"ish/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"Check `EmbeddedRegion on help.3ds.com/2019 "
+"<https://help.3ds.com/2019/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "embeddedregionpyc.htm?contextscope=all>`__."
 msgstr ""
 
@@ -1086,8 +1013,8 @@ msgstr ""
 #: abaqus.Constraint.ConstraintModel.ConstraintModel.EmbeddedRegion:16
 #: abaqus.Constraint.EmbeddedRegion.EmbeddedRegion.hostRegion:1 of
 msgid ""
-"A Region object specifying the host region. A value of None indicates that"
-" the host region is the whole model."
+"A Region object specifying the host region. A value of None indicates that the host "
+"region is the whole model."
 msgstr ""
 
 #: ../../../../docstring
@@ -1095,8 +1022,8 @@ msgstr ""
 #: abaqus.Constraint.EmbeddedRegion.EmbeddedRegion.setValues:7
 #: abaqus.Constraint.EmbeddedRegion.EmbeddedRegion.weightFactorTolerance:1 of
 msgid ""
-"A Float specifying a small value below which the weighting factors will be"
-" zeroed out. The default value is 10⁻⁶."
+"A Float specifying a small value below which the weighting factors will be zeroed out."
+" The default value is 10⁻⁶."
 msgstr ""
 
 #: ../../../../docstring
@@ -1104,9 +1031,9 @@ msgstr ""
 #: abaqus.Constraint.EmbeddedRegion.EmbeddedRegion.setValues:10
 #: abaqus.Constraint.EmbeddedRegion.EmbeddedRegion.toleranceMethod:1 of
 msgid ""
-"A SymbolicConstant specifying the method used to determine the embedded "
-"element tolerance. Possible values are ABSOLUTE, FRACTIONAL, and BOTH. The"
-" default value is BOTH."
+"A SymbolicConstant specifying the method used to determine the embedded element "
+"tolerance. Possible values are ABSOLUTE, FRACTIONAL, and BOTH. The default value is "
+"BOTH."
 msgstr ""
 
 #: ../../../../docstring
@@ -1114,11 +1041,10 @@ msgstr ""
 #: abaqus.Constraint.EmbeddedRegion.EmbeddedRegion.absoluteTolerance:1
 #: abaqus.Constraint.EmbeddedRegion.EmbeddedRegion.setValues:14 of
 msgid ""
-"A Float specifying the absolute value by which a node on the embedded "
-"region may lie outside the host region. If **absoluteTolerance** = 0.0, "
-"the **fractionalTolerance** value will be used. The default value is "
-"0.0.This argument applies only when **toleranceMethod** = ABSOLUTE or "
-"BOTH."
+"A Float specifying the absolute value by which a node on the embedded region may lie "
+"outside the host region. If **absoluteTolerance** = 0.0, the **fractionalTolerance** "
+"value will be used. The default value is 0.0.This argument applies only when "
+"**toleranceMethod** = ABSOLUTE or BOTH."
 msgstr ""
 
 #: ../../../../docstring
@@ -1126,12 +1052,11 @@ msgstr ""
 #: abaqus.Constraint.EmbeddedRegion.EmbeddedRegion.fractionalTolerance:1
 #: abaqus.Constraint.EmbeddedRegion.EmbeddedRegion.setValues:19 of
 msgid ""
-"A Float specifying the fractional value by which a node on the embedded "
-"region may lie outside the host region. The fractional value is based on "
-"the average element size within the host region. The default value is "
-"0.05.If both tolerance arguments are specified, the smaller value will be "
-"used.This argument applies only when **toleranceMethod** = FRACTIONAL or "
-"BOTH."
+"A Float specifying the fractional value by which a node on the embedded region may lie"
+" outside the host region. The fractional value is based on the average element size "
+"within the host region. The default value is 0.05.If both tolerance arguments are "
+"specified, the smaller value will be used.This argument applies only when "
+"**toleranceMethod** = FRACTIONAL or BOTH."
 msgstr ""
 
 #: abaqus.Constraint.ConstraintModel.ConstraintModel.EmbeddedRegion:37 of
@@ -1145,8 +1070,8 @@ msgstr ""
 #: abaqus.Constraint.ConstraintModel.ConstraintModel.Equation:9
 #: abaqus.Constraint.Equation.Equation:15 of
 msgid ""
-"Check `Equation on help.3ds.com/2019 <https://help.3ds.com/2019/English/DS"
-"SIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"Check `Equation on help.3ds.com/2019 "
+"<https://help.3ds.com/2019/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "equationpyc.htm?contextscope=all>`__."
 msgstr ""
 
@@ -1154,9 +1079,8 @@ msgstr ""
 #: abaqus.Constraint.ConstraintModel.ConstraintModel.Equation:14
 #: abaqus.Constraint.Equation.Equation.terms:1 of
 msgid ""
-"A sequence of (Float, String, Int, Int) sequences specifying a "
-"coefficient, Set name, degree of freedom, and coordinate system ID. The "
-"coordinate system ID is optional."
+"A sequence of (Float, String, Int, Int) sequences specifying a coefficient, Set name, "
+"degree of freedom, and coordinate system ID. The coordinate system ID is optional."
 msgstr ""
 
 #: abaqus.Constraint.ConstraintModel.ConstraintModel.Equation:17 of
@@ -1175,15 +1099,15 @@ msgstr ""
 #: abaqus.Constraint.ConstraintModel.ConstraintModel.Equation:20
 #: abaqus.Constraint.Equation.Equation.setValues:3 of
 msgid ""
-"If **terms** does not contain more than one entry, Equation must have two "
-"or more terms."
+"If **terms** does not contain more than one entry, Equation must have two or more "
+"terms."
 msgstr ""
 
 #: abaqus.Constraint.ConstraintModel.ConstraintModel.MultipointConstraint:9
 #: abaqus.Constraint.MultipointConstraint.MultipointConstraint:16 of
 msgid ""
-"Check `MultipointConstraint on help.3ds.com/2019 <https://help.3ds.com/201"
-"9/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"Check `MultipointConstraint on help.3ds.com/2019 "
+"<https://help.3ds.com/2019/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "multipointconstraintpyc.htm?contextscope=all>`__."
 msgstr ""
 
@@ -1191,16 +1115,16 @@ msgstr ""
 #: abaqus.Constraint.ConstraintModel.ConstraintModel.MultipointConstraint:14
 #: abaqus.Constraint.MultipointConstraint.MultipointConstraint.surface:1 of
 msgid ""
-"A Region object specifying the surface on which the MultipointConstraint "
-"nodes are located."
+"A Region object specifying the surface on which the MultipointConstraint nodes are "
+"located."
 msgstr ""
 
 #: ../../../../docstring
 #: abaqus.Constraint.ConstraintModel.ConstraintModel.MultipointConstraint:19
 #: abaqus.Constraint.MultipointConstraint.MultipointConstraint.mpcType:1 of
 msgid ""
-"A SymbolicConstant specifying the MPC type of the constraint. Possible "
-"values are BEAM_MPC, ELBOW_MPC, PIN_MPC, LINK_MPC, TIE_MPC, and USER_MPC."
+"A SymbolicConstant specifying the MPC type of the constraint. Possible values are "
+"BEAM_MPC, ELBOW_MPC, PIN_MPC, LINK_MPC, TIE_MPC, and USER_MPC."
 msgstr ""
 
 #: ../../../../docstring
@@ -1208,10 +1132,10 @@ msgstr ""
 #: abaqus.Constraint.MultipointConstraint.MultipointConstraint.csys:1
 #: abaqus.Constraint.MultipointConstraint.MultipointConstraint.setValues:7 of
 msgid ""
-"None or a DatumCsys object specifying the initial orientation of the local"
-" coordinate system for the MultipointConstraint's degrees of freedom. If "
-"**localCsys** = None, the MultipointConstraint is defined in the global "
-"coordinate system. The default value is None."
+"None or a DatumCsys object specifying the initial orientation of the local coordinate "
+"system for the MultipointConstraint's degrees of freedom. If **localCsys** = None, the"
+" MultipointConstraint is defined in the global coordinate system. The default value is"
+" None."
 msgstr ""
 
 #: ../../../../docstring
@@ -1219,9 +1143,9 @@ msgstr ""
 #: abaqus.Constraint.MultipointConstraint.MultipointConstraint.setValues:12
 #: abaqus.Constraint.MultipointConstraint.MultipointConstraint.userType:1 of
 msgid ""
-"An Int specifying to differentiate between different constraint types in a"
-" user-defined MultipointConstraint. The default value is 0.The "
-"**userType** argument applies only when **mpcType** = USER_MPC."
+"An Int specifying to differentiate between different constraint types in a user-"
+"defined MultipointConstraint. The default value is 0.The **userType** argument applies"
+" only when **mpcType** = USER_MPC."
 msgstr ""
 
 #: ../../../../docstring
@@ -1229,10 +1153,9 @@ msgstr ""
 #: abaqus.Constraint.MultipointConstraint.MultipointConstraint.setValues:16
 #: abaqus.Constraint.MultipointConstraint.MultipointConstraint.userMode:1 of
 msgid ""
-"A SymbolicConstant specifying the mode of the constraint when it is user-"
-"defined. Possible values are DOF_MODE_MPC and NODE_MODE_MPC. The default "
-"value is DOF_MODE_MPC.The **userMode** argument applies only when "
-"**mpcType** = USER_MPC."
+"A SymbolicConstant specifying the mode of the constraint when it is user-defined. "
+"Possible values are DOF_MODE_MPC and NODE_MODE_MPC. The default value is "
+"DOF_MODE_MPC.The **userMode** argument applies only when **mpcType** = USER_MPC."
 msgstr ""
 
 #: abaqus.Constraint.ConstraintModel.ConstraintModel.MultipointConstraint:35 of
@@ -1246,8 +1169,8 @@ msgstr ""
 #: abaqus.Constraint.ConstraintModel.ConstraintModel.RigidBody:9
 #: abaqus.Constraint.RigidBody.RigidBody:16 of
 msgid ""
-"Check `RigidBody on help.3ds.com/2019 <https://help.3ds.com/2019/English/D"
-"SSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"Check `RigidBody on help.3ds.com/2019 "
+"<https://help.3ds.com/2019/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "rigidbodypyc.htm?contextscope=all>`__."
 msgstr ""
 
@@ -1262,8 +1185,8 @@ msgstr ""
 #: abaqus.Constraint.RigidBody.RigidBody.bodyRegion:1
 #: abaqus.Constraint.RigidBody.RigidBody.setValues:7 of
 msgid ""
-"None or a Region object specifying the elements constrained to the "
-"movement of the reference point. The default value is None."
+"None or a Region object specifying the elements constrained to the movement of the "
+"reference point. The default value is None."
 msgstr ""
 
 #: ../../../../docstring
@@ -1271,8 +1194,8 @@ msgstr ""
 #: abaqus.Constraint.RigidBody.RigidBody.setValues:10
 #: abaqus.Constraint.RigidBody.RigidBody.tieRegion:1 of
 msgid ""
-"None or a Region object specifying the nodes tied to the movement of the "
-"reference point. The default value is None."
+"None or a Region object specifying the nodes tied to the movement of the reference "
+"point. The default value is None."
 msgstr ""
 
 #: ../../../../docstring
@@ -1280,8 +1203,8 @@ msgstr ""
 #: abaqus.Constraint.RigidBody.RigidBody.pinRegion:1
 #: abaqus.Constraint.RigidBody.RigidBody.setValues:13 of
 msgid ""
-"None or a Region object specifying the nodes pinned to the movement of the"
-" reference point. The default value is None."
+"None or a Region object specifying the nodes pinned to the movement of the reference "
+"point. The default value is None."
 msgstr ""
 
 #: ../../../../docstring
@@ -1289,8 +1212,8 @@ msgstr ""
 #: abaqus.Constraint.RigidBody.RigidBody.setValues:16
 #: abaqus.Constraint.RigidBody.RigidBody.surfaceRegion:1 of
 msgid ""
-"None or a Region object specifying the analytic surface constrained to the"
-" movement of the reference point. The default value is None."
+"None or a Region object specifying the analytic surface constrained to the movement of"
+" the reference point. The default value is None."
 msgstr ""
 
 #: ../../../../docstring
@@ -1298,9 +1221,8 @@ msgstr ""
 #: abaqus.Constraint.RigidBody.RigidBody.refPointAtCOM:1
 #: abaqus.Constraint.RigidBody.RigidBody.setValues:19 of
 msgid ""
-"A Boolean specifying whether the analysis product should recompute the "
-"reference point position to be at the center of mass. The default value is"
-" OFF."
+"A Boolean specifying whether the analysis product should recompute the reference point"
+" position to be at the center of mass. The default value is OFF."
 msgstr ""
 
 #: ../../../../docstring
@@ -1308,8 +1230,8 @@ msgstr ""
 #: abaqus.Constraint.RigidBody.RigidBody.isothermal:1
 #: abaqus.Constraint.RigidBody.RigidBody.setValues:22 of
 msgid ""
-"A Boolean specifying whether the temperature degree of freedom should be "
-"constrained. The default value is OFF."
+"A Boolean specifying whether the temperature degree of freedom should be constrained. "
+"The default value is OFF."
 msgstr ""
 
 #: abaqus.Constraint.ConstraintModel.ConstraintModel.RigidBody:34 of
@@ -1323,8 +1245,8 @@ msgstr ""
 #: abaqus.Constraint.ConstraintModel.ConstraintModel.ShellSolidCoupling:9
 #: abaqus.Constraint.ShellSolidCoupling.ShellSolidCoupling:15 of
 msgid ""
-"Check `ShellSolidCoupling on help.3ds.com/2019 <https://help.3ds.com/2019/"
-"English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"Check `ShellSolidCoupling on help.3ds.com/2019 "
+"<https://help.3ds.com/2019/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "shellsolidcouplingpyc.htm?contextscope=all>`__."
 msgstr ""
 
@@ -1348,9 +1270,8 @@ msgstr ""
 #: abaqus.Constraint.Tie.Tie.positionToleranceMethod:1
 #: abaqus.Constraint.Tie.Tie.setValues:10 of
 msgid ""
-"A SymbolicConstant specifying the method used to determine the position "
-"tolerance. Possible values are COMPUTED and SPECIFIED. The default value "
-"is COMPUTED."
+"A SymbolicConstant specifying the method used to determine the position tolerance. "
+"Possible values are COMPUTED and SPECIFIED. The default value is COMPUTED."
 msgstr ""
 
 #: ../../../../docstring
@@ -1359,9 +1280,9 @@ msgstr ""
 #: abaqus.Constraint.ShellSolidCoupling.ShellSolidCoupling.setValues:10 of
 msgid ""
 "A Float specifying the position tolerance. The default value is 0.0.The "
-"**positionTolerance** argument applies only when "
-"**positionToleranceMethod** = SPECIFIED. Note: Abaqus will not constrain "
-"nodes on the solid face region outside the position tolerance."
+"**positionTolerance** argument applies only when **positionToleranceMethod** = "
+"SPECIFIED. Note: Abaqus will not constrain nodes on the solid face region outside the "
+"position tolerance."
 msgstr ""
 
 #: ../../../../docstring
@@ -1369,9 +1290,8 @@ msgstr ""
 #: abaqus.Constraint.ShellSolidCoupling.ShellSolidCoupling.influenceDistanceMethod:1
 #: abaqus.Constraint.ShellSolidCoupling.ShellSolidCoupling.setValues:15 of
 msgid ""
-"A SymbolicConstant specifying the method used to determine the influence "
-"distance. Possible values are DEFAULT and SPECIFIED. The default value is "
-"DEFAULT."
+"A SymbolicConstant specifying the method used to determine the influence distance. "
+"Possible values are DEFAULT and SPECIFIED. The default value is DEFAULT."
 msgstr ""
 
 #: ../../../../docstring
@@ -1379,9 +1299,8 @@ msgstr ""
 #: abaqus.Constraint.ShellSolidCoupling.ShellSolidCoupling.influenceDistance:1
 #: abaqus.Constraint.ShellSolidCoupling.ShellSolidCoupling.setValues:18 of
 msgid ""
-"A Float specifying the influence distance. The **influenceDistance** "
-"argument applies only when **influenceDistanceMethod** = SPECIFIED. The "
-"default value is 0.0."
+"A Float specifying the influence distance. The **influenceDistance** argument applies "
+"only when **influenceDistanceMethod** = SPECIFIED. The default value is 0.0."
 msgstr ""
 
 #: abaqus.Constraint.ConstraintModel.ConstraintModel.ShellSolidCoupling:32 of
@@ -1395,8 +1314,9 @@ msgstr ""
 #: abaqus.Constraint.ConstraintModel.ConstraintModel.Tie:9
 #: abaqus.Constraint.Tie.Tie:15 of
 msgid ""
-"Check `Tie on help.3ds.com/2019 <https://help.3ds.com/2019/English/DSSIMUL"
-"IA_Established/SIMACAEKERRefMap/simaker-c-tiepyc.htm?contextscope=all>`__."
+"Check `Tie on help.3ds.com/2019 "
+"<https://help.3ds.com/2019/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"tiepyc.htm?contextscope=all>`__."
 msgstr ""
 
 #: ../../../../docstring
@@ -1415,8 +1335,8 @@ msgstr ""
 #: abaqus.Constraint.ConstraintModel.ConstraintModel.Tie:18
 #: abaqus.Constraint.Tie.Tie.adjust:1 abaqus.Constraint.Tie.Tie.setValues:7 of
 msgid ""
-"A Boolean specifying whether initial positions of tied slave nodes are "
-"adjusted to lie on the master surface. The default value is ON."
+"A Boolean specifying whether initial positions of tied slave nodes are adjusted to lie"
+" on the master surface. The default value is ON."
 msgstr ""
 
 #: ../../../../docstring
@@ -1424,9 +1344,8 @@ msgstr ""
 #: abaqus.Constraint.Tie.Tie.positionTolerance:1
 #: abaqus.Constraint.Tie.Tie.setValues:13 of
 msgid ""
-"A Float specifying the position tolerance. The **positionTolerance** "
-"argument applies only when **positionToleranceMethod** = SPECIFIED. The "
-"default value is 0.0."
+"A Float specifying the position tolerance. The **positionTolerance** argument applies "
+"only when **positionToleranceMethod** = SPECIFIED. The default value is 0.0."
 msgstr ""
 
 #: ../../../../docstring
@@ -1434,8 +1353,8 @@ msgstr ""
 #: abaqus.Constraint.Tie.Tie.setValues:16
 #: abaqus.Constraint.Tie.Tie.tieRotations:1 of
 msgid ""
-"A Boolean specifying whether rotation degrees of freedom should be tied. "
-"The default value is ON."
+"A Boolean specifying whether rotation degrees of freedom should be tied. The default "
+"value is ON."
 msgstr ""
 
 #: ../../../../docstring
@@ -1443,9 +1362,8 @@ msgstr ""
 #: abaqus.Constraint.Tie.Tie.constraintRatioMethod:1
 #: abaqus.Constraint.Tie.Tie.setValues:19 of
 msgid ""
-"A SymbolicConstant specifying the method used to determine the constraint "
-"ratio. Possible values are DEFAULT and SPECIFIED. The default value is "
-"DEFAULT."
+"A SymbolicConstant specifying the method used to determine the constraint ratio. "
+"Possible values are DEFAULT and SPECIFIED. The default value is DEFAULT."
 msgstr ""
 
 #: ../../../../docstring
@@ -1453,10 +1371,10 @@ msgstr ""
 #: abaqus.Constraint.Tie.Tie.constraintRatio:1
 #: abaqus.Constraint.Tie.Tie.setValues:22 of
 msgid ""
-"A Float specifying the fractional distance between the master reference "
-"surface and the slave node at which the translational constraint should "
-"act. The **constraintRatio** argument applies only when "
-"**constraintRatioMethod** = SPECIFIED. The default value is 0.0."
+"A Float specifying the fractional distance between the master reference surface and "
+"the slave node at which the translational constraint should act. The "
+"**constraintRatio** argument applies only when **constraintRatioMethod** = SPECIFIED. "
+"The default value is 0.0."
 msgstr ""
 
 #: ../../../../docstring
@@ -1464,9 +1382,9 @@ msgstr ""
 #: abaqus.Constraint.Tie.Tie.constraintEnforcement:1
 #: abaqus.Constraint.Tie.Tie.setValues:26 of
 msgid ""
-"A SymbolicConstant specifying the discretization method. Possible values "
-"are SOLVER_DEFAULT, NODE_TO_SURFACE, and SURFACE_TO_SURFACE. The default "
-"value is SOLVER_DEFAULT."
+"A SymbolicConstant specifying the discretization method. Possible values are "
+"SOLVER_DEFAULT, NODE_TO_SURFACE, and SURFACE_TO_SURFACE. The default value is "
+"SOLVER_DEFAULT."
 msgstr ""
 
 #: ../../../../docstring
@@ -1474,8 +1392,8 @@ msgstr ""
 #: abaqus.Constraint.Tie.Tie.setValues:30 abaqus.Constraint.Tie.Tie.thickness:1
 #: of
 msgid ""
-"A Boolean specifying whether shell element thickness is considered. The "
-"default value is ON."
+"A Boolean specifying whether shell element thickness is considered. The default value "
+"is ON."
 msgstr ""
 
 #: abaqus.Constraint.ConstraintModel.ConstraintModel.Tie:44 of
@@ -1504,9 +1422,8 @@ msgstr ""
 
 #: abaqus.Constraint.AdjustPoints.AdjustPoints:1 of
 msgid ""
-"The AdjustPoints constraint object is used to adjust points (nodes) to a "
-"surface. The AdjustPoints object is derived from the "
-"ConstrainedSketchConstraint object."
+"The AdjustPoints constraint object is used to adjust points (nodes) to a surface. The "
+"AdjustPoints object is derived from the ConstrainedSketchConstraint object."
 msgstr ""
 
 #: abaqus.Constraint.AdjustPoints.AdjustPoints:10
@@ -1541,8 +1458,8 @@ msgstr ""
 #: abaqus.Constraint.Tie.Constraint.suppressed:1
 #: abaqus.Constraint.Tie.Tie.suppressed:1 of
 msgid ""
-"A Boolean specifying whether the constraint is suppressed or not. The "
-"default value is OFF."
+"A Boolean specifying whether the constraint is suppressed or not. The default value is"
+" OFF."
 msgstr ""
 
 #: abaqus.Constraint.Constraint.Constraint:1 of
@@ -1551,17 +1468,16 @@ msgstr ""
 
 #: abaqus.Constraint.Constraint.Constraint:1 of
 msgid ""
-"The ConstrainedSketchConstraint object is the abstract base type for other"
-" ConstrainedSketchConstraint objects. The ConstrainedSketchConstraint "
-"object has no explicit constructor. The members of the "
-"ConstrainedSketchConstraint object are common to all objects derived from "
-"the ConstrainedSketchConstraint."
+"The ConstrainedSketchConstraint object is the abstract base type for other "
+"ConstrainedSketchConstraint objects. The ConstrainedSketchConstraint object has no "
+"explicit constructor. The members of the ConstrainedSketchConstraint object are common"
+" to all objects derived from the ConstrainedSketchConstraint."
 msgstr ""
 
 #: abaqus.Constraint.Constraint.Constraint:12 of
 msgid ""
-"Check `Constraint on help.3ds.com/2019 <https://help.3ds.com/2019/English/"
-"DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"Check `Constraint on help.3ds.com/2019 "
+"<https://help.3ds.com/2019/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "constraintpyc.htm?contextscope=all>`__."
 msgstr ""
 
@@ -1571,14 +1487,13 @@ msgstr ""
 
 #: abaqus.Constraint.Constraint.Constraint.delete:4 of
 msgid ""
-"Check `Constraint.delete on help.3ds.com/2019 <https://help.3ds.com/2019/E"
-"nglish/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"Check `Constraint.delete on help.3ds.com/2019 "
+"<https://help.3ds.com/2019/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "constraintpyc.htm?contextscope=all#simaker-constraintdeletepyc>`__."
 msgstr ""
 
 #: abaqus.Constraint.Constraint.Constraint.delete:7 of
-msgid ""
-"A sequence of Ints specifying the index of each constraint to delete."
+msgid "A sequence of Ints specifying the index of each constraint to delete."
 msgstr ""
 
 #: abaqus.Constraint.Constraint.Constraint.resume:1 of
@@ -1591,9 +1506,9 @@ msgstr ""
 
 #: abaqus.Constraint.Coupling.Coupling:1 of
 msgid ""
-"The Coupling object defines a constraint between a group of coupling nodes"
-" located on a region and a reference point. The Coupling object is derived"
-" from the ConstrainedSketchConstraint object."
+"The Coupling object defines a constraint between a group of coupling nodes located on "
+"a region and a reference point. The Coupling object is derived from the "
+"ConstrainedSketchConstraint object."
 msgstr ""
 
 #: abaqus.Constraint.Coupling.Coupling:12 of
@@ -1606,19 +1521,18 @@ msgstr ""
 
 #: abaqus.Constraint.Coupling.Coupling.setValues:4 of
 msgid ""
-"Check `Coupling.setValues on help.3ds.com/2019 <https://help.3ds.com/2019/"
-"English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"Check `Coupling.setValues on help.3ds.com/2019 "
+"<https://help.3ds.com/2019/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "couplingpyc.htm?contextscope=all#simaker-couplingsetvaluespyc>`__."
 msgstr ""
 
 #: abaqus.Constraint.DisplayBody.DisplayBody:1 of
 msgid ""
-"The DisplayBody object defines a constraint such that the specified "
-"instance is used for display only and does not take part in the analysis. "
-"However it will still be visible during postprocessing and its position at"
-" any frame will be defined by the translation and rotation of the "
-"specified control points. The DisplayBody object is derived from the "
-"ConstrainedSketchConstraint object."
+"The DisplayBody object defines a constraint such that the specified instance is used "
+"for display only and does not take part in the analysis. However it will still be "
+"visible during postprocessing and its position at any frame will be defined by the "
+"translation and rotation of the specified control points. The DisplayBody object is "
+"derived from the ConstrainedSketchConstraint object."
 msgstr ""
 
 #: abaqus.Constraint.DisplayBody.DisplayBody:14 of
@@ -1631,10 +1545,9 @@ msgstr ""
 
 #: abaqus.Constraint.EmbeddedRegion.EmbeddedRegion:1 of
 msgid ""
-"The EmbeddedRegion object allows you to embed a region of the model within"
-" a “host” region of the model or within the whole model. The "
-"EmbeddedRegion object is derived from the ConstrainedSketchConstraint "
-"object."
+"The EmbeddedRegion object allows you to embed a region of the model within a “host” "
+"region of the model or within the whole model. The EmbeddedRegion object is derived "
+"from the ConstrainedSketchConstraint object."
 msgstr ""
 
 #: abaqus.Constraint.EmbeddedRegion.EmbeddedRegion:12 of
@@ -1647,17 +1560,16 @@ msgstr ""
 
 #: abaqus.Constraint.EmbeddedRegion.EmbeddedRegion.setValues:4 of
 msgid ""
-"Check `EmbeddedRegion.setValues on help.3ds.com/2019 <https://help.3ds.com"
-"/2019/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
-"embeddedregionpyc.htm?contextscope=all#simaker-"
-"embeddedregionsetvaluespyc>`__."
+"Check `EmbeddedRegion.setValues on help.3ds.com/2019 "
+"<https://help.3ds.com/2019/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"embeddedregionpyc.htm?contextscope=all#simaker-embeddedregionsetvaluespyc>`__."
 msgstr ""
 
 #: abaqus.Constraint.Equation.Equation:1 of
 msgid ""
-"The Equation object defines a linear multi-point constraint between a set "
-"of degrees of freedom. The Equation object is derived from the "
-"ConstrainedSketchConstraint object."
+"The Equation object defines a linear multi-point constraint between a set of degrees "
+"of freedom. The Equation object is derived from the ConstrainedSketchConstraint "
+"object."
 msgstr ""
 
 #: abaqus.Constraint.Equation.Equation:12 of
@@ -1672,8 +1584,7 @@ msgstr ""
 msgid ""
 "The MultipointConstraint object defines a constraint between a group of "
 "MultipointConstraint nodes located on a region and a reference point. The "
-"MultipointConstraint object is derived from the "
-"ConstrainedSketchConstraint object."
+"MultipointConstraint object is derived from the ConstrainedSketchConstraint object."
 msgstr ""
 
 #: abaqus.Constraint.MultipointConstraint.MultipointConstraint:13 of
@@ -1686,18 +1597,17 @@ msgstr ""
 
 #: abaqus.Constraint.MultipointConstraint.MultipointConstraint.setValues:4 of
 msgid ""
-"Check `MultipointConstraint.setValues on help.3ds.com/2019 <https://help.3"
-"ds.com/2019/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"Check `MultipointConstraint.setValues on help.3ds.com/2019 "
+"<https://help.3ds.com/2019/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "multipointconstraintpyc.htm?contextscope=all#simaker-"
 "multipointconstraintsetvaluespyc>`__."
 msgstr ""
 
 #: abaqus.Constraint.RigidBody.RigidBody:1 of
 msgid ""
-"The RigidBody object constrains all the degrees of freedom on the "
-"specified regions to the degree of freedom of its associated reference "
-"point. The RigidBody object is derived from the "
-"ConstrainedSketchConstraint object."
+"The RigidBody object constrains all the degrees of freedom on the specified regions to"
+" the degree of freedom of its associated reference point. The RigidBody object is "
+"derived from the ConstrainedSketchConstraint object."
 msgstr ""
 
 #: abaqus.Constraint.RigidBody.RigidBody:13 of
@@ -1710,16 +1620,16 @@ msgstr ""
 
 #: abaqus.Constraint.RigidBody.RigidBody.setValues:4 of
 msgid ""
-"Check `RigidBody.setValues on help.3ds.com/2019 <https://help.3ds.com/2019"
-"/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"Check `RigidBody.setValues on help.3ds.com/2019 "
+"<https://help.3ds.com/2019/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "rigidbodypyc.htm?contextscope=all#simaker-rigidbodysetvaluespyc>`__."
 msgstr ""
 
 #: abaqus.Constraint.ShellSolidCoupling.ShellSolidCoupling:1 of
 msgid ""
-"The ShellSolidCoupling object defines two surfaces to be tied together for"
-" the duration of a simulation. The ShellSolidCoupling object is derived "
-"from the ConstrainedSketchConstraint object."
+"The ShellSolidCoupling object defines two surfaces to be tied together for the "
+"duration of a simulation. The ShellSolidCoupling object is derived from the "
+"ConstrainedSketchConstraint object."
 msgstr ""
 
 #: abaqus.Constraint.ShellSolidCoupling.ShellSolidCoupling:12 of
@@ -1732,17 +1642,15 @@ msgstr ""
 
 #: abaqus.Constraint.ShellSolidCoupling.ShellSolidCoupling.setValues:4 of
 msgid ""
-"Check `ShellSolidCoupling.setValues on help.3ds.com/2019 <https://help.3ds"
-".com/2019/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
-"shellsolidcouplingpyc.htm?contextscope=all#simaker-"
-"shellsolidcouplingsetvaluespyc>`__."
+"Check `ShellSolidCoupling.setValues on help.3ds.com/2019 "
+"<https://help.3ds.com/2019/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"shellsolidcouplingpyc.htm?contextscope=all#simaker-shellsolidcouplingsetvaluespyc>`__."
 msgstr ""
 
 #: abaqus.Constraint.Tie.Tie:1 of
 msgid ""
-"The Tie object defines two surfaces to be tied together for the duration "
-"of a simulation. The Tie object is derived from the "
-"ConstrainedSketchConstraint object."
+"The Tie object defines two surfaces to be tied together for the duration of a "
+"simulation. The Tie object is derived from the ConstrainedSketchConstraint object."
 msgstr ""
 
 #: abaqus.Constraint.Tie.Tie:12 of
@@ -1755,20 +1663,17 @@ msgstr ""
 
 #: abaqus.Constraint.Tie.Tie.setValues:4 of
 msgid ""
-"Check `Tie.setValues on help.3ds.com/2019 <https://help.3ds.com/2019/Engli"
-"sh/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"Check `Tie.setValues on help.3ds.com/2019 "
+"<https://help.3ds.com/2019/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "tiepyc.htm?contextscope=all#simaker-tiesetvaluespyc>`__."
 msgstr ""
 
 #: abaqus.Constraint.Tie.Tie.swapSurfaces:1 of
-msgid ""
-"This method switches the master and slave surfaces of a tied constraint."
+msgid "This method switches the master and slave surfaces of a tied constraint."
 msgstr ""
 
 #: abaqus.Constraint.Tie.Tie.swapSurfaces:3 of
-msgid ""
-"This command is valid only during the step in which the interaction is "
-"created."
+msgid "This command is valid only during the step in which the interaction is created."
 msgstr ""
 
 #~ msgid "Bases: :py:class:`~abaqus.Model.ModelBase.ModelBase`"

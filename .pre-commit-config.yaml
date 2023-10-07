@@ -4,6 +4,8 @@ repos:
     hooks:
       - id: pofmt
         additional_dependencies: ["pangu"] # for handling Chinese documents
+        args:
+          - --line-length=88
 
   - repo: https://github.com/pre-commit/mirrors-prettier
     rev: "v3.0.2"
