@@ -34,7 +34,7 @@ jobs:
           git config --global user.name "GitHub Actions"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add .
-          git commit -m "Undo revision-date-only changes"
+          git commit -m "Undo revision-date-only changes" || true
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
