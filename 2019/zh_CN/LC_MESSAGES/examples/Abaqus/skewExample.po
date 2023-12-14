@@ -1,21 +1,12 @@
+
 msgid ""
 msgstr ""
-"Project-Id-Version: abqpy-locale\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-14 01:59+0000\n"
-"PO-Revision-Date: 2023-09-14 10:44\n"
-"Last-Translator: \n"
-"Language-Team: Chinese Simplified\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Crowdin-Project: abqpy-locale\n"
-"X-Crowdin-Project-ID: 587413\n"
-"X-Crowdin-Language: zh-CN\n"
-"X-Crowdin-File: /main/2019/pot/examples/Abaqus/skewExample.pot\n"
-"X-Crowdin-File-ID: 3405\n"
-"Language: zh_CN\n"
+"Project-Id-Version:  abqpy-locale\nReport-Msgid-Bugs-To: \nPOT-Creation-"
+"Date: 2023-12-14 03:47+0000\nPO-Revision-Date: 2023-09-14 "
+"10:44+0000\nLast-Translator: \nLanguage: zh_CN\nLanguage-Team: Chinese "
+"Simplified\nPlural-Forms: nplurals=1; plural=0;\nMIME-Version: "
+"1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: "
+"8bit\nGenerated-By: Babel 2.14.0\n"
 
 #: ../../../examples/Abaqus/skewExample.rst:10
 msgid "Note"
@@ -23,10 +14,11 @@ msgstr "备注"
 
 #: ../../../examples/Abaqus/skewExample.rst:13
 msgid ""
-":ref:`Go to the end <sphx_glr_download_examples_Abaqus_skewExample.py>` to download "
-"the full example code"
+":ref:`Go to the end <sphx_glr_download_examples_Abaqus_skewExample.py>` to"
+" download the full example code"
 msgstr ""
-":ref:`转到最后 <sphx_glr_download_examples_Abaqus_skewExample.py>` 下载完整的示例代码"
+":ref:`转到最后 <sphx_glr_download_examples_Abaqus_skewExample.py>` "
+"下载完整的示例代码"
 
 #: ../../../examples/Abaqus/skewExample.rst:22
 msgid "Parametric Study"
@@ -34,21 +26,23 @@ msgstr "参数研究"
 
 #: ../../../examples/Abaqus/skewExample.rst:24
 msgid ""
-"`skewExample.py` from `Using a script to perform a parametric study "
-"<https://help.3ds.com/2021/English/DSSIMULIA_Established/SIMACAECMDRefMap/simacmd-c-"
-"intexaaclskewparametric.htm?contextscope=all&id=c78341a7f00b493caa61a4c530165d52>`_."
+"`skewExample.py` from `Using a script to perform a parametric study <https"
+"://help.3ds.com/2021/English/DSSIMULIA_Established/SIMACAECMDRefMap/simacm"
+"d-c-intexaaclskewparametric.htm?contextscope=all&id=c78341a7f00b493caa61a4"
+"c530165d52>`_."
 msgstr ""
-"`skewExpleple.py` 来自 `Using a script to perform a parametric study "
-"<https://help.3ds.com/2021/English/DSSIMULIA_Established/SIMACAECMDRefMap/simacmd-c-"
-"intexaaclskewparametric.htm?contextscope=all&id=c78341a7f00b493caa61a4c530165d52>`_。"
+"`skewExpleple.py` 来自 `Using a script to perform a parametric study <https"
+"://help.3ds.com/2021/English/DSSIMULIA_Established/SIMACAECMDRefMap/simacm"
+"d-c-intexaaclskewparametric.htm?contextscope=all&id=c78341a7f00b493caa61a4"
+"c530165d52>`_。"
 
 #: ../../../examples/Abaqus/skewExample.rst:26
 msgid ""
-"This script performs a parameter study of element type versus skew angle. For more "
-"details, see Problem 2.3.4 in the Abaqus Benchmarks manual."
+"This script performs a parameter study of element type versus skew angle. "
+"For more details, see Problem 2.3.4 in the Abaqus Benchmarks manual."
 msgstr ""
-"该脚本执行单元类型与倾斜角度的参数研究。 有关更多详细信息，请参阅 《Abaqus Benchmarks manual》"
-"中的问题 2.3.4。"
+"该脚本执行单元类型与倾斜角度的参数研究。 有关更多详细信息，请参阅 《Abaqus "
+"Benchmarks manual》中的问题 2.3.4。"
 
 #: ../../../examples/Abaqus/skewExample.rst:30
 msgid "Run the following command before running this script:"
@@ -56,37 +50,44 @@ msgstr "在运行此脚本之前运行以下命令："
 
 #: ../../../examples/Abaqus/skewExample.rst:36
 msgid ""
-"The following shows the contents of the script skewExample.py. The parametric study "
-"does the following:"
+"The following shows the contents of the script skewExample.py. The "
+"parametric study does the following:"
 msgstr "以下是 trakewExpleple.py 的源代码。参数研究完成以下工作："
 
 #: ../../../examples/Abaqus/skewExample.rst:38
 msgid ""
-"Opens the model database and creates variables that refer to the part, the assembly, "
-"and the part instance stored in `Model-1`."
-msgstr "打开模型数据库并创建引用存储在 `Model-1` 中的部件、装配体和部件实例的变量。"
+"Opens the model database and creates variables that refer to the part, the"
+" assembly, and the part instance stored in `Model-1`."
+msgstr ""
+"打开模型数据库并创建引用存储在 `Model-1` 中的部件、装配体和部件实例的变量。"
 
 #: ../../../examples/Abaqus/skewExample.rst:39
 msgid ""
-"Creates variables that refer to the four faces and the nine vertices in the instance "
-"of the planar shell part."
+"Creates variables that refer to the four faces and the nine vertices in "
+"the instance of the planar shell part."
 msgstr "创建引用平面壳体零件实例中的四个面和九个顶点的变量。"
 
 #: ../../../examples/Abaqus/skewExample.rst:40
 msgid ""
-"Skews the plate by modifying the angular dimension in the sketch of the base feature."
+"Skews the plate by modifying the angular dimension in the sketch of the "
+"base feature."
 msgstr "通过修改基础特征草图中的角度尺寸来倾斜板。"
 
 #: ../../../examples/Abaqus/skewExample.rst:41
-msgid "Defines the logical corners of the four faces, and generates a structured mesh."
+msgid ""
+"Defines the logical corners of the four faces, and generates a structured "
+"mesh."
 msgstr "定义四个面的逻辑角，并生成结构化网格。"
 
 #: ../../../examples/Abaqus/skewExample.rst:42
-msgid "Runs the analysis for a range of angles using two element types for each angle."
+msgid ""
+"Runs the analysis for a range of angles using two element types for each "
+"angle."
 msgstr "对每个角度使用两种元素类型来运行一系列角度的分析。"
 
 #: ../../../examples/Abaqus/skewExample.rst:43
-msgid "Calculates the maximum moment and displacement at the center of the shell."
+msgid ""
+"Calculates the maximum moment and displacement at the center of the shell."
 msgstr "计算壳体中心处的最大力矩和位移。"
 
 #: ../../../examples/Abaqus/skewExample.rst:44
@@ -109,19 +110,23 @@ msgstr "最小弯矩与倾斜角"
 msgid "The theoretical results are also plotted."
 msgstr "还绘制了理论结果。"
 
-#: ../../../examples/Abaqus/skewExample.rst:395
-msgid "**Total running time of the script:** (0 minutes 0.000 seconds)"
-msgstr "** 脚本的总运行时间：** (0 分钟 0.000 秒)"
+#: ../../../examples/Abaqus/skewExample.rst:401
+msgid ""
+":download:`Download Jupyter notebook: skewExample.ipynb "
+"<skewExample.ipynb>`"
+msgstr ""
+":download:`下载 Jupyter notebook: skewExample.ipynb <skewExample.ipynb>`"
 
-#: ../../../examples/Abaqus/skewExample.rst:409
-msgid ":download:`Download Python source code: skewExample.py <skewExample.py>`"
+#: ../../../examples/Abaqus/skewExample.rst:405
+msgid ""
+":download:`Download Python source code: skewExample.py <skewExample.py>`"
 msgstr ":download:`下载 Python 源代码: skewExample.py <skewExample.py>`"
 
-#: ../../../examples/Abaqus/skewExample.rst:413
-msgid ":download:`Download Jupyter notebook: skewExample.ipynb <skewExample.ipynb>`"
-msgstr ":download:`下载 Jupyter notebook: skewExample.ipynb <skewExample.ipynb>`"
-
-#: ../../../examples/Abaqus/skewExample.rst:420
-msgid "`Gallery generated by Sphinx-Gallery <https://sphinx-gallery.github.io>`_"
+#: ../../../examples/Abaqus/skewExample.rst:412
+msgid ""
+"`Gallery generated by Sphinx-Gallery <https://sphinx-gallery.github.io>`_"
 msgstr "由 `Sphinx-Gallery <https://sphinx-gallery.github.io>`_ 生成"
+
+#~ msgid "**Total running time of the script:** (0 minutes 0.000 seconds)"
+#~ msgstr "** 脚本的总运行时间：** (0 分钟 0.000 秒)"
 
