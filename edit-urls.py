@@ -11,7 +11,7 @@ with open("metadata.json", "r") as f:
     metadata = json.load(f)
 
 # Generate edit URLs
-for version in range(2023, 2015, -1):
+for version in range(2024, 2015, -1):
     edit_urls[f"{version}"] = edit_urls_version = {}
     for language in ("zh_CN",):
         edit_urls[f"{version}"][language] = {}
