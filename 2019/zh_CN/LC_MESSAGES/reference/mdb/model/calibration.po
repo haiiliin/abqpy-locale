@@ -34,8 +34,7 @@ msgid "Bases: :py:class:`~abaqus.Model.ModelBase.ModelBase`"
 msgstr ""
 
 #: abaqus.Calibration.CalibrationModel.CalibrationModel:1 of
-msgid ""
-"Abaqus creates a Model object named `Model-1` when a session is started."
+msgid "Abaqus creates a Model object named `Model-1` when a session is started."
 msgstr ""
 
 #: abaqus.Calibration.Behavior.Behavior:3
@@ -72,8 +71,8 @@ msgstr ""
 
 #: abaqus.Calibration.CalibrationModel.CalibrationModel:9 of
 msgid ""
-"Check `CalibrationModel on help.3ds.com/2019 <https://help.3ds.com/2019/En"
-"glish/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"Check `CalibrationModel on help.3ds.com/2019 "
+"<https://help.3ds.com/2019/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "modelpyc.htm?contextscope=all>`__."
 msgstr ""
 
@@ -90,9 +89,7 @@ msgid "A String specifying the repository key."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
-msgid ""
-":py:obj:`stefanBoltzmann "
-"<abaqus.Model.ModelBase.ModelBase.stefanBoltzmann>`\\"
+msgid ":py:obj:`stefanBoltzmann <abaqus.Model.ModelBase.ModelBase.stefanBoltzmann>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
@@ -100,8 +97,7 @@ msgid "None or a Float specifying the Stefan-Boltzmann constant."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
-msgid ""
-":py:obj:`absoluteZero <abaqus.Model.ModelBase.ModelBase.absoluteZero>`\\"
+msgid ":py:obj:`absoluteZero <abaqus.Model.ModelBase.ModelBase.absoluteZero>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
@@ -109,20 +105,17 @@ msgid "None or a Float specifying the absolute zero constant."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
-msgid ""
-":py:obj:`waveFormulation "
-"<abaqus.Model.ModelBase.ModelBase.waveFormulation>`\\"
+msgid ":py:obj:`waveFormulation <abaqus.Model.ModelBase.ModelBase.waveFormulation>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
 msgid ""
-"A SymbolicConstant specifying the type of incident wave formulation to be "
-"used in acoustic problems."
+"A SymbolicConstant specifying the type of incident wave formulation to be used in "
+"acoustic problems."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
-msgid ""
-":py:obj:`universalGas <abaqus.Model.ModelBase.ModelBase.universalGas>`\\"
+msgid ":py:obj:`universalGas <abaqus.Model.ModelBase.ModelBase.universalGas>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
@@ -130,54 +123,44 @@ msgid "None or a Float specifying the universal gas constant."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
-msgid ""
-":py:obj:`noPartsInputFile "
-"<abaqus.Model.ModelBase.ModelBase.noPartsInputFile>`\\"
+msgid ":py:obj:`noPartsInputFile <abaqus.Model.ModelBase.ModelBase.noPartsInputFile>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
 msgid ""
-"A Boolean specifying whether an input file should be written without parts"
-" and assemblies."
+"A Boolean specifying whether an input file should be written without parts and "
+"assemblies."
+msgstr ""
+
+#: ../../../../None:52:<autosummary>:1
+msgid ":py:obj:`endRestartStep <abaqus.Model.ModelBase.ModelBase.endRestartStep>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
 msgid ""
-":py:obj:`endRestartStep "
-"<abaqus.Model.ModelBase.ModelBase.endRestartStep>`\\"
+"A Boolean specifying that the step specified by **restartStep** should be terminated "
+"at the increment specified by **restartIncrement**."
+msgstr ""
+
+#: ../../../../None:52:<autosummary>:1
+msgid ":py:obj:`shellToSolid <abaqus.Model.ModelBase.ModelBase.shellToSolid>`\\"
+msgstr ""
+
+#: ../../../../None:52:<autosummary>:1
+msgid "A Boolean specifying that a shell global model drives a solid submodel."
+msgstr ""
+
+#: ../../../../None:52:<autosummary>:1
+msgid ":py:obj:`lastChangedCount <abaqus.Model.ModelBase.ModelBase.lastChangedCount>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
 msgid ""
-"A Boolean specifying that the step specified by **restartStep** should be "
-"terminated at the increment specified by **restartIncrement**."
+"A Float specifying the time stamp that indicates when the model was last changed."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
-msgid ""
-":py:obj:`shellToSolid <abaqus.Model.ModelBase.ModelBase.shellToSolid>`\\"
-msgstr ""
-
-#: ../../../../None:52:<autosummary>:1
-msgid ""
-"A Boolean specifying that a shell global model drives a solid submodel."
-msgstr ""
-
-#: ../../../../None:52:<autosummary>:1
-msgid ""
-":py:obj:`lastChangedCount "
-"<abaqus.Model.ModelBase.ModelBase.lastChangedCount>`\\"
-msgstr ""
-
-#: ../../../../None:52:<autosummary>:1
-msgid ""
-"A Float specifying the time stamp that indicates when the model was last "
-"changed."
-msgstr ""
-
-#: ../../../../None:52:<autosummary>:1
-msgid ""
-":py:obj:`description <abaqus.Model.ModelBase.ModelBase.description>`\\"
+msgid ":py:obj:`description <abaqus.Model.ModelBase.ModelBase.description>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
@@ -189,19 +172,15 @@ msgid ":py:obj:`restartJob <abaqus.Model.ModelBase.ModelBase.restartJob>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
-msgid ""
-"A String specifying the name of the job that generated the restart data."
+msgid "A String specifying the name of the job that generated the restart data."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
-msgid ""
-":py:obj:`restartStep <abaqus.Model.ModelBase.ModelBase.restartStep>`\\"
+msgid ":py:obj:`restartStep <abaqus.Model.ModelBase.ModelBase.restartStep>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
-msgid ""
-"A String specifying the name of the step where the restart analysis will "
-"start."
+msgid "A String specifying the name of the step where the restart analysis will start."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
@@ -210,49 +189,42 @@ msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
 msgid ""
-"A String specifying the name of the job that generated the results for the"
-" global model."
+"A String specifying the name of the job that generated the results for the global "
+"model."
+msgstr ""
+
+#: ../../../../None:52:<autosummary>:1
+msgid ":py:obj:`copyConstraints <abaqus.Model.ModelBase.ModelBase.copyConstraints>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
 msgid ""
-":py:obj:`copyConstraints "
-"<abaqus.Model.ModelBase.ModelBase.copyConstraints>`\\"
+"A boolean specifying the status of constraints created in a model, in the model which "
+"instances this model."
+msgstr ""
+
+#: ../../../../None:52:<autosummary>:1
+msgid ":py:obj:`copyConnectors <abaqus.Model.ModelBase.ModelBase.copyConnectors>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
 msgid ""
-"A boolean specifying the status of constraints created in a model, in the "
-"model which instances this model."
+"A boolean specifying the status of connectors created in a model, in the model which "
+"instances this model."
+msgstr ""
+
+#: ../../../../None:52:<autosummary>:1
+msgid ":py:obj:`copyInteractions <abaqus.Model.ModelBase.ModelBase.copyInteractions>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
 msgid ""
-":py:obj:`copyConnectors "
-"<abaqus.Model.ModelBase.ModelBase.copyConnectors>`\\"
+"A boolean specifying the status of interactions created in a model, in the model which"
+" instances this model."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
-msgid ""
-"A boolean specifying the status of connectors created in a model, in the "
-"model which instances this model."
-msgstr ""
-
-#: ../../../../None:52:<autosummary>:1
-msgid ""
-":py:obj:`copyInteractions "
-"<abaqus.Model.ModelBase.ModelBase.copyInteractions>`\\"
-msgstr ""
-
-#: ../../../../None:52:<autosummary>:1
-msgid ""
-"A boolean specifying the status of interactions created in a model, in the"
-" model which instances this model."
-msgstr ""
-
-#: ../../../../None:52:<autosummary>:1
-msgid ""
-":py:obj:`keywordBlock <abaqus.Model.ModelBase.ModelBase.keywordBlock>`\\"
+msgid ":py:obj:`keywordBlock <abaqus.Model.ModelBase.ModelBase.keywordBlock>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
@@ -260,8 +232,7 @@ msgid "A KeywordBlock object."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
-msgid ""
-":py:obj:`rootAssembly <abaqus.Model.ModelBase.ModelBase.rootAssembly>`\\"
+msgid ":py:obj:`rootAssembly <abaqus.Model.ModelBase.ModelBase.rootAssembly>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
@@ -286,8 +257,7 @@ msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
 msgid ""
-":py:obj:`boundaryConditions "
-"<abaqus.Model.ModelBase.ModelBase.boundaryConditions>`\\"
+":py:obj:`boundaryConditions <abaqus.Model.ModelBase.ModelBase.boundaryConditions>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
@@ -295,8 +265,7 @@ msgid "A repository of BoundaryCondition objects."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
-msgid ""
-":py:obj:`constraints <abaqus.Model.ModelBase.ModelBase.constraints>`\\"
+msgid ":py:obj:`constraints <abaqus.Model.ModelBase.ModelBase.constraints>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
@@ -304,9 +273,7 @@ msgid "A repository of ConstrainedSketchConstraint objects."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
-msgid ""
-":py:obj:`analyticalFields "
-"<abaqus.Model.ModelBase.ModelBase.analyticalFields>`\\"
+msgid ":py:obj:`analyticalFields <abaqus.Model.ModelBase.ModelBase.analyticalFields>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
@@ -314,9 +281,7 @@ msgid "A repository of AnalyticalField objects."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
-msgid ""
-":py:obj:`discreteFields "
-"<abaqus.Model.ModelBase.ModelBase.discreteFields>`\\"
+msgid ":py:obj:`discreteFields <abaqus.Model.ModelBase.ModelBase.discreteFields>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
@@ -324,9 +289,7 @@ msgid "A repository of DiscreteField objects."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
-msgid ""
-":py:obj:`predefinedFields "
-"<abaqus.Model.ModelBase.ModelBase.predefinedFields>`\\"
+msgid ":py:obj:`predefinedFields <abaqus.Model.ModelBase.ModelBase.predefinedFields>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
@@ -334,8 +297,7 @@ msgid "A repository of PredefinedField objects."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
-msgid ""
-":py:obj:`interactions <abaqus.Model.ModelBase.ModelBase.interactions>`\\"
+msgid ":py:obj:`interactions <abaqus.Model.ModelBase.ModelBase.interactions>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
@@ -353,9 +315,7 @@ msgid "A repository of InteractionProperty objects."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
-msgid ""
-":py:obj:`contactControls "
-"<abaqus.Model.ModelBase.ModelBase.contactControls>`\\"
+msgid ":py:obj:`contactControls <abaqus.Model.ModelBase.ModelBase.contactControls>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
@@ -383,27 +343,23 @@ msgid "A repository of ContactStabilization objects."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
-msgid ""
-":py:obj:`linkedInstances "
-"<abaqus.Model.ModelBase.ModelBase.linkedInstances>`\\"
+msgid ":py:obj:`linkedInstances <abaqus.Model.ModelBase.ModelBase.linkedInstances>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
 msgid ""
-"A tuple of tuples of Strings specifying the linked child PartInstance name"
-" in the current model to the corresponding parent PartInstance name in a "
-"different model."
+"A tuple of tuples of Strings specifying the linked child PartInstance name in the "
+"current model to the corresponding parent PartInstance name in a different model."
+msgstr ""
+
+#: ../../../../None:52:<autosummary>:1
+msgid ":py:obj:`linkedParts <abaqus.Model.ModelBase.ModelBase.linkedParts>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
 msgid ""
-":py:obj:`linkedParts <abaqus.Model.ModelBase.ModelBase.linkedParts>`\\"
-msgstr ""
-
-#: ../../../../None:52:<autosummary>:1
-msgid ""
-"A tuple of tuples of Strings specifying the linked child Part name in the "
-"current model to the corresponding parent Part name in a different model."
+"A tuple of tuples of Strings specifying the linked child Part name in the current "
+"model to the corresponding parent Part name in a different model."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
@@ -423,8 +379,7 @@ msgid "A repository of Material objects."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
-msgid ""
-":py:obj:`calibrations <abaqus.Model.ModelBase.ModelBase.calibrations>`\\"
+msgid ":py:obj:`calibrations <abaqus.Model.ModelBase.ModelBase.calibrations>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
@@ -440,9 +395,7 @@ msgid "A repository of Section objects."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
-msgid ""
-":py:obj:`remeshingRules "
-"<abaqus.Model.ModelBase.ModelBase.remeshingRules>`\\"
+msgid ":py:obj:`remeshingRules <abaqus.Model.ModelBase.ModelBase.remeshingRules>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
@@ -474,9 +427,7 @@ msgid "A repository of Step objects."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
-msgid ""
-":py:obj:`featureOptions "
-"<abaqus.Model.ModelBase.ModelBase.featureOptions>`\\"
+msgid ":py:obj:`featureOptions <abaqus.Model.ModelBase.ModelBase.featureOptions>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
@@ -531,8 +482,7 @@ msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
 msgid ""
-":py:obj:`fieldOutputRequests "
-"<abaqus.Model.ModelBase.ModelBase.fieldOutputRequests>`\\"
+":py:obj:`fieldOutputRequests <abaqus.Model.ModelBase.ModelBase.fieldOutputRequests>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
@@ -551,8 +501,7 @@ msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
 msgid ""
-":py:obj:`optimizationTasks "
-"<abaqus.Model.ModelBase.ModelBase.optimizationTasks>`\\"
+":py:obj:`optimizationTasks <abaqus.Model.ModelBase.ModelBase.optimizationTasks>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
@@ -560,15 +509,13 @@ msgid "A repository of OptimizationTask objects."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
-msgid ""
-":py:obj:`restartIncrement "
-"<abaqus.Model.ModelBase.ModelBase.restartIncrement>`\\"
+msgid ":py:obj:`restartIncrement <abaqus.Model.ModelBase.ModelBase.restartIncrement>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
 msgid ""
-"An Int specifying the increment, interval, iteration or cycle where the "
-"restart analysis will start."
+"An Int specifying the increment, interval, iteration or cycle where the restart "
+"analysis will start."
 msgstr ""
 
 #: abaqus.Calibration.CalibrationModel.CalibrationModel of
@@ -578,8 +525,7 @@ msgstr ""
 #: ../../../../None:3:<autosummary>:1
 msgid ""
 ":py:obj:`Calibration "
-"<abaqus.Calibration.CalibrationModel.CalibrationModel.Calibration>`\\ "
-"\\(name\\)"
+"<abaqus.Calibration.CalibrationModel.CalibrationModel.Calibration>`\\ \\(name\\)"
 msgstr ""
 
 #: ../../../../None:3:<autosummary>:1
@@ -589,8 +535,8 @@ msgstr ""
 
 #: ../../../../None:7:<autosummary>:1
 msgid ""
-":py:obj:`__init__ <abaqus.Model.ModelBase.ModelBase.__init__>`\\ "
-"\\(name\\[\\, description\\, ...\\]\\)"
+":py:obj:`__init__ <abaqus.Model.ModelBase.ModelBase.__init__>`\\ \\(name\\[\\, "
+"description\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../../None:7:<autosummary>:1
@@ -599,42 +545,39 @@ msgstr ""
 
 #: ../../../../None:7:<autosummary>:1
 msgid ""
-":py:obj:`ModelFromInputFile "
-"<abaqus.Model.ModelBase.ModelBase.ModelFromInputFile>`\\ \\(name\\, "
-"inputFileName\\)"
+":py:obj:`ModelFromInputFile <abaqus.Model.ModelBase.ModelBase.ModelFromInputFile>`\\ "
+"\\(name\\, inputFileName\\)"
 msgstr ""
 
 #: ../../../../None:7:<autosummary>:1
 msgid ""
-"This method creates a Model object by reading the keywords in an input "
-"file and creating the corresponding Abaqus/CAE objects."
+"This method creates a Model object by reading the keywords in an input file and "
+"creating the corresponding Abaqus/CAE objects."
 msgstr ""
 
 #: ../../../../None:7:<autosummary>:1
 msgid ""
-":py:obj:`ModelFromOdbFile "
-"<abaqus.Model.ModelBase.ModelBase.ModelFromOdbFile>`\\ \\(name\\, "
-"odbFileName\\)"
+":py:obj:`ModelFromOdbFile <abaqus.Model.ModelBase.ModelBase.ModelFromOdbFile>`\\ "
+"\\(name\\, odbFileName\\)"
 msgstr ""
 
 #: ../../../../None:7:<autosummary>:1
 msgid ""
-"This method creates a Model object by reading an output database and "
-"creating any corresponding Abaqus/CAE objects."
+"This method creates a Model object by reading an output database and creating any "
+"corresponding Abaqus/CAE objects."
 msgstr ""
 
 #: ../../../../None:7:<autosummary>:1
 msgid ""
 ":py:obj:`ModelFromNastranFile "
-"<abaqus.Model.ModelBase.ModelBase.ModelFromNastranFile>`\\ \\(modelName\\,"
-" inputFileName\\)"
+"<abaqus.Model.ModelBase.ModelBase.ModelFromNastranFile>`\\ \\(modelName\\, "
+"inputFileName\\)"
 msgstr ""
 
 #: ../../../../None:7:<autosummary>:1
 msgid ""
-"This method creates a Model object by reading the keywords in a Nastran "
-"bulk data file or Nastran input file and creating any corresponding "
-"Abaqus/CAE objects."
+"This method creates a Model object by reading the keywords in a Nastran bulk data file"
+" or Nastran input file and creating any corresponding Abaqus/CAE objects."
 msgstr ""
 
 #: ../../../../None:7:<autosummary>:1
@@ -663,8 +606,8 @@ msgstr ""
 #: abaqus.Calibration.Calibration.Calibration:11
 #: abaqus.Calibration.CalibrationModel.CalibrationModel.Calibration:9 of
 msgid ""
-"Check `Calibration on help.3ds.com/2019 <https://help.3ds.com/2019/English"
-"/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"Check `Calibration on help.3ds.com/2019 "
+"<https://help.3ds.com/2019/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "calibrationpyc.htm?contextscope=all>`__."
 msgstr ""
 
@@ -731,15 +674,14 @@ msgid "Bases: :py:class:`object`"
 msgstr ""
 
 #: abaqus.Calibration.Behavior.Behavior:1 of
-msgid ""
-"The Behavior object specifies the method used for calibrating a material."
+msgid "The Behavior object specifies the method used for calibrating a material."
 msgstr ""
 
 #: abaqus.Calibration.Behavior.Behavior:10
 #: abaqus.Calibration.Calibration.Calibration.Behavior:9 of
 msgid ""
-"Check `Behavior on help.3ds.com/2019 <https://help.3ds.com/2019/English/DS"
-"SIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"Check `Behavior on help.3ds.com/2019 "
+"<https://help.3ds.com/2019/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "behaviorpyc.htm?contextscope=all>`__."
 msgstr ""
 
@@ -747,27 +689,25 @@ msgstr ""
 #: abaqus.Calibration.Calibration.Behavior.biAxialAllName:1
 #: abaqus.Calibration.Calibration.Behavior.uniAxialAllName:1 of
 msgid ""
-"A String specifying the name of the dataset containing all the raw data in"
-" the test data file. Only valid if the behavior is of type FeFpBehavior"
+"A String specifying the name of the dataset containing all the raw data in the test "
+"data file. Only valid if the behavior is of type FeFpBehavior"
 msgstr ""
 
 #: ../../../../docstring
 #: abaqus.Calibration.Calibration.Behavior.calibrationName:1 of
-msgid ""
-"A string specifying the name of calibration to which the behavior belongs."
+msgid "A string specifying the name of calibration to which the behavior belongs."
 msgstr ""
 
 #: abaqus.Calibration.Behavior.Behavior.compute_E:1 of
 msgid ""
-"This method computes the value of young's modulus from the existing "
-"DataSet object. The method is only valid for ElasIsoBehavior type of "
-"behavior."
+"This method computes the value of young's modulus from the existing DataSet object. "
+"The method is only valid for ElasIsoBehavior type of behavior."
 msgstr ""
 
 #: abaqus.Calibration.Behavior.Behavior.compute_E:5 of
 msgid ""
-"Check `Behavior.compute_E on help.3ds.com/2019 <https://help.3ds.com/2019/"
-"English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"Check `Behavior.compute_E on help.3ds.com/2019 "
+"<https://help.3ds.com/2019/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "behaviorpyc.htm?contextscope=all#simaker-behaviorcompute_epyc>`__."
 msgstr ""
 
@@ -783,9 +723,8 @@ msgstr ""
 #: abaqus.Calibration.Behavior.Behavior.compute_E:10
 #: abaqus.Calibration.Behavior.Behavior.compute_nu:10 of
 msgid ""
-"A tuple consisting of a and b values of the regression line(y = ax + b), "
-"coefficient of determination(r-squared) value and the start and end-points"
-" of the line."
+"A tuple consisting of a and b values of the regression line(y = ax + b), coefficient "
+"of determination(r-squared) value and the start and end-points of the line."
 msgstr ""
 
 #: abaqus.Calibration.Behavior.Behavior.compute_E:12
@@ -796,16 +735,15 @@ msgstr ""
 
 #: abaqus.Calibration.Behavior.Behavior.compute_elasticModulus:1 of
 msgid ""
-"This method computes the value of the elastic modulus from the yieldpoint "
-"value. The method is only valid for ElasPlasIsoBehavior type of behavior."
+"This method computes the value of the elastic modulus from the yieldpoint value. The "
+"method is only valid for ElasPlasIsoBehavior type of behavior."
 msgstr ""
 
 #: abaqus.Calibration.Behavior.Behavior.compute_elasticModulus:5 of
 msgid ""
-"Check `Behavior.compute_elasticModulus on help.3ds.com/2019 <https://help."
-"3ds.com/2019/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
-"behaviorpyc.htm?contextscope=all#simaker-"
-"behaviorcompute_elasticmoduluspyc>`__."
+"Check `Behavior.compute_elasticModulus on help.3ds.com/2019 "
+"<https://help.3ds.com/2019/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"behaviorpyc.htm?contextscope=all#simaker-behaviorcompute_elasticmoduluspyc>`__."
 msgstr ""
 
 #: abaqus.Calibration.Behavior.Behavior.compute_elasticModulus:8 of
@@ -822,30 +760,28 @@ msgstr ""
 
 #: abaqus.Calibration.Behavior.Behavior.compute_nu:1 of
 msgid ""
-"This method computes the value of Poisson's Ratio from the existing "
-"DataSet object. The method is only valid for ElasIsoBehavior and "
-"ElasPlasIsoBehavior type of behavior."
+"This method computes the value of Poisson's Ratio from the existing DataSet object. "
+"The method is only valid for ElasIsoBehavior and ElasPlasIsoBehavior type of behavior."
 msgstr ""
 
 #: abaqus.Calibration.Behavior.Behavior.compute_nu:5 of
 msgid ""
-"Check `Behavior.compute_nu on help.3ds.com/2019 <https://help.3ds.com/2019"
-"/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"Check `Behavior.compute_nu on help.3ds.com/2019 "
+"<https://help.3ds.com/2019/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "behaviorpyc.htm?contextscope=all#simaker-behaviorcompute_nupyc>`__."
 msgstr ""
 
 #: abaqus.Calibration.Behavior.Behavior.compute_plasticPoints:1 of
 msgid ""
-"This method extracts the coordinates of the Plastic Points. The method is "
-"only valid for ElasPlasIsoBehavior type of behavior."
+"This method extracts the coordinates of the Plastic Points. The method is only valid "
+"for ElasPlasIsoBehavior type of behavior."
 msgstr ""
 
 #: abaqus.Calibration.Behavior.Behavior.compute_plasticPoints:5 of
 msgid ""
-"Check `Behavior.compute_plasticPoints on help.3ds.com/2019 <https://help.3"
-"ds.com/2019/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
-"behaviorpyc.htm?contextscope=all#simaker-"
-"behaviorcompute_plasticpointspyc>`__."
+"Check `Behavior.compute_plasticPoints on help.3ds.com/2019 "
+"<https://help.3ds.com/2019/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"behaviorpyc.htm?contextscope=all#simaker-behaviorcompute_plasticpointspyc>`__."
 msgstr ""
 
 #: abaqus.Calibration.Behavior.Behavior.compute_plasticPoints:10 of
@@ -874,17 +810,15 @@ msgstr ""
 
 #: abaqus.Calibration.Behavior.Behavior.compute_ultimatePoint:1 of
 msgid ""
-"This method computes the coordinates of the Ultimate point from the "
-"existing DataSet object. The method is only valid for ElasPlasIsoBehavior "
-"type of behavior."
+"This method computes the coordinates of the Ultimate point from the existing DataSet "
+"object. The method is only valid for ElasPlasIsoBehavior type of behavior."
 msgstr ""
 
 #: abaqus.Calibration.Behavior.Behavior.compute_ultimatePoint:5 of
 msgid ""
-"Check `Behavior.compute_ultimatePoint on help.3ds.com/2019 <https://help.3"
-"ds.com/2019/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
-"behaviorpyc.htm?contextscope=all#simaker-"
-"behaviorcompute_ultimatepointpyc>`__."
+"Check `Behavior.compute_ultimatePoint on help.3ds.com/2019 "
+"<https://help.3ds.com/2019/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"behaviorpyc.htm?contextscope=all#simaker-behaviorcompute_ultimatepointpyc>`__."
 msgstr ""
 
 #: abaqus.Calibration.Behavior.Behavior.compute_ultimatePoint:10 of
@@ -893,18 +827,17 @@ msgstr ""
 
 #: abaqus.Calibration.Behavior.Behavior.mapToMaterial:1 of
 msgid ""
-"This method appends the calibration data obtained from the DataSet object "
-"to an existing material object. In the case of ElasIsoBehavior, it appends"
-" the young's modulus and poisson's ratio. For ElasPlasIsoBehavior it "
-"appends the young's modulus, poisson's ratio and Plastic points range and "
-"for FeFpBehavior it appends Plastic points range and Mullins effect "
-"properties."
+"This method appends the calibration data obtained from the DataSet object to an "
+"existing material object. In the case of ElasIsoBehavior, it appends the young's "
+"modulus and poisson's ratio. For ElasPlasIsoBehavior it appends the young's modulus, "
+"poisson's ratio and Plastic points range and for FeFpBehavior it appends Plastic "
+"points range and Mullins effect properties."
 msgstr ""
 
 #: abaqus.Calibration.Behavior.Behavior.mapToMaterial:7 of
 msgid ""
-"Check `Behavior.mapToMaterial on help.3ds.com/2019 <https://help.3ds.com/2"
-"019/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"Check `Behavior.mapToMaterial on help.3ds.com/2019 "
+"<https://help.3ds.com/2019/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "behaviorpyc.htm?contextscope=all#simaker-behaviormaptomaterialpyc>`__."
 msgstr ""
 
@@ -913,8 +846,7 @@ msgid "A String specifying the name of the existing material"
 msgstr ""
 
 #: ../../../../docstring abaqus.Calibration.Calibration.Behavior.modelName:1 of
-msgid ""
-"A string specifying the name of the model to which the behavior belongs."
+msgid "A string specifying the name of the model to which the behavior belongs."
 msgstr ""
 
 #: ../../../../docstring abaqus.Calibration.Calibration.Behavior.name:1
@@ -928,8 +860,8 @@ msgstr ""
 
 #: abaqus.Calibration.Behavior.Behavior.setValues:4 of
 msgid ""
-"Check `Behavior.setValues on help.3ds.com/2019 <https://help.3ds.com/2019/"
-"English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"Check `Behavior.setValues on help.3ds.com/2019 "
+"<https://help.3ds.com/2019/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "behaviorpyc.htm?contextscope=all#simaker-behaviorsetvaluespyc>`__."
 msgstr ""
 
@@ -943,14 +875,14 @@ msgstr ""
 
 #: abaqus.Calibration.Behavior.Behavior.setValues:11 of
 msgid ""
-"The name of the first data set. Only valid if the behavior type is "
-"ElasIsoBehavior or ElasPlasIsoBehavior"
+"The name of the first data set. Only valid if the behavior type is ElasIsoBehavior or "
+"ElasPlasIsoBehavior"
 msgstr ""
 
 #: abaqus.Calibration.Behavior.Behavior.setValues:14 of
 msgid ""
-"The name of the second data set. Only valid if the behavior type is "
-"ElasIsoBehavior or ElasPlasIsoBehavior"
+"The name of the second data set. Only valid if the behavior type is ElasIsoBehavior or"
+" ElasPlasIsoBehavior"
 msgstr ""
 
 #: abaqus.Calibration.Behavior.Behavior.setValues:17 of
@@ -959,31 +891,30 @@ msgstr ""
 
 #: abaqus.Calibration.Behavior.Behavior.setValues:19 of
 msgid ""
-"Stress/strain value for the material yield point.Only valid if the "
-"behavior type is ElasPlasIsoBehavior"
+"Stress/strain value for the material yield point.Only valid if the behavior type is "
+"ElasPlasIsoBehavior"
 msgstr ""
 
 #: abaqus.Calibration.Behavior.Behavior.setValues:22 of
 msgid ""
-"Stress/strain value for the material ultimate point.Only valid if the "
-"behavior type is ElasPlasIsoBehavior"
+"Stress/strain value for the material ultimate point.Only valid if the behavior type is"
+" ElasPlasIsoBehavior"
 msgstr ""
 
 #: abaqus.Calibration.Behavior.Behavior.setValues:25 of
 msgid ""
-"Stress/strain values for the Plastic portion of material curve. Only valid"
-" if the behavior type is ElasPlasIsoBehavior"
+"Stress/strain values for the Plastic portion of material curve. Only valid if the "
+"behavior type is ElasPlasIsoBehavior"
 msgstr ""
 
 #: abaqus.Calibration.Behavior.Behavior.setValues:28 of
-msgid ""
-"Poisson's Ratio. Only valid if the behavior type is ElasPlasIsoBehavior"
+msgid "Poisson's Ratio. Only valid if the behavior type is ElasPlasIsoBehavior"
 msgstr ""
 
 #: abaqus.Calibration.Behavior.Behavior.setValues:30 of
 msgid ""
-"Young's Modulus for the elastic portion of the material curve. Only valid "
-"if the behavior type is ElasPlasIsoBehavior"
+"Young's Modulus for the elastic portion of the material curve. Only valid if the "
+"behavior type is ElasPlasIsoBehavior"
 msgstr ""
 
 #: abaqus.Calibration.Behavior.Behavior.setValues:33 of
@@ -997,106 +928,98 @@ msgid "Name of the behavior."
 msgstr ""
 
 #: abaqus.Calibration.Behavior.Behavior.setValues:38 of
-msgid ""
-"Name of the uniaxial dataset. Only valid if the behavior type is "
-"FeFpBehavior"
+msgid "Name of the uniaxial dataset. Only valid if the behavior type is FeFpBehavior"
 msgstr ""
 
 #: abaqus.Calibration.Behavior.Behavior.setValues:40 of
-msgid ""
-"Name of the biaxial dataset. Only valid if the behavior type is "
-"FeFpBehavior"
+msgid "Name of the biaxial dataset. Only valid if the behavior type is FeFpBehavior"
 msgstr ""
 
 #: abaqus.Calibration.Behavior.Behavior.setValues:42 of
 msgid ""
-"'linear' specifies linear interpolation between data points, otherwise "
-"'logarithmic'. Only valid if the behavior type is FeFpBehavior"
+"'linear' specifies linear interpolation between data points, otherwise 'logarithmic'. "
+"Only valid if the behavior type is FeFpBehavior"
 msgstr ""
 
 #: abaqus.Calibration.Behavior.Behavior.setValues:45 of
 msgid ""
-"Uniaxial weight factor, uniWeight + biWeight should equal 1.0. Only valid "
-"if the behavior type is FeFpBehavior"
+"Uniaxial weight factor, uniWeight + biWeight should equal 1.0. Only valid if the "
+"behavior type is FeFpBehavior"
 msgstr ""
 
 #: abaqus.Calibration.Behavior.Behavior.setValues:48 of
 msgid ""
-"Biaxial weight factor, uniWeight + biWeight should equal 1.0. Only valid "
-"if the behavior type is FeFpBehavior"
+"Biaxial weight factor, uniWeight + biWeight should equal 1.0. Only valid if the "
+"behavior type is FeFpBehavior"
 msgstr ""
 
 #: abaqus.Calibration.Behavior.Behavior.setValues:51
 #: abaqus.Calibration.Behavior.Behavior.setValues:54 of
 msgid ""
-"A List of strings, specifying names of reloading DataSet objects obtained "
-"from uniaxial test data. Only valid if the behavior is of type "
-"FeFpBehavior"
+"A List of strings, specifying names of reloading DataSet objects obtained from "
+"uniaxial test data. Only valid if the behavior is of type FeFpBehavior"
 msgstr ""
 
 #: abaqus.Calibration.Behavior.Behavior.setValues:57
 #: abaqus.Calibration.Behavior.Behavior.setValues:72 of
 msgid ""
-"A tuple specifying the coordinates of yield point of the permanent data "
-"set. Only valid if the behavior is of type FeFpBehavior"
+"A tuple specifying the coordinates of yield point of the permanent data set. Only "
+"valid if the behavior is of type FeFpBehavior"
 msgstr ""
 
 #: abaqus.Calibration.Behavior.Behavior.setValues:60 of
 msgid ""
-"A List of strings, specifying names of permanent DataSet objects obtained "
-"from uniaxial test data. Only valid if the behavior is of type "
-"FeFpBehavior"
+"A List of strings, specifying names of permanent DataSet objects obtained from "
+"uniaxial test data. Only valid if the behavior is of type FeFpBehavior"
 msgstr ""
 
 #: abaqus.Calibration.Behavior.Behavior.setValues:63 of
 msgid ""
-"A string specifying name of Primary DataSet object.Only valid if the "
-"behavior is of type FeFpBehavior"
+"A string specifying name of Primary DataSet object.Only valid if the behavior is of "
+"type FeFpBehavior"
 msgstr ""
 
 #: abaqus.Calibration.Behavior.Behavior.setValues:66 of
 msgid ""
-"A List of strings, specifying names of reloading DataSet objects obtained "
-"from biaxial test data. Only valid if the behavior is of type FeFpBehavior"
+"A List of strings, specifying names of reloading DataSet objects obtained from biaxial"
+" test data. Only valid if the behavior is of type FeFpBehavior"
 msgstr ""
 
 #: abaqus.Calibration.Behavior.Behavior.setValues:69 of
 msgid ""
-"A List of strings, specifying names of unloading DataSet objects obtained "
-"from biaxial test data. Only valid if the behavior is of type FeFpBehavior"
+"A List of strings, specifying names of unloading DataSet objects obtained from biaxial"
+" test data. Only valid if the behavior is of type FeFpBehavior"
 msgstr ""
 
 #: abaqus.Calibration.Behavior.Behavior.setValues:75 of
 msgid ""
-"A List of strings, specifying names of permanent DataSet objects obtained "
-"from biaxial test data. Only valid if the behavior is of type FeFpBehavior"
+"A List of strings, specifying names of permanent DataSet objects obtained from biaxial"
+" test data. Only valid if the behavior is of type FeFpBehavior"
 msgstr ""
 
 #: abaqus.Calibration.Behavior.Behavior.setValues:78 of
 msgid ""
-"A string specifying name of Primary DataSet object. Only valid if the "
-"behavior is of type FeFpBehavior"
+"A string specifying name of Primary DataSet object. Only valid if the behavior is of "
+"type FeFpBehavior"
 msgstr ""
 
 #: ../../../../docstring abaqus.Calibration.Calibration.Behavior.typeName:1
 #: abaqus.Calibration.Calibration.Calibration.Behavior:14 of
 msgid ""
-"A String specifying the type of the new Behavior. Values can be "
-"\"ElasIsoBehavior\", \"ElasPlasIsoBehavior\", \"FeFpBehavior\", or a user "
-"plug-in behavior type."
+"A String specifying the type of the new Behavior. Values can be \"ElasIsoBehavior\", "
+"\"ElasPlasIsoBehavior\", \"FeFpBehavior\", or a user plug-in behavior type."
 msgstr ""
 
 #: abaqus.Calibration.Behavior.Behavior.xyDataDissect:1 of
 msgid ""
-"This method extracts primary, unload, reload and permanent DataSet objects"
-" from the existing DataSet object.The method is only valid for "
-"FeFpBehavior type of behavior."
+"This method extracts primary, unload, reload and permanent DataSet objects from the "
+"existing DataSet object.The method is only valid for FeFpBehavior type of behavior."
 msgstr ""
 
 #: abaqus.Calibration.Behavior.Behavior.xyDataDissect:5 of
 msgid ""
-"Check `Behavior.xyDataDissect on help.3ds.com/2019 <https://help.3ds.com/2"
-"019/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"Check `Behavior.xyDataDissect on help.3ds.com/2019 "
+"<https://help.3ds.com/2019/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "behaviorpyc.htm?contextscope=all#simaker-behaviorxydatadissectpyc>`__."
 msgstr ""
 
@@ -1106,26 +1029,24 @@ msgstr ""
 
 #: abaqus.Calibration.Behavior.Behavior.xyDataDissect:10 of
 msgid ""
-"A string specifying the name of the model to which the calibration "
-"behavior belongs."
+"A string specifying the name of the model to which the calibration behavior belongs."
 msgstr ""
 
 #: abaqus.Calibration.Behavior.Behavior.xyDataDissect:12 of
 msgid ""
-"A string specifying the name of the Calibration object to which the "
-"behavior belongs."
+"A string specifying the name of the Calibration object to which the behavior belongs."
 msgstr ""
 
 #: abaqus.Calibration.Behavior.Behavior.xyDataDissect:14 of
 msgid ""
-"A boolean specifying whether the test data is biaxial or uniaxial. The "
-"default value is True."
+"A boolean specifying whether the test data is biaxial or uniaxial. The default value "
+"is True."
 msgstr ""
 
 #: abaqus.Calibration.Behavior.Behavior.xyDataDissect:17 of
 msgid ""
-"A sequence of strings specifying names of the DataSet objects containing "
-"loading, unloading, reloading and primary datasets."
+"A sequence of strings specifying names of the DataSet objects containing loading, "
+"unloading, reloading and primary datasets."
 msgstr ""
 
 #: abaqus.Calibration.Behavior.Behavior.xyDataDissect:19 of
@@ -1139,24 +1060,23 @@ msgstr ""
 #: abaqus.Calibration.Calibration.Calibration.DataSet:9
 #: abaqus.Calibration.DataSet.DataSet:10 of
 msgid ""
-"Check `DataSet on help.3ds.com/2019 <https://help.3ds.com/2019/English/DSS"
-"IMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"Check `DataSet on help.3ds.com/2019 "
+"<https://help.3ds.com/2019/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "datasetpyc.htm?contextscope=all>`__."
 msgstr ""
 
 #: ../../../../docstring abaqus.Calibration.Calibration.Calibration.DataSet:14
 #: abaqus.Calibration.DataSet.DataSet.data:1 of
 msgid ""
-"A sequence of pairs of Floats specifying data set type pairs. Possible "
-"values are for stress/strain, force/displacement, or transverse "
-"strain/axial strain pairs."
+"A sequence of pairs of Floats specifying data set type pairs. Possible values are for "
+"stress/strain, force/displacement, or transverse strain/axial strain pairs."
 msgstr ""
 
 #: ../../../../docstring abaqus.Calibration.Calibration.Calibration.DataSet:21
 #: abaqus.Calibration.DataSet.DataSet.form:1 of
 msgid ""
-"A String specifying the form of the new dataset. Values can be \"NOMINAL\""
-" or \"TRUE\". The default value is \"NOMINAl\"."
+"A String specifying the form of the new dataset. Values can be \"NOMINAL\" or "
+"\"TRUE\". The default value is \"NOMINAl\"."
 msgstr ""
 
 #: ../../../../docstring abaqus.Calibration.Calibration.Calibration.DataSet:12
@@ -1170,8 +1090,8 @@ msgstr ""
 
 #: abaqus.Calibration.DataSet.DataSet.setValues:4 of
 msgid ""
-"Check `DataSet.setValues on help.3ds.com/2019 <https://help.3ds.com/2019/E"
-"nglish/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"Check `DataSet.setValues on help.3ds.com/2019 "
+"<https://help.3ds.com/2019/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "datasetpyc.htm?contextscope=all#simaker-datasetsetvaluespyc>`__."
 msgstr ""
 
@@ -1182,16 +1102,16 @@ msgstr ""
 #: ../../../../docstring abaqus.Calibration.Calibration.Calibration.DataSet:17
 #: abaqus.Calibration.DataSet.DataSet.type:1 of
 msgid ""
-"A String specifying the type of the new dataset. Values can be "
-"\"STRESS/STRAIN\", \"FORCE/DISPLACEMENT\", or "
-"\"AXIALSTRAIN/TRANSVERSESTRAIN\". The default value is \"STRESS/STRAIN\"."
+"A String specifying the type of the new dataset. Values can be \"STRESS/STRAIN\", "
+"\"FORCE/DISPLACEMENT\", or \"AXIALSTRAIN/TRANSVERSESTRAIN\". The default value is "
+"\"STRESS/STRAIN\"."
 msgstr ""
 
 #: abaqus.Calibration.Calibration.Calibration:1 of
 msgid ""
-"A Calibration object is the object used to specify a material calibration."
-" The Calibration object stores the data that is used for specifying "
-"materials from test data."
+"A Calibration object is the object used to specify a material calibration. The "
+"Calibration object stores the data that is used for specifying materials from test "
+"data."
 msgstr ""
 
 #: abaqus.Calibration.Calibration.Calibration.Behavior:1 of

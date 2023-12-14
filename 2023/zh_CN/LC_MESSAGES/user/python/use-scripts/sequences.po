@@ -23,18 +23,17 @@ msgstr ""
 
 #: ../../user/python/use-scripts/sequences.md:3
 msgid ""
-"Some methods take arguments that are described as a sequence of sequences "
-"of Floats or a sequence of sequences of Ints. Data that are entered into "
-"the table editor in Abaqus/CAE appear as a sequence of sequences in the "
-"equivalent Abaqus Scripting Interface command. In effect the data are a "
-"two-dimensional array. The data across one row form one sequence, and "
-"multiple rows form a sequence of those sequences."
+"Some methods take arguments that are described as a sequence of sequences of Floats or"
+" a sequence of sequences of Ints. Data that are entered into the table editor in "
+"Abaqus/CAE appear as a sequence of sequences in the equivalent Abaqus Scripting "
+"Interface command. In effect the data are a two-dimensional array. The data across one"
+" row form one sequence, and multiple rows form a sequence of those sequences."
 msgstr ""
 
 #: ../../user/python/use-scripts/sequences.md:5
 msgid ""
-"For example, consider the case where the user is creating an elastic "
-"material and describing a temperature-dependent behavior."
+"For example, consider the case where the user is creating an elastic material and "
+"describing a temperature-dependent behavior."
 msgstr ""
 
 #: ../../user/python/use-scripts/sequences.md:14
@@ -43,15 +42,15 @@ msgstr ""
 
 #: ../../user/python/use-scripts/sequences.md:25
 msgid ""
-"The `table` argument is described in the {doc}`/reference/index` as a "
-"sequence of sequences of Floats."
+"The `table` argument is described in the {doc}`/reference/index` as a sequence of "
+"sequences of Floats."
 msgstr ""
 
 #: ../../user/python/use-scripts/sequences.md:27
 msgid ""
-"Lists, tuples, strings, and arrays are described in Sequences. In "
-"addition, the Abaqus Scripting Interface defines some of its own sequences"
-" that contain objects of the same type."
+"Lists, tuples, strings, and arrays are described in Sequences. In addition, the Abaqus"
+" Scripting Interface defines some of its own sequences that contain objects of the "
+"same type."
 msgstr ""
 
 #: ../../user/python/use-scripts/sequences.md:29
@@ -60,36 +59,31 @@ msgstr ""
 
 #: ../../user/python/use-scripts/sequences.md:31
 msgid ""
-"A GeomSequence is a sequence of geometry objects, such as Vertices or "
-"Edges. An Edge sequence is derived from the GeomSequence object. Use the "
-"len() function to determine the number of objects in a GeomSequence. A "
-"GeomSequence has methods and members too."
+"A GeomSequence is a sequence of geometry objects, such as Vertices or Edges. An Edge "
+"sequence is derived from the GeomSequence object. Use the len() function to determine "
+"the number of objects in a GeomSequence. A GeomSequence has methods and members too."
 msgstr ""
 
 #: ../../user/python/use-scripts/sequences.md:33
 msgid ""
-"For example, the following creates a three-dimensional part by extruding a"
-" 70 x 70 square through a distance of 20. The members of the resulting "
-"Part object are listed along with some information about the sequence of "
-"Edge objects."
+"For example, the following creates a three-dimensional part by extruding a 70 x 70 "
+"square through a distance of 20. The members of the resulting Part object are listed "
+"along with some information about the sequence of Edge objects."
 msgstr ""
 
 #: ../../user/python/use-scripts/sequences.md:46
 msgid ""
-"The following statement displays the members of the resulting three-"
-"dimensional part:"
+"The following statement displays the members of the resulting three-dimensional part:"
 msgstr ""
 
 #: ../../user/python/use-scripts/sequences.md:63
 msgid ""
-"The edges, faces, vertices, cells, and ips members are all derived from "
-"the `GeomSequence` object."
+"The edges, faces, vertices, cells, and ips members are all derived from the "
+"`GeomSequence` object."
 msgstr ""
 
 #: ../../user/python/use-scripts/sequences.md:65
-msgid ""
-"The following statements display some information about the edges "
-"sequence:"
+msgid "The following statements display some information about the edges sequence:"
 msgstr ""
 
 #: ../../user/python/use-scripts/sequences.md:84

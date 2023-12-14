@@ -23,8 +23,8 @@ msgstr ""
 
 #: ../../../reference/mdb/model/step/step_miscellaneous.md:3
 msgid ""
-"Miscellaneous Step commands are used for configuring controls, damping, "
-"and frequency tables."
+"Miscellaneous Step commands are used for configuring controls, damping, and frequency "
+"tables."
 msgstr ""
 
 #: ../../../reference/mdb/model/step/step_miscellaneous.md:5
@@ -61,8 +61,7 @@ msgid "Bases: :py:class:`object`"
 msgstr ""
 
 #: abaqus.StepMiscellaneous.CompositeDamping.CompositeDamping:1 of
-msgid ""
-"A CompositeDamping object contains composite modal damping parameters."
+msgid "A CompositeDamping object contains composite modal damping parameters."
 msgstr ""
 
 #: abaqus.StepMiscellaneous.CompositeDamping.CompositeDamping:3
@@ -152,8 +151,8 @@ msgstr ""
 
 #: abaqus.StepMiscellaneous.CompositeDamping.CompositeDamping:10 of
 msgid ""
-"Check `CompositeDamping on help.3ds.com/2023 <https://help.3ds.com/2023/En"
-"glish/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"Check `CompositeDamping on help.3ds.com/2023 "
+"<https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "compositedampingpyc.htm?contextscope=all>`__."
 msgstr ""
 
@@ -194,15 +193,15 @@ msgstr ""
 #: abaqus.StepMiscellaneous.CompositeDampingComponent.CompositeDampingComponent:1
 #: of
 msgid ""
-"A CompositeDampingComponent object is used to define composite damping "
-"over a range of modes."
+"A CompositeDampingComponent object is used to define composite damping over a range of"
+" modes."
 msgstr ""
 
 #: abaqus.StepMiscellaneous.CompositeDampingComponent.CompositeDampingComponent:10
 #: of
 msgid ""
-"Check `CompositeDampingComponent on help.3ds.com/2023 <https://help.3ds.co"
-"m/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"Check `CompositeDampingComponent on help.3ds.com/2023 "
+"<https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "compositedampingcomponentpyc.htm?contextscope=all>`__."
 msgstr ""
 
@@ -228,14 +227,13 @@ msgstr ""
 
 #: abaqus.StepMiscellaneous.Control.Control:1 of
 msgid ""
-"The Control object is used to provide additional optional general solution"
-" controls."
+"The Control object is used to provide additional optional general solution controls."
 msgstr ""
 
 #: abaqus.StepMiscellaneous.Control.Control:10 of
 msgid ""
-"Check `Control on help.3ds.com/2023 <https://help.3ds.com/2023/English/DSS"
-"IMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"Check `Control on help.3ds.com/2023 "
+"<https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "controlpyc.htm?contextscope=all>`__."
 msgstr ""
 
@@ -245,8 +243,8 @@ msgstr ""
 
 #: abaqus.StepMiscellaneous.Control.Control.setValues:4 of
 msgid ""
-"Check `Control.setValues on help.3ds.com/2023 <https://help.3ds.com/2023/E"
-"nglish/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"Check `Control.setValues on help.3ds.com/2023 "
+"<https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "controlpyc.htm?contextscope=all#simaker-controlsetvaluespyc>`__."
 msgstr ""
 
@@ -257,140 +255,128 @@ msgstr ""
 
 #: abaqus.StepMiscellaneous.Control.Control.setValues:7 of
 msgid ""
-"A Boolean specifying whether to allow all control values to propagate from"
-" a previous step. Setting this argument to ON automatically sets "
-"**resetDefaultValues** to OFF. The default value is ON."
+"A Boolean specifying whether to allow all control values to propagate from a previous "
+"step. Setting this argument to ON automatically sets **resetDefaultValues** to OFF. "
+"The default value is ON."
 msgstr ""
 
 #: abaqus.StepMiscellaneous.Control.Control.setValues:11 of
 msgid ""
-"A Boolean specifying whether to use all default control values. Setting "
-"this argument to ON automatically sets **allowPropagation** to OFF. The "
-"default value is OFF."
+"A Boolean specifying whether to use all default control values. Setting this argument "
+"to ON automatically sets **allowPropagation** to OFF. The default value is OFF."
 msgstr ""
 
 #: abaqus.StepMiscellaneous.Control.Control.setValues:14 of
 msgid ""
-"A Boolean specifying whether to set **timeIncrementation** values that "
-"will usually improve efficiency for analyses with severely discontinuous "
-"behavior. The default value is OFF."
+"A Boolean specifying whether to set **timeIncrementation** values that will usually "
+"improve efficiency for analyses with severely discontinuous behavior. The default "
+"value is OFF."
 msgstr ""
 
 #: abaqus.StepMiscellaneous.Control.Control.setValues:18 of
 msgid ""
-"The SymbolicConstant DEFAULT or a sequence of Floats specifying tolerances"
-" on constraint equations. If a specified sequence contains a value of 0, "
-"that item in the sequence will be set to its system-defined value. The "
-"value can also be the SymbolicConstant DEFAULT. The default value is "
-"DEFAULT."
+"The SymbolicConstant DEFAULT or a sequence of Floats specifying tolerances on "
+"constraint equations. If a specified sequence contains a value of 0, that item in the "
+"sequence will be set to its system-defined value. The value can also be the "
+"SymbolicConstant DEFAULT. The default value is DEFAULT."
 msgstr ""
 
 #: abaqus.StepMiscellaneous.Control.Control.setValues:23 of
 msgid ""
-"The SymbolicConstant DEFAULT or a sequence of Floats specifying line "
-"search control parameters. If a specified sequence contains a value of 0, "
-"that item in the sequence will be set to its system-defined value. The "
-"value can also be the SymbolicConstant DEFAULT. The default value is "
-"DEFAULT."
+"The SymbolicConstant DEFAULT or a sequence of Floats specifying line search control "
+"parameters. If a specified sequence contains a value of 0, that item in the sequence "
+"will be set to its system-defined value. The value can also be the SymbolicConstant "
+"DEFAULT. The default value is DEFAULT."
 msgstr ""
 
 #: abaqus.StepMiscellaneous.Control.Control.setValues:28 of
 msgid ""
-"The SymbolicConstant DEFAULT or a sequence of Floats specifying time "
-"incrementation control parameters. If a specified sequence contains a "
-"value of 0, that item in the sequence will be set to its system-defined "
-"value. The value can also be the SymbolicConstant DEFAULT. The default "
-"value is DEFAULT."
+"The SymbolicConstant DEFAULT or a sequence of Floats specifying time incrementation "
+"control parameters. If a specified sequence contains a value of 0, that item in the "
+"sequence will be set to its system-defined value. The value can also be the "
+"SymbolicConstant DEFAULT. The default value is DEFAULT."
 msgstr ""
 
 #: abaqus.StepMiscellaneous.Control.Control.setValues:33 of
 msgid ""
-"The SymbolicConstant DEFAULT or a sequence of Floats specifying direct "
-"cyclic control parameters. If a specified sequence contains a value of 0, "
-"that item in the sequence will be set to its system-defined value. The "
-"value can also be the SymbolicConstant DEFAULT. The default value is "
-"DEFAULT."
+"The SymbolicConstant DEFAULT or a sequence of Floats specifying direct cyclic control "
+"parameters. If a specified sequence contains a value of 0, that item in the sequence "
+"will be set to its system-defined value. The value can also be the SymbolicConstant "
+"DEFAULT. The default value is DEFAULT."
 msgstr ""
 
 #: abaqus.StepMiscellaneous.Control.Control.setValues:38 of
 msgid ""
-"The SymbolicConstant DEFAULT or a sequence of Floats specifying mass "
-"concentration field equilibrium equation parameters. If a specified "
-"sequence contains a value of 0, that item in the sequence will be set to "
-"its system-defined value. The value can also be the SymbolicConstant "
-"DEFAULT. The default value is DEFAULT."
+"The SymbolicConstant DEFAULT or a sequence of Floats specifying mass concentration "
+"field equilibrium equation parameters. If a specified sequence contains a value of 0, "
+"that item in the sequence will be set to its system-defined value. The value can also "
+"be the SymbolicConstant DEFAULT. The default value is DEFAULT."
 msgstr ""
 
 #: abaqus.StepMiscellaneous.Control.Control.setValues:43 of
 msgid ""
-"The SymbolicConstant DEFAULT or a sequence of Floats specifying "
-"displacement field and warping degree of freedom field equilibrium "
-"equation parameters. If a specified sequence contains a value of 0, that "
-"item in the sequence will be set to its system-defined value. The value "
-"can also be the SymbolicConstant DEFAULT. The default value is DEFAULT."
+"The SymbolicConstant DEFAULT or a sequence of Floats specifying displacement field and"
+" warping degree of freedom field equilibrium equation parameters. If a specified "
+"sequence contains a value of 0, that item in the sequence will be set to its system-"
+"defined value. The value can also be the SymbolicConstant DEFAULT. The default value "
+"is DEFAULT."
 msgstr ""
 
 #: abaqus.StepMiscellaneous.Control.Control.setValues:48 of
 msgid ""
-"The SymbolicConstant DEFAULT or a sequence of Floats specifying electrical"
-" potential field equilibrium equation parameters. If a specified sequence "
-"contains a value of 0, that item in the sequence will be set to its "
-"system-defined value. The value can also be the SymbolicConstant DEFAULT. "
-"The default value is DEFAULT."
+"The SymbolicConstant DEFAULT or a sequence of Floats specifying electrical potential "
+"field equilibrium equation parameters. If a specified sequence contains a value of 0, "
+"that item in the sequence will be set to its system-defined value. The value can also "
+"be the SymbolicConstant DEFAULT. The default value is DEFAULT."
 msgstr ""
 
 #: abaqus.StepMiscellaneous.Control.Control.setValues:53 of
 msgid ""
-"The SymbolicConstant DEFAULT or a sequence of Floats specifying parameters"
-" for all applicable field equilibrium equations. This argument overwrites "
-"all other field equilibrium equation control values. If a specified "
-"sequence contains a value of 0, that item in the sequence will be set to "
-"its system-defined value. The value can also be the SymbolicConstant "
-"DEFAULT. The default value is DEFAULT."
+"The SymbolicConstant DEFAULT or a sequence of Floats specifying parameters for all "
+"applicable field equilibrium equations. This argument overwrites all other field "
+"equilibrium equation control values. If a specified sequence contains a value of 0, "
+"that item in the sequence will be set to its system-defined value. The value can also "
+"be the SymbolicConstant DEFAULT. The default value is DEFAULT."
 msgstr ""
 
 #: abaqus.StepMiscellaneous.Control.Control.setValues:59 of
 msgid ""
-"The SymbolicConstant DEFAULT or a sequence of Floats specifying "
-"hydrostatic fluid element volume constraint parameters. If a specified "
-"sequence contains a value of 0, that item in the sequence will be set to "
-"its system-defined value. The value can also be the SymbolicConstant "
-"DEFAULT. The default value is DEFAULT."
+"The SymbolicConstant DEFAULT or a sequence of Floats specifying hydrostatic fluid "
+"element volume constraint parameters. If a specified sequence contains a value of 0, "
+"that item in the sequence will be set to its system-defined value. The value can also "
+"be the SymbolicConstant DEFAULT. The default value is DEFAULT."
 msgstr ""
 
 #: abaqus.StepMiscellaneous.Control.Control.setValues:64 of
 msgid ""
-"The SymbolicConstant DEFAULT or a sequence of Floats specifying pore "
-"liquid volumetric continuity equilibrium equation parameters. If a "
-"specified sequence contains a value of 0, that item in the sequence will "
-"be set to its system-defined value. The value can also be the "
-"SymbolicConstant DEFAULT. The default value is DEFAULT."
+"The SymbolicConstant DEFAULT or a sequence of Floats specifying pore liquid volumetric"
+" continuity equilibrium equation parameters. If a specified sequence contains a value "
+"of 0, that item in the sequence will be set to its system-defined value. The value can"
+" also be the SymbolicConstant DEFAULT. The default value is DEFAULT."
 msgstr ""
 
 #: abaqus.StepMiscellaneous.Control.Control.setValues:69 of
 msgid ""
-"The SymbolicConstant DEFAULT or a sequence of Floats specifying rotation "
-"field equilibrium equation parameters. If a specified sequence contains a "
-"value of 0, that item in the sequence will be set to its system-defined "
-"value. The value can also be the SymbolicConstant DEFAULT. The default "
-"value is DEFAULT."
+"The SymbolicConstant DEFAULT or a sequence of Floats specifying rotation field "
+"equilibrium equation parameters. If a specified sequence contains a value of 0, that "
+"item in the sequence will be set to its system-defined value. The value can also be "
+"the SymbolicConstant DEFAULT. The default value is DEFAULT."
 msgstr ""
 
 #: abaqus.StepMiscellaneous.Control.Control.setValues:74 of
 msgid ""
-"The SymbolicConstant DEFAULT or a sequence of Floats specifying "
-"temperature field equilibrium equation parameters. If a specified sequence"
-" contains a value of 0, that item in the sequence will be set to its "
-"system-defined value. The value can also be the SymbolicConstant DEFAULT. "
-"The default value is DEFAULT."
+"The SymbolicConstant DEFAULT or a sequence of Floats specifying temperature field "
+"equilibrium equation parameters. If a specified sequence contains a value of 0, that "
+"item in the sequence will be set to its system-defined value. The value can also be "
+"the SymbolicConstant DEFAULT. The default value is DEFAULT."
 msgstr ""
 
 #: abaqus.StepMiscellaneous.Control.Control.setValues:79 of
 msgid ""
-"The SymbolicConstant DEFAULT or a Float specifying linear scaling "
-"parameter for a VCCT debonding analysis. If a specified value is 0, it "
-"will be set to its system-defined value. The value can also be the "
-"SymbolicConstant DEFAULT. The default value is DEFAULT."
+"The SymbolicConstant DEFAULT or a Float specifying linear scaling parameter for a VCCT"
+" debonding analysis. If a specified value is 0, it will be set to its system-defined "
+"value. The value can also be the SymbolicConstant DEFAULT. The default value is "
+"DEFAULT."
 msgstr ""
 
 #: abaqus.StepMiscellaneous.Control.Control.setValues
@@ -404,8 +390,8 @@ msgstr ""
 
 #: abaqus.StepMiscellaneous.DirectDamping.DirectDamping:10 of
 msgid ""
-"Check `DirectDamping on help.3ds.com/2023 <https://help.3ds.com/2023/Engli"
-"sh/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"Check `DirectDamping on help.3ds.com/2023 "
+"<https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "directdampingpyc.htm?contextscope=all>`__."
 msgstr ""
 
@@ -416,15 +402,14 @@ msgstr ""
 
 #: abaqus.StepMiscellaneous.DirectDampingByFrequency.DirectDampingByFrequency:1
 #: of
-msgid ""
-"A DirectDampingByFrequency object contains direct damping parameters."
+msgid "A DirectDampingByFrequency object contains direct damping parameters."
 msgstr ""
 
 #: abaqus.StepMiscellaneous.DirectDampingByFrequency.DirectDampingByFrequency:10
 #: of
 msgid ""
-"Check `DirectDampingByFrequency on help.3ds.com/2023 <https://help.3ds.com"
-"/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"Check `DirectDampingByFrequency on help.3ds.com/2023 "
+"<https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "directdampingbyfrequencypyc.htm?contextscope=all>`__."
 msgstr ""
 
@@ -437,15 +422,15 @@ msgstr ""
 #: abaqus.StepMiscellaneous.DirectDampingByFrequencyComponent.DirectDampingByFrequencyComponent:1
 #: of
 msgid ""
-"A DirectDampingByFrequencyComponent object is used to define direct "
-"damping over a range of frequencies."
+"A DirectDampingByFrequencyComponent object is used to define direct damping over a "
+"range of frequencies."
 msgstr ""
 
 #: abaqus.StepMiscellaneous.DirectDampingByFrequencyComponent.DirectDampingByFrequencyComponent:10
 #: of
 msgid ""
-"Check `DirectDampingByFrequencyComponent on help.3ds.com/2023 <https://hel"
-"p.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"Check `DirectDampingByFrequencyComponent on help.3ds.com/2023 "
+"<https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "directdampingbyfrequencycomponentpyc.htm?contextscope=all>`__."
 msgstr ""
 
@@ -466,22 +451,22 @@ msgstr ""
 
 #: abaqus.StepMiscellaneous.DirectDampingComponent.DirectDampingComponent:1 of
 msgid ""
-"A DirectDampingComponent object is used to define direct damping over a "
-"range of modes."
+"A DirectDampingComponent object is used to define direct damping over a range of "
+"modes."
 msgstr ""
 
 #: abaqus.StepMiscellaneous.DirectDampingComponent.DirectDampingComponent:10 of
 msgid ""
-"Check `DirectDampingComponent on help.3ds.com/2023 <https://help.3ds.com/2"
-"023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"Check `DirectDampingComponent on help.3ds.com/2023 "
+"<https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "directdampingcomponentpyc.htm?contextscope=all>`__."
 msgstr ""
 
 #: abaqus.StepMiscellaneous.EmagTimeHarmonicFrequency.EmagTimeHarmonicFrequency:8
 #: of
 msgid ""
-"Check `EmagTimeHarmonicFrequency on help.3ds.com/2023 <https://help.3ds.co"
-"m/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"Check `EmagTimeHarmonicFrequency on help.3ds.com/2023 "
+"<https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "emagtimeharmonicfrequencypyc.htm?contextscope=all>`__."
 msgstr ""
 
@@ -492,8 +477,8 @@ msgstr ""
 #: abaqus.StepMiscellaneous.SteadyStateSubspaceFrequencyArray.SteadyStateSubspaceFrequency.lower:1
 #: of
 msgid ""
-"A Float specifying the lower limit of frequency range or a single "
-"frequency, in cycles/time."
+"A Float specifying the lower limit of frequency range or a single frequency, in "
+"cycles/time."
 msgstr ""
 
 #: ../../../../docstring
@@ -503,8 +488,8 @@ msgstr ""
 #: abaqus.StepMiscellaneous.SteadyStateSubspaceFrequencyArray.SteadyStateSubspaceFrequency.nPoints:1
 #: of
 msgid ""
-"An Int specifying the number of points in the frequency range at which "
-"results should be given."
+"An Int specifying the number of points in the frequency range at which results should "
+"be given."
 msgstr ""
 
 #: ../../../../docstring
@@ -513,36 +498,30 @@ msgstr ""
 #: abaqus.StepMiscellaneous.SteadyStateModalFrequencyArray.SteadyStateModalFrequency.upper:1
 #: abaqus.StepMiscellaneous.SteadyStateSubspaceFrequencyArray.SteadyStateSubspaceFrequency.upper:1
 #: of
-msgid ""
-"A Float specifying the upper limit of frequency range, in cycles/time."
+msgid "A Float specifying the upper limit of frequency range, in cycles/time."
 msgstr ""
 
 #: abaqus.StepMiscellaneous.MassScaling.MassScaling:1 of
-msgid ""
-"A MassScaling object defines the region and controls that govern mass "
-"scaling."
+msgid "A MassScaling object defines the region and controls that govern mass scaling."
 msgstr ""
 
 #: abaqus.StepMiscellaneous.MassScaling.MassScaling:10 of
 msgid ""
-"Check `MassScaling on help.3ds.com/2023 <https://help.3ds.com/2023/English"
-"/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"Check `MassScaling on help.3ds.com/2023 "
+"<https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "massscalingpyc.htm?contextscope=all>`__."
 msgstr ""
 
 #: ../../../../docstring
 #: abaqus.StepMiscellaneous.MassScalingArray.MassScaling.crossSection:1 of
-msgid ""
-"An Int specifying the number of nodes in the cross-section of the "
-"workpiece."
+msgid "An Int specifying the number of nodes in the cross-section of the workpiece."
 msgstr ""
 
 #: ../../../../docstring
 #: abaqus.StepMiscellaneous.MassScalingArray.MassScaling.direction:1 of
 msgid ""
-"A SymbolicConstant specifying the rolling direction. Possible values are "
-"GLOBAL_X, GLOBAL_Y, GLOBAL_Z, and GLOBAL_NONE. The default value is "
-"GLOBAL_X."
+"A SymbolicConstant specifying the rolling direction. Possible values are GLOBAL_X, "
+"GLOBAL_Y, GLOBAL_Z, and GLOBAL_NONE. The default value is GLOBAL_X."
 msgstr ""
 
 #: ../../../../docstring
@@ -552,8 +531,7 @@ msgstr ""
 
 #: ../../../../docstring
 #: abaqus.StepMiscellaneous.MassScalingArray.MassScaling.extrudedLength:1 of
-msgid ""
-"A Float specifying the average element length in the extruded direction."
+msgid "A Float specifying the average element length in the extruded direction."
 msgstr ""
 
 #: ../../../../docstring
@@ -564,67 +542,65 @@ msgstr ""
 #: ../../../../docstring
 #: abaqus.StepMiscellaneous.MassScalingArray.MassScaling.feedRate:1 of
 msgid ""
-"A Float specifying the estimated average velocity of the workpiece in the "
-"rolling direction at steady-state conditions."
+"A Float specifying the estimated average velocity of the workpiece in the rolling "
+"direction at steady-state conditions."
 msgstr ""
 
 #: ../../../../docstring
 #: abaqus.StepMiscellaneous.MassScalingArray.MassScaling.frequency:1 of
 msgid ""
-"An Int specifying the frequency at which mass scaling calculations are "
-"performed."
+"An Int specifying the frequency at which mass scaling calculations are performed."
 msgstr ""
 
 #: ../../../../docstring
 #: abaqus.StepMiscellaneous.MassScalingArray.MassScaling.numberInterval:1 of
 msgid ""
-"An Int specifying the number of intervals at which mass scaling "
-"calculations are performed."
+"An Int specifying the number of intervals at which mass scaling calculations are "
+"performed."
 msgstr ""
 
 #: ../../../../docstring
 #: abaqus.StepMiscellaneous.MassScalingArray.MassScaling.objective:1 of
 msgid ""
-"A SymbolicConstant specifying the objective of the mass scaling "
-"definition. Possible values are SEMI_AUTOMATIC, AUTOMATIC, and "
-"REINITIALIZE. The default value is SEMI_AUTOMATIC."
+"A SymbolicConstant specifying the objective of the mass scaling definition. Possible "
+"values are SEMI_AUTOMATIC, AUTOMATIC, and REINITIALIZE. The default value is "
+"SEMI_AUTOMATIC."
 msgstr ""
 
 #: ../../../../docstring
 #: abaqus.StepMiscellaneous.MassScalingArray.MassScaling.occurs:1 of
 msgid ""
-"A SymbolicConstant specifying whether mass scaling should be performed at "
-"the beginning of the step or throughout the step. Possible values are "
-"AT_BEGINNING and THROUGHOUT_STEP."
+"A SymbolicConstant specifying whether mass scaling should be performed at the "
+"beginning of the step or throughout the step. Possible values are AT_BEGINNING and "
+"THROUGHOUT_STEP."
 msgstr ""
 
 #: ../../../../docstring
 #: abaqus.StepMiscellaneous.MassScalingArray.MassScaling.region:1 of
 msgid ""
-"The SymbolicConstant MODEL or a Region object specifying where the mass "
-"scaling is applied. The default value is MODEL."
+"The SymbolicConstant MODEL or a Region object specifying where the mass scaling is "
+"applied. The default value is MODEL."
 msgstr ""
 
 #: ../../../../docstring
 #: abaqus.StepMiscellaneous.MassScalingArray.MassScaling.type:1 of
 msgid ""
-"A SymbolicConstant specifying the type of scaling. Possible values are "
-"UNIFORM, BELOW_MIN, SET_EQUAL_DT, and ROLLING. The default value is "
-"BELOW_MIN."
+"A SymbolicConstant specifying the type of scaling. Possible values are UNIFORM, "
+"BELOW_MIN, SET_EQUAL_DT, and ROLLING. The default value is BELOW_MIN."
 msgstr ""
 
 #: abaqus.StepMiscellaneous.RandomResponseFrequency.RandomResponseFrequency:1
 #: of
 msgid ""
-"A RandomResponseFrequency is an object used to define frequency over a "
-"range of modes. This page discusses:"
+"A RandomResponseFrequency is an object used to define frequency over a range of modes."
+" This page discusses:"
 msgstr ""
 
 #: abaqus.StepMiscellaneous.RandomResponseFrequency.RandomResponseFrequency:11
 #: of
 msgid ""
-"Check `RandomResponseFrequency on help.3ds.com/2023 <https://help.3ds.com/"
-"2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"Check `RandomResponseFrequency on help.3ds.com/2023 "
+"<https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "randomresponsefrequencypyc.htm?contextscope=all>`__."
 msgstr ""
 
@@ -637,25 +613,21 @@ msgstr ""
 #: ../../../../docstring
 #: abaqus.StepMiscellaneous.RandomResponseFrequencyArray.RandomResponseFrequency.lower:1
 #: of
-msgid ""
-"A Float specifying the lower limit of the frequency range in cycles per "
-"time."
+msgid "A Float specifying the lower limit of the frequency range in cycles per time."
 msgstr ""
 
 #: ../../../../docstring
 #: abaqus.StepMiscellaneous.RandomResponseFrequencyArray.RandomResponseFrequency.nCalcs:1
 #: of
 msgid ""
-"An Int specifying the number of points between eigenfrequencies at which "
-"the response should be calculated."
+"An Int specifying the number of points between eigenfrequencies at which the response "
+"should be calculated."
 msgstr ""
 
 #: ../../../../docstring
 #: abaqus.StepMiscellaneous.RandomResponseFrequencyArray.RandomResponseFrequency.upper:1
 #: of
-msgid ""
-"A Float specifying the upper limit of the frequency range in cycles per "
-"time."
+msgid "A Float specifying the upper limit of the frequency range in cycles per time."
 msgstr ""
 
 #: abaqus.StepMiscellaneous.RayleighDamping.RayleighDamping:1 of
@@ -664,8 +636,8 @@ msgstr ""
 
 #: abaqus.StepMiscellaneous.RayleighDamping.RayleighDamping:10 of
 msgid ""
-"Check `RayleighDamping on help.3ds.com/2023 <https://help.3ds.com/2023/Eng"
-"lish/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"Check `RayleighDamping on help.3ds.com/2023 "
+"<https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "rayleighdampingpyc.htm?contextscope=all>`__."
 msgstr ""
 
@@ -676,15 +648,14 @@ msgstr ""
 
 #: abaqus.StepMiscellaneous.RayleighDampingByFrequency.RayleighDampingByFrequency:1
 #: of
-msgid ""
-"A RayleighDampingByFrequency object contains Rayleigh Damping parameters."
+msgid "A RayleighDampingByFrequency object contains Rayleigh Damping parameters."
 msgstr ""
 
 #: abaqus.StepMiscellaneous.RayleighDampingByFrequency.RayleighDampingByFrequency:10
 #: of
 msgid ""
-"Check `RayleighDampingByFrequency on help.3ds.com/2023 <https://help.3ds.c"
-"om/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"Check `RayleighDampingByFrequency on help.3ds.com/2023 "
+"<https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "rayleighdampingbyfrequencypyc.htm?contextscope=all>`__."
 msgstr ""
 
@@ -697,15 +668,15 @@ msgstr ""
 #: abaqus.StepMiscellaneous.RayleighDampingByFrequencyComponent.RayleighDampingByFrequencyComponent:1
 #: of
 msgid ""
-"A RayleighDampingByFrequencyComponent object is used to define Rayleigh "
-"damping over a range of frequencies."
+"A RayleighDampingByFrequencyComponent object is used to define Rayleigh damping over a"
+" range of frequencies."
 msgstr ""
 
 #: abaqus.StepMiscellaneous.RayleighDampingByFrequencyComponent.RayleighDampingByFrequencyComponent:11
 #: of
 msgid ""
-"Check `RayleighDampingByFrequencyComponent on help.3ds.com/2023 <https://h"
-"elp.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"Check `RayleighDampingByFrequencyComponent on help.3ds.com/2023 "
+"<https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "rayleighdampingbyfrequencycomponentpyc.htm?contextscope=all>`__."
 msgstr ""
 
@@ -726,30 +697,28 @@ msgstr ""
 #: abaqus.StepMiscellaneous.RayleighDampingComponent.RayleighDampingComponent:1
 #: of
 msgid ""
-"A RayleighDampingComponent object is used to define Rayleigh damping over "
-"a range of modes."
+"A RayleighDampingComponent object is used to define Rayleigh damping over a range of "
+"modes."
 msgstr ""
 
 #: abaqus.StepMiscellaneous.RayleighDampingComponent.RayleighDampingComponent:10
 #: of
 msgid ""
-"Check `RayleighDampingComponent on help.3ds.com/2023 <https://help.3ds.com"
-"/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"Check `RayleighDampingComponent on help.3ds.com/2023 "
+"<https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "rayleighdampingcomponentpyc.htm?contextscope=all>`__."
 msgstr ""
 
 #: abaqus.StepMiscellaneous.ResponseSpectrumComponent.ResponseSpectrumComponent:1
 #: of
-msgid ""
-"A ResponseSpectrumComponent is an element of the "
-"ResponseSpectrumComponentArray."
+msgid "A ResponseSpectrumComponent is an element of the ResponseSpectrumComponentArray."
 msgstr ""
 
 #: abaqus.StepMiscellaneous.ResponseSpectrumComponent.ResponseSpectrumComponent:10
 #: of
 msgid ""
-"Check `ResponseSpectrumComponent on help.3ds.com/2023 <https://help.3ds.co"
-"m/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"Check `ResponseSpectrumComponent on help.3ds.com/2023 "
+"<https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "responsespectrumcomponentpyc.htm?contextscope=all>`__."
 msgstr ""
 
@@ -757,8 +726,8 @@ msgstr ""
 #: abaqus.StepMiscellaneous.ResponseSpectrumComponentArray.ResponseSpectrumComponent.respSpectrum:1
 #: of
 msgid ""
-"A String specifying the name of the response spectrum specified with the "
-"keyword SPECTRUM."
+"A String specifying the name of the response spectrum specified with the keyword "
+"SPECTRUM."
 msgstr ""
 
 #: ../../../../docstring
@@ -771,9 +740,9 @@ msgstr ""
 #: abaqus.StepMiscellaneous.ResponseSpectrumComponentArray.ResponseSpectrumComponent.timeDuration:1
 #: of
 msgid ""
-"A Float specifying the time duration of the dynamic event, from which this"
-" spectrum was created. Note: This parameter is ignored unless used with "
-"the DSC modal summation rule."
+"A Float specifying the time duration of the dynamic event, from which this spectrum "
+"was created. Note: This parameter is ignored unless used with the DSC modal summation "
+"rule."
 msgstr ""
 
 #: ../../../../docstring
@@ -795,15 +764,13 @@ msgid "A Float specifying the **Z** direction cosine."
 msgstr ""
 
 #: abaqus.StepMiscellaneous.SolverControl.SolverControl:1 of
-msgid ""
-"The SolverControl object is used to provide additional optional solver "
-"controls."
+msgid "The SolverControl object is used to provide additional optional solver controls."
 msgstr ""
 
 #: abaqus.StepMiscellaneous.SolverControl.SolverControl:10 of
 msgid ""
-"Check `SolverControl on help.3ds.com/2023 <https://help.3ds.com/2023/Engli"
-"sh/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"Check `SolverControl on help.3ds.com/2023 "
+"<https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "solvercontrolpyc.htm?contextscope=all>`__."
 msgstr ""
 
@@ -813,58 +780,56 @@ msgstr ""
 
 #: abaqus.StepMiscellaneous.SolverControl.SolverControl.setValues:4 of
 msgid ""
-"Check `SolverControl.setValues on help.3ds.com/2023 <https://help.3ds.com/"
-"2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
-"solvercontrolpyc.htm?contextscope=all#simaker-"
-"solvercontrolsetvaluespyc>`__."
+"Check `SolverControl.setValues on help.3ds.com/2023 "
+"<https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"solvercontrolpyc.htm?contextscope=all#simaker-solvercontrolsetvaluespyc>`__."
 msgstr ""
 
 #: abaqus.StepMiscellaneous.SolverControl.SolverControl.setValues:7 of
 msgid ""
-"A Boolean specifying whether to allow all solver control values to "
-"propagate from a previous step. Setting this argument to ON automatically "
-"sets **resetDefaultValues** to OFF. The default value is ON."
+"A Boolean specifying whether to allow all solver control values to propagate from a "
+"previous step. Setting this argument to ON automatically sets **resetDefaultValues** "
+"to OFF. The default value is ON."
 msgstr ""
 
 #: abaqus.StepMiscellaneous.SolverControl.SolverControl.setValues:11 of
 msgid ""
-"A Boolean specifying whether to use all default solver control values. "
-"Setting this argument to ON automatically sets **allowPropagation** to "
-"OFF. The default value is OFF."
+"A Boolean specifying whether to use all default solver control values. Setting this "
+"argument to ON automatically sets **allowPropagation** to OFF. The default value is "
+"OFF."
 msgstr ""
 
 #: abaqus.StepMiscellaneous.SolverControl.SolverControl.setValues:14 of
 msgid ""
-"The SymbolicConstant DEFAULT or a Float specifying the relative tolerance "
-"for convergence of the domain decomposition iterative solver. The default "
-"value is DEFAULT."
+"The SymbolicConstant DEFAULT or a Float specifying the relative tolerance for "
+"convergence of the domain decomposition iterative solver. The default value is "
+"DEFAULT."
 msgstr ""
 
 #: abaqus.StepMiscellaneous.SolverControl.SolverControl.setValues:17 of
 msgid ""
-"The SymbolicConstant DEFAULT or an Int specifying the maximum number of "
-"linear solver iterations. The default value is DEFAULT."
+"The SymbolicConstant DEFAULT or an Int specifying the maximum number of linear solver "
+"iterations. The default value is DEFAULT."
 msgstr ""
 
 #: abaqus.StepMiscellaneous.SolverControl.SolverControl.setValues:20 of
 msgid ""
-"The SymbolicConstant DEFAULT or an Int specifying the incomplete LU "
-"factorization fill-in level (for geostatic and soil analysis only). The "
-"default value is DEFAULT."
+"The SymbolicConstant DEFAULT or an Int specifying the incomplete LU factorization "
+"fill-in level (for geostatic and soil analysis only). The default value is DEFAULT."
 msgstr ""
 
 #: abaqus.StepMiscellaneous.SteadyStateDirectFrequency.SteadyStateDirectFrequency:1
 #: of
 msgid ""
-"A SteadyStateDirectFrequency is an object used to define frequency over "
-"range of modes."
+"A SteadyStateDirectFrequency is an object used to define frequency over range of "
+"modes."
 msgstr ""
 
 #: abaqus.StepMiscellaneous.SteadyStateDirectFrequency.SteadyStateDirectFrequency:10
 #: of
 msgid ""
-"Check `SteadyStateDirectFrequency on help.3ds.com/2023 <https://help.3ds.c"
-"om/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"Check `SteadyStateDirectFrequency on help.3ds.com/2023 "
+"<https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "steadystatedirectfrequencypyc.htm?contextscope=all>`__."
 msgstr ""
 
@@ -873,23 +838,23 @@ msgstr ""
 #: abaqus.StepMiscellaneous.SteadyStateSubspaceFrequencyArray.SteadyStateSubspaceFrequency.bias:1
 #: of
 msgid ""
-"A Float specifying the Bias parameter. When results are requested at four "
-"or more frequency points, Abaqus biases the results toward the ends of the"
-" intervals to obtain better resolution. The default value is 3.0."
+"A Float specifying the Bias parameter. When results are requested at four or more "
+"frequency points, Abaqus biases the results toward the ends of the intervals to obtain"
+" better resolution. The default value is 3.0."
 msgstr ""
 
 #: abaqus.StepMiscellaneous.SteadyStateModalFrequency.SteadyStateModalFrequency:1
 #: of
 msgid ""
-"A SteadyStateModalFrequency is an object used to define frequency over a "
-"range of modes."
+"A SteadyStateModalFrequency is an object used to define frequency over a range of "
+"modes."
 msgstr ""
 
 #: abaqus.StepMiscellaneous.SteadyStateModalFrequency.SteadyStateModalFrequency:10
 #: of
 msgid ""
-"Check `SteadyStateModalFrequency on help.3ds.com/2023 <https://help.3ds.co"
-"m/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"Check `SteadyStateModalFrequency on help.3ds.com/2023 "
+"<https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "steadystatemodalfrequencypyc.htm?contextscope=all>`__."
 msgstr ""
 
@@ -897,23 +862,23 @@ msgstr ""
 #: abaqus.StepMiscellaneous.SteadyStateModalFrequencyArray.SteadyStateModalFrequency.bias:1
 #: of
 msgid ""
-"A Float specifying the bias parameter. When results are requested at four "
-"or more frequency points, Abaqus biases the results toward the ends of the"
-" intervals to obtain better resolution. The default value is 3.0."
+"A Float specifying the bias parameter. When results are requested at four or more "
+"frequency points, Abaqus biases the results toward the ends of the intervals to obtain"
+" better resolution. The default value is 3.0."
 msgstr ""
 
 #: abaqus.StepMiscellaneous.SteadyStateSubspaceFrequency.SteadyStateSubspaceFrequency:1
 #: of
 msgid ""
-"A SteadyStateSubspaceFrequency is an object used to define frequency over "
-"range of modes."
+"A SteadyStateSubspaceFrequency is an object used to define frequency over range of "
+"modes."
 msgstr ""
 
 #: abaqus.StepMiscellaneous.SteadyStateSubspaceFrequency.SteadyStateSubspaceFrequency:10
 #: of
 msgid ""
-"Check `SteadyStateSubspaceFrequency on help.3ds.com/2023 <https://help.3ds"
-".com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"Check `SteadyStateSubspaceFrequency on help.3ds.com/2023 "
+"<https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "steadystatesubspacefrequencypyc.htm?contextscope=all>`__."
 msgstr ""
 
@@ -923,8 +888,8 @@ msgstr ""
 
 #: abaqus.StepMiscellaneous.StructuralDamping.StructuralDamping:10 of
 msgid ""
-"Check `StructuralDamping on help.3ds.com/2023 <https://help.3ds.com/2023/E"
-"nglish/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"Check `StructuralDamping on help.3ds.com/2023 "
+"<https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "structuraldampingpyc.htm?contextscope=all>`__."
 msgstr ""
 
@@ -935,16 +900,14 @@ msgstr ""
 
 #: abaqus.StepMiscellaneous.StructuralDampingByFrequency.StructuralDampingByFrequency:1
 #: of
-msgid ""
-"A StructuralDampingByFrequency object contains structural damping "
-"parameters."
+msgid "A StructuralDampingByFrequency object contains structural damping parameters."
 msgstr ""
 
 #: abaqus.StepMiscellaneous.StructuralDampingByFrequency.StructuralDampingByFrequency:10
 #: of
 msgid ""
-"Check `StructuralDampingByFrequency on help.3ds.com/2023 <https://help.3ds"
-".com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"Check `StructuralDampingByFrequency on help.3ds.com/2023 "
+"<https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "structuraldampingbyfrequencypyc.htm?contextscope=all>`__."
 msgstr ""
 
@@ -957,16 +920,16 @@ msgstr ""
 #: abaqus.StepMiscellaneous.StructuralDampingByFrequencyComponent.StructuralDampingByFrequencyComponent:1
 #: of
 msgid ""
-"A StructuralDampingByFrequencyComponent object is used to define "
-"structural damping over a range of frequencies."
+"A StructuralDampingByFrequencyComponent object is used to define structural damping "
+"over a range of frequencies."
 msgstr ""
 
 #: abaqus.StepMiscellaneous.StructuralDampingByFrequencyComponent.StructuralDampingByFrequencyComponent:11
 #: of
 msgid ""
-"Check `StructuralDampingByFrequencyComponent on help.3ds.com/2023 <https:/"
-"/help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-"
-"c-structuraldampingbyfrequencycomponentpyc.htm?contextscope=all>`__."
+"Check `StructuralDampingByFrequencyComponent on help.3ds.com/2023 "
+"<https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"structuraldampingbyfrequencycomponentpyc.htm?contextscope=all>`__."
 msgstr ""
 
 #: ../../../../docstring
@@ -979,60 +942,58 @@ msgstr ""
 #: abaqus.StepMiscellaneous.StructuralDampingComponent.StructuralDampingComponent:1
 #: of
 msgid ""
-"A StructuralDampingComponent object is used to define structural damping "
-"over a range of modes."
+"A StructuralDampingComponent object is used to define structural damping over a range "
+"of modes."
 msgstr ""
 
 #: abaqus.StepMiscellaneous.StructuralDampingComponent.StructuralDampingComponent:10
 #: of
 msgid ""
-"Check `StructuralDampingComponent on help.3ds.com/2023 <https://help.3ds.c"
-"om/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"Check `StructuralDampingComponent on help.3ds.com/2023 "
+"<https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "structuraldampingcomponentpyc.htm?contextscope=all>`__."
 msgstr ""
 
 #: abaqus.StepMiscellaneous.SubstructureGenerateFrequency.SubstructureGenerateFrequency:1
 #: of
 msgid ""
-"A SubstructureGenerateFrequency object is used to define the modes to be "
-"used in a modal dynamic analysis. These modes are selected from the "
-"specified frequency range including the frequency boundary."
+"A SubstructureGenerateFrequency object is used to define the modes to be used in a "
+"modal dynamic analysis. These modes are selected from the specified frequency range "
+"including the frequency boundary."
 msgstr ""
 
 #: abaqus.StepMiscellaneous.SubstructureGenerateFrequency.SubstructureGenerateFrequency:11
 #: of
 msgid ""
-"Check `SubstructureGenerateFrequency on help.3ds.com/2023 <https://help.3d"
-"s.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"Check `SubstructureGenerateFrequency on help.3ds.com/2023 "
+"<https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "substructuregeneratefrequencypyc.htm?contextscope=all>`__."
 msgstr ""
 
 #: ../../../../docstring
 #: abaqus.StepMiscellaneous.SubstructureGenerateFrequencyArray.SubstructureGenerateFrequency.lower:1
 #: of
-msgid ""
-"A Float specifying the lower limit of the frequency range, in cycles/time."
+msgid "A Float specifying the lower limit of the frequency range, in cycles/time."
 msgstr ""
 
 #: ../../../../docstring
 #: abaqus.StepMiscellaneous.SubstructureGenerateFrequencyArray.SubstructureGenerateFrequency.upper:1
 #: of
-msgid ""
-"A Float specifying the upper limit of the frequency range, in cycles/time."
+msgid "A Float specifying the upper limit of the frequency range, in cycles/time."
 msgstr ""
 
 #: abaqus.StepMiscellaneous.SubstructureGenerateModes.SubstructureGenerateModes:1
 #: of
 msgid ""
-"A SubstructureGenerateModes object is used to define the modes to be used "
-"in a modal dynamic analysis."
+"A SubstructureGenerateModes object is used to define the modes to be used in a modal "
+"dynamic analysis."
 msgstr ""
 
 #: abaqus.StepMiscellaneous.SubstructureGenerateModes.SubstructureGenerateModes:10
 #: of
 msgid ""
-"Check `SubstructureGenerateModes on help.3ds.com/2023 <https://help.3ds.co"
-"m/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"Check `SubstructureGenerateModes on help.3ds.com/2023 "
+"<https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "substructuregeneratemodespyc.htm?contextscope=all>`__."
 msgstr ""
 
@@ -1040,8 +1001,8 @@ msgstr ""
 #: abaqus.StepMiscellaneous.SubstructureGenerateModesArray.SubstructureGenerateModes.increment:1
 #: of
 msgid ""
-"An Int specifying the increment used to define the intermediate mode "
-"numbers beginning from the lowest mode to the highest mode."
+"An Int specifying the increment used to define the intermediate mode numbers beginning"
+" from the lowest mode to the highest mode."
 msgstr ""
 
 #~ msgid "Bases: :py:class:`object`"
