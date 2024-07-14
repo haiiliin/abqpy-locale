@@ -121,9 +121,7 @@ msgstr ""
 #: ../../../autoapi/abqpy/config/index.rst:297
 #: ../../../autoapi/abqpy/config/index.rst:386
 #: ../../../autoapi/abqpy/config/index.rst:491
-msgid ""
-"Whether model building is completed, or if there are still undefined "
-"fields."
+msgid "Whether model building is completed, or if there are still undefined fields."
 msgstr ""
 
 #: ../../../autoapi/abqpy/config/index.rst:59
@@ -131,9 +129,7 @@ msgstr ""
 #: ../../../autoapi/abqpy/config/index.rst:301
 #: ../../../autoapi/abqpy/config/index.rst:390
 #: ../../../autoapi/abqpy/config/index.rst:495
-msgid ""
-"The pydantic-core schema used to build the SchemaValidator and "
-"SchemaSerializer."
+msgid "The pydantic-core schema used to build the SchemaValidator and SchemaSerializer."
 msgstr ""
 
 #: ../../../autoapi/abqpy/config/index.rst:63
@@ -160,9 +156,9 @@ msgstr ""
 #: ../../../autoapi/abqpy/config/index.rst:403
 #: ../../../autoapi/abqpy/config/index.rst:508
 msgid ""
-"Metadata for generic models; contains data used for a similar purpose to "
-"__args__, __origin__, __parameters__ in typing-module generics. May "
-"eventually be replaced by these."
+"Metadata for generic models; contains data used for a similar purpose to __args__, "
+"__origin__, __parameters__ in typing-module generics. May eventually be replaced by "
+"these."
 msgstr ""
 
 #: ../../../autoapi/abqpy/config/index.rst:77
@@ -170,8 +166,7 @@ msgstr ""
 #: ../../../autoapi/abqpy/config/index.rst:319
 #: ../../../autoapi/abqpy/config/index.rst:408
 #: ../../../autoapi/abqpy/config/index.rst:513
-msgid ""
-"Parent namespace of the model, used for automatic rebuilding of models."
+msgid "Parent namespace of the model, used for automatic rebuilding of models."
 msgstr ""
 
 #: ../../../autoapi/abqpy/config/index.rst:81
@@ -195,8 +190,7 @@ msgstr ""
 #: ../../../autoapi/abqpy/config/index.rst:331
 #: ../../../autoapi/abqpy/config/index.rst:420
 #: ../../../autoapi/abqpy/config/index.rst:525
-msgid ""
-"The pydantic-core SchemaSerializer used to dump instances of the model."
+msgid "The pydantic-core SchemaSerializer used to dump instances of the model."
 msgstr ""
 
 #: ../../../autoapi/abqpy/config/index.rst:93
@@ -204,8 +198,7 @@ msgstr ""
 #: ../../../autoapi/abqpy/config/index.rst:335
 #: ../../../autoapi/abqpy/config/index.rst:424
 #: ../../../autoapi/abqpy/config/index.rst:529
-msgid ""
-"The pydantic-core SchemaValidator used to validate instances of the model."
+msgid "The pydantic-core SchemaValidator used to validate instances of the model."
 msgstr ""
 
 #: ../../../autoapi/abqpy/config/index.rst:97
@@ -214,8 +207,8 @@ msgstr ""
 #: ../../../autoapi/abqpy/config/index.rst:428
 #: ../../../autoapi/abqpy/config/index.rst:533
 msgid ""
-"An instance attribute with the values of extra fields from validation when"
-" `model_config['extra'] == 'allow'`."
+"An instance attribute with the values of extra fields from validation when "
+"`model_config['extra'] == 'allow'`."
 msgstr ""
 
 #: ../../../autoapi/abqpy/config/index.rst:102
@@ -232,8 +225,7 @@ msgstr ""
 #: ../../../autoapi/abqpy/config/index.rst:437
 #: ../../../autoapi/abqpy/config/index.rst:542
 msgid ""
-"Instance attribute with the values of private attributes set on the model "
-"instance."
+"Instance attribute with the values of private attributes set on the model instance."
 msgstr ""
 
 #: ../../../autoapi/abqpy/config/index.rst
@@ -241,8 +233,7 @@ msgid "Public Data Attributes:"
 msgstr ""
 
 #: ../../../../None:5:<autosummary>:1
-msgid ""
-":py:obj:`model_config <abqpy.config.CompatibleBaseModel.model_config>`\\"
+msgid ":py:obj:`model_config <abqpy.config.CompatibleBaseModel.model_config>`\\"
 msgstr ""
 
 #: ../../../../None:11:<autosummary>:1 ../../../../None:17:<autosummary>:1
@@ -253,8 +244,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../None:5:<autosummary>:1
-msgid ""
-":py:obj:`model_fields <abqpy.config.CompatibleBaseModel.model_fields>`\\"
+msgid ":py:obj:`model_fields <abqpy.config.CompatibleBaseModel.model_fields>`\\"
 msgstr ""
 
 #: ../../../../None:11:<autosummary>:1 ../../../../None:17:<autosummary>:1
@@ -273,8 +263,8 @@ msgstr ""
 #: ../../../../None:11:<autosummary>:1 ../../../../None:17:<autosummary>:1
 #: ../../../../None:5:<autosummary>:1 ../../../../None:7:<autosummary>:1
 msgid ""
-"A dictionary of computed field names and their corresponding "
-"`ComputedFieldInfo` objects."
+"A dictionary of computed field names and their corresponding `ComputedFieldInfo` "
+"objects."
 msgstr ""
 
 #: ../../../../None:7:<autosummary>:1
@@ -283,8 +273,7 @@ msgstr ""
 
 #: ../../../../None:7:<autosummary>:1
 msgid ""
-":py:obj:`model_computed_fields "
-"<pydantic.main.BaseModel.model_computed_fields>`\\"
+":py:obj:`model_computed_fields <pydantic.main.BaseModel.model_computed_fields>`\\"
 msgstr ""
 
 #: ../../../../None:7:<autosummary>:1
@@ -300,14 +289,11 @@ msgid "Get extra fields set during validation."
 msgstr ""
 
 #: ../../../../None:7:<autosummary>:1
-msgid ""
-":py:obj:`model_fields_set <pydantic.main.BaseModel.model_fields_set>`\\"
+msgid ":py:obj:`model_fields_set <pydantic.main.BaseModel.model_fields_set>`\\"
 msgstr ""
 
 #: ../../../../None:7:<autosummary>:1
-msgid ""
-"Returns the set of fields that have been explicitly set on this model "
-"instance."
+msgid "Returns the set of fields that have been explicitly set on this model instance."
 msgstr ""
 
 #: ../../../autoapi/abqpy/config/index.rst
@@ -323,24 +309,19 @@ msgstr ""
 #: ../../../../None:46:<autosummary>:1 ../../../../None:4:<autosummary>:1
 #: ../../../autoapi/abqpy/config/index.rst:113
 msgid ""
-"Usage docs: "
-"https://docs.pydantic.dev/2.8/concepts/serialization/#modelmodel_dump"
+"Usage docs: https://docs.pydantic.dev/2.8/concepts/serialization/#modelmodel_dump"
 msgstr ""
 
 #: ../../../../None:4:<autosummary>:1
-msgid ""
-":py:obj:`__signature__ <abqpy.config.CompatibleBaseModel.__signature__>`\\"
+msgid ":py:obj:`__signature__ <abqpy.config.CompatibleBaseModel.__signature__>`\\"
 msgstr ""
 
 #: ../../../../None:46:<autosummary>:1
-msgid ""
-":py:obj:`__init__ <pydantic.main.BaseModel.__init__>`\\ \\(\\*\\*data\\)"
+msgid ":py:obj:`__init__ <pydantic.main.BaseModel.__init__>`\\ \\(\\*\\*data\\)"
 msgstr ""
 
 #: ../../../../None:46:<autosummary>:1
-msgid ""
-"Create a new model by parsing and validating input data from keyword "
-"arguments."
+msgid "Create a new model by parsing and validating input data from keyword arguments."
 msgstr ""
 
 #: ../../../../None:46:<autosummary>:1
@@ -355,32 +336,29 @@ msgstr ""
 
 #: ../../../../None:46:<autosummary>:1
 msgid ""
-":py:obj:`model_copy <pydantic.main.BaseModel.model_copy>`\\ \\(\\*\\[\\, "
-"update\\, deep\\]\\)"
+":py:obj:`model_copy <pydantic.main.BaseModel.model_copy>`\\ \\(\\*\\[\\, update\\, "
+"deep\\]\\)"
+msgstr ""
+
+#: ../../../../None:46:<autosummary>:1
+msgid "Usage docs: https://docs.pydantic.dev/2.8/concepts/serialization/#model_copy"
 msgstr ""
 
 #: ../../../../None:46:<autosummary>:1
 msgid ""
-"Usage docs: "
-"https://docs.pydantic.dev/2.8/concepts/serialization/#model_copy"
+":py:obj:`model_dump <pydantic.main.BaseModel.model_dump>`\\ \\(\\*\\[\\, mode\\, "
+"include\\, exclude\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../../None:46:<autosummary>:1
 msgid ""
-":py:obj:`model_dump <pydantic.main.BaseModel.model_dump>`\\ \\(\\*\\[\\, "
-"mode\\, include\\, exclude\\, ...\\]\\)"
+":py:obj:`model_dump_json <pydantic.main.BaseModel.model_dump_json>`\\ \\(\\*\\[\\, "
+"indent\\, include\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../../None:46:<autosummary>:1
 msgid ""
-":py:obj:`model_dump_json <pydantic.main.BaseModel.model_dump_json>`\\ "
-"\\(\\*\\[\\, indent\\, include\\, ...\\]\\)"
-msgstr ""
-
-#: ../../../../None:46:<autosummary>:1
-msgid ""
-"Usage docs: "
-"https://docs.pydantic.dev/2.8/concepts/serialization/#modelmodel_dump_json"
+"Usage docs: https://docs.pydantic.dev/2.8/concepts/serialization/#modelmodel_dump_json"
 msgstr ""
 
 #: ../../../../None:46:<autosummary>:1
@@ -395,8 +373,8 @@ msgstr ""
 
 #: ../../../../None:46:<autosummary>:1
 msgid ""
-":py:obj:`model_parametrized_name "
-"<pydantic.main.BaseModel.model_parametrized_name>`\\ \\(params\\)"
+":py:obj:`model_parametrized_name <pydantic.main.BaseModel.model_parametrized_name>`\\ "
+"\\(params\\)"
 msgstr ""
 
 #: ../../../../None:46:<autosummary>:1
@@ -411,14 +389,14 @@ msgstr ""
 
 #: ../../../../None:46:<autosummary>:1
 msgid ""
-"Override this method to perform additional initialization after `__init__`"
-" and `model_construct`."
+"Override this method to perform additional initialization after `__init__` and "
+"`model_construct`."
 msgstr ""
 
 #: ../../../../None:46:<autosummary>:1
 msgid ""
-":py:obj:`model_rebuild <pydantic.main.BaseModel.model_rebuild>`\\ "
-"\\(\\*\\[\\, force\\, raise\\_errors\\, ...\\]\\)"
+":py:obj:`model_rebuild <pydantic.main.BaseModel.model_rebuild>`\\ \\(\\*\\[\\, "
+"force\\, raise\\_errors\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../../None:46:<autosummary>:1
@@ -427,8 +405,8 @@ msgstr ""
 
 #: ../../../../None:46:<autosummary>:1
 msgid ""
-":py:obj:`model_validate <pydantic.main.BaseModel.model_validate>`\\ "
-"\\(obj\\, \\*\\[\\, strict\\, ...\\]\\)"
+":py:obj:`model_validate <pydantic.main.BaseModel.model_validate>`\\ \\(obj\\, "
+"\\*\\[\\, strict\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../../None:46:<autosummary>:1
@@ -437,33 +415,29 @@ msgstr ""
 
 #: ../../../../None:46:<autosummary>:1
 msgid ""
-":py:obj:`model_validate_json "
-"<pydantic.main.BaseModel.model_validate_json>`\\ \\(json\\_data\\, "
-"\\*\\[\\, strict\\, ...\\]\\)"
+":py:obj:`model_validate_json <pydantic.main.BaseModel.model_validate_json>`\\ "
+"\\(json\\_data\\, \\*\\[\\, strict\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../../None:46:<autosummary>:1
+msgid "Usage docs: https://docs.pydantic.dev/2.8/concepts/json/#json-parsing"
 msgstr ""
 
 #: ../../../../None:46:<autosummary>:1
 msgid ""
-"Usage docs: https://docs.pydantic.dev/2.8/concepts/json/#json-parsing"
+":py:obj:`model_validate_strings <pydantic.main.BaseModel.model_validate_strings>`\\ "
+"\\(obj\\, \\*\\[\\, strict\\, context\\]\\)"
 msgstr ""
 
 #: ../../../../None:46:<autosummary>:1
-msgid ""
-":py:obj:`model_validate_strings "
-"<pydantic.main.BaseModel.model_validate_strings>`\\ \\(obj\\, \\*\\[\\, "
-"strict\\, context\\]\\)"
-msgstr ""
-
-#: ../../../../None:46:<autosummary>:1
-msgid ""
-"Validate the given object with string data against the Pydantic model."
+msgid "Validate the given object with string data against the Pydantic model."
 msgstr ""
 
 #: ../../../../None:46:<autosummary>:1
 msgid ""
 ":py:obj:`__get_pydantic_core_schema__ "
-"<pydantic.main.BaseModel.__get_pydantic_core_schema__>`\\ \\(source\\, "
-"handler\\, \\/\\)"
+"<pydantic.main.BaseModel.__get_pydantic_core_schema__>`\\ \\(source\\, handler\\, "
+"\\/\\)"
 msgstr ""
 
 #: ../../../../None:46:<autosummary>:1
@@ -473,8 +447,7 @@ msgstr ""
 #: ../../../../None:46:<autosummary>:1
 msgid ""
 ":py:obj:`__get_pydantic_json_schema__ "
-"<pydantic.main.BaseModel.__get_pydantic_json_schema__>`\\ "
-"\\(core\\_schema\\, ...\\)"
+"<pydantic.main.BaseModel.__get_pydantic_json_schema__>`\\ \\(core\\_schema\\, ...\\)"
 msgstr ""
 
 #: ../../../../None:46:<autosummary>:1
@@ -489,8 +462,8 @@ msgstr ""
 
 #: ../../../../None:46:<autosummary>:1
 msgid ""
-"This is intended to behave just like `__init_subclass__`, but is called by"
-" `ModelMetaclass` only after the class is actually fully initialized."
+"This is intended to behave just like `__init_subclass__`, but is called by "
+"`ModelMetaclass` only after the class is actually fully initialized."
 msgstr ""
 
 #: ../../../../None:46:<autosummary>:1
@@ -508,9 +481,7 @@ msgid "Returns a shallow copy of the model."
 msgstr ""
 
 #: ../../../../None:46:<autosummary>:1
-msgid ""
-":py:obj:`__deepcopy__ <pydantic.main.BaseModel.__deepcopy__>`\\ "
-"\\(\\[memo\\]\\)"
+msgid ":py:obj:`__deepcopy__ <pydantic.main.BaseModel.__deepcopy__>`\\ \\(\\[memo\\]\\)"
 msgstr ""
 
 #: ../../../../None:46:<autosummary>:1
@@ -518,14 +489,12 @@ msgid "Returns a deep copy of the model."
 msgstr ""
 
 #: ../../../../None:46:<autosummary>:1
-msgid ""
-":py:obj:`__getattr__ <pydantic.main.BaseModel.__getattr__>`\\ \\(item\\)"
+msgid ":py:obj:`__getattr__ <pydantic.main.BaseModel.__getattr__>`\\ \\(item\\)"
 msgstr ""
 
 #: ../../../../None:46:<autosummary>:1
 msgid ""
-":py:obj:`__setattr__ <pydantic.main.BaseModel.__setattr__>`\\ \\(name\\, "
-"value\\)"
+":py:obj:`__setattr__ <pydantic.main.BaseModel.__setattr__>`\\ \\(name\\, value\\)"
 msgstr ""
 
 #: ../../../../None:46:<autosummary>:1
@@ -533,8 +502,7 @@ msgid "Implement setattr(self, name, value)."
 msgstr ""
 
 #: ../../../../None:46:<autosummary>:1
-msgid ""
-":py:obj:`__delattr__ <pydantic.main.BaseModel.__delattr__>`\\ \\(item\\)"
+msgid ":py:obj:`__delattr__ <pydantic.main.BaseModel.__delattr__>`\\ \\(item\\)"
 msgstr ""
 
 #: ../../../../None:46:<autosummary>:1
@@ -542,8 +510,7 @@ msgid "Implement delattr(self, name)."
 msgstr ""
 
 #: ../../../../None:46:<autosummary>:1
-msgid ""
-":py:obj:`__getstate__ <pydantic.main.BaseModel.__getstate__>`\\ \\(\\)"
+msgid ":py:obj:`__getstate__ <pydantic.main.BaseModel.__getstate__>`\\ \\(\\)"
 msgstr ""
 
 #: ../../../../None:46:<autosummary>:1
@@ -551,9 +518,7 @@ msgid "Helper for pickle."
 msgstr ""
 
 #: ../../../../None:46:<autosummary>:1
-msgid ""
-":py:obj:`__setstate__ <pydantic.main.BaseModel.__setstate__>`\\ "
-"\\(state\\)"
+msgid ":py:obj:`__setstate__ <pydantic.main.BaseModel.__setstate__>`\\ \\(state\\)"
 msgstr ""
 
 #: ../../../../None:46:<autosummary>:1
@@ -581,13 +546,11 @@ msgid "Return repr(self)."
 msgstr ""
 
 #: ../../../../None:46:<autosummary>:1
-msgid ""
-":py:obj:`__repr_args__ <pydantic.main.BaseModel.__repr_args__>`\\ \\(\\)"
+msgid ":py:obj:`__repr_args__ <pydantic.main.BaseModel.__repr_args__>`\\ \\(\\)"
 msgstr ""
 
 #: ../../../../None:46:<autosummary>:1
-msgid ""
-":py:obj:`__repr_name__ <pydantic.main.BaseModel.__repr_name__>`\\ \\(\\)"
+msgid ":py:obj:`__repr_name__ <pydantic.main.BaseModel.__repr_name__>`\\ \\(\\)"
 msgstr ""
 
 #: ../../../../None:46:<autosummary>:1
@@ -595,32 +558,27 @@ msgid "Name of the instance's class, used in __repr__."
 msgstr ""
 
 #: ../../../../None:46:<autosummary>:1
-msgid ""
-":py:obj:`__repr_str__ <pydantic.main.BaseModel.__repr_str__>`\\ "
-"\\(join\\_str\\)"
+msgid ":py:obj:`__repr_str__ <pydantic.main.BaseModel.__repr_str__>`\\ \\(join\\_str\\)"
 msgstr ""
 
 #: ../../../../None:46:<autosummary>:1
 msgid ""
-":py:obj:`__pretty__ <pydantic.main.BaseModel.__pretty__>`\\ \\(fmt\\, "
-"\\*\\*kwargs\\)"
+":py:obj:`__pretty__ <pydantic.main.BaseModel.__pretty__>`\\ \\(fmt\\, \\*\\*kwargs\\)"
 msgstr ""
 
 #: ../../../../None:46:<autosummary>:1
 msgid ""
-"Used by devtools (https://python-devtools.helpmanual.io/) to pretty print "
+"Used by devtools (https://python-devtools.helpmanual.io/) to pretty print objects."
+msgstr ""
+
+#: ../../../../None:46:<autosummary>:1
+msgid ":py:obj:`__rich_repr__ <pydantic.main.BaseModel.__rich_repr__>`\\ \\(\\)"
+msgstr ""
+
+#: ../../../../None:46:<autosummary>:1
+msgid ""
+"Used by Rich (https://rich.readthedocs.io/en/stable/pretty.html) to pretty print "
 "objects."
-msgstr ""
-
-#: ../../../../None:46:<autosummary>:1
-msgid ""
-":py:obj:`__rich_repr__ <pydantic.main.BaseModel.__rich_repr__>`\\ \\(\\)"
-msgstr ""
-
-#: ../../../../None:46:<autosummary>:1
-msgid ""
-"Used by Rich (https://rich.readthedocs.io/en/stable/pretty.html) to pretty"
-" print objects."
 msgstr ""
 
 #: ../../../../None:46:<autosummary>:1
@@ -633,14 +591,14 @@ msgstr ""
 
 #: ../../../../None:46:<autosummary>:1
 msgid ""
-":py:obj:`dict <pydantic.main.BaseModel.dict>`\\ \\(\\*\\[\\, include\\, "
-"exclude\\, by\\_alias\\, ...\\]\\)"
+":py:obj:`dict <pydantic.main.BaseModel.dict>`\\ \\(\\*\\[\\, include\\, exclude\\, "
+"by\\_alias\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../../None:46:<autosummary>:1
 msgid ""
-":py:obj:`json <pydantic.main.BaseModel.json>`\\ \\(\\*\\[\\, include\\, "
-"exclude\\, by\\_alias\\, ...\\]\\)"
+":py:obj:`json <pydantic.main.BaseModel.json>`\\ \\(\\*\\[\\, include\\, exclude\\, "
+"by\\_alias\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../../None:46:<autosummary>:1
@@ -649,14 +607,14 @@ msgstr ""
 
 #: ../../../../None:46:<autosummary>:1
 msgid ""
-":py:obj:`parse_raw <pydantic.main.BaseModel.parse_raw>`\\ \\(b\\, "
-"\\*\\[\\, content\\_type\\, encoding\\, ...\\]\\)"
+":py:obj:`parse_raw <pydantic.main.BaseModel.parse_raw>`\\ \\(b\\, \\*\\[\\, "
+"content\\_type\\, encoding\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../../None:46:<autosummary>:1
 msgid ""
-":py:obj:`parse_file <pydantic.main.BaseModel.parse_file>`\\ \\(path\\, "
-"\\*\\[\\, content\\_type\\, ...\\]\\)"
+":py:obj:`parse_file <pydantic.main.BaseModel.parse_file>`\\ \\(path\\, \\*\\[\\, "
+"content\\_type\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../../None:46:<autosummary>:1
@@ -665,14 +623,13 @@ msgstr ""
 
 #: ../../../../None:46:<autosummary>:1
 msgid ""
-":py:obj:`construct <pydantic.main.BaseModel.construct>`\\ "
-"\\(\\[\\_fields\\_set\\]\\)"
+":py:obj:`construct <pydantic.main.BaseModel.construct>`\\ \\(\\[\\_fields\\_set\\]\\)"
 msgstr ""
 
 #: ../../../../None:46:<autosummary>:1
 msgid ""
-":py:obj:`copy <pydantic.main.BaseModel.copy>`\\ \\(\\*\\[\\, include\\, "
-"exclude\\, update\\, deep\\]\\)"
+":py:obj:`copy <pydantic.main.BaseModel.copy>`\\ \\(\\*\\[\\, include\\, exclude\\, "
+"update\\, deep\\]\\)"
 msgstr ""
 
 #: ../../../../None:46:<autosummary>:1
@@ -687,8 +644,8 @@ msgstr ""
 
 #: ../../../../None:46:<autosummary>:1
 msgid ""
-":py:obj:`schema_json <pydantic.main.BaseModel.schema_json>`\\ \\(\\*\\[\\,"
-" by\\_alias\\, ref\\_template\\]\\)"
+":py:obj:`schema_json <pydantic.main.BaseModel.schema_json>`\\ \\(\\*\\[\\, "
+"by\\_alias\\, ref\\_template\\]\\)"
 msgstr ""
 
 #: ../../../../None:46:<autosummary>:1
@@ -697,8 +654,8 @@ msgstr ""
 
 #: ../../../../None:46:<autosummary>:1
 msgid ""
-":py:obj:`update_forward_refs "
-"<pydantic.main.BaseModel.update_forward_refs>`\\ \\(\\*\\*localns\\)"
+":py:obj:`update_forward_refs <pydantic.main.BaseModel.update_forward_refs>`\\ "
+"\\(\\*\\*localns\\)"
 msgstr ""
 
 #: ../../../autoapi/abqpy/config/index.rst
@@ -719,21 +676,17 @@ msgstr ""
 
 #: ../../../../None:7:<autosummary>:1
 msgid ""
-":py:obj:`_check_frozen <pydantic.main.BaseModel._check_frozen>`\\ "
-"\\(name\\, value\\)"
+":py:obj:`_check_frozen <pydantic.main.BaseModel._check_frozen>`\\ \\(name\\, value\\)"
+msgstr ""
+
+#: ../../../../None:7:<autosummary>:1
+msgid ":py:obj:`_iter <pydantic.main.BaseModel._iter>`\\ \\(\\*args\\, \\*\\*kwargs\\)"
 msgstr ""
 
 #: ../../../../None:7:<autosummary>:1
 msgid ""
-":py:obj:`_iter <pydantic.main.BaseModel._iter>`\\ \\(\\*args\\, "
-"\\*\\*kwargs\\)"
-msgstr ""
-
-#: ../../../../None:7:<autosummary>:1
-msgid ""
-":py:obj:`_copy_and_set_values "
-"<pydantic.main.BaseModel._copy_and_set_values>`\\ \\(\\*args\\, "
-"\\*\\*kwargs\\)"
+":py:obj:`_copy_and_set_values <pydantic.main.BaseModel._copy_and_set_values>`\\ "
+"\\(\\*args\\, \\*\\*kwargs\\)"
 msgstr ""
 
 #: ../../../../None:7:<autosummary>:1
@@ -744,14 +697,14 @@ msgstr ""
 
 #: ../../../../None:7:<autosummary>:1
 msgid ""
-":py:obj:`_calculate_keys <pydantic.main.BaseModel._calculate_keys>`\\ "
-"\\(\\*args\\, \\*\\*kwargs\\)"
+":py:obj:`_calculate_keys <pydantic.main.BaseModel._calculate_keys>`\\ \\(\\*args\\, "
+"\\*\\*kwargs\\)"
 msgstr ""
 
 #: ../../../autoapi/abqpy/config/index.rst:115
 msgid ""
-"Generate a dictionary representation of the model, optionally specifying "
-"which fields to include or exclude."
+"Generate a dictionary representation of the model, optionally specifying which fields "
+"to include or exclude."
 msgstr ""
 
 #: ../../../autoapi/abqpy/config/index.rst
@@ -760,9 +713,9 @@ msgstr ""
 
 #: ../../../autoapi/abqpy/config/index.rst:117
 msgid ""
-"The mode in which `to_python` should run. If mode is 'json', the output "
-"will only contain JSON serializable types. If mode is 'python', the output"
-" may contain non-JSON-serializable Python objects."
+"The mode in which `to_python` should run. If mode is 'json', the output will only "
+"contain JSON serializable types. If mode is 'python', the output may contain non-JSON-"
+"serializable Python objects."
 msgstr ""
 
 #: ../../../autoapi/abqpy/config/index.rst:120
@@ -795,14 +748,14 @@ msgstr ""
 
 #: ../../../autoapi/abqpy/config/index.rst:127
 msgid ""
-"If True, dumped values should be valid as input for non-idempotent types "
-"such as Json[T]."
+"If True, dumped values should be valid as input for non-idempotent types such as "
+"Json[T]."
 msgstr ""
 
 #: ../../../autoapi/abqpy/config/index.rst:128
 msgid ""
-"How to handle serialization errors. False/\"none\" ignores them, "
-"True/\"warn\" logs errors, \"error\" raises a "
+"How to handle serialization errors. False/\"none\" ignores them, True/\"warn\" logs "
+"errors, \"error\" raises a "
 "[`PydanticSerializationError`][pydantic_core.PydanticSerializationError]."
 msgstr ""
 
@@ -834,8 +787,7 @@ msgstr ""
 
 #: ../../../../None:17:<autosummary>:1
 msgid ""
-":py:obj:`model_computed_fields "
-"<abqpy.config.AbaqusCAEConfig.model_computed_fields>`\\"
+":py:obj:`model_computed_fields <abqpy.config.AbaqusCAEConfig.model_computed_fields>`\\"
 msgstr ""
 
 #: ../../../../None:17:<autosummary>:1
@@ -867,13 +819,11 @@ msgid ":py:obj:`savedOptions <abqpy.config.AbaqusCAEConfig.savedOptions>`\\"
 msgstr ""
 
 #: ../../../../None:17:<autosummary>:1
-msgid ""
-":py:obj:`savedGuiPrefs <abqpy.config.AbaqusCAEConfig.savedGuiPrefs>`\\"
+msgid ":py:obj:`savedGuiPrefs <abqpy.config.AbaqusCAEConfig.savedGuiPrefs>`\\"
 msgstr ""
 
 #: ../../../../None:17:<autosummary>:1
-msgid ""
-":py:obj:`startupDialog <abqpy.config.AbaqusCAEConfig.startupDialog>`\\"
+msgid ":py:obj:`startupDialog <abqpy.config.AbaqusCAEConfig.startupDialog>`\\"
 msgstr ""
 
 #: ../../../../None:17:<autosummary>:1
@@ -889,8 +839,7 @@ msgid ":py:obj:`guiRecord <abqpy.config.AbaqusCAEConfig.guiRecord>`\\"
 msgstr ""
 
 #: ../../../../None:3:<autosummary>:1
-msgid ""
-":py:obj:`__signature__ <abqpy.config.AbaqusCAEConfig.__signature__>`\\"
+msgid ":py:obj:`__signature__ <abqpy.config.AbaqusCAEConfig.__signature__>`\\"
 msgstr ""
 
 #: ../../../../None:3:<autosummary>:1
@@ -898,13 +847,11 @@ msgid ":py:obj:`_abc_impl <abqpy.config.AbaqusCAEConfig._abc_impl>`\\"
 msgstr ""
 
 #: ../../../../None:7:<autosummary>:1
-msgid ""
-":py:obj:`model_config <abqpy.config.AbaqusPythonConfig.model_config>`\\"
+msgid ":py:obj:`model_config <abqpy.config.AbaqusPythonConfig.model_config>`\\"
 msgstr ""
 
 #: ../../../../None:7:<autosummary>:1
-msgid ""
-":py:obj:`model_fields <abqpy.config.AbaqusPythonConfig.model_fields>`\\"
+msgid ":py:obj:`model_fields <abqpy.config.AbaqusPythonConfig.model_fields>`\\"
 msgstr ""
 
 #: ../../../../None:7:<autosummary>:1
@@ -922,8 +869,7 @@ msgid ":py:obj:`log <abqpy.config.AbaqusPythonConfig.log>`\\"
 msgstr ""
 
 #: ../../../../None:3:<autosummary>:1
-msgid ""
-":py:obj:`__signature__ <abqpy.config.AbaqusPythonConfig.__signature__>`\\"
+msgid ":py:obj:`__signature__ <abqpy.config.AbaqusPythonConfig.__signature__>`\\"
 msgstr ""
 
 #: ../../../../None:3:<autosummary>:1
@@ -940,8 +886,7 @@ msgstr ""
 
 #: ../../../../None:11:<autosummary>:1
 msgid ""
-":py:obj:`model_computed_fields "
-"<abqpy.config.AbaqusConfig.model_computed_fields>`\\"
+":py:obj:`model_computed_fields <abqpy.config.AbaqusConfig.model_computed_fields>`\\"
 msgstr ""
 
 #: ../../../../None:11:<autosummary>:1
@@ -965,9 +910,7 @@ msgid ":py:obj:`make_docs <abqpy.config.AbaqusConfig.make_docs>`\\"
 msgstr ""
 
 #: ../../../../None:11:<autosummary>:1
-msgid ""
-":py:obj:`cli_traceback_limit "
-"<abqpy.config.AbaqusConfig.cli_traceback_limit>`\\"
+msgid ":py:obj:`cli_traceback_limit <abqpy.config.AbaqusConfig.cli_traceback_limit>`\\"
 msgstr ""
 
 #: ../../../../None:3:<autosummary>:1
@@ -983,13 +926,11 @@ msgid "Bases: :py:obj:`AbaqusCAEConfig`, :py:obj:`AbaqusPythonConfig`"
 msgstr ""
 
 #: ../../../../None:5:<autosummary>:1
-msgid ""
-":py:obj:`model_config <abqpy.config.AbaqusCommandOptions.model_config>`\\"
+msgid ":py:obj:`model_config <abqpy.config.AbaqusCommandOptions.model_config>`\\"
 msgstr ""
 
 #: ../../../../None:5:<autosummary>:1
-msgid ""
-":py:obj:`model_fields <abqpy.config.AbaqusCommandOptions.model_fields>`\\"
+msgid ":py:obj:`model_fields <abqpy.config.AbaqusCommandOptions.model_fields>`\\"
 msgstr ""
 
 #: ../../../../None:5:<autosummary>:1
@@ -999,9 +940,7 @@ msgid ""
 msgstr ""
 
 #: ../../../../None:3:<autosummary>:1
-msgid ""
-":py:obj:`__signature__ "
-"<abqpy.config.AbaqusCommandOptions.__signature__>`\\"
+msgid ":py:obj:`__signature__ <abqpy.config.AbaqusCommandOptions.__signature__>`\\"
 msgstr ""
 
 #: ../../../../None:3:<autosummary>:1
