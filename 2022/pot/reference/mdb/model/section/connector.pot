@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: abqpy 2022\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-06 02:35+0000\n"
+"POT-Creation-Date: 2024-07-14 01:53+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1229,38 +1229,6 @@ msgstr ""
 msgid "A TangentialBehavior object"
 msgstr ""
 
-#: ../../../../../src/abaqus/Connector/DerivedComponent.py:docstring of abaqus.Connector.DerivedComponent.DerivedComponent:1
-msgid "A DerivedComponent object describes user-customized components for use in defining ConnectorFriction and Potential objects."
-msgstr ""
-
-#: ../../../../../src/abaqus/Connector/DerivedComponent.py:docstring of abaqus.Connector.DerivedComponent.DerivedComponent:23
-msgid "Check `DerivedComponent on help.3ds.com/2022 <https://help.3ds.com/2022/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-derivedcomponentpyc.htm?contextscope=all>`__."
-msgstr ""
-
-#: ../../../../../src/abaqus/Connector/DerivedComponent.py:docstring of abaqus.Connector.DerivedComponent.DerivedComponent.CDCTerm:1
-msgid "This method creates a CDCTerm object."
-msgstr ""
-
-#: ../../../../../src/abaqus/Connector/DerivedComponent.py:docstring of abaqus.Connector.DerivedComponent.DerivedComponent.CDCTerm:33
-msgid "A SymbolicConstant specifying the method for combining contributing terms: square root of a sum of the squares, direct sum, or Macauley sum. Possible values are RSS, SUM, and MACAULEY. The default value is RSS."
-msgstr ""
-
-#: ../../../../../src/abaqus/Connector/DerivedComponent.py:docstring of abaqus.Connector.DerivedComponent.DerivedComponent.CDCTerm:58
-msgid "A CDCTerm object."
-msgstr ""
-
-#: ../../../../../src/abaqus/Connector/DerivedComponent.py:docstring of abaqus.Connector.DerivedComponent.DerivedComponent.CDCTerm:59
-msgid ":class:`CDCTerm`"
-msgstr ""
-
-#: ../../../../docstring of abaqus.Connector.DerivedComponent.DerivedComponent.cdcTerms:1
-msgid "A CDCTermArray object."
-msgstr ""
-
-#: ../../../../../src/abaqus/Connector/DerivedComponent.py:docstring of abaqus.Connector.DerivedComponent.DerivedComponent.setValues:1
-msgid "This method modifies the DerivedComponent object."
-msgstr ""
-
 #: ../../../../../src/abaqus/Connector/TangentialBehavior.py:docstring of abaqus.Connector.TangentialBehavior.TangentialBehavior:1
 msgid "The TangentialBehavior object specifies tangential behavior for a connector friction behavior option."
 msgstr ""
@@ -1602,7 +1570,7 @@ msgstr ""
 msgid "Relative displacement or rotation."
 msgstr ""
 
-#: ../../../../../src/abaqus/Connector/ConnectorDamping.py:docstring of abaqus.Connector.ConnectorDamping.ConnectorDamping:37
+#: ../../../../../src/abaqus/Connector/ConnectorDamping.py:docstring of abaqus.Connector.ConnectorDamping.ConnectorDamping:30
 msgid "If **behavior** = LINEAR and **coupling** = COUPLED, the table data specify the symmetric portion"
 msgstr ""
 
@@ -1610,7 +1578,7 @@ msgstr ""
 msgid "of the damping matrix for the specified components followed by any temperature data and then any field data. For example, if components 2, 3, and 5 are specified, the table portion of the command is as follows: table=( (C22C22, C23C23, C25C25, C33C33, C35C35, C55C55,), ) The following items should then be specified as comma-separated data:"
 msgstr ""
 
-#: ../../../../../src/abaqus/Connector/ConnectorDamping.py:docstring of abaqus.Connector.ConnectorDamping.ConnectorDamping:56
+#: ../../../../../src/abaqus/Connector/ConnectorDamping.py:docstring of abaqus.Connector.ConnectorDamping.ConnectorDamping:39
 msgid "If **behavior** = NONLINEAR and **coupling** = COUPLED_POSITION or COUPLED_MOTION, each sequence"
 msgstr ""
 
@@ -1724,6 +1692,38 @@ msgstr ""
 
 #: ../../../../docstring of abaqus.Connector.ConnectorSection.ConnectorFriction.slipStyle:6
 msgid "A SymbolicConstant specifying the method of indicating the slip direction"
+msgstr ""
+
+#: ../../../../../src/abaqus/Connector/DerivedComponent.py:docstring of abaqus.Connector.DerivedComponent.DerivedComponent:1
+msgid "A DerivedComponent object describes user-customized components for use in defining ConnectorFriction and Potential objects."
+msgstr ""
+
+#: ../../../../../src/abaqus/Connector/DerivedComponent.py:docstring of abaqus.Connector.DerivedComponent.DerivedComponent:23
+msgid "Check `DerivedComponent on help.3ds.com/2022 <https://help.3ds.com/2022/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-derivedcomponentpyc.htm?contextscope=all>`__."
+msgstr ""
+
+#: ../../../../../src/abaqus/Connector/DerivedComponent.py:docstring of abaqus.Connector.DerivedComponent.DerivedComponent.CDCTerm:1
+msgid "This method creates a CDCTerm object."
+msgstr ""
+
+#: ../../../../../src/abaqus/Connector/DerivedComponent.py:docstring of abaqus.Connector.DerivedComponent.DerivedComponent.CDCTerm:33
+msgid "A SymbolicConstant specifying the method for combining contributing terms: square root of a sum of the squares, direct sum, or Macauley sum. Possible values are RSS, SUM, and MACAULEY. The default value is RSS."
+msgstr ""
+
+#: ../../../../../src/abaqus/Connector/DerivedComponent.py:docstring of abaqus.Connector.DerivedComponent.DerivedComponent.CDCTerm:58
+msgid "A CDCTerm object."
+msgstr ""
+
+#: ../../../../../src/abaqus/Connector/DerivedComponent.py:docstring of abaqus.Connector.DerivedComponent.DerivedComponent.CDCTerm:59
+msgid ":class:`CDCTerm`"
+msgstr ""
+
+#: ../../../../docstring of abaqus.Connector.DerivedComponent.DerivedComponent.cdcTerms:1
+msgid "A CDCTermArray object."
+msgstr ""
+
+#: ../../../../../src/abaqus/Connector/DerivedComponent.py:docstring of abaqus.Connector.DerivedComponent.DerivedComponent.setValues:1
+msgid "This method modifies the DerivedComponent object."
 msgstr ""
 
 #: ../../../../../src/abaqus/Connector/ConnectorLock.py:docstring of abaqus.Connector.ConnectorLock.ConnectorLock:1
