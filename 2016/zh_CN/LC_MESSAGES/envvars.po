@@ -35,18 +35,27 @@ msgstr "以下环境变量可以用于配置该项目。"
 #: ../../../envvars.md:166
 #: ../../../envvars.md:173
 msgid "**Type: string**"
-msgstr "**类型：字符串**"
+msgstr "** 类型：字符串 **"
 
 #: ../../../envvars.md:9
-msgid "The file path of the `abaqus` command line batch file (`.bat`). Only set this environment variable if `abaqus` is not the default Abaqus command line executable. This variable is used by `abqpy` to run the Abaqus command line procedure inside the Python interpreter environment where it is installed."
-msgstr "`abaqus` 命令行批处理文件的文件路径 (`.bat`)。 仅在 `abaqus` 不是默认的 Abaqus 命令行可执行文件时设置此环境变量。 此变量被用于在安装了 `abqpy` 的 Python 解释器环境中运行 Abaqus 命令行程序。"
+msgid ""
+"The file path of the `abaqus` command line batch file (`.bat`). Only set this "
+"environment variable if `abaqus` is not the default Abaqus command line executable. "
+"This variable is used by `abqpy` to run the Abaqus command line procedure inside the "
+"Python interpreter environment where it is installed."
+msgstr ""
+"`abaqus` 命令行批处理文件的文件路径 (`.bat`)。 仅在 `abaqus` 不是默认的 Abaqus "
+"命令行可执行文件时设置此环境变量。 此变量被用于在安装了 `abqpy` 的 Python 解释器环境中运行 "
+"Abaqus 命令行程序。"
 
 #: ../../../envvars.md:16
 msgid "**Type: string of a Python dictionary**"
-msgstr "**类型：表示一个Python 字典的字符串**"
+msgstr "** 类型：表示一个 Python 字典的字符串 **"
 
 #: ../../../envvars.md:18
-msgid "The default execution procedure invoked by `abqpy` inside the Python interpreter environment where it is installed is to run one of the two following command lines:"
+msgid ""
+"The default execution procedure invoked by `abqpy` inside the Python interpreter "
+"environment where it is installed is to run one of the two following command lines:"
 msgstr "在 Python 环境中使用 `abqpy` 默认将运行以下两个命令之一："
 
 #: ../../../envvars.md:21
@@ -58,8 +67,17 @@ msgid "When there is a `import odbAccess` or `from odbAccess import ...` stateme
 msgstr "当存在 `import odbAccess` 或 `from odbAccess import ...` 语句时："
 
 #: ../../../envvars.md:33
-msgid "However, there are other execution procedures that can be run with the `abaqus` command and also another options that could be passed to these commands. To define these procedures and options you can create a new system environment variable named `ABAQUS_COMMAND_OPTIONS`, and set a **dictionary** to this variable with the options you want to use. The values of the dictionary keys would be booleans or strings, e.g.: `{'gui': True, 'database': 'file.odb'}`"
-msgstr "但是，还有其它可以传递给 `abaqus` 命令的选项。要定义这些选项，您可以创建一个名为 `ABAQUS_COMMAND_OPTIONS` 的新系统环境变量，并将您要使用的选项为该变量设置一个**字典**。 字典的值可以是布尔值或字符串，例如：`{'gui': True, 'database': 'file.odb'}`。"
+msgid ""
+"However, there are other execution procedures that can be run with the `abaqus` "
+"command and also another options that could be passed to these commands. To define "
+"these procedures and options you can create a new system environment variable named "
+"`ABAQUS_COMMAND_OPTIONS`, and set a **dictionary** to this variable with the options "
+"you want to use. The values of the dictionary keys would be booleans or strings, e.g.:"
+" `{'gui': True, 'database': 'file.odb'}`"
+msgstr ""
+"但是，还有其它可以传递给 `abaqus` 命令的选项。要定义这些选项，您可以创建一个名为 "
+"`ABAQUS_COMMAND_OPTIONS` 的新系统环境变量，并将您要使用的选项为该变量设置一个 ** 字典 **。 "
+"字典的值可以是布尔值或字符串，例如：`{'gui': True, 'database': 'file.odb'}`。"
 
 #: ../../../envvars.md:40
 msgid "The possible options are:"
@@ -74,7 +92,9 @@ msgid "Using `abaqus python` command line options (import `odbAccess` module):"
 msgstr "使用 `abaqus cae` 命令 (导入 `abaqus` 模块)："
 
 #: ../../../envvars.md:70
-msgid "One advantage in using this alternative is to change the options at run time inside the code."
+msgid ""
+"One advantage in using this alternative is to change the options at run time inside "
+"the code."
 msgstr "使用此方案的一个优点是在代码内的运行时更改选项。"
 
 #: ../../../envvars.md:72
@@ -82,24 +102,47 @@ msgid "Note"
 msgstr "备注"
 
 #: ../../../envvars.md:73
-msgid "The environment variable {envvar}`ABAQUS_COMMAND_OPTIONS` must be a valid string that can be parsed to a Python dictionary, which means that you must use `True` or `False` for boolean options. However, in the following individual environment variables, you can use `true`, `on`, `yes` or `1` (or capitalized ones since they are not case sensitive) to set the boolean option to `True` and any other values to set it to `False`."
-msgstr "环境变量 {envvar}`ABAQUS_COMMAND_OPTIONS` 必须是可以解析为 Python 字典的有效字符串，这意味着必须使用 `True` 或 `False` 来设置布尔选项。不过，在以下单独的环境变量中，可以使用 `true`、`on`、`yes` 或 `1`（或大写字母，不区分大小写）将布尔选项设置为 `True`，否则将其设置为 `False`。"
+msgid ""
+"The environment variable {envvar}`ABAQUS_COMMAND_OPTIONS` must be a valid string that "
+"can be parsed to a Python dictionary, which means that you must use `True` or `False` "
+"for boolean options. However, in the following individual environment variables, you "
+"can use `true`, `on`, `yes` or `1` (or capitalized ones since they are not case "
+"sensitive) to set the boolean option to `True` and any other values to set it to "
+"`False`."
+msgstr ""
+"环境变量 {envvar}`ABAQUS_COMMAND_OPTIONS` 必须是可以解析为 Python 字典的有效字符串，"
+"这意味着必须使用 `True` 或 `False` 来设置布尔选项。不过，在以下单独的环境变量中，可以使用 "
+"`true`、`on`、`yes` 或 `1`（或大写字母，不区分大小写）将布尔选项设置为 `True`，否则将其设置为 "
+"`False`。"
 
 #: ../../../envvars.md:84
-msgid "A shortcut to the {envvar}`ABAQUS_COMMAND_OPTIONS` environment variable to set the `database` option but has higher priority."
-msgstr "环境变量 {envvar}`ABAQUS_COMMAND_OPTIONS` 的快捷方式，用于设置 `database` 选项，但优先级更高。"
+msgid ""
+"A shortcut to the {envvar}`ABAQUS_COMMAND_OPTIONS` environment variable to set the "
+"`database` option but has higher priority."
+msgstr ""
+"环境变量 {envvar}`ABAQUS_COMMAND_OPTIONS` 的快捷方式，用于设置 `database` 选项，"
+"但优先级更高。"
 
 #: ../../../envvars.md:91
-msgid "A shortcut to the {envvar}`ABAQUS_COMMAND_OPTIONS` environment variable to set the `replay` option but has higher priority."
-msgstr "环境变量 {envvar}`ABAQUS_COMMAND_OPTIONS` 的快捷方式，用于设置 `reply` 选项，但优先级更高。"
+msgid ""
+"A shortcut to the {envvar}`ABAQUS_COMMAND_OPTIONS` environment variable to set the "
+"`replay` option but has higher priority."
+msgstr ""
+"环境变量 {envvar}`ABAQUS_COMMAND_OPTIONS` 的快捷方式，用于设置 `reply` 选项，但优先级更高。"
 
 #: ../../../envvars.md:98
-msgid "A shortcut to the {envvar}`ABAQUS_COMMAND_OPTIONS` environment variable to set the `recover` option but has higher priority."
-msgstr "环境变量 {envvar}`ABAQUS_COMMAND_OPTIONS` 的快捷方式，用于设置 `recover` 选项，但优先级更高。"
+msgid ""
+"A shortcut to the {envvar}`ABAQUS_COMMAND_OPTIONS` environment variable to set the "
+"`recover` option but has higher priority."
+msgstr ""
+"环境变量 {envvar}`ABAQUS_COMMAND_OPTIONS` 的快捷方式，用于设置 `recover` 选项，但优先级更高。"
 
 #: ../../../envvars.md:105
-msgid "A shortcut to the {envvar}`ABAQUS_COMMAND_OPTIONS` environment variable to set the `startup` option but has higher priority."
-msgstr "环境变量 {envvar}`ABAQUS_COMMAND_OPTIONS` 的快捷方式，用于设置 `startup` 选项，但优先级更高。"
+msgid ""
+"A shortcut to the {envvar}`ABAQUS_COMMAND_OPTIONS` environment variable to set the "
+"`startup` option but has higher priority."
+msgstr ""
+"环境变量 {envvar}`ABAQUS_COMMAND_OPTIONS` 的快捷方式，用于设置 `startup` 选项，但优先级更高。"
 
 #: ../../../envvars.md:110
 #: ../../../envvars.md:117
@@ -108,58 +151,98 @@ msgstr "环境变量 {envvar}`ABAQUS_COMMAND_OPTIONS` 的快捷方式，用于�
 #: ../../../envvars.md:138
 #: ../../../envvars.md:159
 msgid "**Type: bool {true, false, on, off, yes, no, 1, 0}**"
-msgstr "**类型：布尔值 {true、 false、 on、 off、 yes、 no、 1、 0}**"
+msgstr "** 类型：布尔值 {true、 false、 on、 off、 yes、 no、 1、 0}**"
 
 #: ../../../envvars.md:112
-msgid "A shortcut to the {envvar}`ABAQUS_COMMAND_OPTIONS` environment variable to set the `gui` option but has higher priority."
-msgstr "环境变量 {envvar}`ABAQUS_COMMAND_OPTIONS` 的快捷方式，用于设置 `gui` 选项，但优先级更高。"
+msgid ""
+"A shortcut to the {envvar}`ABAQUS_COMMAND_OPTIONS` environment variable to set the "
+"`gui` option but has higher priority."
+msgstr ""
+"环境变量 {envvar}`ABAQUS_COMMAND_OPTIONS` 的快捷方式，用于设置 `gui` 选项，但优先级更高。"
 
 #: ../../../envvars.md:119
-msgid "A shortcut to the {envvar}`ABAQUS_COMMAND_OPTIONS` environment variable to set the `envstartup` option but has higher priority."
-msgstr "环境变量 {envvar}`ABAQUS_COMMAND_OPTIONS` 的快捷方式，用于设置 `envstartup` 选项，但优先级更高。"
+msgid ""
+"A shortcut to the {envvar}`ABAQUS_COMMAND_OPTIONS` environment variable to set the "
+"`envstartup` option but has higher priority."
+msgstr ""
+"环境变量 {envvar}`ABAQUS_COMMAND_OPTIONS` 的快捷方式，用于设置 `envstartup` 选项，"
+"但优先级更高。"
 
 #: ../../../envvars.md:126
-msgid "A shortcut to the {envvar}`ABAQUS_COMMAND_OPTIONS` environment variable to set the `savedOptions` option but has higher priority."
-msgstr "环境变量 {envvar}`ABAQUS_COMMAND_OPTIONS` 的快捷方式，用于设置 `savedOptions` 选项，但优先级更高。"
+msgid ""
+"A shortcut to the {envvar}`ABAQUS_COMMAND_OPTIONS` environment variable to set the "
+"`savedOptions` option but has higher priority."
+msgstr ""
+"环境变量 {envvar}`ABAQUS_COMMAND_OPTIONS` 的快捷方式，用于设置 `savedOptions` 选项，"
+"但优先级更高。"
 
 #: ../../../envvars.md:133
-msgid "A shortcut to the {envvar}`ABAQUS_COMMAND_OPTIONS` environment variable to set the `savedGuiPrefs` option but has higher priority."
-msgstr "环境变量 {envvar}`ABAQUS_COMMAND_OPTIONS` 的快捷方式，用于设置 `savedGuiPrefs` 选项，但优先级更高。"
+msgid ""
+"A shortcut to the {envvar}`ABAQUS_COMMAND_OPTIONS` environment variable to set the "
+"`savedGuiPrefs` option but has higher priority."
+msgstr ""
+"环境变量 {envvar}`ABAQUS_COMMAND_OPTIONS` 的快捷方式，用于设置 `savedGuiPrefs` 选项，"
+"但优先级更高。"
 
 #: ../../../envvars.md:140
-msgid "A shortcut to the {envvar}`ABAQUS_COMMAND_OPTIONS` environment variable to set the `startupDialog` option but has higher priority."
-msgstr "环境变量 {envvar}`ABAQUS_COMMAND_OPTIONS` 的快捷方式，用于设置 `startupDialog` 选项，但优先级更高。"
+msgid ""
+"A shortcut to the {envvar}`ABAQUS_COMMAND_OPTIONS` environment variable to set the "
+"`startupDialog` option but has higher priority."
+msgstr ""
+"环境变量 {envvar}`ABAQUS_COMMAND_OPTIONS` 的快捷方式，用于设置 `startupDialog` 选项，"
+"但优先级更高。"
 
 #: ../../../envvars.md:147
-msgid "A shortcut to the {envvar}`ABAQUS_COMMAND_OPTIONS` environment variable to set the `custom` option but has higher priority."
-msgstr "环境变量 {envvar}`ABAQUS_COMMAND_OPTIONS` 的快捷方式，用于设置 `custom` 选项，但优先级更高。"
+msgid ""
+"A shortcut to the {envvar}`ABAQUS_COMMAND_OPTIONS` environment variable to set the "
+"`custom` option but has higher priority."
+msgstr ""
+"环境变量 {envvar}`ABAQUS_COMMAND_OPTIONS` 的快捷方式，用于设置 `custom` 选项，但优先级更高。"
 
 #: ../../../envvars.md:154
-msgid "A shortcut to the {envvar}`ABAQUS_COMMAND_OPTIONS` environment variable to set the `guiTester` option but has higher priority."
-msgstr "环境变量 {envvar}`ABAQUS_COMMAND_OPTIONS` 的快捷方式，用于设置 `guiTester` 选项，但优先级更高。"
+msgid ""
+"A shortcut to the {envvar}`ABAQUS_COMMAND_OPTIONS` environment variable to set the "
+"`guiTester` option but has higher priority."
+msgstr ""
+"环境变量 {envvar}`ABAQUS_COMMAND_OPTIONS` 的快捷方式，用于设置 `guiTester` 选项，"
+"但优先级更高。"
 
 #: ../../../envvars.md:161
-msgid "A shortcut to the {envvar}`ABAQUS_COMMAND_OPTIONS` environment variable to set the `guiRecord` option but has higher priority."
-msgstr "环境变量 {envvar}`ABAQUS_COMMAND_OPTIONS` 的快捷方式，用于设置 `guiRecord` 选项，但优先级更高。"
+msgid ""
+"A shortcut to the {envvar}`ABAQUS_COMMAND_OPTIONS` environment variable to set the "
+"`guiRecord` option but has higher priority."
+msgstr ""
+"环境变量 {envvar}`ABAQUS_COMMAND_OPTIONS` 的快捷方式，用于设置 `guiRecord` 选项，"
+"但优先级更高。"
 
 #: ../../../envvars.md:168
-msgid "A shortcut to the {envvar}`ABAQUS_COMMAND_OPTIONS` environment variable to set the `sim` option but has higher priority."
-msgstr "环境变量 {envvar}`ABAQUS_COMMAND_OPTIONS` 的快捷方式，用于设置 `sim` 选项，但优先级更高。"
+msgid ""
+"A shortcut to the {envvar}`ABAQUS_COMMAND_OPTIONS` environment variable to set the "
+"`sim` option but has higher priority."
+msgstr ""
+"环境变量 {envvar}`ABAQUS_COMMAND_OPTIONS` 的快捷方式，用于设置 `sim` 选项，但优先级更高。"
 
 #: ../../../envvars.md:175
-msgid "A shortcut to the {envvar}`ABAQUS_COMMAND_OPTIONS` environment variable to set the `log` option but has higher priority."
-msgstr "环境变量 {envvar}`ABAQUS_COMMAND_OPTIONS` 的快捷方式，用于设置 `log` 选项，但优先级更高。"
+msgid ""
+"A shortcut to the {envvar}`ABAQUS_COMMAND_OPTIONS` environment variable to set the "
+"`log` option but has higher priority."
+msgstr ""
+"环境变量 {envvar}`ABAQUS_COMMAND_OPTIONS` 的快捷方式，用于设置 `log` 选项，但优先级更高。"
 
 #: ../../../envvars.md:178
 msgid "Example"
 msgstr "示例"
 
 #: ../../../envvars.md:180
-msgid "The snippet bellow changes the default procedure options before calling abaqus cae command procedure, at run time."
+msgid ""
+"The snippet bellow changes the default procedure options before calling abaqus cae "
+"command procedure, at run time."
 msgstr "下面的代码片段在运行时更改了调用 abaqus cae 命令的默认选项。"
 
 #: ../../../envvars.md:193
-msgid "In this specific case, the procedure will use the graphical user interface (GUI mode) and load a _database_ file, i.e., it will run the following command line."
+msgid ""
+"In this specific case, the procedure will use the graphical user interface (GUI mode) "
+"and load a _database_ file, i.e., it will run the following command line."
 msgstr "在这种情况下，程序将使用图形用户界面（GUI ）模式并加载数据库文件，即，它将运行以下命令。"
 
 #: ../../../envvars.md:200
