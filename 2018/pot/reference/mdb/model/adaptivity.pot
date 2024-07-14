@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: abqpy 2018\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-06 02:36+0000\n"
+"POT-Creation-Date: 2024-07-14 01:53+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -90,6 +90,8 @@ msgstr ""
 #: ../../../../../src/abaqus/Adaptivity/DisplacementAdaptiveMeshConstraint.py:docstring of abaqus.Adaptivity.DisplacementAdaptiveMeshConstraint.DisplacementAdaptiveMeshConstraint.setValuesInStep:4
 #: ../../../../../src/abaqus/Adaptivity/DisplacementAdaptiveMeshConstraintState.py:docstring of abaqus.Adaptivity.DisplacementAdaptiveMeshConstraintState.DisplacementAdaptiveMeshConstraintState:8
 #: ../../../../../src/abaqus/Adaptivity/DisplacementAdaptiveMeshConstraintState.py:docstring of abaqus.Adaptivity.DisplacementAdaptiveMeshConstraintState.DisplacementAdaptiveMeshConstraintState:18
+#: ../../../../../src/abaqus/Adaptivity/ErrorIndicatorResult.py:docstring of abaqus.Adaptivity.ErrorIndicatorResult.ErrorIndicatorResult:4
+#: ../../../../../src/abaqus/Adaptivity/ErrorIndicatorResult.py:docstring of abaqus.Adaptivity.ErrorIndicatorResult.ErrorIndicatorResult:10
 #: ../../../../../src/abaqus/Adaptivity/RemeshingRule.py:docstring of abaqus.Adaptivity.RemeshingRule.RemeshingRule:4
 #: ../../../../../src/abaqus/Adaptivity/RemeshingRule.py:docstring of abaqus.Adaptivity.RemeshingRule.RemeshingRule:10
 #: ../../../../../src/abaqus/Adaptivity/RemeshingRule.py:docstring of abaqus.Adaptivity.RemeshingRule.RemeshingRule.setValues:3
@@ -114,6 +116,7 @@ msgstr ""
 #: ../../../../../src/abaqus/Adaptivity/AdaptivityStep.py:docstring of abaqus.Adaptivity.AdaptivityStep.AdaptivityStep:6
 #: ../../../../../src/abaqus/Adaptivity/DisplacementAdaptiveMeshConstraint.py:docstring of abaqus.Adaptivity.DisplacementAdaptiveMeshConstraint.DisplacementAdaptiveMeshConstraint:5
 #: ../../../../../src/abaqus/Adaptivity/DisplacementAdaptiveMeshConstraintState.py:docstring of abaqus.Adaptivity.DisplacementAdaptiveMeshConstraintState.DisplacementAdaptiveMeshConstraintState:9
+#: ../../../../../src/abaqus/Adaptivity/ErrorIndicatorResult.py:docstring of abaqus.Adaptivity.ErrorIndicatorResult.ErrorIndicatorResult:5
 #: ../../../../../src/abaqus/Adaptivity/RemeshingRule.py:docstring of abaqus.Adaptivity.RemeshingRule.RemeshingRule:5
 #: ../../../../../src/abaqus/Adaptivity/RuleResult.py:docstring of abaqus.Adaptivity.RuleResult.RuleResult:5
 #: ../../../../../src/abaqus/Adaptivity/VelocityAdaptiveMeshConstraint.py:docstring of abaqus.Adaptivity.VelocityAdaptiveMeshConstraint.VelocityAdaptiveMeshConstraint:6
@@ -266,14 +269,6 @@ msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
 msgid "A KeywordBlock object."
-msgstr ""
-
-#: ../../../../None:52:<autosummary>:1
-msgid ":py:obj:`rootAssembly <abaqus.Model.ModelBase.ModelBase.rootAssembly>`\\"
-msgstr ""
-
-#: ../../../../None:52:<autosummary>:1
-msgid "An Assembly object."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
@@ -532,6 +527,14 @@ msgstr ""
 msgid "An Int specifying the increment, interval, iteration or cycle where the restart analysis will start."
 msgstr ""
 
+#: ../../../../None:52:<autosummary>:1
+msgid ":py:obj:`rootAssembly <abaqus.Model.ModelBase.ModelBase.rootAssembly>`\\"
+msgstr ""
+
+#: ../../../../None:52:<autosummary>:1
+msgid "An Assembly object."
+msgstr ""
+
 #: ../../../../../src/abaqus/Adaptivity/AdaptivityIteration.py:docstring of abaqus.Adaptivity.AdaptivityIteration.AdaptivityIteration:0
 #: ../../../../../src/abaqus/Adaptivity/AdaptivityModel.py:docstring of abaqus.Adaptivity.AdaptivityModel.AdaptivityModel:0
 #: ../../../../../src/abaqus/Adaptivity/AdaptivityStep.py:docstring of abaqus.Adaptivity.AdaptivityStep.AdaptivityStep:0
@@ -641,8 +644,8 @@ msgstr ""
 #: ../../../../../src/abaqus/Adaptivity/AdaptivityStep.py:docstring of abaqus.Adaptivity.AdaptivityStep.AdaptivityStep:1
 #: ../../../../../src/abaqus/Adaptivity/DisplacementAdaptiveMeshConstraint.py:docstring of abaqus.Adaptivity.DisplacementAdaptiveMeshConstraint.DisplacementAdaptiveMeshConstraint:1
 #: ../../../../../src/abaqus/Adaptivity/DisplacementAdaptiveMeshConstraintState.py:docstring of abaqus.Adaptivity.DisplacementAdaptiveMeshConstraintState.DisplacementAdaptiveMeshConstraintState:1
+#: ../../../../../src/abaqus/Adaptivity/ErrorIndicatorResult.py:docstring of abaqus.Adaptivity.ErrorIndicatorResult.ErrorIndicatorResult:1
 #: ../../../../../src/abaqus/Adaptivity/RemeshingRule.py:docstring of abaqus.Adaptivity.RemeshingRule.RemeshingRule:1
-#: ../../../../../src/abaqus/Adaptivity/RuleResult.py:docstring of abaqus.Adaptivity.RuleResult.ErrorIndicatorResult:1
 #: ../../../../../src/abaqus/Adaptivity/RuleResult.py:docstring of abaqus.Adaptivity.RuleResult.RuleResult:1
 #: ../../../../../src/abaqus/Adaptivity/VelocityAdaptiveMeshConstraint.py:docstring of abaqus.Adaptivity.VelocityAdaptiveMeshConstraint.VelocityAdaptiveMeshConstraint:1
 #: ../../../../../src/abaqus/Adaptivity/VelocityAdaptiveMeshConstraintState.py:docstring of abaqus.Adaptivity.VelocityAdaptiveMeshConstraintState.VelocityAdaptiveMeshConstraintState:1
@@ -1650,7 +1653,6 @@ msgstr ""
 #: ../../../../../src/abaqus/Adaptivity/AdaptivityIteration.py:docstring of abaqus.Adaptivity.AdaptivityIteration.AdaptivityIteration:1
 #: ../../../../../src/abaqus/Adaptivity/AdaptivityProcess.py:docstring of abaqus.Adaptivity.AdaptivityProcess.AdaptivityProcess:1
 #: ../../../../../src/abaqus/Adaptivity/RemeshingRule.py:docstring of abaqus.Adaptivity.RemeshingRule.RemeshingRule:1
-#: ../../../../../src/abaqus/Adaptivity/RuleResult.py:docstring of abaqus.Adaptivity.RuleResult.ErrorIndicatorResult:1
 #: ../../../../../src/abaqus/Adaptivity/RuleResult.py:docstring of abaqus.Adaptivity.RuleResult.RuleResult:1
 msgid "Bases: :py:class:`object`"
 msgstr ""
@@ -1751,14 +1753,17 @@ msgid "This method creates a RuleResult with data for a RemeshingRule for a give
 msgstr ""
 
 #: ../../../../../src/abaqus/Adaptivity/AdaptivityIteration.py:docstring of abaqus.Adaptivity.AdaptivityIteration.AdaptivityIteration.ErrorIndicatorResult:10
+#: ../../../../../src/abaqus/Adaptivity/ErrorIndicatorResult.py:docstring of abaqus.Adaptivity.ErrorIndicatorResult.ErrorIndicatorResult:11
 msgid "Check `ErrorIndicatorResult on help.3ds.com/2018 <https://help.3ds.com/2018/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-errorindicatorresultpyc.htm?contextscope=all>`__."
 msgstr ""
 
 #: ../../../../../src/abaqus/Adaptivity/AdaptivityIteration.py:docstring of abaqus.Adaptivity.AdaptivityIteration.AdaptivityIteration.ErrorIndicatorResult:13
+#: ../../../../docstring of abaqus.Adaptivity.ErrorIndicatorResult.ErrorIndicatorResult.name:1
 msgid "A String specifying the name of the error indicator variable to which these results correspond."
 msgstr ""
 
 #: ../../../../../src/abaqus/Adaptivity/AdaptivityIteration.py:docstring of abaqus.Adaptivity.AdaptivityIteration.AdaptivityIteration.ErrorIndicatorResult:16
+#: ../../../../docstring of abaqus.Adaptivity.ErrorIndicatorResult.ErrorIndicatorResult.results:1
 msgid "A String-to-Float Dictionary specifying the calculated results from the sizing function corresponding to the error indicator variable represented by this ErrorIndicatorResult."
 msgstr ""
 
@@ -1943,6 +1948,14 @@ msgstr ""
 
 #: ../../../../../src/abaqus/Adaptivity/AdaptiveMeshDomain.py:docstring of abaqus.Adaptivity.AdaptiveMeshDomain.AdaptiveMeshDomain.setValues:1
 msgid "This method modifies the AdaptiveMeshDomain object."
+msgstr ""
+
+#: ../../../../../src/abaqus/Adaptivity/ErrorIndicatorResult.py:docstring of abaqus.Adaptivity.ErrorIndicatorResult.ErrorIndicatorResult:1
+msgid "Bases: :py:class:`~abaqus.Adaptivity.RuleResult.RuleResult`"
+msgstr ""
+
+#: ../../../../../src/abaqus/Adaptivity/ErrorIndicatorResult.py:docstring of abaqus.Adaptivity.ErrorIndicatorResult.ErrorIndicatorResult:1
+msgid "The ErrorIndicatorResult object contains result information corresponding to an error indicator variable in a RemeshingRule object for an adaptivity iteration."
 msgstr ""
 
 #: ../../../../../src/abaqus/Adaptivity/RuleResult.py:docstring of abaqus.Adaptivity.RuleResult.RuleResult:1

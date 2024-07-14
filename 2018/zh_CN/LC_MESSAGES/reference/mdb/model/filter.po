@@ -22,7 +22,9 @@ msgid "Filter"
 msgstr ""
 
 #: ../../../reference/mdb/model/filter.md:3
-msgid "Filter commands are used to create real-time filters of output request data."
+msgid ""
+"Filter commands are used to create real-time filters of output request "
+"data."
 msgstr ""
 
 #: ../../../reference/mdb/model/filter.md:5
@@ -38,7 +40,8 @@ msgid "Bases: :py:class:`~abaqus.Model.ModelBase.ModelBase`"
 msgstr ""
 
 #: abaqus.Filter.FilterModel.FilterModel:1 of
-msgid "Abaqus creates a Model object named `Model-1` when a session is started."
+msgid ""
+"Abaqus creates a Model object named `Model-1` when a session is started."
 msgstr ""
 
 #: abaqus.Filter.ButterworthFilter.ButterworthFilter:4
@@ -87,8 +90,8 @@ msgstr ""
 
 #: abaqus.Filter.FilterModel.FilterModel:9 of
 msgid ""
-"Check `FilterModel on help.3ds.com/2018 "
-"<https://help.3ds.com/2018/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"Check `FilterModel on help.3ds.com/2018 <https://help.3ds.com/2018/English"
+"/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "modelpyc.htm?contextscope=all>`__."
 msgstr ""
 
@@ -105,7 +108,9 @@ msgid "A String specifying the repository key."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
-msgid ":py:obj:`stefanBoltzmann <abaqus.Model.ModelBase.ModelBase.stefanBoltzmann>`\\"
+msgid ""
+":py:obj:`stefanBoltzmann "
+"<abaqus.Model.ModelBase.ModelBase.stefanBoltzmann>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
@@ -113,7 +118,8 @@ msgid "None or a Float specifying the Stefan-Boltzmann constant."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
-msgid ":py:obj:`absoluteZero <abaqus.Model.ModelBase.ModelBase.absoluteZero>`\\"
+msgid ""
+":py:obj:`absoluteZero <abaqus.Model.ModelBase.ModelBase.absoluteZero>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
@@ -121,17 +127,20 @@ msgid "None or a Float specifying the absolute zero constant."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
-msgid ":py:obj:`waveFormulation <abaqus.Model.ModelBase.ModelBase.waveFormulation>`\\"
+msgid ""
+":py:obj:`waveFormulation "
+"<abaqus.Model.ModelBase.ModelBase.waveFormulation>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
 msgid ""
-"A SymbolicConstant specifying the type of incident wave formulation to be used in "
-"acoustic problems."
+"A SymbolicConstant specifying the type of incident wave formulation to be "
+"used in acoustic problems."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
-msgid ":py:obj:`universalGas <abaqus.Model.ModelBase.ModelBase.universalGas>`\\"
+msgid ""
+":py:obj:`universalGas <abaqus.Model.ModelBase.ModelBase.universalGas>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
@@ -139,44 +148,54 @@ msgid "None or a Float specifying the universal gas constant."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
-msgid ":py:obj:`noPartsInputFile <abaqus.Model.ModelBase.ModelBase.noPartsInputFile>`\\"
+msgid ""
+":py:obj:`noPartsInputFile "
+"<abaqus.Model.ModelBase.ModelBase.noPartsInputFile>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
 msgid ""
-"A Boolean specifying whether an input file should be written without parts and "
-"assemblies."
-msgstr ""
-
-#: ../../../../None:52:<autosummary>:1
-msgid ":py:obj:`endRestartStep <abaqus.Model.ModelBase.ModelBase.endRestartStep>`\\"
+"A Boolean specifying whether an input file should be written without parts"
+" and assemblies."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
 msgid ""
-"A Boolean specifying that the step specified by **restartStep** should be terminated "
-"at the increment specified by **restartIncrement**."
-msgstr ""
-
-#: ../../../../None:52:<autosummary>:1
-msgid ":py:obj:`shellToSolid <abaqus.Model.ModelBase.ModelBase.shellToSolid>`\\"
-msgstr ""
-
-#: ../../../../None:52:<autosummary>:1
-msgid "A Boolean specifying that a shell global model drives a solid submodel."
-msgstr ""
-
-#: ../../../../None:52:<autosummary>:1
-msgid ":py:obj:`lastChangedCount <abaqus.Model.ModelBase.ModelBase.lastChangedCount>`\\"
+":py:obj:`endRestartStep "
+"<abaqus.Model.ModelBase.ModelBase.endRestartStep>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
 msgid ""
-"A Float specifying the time stamp that indicates when the model was last changed."
+"A Boolean specifying that the step specified by **restartStep** should be "
+"terminated at the increment specified by **restartIncrement**."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
-msgid ":py:obj:`description <abaqus.Model.ModelBase.ModelBase.description>`\\"
+msgid ""
+":py:obj:`shellToSolid <abaqus.Model.ModelBase.ModelBase.shellToSolid>`\\"
+msgstr ""
+
+#: ../../../../None:52:<autosummary>:1
+msgid ""
+"A Boolean specifying that a shell global model drives a solid submodel."
+msgstr ""
+
+#: ../../../../None:52:<autosummary>:1
+msgid ""
+":py:obj:`lastChangedCount "
+"<abaqus.Model.ModelBase.ModelBase.lastChangedCount>`\\"
+msgstr ""
+
+#: ../../../../None:52:<autosummary>:1
+msgid ""
+"A Float specifying the time stamp that indicates when the model was last "
+"changed."
+msgstr ""
+
+#: ../../../../None:52:<autosummary>:1
+msgid ""
+":py:obj:`description <abaqus.Model.ModelBase.ModelBase.description>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
@@ -188,15 +207,19 @@ msgid ":py:obj:`restartJob <abaqus.Model.ModelBase.ModelBase.restartJob>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
-msgid "A String specifying the name of the job that generated the restart data."
+msgid ""
+"A String specifying the name of the job that generated the restart data."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
-msgid ":py:obj:`restartStep <abaqus.Model.ModelBase.ModelBase.restartStep>`\\"
+msgid ""
+":py:obj:`restartStep <abaqus.Model.ModelBase.ModelBase.restartStep>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
-msgid "A String specifying the name of the step where the restart analysis will start."
+msgid ""
+"A String specifying the name of the step where the restart analysis will "
+"start."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
@@ -205,42 +228,49 @@ msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
 msgid ""
-"A String specifying the name of the job that generated the results for the global "
-"model."
-msgstr ""
-
-#: ../../../../None:52:<autosummary>:1
-msgid ":py:obj:`copyConstraints <abaqus.Model.ModelBase.ModelBase.copyConstraints>`\\"
+"A String specifying the name of the job that generated the results for the"
+" global model."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
 msgid ""
-"A boolean specifying the status of constraints created in a model, in the model which "
-"instances this model."
-msgstr ""
-
-#: ../../../../None:52:<autosummary>:1
-msgid ":py:obj:`copyConnectors <abaqus.Model.ModelBase.ModelBase.copyConnectors>`\\"
+":py:obj:`copyConstraints "
+"<abaqus.Model.ModelBase.ModelBase.copyConstraints>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
 msgid ""
-"A boolean specifying the status of connectors created in a model, in the model which "
-"instances this model."
-msgstr ""
-
-#: ../../../../None:52:<autosummary>:1
-msgid ":py:obj:`copyInteractions <abaqus.Model.ModelBase.ModelBase.copyInteractions>`\\"
+"A boolean specifying the status of constraints created in a model, in the "
+"model which instances this model."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
 msgid ""
-"A boolean specifying the status of interactions created in a model, in the model which"
-" instances this model."
+":py:obj:`copyConnectors "
+"<abaqus.Model.ModelBase.ModelBase.copyConnectors>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
-msgid ":py:obj:`keywordBlock <abaqus.Model.ModelBase.ModelBase.keywordBlock>`\\"
+msgid ""
+"A boolean specifying the status of connectors created in a model, in the "
+"model which instances this model."
+msgstr ""
+
+#: ../../../../None:52:<autosummary>:1
+msgid ""
+":py:obj:`copyInteractions "
+"<abaqus.Model.ModelBase.ModelBase.copyInteractions>`\\"
+msgstr ""
+
+#: ../../../../None:52:<autosummary>:1
+msgid ""
+"A boolean specifying the status of interactions created in a model, in the"
+" model which instances this model."
+msgstr ""
+
+#: ../../../../None:52:<autosummary>:1
+msgid ""
+":py:obj:`keywordBlock <abaqus.Model.ModelBase.ModelBase.keywordBlock>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
@@ -248,7 +278,8 @@ msgid "A KeywordBlock object."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
-msgid ":py:obj:`rootAssembly <abaqus.Model.ModelBase.ModelBase.rootAssembly>`\\"
+msgid ""
+":py:obj:`rootAssembly <abaqus.Model.ModelBase.ModelBase.rootAssembly>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
@@ -273,7 +304,8 @@ msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
 msgid ""
-":py:obj:`boundaryConditions <abaqus.Model.ModelBase.ModelBase.boundaryConditions>`\\"
+":py:obj:`boundaryConditions "
+"<abaqus.Model.ModelBase.ModelBase.boundaryConditions>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
@@ -281,7 +313,8 @@ msgid "A repository of BoundaryCondition objects."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
-msgid ":py:obj:`constraints <abaqus.Model.ModelBase.ModelBase.constraints>`\\"
+msgid ""
+":py:obj:`constraints <abaqus.Model.ModelBase.ModelBase.constraints>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
@@ -289,7 +322,9 @@ msgid "A repository of ConstrainedSketchConstraint objects."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
-msgid ":py:obj:`analyticalFields <abaqus.Model.ModelBase.ModelBase.analyticalFields>`\\"
+msgid ""
+":py:obj:`analyticalFields "
+"<abaqus.Model.ModelBase.ModelBase.analyticalFields>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
@@ -297,7 +332,9 @@ msgid "A repository of AnalyticalField objects."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
-msgid ":py:obj:`discreteFields <abaqus.Model.ModelBase.ModelBase.discreteFields>`\\"
+msgid ""
+":py:obj:`discreteFields "
+"<abaqus.Model.ModelBase.ModelBase.discreteFields>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
@@ -305,7 +342,9 @@ msgid "A repository of DiscreteField objects."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
-msgid ":py:obj:`predefinedFields <abaqus.Model.ModelBase.ModelBase.predefinedFields>`\\"
+msgid ""
+":py:obj:`predefinedFields "
+"<abaqus.Model.ModelBase.ModelBase.predefinedFields>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
@@ -313,7 +352,8 @@ msgid "A repository of PredefinedField objects."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
-msgid ":py:obj:`interactions <abaqus.Model.ModelBase.ModelBase.interactions>`\\"
+msgid ""
+":py:obj:`interactions <abaqus.Model.ModelBase.ModelBase.interactions>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
@@ -331,7 +371,9 @@ msgid "A repository of InteractionProperty objects."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
-msgid ":py:obj:`contactControls <abaqus.Model.ModelBase.ModelBase.contactControls>`\\"
+msgid ""
+":py:obj:`contactControls "
+"<abaqus.Model.ModelBase.ModelBase.contactControls>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
@@ -359,23 +401,27 @@ msgid "A repository of ContactStabilization objects."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
-msgid ":py:obj:`linkedInstances <abaqus.Model.ModelBase.ModelBase.linkedInstances>`\\"
+msgid ""
+":py:obj:`linkedInstances "
+"<abaqus.Model.ModelBase.ModelBase.linkedInstances>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
 msgid ""
-"A tuple of tuples of Strings specifying the linked child PartInstance name in the "
-"current model to the corresponding parent PartInstance name in a different model."
-msgstr ""
-
-#: ../../../../None:52:<autosummary>:1
-msgid ":py:obj:`linkedParts <abaqus.Model.ModelBase.ModelBase.linkedParts>`\\"
+"A tuple of tuples of Strings specifying the linked child PartInstance name"
+" in the current model to the corresponding parent PartInstance name in a "
+"different model."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
 msgid ""
-"A tuple of tuples of Strings specifying the linked child Part name in the current "
-"model to the corresponding parent Part name in a different model."
+":py:obj:`linkedParts <abaqus.Model.ModelBase.ModelBase.linkedParts>`\\"
+msgstr ""
+
+#: ../../../../None:52:<autosummary>:1
+msgid ""
+"A tuple of tuples of Strings specifying the linked child Part name in the "
+"current model to the corresponding parent Part name in a different model."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
@@ -395,7 +441,8 @@ msgid "A repository of Material objects."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
-msgid ":py:obj:`calibrations <abaqus.Model.ModelBase.ModelBase.calibrations>`\\"
+msgid ""
+":py:obj:`calibrations <abaqus.Model.ModelBase.ModelBase.calibrations>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
@@ -411,7 +458,9 @@ msgid "A repository of Section objects."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
-msgid ":py:obj:`remeshingRules <abaqus.Model.ModelBase.ModelBase.remeshingRules>`\\"
+msgid ""
+":py:obj:`remeshingRules "
+"<abaqus.Model.ModelBase.ModelBase.remeshingRules>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
@@ -443,7 +492,9 @@ msgid "A repository of Step objects."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
-msgid ":py:obj:`featureOptions <abaqus.Model.ModelBase.ModelBase.featureOptions>`\\"
+msgid ""
+":py:obj:`featureOptions "
+"<abaqus.Model.ModelBase.ModelBase.featureOptions>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
@@ -498,7 +549,8 @@ msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
 msgid ""
-":py:obj:`fieldOutputRequests <abaqus.Model.ModelBase.ModelBase.fieldOutputRequests>`\\"
+":py:obj:`fieldOutputRequests "
+"<abaqus.Model.ModelBase.ModelBase.fieldOutputRequests>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
@@ -517,7 +569,8 @@ msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
 msgid ""
-":py:obj:`optimizationTasks <abaqus.Model.ModelBase.ModelBase.optimizationTasks>`\\"
+":py:obj:`optimizationTasks "
+"<abaqus.Model.ModelBase.ModelBase.optimizationTasks>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
@@ -525,13 +578,15 @@ msgid "A repository of OptimizationTask objects."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
-msgid ":py:obj:`restartIncrement <abaqus.Model.ModelBase.ModelBase.restartIncrement>`\\"
+msgid ""
+":py:obj:`restartIncrement "
+"<abaqus.Model.ModelBase.ModelBase.restartIncrement>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
 msgid ""
-"An Int specifying the increment, interval, iteration or cycle where the restart "
-"analysis will start."
+"An Int specifying the increment, interval, iteration or cycle where the "
+"restart analysis will start."
 msgstr ""
 
 #: abaqus.Filter.FilterModel.FilterModel abaqus.Filter.FilterOdb.FilterOdb of
@@ -553,8 +608,9 @@ msgstr ""
 
 #: ../../../../None:6:<autosummary>:1
 msgid ""
-":py:obj:`Chebyshev1Filter <abaqus.Filter.FilterModel.FilterModel.Chebyshev1Filter>`\\ "
-"\\(name\\, cutoffFrequency\\[\\, ...\\]\\)"
+":py:obj:`Chebyshev1Filter "
+"<abaqus.Filter.FilterModel.FilterModel.Chebyshev1Filter>`\\ \\(name\\, "
+"cutoffFrequency\\[\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../../None:6:<autosummary>:1
@@ -565,8 +621,9 @@ msgstr ""
 
 #: ../../../../None:6:<autosummary>:1
 msgid ""
-":py:obj:`Chebyshev2Filter <abaqus.Filter.FilterModel.FilterModel.Chebyshev2Filter>`\\ "
-"\\(name\\, cutoffFrequency\\[\\, ...\\]\\)"
+":py:obj:`Chebyshev2Filter "
+"<abaqus.Filter.FilterModel.FilterModel.Chebyshev2Filter>`\\ \\(name\\, "
+"cutoffFrequency\\[\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../../None:6:<autosummary>:1
@@ -577,8 +634,9 @@ msgstr ""
 
 #: ../../../../None:6:<autosummary>:1
 msgid ""
-":py:obj:`OperatorFilter <abaqus.Filter.FilterModel.FilterModel.OperatorFilter>`\\ "
-"\\(name\\, cutoffFrequency\\[\\, ...\\]\\)"
+":py:obj:`OperatorFilter "
+"<abaqus.Filter.FilterModel.FilterModel.OperatorFilter>`\\ \\(name\\, "
+"cutoffFrequency\\[\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../../None:6:<autosummary>:1
@@ -589,8 +647,8 @@ msgstr ""
 
 #: ../../../../None:7:<autosummary>:1
 msgid ""
-":py:obj:`__init__ <abaqus.Model.ModelBase.ModelBase.__init__>`\\ \\(name\\[\\, "
-"description\\, ...\\]\\)"
+":py:obj:`__init__ <abaqus.Model.ModelBase.ModelBase.__init__>`\\ "
+"\\(name\\[\\, description\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../../None:7:<autosummary>:1
@@ -599,39 +657,42 @@ msgstr ""
 
 #: ../../../../None:7:<autosummary>:1
 msgid ""
-":py:obj:`ModelFromInputFile <abaqus.Model.ModelBase.ModelBase.ModelFromInputFile>`\\ "
-"\\(name\\, inputFileName\\)"
-msgstr ""
-
-#: ../../../../None:7:<autosummary>:1
-msgid ""
-"This method creates a Model object by reading the keywords in an input file and "
-"creating the corresponding Abaqus/CAE objects."
-msgstr ""
-
-#: ../../../../None:7:<autosummary>:1
-msgid ""
-":py:obj:`ModelFromOdbFile <abaqus.Model.ModelBase.ModelBase.ModelFromOdbFile>`\\ "
-"\\(name\\, odbFileName\\)"
-msgstr ""
-
-#: ../../../../None:7:<autosummary>:1
-msgid ""
-"This method creates a Model object by reading an output database and creating any "
-"corresponding Abaqus/CAE objects."
-msgstr ""
-
-#: ../../../../None:7:<autosummary>:1
-msgid ""
-":py:obj:`ModelFromNastranFile "
-"<abaqus.Model.ModelBase.ModelBase.ModelFromNastranFile>`\\ \\(modelName\\, "
+":py:obj:`ModelFromInputFile "
+"<abaqus.Model.ModelBase.ModelBase.ModelFromInputFile>`\\ \\(name\\, "
 "inputFileName\\)"
 msgstr ""
 
 #: ../../../../None:7:<autosummary>:1
 msgid ""
-"This method creates a Model object by reading the keywords in a Nastran bulk data file"
-" or Nastran input file and creating any corresponding Abaqus/CAE objects."
+"This method creates a Model object by reading the keywords in an input "
+"file and creating the corresponding Abaqus/CAE objects."
+msgstr ""
+
+#: ../../../../None:7:<autosummary>:1
+msgid ""
+":py:obj:`ModelFromOdbFile "
+"<abaqus.Model.ModelBase.ModelBase.ModelFromOdbFile>`\\ \\(name\\, "
+"odbFileName\\)"
+msgstr ""
+
+#: ../../../../None:7:<autosummary>:1
+msgid ""
+"This method creates a Model object by reading an output database and "
+"creating any corresponding Abaqus/CAE objects."
+msgstr ""
+
+#: ../../../../None:7:<autosummary>:1
+msgid ""
+":py:obj:`ModelFromNastranFile "
+"<abaqus.Model.ModelBase.ModelBase.ModelFromNastranFile>`\\ \\(modelName\\,"
+" inputFileName\\)"
+msgstr ""
+
+#: ../../../../None:7:<autosummary>:1
+msgid ""
+"This method creates a Model object by reading the keywords in a Nastran "
+"bulk data file or Nastran input file and creating any corresponding "
+"Abaqus/CAE objects."
 msgstr ""
 
 #: ../../../../None:7:<autosummary>:1
@@ -668,8 +729,8 @@ msgstr ""
 #: abaqus.Filter.FilterModel.FilterModel.ButterworthFilter:10
 #: abaqus.Filter.FilterOdb.FilterOdb.ButterworthFilter:10 of
 msgid ""
-"Check `ButterworthFilter on help.3ds.com/2018 "
-"<https://help.3ds.com/2018/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"Check `ButterworthFilter on help.3ds.com/2018 <https://help.3ds.com/2018/E"
+"nglish/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "butterworthfilterpyc.htm?contextscope=all>`__."
 msgstr ""
 
@@ -699,8 +760,8 @@ msgstr ""
 #: abaqus.Filter.FilterOdb.FilterOdb.OperatorFilter:13
 #: abaqus.Filter.OperatorFilter.Filter.name:1 of
 msgid ""
-"A String specifying the repository key. This name ANTIALIASING is reserved for filters"
-" generated internally by the program."
+"A String specifying the repository key. This name ANTIALIASING is reserved"
+" for filters generated internally by the program."
 msgstr ""
 
 #: ../../../../docstring
@@ -714,8 +775,8 @@ msgstr ""
 #: abaqus.Filter.FilterOdb.FilterOdb.OperatorFilter:16
 #: abaqus.Filter.OperatorFilter.Filter.cutoffFrequency:1 of
 msgid ""
-"A Float specifying the attenuation point of the filter. Possible values are non-"
-"negative numbers. Order is not available for OperatorFilter."
+"A Float specifying the attenuation point of the filter. Possible values "
+"are non-negative numbers. Order is not available for OperatorFilter."
 msgstr ""
 
 #: ../../../../docstring
@@ -737,9 +798,9 @@ msgstr ""
 #: abaqus.Filter.OperatorFilter.OperatorFilter.order:1
 #: abaqus.Filter.OperatorFilter.OperatorFilter.setValues:7 of
 msgid ""
-"An Int specifying the highest power of the filter transfer function. Possible values "
-"are non-negative numbers less than or equal to 20. Order is not available for "
-"OperatorFilter. The default value is 2."
+"An Int specifying the highest power of the filter transfer function. "
+"Possible values are non-negative numbers less than or equal to 20. Order "
+"is not available for OperatorFilter. The default value is 2."
 msgstr ""
 
 #: ../../../../docstring
@@ -761,8 +822,8 @@ msgstr ""
 #: abaqus.Filter.OperatorFilter.OperatorFilter.operation:1
 #: abaqus.Filter.OperatorFilter.OperatorFilter.setValues:11 of
 msgid ""
-"A SymbolicConstant specifying the filter operator. Possible values are NONE, MIN, MAX,"
-" and ABS. The default value is NONE."
+"A SymbolicConstant specifying the filter operator. Possible values are "
+"NONE, MIN, MAX, and ABS. The default value is NONE."
 msgstr ""
 
 #: ../../../../docstring
@@ -784,8 +845,8 @@ msgstr ""
 #: abaqus.Filter.OperatorFilter.OperatorFilter.halt:1
 #: abaqus.Filter.OperatorFilter.OperatorFilter.setValues:14 of
 msgid ""
-"A Boolean specifying whether to stop the analysis if the specified limit is reached. "
-"The default value is OFF."
+"A Boolean specifying whether to stop the analysis if the specified limit "
+"is reached. The default value is OFF."
 msgstr ""
 
 #: ../../../../docstring
@@ -807,9 +868,9 @@ msgstr ""
 #: abaqus.Filter.OperatorFilter.OperatorFilter.limit:1
 #: abaqus.Filter.OperatorFilter.OperatorFilter.setValues:17 of
 msgid ""
-"None or a Float specifying the threshold limit, an upper or lower bound for output "
-"values depending on the operation, or a bound for stopping the analysis when Halt is "
-"used. The default value is None."
+"None or a Float specifying the threshold limit, an upper or lower bound "
+"for output values depending on the operation, or a bound for stopping the "
+"analysis when Halt is used. The default value is None."
 msgstr ""
 
 #: ../../../../docstring
@@ -831,8 +892,8 @@ msgstr ""
 #: abaqus.Filter.OperatorFilter.OperatorFilter.invariant:1
 #: abaqus.Filter.OperatorFilter.OperatorFilter.setValues:21 of
 msgid ""
-"A SymbolicConstant specifying the invariant to which filtering is applied. Possible "
-"values are NONE, FIRST, and SECOND. The default value is NONE."
+"A SymbolicConstant specifying the invariant to which filtering is applied."
+" Possible values are NONE, FIRST, and SECOND. The default value is NONE."
 msgstr ""
 
 #: abaqus.Filter.FilterModel.FilterModel.ButterworthFilter
@@ -886,8 +947,8 @@ msgstr ""
 #: abaqus.Filter.FilterModel.FilterModel.Chebyshev1Filter:10
 #: abaqus.Filter.FilterOdb.FilterOdb.Chebyshev1Filter:10 of
 msgid ""
-"Check `Chebyshev1Filter on help.3ds.com/2018 "
-"<https://help.3ds.com/2018/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"Check `Chebyshev1Filter on help.3ds.com/2018 <https://help.3ds.com/2018/En"
+"glish/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "chebyshev1filterpyc.htm?contextscope=all>`__."
 msgstr ""
 
@@ -897,8 +958,8 @@ msgstr ""
 #: abaqus.Filter.FilterOdb.Chebyshev1Filter.rippleFactor:1
 #: abaqus.Filter.FilterOdb.FilterOdb.Chebyshev1Filter:19 of
 msgid ""
-"A Float specifying the amount of allowable ripple in the filter. Possible values are "
-"non-negative numbers. The default value is 0.225."
+"A Float specifying the amount of allowable ripple in the filter. Possible "
+"values are non-negative numbers. The default value is 0.225."
 msgstr ""
 
 #: abaqus.Filter.FilterModel.FilterModel.Chebyshev1Filter:39
@@ -915,8 +976,8 @@ msgstr ""
 #: abaqus.Filter.FilterModel.FilterModel.Chebyshev2Filter:10
 #: abaqus.Filter.FilterOdb.FilterOdb.Chebyshev2Filter:10 of
 msgid ""
-"Check `Chebyshev2Filter on help.3ds.com/2018 "
-"<https://help.3ds.com/2018/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"Check `Chebyshev2Filter on help.3ds.com/2018 <https://help.3ds.com/2018/En"
+"glish/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "chebyshev2filterpyc.htm?contextscope=all>`__."
 msgstr ""
 
@@ -926,8 +987,8 @@ msgstr ""
 #: abaqus.Filter.FilterOdb.Chebyshev2Filter.rippleFactor:1
 #: abaqus.Filter.FilterOdb.FilterOdb.Chebyshev2Filter:19 of
 msgid ""
-"A Float specifying the amount of allowable ripple in the filter. Possible values are "
-"non-negative numbers less than 1. The default value is 0.025."
+"A Float specifying the amount of allowable ripple in the filter. Possible "
+"values are non-negative numbers less than 1. The default value is 0.025."
 msgstr ""
 
 #: abaqus.Filter.FilterModel.FilterModel.Chebyshev2Filter:39
@@ -944,8 +1005,8 @@ msgstr ""
 #: abaqus.Filter.FilterOdb.FilterOdb.OperatorFilter:10
 #: abaqus.Filter.OperatorFilter.OperatorFilter:17 of
 msgid ""
-"Check `OperatorFilter on help.3ds.com/2018 "
-"<https://help.3ds.com/2018/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"Check `OperatorFilter on help.3ds.com/2018 <https://help.3ds.com/2018/Engl"
+"ish/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "operatorfilterpyc.htm?contextscope=all>`__."
 msgstr ""
 
@@ -968,13 +1029,15 @@ msgid "Bases: :py:class:`~abaqus.Odb.OdbBase.OdbBase`"
 msgstr ""
 
 #: abaqus.Filter.FilterOdb.FilterOdb:1 of
-msgid "The Odb object is the in-memory representation of an output database (ODB) file."
+msgid ""
+"The Odb object is the in-memory representation of an output database (ODB)"
+" file."
 msgstr ""
 
 #: abaqus.Filter.FilterOdb.FilterOdb:10 of
 msgid ""
-"Check `FilterOdb on help.3ds.com/2018 "
-"<https://help.3ds.com/2018/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"Check `FilterOdb on help.3ds.com/2018 <https://help.3ds.com/2018/English/D"
+"SSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "odbpyc.htm?contextscope=all>`__."
 msgstr ""
 
@@ -984,7 +1047,8 @@ msgstr ""
 
 #: ../../../../None:16:<autosummary>:1
 msgid ""
-"A Boolean specifying whether the output database was opened with read-only access."
+"A Boolean specifying whether the output database was opened with read-only"
+" access."
 msgstr ""
 
 #: ../../../../None:16:<autosummary>:1
@@ -1036,7 +1100,9 @@ msgid ":py:obj:`sections <abaqus.Odb.OdbBase.OdbBase.sections>`\\"
 msgstr ""
 
 #: ../../../../None:16:<autosummary>:1
-msgid ":py:obj:`sectionCategories <abaqus.Odb.OdbBase.OdbBase.sectionCategories>`\\"
+msgid ""
+":py:obj:`sectionCategories "
+"<abaqus.Odb.OdbBase.OdbBase.sectionCategories>`\\"
 msgstr ""
 
 #: ../../../../None:16:<autosummary>:1
@@ -1044,7 +1110,8 @@ msgid "A repository of SectionCategory objects."
 msgstr ""
 
 #: ../../../../None:16:<autosummary>:1
-msgid ":py:obj:`sectorDefinition <abaqus.Odb.OdbBase.OdbBase.sectorDefinition>`\\"
+msgid ""
+":py:obj:`sectorDefinition <abaqus.Odb.OdbBase.OdbBase.sectorDefinition>`\\"
 msgstr ""
 
 #: ../../../../None:16:<autosummary>:1
@@ -1073,26 +1140,30 @@ msgstr ""
 
 #: ../../../../None:6:<autosummary>:1
 msgid ""
-":py:obj:`ButterworthFilter <abaqus.Filter.FilterOdb.FilterOdb.ButterworthFilter>`\\ "
-"\\(name\\, cutoffFrequency\\[\\, ...\\]\\)"
+":py:obj:`ButterworthFilter "
+"<abaqus.Filter.FilterOdb.FilterOdb.ButterworthFilter>`\\ \\(name\\, "
+"cutoffFrequency\\[\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../../None:6:<autosummary>:1
 msgid ""
-":py:obj:`Chebyshev1Filter <abaqus.Filter.FilterOdb.FilterOdb.Chebyshev1Filter>`\\ "
-"\\(name\\, cutoffFrequency\\[\\, ...\\]\\)"
+":py:obj:`Chebyshev1Filter "
+"<abaqus.Filter.FilterOdb.FilterOdb.Chebyshev1Filter>`\\ \\(name\\, "
+"cutoffFrequency\\[\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../../None:6:<autosummary>:1
 msgid ""
-":py:obj:`Chebyshev2Filter <abaqus.Filter.FilterOdb.FilterOdb.Chebyshev2Filter>`\\ "
-"\\(name\\, cutoffFrequency\\[\\, ...\\]\\)"
+":py:obj:`Chebyshev2Filter "
+"<abaqus.Filter.FilterOdb.FilterOdb.Chebyshev2Filter>`\\ \\(name\\, "
+"cutoffFrequency\\[\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../../None:6:<autosummary>:1
 msgid ""
-":py:obj:`OperatorFilter <abaqus.Filter.FilterOdb.FilterOdb.OperatorFilter>`\\ "
-"\\(name\\, cutoffFrequency\\[\\, ...\\]\\)"
+":py:obj:`OperatorFilter "
+"<abaqus.Filter.FilterOdb.FilterOdb.OperatorFilter>`\\ \\(name\\, "
+"cutoffFrequency\\[\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../../None:7:<autosummary>:1
@@ -1115,12 +1186,13 @@ msgstr ""
 
 #: ../../../../None:7:<autosummary>:1
 msgid ""
-":py:obj:`getFrame <abaqus.Odb.OdbBase.OdbBase.getFrame>`\\ \\(frameValue\\[\\, "
-"match\\]\\)"
+":py:obj:`getFrame <abaqus.Odb.OdbBase.OdbBase.getFrame>`\\ "
+"\\(frameValue\\[\\, match\\]\\)"
 msgstr ""
 
 #: ../../../../None:7:<autosummary>:1
-msgid "This method returns the frame at the specified time, frequency, or mode."
+msgid ""
+"This method returns the frame at the specified time, frequency, or mode."
 msgstr ""
 
 #: ../../../../None:7:<autosummary>:1
@@ -1137,8 +1209,8 @@ msgstr ""
 
 #: ../../../../None:7:<autosummary>:1
 msgid ""
-"This method is used to update an Odb object in memory while an Abaqus analysis writes "
-"data to the associated output database."
+"This method is used to update an Odb object in memory while an Abaqus "
+"analysis writes data to the associated output database."
 msgstr ""
 
 #: ../../../reference/mdb/model/filter.md:28
@@ -1154,8 +1226,8 @@ msgstr ""
 
 #: abaqus.Filter.ButterworthFilter.ButterworthFilter:1 of
 msgid ""
-"The ButterworthFilter object defines a Butterworth type filter. The ButterworthFilter "
-"object is derived from the Filter object."
+"The ButterworthFilter object defines a Butterworth type filter. The "
+"ButterworthFilter object is derived from the Filter object."
 msgstr ""
 
 #: abaqus.Filter.ButterworthFilter.ButterworthFilter:12
@@ -1178,9 +1250,10 @@ msgstr ""
 
 #: abaqus.Filter.ButterworthFilter.ButterworthFilter.setValues:4 of
 msgid ""
-"Check `ButterworthFilter.setValues on help.3ds.com/2018 "
-"<https://help.3ds.com/2018/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
-"butterworthfilterpyc.htm?contextscope=all#simaker-butterworthfiltersetvaluespyc>`__."
+"Check `ButterworthFilter.setValues on help.3ds.com/2018 <https://help.3ds."
+"com/2018/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"butterworthfilterpyc.htm?contextscope=all#simaker-"
+"butterworthfiltersetvaluespyc>`__."
 msgstr ""
 
 #: abaqus.Filter.Filter.Filter:1 of
@@ -1189,22 +1262,22 @@ msgstr ""
 
 #: abaqus.Filter.Filter.Filter:1 of
 msgid ""
-"The Filter object is the abstract base type for other Filter objects. The Filter "
-"object has no explicit constructor. The methods and members of the Filter object are "
-"common to all objects derived from the Filter."
+"The Filter object is the abstract base type for other Filter objects. The "
+"Filter object has no explicit constructor. The methods and members of the "
+"Filter object are common to all objects derived from the Filter."
 msgstr ""
 
 #: abaqus.Filter.Filter.Filter:13 of
 msgid ""
-"Check `Filter on help.3ds.com/2018 "
-"<https://help.3ds.com/2018/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"Check `Filter on help.3ds.com/2018 <https://help.3ds.com/2018/English/DSSI"
+"MULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "filterpyc.htm?contextscope=all>`__."
 msgstr ""
 
 #: abaqus.Filter.Chebyshev1Filter.Chebyshev1Filter:1 of
 msgid ""
-"The Chebyshev1Filter object defines a Chebyshev type 1 filter. The Chebyshev1Filter "
-"object is derived from the Filter object."
+"The Chebyshev1Filter object defines a Chebyshev type 1 filter. The "
+"Chebyshev1Filter object is derived from the Filter object."
 msgstr ""
 
 #: abaqus.Filter.Chebyshev1Filter.Chebyshev1Filter.setValues:1 of
@@ -1213,15 +1286,16 @@ msgstr ""
 
 #: abaqus.Filter.Chebyshev1Filter.Chebyshev1Filter.setValues:4 of
 msgid ""
-"Check `Chebyshev1Filter.setValues on help.3ds.com/2018 "
-"<https://help.3ds.com/2018/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
-"chebyshev1filterpyc.htm?contextscope=all#simaker-chebyshev1filtersetvaluespyc>`__."
+"Check `Chebyshev1Filter.setValues on help.3ds.com/2018 <https://help.3ds.c"
+"om/2018/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"chebyshev1filterpyc.htm?contextscope=all#simaker-"
+"chebyshev1filtersetvaluespyc>`__."
 msgstr ""
 
 #: abaqus.Filter.Chebyshev2Filter.Chebyshev2Filter:1 of
 msgid ""
-"The Chebyshev2Filter object defines a Chebyshev type 2 filter. The Chebyshev2Filter "
-"object is derived from the Filter object."
+"The Chebyshev2Filter object defines a Chebyshev type 2 filter. The "
+"Chebyshev2Filter object is derived from the Filter object."
 msgstr ""
 
 #: abaqus.Filter.Chebyshev2Filter.Chebyshev2Filter.setValues:1 of
@@ -1230,15 +1304,16 @@ msgstr ""
 
 #: abaqus.Filter.Chebyshev2Filter.Chebyshev2Filter.setValues:4 of
 msgid ""
-"Check `Chebyshev2Filter.setValues on help.3ds.com/2018 "
-"<https://help.3ds.com/2018/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
-"chebyshev2filterpyc.htm?contextscope=all#simaker-chebyshev2filtersetvaluespyc>`__."
+"Check `Chebyshev2Filter.setValues on help.3ds.com/2018 <https://help.3ds.c"
+"om/2018/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"chebyshev2filterpyc.htm?contextscope=all#simaker-"
+"chebyshev2filtersetvaluespyc>`__."
 msgstr ""
 
 #: abaqus.Filter.OperatorFilter.OperatorFilter:1 of
 msgid ""
-"The OperatorFilter object defines an operator filter. The OperatorFilter object is "
-"derived from the Filter object."
+"The OperatorFilter object defines an operator filter. The OperatorFilter "
+"object is derived from the Filter object."
 msgstr ""
 
 #: abaqus.Filter.OperatorFilter.OperatorFilter.setValues:1 of
@@ -1247,9 +1322,10 @@ msgstr ""
 
 #: abaqus.Filter.OperatorFilter.OperatorFilter.setValues:4 of
 msgid ""
-"Check `OperatorFilter.setValues on help.3ds.com/2018 "
-"<https://help.3ds.com/2018/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
-"operatorfilterpyc.htm?contextscope=all#simaker-operatorfiltersetvaluespyc>`__."
+"Check `OperatorFilter.setValues on help.3ds.com/2018 <https://help.3ds.com"
+"/2018/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"operatorfilterpyc.htm?contextscope=all#simaker-"
+"operatorfiltersetvaluespyc>`__."
 msgstr ""
 
 #~ msgid "Bases: :py:class:`~abaqus.Model.ModelBase.ModelBase`"
