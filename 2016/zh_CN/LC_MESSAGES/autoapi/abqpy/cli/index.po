@@ -1,23 +1,25 @@
-
 msgid ""
 msgstr ""
-"Project-Id-Version:  abqpy-locale\n"
+"Project-Id-Version: abqpy-locale\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-14 01:53+0000\n"
-"PO-Revision-Date: 2023-09-14 10:43+0000\n"
+"PO-Revision-Date: 2024-07-14 06:36\n"
 "Last-Translator: \n"
-"Language: zh_CN\n"
 "Language-Team: Chinese Simplified\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.15.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: abqpy-locale\n"
+"X-Crowdin-Project-ID: 587413\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /main/2016/pot/autoapi/abqpy/cli/index.pot\n"
+"X-Crowdin-File-ID: 3277\n"
+"Language: zh_CN\n"
 
 #: ../../../autoapi/abqpy/cli/index.rst:2
-#, fuzzy
 msgid "abqpy.cli"
-msgstr ":py:mod:`abqpy.cli`"
+msgstr ""
 
 #: ../../../autoapi/abqpy/cli/index.rst:8
 msgid "Attributes"
@@ -53,7 +55,7 @@ msgstr "abqpy 命令行接口。"
 msgid "Module Contents"
 msgstr "模块内容"
 
-#: ../../../autoapi/abqpy/cli/index.rst
+#: ../../../autoapi/abqpy/cli/index.rst:0
 msgid "Public Methods:"
 msgstr "公开方法："
 
@@ -61,7 +63,8 @@ msgstr "公开方法："
 msgid ":py:obj:`run <abqpy.cli.AbqpyCLIBase.run>`\\ \\(cmd\\)"
 msgstr ":py:obj:`run <abqpy.cli.AbqpyCLIBase.run>`\\ \\(cmd\\)"
 
-#: ../../../../None:4:<autosummary>:1 ../../../autoapi/abqpy/cli/index.rst:45
+#: ../../../autoapi/abqpy/cli/index.rst:45
+#: ../../../../None:4:<autosummary>:1
 msgid "Run custom command."
 msgstr "运行自定义命令。"
 
@@ -71,7 +74,8 @@ msgid ""
 msgstr ""
 ":py:obj:`abaqus <abqpy.cli.AbqpyCLIBase.abaqus>`\\ \\(\\*args\\, \\*\\*options\\)"
 
-#: ../../../../None:4:<autosummary>:1 ../../../autoapi/abqpy/cli/index.rst:50
+#: ../../../autoapi/abqpy/cli/index.rst:50
+#: ../../../../None:4:<autosummary>:1
 msgid ""
 "Run custom Abaqus command: ``abaqus {args} {options}``, arguments are separated by "
 "space, options are handled by the :meth:`._parse_options` method."
@@ -79,7 +83,7 @@ msgstr ""
 "运行自定义 Abaqus 命令:：``abaqus {args} {options}``，参数以空格分隔，选项由 "
 ":meth:`._parse_options` 方法处理。"
 
-#: ../../../autoapi/abqpy/cli/index.rst
+#: ../../../autoapi/abqpy/cli/index.rst:0
 msgid "Private Methods:"
 msgstr "私有方法："
 
@@ -89,7 +93,8 @@ msgid ""
 msgstr ""
 ":py:obj:`_parse_options <abqpy.cli.AbqpyCLIBase._parse_options>`\\ \\(\\*\\*options\\)"
 
-#: ../../../../None:3:<autosummary>:1 ../../../autoapi/abqpy/cli/index.rst:36
+#: ../../../autoapi/abqpy/cli/index.rst:36
+#: ../../../../None:3:<autosummary>:1
 msgid "Parse options to be passed to Abaqus/CAE command line interface."
 msgstr "传递给 Abaqus/CAE 命令行选项。"
 
@@ -102,7 +107,7 @@ msgstr ""
 "如果该值是一个字符串或一个整数，则该选项将传递为 ``option=value`` ； 如果值为布尔值，则如果为 "
 "True 则传入选项名，如果为 False 则忽略； 如果值为无 None，则选项将被忽略。"
 
-#: ../../../autoapi/abqpy/cli/index.rst
+#: ../../../autoapi/abqpy/cli/index.rst:0
 msgid "Parameters"
 msgstr "参数"
 
@@ -115,7 +120,7 @@ msgstr "传递给 Abaqus 命令的参数和选项。"
 msgid "Bases: :py:obj:`AbqpyCLIBase`"
 msgstr "Bases: :py:obj:`AbqpyCLIBase`"
 
-#: ../../../autoapi/abqpy/cli/index.rst
+#: ../../../autoapi/abqpy/cli/index.rst:0
 msgid "Public Data Attributes:"
 msgstr "公共属性："
 
@@ -123,7 +128,8 @@ msgstr "公共属性："
 msgid ":py:obj:`misc <abqpy.cli.AbqpyCLI.misc>`\\"
 msgstr ":py:obj:`misc <abqpy.cli.AbqpyCLI.misc>`\\"
 
-#: ../../../../None:3:<autosummary>:1 ../../../autoapi/abqpy/cli/index.rst:70
+#: ../../../autoapi/abqpy/cli/index.rst:70
+#: ../../../../None:3:<autosummary>:1
 msgid "Miscellaneous commands for backward compatibility."
 msgstr "为向后兼容性的杂项命令。"
 
@@ -135,7 +141,8 @@ msgstr ""
 ":py:obj:`cae <abqpy.cli.AbqpyCLI.cae>`\\ \\(script\\, \\*args\\[\\, database\\, "
 "replay\\, ...\\]\\)"
 
-#: ../../../../None:51:<autosummary>:1 ../../../autoapi/abqpy/cli/index.rst:76
+#: ../../../autoapi/abqpy/cli/index.rst:76
+#: ../../../../None:51:<autosummary>:1
 msgid "Run Abaqus/CAE command."
 msgstr "运行 Abaqus/CAE 命令。"
 
@@ -148,16 +155,13 @@ msgstr ""
 "replay\\, ...\\]\\)"
 
 #: ../../../../None:51:<autosummary>:1
-#, fuzzy
 msgid ":py:obj:`pde <abqpy.cli.AbqpyCLI.pde>`\\ \\(\\*scripts\\[\\, script\\]\\)"
 msgstr ""
-":py:obj:`upgrade <abqpy.cli.AbqpyCLI.upgrade>`\\ \\(\\*args\\, "
-"\\*\\*options\\)"
 
-#: ../../../../None:51:<autosummary>:1 ../../../autoapi/abqpy/cli/index.rst:111
-#, fuzzy
+#: ../../../autoapi/abqpy/cli/index.rst:111
+#: ../../../../None:51:<autosummary>:1
 msgid "Run Abaqus/PDE command."
-msgstr "运行 Abaqus/CAE 命令。"
+msgstr ""
 
 #: ../../../../None:51:<autosummary>:1
 msgid ""
@@ -167,7 +171,8 @@ msgstr ""
 ":py:obj:`python <abqpy.cli.AbqpyCLI.python>`\\ \\(script\\, \\*args\\[\\, sim\\, "
 "log\\]\\)"
 
-#: ../../../../None:51:<autosummary>:1 ../../../autoapi/abqpy/cli/index.rst:122
+#: ../../../autoapi/abqpy/cli/index.rst:122
+#: ../../../../None:51:<autosummary>:1
 msgid "Run Abaqus/Python command."
 msgstr "运行 Abaqus/Python 命令。"
 
@@ -179,7 +184,8 @@ msgstr ""
 ":py:obj:`optimization <abqpy.cli.AbqpyCLI.optimization>`\\ \\(task\\, job\\, \\*\\[\\,"
 " cpus\\, gpus\\, ...\\]\\)"
 
-#: ../../../../None:51:<autosummary>:1 ../../../autoapi/abqpy/cli/index.rst:136
+#: ../../../autoapi/abqpy/cli/index.rst:136
+#: ../../../../None:51:<autosummary>:1
 msgid "Run Abaqus optimization command."
 msgstr "运行 Abaqus 优化命令。"
 
@@ -456,9 +462,8 @@ msgid "The name of the journal file to open, by default None"
 msgstr "要打开的 journal 文件名称，默认不打开"
 
 #: ../../../autoapi/abqpy/cli/index.rst:88
-#, fuzzy
 msgid "The name of the startup file to open, by default None"
-msgstr "要打开的 reply 文件名称，默认不打开"
+msgstr ""
 
 #: ../../../autoapi/abqpy/cli/index.rst:90
 msgid ""
@@ -506,9 +511,8 @@ msgid "Script to be opened at startup in Abaqus/PDE, by default None"
 msgstr ""
 
 #: ../../../autoapi/abqpy/cli/index.rst:117
-#, fuzzy
 msgid "Abaqus/CAE command line arguments"
-msgstr "运行 Abaqus/CAE 命令。"
+msgstr ""
 
 #: ../../../autoapi/abqpy/cli/index.rst:128
 msgid "The name of the simulation file to open, by default None"

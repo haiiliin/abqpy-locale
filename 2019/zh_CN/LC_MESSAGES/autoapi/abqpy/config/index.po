@@ -1,23 +1,21 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, WANG Hailin
-# This file is distributed under the same license as the abqpy package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
-#
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: abqpy 2019\n"
+"Project-Id-Version: abqpy-locale\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-14 01:53+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: zh_CN\n"
-"Language-Team: zh_CN <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"PO-Revision-Date: 2024-07-14 06:38\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.15.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: abqpy-locale\n"
+"X-Crowdin-Project-ID: 587413\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /main/2019/pot/autoapi/abqpy/config/index.pot\n"
+"X-Crowdin-File-ID: 3620\n"
+"Language: zh_CN\n"
 
 #: ../../../autoapi/abqpy/config/index.rst:2
 msgid "abqpy.config"
@@ -25,7 +23,7 @@ msgstr ""
 
 #: ../../../autoapi/abqpy/config/index.rst:8
 msgid "Attributes"
-msgstr ""
+msgstr "属性"
 
 #: ../../../autoapi/abqpy/config/index.rst:17:<autosummary>:1
 msgid ":py:obj:`defaults <abqpy.config.defaults>`\\"
@@ -45,7 +43,7 @@ msgstr ""
 
 #: ../../../autoapi/abqpy/config/index.rst:19
 msgid "Classes"
-msgstr ""
+msgstr "类"
 
 #: ../../../autoapi/abqpy/config/index.rst:29:<autosummary>:1
 msgid ":py:obj:`CompatibleBaseModel <abqpy.config.CompatibleBaseModel>`\\"
@@ -78,7 +76,7 @@ msgstr ""
 
 #: ../../../autoapi/abqpy/config/index.rst:31
 msgid "Module Contents"
-msgstr ""
+msgstr "模块内容"
 
 #: ../../../autoapi/abqpy/config/index.rst:35
 msgid "Bases: :py:obj:`pydantic.BaseModel`"
@@ -228,16 +226,18 @@ msgid ""
 "Instance attribute with the values of private attributes set on the model instance."
 msgstr ""
 
-#: ../../../autoapi/abqpy/config/index.rst
+#: ../../../autoapi/abqpy/config/index.rst:0
 msgid "Public Data Attributes:"
-msgstr ""
+msgstr "公共属性："
 
 #: ../../../../None:5:<autosummary>:1
 msgid ":py:obj:`model_config <abqpy.config.CompatibleBaseModel.model_config>`\\"
 msgstr ""
 
-#: ../../../../None:11:<autosummary>:1 ../../../../None:17:<autosummary>:1
-#: ../../../../None:5:<autosummary>:1 ../../../../None:7:<autosummary>:1
+#: ../../../../None:11:<autosummary>:1
+#: ../../../../None:17:<autosummary>:1
+#: ../../../../None:5:<autosummary>:1
+#: ../../../../None:7:<autosummary>:1
 msgid ""
 "Configuration for the model, should be a dictionary conforming to "
 "[`ConfigDict`][pydantic.config.ConfigDict]."
@@ -247,8 +247,10 @@ msgstr ""
 msgid ":py:obj:`model_fields <abqpy.config.CompatibleBaseModel.model_fields>`\\"
 msgstr ""
 
-#: ../../../../None:11:<autosummary>:1 ../../../../None:17:<autosummary>:1
-#: ../../../../None:5:<autosummary>:1 ../../../../None:7:<autosummary>:1
+#: ../../../../None:11:<autosummary>:1
+#: ../../../../None:17:<autosummary>:1
+#: ../../../../None:5:<autosummary>:1
+#: ../../../../None:7:<autosummary>:1
 msgid ""
 "Metadata about the fields defined on the model, mapping of field names to "
 "[`FieldInfo`][pydantic.fields.FieldInfo]."
@@ -260,8 +262,10 @@ msgid ""
 "<abqpy.config.CompatibleBaseModel.model_computed_fields>`\\"
 msgstr ""
 
-#: ../../../../None:11:<autosummary>:1 ../../../../None:17:<autosummary>:1
-#: ../../../../None:5:<autosummary>:1 ../../../../None:7:<autosummary>:1
+#: ../../../../None:11:<autosummary>:1
+#: ../../../../None:17:<autosummary>:1
+#: ../../../../None:5:<autosummary>:1
+#: ../../../../None:7:<autosummary>:1
 msgid ""
 "A dictionary of computed field names and their corresponding `ComputedFieldInfo` "
 "objects."
@@ -296,9 +300,9 @@ msgstr ""
 msgid "Returns the set of fields that have been explicitly set on this model instance."
 msgstr ""
 
-#: ../../../autoapi/abqpy/config/index.rst
+#: ../../../autoapi/abqpy/config/index.rst:0
 msgid "Public Methods:"
-msgstr ""
+msgstr "公开方法："
 
 #: ../../../../None:4:<autosummary>:1
 msgid ""
@@ -306,8 +310,9 @@ msgid ""
 "\\(\\*\\*kwargs\\)"
 msgstr ""
 
-#: ../../../../None:46:<autosummary>:1 ../../../../None:4:<autosummary>:1
 #: ../../../autoapi/abqpy/config/index.rst:113
+#: ../../../../None:46:<autosummary>:1
+#: ../../../../None:4:<autosummary>:1
 msgid ""
 "Usage docs: https://docs.pydantic.dev/2.8/concepts/serialization/#modelmodel_dump"
 msgstr ""
@@ -658,7 +663,7 @@ msgid ""
 "\\(\\*\\*localns\\)"
 msgstr ""
 
-#: ../../../autoapi/abqpy/config/index.rst
+#: ../../../autoapi/abqpy/config/index.rst:0
 msgid "Private Data Attributes:"
 msgstr ""
 
@@ -670,9 +675,9 @@ msgstr ""
 msgid ":py:obj:`_abc_impl <pydantic.main.BaseModel._abc_impl>`\\"
 msgstr ""
 
-#: ../../../autoapi/abqpy/config/index.rst
+#: ../../../autoapi/abqpy/config/index.rst:0
 msgid "Private Methods:"
-msgstr ""
+msgstr "私有方法："
 
 #: ../../../../None:7:<autosummary>:1
 msgid ""
@@ -707,9 +712,9 @@ msgid ""
 "to include or exclude."
 msgstr ""
 
-#: ../../../autoapi/abqpy/config/index.rst
+#: ../../../autoapi/abqpy/config/index.rst:0
 msgid "Parameters"
-msgstr ""
+msgstr "参数"
 
 #: ../../../autoapi/abqpy/config/index.rst:117
 msgid ""
@@ -763,9 +768,9 @@ msgstr ""
 msgid "Whether to serialize fields with duck-typing serialization behavior."
 msgstr ""
 
-#: ../../../autoapi/abqpy/config/index.rst
+#: ../../../autoapi/abqpy/config/index.rst:0
 msgid "Returns"
-msgstr ""
+msgstr "返回值"
 
 #: ../../../autoapi/abqpy/config/index.rst:132
 msgid "A dictionary representation of the model."
@@ -946,132 +951,4 @@ msgstr ""
 #: ../../../../None:3:<autosummary>:1
 msgid ":py:obj:`_abc_impl <abqpy.config.AbaqusCommandOptions._abc_impl>`\\"
 msgstr ""
-
-#~ msgid ":py:mod:`abqpy.config`"
-#~ msgstr ""
-
-#~ msgid "Usage docs: https://docs.pydantic.dev/2.5/concepts/models/"
-#~ msgstr ""
-
-#~ msgid "Get the computed fields of this model instance."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Usage docs: "
-#~ "https://docs.pydantic.dev/2.5/concepts/serialization/#modelmodel_dump"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Usage docs: "
-#~ "https://docs.pydantic.dev/2.5/concepts/serialization/#model_copy"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Usage docs: "
-#~ "https://docs.pydantic.dev/2.5/concepts/serialization/#modelmodel_dump_json"
-#~ msgstr ""
-
-#~ msgid "Usage docs: https://docs.pydantic.dev/2.5/concepts/json/#json-parsing"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Validate the given object contains "
-#~ "string data against the Pydantic model."
-#~ msgstr ""
-
-#~ msgid ""
-#~ ":py:obj:`__get_pydantic_core_schema__ "
-#~ "<pydantic.main.BaseModel.__get_pydantic_core_schema__>`\\ "
-#~ "\\(...\\)"
-#~ msgstr ""
-
-#~ msgid ""
-#~ ":py:obj:`__get_pydantic_json_schema__ "
-#~ "<pydantic.main.BaseModel.__get_pydantic_json_schema__>`\\ "
-#~ "\\(...\\)"
-#~ msgstr ""
-
-#~ msgid ""
-#~ ":py:obj:`parse_obj <pydantic.main.BaseModel.parse_obj>`\\ "
-#~ "\\(cls\\, obj\\)"
-#~ msgstr ""
-
-#~ msgid ""
-#~ ":py:obj:`parse_raw <pydantic.main.BaseModel.parse_raw>`\\ "
-#~ "\\(cls\\, b\\, \\*\\[\\, content\\_type\\, "
-#~ "...\\]\\)"
-#~ msgstr ""
-
-#~ msgid ""
-#~ ":py:obj:`parse_file <pydantic.main.BaseModel.parse_file>`\\ "
-#~ "\\(cls\\, path\\, \\*\\[\\, content\\_type\\, "
-#~ "...\\]\\)"
-#~ msgstr ""
-
-#~ msgid ""
-#~ ":py:obj:`from_orm <pydantic.main.BaseModel.from_orm>`\\ "
-#~ "\\(cls\\, obj\\)"
-#~ msgstr ""
-
-#~ msgid ""
-#~ ":py:obj:`construct <pydantic.main.BaseModel.construct>`\\ "
-#~ "\\(cls\\[\\, \\_fields\\_set\\]\\)"
-#~ msgstr ""
-
-#~ msgid ""
-#~ ":py:obj:`schema <pydantic.main.BaseModel.schema>`\\ "
-#~ "\\(cls\\[\\, by\\_alias\\, ref\\_template\\]\\)"
-#~ msgstr ""
-
-#~ msgid ""
-#~ ":py:obj:`schema_json <pydantic.main.BaseModel.schema_json>`\\"
-#~ " \\(cls\\, \\*\\[\\, by\\_alias\\, "
-#~ "ref\\_template\\]\\)"
-#~ msgstr ""
-
-#~ msgid ""
-#~ ":py:obj:`validate <pydantic.main.BaseModel.validate>`\\ "
-#~ "\\(cls\\, value\\)"
-#~ msgstr ""
-
-#~ msgid ""
-#~ ":py:obj:`update_forward_refs "
-#~ "<pydantic.main.BaseModel.update_forward_refs>`\\ \\(cls\\, "
-#~ "\\*\\*localns\\)"
-#~ msgstr ""
-
-#~ msgid ""
-#~ ":py:obj:`_get_value <pydantic.main.BaseModel._get_value>`\\ "
-#~ "\\(cls\\, \\*args\\, \\*\\*kwargs\\)"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "The mode in which `to_python` should "
-#~ "run. If mode is 'json', the "
-#~ "dictionary will only contain JSON "
-#~ "serializable types. If mode is 'python',"
-#~ " the dictionary may contain any "
-#~ "Python objects."
-#~ msgstr ""
-
-#~ msgid "A list of fields to include in the output."
-#~ msgstr ""
-
-#~ msgid "A list of fields to exclude from the output."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Whether to exclude fields that are "
-#~ "set to their default value from "
-#~ "the output."
-#~ msgstr ""
-
-#~ msgid "Whether to exclude fields that have a value of `None` from the output."
-#~ msgstr ""
-
-#~ msgid "Whether to enable serialization and deserialization round-trip support."
-#~ msgstr ""
-
-#~ msgid "Whether to log warnings when invalid fields are encountered."
-#~ msgstr ""
 
