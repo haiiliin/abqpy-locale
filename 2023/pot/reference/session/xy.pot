@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: abqpy 2023\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-14 03:47+0000\n"
+"POT-Creation-Date: 2024-07-14 01:53+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -3674,7 +3674,7 @@ msgstr ""
 msgid "A tuple of tuples containing the descriptions of variables for which to extract data from the field. Each tuple specifies the following:  * Variable label: A String specifying the variable; for example, 'U'. * Variable output position: A SymbolicConstant specifying     the output position. Possible values are ELEMENT_CENTROID, ELEMENT_FACE, ELEMENT_NODAL,     GENERAL_PARTICLE, INTEGRATION_POINT, NODAL, WHOLE_ELEMENT, WHOLE_MODEL, WHOLE_PART_INSTANCE, and     WHOLE_REGION. * Refinement: A tuple specifying the refinement. If     the refinement tuple is omitted, data are written for all components and invariants (if     applicable). This element is required if the location dictionary (the following element in the     tuple) is included. The refinement tuple contains the following:      * Type: A SymbolicConstant specifying the type of refinement. Possible values are INVARIANT and COMPONENT.     * Label: A String specifying the invariant or the component; for example, 'Mises' or 'S22'.  * Location: An optional Dictionary specifying the location. The     dictionary contains pairs of the following:      * A String specifying the category selection label.     * A String specifying the section point label.  For example::      variable = ('S', INTEGRATION_POINT, ((COMPONENT, 'S22'), ), )     variable = (('S', INTEGRATION_POINT, ((COMPONENT, 'S11'), ), ),                 ('U', NODAL,((COMPONENT, 'U1'), )), )     variable = (('S', INTEGRATION_POINT, ((INVARIANT, 'Mises'), ),                     {'shell < STEEL > < 3 section points >': 'SNEG, (fraction = -1.0)', }), )"
 msgstr ""
 
-#: ../../../../../src/abaqus/XY/XYDataCommands.py:docstring of abaqus.XY.XYDataCommands.XYDataFromShellThickness:25
+#: ../../../../../src/abaqus/XY/XYDataCommands.py:docstring of abaqus.XY.XYDataCommands.XYDataFromShellThickness:23
 msgid "Variable output position: A SymbolicConstant specifying"
 msgstr ""
 
@@ -3682,7 +3682,7 @@ msgstr ""
 msgid "the output position. Possible values are ELEMENT_CENTROID, ELEMENT_FACE, ELEMENT_NODAL, GENERAL_PARTICLE, INTEGRATION_POINT, NODAL, WHOLE_ELEMENT, WHOLE_MODEL, WHOLE_PART_INSTANCE, and WHOLE_REGION."
 msgstr ""
 
-#: ../../../../../src/abaqus/XY/XYDataCommands.py:docstring of abaqus.XY.XYDataCommands.XYDataFromShellThickness:33
+#: ../../../../../src/abaqus/XY/XYDataCommands.py:docstring of abaqus.XY.XYDataCommands.XYDataFromShellThickness:27
 msgid "Refinement: A tuple specifying the refinement. If"
 msgstr ""
 
@@ -3690,7 +3690,7 @@ msgstr ""
 msgid "the refinement tuple is omitted, data are written for all components and invariants (if applicable). This element is required if the location dictionary (the following element in the tuple) is included. The refinement tuple contains the following:"
 msgstr ""
 
-#: ../../../../../src/abaqus/XY/XYDataCommands.py:docstring of abaqus.XY.XYDataCommands.XYDataFromShellThickness:39
+#: ../../../../../src/abaqus/XY/XYDataCommands.py:docstring of abaqus.XY.XYDataCommands.XYDataFromShellThickness:35
 msgid "Location: An optional Dictionary specifying the location. The"
 msgstr ""
 

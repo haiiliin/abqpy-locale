@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: abqpy 2023\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-14 03:47+0000\n"
+"POT-Creation-Date: 2024-07-14 01:53+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,114 +24,143 @@ msgstr ""
 msgid "The following environment variables can be used to configure the package."
 msgstr ""
 
-#: ../../../envvars.md:6
+#: ../../../envvars.md:7
+#: ../../../envvars.md:82
+#: ../../../envvars.md:89
+#: ../../../envvars.md:96
+#: ../../../envvars.md:103
+#: ../../../envvars.md:145
+#: ../../../envvars.md:152
+#: ../../../envvars.md:166
+#: ../../../envvars.md:173
+msgid "**Type: string**"
+msgstr ""
+
+#: ../../../envvars.md:9
 msgid "The file path of the `abaqus` command line batch file (`.bat`). Only set this environment variable if `abaqus` is not the default Abaqus command line executable. This variable is used by `abqpy` to run the Abaqus command line procedure inside the Python interpreter environment where it is installed."
 msgstr ""
 
-#: ../../../envvars.md:12
+#: ../../../envvars.md:16
+msgid "**Type: string of a Python dictionary**"
+msgstr ""
+
+#: ../../../envvars.md:18
 msgid "The default execution procedure invoked by `abqpy` inside the Python interpreter environment where it is installed is to run one of the two following command lines:"
 msgstr ""
 
-#: ../../../envvars.md:15
+#: ../../../envvars.md:21
 msgid "When there is a `import abaqus` or `from abaqus import ...` statement:"
 msgstr ""
 
-#: ../../../envvars.md:21
+#: ../../../envvars.md:27
 msgid "When there is a `import odbAccess` or `from odbAccess import ...` statement:"
 msgstr ""
 
-#: ../../../envvars.md:27
+#: ../../../envvars.md:33
 msgid "However, there are other execution procedures that can be run with the `abaqus` command and also another options that could be passed to these commands. To define these procedures and options you can create a new system environment variable named `ABAQUS_COMMAND_OPTIONS`, and set a **dictionary** to this variable with the options you want to use. The values of the dictionary keys would be booleans or strings, e.g.: `{'gui': True, 'database': 'file.odb'}`"
 msgstr ""
 
-#: ../../../envvars.md:34
+#: ../../../envvars.md:40
 msgid "The possible options are:"
 msgstr ""
 
-#: ../../../envvars.md:36
+#: ../../../envvars.md:42
 msgid "Using `abaqus cae` command line options (import `abaqus` module):"
 msgstr ""
 
-#: ../../../envvars.md:55
+#: ../../../envvars.md:61
 msgid "Using `abaqus python` command line options (import `odbAccess` module):"
 msgstr ""
 
-#: ../../../envvars.md:64
+#: ../../../envvars.md:70
 msgid "One advantage in using this alternative is to change the options at run time inside the code."
 msgstr ""
 
-#: ../../../envvars.md:66
+#: ../../../envvars.md:72
 msgid "Note"
 msgstr ""
 
-#: ../../../envvars.md:67
+#: ../../../envvars.md:73
 msgid "The environment variable {envvar}`ABAQUS_COMMAND_OPTIONS` must be a valid string that can be parsed to a Python dictionary, which means that you must use `True` or `False` for boolean options. However, in the following individual environment variables, you can use `true`, `on`, `yes` or `1` (or capitalized ones since they are not case sensitive) to set the boolean option to `True` and any other values to set it to `False`."
 msgstr ""
 
-#: ../../../envvars.md:75
+#: ../../../envvars.md:84
 msgid "A shortcut to the {envvar}`ABAQUS_COMMAND_OPTIONS` environment variable to set the `database` option but has higher priority."
 msgstr ""
 
-#: ../../../envvars.md:79
+#: ../../../envvars.md:91
 msgid "A shortcut to the {envvar}`ABAQUS_COMMAND_OPTIONS` environment variable to set the `replay` option but has higher priority."
 msgstr ""
 
-#: ../../../envvars.md:83
+#: ../../../envvars.md:98
 msgid "A shortcut to the {envvar}`ABAQUS_COMMAND_OPTIONS` environment variable to set the `recover` option but has higher priority."
 msgstr ""
 
-#: ../../../envvars.md:87
+#: ../../../envvars.md:105
+msgid "A shortcut to the {envvar}`ABAQUS_COMMAND_OPTIONS` environment variable to set the `startup` option but has higher priority."
+msgstr ""
+
+#: ../../../envvars.md:110
+#: ../../../envvars.md:117
+#: ../../../envvars.md:124
+#: ../../../envvars.md:131
+#: ../../../envvars.md:138
+#: ../../../envvars.md:159
+msgid "**Type: bool {true, false, on, off, yes, no, 1, 0}**"
+msgstr ""
+
+#: ../../../envvars.md:112
 msgid "A shortcut to the {envvar}`ABAQUS_COMMAND_OPTIONS` environment variable to set the `gui` option but has higher priority."
 msgstr ""
 
-#: ../../../envvars.md:91
+#: ../../../envvars.md:119
 msgid "A shortcut to the {envvar}`ABAQUS_COMMAND_OPTIONS` environment variable to set the `envstartup` option but has higher priority."
 msgstr ""
 
-#: ../../../envvars.md:95
+#: ../../../envvars.md:126
 msgid "A shortcut to the {envvar}`ABAQUS_COMMAND_OPTIONS` environment variable to set the `savedOptions` option but has higher priority."
 msgstr ""
 
-#: ../../../envvars.md:99
+#: ../../../envvars.md:133
 msgid "A shortcut to the {envvar}`ABAQUS_COMMAND_OPTIONS` environment variable to set the `savedGuiPrefs` option but has higher priority."
 msgstr ""
 
-#: ../../../envvars.md:103
+#: ../../../envvars.md:140
 msgid "A shortcut to the {envvar}`ABAQUS_COMMAND_OPTIONS` environment variable to set the `startupDialog` option but has higher priority."
 msgstr ""
 
-#: ../../../envvars.md:107
+#: ../../../envvars.md:147
 msgid "A shortcut to the {envvar}`ABAQUS_COMMAND_OPTIONS` environment variable to set the `custom` option but has higher priority."
 msgstr ""
 
-#: ../../../envvars.md:111
+#: ../../../envvars.md:154
 msgid "A shortcut to the {envvar}`ABAQUS_COMMAND_OPTIONS` environment variable to set the `guiTester` option but has higher priority."
 msgstr ""
 
-#: ../../../envvars.md:115
+#: ../../../envvars.md:161
 msgid "A shortcut to the {envvar}`ABAQUS_COMMAND_OPTIONS` environment variable to set the `guiRecord` option but has higher priority."
 msgstr ""
 
-#: ../../../envvars.md:119
+#: ../../../envvars.md:168
 msgid "A shortcut to the {envvar}`ABAQUS_COMMAND_OPTIONS` environment variable to set the `sim` option but has higher priority."
 msgstr ""
 
-#: ../../../envvars.md:123
+#: ../../../envvars.md:175
 msgid "A shortcut to the {envvar}`ABAQUS_COMMAND_OPTIONS` environment variable to set the `log` option but has higher priority."
 msgstr ""
 
-#: ../../../envvars.md:126
+#: ../../../envvars.md:178
 msgid "Example"
 msgstr ""
 
-#: ../../../envvars.md:128
+#: ../../../envvars.md:180
 msgid "The snippet bellow changes the default procedure options before calling abaqus cae command procedure, at run time."
 msgstr ""
 
-#: ../../../envvars.md:141
+#: ../../../envvars.md:193
 msgid "In this specific case, the procedure will use the graphical user interface (GUI mode) and load a _database_ file, i.e., it will run the following command line."
 msgstr ""
 
-#: ../../../envvars.md:148
+#: ../../../envvars.md:200
 msgid "Comments"
 msgstr ""
