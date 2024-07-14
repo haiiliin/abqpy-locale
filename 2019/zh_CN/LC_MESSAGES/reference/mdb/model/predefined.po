@@ -23,12 +23,13 @@ msgstr ""
 
 #: ../../../reference/mdb/model/predefined.md:3
 msgid ""
-"A PredefinedField object stores the non-propagating data of a predefined field as well"
-" as a number of instances of the corresponding PredefinedFieldState object. The "
-"PredefinedFieldState object stores the propagating data of the predefined field in a "
-"single step. A specific type of PredefinedField object and a specific type of "
-"PredefinedFieldState object are designed for each type of predefined field. Instances "
-"of the PredefinedFieldState object are created and deleted internally by its "
+"A PredefinedField object stores the non-propagating data of a predefined "
+"field as well as a number of instances of the corresponding "
+"PredefinedFieldState object. The PredefinedFieldState object stores the "
+"propagating data of the predefined field in a single step. A specific type"
+" of PredefinedField object and a specific type of PredefinedFieldState "
+"object are designed for each type of predefined field. Instances of the "
+"PredefinedFieldState object are created and deleted internally by its "
 "corresponding PredefinedField object."
 msgstr ""
 
@@ -41,7 +42,8 @@ msgid "Bases: :py:class:`~abaqus.Model.ModelBase.ModelBase`"
 msgstr ""
 
 #: abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel:1 of
-msgid "Abaqus creates a Model object named `Model-1` when a session is started."
+msgid ""
+"Abaqus creates a Model object named `Model-1` when a session is started."
 msgstr ""
 
 #: abaqus.PredefinedField.Field.Field:5 abaqus.PredefinedField.Field.Field:19
@@ -148,8 +150,8 @@ msgstr ""
 
 #: abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel:9 of
 msgid ""
-"Check `PredefinedFieldModel on help.3ds.com/2019 "
-"<https://help.3ds.com/2019/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"Check `PredefinedFieldModel on help.3ds.com/2019 <https://help.3ds.com/201"
+"9/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "modelpyc.htm?contextscope=all>`__."
 msgstr ""
 
@@ -181,7 +183,9 @@ msgid "A String specifying the repository key."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
-msgid ":py:obj:`stefanBoltzmann <abaqus.Model.ModelBase.ModelBase.stefanBoltzmann>`\\"
+msgid ""
+":py:obj:`stefanBoltzmann "
+"<abaqus.Model.ModelBase.ModelBase.stefanBoltzmann>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
@@ -189,7 +193,8 @@ msgid "None or a Float specifying the Stefan-Boltzmann constant."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
-msgid ":py:obj:`absoluteZero <abaqus.Model.ModelBase.ModelBase.absoluteZero>`\\"
+msgid ""
+":py:obj:`absoluteZero <abaqus.Model.ModelBase.ModelBase.absoluteZero>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
@@ -197,17 +202,20 @@ msgid "None or a Float specifying the absolute zero constant."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
-msgid ":py:obj:`waveFormulation <abaqus.Model.ModelBase.ModelBase.waveFormulation>`\\"
+msgid ""
+":py:obj:`waveFormulation "
+"<abaqus.Model.ModelBase.ModelBase.waveFormulation>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
 msgid ""
-"A SymbolicConstant specifying the type of incident wave formulation to be used in "
-"acoustic problems."
+"A SymbolicConstant specifying the type of incident wave formulation to be "
+"used in acoustic problems."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
-msgid ":py:obj:`universalGas <abaqus.Model.ModelBase.ModelBase.universalGas>`\\"
+msgid ""
+":py:obj:`universalGas <abaqus.Model.ModelBase.ModelBase.universalGas>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
@@ -215,44 +223,54 @@ msgid "None or a Float specifying the universal gas constant."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
-msgid ":py:obj:`noPartsInputFile <abaqus.Model.ModelBase.ModelBase.noPartsInputFile>`\\"
+msgid ""
+":py:obj:`noPartsInputFile "
+"<abaqus.Model.ModelBase.ModelBase.noPartsInputFile>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
 msgid ""
-"A Boolean specifying whether an input file should be written without parts and "
-"assemblies."
-msgstr ""
-
-#: ../../../../None:52:<autosummary>:1
-msgid ":py:obj:`endRestartStep <abaqus.Model.ModelBase.ModelBase.endRestartStep>`\\"
+"A Boolean specifying whether an input file should be written without parts"
+" and assemblies."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
 msgid ""
-"A Boolean specifying that the step specified by **restartStep** should be terminated "
-"at the increment specified by **restartIncrement**."
-msgstr ""
-
-#: ../../../../None:52:<autosummary>:1
-msgid ":py:obj:`shellToSolid <abaqus.Model.ModelBase.ModelBase.shellToSolid>`\\"
-msgstr ""
-
-#: ../../../../None:52:<autosummary>:1
-msgid "A Boolean specifying that a shell global model drives a solid submodel."
-msgstr ""
-
-#: ../../../../None:52:<autosummary>:1
-msgid ":py:obj:`lastChangedCount <abaqus.Model.ModelBase.ModelBase.lastChangedCount>`\\"
+":py:obj:`endRestartStep "
+"<abaqus.Model.ModelBase.ModelBase.endRestartStep>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
 msgid ""
-"A Float specifying the time stamp that indicates when the model was last changed."
+"A Boolean specifying that the step specified by **restartStep** should be "
+"terminated at the increment specified by **restartIncrement**."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
-msgid ":py:obj:`description <abaqus.Model.ModelBase.ModelBase.description>`\\"
+msgid ""
+":py:obj:`shellToSolid <abaqus.Model.ModelBase.ModelBase.shellToSolid>`\\"
+msgstr ""
+
+#: ../../../../None:52:<autosummary>:1
+msgid ""
+"A Boolean specifying that a shell global model drives a solid submodel."
+msgstr ""
+
+#: ../../../../None:52:<autosummary>:1
+msgid ""
+":py:obj:`lastChangedCount "
+"<abaqus.Model.ModelBase.ModelBase.lastChangedCount>`\\"
+msgstr ""
+
+#: ../../../../None:52:<autosummary>:1
+msgid ""
+"A Float specifying the time stamp that indicates when the model was last "
+"changed."
+msgstr ""
+
+#: ../../../../None:52:<autosummary>:1
+msgid ""
+":py:obj:`description <abaqus.Model.ModelBase.ModelBase.description>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
@@ -264,15 +282,19 @@ msgid ":py:obj:`restartJob <abaqus.Model.ModelBase.ModelBase.restartJob>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
-msgid "A String specifying the name of the job that generated the restart data."
+msgid ""
+"A String specifying the name of the job that generated the restart data."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
-msgid ":py:obj:`restartStep <abaqus.Model.ModelBase.ModelBase.restartStep>`\\"
+msgid ""
+":py:obj:`restartStep <abaqus.Model.ModelBase.ModelBase.restartStep>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
-msgid "A String specifying the name of the step where the restart analysis will start."
+msgid ""
+"A String specifying the name of the step where the restart analysis will "
+"start."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
@@ -281,42 +303,49 @@ msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
 msgid ""
-"A String specifying the name of the job that generated the results for the global "
-"model."
-msgstr ""
-
-#: ../../../../None:52:<autosummary>:1
-msgid ":py:obj:`copyConstraints <abaqus.Model.ModelBase.ModelBase.copyConstraints>`\\"
+"A String specifying the name of the job that generated the results for the"
+" global model."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
 msgid ""
-"A boolean specifying the status of constraints created in a model, in the model which "
-"instances this model."
-msgstr ""
-
-#: ../../../../None:52:<autosummary>:1
-msgid ":py:obj:`copyConnectors <abaqus.Model.ModelBase.ModelBase.copyConnectors>`\\"
+":py:obj:`copyConstraints "
+"<abaqus.Model.ModelBase.ModelBase.copyConstraints>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
 msgid ""
-"A boolean specifying the status of connectors created in a model, in the model which "
-"instances this model."
-msgstr ""
-
-#: ../../../../None:52:<autosummary>:1
-msgid ":py:obj:`copyInteractions <abaqus.Model.ModelBase.ModelBase.copyInteractions>`\\"
+"A boolean specifying the status of constraints created in a model, in the "
+"model which instances this model."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
 msgid ""
-"A boolean specifying the status of interactions created in a model, in the model which"
-" instances this model."
+":py:obj:`copyConnectors "
+"<abaqus.Model.ModelBase.ModelBase.copyConnectors>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
-msgid ":py:obj:`keywordBlock <abaqus.Model.ModelBase.ModelBase.keywordBlock>`\\"
+msgid ""
+"A boolean specifying the status of connectors created in a model, in the "
+"model which instances this model."
+msgstr ""
+
+#: ../../../../None:52:<autosummary>:1
+msgid ""
+":py:obj:`copyInteractions "
+"<abaqus.Model.ModelBase.ModelBase.copyInteractions>`\\"
+msgstr ""
+
+#: ../../../../None:52:<autosummary>:1
+msgid ""
+"A boolean specifying the status of interactions created in a model, in the"
+" model which instances this model."
+msgstr ""
+
+#: ../../../../None:52:<autosummary>:1
+msgid ""
+":py:obj:`keywordBlock <abaqus.Model.ModelBase.ModelBase.keywordBlock>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
@@ -324,7 +353,8 @@ msgid "A KeywordBlock object."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
-msgid ":py:obj:`rootAssembly <abaqus.Model.ModelBase.ModelBase.rootAssembly>`\\"
+msgid ""
+":py:obj:`rootAssembly <abaqus.Model.ModelBase.ModelBase.rootAssembly>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
@@ -349,7 +379,8 @@ msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
 msgid ""
-":py:obj:`boundaryConditions <abaqus.Model.ModelBase.ModelBase.boundaryConditions>`\\"
+":py:obj:`boundaryConditions "
+"<abaqus.Model.ModelBase.ModelBase.boundaryConditions>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
@@ -357,7 +388,8 @@ msgid "A repository of BoundaryCondition objects."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
-msgid ":py:obj:`constraints <abaqus.Model.ModelBase.ModelBase.constraints>`\\"
+msgid ""
+":py:obj:`constraints <abaqus.Model.ModelBase.ModelBase.constraints>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
@@ -365,7 +397,9 @@ msgid "A repository of ConstrainedSketchConstraint objects."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
-msgid ":py:obj:`analyticalFields <abaqus.Model.ModelBase.ModelBase.analyticalFields>`\\"
+msgid ""
+":py:obj:`analyticalFields "
+"<abaqus.Model.ModelBase.ModelBase.analyticalFields>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
@@ -373,7 +407,9 @@ msgid "A repository of AnalyticalField objects."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
-msgid ":py:obj:`discreteFields <abaqus.Model.ModelBase.ModelBase.discreteFields>`\\"
+msgid ""
+":py:obj:`discreteFields "
+"<abaqus.Model.ModelBase.ModelBase.discreteFields>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
@@ -381,7 +417,9 @@ msgid "A repository of DiscreteField objects."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
-msgid ":py:obj:`predefinedFields <abaqus.Model.ModelBase.ModelBase.predefinedFields>`\\"
+msgid ""
+":py:obj:`predefinedFields "
+"<abaqus.Model.ModelBase.ModelBase.predefinedFields>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
@@ -389,7 +427,8 @@ msgid "A repository of PredefinedField objects."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
-msgid ":py:obj:`interactions <abaqus.Model.ModelBase.ModelBase.interactions>`\\"
+msgid ""
+":py:obj:`interactions <abaqus.Model.ModelBase.ModelBase.interactions>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
@@ -407,7 +446,9 @@ msgid "A repository of InteractionProperty objects."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
-msgid ":py:obj:`contactControls <abaqus.Model.ModelBase.ModelBase.contactControls>`\\"
+msgid ""
+":py:obj:`contactControls "
+"<abaqus.Model.ModelBase.ModelBase.contactControls>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
@@ -435,23 +476,27 @@ msgid "A repository of ContactStabilization objects."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
-msgid ":py:obj:`linkedInstances <abaqus.Model.ModelBase.ModelBase.linkedInstances>`\\"
+msgid ""
+":py:obj:`linkedInstances "
+"<abaqus.Model.ModelBase.ModelBase.linkedInstances>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
 msgid ""
-"A tuple of tuples of Strings specifying the linked child PartInstance name in the "
-"current model to the corresponding parent PartInstance name in a different model."
-msgstr ""
-
-#: ../../../../None:52:<autosummary>:1
-msgid ":py:obj:`linkedParts <abaqus.Model.ModelBase.ModelBase.linkedParts>`\\"
+"A tuple of tuples of Strings specifying the linked child PartInstance name"
+" in the current model to the corresponding parent PartInstance name in a "
+"different model."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
 msgid ""
-"A tuple of tuples of Strings specifying the linked child Part name in the current "
-"model to the corresponding parent Part name in a different model."
+":py:obj:`linkedParts <abaqus.Model.ModelBase.ModelBase.linkedParts>`\\"
+msgstr ""
+
+#: ../../../../None:52:<autosummary>:1
+msgid ""
+"A tuple of tuples of Strings specifying the linked child Part name in the "
+"current model to the corresponding parent Part name in a different model."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
@@ -471,7 +516,8 @@ msgid "A repository of Material objects."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
-msgid ":py:obj:`calibrations <abaqus.Model.ModelBase.ModelBase.calibrations>`\\"
+msgid ""
+":py:obj:`calibrations <abaqus.Model.ModelBase.ModelBase.calibrations>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
@@ -487,7 +533,9 @@ msgid "A repository of Section objects."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
-msgid ":py:obj:`remeshingRules <abaqus.Model.ModelBase.ModelBase.remeshingRules>`\\"
+msgid ""
+":py:obj:`remeshingRules "
+"<abaqus.Model.ModelBase.ModelBase.remeshingRules>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
@@ -519,7 +567,9 @@ msgid "A repository of Step objects."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
-msgid ":py:obj:`featureOptions <abaqus.Model.ModelBase.ModelBase.featureOptions>`\\"
+msgid ""
+":py:obj:`featureOptions "
+"<abaqus.Model.ModelBase.ModelBase.featureOptions>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
@@ -574,7 +624,8 @@ msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
 msgid ""
-":py:obj:`fieldOutputRequests <abaqus.Model.ModelBase.ModelBase.fieldOutputRequests>`\\"
+":py:obj:`fieldOutputRequests "
+"<abaqus.Model.ModelBase.ModelBase.fieldOutputRequests>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
@@ -593,7 +644,8 @@ msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
 msgid ""
-":py:obj:`optimizationTasks <abaqus.Model.ModelBase.ModelBase.optimizationTasks>`\\"
+":py:obj:`optimizationTasks "
+"<abaqus.Model.ModelBase.ModelBase.optimizationTasks>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
@@ -601,13 +653,15 @@ msgid "A repository of OptimizationTask objects."
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
-msgid ":py:obj:`restartIncrement <abaqus.Model.ModelBase.ModelBase.restartIncrement>`\\"
+msgid ""
+":py:obj:`restartIncrement "
+"<abaqus.Model.ModelBase.ModelBase.restartIncrement>`\\"
 msgstr ""
 
 #: ../../../../None:52:<autosummary>:1
 msgid ""
-"An Int specifying the increment, interval, iteration or cycle where the restart "
-"analysis will start."
+"An Int specifying the increment, interval, iteration or cycle where the "
+"restart analysis will start."
 msgstr ""
 
 #: abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel of
@@ -616,8 +670,9 @@ msgstr ""
 
 #: ../../../../None:13:<autosummary>:1
 msgid ""
-":py:obj:`FluidCavityPressure <abaqus.PredefinedField.PredefinedFieldModel.PredefinedFi"
-"eldModel.FluidCavityPressure>`\\ \\(name\\, fluidCavity\\, ...\\)"
+":py:obj:`FluidCavityPressure <abaqus.PredefinedField.PredefinedFieldModel."
+"PredefinedFieldModel.FluidCavityPressure>`\\ \\(name\\, fluidCavity\\, "
+"...\\)"
 msgstr ""
 
 #: ../../../../None:13:<autosummary>:1
@@ -628,9 +683,9 @@ msgstr ""
 
 #: ../../../../None:13:<autosummary>:1
 msgid ""
-":py:obj:`InitialState "
-"<abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.InitialState>`\\ "
-"\\(name\\, instances\\, fileName\\[\\, ...\\]\\)"
+":py:obj:`InitialState <abaqus.PredefinedField.PredefinedFieldModel.Predefi"
+"nedFieldModel.InitialState>`\\ \\(name\\, instances\\, fileName\\[\\, "
+"...\\]\\)"
 msgstr ""
 
 #: ../../../../None:13:<autosummary>:1
@@ -641,8 +696,9 @@ msgstr ""
 
 #: ../../../../None:13:<autosummary>:1
 msgid ""
-":py:obj:`KinematicHardening <abaqus.PredefinedField.PredefinedFieldModel.PredefinedFie"
-"ldModel.KinematicHardening>`\\ \\(name\\, region\\[\\, ...\\]\\)"
+":py:obj:`KinematicHardening <abaqus.PredefinedField.PredefinedFieldModel.P"
+"redefinedFieldModel.KinematicHardening>`\\ \\(name\\, region\\[\\, "
+"...\\]\\)"
 msgstr ""
 
 #: ../../../../None:13:<autosummary>:1
@@ -653,8 +709,9 @@ msgstr ""
 
 #: ../../../../None:13:<autosummary>:1
 msgid ""
-":py:obj:`MaterialAssignment <abaqus.PredefinedField.PredefinedFieldModel.PredefinedFie"
-"ldModel.MaterialAssignment>`\\ \\(name\\, instanceList\\[\\, ...\\]\\)"
+":py:obj:`MaterialAssignment <abaqus.PredefinedField.PredefinedFieldModel.P"
+"redefinedFieldModel.MaterialAssignment>`\\ \\(name\\, instanceList\\[\\, "
+"...\\]\\)"
 msgstr ""
 
 #: ../../../../None:13:<autosummary>:1
@@ -665,9 +722,8 @@ msgstr ""
 
 #: ../../../../None:13:<autosummary>:1
 msgid ""
-":py:obj:`PorePressure "
-"<abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.PorePressure>`\\ "
-"\\(name\\, region\\[\\, ...\\]\\)"
+":py:obj:`PorePressure <abaqus.PredefinedField.PredefinedFieldModel.Predefi"
+"nedFieldModel.PorePressure>`\\ \\(name\\, region\\[\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../../None:13:<autosummary>:1
@@ -679,9 +735,9 @@ msgstr ""
 
 #: ../../../../None:13:<autosummary>:1
 msgid ""
-":py:obj:`Temperature "
-"<abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.Temperature>`\\ "
-"\\(name\\, createStepName\\, region\\[\\, ...\\]\\)"
+":py:obj:`Temperature <abaqus.PredefinedField.PredefinedFieldModel.Predefin"
+"edFieldModel.Temperature>`\\ \\(name\\, createStepName\\, region\\[\\, "
+"...\\]\\)"
 msgstr ""
 
 #: ../../../../None:13:<autosummary>:1
@@ -692,9 +748,9 @@ msgstr ""
 
 #: ../../../../None:13:<autosummary>:1
 msgid ""
-":py:obj:`Velocity "
-"<abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.Velocity>`\\ "
-"\\(name\\, region\\, velocity1\\, velocity2\\, ...\\)"
+":py:obj:`Velocity <abaqus.PredefinedField.PredefinedFieldModel.PredefinedF"
+"ieldModel.Velocity>`\\ \\(name\\, region\\, velocity1\\, velocity2\\, "
+"...\\)"
 msgstr ""
 
 #: ../../../../None:13:<autosummary>:1
@@ -705,9 +761,9 @@ msgstr ""
 
 #: ../../../../None:13:<autosummary>:1
 msgid ""
-":py:obj:`Saturation "
-"<abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.Saturation>`\\ "
-"\\(name\\, region\\[\\, distributionType\\, ...\\]\\)"
+":py:obj:`Saturation <abaqus.PredefinedField.PredefinedFieldModel.Predefine"
+"dFieldModel.Saturation>`\\ \\(name\\, region\\[\\, distributionType\\, "
+"...\\]\\)"
 msgstr ""
 
 #: ../../../../None:13:<autosummary>:1
@@ -718,9 +774,8 @@ msgstr ""
 
 #: ../../../../None:13:<autosummary>:1
 msgid ""
-":py:obj:`Stress "
-"<abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.Stress>`\\ "
-"\\(name\\, region\\[\\, distributionType\\, ...\\]\\)"
+":py:obj:`Stress <abaqus.PredefinedField.PredefinedFieldModel.PredefinedFie"
+"ldModel.Stress>`\\ \\(name\\, region\\[\\, distributionType\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../../None:13:<autosummary>:1
@@ -730,9 +785,8 @@ msgstr ""
 
 #: ../../../../None:13:<autosummary>:1
 msgid ""
-":py:obj:`Field "
-"<abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.Field>`\\ \\(name\\,"
-" createStepName\\, region\\[\\, ...\\]\\)"
+":py:obj:`Field <abaqus.PredefinedField.PredefinedFieldModel.PredefinedFiel"
+"dModel.Field>`\\ \\(name\\, createStepName\\, region\\[\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../../None:13:<autosummary>:1
@@ -742,15 +796,15 @@ msgstr ""
 
 #: ../../../../None:13:<autosummary>:1
 msgid ""
-":py:obj:`VoidsRatio "
-"<abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.VoidsRatio>`\\ "
-"\\(name\\, region\\[\\, distributionType\\, ...\\]\\)"
+":py:obj:`VoidsRatio <abaqus.PredefinedField.PredefinedFieldModel.Predefine"
+"dFieldModel.VoidsRatio>`\\ \\(name\\, region\\[\\, distributionType\\, "
+"...\\]\\)"
 msgstr ""
 
 #: ../../../../None:7:<autosummary>:1
 msgid ""
-":py:obj:`__init__ <abaqus.Model.ModelBase.ModelBase.__init__>`\\ \\(name\\[\\, "
-"description\\, ...\\]\\)"
+":py:obj:`__init__ <abaqus.Model.ModelBase.ModelBase.__init__>`\\ "
+"\\(name\\[\\, description\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../../None:7:<autosummary>:1
@@ -759,39 +813,42 @@ msgstr ""
 
 #: ../../../../None:7:<autosummary>:1
 msgid ""
-":py:obj:`ModelFromInputFile <abaqus.Model.ModelBase.ModelBase.ModelFromInputFile>`\\ "
-"\\(name\\, inputFileName\\)"
-msgstr ""
-
-#: ../../../../None:7:<autosummary>:1
-msgid ""
-"This method creates a Model object by reading the keywords in an input file and "
-"creating the corresponding Abaqus/CAE objects."
-msgstr ""
-
-#: ../../../../None:7:<autosummary>:1
-msgid ""
-":py:obj:`ModelFromOdbFile <abaqus.Model.ModelBase.ModelBase.ModelFromOdbFile>`\\ "
-"\\(name\\, odbFileName\\)"
-msgstr ""
-
-#: ../../../../None:7:<autosummary>:1
-msgid ""
-"This method creates a Model object by reading an output database and creating any "
-"corresponding Abaqus/CAE objects."
-msgstr ""
-
-#: ../../../../None:7:<autosummary>:1
-msgid ""
-":py:obj:`ModelFromNastranFile "
-"<abaqus.Model.ModelBase.ModelBase.ModelFromNastranFile>`\\ \\(modelName\\, "
+":py:obj:`ModelFromInputFile "
+"<abaqus.Model.ModelBase.ModelBase.ModelFromInputFile>`\\ \\(name\\, "
 "inputFileName\\)"
 msgstr ""
 
 #: ../../../../None:7:<autosummary>:1
 msgid ""
-"This method creates a Model object by reading the keywords in a Nastran bulk data file"
-" or Nastran input file and creating any corresponding Abaqus/CAE objects."
+"This method creates a Model object by reading the keywords in an input "
+"file and creating the corresponding Abaqus/CAE objects."
+msgstr ""
+
+#: ../../../../None:7:<autosummary>:1
+msgid ""
+":py:obj:`ModelFromOdbFile "
+"<abaqus.Model.ModelBase.ModelBase.ModelFromOdbFile>`\\ \\(name\\, "
+"odbFileName\\)"
+msgstr ""
+
+#: ../../../../None:7:<autosummary>:1
+msgid ""
+"This method creates a Model object by reading an output database and "
+"creating any corresponding Abaqus/CAE objects."
+msgstr ""
+
+#: ../../../../None:7:<autosummary>:1
+msgid ""
+":py:obj:`ModelFromNastranFile "
+"<abaqus.Model.ModelBase.ModelBase.ModelFromNastranFile>`\\ \\(modelName\\,"
+" inputFileName\\)"
+msgstr ""
+
+#: ../../../../None:7:<autosummary>:1
+msgid ""
+"This method creates a Model object by reading the keywords in a Nastran "
+"bulk data file or Nastran input file and creating any corresponding "
+"Abaqus/CAE objects."
 msgstr ""
 
 #: ../../../../None:7:<autosummary>:1
@@ -848,8 +905,8 @@ msgstr ""
 #: abaqus.PredefinedField.Field.Field:20
 #: abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.Field:12 of
 msgid ""
-"Check `Field on help.3ds.com/2019 "
-"<https://help.3ds.com/2019/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"Check `Field on help.3ds.com/2019 <https://help.3ds.com/2019/English/DSSIM"
+"ULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "fieldpyc.htm?contextscope=all>`__."
 msgstr ""
 
@@ -888,14 +945,16 @@ msgstr ""
 #: abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.Temperature:14
 #: of
 msgid ""
-"A String specifying the name of the step in which the predefined field is created."
+"A String specifying the name of the step in which the predefined field is "
+"created."
 msgstr ""
 
 #: abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.Field:19 of
 msgid ""
-"A Region object specifying the region to which the predefined field is applied. "
-"*Region* is ignored if the predefined field has a **distributionType** member "
-"available, and **distributionType** = FROM_FILE."
+"A Region object specifying the region to which the predefined field is "
+"applied. *Region* is ignored if the predefined field has a "
+"**distributionType** member available, and **distributionType** = "
+"FROM_FILE."
 msgstr ""
 
 #: ../../../../docstring abaqus.PredefinedField.Field.Field.setValues:7
@@ -903,10 +962,10 @@ msgstr ""
 #: abaqus.PredefinedField.FieldState.FieldState.outputVariable:1
 #: abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.Field:23 of
 msgid ""
-"A String specifying the scalar nodal output variable that will be read from an output "
-"database and used to initialize a specified predefined field. This argument is a "
-"required argument if **distributionType** = FROM_FILE or **distributionType** = "
-"FROM_FILE_AND_USER_DEFINED."
+"A String specifying the scalar nodal output variable that will be read "
+"from an output database and used to initialize a specified predefined "
+"field. This argument is a required argument if **distributionType** = "
+"FROM_FILE or **distributionType** = FROM_FILE_AND_USER_DEFINED."
 msgstr ""
 
 #: abaqus.PredefinedField.Field.Field.setValues:12
@@ -922,25 +981,27 @@ msgstr ""
 #: abaqus.PredefinedField.Temperature.Temperature.distributionType:1
 #: abaqus.PredefinedField.Temperature.Temperature.setValues:7 of
 msgid ""
-"A SymbolicConstant specifying how the predefined field varies spatially. Possible "
-"values are UNIFORM, USER_DEFINED, FROM_FILE, FIELD, FROM_FILE_AND_USER_DEFINED, and "
-"DISCRETE_FIELD. The default value is UNIFORM."
+"A SymbolicConstant specifying how the predefined field varies spatially. "
+"Possible values are UNIFORM, USER_DEFINED, FROM_FILE, FIELD, "
+"FROM_FILE_AND_USER_DEFINED, and DISCRETE_FIELD. The default value is "
+"UNIFORM."
 msgstr ""
 
 #: abaqus.PredefinedField.Field.Field.setValues:18
 #: abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.Field:34 of
 msgid ""
-"A SymbolicConstant specifying how the predefined field is distributed over the cross-"
-"section of the region. Possible values are  - CONSTANT_THROUGH_THICKNESS - "
-"GRADIENTS_THROUGH_SHELL_CS - GRADIENTS_THROUGH_BEAM_CS - POINTS_THROUGH_SECTION  The "
-"default value is CONSTANT_THROUGH_THICKNESS."
+"A SymbolicConstant specifying how the predefined field is distributed over"
+" the cross-section of the region. Possible values are  - "
+"CONSTANT_THROUGH_THICKNESS - GRADIENTS_THROUGH_SHELL_CS - "
+"GRADIENTS_THROUGH_BEAM_CS - POINTS_THROUGH_SECTION  The default value is "
+"CONSTANT_THROUGH_THICKNESS."
 msgstr ""
 
 #: abaqus.PredefinedField.Field.Field.setValues:18
 #: abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.Field:34 of
 msgid ""
-"A SymbolicConstant specifying how the predefined field is distributed over the cross-"
-"section of the region. Possible values are"
+"A SymbolicConstant specifying how the predefined field is distributed over"
+" the cross-section of the region. Possible values are"
 msgstr ""
 
 #: abaqus.PredefinedField.Field.Field.setValues:21
@@ -987,48 +1048,49 @@ msgstr ""
 #: abaqus.PredefinedField.Temperature.Temperature.setValues:21
 #: abaqus.PredefinedField.Temperature.Temperature.setValuesInStep:9 of
 msgid ""
-"A String specifying the name of the AnalyticalField or DiscreteField object associated"
-" with this predefined field. The **field** argument applies only when "
-"**distributionType** = FIELD or **distributionType** = DISCRETE_FIELD. The default "
-"value is an empty string."
+"A String specifying the name of the AnalyticalField or DiscreteField "
+"object associated with this predefined field. The **field** argument "
+"applies only when **distributionType** = FIELD or **distributionType** = "
+"DISCRETE_FIELD. The default value is an empty string."
 msgstr ""
 
 #: abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.Field:49 of
 msgid ""
-"A String or the SymbolicConstant UNSET specifying the name of the amplitude reference."
-" UNSET should be used if the predefined field has no amplitude reference. The default "
-"value is UNSET.  .. note::     **amplitude** should be given only if it is valid for "
-"the specified step."
+"A String or the SymbolicConstant UNSET specifying the name of the "
+"amplitude reference. UNSET should be used if the predefined field has no "
+"amplitude reference. The default value is UNSET.  .. note::     "
+"**amplitude** should be given only if it is valid for the specified step."
 msgstr ""
 
 #: abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.Field:49 of
 msgid ""
-"A String or the SymbolicConstant UNSET specifying the name of the amplitude reference."
-" UNSET should be used if the predefined field has no amplitude reference. The default "
-"value is UNSET."
+"A String or the SymbolicConstant UNSET specifying the name of the "
+"amplitude reference. UNSET should be used if the predefined field has no "
+"amplitude reference. The default value is UNSET."
 msgstr ""
 
 #: abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.Field:54 of
-msgid "**amplitude** should be given only if it is valid for the specified step."
+msgid ""
+"**amplitude** should be given only if it is valid for the specified step."
 msgstr ""
 
 #: abaqus.PredefinedField.Field.Field.setValues:38
 #: abaqus.PredefinedField.Field.Field.setValuesInStep:26
 #: abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.Field:56 of
 msgid ""
-"A String specifying the name of the file from which the Field values are to be read "
-"when **distributionType** = FROM_FILE or **distributionType** = "
-"FROM_FILE_AND_USER_DEFINED."
+"A String specifying the name of the file from which the Field values are "
+"to be read when **distributionType** = FROM_FILE or **distributionType** ="
+" FROM_FILE_AND_USER_DEFINED."
 msgstr ""
 
 #: abaqus.PredefinedField.Field.Field.setValues:41
 #: abaqus.PredefinedField.Field.Field.setValuesInStep:29
 #: abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.Field:59 of
 msgid ""
-"An Int specifying the first step from which Field values are to be read or the "
-"SymbolicConstant FIRST_STEP or LAST_STEP. This argument is valid only when "
-"**distributionType** = FROM_FILE or **distributionType** = FROM_FILE_AND_USER_DEFINED."
-" The default value is None."
+"An Int specifying the first step from which Field values are to be read or"
+" the SymbolicConstant FIRST_STEP or LAST_STEP. This argument is valid only"
+" when **distributionType** = FROM_FILE or **distributionType** = "
+"FROM_FILE_AND_USER_DEFINED. The default value is None."
 msgstr ""
 
 #: abaqus.PredefinedField.Field.Field.setValues:46
@@ -1038,20 +1100,20 @@ msgstr ""
 #: abaqus.PredefinedField.Temperature.Temperature.setValues:39
 #: abaqus.PredefinedField.Temperature.Temperature.setValuesInStep:27 of
 msgid ""
-"An Int specifying the first increment of the step set in **beginStep** or the "
-"SymbolicConstants STEP_START or STEP_END. This argument is valid only when "
-"**distributionType** = FROM_FILE or **distributionType** = FROM_FILE_AND_USER_DEFINED."
-" The default value is None."
+"An Int specifying the first increment of the step set in **beginStep** or "
+"the SymbolicConstants STEP_START or STEP_END. This argument is valid only "
+"when **distributionType** = FROM_FILE or **distributionType** = "
+"FROM_FILE_AND_USER_DEFINED. The default value is None."
 msgstr ""
 
 #: abaqus.PredefinedField.Field.Field.setValues:51
 #: abaqus.PredefinedField.Field.Field.setValuesInStep:39
 #: abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.Field:69 of
 msgid ""
-"An Int specifying the last step from which Field values are to be read or the "
-"SymbolicConstants FIRST_STEP and LAST_STEP. This argument is valid only when "
-"**distributionType** = FROM_FILE or **distributionType** = FROM_FILE_AND_USER_DEFINED."
-" The default value is None."
+"An Int specifying the last step from which Field values are to be read or "
+"the SymbolicConstants FIRST_STEP and LAST_STEP. This argument is valid "
+"only when **distributionType** = FROM_FILE or **distributionType** = "
+"FROM_FILE_AND_USER_DEFINED. The default value is None."
 msgstr ""
 
 #: abaqus.PredefinedField.Field.Field.setValues:56
@@ -1061,54 +1123,56 @@ msgstr ""
 #: abaqus.PredefinedField.Temperature.Temperature.setValues:49
 #: abaqus.PredefinedField.Temperature.Temperature.setValuesInStep:37 of
 msgid ""
-"An Int specifying the last increment of the step set in **endStep** or the "
-"SymbolicConstants STEP_START and STEP_END. This argument is valid only when "
-"**distributionType** = FROM_FILE or **distributionType** = FROM_FILE_AND_USER_DEFINED."
-" The default value is None."
+"An Int specifying the last increment of the step set in **endStep** or the"
+" SymbolicConstants STEP_START and STEP_END. This argument is valid only "
+"when **distributionType** = FROM_FILE or **distributionType** = "
+"FROM_FILE_AND_USER_DEFINED. The default value is None."
 msgstr ""
 
 #: abaqus.PredefinedField.Field.Field.setValues:61
 #: abaqus.PredefinedField.Field.Field.setValuesInStep:49
 #: abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.Field:79 of
 msgid ""
-"A SymbolicConstant specifying whether to interpolate a field read from an output "
-"database or results file. Possible values are OFF, ON, or MIDSIDE_ONLY. The default "
-"value is OFF."
+"A SymbolicConstant specifying whether to interpolate a field read from an "
+"output database or results file. Possible values are OFF, ON, or "
+"MIDSIDE_ONLY. The default value is OFF."
 msgstr ""
 
 #: abaqus.PredefinedField.Field.Field.setValues:65
 #: abaqus.PredefinedField.Field.Field.setValuesInStep:53
 #: abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.Field:83 of
 msgid ""
-"A Sequence of Doubles specifying the Field values when **distributionType** = UNIFORM "
-"or FIELD. The value of the **magnitudes** argument is a function of the "
-"**crossSectionDistribution** argument, as shown in the following list:  - If "
-"**crossSectionDistribution** = CONSTANT_THROUGH_THICKNESS, **magnitudes** is a Double"
-"   specifying the Field. - If **crossSectionDistribution** = "
-"GRADIENTS_THROUGH_SHELL_CS, **magnitudes** is a sequence   of Doubles specifying the "
-"mean value and the gradient in the thickness direction. - If "
-"**crossSectionDistribution** = GRADIENTS_THROUGH_BEAM_CS, **magnitudes** is a sequence"
-" of   Doubles specifying the mean value, the gradient in the N1 direction, and the "
+"A Sequence of Doubles specifying the Field values when "
+"**distributionType** = UNIFORM or FIELD. The value of the **magnitudes** "
+"argument is a function of the **crossSectionDistribution** argument, as "
+"shown in the following list:  - If **crossSectionDistribution** = "
+"CONSTANT_THROUGH_THICKNESS, **magnitudes** is a Double   specifying the "
+"Field. - If **crossSectionDistribution** = GRADIENTS_THROUGH_SHELL_CS, "
+"**magnitudes** is a sequence   of Doubles specifying the mean value and "
+"the gradient in the thickness direction. - If **crossSectionDistribution**"
+" = GRADIENTS_THROUGH_BEAM_CS, **magnitudes** is a sequence of   Doubles "
+"specifying the mean value, the gradient in the N1 direction, and the "
 "gradient in   the N2 direction. - If **crossSectionDistribution** = "
-"POINTS_THROUGH_SECTION, **magnitudes** is a sequence of   Doubles specifying the Field"
-" at each point."
+"POINTS_THROUGH_SECTION, **magnitudes** is a sequence of   Doubles "
+"specifying the Field at each point."
 msgstr ""
 
 #: abaqus.PredefinedField.Field.Field.setValues:65
 #: abaqus.PredefinedField.Field.Field.setValuesInStep:53
 #: abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.Field:83 of
 msgid ""
-"A Sequence of Doubles specifying the Field values when **distributionType** = UNIFORM "
-"or FIELD. The value of the **magnitudes** argument is a function of the "
-"**crossSectionDistribution** argument, as shown in the following list:"
+"A Sequence of Doubles specifying the Field values when "
+"**distributionType** = UNIFORM or FIELD. The value of the **magnitudes** "
+"argument is a function of the **crossSectionDistribution** argument, as "
+"shown in the following list:"
 msgstr ""
 
 #: abaqus.PredefinedField.Field.Field.setValues:69
 #: abaqus.PredefinedField.Field.Field.setValuesInStep:57
 #: abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.Field:87 of
 msgid ""
-"If **crossSectionDistribution** = CONSTANT_THROUGH_THICKNESS, **magnitudes** is a "
-"Double specifying the Field."
+"If **crossSectionDistribution** = CONSTANT_THROUGH_THICKNESS, "
+"**magnitudes** is a Double specifying the Field."
 msgstr ""
 
 #: ../../../../docstring abaqus.PredefinedField.Field.Field.setValues:71
@@ -1116,9 +1180,9 @@ msgstr ""
 #: abaqus.PredefinedField.FieldState.FieldState.magnitudes:7
 #: abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.Field:89 of
 msgid ""
-"If **crossSectionDistribution** = GRADIENTS_THROUGH_SHELL_CS, **magnitudes** is a "
-"sequence of Doubles specifying the mean value and the gradient in the thickness "
-"direction."
+"If **crossSectionDistribution** = GRADIENTS_THROUGH_SHELL_CS, "
+"**magnitudes** is a sequence of Doubles specifying the mean value and the "
+"gradient in the thickness direction."
 msgstr ""
 
 #: ../../../../docstring abaqus.PredefinedField.Field.Field.setValues:73
@@ -1126,17 +1190,17 @@ msgstr ""
 #: abaqus.PredefinedField.FieldState.FieldState.magnitudes:9
 #: abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.Field:91 of
 msgid ""
-"If **crossSectionDistribution** = GRADIENTS_THROUGH_BEAM_CS, **magnitudes** is a "
-"sequence of Doubles specifying the mean value, the gradient in the N1 direction, and "
-"the gradient in the N2 direction."
+"If **crossSectionDistribution** = GRADIENTS_THROUGH_BEAM_CS, "
+"**magnitudes** is a sequence of Doubles specifying the mean value, the "
+"gradient in the N1 direction, and the gradient in the N2 direction."
 msgstr ""
 
 #: abaqus.PredefinedField.Field.Field.setValues:76
 #: abaqus.PredefinedField.Field.Field.setValuesInStep:64
 #: abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.Field:94 of
 msgid ""
-"If **crossSectionDistribution** = POINTS_THROUGH_SECTION, **magnitudes** is a sequence"
-" of Doubles specifying the Field at each point."
+"If **crossSectionDistribution** = POINTS_THROUGH_SECTION, **magnitudes** "
+"is a sequence of Doubles specifying the Field at each point."
 msgstr ""
 
 #: abaqus.PredefinedField.PorePressure.PorePressure.setValues
@@ -1164,8 +1228,8 @@ msgstr ""
 #: abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.FluidCavityPressure:9
 #: of
 msgid ""
-"Check `FluidCavityPressure on help.3ds.com/2019 "
-"<https://help.3ds.com/2019/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"Check `FluidCavityPressure on help.3ds.com/2019 <https://help.3ds.com/2019"
+"/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "fluidcavitypressurepyc.htm?contextscope=all>`__."
 msgstr ""
 
@@ -1207,8 +1271,8 @@ msgstr ""
 #: abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.InitialState:9
 #: of
 msgid ""
-"Check `InitialState on help.3ds.com/2019 "
-"<https://help.3ds.com/2019/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"Check `InitialState on help.3ds.com/2019 <https://help.3ds.com/2019/Englis"
+"h/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "initialstatepyc.htm?contextscope=all>`__."
 msgstr ""
 
@@ -1217,15 +1281,17 @@ msgstr ""
 #: abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.InitialState:14
 #: of
 msgid ""
-"A PartInstanceArray object specifying the instances to which the predefined field is "
-"applied."
+"A PartInstanceArray object specifying the instances to which the "
+"predefined field is applied."
 msgstr ""
 
 #: ../../../../docstring
 #: abaqus.PredefinedField.PredefinedFieldModel.InitialState.fileName:1
 #: abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.InitialState:17
 #: of
-msgid "A String specifying the name of the job that generated the initial state data."
+msgid ""
+"A String specifying the name of the job that generated the initial state "
+"data."
 msgstr ""
 
 #: ../../../../docstring
@@ -1234,9 +1300,9 @@ msgstr ""
 #: abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.InitialState:19
 #: of
 msgid ""
-"The SymbolicConstant LAST_STEP or an Int specifying the step from which the initial "
-"state values are to be read or the SymbolicConstant LAST_STEP. The default value is "
-"LAST_STEP."
+"The SymbolicConstant LAST_STEP or an Int specifying the step from which "
+"the initial state values are to be read or the SymbolicConstant LAST_STEP."
+" The default value is LAST_STEP."
 msgstr ""
 
 #: ../../../../docstring
@@ -1245,9 +1311,9 @@ msgstr ""
 #: abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.InitialState:23
 #: of
 msgid ""
-"The SymbolicConstant STEP_END or an Int specifying the increment, interval or "
-"iteration of the step set in **endStep** or the SymbolicConstant STEP_END. The default"
-" value is STEP_END."
+"The SymbolicConstant STEP_END or an Int specifying the increment, interval"
+" or iteration of the step set in **endStep** or the SymbolicConstant "
+"STEP_END. The default value is STEP_END."
 msgstr ""
 
 #: ../../../../docstring
@@ -1256,8 +1322,8 @@ msgstr ""
 #: abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.InitialState:27
 #: of
 msgid ""
-"A Boolean specifying whether to update the reference configuration based on the import"
-" data. The default value is OFF."
+"A Boolean specifying whether to update the reference configuration based "
+"on the import data. The default value is OFF."
 msgstr ""
 
 #: abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.InitialState:30
@@ -1274,8 +1340,8 @@ msgstr ""
 #: abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.KinematicHardening:9
 #: of
 msgid ""
-"Check `KinematicHardening on help.3ds.com/2019 "
-"<https://help.3ds.com/2019/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"Check `KinematicHardening on help.3ds.com/2019 <https://help.3ds.com/2019/"
+"English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "kinematichardeningpyc.htm?contextscope=all>`__."
 msgstr ""
 
@@ -1285,7 +1351,9 @@ msgstr ""
 #: abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.Saturation:14
 #: abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.Velocity:14
 #: abaqus.PredefinedField.Saturation.Saturation.setValues:9 of
-msgid "A Region object specifying the region to which the predefined field is applied."
+msgid ""
+"A Region object specifying the region to which the predefined field is "
+"applied."
 msgstr ""
 
 #: ../../../../docstring
@@ -1293,7 +1361,8 @@ msgstr ""
 #: abaqus.PredefinedField.PredefinedFieldModel.KinematicHardening.numBackStress:1
 #: abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.KinematicHardening:16
 #: of
-msgid "An Int specifying the number of backstresses. The default value is 1."
+msgid ""
+"An Int specifying the number of backstresses. The default value is 1."
 msgstr ""
 
 #: ../../../../docstring
@@ -1301,7 +1370,8 @@ msgstr ""
 #: abaqus.PredefinedField.PredefinedFieldModel.KinematicHardening.equivPlasticStrain:1
 #: abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.KinematicHardening:18
 #: of
-msgid "A sequence of Floats specifying the initial equivalent Plastic strain."
+msgid ""
+"A sequence of Floats specifying the initial equivalent Plastic strain."
 msgstr ""
 
 #: ../../../../docstring
@@ -1310,8 +1380,8 @@ msgstr ""
 #: abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.KinematicHardening:20
 #: of
 msgid ""
-"A sequence of sequences of Floats specifying the initial backstress tensor for "
-"kinematic hardening models. The default value is an empty sequence."
+"A sequence of sequences of Floats specifying the initial backstress tensor"
+" for kinematic hardening models. The default value is an empty sequence."
 msgstr ""
 
 #: ../../../../docstring
@@ -1320,8 +1390,8 @@ msgstr ""
 #: abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.KinematicHardening:23
 #: of
 msgid ""
-"A sequence of Ints specifying section point numbers. This argument is valid only when "
-"**definition** = SECTION_PTS."
+"A sequence of Ints specifying section point numbers. This argument is "
+"valid only when **definition** = SECTION_PTS."
 msgstr ""
 
 #: ../../../../docstring
@@ -1330,9 +1400,9 @@ msgstr ""
 #: abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.KinematicHardening:26
 #: of
 msgid ""
-"A SymbolicConstant specifying different types of kinematic hardening. Possible values "
-"are KINEMATIC_HARDENING, CRUSHABLE_FOAM, REBAR, SECTION_PTS, and USER_DEFINED. The "
-"default value is KINEMATIC_HARDENING."
+"A SymbolicConstant specifying different types of kinematic hardening. "
+"Possible values are KINEMATIC_HARDENING, CRUSHABLE_FOAM, REBAR, "
+"SECTION_PTS, and USER_DEFINED. The default value is KINEMATIC_HARDENING."
 msgstr ""
 
 #: ../../../../docstring
@@ -1341,8 +1411,8 @@ msgstr ""
 #: abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.KinematicHardening:30
 #: of
 msgid ""
-"A sequence of Strings specifying rebar layer names. This argument is valid only when "
-"**definition** = REBAR."
+"A sequence of Strings specifying rebar layer names. This argument is valid"
+" only when **definition** = REBAR."
 msgstr ""
 
 #: ../../../../docstring
@@ -1351,8 +1421,8 @@ msgstr ""
 #: abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.KinematicHardening:33
 #: of
 msgid ""
-"A SymbolicConstant specifying whether the load is uniform. Possible values are "
-"MAGNITUDE and ANALYTICAL_FIELD. The default value is MAGNITUDE."
+"A SymbolicConstant specifying whether the load is uniform. Possible values"
+" are MAGNITUDE and ANALYTICAL_FIELD. The default value is MAGNITUDE."
 msgstr ""
 
 #: abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.KinematicHardening:36
@@ -1369,8 +1439,8 @@ msgstr ""
 #: abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.MaterialAssignment:9
 #: of
 msgid ""
-"Check `MaterialAssignment on help.3ds.com/2019 "
-"<https://help.3ds.com/2019/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"Check `MaterialAssignment on help.3ds.com/2019 <https://help.3ds.com/2019/"
+"English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "materialassignmentpyc.htm?contextscope=all>`__."
 msgstr ""
 
@@ -1379,8 +1449,9 @@ msgstr ""
 #: abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.MaterialAssignment:14
 #: of
 msgid ""
-"A PartInstanceArray object specifying the part instances to which the predefined field"
-" is applied. All instances must be assigned the same Eulerian section."
+"A PartInstanceArray object specifying the part instances to which the "
+"predefined field is applied. All instances must be assigned the same "
+"Eulerian section."
 msgstr ""
 
 #: ../../../../docstring
@@ -1389,8 +1460,8 @@ msgstr ""
 #: abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.MaterialAssignment:17
 #: of
 msgid ""
-"A Boolean specifying whether the volume fraction data will be uniform or defined by "
-"discrete fields. The default value is OFF."
+"A Boolean specifying whether the volume fraction data will be uniform or "
+"defined by discrete fields. The default value is OFF."
 msgstr ""
 
 #: ../../../../docstring
@@ -1399,11 +1470,12 @@ msgstr ""
 #: abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.MaterialAssignment:20
 #: of
 msgid ""
-"A sequence of tuples specifying the uniform volume fractions to be assigned. This "
-"argument is valid only when **useFields** = FALSE. Each tuple contains two entries:A "
-"Region object.A tuple of Floats specifying the uniform volume fraction values. The "
-"length of the tuple must match the number of material instance names specified in the "
-"Eulerain section assigned to part instances specified by **instanceList**."
+"A sequence of tuples specifying the uniform volume fractions to be "
+"assigned. This argument is valid only when **useFields** = FALSE. Each "
+"tuple contains two entries:A Region object.A tuple of Floats specifying "
+"the uniform volume fraction values. The length of the tuple must match the"
+" number of material instance names specified in the Eulerain section "
+"assigned to part instances specified by **instanceList**."
 msgstr ""
 
 #: ../../../../docstring
@@ -1412,11 +1484,12 @@ msgstr ""
 #: abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.MaterialAssignment:26
 #: of
 msgid ""
-"A sequence of tuples specifying the discrete volume fractions to be assigned. This "
-"argument is valid only when **useFields** = TRUE. Each tuple contains two entries:A "
-"Region object.A tuple of Strings specifying Discrete Field names. The length of the "
-"tuple must match the number of material instance names specified in the Eulerain "
-"section assigned to part instances specified by **instanceList**."
+"A sequence of tuples specifying the discrete volume fractions to be "
+"assigned. This argument is valid only when **useFields** = TRUE. Each "
+"tuple contains two entries:A Region object.A tuple of Strings specifying "
+"Discrete Field names. The length of the tuple must match the number of "
+"material instance names specified in the Eulerain section assigned to part"
+" instances specified by **instanceList**."
 msgstr ""
 
 #: ../../../../docstring
@@ -1425,9 +1498,10 @@ msgstr ""
 #: abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.MaterialAssignment:32
 #: of
 msgid ""
-"A sequence of three Ints specifying colors used to display the material instance "
-"assignments. This is a sequence of R,G,B colors, where the values are represented by "
-"integers between 0 and 255. The default value is an empty sequence."
+"A sequence of three Ints specifying colors used to display the material "
+"instance assignments. This is a sequence of R,G,B colors, where the values"
+" are represented by integers between 0 and 255. The default value is an "
+"empty sequence."
 msgstr ""
 
 #: abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.MaterialAssignment:36
@@ -1444,8 +1518,8 @@ msgstr ""
 #: abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.PorePressure:9
 #: of
 msgid ""
-"Check `PorePressure on help.3ds.com/2019 "
-"<https://help.3ds.com/2019/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"Check `PorePressure on help.3ds.com/2019 <https://help.3ds.com/2019/Englis"
+"h/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "porepressurepyc.htm?contextscope=all>`__."
 msgstr ""
 
@@ -1454,8 +1528,9 @@ msgstr ""
 #: abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.VoidsRatio:14
 #: of
 msgid ""
-"A Region object specifying the region to which the predefined field is applied. Region"
-" is ignored if the predefined field has **distributionType** = FROM_FILE."
+"A Region object specifying the region to which the predefined field is "
+"applied. Region is ignored if the predefined field has "
+"**distributionType** = FROM_FILE."
 msgstr ""
 
 #: abaqus.PredefinedField.PorePressure.PorePressure.setValues:7
@@ -1463,8 +1538,8 @@ msgstr ""
 #: abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.VoidsRatio:17
 #: abaqus.PredefinedField.VoidsRatio.VoidsRatio.setValues:7 of
 msgid ""
-"A SymbolicConstant specifying whether the load is uniform. Possible values are "
-"UNIFORM, FROM_FILE and USER_DEFINED. The default value is UNIFORM."
+"A SymbolicConstant specifying whether the load is uniform. Possible values"
+" are UNIFORM, FROM_FILE and USER_DEFINED. The default value is UNIFORM."
 msgstr ""
 
 #: abaqus.PredefinedField.PorePressure.PorePressure.setValues:10
@@ -1483,8 +1558,8 @@ msgstr ""
 #: abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.PorePressure:24
 #: of
 msgid ""
-"Vertical position of the first location in your model for which you are specifying "
-"initial pore pressure."
+"Vertical position of the first location in your model for which you are "
+"specifying initial pore pressure."
 msgstr ""
 
 #: abaqus.PredefinedField.PorePressure.PorePressure.setValues:16
@@ -1497,18 +1572,18 @@ msgstr ""
 #: abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.PorePressure:28
 #: of
 msgid ""
-"A SymbolicConstant specifying either the magnitude of a uniform distribution for pore "
-"pressure at the second elevation or an analytical field to define a spatially varying "
-"initial pore pressure at the second elevation. Possible values are MAGNITUDE and "
-"ANALYTICAL_FIELD."
+"A SymbolicConstant specifying either the magnitude of a uniform "
+"distribution for pore pressure at the second elevation or an analytical "
+"field to define a spatially varying initial pore pressure at the second "
+"elevation. Possible values are MAGNITUDE and ANALYTICAL_FIELD."
 msgstr ""
 
 #: abaqus.PredefinedField.PorePressure.PorePressure.setValues:22
 #: abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.PorePressure:32
 #: of
 msgid ""
-"A String specifying the name of the AnalyticalField object associated with this "
-"predefined field. The ``pressure2Field`` argument applies only when "
+"A String specifying the name of the AnalyticalField object associated with"
+" this predefined field. The ``pressure2Field`` argument applies only when "
 "``distributionType`` = ANALYTICAL_FIELD."
 msgstr ""
 
@@ -1517,8 +1592,8 @@ msgstr ""
 #: abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.VoidsRatio:35
 #: abaqus.PredefinedField.VoidsRatio.VoidsRatio.setValues:25 of
 msgid ""
-"A SymbolicConstant selecting the elevation distribution options, either Linear or "
-"Constant. Possible values are CONSTANT_RATIO and VARIABLE_RATIO."
+"A SymbolicConstant selecting the elevation distribution options, either "
+"Linear or Constant. Possible values are CONSTANT_RATIO and VARIABLE_RATIO."
 msgstr ""
 
 #: abaqus.PredefinedField.PorePressure.PorePressure.setValues:28
@@ -1526,8 +1601,8 @@ msgstr ""
 #: abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.VoidsRatio:38
 #: abaqus.PredefinedField.VoidsRatio.VoidsRatio.setValues:28 of
 msgid ""
-"A String specifying the name of the file from which the Field values are to be read "
-"when ``distributionType`` = FROM_FILE."
+"A String specifying the name of the file from which the Field values are "
+"to be read when ``distributionType`` = FROM_FILE."
 msgstr ""
 
 #: abaqus.PredefinedField.PorePressure.PorePressure.setValues:31
@@ -1535,8 +1610,8 @@ msgstr ""
 #: abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.VoidsRatio:41
 #: abaqus.PredefinedField.VoidsRatio.VoidsRatio.setValues:31 of
 msgid ""
-"The SymbolicConstant LAST_INCREMENT or an Int specifying the increment, interval or "
-"iteration of the step when ``distributionType`` = FROM_FILE."
+"The SymbolicConstant LAST_INCREMENT or an Int specifying the increment, "
+"interval or iteration of the step when ``distributionType`` = FROM_FILE."
 msgstr ""
 
 #: abaqus.PredefinedField.PorePressure.PorePressure.setValues:34
@@ -1544,8 +1619,8 @@ msgstr ""
 #: abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.VoidsRatio:44
 #: abaqus.PredefinedField.VoidsRatio.VoidsRatio.setValues:34 of
 msgid ""
-"The SymbolicConstant LAST_STEP or an Int specifying the increment, interval or "
-"iteration of the step when ``distributionType`` = FROM_FILE."
+"The SymbolicConstant LAST_STEP or an Int specifying the increment, "
+"interval or iteration of the step when ``distributionType`` = FROM_FILE."
 msgstr ""
 
 #: abaqus.PredefinedField.PorePressure.PorePressure.setValues:37
@@ -1553,8 +1628,8 @@ msgstr ""
 #: abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.VoidsRatio:47
 #: abaqus.PredefinedField.VoidsRatio.VoidsRatio.setValues:37 of
 msgid ""
-"A Boolean specifying whether to interpolate a field read from an output database or "
-"results file."
+"A Boolean specifying whether to interpolate a field read from an output "
+"database or results file."
 msgstr ""
 
 #: abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.PorePressure:49
@@ -1565,31 +1640,31 @@ msgstr ""
 #: abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.Saturation:9
 #: abaqus.PredefinedField.Saturation.Saturation:15 of
 msgid ""
-"Check `Saturation on help.3ds.com/2019 "
-"<https://help.3ds.com/2019/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"Check `Saturation on help.3ds.com/2019 <https://help.3ds.com/2019/English/"
+"DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "saturationpyc.htm?contextscope=all>`__."
 msgstr ""
 
 #: abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.Saturation:16
 #: abaqus.PredefinedField.Saturation.Saturation.setValues:11 of
 msgid ""
-"A SymbolicConstant specifying whether the load is uniform. Possible values are "
-"UNIFORM, and FIELD. The default value is UNIFORM."
+"A SymbolicConstant specifying whether the load is uniform. Possible values"
+" are UNIFORM, and FIELD. The default value is UNIFORM."
 msgstr ""
 
 #: abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.Saturation:19
 #: abaqus.PredefinedField.Saturation.Saturation.setValues:14 of
 msgid ""
-"A String specifying the name of the AnalyticalField object associated with this "
-"predefined field. The **field** argument applies only when **distributionType** = "
-"FIELD. The default value is an empty string."
+"A String specifying the name of the AnalyticalField object associated with"
+" this predefined field. The **field** argument applies only when "
+"**distributionType** = FIELD. The default value is an empty string."
 msgstr ""
 
 #: abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.Saturation:23
 #: abaqus.PredefinedField.Saturation.Saturation.setValues:18 of
 msgid ""
-"A float specifying an initial saturation value for the region between 0.0 (for no "
-"saturation) and 1.0 (for full saturation)."
+"A float specifying an initial saturation value for the region between 0.0 "
+"(for no saturation) and 1.0 (for full saturation)."
 msgstr ""
 
 #: abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.Saturation:26
@@ -1604,16 +1679,16 @@ msgstr ""
 #: abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.Stress:12
 #: abaqus.PredefinedField.Stress.Stress:18 of
 msgid ""
-"Check `Stress on help.3ds.com/2019 "
-"<https://help.3ds.com/2019/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"Check `Stress on help.3ds.com/2019 <https://help.3ds.com/2019/English/DSSI"
+"MULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "stresspyc.htm?contextscope=all>`__."
 msgstr ""
 
 #: abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.Stress:20
 #: abaqus.PredefinedField.Stress.Stress.setValues:7 of
 msgid ""
-"A SymbolicConstant specifying whether the load is uniform. Possible values are UNIFORM"
-" and FROM_FILE. The default value is UNIFORM."
+"A SymbolicConstant specifying whether the load is uniform. Possible values"
+" are UNIFORM and FROM_FILE. The default value is UNIFORM."
 msgstr ""
 
 #: abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.Stress:23
@@ -1654,33 +1729,35 @@ msgstr ""
 #: abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.Temperature:9
 #: abaqus.PredefinedField.Temperature.Temperature:16 of
 msgid ""
-"Check `Temperature on help.3ds.com/2019 "
-"<https://help.3ds.com/2019/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"Check `Temperature on help.3ds.com/2019 <https://help.3ds.com/2019/English"
+"/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "temperaturepyc.htm?contextscope=all>`__."
 msgstr ""
 
 #: abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.Temperature:16
 #: of
 msgid ""
-"A Region object specifying the region to which the predefined field is applied. "
-"**Region** is ignored if the predefined field has a **distributionType** member "
-"available, and **distributionType** = FROM_FILE ."
+"A Region object specifying the region to which the predefined field is "
+"applied. **Region** is ignored if the predefined field has a "
+"**distributionType** member available, and **distributionType** = "
+"FROM_FILE ."
 msgstr ""
 
 #: abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.Temperature:24
 #: abaqus.PredefinedField.Temperature.Temperature.setValues:11 of
 msgid ""
-"A SymbolicConstant specifying how the predefined field is distributed over the cross "
-"section of the region. Possible values are  - CONSTANT_THROUGH_THICKNESS - "
-"GRADIENTS_THROUGH_SHELL_CS - GRADIENTS_THROUGH_BEAM_CS - POINTS_THROUGH_SECTION  The "
-"default value is CONSTANT_THROUGH_THICKNESS."
+"A SymbolicConstant specifying how the predefined field is distributed over"
+" the cross section of the region. Possible values are  - "
+"CONSTANT_THROUGH_THICKNESS - GRADIENTS_THROUGH_SHELL_CS - "
+"GRADIENTS_THROUGH_BEAM_CS - POINTS_THROUGH_SECTION  The default value is "
+"CONSTANT_THROUGH_THICKNESS."
 msgstr ""
 
 #: abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.Temperature:24
 #: abaqus.PredefinedField.Temperature.Temperature.setValues:11 of
 msgid ""
-"A SymbolicConstant specifying how the predefined field is distributed over the cross "
-"section of the region. Possible values are"
+"A SymbolicConstant specifying how the predefined field is distributed over"
+" the cross section of the region. Possible values are"
 msgstr ""
 
 #: abaqus.PredefinedField.Field.Field.setValues:33
@@ -1689,10 +1766,10 @@ msgstr ""
 #: abaqus.PredefinedField.Temperature.Temperature.setValues:26
 #: abaqus.PredefinedField.Temperature.Temperature.setValuesInStep:14 of
 msgid ""
-"A String or the SymbolicConstant UNSET specifying the name of the amplitude reference."
-" UNSET should be used if the predefined field has no amplitude reference. The default "
-"value is UNSET. Note: *amplitude* should be given only if it is valid for the "
-"specified step."
+"A String or the SymbolicConstant UNSET specifying the name of the "
+"amplitude reference. UNSET should be used if the predefined field has no "
+"amplitude reference. The default value is UNSET. Note: *amplitude* should "
+"be given only if it is valid for the specified step."
 msgstr ""
 
 #: ../../../../docstring
@@ -1701,117 +1778,121 @@ msgstr ""
 #: abaqus.PredefinedField.Temperature.Temperature.setValuesInStep:19
 #: abaqus.PredefinedField.TemperatureState.TemperatureState.fileName:1 of
 msgid ""
-"A String specifying the name of the file from which the temperature values are to be "
-"read when **distributionType** = FROM_FILE or **distributionType** = "
-"FROM_FILE_AND_USER_DEFINED."
+"A String specifying the name of the file from which the temperature values"
+" are to be read when **distributionType** = FROM_FILE or "
+"**distributionType** = FROM_FILE_AND_USER_DEFINED."
 msgstr ""
 
 #: abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.Temperature:47
 #: abaqus.PredefinedField.Temperature.Temperature.setValues:34
 #: abaqus.PredefinedField.Temperature.Temperature.setValuesInStep:22 of
 msgid ""
-"An Int specifying the first step from which temperature values are to be read or the "
-"SymbolicConstant FIRST_STEP or LAST_STEP. This argument is valid only when "
-"**distributionType** = FROM_FILE or **distributionType** = FROM_FILE_AND_USER_DEFINED."
-" The default value is None."
+"An Int specifying the first step from which temperature values are to be "
+"read or the SymbolicConstant FIRST_STEP or LAST_STEP. This argument is "
+"valid only when **distributionType** = FROM_FILE or **distributionType** ="
+" FROM_FILE_AND_USER_DEFINED. The default value is None."
 msgstr ""
 
 #: abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.Temperature:57
 #: abaqus.PredefinedField.Temperature.Temperature.setValues:44
 #: abaqus.PredefinedField.Temperature.Temperature.setValuesInStep:32 of
 msgid ""
-"An Int specifying the last step from which temperature values are to be read or the "
-"SymbolicConstants FIRST_STEP and LAST_STEP. This argument is valid only when "
-"**distributionType** = FROM_FILE or **distributionType** = FROM_FILE_AND_USER_DEFINED."
-" The default value is None."
+"An Int specifying the last step from which temperature values are to be "
+"read or the SymbolicConstants FIRST_STEP and LAST_STEP. This argument is "
+"valid only when **distributionType** = FROM_FILE or **distributionType** ="
+" FROM_FILE_AND_USER_DEFINED. The default value is None."
 msgstr ""
 
 #: abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.Temperature:67
 #: abaqus.PredefinedField.Temperature.Temperature.setValues:54
 #: abaqus.PredefinedField.Temperature.Temperature.setValuesInStep:42 of
 msgid ""
-"A SymbolicConstant specifying whether to interpolate a field read from an output "
-"database or results file. Possible values are OFF, ON or MIDSIDE_ONLY. The default "
-"value is OFF."
+"A SymbolicConstant specifying whether to interpolate a field read from an "
+"output database or results file. Possible values are OFF, ON or "
+"MIDSIDE_ONLY. The default value is OFF."
 msgstr ""
 
 #: abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.Temperature:71
 #: abaqus.PredefinedField.Temperature.Temperature.setValues:58
 #: abaqus.PredefinedField.Temperature.Temperature.setValuesInStep:46 of
 msgid ""
-"A Sequence of Doubles specifying the temperature values when **distributionType** = "
-"UNIFORM or FIELD. The value of the **magnitudes** argument is a function of the "
-"**crossSectionDistribution** argument, as shown in the following list:  - If "
-"**crossSectionDistribution** = CONSTANT_THROUGH_THICKNESS then **magnitudes** is a "
-"Double   specifying the temperature. - If **crossSectionDistribution** = "
-"GRADIENTS_THROUGH_SHELL_CS then **magnitudes** is a   sequence of Doubles specifying "
-"the mean value and the gradient in the thickness   direction. - If "
-"**crossSectionDistribution** = GRADIENTS_THROUGH_BEAM_CS then **magnitudes** is a   "
-"sequence of Doubles specifying the mean value, the gradient in the N1 direction, and "
-"the   gradient in the N2 direction. - If **crossSectionDistribution** = "
-"POINTS_THROUGH_SECTION then **magnitudes** is a sequence   of Doubles specifying the "
-"temperature at each point."
+"A Sequence of Doubles specifying the temperature values when "
+"**distributionType** = UNIFORM or FIELD. The value of the **magnitudes** "
+"argument is a function of the **crossSectionDistribution** argument, as "
+"shown in the following list:  - If **crossSectionDistribution** = "
+"CONSTANT_THROUGH_THICKNESS then **magnitudes** is a Double   specifying "
+"the temperature. - If **crossSectionDistribution** = "
+"GRADIENTS_THROUGH_SHELL_CS then **magnitudes** is a   sequence of Doubles "
+"specifying the mean value and the gradient in the thickness   direction. -"
+" If **crossSectionDistribution** = GRADIENTS_THROUGH_BEAM_CS then "
+"**magnitudes** is a   sequence of Doubles specifying the mean value, the "
+"gradient in the N1 direction, and the   gradient in the N2 direction. - If"
+" **crossSectionDistribution** = POINTS_THROUGH_SECTION then **magnitudes**"
+" is a sequence   of Doubles specifying the temperature at each point."
 msgstr ""
 
 #: abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.Temperature:71
 #: abaqus.PredefinedField.Temperature.Temperature.setValues:58
 #: abaqus.PredefinedField.Temperature.Temperature.setValuesInStep:46 of
 msgid ""
-"A Sequence of Doubles specifying the temperature values when **distributionType** = "
-"UNIFORM or FIELD. The value of the **magnitudes** argument is a function of the "
-"**crossSectionDistribution** argument, as shown in the following list:"
+"A Sequence of Doubles specifying the temperature values when "
+"**distributionType** = UNIFORM or FIELD. The value of the **magnitudes** "
+"argument is a function of the **crossSectionDistribution** argument, as "
+"shown in the following list:"
 msgstr ""
 
 #: abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.Temperature:75
 #: abaqus.PredefinedField.Temperature.Temperature.setValues:62
 #: abaqus.PredefinedField.Temperature.Temperature.setValuesInStep:50 of
 msgid ""
-"If **crossSectionDistribution** = CONSTANT_THROUGH_THICKNESS then **magnitudes** is a "
-"Double specifying the temperature."
+"If **crossSectionDistribution** = CONSTANT_THROUGH_THICKNESS then "
+"**magnitudes** is a Double specifying the temperature."
 msgstr ""
 
 #: abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.Temperature:77
 #: abaqus.PredefinedField.Temperature.Temperature.setValues:64
 #: abaqus.PredefinedField.Temperature.Temperature.setValuesInStep:52 of
 msgid ""
-"If **crossSectionDistribution** = GRADIENTS_THROUGH_SHELL_CS then **magnitudes** is a "
-"sequence of Doubles specifying the mean value and the gradient in the thickness "
-"direction."
+"If **crossSectionDistribution** = GRADIENTS_THROUGH_SHELL_CS then "
+"**magnitudes** is a sequence of Doubles specifying the mean value and the "
+"gradient in the thickness direction."
 msgstr ""
 
 #: abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.Temperature:80
 #: abaqus.PredefinedField.Temperature.Temperature.setValues:67
 #: abaqus.PredefinedField.Temperature.Temperature.setValuesInStep:55 of
 msgid ""
-"If **crossSectionDistribution** = GRADIENTS_THROUGH_BEAM_CS then **magnitudes** is a "
-"sequence of Doubles specifying the mean value, the gradient in the N1 direction, and "
-"the gradient in the N2 direction."
+"If **crossSectionDistribution** = GRADIENTS_THROUGH_BEAM_CS then "
+"**magnitudes** is a sequence of Doubles specifying the mean value, the "
+"gradient in the N1 direction, and the gradient in the N2 direction."
 msgstr ""
 
 #: abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.Temperature:83
 #: abaqus.PredefinedField.Temperature.Temperature.setValues:70
 #: abaqus.PredefinedField.Temperature.Temperature.setValuesInStep:58 of
 msgid ""
-"If **crossSectionDistribution** = POINTS_THROUGH_SECTION then **magnitudes** is a "
-"sequence of Doubles specifying the temperature at each point."
+"If **crossSectionDistribution** = POINTS_THROUGH_SECTION then "
+"**magnitudes** is a sequence of Doubles specifying the temperature at each"
+" point."
 msgstr ""
 
 #: abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.Temperature:86
 #: abaqus.PredefinedField.Temperature.Temperature.setValues:73
 #: abaqus.PredefinedField.Temperature.Temperature.setValuesInStep:61 of
 msgid ""
-"A Float specifying the absolute value by which a driven node of the field can lie "
-"outside the region of the elements of the global model. The default value is 0.0. This"
-" argument cannot be used with **midside**."
+"A Float specifying the absolute value by which a driven node of the field "
+"can lie outside the region of the elements of the global model. The "
+"default value is 0.0. This argument cannot be used with **midside**."
 msgstr ""
 
 #: abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.Temperature:90
 #: abaqus.PredefinedField.Temperature.Temperature.setValues:77
 #: abaqus.PredefinedField.Temperature.Temperature.setValuesInStep:65 of
 msgid ""
-"A Float specifying the fraction of the average element size in the global model by "
-"which a driven node of the field can lie outside the region of the elements of the "
-"global model. The default value is 0.0. This argument cannot be used with **midside**."
+"A Float specifying the fraction of the average element size in the global "
+"model by which a driven node of the field can lie outside the region of "
+"the elements of the global model. The default value is 0.0. This argument "
+"cannot be used with **midside**."
 msgstr ""
 
 #: abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.Temperature:94
@@ -1827,8 +1908,8 @@ msgstr ""
 #: abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.Velocity:9
 #: abaqus.PredefinedField.Velocity.Velocity:15 of
 msgid ""
-"Check `Velocity on help.3ds.com/2019 "
-"<https://help.3ds.com/2019/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"Check `Velocity on help.3ds.com/2019 <https://help.3ds.com/2019/English/DS"
+"SIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "velocitypyc.htm?contextscope=all>`__."
 msgstr ""
 
@@ -1860,16 +1941,16 @@ msgstr ""
 #: abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.Velocity:24
 #: abaqus.PredefinedField.Velocity.Velocity.axisBegin:1 of
 msgid ""
-"A sequence of Floats specifying the *X-*, *Y-*, and **Z**  coordinates of the starting"
-" point of the axis about which **omega** is defined."
+"A sequence of Floats specifying the *X-*, *Y-*, and **Z**  coordinates of "
+"the starting point of the axis about which **omega** is defined."
 msgstr ""
 
 #: ../../../../docstring
 #: abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.Velocity:27
 #: abaqus.PredefinedField.Velocity.Velocity.axisEnd:1 of
 msgid ""
-"A sequence of Floats specifying the *X-*, *Y-*, and **Z**  coordinates of the end "
-"point of the axis about which **omega** is defined."
+"A sequence of Floats specifying the *X-*, *Y-*, and **Z**  coordinates of "
+"the end point of the axis about which **omega** is defined."
 msgstr ""
 
 #: ../../../../docstring
@@ -1877,9 +1958,10 @@ msgstr ""
 #: abaqus.PredefinedField.Velocity.Velocity.field:1
 #: abaqus.PredefinedField.Velocity.Velocity.setValues:7 of
 msgid ""
-"A String specifying the name of the AnalyticalField object associated with this "
-"predefined field. The **field** argument applies only when **distributionType** = "
-"FIELD_ANALYTICAL. The default value is an empty string."
+"A String specifying the name of the AnalyticalField object associated with"
+" this predefined field. The **field** argument applies only when "
+"**distributionType** = FIELD_ANALYTICAL. The default value is an empty "
+"string."
 msgstr ""
 
 #: ../../../../docstring
@@ -1887,8 +1969,8 @@ msgstr ""
 #: abaqus.PredefinedField.Velocity.Velocity.distributionType:1
 #: abaqus.PredefinedField.Velocity.Velocity.setValues:11 of
 msgid ""
-"A SymbolicConstant specifying whether the load is uniform. Possible values are "
-"MAGNITUDE and FIELD_ANALYTICAL. The default value is MAGNITUDE."
+"A SymbolicConstant specifying whether the load is uniform. Possible values"
+" are MAGNITUDE and FIELD_ANALYTICAL. The default value is MAGNITUDE."
 msgstr ""
 
 #: abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.Velocity:37
@@ -1904,8 +1986,8 @@ msgstr ""
 #: abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.VoidsRatio:9
 #: abaqus.PredefinedField.VoidsRatio.VoidsRatio:15 of
 msgid ""
-"Check `VoidsRatio on help.3ds.com/2019 "
-"<https://help.3ds.com/2019/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"Check `VoidsRatio on help.3ds.com/2019 <https://help.3ds.com/2019/English/"
+"DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "voidsratiopyc.htm?contextscope=all>`__."
 msgstr ""
 
@@ -1922,8 +2004,8 @@ msgstr ""
 #: abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.VoidsRatio:24
 #: abaqus.PredefinedField.VoidsRatio.VoidsRatio.setValues:14 of
 msgid ""
-"Vertical position of the first location in your model for which you are specifying "
-"initial void ratio."
+"Vertical position of the first location in your model for which you are "
+"specifying initial void ratio."
 msgstr ""
 
 #: abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.VoidsRatio:26
@@ -1934,18 +2016,18 @@ msgstr ""
 #: abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.VoidsRatio:28
 #: abaqus.PredefinedField.VoidsRatio.VoidsRatio.setValues:18 of
 msgid ""
-"A SymbolicConstant specifying either the magnitude of a uniform distribution for void "
-"ratio at the second elevation or an analytical field to define a spatially varying "
-"initial void ratio at the second elevation. Possible values are MAGNITUDE and "
-"ANALYTICAL_FIELD."
+"A SymbolicConstant specifying either the magnitude of a uniform "
+"distribution for void ratio at the second elevation or an analytical field"
+" to define a spatially varying initial void ratio at the second elevation."
+" Possible values are MAGNITUDE and ANALYTICAL_FIELD."
 msgstr ""
 
 #: abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.VoidsRatio:32
 #: abaqus.PredefinedField.VoidsRatio.VoidsRatio.setValues:22 of
 msgid ""
-"A String specifying the name of the AnalyticalField object associated with this "
-"predefined field. The ``ratio2Field`` argument applies only when ``distributionType`` "
-"= ANALYTICAL_FIELD."
+"A String specifying the name of the AnalyticalField object associated with"
+" this predefined field. The ``ratio2Field`` argument applies only when "
+"``distributionType`` = ANALYTICAL_FIELD."
 msgstr ""
 
 #: abaqus.PredefinedField.PredefinedFieldModel.PredefinedFieldModel.VoidsRatio:49
@@ -1968,14 +2050,15 @@ msgstr ""
 #: abaqus.PredefinedField.Temperature.Temperature:1
 #: abaqus.PredefinedField.Velocity.Velocity:1
 #: abaqus.PredefinedField.VoidsRatio.VoidsRatio:1 of
-msgid "Bases: :py:class:`~abaqus.PredefinedField.PredefinedField.PredefinedField`"
+msgid ""
+"Bases: :py:class:`~abaqus.PredefinedField.PredefinedField.PredefinedField`"
 msgstr ""
 
 #: abaqus.PredefinedField.Field.Field:1 of
 msgid ""
-"The Field object stores the data for field predefined fields. The Field object is "
-"derived from the PredefinedField object. **distributionType=FROM_FILE** or "
-"FROM_FILE_AND_USER_DEFINED."
+"The Field object stores the data for field predefined fields. The Field "
+"object is derived from the PredefinedField object. "
+"**distributionType=FROM_FILE** or FROM_FILE_AND_USER_DEFINED."
 msgstr ""
 
 #: abaqus.PredefinedField.Field.Field:11
@@ -2014,26 +2097,29 @@ msgid "The ``Field`` class was added."
 msgstr ""
 
 #: abaqus.PredefinedField.Field.Field.move:1 of
-msgid "This method moves the FieldState object from one step to a different step."
+msgid ""
+"This method moves the FieldState object from one step to a different step."
 msgstr ""
 
 #: abaqus.PredefinedField.Field.Field.move:4 of
 msgid ""
-"Check `Field.move on help.3ds.com/2019 "
-"<https://help.3ds.com/2019/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"Check `Field.move on help.3ds.com/2019 <https://help.3ds.com/2019/English/"
+"DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "fieldpyc.htm?contextscope=all#simaker-fieldmovepyc>`__."
 msgstr ""
 
 #: abaqus.PredefinedField.Field.Field.move:7
 #: abaqus.PredefinedField.Temperature.Temperature.move:7 of
 msgid ""
-"A String specifying the name of the step from which the PredefinedFieldState is moved."
+"A String specifying the name of the step from which the "
+"PredefinedFieldState is moved."
 msgstr ""
 
 #: abaqus.PredefinedField.Field.Field.move:9
 #: abaqus.PredefinedField.Temperature.Temperature.move:9 of
 msgid ""
-"A String specifying the name of the step to which the PredefinedFieldState is moved."
+"A String specifying the name of the step to which the PredefinedFieldState"
+" is moved."
 msgstr ""
 
 #: abaqus.PredefinedField.Field.Field.move
@@ -2046,42 +2132,44 @@ msgstr ""
 #: ../../../../docstring
 #: abaqus.PredefinedField.PredefinedFieldModel.Field.region:1 of
 msgid ""
-"A Region object specifying the region to which the predefined field is applied. "
-"*Region* is ignored if the predefined field has an **instances** member available. "
-"**Region** is also ignored if the predefined field has a **distributionType** member "
-"available, and **distributionType** = FROM_FILE or FROM_FILE_AND_USER_DEFINED."
+"A Region object specifying the region to which the predefined field is "
+"applied. *Region* is ignored if the predefined field has an **instances** "
+"member available. **Region** is also ignored if the predefined field has a"
+" **distributionType** member available, and **distributionType** = "
+"FROM_FILE or FROM_FILE_AND_USER_DEFINED."
 msgstr ""
 
 #: abaqus.PredefinedField.Field.Field.setValues:1 of
 msgid ""
-"This method modifies the data for an existing Field object in the step where it is "
-"created."
+"This method modifies the data for an existing Field object in the step "
+"where it is created."
 msgstr ""
 
 #: abaqus.PredefinedField.Field.Field.setValues:4 of
 msgid ""
-"Check `Field.setValues on help.3ds.com/2019 "
-"<https://help.3ds.com/2019/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"Check `Field.setValues on help.3ds.com/2019 <https://help.3ds.com/2019/Eng"
+"lish/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "fieldpyc.htm?contextscope=all#simaker-fieldsetvaluespyc>`__."
 msgstr ""
 
 #: abaqus.PredefinedField.Field.Field.setValuesInStep:1 of
 msgid ""
-"This method modifies the propagating data for an existing Field object in the "
-"specified step."
+"This method modifies the propagating data for an existing Field object in "
+"the specified step."
 msgstr ""
 
 #: abaqus.PredefinedField.Field.Field.setValuesInStep:4 of
 msgid ""
-"Check `Field.setValuesInStep on help.3ds.com/2019 "
-"<https://help.3ds.com/2019/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"Check `Field.setValuesInStep on help.3ds.com/2019 <https://help.3ds.com/20"
+"19/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "fieldpyc.htm?contextscope=all#simaker-fieldsetvaluesinsteppyc>`__."
 msgstr ""
 
 #: abaqus.PredefinedField.Field.Field.setValuesInStep:7
 #: abaqus.PredefinedField.Temperature.Temperature.setValuesInStep:7 of
 msgid ""
-"A String specifying the name of the step in which the predefined field is modified."
+"A String specifying the name of the step in which the predefined field is "
+"modified."
 msgstr ""
 
 #: abaqus.PredefinedField.IMAField.IMAField:1
@@ -2094,18 +2182,19 @@ msgstr ""
 
 #: abaqus.PredefinedField.PredefinedField.PredefinedField:1 of
 msgid ""
-"The PredefinedField object is the base object for the objects in the predefined field "
-"repository. The methods and members of the PredefinedField object are common to all "
-"objects derived from PredefinedField. An instance of any PredefinedField object can be"
-" obtained through the predefined field repository of the Model object. An instance of "
-"any PredefinedFieldState object can be obtained through the predefined field "
-"repository of the Step object."
+"The PredefinedField object is the base object for the objects in the "
+"predefined field repository. The methods and members of the "
+"PredefinedField object are common to all objects derived from "
+"PredefinedField. An instance of any PredefinedField object can be obtained"
+" through the predefined field repository of the Model object. An instance "
+"of any PredefinedFieldState object can be obtained through the predefined "
+"field repository of the Step object."
 msgstr ""
 
 #: abaqus.PredefinedField.PredefinedField.PredefinedField:14 of
 msgid ""
-"Check `PredefinedField on help.3ds.com/2019 "
-"<https://help.3ds.com/2019/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"Check `PredefinedField on help.3ds.com/2019 <https://help.3ds.com/2019/Eng"
+"lish/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "predefinedfieldpyc.htm?contextscope=all>`__."
 msgstr ""
 
@@ -2115,9 +2204,10 @@ msgstr ""
 
 #: abaqus.PredefinedField.PredefinedField.PredefinedField.delete:4 of
 msgid ""
-"Check `PredefinedField.delete on help.3ds.com/2019 "
-"<https://help.3ds.com/2019/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
-"predefinedfieldpyc.htm?contextscope=all#simaker-predefinedfielddeletepyc>`__."
+"Check `PredefinedField.delete on help.3ds.com/2019 <https://help.3ds.com/2"
+"019/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"predefinedfieldpyc.htm?contextscope=all#simaker-"
+"predefinedfielddeletepyc>`__."
 msgstr ""
 
 #: abaqus.PredefinedField.PredefinedField.PredefinedField.delete:7 of
@@ -2131,41 +2221,44 @@ msgstr ""
 
 #: abaqus.PredefinedField.PredefinedField.PredefinedField.move:1 of
 msgid ""
-"This method moves a specific PredefinedFieldState object from one step to a different "
-"step."
+"This method moves a specific PredefinedFieldState object from one step to "
+"a different step."
 msgstr ""
 
 #: abaqus.PredefinedField.PredefinedField.PredefinedField.move:4 of
 msgid ""
-"Check `PredefinedField.move on help.3ds.com/2019 "
-"<https://help.3ds.com/2019/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
-"predefinedfieldpyc.htm?contextscope=all#simaker-predefinedfieldmovepyc>`__."
+"Check `PredefinedField.move on help.3ds.com/2019 <https://help.3ds.com/201"
+"9/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"predefinedfieldpyc.htm?contextscope=all#simaker-"
+"predefinedfieldmovepyc>`__."
 msgstr ""
 
 #: abaqus.PredefinedField.PredefinedField.PredefinedField.move:7 of
 msgid ""
-"A String specifying the name of the step from which the PredefinedFieldState object is"
-" moved."
+"A String specifying the name of the step from which the "
+"PredefinedFieldState object is moved."
 msgstr ""
 
 #: abaqus.PredefinedField.PredefinedField.PredefinedField.move:10 of
 msgid ""
-"A String specifying the name of the step to which the PredefinedFieldState object is "
-"moved."
+"A String specifying the name of the step to which the PredefinedFieldState"
+" object is moved."
 msgstr ""
 
 #: ../../../../docstring
 #: abaqus.PredefinedField.Temperature.Temperature.region:1
 #: abaqus.PredefinedField.VoidsRatio.PredefinedField.region:1 of
 msgid ""
-"A Region object specifying the region to which the predefined field is applied. "
-"**Region** is ignored if the predefined field has an **instances** member available. "
-"**Region** is also ignored if the predefined field has a **distributionType** member "
-"available, and **distributionType** = FROM_FILE or FROM_FILE_AND_USER_DEFINED."
+"A Region object specifying the region to which the predefined field is "
+"applied. **Region** is ignored if the predefined field has an "
+"**instances** member available. **Region** is also ignored if the "
+"predefined field has a **distributionType** member available, and "
+"**distributionType** = FROM_FILE or FROM_FILE_AND_USER_DEFINED."
 msgstr ""
 
 #: abaqus.PredefinedField.PredefinedField.PredefinedField.resume:1 of
-msgid "This method resumes the predefined field that was previously suppressed."
+msgid ""
+"This method resumes the predefined field that was previously suppressed."
 msgstr ""
 
 #: abaqus.PredefinedField.PredefinedField.PredefinedField.suppress:1 of
@@ -2175,15 +2268,16 @@ msgstr ""
 #: abaqus.PredefinedField.FieldState.FieldState:1
 #: abaqus.PredefinedField.TemperatureState.TemperatureState:1 of
 msgid ""
-"Bases: :py:class:`~abaqus.PredefinedField.PredefinedFieldState.PredefinedFieldState`"
+"Bases: :py:class:`~abaqus.PredefinedField.PredefinedFieldState.PredefinedF"
+"ieldState`"
 msgstr ""
 
 #: abaqus.PredefinedField.FieldState.FieldState:1 of
 msgid ""
-"The FieldState object stores the propagating data of a field in a step. One instance "
-"of this object is created internally by the Field object for each step. The FieldState"
-" object has no constructor or methods. The FieldState object is derived from the "
-"PredefinedFieldState object."
+"The FieldState object stores the propagating data of a field in a step. "
+"One instance of this object is created internally by the Field object for "
+"each step. The FieldState object has no constructor or methods. The "
+"FieldState object is derived from the PredefinedFieldState object."
 msgstr ""
 
 #: abaqus.PredefinedField.FieldState.FieldState:11 of
@@ -2192,36 +2286,38 @@ msgstr ""
 
 #: abaqus.PredefinedField.FieldState.FieldState:15 of
 msgid ""
-"Check `FieldState on help.3ds.com/2019 "
-"<https://help.3ds.com/2019/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"Check `FieldState on help.3ds.com/2019 <https://help.3ds.com/2019/English/"
+"DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "fieldstatepyc.htm?contextscope=all>`__."
 msgstr ""
 
 #: ../../../../docstring
 #: abaqus.PredefinedField.FieldState.FieldState.amplitude:1 of
 msgid ""
-"The SymbolicConstant UNSET or a String specifying the name of the amplitude reference."
-" The SymbolicConstant UNSET should be used if the predefined field has no amplitude "
-"reference. The default value is UNSET. Note:  **amplitude** should be given only if it"
-" is valid for the specified step."
+"The SymbolicConstant UNSET or a String specifying the name of the "
+"amplitude reference. The SymbolicConstant UNSET should be used if the "
+"predefined field has no amplitude reference. The default value is UNSET. "
+"Note:  **amplitude** should be given only if it is valid for the specified"
+" step."
 msgstr ""
 
 #: ../../../../docstring
 #: abaqus.PredefinedField.FieldState.FieldState.amplitudeState:1
 #: abaqus.PredefinedField.TemperatureState.TemperatureState.amplitudeState:1 of
 msgid ""
-"A SymbolicConstant specifying the propagation state of the **amplitudeState** member. "
-"Possible values are UNSET, SET, and UNCHANGED."
+"A SymbolicConstant specifying the propagation state of the "
+"**amplitudeState** member. Possible values are UNSET, SET, and UNCHANGED."
 msgstr ""
 
 #: ../../../../docstring
 #: abaqus.PredefinedField.FieldState.FieldState.beginIncrement:1
 #: abaqus.PredefinedField.TemperatureState.TemperatureState.beginIncrement:1 of
 msgid ""
-"None or an Int specifying the first increment of the step set in **beginStep** or the "
-"SymbolicConstants STEP_START or STEP_END. This argument is valid only when "
-"**distributionType** = FROM_FILE or **distributionType** = FROM_FILE_AND_USER_DEFINED."
-" The default value is None."
+"None or an Int specifying the first increment of the step set in "
+"**beginStep** or the SymbolicConstants STEP_START or STEP_END. This "
+"argument is valid only when **distributionType** = FROM_FILE or "
+"**distributionType** = FROM_FILE_AND_USER_DEFINED. The default value is "
+"None."
 msgstr ""
 
 #: ../../../../docstring
@@ -2229,35 +2325,36 @@ msgstr ""
 #: abaqus.PredefinedField.TemperatureState.TemperatureState.beginIncrementState:1
 #: of
 msgid ""
-"A SymbolicConstant specifying the propagation state of the **beginIncrement** member. "
-"Possible values are UNSET, SET, and UNCHANGED."
+"A SymbolicConstant specifying the propagation state of the "
+"**beginIncrement** member. Possible values are UNSET, SET, and UNCHANGED."
 msgstr ""
 
 #: ../../../../docstring
 #: abaqus.PredefinedField.FieldState.FieldState.beginStep:1 of
 msgid ""
-"A SymbolicConstant or an Int specifying the first step from which field values are to "
-"be read. This argument is valid only when **distribution** = FROM_FILE or "
-"**distribution** = FROM_FILE_AND_USER_DEFINED. Possible values are FIRST_STEP, "
-"LAST_STEP, and NONE. The default value is NONE."
+"A SymbolicConstant or an Int specifying the first step from which field "
+"values are to be read. This argument is valid only when **distribution** ="
+" FROM_FILE or **distribution** = FROM_FILE_AND_USER_DEFINED. Possible "
+"values are FIRST_STEP, LAST_STEP, and NONE. The default value is NONE."
 msgstr ""
 
 #: ../../../../docstring
 #: abaqus.PredefinedField.FieldState.FieldState.beginStepState:1
 #: abaqus.PredefinedField.TemperatureState.TemperatureState.beginStepState:1 of
 msgid ""
-"A SymbolicConstant specifying the propagation state of the **beginStep** member. "
-"Possible values are UNSET, SET, and UNCHANGED."
+"A SymbolicConstant specifying the propagation state of the **beginStep** "
+"member. Possible values are UNSET, SET, and UNCHANGED."
 msgstr ""
 
 #: ../../../../docstring
 #: abaqus.PredefinedField.FieldState.FieldState.endIncrement:1
 #: abaqus.PredefinedField.TemperatureState.TemperatureState.endIncrement:1 of
 msgid ""
-"None or an Int specifying the last increment of the step set in **endStep** or the "
-"SymbolicConstants STEP_START and STEP_END. This argument is valid only when "
-"**distributionType** = FROM_FILE or **distributionType** = FROM_FILE_AND_USER_DEFINED."
-" The default value is None."
+"None or an Int specifying the last increment of the step set in "
+"**endStep** or the SymbolicConstants STEP_START and STEP_END. This "
+"argument is valid only when **distributionType** = FROM_FILE or "
+"**distributionType** = FROM_FILE_AND_USER_DEFINED. The default value is "
+"None."
 msgstr ""
 
 #: ../../../../docstring
@@ -2265,63 +2362,64 @@ msgstr ""
 #: abaqus.PredefinedField.TemperatureState.TemperatureState.endIncrementState:1
 #: of
 msgid ""
-"A SymbolicConstant specifying the propagation state of the **endIncrement** member. "
-"Possible values are UNSET, SET, and UNCHANGED."
+"A SymbolicConstant specifying the propagation state of the "
+"**endIncrement** member. Possible values are UNSET, SET, and UNCHANGED."
 msgstr ""
 
 #: ../../../../docstring abaqus.PredefinedField.FieldState.FieldState.endStep:1
 #: of
 msgid ""
-"None or an Int specifying the last step from which field values are to be read or the "
-"SymbolicConstants FIRST_STEP and LAST_STEP. This argument is valid only when "
-"**distributionType** = FROM_FILE or **distributionType** = FROM_FILE_AND_USER_DEFINED."
-" The default value is None."
+"None or an Int specifying the last step from which field values are to be "
+"read or the SymbolicConstants FIRST_STEP and LAST_STEP. This argument is "
+"valid only when **distributionType** = FROM_FILE or **distributionType** ="
+" FROM_FILE_AND_USER_DEFINED. The default value is None."
 msgstr ""
 
 #: ../../../../docstring
 #: abaqus.PredefinedField.FieldState.FieldState.endStepState:1
 #: abaqus.PredefinedField.TemperatureState.TemperatureState.endStepState:1 of
 msgid ""
-"A SymbolicConstant specifying the propagation state of the **endStep** member. "
-"Possible values are UNSET, SET, and UNCHANGED."
+"A SymbolicConstant specifying the propagation state of the **endStep** "
+"member. Possible values are UNSET, SET, and UNCHANGED."
 msgstr ""
 
 #: ../../../../docstring
 #: abaqus.PredefinedField.FieldState.FieldState.fileName:1 of
 msgid ""
-"A String specifying the name of the file from which the field values are to be read "
-"when **distributionType** = FROM_FILE or **distributionType** = "
-"FROM_FILE_AND_USER_DEFINED."
+"A String specifying the name of the file from which the field values are "
+"to be read when **distributionType** = FROM_FILE or **distributionType** ="
+" FROM_FILE_AND_USER_DEFINED."
 msgstr ""
 
 #: ../../../../docstring
 #: abaqus.PredefinedField.FieldState.FieldState.fileNameState:1
 #: abaqus.PredefinedField.TemperatureState.TemperatureState.fileNameState:1 of
 msgid ""
-"A SymbolicConstant specifying the propagation state of the **fileName** member. "
-"Possible values are UNSET, SET, and UNCHANGED."
+"A SymbolicConstant specifying the propagation state of the **fileName** "
+"member. Possible values are UNSET, SET, and UNCHANGED."
 msgstr ""
 
 #: ../../../../docstring
 #: abaqus.PredefinedField.FieldState.FieldState.magnitudes:1 of
 msgid ""
-"A tuple of Floats specifying the field values when **distributionType** = UNIFORM or "
-"**distributionType** = FIELD. The value of the **magnitudes** argument is a function "
-"of the **crossSectionDistribution** argument, as shown in the following list:"
+"A tuple of Floats specifying the field values when **distributionType** = "
+"UNIFORM or **distributionType** = FIELD. The value of the **magnitudes** "
+"argument is a function of the **crossSectionDistribution** argument, as "
+"shown in the following list:"
 msgstr ""
 
 #: ../../../../docstring
 #: abaqus.PredefinedField.FieldState.FieldState.magnitudes:5 of
 msgid ""
-"If **crossSectionDistribution** = CONSTANT_THROUGH_THICKNESS, **magnitudes** is a "
-"Double specifying the field."
+"If **crossSectionDistribution** = CONSTANT_THROUGH_THICKNESS, "
+"**magnitudes** is a Double specifying the field."
 msgstr ""
 
 #: ../../../../docstring
 #: abaqus.PredefinedField.FieldState.FieldState.magnitudes:12 of
 msgid ""
-"If **crossSectionDistribution** = POINTS_THROUGH_SECTION, **magnitudes** is a sequence"
-" of Doubles specifying the field at each point."
+"If **crossSectionDistribution** = POINTS_THROUGH_SECTION, **magnitudes** "
+"is a sequence of Doubles specifying the field at each point."
 msgstr ""
 
 #: ../../../../docstring
@@ -2329,16 +2427,17 @@ msgstr ""
 #: abaqus.PredefinedField.TemperatureState.TemperatureState.magnitudesState:1
 #: of
 msgid ""
-"A tuple of SymbolicConstants specifying the propagation state of each item of the "
-"**magnitudes** member. Possible values are UNSET, SET, and UNCHANGED."
+"A tuple of SymbolicConstants specifying the propagation state of each item"
+" of the **magnitudes** member. Possible values are UNSET, SET, and "
+"UNCHANGED."
 msgstr ""
 
 #: ../../../../docstring abaqus.PredefinedField.FieldState.FieldState.status:1
 #: abaqus.PredefinedField.TemperatureState.PredefinedFieldState.status:1
 #: abaqus.PredefinedField.TemperatureState.TemperatureState.status:1 of
 msgid ""
-"A SymbolicConstant specifying the propagation state of the PredefinedFieldState "
-"object. Possible values are:"
+"A SymbolicConstant specifying the propagation state of the "
+"PredefinedFieldState object. Possible values are:"
 msgstr ""
 
 #: ../../../../docstring abaqus.PredefinedField.FieldState.FieldState.status:4
@@ -2423,9 +2522,9 @@ msgstr ""
 #: abaqus.PredefinedField.TemperatureState.PredefinedFieldState.status:18
 #: abaqus.PredefinedField.TemperatureState.TemperatureState.status:18 of
 msgid ""
-"This member exists in all PredefinedFieldState objects, but different predefined "
-"fields use different subsets of the entire list of possible values depending on "
-"propagation rules."
+"This member exists in all PredefinedFieldState objects, but different "
+"predefined fields use different subsets of the entire list of possible "
+"values depending on propagation rules."
 msgstr ""
 
 #: abaqus.PredefinedField.PredefinedFieldState.PredefinedFieldState:1 of
@@ -2433,26 +2532,29 @@ msgid ""
 "The PredefinedFieldState object is the base object for the objects in the "
 "predefinedFieldState repository of the Step object. The members of the "
 "PredefinedFieldState object are common to all objects derived from "
-"PredefinedFieldState. The PredefinedFieldState object has no constructor or methods."
+"PredefinedFieldState. The PredefinedFieldState object has no constructor "
+"or methods."
 msgstr ""
 
 #: abaqus.PredefinedField.PredefinedFieldState.PredefinedFieldState:12 of
 msgid ""
-"Check `PredefinedFieldState on help.3ds.com/2019 "
-"<https://help.3ds.com/2019/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"Check `PredefinedFieldState on help.3ds.com/2019 <https://help.3ds.com/201"
+"9/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "predefinedfieldstatepyc.htm?contextscope=all>`__."
 msgstr ""
 
 #: abaqus.PredefinedField.FluidCavityPressure.FluidCavityPressure:1 of
 msgid ""
-"The FluidCavityPressure object stores the data for initial fluid cavity pressures. The"
-" base class *region* argument can not be specifed with this object. The "
-"FluidCavityPressure object is derived from the PredefinedField object."
+"The FluidCavityPressure object stores the data for initial fluid cavity "
+"pressures. The base class *region* argument can not be specifed with this "
+"object. The FluidCavityPressure object is derived from the PredefinedField"
+" object."
 msgstr ""
 
 #: ../../../../docstring
 #: abaqus.PredefinedField.PredefinedFieldModel.FluidCavityPressure.region:1 of
-msgid "A Region object on which the **fluidCavity** interaction is specified."
+msgid ""
+"A Region object on which the **fluidCavity** interaction is specified."
 msgstr ""
 
 #: abaqus.PredefinedField.FluidCavityPressure.FluidCavityPressure.setValues:1
@@ -2462,57 +2564,58 @@ msgstr ""
 
 #: abaqus.PredefinedField.IMAField.IMAField:1 of
 msgid ""
-"A IMAField is an object used to define material instance name volume fractions for the"
-" MaterialAssignment predefined field."
+"A IMAField is an object used to define material instance name volume "
+"fractions for the MaterialAssignment predefined field."
 msgstr ""
 
 #: abaqus.PredefinedField.IMAField.IMAField:11 of
 msgid ""
-"Check `IMAField on help.3ds.com/2019 "
-"<https://help.3ds.com/2019/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"Check `IMAField on help.3ds.com/2019 <https://help.3ds.com/2019/English/DS"
+"SIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "imafieldpyc.htm?contextscope=all>`__."
 msgstr ""
 
 #: ../../../../docstring
 #: abaqus.PredefinedField.PredefinedField.IMAField.discfieldList:1 of
 msgid ""
-"A tuple of Strings specifying the name of the discrete fields that contain the volume "
-"fraction data. The length of the tuple corresponds to the number of material instance "
-"names, as established by the assigned Eulerian section."
+"A tuple of Strings specifying the name of the discrete fields that contain"
+" the volume fraction data. The length of the tuple corresponds to the "
+"number of material instance names, as established by the assigned Eulerian"
+" section."
 msgstr ""
 
 #: ../../../../docstring abaqus.PredefinedField.IMARegion.IMARegion.region:1
 #: abaqus.PredefinedField.PredefinedField.IMAField.region:1 of
 msgid ""
-"A Region object specifying the sub-region of the selected part instance to which the "
-"volume fractions will be applied."
+"A Region object specifying the sub-region of the selected part instance to"
+" which the volume fractions will be applied."
 msgstr ""
 
 #: abaqus.PredefinedField.IMARegion.IMARegion:1 of
 msgid ""
-"A IMARegion is an object used to define material instance name volume fractions for "
-"the MaterialAssignment predefined field."
+"A IMARegion is an object used to define material instance name volume "
+"fractions for the MaterialAssignment predefined field."
 msgstr ""
 
 #: abaqus.PredefinedField.IMARegion.IMARegion:11 of
 msgid ""
-"Check `IMARegion on help.3ds.com/2019 "
-"<https://help.3ds.com/2019/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"Check `IMARegion on help.3ds.com/2019 <https://help.3ds.com/2019/English/D"
+"SSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "imaregionpyc.htm?contextscope=all>`__."
 msgstr ""
 
 #: ../../../../docstring
 #: abaqus.PredefinedField.IMARegion.IMARegion.fractionList:1 of
 msgid ""
-"A tuple of Floats specifying the volume fractions, per material instance name. The "
-"length of the tuple corresponds to the number of material instance names, as "
-"established by the assigned Eulerian section."
+"A tuple of Floats specifying the volume fractions, per material instance "
+"name. The length of the tuple corresponds to the number of material "
+"instance names, as established by the assigned Eulerian section."
 msgstr ""
 
 #: abaqus.PredefinedField.InitialState.InitialState:1 of
 msgid ""
-"The InitialState object stores the data for an initial state predefined field. The "
-"InitialState object is derived from the PredefinedField object."
+"The InitialState object stores the data for an initial state predefined "
+"field. The InitialState object is derived from the PredefinedField object."
 msgstr ""
 
 #: abaqus.PredefinedField.InitialState.InitialState:12 of
@@ -2525,24 +2628,25 @@ msgstr ""
 
 #: abaqus.PredefinedField.InitialState.InitialState.setValues:4 of
 msgid ""
-"Check `InitialState.setValues on help.3ds.com/2019 "
-"<https://help.3ds.com/2019/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"Check `InitialState.setValues on help.3ds.com/2019 <https://help.3ds.com/2"
+"019/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "initialstatepyc.htm?contextscope=all#simaker-initialstatesetvaluespyc>`__."
 msgstr ""
 
 #: abaqus.PredefinedField.KinematicHardening.KinematicHardening:1 of
 msgid ""
-"The KinematicHardening object stores the data for initial equivalent Plastic strains "
-"and, if relevant, the initial backstress tensor. The KinematicHardening object is "
-"derived from the PredefinedField object."
+"The KinematicHardening object stores the data for initial equivalent "
+"Plastic strains and, if relevant, the initial backstress tensor. The "
+"KinematicHardening object is derived from the PredefinedField object."
 msgstr ""
 
 #: ../../../../docstring
 #: abaqus.PredefinedField.PredefinedFieldModel.KinematicHardening.field:1 of
 msgid ""
-"A String specifying the name of the AnalyticalField object associated with this "
-"predefined field. The **field** argument applies only when **distributionType** = "
-"ANALYTICAL_FIELD. The default value is an empty string."
+"A String specifying the name of the AnalyticalField object associated with"
+" this predefined field. The **field** argument applies only when "
+"**distributionType** = ANALYTICAL_FIELD. The default value is an empty "
+"string."
 msgstr ""
 
 #: abaqus.PredefinedField.KinematicHardening.KinematicHardening.setValues:1 of
@@ -2551,16 +2655,17 @@ msgstr ""
 
 #: abaqus.PredefinedField.KinematicHardening.KinematicHardening.setValues:4 of
 msgid ""
-"Check `KinematicHardening.setValues on help.3ds.com/2019 "
-"<https://help.3ds.com/2019/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
-"kinematichardeningpyc.htm?contextscope=all#simaker-kinematichardeningsetvaluespyc>`__."
+"Check `KinematicHardening.setValues on help.3ds.com/2019 <https://help.3ds"
+".com/2019/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"kinematichardeningpyc.htm?contextscope=all#simaker-"
+"kinematichardeningsetvaluespyc>`__."
 msgstr ""
 
 #: abaqus.PredefinedField.MaterialAssignment.MaterialAssignment:1 of
 msgid ""
-"The MaterialAssignment object stores the data for an initial material assignment "
-"predefined field, for use with an Eulerian analysis. The MaterialAssignment object is "
-"derived from the PredefinedField object."
+"The MaterialAssignment object stores the data for an initial material "
+"assignment predefined field, for use with an Eulerian analysis. The "
+"MaterialAssignment object is derived from the PredefinedField object."
 msgstr ""
 
 #: abaqus.PredefinedField.MaterialAssignment.MaterialAssignment.setValues:1 of
@@ -2569,15 +2674,17 @@ msgstr ""
 
 #: abaqus.PredefinedField.MaterialAssignment.MaterialAssignment.setValues:4 of
 msgid ""
-"Check `MaterialAssignment.setValues on help.3ds.com/2019 "
-"<https://help.3ds.com/2019/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
-"materialassignmentpyc.htm?contextscope=all#simaker-materialassignmentsetvaluespyc>`__."
+"Check `MaterialAssignment.setValues on help.3ds.com/2019 <https://help.3ds"
+".com/2019/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"materialassignmentpyc.htm?contextscope=all#simaker-"
+"materialassignmentsetvaluespyc>`__."
 msgstr ""
 
 #: abaqus.PredefinedField.PorePressure.PorePressure:1 of
 msgid ""
-"The PorePressure object stores the data for an initial pore pressure predefined field."
-" The PorePressure object is derived from the PredefinedField object."
+"The PorePressure object stores the data for an initial pore pressure "
+"predefined field. The PorePressure object is derived from the "
+"PredefinedField object."
 msgstr ""
 
 #: abaqus.PredefinedField.PorePressure.PorePressure.setValues:1 of
@@ -2586,8 +2693,8 @@ msgstr ""
 
 #: abaqus.PredefinedField.PorePressure.PorePressure.setValues:4 of
 msgid ""
-"Check `PorePressure.setValues on help.3ds.com/2019 "
-"<https://help.3ds.com/2019/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"Check `PorePressure.setValues on help.3ds.com/2019 <https://help.3ds.com/2"
+"019/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "porepressurepyc.htm?contextscope=all#simaker-porepressuresetvaluespyc>`__."
 msgstr ""
 
@@ -2599,8 +2706,8 @@ msgstr ""
 
 #: abaqus.PredefinedField.Saturation.Saturation:1 of
 msgid ""
-"The Saturation object stores the data for a saturation predefined field. The "
-"Saturation object is derived from the PredefinedField object."
+"The Saturation object stores the data for a saturation predefined field. "
+"The Saturation object is derived from the PredefinedField object."
 msgstr ""
 
 #: abaqus.PredefinedField.Saturation.Saturation.setValues:1 of
@@ -2609,15 +2716,15 @@ msgstr ""
 
 #: abaqus.PredefinedField.Saturation.Saturation.setValues:4 of
 msgid ""
-"Check `Saturation.setValues on help.3ds.com/2019 "
-"<https://help.3ds.com/2019/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"Check `Saturation.setValues on help.3ds.com/2019 <https://help.3ds.com/201"
+"9/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "saturationpyc.htm?contextscope=all#simaker-saturationsetvaluespyc>`__."
 msgstr ""
 
 #: abaqus.PredefinedField.Stress.Stress:1 of
 msgid ""
-"The Stress object stores the data for an initial stress predefined field. The Stress "
-"object is derived from the PredefinedField object."
+"The Stress object stores the data for an initial stress predefined field. "
+"The Stress object is derived from the PredefinedField object."
 msgstr ""
 
 #: abaqus.PredefinedField.Stress.Stress:14 of
@@ -2630,8 +2737,8 @@ msgstr ""
 
 #: abaqus.PredefinedField.Stress.Stress.setValues:4 of
 msgid ""
-"Check `Stress.setValues on help.3ds.com/2019 "
-"<https://help.3ds.com/2019/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"Check `Stress.setValues on help.3ds.com/2019 <https://help.3ds.com/2019/En"
+"glish/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "stresspyc.htm?contextscope=all#simaker-stresssetvaluespyc>`__."
 msgstr ""
 
@@ -2641,8 +2748,8 @@ msgstr ""
 
 #: abaqus.PredefinedField.Temperature.Temperature:1 of
 msgid ""
-"The Temperature object stores the data for temperature predefined fields. The "
-"Temperature object is derived from the PredefinedField object."
+"The Temperature object stores the data for temperature predefined fields. "
+"The Temperature object is derived from the PredefinedField object."
 msgstr ""
 
 #: abaqus.PredefinedField.Temperature.Temperature:13 of
@@ -2650,46 +2757,49 @@ msgid "TEMPERATURE"
 msgstr ""
 
 #: abaqus.PredefinedField.Temperature.Temperature.move:1 of
-msgid "This method moves the TemperatureState object from one step to a different step."
+msgid ""
+"This method moves the TemperatureState object from one step to a different"
+" step."
 msgstr ""
 
 #: abaqus.PredefinedField.Temperature.Temperature.move:4 of
 msgid ""
-"Check `Temperature.move on help.3ds.com/2019 "
-"<https://help.3ds.com/2019/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"Check `Temperature.move on help.3ds.com/2019 <https://help.3ds.com/2019/En"
+"glish/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "temperaturepyc.htm?contextscope=all#simaker-temperaturemovepyc>`__."
 msgstr ""
 
 #: abaqus.PredefinedField.Temperature.Temperature.setValues:1 of
 msgid ""
-"This method modifies the data for an existing Temperature object in the step where it "
-"is created."
+"This method modifies the data for an existing Temperature object in the "
+"step where it is created."
 msgstr ""
 
 #: abaqus.PredefinedField.Temperature.Temperature.setValues:4 of
 msgid ""
-"Check `Temperature.setValues on help.3ds.com/2019 "
-"<https://help.3ds.com/2019/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"Check `Temperature.setValues on help.3ds.com/2019 <https://help.3ds.com/20"
+"19/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "temperaturepyc.htm?contextscope=all#simaker-temperaturesetvaluespyc>`__."
 msgstr ""
 
 #: abaqus.PredefinedField.Temperature.Temperature.setValuesInStep:1 of
 msgid ""
-"This method modifies the propagating data for an existing Temperature object in the "
-"specified step."
+"This method modifies the propagating data for an existing Temperature "
+"object in the specified step."
 msgstr ""
 
 #: abaqus.PredefinedField.Temperature.Temperature.setValuesInStep:4 of
 msgid ""
-"Check `Temperature.setValuesInStep on help.3ds.com/2019 "
-"<https://help.3ds.com/2019/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
-"temperaturepyc.htm?contextscope=all#simaker-temperaturesetvaluesinsteppyc>`__."
+"Check `Temperature.setValuesInStep on help.3ds.com/2019 <https://help.3ds."
+"com/2019/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"temperaturepyc.htm?contextscope=all#simaker-"
+"temperaturesetvaluesinsteppyc>`__."
 msgstr ""
 
 #: abaqus.PredefinedField.Velocity.Velocity:1 of
 msgid ""
-"The Velocity object stores the data for an initial velocity predefined field. The "
-"Velocity object is derived from the PredefinedField object."
+"The Velocity object stores the data for an initial velocity predefined "
+"field. The Velocity object is derived from the PredefinedField object."
 msgstr ""
 
 #: abaqus.PredefinedField.Velocity.Velocity.setValues:1 of
@@ -2698,15 +2808,15 @@ msgstr ""
 
 #: abaqus.PredefinedField.Velocity.Velocity.setValues:4 of
 msgid ""
-"Check `Velocity.setValues on help.3ds.com/2019 "
-"<https://help.3ds.com/2019/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"Check `Velocity.setValues on help.3ds.com/2019 <https://help.3ds.com/2019/"
+"English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "velocitypyc.htm?contextscope=all#simaker-velocitysetvaluespyc>`__."
 msgstr ""
 
 #: abaqus.PredefinedField.VoidsRatio.VoidsRatio:1 of
 msgid ""
-"The VoidsRatio object stores the data for an initial void ratio predefined field. The "
-"VoidsRatio object is derived from the PredefinedField object."
+"The VoidsRatio object stores the data for an initial void ratio predefined"
+" field. The VoidsRatio object is derived from the PredefinedField object."
 msgstr ""
 
 #: abaqus.PredefinedField.VoidsRatio.VoidsRatio.setValues:1 of
@@ -2715,96 +2825,103 @@ msgstr ""
 
 #: abaqus.PredefinedField.VoidsRatio.VoidsRatio.setValues:4 of
 msgid ""
-"Check `VoidsRatio.setValues on help.3ds.com/2019 "
-"<https://help.3ds.com/2019/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"Check `VoidsRatio.setValues on help.3ds.com/2019 <https://help.3ds.com/201"
+"9/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "voidsratiopyc.htm?contextscope=all#simaker-voidsratiosetvaluespyc>`__."
 msgstr ""
 
 #: abaqus.PredefinedField.TemperatureState.TemperatureState:1 of
 msgid ""
-"The TemperatureState object stores the propagating data of a temperature in a step. "
-"One instance of this object is created internally by the Temperature object for each "
-"step. The TemperatureState object has no constructor or methods. The TemperatureState "
-"object is derived from the PredefinedFieldState object."
+"The TemperatureState object stores the propagating data of a temperature "
+"in a step. One instance of this object is created internally by the "
+"Temperature object for each step. The TemperatureState object has no "
+"constructor or methods. The TemperatureState object is derived from the "
+"PredefinedFieldState object."
 msgstr ""
 
 #: abaqus.PredefinedField.TemperatureState.TemperatureState:12 of
 msgid ""
-"Check `TemperatureState on help.3ds.com/2019 "
-"<https://help.3ds.com/2019/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"Check `TemperatureState on help.3ds.com/2019 <https://help.3ds.com/2019/En"
+"glish/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "temperaturestatepyc.htm?contextscope=all>`__."
 msgstr ""
 
 #: ../../../../docstring
 #: abaqus.PredefinedField.TemperatureState.TemperatureState.amplitude:1 of
 msgid ""
-"The SymbolicConstant UNSET or a String specifying the name of the amplitude reference."
-" The SymbolicConstant UNSET should be used if the predefined field has no amplitude "
-"reference. The default value is UNSET. Note: *amplitude* should be given only if it is"
-" valid for the specified step."
+"The SymbolicConstant UNSET or a String specifying the name of the "
+"amplitude reference. The SymbolicConstant UNSET should be used if the "
+"predefined field has no amplitude reference. The default value is UNSET. "
+"Note: *amplitude* should be given only if it is valid for the specified "
+"step."
 msgstr ""
 
 #: ../../../../docstring
 #: abaqus.PredefinedField.TemperatureState.TemperatureState.beginStep:1 of
 msgid ""
-"A SymbolicConstant or an Int specifying the first step from which temperature values "
-"are to be read. This argument is valid only when **distribution** = FROM_FILE or "
-"**distribution** = FROM_FILE_AND_USER_DEFINED. Possible values are FIRST_STEP, "
-"LAST_STEP, and NONE. The default value is NONE."
+"A SymbolicConstant or an Int specifying the first step from which "
+"temperature values are to be read. This argument is valid only when "
+"**distribution** = FROM_FILE or **distribution** = "
+"FROM_FILE_AND_USER_DEFINED. Possible values are FIRST_STEP, LAST_STEP, and"
+" NONE. The default value is NONE."
 msgstr ""
 
 #: ../../../../docstring
 #: abaqus.PredefinedField.TemperatureState.TemperatureState.endStep:1 of
 msgid ""
-"None or an Int specifying the last step from which temperature values are to be read "
-"or the SymbolicConstants FIRST_STEP and LAST_STEP. This argument is valid only when "
-"**distributionType** = FROM_FILE or **distributionType** = FROM_FILE_AND_USER_DEFINED."
-" The default value is None."
+"None or an Int specifying the last step from which temperature values are "
+"to be read or the SymbolicConstants FIRST_STEP and LAST_STEP. This "
+"argument is valid only when **distributionType** = FROM_FILE or "
+"**distributionType** = FROM_FILE_AND_USER_DEFINED. The default value is "
+"None."
 msgstr ""
 
 #: ../../../../docstring
 #: abaqus.PredefinedField.TemperatureState.TemperatureState.magnitudes:1 of
 msgid ""
-"A tuple of Floats specifying the temperature values when **distributionType** = "
-"UNIFORM or **distributionType** = FIELD. The value of the **magnitudes** argument is a"
-" function of the **crossSectionDistribution** argument, as shown in the following "
-"list: - If **crossSectionDistribution** = CONSTANT_THROUGH_THICKNESS then "
+"A tuple of Floats specifying the temperature values when "
+"**distributionType** = UNIFORM or **distributionType** = FIELD. The value "
+"of the **magnitudes** argument is a function of the "
+"**crossSectionDistribution** argument, as shown in the following list: - "
+"If **crossSectionDistribution** = CONSTANT_THROUGH_THICKNESS then "
 "**magnitudes** is a Double specifying the temperature. - If "
-"**crossSectionDistribution** = GRADIENTS_THROUGH_SHELL_CS then **magnitudes** is a "
-"sequence of Doubles specifying the mean value and the gradient in the thickness "
-"direction. - If **crossSectionDistribution** = GRADIENTS_THROUGH_BEAM_CS then "
-"**magnitudes** is a sequence of Doubles specifying the mean value, the gradient in the"
-" N1 direction, and the gradient in the N2 direction. - If **crossSectionDistribution**"
-" = POINTS_THROUGH_SECTION then **magnitudes** is a sequence of Doubles specifying the "
-"temperature at each point."
+"**crossSectionDistribution** = GRADIENTS_THROUGH_SHELL_CS then "
+"**magnitudes** is a sequence of Doubles specifying the mean value and the "
+"gradient in the thickness direction. - If **crossSectionDistribution** = "
+"GRADIENTS_THROUGH_BEAM_CS then **magnitudes** is a sequence of Doubles "
+"specifying the mean value, the gradient in the N1 direction, and the "
+"gradient in the N2 direction. - If **crossSectionDistribution** = "
+"POINTS_THROUGH_SECTION then **magnitudes** is a sequence of Doubles "
+"specifying the temperature at each point."
 msgstr ""
 
 #: ../../../../docstring
 #: abaqus.PredefinedField.TemperatureState.TemperatureState.midside:1 of
 msgid ""
-"A Boolean specifying that temperatures in second-order elements are to be interpolated"
-" from corner node temperatures. This argument is valid only when **distributionType** "
-"= FROM_FILE or **distributionType** = FROM_FILE_AND_USER_DEFINED."
+"A Boolean specifying that temperatures in second-order elements are to be "
+"interpolated from corner node temperatures. This argument is valid only "
+"when **distributionType** = FROM_FILE or **distributionType** = "
+"FROM_FILE_AND_USER_DEFINED."
 msgstr ""
 
 #: ../../../../docstring
 #: abaqus.PredefinedField.TemperatureState.TemperatureState.midsideState:1 of
 msgid ""
-"A SymbolicConstant specifying the propagation state of the **midside** member. "
-"Possible values are UNSET, SET, and UNCHANGED."
+"A SymbolicConstant specifying the propagation state of the **midside** "
+"member. Possible values are UNSET, SET, and UNCHANGED."
 msgstr ""
 
 #: abaqus.PredefinedField.TiffOptions.TiffOptions:1 of
 msgid ""
-"The TiffOptions object stores the settings that Abaqus uses when printing in TIFF "
-"format. The TiffOptions object has no constructor. Abaqus creates the **tiffOptions** "
-"member when a session is started."
+"The TiffOptions object stores the settings that Abaqus uses when printing "
+"in TIFF format. The TiffOptions object has no constructor. Abaqus creates "
+"the **tiffOptions** member when a session is started."
 msgstr ""
 
 #: abaqus.PredefinedField.TiffOptions.TiffOptions:10 of
 msgid ""
-"Check `TiffOptions on help.3ds.com/2019 "
-"<https://help.3ds.com/2019/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"Check `TiffOptions on help.3ds.com/2019 <https://help.3ds.com/2019/English"
+"/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "tiffoptionspyc.htm?contextscope=all>`__."
 msgstr ""
 
@@ -2814,36 +2931,38 @@ msgstr ""
 
 #: abaqus.PredefinedField.TiffOptions.TiffOptions.setValues:4 of
 msgid ""
-"Check `TiffOptions.setValues on help.3ds.com/2019 "
-"<https://help.3ds.com/2019/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
+"Check `TiffOptions.setValues on help.3ds.com/2019 <https://help.3ds.com/20"
+"19/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-"
 "tiffoptionspyc.htm?contextscope=all#simaker-tiffoptionssetvaluespyc>`__."
 msgstr ""
 
 #: abaqus.PredefinedField.TiffOptions.TiffOptions.setValues:7 of
 msgid ""
-"The SymbolicConstant SIZE_ON_SCREEN or a pair of Ints specifying the width and height "
-"of the image in pixels. Possible values are (**minWidth**, **minHeight**) ≤ "
-"**imageSize** ≤ (**maxWidth** and **maxHeight**). The default value is SIZE_ON_SCREEN."
-" Note:The minimum value of width and height (**minWidth** and **minHeight** ) is the "
-"number of pixels that occupy 10 mm at the current screen resolution. The value is "
-"typically around 50 pixels and may be different for width and height. The maximum "
-"value of width and height (**maxWidth** and **maxHeight** ) is the largest number of "
-"pixels supported by the system graphics and will be at least as large as the screen "
-"dimensions."
+"The SymbolicConstant SIZE_ON_SCREEN or a pair of Ints specifying the width"
+" and height of the image in pixels. Possible values are (**minWidth**, "
+"**minHeight**) ≤ **imageSize** ≤ (**maxWidth** and **maxHeight**). The "
+"default value is SIZE_ON_SCREEN. Note:The minimum value of width and "
+"height (**minWidth** and **minHeight** ) is the number of pixels that "
+"occupy 10 mm at the current screen resolution. The value is typically "
+"around 50 pixels and may be different for width and height. The maximum "
+"value of width and height (**maxWidth** and **maxHeight** ) is the largest"
+" number of pixels supported by the system graphics and will be at least as"
+" large as the screen dimensions."
 msgstr ""
 
 #: abaqus.PredefinedField.TiffOptions.TiffOptions.setValues:17 of
 msgid ""
-"If either the width or height arguments of **imageSize** are out of range (where     "
-"**minWidth** and **minHeight** are the number of pixels corresponding to approximately"
-" 10 mm     for a given display and **maxWidth** and **maxHeight** are the largest "
-"allowable number of     pixels supported by the system graphics)."
+"If either the width or height arguments of **imageSize** are out of range "
+"(where     **minWidth** and **minHeight** are the number of pixels "
+"corresponding to approximately 10 mm     for a given display and "
+"**maxWidth** and **maxHeight** are the largest allowable number of     "
+"pixels supported by the system graphics)."
 msgstr ""
 
 #: abaqus.PredefinedField.TiffOptions.TiffOptions.setValues:18 of
 msgid ""
-"imageSize must be SIZE_ON_SCREEN or a sequence of 2 Ints in the range, (minWidth, "
-"minHeight) <= (width, height) <= (maxWidth, maxHeight)."
+"imageSize must be SIZE_ON_SCREEN or a sequence of 2 Ints in the range, "
+"(minWidth, minHeight) <= (width, height) <= (maxWidth, maxHeight)."
 msgstr ""
 
 #~ msgid "Bases: :py:class:`~abaqus.Model.ModelBase.ModelBase`"
