@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: abqpy 2023\n"
+"Project-Id-Version: abqpy 2024\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-14 03:47+0000\n"
+"POT-Creation-Date: 2024-07-14 01:53+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,7 +29,7 @@ msgid "Create instances"
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyModel.py:docstring of abaqus.Assembly.AssemblyModel.AssemblyModel:1
-msgid "Bases: :py:class:`~abaqus.Assembly.AssemblyModel.ModelBase`"
+msgid "Bases: :py:class:`~abaqus.Model.ModelBase.ModelBase`"
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyModel.py:docstring of abaqus.Assembly.AssemblyModel.AssemblyModel:1
@@ -132,7 +132,436 @@ msgid "This object can be accessed by::"
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyModel.py:docstring of abaqus.Assembly.AssemblyModel.AssemblyModel:9
-msgid "Check `AssemblyModel on help.3ds.com/2023 <https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-modelasmpyc.htm?contextscope=all>`__."
+msgid "Check `AssemblyModel on help.3ds.com/2024 <https://help.3ds.com/2024/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-modelasmpyc.htm?contextscope=all>`__."
+msgstr ""
+
+#: ../../../../../src/abaqus/Assembly/AssemblyModel.py:docstring of abaqus.Assembly.AssemblyModel.AssemblyModel:0
+msgid "Public Data Attributes:"
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid ":py:obj:`name <abaqus.Model.ModelBase.ModelBase.name>`\\"
+msgstr ""
+
+#: ../../../../../src/abaqus/Assembly/AssemblyModel.py:docstring of abaqus.Assembly.AssemblyModel.AssemblyModel.Instance:13
+#: ../../../../None:55:<autosummary>:1
+msgid "A String specifying the repository key."
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid ":py:obj:`stefanBoltzmann <abaqus.Model.ModelBase.ModelBase.stefanBoltzmann>`\\"
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid "None or a Float specifying the Stefan-Boltzmann constant."
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid ":py:obj:`absoluteZero <abaqus.Model.ModelBase.ModelBase.absoluteZero>`\\"
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid "None or a Float specifying the absolute zero constant."
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid ":py:obj:`waveFormulation <abaqus.Model.ModelBase.ModelBase.waveFormulation>`\\"
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid "A SymbolicConstant specifying the type of incident wave formulation to be used in acoustic problems."
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid ":py:obj:`universalGas <abaqus.Model.ModelBase.ModelBase.universalGas>`\\"
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid "None or a Float specifying the universal gas constant."
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid ":py:obj:`noPartsInputFile <abaqus.Model.ModelBase.ModelBase.noPartsInputFile>`\\"
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid "A Boolean specifying whether an input file should be written without parts and assemblies."
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid ":py:obj:`endRestartStep <abaqus.Model.ModelBase.ModelBase.endRestartStep>`\\"
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid "A Boolean specifying that the step specified by **restartStep** should be terminated at the increment specified by **restartIncrement**."
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid ":py:obj:`shellToSolid <abaqus.Model.ModelBase.ModelBase.shellToSolid>`\\"
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid "A Boolean specifying that a shell global model drives a solid submodel."
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid ":py:obj:`lastChangedCount <abaqus.Model.ModelBase.ModelBase.lastChangedCount>`\\"
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid "A Float specifying the time stamp that indicates when the model was last changed."
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid ":py:obj:`description <abaqus.Model.ModelBase.ModelBase.description>`\\"
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid "A String specifying the purpose and contents of the Model object."
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid ":py:obj:`restartJob <abaqus.Model.ModelBase.ModelBase.restartJob>`\\"
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid "A String specifying the name of the job that generated the restart data."
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid ":py:obj:`restartStep <abaqus.Model.ModelBase.ModelBase.restartStep>`\\"
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid "A String specifying the name of the step where the restart analysis will start."
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid ":py:obj:`globalJob <abaqus.Model.ModelBase.ModelBase.globalJob>`\\"
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid "A String specifying the name of the job that generated the results for the global model."
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid ":py:obj:`copyConstraints <abaqus.Model.ModelBase.ModelBase.copyConstraints>`\\"
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid "A boolean specifying the status of constraints created in a model, in the model which instances this model."
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid ":py:obj:`copyConnectors <abaqus.Model.ModelBase.ModelBase.copyConnectors>`\\"
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid "A boolean specifying the status of connectors created in a model, in the model which instances this model."
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid ":py:obj:`copyInteractions <abaqus.Model.ModelBase.ModelBase.copyInteractions>`\\"
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid "A boolean specifying the status of interactions created in a model, in the model which instances this model."
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid ":py:obj:`keywordBlock <abaqus.Model.ModelBase.ModelBase.keywordBlock>`\\"
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid "A KeywordBlock object."
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid ":py:obj:`amplitudes <abaqus.Model.ModelBase.ModelBase.amplitudes>`\\"
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid "A repository of Amplitude objects."
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid ":py:obj:`profiles <abaqus.Model.ModelBase.ModelBase.profiles>`\\"
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid "A repository of Profile objects."
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid ":py:obj:`boundaryConditions <abaqus.Model.ModelBase.ModelBase.boundaryConditions>`\\"
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid "A repository of BoundaryCondition objects."
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid ":py:obj:`constraints <abaqus.Model.ModelBase.ModelBase.constraints>`\\"
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid "A repository of ConstrainedSketchConstraint objects."
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid ":py:obj:`analyticalFields <abaqus.Model.ModelBase.ModelBase.analyticalFields>`\\"
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid "A repository of AnalyticalField objects."
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid ":py:obj:`discreteFields <abaqus.Model.ModelBase.ModelBase.discreteFields>`\\"
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid "A repository of DiscreteField objects."
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid ":py:obj:`predefinedFields <abaqus.Model.ModelBase.ModelBase.predefinedFields>`\\"
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid "A repository of PredefinedField objects."
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid ":py:obj:`interactions <abaqus.Model.ModelBase.ModelBase.interactions>`\\"
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid "A repository of Interaction objects."
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid ":py:obj:`interactionProperties <abaqus.Model.ModelBase.ModelBase.interactionProperties>`\\"
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid "A repository of InteractionProperty objects."
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid ":py:obj:`contactControls <abaqus.Model.ModelBase.ModelBase.contactControls>`\\"
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid "A repository of ContactControl objects."
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid ":py:obj:`contactInitializations <abaqus.Model.ModelBase.ModelBase.contactInitializations>`\\"
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid "A repository of ContactInitialization objects."
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid ":py:obj:`contactStabilizations <abaqus.Model.ModelBase.ModelBase.contactStabilizations>`\\"
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid "A repository of ContactStabilization objects."
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid ":py:obj:`linkedInstances <abaqus.Model.ModelBase.ModelBase.linkedInstances>`\\"
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid "A tuple of tuples of Strings specifying the linked child PartInstance name in the current model to the corresponding parent PartInstance name in a different model."
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid ":py:obj:`linkedParts <abaqus.Model.ModelBase.ModelBase.linkedParts>`\\"
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid "A tuple of tuples of Strings specifying the linked child Part name in the current model to the corresponding parent Part name in a different model."
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid ":py:obj:`loads <abaqus.Model.ModelBase.ModelBase.loads>`\\"
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid "A repository of Load objects."
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid ":py:obj:`materials <abaqus.Model.ModelBase.ModelBase.materials>`\\"
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid "A repository of Material objects."
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid ":py:obj:`calibrations <abaqus.Model.ModelBase.ModelBase.calibrations>`\\"
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid "A repository of Calibration objects."
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid ":py:obj:`sections <abaqus.Model.ModelBase.ModelBase.sections>`\\"
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid "A repository of Section objects."
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid ":py:obj:`remeshingRules <abaqus.Model.ModelBase.ModelBase.remeshingRules>`\\"
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid "A repository of RemeshingRule objects."
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid ":py:obj:`sketches <abaqus.Model.ModelBase.ModelBase.sketches>`\\"
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid "A repository of ConstrainedSketch objects."
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid ":py:obj:`parts <abaqus.Model.ModelBase.ModelBase.parts>`\\"
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid "A repository of Part objects."
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid ":py:obj:`steps <abaqus.Model.ModelBase.ModelBase.steps>`\\"
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid "A repository of Step objects."
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid ":py:obj:`featureOptions <abaqus.Model.ModelBase.ModelBase.featureOptions>`\\"
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid "A FeatureOptions object."
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid ":py:obj:`adaptiveMeshConstraints <abaqus.Model.ModelBase.ModelBase.adaptiveMeshConstraints>`\\"
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid "A repository of AdaptiveMeshConstraint objects."
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid ":py:obj:`adaptiveMeshControls <abaqus.Model.ModelBase.ModelBase.adaptiveMeshControls>`\\"
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid "A repository of AdaptiveMeshControl objects."
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid ":py:obj:`timePoints <abaqus.Model.ModelBase.ModelBase.timePoints>`\\"
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid "A repository of TimePoint objects."
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid ":py:obj:`filters <abaqus.Model.ModelBase.ModelBase.filters>`\\"
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid "A repository of Filter objects."
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid ":py:obj:`integratedOutputSections <abaqus.Model.ModelBase.ModelBase.integratedOutputSections>`\\"
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid "A repository of IntegratedOutputSection objects."
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid ":py:obj:`fieldOutputRequests <abaqus.Model.ModelBase.ModelBase.fieldOutputRequests>`\\"
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid "A repository of FieldOutputRequest objects."
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid ":py:obj:`historyOutputRequests <abaqus.Model.ModelBase.ModelBase.historyOutputRequests>`\\"
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid "A repository of HistoryOutputRequest objects."
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid ":py:obj:`optimizationTasks <abaqus.Model.ModelBase.ModelBase.optimizationTasks>`\\"
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid "A repository of OptimizationTask objects."
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid ":py:obj:`tableCollections <abaqus.Model.ModelBase.ModelBase.tableCollections>`\\"
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid "A repository of TableCollection objects."
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid ":py:obj:`eventSeriesTypes <abaqus.Model.ModelBase.ModelBase.eventSeriesTypes>`\\"
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid "A repository of EventSeriesType objects."
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid ":py:obj:`eventSeriesDatas <abaqus.Model.ModelBase.ModelBase.eventSeriesDatas>`\\"
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid "A repository of EventSeriesData objects."
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid ":py:obj:`restartIncrement <abaqus.Model.ModelBase.ModelBase.restartIncrement>`\\"
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid "An Int specifying the increment, interval, iteration or cycle where the restart analysis will start."
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid ":py:obj:`rootAssembly <abaqus.Model.ModelBase.ModelBase.rootAssembly>`\\"
+msgstr ""
+
+#: ../../../../None:55:<autosummary>:1
+msgid "An Assembly object."
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyModel.py:docstring of abaqus.Assembly.AssemblyModel.AssemblyModel:0
@@ -165,13 +594,51 @@ msgstr ""
 msgid "This method links the selected PartInstance objects to the corresponding PartInstance objects from the specified models."
 msgstr ""
 
+#: ../../../../None:7:<autosummary>:1
+msgid ":py:obj:`__init__ <abaqus.Model.ModelBase.ModelBase.__init__>`\\ \\(name\\[\\, description\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../../None:7:<autosummary>:1
+msgid "This method creates a Model object."
+msgstr ""
+
+#: ../../../../None:7:<autosummary>:1
+msgid ":py:obj:`ModelFromInputFile <abaqus.Model.ModelBase.ModelBase.ModelFromInputFile>`\\ \\(name\\, inputFileName\\)"
+msgstr ""
+
+#: ../../../../None:7:<autosummary>:1
+msgid "This method creates a Model object by reading the keywords in an input file and creating the corresponding Abaqus/CAE objects."
+msgstr ""
+
+#: ../../../../None:7:<autosummary>:1
+msgid ":py:obj:`ModelFromOdbFile <abaqus.Model.ModelBase.ModelBase.ModelFromOdbFile>`\\ \\(name\\, odbFileName\\)"
+msgstr ""
+
+#: ../../../../None:7:<autosummary>:1
+msgid "This method creates a Model object by reading an output database and creating any corresponding Abaqus/CAE objects."
+msgstr ""
+
+#: ../../../../None:7:<autosummary>:1
+msgid ":py:obj:`ModelFromNastranFile <abaqus.Model.ModelBase.ModelBase.ModelFromNastranFile>`\\ \\(modelName\\, inputFileName\\)"
+msgstr ""
+
+#: ../../../../None:7:<autosummary>:1
+msgid "This method creates a Model object by reading the keywords in a Nastran bulk data file or Nastran input file and creating any corresponding Abaqus/CAE objects."
+msgstr ""
+
+#: ../../../../None:7:<autosummary>:1
+msgid ":py:obj:`setValues <abaqus.Model.ModelBase.ModelBase.setValues>`\\ \\(\\[description\\, noPartsInputFile\\, ...\\]\\)"
+msgstr ""
+
+#: ../../../../None:7:<autosummary>:1
+msgid "This method modifies the Model object."
+msgstr ""
+
 #: ../../../../../src/abaqus/Assembly/Assembly.py:docstring of abaqus.Assembly.Assembly.Assembly:1
 #: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase:1
 #: ../../../../../src/abaqus/Assembly/AssemblyFeature.py:docstring of abaqus.Assembly.AssemblyFeature.AssemblyFeature:1
 #: ../../../../../src/abaqus/Assembly/AssemblyModel.py:docstring of abaqus.Assembly.AssemblyModel.AssemblyModel:1
-#: ../../../../../src/abaqus/Assembly/AssemblyModel.py:docstring of abaqus.Assembly.AssemblyModel.ModelBase:1
 #: ../../../../../src/abaqus/Assembly/ConnectorOrientation.py:docstring of abaqus.Assembly.ConnectorOrientation.ConnectorOrientation:1
-#: ../../../../../src/abaqus/Assembly/ModelInstance.py:docstring of abaqus.Assembly.ModelInstance.Model:1
 #: ../../../../../src/abaqus/Assembly/ModelInstance.py:docstring of abaqus.Assembly.ModelInstance.ModelInstance:1
 #: ../../../../../src/abaqus/Assembly/PartInstance.py:docstring of abaqus.Assembly.PartInstance.PartInstance:1
 msgid "Member Details:"
@@ -196,7 +663,7 @@ msgid "This function can be accessed by::"
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyModel.py:docstring of abaqus.Assembly.AssemblyModel.AssemblyModel.Instance:10
-msgid "Check `Instance on help.3ds.com/2023 <https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-instanceasmpyc.htm?contextscope=all>`__."
+msgid "Check `Instance on help.3ds.com/2024 <https://help.3ds.com/2024/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-instanceasmpyc.htm?contextscope=all>`__."
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/Assembly.py:docstring of abaqus.Assembly.Assembly.Assembly.ConnectorOrientation:0
@@ -253,10 +720,6 @@ msgstr ""
 #: ../../../../../src/abaqus/Assembly/PartInstance.py:docstring of abaqus.Assembly.PartInstance.PartInstance.translate:0
 #: ../../../../../src/abaqus/Assembly/PartInstance.py:docstring of abaqus.Assembly.PartInstance.PartInstance.translateTo:0
 msgid "Parameters"
-msgstr ""
-
-#: ../../../../../src/abaqus/Assembly/AssemblyModel.py:docstring of abaqus.Assembly.AssemblyModel.AssemblyModel.Instance:13
-msgid "A String specifying the repository key."
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyModel.py:docstring of abaqus.Assembly.AssemblyModel.AssemblyModel.Instance:15
@@ -332,7 +795,7 @@ msgid ":class:`Model`"
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyModel.py:docstring of abaqus.Assembly.AssemblyModel.AssemblyModel.convertAllSketches:5
-msgid "Check `AssemblyModel.convertAllSketches on help.3ds.com/2023 <https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-modelasmpyc.htm?contextscope=all#simaker-modelconvertallsketchespyc>`__."
+msgid "Check `AssemblyModel.convertAllSketches on help.3ds.com/2024 <https://help.3ds.com/2024/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-modelasmpyc.htm?contextscope=all#simaker-modelconvertallsketchespyc>`__."
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyModel.py:docstring of abaqus.Assembly.AssemblyModel.AssemblyModel.convertAllSketches:8
@@ -358,7 +821,7 @@ msgid "This method links the selected PartInstance objects to the corresponding 
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyModel.py:docstring of abaqus.Assembly.AssemblyModel.AssemblyModel.linkInstances:6
-msgid "Check `AssemblyModel.linkInstances on help.3ds.com/2023 <https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-modelasmpyc.htm?contextscope=all#simaker-modellinkinstancespyc>`__."
+msgid "Check `AssemblyModel.linkInstances on help.3ds.com/2024 <https://help.3ds.com/2024/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-modelasmpyc.htm?contextscope=all#simaker-modellinkinstancespyc>`__."
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyModel.py:docstring of abaqus.Assembly.AssemblyModel.AssemblyModel.linkInstances:9
@@ -379,7 +842,7 @@ msgid "An Assembly object is a container for instances of parts. The Assembly ob
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/Assembly.py:docstring of abaqus.Assembly.Assembly.Assembly:11
-msgid "Check `Assembly on help.3ds.com/2023 <https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-assemblypyc.htm?contextscope=all>`__."
+msgid "Check `Assembly on help.3ds.com/2024 <https://help.3ds.com/2024/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-assemblypyc.htm?contextscope=all>`__."
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/Assembly.py:docstring of abaqus.Assembly.Assembly.Assembly.ConnectorOrientation:1
@@ -388,7 +851,7 @@ msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/Assembly.py:docstring of abaqus.Assembly.Assembly.Assembly.ConnectorOrientation:10
 #: ../../../../../src/abaqus/Assembly/ConnectorOrientation.py:docstring of abaqus.Assembly.ConnectorOrientation.ConnectorOrientation:12
-msgid "Check `ConnectorOrientation on help.3ds.com/2023 <https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-connectororientationpyc.htm?contextscope=all>`__."
+msgid "Check `ConnectorOrientation on help.3ds.com/2024 <https://help.3ds.com/2024/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-connectororientationpyc.htm?contextscope=all>`__."
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/Assembly.py:docstring of abaqus.Assembly.Assembly.Assembly.ConnectorOrientation:13
@@ -433,9 +896,7 @@ msgstr ""
 msgid ":class:`ConnectorOrientation`"
 msgstr ""
 
-#: ../../../../../src/abaqus/Assembly/AssemblyModel.py:docstring of abaqus.Assembly.AssemblyModel.ModelBase:1
 #: ../../../../../src/abaqus/Assembly/ConnectorOrientation.py:docstring of abaqus.Assembly.ConnectorOrientation.ConnectorOrientation:1
-#: ../../../../../src/abaqus/Assembly/ModelInstance.py:docstring of abaqus.Assembly.ModelInstance.Model:1
 #: ../../../../../src/abaqus/Assembly/ModelInstance.py:docstring of abaqus.Assembly.ModelInstance.ModelInstance:1
 #: ../../../../../src/abaqus/Assembly/PartInstance.py:docstring of abaqus.Assembly.PartInstance.PartInstance:1
 msgid "Bases: :py:class:`object`"
@@ -454,7 +915,7 @@ msgid "Bases: :py:class:`~abaqus.Assembly.AssemblyFeature.AssemblyFeature`"
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase:11
-msgid "Check `AssemblyBase on help.3ds.com/2023 <https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-assemblypyc.htm?contextscope=all>`__."
+msgid "Check `AssemblyBase on help.3ds.com/2024 <https://help.3ds.com/2024/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-assemblypyc.htm?contextscope=all>`__."
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.Instance:1
@@ -462,7 +923,7 @@ msgid "This method creates a PartInstance object and puts it into the instances 
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.Instance:9
-msgid "Check `Instance on help.3ds.com/2023 <https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-instancepyc.htm?contextscope=all>`__."
+msgid "Check `Instance on help.3ds.com/2024 <https://help.3ds.com/2024/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-instancepyc.htm?contextscope=all>`__."
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.Instance:12
@@ -493,7 +954,7 @@ msgid "This method creates a PartInstance in the instances repository after subt
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.InstanceFromBooleanCut:10
-msgid "Check `InstanceFromBooleanCut on help.3ds.com/2023 <https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-instancefrombooleancutpyc.htm?contextscope=all>`__."
+msgid "Check `InstanceFromBooleanCut on help.3ds.com/2024 <https://help.3ds.com/2024/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-instancefrombooleancutpyc.htm?contextscope=all>`__."
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.InstanceFromBooleanCut:15
@@ -514,7 +975,7 @@ msgid "This method creates a PartInstance in the instances repository after merg
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.InstanceFromBooleanMerge:10
-msgid "Check `InstanceFromBooleanMerge on help.3ds.com/2023 <https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-instancefrombooleanmergepyc.htm?contextscope=all>`__."
+msgid "Check `InstanceFromBooleanMerge on help.3ds.com/2024 <https://help.3ds.com/2024/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-instancefrombooleanmergepyc.htm?contextscope=all>`__."
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.InstanceFromBooleanMerge:15
@@ -546,7 +1007,7 @@ msgid "This method creates multiple PartInstance objects in a linear pattern and
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.LinearInstancePattern:10
-msgid "Check `LinearInstancePattern on help.3ds.com/2023 <https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-linearinstancepatternpyc.htm?contextscope=all>`__."
+msgid "Check `LinearInstancePattern on help.3ds.com/2024 <https://help.3ds.com/2024/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-linearinstancepatternpyc.htm?contextscope=all>`__."
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.LinearInstancePattern:13
@@ -593,7 +1054,7 @@ msgid "This method creates multiple PartInstance objects in a radial pattern and
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.RadialInstancePattern:10
-msgid "Check `RadialInstancePattern on help.3ds.com/2023 <https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-radialinstancepatternpyc.htm?contextscope=all>`__."
+msgid "Check `RadialInstancePattern on help.3ds.com/2024 <https://help.3ds.com/2024/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-radialinstancepatternpyc.htm?contextscope=all>`__."
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.RadialInstancePattern:15
@@ -658,7 +1119,7 @@ msgid "This method copies a mesh pattern from a source region consisting of a se
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.copyMeshPattern:6
-msgid "Check `AssemblyBase.copyMeshPattern on help.3ds.com/2023 <https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-assemblypyc.htm?contextscope=all#simaker-assemblycopymeshpatternpyc>`__."
+msgid "Check `AssemblyBase.copyMeshPattern on help.3ds.com/2024 <https://help.3ds.com/2024/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-assemblypyc.htm?contextscope=all#simaker-assemblycopymeshpatternpyc>`__."
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.copyMeshPattern:9
@@ -698,7 +1159,7 @@ msgid "This method deletes specified features from the assembly."
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.deleteFeatures:4
-msgid "Check `AssemblyBase.deleteFeatures on help.3ds.com/2023 <https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-assemblypyc.htm?contextscope=all#simaker-assemblydeletefeaturespyc>`__."
+msgid "Check `AssemblyBase.deleteFeatures on help.3ds.com/2024 <https://help.3ds.com/2024/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-assemblypyc.htm?contextscope=all#simaker-assemblydeletefeaturespyc>`__."
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.deleteFeatures:7
@@ -722,7 +1183,7 @@ msgid "This method excludes the specified part instances from the analysis."
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.excludeFromSimulation:4
-msgid "Check `AssemblyBase.excludeFromSimulation on help.3ds.com/2023 <https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-assemblypyc.htm?contextscope=all#simaker-assemblyexcludefromsimulationpyc>`__."
+msgid "Check `AssemblyBase.excludeFromSimulation on help.3ds.com/2024 <https://help.3ds.com/2024/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-assemblypyc.htm?contextscope=all#simaker-assemblyexcludefromsimulationpyc>`__."
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.excludeFromSimulation:7
@@ -750,7 +1211,7 @@ msgid "This method returns the angle between the specified entities."
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.getAngle:4
-msgid "Check `AssemblyBase.getAngle on help.3ds.com/2023 <https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-assemblypyc.htm?contextscope=all#simaker-assemblygetanglepyc>`__."
+msgid "Check `AssemblyBase.getAngle on help.3ds.com/2024 <https://help.3ds.com/2024/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-assemblypyc.htm?contextscope=all#simaker-assemblygetanglepyc>`__."
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.getAngle:7
@@ -787,7 +1248,7 @@ msgid "This method returns the coordinates of a specified point."
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.getCoordinates:4
-msgid "Check `AssemblyBase.getCoordinates on help.3ds.com/2023 <https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-assemblypyc.htm?contextscope=all#simaker-assemblygetcoordinatespyc>`__."
+msgid "Check `AssemblyBase.getCoordinates on help.3ds.com/2024 <https://help.3ds.com/2024/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-assemblypyc.htm?contextscope=all#simaker-assemblygetcoordinatespyc>`__."
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.getCoordinates:7
@@ -835,7 +1296,7 @@ msgid "The ``csys`` argument was removed."
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.getDistance:12
-msgid "Check `AssemblyBase.getDistance on help.3ds.com/2023 <https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-assemblypyc.htm?contextscope=all#simaker-assemblygetdistancepyc>`__."
+msgid "Check `AssemblyBase.getDistance on help.3ds.com/2024 <https://help.3ds.com/2024/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-assemblypyc.htm?contextscope=all#simaker-assemblygetdistancepyc>`__."
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.getDistance:15
@@ -859,7 +1320,7 @@ msgid "Given an array of edge objects, this method returns a tuple of dictionary
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.getFacesAndVerticesOfAttachmentLines:5
-msgid "Check `AssemblyBase.getFacesAndVerticesOfAttachmentLines on help.3ds.com/2023 <https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-assemblypyc.htm?contextscope=all#simaker-assemblygetfacesandverticesofattachmentlinespyc>`__."
+msgid "Check `AssemblyBase.getFacesAndVerticesOfAttachmentLines on help.3ds.com/2024 <https://help.3ds.com/2024/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-assemblypyc.htm?contextscope=all#simaker-assemblygetfacesandverticesofattachmentlinespyc>`__."
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.getFacesAndVerticesOfAttachmentLines:8
@@ -903,7 +1364,7 @@ msgid "This method returns the mass properties of the assembly, or instances or 
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.getMassProperties:5
-msgid "Check `AssemblyBase.getMassProperties on help.3ds.com/2023 <https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-assemblypyc.htm?contextscope=all#simaker-assemblygetmasspropertiespyc>`__."
+msgid "Check `AssemblyBase.getMassProperties on help.3ds.com/2024 <https://help.3ds.com/2024/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-assemblypyc.htm?contextscope=all#simaker-assemblygetmasspropertiespyc>`__."
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.getMassProperties:8
@@ -955,7 +1416,7 @@ msgid "This method returns a list of the sections assigned to the regions encomp
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.getSurfaceSections:5
-msgid "Check `AssemblyBase.getSurfaceSections on help.3ds.com/2023 <https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-assemblypyc.htm?contextscope=all#simaker-assemblygetsurfacesectionspyc>`__."
+msgid "Check `AssemblyBase.getSurfaceSections on help.3ds.com/2024 <https://help.3ds.com/2024/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-assemblypyc.htm?contextscope=all#simaker-assemblygetsurfacesectionspyc>`__."
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.getSurfaceSections:8
@@ -975,7 +1436,7 @@ msgid "This method imports an assembly from a CATIA V5 Elysium Neutral file into
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.importCatiaV5File:4
-msgid "Check `AssemblyBase.importCatiaV5File on help.3ds.com/2023 <https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-assemblypyc.htm?contextscope=all#simaker-assemblyimportcatiav5filepyc>`__."
+msgid "Check `AssemblyBase.importCatiaV5File on help.3ds.com/2024 <https://help.3ds.com/2024/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-assemblypyc.htm?contextscope=all#simaker-assemblyimportcatiav5filepyc>`__."
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.importCatiaV5File:7
@@ -996,7 +1457,7 @@ msgid "This method imports an assembly from an EAF file into the root assembly."
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.importEafFile:4
-msgid "Check `AssemblyBase.importEafFile on help.3ds.com/2023 <https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-assemblypyc.htm?contextscope=all#simaker-assemblyimporteaffilepyc>`__."
+msgid "Check `AssemblyBase.importEafFile on help.3ds.com/2024 <https://help.3ds.com/2024/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-assemblypyc.htm?contextscope=all#simaker-assemblyimporteaffilepyc>`__."
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.importEafFile:7
@@ -1008,7 +1469,7 @@ msgid "This method imports an assembly from an Elysium Neutral file created by P
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.importEnfFile:5
-msgid "Check `AssemblyBase.importEnfFile on help.3ds.com/2023 <https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-assemblypyc.htm?contextscope=all#simaker-assemblyimportenffilepyc>`__."
+msgid "Check `AssemblyBase.importEnfFile on help.3ds.com/2024 <https://help.3ds.com/2024/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-assemblypyc.htm?contextscope=all#simaker-assemblyimportenffilepyc>`__."
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.importEnfFile:8
@@ -1020,7 +1481,7 @@ msgid "This method imports an assembly from an I-DEAS Elysium Neutral file into 
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.importIdeasFile:4
-msgid "Check `AssemblyBase.importIdeasFile on help.3ds.com/2023 <https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-assemblypyc.htm?contextscope=all#simaker-assemblyimportideasfilepyc>`__."
+msgid "Check `AssemblyBase.importIdeasFile on help.3ds.com/2024 <https://help.3ds.com/2024/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-assemblypyc.htm?contextscope=all#simaker-assemblyimportideasfilepyc>`__."
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.importIdeasFile:7
@@ -1032,7 +1493,7 @@ msgid "This method imports an assembly from the Parasolid file into the root ass
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.importParasolidFile:4
-msgid "Check `AssemblyBase.importParasolidFile on help.3ds.com/2023 <https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-assemblypyc.htm?contextscope=all#simaker-assemblyimportparasolidfilepyc>`__."
+msgid "Check `AssemblyBase.importParasolidFile on help.3ds.com/2024 <https://help.3ds.com/2024/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-assemblypyc.htm?contextscope=all#simaker-assemblyimportparasolidfilepyc>`__."
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.importParasolidFile:7
@@ -1044,7 +1505,7 @@ msgid "This method imports an assembly from a Pro/ENGINEER Elysium Neutral file 
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.importProEFile:4
-msgid "Check `AssemblyBase.importProEFile on help.3ds.com/2023 <https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-assemblypyc.htm?contextscope=all#simaker-assemblyimportproefilepyc>`__."
+msgid "Check `AssemblyBase.importProEFile on help.3ds.com/2024 <https://help.3ds.com/2024/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-assemblypyc.htm?contextscope=all#simaker-assemblyimportproefilepyc>`__."
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.importProEFile:7
@@ -1076,7 +1537,7 @@ msgid "This method converts the specified part instances from independent to dep
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.makeDependent:4
-msgid "Check `AssemblyBase.makeDependent on help.3ds.com/2023 <https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-assemblypyc.htm?contextscope=all#simaker-assemblymakedependentpyc>`__."
+msgid "Check `AssemblyBase.makeDependent on help.3ds.com/2024 <https://help.3ds.com/2024/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-assemblypyc.htm?contextscope=all#simaker-assemblymakedependentpyc>`__."
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.makeDependent:7
@@ -1088,7 +1549,7 @@ msgid "This method converts the specified part instances from dependent to indep
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.makeIndependent:4
-msgid "Check `AssemblyBase.makeIndependent on help.3ds.com/2023 <https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-assemblypyc.htm?contextscope=all#simaker-assemblymakeindependentpyc>`__."
+msgid "Check `AssemblyBase.makeIndependent on help.3ds.com/2024 <https://help.3ds.com/2024/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-assemblypyc.htm?contextscope=all#simaker-assemblymakeindependentpyc>`__."
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.makeIndependent:7
@@ -1120,7 +1581,7 @@ msgid "This method projects the specified edges, vertices, and datum points from
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.projectReferencesOntoSketch:6
-msgid "Check `AssemblyBase.projectReferencesOntoSketch on help.3ds.com/2023 <https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-assemblypyc.htm?contextscope=all#simaker-assemblyprojectreferencesontosketchpyc>`__."
+msgid "Check `AssemblyBase.projectReferencesOntoSketch on help.3ds.com/2024 <https://help.3ds.com/2024/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-assemblypyc.htm?contextscope=all#simaker-assemblyprojectreferencesontosketchpyc>`__."
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.projectReferencesOntoSketch:9
@@ -1191,7 +1652,7 @@ msgid "This method resumes the specified suppressed features in the assembly."
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.resumeFeatures:4
-msgid "Check `AssemblyBase.resumeFeatures on help.3ds.com/2023 <https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-assemblypyc.htm?contextscope=all#simaker-assemblyresumefeaturespyc>`__."
+msgid "Check `AssemblyBase.resumeFeatures on help.3ds.com/2024 <https://help.3ds.com/2024/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-assemblypyc.htm?contextscope=all#simaker-assemblyresumefeaturespyc>`__."
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.resumeFeatures:7
@@ -1207,7 +1668,7 @@ msgid "This method rotates given instances by the specified amount."
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.rotate:4
-msgid "Check `AssemblyBase.rotate on help.3ds.com/2023 <https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-assemblypyc.htm?contextscope=all#simaker-assemblyrotatepyc>`__."
+msgid "Check `AssemblyBase.rotate on help.3ds.com/2024 <https://help.3ds.com/2024/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-assemblypyc.htm?contextscope=all#simaker-assemblyrotatepyc>`__."
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.rotate:7
@@ -1240,7 +1701,7 @@ msgid "This method changes the start node and/or element labels on the specified
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.setMeshNumberingControl:6
-msgid "Check `AssemblyBase.setMeshNumberingControl on help.3ds.com/2023 <https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-assemblypyc.htm?contextscope=all#simaker-assemblysetmeshnumberingcontrolpyc>`__."
+msgid "Check `AssemblyBase.setMeshNumberingControl on help.3ds.com/2024 <https://help.3ds.com/2024/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-assemblypyc.htm?contextscope=all#simaker-assemblysetmeshnumberingcontrolpyc>`__."
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.setMeshNumberingControl:9
@@ -1260,7 +1721,7 @@ msgid "This method modifies the behavior associated with the specified assembly.
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.setValues:4
-msgid "Check `AssemblyBase.setValues on help.3ds.com/2023 <https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-assemblypyc.htm?contextscope=all#simaker-assemblysetvaluespyc>`__."
+msgid "Check `AssemblyBase.setValues on help.3ds.com/2024 <https://help.3ds.com/2024/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-assemblypyc.htm?contextscope=all#simaker-assemblysetvaluespyc>`__."
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.setValues:0
@@ -1291,7 +1752,7 @@ msgid "This method smooths the given nodes of a native mesh, moving them locally
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.smoothNodes:5
-msgid "Check `AssemblyBase.smoothNodes on help.3ds.com/2023 <https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-assemblypyc.htm?contextscope=all#simaker-assemblysmoothnodespyc>`__."
+msgid "Check `AssemblyBase.smoothNodes on help.3ds.com/2024 <https://help.3ds.com/2024/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-assemblypyc.htm?contextscope=all#simaker-assemblysmoothnodespyc>`__."
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.smoothNodes:8
@@ -1315,7 +1776,7 @@ msgid "This method suppresses specified features."
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.suppressFeatures:4
-msgid "Check `AssemblyBase.suppressFeatures on help.3ds.com/2023 <https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-assemblypyc.htm?contextscope=all#simaker-assemblysuppressfeaturespyc>`__."
+msgid "Check `AssemblyBase.suppressFeatures on help.3ds.com/2024 <https://help.3ds.com/2024/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-assemblypyc.htm?contextscope=all#simaker-assemblysuppressfeaturespyc>`__."
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.suppressFeatures:7
@@ -1331,7 +1792,7 @@ msgid "This method translates given instances by the specified amount."
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.translate:4
-msgid "Check `AssemblyBase.translate on help.3ds.com/2023 <https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-assemblypyc.htm?contextscope=all#simaker-assemblytranslatepyc>`__."
+msgid "Check `AssemblyBase.translate on help.3ds.com/2024 <https://help.3ds.com/2024/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-assemblypyc.htm?contextscope=all#simaker-assemblytranslatepyc>`__."
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.translate:7
@@ -1349,7 +1810,7 @@ msgid "This method converts the specified PartInstance objects from linked child
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.unlinkInstances:5
-msgid "Check `AssemblyBase.unlinkInstances on help.3ds.com/2023 <https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-assemblypyc.htm?contextscope=all#simaker-assemblyunlinkinstancespyc>`__."
+msgid "Check `AssemblyBase.unlinkInstances on help.3ds.com/2024 <https://help.3ds.com/2024/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-assemblypyc.htm?contextscope=all#simaker-assemblyunlinkinstancespyc>`__."
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.unlinkInstances:8
@@ -1373,7 +1834,7 @@ msgid "This method exports the assembly to a named file in ACIS part (SAT) or as
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.writeAcisFile:4
-msgid "Check `AssemblyBase.writeAcisFile on help.3ds.com/2023 <https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-assemblypyc.htm?contextscope=all#simaker-assemblywriteacisfilepyc>`__."
+msgid "Check `AssemblyBase.writeAcisFile on help.3ds.com/2024 <https://help.3ds.com/2024/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-assemblypyc.htm?contextscope=all#simaker-assemblywriteacisfilepyc>`__."
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.writeAcisFile:7
@@ -1389,7 +1850,7 @@ msgid "This method writes the parameters that were imported from the CAD system 
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.writeCADParameters:4
-msgid "Check `AssemblyBase.writeCADParameters on help.3ds.com/2023 <https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-assemblypyc.htm?contextscope=all#simaker-assemblywritecadparameterspyc>`__."
+msgid "Check `AssemblyBase.writeCADParameters on help.3ds.com/2024 <https://help.3ds.com/2024/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-assemblypyc.htm?contextscope=all#simaker-assemblywritecadparameterspyc>`__."
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.writeCADParameters:7
@@ -1413,7 +1874,7 @@ msgid "The following commands operate on Feature objects. For more information a
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyFeature.py:docstring of abaqus.Assembly.AssemblyFeature.AssemblyFeature:10
-msgid "Check `AssemblyFeature on help.3ds.com/2023 <https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-assemblyfeaturepyc.htm?contextscope=all>`__."
+msgid "Check `AssemblyFeature on help.3ds.com/2024 <https://help.3ds.com/2024/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-assemblyfeaturepyc.htm?contextscope=all>`__."
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyFeature.py:docstring of abaqus.Assembly.AssemblyFeature.AssemblyFeature.AttachmentLines:1
@@ -1421,7 +1882,7 @@ msgid "This method creates a Feature object by creating attachment lines between
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyFeature.py:docstring of abaqus.Assembly.AssemblyFeature.AssemblyFeature.AttachmentLines:14
-msgid "Check `AttachmentLines on help.3ds.com/2023 <https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-attachmentlinespyc.htm?contextscope=all>`__."
+msgid "Check `AttachmentLines on help.3ds.com/2024 <https://help.3ds.com/2024/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-attachmentlinespyc.htm?contextscope=all>`__."
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyFeature.py:docstring of abaqus.Assembly.AssemblyFeature.AssemblyFeature.AttachmentLines:17
@@ -1504,7 +1965,7 @@ msgid "This method moves an instance so that its selected face is coaxial with t
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyFeature.py:docstring of abaqus.Assembly.AssemblyFeature.AssemblyFeature.Coaxial:10
-msgid "Check `Coaxial on help.3ds.com/2023 <https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-coaxialpyc.htm?contextscope=all>`__."
+msgid "Check `Coaxial on help.3ds.com/2024 <https://help.3ds.com/2024/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-coaxialpyc.htm?contextscope=all>`__."
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyFeature.py:docstring of abaqus.Assembly.AssemblyFeature.AssemblyFeature.Coaxial:13
@@ -1524,7 +1985,7 @@ msgid "This method moves an instance so that a specified point is coincident wit
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyFeature.py:docstring of abaqus.Assembly.AssemblyFeature.AssemblyFeature.CoincidentPoint:10
-msgid "Check `CoincidentPoint on help.3ds.com/2023 <https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-coincidentpointpyc.htm?contextscope=all>`__."
+msgid "Check `CoincidentPoint on help.3ds.com/2024 <https://help.3ds.com/2024/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-coincidentpointpyc.htm?contextscope=all>`__."
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyFeature.py:docstring of abaqus.Assembly.AssemblyFeature.AssemblyFeature.CoincidentPoint:13
@@ -1547,7 +2008,7 @@ msgid "This method moves an instance so that its edge is parallel to an edge of 
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyFeature.py:docstring of abaqus.Assembly.AssemblyFeature.AssemblyFeature.EdgeToEdge:9
-msgid "Check `EdgeToEdge on help.3ds.com/2023 <https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-edgetoedgepyc.htm?contextscope=all>`__."
+msgid "Check `EdgeToEdge on help.3ds.com/2024 <https://help.3ds.com/2024/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-edgetoedgepyc.htm?contextscope=all>`__."
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyFeature.py:docstring of abaqus.Assembly.AssemblyFeature.AssemblyFeature.EdgeToEdge:12
@@ -1579,7 +2040,7 @@ msgid "This method moves an instance so that its face is coincident with a face 
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyFeature.py:docstring of abaqus.Assembly.AssemblyFeature.AssemblyFeature.FaceToFace:9
-msgid "Check `FaceToFace on help.3ds.com/2023 <https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-facetofacepyc.htm?contextscope=all>`__."
+msgid "Check `FaceToFace on help.3ds.com/2024 <https://help.3ds.com/2024/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-facetofacepyc.htm?contextscope=all>`__."
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyFeature.py:docstring of abaqus.Assembly.AssemblyFeature.AssemblyFeature.FaceToFace:12
@@ -1606,7 +2067,7 @@ msgid "This method moves an instance so that its Datum coordinate system is para
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyFeature.py:docstring of abaqus.Assembly.AssemblyFeature.AssemblyFeature.ParallelCsys:10
-msgid "Check `ParallelCsys on help.3ds.com/2023 <https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-parallelcsyspyc.htm?contextscope=all>`__."
+msgid "Check `ParallelCsys on help.3ds.com/2024 <https://help.3ds.com/2024/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-parallelcsyspyc.htm?contextscope=all>`__."
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyFeature.py:docstring of abaqus.Assembly.AssemblyFeature.AssemblyFeature.ParallelCsys:13
@@ -1618,7 +2079,7 @@ msgid "A Datum coordinate system on the part instance to remain fixed."
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyFeature.py:docstring of abaqus.Assembly.AssemblyFeature.AssemblyFeature.ParallelEdge:9
-msgid "Check `ParallelEdge on help.3ds.com/2023 <https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-paralleledgepyc.htm?contextscope=all>`__."
+msgid "Check `ParallelEdge on help.3ds.com/2024 <https://help.3ds.com/2024/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-paralleledgepyc.htm?contextscope=all>`__."
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyFeature.py:docstring of abaqus.Assembly.AssemblyFeature.AssemblyFeature.ParallelFace:1
@@ -1626,7 +2087,7 @@ msgid "This method moves an instance so that its face is parallel to a face of a
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/AssemblyFeature.py:docstring of abaqus.Assembly.AssemblyFeature.AssemblyFeature.ParallelFace:9
-msgid "Check `ParallelFace on help.3ds.com/2023 <https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-parallelfacepyc.htm?contextscope=all>`__."
+msgid "Check `ParallelFace on help.3ds.com/2024 <https://help.3ds.com/2024/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-parallelfacepyc.htm?contextscope=all>`__."
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/ModelInstance.py:docstring of abaqus.Assembly.ModelInstance.ModelInstance:1
@@ -1634,7 +2095,7 @@ msgid "A ModelInstance object is an instance of a Model."
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/ModelInstance.py:docstring of abaqus.Assembly.ModelInstance.ModelInstance:10
-msgid "Check `ModelInstance on help.3ds.com/2023 <https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-modelinstancepyc.htm?contextscope=all>`__."
+msgid "Check `ModelInstance on help.3ds.com/2024 <https://help.3ds.com/2024/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-modelinstancepyc.htm?contextscope=all>`__."
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/ModelInstance.py:docstring of abaqus.Assembly.ModelInstance.ModelInstance.ConvertConstraints:1
@@ -1680,7 +2141,7 @@ msgid "The ``replace`` method was added."
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/ModelInstance.py:docstring of abaqus.Assembly.ModelInstance.ModelInstance.replace:7
-msgid "Check `ModelInstance.replace on help.3ds.com/2023 <https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-modelinstancepyc.htm?contextscope=all#simaker-modelinstancereplacepyc>`__."
+msgid "Check `ModelInstance.replace on help.3ds.com/2024 <https://help.3ds.com/2024/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-modelinstancepyc.htm?contextscope=all#simaker-modelinstancereplacepyc>`__."
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/ModelInstance.py:docstring of abaqus.Assembly.ModelInstance.ModelInstance.replace:10
@@ -1707,7 +2168,7 @@ msgid "This method translates an instance by the specified amount."
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/ModelInstance.py:docstring of abaqus.Assembly.ModelInstance.ModelInstance.translate:4
-msgid "Check `ModelInstance.translate on help.3ds.com/2023 <https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-modelinstancepyc.htm?contextscope=all#simaker-modelinstancetranslatepyc>`__."
+msgid "Check `ModelInstance.translate on help.3ds.com/2024 <https://help.3ds.com/2024/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-modelinstancepyc.htm?contextscope=all#simaker-modelinstancetranslatepyc>`__."
 msgstr ""
 
 #: ../../../../docstring of abaqus.Assembly.ModelInstance.ModelInstance.vertices:1
@@ -1720,7 +2181,7 @@ msgid "A PartInstance object is an instance of a Part object."
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/PartInstance.py:docstring of abaqus.Assembly.PartInstance.PartInstance:11
-msgid "Check `PartInstance on help.3ds.com/2023 <https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-partinstancepyc.htm?contextscope=all>`__."
+msgid "Check `PartInstance on help.3ds.com/2024 <https://help.3ds.com/2024/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-partinstancepyc.htm?contextscope=all>`__."
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/PartInstance.py:docstring of abaqus.Assembly.PartInstance.PartInstance.Contact:1
@@ -1729,7 +2190,7 @@ msgid "This method translates an instance along the specified direction until it
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/PartInstance.py:docstring of abaqus.Assembly.PartInstance.PartInstance.Contact:5
-msgid "Check `Contact on help.3ds.com/2023 <https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-contactpyc.htm?contextscope=all>`__."
+msgid "Check `Contact on help.3ds.com/2024 <https://help.3ds.com/2024/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-contactpyc.htm?contextscope=all>`__."
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/PartInstance.py:docstring of abaqus.Assembly.PartInstance.PartInstance.Contact:8
@@ -1773,7 +2234,7 @@ msgid "This method checks the validity of the geometry of the part instance and 
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/PartInstance.py:docstring of abaqus.Assembly.PartInstance.PartInstance.checkGeometry:5
-msgid "Check `PartInstance.checkGeometry on help.3ds.com/2023 <https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-partinstancepyc.htm?contextscope=all#simaker-partinstancecheckgeometrypyc>`__."
+msgid "Check `PartInstance.checkGeometry on help.3ds.com/2024 <https://help.3ds.com/2024/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-partinstancepyc.htm?contextscope=all#simaker-partinstancecheckgeometrypyc>`__."
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/PartInstance.py:docstring of abaqus.Assembly.PartInstance.PartInstance.checkGeometry:8
@@ -1869,7 +2330,7 @@ msgid "This method replaces one instance with an instance of another part."
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/PartInstance.py:docstring of abaqus.Assembly.PartInstance.PartInstance.replace:4
-msgid "Check `PartInstance.replace on help.3ds.com/2023 <https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-partinstancepyc.htm?contextscope=all#simaker-partinstancereplacepyc>`__."
+msgid "Check `PartInstance.replace on help.3ds.com/2024 <https://help.3ds.com/2024/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-partinstancepyc.htm?contextscope=all#simaker-partinstancereplacepyc>`__."
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/PartInstance.py:docstring of abaqus.Assembly.PartInstance.PartInstance.replace:7
@@ -1877,7 +2338,7 @@ msgid "A Part object specifying which Part will be instanced in place of the ori
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/PartInstance.py:docstring of abaqus.Assembly.PartInstance.PartInstance.rotateAboutAxis:4
-msgid "Check `PartInstance.rotateAboutAxis on help.3ds.com/2023 <https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-partinstancepyc.htm?contextscope=all#simaker-partinstancerotateaboutaxispyc>`__."
+msgid "Check `PartInstance.rotateAboutAxis on help.3ds.com/2024 <https://help.3ds.com/2024/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-partinstancepyc.htm?contextscope=all#simaker-partinstancerotateaboutaxispyc>`__."
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/PartInstance.py:docstring of abaqus.Assembly.PartInstance.PartInstance.rotateAboutAxis:7
@@ -1905,11 +2366,11 @@ msgid "A repository of Surface objects specifying the surfaces created on the pa
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/PartInstance.py:docstring of abaqus.Assembly.PartInstance.PartInstance.translate:4
-msgid "Check `PartInstance.translate on help.3ds.com/2023 <https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-partinstancepyc.htm?contextscope=all#simaker-partinstancetranslatepyc>`__."
+msgid "Check `PartInstance.translate on help.3ds.com/2024 <https://help.3ds.com/2024/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-partinstancepyc.htm?contextscope=all#simaker-partinstancetranslatepyc>`__."
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/PartInstance.py:docstring of abaqus.Assembly.PartInstance.PartInstance.translateTo:5
-msgid "Check `PartInstance.translateTo on help.3ds.com/2023 <https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-partinstancepyc.htm?contextscope=all#simaker-partinstancetranslatetopyc>`__."
+msgid "Check `PartInstance.translateTo on help.3ds.com/2024 <https://help.3ds.com/2024/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-partinstancepyc.htm?contextscope=all#simaker-partinstancetranslatetopyc>`__."
 msgstr ""
 
 #: ../../../../../src/abaqus/Assembly/PartInstance.py:docstring of abaqus.Assembly.PartInstance.PartInstance.translateTo:10

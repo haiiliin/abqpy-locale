@@ -21,27 +21,46 @@ msgid "Using Abaqus Scripting Interface commands in your environment file"
 msgstr ""
 
 #: ../../../user/python/use-scripts/environment-file.md:3
-msgid "The Abaqus environment file is read by Abaqus/CAE when you start a session. The environment file can contain Abaqus Scripting Interface commands. The following is an example environment file:"
+msgid ""
+"The Abaqus environment file is read by Abaqus/CAE when you start a "
+"session. The environment file can contain Abaqus Scripting Interface "
+"commands. The following is an example environment file:"
 msgstr ""
 
 #: ../../../user/python/use-scripts/environment-file.md:47
-msgid "The `addImportCallback` statement instructs Abaqus to call a function when the user first imports a module. In this example Abaqus calls the `setJobPreferences` function when the user first enters the Job module, and Abaqus calls the `setVisPreferences` function when the user first enters the Visualization module. The `setJobPreferences` function creates a queue on a remote host. The `setVisPreferences` function sets default options for contour plots."
+msgid ""
+"The `addImportCallback` statement instructs Abaqus to call a function when"
+" the user first imports a module. In this example Abaqus calls the "
+"`setJobPreferences` function when the user first enters the Job module, "
+"and Abaqus calls the `setVisPreferences` function when the user first "
+"enters the Visualization module. The `setJobPreferences` function creates "
+"a queue on a remote host. The `setVisPreferences` function sets default "
+"options for contour plots."
 msgstr ""
 
 #: ../../../user/python/use-scripts/environment-file.md:49
-msgid "The example environment file uses the `onCaeStartup()` function to control a set of Python statements that are executed when Abaqus/CAE first starts. The environment file can also contain the following:"
+msgid ""
+"The example environment file uses the `onCaeStartup()` function to control"
+" a set of Python statements that are executed when Abaqus/CAE first "
+"starts. The environment file can also contain the following:"
 msgstr ""
 
 #: ../../../user/python/use-scripts/environment-file.md:51
-msgid "The `onJobStartup()` function controls a set of statements that execute when an analysis job starts. For example,"
+msgid ""
+"The `onJobStartup()` function controls a set of statements that execute "
+"when an analysis job starts. For example,"
 msgstr ""
 
 #: ../../../user/python/use-scripts/environment-file.md:62
-msgid "The onJobCompletion() function controls a set of statements that execute when an analysis job completes. For example,"
+msgid ""
+"The onJobCompletion() function controls a set of statements that execute "
+"when an analysis job completes. For example,"
 msgstr ""
 
 #: ../../../user/python/use-scripts/environment-file.md:78
-msgid "The following variables are available to the `onJobStartup()` and `onJobCompletion()` functions:"
+msgid ""
+"The following variables are available to the `onJobStartup()` and "
+"`onJobCompletion()` functions:"
 msgstr ""
 
 #: ../../../user/python/use-scripts/environment-file.md:80
@@ -49,7 +68,9 @@ msgid "**id**"
 msgstr ""
 
 #: ../../../user/python/use-scripts/environment-file.md:82
-msgid "The job identifier that was specified as the value of the job option from the command line."
+msgid ""
+"The job identifier that was specified as the value of the job option from "
+"the command line."
 msgstr ""
 
 #: ../../../user/python/use-scripts/environment-file.md:84
@@ -73,13 +94,22 @@ msgid "**analysisType**"
 msgstr ""
 
 #: ../../../user/python/use-scripts/environment-file.md:94
-msgid "The type of analysis to be executed. Possible values are STANDARD and EXPLICIT."
+msgid ""
+"The type of analysis to be executed. Possible values are STANDARD and "
+"EXPLICIT."
 msgstr ""
 
 #: ../../../user/python/use-scripts/environment-file.md:96
-msgid "For a list of the variables that are available outside of the `onJobStartup()` and `onJobCompletion()` functions, see Job variables."
+msgid ""
+"For a list of the variables that are available outside of the "
+"`onJobStartup()` and `onJobCompletion()` functions, see Job variables."
 msgstr ""
 
 #: ../../../user/python/use-scripts/environment-file.md:98
-msgid "For more information on the environment file, see [Environment File Settings](https://help.3ds.com/2021/English/DSSIMULIA_Established/SIMACAEEXCRefMap/simaexc-c-envfile.htm?contextscope=all) and [Customizing the Abaqus environment](https://help.3ds.com/2021/English/DSSIMULIA_Established/SIMACAEILGRefMap/simailg-m-Environment-sb.htm?contextscope=all)."
+msgid ""
+"For more information on the environment file, see [Environment File Settin"
+"gs](https://help.3ds.com/2021/English/DSSIMULIA_Established/SIMACAEEXCRefM"
+"ap/simaexc-c-envfile.htm?contextscope=all) and [Customizing the Abaqus env"
+"ironment](https://help.3ds.com/2021/English/DSSIMULIA_Established/SIMACAEI"
+"LGRefMap/simailg-m-Environment-sb.htm?contextscope=all)."
 msgstr ""

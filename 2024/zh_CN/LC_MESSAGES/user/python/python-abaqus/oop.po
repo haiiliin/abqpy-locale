@@ -21,7 +21,11 @@ msgid "Object-oriented programming and the Abaqus Scripting Interface"
 msgstr ""
 
 #: ../../../user/python/python-abaqus/oop.md:3
-msgid "You should now be familiar with some of the concepts behind object-oriented programming, such as objects, constructors, methods, and members. This section describes how object-oriented programming relates to the Abaqus Scripting Interface and summarizes some of the terminology."
+msgid ""
+"You should now be familiar with some of the concepts behind object-"
+"oriented programming, such as objects, constructors, methods, and members."
+" This section describes how object-oriented programming relates to the "
+"Abaqus Scripting Interface and summarizes some of the terminology."
 msgstr ""
 
 #: ../../../user/python/python-abaqus/oop.md:5
@@ -37,19 +41,36 @@ msgid "In this example `setValues()` is a method of the Viewport object."
 msgstr ""
 
 #: ../../../user/python/python-abaqus/oop.md:15
-msgid "A constructor is a method that creates an object. By convention, all constructor names and all objects start with an uppercase character in the Abaqus Scripting Interface. The name of a constructor is usually the same as the name of the type of object it creates. In the following example `Viewport` is a constructor that creates a Viewport object called `myViewport`:"
+msgid ""
+"A constructor is a method that creates an object. By convention, all "
+"constructor names and all objects start with an uppercase character in the"
+" Abaqus Scripting Interface. The name of a constructor is usually the same"
+" as the name of the type of object it creates. In the following example "
+"`Viewport` is a constructor that creates a Viewport object called "
+"`myViewport`:"
 msgstr ""
 
 #: ../../../user/python/python-abaqus/oop.md:21
-msgid "Some objects do not have a constructor. The object is created as a member of another object when the first object is created. For example, Abaqus creates the vertices of a part when you create a part's geometry, and the coordinates of the vertices are stored as Vertex objects. The Vertex objects are members of the Part object. The following statement prints the coordinates of the first vertex of a part:"
+msgid ""
+"Some objects do not have a constructor. The object is created as a member "
+"of another object when the first object is created. For example, Abaqus "
+"creates the vertices of a part when you create a part's geometry, and the "
+"coordinates of the vertices are stored as Vertex objects. The Vertex "
+"objects are members of the Part object. The following statement prints the"
+" coordinates of the first vertex of a part:"
 msgstr ""
 
 #: ../../../user/python/python-abaqus/oop.md:28
-msgid "The standard Python statement `object.__methods__` lists all the methods of an object. For example, the following statement lists all the methods of a Viewport object:"
+msgid ""
+"The standard Python statement `object.__methods__` lists all the methods "
+"of an object. For example, the following statement lists all the methods "
+"of a Viewport object:"
 msgstr ""
 
 #: ../../../user/python/python-abaqus/oop.md:34
-msgid "See the {doc}`/reference/index` for a description of each method of the Abaqus Scripting Interface objects."
+msgid ""
+"See the {doc}`/reference/index` for a description of each method of the "
+"Abaqus Scripting Interface objects."
 msgstr ""
 
 #: ../../../user/python/python-abaqus/oop.md:36
@@ -57,19 +78,34 @@ msgid "The Abaqus Scripting Interface and members"
 msgstr ""
 
 #: ../../../user/python/python-abaqus/oop.md:38
-msgid "An object has members as well as methods. A member can be thought of as a property of an object. For example, `width` is a member of the Viewport object. The following statements show how you access a member of an object:"
+msgid ""
+"An object has members as well as methods. A member can be thought of as a "
+"property of an object. For example, `width` is a member of the Viewport "
+"object. The following statements show how you access a member of an "
+"object:"
 msgstr ""
 
 #: ../../../user/python/python-abaqus/oop.md:46
-msgid "The standard Python statement `object.__members__` lists all the members of an object. For example, the following statement lists all the members of a Viewport object:"
+msgid ""
+"The standard Python statement `object.__members__` lists all the members "
+"of an object. For example, the following statement lists all the members "
+"of a Viewport object:"
 msgstr ""
 
 #: ../../../user/python/python-abaqus/oop.md:52
-msgid "The values of members are specific to each instance of the object. For example, the value of the `width` member of a Viewport object is specific to each viewport."
+msgid ""
+"The values of members are specific to each instance of the object. For "
+"example, the value of the `width` member of a Viewport object is specific "
+"to each viewport."
 msgstr ""
 
 #: ../../../user/python/python-abaqus/oop.md:54
-msgid "Members of an Abaqus object are read-only; consequently, you cannot change their value with a simple assignment statement. You use the `setValues()` method to change the value of a member. For example, the `setValues()` statement in the following script changes the thickness of a shell section:"
+msgid ""
+"Members of an Abaqus object are read-only; consequently, you cannot change"
+" their value with a simple assignment statement. You use the `setValues()`"
+" method to change the value of a member. For example, the `setValues()` "
+"statement in the following script changes the thickness of a shell "
+"section:"
 msgstr ""
 
 #: ../../../user/python/python-abaqus/oop.md:66
@@ -77,31 +113,49 @@ msgid "You cannot use assignment to change the value of the Shell object."
 msgstr ""
 
 #: ../../../user/python/python-abaqus/oop.md:73
-msgid "The following statements illustrate the use of constructors, methods, and members:"
+msgid ""
+"The following statements illustrate the use of constructors, methods, and "
+"members:"
 msgstr ""
 
 #: ../../../user/python/python-abaqus/oop.md:100
-msgid "You use the `Access` description provided with each object in the {doc}`/reference/index` to determine how you access the object. You append a method or member to this description when you are writing a script. Similarly, you use the `Path` description provided with each constructor in the {doc}`/reference/index` to determine the path to the constructor."
+msgid ""
+"You use the `Access` description provided with each object in the "
+"{doc}`/reference/index` to determine how you access the object. You append"
+" a method or member to this description when you are writing a script. "
+"Similarly, you use the `Path` description provided with each constructor "
+"in the {doc}`/reference/index` to determine the path to the constructor."
 msgstr ""
 
 #: ../../../user/python/python-abaqus/oop.md:102
-msgid "Object-oriented programming and the Abaqus Scripting Interface - a summary"
+msgid ""
+"Object-oriented programming and the Abaqus Scripting Interface - a summary"
 msgstr ""
 
 #: ../../../user/python/python-abaqus/oop.md:104
-msgid "After you create an object, you then use methods of the objects to enter or to modify the data associated with the object. For example, you use the `addNodes` and `addElements` methods of the Part object to add nodes and elements, respectively. Similarly, you use the `addData` method of the `FieldOutput` object to add field output data."
+msgid ""
+"After you create an object, you then use methods of the objects to enter "
+"or to modify the data associated with the object. For example, you use the"
+" `addNodes` and `addElements` methods of the Part object to add nodes and "
+"elements, respectively. Similarly, you use the `addData` method of the "
+"`FieldOutput` object to add field output data."
 msgstr ""
 
 #: ../../../user/python/python-abaqus/oop.md:106
-msgid "The following list summarizes some of the concepts behind object-oriented programming and how they relate to the Abaqus Scripting Interface:"
+msgid ""
+"The following list summarizes some of the concepts behind object-oriented "
+"programming and how they relate to the Abaqus Scripting Interface:"
 msgstr ""
 
 #: ../../../user/python/python-abaqus/oop.md:108
-msgid "An object encapsulates some data and functions that are used to manipulate those data."
+msgid ""
+"An object encapsulates some data and functions that are used to manipulate"
+" those data."
 msgstr ""
 
 #: ../../../user/python/python-abaqus/oop.md:109
-msgid "The data encapsulated by an object are called the members of the object."
+msgid ""
+"The data encapsulated by an object are called the members of the object."
 msgstr ""
 
 #: ../../../user/python/python-abaqus/oop.md:110
@@ -109,25 +163,45 @@ msgid "The functions that manipulate the data are called methods."
 msgstr ""
 
 #: ../../../user/python/python-abaqus/oop.md:111
-msgid "The Abaqus Scripting Interface uses the convention that the name of a type of object begins with an uppercase character; for example, a Viewport object."
+msgid ""
+"The Abaqus Scripting Interface uses the convention that the name of a type"
+" of object begins with an uppercase character; for example, a Viewport "
+"object."
 msgstr ""
 
 #: ../../../user/python/python-abaqus/oop.md:112
-msgid "A method that creates an object is called a constructor. The Abaqus Scripting Interface uses the convention that constructors begin with an uppercase character. In contrast, methods that operate on an object begin with a lowercase character."
+msgid ""
+"A method that creates an object is called a constructor. The Abaqus "
+"Scripting Interface uses the convention that constructors begin with an "
+"uppercase character. In contrast, methods that operate on an object begin "
+"with a lowercase character."
 msgstr ""
 
 #: ../../../user/python/python-abaqus/oop.md:113
-msgid "After you create an object, you then use methods of the object to enter or to modify the data associated with the object. For example, if you are creating an output database, you first create an Odb object. You then use the `addNodes` and `addElements` methods of the Part object to add nodes and elements, respectively. Similarly, you use the `addData` method of the `FieldOutput` object to add field output data to the output database."
+msgid ""
+"After you create an object, you then use methods of the object to enter or"
+" to modify the data associated with the object. For example, if you are "
+"creating an output database, you first create an Odb object. You then use "
+"the `addNodes` and `addElements` methods of the Part object to add nodes "
+"and elements, respectively. Similarly, you use the `addData` method of the"
+" `FieldOutput` object to add field output data to the output database."
 msgstr ""
 
 #: ../../../user/python/python-abaqus/oop.md:114
-msgid "You use the `Access` description provided with each object in the {doc}`/reference/index` to determine how you access the object. You append a method or a member to this description when you are writing a script."
+msgid ""
+"You use the `Access` description provided with each object in the "
+"{doc}`/reference/index` to determine how you access the object. You append"
+" a method or a member to this description when you are writing a script."
 msgstr ""
 
 #: ../../../user/python/python-abaqus/oop.md:115
-msgid "You use the `Path` description provided with each constructor in the {doc}`/reference/index` to determine the path to the constructor."
+msgid ""
+"You use the `Path` description provided with each constructor in the "
+"{doc}`/reference/index` to determine the path to the constructor."
 msgstr ""
 
 #: ../../../user/python/python-abaqus/oop.md:116
-msgid "You use the `setValues()` method to modify the members of an Abaqus Scripting Interface object."
+msgid ""
+"You use the `setValues()` method to modify the members of an Abaqus "
+"Scripting Interface object."
 msgstr ""

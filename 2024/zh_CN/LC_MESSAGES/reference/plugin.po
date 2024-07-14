@@ -21,7 +21,11 @@ msgid "Plug-in Registration"
 msgstr ""
 
 #: ../../../reference/plugin.md:3
-msgid "Plug-in commands register kernel and GUI plug-ins in either the Plug-ins menu or in a toolbox. Plug-in registration commands for accessing both kernel and GUI plug-ins are located in the Abaqus GUI Toolkit Reference Guide."
+msgid ""
+"Plug-in commands register kernel and GUI plug-ins in either the Plug-ins "
+"menu or in a toolbox. Plug-in registration commands for accessing both "
+"kernel and GUI plug-ins are located in the Abaqus GUI Toolkit Reference "
+"Guide."
 msgstr ""
 
 #: ../../../reference/plugin.md:5
@@ -43,7 +47,8 @@ msgid "Bases: :py:class:`~abaqus.PlugInRegistration.AFXKeyword.AFXKeyword`"
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXBoolKeyword.py:docstring of abaqus.PlugInRegistration.AFXBoolKeyword.AFXBoolKeyword:1
-msgid "This class is designed for command keywords that have Boolean values."
+msgid ""
+"This class is designed for command keywords that have Boolean values."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXBoolKeyword.py:docstring of abaqus.PlugInRegistration.AFXBoolKeyword.AFXBoolKeyword:1
@@ -316,7 +321,9 @@ msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXBoolKeyword.py:docstring of abaqus.PlugInRegistration.AFXBoolKeyword.AFXBoolKeyword.setDefaultValueByString:1
 #: ../../../../../src/abaqus/PlugInRegistration/AFXSymConstKeyword.py:docstring of abaqus.PlugInRegistration.AFXSymConstKeyword.AFXSymConstKeyword.setDefaultValueByString:1
-msgid "Sets the keyword's default value (returns True if the given text string is valid)."
+msgid ""
+"Sets the keyword's default value (returns True if the given text string is"
+" valid)."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXBoolKeyword.py:docstring of abaqus.PlugInRegistration.AFXBoolKeyword.AFXBoolKeyword.setDefaultValueByString:4
@@ -352,7 +359,9 @@ msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXBoolKeyword.py:docstring of abaqus.PlugInRegistration.AFXBoolKeyword.AFXBoolKeyword.setValueByString:1
 #: ../../../../../src/abaqus/PlugInRegistration/AFXSymConstKeyword.py:docstring of abaqus.PlugInRegistration.AFXSymConstKeyword.AFXSymConstKeyword.setValueByString:1
-msgid "Sets the keyword's current value (returns True if the given text string is valid)."
+msgid ""
+"Sets the keyword's current value (returns True if the given text string is"
+" valid)."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXBoolKeyword.py:docstring of abaqus.PlugInRegistration.AFXBoolKeyword.AFXBoolKeyword.setValueByString:4
@@ -413,27 +422,39 @@ msgid "Bases: :py:class:`~abaqus.PlugInRegistration.FXObject.FXObject`"
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXCommand.py:docstring of abaqus.PlugInRegistration.AFXCommand.AFXCommand:1
-msgid "This class is the abstract base class for command classes that are processed by modes."
+msgid ""
+"This class is the abstract base class for command classes that are "
+"processed by modes."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXCommand.py:docstring of abaqus.PlugInRegistration.AFXCommand.AFXCommand.activate:1
-msgid "Activates the command; active commands will be processed during command generation."
+msgid ""
+"Activates the command; active commands will be processed during command "
+"generation."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXCommand.py:docstring of abaqus.PlugInRegistration.AFXCommand.AFXCommand.deactivate:1
-msgid "Deactivates the command; inactive commands will not be processed during command generation."
+msgid ""
+"Deactivates the command; inactive commands will not be processed during "
+"command generation."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXCommand.py:docstring of abaqus.PlugInRegistration.AFXCommand.AFXCommand.getCommandString:1
-msgid "Returns the command string based on the current values of the active keywords."
+msgid ""
+"Returns the command string based on the current values of the active "
+"keywords."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXCommand.py:docstring of abaqus.PlugInRegistration.AFXCommand.AFXCommand.getExpandedObjectName:1
-msgid "Returns the expanded object name that has all the \"%s\"'s replaced by the current names."
+msgid ""
+"Returns the expanded object name that has all the \"%s\"'s replaced by the"
+" current names."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXCommand.py:docstring of abaqus.PlugInRegistration.AFXCommand.AFXCommand.getKeyword:1
-msgid "Returns the keyword at the given index (returns 0 if the index is out-of-bounds)."
+msgid ""
+"Returns the keyword at the given index (returns 0 if the index is out-of-"
+"bounds)."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXCommand.py:docstring of abaqus.PlugInRegistration.AFXCommand.AFXCommand.getKeyword:4
@@ -449,7 +470,8 @@ msgid "Returns the number of keywords."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXCommand.py:docstring of abaqus.PlugInRegistration.AFXCommand.AFXCommand.getObjectName:1
-msgid "Returns the object name (which is not expanded and may include \"%s\"'s)."
+msgid ""
+"Returns the object name (which is not expanded and may include \"%s\"'s)."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXCommand.py:docstring of abaqus.PlugInRegistration.AFXCommand.AFXCommand.isActive:1
@@ -457,11 +479,14 @@ msgid "Returns True if the command is active."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXCommand.py:docstring of abaqus.PlugInRegistration.AFXCommand.AFXCommand.isQueryNeeded:1
-msgid "Returns True if the command needs to register a query for kernel state."
+msgid ""
+"Returns True if the command needs to register a query for kernel state."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXCommand.py:docstring of abaqus.PlugInRegistration.AFXCommand.AFXCommand.isRequired:1
-msgid "Returns True if this command is going to be sent even if none of its keywords has been modified, otherwise returns False."
+msgid ""
+"Returns True if this command is going to be sent even if none of its "
+"keywords has been modified, otherwise returns False."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXCommand.py:docstring of abaqus.PlugInRegistration.AFXCommand.AFXCommand.setKeywordValuesToDefaults:1
@@ -498,7 +523,10 @@ msgid "Object name."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXCommand.py:docstring of abaqus.PlugInRegistration.AFXCommand.AFXCommand.setRequired:1
-msgid "Sets this command as required or optional; if True the command will always be sent, if False the command will be sent only if it has modified keywords or if it has no keywords."
+msgid ""
+"Sets this command as required or optional; if True the command will always"
+" be sent, if False the command will be sent only if it has modified "
+"keywords or if it has no keywords."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXCommand.py:docstring of abaqus.PlugInRegistration.AFXCommand.AFXCommand.syncKeywordPreviousValues:1
@@ -510,7 +538,8 @@ msgid "Throws an exception if any of the keywords contain invalid data."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXKeyword.py:docstring of abaqus.PlugInRegistration.AFXKeyword.AFXKeyword:1
-msgid "Bases: :py:class:`~abaqus.PlugInRegistration.FXDataTarget.FXDataTarget`"
+msgid ""
+"Bases: :py:class:`~abaqus.PlugInRegistration.FXDataTarget.FXDataTarget`"
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXColumnItems.py:docstring of abaqus.PlugInRegistration.AFXColumnItems.AFXColumnItems:1
@@ -528,15 +557,20 @@ msgid "Used to deactivate the keyword."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXKeyword.py:docstring of abaqus.PlugInRegistration.AFXKeyword.AFXKeyword.activate:1
-msgid "Activates the keyword; active keywords will be processed during command generation."
+msgid ""
+"Activates the keyword; active keywords will be processed during command "
+"generation."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXKeyword.py:docstring of abaqus.PlugInRegistration.AFXKeyword.AFXKeyword.deactivate:1
-msgid "Deactivates the keyword; inactive keywords will not be processed during command generation."
+msgid ""
+"Deactivates the keyword; inactive keywords will not be processed during "
+"command generation."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXKeyword.py:docstring of abaqus.PlugInRegistration.AFXKeyword.AFXKeyword.getCommandSnippet:1
-msgid "Returns the command snippet of the keyword based on its current value."
+msgid ""
+"Returns the command snippet of the keyword based on its current value."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXKeyword.py:docstring of abaqus.PlugInRegistration.AFXKeyword.AFXKeyword.getName:1
@@ -544,7 +578,9 @@ msgid "Returns the keyword name."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXKeyword.py:docstring of abaqus.PlugInRegistration.AFXKeyword.AFXKeyword.getSetupCommands:1
-msgid "Returns the keyword's variable initilization commands (part of the generated command string)."
+msgid ""
+"Returns the keyword's variable initilization commands (part of the "
+"generated command string)."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXKeyword.py:docstring of abaqus.PlugInRegistration.AFXKeyword.AFXKeyword.getTypeName:1
@@ -552,7 +588,11 @@ msgid "Returns the keyword type name."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXKeyword.py:docstring of abaqus.PlugInRegistration.AFXKeyword.AFXKeyword.getTypeName:3
-msgid "Implemented in AFXBoolKeyword, AFXComSymConstKeyword, AFXComTableKeyword, AFXFloatKeyword, AFXIntKeyword, AFXObjectKeyword, AFXStringKeyword, AFXSymConstKeyword, AFXTogglableKeyword, AFXTupleKeyword, and AFXTableKeyword."
+msgid ""
+"Implemented in AFXBoolKeyword, AFXComSymConstKeyword, AFXComTableKeyword, "
+"AFXFloatKeyword, AFXIntKeyword, AFXObjectKeyword, AFXStringKeyword, "
+"AFXSymConstKeyword, AFXTogglableKeyword, AFXTupleKeyword, and "
+"AFXTableKeyword."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXKeyword.py:docstring of abaqus.PlugInRegistration.AFXKeyword.AFXKeyword.getValueAsString:1
@@ -560,7 +600,10 @@ msgid "Returns the text string that represents the current keyword value."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXKeyword.py:docstring of abaqus.PlugInRegistration.AFXKeyword.AFXKeyword.getValueAsString:3
-msgid "Implemented in AFXBoolKeyword, AFXComSymConstKeyword, AFXComTableKeyword, AFXFloatKeyword, AFXIntKeyword, AFXObjectKeyword, AFXStringKeyword, AFXSymConstKeyword, AFXTogglableKeyword, and AFXTupleKeyword."
+msgid ""
+"Implemented in AFXBoolKeyword, AFXComSymConstKeyword, AFXComTableKeyword, "
+"AFXFloatKeyword, AFXIntKeyword, AFXObjectKeyword, AFXStringKeyword, "
+"AFXSymConstKeyword, AFXTogglableKeyword, and AFXTupleKeyword."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXKeyword.py:docstring of abaqus.PlugInRegistration.AFXKeyword.AFXKeyword.isActive:1
@@ -568,13 +611,18 @@ msgid "Returns True if the keyword is active."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXKeyword.py:docstring of abaqus.PlugInRegistration.AFXKeyword.AFXKeyword.isRequired:1
-msgid "Returns True if the keyword is a required argument of the host command; or returns False if the keyword is optional."
+msgid ""
+"Returns True if the keyword is a required argument of the host command; or"
+" returns False if the keyword is optional."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXKeyword.py:docstring of abaqus.PlugInRegistration.AFXKeyword.AFXKeyword.isValueChanged:3
 #: ../../../../../src/abaqus/PlugInRegistration/AFXKeyword.py:docstring of abaqus.PlugInRegistration.AFXKeyword.AFXKeyword.setValueToPrevious:3
 #: ../../../../../src/abaqus/PlugInRegistration/AFXKeyword.py:docstring of abaqus.PlugInRegistration.AFXKeyword.AFXKeyword.syncPreviousValue:3
-msgid "Implemented in AFXBoolKeyword, AFXComSymConstKeyword, AFXComTableKeyword, AFXFloatKeyword, AFXIntKeyword, AFXObjectKeyword, AFXStringKeyword, AFXTogglableKeyword, and AFXTupleKeyword."
+msgid ""
+"Implemented in AFXBoolKeyword, AFXComSymConstKeyword, AFXComTableKeyword, "
+"AFXFloatKeyword, AFXIntKeyword, AFXObjectKeyword, AFXStringKeyword, "
+"AFXTogglableKeyword, and AFXTupleKeyword."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXKeyword.py:docstring of abaqus.PlugInRegistration.AFXKeyword.AFXKeyword.setRequired:1
@@ -598,7 +646,9 @@ msgid "Returns the message target."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXColumnItems.py:docstring of abaqus.PlugInRegistration.AFXColumnItems.AFXColumnItems.setReferenceColumn:1
-msgid "Sets the table reference column, whose selected items will be sent to the target."
+msgid ""
+"Sets the table reference column, whose selected items will be sent to the "
+"target."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXColumnItems.py:docstring of abaqus.PlugInRegistration.AFXColumnItems.AFXColumnItems.setReferenceColumn:4
@@ -679,7 +729,8 @@ msgid "Called for unhandled messages."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/FXObject.py:docstring of abaqus.PlugInRegistration.FXObject.FXObject.onDefault:3
-msgid "Reimplemented in FXDelegator, FXGLViewer, FXMDIChild, and FXMDIClient."
+msgid ""
+"Reimplemented in FXDelegator, FXGLViewer, FXMDIChild, and FXMDIClient."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXComTableKeyword.py:docstring of abaqus.PlugInRegistration.AFXComTableKeyword.AFXComTableKeyword:1
@@ -700,7 +751,9 @@ msgid "ID for widgets exchanging array strings."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXComTableKeyword.py:docstring of abaqus.PlugInRegistration.AFXComTableKeyword.AFXComTableKeyword.equal:1
-msgid "Returns True if the two table element values compare equal (index not used)."
+msgid ""
+"Returns True if the two table element values compare equal (index not "
+"used)."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXComTableKeyword.py:docstring of abaqus.PlugInRegistration.AFXComTableKeyword.AFXComTableKeyword.equal:4
@@ -719,7 +772,9 @@ msgid "Second value."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXComTableKeyword.py:docstring of abaqus.PlugInRegistration.AFXComTableKeyword.AFXComTableKeyword.getColumnStyle:1
-msgid "Returns the style of the column elements. Will never return AFXTABLE_STYLE_DEFAULT!"
+msgid ""
+"Returns the style of the column elements. Will never return "
+"AFXTABLE_STYLE_DEFAULT!"
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXComTableKeyword.py:docstring of abaqus.PlugInRegistration.AFXComTableKeyword.AFXComTableKeyword.getColumnStyle:4
@@ -735,7 +790,9 @@ msgid "Column index."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXComTableKeyword.py:docstring of abaqus.PlugInRegistration.AFXComTableKeyword.AFXComTableKeyword.getColumnType:1
-msgid "Returns the type of the column elements. Will never return AFXTABLE_TYPE_DEFAULT!"
+msgid ""
+"Returns the type of the column elements. Will never return "
+"AFXTABLE_TYPE_DEFAULT!"
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXComTableKeyword.py:docstring of abaqus.PlugInRegistration.AFXComTableKeyword.AFXComTableKeyword.getDefaultStyle:1
@@ -751,7 +808,10 @@ msgid "Returns the default values for this table."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXComTableKeyword.py:docstring of abaqus.PlugInRegistration.AFXComTableKeyword.AFXComTableKeyword.getFormattedValue:1
-msgid "Returns the formatted value of the table element, suitable for placing in a command. If the element has AFXTABLE_EVALUATE style, and its contents are invalid, an exception will be thrown."
+msgid ""
+"Returns the formatted value of the table element, suitable for placing in "
+"a command. If the element has AFXTABLE_EVALUATE style, and its contents "
+"are invalid, an exception will be thrown."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXComTableKeyword.py:docstring of abaqus.PlugInRegistration.AFXComTableKeyword.AFXComTableKeyword.getFormattedValue:5
@@ -802,12 +862,15 @@ msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXComTableKeyword.py:docstring of abaqus.PlugInRegistration.AFXComTableKeyword.AFXComTableKeyword.getValueAsInt:1
 #: ../../../../../src/abaqus/PlugInRegistration/AFXTupleKeyword.py:docstring of abaqus.PlugInRegistration.AFXTupleKeyword.AFXTupleKeyword.getValueAsInt:1
-msgid "Returns the keyword's value as an integer; returns False upon failure."
+msgid ""
+"Returns the keyword's value as an integer; returns False upon failure."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXComTableKeyword.py:docstring of abaqus.PlugInRegistration.AFXComTableKeyword.AFXComTableKeyword.getValueAsString:1
 #: ../../../../../src/abaqus/PlugInRegistration/AFXTupleKeyword.py:docstring of abaqus.PlugInRegistration.AFXTupleKeyword.AFXTupleKeyword.getValueAsString:1
-msgid "Returns the formatted string that represents the current keyword value in a command."
+msgid ""
+"Returns the formatted string that represents the current keyword value in "
+"a command."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXComTableKeyword.py:docstring of abaqus.PlugInRegistration.AFXComTableKeyword.AFXComTableKeyword.getValueForBlank:1
@@ -823,7 +886,8 @@ msgid "as entered by the user."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXComTableKeyword.py:docstring of abaqus.PlugInRegistration.AFXComTableKeyword.AFXComTableKeyword.getValuesForBlanks:1
-msgid "Returns a string with values substituted for blanks for all table columns."
+msgid ""
+"Returns a string with values substituted for blanks for all table columns."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXComTableKeyword.py:docstring of abaqus.PlugInRegistration.AFXComTableKeyword.AFXComTableKeyword.insertColumns:1
@@ -1022,7 +1086,9 @@ msgid "Suspends the mode."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXMode.py:docstring of abaqus.PlugInRegistration.AFXMode.AFXMode.getCommand:1
-msgid "Returns the command at the given index (returns 0 if the index is out-of-bounds)."
+msgid ""
+"Returns the command at the given index (returns 0 if the index is out-of-"
+"bounds)."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXMode.py:docstring of abaqus.PlugInRegistration.AFXMode.AFXMode.getCommand:4
@@ -1038,19 +1104,27 @@ msgid "Returns True if the mode is active."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXFloatKeyword.py:docstring of abaqus.PlugInRegistration.AFXFloatKeyword.AFXFloatKeyword:1
-msgid "This class is designed for the command keywords that have floating-point values."
+msgid ""
+"This class is designed for the command keywords that have floating-point "
+"values."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXFloatKeyword.py:docstring of abaqus.PlugInRegistration.AFXFloatKeyword.AFXFloatKeyword.getPrecision:1
-msgid "Returns the precision that is used for converting the keyword's floating-point value to a text string."
+msgid ""
+"Returns the precision that is used for converting the keyword's floating-"
+"point value to a text string."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXFloatKeyword.py:docstring of abaqus.PlugInRegistration.AFXFloatKeyword.AFXFloatKeyword.getValue:1
-msgid "Returns the keyword's current value, or zero if the content expression is invalid."
+msgid ""
+"Returns the keyword's current value, or zero if the content expression is "
+"invalid."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXFloatKeyword.py:docstring of abaqus.PlugInRegistration.AFXFloatKeyword.AFXFloatKeyword.setPrecision:1
-msgid "Sets the precision that is used for converting the keyword's floating-point value to a text string."
+msgid ""
+"Sets the precision that is used for converting the keyword's floating-"
+"point value to a text string."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXFloatTarget.py:docstring of abaqus.PlugInRegistration.AFXFloatTarget.AFXFloatTarget:1
@@ -1122,7 +1196,9 @@ msgid "Returns the target of this target object."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXTarget.py:docstring of abaqus.PlugInRegistration.AFXTarget.AFXTarget.getType:1
-msgid "Returns the target type; this method is deprecated in Abaqus 6.6, and its use should be replaced by getTypeName()."
+msgid ""
+"Returns the target type; this method is deprecated in Abaqus 6.6, and its "
+"use should be replaced by getTypeName()."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXTarget.py:docstring of abaqus.PlugInRegistration.AFXTarget.AFXTarget.getTypeName:1
@@ -1157,7 +1233,19 @@ msgstr ""
 #: ../../../../../src/abaqus/PlugInRegistration/AFXIntKeyword.py:docstring of abaqus.PlugInRegistration.AFXIntKeyword.AFXIntKeyword.syncPreviousValue:3
 #: ../../../../../src/abaqus/PlugInRegistration/AFXObjectKeyword.py:docstring of abaqus.PlugInRegistration.AFXObjectKeyword.AFXObjectKeyword.syncPreviousValue:3
 #: ../../../../../src/abaqus/PlugInRegistration/AFXStringKeyword.py:docstring of abaqus.PlugInRegistration.AFXStringKeyword.AFXStringKeyword.syncPreviousValue:3
-msgid "Implements AFXKeyword. By clicking on Send, you accept that Dassault Systèmes will process your personal data and may contact you for further information. [Privacy Policy]( https://www.3ds.com/privacy-policy). Total Results: Results per page This page cannot be found. The page might not exist or is temporarily unavailable. Try again or try searching for the topic. Use this form to provide feedback on this help topic. To get product support or to provide product feedback, go to [Frequently Asked Questions]( https://3ds.one/PO). For support for online purchased solutions, go to [Online Purchase Support](https://3ds.one/Q8). * Required Subject: Feedback on User Assistance * I acknowledge I have read and I hereby accept the [privacy policy]( https://www.3ds.com/privacy-policy) under which my personal data will be used by Dassault Systèmes."
+msgid ""
+"Implements AFXKeyword. By clicking on Send, you accept that Dassault "
+"Systèmes will process your personal data and may contact you for further "
+"information. [Privacy Policy]( https://www.3ds.com/privacy-policy). Total "
+"Results: Results per page This page cannot be found. The page might not "
+"exist or is temporarily unavailable. Try again or try searching for the "
+"topic. Use this form to provide feedback on this help topic. To get "
+"product support or to provide product feedback, go to [Frequently Asked "
+"Questions]( https://3ds.one/PO). For support for online purchased "
+"solutions, go to [Online Purchase Support](https://3ds.one/Q8). * Required"
+" Subject: Feedback on User Assistance * I acknowledge I have read and I "
+"hereby accept the [privacy policy]( https://www.3ds.com/privacy-policy) "
+"under which my personal data will be used by Dassault Systèmes."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXIntTarget.py:docstring of abaqus.PlugInRegistration.AFXIntTarget.AFXIntTarget:1
@@ -1169,7 +1257,9 @@ msgid "Returns the name of the target type (\"Int\")."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXItemProvider.py:docstring of abaqus.PlugInRegistration.AFXItemProvider.AFXItemProvider:1
-msgid "This class provides a way to supply items to widgets, such as AFXComboBox and AFXList."
+msgid ""
+"This class provides a way to supply items to widgets, such as AFXComboBox "
+"and AFXList."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXItemProvider.py:docstring of abaqus.PlugInRegistration.AFXItemProvider.AFXItemProvider.append:1
@@ -1193,7 +1283,8 @@ msgid "Clears the contents of the item string and reallocates space."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXItemProvider.py:docstring of abaqus.PlugInRegistration.AFXItemProvider.AFXItemProvider.setItems:1
-msgid "Sets all of the providers's items, clearing any previous items first."
+msgid ""
+"Sets all of the providers's items, clearing any previous items first."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXItemProvider.py:docstring of abaqus.PlugInRegistration.AFXItemProvider.AFXItemProvider.setItems:4
@@ -1201,11 +1292,20 @@ msgid "Sequence string with new items."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/FXDataTarget.py:docstring of abaqus.PlugInRegistration.FXDataTarget.FXDataTarget:1
-msgid "A Data Target allows a valuator widget such as a Slider or Text Field to be directly connected with a variable in the program."
+msgid ""
+"A Data Target allows a valuator widget such as a Slider or Text Field to "
+"be directly connected with a variable in the program."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/FXDataTarget.py:docstring of abaqus.PlugInRegistration.FXDataTarget.FXDataTarget:4
-msgid "Whenever the valuator control changes, the variable connected through the data target is automatically updated; conversely, whenever the program changes a variable, all the connected valuator widgets will be updated to reflect this new value on the display. Data Targets also allow connecting Radio Buttons, Menu Commands, and so on to a variable. In this case, the new value of the connected variable is computed by substracting ID_OPTION from the message ID."
+msgid ""
+"Whenever the valuator control changes, the variable connected through the "
+"data target is automatically updated; conversely, whenever the program "
+"changes a variable, all the connected valuator widgets will be updated to "
+"reflect this new value on the display. Data Targets also allow connecting "
+"Radio Buttons, Menu Commands, and so on to a variable. In this case, the "
+"new value of the connected variable is computed by substracting ID_OPTION "
+"from the message ID."
 msgstr ""
 
 #: ../../../../docstring of abaqus.PlugInRegistration.FXDataTarget.FXDataTarget.ID_OPTION:1
@@ -1245,19 +1345,26 @@ msgid "Set the message target object for this data target."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXObjectKeyword.py:docstring of abaqus.PlugInRegistration.AFXObjectKeyword.AFXObjectKeyword:1
-msgid "This class is designed for the command keywords that have objects as values."
+msgid ""
+"This class is designed for the command keywords that have objects as "
+"values."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXObjectKeyword.py:docstring of abaqus.PlugInRegistration.AFXObjectKeyword.AFXObjectKeyword.setValueToDefault:4
-msgid "If set to True, ignore setting the value if the default is unspecified."
+msgid ""
+"If set to True, ignore setting the value if the default is unspecified."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXSequenceString.py:docstring of abaqus.PlugInRegistration.AFXSequenceString.AFXSequenceString:1
-msgid "This class supports parsing and modification of strings containing sequences of elements separated with some separator character."
+msgid ""
+"This class supports parsing and modification of strings containing "
+"sequences of elements separated with some separator character."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXSequenceString.py:docstring of abaqus.PlugInRegistration.AFXSequenceString.AFXSequenceString.forceNumElements:1
-msgid "Forces the content string to contain a tuple with the given number of elements."
+msgid ""
+"Forces the content string to contain a tuple with the given number of "
+"elements."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXSequenceString.py:docstring of abaqus.PlugInRegistration.AFXSequenceString.AFXSequenceString.forceNumElements:4
@@ -1308,7 +1415,9 @@ msgid "Returns the number of elements in this sequence."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXSequenceString.py:docstring of abaqus.PlugInRegistration.AFXSequenceString.AFXSequenceString.getPosition:1
-msgid "Returns the position in the content string of the beginning character of the sequence element."
+msgid ""
+"Returns the position in the content string of the beginning character of "
+"the sequence element."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXSequenceString.py:docstring of abaqus.PlugInRegistration.AFXSequenceString.AFXSequenceString.getValue:1
@@ -1387,15 +1496,22 @@ msgid "Sets the value of a sequence element."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXSequenceString.py:docstring of abaqus.PlugInRegistration.AFXSequenceString.AFXSequenceString.setValue:10
-msgid "If False (default), leading and trailing spaces will be preserved, otherwise, all space between separators will be replaced with the new value."
+msgid ""
+"If False (default), leading and trailing spaces will be preserved, "
+"otherwise, all space between separators will be replaced with the new "
+"value."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXSequenceString.py:docstring of abaqus.PlugInRegistration.AFXSequenceString.AFXSequenceString.trimWhiteSpace:1
-msgid "Adjusts the position and length of the element to trim leading and trailing white spaces."
+msgid ""
+"Adjusts the position and length of the element to trim leading and "
+"trailing white spaces."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXStringKeyword.py:docstring of abaqus.PlugInRegistration.AFXStringKeyword.AFXStringKeyword:1
-msgid "This class is designed for the command keywords that have text string values."
+msgid ""
+"This class is designed for the command keywords that have text string "
+"values."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXStringTarget.py:docstring of abaqus.PlugInRegistration.AFXStringTarget.AFXStringTarget:1
@@ -1407,11 +1523,14 @@ msgid "Returns the name of the target type (\"String\")."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXSymConstKeyword.py:docstring of abaqus.PlugInRegistration.AFXSymConstKeyword.AFXSymConstKeyword:1
-msgid "Bases: :py:class:`~abaqus.PlugInRegistration.AFXIntKeyword.AFXIntKeyword`"
+msgid ""
+"Bases: :py:class:`~abaqus.PlugInRegistration.AFXIntKeyword.AFXIntKeyword`"
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXSymConstKeyword.py:docstring of abaqus.PlugInRegistration.AFXSymConstKeyword.AFXSymConstKeyword:1
-msgid "This class is designed for the command keywords that have symbolic constant values."
+msgid ""
+"This class is designed for the command keywords that have symbolic "
+"constant values."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXSymConstKeyword.py:docstring of abaqus.PlugInRegistration.AFXSymConstKeyword.AFXSymConstKeyword.getTypeName:3
@@ -1420,11 +1539,19 @@ msgid "Reimplemented from AFXIntKeyword."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXTransition.py:docstring of abaqus.PlugInRegistration.AFXTransition.AFXTransition:1
-msgid "This class is designed for the finite state transition that the GUI (mostly the dialog boxes) can define to perform actions according to state changes."
+msgid ""
+"This class is designed for the finite state transition that the GUI "
+"(mostly the dialog boxes) can define to perform actions according to state"
+" changes."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXTransition.py:docstring of abaqus.PlugInRegistration.AFXTransition.AFXTransition:4
-msgid "The first three arguments of the constructors (keyword, op, and refValue) define an expression (keyword.getValue() op refValue). The current value of the keyword is compared with the reference value. When the expression evaluates to True, a message with the given selector will be sent to the specified message target."
+msgid ""
+"The first three arguments of the constructors (keyword, op, and refValue) "
+"define an expression (keyword.getValue() op refValue). The current value "
+"of the keyword is compared with the reference value. When the expression "
+"evaluates to True, a message with the given selector will be sent to the "
+"specified message target."
 msgstr ""
 
 #: ../../../../docstring of abaqus.PlugInRegistration.AFXTransition.AFXTransition.EQ:1
@@ -1452,7 +1579,10 @@ msgid "Not equal to."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXTransition.py:docstring of abaqus.PlugInRegistration.AFXTransition.AFXTransition.process:1
-msgid "Returns True and sends a message if the expression defined by the constructor arguments evaluates to True; returns False without performing any actions if otherwise."
+msgid ""
+"Returns True and sends a message if the expression defined by the "
+"constructor arguments evaluates to True; returns False without performing "
+"any actions if otherwise."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXTransition.py:docstring of abaqus.PlugInRegistration.AFXTransition.AFXTransition.process:5
@@ -1464,7 +1594,9 @@ msgid "This class manages values which are sent as tuples in a command."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXTupleKeyword.py:docstring of abaqus.PlugInRegistration.AFXTupleKeyword.AFXTupleKeyword.equal:1
-msgid "Returns True if the two tuple element values compare equal (index is not used)."
+msgid ""
+"Returns True if the two tuple element values compare equal (index is not "
+"used)."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXTupleKeyword.py:docstring of abaqus.PlugInRegistration.AFXTupleKeyword.AFXTupleKeyword.getDefaultStyle:1
@@ -1480,15 +1612,21 @@ msgid "Returns the default values for this tuple."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXTupleKeyword.py:docstring of abaqus.PlugInRegistration.AFXTupleKeyword.AFXTupleKeyword.getElementStyle:1
-msgid "Returns the style of one element. Will never return AFXTUPLE_STYLE_DEFAULT!"
+msgid ""
+"Returns the style of one element. Will never return "
+"AFXTUPLE_STYLE_DEFAULT!"
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXTupleKeyword.py:docstring of abaqus.PlugInRegistration.AFXTupleKeyword.AFXTupleKeyword.getElementType:1
-msgid "Returns the type of one element. Will never return AFXTUPLE_TYPE_DEFAULT!"
+msgid ""
+"Returns the type of one element. Will never return AFXTUPLE_TYPE_DEFAULT!"
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXTupleKeyword.py:docstring of abaqus.PlugInRegistration.AFXTupleKeyword.AFXTupleKeyword.getFormattedValue:1
-msgid "Returns the formatted value of the tuple element, suitable for placing in a command. If the element has AFXTUPLE_EVALUATE style and its contents are invalid, an exception will be thrown."
+msgid ""
+"Returns the formatted value of the tuple element, suitable for placing in "
+"a command. If the element has AFXTUPLE_EVALUATE style and its contents are"
+" invalid, an exception will be thrown."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXTupleKeyword.py:docstring of abaqus.PlugInRegistration.AFXTupleKeyword.AFXTupleKeyword.getLength:1
@@ -1496,7 +1634,8 @@ msgid "Returns the length of the tuple."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXTupleKeyword.py:docstring of abaqus.PlugInRegistration.AFXTupleKeyword.AFXTupleKeyword.getMaxLength:1
-msgid "Returns the maximum length of this tuple, or -1 for unbounded length."
+msgid ""
+"Returns the maximum length of this tuple, or -1 for unbounded length."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXTupleKeyword.py:docstring of abaqus.PlugInRegistration.AFXTupleKeyword.AFXTupleKeyword.getMinLength:1
@@ -1516,11 +1655,15 @@ msgid "Returns the value substituted for blank tuple element."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXTupleKeyword.py:docstring of abaqus.PlugInRegistration.AFXTupleKeyword.AFXTupleKeyword.getValues:1
-msgid "Returns a string containing values (separated by commas) of the tuple elements."
+msgid ""
+"Returns a string containing values (separated by commas) of the tuple "
+"elements."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXTupleKeyword.py:docstring of abaqus.PlugInRegistration.AFXTupleKeyword.AFXTupleKeyword.getValuesForBlanks:1
-msgid "Returns a string containing values substituted for blanks for the tuple elements."
+msgid ""
+"Returns a string containing values substituted for blanks for the tuple "
+"elements."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXTupleKeyword.py:docstring of abaqus.PlugInRegistration.AFXTupleKeyword.AFXTupleKeyword.insertElements:1
@@ -1585,7 +1728,9 @@ msgid "Sets the value substituted for a blank tuple element."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXTupleKeyword.py:docstring of abaqus.PlugInRegistration.AFXTupleKeyword.AFXTupleKeyword.setValues:1
-msgid "Sets values for all tuple elements (use commas to separate values within the string)."
+msgid ""
+"Sets values for all tuple elements (use commas to separate values within "
+"the string)."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/AFXTupleKeyword.py:docstring of abaqus.PlugInRegistration.AFXTupleKeyword.AFXTupleKeyword.setValues:4
@@ -1605,7 +1750,9 @@ msgid "Bases: :py:class:`~abaqus.PlugInRegistration.FXId.FXId`"
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/FXDrawable.py:docstring of abaqus.PlugInRegistration.FXDrawable.FXDrawable:1
-msgid "Drawable is an abstract base class for any surface that can be drawn upon, such as a FXWindow, or FXImage."
+msgid ""
+"Drawable is an abstract base class for any surface that can be drawn upon,"
+" such as a FXWindow, or FXImage."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/FXDrawable.py:docstring of abaqus.PlugInRegistration.FXDrawable.FXDrawable.getHeight:1
@@ -1621,7 +1768,10 @@ msgid "Width of drawable."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/FXDrawable.py:docstring of abaqus.PlugInRegistration.FXDrawable.FXDrawable.resize:1
-msgid "Resize drawable to the specified width and height. Reimplemented in FXBitmap, FXIcon, FXIconList, FXImage, FXMDIChild, FXRootWindow, FXText, FXTopWindow, and FXWindow."
+msgid ""
+"Resize drawable to the specified width and height. Reimplemented in "
+"FXBitmap, FXIcon, FXIconList, FXImage, FXMDIChild, FXRootWindow, FXText, "
+"FXTopWindow, and FXWindow."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/FXId.py:docstring of abaqus.PlugInRegistration.FXId.FXId:1
@@ -1633,7 +1783,21 @@ msgid "Create resource."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/FXId.py:docstring of abaqus.PlugInRegistration.FXId.FXId.create:3
-msgid "Reimplemented in FXBitmap, FXColorBar, FXColorSelector, FXColorWell, FXColorWheel, FXComboBox, FXComposite, FXCursor, FXDirBox, FXDirList, FXDockTitle, FXDriveBox, FXFileList, FXFont, FXFontSelector, FXGLCanvas, FXGLContext, FXGLViewer, FXGLVisual, FXGroupBox, FXHeader, FXIcon, FXIconList, FXImage, FXImageView, FXLabel, FXList, FXListBox, FXMDIChild, FXMenuButton, FXMenuCaption, FXMenuCascade, FXProgressBar, FXMenuTitle, FXOptionMenu, FXPrintDialog, FXRootWindow, FXScrollWindow, FXShell, FXSpinner, FXStatusline, FXTabBar, FXTable, FXText, FXTextField, FXToggleButton, FXToolbarShell, FXTooltip, FXTopWindow, FXTreeList, FXTreeListBox, FXVisual, FXWindow, AFXManagerMenuPane, AFXMainWindow, AFXPromptArea, AFXBaseTable, AFXColorButton, AFXColorFlyout, AFXComboBox, AFXDialog, AFXFloatSpinner, AFXFlyoutButton, AFXListBox, AFXNote, AFXOptionTreeItem, AFXPrimFloatSpinner, AFXProgressBar, AFXSpinner, AFXTable, AFXTextField, and AFXVerticalAligner."
+msgid ""
+"Reimplemented in FXBitmap, FXColorBar, FXColorSelector, FXColorWell, "
+"FXColorWheel, FXComboBox, FXComposite, FXCursor, FXDirBox, FXDirList, "
+"FXDockTitle, FXDriveBox, FXFileList, FXFont, FXFontSelector, FXGLCanvas, "
+"FXGLContext, FXGLViewer, FXGLVisual, FXGroupBox, FXHeader, FXIcon, "
+"FXIconList, FXImage, FXImageView, FXLabel, FXList, FXListBox, FXMDIChild, "
+"FXMenuButton, FXMenuCaption, FXMenuCascade, FXProgressBar, FXMenuTitle, "
+"FXOptionMenu, FXPrintDialog, FXRootWindow, FXScrollWindow, FXShell, "
+"FXSpinner, FXStatusline, FXTabBar, FXTable, FXText, FXTextField, "
+"FXToggleButton, FXToolbarShell, FXTooltip, FXTopWindow, FXTreeList, "
+"FXTreeListBox, FXVisual, FXWindow, AFXManagerMenuPane, AFXMainWindow, "
+"AFXPromptArea, AFXBaseTable, AFXColorButton, AFXColorFlyout, AFXComboBox, "
+"AFXDialog, AFXFloatSpinner, AFXFlyoutButton, AFXListBox, AFXNote, "
+"AFXOptionTreeItem, AFXPrimFloatSpinner, AFXProgressBar, AFXSpinner, "
+"AFXTable, AFXTextField, and AFXVerticalAligner."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/FXId.py:docstring of abaqus.PlugInRegistration.FXId.FXId.destroy:1
@@ -1641,7 +1805,12 @@ msgid "Destroy resource."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/FXId.py:docstring of abaqus.PlugInRegistration.FXId.FXId.destroy:3
-msgid "Reimplemented in FXBitmap, FXComboBox, FXComposite, FXCursor, FXDirBox, FXDirList, FXDriveBox, FXFileList, FXFont, FXGLCanvas, FXGLContext, FXGLVisual, FXIcon, FXImage, FXListBox, FXMenuCascade, FXOptionMenu, FXRootWindow, FXTreeList, FXTreeListBox, FXVisual, FXWindow, AFXManagerMenuCascade, AFXColorFlyout, and AFXTable."
+msgid ""
+"Reimplemented in FXBitmap, FXComboBox, FXComposite, FXCursor, FXDirBox, "
+"FXDirList, FXDriveBox, FXFileList, FXFont, FXGLCanvas, FXGLContext, "
+"FXGLVisual, FXIcon, FXImage, FXListBox, FXMenuCascade, FXOptionMenu, "
+"FXRootWindow, FXTreeList, FXTreeListBox, FXVisual, FXWindow, "
+"AFXManagerMenuCascade, AFXColorFlyout, and AFXTable."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/FXId.py:docstring of abaqus.PlugInRegistration.FXId.FXId.detach:1
@@ -1649,7 +1818,16 @@ msgid "Detach resource."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/FXId.py:docstring of abaqus.PlugInRegistration.FXId.FXId.detach:3
-msgid "Reimplemented in FXBitmap, FXColorBar, FXColorWell, FXColorWheel, FXComboBox, FXComposite, FXCursor, FXDirBox, FXDirList, FXDockTitle, FXDriveBox, FXFileList, FXFont, FXGLCanvas, FXGLContext, FXGLViewer, FXGLVisual, FXGroupBox, FXHeader, FXIcon, FXIconList, FXImage, FXImageView, FXLabel, FXList, FXListBox, FXMDIChild, FXMenuButton, FXMenuCaption, FXMenuCascade, FXProgressBar, FXMenuTitle, FXOptionMenu, FXRootWindow, FXStatusline, FXTable, FXText, FXToggleButton, FXTooltip, FXTopWindow, FXTreeList, FXTreeListBox, FXVisual, FXWindow, AFXBaseTable, AFXColorFlyout, AFXFlyoutButton, AFXNote, and AFXTable."
+msgid ""
+"Reimplemented in FXBitmap, FXColorBar, FXColorWell, FXColorWheel, "
+"FXComboBox, FXComposite, FXCursor, FXDirBox, FXDirList, FXDockTitle, "
+"FXDriveBox, FXFileList, FXFont, FXGLCanvas, FXGLContext, FXGLViewer, "
+"FXGLVisual, FXGroupBox, FXHeader, FXIcon, FXIconList, FXImage, "
+"FXImageView, FXLabel, FXList, FXListBox, FXMDIChild, FXMenuButton, "
+"FXMenuCaption, FXMenuCascade, FXProgressBar, FXMenuTitle, FXOptionMenu, "
+"FXRootWindow, FXStatusline, FXTable, FXText, FXToggleButton, FXTooltip, "
+"FXTopWindow, FXTreeList, FXTreeListBox, FXVisual, FXWindow, AFXBaseTable, "
+"AFXColorFlyout, AFXFlyoutButton, AFXNote, and AFXTable."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/FXId.py:docstring of abaqus.PlugInRegistration.FXId.FXId.getApp:1
@@ -1725,7 +1903,11 @@ msgid "Return size of list."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/FXObjectList.py:docstring of abaqus.PlugInRegistration.FXObjectList.FXObjectList.size:3
-msgid "By clicking on Send, you accept that Dassault Systèmes will process your personal data and may contact you for further information. [Privacy Policy]( https://www.3ds.com/privacy-policy). Total Results: Results per page"
+msgid ""
+"By clicking on Send, you accept that Dassault Systèmes will process your "
+"personal data and may contact you for further information. [Privacy "
+"Policy]( https://www.3ds.com/privacy-policy). Total Results: Results per "
+"page"
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/FXRGB.py:docstring of abaqus.PlugInRegistration.FXRGB.FXRGB:1
@@ -1737,12 +1919,16 @@ msgid "Tree list Item."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/MessageMaps.py:docstring of abaqus.PlugInRegistration.MessageMaps.FXMAPFUNC:1
-msgid "Creates an entry in the object's message map that will route a message to a method."
+msgid ""
+"Creates an entry in the object's message map that will route a message to "
+"a method."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/MessageMaps.py:docstring of abaqus.PlugInRegistration.MessageMaps.FXMAPFUNC:4
 #: ../../../../../src/abaqus/PlugInRegistration/MessageMaps.py:docstring of abaqus.PlugInRegistration.MessageMaps.FXMAPFUNCS:4
-msgid "An instance of the class in which the message map entry is to be made. Typically this is \"self\"."
+msgid ""
+"An instance of the class in which the message map entry is to be made. "
+"Typically this is \"self\"."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/MessageMaps.py:docstring of abaqus.PlugInRegistration.MessageMaps.FXMAPFUNC:7
@@ -1758,11 +1944,15 @@ msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/MessageMaps.py:docstring of abaqus.PlugInRegistration.MessageMaps.FXMAPFUNC:13
 #: ../../../../../src/abaqus/PlugInRegistration/MessageMaps.py:docstring of abaqus.PlugInRegistration.MessageMaps.FXMAPFUNCS:16
-msgid "The method to which the message is to be routed. This method must be specified by including the class name (e.g. MyDB.myMethod)."
+msgid ""
+"The method to which the message is to be routed. This method must be "
+"specified by including the class name (e.g. MyDB.myMethod)."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/MessageMaps.py:docstring of abaqus.PlugInRegistration.MessageMaps.FXMAPFUNCS:1
-msgid "Creates multiple entries in the object's message map that will route messages to a method."
+msgid ""
+"Creates multiple entries in the object's message map that will route "
+"messages to a method."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/MessageMaps.py:docstring of abaqus.PlugInRegistration.MessageMaps.FXMAPFUNCS:10
@@ -1774,7 +1964,8 @@ msgid "An integer specifying the ending message ID."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/MessageMaps.py:docstring of abaqus.PlugInRegistration.MessageMaps.MKUINT:1
-msgid "Creates a message selector by combining a message ID and a message type."
+msgid ""
+"Creates a message selector by combining a message ID and a message type."
 msgstr ""
 
 #: ../../../../../src/abaqus/PlugInRegistration/MessageMaps.py:docstring of abaqus.PlugInRegistration.MessageMaps.SELID:1
