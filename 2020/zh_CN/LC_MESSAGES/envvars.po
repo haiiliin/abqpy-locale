@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: abqpy-locale\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-07-21 09:21+0000\n"
-"PO-Revision-Date: 2026-07-21 10:05\n"
+"PO-Revision-Date: 2026-07-21 12:25\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "MIME-Version: 1.0\n"
@@ -234,33 +234,33 @@ msgstr ""
 
 #: ../../../envvars.md:182
 msgid "Set this environment variable to `True` to enable debug mode in `abqpy`."
-msgstr ""
+msgstr "将此环境变量设置为 `True` 以启用调试模式。"
 
 #: ../../../envvars.md:189
 msgid ""
 "Set this environment variable to `True` to skip the Abaqus command line procedure "
 "execution."
-msgstr ""
+msgstr "将此环境变量设置为 `True` 以跳过使用 Abaqus 命令行执行程序。"
 
 #: ../../../envvars.md:196
 msgid ""
 "This environment variable is set to true when the `abqpy` package is being used to "
 "generate the documentation."
-msgstr ""
+msgstr "当 `abqpy` 被用于生成文档时，此环境变量将设置为 true。"
 
 #: ../../../envvars.md:201
 msgid "**Type: int**"
-msgstr ""
+msgstr "** 类型：整型 **"
 
 #: ../../../envvars.md:203
 msgid ""
 "The maximum number of levels of the traceback (`sys.tracebacklimit`) to show in the "
 "command line interface. The default value is 0."
-msgstr ""
+msgstr "在命令行中显示的跟踪级别最大值 (`sys.tracebacklimit`) 。默认值为 0。"
 
 #: ../../../envvars.md:208
 msgid "**Type: string {os, subprocess}**"
-msgstr ""
+msgstr "** 类型：字符串 {os, subprocess}**"
 
 #: ../../../envvars.md:210
 msgid ""
@@ -268,6 +268,8 @@ msgid ""
 " the `os.system` function to run the command. The `subprocess` method uses the "
 "`subprocess.run` function to run the command."
 msgstr ""
+"运行 Abaqus 命令行程序的方法。默认方法是使用 `os.system` 函数运行命令。`subprocess` 方法使用 "
+"`subprocess.run` 函数运行命令。"
 
 #: ../../../envvars.md:213
 msgid "Example"

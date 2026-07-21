@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: abqpy-locale\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-07-21 09:21+0000\n"
-"PO-Revision-Date: 2026-07-21 10:11\n"
+"PO-Revision-Date: 2026-07-21 12:25\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "MIME-Version: 1.0\n"
@@ -32,6 +32,9 @@ msgid ""
 "to execute Abaqus commands, enabling you to build models, submit jobs, and extract "
 "output data in a single Python script, all without opening Abaqus/CAE."
 msgstr ""
+"`abqpy` 是一个 Python 库，为 Abaqus Python 脚本提供类型提示。您可以使用它来随意写入您的 Abaqus"
+" Python 脚本。 它还提供了简单的 API 来执行 Abaqus 命令，使您能够构建模型。 以单个的 Python "
+"脚本提交作业和提取输出数据，所有这些操作都不会打开 Abaqus/CAE。"
 
 #: ../../../getting_started.md:10
 msgid "Installation"
@@ -45,6 +48,11 @@ msgid ""
 "src=\"https://img.shields.io/badge/Abaqus-2016%2B-brightgreen\" align=center /> </a> "
 "are installed on your computer before installing `abqpy`."
 msgstr ""
+"在安装 `abqpy` 之前，请确保 <a href=\"https://www.python.org/downloads/\"> <img "
+"src=\"https://img.shields.io/badge/Python-3.8%2B-brightgreen\" align=center /> </a> 和 "
+"<a href=\"https://www.3ds.com/products-services/simulia/products/abaqus/\"> <img "
+"src=\"https://img.shields.io/badge/Abaqus-2016%2B-brightgreen\" align=center /> </a> "
+"已安装在您的计算机上。"
 
 #: ../../../getting_started.md:16
 msgid "You can install `abqpy` with the following commands."
@@ -60,6 +68,8 @@ msgid ""
 "Do not install abqpy in Abaqus's built-in Python interpreter, as it may cause the "
 "Abaqus Python interpreter to crash and you may not be able to open Abaqus/CAE anymore."
 msgstr ""
+"不要在 Abaqus 的内置的 Python 解释器中安装 abqpy。 因为它可能导致 Abaqus Python 解释器崩溃，"
+"您可能无法再打开 Abaqus/CAE 了。"
 
 #: ../../../getting_started.md:50
 msgid "Note"
@@ -69,7 +79,7 @@ msgstr "备注"
 msgid ""
 "It is recommended to install the corresponding version of Abaqus and `abqpy` to avoid "
 "any compatibility issues."
-msgstr ""
+msgstr "建议您安装对应版本的 Abaqus 和 `abqpy`，以避免兼容性问题。"
 
 #: ../../../getting_started.md:54
 msgid "Two Python interpreters"
@@ -79,7 +89,7 @@ msgstr "两个 Python 解释器"
 msgid ""
 "Before proceeding, it's important to understand the concept of two different Python "
 "interpreters."
-msgstr ""
+msgstr "在继续之前，需要知道两个不同的 Python 解释器。"
 
 #: ../../../getting_started.md:58
 msgid ""
@@ -92,6 +102,11 @@ msgid ""
 "representation of your model. The kernel is the computational engine behind "
 "Abaqus/CAE, while the GUI serves as the interface between you and the kernel."
 msgstr ""
+"当我们使用 Abaqus/CAE 图形用户界面（GUI）创建模型并可视化结果时，命令由 Abaqus/CAE "
+"在每次操作后在内部发出。这些命令反映您创建的几何图形以及从每个对话框中选择的选项和设置。GUI "
+"使用名为 Python 的面向对象编程语言生成命令。GUI 发出的命令将发送到 Abaqus/CAE 内核。"
+"内核解释命令，并使用选项和设置来创建模型的内部表示。内核是 Abaqus/CAE 背后的大脑。GUI "
+"是用户和内核之间的接口。"
 
 #: ../../../getting_started.md:67
 msgid ""
@@ -100,6 +115,9 @@ msgid ""
 "scripts. Abaqus comes with a Python interpreter that enables Abaqus/CAE to interact "
 "with the Abaqus kernel."
 msgstr ""
+"总之，Abaqus 使用 Python 语言与 Abaqus 内核进行交互，所有可以在 Abaqus/CAE 中 完成的事情，"
+"也可以使用 Python 脚本完成。Abaqus 已经安装了一个 Python 解释器，以便 Abaqus/CAE 可以使用它与 "
+"Abaqus 内核进行交互。"
 
 #: ../../../getting_started.md:71
 msgid ""
@@ -107,12 +125,15 @@ msgid ""
 "build an Abaqus model independently. However, we can access it using commands provided"
 " by Abaqus:"
 msgstr ""
+"出于各种原因，我们不能直接使用 Abaqus 内的 Python 解释器构建 Abaqus 模型。 但是，我们可以使用 "
+"Abaqus 提供的命令访问它："
 
 #: ../../../getting_started.md:92
 msgid ""
 "Typically, we can use the `noGUI-file` or `script-file` options to execute your Python"
 " script in Abaqus."
 msgstr ""
+"通常，我们可以使用 noGUI-file 或 script-file 选项在 Abaqus 中执行我们的 Python 脚本。"
 
 #: ../../../getting_started.md:94
 msgid ""
@@ -121,6 +142,9 @@ msgid ""
 "Python interpreter. It provides type hints for Abaqus Python scripting, enabling you "
 "to write Abaqus Python scripts efficiently."
 msgstr ""
+"另一个 Python 解释器是我们自己安装的 Python 解释器，其中安装了 `abqpy`。`abqpy` "
+"提供了一个将我们的 Python 脚本连接到 Abaqus Python 解释器的桥梁，它为 Abaqus 的 Python "
+"脚本提供了类型提示，使我们能够快速编写 Abaqus Python 脚本。"
 
 #: ../../../getting_started.md:99
 msgid "How does this package work?"
@@ -135,6 +159,10 @@ msgid ""
 "script using your own Python interpreter without opening Abaqus**. This is achieved "
 "via the **abaqus** command like this:"
 msgstr ""
+"`abqpy` 只是一个为 Abaqus/Python 脚本提供类型提示的库，它安装在 Abaqus/Python 环境之外，"
+"你可以使用 `abqpy` 来编写你的 Abaqus/Python 脚本，并自己在 Abaqus 里面运行脚本。但是，在 "
+"Abaqus 命令的帮助下，可以实现一种更简单的方法：** 您实际上可以使用自己的 Python "
+"解释器运行脚本而无需打开 Abaqus**，这是通过 **abaqus** 命令实现的，如下所示："
 
 #: ../../../getting_started.md:110
 msgid ""
@@ -146,6 +174,11 @@ msgid ""
 "script is submitted to Abaqus, {py:func}`~abqpy.run.run` will exit the interpreter, "
 "because the script will already be running in the Abaqus Python interpreter."
 msgstr ""
+"秘密藏在 {py:func}`~abqpy.run.run` 函数中。在这个库中，{py:mod}`~abaqus` "
+"模块被重新实现以自动调用这个函数。 如果您在脚本导入此模块（如 `from abaqus import *`），您的 "
+"Python 解释器（而非 Abaqus Python 解释器）将调用此函数并使用 **abaqus** 命令将脚本提交给 "
+"Abaqus。 提交给 Abaqus 后，{py:func}`~abqpy.run.run` 函数将退出解释器，因为脚本已经在 Abaqus "
+"Python 解释器中运行。"
 
 #: ../../../getting_started.md:116
 msgid ""
@@ -154,6 +187,10 @@ msgid ""
 "{py:mod}`~odbAccess` module (i.e., `from odbAccess import *`), which only requires the"
 " Abaqus Python interpreter. For this, a different **abaqus** command line is needed:"
 msgstr ""
+"在输出脚本中，我们可能不想总是使用 {py:mod}`~abaqus` 模块，因为它需要 Abaqus/CAE 内核"
+"（和它的许可证）。 这时，我们使用模块 {py:mod}`~odbAccess` (例如，`from odbAccess import "
+"*`）, 它只需要 Abaqus Python 解释器而不需要 Abaqus/CAE 内核。这时，我们需要另一个类似的 "
+"**abaqus** 命令："
 
 #: ../../../getting_started.md:124
 msgid ""
@@ -172,10 +209,14 @@ msgid ""
 "Abaqus Python environment, make sure to import one of these modules at the top of your"
 " script."
 msgstr ""
+"总之，当您导入两个模块之一（{py:mod}`~abaqus` 或 {py:mod}`~odbAccess`）时，将调用 "
+"{py:func}`~abqpy.run.run` 函数。 它将在 {py:mod}`~abaqus` 模块中传入参数 `cae = True`，在 "
+"{py:mod}`~odbAccess` 模块中传入参数 `cae = False`。 因此，如果您想在外部 Python 环境中运行您的"
+" Python 脚本，请确保在您的脚本导入这些模块之一。"
 
 #: ../../../getting_started.md:131
 msgid "Write your Abaqus Python script"
-msgstr ""
+msgstr "编写你的 Abaqus/Python 脚本"
 
 #: ../../../getting_started.md:133
 msgid ""
@@ -186,10 +227,15 @@ msgid ""
 "tutorial. For more detailed documentation about Abaqus Python scripting, please see "
 "{doc}`/reference/index` for comprehensive API references."
 msgstr ""
+"安装 `abqpy` 包后，您可以开始编写自己的 Abaqus/Python 脚本来构建模型。 您可以参考 "
+"[abqpy/examples at "
+"main・hailiin/abqpy](https://github.com/hailiin/abqpy/tree/main/examples) "
+"获取一些脚本示例。 或者你可以去 {doc}`/tutorials` 看一个简单的教程。 有关 Abaqus/Python "
+"脚本的更多文档，请查看 {doc}`/reference/index` 以获取更详细的 API 参考。"
 
 #: ../../../getting_started.md:139
 msgid "Set up your Abaqus environment"
-msgstr ""
+msgstr "配置 Abaqus 环境"
 
 #: ../../../getting_started.md:141
 msgid ""
@@ -198,20 +244,25 @@ msgid ""
 "`ABAQUS_BAT_PATH` and set its value to the file path of the Abaqus command. For "
 "example: `C:/SIMULIA/Commands/abaqus.bat`."
 msgstr ""
+"请确保命令行中的 `abaqus` 命令是可用的（即您可以在命令行运行 `abaqus`），否则你需要添加一个名为 "
+"`ABAQUS_BAT_PATH` 的系统环境变量， 并将其设置为 Abaqus 批处理文件的文件路径，例如 "
+"`C:/SIMULIA/Commands/abaqus.bat`。"
 
 #: ../../../getting_started.md:145
 msgid "Run your Abaqus Python script"
-msgstr ""
+msgstr "运行你的 Abaqus/Python 脚本"
 
 #: ../../../getting_started.md:147
 msgid "Now you can run your Abaqus Python script using the following methods:"
-msgstr ""
+msgstr "现在您可以使用以下方法运行您的 Abaqus/Python 脚本："
 
 #: ../../../getting_started.md:149
 msgid ""
 "Open Abaqus/CAE and click **Run Script** in the menu bar, then select your script "
 "file. This is the most common way to run a Python script in Abaqus/CAE."
 msgstr ""
+"打开 Abaqus/CAE 并点击菜单栏中的 `运行脚本`，然后选择您的脚本文件， 它是在 Abaqus/CAE 中运行 "
+"Python 脚本的最常见方式。"
 
 #: ../../../getting_started.md:151
 msgid "Use the `abaqus` command in the command line:"
@@ -222,6 +273,9 @@ msgid ""
 "See [here](https://help.3ds.com/2026/English/DSSIMULIA_Established/SIMACAEEXCRefMap/si"
 "maexc-c-caeproc.htm?contextscope=all) for more information about the `abaqus` command."
 msgstr ""
+"更多关于 `abaqus` 命令的信息，请访问 "
+"[这里](https://help.3ds.com/2026/English/DSSIMULIA_Established/SIMACEEXCRefMap/simagec-"
+"c-c-caeproc.htm?contextscope=all)。"
 
 #: ../../../getting_started.md:157
 msgid "Use the `abqpy` command in the command line:"
@@ -233,6 +287,8 @@ msgid ""
 " that you can customize the default Python launch command. See {doc}`cli` for more "
 "information about the `abqpy` command."
 msgstr ""
+"使用 `abqpy` 命令而不是直接使用 `abaqus` 命令的好处是，您可以自定义默认的 Python 启动命令。有关"
+" `abqpy` 命令的更多信息，请参见 {doc}`cli`。"
 
 #: ../../../getting_started.md:163
 msgid "Use the Python 3 interpreter to run the script directly:"
@@ -242,7 +298,7 @@ msgstr "使用 Python 3 解释器直接运行脚本："
 msgid ""
 "This is the most convenient way to run the script. It is equivalent to the `abqpy` "
 "command with some default predefined arguments."
-msgstr ""
+msgstr "这是运行脚本的最方便的方式，它等效于 `abqpy` 命令，并带有一些默认的预定义参数。"
 
 #: ../../../getting_started.md:169
 msgid ""
@@ -259,6 +315,10 @@ msgid ""
 "annotations are provided for the methods. You can check the docstring of the methods "
 "for more information."
 msgstr ""
+"`abqpy` 命令使用 {py:obj}`abqpy.cli.abaqus` 变量调用命令行，"
+"你可以直接调用此变量中的方法来运行脚本。 当您想要在另一个 Python 脚本中调用 Abaqus/Python "
+"脚本时，这个方法是十分方便的，因为代码编辑器会为这些方法提供类型提示。 "
+"您可以检查变量方法的文档字符串以获取更多信息。"
 
 #: ../../../getting_started.md:183
 msgid ""
@@ -266,6 +326,8 @@ msgid ""
 "Python scripting outside Abaqus/CAE. If you run the script in debug mode, it will be "
 "opened in Abaqus PDE where you can debug it."
 msgstr ""
+"`abqpy` 不支持调试，因为 Abaqus 没有为 Abaqus/CAE 之外的 Python 脚本提供一个调试器。 "
+"如果您在调试模式下运行脚本，脚本将在 Abaqus PDE 中打开，您可以在那里调试它。"
 
 #: ../../../getting_started.md:187
 #: ../../../getting_started.md:189
