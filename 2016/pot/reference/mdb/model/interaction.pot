@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: abqpy 2016\n"
+"Project-Id-Version: abqpy 2016.11\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-14 01:53+0000\n"
+"POT-Creation-Date: 2026-07-21 09:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -455,11 +455,7 @@ msgstr ""
 msgid "Check `InteractionModel on help.3ds.com/2016 <https://help.3ds.com/2016/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-modelitnpyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: ../../../../../src/abaqus/Interaction/InteractionContactControlModel.py:docstring of abaqus.Interaction.InteractionContactControlModel.InteractionContactControlModel:0
-#: ../../../../../src/abaqus/Interaction/InteractionContactInitializationModel.py:docstring of abaqus.Interaction.InteractionContactInitializationModel.InteractionContactInitializationModel:0
-#: ../../../../../src/abaqus/Interaction/InteractionContactStabilizationModel.py:docstring of abaqus.Interaction.InteractionContactStabilizationModel.InteractionContactStabilizationModel:0
-#: ../../../../../src/abaqus/Interaction/InteractionModel.py:docstring of abaqus.Interaction.InteractionModel.InteractionModel:0
-#: ../../../../../src/abaqus/Interaction/InteractionPropertyModel.py:docstring of abaqus.Interaction.InteractionPropertyModel.InteractionPropertyModel:0
+#: ../../../reference/mdb/model/interaction.md:0
 msgid "Public Data Attributes:"
 msgstr ""
 
@@ -890,11 +886,7 @@ msgstr ""
 msgid "An Assembly object."
 msgstr ""
 
-#: ../../../../../src/abaqus/Interaction/InteractionContactControlModel.py:docstring of abaqus.Interaction.InteractionContactControlModel.InteractionContactControlModel:0
-#: ../../../../../src/abaqus/Interaction/InteractionContactInitializationModel.py:docstring of abaqus.Interaction.InteractionContactInitializationModel.InteractionContactInitializationModel:0
-#: ../../../../../src/abaqus/Interaction/InteractionContactStabilizationModel.py:docstring of abaqus.Interaction.InteractionContactStabilizationModel.InteractionContactStabilizationModel:0
-#: ../../../../../src/abaqus/Interaction/InteractionModel.py:docstring of abaqus.Interaction.InteractionModel.InteractionModel:0
-#: ../../../../../src/abaqus/Interaction/InteractionPropertyModel.py:docstring of abaqus.Interaction.InteractionPropertyModel.InteractionPropertyModel:0
+#: ../../../reference/mdb/model/interaction.md:0
 msgid "Public Methods:"
 msgstr ""
 
@@ -1222,43 +1214,19 @@ msgstr ""
 msgid "This method creates an IncidentWaveProperty object."
 msgstr ""
 
-#: ../../../../None:7:<autosummary>:1
+#: ../../../../None:4:<autosummary>:1
 msgid ":py:obj:`__init__ <abaqus.Model.ModelBase.ModelBase.__init__>`\\ \\(name\\[\\, description\\, ...\\]\\)"
 msgstr ""
 
-#: ../../../../None:7:<autosummary>:1
+#: ../../../../None:4:<autosummary>:1
 msgid "This method creates a Model object."
 msgstr ""
 
-#: ../../../../None:7:<autosummary>:1
-msgid ":py:obj:`ModelFromInputFile <abaqus.Model.ModelBase.ModelBase.ModelFromInputFile>`\\ \\(name\\, inputFileName\\)"
-msgstr ""
-
-#: ../../../../None:7:<autosummary>:1
-msgid "This method creates a Model object by reading the keywords in an input file and creating the corresponding Abaqus/CAE objects."
-msgstr ""
-
-#: ../../../../None:7:<autosummary>:1
-msgid ":py:obj:`ModelFromOdbFile <abaqus.Model.ModelBase.ModelBase.ModelFromOdbFile>`\\ \\(name\\, odbFileName\\)"
-msgstr ""
-
-#: ../../../../None:7:<autosummary>:1
-msgid "This method creates a Model object by reading an output database and creating any corresponding Abaqus/CAE objects."
-msgstr ""
-
-#: ../../../../None:7:<autosummary>:1
-msgid ":py:obj:`ModelFromNastranFile <abaqus.Model.ModelBase.ModelBase.ModelFromNastranFile>`\\ \\(modelName\\, inputFileName\\)"
-msgstr ""
-
-#: ../../../../None:7:<autosummary>:1
-msgid "This method creates a Model object by reading the keywords in a Nastran bulk data file or Nastran input file and creating any corresponding Abaqus/CAE objects."
-msgstr ""
-
-#: ../../../../None:7:<autosummary>:1
+#: ../../../../None:4:<autosummary>:1
 msgid ":py:obj:`setValues <abaqus.Model.ModelBase.ModelBase.setValues>`\\ \\(\\[description\\, noPartsInputFile\\, ...\\]\\)"
 msgstr ""
 
-#: ../../../../None:7:<autosummary>:1
+#: ../../../../None:4:<autosummary>:1
 msgid "This method modifies the Model object."
 msgstr ""
 
@@ -1402,128 +1370,7 @@ msgstr ""
 msgid "Check `AcousticImpedance on help.3ds.com/2016 <https://help.3ds.com/2016/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-acousticimpedanceitnpyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: ../../../../../src/abaqus/Interaction/AcousticImpedance.py:docstring of abaqus.Interaction.AcousticImpedance.AcousticImpedance.setValues:0
-#: ../../../../../src/abaqus/Interaction/AcousticImpedance.py:docstring of abaqus.Interaction.AcousticImpedance.AcousticImpedance.setValuesInStep:0
-#: ../../../../../src/abaqus/Interaction/AcousticImpedanceProp.py:docstring of abaqus.Interaction.AcousticImpedanceProp.AcousticImpedanceProp.setValues:0
-#: ../../../../../src/abaqus/Interaction/ActuatorSensorProp.py:docstring of abaqus.Interaction.ActuatorSensorProp.ActuatorSensorProp.setValues:0
-#: ../../../../../src/abaqus/Interaction/CavityRadiation.py:docstring of abaqus.Interaction.CavityRadiation.CavityRadiation.setValues:0
-#: ../../../../../src/abaqus/Interaction/CavityRadiation.py:docstring of abaqus.Interaction.CavityRadiation.CavityRadiation.setValuesInStep:0
-#: ../../../../../src/abaqus/Interaction/CavityRadiationProp.py:docstring of abaqus.Interaction.CavityRadiationProp.CavityRadiationProp.setValues:0
-#: ../../../../../src/abaqus/Interaction/ConcentratedFilmCondition.py:docstring of abaqus.Interaction.ConcentratedFilmCondition.ConcentratedFilmCondition.setValues:0
-#: ../../../../../src/abaqus/Interaction/ConcentratedFilmCondition.py:docstring of abaqus.Interaction.ConcentratedFilmCondition.ConcentratedFilmCondition.setValuesInStep:0
-#: ../../../../../src/abaqus/Interaction/ConcentratedRadiationToAmbient.py:docstring of abaqus.Interaction.ConcentratedRadiationToAmbient.ConcentratedRadiationToAmbient.setValues:0
-#: ../../../../../src/abaqus/Interaction/ConcentratedRadiationToAmbient.py:docstring of abaqus.Interaction.ConcentratedRadiationToAmbient.ConcentratedRadiationToAmbient.setValuesInStep:0
-#: ../../../../../src/abaqus/Interaction/ContactProperty.py:docstring of abaqus.Interaction.ContactProperty.ContactProperty.CohesiveBehavior:0
-#: ../../../../../src/abaqus/Interaction/ContactProperty.py:docstring of abaqus.Interaction.ContactProperty.ContactProperty.Damage:0
-#: ../../../../../src/abaqus/Interaction/ContactProperty.py:docstring of abaqus.Interaction.ContactProperty.ContactProperty.Damping:0
-#: ../../../../../src/abaqus/Interaction/ContactProperty.py:docstring of abaqus.Interaction.ContactProperty.ContactProperty.ElectricalConductance:0
-#: ../../../../../src/abaqus/Interaction/ContactProperty.py:docstring of abaqus.Interaction.ContactProperty.ContactProperty.FractureCriterion:0
-#: ../../../../../src/abaqus/Interaction/ContactProperty.py:docstring of abaqus.Interaction.ContactProperty.ContactProperty.GeometricProperties:0
-#: ../../../../../src/abaqus/Interaction/ContactProperty.py:docstring of abaqus.Interaction.ContactProperty.ContactProperty.HeatGeneration:0
-#: ../../../../../src/abaqus/Interaction/ContactProperty.py:docstring of abaqus.Interaction.ContactProperty.ContactProperty.NormalBehavior:0
-#: ../../../../../src/abaqus/Interaction/ContactProperty.py:docstring of abaqus.Interaction.ContactProperty.ContactProperty.Radiation:0
-#: ../../../../../src/abaqus/Interaction/ContactProperty.py:docstring of abaqus.Interaction.ContactProperty.ContactProperty.TangentialBehavior:0
-#: ../../../../../src/abaqus/Interaction/ContactProperty.py:docstring of abaqus.Interaction.ContactProperty.ContactProperty.ThermalConductance:0
-#: ../../../../../src/abaqus/Interaction/ContactPropertyAssignment.py:docstring of abaqus.Interaction.ContactPropertyAssignment.ContactPropertyAssignment.appendInStep:0
-#: ../../../../../src/abaqus/Interaction/ContactPropertyAssignment.py:docstring of abaqus.Interaction.ContactPropertyAssignment.ContactPropertyAssignment.changeValuesInStep:0
-#: ../../../../../src/abaqus/Interaction/ContactPropertyAssignment.py:docstring of abaqus.Interaction.ContactPropertyAssignment.ContactPropertyAssignment.delete:0
-#: ../../../../../src/abaqus/Interaction/CyclicSymmetry.py:docstring of abaqus.Interaction.CyclicSymmetry.CyclicSymmetry.setValues:0
-#: ../../../../../src/abaqus/Interaction/CyclicSymmetry.py:docstring of abaqus.Interaction.CyclicSymmetry.CyclicSymmetry.setValuesInStep:0
-#: ../../../../../src/abaqus/Interaction/ElasticFoundation.py:docstring of abaqus.Interaction.ElasticFoundation.ElasticFoundation.setValuesInStep:0
-#: ../../../../../src/abaqus/Interaction/ExpContactControl.py:docstring of abaqus.Interaction.ExpContactControl.ExpContactControl.setValues:0
-#: ../../../../../src/abaqus/Interaction/FilmCondition.py:docstring of abaqus.Interaction.FilmCondition.FilmCondition.setValues:0
-#: ../../../../../src/abaqus/Interaction/FilmCondition.py:docstring of abaqus.Interaction.FilmCondition.FilmCondition.setValuesInStep:0
-#: ../../../../../src/abaqus/Interaction/FilmConditionProp.py:docstring of abaqus.Interaction.FilmConditionProp.FilmConditionProp.setValues:0
-#: ../../../../../src/abaqus/Interaction/FluidCavity.py:docstring of abaqus.Interaction.FluidCavity.FluidCavity.setValues:0
-#: ../../../../../src/abaqus/Interaction/FluidCavityProperty.py:docstring of abaqus.Interaction.FluidCavityProperty.FluidCavityProperty.setValues:0
-#: ../../../../../src/abaqus/Interaction/FluidExchange.py:docstring of abaqus.Interaction.FluidExchange.FluidExchange.setValues:0
-#: ../../../../../src/abaqus/Interaction/FluidExchangeProperty.py:docstring of abaqus.Interaction.FluidExchangeProperty.FluidExchangeProperty.setValues:0
-#: ../../../../../src/abaqus/Interaction/IncidentWave.py:docstring of abaqus.Interaction.IncidentWave.IncidentWave.setValues:0
-#: ../../../../../src/abaqus/Interaction/IncidentWaveProperty.py:docstring of abaqus.Interaction.IncidentWaveProperty.IncidentWaveProperty.setValues:0
-#: ../../../../../src/abaqus/Interaction/InitializationAssignment.py:docstring of abaqus.Interaction.InitializationAssignment.InitializationAssignment.appendInStep:0
-#: ../../../../../src/abaqus/Interaction/InitializationAssignment.py:docstring of abaqus.Interaction.InitializationAssignment.InitializationAssignment.changeValuesInStep:0
-#: ../../../../../src/abaqus/Interaction/InitializationAssignment.py:docstring of abaqus.Interaction.InitializationAssignment.InitializationAssignment.delete:0
-#: ../../../../../src/abaqus/Interaction/Interaction.py:docstring of abaqus.Interaction.Interaction.Interaction.deactivate:0
-#: ../../../../../src/abaqus/Interaction/Interaction.py:docstring of abaqus.Interaction.Interaction.Interaction.delete:0
-#: ../../../../../src/abaqus/Interaction/Interaction.py:docstring of abaqus.Interaction.Interaction.Interaction.move:0
-#: ../../../../../src/abaqus/Interaction/Interaction.py:docstring of abaqus.Interaction.Interaction.Interaction.reset:0
-#: ../../../../../src/abaqus/Interaction/InteractionContactControlModel.py:docstring of abaqus.Interaction.InteractionContactControlModel.InteractionContactControlModel.ExpContactControl:0
-#: ../../../../../src/abaqus/Interaction/InteractionContactControlModel.py:docstring of abaqus.Interaction.InteractionContactControlModel.InteractionContactControlModel.StdContactControl:0
-#: ../../../../../src/abaqus/Interaction/InteractionContactInitializationModel.py:docstring of abaqus.Interaction.InteractionContactInitializationModel.InteractionContactInitializationModel.StdInitialization:0
-#: ../../../../../src/abaqus/Interaction/InteractionContactStabilizationModel.py:docstring of abaqus.Interaction.InteractionContactStabilizationModel.InteractionContactStabilizationModel.StdStabilization:0
-#: ../../../../../src/abaqus/Interaction/InteractionModel.py:docstring of abaqus.Interaction.InteractionModel.InteractionModel.AcousticImpedance:0
-#: ../../../../../src/abaqus/Interaction/InteractionModel.py:docstring of abaqus.Interaction.InteractionModel.InteractionModel.ActuatorSensor:0
-#: ../../../../../src/abaqus/Interaction/InteractionModel.py:docstring of abaqus.Interaction.InteractionModel.InteractionModel.CavityRadiation:0
-#: ../../../../../src/abaqus/Interaction/InteractionModel.py:docstring of abaqus.Interaction.InteractionModel.InteractionModel.ConcentratedFilmCondition:0
-#: ../../../../../src/abaqus/Interaction/InteractionModel.py:docstring of abaqus.Interaction.InteractionModel.InteractionModel.ConcentratedRadiationToAmbient:0
-#: ../../../../../src/abaqus/Interaction/InteractionModel.py:docstring of abaqus.Interaction.InteractionModel.InteractionModel.ContactExp:0
-#: ../../../../../src/abaqus/Interaction/InteractionModel.py:docstring of abaqus.Interaction.InteractionModel.InteractionModel.ContactStd:0
-#: ../../../../../src/abaqus/Interaction/InteractionModel.py:docstring of abaqus.Interaction.InteractionModel.InteractionModel.CyclicSymmetry:0
-#: ../../../../../src/abaqus/Interaction/InteractionModel.py:docstring of abaqus.Interaction.InteractionModel.InteractionModel.ElasticFoundation:0
-#: ../../../../../src/abaqus/Interaction/InteractionModel.py:docstring of abaqus.Interaction.InteractionModel.InteractionModel.FilmCondition:0
-#: ../../../../../src/abaqus/Interaction/InteractionModel.py:docstring of abaqus.Interaction.InteractionModel.InteractionModel.FluidCavity:0
-#: ../../../../../src/abaqus/Interaction/InteractionModel.py:docstring of abaqus.Interaction.InteractionModel.InteractionModel.FluidExchange:0
-#: ../../../../../src/abaqus/Interaction/InteractionModel.py:docstring of abaqus.Interaction.InteractionModel.InteractionModel.IncidentWave:0
-#: ../../../../../src/abaqus/Interaction/InteractionModel.py:docstring of abaqus.Interaction.InteractionModel.InteractionModel.ModelChange:0
-#: ../../../../../src/abaqus/Interaction/InteractionModel.py:docstring of abaqus.Interaction.InteractionModel.InteractionModel.PressurePenetration:0
-#: ../../../../../src/abaqus/Interaction/InteractionModel.py:docstring of abaqus.Interaction.InteractionModel.InteractionModel.RadiationToAmbient:0
-#: ../../../../../src/abaqus/Interaction/InteractionModel.py:docstring of abaqus.Interaction.InteractionModel.InteractionModel.SelfContactExp:0
-#: ../../../../../src/abaqus/Interaction/InteractionModel.py:docstring of abaqus.Interaction.InteractionModel.InteractionModel.SelfContactStd:0
-#: ../../../../../src/abaqus/Interaction/InteractionModel.py:docstring of abaqus.Interaction.InteractionModel.InteractionModel.StdXplCosimulation:0
-#: ../../../../../src/abaqus/Interaction/InteractionModel.py:docstring of abaqus.Interaction.InteractionModel.InteractionModel.SurfaceToSurfaceContactExp:0
-#: ../../../../../src/abaqus/Interaction/InteractionModel.py:docstring of abaqus.Interaction.InteractionModel.InteractionModel.SurfaceToSurfaceContactStd:0
-#: ../../../../../src/abaqus/Interaction/InteractionModel.py:docstring of abaqus.Interaction.InteractionModel.InteractionModel.XFEMCrackGrowth:0
-#: ../../../../../src/abaqus/Interaction/InteractionModel.py:docstring of abaqus.Interaction.InteractionModel.InteractionModel.contactDetection:0
-#: ../../../../../src/abaqus/Interaction/InteractionPropertyModel.py:docstring of abaqus.Interaction.InteractionPropertyModel.InteractionPropertyModel.AcousticImpedanceProp:0
-#: ../../../../../src/abaqus/Interaction/InteractionPropertyModel.py:docstring of abaqus.Interaction.InteractionPropertyModel.InteractionPropertyModel.ActuatorSensorProp:0
-#: ../../../../../src/abaqus/Interaction/InteractionPropertyModel.py:docstring of abaqus.Interaction.InteractionPropertyModel.InteractionPropertyModel.CavityRadiationProp:0
-#: ../../../../../src/abaqus/Interaction/InteractionPropertyModel.py:docstring of abaqus.Interaction.InteractionPropertyModel.InteractionPropertyModel.ContactProperty:0
-#: ../../../../../src/abaqus/Interaction/InteractionPropertyModel.py:docstring of abaqus.Interaction.InteractionPropertyModel.InteractionPropertyModel.FilmConditionProp:0
-#: ../../../../../src/abaqus/Interaction/InteractionPropertyModel.py:docstring of abaqus.Interaction.InteractionPropertyModel.InteractionPropertyModel.FluidCavityProperty:0
-#: ../../../../../src/abaqus/Interaction/InteractionPropertyModel.py:docstring of abaqus.Interaction.InteractionPropertyModel.InteractionPropertyModel.FluidExchangeProperty:0
-#: ../../../../../src/abaqus/Interaction/InteractionPropertyModel.py:docstring of abaqus.Interaction.InteractionPropertyModel.InteractionPropertyModel.IncidentWaveProperty:0
-#: ../../../../../src/abaqus/Interaction/MasterSlaveAssignment.py:docstring of abaqus.Interaction.MasterSlaveAssignment.MasterSlaveAssignment.appendInStep:0
-#: ../../../../../src/abaqus/Interaction/MasterSlaveAssignment.py:docstring of abaqus.Interaction.MasterSlaveAssignment.MasterSlaveAssignment.changeValuesInStep:0
-#: ../../../../../src/abaqus/Interaction/MasterSlaveAssignment.py:docstring of abaqus.Interaction.MasterSlaveAssignment.MasterSlaveAssignment.delete:0
-#: ../../../../../src/abaqus/Interaction/ModelChange.py:docstring of abaqus.Interaction.ModelChange.ModelChange.setValues:0
-#: ../../../../../src/abaqus/Interaction/ModelChange.py:docstring of abaqus.Interaction.ModelChange.ModelChange.setValuesInStep:0
-#: ../../../../../src/abaqus/Interaction/PressurePenetration.py:docstring of abaqus.Interaction.PressurePenetration.PressurePenetration.setValues:0
-#: ../../../../../src/abaqus/Interaction/PressurePenetration.py:docstring of abaqus.Interaction.PressurePenetration.PressurePenetration.setValuesInStep:0
-#: ../../../../../src/abaqus/Interaction/RadiationToAmbient.py:docstring of abaqus.Interaction.RadiationToAmbient.RadiationToAmbient.setValues:0
-#: ../../../../../src/abaqus/Interaction/RadiationToAmbient.py:docstring of abaqus.Interaction.RadiationToAmbient.RadiationToAmbient.setValuesInStep:0
-#: ../../../../../src/abaqus/Interaction/RegionPairs.py:docstring of abaqus.Interaction.RegionPairs.RegionPairs.setValuesInStep:0
-#: ../../../../../src/abaqus/Interaction/SelfContactExp.py:docstring of abaqus.Interaction.SelfContactExp.SelfContactExp.setValues:0
-#: ../../../../../src/abaqus/Interaction/SelfContactExp.py:docstring of abaqus.Interaction.SelfContactExp.SelfContactExp.setValuesInStep:0
-#: ../../../../../src/abaqus/Interaction/SelfContactStd.py:docstring of abaqus.Interaction.SelfContactStd.SelfContactStd.setValues:0
-#: ../../../../../src/abaqus/Interaction/SelfContactStd.py:docstring of abaqus.Interaction.SelfContactStd.SelfContactStd.setValuesInStep:0
-#: ../../../../../src/abaqus/Interaction/SlidingTransitionAssignment.py:docstring of abaqus.Interaction.SlidingTransitionAssignment.SlidingTransitionAssignment.appendInStep:0
-#: ../../../../../src/abaqus/Interaction/SlidingTransitionAssignment.py:docstring of abaqus.Interaction.SlidingTransitionAssignment.SlidingTransitionAssignment.changeValuesInStep:0
-#: ../../../../../src/abaqus/Interaction/SlidingTransitionAssignment.py:docstring of abaqus.Interaction.SlidingTransitionAssignment.SlidingTransitionAssignment.delete:0
-#: ../../../../../src/abaqus/Interaction/SmoothingAssignment.py:docstring of abaqus.Interaction.SmoothingAssignment.SmoothingAssignment.appendInStep:0
-#: ../../../../../src/abaqus/Interaction/SmoothingAssignment.py:docstring of abaqus.Interaction.SmoothingAssignment.SmoothingAssignment.changeValuesInStep:0
-#: ../../../../../src/abaqus/Interaction/SmoothingAssignment.py:docstring of abaqus.Interaction.SmoothingAssignment.SmoothingAssignment.delete:0
-#: ../../../../../src/abaqus/Interaction/StabilizationAssignment.py:docstring of abaqus.Interaction.StabilizationAssignment.StabilizationAssignment.appendInStep:0
-#: ../../../../../src/abaqus/Interaction/StabilizationAssignment.py:docstring of abaqus.Interaction.StabilizationAssignment.StabilizationAssignment.changeValuesInStep:0
-#: ../../../../../src/abaqus/Interaction/StabilizationAssignment.py:docstring of abaqus.Interaction.StabilizationAssignment.StabilizationAssignment.delete:0
-#: ../../../../../src/abaqus/Interaction/StdContactControl.py:docstring of abaqus.Interaction.StdContactControl.StdContactControl.setValues:0
-#: ../../../../../src/abaqus/Interaction/StdInitialization.py:docstring of abaqus.Interaction.StdInitialization.StdInitialization.setValues:0
-#: ../../../../../src/abaqus/Interaction/StdStabilization.py:docstring of abaqus.Interaction.StdStabilization.StdStabilization.setValues:0
-#: ../../../../../src/abaqus/Interaction/StdXplCosimulation.py:docstring of abaqus.Interaction.StdXplCosimulation.StdXplCosimulation.setValues:0
-#: ../../../../../src/abaqus/Interaction/SurfaceFeatureAssignment.py:docstring of abaqus.Interaction.SurfaceFeatureAssignment.SurfaceFeatureAssignment.appendInStep:0
-#: ../../../../../src/abaqus/Interaction/SurfaceFeatureAssignment.py:docstring of abaqus.Interaction.SurfaceFeatureAssignment.SurfaceFeatureAssignment.changeValuesInStep:0
-#: ../../../../../src/abaqus/Interaction/SurfaceFeatureAssignment.py:docstring of abaqus.Interaction.SurfaceFeatureAssignment.SurfaceFeatureAssignment.delete:0
-#: ../../../../../src/abaqus/Interaction/SurfaceOffsetAssignment.py:docstring of abaqus.Interaction.SurfaceOffsetAssignment.SurfaceOffsetAssignment.appendInStep:0
-#: ../../../../../src/abaqus/Interaction/SurfaceOffsetAssignment.py:docstring of abaqus.Interaction.SurfaceOffsetAssignment.SurfaceOffsetAssignment.changeValuesInStep:0
-#: ../../../../../src/abaqus/Interaction/SurfaceOffsetAssignment.py:docstring of abaqus.Interaction.SurfaceOffsetAssignment.SurfaceOffsetAssignment.delete:0
-#: ../../../../../src/abaqus/Interaction/SurfaceThicknessAssignment.py:docstring of abaqus.Interaction.SurfaceThicknessAssignment.SurfaceThicknessAssignment.appendInStep:0
-#: ../../../../../src/abaqus/Interaction/SurfaceThicknessAssignment.py:docstring of abaqus.Interaction.SurfaceThicknessAssignment.SurfaceThicknessAssignment.changeValuesInStep:0
-#: ../../../../../src/abaqus/Interaction/SurfaceThicknessAssignment.py:docstring of abaqus.Interaction.SurfaceThicknessAssignment.SurfaceThicknessAssignment.delete:0
-#: ../../../../../src/abaqus/Interaction/SurfaceToSurfaceContactExp.py:docstring of abaqus.Interaction.SurfaceToSurfaceContactExp.SurfaceToSurfaceContactExp.setValues:0
-#: ../../../../../src/abaqus/Interaction/SurfaceToSurfaceContactExp.py:docstring of abaqus.Interaction.SurfaceToSurfaceContactExp.SurfaceToSurfaceContactExp.setValuesInStep:0
-#: ../../../../../src/abaqus/Interaction/SurfaceToSurfaceContactStd.py:docstring of abaqus.Interaction.SurfaceToSurfaceContactStd.SurfaceToSurfaceContactStd.setValues:0
-#: ../../../../../src/abaqus/Interaction/SurfaceToSurfaceContactStd.py:docstring of abaqus.Interaction.SurfaceToSurfaceContactStd.SurfaceToSurfaceContactStd.setValuesInStep:0
-#: ../../../../../src/abaqus/Interaction/XFEMCrackGrowth.py:docstring of abaqus.Interaction.XFEMCrackGrowth.XFEMCrackGrowth.setValues:0
-#: ../../../../../src/abaqus/Interaction/XFEMCrackGrowth.py:docstring of abaqus.Interaction.XFEMCrackGrowth.XFEMCrackGrowth.setValuesInStep:0
+#: ../../../reference/mdb/model/interaction.md:0
 msgid "Parameters"
 msgstr ""
 
@@ -1586,52 +1433,7 @@ msgstr ""
 msgid "A sequence of three Floats specifying the X, Y, and Z components of the direction cosine of the major axis of the ellipse or prolate spheroid defining the boundary surface. The default value is (0, 0, 1).This argument is valid only when **definition** = NONREFLECTING, and **nonreflectingType** = ELLIPTICAL or PROLATE."
 msgstr ""
 
-#: ../../../../../src/abaqus/Interaction/ContactProperty.py:docstring of abaqus.Interaction.ContactProperty.ContactProperty.CohesiveBehavior:0
-#: ../../../../../src/abaqus/Interaction/ContactProperty.py:docstring of abaqus.Interaction.ContactProperty.ContactProperty.Damage:0
-#: ../../../../../src/abaqus/Interaction/ContactProperty.py:docstring of abaqus.Interaction.ContactProperty.ContactProperty.Damping:0
-#: ../../../../../src/abaqus/Interaction/ContactProperty.py:docstring of abaqus.Interaction.ContactProperty.ContactProperty.ElectricalConductance:0
-#: ../../../../../src/abaqus/Interaction/ContactProperty.py:docstring of abaqus.Interaction.ContactProperty.ContactProperty.FractureCriterion:0
-#: ../../../../../src/abaqus/Interaction/ContactProperty.py:docstring of abaqus.Interaction.ContactProperty.ContactProperty.GeometricProperties:0
-#: ../../../../../src/abaqus/Interaction/ContactProperty.py:docstring of abaqus.Interaction.ContactProperty.ContactProperty.HeatGeneration:0
-#: ../../../../../src/abaqus/Interaction/ContactProperty.py:docstring of abaqus.Interaction.ContactProperty.ContactProperty.NormalBehavior:0
-#: ../../../../../src/abaqus/Interaction/ContactProperty.py:docstring of abaqus.Interaction.ContactProperty.ContactProperty.Radiation:0
-#: ../../../../../src/abaqus/Interaction/ContactProperty.py:docstring of abaqus.Interaction.ContactProperty.ContactProperty.TangentialBehavior:0
-#: ../../../../../src/abaqus/Interaction/ContactProperty.py:docstring of abaqus.Interaction.ContactProperty.ContactProperty.ThermalConductance:0
-#: ../../../../../src/abaqus/Interaction/InteractionContactControlModel.py:docstring of abaqus.Interaction.InteractionContactControlModel.InteractionContactControlModel.ExpContactControl:0
-#: ../../../../../src/abaqus/Interaction/InteractionContactControlModel.py:docstring of abaqus.Interaction.InteractionContactControlModel.InteractionContactControlModel.StdContactControl:0
-#: ../../../../../src/abaqus/Interaction/InteractionContactInitializationModel.py:docstring of abaqus.Interaction.InteractionContactInitializationModel.InteractionContactInitializationModel.StdInitialization:0
-#: ../../../../../src/abaqus/Interaction/InteractionContactStabilizationModel.py:docstring of abaqus.Interaction.InteractionContactStabilizationModel.InteractionContactStabilizationModel.StdStabilization:0
-#: ../../../../../src/abaqus/Interaction/InteractionModel.py:docstring of abaqus.Interaction.InteractionModel.InteractionModel.AcousticImpedance:0
-#: ../../../../../src/abaqus/Interaction/InteractionModel.py:docstring of abaqus.Interaction.InteractionModel.InteractionModel.ActuatorSensor:0
-#: ../../../../../src/abaqus/Interaction/InteractionModel.py:docstring of abaqus.Interaction.InteractionModel.InteractionModel.CavityRadiation:0
-#: ../../../../../src/abaqus/Interaction/InteractionModel.py:docstring of abaqus.Interaction.InteractionModel.InteractionModel.ConcentratedFilmCondition:0
-#: ../../../../../src/abaqus/Interaction/InteractionModel.py:docstring of abaqus.Interaction.InteractionModel.InteractionModel.ConcentratedRadiationToAmbient:0
-#: ../../../../../src/abaqus/Interaction/InteractionModel.py:docstring of abaqus.Interaction.InteractionModel.InteractionModel.ContactExp:0
-#: ../../../../../src/abaqus/Interaction/InteractionModel.py:docstring of abaqus.Interaction.InteractionModel.InteractionModel.ContactStd:0
-#: ../../../../../src/abaqus/Interaction/InteractionModel.py:docstring of abaqus.Interaction.InteractionModel.InteractionModel.CyclicSymmetry:0
-#: ../../../../../src/abaqus/Interaction/InteractionModel.py:docstring of abaqus.Interaction.InteractionModel.InteractionModel.ElasticFoundation:0
-#: ../../../../../src/abaqus/Interaction/InteractionModel.py:docstring of abaqus.Interaction.InteractionModel.InteractionModel.FilmCondition:0
-#: ../../../../../src/abaqus/Interaction/InteractionModel.py:docstring of abaqus.Interaction.InteractionModel.InteractionModel.FluidCavity:0
-#: ../../../../../src/abaqus/Interaction/InteractionModel.py:docstring of abaqus.Interaction.InteractionModel.InteractionModel.FluidExchange:0
-#: ../../../../../src/abaqus/Interaction/InteractionModel.py:docstring of abaqus.Interaction.InteractionModel.InteractionModel.IncidentWave:0
-#: ../../../../../src/abaqus/Interaction/InteractionModel.py:docstring of abaqus.Interaction.InteractionModel.InteractionModel.ModelChange:0
-#: ../../../../../src/abaqus/Interaction/InteractionModel.py:docstring of abaqus.Interaction.InteractionModel.InteractionModel.PressurePenetration:0
-#: ../../../../../src/abaqus/Interaction/InteractionModel.py:docstring of abaqus.Interaction.InteractionModel.InteractionModel.RadiationToAmbient:0
-#: ../../../../../src/abaqus/Interaction/InteractionModel.py:docstring of abaqus.Interaction.InteractionModel.InteractionModel.SelfContactExp:0
-#: ../../../../../src/abaqus/Interaction/InteractionModel.py:docstring of abaqus.Interaction.InteractionModel.InteractionModel.SelfContactStd:0
-#: ../../../../../src/abaqus/Interaction/InteractionModel.py:docstring of abaqus.Interaction.InteractionModel.InteractionModel.StdXplCosimulation:0
-#: ../../../../../src/abaqus/Interaction/InteractionModel.py:docstring of abaqus.Interaction.InteractionModel.InteractionModel.SurfaceToSurfaceContactExp:0
-#: ../../../../../src/abaqus/Interaction/InteractionModel.py:docstring of abaqus.Interaction.InteractionModel.InteractionModel.SurfaceToSurfaceContactStd:0
-#: ../../../../../src/abaqus/Interaction/InteractionModel.py:docstring of abaqus.Interaction.InteractionModel.InteractionModel.XFEMCrackGrowth:0
-#: ../../../../../src/abaqus/Interaction/InteractionModel.py:docstring of abaqus.Interaction.InteractionModel.InteractionModel.getSurfaceSeparation:0
-#: ../../../../../src/abaqus/Interaction/InteractionPropertyModel.py:docstring of abaqus.Interaction.InteractionPropertyModel.InteractionPropertyModel.AcousticImpedanceProp:0
-#: ../../../../../src/abaqus/Interaction/InteractionPropertyModel.py:docstring of abaqus.Interaction.InteractionPropertyModel.InteractionPropertyModel.ActuatorSensorProp:0
-#: ../../../../../src/abaqus/Interaction/InteractionPropertyModel.py:docstring of abaqus.Interaction.InteractionPropertyModel.InteractionPropertyModel.CavityRadiationProp:0
-#: ../../../../../src/abaqus/Interaction/InteractionPropertyModel.py:docstring of abaqus.Interaction.InteractionPropertyModel.InteractionPropertyModel.ContactProperty:0
-#: ../../../../../src/abaqus/Interaction/InteractionPropertyModel.py:docstring of abaqus.Interaction.InteractionPropertyModel.InteractionPropertyModel.FilmConditionProp:0
-#: ../../../../../src/abaqus/Interaction/InteractionPropertyModel.py:docstring of abaqus.Interaction.InteractionPropertyModel.InteractionPropertyModel.FluidCavityProperty:0
-#: ../../../../../src/abaqus/Interaction/InteractionPropertyModel.py:docstring of abaqus.Interaction.InteractionPropertyModel.InteractionPropertyModel.FluidExchangeProperty:0
-#: ../../../../../src/abaqus/Interaction/InteractionPropertyModel.py:docstring of abaqus.Interaction.InteractionPropertyModel.InteractionPropertyModel.IncidentWaveProperty:0
+#: ../../../reference/mdb/model/interaction.md:0
 msgid "Returns"
 msgstr ""
 
@@ -1639,53 +1441,7 @@ msgstr ""
 msgid "An AcousticImpedance object."
 msgstr ""
 
-#: ../../../../../src/abaqus/Interaction/ContactProperty.py:docstring of abaqus.Interaction.ContactProperty.ContactProperty.CohesiveBehavior:0
-#: ../../../../../src/abaqus/Interaction/ContactProperty.py:docstring of abaqus.Interaction.ContactProperty.ContactProperty.Damage:0
-#: ../../../../../src/abaqus/Interaction/ContactProperty.py:docstring of abaqus.Interaction.ContactProperty.ContactProperty.Damping:0
-#: ../../../../../src/abaqus/Interaction/ContactProperty.py:docstring of abaqus.Interaction.ContactProperty.ContactProperty.ElectricalConductance:0
-#: ../../../../../src/abaqus/Interaction/ContactProperty.py:docstring of abaqus.Interaction.ContactProperty.ContactProperty.FractureCriterion:0
-#: ../../../../../src/abaqus/Interaction/ContactProperty.py:docstring of abaqus.Interaction.ContactProperty.ContactProperty.GeometricProperties:0
-#: ../../../../../src/abaqus/Interaction/ContactProperty.py:docstring of abaqus.Interaction.ContactProperty.ContactProperty.HeatGeneration:0
-#: ../../../../../src/abaqus/Interaction/ContactProperty.py:docstring of abaqus.Interaction.ContactProperty.ContactProperty.NormalBehavior:0
-#: ../../../../../src/abaqus/Interaction/ContactProperty.py:docstring of abaqus.Interaction.ContactProperty.ContactProperty.Radiation:0
-#: ../../../../../src/abaqus/Interaction/ContactProperty.py:docstring of abaqus.Interaction.ContactProperty.ContactProperty.TangentialBehavior:0
-#: ../../../../../src/abaqus/Interaction/ContactProperty.py:docstring of abaqus.Interaction.ContactProperty.ContactProperty.ThermalConductance:0
-#: ../../../../../src/abaqus/Interaction/InteractionContactControlModel.py:docstring of abaqus.Interaction.InteractionContactControlModel.InteractionContactControlModel.ExpContactControl:0
-#: ../../../../../src/abaqus/Interaction/InteractionContactControlModel.py:docstring of abaqus.Interaction.InteractionContactControlModel.InteractionContactControlModel.StdContactControl:0
-#: ../../../../../src/abaqus/Interaction/InteractionContactInitializationModel.py:docstring of abaqus.Interaction.InteractionContactInitializationModel.InteractionContactInitializationModel.StdInitialization:0
-#: ../../../../../src/abaqus/Interaction/InteractionContactStabilizationModel.py:docstring of abaqus.Interaction.InteractionContactStabilizationModel.InteractionContactStabilizationModel.StdStabilization:0
-#: ../../../../../src/abaqus/Interaction/InteractionModel.py:docstring of abaqus.Interaction.InteractionModel.InteractionModel.AcousticImpedance:0
-#: ../../../../../src/abaqus/Interaction/InteractionModel.py:docstring of abaqus.Interaction.InteractionModel.InteractionModel.ActuatorSensor:0
-#: ../../../../../src/abaqus/Interaction/InteractionModel.py:docstring of abaqus.Interaction.InteractionModel.InteractionModel.CavityRadiation:0
-#: ../../../../../src/abaqus/Interaction/InteractionModel.py:docstring of abaqus.Interaction.InteractionModel.InteractionModel.ConcentratedFilmCondition:0
-#: ../../../../../src/abaqus/Interaction/InteractionModel.py:docstring of abaqus.Interaction.InteractionModel.InteractionModel.ConcentratedRadiationToAmbient:0
-#: ../../../../../src/abaqus/Interaction/InteractionModel.py:docstring of abaqus.Interaction.InteractionModel.InteractionModel.ContactExp:0
-#: ../../../../../src/abaqus/Interaction/InteractionModel.py:docstring of abaqus.Interaction.InteractionModel.InteractionModel.ContactStd:0
-#: ../../../../../src/abaqus/Interaction/InteractionModel.py:docstring of abaqus.Interaction.InteractionModel.InteractionModel.CyclicSymmetry:0
-#: ../../../../../src/abaqus/Interaction/InteractionModel.py:docstring of abaqus.Interaction.InteractionModel.InteractionModel.ElasticFoundation:0
-#: ../../../../../src/abaqus/Interaction/InteractionModel.py:docstring of abaqus.Interaction.InteractionModel.InteractionModel.FilmCondition:0
-#: ../../../../../src/abaqus/Interaction/InteractionModel.py:docstring of abaqus.Interaction.InteractionModel.InteractionModel.FluidCavity:0
-#: ../../../../../src/abaqus/Interaction/InteractionModel.py:docstring of abaqus.Interaction.InteractionModel.InteractionModel.FluidExchange:0
-#: ../../../../../src/abaqus/Interaction/InteractionModel.py:docstring of abaqus.Interaction.InteractionModel.InteractionModel.IncidentWave:0
-#: ../../../../../src/abaqus/Interaction/InteractionModel.py:docstring of abaqus.Interaction.InteractionModel.InteractionModel.ModelChange:0
-#: ../../../../../src/abaqus/Interaction/InteractionModel.py:docstring of abaqus.Interaction.InteractionModel.InteractionModel.PressurePenetration:0
-#: ../../../../../src/abaqus/Interaction/InteractionModel.py:docstring of abaqus.Interaction.InteractionModel.InteractionModel.RadiationToAmbient:0
-#: ../../../../../src/abaqus/Interaction/InteractionModel.py:docstring of abaqus.Interaction.InteractionModel.InteractionModel.SelfContactExp:0
-#: ../../../../../src/abaqus/Interaction/InteractionModel.py:docstring of abaqus.Interaction.InteractionModel.InteractionModel.SelfContactStd:0
-#: ../../../../../src/abaqus/Interaction/InteractionModel.py:docstring of abaqus.Interaction.InteractionModel.InteractionModel.StdXplCosimulation:0
-#: ../../../../../src/abaqus/Interaction/InteractionModel.py:docstring of abaqus.Interaction.InteractionModel.InteractionModel.SurfaceToSurfaceContactExp:0
-#: ../../../../../src/abaqus/Interaction/InteractionModel.py:docstring of abaqus.Interaction.InteractionModel.InteractionModel.SurfaceToSurfaceContactStd:0
-#: ../../../../../src/abaqus/Interaction/InteractionModel.py:docstring of abaqus.Interaction.InteractionModel.InteractionModel.XFEMCrackGrowth:0
-#: ../../../../../src/abaqus/Interaction/InteractionModel.py:docstring of abaqus.Interaction.InteractionModel.InteractionModel.contactDetection:0
-#: ../../../../../src/abaqus/Interaction/InteractionModel.py:docstring of abaqus.Interaction.InteractionModel.InteractionModel.getSurfaceSeparation:0
-#: ../../../../../src/abaqus/Interaction/InteractionPropertyModel.py:docstring of abaqus.Interaction.InteractionPropertyModel.InteractionPropertyModel.AcousticImpedanceProp:0
-#: ../../../../../src/abaqus/Interaction/InteractionPropertyModel.py:docstring of abaqus.Interaction.InteractionPropertyModel.InteractionPropertyModel.ActuatorSensorProp:0
-#: ../../../../../src/abaqus/Interaction/InteractionPropertyModel.py:docstring of abaqus.Interaction.InteractionPropertyModel.InteractionPropertyModel.CavityRadiationProp:0
-#: ../../../../../src/abaqus/Interaction/InteractionPropertyModel.py:docstring of abaqus.Interaction.InteractionPropertyModel.InteractionPropertyModel.ContactProperty:0
-#: ../../../../../src/abaqus/Interaction/InteractionPropertyModel.py:docstring of abaqus.Interaction.InteractionPropertyModel.InteractionPropertyModel.FilmConditionProp:0
-#: ../../../../../src/abaqus/Interaction/InteractionPropertyModel.py:docstring of abaqus.Interaction.InteractionPropertyModel.InteractionPropertyModel.FluidCavityProperty:0
-#: ../../../../../src/abaqus/Interaction/InteractionPropertyModel.py:docstring of abaqus.Interaction.InteractionPropertyModel.InteractionPropertyModel.FluidExchangeProperty:0
-#: ../../../../../src/abaqus/Interaction/InteractionPropertyModel.py:docstring of abaqus.Interaction.InteractionPropertyModel.InteractionPropertyModel.IncidentWaveProperty:0
+#: ../../../reference/mdb/model/interaction.md:0
 msgid "Return type"
 msgstr ""
 
@@ -3431,14 +3187,7 @@ msgstr ""
 msgid ":class:`ExpContactControl`"
 msgstr ""
 
-#: ../../../../../src/abaqus/Interaction/ExpContactControl.py:docstring of abaqus.Interaction.ExpContactControl.ExpContactControl.setValues:0
-#: ../../../../../src/abaqus/Interaction/InteractionContactControlModel.py:docstring of abaqus.Interaction.InteractionContactControlModel.InteractionContactControlModel.ExpContactControl:0
-#: ../../../../../src/abaqus/Interaction/InteractionContactControlModel.py:docstring of abaqus.Interaction.InteractionContactControlModel.InteractionContactControlModel.StdContactControl:0
-#: ../../../../../src/abaqus/Interaction/InteractionContactInitializationModel.py:docstring of abaqus.Interaction.InteractionContactInitializationModel.InteractionContactInitializationModel.StdInitialization:0
-#: ../../../../../src/abaqus/Interaction/InteractionContactStabilizationModel.py:docstring of abaqus.Interaction.InteractionContactStabilizationModel.InteractionContactStabilizationModel.StdStabilization:0
-#: ../../../../../src/abaqus/Interaction/StdContactControl.py:docstring of abaqus.Interaction.StdContactControl.StdContactControl.setValues:0
-#: ../../../../../src/abaqus/Interaction/StdInitialization.py:docstring of abaqus.Interaction.StdInitialization.StdInitialization.setValues:0
-#: ../../../../../src/abaqus/Interaction/StdStabilization.py:docstring of abaqus.Interaction.StdStabilization.StdStabilization.setValues:0
+#: ../../../reference/mdb/model/interaction.md:0
 msgid "Raises"
 msgstr ""
 
@@ -7197,7 +6946,27 @@ msgid "A String specifying the name of the step in which new contact initializat
 msgstr ""
 
 #: ../../../../../src/abaqus/Interaction/InitializationAssignment.py:docstring of abaqus.Interaction.InitializationAssignment.InitializationAssignment.appendInStep:11
-msgid "A sequence of tuples specifying the initializations assigned to each surface pair. Each tuple contains four entries (fourth entry is for Abaqus/Explicit and is optional): - A region object or the SymbolicConstant GLOBAL (for Abaqus/Standard only). - A region object or the SymbolicConstant SELF (for Abaqus/Standard only). - A String specifying a StdInitialization or ExpInitializationobject associated with this pair of regions. - A String specifying a slave surface type. This entry is applicable only if the ExpInitialization object is defined with **overclosureType** = CLEARANCE and **adjustNodalCoords** = True."
+msgid "A sequence of tuples specifying the initializations assigned to each surface pair. Each tuple contains four entries (fourth entry is for Abaqus/Explicit and is optional):  - A region object or the SymbolicConstant GLOBAL (for Abaqus/Standard only). - A region object or the SymbolicConstant SELF (for Abaqus/Standard only). - A String specifying a StdInitialization or ExpInitializationobject associated with this pair of regions. - A String specifying a slave surface type. This entry is applicable only if the ExpInitialization object is defined with **overclosureType** = CLEARANCE and **adjustNodalCoords** = True."
+msgstr ""
+
+#: ../../../../../src/abaqus/Interaction/InitializationAssignment.py:docstring of abaqus.Interaction.InitializationAssignment.InitializationAssignment.appendInStep:11
+msgid "A sequence of tuples specifying the initializations assigned to each surface pair. Each tuple contains four entries (fourth entry is for Abaqus/Explicit and is optional):"
+msgstr ""
+
+#: ../../../../../src/abaqus/Interaction/InitializationAssignment.py:docstring of abaqus.Interaction.InitializationAssignment.InitializationAssignment.appendInStep:14
+msgid "A region object or the SymbolicConstant GLOBAL (for Abaqus/Standard only)."
+msgstr ""
+
+#: ../../../../../src/abaqus/Interaction/InitializationAssignment.py:docstring of abaqus.Interaction.InitializationAssignment.InitializationAssignment.appendInStep:15
+msgid "A region object or the SymbolicConstant SELF (for Abaqus/Standard only)."
+msgstr ""
+
+#: ../../../../../src/abaqus/Interaction/InitializationAssignment.py:docstring of abaqus.Interaction.InitializationAssignment.InitializationAssignment.appendInStep:16
+msgid "A String specifying a StdInitialization or ExpInitializationobject associated with this pair of regions."
+msgstr ""
+
+#: ../../../../../src/abaqus/Interaction/InitializationAssignment.py:docstring of abaqus.Interaction.InitializationAssignment.InitializationAssignment.appendInStep:17
+msgid "A String specifying a slave surface type. This entry is applicable only if the ExpInitialization object is defined with **overclosureType** = CLEARANCE and **adjustNodalCoords** = True."
 msgstr ""
 
 #: ../../../../../src/abaqus/Interaction/InitializationAssignment.py:docstring of abaqus.Interaction.InitializationAssignment.InitializationAssignment.changeValuesInStep:1
@@ -7253,7 +7022,19 @@ msgid "A String specifying the name of the step in which the sliding transition 
 msgstr ""
 
 #: ../../../../../src/abaqus/Interaction/SlidingTransitionAssignment.py:docstring of abaqus.Interaction.SlidingTransitionAssignment.SlidingTransitionAssignment.appendInStep:10
-msgid "A sequence of tuples specifying the sliding transition assignments. Each tuple contains two entries:A region object or the SymbolicConstant GLOBAL specifying the surface to which the sliding transition attribute is assigned.A SymbolicConstant specifying the overriding the smoothness value to be used for the first surface. Possible values of the SymbolicConstant are ELEMENT_ORDER_SMOOTHING, LINEAR_SMOOTHING, and QUADRATIC_SMOOTHING."
+msgid "A sequence of tuples specifying the sliding transition assignments. Each tuple contains two entries:  - A region object or the SymbolicConstant GLOBAL specifying the surface to which the sliding   transition attribute is assigned. - A SymbolicConstant specifying the overriding the smoothness value to be used for the first   surface. Possible values of the SymbolicConstant are ELEMENT_ORDER_SMOOTHING, LINEAR_SMOOTHING,   and QUADRATIC_SMOOTHING."
+msgstr ""
+
+#: ../../../../../src/abaqus/Interaction/SlidingTransitionAssignment.py:docstring of abaqus.Interaction.SlidingTransitionAssignment.SlidingTransitionAssignment.appendInStep:10
+msgid "A sequence of tuples specifying the sliding transition assignments. Each tuple contains two entries:"
+msgstr ""
+
+#: ../../../../../src/abaqus/Interaction/SlidingTransitionAssignment.py:docstring of abaqus.Interaction.SlidingTransitionAssignment.SlidingTransitionAssignment.appendInStep:13
+msgid "A region object or the SymbolicConstant GLOBAL specifying the surface to which the sliding transition attribute is assigned."
+msgstr ""
+
+#: ../../../../../src/abaqus/Interaction/SlidingTransitionAssignment.py:docstring of abaqus.Interaction.SlidingTransitionAssignment.SlidingTransitionAssignment.appendInStep:15
+msgid "A SymbolicConstant specifying the overriding the smoothness value to be used for the first surface. Possible values of the SymbolicConstant are ELEMENT_ORDER_SMOOTHING, LINEAR_SMOOTHING, and QUADRATIC_SMOOTHING."
 msgstr ""
 
 #: ../../../../../src/abaqus/Interaction/SlidingTransitionAssignment.py:docstring of abaqus.Interaction.SlidingTransitionAssignment.SlidingTransitionAssignment.changeValuesInStep:1
@@ -7314,7 +7095,23 @@ msgid "A String specifying the name of the step in which new contact stabilizati
 msgstr ""
 
 #: ../../../../../src/abaqus/Interaction/StabilizationAssignment.py:docstring of abaqus.Interaction.StabilizationAssignment.StabilizationAssignment.appendInStep:10
-msgid "A sequence of tuples specifying the stabilizations assigned to each surface pair. Each tuple contains three entries: - A region object or the SymbolicConstant GLOBAL. - A region object or the SymbolicConstant SELF. - A String specifying a StdStabilization object associated with this pair of regions."
+msgid "A sequence of tuples specifying the stabilizations assigned to each surface pair. Each tuple contains three entries:  - A region object or the SymbolicConstant GLOBAL. - A region object or the SymbolicConstant SELF. - A String specifying a StdStabilization object associated with this pair of regions."
+msgstr ""
+
+#: ../../../../../src/abaqus/Interaction/StabilizationAssignment.py:docstring of abaqus.Interaction.StabilizationAssignment.StabilizationAssignment.appendInStep:10
+msgid "A sequence of tuples specifying the stabilizations assigned to each surface pair. Each tuple contains three entries:"
+msgstr ""
+
+#: ../../../../../src/abaqus/Interaction/StabilizationAssignment.py:docstring of abaqus.Interaction.StabilizationAssignment.StabilizationAssignment.appendInStep:13
+msgid "A region object or the SymbolicConstant GLOBAL."
+msgstr ""
+
+#: ../../../../../src/abaqus/Interaction/StabilizationAssignment.py:docstring of abaqus.Interaction.StabilizationAssignment.StabilizationAssignment.appendInStep:14
+msgid "A region object or the SymbolicConstant SELF."
+msgstr ""
+
+#: ../../../../../src/abaqus/Interaction/StabilizationAssignment.py:docstring of abaqus.Interaction.StabilizationAssignment.StabilizationAssignment.appendInStep:15
+msgid "A String specifying a StdStabilization object associated with this pair of regions."
 msgstr ""
 
 #: ../../../../../src/abaqus/Interaction/StabilizationAssignment.py:docstring of abaqus.Interaction.StabilizationAssignment.StabilizationAssignment.changeValuesInStep:1

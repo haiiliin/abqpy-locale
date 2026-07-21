@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: abqpy 2016\n"
+"Project-Id-Version: abqpy 2016.11\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-14 01:53+0000\n"
+"POT-Creation-Date: 2026-07-21 09:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -307,6 +307,14 @@ msgstr ""
 #: ../../../../../src/abaqus/Material/Plastic/CrushableFoam/CrushableFoamHardening.py:docstring of abaqus.Material.Plastic.CrushableFoam.CrushableFoamHardening.CrushableFoamHardening:25
 #: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/Extended/DruckerPrager.py:docstring of abaqus.Material.Plastic.DruckerPrager.Extended.DruckerPrager.DruckerPrager:3
 #: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/Extended/DruckerPrager.py:docstring of abaqus.Material.Plastic.DruckerPrager.Extended.DruckerPrager.DruckerPrager:48
+#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/Extended/DruckerPrager.py:docstring of abaqus.Material.Plastic.DruckerPrager.Extended.DruckerPrager.DruckerPrager.DruckerPragerCreep:3
+#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/Extended/DruckerPrager.py:docstring of abaqus.Material.Plastic.DruckerPrager.Extended.DruckerPrager.DruckerPrager.DruckerPragerCreep:9
+#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/Extended/DruckerPrager.py:docstring of abaqus.Material.Plastic.DruckerPrager.Extended.DruckerPrager.DruckerPrager.DruckerPragerHardening:3
+#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/Extended/DruckerPrager.py:docstring of abaqus.Material.Plastic.DruckerPrager.Extended.DruckerPrager.DruckerPrager.DruckerPragerHardening:9
+#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/Extended/DruckerPrager.py:docstring of abaqus.Material.Plastic.DruckerPrager.Extended.DruckerPrager.DruckerPrager.RateDependent:3
+#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/Extended/DruckerPrager.py:docstring of abaqus.Material.Plastic.DruckerPrager.Extended.DruckerPrager.DruckerPrager.RateDependent:13
+#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/Extended/DruckerPrager.py:docstring of abaqus.Material.Plastic.DruckerPrager.Extended.DruckerPrager.DruckerPrager.TriaxialTestData:3
+#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/Extended/DruckerPrager.py:docstring of abaqus.Material.Plastic.DruckerPrager.Extended.DruckerPrager.DruckerPrager.TriaxialTestData:9
 #: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/Extended/DruckerPragerCreep.py:docstring of abaqus.Material.Plastic.DruckerPrager.Extended.DruckerPragerCreep.DruckerPragerCreep:3
 #: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/Extended/DruckerPragerCreep.py:docstring of abaqus.Material.Plastic.DruckerPrager.Extended.DruckerPragerCreep.DruckerPragerCreep:37
 #: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/Extended/DruckerPragerHardening.py:docstring of abaqus.Material.Plastic.DruckerPrager.Extended.DruckerPragerHardening.DruckerPragerHardening:3
@@ -321,6 +329,12 @@ msgstr ""
 #: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/ModifiedCap/CapHardening.py:docstring of abaqus.Material.Plastic.DruckerPrager.ModifiedCap.CapHardening.CapHardening:24
 #: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/ModifiedCap/CapPlasticity.py:docstring of abaqus.Material.Plastic.DruckerPrager.ModifiedCap.CapPlasticity.CapPlasticity:3
 #: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/ModifiedCap/CapPlasticity.py:docstring of abaqus.Material.Plastic.DruckerPrager.ModifiedCap.CapPlasticity.CapPlasticity:31
+#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/ModifiedCap/CapPlasticity.py:docstring of abaqus.Material.Plastic.DruckerPrager.ModifiedCap.CapPlasticity.CapPlasticity.CapCreepCohesion:3
+#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/ModifiedCap/CapPlasticity.py:docstring of abaqus.Material.Plastic.DruckerPrager.ModifiedCap.CapPlasticity.CapPlasticity.CapCreepCohesion:9
+#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/ModifiedCap/CapPlasticity.py:docstring of abaqus.Material.Plastic.DruckerPrager.ModifiedCap.CapPlasticity.CapPlasticity.CapCreepConsolidation:3
+#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/ModifiedCap/CapPlasticity.py:docstring of abaqus.Material.Plastic.DruckerPrager.ModifiedCap.CapPlasticity.CapPlasticity.CapCreepConsolidation:9
+#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/ModifiedCap/CapPlasticity.py:docstring of abaqus.Material.Plastic.DruckerPrager.ModifiedCap.CapPlasticity.CapPlasticity.CapHardening:3
+#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/ModifiedCap/CapPlasticity.py:docstring of abaqus.Material.Plastic.DruckerPrager.ModifiedCap.CapPlasticity.CapPlasticity.CapHardening:9
 #: ../../../../../src/abaqus/Material/Plastic/Metal/Annealing/AnnealTemperature.py:docstring of abaqus.Material.Plastic.Metal.Annealing.AnnealTemperature.AnnealTemperature:3
 #: ../../../../../src/abaqus/Material/Plastic/Metal/Annealing/AnnealTemperature.py:docstring of abaqus.Material.Plastic.Metal.Annealing.AnnealTemperature.AnnealTemperature:23
 #: ../../../../../src/abaqus/Material/Plastic/Metal/CastIron/CastIronCompressionHardening.py:docstring of abaqus.Material.Plastic.Metal.CastIron.CastIronCompressionHardening.CastIronCompressionHardening:3
@@ -351,6 +365,10 @@ msgstr ""
 #: ../../../../../src/abaqus/Material/Plastic/MohrCoulomb/MohrCoulombHardening.py:docstring of abaqus.Material.Plastic.MohrCoulomb.MohrCoulombHardening.MohrCoulombHardening:24
 #: ../../../../../src/abaqus/Material/Plastic/MohrCoulomb/MohrCoulombPlasticity.py:docstring of abaqus.Material.Plastic.MohrCoulomb.MohrCoulombPlasticity.MohrCoulombPlasticity:3
 #: ../../../../../src/abaqus/Material/Plastic/MohrCoulomb/MohrCoulombPlasticity.py:docstring of abaqus.Material.Plastic.MohrCoulomb.MohrCoulombPlasticity.MohrCoulombPlasticity:25
+#: ../../../../../src/abaqus/Material/Plastic/MohrCoulomb/MohrCoulombPlasticity.py:docstring of abaqus.Material.Plastic.MohrCoulomb.MohrCoulombPlasticity.MohrCoulombPlasticity.MohrCoulombHardening:3
+#: ../../../../../src/abaqus/Material/Plastic/MohrCoulomb/MohrCoulombPlasticity.py:docstring of abaqus.Material.Plastic.MohrCoulomb.MohrCoulombPlasticity.MohrCoulombPlasticity.MohrCoulombHardening:8
+#: ../../../../../src/abaqus/Material/Plastic/MohrCoulomb/MohrCoulombPlasticity.py:docstring of abaqus.Material.Plastic.MohrCoulomb.MohrCoulombPlasticity.MohrCoulombPlasticity.TensionCutOff:3
+#: ../../../../../src/abaqus/Material/Plastic/MohrCoulomb/MohrCoulombPlasticity.py:docstring of abaqus.Material.Plastic.MohrCoulomb.MohrCoulombPlasticity.MohrCoulombPlasticity.TensionCutOff:9
 #: ../../../../../src/abaqus/Material/Plastic/MohrCoulomb/TensionCutOff.py:docstring of abaqus.Material.Plastic.MohrCoulomb.TensionCutOff.TensionCutOff:4
 #: ../../../../../src/abaqus/Material/Plastic/MohrCoulomb/TensionCutOff.py:docstring of abaqus.Material.Plastic.MohrCoulomb.TensionCutOff.TensionCutOff:26
 #: ../../../../../src/abaqus/Material/Plastic/Plastic.py:docstring of abaqus.Material.Plastic.Plastic.Plastic:3
@@ -573,9 +591,7 @@ msgstr ""
 msgid "Check `MaterialModel on help.3ds.com/2016 <https://help.3ds.com/2016/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-modelpyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material:0
-#: ../../../../../src/abaqus/Material/MaterialModel.py:docstring of abaqus.Material.MaterialModel.MaterialModel:0
-#: ../../../../../src/abaqus/Material/MaterialOdb.py:docstring of abaqus.Material.MaterialOdb.MaterialOdb:0
+#: ../../../reference/mdb/model/material.md:0
 msgid "Public Data Attributes:"
 msgstr ""
 
@@ -984,9 +1000,7 @@ msgstr ""
 msgid "An Assembly object."
 msgstr ""
 
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material:0
-#: ../../../../../src/abaqus/Material/MaterialModel.py:docstring of abaqus.Material.MaterialModel.MaterialModel:0
-#: ../../../../../src/abaqus/Material/MaterialOdb.py:docstring of abaqus.Material.MaterialOdb.MaterialOdb:0
+#: ../../../reference/mdb/model/material.md:0
 msgid "Public Methods:"
 msgstr ""
 
@@ -1001,43 +1015,19 @@ msgstr ""
 msgid "This method creates a Material object."
 msgstr ""
 
-#: ../../../../None:7:<autosummary>:1
+#: ../../../../None:4:<autosummary>:1
 msgid ":py:obj:`__init__ <abaqus.Model.ModelBase.ModelBase.__init__>`\\ \\(name\\[\\, description\\, ...\\]\\)"
 msgstr ""
 
-#: ../../../../None:7:<autosummary>:1
+#: ../../../../None:4:<autosummary>:1
 msgid "This method creates a Model object."
 msgstr ""
 
-#: ../../../../None:7:<autosummary>:1
-msgid ":py:obj:`ModelFromInputFile <abaqus.Model.ModelBase.ModelBase.ModelFromInputFile>`\\ \\(name\\, inputFileName\\)"
-msgstr ""
-
-#: ../../../../None:7:<autosummary>:1
-msgid "This method creates a Model object by reading the keywords in an input file and creating the corresponding Abaqus/CAE objects."
-msgstr ""
-
-#: ../../../../None:7:<autosummary>:1
-msgid ":py:obj:`ModelFromOdbFile <abaqus.Model.ModelBase.ModelBase.ModelFromOdbFile>`\\ \\(name\\, odbFileName\\)"
-msgstr ""
-
-#: ../../../../None:7:<autosummary>:1
-msgid "This method creates a Model object by reading an output database and creating any corresponding Abaqus/CAE objects."
-msgstr ""
-
-#: ../../../../None:7:<autosummary>:1
-msgid ":py:obj:`ModelFromNastranFile <abaqus.Model.ModelBase.ModelBase.ModelFromNastranFile>`\\ \\(modelName\\, inputFileName\\)"
-msgstr ""
-
-#: ../../../../None:7:<autosummary>:1
-msgid "This method creates a Model object by reading the keywords in a Nastran bulk data file or Nastran input file and creating any corresponding Abaqus/CAE objects."
-msgstr ""
-
-#: ../../../../None:7:<autosummary>:1
+#: ../../../../None:4:<autosummary>:1
 msgid ":py:obj:`setValues <abaqus.Model.ModelBase.ModelBase.setValues>`\\ \\(\\[description\\, noPartsInputFile\\, ...\\]\\)"
 msgstr ""
 
-#: ../../../../None:7:<autosummary>:1
+#: ../../../../None:4:<autosummary>:1
 msgid "This method modifies the Model object."
 msgstr ""
 
@@ -1231,6 +1221,15 @@ msgstr ""
 #: ../../../../../src/abaqus/Material/MaterialBase.py:docstring of abaqus.Material.MaterialBase.MaterialBase.materialsFromOdb:5
 #: ../../../../../src/abaqus/Material/MaterialModel.py:docstring of abaqus.Material.MaterialModel.MaterialModel.Material:4
 #: ../../../../../src/abaqus/Material/MaterialOdb.py:docstring of abaqus.Material.MaterialOdb.MaterialOdb.Material:4
+#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/Extended/DruckerPrager.py:docstring of abaqus.Material.Plastic.DruckerPrager.Extended.DruckerPrager.DruckerPrager.DruckerPragerCreep:4
+#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/Extended/DruckerPrager.py:docstring of abaqus.Material.Plastic.DruckerPrager.Extended.DruckerPrager.DruckerPrager.DruckerPragerHardening:4
+#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/Extended/DruckerPrager.py:docstring of abaqus.Material.Plastic.DruckerPrager.Extended.DruckerPrager.DruckerPrager.RateDependent:4
+#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/Extended/DruckerPrager.py:docstring of abaqus.Material.Plastic.DruckerPrager.Extended.DruckerPrager.DruckerPrager.TriaxialTestData:4
+#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/ModifiedCap/CapPlasticity.py:docstring of abaqus.Material.Plastic.DruckerPrager.ModifiedCap.CapPlasticity.CapPlasticity.CapCreepCohesion:4
+#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/ModifiedCap/CapPlasticity.py:docstring of abaqus.Material.Plastic.DruckerPrager.ModifiedCap.CapPlasticity.CapPlasticity.CapCreepConsolidation:4
+#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/ModifiedCap/CapPlasticity.py:docstring of abaqus.Material.Plastic.DruckerPrager.ModifiedCap.CapPlasticity.CapPlasticity.CapHardening:4
+#: ../../../../../src/abaqus/Material/Plastic/MohrCoulomb/MohrCoulombPlasticity.py:docstring of abaqus.Material.Plastic.MohrCoulomb.MohrCoulombPlasticity.MohrCoulombPlasticity.MohrCoulombHardening:4
+#: ../../../../../src/abaqus/Material/Plastic/MohrCoulomb/MohrCoulombPlasticity.py:docstring of abaqus.Material.Plastic.MohrCoulomb.MohrCoulombPlasticity.MohrCoulombPlasticity.TensionCutOff:4
 #: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.DamageEvolution:4
 #: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.DamageStabilizationCohesive:4
 #: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.DuctileDamageInitiation:4
@@ -1257,94 +1256,7 @@ msgstr ""
 msgid "Check `Material on help.3ds.com/2016 <https://help.3ds.com/2016/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-materialpyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.AcousticMedium:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.BrittleCracking:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.CapPlasticity:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.CastIronPlasticity:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.ClayPlasticity:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Concrete:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.ConcreteDamagedPlasticity:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Conductivity:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Creep:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.CrushableFoam:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Damping:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.DeformationPlasticity:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Density:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Depvar:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Dielectric:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Diffusivity:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.DruckerPrager:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.DuctileDamageInitiation:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Elastic:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.ElectricalConductivity:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Eos:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Expansion:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.FldDamageInitiation:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.FlsdDamageInitiation:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.FluidLeakoff:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.GapFlow:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.GasketMembraneElastic:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.GasketThicknessBehavior:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.GasketTransverseShearElastic:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Gel:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.HashinDamageInitiation:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Hyperelastic:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Hyperfoam:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Hypoelastic:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.InelasticHeatFraction:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.JohnsonCookDamageInitiation:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.JouleHeatFraction:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.LatentHeat:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.LowDensityFoam:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.MagneticPermeability:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.MaxeDamageInitiation:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.MaxpeDamageInitiation:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.MaxpsDamageInitiation:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.MaxsDamageInitiation:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.MkDamageInitiation:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.MohrCoulombPlasticity:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.MoistureSwelling:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.MsfldDamageInitiation:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Permeability:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Piezoelectric:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Plastic:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.PoreFluidExpansion:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.PorousBulkModuli:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.PorousElastic:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.PorousMetalPlasticity:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.QuadeDamageInitiation:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.QuadsDamageInitiation:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Regularization:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.ShearDamageInitiation:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Solubility:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Sorption:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.SpecificHeat:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Swelling:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.UserMaterial:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.UserOutputVariables:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Viscoelastic:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Viscosity:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Viscous:0
-#: ../../../../../src/abaqus/Material/MaterialBase.py:docstring of abaqus.Material.MaterialBase.MaterialBase.materialsFromOdb:0
-#: ../../../../../src/abaqus/Material/MaterialModel.py:docstring of abaqus.Material.MaterialModel.MaterialModel.Material:0
-#: ../../../../../src/abaqus/Material/MaterialOdb.py:docstring of abaqus.Material.MaterialOdb.MaterialOdb.Material:0
-#: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.DamageEvolution:0
-#: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.DamageStabilizationCohesive:0
-#: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.DuctileDamageInitiation:0
-#: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.FldDamageInitiation:0
-#: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.FlsdDamageInitiation:0
-#: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.HashinDamageInitiation:0
-#: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.JohnsonCookDamageInitiation:0
-#: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.MaxeDamageInitiation:0
-#: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.MaxpeDamageInitiation:0
-#: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.MaxpsDamageInitiation:0
-#: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.MaxsDamageInitiation:0
-#: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.MkDamageInitiation:0
-#: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.MsfldDamageInitiation:0
-#: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.QuadeDamageInitiation:0
-#: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.QuadsDamageInitiation:0
-#: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.ShearDamageInitiation:0
-#: ../../../../../src/abaqus/Material/evaluateMaterial.py:docstring of abaqus.Material.evaluateMaterial.evaluateMaterial:0
+#: ../../../reference/mdb/model/material.md:0
 msgid "Parameters"
 msgstr ""
 
@@ -1363,92 +1275,7 @@ msgstr ""
 msgid "A String specifying material identifier for customer use. The default value is an empty string."
 msgstr ""
 
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.AcousticMedium:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.BrittleCracking:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.CapPlasticity:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.CastIronPlasticity:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.ClayPlasticity:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Concrete:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.ConcreteDamagedPlasticity:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Conductivity:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Creep:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.CrushableFoam:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Damping:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.DeformationPlasticity:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Density:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Depvar:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Dielectric:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Diffusivity:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.DruckerPrager:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.DuctileDamageInitiation:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Elastic:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.ElectricalConductivity:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Expansion:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.FldDamageInitiation:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.FlsdDamageInitiation:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.FluidLeakoff:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.GapFlow:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.GasketMembraneElastic:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.GasketThicknessBehavior:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.GasketTransverseShearElastic:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Gel:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.HashinDamageInitiation:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Hyperelastic:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Hyperfoam:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Hypoelastic:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.InelasticHeatFraction:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.JohnsonCookDamageInitiation:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.JouleHeatFraction:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.LatentHeat:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.LowDensityFoam:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.MagneticPermeability:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.MaxeDamageInitiation:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.MaxpeDamageInitiation:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.MaxpsDamageInitiation:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.MaxsDamageInitiation:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.MkDamageInitiation:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.MohrCoulombPlasticity:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.MoistureSwelling:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.MsfldDamageInitiation:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Permeability:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Piezoelectric:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Plastic:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.PoreFluidExpansion:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.PorousBulkModuli:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.PorousElastic:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.PorousMetalPlasticity:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.QuadeDamageInitiation:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.QuadsDamageInitiation:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Regularization:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.ShearDamageInitiation:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Solubility:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Sorption:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.SpecificHeat:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Swelling:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.UserMaterial:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.UserOutputVariables:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Viscoelastic:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Viscosity:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Viscous:0
-#: ../../../../../src/abaqus/Material/MaterialBase.py:docstring of abaqus.Material.MaterialBase.MaterialBase.materialsFromOdb:0
-#: ../../../../../src/abaqus/Material/MaterialModel.py:docstring of abaqus.Material.MaterialModel.MaterialModel.Material:0
-#: ../../../../../src/abaqus/Material/MaterialOdb.py:docstring of abaqus.Material.MaterialOdb.MaterialOdb.Material:0
-#: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.DamageEvolution:0
-#: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.DamageStabilizationCohesive:0
-#: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.DuctileDamageInitiation:0
-#: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.FldDamageInitiation:0
-#: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.FlsdDamageInitiation:0
-#: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.HashinDamageInitiation:0
-#: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.JohnsonCookDamageInitiation:0
-#: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.MaxeDamageInitiation:0
-#: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.MaxpeDamageInitiation:0
-#: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.MaxpsDamageInitiation:0
-#: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.MaxsDamageInitiation:0
-#: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.MkDamageInitiation:0
-#: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.MsfldDamageInitiation:0
-#: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.QuadeDamageInitiation:0
-#: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.QuadsDamageInitiation:0
-#: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.ShearDamageInitiation:0
+#: ../../../reference/mdb/model/material.md:0
 msgid "Returns"
 msgstr ""
 
@@ -1458,92 +1285,7 @@ msgstr ""
 msgid "A Material object."
 msgstr ""
 
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.AcousticMedium:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.BrittleCracking:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.CapPlasticity:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.CastIronPlasticity:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.ClayPlasticity:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Concrete:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.ConcreteDamagedPlasticity:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Conductivity:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Creep:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.CrushableFoam:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Damping:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.DeformationPlasticity:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Density:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Depvar:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Dielectric:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Diffusivity:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.DruckerPrager:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.DuctileDamageInitiation:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Elastic:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.ElectricalConductivity:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Expansion:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.FldDamageInitiation:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.FlsdDamageInitiation:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.FluidLeakoff:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.GapFlow:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.GasketMembraneElastic:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.GasketThicknessBehavior:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.GasketTransverseShearElastic:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Gel:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.HashinDamageInitiation:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Hyperelastic:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Hyperfoam:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Hypoelastic:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.InelasticHeatFraction:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.JohnsonCookDamageInitiation:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.JouleHeatFraction:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.LatentHeat:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.LowDensityFoam:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.MagneticPermeability:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.MaxeDamageInitiation:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.MaxpeDamageInitiation:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.MaxpsDamageInitiation:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.MaxsDamageInitiation:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.MkDamageInitiation:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.MohrCoulombPlasticity:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.MoistureSwelling:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.MsfldDamageInitiation:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Permeability:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Piezoelectric:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Plastic:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.PoreFluidExpansion:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.PorousBulkModuli:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.PorousElastic:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.PorousMetalPlasticity:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.QuadeDamageInitiation:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.QuadsDamageInitiation:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Regularization:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.ShearDamageInitiation:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Solubility:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Sorption:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.SpecificHeat:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Swelling:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.UserMaterial:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.UserOutputVariables:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Viscoelastic:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Viscosity:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Viscous:0
-#: ../../../../../src/abaqus/Material/MaterialBase.py:docstring of abaqus.Material.MaterialBase.MaterialBase.materialsFromOdb:0
-#: ../../../../../src/abaqus/Material/MaterialModel.py:docstring of abaqus.Material.MaterialModel.MaterialModel.Material:0
-#: ../../../../../src/abaqus/Material/MaterialOdb.py:docstring of abaqus.Material.MaterialOdb.MaterialOdb.Material:0
-#: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.DamageEvolution:0
-#: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.DamageStabilizationCohesive:0
-#: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.DuctileDamageInitiation:0
-#: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.FldDamageInitiation:0
-#: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.FlsdDamageInitiation:0
-#: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.HashinDamageInitiation:0
-#: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.JohnsonCookDamageInitiation:0
-#: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.MaxeDamageInitiation:0
-#: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.MaxpeDamageInitiation:0
-#: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.MaxpsDamageInitiation:0
-#: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.MaxsDamageInitiation:0
-#: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.MkDamageInitiation:0
-#: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.MsfldDamageInitiation:0
-#: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.QuadeDamageInitiation:0
-#: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.QuadsDamageInitiation:0
-#: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.ShearDamageInitiation:0
+#: ../../../reference/mdb/model/material.md:0
 msgid "Return type"
 msgstr ""
 
@@ -3737,163 +3479,7 @@ msgstr ""
 msgid ":class:`AcousticMedium`"
 msgstr ""
 
-#: ../../../../../src/abaqus/Material/Acoustic/AcousticMedium.py:docstring of abaqus.Material.Acoustic.AcousticMedium.AcousticMedium.setValues:0
-#: ../../../../../src/abaqus/Material/Density/Density.py:docstring of abaqus.Material.Density.Density.Density.setValues:0
-#: ../../../../../src/abaqus/Material/Elastic/HyperElastic/HyperFoam/Hyperfoam.py:docstring of abaqus.Material.Elastic.HyperElastic.HyperFoam.Hyperfoam.Hyperfoam.setValues:0
-#: ../../../../../src/abaqus/Material/Elastic/HyperElastic/Hyperelastic.py:docstring of abaqus.Material.Elastic.HyperElastic.Hyperelastic.Hyperelastic.setValues:0
-#: ../../../../../src/abaqus/Material/Elastic/HyperElastic/ViscoElastic/Hysteresis.py:docstring of abaqus.Material.Elastic.HyperElastic.ViscoElastic.Hysteresis.Hysteresis.setValues:0
-#: ../../../../../src/abaqus/Material/Elastic/HyperElastic/ViscoElastic/Viscoelastic.py:docstring of abaqus.Material.Elastic.HyperElastic.ViscoElastic.Viscoelastic.Viscoelastic.setValues:0
-#: ../../../../../src/abaqus/Material/Elastic/Linear/Elastic.py:docstring of abaqus.Material.Elastic.Linear.Elastic.Elastic.setValues:0
-#: ../../../../../src/abaqus/Material/Elastic/Linear/FailStrain.py:docstring of abaqus.Material.Elastic.Linear.FailStrain.FailStrain.setValues:0
-#: ../../../../../src/abaqus/Material/Elastic/Linear/FailStress.py:docstring of abaqus.Material.Elastic.Linear.FailStress.FailStress.setValues:0
-#: ../../../../../src/abaqus/Material/Elastic/LowDensityFoam/LowDensityFoam.py:docstring of abaqus.Material.Elastic.LowDensityFoam.LowDensityFoam.LowDensityFoam.setValues:0
-#: ../../../../../src/abaqus/Material/Elastic/Porous/PorousElastic.py:docstring of abaqus.Material.Elastic.Porous.PorousElastic.PorousElastic.setValues:0
-#: ../../../../../src/abaqus/Material/Elastic/SuperElastic/SuperElasticity.py:docstring of abaqus.Material.Elastic.SuperElastic.SuperElasticity.SuperElasticity.setValues:0
-#: ../../../../../src/abaqus/Material/Electromagnetic/ElectricalConductivity.py:docstring of abaqus.Material.Electromagnetic.ElectricalConductivity.ElectricalConductivity.setValues:0
-#: ../../../../../src/abaqus/Material/Electromagnetic/MagneticPermeability.py:docstring of abaqus.Material.Electromagnetic.MagneticPermeability.MagneticPermeability.setValues:0
-#: ../../../../../src/abaqus/Material/Eos/EosCompaction.py:docstring of abaqus.Material.Eos.EosCompaction.EosCompaction.setValues:0
-#: ../../../../../src/abaqus/Material/Gasket/GasketMembraneElastic.py:docstring of abaqus.Material.Gasket.GasketMembraneElastic.GasketMembraneElastic.setValues:0
-#: ../../../../../src/abaqus/Material/Gasket/GasketThicknessBehavior.py:docstring of abaqus.Material.Gasket.GasketThicknessBehavior.GasketThicknessBehavior.setValues:0
-#: ../../../../../src/abaqus/Material/Gasket/GasketTransverseShearElastic.py:docstring of abaqus.Material.Gasket.GasketTransverseShearElastic.GasketTransverseShearElastic.setValues:0
-#: ../../../../../src/abaqus/Material/HeatTransfer/Conductivity.py:docstring of abaqus.Material.HeatTransfer.Conductivity.Conductivity.setValues:0
-#: ../../../../../src/abaqus/Material/HeatTransfer/InelasticHeatFraction.py:docstring of abaqus.Material.HeatTransfer.InelasticHeatFraction.InelasticHeatFraction.setValues:0
-#: ../../../../../src/abaqus/Material/HeatTransfer/JouleHeatFraction.py:docstring of abaqus.Material.HeatTransfer.JouleHeatFraction.JouleHeatFraction.setValues:0
-#: ../../../../../src/abaqus/Material/HeatTransfer/LatentHeat.py:docstring of abaqus.Material.HeatTransfer.LatentHeat.LatentHeat.setValues:0
-#: ../../../../../src/abaqus/Material/HeatTransfer/SpecificHeat.py:docstring of abaqus.Material.HeatTransfer.SpecificHeat.SpecificHeat.setValues:0
-#: ../../../../../src/abaqus/Material/MassDiffusion/Diffusivity.py:docstring of abaqus.Material.MassDiffusion.Diffusivity.Diffusivity.setValues:0
-#: ../../../../../src/abaqus/Material/MassDiffusion/PressureEffect.py:docstring of abaqus.Material.MassDiffusion.PressureEffect.PressureEffect.setValues:0
-#: ../../../../../src/abaqus/Material/MassDiffusion/Solubility.py:docstring of abaqus.Material.MassDiffusion.Solubility.Solubility.setValues:0
-#: ../../../../../src/abaqus/Material/MassDiffusion/SoretEffect.py:docstring of abaqus.Material.MassDiffusion.SoretEffect.SoretEffect.setValues:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.AcousticMedium:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.CapPlasticity:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.CastIronPlasticity:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.ClayPlasticity:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Concrete:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.ConcreteDamagedPlasticity:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Conductivity:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Creep:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.CrushableFoam:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Damping:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.DeformationPlasticity:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Density:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Depvar:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Diffusivity:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.DruckerPrager:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.DuctileDamageInitiation:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Elastic:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.ElectricalConductivity:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Expansion:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.FldDamageInitiation:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.FlsdDamageInitiation:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.GasketMembraneElastic:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.GasketThicknessBehavior:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.GasketTransverseShearElastic:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.HashinDamageInitiation:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Hyperelastic:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Hyperfoam:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.InelasticHeatFraction:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.JohnsonCookDamageInitiation:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.JouleHeatFraction:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.LatentHeat:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.LowDensityFoam:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.MagneticPermeability:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.MaxeDamageInitiation:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.MaxpeDamageInitiation:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.MaxpsDamageInitiation:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.MaxsDamageInitiation:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.MkDamageInitiation:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.MohrCoulombPlasticity:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.MsfldDamageInitiation:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Permeability:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Plastic:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.PoreFluidExpansion:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.PorousElastic:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.PorousMetalPlasticity:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.QuadeDamageInitiation:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.QuadsDamageInitiation:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Regularization:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.ShearDamageInitiation:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Solubility:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Sorption:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.SpecificHeat:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Swelling:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.UserMaterial:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.UserOutputVariables:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Viscoelastic:0
-#: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Viscosity:0
-#: ../../../../../src/abaqus/Material/Mechanical/Damping.py:docstring of abaqus.Material.Mechanical.Damping.Damping.setValues:0
-#: ../../../../../src/abaqus/Material/Mechanical/Expansion.py:docstring of abaqus.Material.Mechanical.Expansion.Expansion.setValues:0
-#: ../../../../../src/abaqus/Material/Mechanical/PoreFluidExpansion.py:docstring of abaqus.Material.Mechanical.PoreFluidExpansion.PoreFluidExpansion.setValues:0
-#: ../../../../../src/abaqus/Material/Mechanical/Viscosity/Viscosity.py:docstring of abaqus.Material.Mechanical.Viscosity.Viscosity.Viscosity.setValues:0
-#: ../../../../../src/abaqus/Material/Plastic/Concrete/BrittleFailure.py:docstring of abaqus.Material.Plastic.Concrete.BrittleFailure.BrittleFailure.setValues:0
-#: ../../../../../src/abaqus/Material/Plastic/Concrete/BrittleShear.py:docstring of abaqus.Material.Plastic.Concrete.BrittleShear.BrittleShear.setValues:0
-#: ../../../../../src/abaqus/Material/Plastic/Concrete/Concrete.py:docstring of abaqus.Material.Plastic.Concrete.Concrete.Concrete.setValues:0
-#: ../../../../../src/abaqus/Material/Plastic/Concrete/ConcreteCompressionDamage.py:docstring of abaqus.Material.Plastic.Concrete.ConcreteCompressionDamage.ConcreteCompressionDamage.setValues:0
-#: ../../../../../src/abaqus/Material/Plastic/Concrete/ConcreteCompressionHardening.py:docstring of abaqus.Material.Plastic.Concrete.ConcreteCompressionHardening.ConcreteCompressionHardening.setValues:0
-#: ../../../../../src/abaqus/Material/Plastic/Concrete/ConcreteDamagedPlasticity.py:docstring of abaqus.Material.Plastic.Concrete.ConcreteDamagedPlasticity.ConcreteDamagedPlasticity.setValues:0
-#: ../../../../../src/abaqus/Material/Plastic/Concrete/ConcreteTensionDamage.py:docstring of abaqus.Material.Plastic.Concrete.ConcreteTensionDamage.ConcreteTensionDamage.setValues:0
-#: ../../../../../src/abaqus/Material/Plastic/Concrete/ConcreteTensionStiffening.py:docstring of abaqus.Material.Plastic.Concrete.ConcreteTensionStiffening.ConcreteTensionStiffening.setValues:0
-#: ../../../../../src/abaqus/Material/Plastic/Concrete/FailureRatios.py:docstring of abaqus.Material.Plastic.Concrete.FailureRatios.FailureRatios.setValues:0
-#: ../../../../../src/abaqus/Material/Plastic/Concrete/ShearRetention.py:docstring of abaqus.Material.Plastic.Concrete.ShearRetention.ShearRetention.setValues:0
-#: ../../../../../src/abaqus/Material/Plastic/Concrete/TensionStiffening.py:docstring of abaqus.Material.Plastic.Concrete.TensionStiffening.TensionStiffening.setValues:0
-#: ../../../../../src/abaqus/Material/Plastic/Creep/Creep.py:docstring of abaqus.Material.Plastic.Creep.Creep.Creep.setValues:0
-#: ../../../../../src/abaqus/Material/Plastic/CriticalStateClay/ClayHardening.py:docstring of abaqus.Material.Plastic.CriticalStateClay.ClayHardening.ClayHardening.setValues:0
-#: ../../../../../src/abaqus/Material/Plastic/CriticalStateClay/ClayPlasticity.py:docstring of abaqus.Material.Plastic.CriticalStateClay.ClayPlasticity.ClayPlasticity.setValues:0
-#: ../../../../../src/abaqus/Material/Plastic/CrushableFoam/CrushableFoam.py:docstring of abaqus.Material.Plastic.CrushableFoam.CrushableFoam.CrushableFoam.setValues:0
-#: ../../../../../src/abaqus/Material/Plastic/CrushableFoam/CrushableFoamHardening.py:docstring of abaqus.Material.Plastic.CrushableFoam.CrushableFoamHardening.CrushableFoamHardening.setValues:0
-#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/Extended/DruckerPrager.py:docstring of abaqus.Material.Plastic.DruckerPrager.Extended.DruckerPrager.DruckerPrager.setValues:0
-#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/Extended/DruckerPragerCreep.py:docstring of abaqus.Material.Plastic.DruckerPrager.Extended.DruckerPragerCreep.DruckerPragerCreep.setValues:0
-#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/Extended/DruckerPragerHardening.py:docstring of abaqus.Material.Plastic.DruckerPrager.Extended.DruckerPragerHardening.DruckerPragerHardening.setValues:0
-#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/Extended/TriaxialTestData.py:docstring of abaqus.Material.Plastic.DruckerPrager.Extended.TriaxialTestData.TriaxialTestData.setValues:0
-#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/ModifiedCap/CapHardening.py:docstring of abaqus.Material.Plastic.DruckerPrager.ModifiedCap.CapHardening.CapHardening.setValues:0
-#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/ModifiedCap/CapPlasticity.py:docstring of abaqus.Material.Plastic.DruckerPrager.ModifiedCap.CapPlasticity.CapPlasticity.setValues:0
-#: ../../../../../src/abaqus/Material/Plastic/Metal/Annealing/AnnealTemperature.py:docstring of abaqus.Material.Plastic.Metal.Annealing.AnnealTemperature.AnnealTemperature.setValues:0
-#: ../../../../../src/abaqus/Material/Plastic/Metal/CastIron/CastIronCompressionHardening.py:docstring of abaqus.Material.Plastic.Metal.CastIron.CastIronCompressionHardening.CastIronCompressionHardening.setValues:0
-#: ../../../../../src/abaqus/Material/Plastic/Metal/CastIron/CastIronPlasticity.py:docstring of abaqus.Material.Plastic.Metal.CastIron.CastIronPlasticity.CastIronPlasticity.setValues:0
-#: ../../../../../src/abaqus/Material/Plastic/Metal/CastIron/CastIronTensionHardening.py:docstring of abaqus.Material.Plastic.Metal.CastIron.CastIronTensionHardening.CastIronTensionHardening.setValues:0
-#: ../../../../../src/abaqus/Material/Plastic/Metal/Deformation/DeformationPlasticity.py:docstring of abaqus.Material.Plastic.Metal.Deformation.DeformationPlasticity.DeformationPlasticity.setValues:0
-#: ../../../../../src/abaqus/Material/Plastic/Metal/ORNL/Ornl.py:docstring of abaqus.Material.Plastic.Metal.ORNL.Ornl.Ornl.setValues:0
-#: ../../../../../src/abaqus/Material/Plastic/Metal/Porous/PorousFailureCriteria.py:docstring of abaqus.Material.Plastic.Metal.Porous.PorousFailureCriteria.PorousFailureCriteria.setValues:0
-#: ../../../../../src/abaqus/Material/Plastic/Metal/Porous/PorousMetalPlasticity.py:docstring of abaqus.Material.Plastic.Metal.Porous.PorousMetalPlasticity.PorousMetalPlasticity.setValues:0
-#: ../../../../../src/abaqus/Material/Plastic/Metal/Porous/VoidNucleation.py:docstring of abaqus.Material.Plastic.Metal.Porous.VoidNucleation.VoidNucleation.setValues:0
-#: ../../../../../src/abaqus/Material/Plastic/Metal/RateDependent/RateDependent.py:docstring of abaqus.Material.Plastic.Metal.RateDependent.RateDependent.RateDependent.setValues:0
-#: ../../../../../src/abaqus/Material/Plastic/MohrCoulomb/MohrCoulombHardening.py:docstring of abaqus.Material.Plastic.MohrCoulomb.MohrCoulombHardening.MohrCoulombHardening.setValues:0
-#: ../../../../../src/abaqus/Material/Plastic/MohrCoulomb/MohrCoulombPlasticity.py:docstring of abaqus.Material.Plastic.MohrCoulomb.MohrCoulombPlasticity.MohrCoulombPlasticity.setValues:0
-#: ../../../../../src/abaqus/Material/Plastic/MohrCoulomb/TensionCutOff.py:docstring of abaqus.Material.Plastic.MohrCoulomb.TensionCutOff.TensionCutOff.setValues:0
-#: ../../../../../src/abaqus/Material/Plastic/Plastic.py:docstring of abaqus.Material.Plastic.Plastic.Plastic.setValues:0
-#: ../../../../../src/abaqus/Material/Plastic/Potential.py:docstring of abaqus.Material.Plastic.Potential.Potential.setValues:0
-#: ../../../../../src/abaqus/Material/Plastic/SuperElastic/SuperElasticHardening.py:docstring of abaqus.Material.Plastic.SuperElastic.SuperElasticHardening.SuperElasticHardening.setValues:0
-#: ../../../../../src/abaqus/Material/Plastic/SuperElastic/SuperElasticHardeningModifications.py:docstring of abaqus.Material.Plastic.SuperElastic.SuperElasticHardeningModifications.SuperElasticHardeningModifications.setValues:0
-#: ../../../../../src/abaqus/Material/Plastic/Swelling/Swelling.py:docstring of abaqus.Material.Plastic.Swelling.Swelling.Swelling.setValues:0
-#: ../../../../../src/abaqus/Material/PoreFluidFlow/Permeability/Permeability.py:docstring of abaqus.Material.PoreFluidFlow.Permeability.Permeability.Permeability.setValues:0
-#: ../../../../../src/abaqus/Material/PoreFluidFlow/Permeability/SaturationDependence.py:docstring of abaqus.Material.PoreFluidFlow.Permeability.SaturationDependence.SaturationDependence.setValues:0
-#: ../../../../../src/abaqus/Material/PoreFluidFlow/Permeability/VelocityDependence.py:docstring of abaqus.Material.PoreFluidFlow.Permeability.VelocityDependence.VelocityDependence.setValues:0
-#: ../../../../../src/abaqus/Material/PoreFluidFlow/Sorption.py:docstring of abaqus.Material.PoreFluidFlow.Sorption.Sorption.setValues:0
-#: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageEvolution.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageEvolution.DamageEvolution.setValues:0
-#: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.DamageEvolution:0
-#: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.DamageStabilizationCohesive:0
-#: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.DuctileDamageInitiation:0
-#: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.FldDamageInitiation:0
-#: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.FlsdDamageInitiation:0
-#: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.HashinDamageInitiation:0
-#: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.JohnsonCookDamageInitiation:0
-#: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.MaxeDamageInitiation:0
-#: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.MaxpeDamageInitiation:0
-#: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.MaxpsDamageInitiation:0
-#: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.MaxsDamageInitiation:0
-#: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.MkDamageInitiation:0
-#: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.MsfldDamageInitiation:0
-#: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.QuadeDamageInitiation:0
-#: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.QuadsDamageInitiation:0
-#: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.ShearDamageInitiation:0
-#: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageStabilization.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageStabilization.DamageStabilization.setValues:0
-#: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageStabilizationCohesive.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageStabilizationCohesive.DamageStabilizationCohesive.setValues:0
-#: ../../../../../src/abaqus/Material/Ratios.py:docstring of abaqus.Material.Ratios.Ratios.setValues:0
-#: ../../../../../src/abaqus/Material/Regularization.py:docstring of abaqus.Material.Regularization.Regularization.setValues:0
-#: ../../../../../src/abaqus/Material/User/Depvar.py:docstring of abaqus.Material.User.Depvar.Depvar.setValues:0
-#: ../../../../../src/abaqus/Material/User/UserMaterial.py:docstring of abaqus.Material.User.UserMaterial.UserMaterial.setValues:0
-#: ../../../../../src/abaqus/Material/User/UserOutputVariables.py:docstring of abaqus.Material.User.UserOutputVariables.UserOutputVariables.setValues:0
-#: ../../../../../src/abaqus/Material/evaluateMaterial.py:docstring of abaqus.Material.evaluateMaterial.evaluateMaterial:0
+#: ../../../reference/mdb/model/material.md:0
 msgid "Raises"
 msgstr ""
 
@@ -3939,6 +3525,15 @@ msgstr ""
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Viscoelastic:17
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Viscosity:13
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Viscous:13
+#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/Extended/DruckerPrager.py:docstring of abaqus.Material.Plastic.DruckerPrager.Extended.DruckerPrager.DruckerPrager.DruckerPragerCreep:13
+#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/Extended/DruckerPrager.py:docstring of abaqus.Material.Plastic.DruckerPrager.Extended.DruckerPrager.DruckerPrager.DruckerPragerHardening:13
+#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/Extended/DruckerPrager.py:docstring of abaqus.Material.Plastic.DruckerPrager.Extended.DruckerPrager.DruckerPrager.RateDependent:17
+#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/Extended/DruckerPrager.py:docstring of abaqus.Material.Plastic.DruckerPrager.Extended.DruckerPrager.DruckerPrager.TriaxialTestData:13
+#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/ModifiedCap/CapPlasticity.py:docstring of abaqus.Material.Plastic.DruckerPrager.ModifiedCap.CapPlasticity.CapPlasticity.CapCreepCohesion:13
+#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/ModifiedCap/CapPlasticity.py:docstring of abaqus.Material.Plastic.DruckerPrager.ModifiedCap.CapPlasticity.CapPlasticity.CapCreepConsolidation:13
+#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/ModifiedCap/CapPlasticity.py:docstring of abaqus.Material.Plastic.DruckerPrager.ModifiedCap.CapPlasticity.CapPlasticity.CapHardening:13
+#: ../../../../../src/abaqus/Material/Plastic/MohrCoulomb/MohrCoulombPlasticity.py:docstring of abaqus.Material.Plastic.MohrCoulomb.MohrCoulombPlasticity.MohrCoulombPlasticity.MohrCoulombHardening:12
+#: ../../../../../src/abaqus/Material/Plastic/MohrCoulomb/MohrCoulombPlasticity.py:docstring of abaqus.Material.Plastic.MohrCoulomb.MohrCoulombPlasticity.MohrCoulombPlasticity.TensionCutOff:13
 #: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.DamageEvolution:36
 #: ../../../../docstring of abaqus.Material.Ratios.Ratios.table:1
 msgid "A sequence of sequences of Floats specifying the items described below."
@@ -3995,6 +3590,14 @@ msgstr ""
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Swelling:19
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Viscosity:17
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Viscous:18
+#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/Extended/DruckerPrager.py:docstring of abaqus.Material.Plastic.DruckerPrager.Extended.DruckerPrager.DruckerPrager.DruckerPragerCreep:20
+#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/Extended/DruckerPrager.py:docstring of abaqus.Material.Plastic.DruckerPrager.Extended.DruckerPrager.DruckerPrager.DruckerPragerHardening:20
+#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/Extended/DruckerPrager.py:docstring of abaqus.Material.Plastic.DruckerPrager.Extended.DruckerPrager.DruckerPrager.RateDependent:22
+#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/ModifiedCap/CapPlasticity.py:docstring of abaqus.Material.Plastic.DruckerPrager.ModifiedCap.CapPlasticity.CapPlasticity.CapCreepCohesion:18
+#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/ModifiedCap/CapPlasticity.py:docstring of abaqus.Material.Plastic.DruckerPrager.ModifiedCap.CapPlasticity.CapPlasticity.CapCreepConsolidation:18
+#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/ModifiedCap/CapPlasticity.py:docstring of abaqus.Material.Plastic.DruckerPrager.ModifiedCap.CapPlasticity.CapPlasticity.CapHardening:15
+#: ../../../../../src/abaqus/Material/Plastic/MohrCoulomb/MohrCoulombPlasticity.py:docstring of abaqus.Material.Plastic.MohrCoulomb.MohrCoulombPlasticity.MohrCoulombPlasticity.MohrCoulombHardening:14
+#: ../../../../../src/abaqus/Material/Plastic/MohrCoulomb/MohrCoulombPlasticity.py:docstring of abaqus.Material.Plastic.MohrCoulomb.MohrCoulombPlasticity.MohrCoulombPlasticity.TensionCutOff:15
 #: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.DamageEvolution:41
 #: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.DuctileDamageInitiation:37
 #: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.FldDamageInitiation:37
@@ -4063,6 +3666,14 @@ msgstr ""
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Swelling:21
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Viscosity:19
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Viscous:20
+#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/Extended/DruckerPrager.py:docstring of abaqus.Material.Plastic.DruckerPrager.Extended.DruckerPrager.DruckerPrager.DruckerPragerCreep:22
+#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/Extended/DruckerPrager.py:docstring of abaqus.Material.Plastic.DruckerPrager.Extended.DruckerPrager.DruckerPrager.DruckerPragerHardening:22
+#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/Extended/DruckerPrager.py:docstring of abaqus.Material.Plastic.DruckerPrager.Extended.DruckerPrager.DruckerPrager.RateDependent:24
+#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/ModifiedCap/CapPlasticity.py:docstring of abaqus.Material.Plastic.DruckerPrager.ModifiedCap.CapPlasticity.CapPlasticity.CapCreepCohesion:20
+#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/ModifiedCap/CapPlasticity.py:docstring of abaqus.Material.Plastic.DruckerPrager.ModifiedCap.CapPlasticity.CapPlasticity.CapCreepConsolidation:20
+#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/ModifiedCap/CapPlasticity.py:docstring of abaqus.Material.Plastic.DruckerPrager.ModifiedCap.CapPlasticity.CapPlasticity.CapHardening:17
+#: ../../../../../src/abaqus/Material/Plastic/MohrCoulomb/MohrCoulombPlasticity.py:docstring of abaqus.Material.Plastic.MohrCoulomb.MohrCoulombPlasticity.MohrCoulombPlasticity.MohrCoulombHardening:16
+#: ../../../../../src/abaqus/Material/Plastic/MohrCoulomb/MohrCoulombPlasticity.py:docstring of abaqus.Material.Plastic.MohrCoulomb.MohrCoulombPlasticity.MohrCoulombPlasticity.TensionCutOff:17
 #: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.DamageEvolution:43
 #: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.DuctileDamageInitiation:39
 #: ../../../../../src/abaqus/Material/ProgressiveDamageFailure/DamageInitiation.py:docstring of abaqus.Material.ProgressiveDamageFailure.DamageInitiation.DamageInitiation.FldDamageInitiation:39
@@ -5465,6 +5076,7 @@ msgid "A SymbolicConstant specifying the type of hardening. Possible values are 
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Material.py:docstring of abaqus.Material.Material.Material.Plastic:18
+#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/Extended/DruckerPrager.py:docstring of abaqus.Material.Plastic.DruckerPrager.Extended.DruckerPrager.DruckerPrager.DruckerPragerHardening:18
 msgid "A Boolean specifying whether the data depend on rate. The default value is OFF."
 msgstr ""
 
@@ -8134,16 +7746,71 @@ msgstr ""
 msgid "CAP PLASTICITY"
 msgstr ""
 
+#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/ModifiedCap/CapPlasticity.py:docstring of abaqus.Material.Plastic.DruckerPrager.ModifiedCap.CapPlasticity.CapPlasticity.CapCreepCohesion:1
+msgid "This method creates a CapCreepCohesion object."
+msgstr ""
+
+#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/ModifiedCap/CapCreepCohesion.py:docstring of abaqus.Material.Plastic.DruckerPrager.ModifiedCap.CapCreepCohesion.CapCreepCohesion:38
+#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/ModifiedCap/CapPlasticity.py:docstring of abaqus.Material.Plastic.DruckerPrager.ModifiedCap.CapPlasticity.CapPlasticity.CapCreepCohesion:10
+msgid "Check `CapCreepCohesion on help.3ds.com/2016 <https://help.3ds.com/2016/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-capcreepcohesionpyc.htm?contextscope=all>`__."
+msgstr ""
+
+#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/ModifiedCap/CapPlasticity.py:docstring of abaqus.Material.Plastic.DruckerPrager.ModifiedCap.CapPlasticity.CapPlasticity.CapCreepCohesion:15
+msgid "A SymbolicConstant specifying the cap creep law. Possible values are STRAIN, TIME, SINGHM, USER, POWER_LAW, and TIME_POWER_LAW. The default value is STRAIN."
+msgstr ""
+
+#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/ModifiedCap/CapPlasticity.py:docstring of abaqus.Material.Plastic.DruckerPrager.ModifiedCap.CapPlasticity.CapPlasticity.CapCreepCohesion:22
+#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/ModifiedCap/CapPlasticity.py:docstring of abaqus.Material.Plastic.DruckerPrager.ModifiedCap.CapPlasticity.CapPlasticity.CapCreepConsolidation:22
+msgid "A SymbolicConstant specifying the time increment for the relevant laws. Possible values are CREEP and TOTAL. The default value is TOTAL."
+msgstr ""
+
+#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/ModifiedCap/CapPlasticity.py:docstring of abaqus.Material.Plastic.DruckerPrager.ModifiedCap.CapPlasticity.CapPlasticity.CapCreepCohesion:25
 #: ../../../../docstring of abaqus.Material.Plastic.DruckerPrager.ModifiedCap.CapPlasticity.CapPlasticity.capCreepCohesion:1
 msgid "A CapCreepCohesion object."
 msgstr ""
 
+#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/ModifiedCap/CapPlasticity.py:docstring of abaqus.Material.Plastic.DruckerPrager.ModifiedCap.CapPlasticity.CapPlasticity.CapCreepCohesion:26
+msgid ":class:`CapCreepCohesion`"
+msgstr ""
+
+#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/ModifiedCap/CapPlasticity.py:docstring of abaqus.Material.Plastic.DruckerPrager.ModifiedCap.CapPlasticity.CapPlasticity.CapCreepConsolidation:1
+msgid "This method creates a CapCreepConsolidation object."
+msgstr ""
+
+#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/ModifiedCap/CapCreepConsolidation.py:docstring of abaqus.Material.Plastic.DruckerPrager.ModifiedCap.CapCreepConsolidation.CapCreepConsolidation:38
+#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/ModifiedCap/CapPlasticity.py:docstring of abaqus.Material.Plastic.DruckerPrager.ModifiedCap.CapPlasticity.CapPlasticity.CapCreepConsolidation:10
+msgid "Check `CapCreepConsolidation on help.3ds.com/2016 <https://help.3ds.com/2016/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-capcreepconsolidationpyc.htm?contextscope=all>`__."
+msgstr ""
+
+#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/ModifiedCap/CapPlasticity.py:docstring of abaqus.Material.Plastic.DruckerPrager.ModifiedCap.CapPlasticity.CapPlasticity.CapCreepConsolidation:15
+msgid "A SymbolicConstant specifying the cap creep law. Possible values are STRAIN, TIME, SINGHM, and USER. The default value is STRAIN."
+msgstr ""
+
+#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/ModifiedCap/CapPlasticity.py:docstring of abaqus.Material.Plastic.DruckerPrager.ModifiedCap.CapPlasticity.CapPlasticity.CapCreepConsolidation:25
 #: ../../../../docstring of abaqus.Material.Plastic.DruckerPrager.ModifiedCap.CapPlasticity.CapPlasticity.capCreepConsolidation:1
 msgid "A CapCreepConsolidation object."
 msgstr ""
 
+#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/ModifiedCap/CapPlasticity.py:docstring of abaqus.Material.Plastic.DruckerPrager.ModifiedCap.CapPlasticity.CapPlasticity.CapCreepConsolidation:26
+msgid ":class:`CapCreepConsolidation`"
+msgstr ""
+
+#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/ModifiedCap/CapPlasticity.py:docstring of abaqus.Material.Plastic.DruckerPrager.ModifiedCap.CapPlasticity.CapPlasticity.CapHardening:1
+msgid "This method creates a CapHardening object."
+msgstr ""
+
+#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/ModifiedCap/CapHardening.py:docstring of abaqus.Material.Plastic.DruckerPrager.ModifiedCap.CapHardening.CapHardening:25
+#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/ModifiedCap/CapPlasticity.py:docstring of abaqus.Material.Plastic.DruckerPrager.ModifiedCap.CapPlasticity.CapPlasticity.CapHardening:10
+msgid "Check `CapHardening on help.3ds.com/2016 <https://help.3ds.com/2016/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-caphardeningpyc.htm?contextscope=all>`__."
+msgstr ""
+
+#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/ModifiedCap/CapPlasticity.py:docstring of abaqus.Material.Plastic.DruckerPrager.ModifiedCap.CapPlasticity.CapPlasticity.CapHardening:19
 #: ../../../../docstring of abaqus.Material.Plastic.DruckerPrager.ModifiedCap.CapPlasticity.CapPlasticity.capHardening:1
 msgid "A CapHardening object."
+msgstr ""
+
+#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/ModifiedCap/CapPlasticity.py:docstring of abaqus.Material.Plastic.DruckerPrager.ModifiedCap.CapPlasticity.CapPlasticity.CapHardening:20
+msgid ":class:`CapHardening`"
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/ModifiedCap/CapPlasticity.py:docstring of abaqus.Material.Plastic.DruckerPrager.ModifiedCap.CapPlasticity.CapPlasticity.setValues:1
@@ -8411,6 +8078,7 @@ msgstr ""
 msgid "A CrushableFoamHardening object."
 msgstr ""
 
+#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/Extended/DruckerPrager.py:docstring of abaqus.Material.Plastic.DruckerPrager.Extended.DruckerPrager.DruckerPrager.RateDependent:26
 #: ../../../../docstring of abaqus.Material.Plastic.CrushableFoam.CrushableFoam.CrushableFoam.rateDependent:1
 #: ../../../../docstring of abaqus.Material.Plastic.DruckerPrager.Extended.DruckerPrager.DruckerPrager.rateDependent:1
 #: ../../../../docstring of abaqus.Material.Plastic.Plastic.Plastic.rateDependent:1
@@ -8797,20 +8465,99 @@ msgstr ""
 msgid "DRUCKER PRAGER"
 msgstr ""
 
+#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/Extended/DruckerPrager.py:docstring of abaqus.Material.Plastic.DruckerPrager.Extended.DruckerPrager.DruckerPrager.DruckerPragerCreep:1
+msgid "This method creates a DruckerPragerCreep object."
+msgstr ""
+
+#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/Extended/DruckerPrager.py:docstring of abaqus.Material.Plastic.DruckerPrager.Extended.DruckerPrager.DruckerPrager.DruckerPragerCreep:10
+#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/Extended/DruckerPragerCreep.py:docstring of abaqus.Material.Plastic.DruckerPrager.Extended.DruckerPragerCreep.DruckerPragerCreep:38
+msgid "Check `DruckerPragerCreep on help.3ds.com/2016 <https://help.3ds.com/2016/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-druckerpragercreeppyc.htm?contextscope=all>`__."
+msgstr ""
+
+#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/Extended/DruckerPrager.py:docstring of abaqus.Material.Plastic.DruckerPrager.Extended.DruckerPrager.DruckerPrager.DruckerPragerCreep:15
+msgid "A SymbolicConstant specifying the type of data defining the creep law. Possible values are:STRAIN, specifying a strain-hardening power law.TIME, specifying a time-hardening power law.SINGHM, specifying a Singh-Mitchell type law.USER, specifying the creep law is input from user subroutine CREEP.The default value is STRAIN."
+msgstr ""
+
+#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/Extended/DruckerPrager.py:docstring of abaqus.Material.Plastic.DruckerPrager.Extended.DruckerPrager.DruckerPrager.DruckerPragerCreep:24
 #: ../../../../docstring of abaqus.Material.Plastic.DruckerPrager.Extended.DruckerPrager.DruckerPrager.druckerPragerCreep:1
 msgid "A DruckerPragerCreep object."
 msgstr ""
 
+#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/Extended/DruckerPrager.py:docstring of abaqus.Material.Plastic.DruckerPrager.Extended.DruckerPrager.DruckerPrager.DruckerPragerCreep:25
+msgid ":class:`DruckerPragerCreep`"
+msgstr ""
+
+#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/Extended/DruckerPrager.py:docstring of abaqus.Material.Plastic.DruckerPrager.Extended.DruckerPrager.DruckerPrager.DruckerPragerHardening:1
+msgid "This method creates a DruckerPragerHardening object."
+msgstr ""
+
+#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/Extended/DruckerPrager.py:docstring of abaqus.Material.Plastic.DruckerPrager.Extended.DruckerPrager.DruckerPrager.DruckerPragerHardening:10
+#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/Extended/DruckerPragerHardening.py:docstring of abaqus.Material.Plastic.DruckerPrager.Extended.DruckerPragerHardening.DruckerPragerHardening:28
+msgid "Check `DruckerPragerHardening on help.3ds.com/2016 <https://help.3ds.com/2016/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-druckerpragerhardeningpyc.htm?contextscope=all>`__."
+msgstr ""
+
+#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/Extended/DruckerPrager.py:docstring of abaqus.Material.Plastic.DruckerPrager.Extended.DruckerPrager.DruckerPrager.DruckerPragerHardening:15
+msgid "A SymbolicConstant specifying the type of data defining the hardening behavior. Possible values are COMPRESSION, TENSION, and SHEAR. The default value is COMPRESSION."
+msgstr ""
+
+#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/Extended/DruckerPrager.py:docstring of abaqus.Material.Plastic.DruckerPrager.Extended.DruckerPrager.DruckerPrager.DruckerPragerHardening:24
 #: ../../../../docstring of abaqus.Material.Plastic.DruckerPrager.Extended.DruckerPrager.DruckerPrager.druckerPragerHardening:1
 msgid "A DruckerPragerHardening object."
 msgstr ""
 
-#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/Extended/DruckerPrager.py:docstring of abaqus.Material.Plastic.DruckerPrager.Extended.DruckerPrager.DruckerPrager.setValues:1
-msgid "This method modifies the DruckerPrager object."
+#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/Extended/DruckerPrager.py:docstring of abaqus.Material.Plastic.DruckerPrager.Extended.DruckerPrager.DruckerPrager.DruckerPragerHardening:25
+msgid ":class:`DruckerPragerHardening`"
 msgstr ""
 
+#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/Extended/DruckerPrager.py:docstring of abaqus.Material.Plastic.DruckerPrager.Extended.DruckerPrager.DruckerPrager.RateDependent:1
+msgid "This method creates a RateDependent object."
+msgstr ""
+
+#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/Extended/DruckerPrager.py:docstring of abaqus.Material.Plastic.DruckerPrager.Extended.DruckerPrager.DruckerPrager.RateDependent:14
+#: ../../../../../src/abaqus/Material/Plastic/Metal/RateDependent/RateDependent.py:docstring of abaqus.Material.Plastic.Metal.RateDependent.RateDependent.RateDependent:43
+msgid "Check `RateDependent on help.3ds.com/2016 <https://help.3ds.com/2016/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-ratedependentpyc.htm?contextscope=all>`__."
+msgstr ""
+
+#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/Extended/DruckerPrager.py:docstring of abaqus.Material.Plastic.DruckerPrager.Extended.DruckerPrager.DruckerPrager.RateDependent:19
+msgid "A SymbolicConstant specifying the type of rate-dependent data. Possible values are POWER_LAW, YIELD_RATIO, and JOHNSON_COOK. The default value is POWER_LAW."
+msgstr ""
+
+#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/Extended/DruckerPrager.py:docstring of abaqus.Material.Plastic.DruckerPrager.Extended.DruckerPrager.DruckerPrager.RateDependent:27
+msgid ":class:`RateDependent`"
+msgstr ""
+
+#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/Extended/DruckerPrager.py:docstring of abaqus.Material.Plastic.DruckerPrager.Extended.DruckerPrager.DruckerPrager.TriaxialTestData:1
+msgid "This method creates a TriaxialTestData object."
+msgstr ""
+
+#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/Extended/DruckerPrager.py:docstring of abaqus.Material.Plastic.DruckerPrager.Extended.DruckerPrager.DruckerPrager.TriaxialTestData:10
+#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/Extended/TriaxialTestData.py:docstring of abaqus.Material.Plastic.DruckerPrager.Extended.TriaxialTestData.TriaxialTestData:21
+msgid "Check `TriaxialTestData on help.3ds.com/2016 <https://help.3ds.com/2016/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-triaxialtestdatapyc.htm?contextscope=all>`__."
+msgstr ""
+
+#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/Extended/DruckerPrager.py:docstring of abaqus.Material.Plastic.DruckerPrager.Extended.DruckerPrager.DruckerPrager.TriaxialTestData:15
+msgid "None or a Float specifying the value of the material constant aa. None is used when the value is unknown or it is not held fixed at the input value. The default value is None."
+msgstr ""
+
+#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/Extended/DruckerPrager.py:docstring of abaqus.Material.Plastic.DruckerPrager.Extended.DruckerPrager.DruckerPrager.TriaxialTestData:18
+msgid "None or a Float specifying the value of the material constant bb. None is used when the value is unknown or it is not held fixed at the input value. The default value is None."
+msgstr ""
+
+#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/Extended/DruckerPrager.py:docstring of abaqus.Material.Plastic.DruckerPrager.Extended.DruckerPrager.DruckerPrager.TriaxialTestData:21
+msgid "None or a Float specifying the value of the material constant pt. None is used when the value is unknown or it is not held fixed at the input value. The default value is None."
+msgstr ""
+
+#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/Extended/DruckerPrager.py:docstring of abaqus.Material.Plastic.DruckerPrager.Extended.DruckerPrager.DruckerPrager.TriaxialTestData:24
 #: ../../../../docstring of abaqus.Material.Plastic.DruckerPrager.Extended.DruckerPrager.DruckerPrager.triaxialTestData:1
 msgid "A TriaxialTestData object."
+msgstr ""
+
+#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/Extended/DruckerPrager.py:docstring of abaqus.Material.Plastic.DruckerPrager.Extended.DruckerPrager.DruckerPrager.TriaxialTestData:25
+msgid ":class:`TriaxialTestData`"
+msgstr ""
+
+#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/Extended/DruckerPrager.py:docstring of abaqus.Material.Plastic.DruckerPrager.Extended.DruckerPrager.DruckerPrager.setValues:1
+msgid "This method modifies the DruckerPrager object."
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Mechanical/Expansion.py:docstring of abaqus.Material.Mechanical.Expansion.Expansion:1
@@ -8952,16 +8699,44 @@ msgstr ""
 msgid "MOHR COULOMB"
 msgstr ""
 
+#: ../../../../../src/abaqus/Material/Plastic/MohrCoulomb/MohrCoulombPlasticity.py:docstring of abaqus.Material.Plastic.MohrCoulomb.MohrCoulombPlasticity.MohrCoulombPlasticity.MohrCoulombHardening:1
+msgid "This method creates a MohrCoulombHardening object."
+msgstr ""
+
+#: ../../../../../src/abaqus/Material/Plastic/MohrCoulomb/MohrCoulombHardening.py:docstring of abaqus.Material.Plastic.MohrCoulomb.MohrCoulombHardening.MohrCoulombHardening:25
+#: ../../../../../src/abaqus/Material/Plastic/MohrCoulomb/MohrCoulombPlasticity.py:docstring of abaqus.Material.Plastic.MohrCoulomb.MohrCoulombPlasticity.MohrCoulombPlasticity.MohrCoulombHardening:9
+msgid "Check `MohrCoulombHardening on help.3ds.com/2016 <https://help.3ds.com/2016/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-mohrcoulombhardeningpyc.htm?contextscope=all>`__."
+msgstr ""
+
+#: ../../../../../src/abaqus/Material/Plastic/MohrCoulomb/MohrCoulombPlasticity.py:docstring of abaqus.Material.Plastic.MohrCoulomb.MohrCoulombPlasticity.MohrCoulombPlasticity.MohrCoulombHardening:18
 #: ../../../../docstring of abaqus.Material.Plastic.MohrCoulomb.MohrCoulombPlasticity.MohrCoulombPlasticity.mohrCoulombHardening:1
 msgid "A MohrCoulombHardening object."
 msgstr ""
 
-#: ../../../../../src/abaqus/Material/Plastic/MohrCoulomb/MohrCoulombPlasticity.py:docstring of abaqus.Material.Plastic.MohrCoulomb.MohrCoulombPlasticity.MohrCoulombPlasticity.setValues:1
-msgid "This method modifies the MohrCoulombPlasticity object."
+#: ../../../../../src/abaqus/Material/Plastic/MohrCoulomb/MohrCoulombPlasticity.py:docstring of abaqus.Material.Plastic.MohrCoulomb.MohrCoulombPlasticity.MohrCoulombPlasticity.MohrCoulombHardening:19
+msgid ":class:`MohrCoulombHardening`"
 msgstr ""
 
+#: ../../../../../src/abaqus/Material/Plastic/MohrCoulomb/MohrCoulombPlasticity.py:docstring of abaqus.Material.Plastic.MohrCoulomb.MohrCoulombPlasticity.MohrCoulombPlasticity.TensionCutOff:1
+msgid "This method creates a TensionCutOff object."
+msgstr ""
+
+#: ../../../../../src/abaqus/Material/Plastic/MohrCoulomb/MohrCoulombPlasticity.py:docstring of abaqus.Material.Plastic.MohrCoulomb.MohrCoulombPlasticity.MohrCoulombPlasticity.TensionCutOff:10
+#: ../../../../../src/abaqus/Material/Plastic/MohrCoulomb/TensionCutOff.py:docstring of abaqus.Material.Plastic.MohrCoulomb.TensionCutOff.TensionCutOff:27
+msgid "Check `TensionCutOff on help.3ds.com/2016 <https://help.3ds.com/2016/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-tensioncutoffpyc.htm?contextscope=all>`__."
+msgstr ""
+
+#: ../../../../../src/abaqus/Material/Plastic/MohrCoulomb/MohrCoulombPlasticity.py:docstring of abaqus.Material.Plastic.MohrCoulomb.MohrCoulombPlasticity.MohrCoulombPlasticity.TensionCutOff:19
 #: ../../../../docstring of abaqus.Material.Plastic.MohrCoulomb.MohrCoulombPlasticity.MohrCoulombPlasticity.tensionCutOff:1
 msgid "A TensionCutOff object."
+msgstr ""
+
+#: ../../../../../src/abaqus/Material/Plastic/MohrCoulomb/MohrCoulombPlasticity.py:docstring of abaqus.Material.Plastic.MohrCoulomb.MohrCoulombPlasticity.MohrCoulombPlasticity.TensionCutOff:20
+msgid ":class:`TensionCutOff`"
+msgstr ""
+
+#: ../../../../../src/abaqus/Material/Plastic/MohrCoulomb/MohrCoulombPlasticity.py:docstring of abaqus.Material.Plastic.MohrCoulomb.MohrCoulombPlasticity.MohrCoulombPlasticity.setValues:1
+msgid "This method modifies the MohrCoulombPlasticity object."
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/PoreFluidFlow/MoistureSwelling/MoistureSwelling.py:docstring of abaqus.Material.PoreFluidFlow.MoistureSwelling.MoistureSwelling.MoistureSwelling:1
@@ -9792,10 +9567,6 @@ msgstr ""
 msgid "RATE DEPENDENT"
 msgstr ""
 
-#: ../../../../../src/abaqus/Material/Plastic/Metal/RateDependent/RateDependent.py:docstring of abaqus.Material.Plastic.Metal.RateDependent.RateDependent.RateDependent:43
-msgid "Check `RateDependent on help.3ds.com/2016 <https://help.3ds.com/2016/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-ratedependentpyc.htm?contextscope=all>`__."
-msgstr ""
-
 #: ../../../../../src/abaqus/Material/Plastic/Metal/RateDependent/RateDependent.py:docstring of abaqus.Material.Plastic.Metal.RateDependent.RateDependent.RateDependent.setValues:1
 msgid "This method modifies the RateDependent object."
 msgstr ""
@@ -9834,10 +9605,6 @@ msgstr ""
 msgid "DRUCKER PRAGER CREEP"
 msgstr ""
 
-#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/Extended/DruckerPragerCreep.py:docstring of abaqus.Material.Plastic.DruckerPrager.Extended.DruckerPragerCreep.DruckerPragerCreep:38
-msgid "Check `DruckerPragerCreep on help.3ds.com/2016 <https://help.3ds.com/2016/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-druckerpragercreeppyc.htm?contextscope=all>`__."
-msgstr ""
-
 #: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/Extended/DruckerPragerCreep.py:docstring of abaqus.Material.Plastic.DruckerPrager.Extended.DruckerPragerCreep.DruckerPragerCreep.setValues:1
 msgid "This method modifies the DruckerPragerCreep object."
 msgstr ""
@@ -9858,10 +9625,6 @@ msgstr ""
 msgid "DRUCKER PRAGER HARDENING"
 msgstr ""
 
-#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/Extended/DruckerPragerHardening.py:docstring of abaqus.Material.Plastic.DruckerPrager.Extended.DruckerPragerHardening.DruckerPragerHardening:28
-msgid "Check `DruckerPragerHardening on help.3ds.com/2016 <https://help.3ds.com/2016/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-druckerpragerhardeningpyc.htm?contextscope=all>`__."
-msgstr ""
-
 #: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/Extended/DruckerPragerHardening.py:docstring of abaqus.Material.Plastic.DruckerPrager.Extended.DruckerPragerHardening.DruckerPragerHardening.setValues:1
 msgid "This method modifies the DruckerPragerHardening object."
 msgstr ""
@@ -9880,10 +9643,6 @@ msgstr ""
 
 #: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/Extended/TriaxialTestData.py:docstring of abaqus.Material.Plastic.DruckerPrager.Extended.TriaxialTestData.TriaxialTestData:18
 msgid "TRIAXIAL TEST DATA"
-msgstr ""
-
-#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/Extended/TriaxialTestData.py:docstring of abaqus.Material.Plastic.DruckerPrager.Extended.TriaxialTestData.TriaxialTestData:21
-msgid "Check `TriaxialTestData on help.3ds.com/2016 <https://help.3ds.com/2016/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-triaxialtestdatapyc.htm?contextscope=all>`__."
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/Extended/TriaxialTestData.py:docstring of abaqus.Material.Plastic.DruckerPrager.Extended.TriaxialTestData.TriaxialTestData.setValues:1
@@ -9909,20 +9668,12 @@ msgstr ""
 msgid "CAP CREEP"
 msgstr ""
 
-#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/ModifiedCap/CapCreepCohesion.py:docstring of abaqus.Material.Plastic.DruckerPrager.ModifiedCap.CapCreepCohesion.CapCreepCohesion:38
-msgid "Check `CapCreepCohesion on help.3ds.com/2016 <https://help.3ds.com/2016/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-capcreepcohesionpyc.htm?contextscope=all>`__."
-msgstr ""
-
 #: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/ModifiedCap/CapCreepCohesion.py:docstring of abaqus.Material.Plastic.DruckerPrager.ModifiedCap.CapCreepCohesion.CapCreepCohesion.setValues:1
 msgid "This method modifies the CapCreepCohesion object."
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/ModifiedCap/CapCreepConsolidation.py:docstring of abaqus.Material.Plastic.DruckerPrager.ModifiedCap.CapCreepConsolidation.CapCreepConsolidation:1
 msgid "The CapCreepConsolidation object specifies a cap creep model and material properties."
-msgstr ""
-
-#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/ModifiedCap/CapCreepConsolidation.py:docstring of abaqus.Material.Plastic.DruckerPrager.ModifiedCap.CapCreepConsolidation.CapCreepConsolidation:38
-msgid "Check `CapCreepConsolidation on help.3ds.com/2016 <https://help.3ds.com/2016/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-capcreepconsolidationpyc.htm?contextscope=all>`__."
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/ModifiedCap/CapCreepConsolidation.py:docstring of abaqus.Material.Plastic.DruckerPrager.ModifiedCap.CapCreepConsolidation.CapCreepConsolidation.setValues:1
@@ -9943,10 +9694,6 @@ msgstr ""
 
 #: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/ModifiedCap/CapHardening.py:docstring of abaqus.Material.Plastic.DruckerPrager.ModifiedCap.CapHardening.CapHardening:22
 msgid "CAP HARDENING"
-msgstr ""
-
-#: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/ModifiedCap/CapHardening.py:docstring of abaqus.Material.Plastic.DruckerPrager.ModifiedCap.CapHardening.CapHardening:25
-msgid "Check `CapHardening on help.3ds.com/2016 <https://help.3ds.com/2016/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-caphardeningpyc.htm?contextscope=all>`__."
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Plastic/DruckerPrager/ModifiedCap/CapHardening.py:docstring of abaqus.Material.Plastic.DruckerPrager.ModifiedCap.CapHardening.CapHardening.setValues:1
@@ -10113,10 +9860,6 @@ msgstr ""
 msgid "MOHR COULOMB HARDENING"
 msgstr ""
 
-#: ../../../../../src/abaqus/Material/Plastic/MohrCoulomb/MohrCoulombHardening.py:docstring of abaqus.Material.Plastic.MohrCoulomb.MohrCoulombHardening.MohrCoulombHardening:25
-msgid "Check `MohrCoulombHardening on help.3ds.com/2016 <https://help.3ds.com/2016/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-mohrcoulombhardeningpyc.htm?contextscope=all>`__."
-msgstr ""
-
 #: ../../../../../src/abaqus/Material/Plastic/MohrCoulomb/MohrCoulombHardening.py:docstring of abaqus.Material.Plastic.MohrCoulomb.MohrCoulombHardening.MohrCoulombHardening.setValues:1
 msgid "This method modifies the MohrCoulombHardening object."
 msgstr ""
@@ -10135,10 +9878,6 @@ msgstr ""
 
 #: ../../../../../src/abaqus/Material/Plastic/MohrCoulomb/TensionCutOff.py:docstring of abaqus.Material.Plastic.MohrCoulomb.TensionCutOff.TensionCutOff:24
 msgid "TENSION CUTOFF"
-msgstr ""
-
-#: ../../../../../src/abaqus/Material/Plastic/MohrCoulomb/TensionCutOff.py:docstring of abaqus.Material.Plastic.MohrCoulomb.TensionCutOff.TensionCutOff:27
-msgid "Check `TensionCutOff on help.3ds.com/2016 <https://help.3ds.com/2016/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-tensioncutoffpyc.htm?contextscope=all>`__."
 msgstr ""
 
 #: ../../../../../src/abaqus/Material/Plastic/MohrCoulomb/TensionCutOff.py:docstring of abaqus.Material.Plastic.MohrCoulomb.TensionCutOff.TensionCutOff.setValues:1

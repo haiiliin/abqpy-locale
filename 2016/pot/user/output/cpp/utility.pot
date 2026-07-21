@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: abqpy 2016\n"
+"Project-Id-Version: abqpy 2016.11\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-06 02:35+0000\n"
+"POT-Creation-Date: 2026-07-21 09:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,7 +29,7 @@ msgid "The following interface classes are provided:"
 msgstr ""
 
 #: ../../../user/output/cpp/utility.md:7
-#: ../../../user/output/cpp/utility.md:60
+#: ../../../user/output/cpp/utility.md:55
 msgid "**Strings**"
 msgstr ""
 
@@ -38,7 +38,7 @@ msgid "The `odb_String` object provides a convenient means of storing and passin
 msgstr ""
 
 #: ../../../user/output/cpp/utility.md:11
-#: ../../../user/output/cpp/utility.md:68
+#: ../../../user/output/cpp/utility.md:63
 msgid "**Sequences**"
 msgstr ""
 
@@ -46,131 +46,131 @@ msgstr ""
 msgid "An `odb_Sequence` class is a container used to hold an ordered list of objects of a specific type. Data can be appended and retrieved from the sequence. The following `odb_Sequence` objects are provided to store integer, float, and enumeration data:"
 msgstr ""
 
-#: ../../../user/output/cpp/utility.md:15
+#: ../../../user/output/cpp/utility.md:14
 msgid "`odb_SequenceInt`"
 msgstr ""
 
-#: ../../../user/output/cpp/utility.md:16
+#: ../../../user/output/cpp/utility.md:15
 msgid "`odb_SequenceFloat`"
 msgstr ""
 
-#: ../../../user/output/cpp/utility.md:17
+#: ../../../user/output/cpp/utility.md:16
 msgid "`odb_SequenceString`"
 msgstr ""
 
-#: ../../../user/output/cpp/utility.md:18
+#: ../../../user/output/cpp/utility.md:17
 msgid "`odb_SequenceInvariant`"
 msgstr ""
 
-#: ../../../user/output/cpp/utility.md:19
+#: ../../../user/output/cpp/utility.md:18
 msgid "`odb_SequenceElementFace`"
 msgstr ""
 
-#: ../../../user/output/cpp/utility.md:21
+#: ../../../user/output/cpp/utility.md:20
 msgid "Sequences of sequences are also available in the following forms:"
 msgstr ""
 
-#: ../../../user/output/cpp/utility.md:23
+#: ../../../user/output/cpp/utility.md:21
 msgid "`odb_SequenceSequenceFloat`"
 msgstr ""
 
-#: ../../../user/output/cpp/utility.md:24
+#: ../../../user/output/cpp/utility.md:22
 msgid "`odb_SequenceSequenceSequenceFloat`"
 msgstr ""
 
-#: ../../../user/output/cpp/utility.md:25
+#: ../../../user/output/cpp/utility.md:23
 msgid "`odb_SequenceSequenceInt`"
 msgstr ""
 
-#: ../../../user/output/cpp/utility.md:26
+#: ../../../user/output/cpp/utility.md:24
 msgid "`odb_SequenceSequenceElementFace`"
 msgstr ""
 
-#: ../../../user/output/cpp/utility.md:28
+#: ../../../user/output/cpp/utility.md:26
 msgid "The following Abaqus objects are also stored as sequences:"
 msgstr ""
 
-#: ../../../user/output/cpp/utility.md:30
+#: ../../../user/output/cpp/utility.md:27
 msgid "`odb_SequenceNode`"
 msgstr ""
 
-#: ../../../user/output/cpp/utility.md:31
+#: ../../../user/output/cpp/utility.md:28
 msgid "`odb_SequenceElement`"
 msgstr ""
 
-#: ../../../user/output/cpp/utility.md:32
+#: ../../../user/output/cpp/utility.md:29
 msgid "`odb_SequenceFieldValue`"
 msgstr ""
 
-#: ../../../user/output/cpp/utility.md:33
+#: ../../../user/output/cpp/utility.md:30
 msgid "`odb_SequenceFrame`"
 msgstr ""
 
-#: ../../../user/output/cpp/utility.md:34
+#: ../../../user/output/cpp/utility.md:31
 msgid "`odb_SequenceSectionPoint`"
 msgstr ""
 
-#: ../../../user/output/cpp/utility.md:35
+#: ../../../user/output/cpp/utility.md:32
 msgid "`odb_SequenceLoadCase`"
 msgstr ""
 
-#: ../../../user/output/cpp/utility.md:37
+#: ../../../user/output/cpp/utility.md:34
 msgid "The following Abaqus object can be collected in a sequence for utility operations:"
 msgstr ""
 
-#: ../../../user/output/cpp/utility.md:39
+#: ../../../user/output/cpp/utility.md:35
 msgid "`odb_SequenceFieldOutput`"
 msgstr ""
 
-#: ../../../user/output/cpp/utility.md:41
-#: ../../../user/output/cpp/utility.md:88
+#: ../../../user/output/cpp/utility.md:37
+#: ../../../user/output/cpp/utility.md:83
 msgid "**Repositories**"
 msgstr ""
 
-#: ../../../user/output/cpp/utility.md:43
+#: ../../../user/output/cpp/utility.md:39
 msgid "Repositories are provided to store objects retrieved by name. Both the repositories and the content of the repositories are created by the API; the user can only retrieve objects from repositories. Iterators are provided to navigate the repositories. The following Abaqus repositories are provided:"
 msgstr ""
 
-#: ../../../user/output/cpp/utility.md:45
+#: ../../../user/output/cpp/utility.md:40
 msgid "`odb_PartRepository`"
 msgstr ""
 
-#: ../../../user/output/cpp/utility.md:46
+#: ../../../user/output/cpp/utility.md:41
 msgid "`odb_FieldOutputRepository`"
 msgstr ""
 
-#: ../../../user/output/cpp/utility.md:47
+#: ../../../user/output/cpp/utility.md:42
 msgid "`odb_SectionCategoryRepository`"
 msgstr ""
 
-#: ../../../user/output/cpp/utility.md:48
+#: ../../../user/output/cpp/utility.md:43
 msgid "`odb_HistoryRegionRepository`"
 msgstr ""
 
-#: ../../../user/output/cpp/utility.md:49
+#: ../../../user/output/cpp/utility.md:44
 msgid "`odb_SetRepository`"
 msgstr ""
 
-#: ../../../user/output/cpp/utility.md:50
+#: ../../../user/output/cpp/utility.md:45
 msgid "`odb_HistoryOutputRepository`"
 msgstr ""
 
-#: ../../../user/output/cpp/utility.md:51
+#: ../../../user/output/cpp/utility.md:46
 msgid "`odb_StepRepository`"
 msgstr ""
 
-#: ../../../user/output/cpp/utility.md:52
+#: ../../../user/output/cpp/utility.md:47
 msgid "`odb_InstanceRepository`"
 msgstr ""
 
-#: ../../../user/output/cpp/utility.md:54
+#: ../../../user/output/cpp/utility.md:49
 msgid "More detail on these interface utility objects can be found in {doc}`/reference/odb`."
 msgstr ""
 
-#: ../../../user/output/cpp/utility.md:56
+#: ../../../user/output/cpp/utility.md:51
 msgid "Utility interface examples"
 msgstr ""
 
-#: ../../../user/output/cpp/utility.md:58
+#: ../../../user/output/cpp/utility.md:53
 msgid "The following examples demonstrate the utility interface for each of the utility interface classes discussed:"
 msgstr ""

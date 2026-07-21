@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: abqpy 2016\n"
+"Project-Id-Version: abqpy 2016.11\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-14 03:46+0000\n"
+"POT-Creation-Date: 2026-07-21 09:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -243,7 +243,7 @@ msgstr ""
 msgid "Check `Odb on help.3ds.com/2016 <https://help.3ds.com/2016/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-odbpyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: ../../../../../src/abaqus/Odb/Odb.py:docstring of abaqus.Odb.Odb.Odb:0
+#: ../../../reference/odb.md:0
 msgid "Public Data Attributes:"
 msgstr ""
 
@@ -373,7 +373,7 @@ msgstr ""
 msgid "A repository of Profile objects."
 msgstr ""
 
-#: ../../../../../src/abaqus/Odb/Odb.py:docstring of abaqus.Odb.Odb.Odb:0
+#: ../../../reference/odb.md:0
 msgid "Public Methods:"
 msgstr ""
 
@@ -735,77 +735,7 @@ msgstr ""
 msgid "Check `Part on help.3ds.com/2016 <https://help.3ds.com/2016/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-partpyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: ../../../../../src/abaqus/Odb/FieldOutput.py:docstring of abaqus.Odb.FieldOutput.FieldOutput.getConnectorFieldXformedToNodeA:0
-#: ../../../../../src/abaqus/Odb/FieldOutput.py:docstring of abaqus.Odb.FieldOutput.FieldOutput.setComponentLabels:0
-#: ../../../../../src/abaqus/Odb/FieldOutput.py:docstring of abaqus.Odb.FieldOutput.FieldOutput.setDataType:0
-#: ../../../../../src/abaqus/Odb/FieldOutput.py:docstring of abaqus.Odb.FieldOutput.FieldOutput.setValidInvariants:0
-#: ../../../../../src/abaqus/Odb/HistoryRegion.py:docstring of abaqus.Odb.HistoryRegion.HistoryRegion.HistoryOutput:0
-#: ../../../../../src/abaqus/Odb/Odb.py:docstring of abaqus.Odb.Odb.Odb.Part:0
-#: ../../../../../src/abaqus/Odb/Odb.py:docstring of abaqus.Odb.Odb.Odb.SectionCategory:0
-#: ../../../../../src/abaqus/Odb/Odb.py:docstring of abaqus.Odb.Odb.Odb.Step:0
-#: ../../../../../src/abaqus/Odb/OdbAssembly.py:docstring of abaqus.Odb.OdbAssembly.OdbAssembly.DatumCsys:0
-#: ../../../../../src/abaqus/Odb/OdbAssembly.py:docstring of abaqus.Odb.OdbAssembly.OdbAssembly.DatumCsysBy6dofNode:0
-#: ../../../../../src/abaqus/Odb/OdbAssembly.py:docstring of abaqus.Odb.OdbAssembly.OdbAssembly.DatumCsysByThreeCircNodes:0
-#: ../../../../../src/abaqus/Odb/OdbAssembly.py:docstring of abaqus.Odb.OdbAssembly.OdbAssembly.DatumCsysByThreeNodes:0
-#: ../../../../../src/abaqus/Odb/OdbAssembly.py:docstring of abaqus.Odb.OdbAssembly.OdbAssembly.DatumCsysByThreePoints:0
-#: ../../../../../src/abaqus/Odb/OdbAssembly.py:docstring of abaqus.Odb.OdbAssembly.OdbAssembly.Instance:0
-#: ../../../../../src/abaqus/Odb/OdbAssembly.py:docstring of abaqus.Odb.OdbAssembly.OdbAssembly.NodeSet:0
-#: ../../../../../src/abaqus/Odb/OdbAssembly.py:docstring of abaqus.Odb.OdbAssembly.OdbAssembly.RigidBody:0
-#: ../../../../../src/abaqus/Odb/OdbAssemblyBase.py:docstring of abaqus.Odb.OdbAssemblyBase.OdbAssemblyBase.ConnectorOrientation:0
-#: ../../../../../src/abaqus/Odb/OdbAssemblyBase.py:docstring of abaqus.Odb.OdbAssemblyBase.OdbAssemblyBase.RigidBody:0
-#: ../../../../../src/abaqus/Odb/OdbAssemblyBase.py:docstring of abaqus.Odb.OdbAssemblyBase.OdbAssemblyBase.SectionAssignment:0
-#: ../../../../../src/abaqus/Odb/OdbAssemblyBase.py:docstring of abaqus.Odb.OdbAssemblyBase.OdbAssemblyBase.addElements:0
-#: ../../../../../src/abaqus/Odb/OdbAssemblyBase.py:docstring of abaqus.Odb.OdbAssemblyBase.OdbAssemblyBase.addNodes:0
-#: ../../../../../src/abaqus/Odb/OdbBase.py:docstring of abaqus.Odb.OdbBase.OdbBase.getFrame:0
-#: ../../../../../src/abaqus/Odb/OdbCommands.py:docstring of abaqus.Odb.OdbCommands.isUpgradeRequiredForOdb:0
-#: ../../../../../src/abaqus/Odb/OdbCommands.py:docstring of abaqus.Odb.OdbCommands.openOdb:0
-#: ../../../../../src/abaqus/Odb/OdbCommands.py:docstring of abaqus.Odb.OdbCommands.upgradeOdb:0
-#: ../../../../../src/abaqus/Odb/OdbDatumCsys.py:docstring of abaqus.Odb.OdbDatumCsys.OdbDatumCsys.DatumCsys:0
-#: ../../../../../src/abaqus/Odb/OdbDatumCsys.py:docstring of abaqus.Odb.OdbDatumCsys.OdbDatumCsys.DatumCsysBy6dofNode:0
-#: ../../../../../src/abaqus/Odb/OdbDatumCsys.py:docstring of abaqus.Odb.OdbDatumCsys.OdbDatumCsys.DatumCsysByThreeCircNodes:0
-#: ../../../../../src/abaqus/Odb/OdbDatumCsys.py:docstring of abaqus.Odb.OdbDatumCsys.OdbDatumCsys.DatumCsysByThreeNodes:0
-#: ../../../../../src/abaqus/Odb/OdbDatumCsys.py:docstring of abaqus.Odb.OdbDatumCsys.OdbDatumCsys.DatumCsysByThreePoints:0
-#: ../../../../../src/abaqus/Odb/OdbInstance.py:docstring of abaqus.Odb.OdbInstance.OdbInstance.NodeSet:0
-#: ../../../../../src/abaqus/Odb/OdbInstanceBase.py:docstring of abaqus.Odb.OdbInstanceBase.OdbInstanceBase.AnalyticRigidSurf2DPlanar:0
-#: ../../../../../src/abaqus/Odb/OdbInstanceBase.py:docstring of abaqus.Odb.OdbInstanceBase.OdbInstanceBase.AnalyticRigidSurfExtrude:0
-#: ../../../../../src/abaqus/Odb/OdbInstanceBase.py:docstring of abaqus.Odb.OdbInstanceBase.OdbInstanceBase.AnalyticRigidSurfRevolve:0
-#: ../../../../../src/abaqus/Odb/OdbInstanceBase.py:docstring of abaqus.Odb.OdbInstanceBase.OdbInstanceBase.RigidBody:0
-#: ../../../../../src/abaqus/Odb/OdbInstanceBase.py:docstring of abaqus.Odb.OdbInstanceBase.OdbInstanceBase.assignBeamOrientation:0
-#: ../../../../../src/abaqus/Odb/OdbInstanceBase.py:docstring of abaqus.Odb.OdbInstanceBase.OdbInstanceBase.assignMaterialOrientation:0
-#: ../../../../../src/abaqus/Odb/OdbInstanceBase.py:docstring of abaqus.Odb.OdbInstanceBase.OdbInstanceBase.assignRebarOrientation:0
-#: ../../../../../src/abaqus/Odb/OdbInstanceBase.py:docstring of abaqus.Odb.OdbInstanceBase.OdbInstanceBase.assignSection:0
-#: ../../../../../src/abaqus/Odb/OdbInstanceBase.py:docstring of abaqus.Odb.OdbInstanceBase.OdbInstanceBase.getElementFromLabel:0
-#: ../../../../../src/abaqus/Odb/OdbInstanceBase.py:docstring of abaqus.Odb.OdbInstanceBase.OdbInstanceBase.getNodeFromLabel:0
-#: ../../../../../src/abaqus/Odb/OdbPart.py:docstring of abaqus.Odb.OdbPart.OdbPart.NodeSet:0
-#: ../../../../../src/abaqus/Odb/OdbPart.py:docstring of abaqus.Odb.OdbPart.OdbPart.RigidBody:0
-#: ../../../../../src/abaqus/Odb/OdbPartBase.py:docstring of abaqus.Odb.OdbPartBase.OdbPartBase.AnalyticRigidSurf2DPlanar:0
-#: ../../../../../src/abaqus/Odb/OdbPartBase.py:docstring of abaqus.Odb.OdbPartBase.OdbPartBase.AnalyticRigidSurfExtrude:0
-#: ../../../../../src/abaqus/Odb/OdbPartBase.py:docstring of abaqus.Odb.OdbPartBase.OdbPartBase.AnalyticRigidSurfRevolve:0
-#: ../../../../../src/abaqus/Odb/OdbPartBase.py:docstring of abaqus.Odb.OdbPartBase.OdbPartBase.assignBeamOrientation:0
-#: ../../../../../src/abaqus/Odb/OdbPartBase.py:docstring of abaqus.Odb.OdbPartBase.OdbPartBase.assignMaterialOrientation:0
-#: ../../../../../src/abaqus/Odb/OdbPartBase.py:docstring of abaqus.Odb.OdbPartBase.OdbPartBase.assignRebarOrientation:0
-#: ../../../../../src/abaqus/Odb/OdbPartBase.py:docstring of abaqus.Odb.OdbPartBase.OdbPartBase.getElementFromLabel:0
-#: ../../../../../src/abaqus/Odb/OdbPartBase.py:docstring of abaqus.Odb.OdbPartBase.OdbPartBase.getNodeFromLabel:0
-#: ../../../../../src/abaqus/Odb/OdbSequenceAnalyticSurfaceSegment.py:docstring of abaqus.Odb.OdbSequenceAnalyticSurfaceSegment.OdbSequenceAnalyticSurfaceSegment.Circle:0
-#: ../../../../../src/abaqus/Odb/OdbSequenceAnalyticSurfaceSegment.py:docstring of abaqus.Odb.OdbSequenceAnalyticSurfaceSegment.OdbSequenceAnalyticSurfaceSegment.Line:0
-#: ../../../../../src/abaqus/Odb/OdbSequenceAnalyticSurfaceSegment.py:docstring of abaqus.Odb.OdbSequenceAnalyticSurfaceSegment.OdbSequenceAnalyticSurfaceSegment.Parabola:0
-#: ../../../../../src/abaqus/Odb/OdbSequenceAnalyticSurfaceSegment.py:docstring of abaqus.Odb.OdbSequenceAnalyticSurfaceSegment.OdbSequenceAnalyticSurfaceSegment.Start:0
-#: ../../../../../src/abaqus/Odb/OdbSession.py:docstring of abaqus.Odb.OdbSession.OdbSession.ScratchOdb:0
-#: ../../../../../src/abaqus/Odb/OdbSession.py:docstring of abaqus.Odb.OdbSession.OdbSession.openOdb:0
-#: ../../../../../src/abaqus/Odb/OdbSession.py:docstring of abaqus.Odb.OdbSession.OdbSession.upgradeOdb:0
-#: ../../../../../src/abaqus/Odb/OdbSet.py:docstring of abaqus.Odb.OdbSet.OdbSet.ElementSet:0
-#: ../../../../../src/abaqus/Odb/OdbSet.py:docstring of abaqus.Odb.OdbSet.OdbSet.ElementSetFromElementLabels:0
-#: ../../../../../src/abaqus/Odb/OdbSet.py:docstring of abaqus.Odb.OdbSet.OdbSet.MeshSurface:0
-#: ../../../../../src/abaqus/Odb/OdbSet.py:docstring of abaqus.Odb.OdbSet.OdbSet.MeshSurfaceFromElsets:0
-#: ../../../../../src/abaqus/Odb/OdbSet.py:docstring of abaqus.Odb.OdbSet.OdbSet.MeshSurfaceFromLabels:0
-#: ../../../../../src/abaqus/Odb/OdbSet.py:docstring of abaqus.Odb.OdbSet.OdbSet.NodeSetFromNodeLabels:0
-#: ../../../../../src/abaqus/Odb/OdbStep.py:docstring of abaqus.Odb.OdbStep.OdbStep.HistoryRegion:0
-#: ../../../../../src/abaqus/Odb/OdbStep.py:docstring of abaqus.Odb.OdbStep.OdbStep.LoadCase:0
-#: ../../../../../src/abaqus/Odb/OdbStepBase.py:docstring of abaqus.Odb.OdbStepBase.OdbStepBase.getHistoryRegion:0
-#: ../../../../../src/abaqus/Odb/OdbStepBase.py:docstring of abaqus.Odb.OdbStepBase.OdbStepBase.setDefaultDeformedField:0
-#: ../../../../../src/abaqus/Odb/OdbStepBase.py:docstring of abaqus.Odb.OdbStepBase.OdbStepBase.setDefaultField:0
-#: ../../../../../src/abaqus/Odb/SectionCategory.py:docstring of abaqus.Odb.SectionCategory.SectionCategory.SectionPoint:0
-#: ../../../../../src/abaqus/Odb/UserDataBase.py:docstring of abaqus.Odb.UserDataBase.UserDataBase.XYData:0
+#: ../../../reference/odb.md:0
 msgid "Parameters"
 msgstr ""
 
@@ -821,50 +751,7 @@ msgstr ""
 msgid "A SymbolicConstant specifying the type of the Part object. Possible values are DEFORMABLE_BODY and ANALYTIC_RIGID_SURFACE."
 msgstr ""
 
-#: ../../../../../src/abaqus/Odb/FieldOutput.py:docstring of abaqus.Odb.FieldOutput.FieldOutput.getConnectorFieldXformedToNodeA:0
-#: ../../../../../src/abaqus/Odb/HistoryRegion.py:docstring of abaqus.Odb.HistoryRegion.HistoryRegion.HistoryOutput:0
-#: ../../../../../src/abaqus/Odb/Odb.py:docstring of abaqus.Odb.Odb.Odb.Part:0
-#: ../../../../../src/abaqus/Odb/Odb.py:docstring of abaqus.Odb.Odb.Odb.SectionCategory:0
-#: ../../../../../src/abaqus/Odb/Odb.py:docstring of abaqus.Odb.Odb.Odb.Step:0
-#: ../../../../../src/abaqus/Odb/OdbAssembly.py:docstring of abaqus.Odb.OdbAssembly.OdbAssembly.DatumCsys:0
-#: ../../../../../src/abaqus/Odb/OdbAssembly.py:docstring of abaqus.Odb.OdbAssembly.OdbAssembly.DatumCsysBy6dofNode:0
-#: ../../../../../src/abaqus/Odb/OdbAssembly.py:docstring of abaqus.Odb.OdbAssembly.OdbAssembly.DatumCsysByThreeCircNodes:0
-#: ../../../../../src/abaqus/Odb/OdbAssembly.py:docstring of abaqus.Odb.OdbAssembly.OdbAssembly.DatumCsysByThreeNodes:0
-#: ../../../../../src/abaqus/Odb/OdbAssembly.py:docstring of abaqus.Odb.OdbAssembly.OdbAssembly.DatumCsysByThreePoints:0
-#: ../../../../../src/abaqus/Odb/OdbAssembly.py:docstring of abaqus.Odb.OdbAssembly.OdbAssembly.Instance:0
-#: ../../../../../src/abaqus/Odb/OdbAssembly.py:docstring of abaqus.Odb.OdbAssembly.OdbAssembly.NodeSet:0
-#: ../../../../../src/abaqus/Odb/OdbAssembly.py:docstring of abaqus.Odb.OdbAssembly.OdbAssembly.RigidBody:0
-#: ../../../../../src/abaqus/Odb/OdbBase.py:docstring of abaqus.Odb.OdbBase.OdbBase.getFrame:0
-#: ../../../../../src/abaqus/Odb/OdbBase.py:docstring of abaqus.Odb.OdbBase.OdbBase.update:0
-#: ../../../../../src/abaqus/Odb/OdbCommands.py:docstring of abaqus.Odb.OdbCommands.AnalyticSurfaceProfile:0
-#: ../../../../../src/abaqus/Odb/OdbCommands.py:docstring of abaqus.Odb.OdbCommands.isUpgradeRequiredForOdb:0
-#: ../../../../../src/abaqus/Odb/OdbCommands.py:docstring of abaqus.Odb.OdbCommands.maxEnvelope:0
-#: ../../../../../src/abaqus/Odb/OdbCommands.py:docstring of abaqus.Odb.OdbCommands.minEnvelope:0
-#: ../../../../../src/abaqus/Odb/OdbCommands.py:docstring of abaqus.Odb.OdbCommands.openOdb:0
-#: ../../../../../src/abaqus/Odb/OdbDatumCsys.py:docstring of abaqus.Odb.OdbDatumCsys.OdbDatumCsys.DatumCsys:0
-#: ../../../../../src/abaqus/Odb/OdbDatumCsys.py:docstring of abaqus.Odb.OdbDatumCsys.OdbDatumCsys.DatumCsysBy6dofNode:0
-#: ../../../../../src/abaqus/Odb/OdbDatumCsys.py:docstring of abaqus.Odb.OdbDatumCsys.OdbDatumCsys.DatumCsysByThreeCircNodes:0
-#: ../../../../../src/abaqus/Odb/OdbDatumCsys.py:docstring of abaqus.Odb.OdbDatumCsys.OdbDatumCsys.DatumCsysByThreeNodes:0
-#: ../../../../../src/abaqus/Odb/OdbDatumCsys.py:docstring of abaqus.Odb.OdbDatumCsys.OdbDatumCsys.DatumCsysByThreePoints:0
-#: ../../../../../src/abaqus/Odb/OdbInstance.py:docstring of abaqus.Odb.OdbInstance.OdbInstance.NodeSet:0
-#: ../../../../../src/abaqus/Odb/OdbInstanceBase.py:docstring of abaqus.Odb.OdbInstanceBase.OdbInstanceBase.getElementFromLabel:0
-#: ../../../../../src/abaqus/Odb/OdbInstanceBase.py:docstring of abaqus.Odb.OdbInstanceBase.OdbInstanceBase.getNodeFromLabel:0
-#: ../../../../../src/abaqus/Odb/OdbPart.py:docstring of abaqus.Odb.OdbPart.OdbPart.NodeSet:0
-#: ../../../../../src/abaqus/Odb/OdbPartBase.py:docstring of abaqus.Odb.OdbPartBase.OdbPartBase.getElementFromLabel:0
-#: ../../../../../src/abaqus/Odb/OdbPartBase.py:docstring of abaqus.Odb.OdbPartBase.OdbPartBase.getNodeFromLabel:0
-#: ../../../../../src/abaqus/Odb/OdbSession.py:docstring of abaqus.Odb.OdbSession.OdbSession.ScratchOdb:0
-#: ../../../../../src/abaqus/Odb/OdbSession.py:docstring of abaqus.Odb.OdbSession.OdbSession.openOdb:0
-#: ../../../../../src/abaqus/Odb/OdbSet.py:docstring of abaqus.Odb.OdbSet.OdbSet.ElementSet:0
-#: ../../../../../src/abaqus/Odb/OdbSet.py:docstring of abaqus.Odb.OdbSet.OdbSet.ElementSetFromElementLabels:0
-#: ../../../../../src/abaqus/Odb/OdbSet.py:docstring of abaqus.Odb.OdbSet.OdbSet.MeshSurface:0
-#: ../../../../../src/abaqus/Odb/OdbSet.py:docstring of abaqus.Odb.OdbSet.OdbSet.MeshSurfaceFromElsets:0
-#: ../../../../../src/abaqus/Odb/OdbSet.py:docstring of abaqus.Odb.OdbSet.OdbSet.MeshSurfaceFromLabels:0
-#: ../../../../../src/abaqus/Odb/OdbSet.py:docstring of abaqus.Odb.OdbSet.OdbSet.NodeSetFromNodeLabels:0
-#: ../../../../../src/abaqus/Odb/OdbStep.py:docstring of abaqus.Odb.OdbStep.OdbStep.HistoryRegion:0
-#: ../../../../../src/abaqus/Odb/OdbStep.py:docstring of abaqus.Odb.OdbStep.OdbStep.LoadCase:0
-#: ../../../../../src/abaqus/Odb/OdbStepBase.py:docstring of abaqus.Odb.OdbStepBase.OdbStepBase.getHistoryRegion:0
-#: ../../../../../src/abaqus/Odb/SectionCategory.py:docstring of abaqus.Odb.SectionCategory.SectionCategory.SectionPoint:0
-#: ../../../../../src/abaqus/Odb/UserDataBase.py:docstring of abaqus.Odb.UserDataBase.UserDataBase.XYData:0
+#: ../../../reference/odb.md:0
 msgid "Returns"
 msgstr ""
 
@@ -873,51 +760,7 @@ msgstr ""
 msgid "An OdbPart object."
 msgstr ""
 
-#: ../../../../../src/abaqus/Odb/FieldOutput.py:docstring of abaqus.Odb.FieldOutput.FieldOutput.getConnectorFieldXformedToNodeA:0
-#: ../../../../../src/abaqus/Odb/HistoryRegion.py:docstring of abaqus.Odb.HistoryRegion.HistoryRegion.HistoryOutput:0
-#: ../../../../../src/abaqus/Odb/Odb.py:docstring of abaqus.Odb.Odb.Odb.Part:0
-#: ../../../../../src/abaqus/Odb/Odb.py:docstring of abaqus.Odb.Odb.Odb.SectionCategory:0
-#: ../../../../../src/abaqus/Odb/Odb.py:docstring of abaqus.Odb.Odb.Odb.Step:0
-#: ../../../../../src/abaqus/Odb/OdbAssembly.py:docstring of abaqus.Odb.OdbAssembly.OdbAssembly.DatumCsys:0
-#: ../../../../../src/abaqus/Odb/OdbAssembly.py:docstring of abaqus.Odb.OdbAssembly.OdbAssembly.DatumCsysBy6dofNode:0
-#: ../../../../../src/abaqus/Odb/OdbAssembly.py:docstring of abaqus.Odb.OdbAssembly.OdbAssembly.DatumCsysByThreeCircNodes:0
-#: ../../../../../src/abaqus/Odb/OdbAssembly.py:docstring of abaqus.Odb.OdbAssembly.OdbAssembly.DatumCsysByThreeNodes:0
-#: ../../../../../src/abaqus/Odb/OdbAssembly.py:docstring of abaqus.Odb.OdbAssembly.OdbAssembly.DatumCsysByThreePoints:0
-#: ../../../../../src/abaqus/Odb/OdbAssembly.py:docstring of abaqus.Odb.OdbAssembly.OdbAssembly.Instance:0
-#: ../../../../../src/abaqus/Odb/OdbAssembly.py:docstring of abaqus.Odb.OdbAssembly.OdbAssembly.NodeSet:0
-#: ../../../../../src/abaqus/Odb/OdbAssembly.py:docstring of abaqus.Odb.OdbAssembly.OdbAssembly.RigidBody:0
-#: ../../../../../src/abaqus/Odb/OdbBase.py:docstring of abaqus.Odb.OdbBase.OdbBase.getFrame:0
-#: ../../../../../src/abaqus/Odb/OdbBase.py:docstring of abaqus.Odb.OdbBase.OdbBase.update:0
-#: ../../../../../src/abaqus/Odb/OdbCommands.py:docstring of abaqus.Odb.OdbCommands.AnalyticSurfaceProfile:0
-#: ../../../../../src/abaqus/Odb/OdbCommands.py:docstring of abaqus.Odb.OdbCommands.isUpgradeRequiredForOdb:0
-#: ../../../../../src/abaqus/Odb/OdbCommands.py:docstring of abaqus.Odb.OdbCommands.maxEnvelope:0
-#: ../../../../../src/abaqus/Odb/OdbCommands.py:docstring of abaqus.Odb.OdbCommands.minEnvelope:0
-#: ../../../../../src/abaqus/Odb/OdbCommands.py:docstring of abaqus.Odb.OdbCommands.openOdb:0
-#: ../../../../../src/abaqus/Odb/OdbDatumCsys.py:docstring of abaqus.Odb.OdbDatumCsys.OdbDatumCsys.DatumCsys:0
-#: ../../../../../src/abaqus/Odb/OdbDatumCsys.py:docstring of abaqus.Odb.OdbDatumCsys.OdbDatumCsys.DatumCsysBy6dofNode:0
-#: ../../../../../src/abaqus/Odb/OdbDatumCsys.py:docstring of abaqus.Odb.OdbDatumCsys.OdbDatumCsys.DatumCsysByThreeCircNodes:0
-#: ../../../../../src/abaqus/Odb/OdbDatumCsys.py:docstring of abaqus.Odb.OdbDatumCsys.OdbDatumCsys.DatumCsysByThreeNodes:0
-#: ../../../../../src/abaqus/Odb/OdbDatumCsys.py:docstring of abaqus.Odb.OdbDatumCsys.OdbDatumCsys.DatumCsysByThreePoints:0
-#: ../../../../../src/abaqus/Odb/OdbInstance.py:docstring of abaqus.Odb.OdbInstance.OdbInstance.NodeSet:0
-#: ../../../../../src/abaqus/Odb/OdbInstanceBase.py:docstring of abaqus.Odb.OdbInstanceBase.OdbInstanceBase.getElementFromLabel:0
-#: ../../../../../src/abaqus/Odb/OdbInstanceBase.py:docstring of abaqus.Odb.OdbInstanceBase.OdbInstanceBase.getNodeFromLabel:0
-#: ../../../../../src/abaqus/Odb/OdbPart.py:docstring of abaqus.Odb.OdbPart.OdbPart.NodeSet:0
-#: ../../../../../src/abaqus/Odb/OdbPart.py:docstring of abaqus.Odb.OdbPart.OdbPart.RigidBody:0
-#: ../../../../../src/abaqus/Odb/OdbPartBase.py:docstring of abaqus.Odb.OdbPartBase.OdbPartBase.getElementFromLabel:0
-#: ../../../../../src/abaqus/Odb/OdbPartBase.py:docstring of abaqus.Odb.OdbPartBase.OdbPartBase.getNodeFromLabel:0
-#: ../../../../../src/abaqus/Odb/OdbSession.py:docstring of abaqus.Odb.OdbSession.OdbSession.ScratchOdb:0
-#: ../../../../../src/abaqus/Odb/OdbSession.py:docstring of abaqus.Odb.OdbSession.OdbSession.openOdb:0
-#: ../../../../../src/abaqus/Odb/OdbSet.py:docstring of abaqus.Odb.OdbSet.OdbSet.ElementSet:0
-#: ../../../../../src/abaqus/Odb/OdbSet.py:docstring of abaqus.Odb.OdbSet.OdbSet.ElementSetFromElementLabels:0
-#: ../../../../../src/abaqus/Odb/OdbSet.py:docstring of abaqus.Odb.OdbSet.OdbSet.MeshSurface:0
-#: ../../../../../src/abaqus/Odb/OdbSet.py:docstring of abaqus.Odb.OdbSet.OdbSet.MeshSurfaceFromElsets:0
-#: ../../../../../src/abaqus/Odb/OdbSet.py:docstring of abaqus.Odb.OdbSet.OdbSet.MeshSurfaceFromLabels:0
-#: ../../../../../src/abaqus/Odb/OdbSet.py:docstring of abaqus.Odb.OdbSet.OdbSet.NodeSetFromNodeLabels:0
-#: ../../../../../src/abaqus/Odb/OdbStep.py:docstring of abaqus.Odb.OdbStep.OdbStep.HistoryRegion:0
-#: ../../../../../src/abaqus/Odb/OdbStep.py:docstring of abaqus.Odb.OdbStep.OdbStep.LoadCase:0
-#: ../../../../../src/abaqus/Odb/OdbStepBase.py:docstring of abaqus.Odb.OdbStepBase.OdbStepBase.getHistoryRegion:0
-#: ../../../../../src/abaqus/Odb/SectionCategory.py:docstring of abaqus.Odb.SectionCategory.SectionCategory.SectionPoint:0
-#: ../../../../../src/abaqus/Odb/UserDataBase.py:docstring of abaqus.Odb.UserDataBase.UserDataBase.XYData:0
+#: ../../../reference/odb.md:0
 msgid "Return type"
 msgstr ""
 
@@ -1185,35 +1028,7 @@ msgstr ""
 msgid ":class:`OdbStep`"
 msgstr ""
 
-#: ../../../../../src/abaqus/Odb/FieldOutput.py:docstring of abaqus.Odb.FieldOutput.FieldOutput.getConnectorFieldXformedToNodeA:0
-#: ../../../../../src/abaqus/Odb/Odb.py:docstring of abaqus.Odb.Odb.Odb.Step:0
-#: ../../../../../src/abaqus/Odb/OdbAssemblyBase.py:docstring of abaqus.Odb.OdbAssemblyBase.OdbAssemblyBase.ConnectorOrientation:0
-#: ../../../../../src/abaqus/Odb/OdbAssemblyBase.py:docstring of abaqus.Odb.OdbAssemblyBase.OdbAssemblyBase.RigidBody:0
-#: ../../../../../src/abaqus/Odb/OdbAssemblyBase.py:docstring of abaqus.Odb.OdbAssemblyBase.OdbAssemblyBase.SectionAssignment:0
-#: ../../../../../src/abaqus/Odb/OdbAssemblyBase.py:docstring of abaqus.Odb.OdbAssemblyBase.OdbAssemblyBase.addElements:0
-#: ../../../../../src/abaqus/Odb/OdbAssemblyBase.py:docstring of abaqus.Odb.OdbAssemblyBase.OdbAssemblyBase.addNodes:0
-#: ../../../../../src/abaqus/Odb/OdbBase.py:docstring of abaqus.Odb.OdbBase.OdbBase.getFrame:0
-#: ../../../../../src/abaqus/Odb/OdbBase.py:docstring of abaqus.Odb.OdbBase.OdbBase.save:0
-#: ../../../../../src/abaqus/Odb/OdbCommands.py:docstring of abaqus.Odb.OdbCommands.maxEnvelope:0
-#: ../../../../../src/abaqus/Odb/OdbCommands.py:docstring of abaqus.Odb.OdbCommands.minEnvelope:0
-#: ../../../../../src/abaqus/Odb/OdbCommands.py:docstring of abaqus.Odb.OdbCommands.openOdb:0
-#: ../../../../../src/abaqus/Odb/OdbCommands.py:docstring of abaqus.Odb.OdbCommands.upgradeOdb:0
-#: ../../../../../src/abaqus/Odb/OdbInstanceBase.py:docstring of abaqus.Odb.OdbInstanceBase.OdbInstanceBase.AnalyticRigidSurf2DPlanar:0
-#: ../../../../../src/abaqus/Odb/OdbInstanceBase.py:docstring of abaqus.Odb.OdbInstanceBase.OdbInstanceBase.AnalyticRigidSurfExtrude:0
-#: ../../../../../src/abaqus/Odb/OdbInstanceBase.py:docstring of abaqus.Odb.OdbInstanceBase.OdbInstanceBase.AnalyticRigidSurfRevolve:0
-#: ../../../../../src/abaqus/Odb/OdbInstanceBase.py:docstring of abaqus.Odb.OdbInstanceBase.OdbInstanceBase.RigidBody:0
-#: ../../../../../src/abaqus/Odb/OdbInstanceBase.py:docstring of abaqus.Odb.OdbInstanceBase.OdbInstanceBase.assignSection:0
-#: ../../../../../src/abaqus/Odb/OdbInstanceBase.py:docstring of abaqus.Odb.OdbInstanceBase.OdbInstanceBase.getElementFromLabel:0
-#: ../../../../../src/abaqus/Odb/OdbInstanceBase.py:docstring of abaqus.Odb.OdbInstanceBase.OdbInstanceBase.getNodeFromLabel:0
-#: ../../../../../src/abaqus/Odb/OdbPart.py:docstring of abaqus.Odb.OdbPart.OdbPart.RigidBody:0
-#: ../../../../../src/abaqus/Odb/OdbPartBase.py:docstring of abaqus.Odb.OdbPartBase.OdbPartBase.AnalyticRigidSurf2DPlanar:0
-#: ../../../../../src/abaqus/Odb/OdbPartBase.py:docstring of abaqus.Odb.OdbPartBase.OdbPartBase.AnalyticRigidSurfExtrude:0
-#: ../../../../../src/abaqus/Odb/OdbPartBase.py:docstring of abaqus.Odb.OdbPartBase.OdbPartBase.AnalyticRigidSurfRevolve:0
-#: ../../../../../src/abaqus/Odb/OdbPartBase.py:docstring of abaqus.Odb.OdbPartBase.OdbPartBase.getElementFromLabel:0
-#: ../../../../../src/abaqus/Odb/OdbPartBase.py:docstring of abaqus.Odb.OdbPartBase.OdbPartBase.getNodeFromLabel:0
-#: ../../../../../src/abaqus/Odb/OdbSession.py:docstring of abaqus.Odb.OdbSession.OdbSession.openOdb:0
-#: ../../../../../src/abaqus/Odb/OdbSession.py:docstring of abaqus.Odb.OdbSession.OdbSession.upgradeOdb:0
-#: ../../../../../src/abaqus/Odb/OdbStepBase.py:docstring of abaqus.Odb.OdbStepBase.OdbStepBase.getHistoryRegion:0
+#: ../../../reference/odb.md:0
 msgid "Raises"
 msgstr ""
 
@@ -1576,81 +1391,81 @@ msgstr ""
 msgid "Check `FieldBulkData on help.3ds.com/2016 <https://help.3ds.com/2016/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-fieldbulkdatapyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: ../../../../docstring of abaqus.Odb.FieldBulkData.FieldBulkData.componentLabels:1
+#: ../../../../docstring of abaqus.Odb.FieldOutput.FieldBulkData.componentLabels:1
 msgid "A sequence of Strings specifying the component labels."
 msgstr ""
 
-#: ../../../../docstring of abaqus.Odb.FieldBulkData.FieldBulkData.conjugateData:1
+#: ../../../../docstring of abaqus.Odb.FieldOutput.FieldBulkData.conjugateData:1
 msgid "A tuple of Floats specifying data in the form described by **type**. If **type** = TENSOR or VECTOR, **conjugateData** is a sequence containing the imaginary part of the components for each element or node in the block. If the underlying data are in double precision, an exception will be thrown."
 msgstr ""
 
-#: ../../../../docstring of abaqus.Odb.FieldBulkData.FieldBulkData.data:1
+#: ../../../../docstring of abaqus.Odb.FieldOutput.FieldBulkData.data:1
 msgid "A tuple of Floats specifying data in the form described by **type**. If **type** = TENSOR or VECTOR, **data** is a sequence containing the components for each element or node in the block. If the underlying data are in double precision, an exception will be thrown."
 msgstr ""
 
-#: ../../../../docstring of abaqus.Odb.FieldBulkData.FieldBulkData.elementLabels:1
+#: ../../../../docstring of abaqus.Odb.FieldOutput.FieldBulkData.elementLabels:1
 msgid "A sequence of Ints specifying the element labels of the elements in the block. **elementLabels** is valid only if **position** = INTEGRATION_POINT, CENTROID, ELEMENT_NODAL, or ELEMENT_FACE."
 msgstr ""
 
-#: ../../../../docstring of abaqus.Odb.FieldBulkData.FieldBulkData.instance:1
+#: ../../../../docstring of abaqus.Odb.FieldOutput.FieldBulkData.instance:1
 #: ../../../../docstring of abaqus.Odb.FieldValueArray.FieldValue.instance:1
 msgid "An OdbInstance object specifying the part to which the labels belong."
 msgstr ""
 
-#: ../../../../docstring of abaqus.Odb.FieldBulkData.FieldBulkData.integrationPoints:1
+#: ../../../../docstring of abaqus.Odb.FieldOutput.FieldBulkData.integrationPoints:1
 msgid "A sequence of Ints specifying the integration points in the elements in the block. **integrationPoints** is available only if **position** = INTEGRATION_POINT."
 msgstr ""
 
-#: ../../../../docstring of abaqus.Odb.FieldBulkData.FieldBulkData.localCoordSystem:1
+#: ../../../../docstring of abaqus.Odb.FieldOutput.FieldBulkData.localCoordSystem:1
 msgid "A pointer to an array of Floats specifying the quaternion representing the local coordinate system (the rotation from global to local) at each output location. The quaternion is returned in the form q=(q,q0), which is the reverse of that shown in [Rotation variables](https://help.3ds.com/2022/english/DSSIMULIA_Established/SIMACAETHERefMap/simathe-c-rotationvars.htm?ContextScope=all). **localCoordSystem** is available for TENSOR data written in a local coordinate system. It is also available for VECTOR data for connector element outputs. For connector element outputs the quaternion form is q=(q0,q)q=(q0,q), which represents the rotation from local to global. If the underlying data are in double precision, an exception will be thrown."
 msgstr ""
 
-#: ../../../../docstring of abaqus.Odb.FieldBulkData.FieldBulkData.mises:1
+#: ../../../../docstring of abaqus.Odb.FieldOutput.FieldBulkData.mises:1
 msgid "A sequence of Floats specifying the calculated von Mises stress at each output location in the block of element data, or NULL. The value is valid only when the **validInvariants** member includes MISES; otherwise, the value is indeterminate. Conjugate data will be ignored in invariant calculation."
 msgstr ""
 
-#: ../../../../docstring of abaqus.Odb.FieldBulkData.FieldBulkData.nodeLabels:1
+#: ../../../../docstring of abaqus.Odb.FieldOutput.FieldBulkData.nodeLabels:1
 msgid "A sequence of Ints specifying the node labels of the nodes in the block. **nodelabels** is valid only if **position** = ELEMENT_NODAL or NODAL."
 msgstr ""
 
-#: ../../../../docstring of abaqus.Odb.FieldBulkData.FieldBulkData.position:1
+#: ../../../../docstring of abaqus.Odb.FieldOutput.FieldBulkData.position:1
 #: ../../../../docstring of abaqus.Odb.FieldValueArray.FieldValue.position:1
 msgid "A SymbolicConstant specifying the position of the output in the element. Possible values are:"
 msgstr ""
 
-#: ../../../../docstring of abaqus.Odb.FieldBulkData.FieldBulkData.position:4
+#: ../../../../docstring of abaqus.Odb.FieldOutput.FieldBulkData.position:4
 #: ../../../../docstring of abaqus.Odb.FieldValueArray.FieldValue.position:4
 #: ../../../../docstring of abaqus.Odb.OdbStepBase.HistoryPoint.position:4
 msgid "NODAL, specifying the values calculated at the nodes."
 msgstr ""
 
-#: ../../../../docstring of abaqus.Odb.FieldBulkData.FieldBulkData.position:5
+#: ../../../../docstring of abaqus.Odb.FieldOutput.FieldBulkData.position:5
 #: ../../../../docstring of abaqus.Odb.FieldValueArray.FieldValue.position:5
 #: ../../../../docstring of abaqus.Odb.OdbStepBase.HistoryPoint.position:7
 msgid "INTEGRATION_POINT, specifying the values calculated at the integration points."
 msgstr ""
 
-#: ../../../../docstring of abaqus.Odb.FieldBulkData.FieldBulkData.position:6
+#: ../../../../docstring of abaqus.Odb.FieldOutput.FieldBulkData.position:6
 #: ../../../../docstring of abaqus.Odb.FieldValueArray.FieldValue.position:6
 #: ../../../../docstring of abaqus.Odb.OdbStepBase.HistoryPoint.position:5
 msgid "ELEMENT_NODAL, specifying the values obtained by extrapolating results calculated at the integration points."
 msgstr ""
 
-#: ../../../../docstring of abaqus.Odb.FieldBulkData.FieldBulkData.position:8
+#: ../../../../docstring of abaqus.Odb.FieldOutput.FieldBulkData.position:8
 msgid "ELEMENT_FACE."
 msgstr ""
 
-#: ../../../../docstring of abaqus.Odb.FieldBulkData.FieldBulkData.position:9
+#: ../../../../docstring of abaqus.Odb.FieldOutput.FieldBulkData.position:9
 #: ../../../../docstring of abaqus.Odb.FieldValueArray.FieldValue.position:10
 msgid "CENTROID, specifying the value at the centroid obtained by extrapolating results calculated at the integration points."
 msgstr ""
 
-#: ../../../../docstring of abaqus.Odb.FieldBulkData.FieldBulkData.sectionPoint:1
+#: ../../../../docstring of abaqus.Odb.FieldOutput.FieldBulkData.sectionPoint:1
 msgid "A SectionPoint object specifying the section point number of the current block of data."
 msgstr ""
 
 #: ../../../../../src/abaqus/Odb/FieldOutput.py:docstring of abaqus.Odb.FieldOutput.FieldOutput.setDataType:7
-#: ../../../../docstring of abaqus.Odb.FieldBulkData.FieldBulkData.type:1
+#: ../../../../docstring of abaqus.Odb.FieldOutput.FieldBulkData.type:1
 #: ../../../../docstring of abaqus.Odb.FieldValueArray.FieldValue.type:1
 #: ../../../../docstring of abaqus.Odb.OdbStepBase.FieldOutput.type:1
 msgid "A SymbolicConstant specifying the output type. Possible values are SCALAR, VECTOR, TENSOR_3D_FULL, TENSOR_3D_PLANAR, TENSOR_3D_SURFACE, TENSOR_2D_PLANAR, and TENSOR_2D_SURFACE."
@@ -1778,6 +1593,10 @@ msgstr ""
 
 #: ../../../../../src/abaqus/Odb/FieldOutput.py:docstring of abaqus.Odb.FieldOutput.FieldOutput:10
 msgid "Check `FieldOutput on help.3ds.com/2016 <https://help.3ds.com/2016/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-fieldoutputpyc.htm?contextscope=all>`__."
+msgstr ""
+
+#: ../../../../docstring of abaqus.Odb.OdbStepBase.FieldOutput.bulkDataBlocks:1
+msgid "A sequence of FieldBulkData objects."
 msgstr ""
 
 #: ../../../../../src/abaqus/Odb/FieldOutput.py:docstring of abaqus.Odb.FieldOutput.FieldOutput.setComponentLabels:7
