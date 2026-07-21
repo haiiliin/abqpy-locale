@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: abqpy 2023\n"
+"Project-Id-Version: abqpy 2023.11\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-06 02:35+0000\n"
+"POT-Creation-Date: 2026-07-21 09:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -597,16 +597,7 @@ msgstr ""
 msgid "Check `BasicOptions.setValues on help.3ds.com/2023 <https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-basicoptionspyc.htm?contextscope=all#simaker-basicoptionssetvaluespyc>`__."
 msgstr ""
 
-#: ../../../../../src/abaqus/PlotOptions/BasicOptions.py:docstring of abaqus.PlotOptions.BasicOptions.BasicOptions.setValues:0
-#: ../../../../../src/abaqus/PlotOptions/DisplayOptions.py:docstring of abaqus.PlotOptions.DisplayOptions.DisplayOptions.setValues:0
-#: ../../../../../src/abaqus/PlotOptions/FreeBodyOptions.py:docstring of abaqus.PlotOptions.FreeBodyOptions.FreeBodyOptions.setValues:0
-#: ../../../../../src/abaqus/PlotOptions/OdbData.py:docstring of abaqus.PlotOptions.OdbData.OdbData.setValues:0
-#: ../../../../../src/abaqus/PlotOptions/OdbDataFrame.py:docstring of abaqus.PlotOptions.OdbDataFrame.OdbDataFrame.setValues:0
-#: ../../../../../src/abaqus/PlotOptions/OdbDataStep.py:docstring of abaqus.PlotOptions.OdbDataStep.OdbDataStep.setValues:0
-#: ../../../../../src/abaqus/PlotOptions/OdbDiagnosticStep.py:docstring of abaqus.PlotOptions.OdbDiagnosticStep.OdbDiagnosticStep.extractData:0
-#: ../../../../../src/abaqus/PlotOptions/PlyStackPlotOptions.py:docstring of abaqus.PlotOptions.PlyStackPlotOptions.PlyStackPlotOptions.setValues:0
-#: ../../../../../src/abaqus/PlotOptions/StreamOptions.py:docstring of abaqus.PlotOptions.StreamOptions.StreamOptions.setValues:0
-#: ../../../../../src/abaqus/PlotOptions/ViewCutOptions.py:docstring of abaqus.PlotOptions.ViewCutOptions.ViewCutOptions.setValues:0
+#: ../../../reference/session/plot_options.md:0
 msgid "Parameters"
 msgstr ""
 
@@ -720,8 +711,7 @@ msgstr ""
 msgid "A sequence of Strings specifying either element set or display group names (depending on the value of regionBoundaries) defining the averaging region boundaries. The default value is an empty sequence."
 msgstr ""
 
-#: ../../../../../src/abaqus/PlotOptions/BasicOptions.py:docstring of abaqus.PlotOptions.BasicOptions.BasicOptions.setValues:0
-#: ../../../../../src/abaqus/PlotOptions/ViewCutOptions.py:docstring of abaqus.PlotOptions.ViewCutOptions.ViewCutOptions.setValues:0
+#: ../../../reference/session/plot_options.md:0
 msgid "Raises"
 msgstr ""
 
@@ -789,10 +779,7 @@ msgstr ""
 msgid "This method returns node numbers of the surface being controlled by the control point."
 msgstr ""
 
-#: ../../../../../src/abaqus/PlotOptions/CouplingConstraint.py:docstring of abaqus.PlotOptions.CouplingConstraint.CouplingConstraint.constraintData:0
-#: ../../../../../src/abaqus/PlotOptions/MpcConstraint.py:docstring of abaqus.PlotOptions.MpcConstraint.MpcConstraint.constraintData:0
-#: ../../../../../src/abaqus/PlotOptions/RigidBodyConstraint.py:docstring of abaqus.PlotOptions.RigidBodyConstraint.RigidBodyConstraint.constraintData:0
-#: ../../../../../src/abaqus/PlotOptions/TieConstraint.py:docstring of abaqus.PlotOptions.TieConstraint.TieConstraint.constraintData:0
+#: ../../../reference/session/plot_options.md:0
 msgid "Return type"
 msgstr ""
 
@@ -1821,9 +1808,7 @@ msgstr ""
 msgid "This method returns constraint data if any are associated with the object."
 msgstr ""
 
-#: ../../../../../src/abaqus/PlotOptions/MpcConstraint.py:docstring of abaqus.PlotOptions.MpcConstraint.MpcConstraint.constraintData:0
-#: ../../../../../src/abaqus/PlotOptions/RigidBodyConstraint.py:docstring of abaqus.PlotOptions.RigidBodyConstraint.RigidBodyConstraint.constraintData:0
-#: ../../../../../src/abaqus/PlotOptions/TieConstraint.py:docstring of abaqus.PlotOptions.TieConstraint.TieConstraint.constraintData:0
+#: ../../../reference/session/plot_options.md:0
 msgid "Returns"
 msgstr ""
 

@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: abqpy 2023\n"
+"Project-Id-Version: abqpy 2023.11\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-14 03:47+0000\n"
+"POT-Creation-Date: 2026-07-21 09:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -32,7 +32,7 @@ msgstr ""
 msgid "Bases: :py:class:`~abaqus.Session.SessionBase.SessionBase`"
 msgstr ""
 
-#: ../../../../../src/abaqus/PathAndProbe/PathSession.py:docstring of abaqus.PathAndProbe.PathSession.PathSession:0
+#: ../../../reference/session/path.md:0
 msgid "Public Data Attributes:"
 msgstr ""
 
@@ -572,8 +572,7 @@ msgstr ""
 msgid "A repository of Drawing objects."
 msgstr ""
 
-#: ../../../../../src/abaqus/PathAndProbe/FreeBody.py:docstring of abaqus.PathAndProbe.FreeBody.FreeBody:0
-#: ../../../../../src/abaqus/PathAndProbe/PathSession.py:docstring of abaqus.PathAndProbe.PathSession.PathSession:0
+#: ../../../reference/session/path.md:0
 msgid "Public Methods:"
 msgstr ""
 
@@ -604,107 +603,115 @@ msgstr ""
 msgid "This method creates aStream object and places it in the streams repository."
 msgstr ""
 
-#: ../../../../None:16:<autosummary>:1
+#: ../../../../None:17:<autosummary>:1
+msgid ":py:obj:`View <abaqus.Session.SessionBase.SessionBase.View>`\\ \\(name\\, nearPlane\\, farPlane\\, width\\, ...\\)"
+msgstr ""
+
+#: ../../../../None:17:<autosummary>:1
+msgid "This method creates a View object."
+msgstr ""
+
+#: ../../../../None:17:<autosummary>:1
 msgid ":py:obj:`setValues <abaqus.Session.SessionBase.SessionBase.setValues>`\\ \\(\\[kernelMemoryLimit\\]\\)"
 msgstr ""
 
-#: ../../../../None:16:<autosummary>:1
+#: ../../../../None:17:<autosummary>:1
 msgid "This method modifies the Session object."
 msgstr ""
 
-#: ../../../../None:16:<autosummary>:1
+#: ../../../../None:17:<autosummary>:1
 msgid ":py:obj:`enableCADConnection <abaqus.Session.SessionBase.SessionBase.enableCADConnection>`\\ \\(CADName\\[\\, portNum\\]\\)"
 msgstr ""
 
-#: ../../../../None:16:<autosummary>:1
+#: ../../../../None:17:<autosummary>:1
 msgid "This method enables the Abaqus/CAE listening port for the specified **CAD** system."
 msgstr ""
 
-#: ../../../../None:16:<autosummary>:1
+#: ../../../../None:17:<autosummary>:1
 msgid ":py:obj:`isCADConnectionEnabled <abaqus.Session.SessionBase.SessionBase.isCADConnectionEnabled>`\\ \\(\\)"
 msgstr ""
 
-#: ../../../../None:16:<autosummary>:1
+#: ../../../../None:17:<autosummary>:1
 msgid "This method checks the status of CAD Connection."
 msgstr ""
 
-#: ../../../../None:16:<autosummary>:1
+#: ../../../../None:17:<autosummary>:1
 msgid ":py:obj:`disableCADConnection <abaqus.Session.SessionBase.SessionBase.disableCADConnection>`\\ \\(CADName\\)"
 msgstr ""
 
-#: ../../../../None:16:<autosummary>:1
+#: ../../../../None:17:<autosummary>:1
 msgid "This method disables an associative import CAD connection that was enabled."
 msgstr ""
 
-#: ../../../../None:16:<autosummary>:1
+#: ../../../../None:17:<autosummary>:1
 msgid ":py:obj:`enableParameterUpdate <abaqus.Session.SessionBase.SessionBase.enableParameterUpdate>`\\ \\(CADName\\, CADVersion\\[\\, ...\\]\\)"
 msgstr ""
 
-#: ../../../../None:16:<autosummary>:1
+#: ../../../../None:17:<autosummary>:1
 msgid "This method enables parameter updates for ProE and NX by establishing a connection with the listening port previously setup by the CAD application."
 msgstr ""
 
-#: ../../../../None:16:<autosummary>:1
+#: ../../../../None:17:<autosummary>:1
 msgid ":py:obj:`setCADPortNumber <abaqus.Session.SessionBase.SessionBase.setCADPortNumber>`\\ \\(CADName\\, Port\\)"
 msgstr ""
 
-#: ../../../../None:16:<autosummary>:1
+#: ../../../../None:17:<autosummary>:1
 msgid "This method enables parameter updates for CATIA V5 and CATIA V6 by establishing a connection with the listening port previously setup by the CAD application."
 msgstr ""
 
-#: ../../../../None:16:<autosummary>:1
+#: ../../../../None:17:<autosummary>:1
 msgid ":py:obj:`updateCADParameters <abaqus.Session.SessionBase.SessionBase.updateCADParameters>`\\ \\(modelName\\, CADName\\, ...\\)"
 msgstr ""
 
-#: ../../../../None:16:<autosummary>:1
+#: ../../../../None:17:<autosummary>:1
 msgid "This method updates the parameters for the specified model using the specified parameter file."
 msgstr ""
 
-#: ../../../../None:16:<autosummary>:1
+#: ../../../../None:17:<autosummary>:1
 msgid ":py:obj:`disableParameterUpdate <abaqus.Session.SessionBase.SessionBase.disableParameterUpdate>`\\ \\(CADName\\)"
 msgstr ""
 
-#: ../../../../None:16:<autosummary>:1
+#: ../../../../None:17:<autosummary>:1
 msgid "This method disables an associative CAD connection using parameters."
 msgstr ""
 
-#: ../../../../None:16:<autosummary>:1
+#: ../../../../None:17:<autosummary>:1
 msgid ":py:obj:`printToFile <abaqus.Session.SessionBase.SessionBase.printToFile>`\\ \\(fileName\\[\\, format\\, ...\\]\\)"
 msgstr ""
 
-#: ../../../../None:16:<autosummary>:1
+#: ../../../../None:17:<autosummary>:1
 msgid "This method prints canvas objects to a file using the attributes stored in the PrintOptions object and the appropriate format options object."
 msgstr ""
 
-#: ../../../../None:16:<autosummary>:1
+#: ../../../../None:17:<autosummary>:1
 msgid ":py:obj:`printToPrinter <abaqus.Session.SessionBase.SessionBase.printToPrinter>`\\ \\(\\[printCommand\\, numCopies\\, ...\\]\\)"
 msgstr ""
 
-#: ../../../../None:16:<autosummary>:1
+#: ../../../../None:17:<autosummary>:1
 msgid "This method prints canvas objects to a Windows printer or to a PostScript printer."
 msgstr ""
 
-#: ../../../../None:16:<autosummary>:1
+#: ../../../../None:17:<autosummary>:1
 msgid ":py:obj:`saveOptions <abaqus.Session.SessionBase.SessionBase.saveOptions>`\\ \\(directory\\)"
 msgstr ""
 
-#: ../../../../None:16:<autosummary>:1
+#: ../../../../None:17:<autosummary>:1
 msgid "This method saves your customized display settings."
 msgstr ""
 
-#: ../../../../None:16:<autosummary>:1
+#: ../../../../None:17:<autosummary>:1
 msgid ":py:obj:`writeVrmlFile <abaqus.Session.SessionBase.SessionBase.writeVrmlFile>`\\ \\(fileName\\[\\, format\\, canvasObjects\\]\\)"
 msgstr ""
 
-#: ../../../../None:16:<autosummary>:1
+#: ../../../../None:17:<autosummary>:1
 msgid "This method exports the current viewport objects to a file."
 msgstr ""
 
-#: ../../../../None:16:<autosummary>:1
+#: ../../../../None:17:<autosummary>:1
 msgid ":py:obj:`write3DXMLFile <abaqus.Session.SessionBase.SessionBase.write3DXMLFile>`\\ \\(fileName\\[\\, format\\, canvasObjects\\]\\)"
 msgstr ""
 
-#: ../../../../None:16:<autosummary>:1
+#: ../../../../None:17:<autosummary>:1
 msgid ":py:obj:`writeOBJFile <abaqus.Session.SessionBase.SessionBase.writeOBJFile>`\\ \\(fileName\\[\\, canvasObjects\\]\\)"
 msgstr ""
 
@@ -770,14 +777,7 @@ msgstr ""
 msgid "Check `Path on help.3ds.com/2023 <https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-pathpyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: ../../../../../src/abaqus/PathAndProbe/FreeBody.py:docstring of abaqus.PathAndProbe.FreeBody.FreeBody.FreeBodyFromEdges:0
-#: ../../../../../src/abaqus/PathAndProbe/FreeBody.py:docstring of abaqus.PathAndProbe.FreeBody.FreeBody.FreeBodyFromFaces:0
-#: ../../../../../src/abaqus/PathAndProbe/FreeBody.py:docstring of abaqus.PathAndProbe.FreeBody.FreeBody.FreeBodyFromNodesElements:0
-#: ../../../../../src/abaqus/PathAndProbe/PathSession.py:docstring of abaqus.PathAndProbe.PathSession.PathSession.Path:0
-#: ../../../../../src/abaqus/PathAndProbe/PathSession.py:docstring of abaqus.PathAndProbe.PathSession.PathSession.Spectrum:0
-#: ../../../../../src/abaqus/PathAndProbe/PathSession.py:docstring of abaqus.PathAndProbe.PathSession.PathSession.Stream:0
-#: ../../../../../src/abaqus/PathAndProbe/ProbeOptions.py:docstring of abaqus.PathAndProbe.ProbeOptions.ProbeOptions.setValues:0
-#: ../../../../../src/abaqus/PathAndProbe/ProbeReport.py:docstring of abaqus.PathAndProbe.ProbeReport.ProbeReport.setValues:0
+#: ../../../reference/session/path.md:0
 msgid "Parameters"
 msgstr ""
 
@@ -855,12 +855,7 @@ msgstr ""
 msgid "The SymbolicConstant CIRCLE_RADIUS or a Float specifying the end radius of the radial path. This argument is valid only when **type** = RADIAL."
 msgstr ""
 
-#: ../../../../../src/abaqus/PathAndProbe/FreeBody.py:docstring of abaqus.PathAndProbe.FreeBody.FreeBody.FreeBodyFromEdges:0
-#: ../../../../../src/abaqus/PathAndProbe/FreeBody.py:docstring of abaqus.PathAndProbe.FreeBody.FreeBody.FreeBodyFromFaces:0
-#: ../../../../../src/abaqus/PathAndProbe/FreeBody.py:docstring of abaqus.PathAndProbe.FreeBody.FreeBody.FreeBodyFromNodesElements:0
-#: ../../../../../src/abaqus/PathAndProbe/PathSession.py:docstring of abaqus.PathAndProbe.PathSession.PathSession.Path:0
-#: ../../../../../src/abaqus/PathAndProbe/PathSession.py:docstring of abaqus.PathAndProbe.PathSession.PathSession.Spectrum:0
-#: ../../../../../src/abaqus/PathAndProbe/PathSession.py:docstring of abaqus.PathAndProbe.PathSession.PathSession.Stream:0
+#: ../../../reference/session/path.md:0
 msgid "Returns"
 msgstr ""
 
@@ -868,12 +863,7 @@ msgstr ""
 msgid "A Path object."
 msgstr ""
 
-#: ../../../../../src/abaqus/PathAndProbe/FreeBody.py:docstring of abaqus.PathAndProbe.FreeBody.FreeBody.FreeBodyFromEdges:0
-#: ../../../../../src/abaqus/PathAndProbe/FreeBody.py:docstring of abaqus.PathAndProbe.FreeBody.FreeBody.FreeBodyFromFaces:0
-#: ../../../../../src/abaqus/PathAndProbe/FreeBody.py:docstring of abaqus.PathAndProbe.FreeBody.FreeBody.FreeBodyFromNodesElements:0
-#: ../../../../../src/abaqus/PathAndProbe/PathSession.py:docstring of abaqus.PathAndProbe.PathSession.PathSession.Path:0
-#: ../../../../../src/abaqus/PathAndProbe/PathSession.py:docstring of abaqus.PathAndProbe.PathSession.PathSession.Spectrum:0
-#: ../../../../../src/abaqus/PathAndProbe/PathSession.py:docstring of abaqus.PathAndProbe.PathSession.PathSession.Stream:0
+#: ../../../reference/session/path.md:0
 msgid "Return type"
 msgstr ""
 
@@ -881,7 +871,7 @@ msgstr ""
 msgid ":class:`Path`"
 msgstr ""
 
-#: ../../../../../src/abaqus/PathAndProbe/PathSession.py:docstring of abaqus.PathAndProbe.PathSession.PathSession.Path:0
+#: ../../../reference/session/path.md:0
 msgid "Raises"
 msgstr ""
 

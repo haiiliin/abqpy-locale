@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: abqpy 2023\n"
+"Project-Id-Version: abqpy 2023.11\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-14 03:47+0000\n"
+"POT-Creation-Date: 2026-07-21 09:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -82,6 +82,8 @@ msgstr ""
 #: ../../../../../src/abaqus/Session/Session.py:docstring of abaqus.Session.Session.Session:8
 #: ../../../../../src/abaqus/Session/SessionBase.py:docstring of abaqus.Session.SessionBase.SessionBase:3
 #: ../../../../../src/abaqus/Session/SessionBase.py:docstring of abaqus.Session.SessionBase.SessionBase:8
+#: ../../../../../src/abaqus/Session/SessionBase.py:docstring of abaqus.Session.SessionBase.SessionBase.View:4
+#: ../../../../../src/abaqus/Session/SessionBase.py:docstring of abaqus.Session.SessionBase.SessionBase.View:9
 #: ../../../../../src/abaqus/Session/SessionBase.py:docstring of abaqus.Session.SessionBase.SessionBase.disableCADConnection:3
 #: ../../../../../src/abaqus/Session/SessionBase.py:docstring of abaqus.Session.SessionBase.SessionBase.disableParameterUpdate:3
 #: ../../../../../src/abaqus/Session/SessionBase.py:docstring of abaqus.Session.SessionBase.SessionBase.enableCADConnection:3
@@ -115,7 +117,7 @@ msgstr ""
 msgid "Check `Session on help.3ds.com/2023 <https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-sessionpyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: ../../../../../src/abaqus/Session/Session.py:docstring of abaqus.Session.Session.Session:0
+#: ../../../reference/session/index.md:0
 msgid "Public Data Attributes:"
 msgstr ""
 
@@ -724,7 +726,7 @@ msgstr ""
 msgid "A repository of Drawing objects."
 msgstr ""
 
-#: ../../../../../src/abaqus/Session/Session.py:docstring of abaqus.Session.Session.Session:0
+#: ../../../reference/session/index.md:0
 msgid "Public Methods:"
 msgstr ""
 
@@ -964,119 +966,127 @@ msgstr ""
 msgid "This method is used to get the **limit** for number of XY data objects while creating XYData from field output."
 msgstr ""
 
-#: ../../../../None:16:<autosummary>:1
+#: ../../../../None:17:<autosummary>:1
+msgid ":py:obj:`View <abaqus.Session.SessionBase.SessionBase.View>`\\ \\(name\\, nearPlane\\, farPlane\\, width\\, ...\\)"
+msgstr ""
+
+#: ../../../../None:17:<autosummary>:1
+msgid "This method creates a View object."
+msgstr ""
+
+#: ../../../../None:17:<autosummary>:1
 msgid ":py:obj:`setValues <abaqus.Session.SessionBase.SessionBase.setValues>`\\ \\(\\[kernelMemoryLimit\\]\\)"
 msgstr ""
 
 #: ../../../../../src/abaqus/Session/SessionBase.py:docstring of abaqus.Session.SessionBase.SessionBase.setValues:1
-#: ../../../../None:16:<autosummary>:1
+#: ../../../../None:17:<autosummary>:1
 msgid "This method modifies the Session object."
 msgstr ""
 
-#: ../../../../None:16:<autosummary>:1
+#: ../../../../None:17:<autosummary>:1
 msgid ":py:obj:`enableCADConnection <abaqus.Session.SessionBase.SessionBase.enableCADConnection>`\\ \\(CADName\\[\\, portNum\\]\\)"
 msgstr ""
 
 #: ../../../../../src/abaqus/Session/SessionBase.py:docstring of abaqus.Session.SessionBase.SessionBase.enableCADConnection:1
-#: ../../../../None:16:<autosummary>:1
+#: ../../../../None:17:<autosummary>:1
 msgid "This method enables the Abaqus/CAE listening port for the specified **CAD** system."
 msgstr ""
 
-#: ../../../../None:16:<autosummary>:1
+#: ../../../../None:17:<autosummary>:1
 msgid ":py:obj:`isCADConnectionEnabled <abaqus.Session.SessionBase.SessionBase.isCADConnectionEnabled>`\\ \\(\\)"
 msgstr ""
 
 #: ../../../../../src/abaqus/Session/SessionBase.py:docstring of abaqus.Session.SessionBase.SessionBase.isCADConnectionEnabled:1
-#: ../../../../None:16:<autosummary>:1
+#: ../../../../None:17:<autosummary>:1
 msgid "This method checks the status of CAD Connection."
 msgstr ""
 
-#: ../../../../None:16:<autosummary>:1
+#: ../../../../None:17:<autosummary>:1
 msgid ":py:obj:`disableCADConnection <abaqus.Session.SessionBase.SessionBase.disableCADConnection>`\\ \\(CADName\\)"
 msgstr ""
 
 #: ../../../../../src/abaqus/Session/SessionBase.py:docstring of abaqus.Session.SessionBase.SessionBase.disableCADConnection:1
-#: ../../../../None:16:<autosummary>:1
+#: ../../../../None:17:<autosummary>:1
 msgid "This method disables an associative import CAD connection that was enabled."
 msgstr ""
 
-#: ../../../../None:16:<autosummary>:1
+#: ../../../../None:17:<autosummary>:1
 msgid ":py:obj:`enableParameterUpdate <abaqus.Session.SessionBase.SessionBase.enableParameterUpdate>`\\ \\(CADName\\, CADVersion\\[\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../../../src/abaqus/Session/SessionBase.py:docstring of abaqus.Session.SessionBase.SessionBase.enableParameterUpdate:1
-#: ../../../../None:16:<autosummary>:1
+#: ../../../../None:17:<autosummary>:1
 msgid "This method enables parameter updates for ProE and NX by establishing a connection with the listening port previously setup by the CAD application."
 msgstr ""
 
-#: ../../../../None:16:<autosummary>:1
+#: ../../../../None:17:<autosummary>:1
 msgid ":py:obj:`setCADPortNumber <abaqus.Session.SessionBase.SessionBase.setCADPortNumber>`\\ \\(CADName\\, Port\\)"
 msgstr ""
 
-#: ../../../../None:16:<autosummary>:1
+#: ../../../../None:17:<autosummary>:1
 msgid "This method enables parameter updates for CATIA V5 and CATIA V6 by establishing a connection with the listening port previously setup by the CAD application."
 msgstr ""
 
-#: ../../../../None:16:<autosummary>:1
+#: ../../../../None:17:<autosummary>:1
 msgid ":py:obj:`updateCADParameters <abaqus.Session.SessionBase.SessionBase.updateCADParameters>`\\ \\(modelName\\, CADName\\, ...\\)"
 msgstr ""
 
 #: ../../../../../src/abaqus/Session/SessionBase.py:docstring of abaqus.Session.SessionBase.SessionBase.updateCADParameters:1
-#: ../../../../None:16:<autosummary>:1
+#: ../../../../None:17:<autosummary>:1
 msgid "This method updates the parameters for the specified model using the specified parameter file."
 msgstr ""
 
-#: ../../../../None:16:<autosummary>:1
+#: ../../../../None:17:<autosummary>:1
 msgid ":py:obj:`disableParameterUpdate <abaqus.Session.SessionBase.SessionBase.disableParameterUpdate>`\\ \\(CADName\\)"
 msgstr ""
 
 #: ../../../../../src/abaqus/Session/SessionBase.py:docstring of abaqus.Session.SessionBase.SessionBase.disableParameterUpdate:1
-#: ../../../../None:16:<autosummary>:1
+#: ../../../../None:17:<autosummary>:1
 msgid "This method disables an associative CAD connection using parameters."
 msgstr ""
 
-#: ../../../../None:16:<autosummary>:1
+#: ../../../../None:17:<autosummary>:1
 msgid ":py:obj:`printToFile <abaqus.Session.SessionBase.SessionBase.printToFile>`\\ \\(fileName\\[\\, format\\, ...\\]\\)"
 msgstr ""
 
 #: ../../../../../src/abaqus/Session/SessionBase.py:docstring of abaqus.Session.SessionBase.SessionBase.printToFile:1
-#: ../../../../None:16:<autosummary>:1
+#: ../../../../None:17:<autosummary>:1
 msgid "This method prints canvas objects to a file using the attributes stored in the PrintOptions object and the appropriate format options object."
 msgstr ""
 
-#: ../../../../None:16:<autosummary>:1
+#: ../../../../None:17:<autosummary>:1
 msgid ":py:obj:`printToPrinter <abaqus.Session.SessionBase.SessionBase.printToPrinter>`\\ \\(\\[printCommand\\, numCopies\\, ...\\]\\)"
 msgstr ""
 
-#: ../../../../None:16:<autosummary>:1
+#: ../../../../None:17:<autosummary>:1
 msgid "This method prints canvas objects to a Windows printer or to a PostScript printer."
 msgstr ""
 
-#: ../../../../None:16:<autosummary>:1
+#: ../../../../None:17:<autosummary>:1
 msgid ":py:obj:`saveOptions <abaqus.Session.SessionBase.SessionBase.saveOptions>`\\ \\(directory\\)"
 msgstr ""
 
 #: ../../../../../src/abaqus/Session/SessionBase.py:docstring of abaqus.Session.SessionBase.SessionBase.saveOptions:1
-#: ../../../../None:16:<autosummary>:1
+#: ../../../../None:17:<autosummary>:1
 msgid "This method saves your customized display settings."
 msgstr ""
 
-#: ../../../../None:16:<autosummary>:1
+#: ../../../../None:17:<autosummary>:1
 msgid ":py:obj:`writeVrmlFile <abaqus.Session.SessionBase.SessionBase.writeVrmlFile>`\\ \\(fileName\\[\\, format\\, canvasObjects\\]\\)"
 msgstr ""
 
 #: ../../../../../src/abaqus/Session/SessionBase.py:docstring of abaqus.Session.SessionBase.SessionBase.write3DXMLFile:1
 #: ../../../../../src/abaqus/Session/SessionBase.py:docstring of abaqus.Session.SessionBase.SessionBase.writeOBJFile:1
 #: ../../../../../src/abaqus/Session/SessionBase.py:docstring of abaqus.Session.SessionBase.SessionBase.writeVrmlFile:1
-#: ../../../../None:16:<autosummary>:1
+#: ../../../../None:17:<autosummary>:1
 msgid "This method exports the current viewport objects to a file."
 msgstr ""
 
-#: ../../../../None:16:<autosummary>:1
+#: ../../../../None:17:<autosummary>:1
 msgid ":py:obj:`write3DXMLFile <abaqus.Session.SessionBase.SessionBase.write3DXMLFile>`\\ \\(fileName\\[\\, format\\, canvasObjects\\]\\)"
 msgstr ""
 
-#: ../../../../None:16:<autosummary>:1
+#: ../../../../None:17:<autosummary>:1
 msgid ":py:obj:`writeOBJFile <abaqus.Session.SessionBase.SessionBase.writeOBJFile>`\\ \\(fileName\\[\\, canvasObjects\\]\\)"
 msgstr ""
 
@@ -1125,35 +1135,7 @@ msgstr ""
 msgid "Check `AutoColors.setValues on help.3ds.com/2023 <https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-autocolorspyc.htm?contextscope=all#simaker-autocolorssetvaluespyc>`__."
 msgstr ""
 
-#: ../../../../../src/abaqus/Session/AutoColors.py:docstring of abaqus.Session.AutoColors.AutoColors.setValues:0
-#: ../../../../../src/abaqus/Session/Color.py:docstring of abaqus.Session.Color.Color.setByRGB:0
-#: ../../../../../src/abaqus/Session/Drawing.py:docstring of abaqus.Session.Drawing.Drawing.addArrayDraw:0
-#: ../../../../../src/abaqus/Session/Drawing.py:docstring of abaqus.Session.Drawing.Drawing.addIndexDraw:0
-#: ../../../../../src/abaqus/Session/Drawing.py:docstring of abaqus.Session.Drawing.Drawing.setColors:0
-#: ../../../../../src/abaqus/Session/Drawing.py:docstring of abaqus.Session.Drawing.Drawing.setEdgeColor:0
-#: ../../../../../src/abaqus/Session/Drawing.py:docstring of abaqus.Session.Drawing.Drawing.setNormals:0
-#: ../../../../../src/abaqus/Session/Drawing.py:docstring of abaqus.Session.Drawing.Drawing.setPointColor:0
-#: ../../../../../src/abaqus/Session/Drawing.py:docstring of abaqus.Session.Drawing.Drawing.setValues:0
-#: ../../../../../src/abaqus/Session/Drawing.py:docstring of abaqus.Session.Drawing.Drawing.setVertices:0
-#: ../../../../../src/abaqus/Session/Image.py:docstring of abaqus.Session.Image.Image.ImageFromMovie:0
-#: ../../../../../src/abaqus/Session/JournalOptions.py:docstring of abaqus.Session.JournalOptions.JournalOptions.NumberFormat:0
-#: ../../../../../src/abaqus/Session/JournalOptions.py:docstring of abaqus.Session.JournalOptions.JournalOptions.setValues:0
-#: ../../../../../src/abaqus/Session/MemoryReductionOptions.py:docstring of abaqus.Session.MemoryReductionOptions.MemoryReductionOptions.setValues:0
-#: ../../../../../src/abaqus/Session/NetworkDatabaseConnector.py:docstring of abaqus.Session.NetworkDatabaseConnector.NetworkDatabaseConnector.setValues:0
-#: ../../../../../src/abaqus/Session/NetworkDatabaseConnector.py:docstring of abaqus.Session.NetworkDatabaseConnector.NetworkDatabaseConnector.start:0
-#: ../../../../../src/abaqus/Session/SessionBase.py:docstring of abaqus.Session.SessionBase.SessionBase.disableCADConnection:0
-#: ../../../../../src/abaqus/Session/SessionBase.py:docstring of abaqus.Session.SessionBase.SessionBase.disableParameterUpdate:0
-#: ../../../../../src/abaqus/Session/SessionBase.py:docstring of abaqus.Session.SessionBase.SessionBase.enableCADConnection:0
-#: ../../../../../src/abaqus/Session/SessionBase.py:docstring of abaqus.Session.SessionBase.SessionBase.enableParameterUpdate:0
-#: ../../../../../src/abaqus/Session/SessionBase.py:docstring of abaqus.Session.SessionBase.SessionBase.printToFile:0
-#: ../../../../../src/abaqus/Session/SessionBase.py:docstring of abaqus.Session.SessionBase.SessionBase.printToPrinter:0
-#: ../../../../../src/abaqus/Session/SessionBase.py:docstring of abaqus.Session.SessionBase.SessionBase.saveOptions:0
-#: ../../../../../src/abaqus/Session/SessionBase.py:docstring of abaqus.Session.SessionBase.SessionBase.setCADPortNumber:0
-#: ../../../../../src/abaqus/Session/SessionBase.py:docstring of abaqus.Session.SessionBase.SessionBase.setValues:0
-#: ../../../../../src/abaqus/Session/SessionBase.py:docstring of abaqus.Session.SessionBase.SessionBase.updateCADParameters:0
-#: ../../../../../src/abaqus/Session/SessionBase.py:docstring of abaqus.Session.SessionBase.SessionBase.write3DXMLFile:0
-#: ../../../../../src/abaqus/Session/SessionBase.py:docstring of abaqus.Session.SessionBase.SessionBase.writeOBJFile:0
-#: ../../../../../src/abaqus/Session/SessionBase.py:docstring of abaqus.Session.SessionBase.SessionBase.writeVrmlFile:0
+#: ../../../reference/session/index.md:0
 msgid "Parameters"
 msgstr ""
 
@@ -1224,15 +1206,7 @@ msgstr ""
 msgid "A SymbolicConstant specifying how polygonal graphics primitives will be rendered by this command. Possible values are FILL, EDGES, and POINTS. The default value is FILL."
 msgstr ""
 
-#: ../../../../../src/abaqus/Session/Drawing.py:docstring of abaqus.Session.Drawing.Drawing.addArrayDraw:0
-#: ../../../../../src/abaqus/Session/Drawing.py:docstring of abaqus.Session.Drawing.Drawing.addIndexDraw:0
-#: ../../../../../src/abaqus/Session/Drawing.py:docstring of abaqus.Session.Drawing.Drawing.setColors:0
-#: ../../../../../src/abaqus/Session/Drawing.py:docstring of abaqus.Session.Drawing.Drawing.setNormals:0
-#: ../../../../../src/abaqus/Session/Drawing.py:docstring of abaqus.Session.Drawing.Drawing.setVertices:0
-#: ../../../../../src/abaqus/Session/Image.py:docstring of abaqus.Session.Image.Image.ImageFromMovie:0
-#: ../../../../../src/abaqus/Session/JournalOptions.py:docstring of abaqus.Session.JournalOptions.JournalOptions.NumberFormat:0
-#: ../../../../../src/abaqus/Session/SessionBase.py:docstring of abaqus.Session.SessionBase.SessionBase.enableCADConnection:0
-#: ../../../../../src/abaqus/Session/SessionBase.py:docstring of abaqus.Session.SessionBase.SessionBase.isCADConnectionEnabled:0
+#: ../../../reference/session/index.md:0
 msgid "Returns"
 msgstr ""
 
@@ -1241,15 +1215,7 @@ msgstr ""
 msgid "The total number of rendering commands that have been specified."
 msgstr ""
 
-#: ../../../../../src/abaqus/Session/Drawing.py:docstring of abaqus.Session.Drawing.Drawing.addArrayDraw:0
-#: ../../../../../src/abaqus/Session/Drawing.py:docstring of abaqus.Session.Drawing.Drawing.addIndexDraw:0
-#: ../../../../../src/abaqus/Session/Drawing.py:docstring of abaqus.Session.Drawing.Drawing.setColors:0
-#: ../../../../../src/abaqus/Session/Drawing.py:docstring of abaqus.Session.Drawing.Drawing.setNormals:0
-#: ../../../../../src/abaqus/Session/Drawing.py:docstring of abaqus.Session.Drawing.Drawing.setVertices:0
-#: ../../../../../src/abaqus/Session/Image.py:docstring of abaqus.Session.Image.Image.ImageFromMovie:0
-#: ../../../../../src/abaqus/Session/JournalOptions.py:docstring of abaqus.Session.JournalOptions.JournalOptions.NumberFormat:0
-#: ../../../../../src/abaqus/Session/SessionBase.py:docstring of abaqus.Session.SessionBase.SessionBase.enableCADConnection:0
-#: ../../../../../src/abaqus/Session/SessionBase.py:docstring of abaqus.Session.SessionBase.SessionBase.isCADConnectionEnabled:0
+#: ../../../reference/session/index.md:0
 msgid "Return type"
 msgstr ""
 
@@ -1262,16 +1228,7 @@ msgstr ""
 msgid ":class:`int`"
 msgstr ""
 
-#: ../../../../../src/abaqus/Session/Drawing.py:docstring of abaqus.Session.Drawing.Drawing.addArrayDraw:0
-#: ../../../../../src/abaqus/Session/Drawing.py:docstring of abaqus.Session.Drawing.Drawing.addIndexDraw:0
-#: ../../../../../src/abaqus/Session/Drawing.py:docstring of abaqus.Session.Drawing.Drawing.setColors:0
-#: ../../../../../src/abaqus/Session/Drawing.py:docstring of abaqus.Session.Drawing.Drawing.setEdgeColor:0
-#: ../../../../../src/abaqus/Session/Drawing.py:docstring of abaqus.Session.Drawing.Drawing.setNormals:0
-#: ../../../../../src/abaqus/Session/Drawing.py:docstring of abaqus.Session.Drawing.Drawing.setPointColor:0
-#: ../../../../../src/abaqus/Session/Drawing.py:docstring of abaqus.Session.Drawing.Drawing.setValues:0
-#: ../../../../../src/abaqus/Session/Drawing.py:docstring of abaqus.Session.Drawing.Drawing.setVertices:0
-#: ../../../../../src/abaqus/Session/Image.py:docstring of abaqus.Session.Image.Image.ImageFromMovie:0
-#: ../../../../../src/abaqus/Session/SessionBase.py:docstring of abaqus.Session.SessionBase.SessionBase.printToPrinter:0
+#: ../../../reference/session/index.md:0
 msgid "Raises"
 msgstr ""
 
@@ -1598,6 +1555,7 @@ msgid "This method creates a NumberFormat object."
 msgstr ""
 
 #: ../../../../../src/abaqus/Session/JournalOptions.py:docstring of abaqus.Session.JournalOptions.JournalOptions.NumberFormat:4
+#: ../../../../../src/abaqus/Session/SessionBase.py:docstring of abaqus.Session.SessionBase.SessionBase.View:5
 msgid "This function can be accessed by::"
 msgstr ""
 
@@ -1784,6 +1742,74 @@ msgstr ""
 
 #: ../../../../../src/abaqus/Session/SessionBase.py:docstring of abaqus.Session.SessionBase.SessionBase:9
 msgid "Check `SessionBase on help.3ds.com/2023 <https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-sessionpyc.htm?contextscope=all>`__."
+msgstr ""
+
+#: ../../../../../src/abaqus/Session/SessionBase.py:docstring of abaqus.Session.SessionBase.SessionBase.View:1
+msgid "This method creates a View object. Note:All dimensions and coordinates are specified in the model coordinate system. Note:This method cannot be used to create a View for a Layer object."
+msgstr ""
+
+#: ../../../../../src/abaqus/Session/SessionBase.py:docstring of abaqus.Session.SessionBase.SessionBase.View:10
+msgid "Check `View on help.3ds.com/2023 <https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-viewpyc.htm?contextscope=all>`__."
+msgstr ""
+
+#: ../../../../../src/abaqus/Session/SessionBase.py:docstring of abaqus.Session.SessionBase.SessionBase.View:13
+msgid "A String specifying the name of the view (also used as the repository key). Possible values are 'Front', 'Back', 'Top', 'Bottom', 'Left', 'Right', 'Iso', 'User-1', 'User-2', 'User-3', and 'User-4'. The object member associated with this argument is a SymbolicConstant. Possible values of the **name** member are:FRONT, BACK, TOP, BOTTOM, LEFT, RIGHT, ISO, USER1, USER2, USER3, and USER4."
+msgstr ""
+
+#: ../../../../../src/abaqus/Session/SessionBase.py:docstring of abaqus.Session.SessionBase.SessionBase.View:19
+msgid "A Float specifying the distance from the camera to the near clipping plane. Possible values are **nearPlane** > 0.0."
+msgstr ""
+
+#: ../../../../../src/abaqus/Session/SessionBase.py:docstring of abaqus.Session.SessionBase.SessionBase.View:22
+msgid "A Float specifying the distance from the camera to the far clipping plane when **farPlaneMode** =SPECIFY. Possible values are **farPlane** > **nearPlane**."
+msgstr ""
+
+#: ../../../../../src/abaqus/Session/SessionBase.py:docstring of abaqus.Session.SessionBase.SessionBase.View:25
+msgid "A Float specifying the width of the front clipping plane. Possible values are **width** > 0.0."
+msgstr ""
+
+#: ../../../../../src/abaqus/Session/SessionBase.py:docstring of abaqus.Session.SessionBase.SessionBase.View:28
+msgid "A Float specifying the height of the front clipping plane. Possible values are **height** > 0.0."
+msgstr ""
+
+#: ../../../../../src/abaqus/Session/SessionBase.py:docstring of abaqus.Session.SessionBase.SessionBase.View:31
+msgid "A SymbolicConstant specifying the projection mode. Possible values are PERSPECTIVE and PARALLEL."
+msgstr ""
+
+#: ../../../../../src/abaqus/Session/SessionBase.py:docstring of abaqus.Session.SessionBase.SessionBase.View:34
+msgid "A sequence of three Floats specifying the camera position."
+msgstr ""
+
+#: ../../../../../src/abaqus/Session/SessionBase.py:docstring of abaqus.Session.SessionBase.SessionBase.View:36
+msgid "A sequence of three Floats specifying the camera's up vector (the screen's positive **Y** axis). The initial value is (0, 0, 0)."
+msgstr ""
+
+#: ../../../../../src/abaqus/Session/SessionBase.py:docstring of abaqus.Session.SessionBase.SessionBase.View:39
+msgid "A sequence of three Floats specifying the center of the scene."
+msgstr ""
+
+#: ../../../../../src/abaqus/Session/SessionBase.py:docstring of abaqus.Session.SessionBase.SessionBase.View:41
+msgid "A Float specifying the amount to pan the model in the screen **X** direction as a fraction of the viewport width. A positive value pans the model to the right. A negative value pans the model to the left. The *viewOffsetX* and **viewOffsetY** arguments allow you to pan the view without changing the position of the camera or the target (*cameraPosition* and **cameraTarget** arguments to the View method). The resulting change in the view allows you to pan a perspective display without producing an apparent rotation of the model."
+msgstr ""
+
+#: ../../../../../src/abaqus/Session/SessionBase.py:docstring of abaqus.Session.SessionBase.SessionBase.View:48
+msgid "A Float specifying the amount to pan the model in the screen **Y** direction as a fraction of the viewport height. A positive value pans the model upward. A negative value pans the model downward."
+msgstr ""
+
+#: ../../../../../src/abaqus/Session/SessionBase.py:docstring of abaqus.Session.SessionBase.SessionBase.View:52
+msgid "A Boolean specifying whether the view is auto-fit when applied."
+msgstr ""
+
+#: ../../../../../src/abaqus/Session/SessionBase.py:docstring of abaqus.Session.SessionBase.SessionBase.View:54
+msgid "A Boolean specifying whether or not the camera is in movie mode. The default value is OFF."
+msgstr ""
+
+#: ../../../../../src/abaqus/Session/SessionBase.py:docstring of abaqus.Session.SessionBase.SessionBase.View:57
+msgid "A View object."
+msgstr ""
+
+#: ../../../../../src/abaqus/Session/SessionBase.py:docstring of abaqus.Session.SessionBase.SessionBase.View:58
+msgid ":class:`View`"
 msgstr ""
 
 #: ../../../../../src/abaqus/Session/SessionBase.py:docstring of abaqus.Session.SessionBase.SessionBase.disableCADConnection:4

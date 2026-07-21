@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: abqpy 2023\n"
+"Project-Id-Version: abqpy 2023.11\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-06 02:35+0000\n"
+"POT-Creation-Date: 2026-07-21 09:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -56,7 +56,7 @@ msgstr ""
 msgid "Check `InputFile on help.3ds.com/2023 <https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-inputfilepyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: ../../../../../src/abaqus/InputFileParser/InputFile.py:docstring of abaqus.InputFileParser.InputFile.InputFile:0
+#: ../../../reference/kernel/input.md:0
 msgid "Public Data Attributes:"
 msgstr ""
 
@@ -96,7 +96,7 @@ msgstr ""
 msgid "A sequence of Strings for input files included in the specified input file that could not be located."
 msgstr ""
 
-#: ../../../../../src/abaqus/InputFileParser/InputFile.py:docstring of abaqus.InputFileParser.InputFile.InputFile:0
+#: ../../../reference/kernel/input.md:0
 msgid "Public Methods:"
 msgstr ""
 
@@ -127,7 +127,7 @@ msgstr ""
 msgid "Check `InputFile.parse on help.3ds.com/2023 <https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-inputfilepyc.htm?contextscope=all#simaker-inputfileparsepyc>`__."
 msgstr ""
 
-#: ../../../../../src/abaqus/InputFileParser/InputFile.py:docstring of abaqus.InputFileParser.InputFile.InputFile.parse:0
+#: ../../../reference/kernel/input.md:0
 msgid "Parameters"
 msgstr ""
 
@@ -147,7 +147,7 @@ msgstr ""
 msgid "A Boolean specifying that parse method can return an AbaqusNDarray object for a keyword data value. In cases where large amounts of numerical data (i.e., large node arrays) are expected, it is recommended that you use the option usePyArray=True. The default is False."
 msgstr ""
 
-#: ../../../../../src/abaqus/InputFileParser/InputFile.py:docstring of abaqus.InputFileParser.InputFile.InputFile.parse:0
+#: ../../../reference/kernel/input.md:0
 msgid "Returns"
 msgstr ""
 
@@ -155,7 +155,7 @@ msgstr ""
 msgid "A KeywordSequence object."
 msgstr ""
 
-#: ../../../../../src/abaqus/InputFileParser/InputFile.py:docstring of abaqus.InputFileParser.InputFile.InputFile.parse:0
+#: ../../../reference/kernel/input.md:0
 msgid "Return type"
 msgstr ""
 
@@ -163,7 +163,7 @@ msgstr ""
 msgid ":class:`KeywordSequence`"
 msgstr ""
 
-#: ../../../../../src/abaqus/InputFileParser/InputFile.py:docstring of abaqus.InputFileParser.InputFile.InputFile.parse:0
+#: ../../../reference/kernel/input.md:0
 msgid "Raises"
 msgstr ""
 

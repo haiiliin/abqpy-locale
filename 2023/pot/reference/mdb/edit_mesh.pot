@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: abqpy 2023\n"
+"Project-Id-Version: abqpy 2023.11\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-06 02:35+0000\n"
+"POT-Creation-Date: 2026-07-21 09:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -86,8 +86,7 @@ msgstr ""
 msgid "Check `MeshEditAssembly on help.3ds.com/2023 <https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-assemblypyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: ../../../../../src/abaqus/EditMesh/MeshEditAssembly.py:docstring of abaqus.EditMesh.MeshEditAssembly.MeshEditAssembly:0
-#: ../../../../../src/abaqus/EditMesh/MeshEditPart.py:docstring of abaqus.EditMesh.MeshEditPart.MeshEditPart:0
+#: ../../../reference/mdb/edit_mesh.md:0
 msgid "Public Data Attributes:"
 msgstr ""
 
@@ -334,8 +333,7 @@ msgstr ""
 msgid ":py:obj:`id <abaqus.Feature.Feature.Feature.id>`\\"
 msgstr ""
 
-#: ../../../../../src/abaqus/EditMesh/MeshEditAssembly.py:docstring of abaqus.EditMesh.MeshEditAssembly.MeshEditAssembly:0
-#: ../../../../../src/abaqus/EditMesh/MeshEditPart.py:docstring of abaqus.EditMesh.MeshEditPart.MeshEditPart:0
+#: ../../../reference/mdb/edit_mesh.md:0
 msgid "Public Methods:"
 msgstr ""
 
@@ -1401,36 +1399,7 @@ msgstr ""
 msgid "Check `MeshEditAssembly.collapseMeshEdge on help.3ds.com/2023 <https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-assemblypyc.htm?contextscope=all#simaker-assemblycollapsemeshedgepyc>`__."
 msgstr ""
 
-#: ../../../../../src/abaqus/EditMesh/MeshEditAssembly.py:docstring of abaqus.EditMesh.MeshEditAssembly.MeshEditAssembly.collapseMeshEdge:0
-#: ../../../../../src/abaqus/EditMesh/MeshEditAssembly.py:docstring of abaqus.EditMesh.MeshEditAssembly.MeshEditAssembly.combineElement:0
-#: ../../../../../src/abaqus/EditMesh/MeshEditAssembly.py:docstring of abaqus.EditMesh.MeshEditAssembly.MeshEditAssembly.deleteElement:0
-#: ../../../../../src/abaqus/EditMesh/MeshEditAssembly.py:docstring of abaqus.EditMesh.MeshEditAssembly.MeshEditAssembly.editNode:0
-#: ../../../../../src/abaqus/EditMesh/MeshEditAssembly.py:docstring of abaqus.EditMesh.MeshEditAssembly.MeshEditAssembly.generateMeshByOffset:0
-#: ../../../../../src/abaqus/EditMesh/MeshEditAssembly.py:docstring of abaqus.EditMesh.MeshEditAssembly.MeshEditAssembly.projectNode:0
-#: ../../../../../src/abaqus/EditMesh/MeshEditAssembly.py:docstring of abaqus.EditMesh.MeshEditAssembly.MeshEditAssembly.splitElement:0
-#: ../../../../../src/abaqus/EditMesh/MeshEditAssembly.py:docstring of abaqus.EditMesh.MeshEditAssembly.MeshEditAssembly.splitMeshEdge:0
-#: ../../../../../src/abaqus/EditMesh/MeshEditAssembly.py:docstring of abaqus.EditMesh.MeshEditAssembly.MeshEditAssembly.swapMeshEdge:0
-#: ../../../../../src/abaqus/EditMesh/MeshEditOptions.py:docstring of abaqus.EditMesh.MeshEditOptions.MeshEditOptions.setValues:0
-#: ../../../../../src/abaqus/EditMesh/MeshEditPart.py:docstring of abaqus.EditMesh.MeshEditPart.MeshEditPart.adjustMidsideNode:0
-#: ../../../../../src/abaqus/EditMesh/MeshEditPart.py:docstring of abaqus.EditMesh.MeshEditPart.MeshEditPart.cleanMesh:0
-#: ../../../../../src/abaqus/EditMesh/MeshEditPart.py:docstring of abaqus.EditMesh.MeshEditPart.MeshEditPart.collapseMeshEdge:0
-#: ../../../../../src/abaqus/EditMesh/MeshEditPart.py:docstring of abaqus.EditMesh.MeshEditPart.MeshEditPart.combineElement:0
-#: ../../../../../src/abaqus/EditMesh/MeshEditPart.py:docstring of abaqus.EditMesh.MeshEditPart.MeshEditPart.deleteElement:0
-#: ../../../../../src/abaqus/EditMesh/MeshEditPart.py:docstring of abaqus.EditMesh.MeshEditPart.MeshEditPart.deleteNode:0
-#: ../../../../../src/abaqus/EditMesh/MeshEditPart.py:docstring of abaqus.EditMesh.MeshEditPart.MeshEditPart.editNode:0
-#: ../../../../../src/abaqus/EditMesh/MeshEditPart.py:docstring of abaqus.EditMesh.MeshEditPart.MeshEditPart.generateMesh:0
-#: ../../../../../src/abaqus/EditMesh/MeshEditPart.py:docstring of abaqus.EditMesh.MeshEditPart.MeshEditPart.generateMeshByOffset:0
-#: ../../../../../src/abaqus/EditMesh/MeshEditPart.py:docstring of abaqus.EditMesh.MeshEditPart.MeshEditPart.mergeElement:0
-#: ../../../../../src/abaqus/EditMesh/MeshEditPart.py:docstring of abaqus.EditMesh.MeshEditPart.MeshEditPart.orientElements:0
-#: ../../../../../src/abaqus/EditMesh/MeshEditPart.py:docstring of abaqus.EditMesh.MeshEditPart.MeshEditPart.projectNode:0
-#: ../../../../../src/abaqus/EditMesh/MeshEditPart.py:docstring of abaqus.EditMesh.MeshEditPart.MeshEditPart.renumberElement:0
-#: ../../../../../src/abaqus/EditMesh/MeshEditPart.py:docstring of abaqus.EditMesh.MeshEditPart.MeshEditPart.renumberNode:0
-#: ../../../../../src/abaqus/EditMesh/MeshEditPart.py:docstring of abaqus.EditMesh.MeshEditPart.MeshEditPart.setElementSize:0
-#: ../../../../../src/abaqus/EditMesh/MeshEditPart.py:docstring of abaqus.EditMesh.MeshEditPart.MeshEditPart.splitElement:0
-#: ../../../../../src/abaqus/EditMesh/MeshEditPart.py:docstring of abaqus.EditMesh.MeshEditPart.MeshEditPart.splitMeshEdge:0
-#: ../../../../../src/abaqus/EditMesh/MeshEditPart.py:docstring of abaqus.EditMesh.MeshEditPart.MeshEditPart.subdivideElement:0
-#: ../../../../../src/abaqus/EditMesh/MeshEditPart.py:docstring of abaqus.EditMesh.MeshEditPart.MeshEditPart.swapMeshEdge:0
-#: ../../../../../src/abaqus/EditMesh/MeshEditPart.py:docstring of abaqus.EditMesh.MeshEditPart.MeshEditPart.wrapMesh:0
+#: ../../../reference/mdb/edit_mesh.md:0
 msgid "Parameters"
 msgstr ""
 
@@ -1526,10 +1495,7 @@ msgstr ""
 msgid "A Boolean specifying whether to project nodes back to their original geometry. For example, if a node is on a face, this method first positions the node at the new location and then projects it back to the original face. The default value is ON."
 msgstr ""
 
-#: ../../../../../src/abaqus/EditMesh/MeshEditAssembly.py:docstring of abaqus.EditMesh.MeshEditAssembly.MeshEditAssembly.editNode:0
-#: ../../../../../src/abaqus/EditMesh/MeshEditPart.py:docstring of abaqus.EditMesh.MeshEditPart.MeshEditPart.editNode:0
-#: ../../../../../src/abaqus/EditMesh/MeshEditPart.py:docstring of abaqus.EditMesh.MeshEditPart.MeshEditPart.renumberElement:0
-#: ../../../../../src/abaqus/EditMesh/MeshEditPart.py:docstring of abaqus.EditMesh.MeshEditPart.MeshEditPart.renumberNode:0
+#: ../../../reference/mdb/edit_mesh.md:0
 msgid "Raises"
 msgstr ""
 
@@ -2936,7 +2902,7 @@ msgid "This method replaces the selected faces with a single face."
 msgstr ""
 
 #: ../../../../None:59:<autosummary>:1
-msgid ":py:obj:`Round <abaqus.Part.PartFeature.PartFeature.Round>`\\ \\(radius\\, edgeList\\, vertexList\\)"
+msgid ":py:obj:`Round <abaqus.Part.PartFeature.PartFeature.Round>`\\ \\(radius\\[\\, edgeList\\, vertexList\\]\\)"
 msgstr ""
 
 #: ../../../../None:59:<autosummary>:1

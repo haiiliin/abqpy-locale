@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: abqpy 2023\n"
+"Project-Id-Version: abqpy 2023.11\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-14 01:53+0000\n"
+"POT-Creation-Date: 2026-07-21 09:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -32,7 +32,7 @@ msgstr ""
 msgid "Bases: :py:class:`~abaqus.XY.XYSessionBase.XYSessionBase`"
 msgstr ""
 
-#: ../../../../../src/abaqus/XY/XYSession.py:docstring of abaqus.XY.XYSession.XYSession:0
+#: ../../../reference/session/xy.md:0
 msgid "Public Data Attributes:"
 msgstr ""
 
@@ -574,7 +574,7 @@ msgstr ""
 msgid "A repository of Drawing objects."
 msgstr ""
 
-#: ../../../../../src/abaqus/XY/XYSession.py:docstring of abaqus.XY.XYSession.XYSession:0
+#: ../../../reference/session/xy.md:0
 msgid "Public Methods:"
 msgstr ""
 
@@ -742,107 +742,115 @@ msgstr ""
 msgid "This method is used to get the **limit** for number of XY data objects while creating XYData from field output."
 msgstr ""
 
-#: ../../../../None:16:<autosummary>:1
+#: ../../../../None:17:<autosummary>:1
+msgid ":py:obj:`View <abaqus.Session.SessionBase.SessionBase.View>`\\ \\(name\\, nearPlane\\, farPlane\\, width\\, ...\\)"
+msgstr ""
+
+#: ../../../../None:17:<autosummary>:1
+msgid "This method creates a View object."
+msgstr ""
+
+#: ../../../../None:17:<autosummary>:1
 msgid ":py:obj:`setValues <abaqus.Session.SessionBase.SessionBase.setValues>`\\ \\(\\[kernelMemoryLimit\\]\\)"
 msgstr ""
 
-#: ../../../../None:16:<autosummary>:1
+#: ../../../../None:17:<autosummary>:1
 msgid "This method modifies the Session object."
 msgstr ""
 
-#: ../../../../None:16:<autosummary>:1
+#: ../../../../None:17:<autosummary>:1
 msgid ":py:obj:`enableCADConnection <abaqus.Session.SessionBase.SessionBase.enableCADConnection>`\\ \\(CADName\\[\\, portNum\\]\\)"
 msgstr ""
 
-#: ../../../../None:16:<autosummary>:1
+#: ../../../../None:17:<autosummary>:1
 msgid "This method enables the Abaqus/CAE listening port for the specified **CAD** system."
 msgstr ""
 
-#: ../../../../None:16:<autosummary>:1
+#: ../../../../None:17:<autosummary>:1
 msgid ":py:obj:`isCADConnectionEnabled <abaqus.Session.SessionBase.SessionBase.isCADConnectionEnabled>`\\ \\(\\)"
 msgstr ""
 
-#: ../../../../None:16:<autosummary>:1
+#: ../../../../None:17:<autosummary>:1
 msgid "This method checks the status of CAD Connection."
 msgstr ""
 
-#: ../../../../None:16:<autosummary>:1
+#: ../../../../None:17:<autosummary>:1
 msgid ":py:obj:`disableCADConnection <abaqus.Session.SessionBase.SessionBase.disableCADConnection>`\\ \\(CADName\\)"
 msgstr ""
 
-#: ../../../../None:16:<autosummary>:1
+#: ../../../../None:17:<autosummary>:1
 msgid "This method disables an associative import CAD connection that was enabled."
 msgstr ""
 
-#: ../../../../None:16:<autosummary>:1
+#: ../../../../None:17:<autosummary>:1
 msgid ":py:obj:`enableParameterUpdate <abaqus.Session.SessionBase.SessionBase.enableParameterUpdate>`\\ \\(CADName\\, CADVersion\\[\\, ...\\]\\)"
 msgstr ""
 
-#: ../../../../None:16:<autosummary>:1
+#: ../../../../None:17:<autosummary>:1
 msgid "This method enables parameter updates for ProE and NX by establishing a connection with the listening port previously setup by the CAD application."
 msgstr ""
 
-#: ../../../../None:16:<autosummary>:1
+#: ../../../../None:17:<autosummary>:1
 msgid ":py:obj:`setCADPortNumber <abaqus.Session.SessionBase.SessionBase.setCADPortNumber>`\\ \\(CADName\\, Port\\)"
 msgstr ""
 
-#: ../../../../None:16:<autosummary>:1
+#: ../../../../None:17:<autosummary>:1
 msgid "This method enables parameter updates for CATIA V5 and CATIA V6 by establishing a connection with the listening port previously setup by the CAD application."
 msgstr ""
 
-#: ../../../../None:16:<autosummary>:1
+#: ../../../../None:17:<autosummary>:1
 msgid ":py:obj:`updateCADParameters <abaqus.Session.SessionBase.SessionBase.updateCADParameters>`\\ \\(modelName\\, CADName\\, ...\\)"
 msgstr ""
 
-#: ../../../../None:16:<autosummary>:1
+#: ../../../../None:17:<autosummary>:1
 msgid "This method updates the parameters for the specified model using the specified parameter file."
 msgstr ""
 
-#: ../../../../None:16:<autosummary>:1
+#: ../../../../None:17:<autosummary>:1
 msgid ":py:obj:`disableParameterUpdate <abaqus.Session.SessionBase.SessionBase.disableParameterUpdate>`\\ \\(CADName\\)"
 msgstr ""
 
-#: ../../../../None:16:<autosummary>:1
+#: ../../../../None:17:<autosummary>:1
 msgid "This method disables an associative CAD connection using parameters."
 msgstr ""
 
-#: ../../../../None:16:<autosummary>:1
+#: ../../../../None:17:<autosummary>:1
 msgid ":py:obj:`printToFile <abaqus.Session.SessionBase.SessionBase.printToFile>`\\ \\(fileName\\[\\, format\\, ...\\]\\)"
 msgstr ""
 
-#: ../../../../None:16:<autosummary>:1
+#: ../../../../None:17:<autosummary>:1
 msgid "This method prints canvas objects to a file using the attributes stored in the PrintOptions object and the appropriate format options object."
 msgstr ""
 
-#: ../../../../None:16:<autosummary>:1
+#: ../../../../None:17:<autosummary>:1
 msgid ":py:obj:`printToPrinter <abaqus.Session.SessionBase.SessionBase.printToPrinter>`\\ \\(\\[printCommand\\, numCopies\\, ...\\]\\)"
 msgstr ""
 
-#: ../../../../None:16:<autosummary>:1
+#: ../../../../None:17:<autosummary>:1
 msgid "This method prints canvas objects to a Windows printer or to a PostScript printer."
 msgstr ""
 
-#: ../../../../None:16:<autosummary>:1
+#: ../../../../None:17:<autosummary>:1
 msgid ":py:obj:`saveOptions <abaqus.Session.SessionBase.SessionBase.saveOptions>`\\ \\(directory\\)"
 msgstr ""
 
-#: ../../../../None:16:<autosummary>:1
+#: ../../../../None:17:<autosummary>:1
 msgid "This method saves your customized display settings."
 msgstr ""
 
-#: ../../../../None:16:<autosummary>:1
+#: ../../../../None:17:<autosummary>:1
 msgid ":py:obj:`writeVrmlFile <abaqus.Session.SessionBase.SessionBase.writeVrmlFile>`\\ \\(fileName\\[\\, format\\, canvasObjects\\]\\)"
 msgstr ""
 
-#: ../../../../None:16:<autosummary>:1
+#: ../../../../None:17:<autosummary>:1
 msgid "This method exports the current viewport objects to a file."
 msgstr ""
 
-#: ../../../../None:16:<autosummary>:1
+#: ../../../../None:17:<autosummary>:1
 msgid ":py:obj:`write3DXMLFile <abaqus.Session.SessionBase.SessionBase.write3DXMLFile>`\\ \\(fileName\\[\\, format\\, canvasObjects\\]\\)"
 msgstr ""
 
-#: ../../../../None:16:<autosummary>:1
+#: ../../../../None:17:<autosummary>:1
 msgid ":py:obj:`writeOBJFile <abaqus.Session.SessionBase.SessionBase.writeOBJFile>`\\ \\(fileName\\[\\, canvasObjects\\]\\)"
 msgstr ""
 
@@ -1032,63 +1040,7 @@ msgstr ""
 msgid "Check `AreaStyle on help.3ds.com/2023 <https://help.3ds.com/2023/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-areastylepyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: ../../../../../src/abaqus/XY/Area.py:docstring of abaqus.XY.Area.Area.setValues:0
-#: ../../../../../src/abaqus/XY/AreaStyle.py:docstring of abaqus.XY.AreaStyle.AreaStyle.setValues:0
-#: ../../../../../src/abaqus/XY/Axis.py:docstring of abaqus.XY.Axis.Axis.setValues:0
-#: ../../../../../src/abaqus/XY/AxisData.py:docstring of abaqus.XY.AxisData.AxisData.setValues:0
-#: ../../../../../src/abaqus/XY/Chart.py:docstring of abaqus.XY.Chart.Chart.autoColor:0
-#: ../../../../../src/abaqus/XY/Chart.py:docstring of abaqus.XY.Chart.Chart.getAxis1:0
-#: ../../../../../src/abaqus/XY/Chart.py:docstring of abaqus.XY.Chart.Chart.getAxis2:0
-#: ../../../../../src/abaqus/XY/Chart.py:docstring of abaqus.XY.Chart.Chart.moveAxisDown:0
-#: ../../../../../src/abaqus/XY/Chart.py:docstring of abaqus.XY.Chart.Chart.moveAxisUp:0
-#: ../../../../../src/abaqus/XY/Chart.py:docstring of abaqus.XY.Chart.Chart.removeCurve:0
-#: ../../../../../src/abaqus/XY/Chart.py:docstring of abaqus.XY.Chart.Chart.setValues:0
-#: ../../../../../src/abaqus/XY/DefaultChartOptions.py:docstring of abaqus.XY.DefaultChartOptions.DefaultChartOptions.setValues:0
-#: ../../../../../src/abaqus/XY/Legend.py:docstring of abaqus.XY.Legend.Legend.setValues:0
-#: ../../../../../src/abaqus/XY/LineStyle.py:docstring of abaqus.XY.LineStyle.LineStyle.setValues:0
-#: ../../../../../src/abaqus/XY/SymbolStyle.py:docstring of abaqus.XY.SymbolStyle.SymbolStyle.setValues:0
-#: ../../../../../src/abaqus/XY/TextStyle.py:docstring of abaqus.XY.TextStyle.TextStyle.setValues:0
-#: ../../../../../src/abaqus/XY/Title.py:docstring of abaqus.XY.Title.Title.setValues:0
-#: ../../../../../src/abaqus/XY/XYCurve.py:docstring of abaqus.XY.XYCurve.XYCurve.Curve:0
-#: ../../../../../src/abaqus/XY/XYCurve.py:docstring of abaqus.XY.XYCurve.XYCurve.setValues:0
-#: ../../../../../src/abaqus/XY/XYData.py:docstring of abaqus.XY.XYData.XYData.XYDataFromFile:0
-#: ../../../../../src/abaqus/XY/XYData.py:docstring of abaqus.XY.XYData.XYData.XYDataFromFreeBody:0
-#: ../../../../../src/abaqus/XY/XYData.py:docstring of abaqus.XY.XYData.XYData.XYDataFromHistory:0
-#: ../../../../../src/abaqus/XY/XYData.py:docstring of abaqus.XY.XYData.XYData.XYDataFromPath:0
-#: ../../../../../src/abaqus/XY/XYData.py:docstring of abaqus.XY.XYData.XYData.XYDataFromShellThickness:0
-#: ../../../../../src/abaqus/XY/XYData.py:docstring of abaqus.XY.XYData.XYData.setValues:0
-#: ../../../../../src/abaqus/XY/XYData.py:docstring of abaqus.XY.XYData.XYData.xyDataListFromField:0
-#: ../../../../../src/abaqus/XY/XYDataCommands.py:docstring of abaqus.XY.XYDataCommands.XYDataFromFile:0
-#: ../../../../../src/abaqus/XY/XYDataCommands.py:docstring of abaqus.XY.XYDataCommands.XYDataFromFreeBody:0
-#: ../../../../../src/abaqus/XY/XYDataCommands.py:docstring of abaqus.XY.XYDataCommands.XYDataFromHistory:0
-#: ../../../../../src/abaqus/XY/XYDataCommands.py:docstring of abaqus.XY.XYDataCommands.XYDataFromPath:0
-#: ../../../../../src/abaqus/XY/XYDataCommands.py:docstring of abaqus.XY.XYDataCommands.XYDataFromShellThickness:0
-#: ../../../../../src/abaqus/XY/XYDataCommands.py:docstring of abaqus.XY.XYDataCommands.xyDataListFromField:0
-#: ../../../../../src/abaqus/XY/XYPlot.py:docstring of abaqus.XY.XYPlot.XYPlot.AreaStyle:0
-#: ../../../../../src/abaqus/XY/XYPlot.py:docstring of abaqus.XY.XYPlot.XYPlot.LineStyle:0
-#: ../../../../../src/abaqus/XY/XYPlot.py:docstring of abaqus.XY.XYPlot.XYPlot.QuantityType:0
-#: ../../../../../src/abaqus/XY/XYPlot.py:docstring of abaqus.XY.XYPlot.XYPlot.SymbolStyle:0
-#: ../../../../../src/abaqus/XY/XYPlot.py:docstring of abaqus.XY.XYPlot.XYPlot.TextStyle:0
-#: ../../../../../src/abaqus/XY/XYPlotBase.py:docstring of abaqus.XY.XYPlotBase.XYPlotBase.autoColor:0
-#: ../../../../../src/abaqus/XY/XYPlotBase.py:docstring of abaqus.XY.XYPlotBase.XYPlotBase.next:0
-#: ../../../../../src/abaqus/XY/XYPlotBase.py:docstring of abaqus.XY.XYPlotBase.XYPlotBase.previous:0
-#: ../../../../../src/abaqus/XY/XYPlotBase.py:docstring of abaqus.XY.XYPlotBase.XYPlotBase.setValues:0
-#: ../../../../../src/abaqus/XY/XYReportOptions.py:docstring of abaqus.XY.XYReportOptions.XYReportOptions.setValues:0
-#: ../../../../../src/abaqus/XY/XYSession.py:docstring of abaqus.XY.XYSession.XYSession.AreaStyle:0
-#: ../../../../../src/abaqus/XY/XYSession.py:docstring of abaqus.XY.XYSession.XYSession.LineStyle:0
-#: ../../../../../src/abaqus/XY/XYSession.py:docstring of abaqus.XY.XYSession.XYSession.QuantityType:0
-#: ../../../../../src/abaqus/XY/XYSession.py:docstring of abaqus.XY.XYSession.XYSession.SymbolStyle:0
-#: ../../../../../src/abaqus/XY/XYSession.py:docstring of abaqus.XY.XYSession.XYSession.TextStyle:0
-#: ../../../../../src/abaqus/XY/XYSession.py:docstring of abaqus.XY.XYSession.XYSession.XYDataFromFile:0
-#: ../../../../../src/abaqus/XY/XYSession.py:docstring of abaqus.XY.XYSession.XYSession.XYDataFromFreeBody:0
-#: ../../../../../src/abaqus/XY/XYSession.py:docstring of abaqus.XY.XYSession.XYSession.XYDataFromHistory:0
-#: ../../../../../src/abaqus/XY/XYSession.py:docstring of abaqus.XY.XYSession.XYSession.XYDataFromPath:0
-#: ../../../../../src/abaqus/XY/XYSession.py:docstring of abaqus.XY.XYSession.XYSession.XYDataFromShellThickness:0
-#: ../../../../../src/abaqus/XY/XYSession.py:docstring of abaqus.XY.XYSession.XYSession.xyDataListFromField:0
-#: ../../../../../src/abaqus/XY/XYSessionBase.py:docstring of abaqus.XY.XYSessionBase.XYSessionBase.linearizeStress:0
-#: ../../../../../src/abaqus/XY/XYSessionBase.py:docstring of abaqus.XY.XYSessionBase.XYSessionBase.setLimitForXYDataPlots:0
-#: ../../../../../src/abaqus/XY/XYSessionBase.py:docstring of abaqus.XY.XYSessionBase.XYSessionBase.setPathTolerance:0
-#: ../../../../../src/abaqus/XY/writeXYReport.py:docstring of abaqus.XY.writeXYReport.writeXYReport:0
+#: ../../../reference/session/xy.md:0
 msgid "Parameters"
 msgstr ""
 
@@ -1113,40 +1065,7 @@ msgstr ""
 msgid "A SymbolicConstant specifying the area pattern style to be used when filling an area using this AreaStyle. The default value is SOLID."
 msgstr ""
 
-#: ../../../../../src/abaqus/XY/Chart.py:docstring of abaqus.XY.Chart.Chart.getAxis1:0
-#: ../../../../../src/abaqus/XY/Chart.py:docstring of abaqus.XY.Chart.Chart.getAxis2:0
-#: ../../../../../src/abaqus/XY/XYCurve.py:docstring of abaqus.XY.XYCurve.XYCurve.Curve:0
-#: ../../../../../src/abaqus/XY/XYData.py:docstring of abaqus.XY.XYData.XYData.XYDataFromFile:0
-#: ../../../../../src/abaqus/XY/XYData.py:docstring of abaqus.XY.XYData.XYData.XYDataFromFreeBody:0
-#: ../../../../../src/abaqus/XY/XYData.py:docstring of abaqus.XY.XYData.XYData.XYDataFromHistory:0
-#: ../../../../../src/abaqus/XY/XYData.py:docstring of abaqus.XY.XYData.XYData.XYDataFromPath:0
-#: ../../../../../src/abaqus/XY/XYData.py:docstring of abaqus.XY.XYData.XYData.XYDataFromShellThickness:0
-#: ../../../../../src/abaqus/XY/XYData.py:docstring of abaqus.XY.XYData.XYData.xyDataListFromField:0
-#: ../../../../../src/abaqus/XY/XYDataCommands.py:docstring of abaqus.XY.XYDataCommands.XYDataFromFile:0
-#: ../../../../../src/abaqus/XY/XYDataCommands.py:docstring of abaqus.XY.XYDataCommands.XYDataFromFreeBody:0
-#: ../../../../../src/abaqus/XY/XYDataCommands.py:docstring of abaqus.XY.XYDataCommands.XYDataFromHistory:0
-#: ../../../../../src/abaqus/XY/XYDataCommands.py:docstring of abaqus.XY.XYDataCommands.XYDataFromPath:0
-#: ../../../../../src/abaqus/XY/XYDataCommands.py:docstring of abaqus.XY.XYDataCommands.XYDataFromShellThickness:0
-#: ../../../../../src/abaqus/XY/XYDataCommands.py:docstring of abaqus.XY.XYDataCommands.xyDataListFromField:0
-#: ../../../../../src/abaqus/XY/XYPlot.py:docstring of abaqus.XY.XYPlot.XYPlot.AreaStyle:0
-#: ../../../../../src/abaqus/XY/XYPlot.py:docstring of abaqus.XY.XYPlot.XYPlot.LineStyle:0
-#: ../../../../../src/abaqus/XY/XYPlot.py:docstring of abaqus.XY.XYPlot.XYPlot.QuantityType:0
-#: ../../../../../src/abaqus/XY/XYPlot.py:docstring of abaqus.XY.XYPlot.XYPlot.SymbolStyle:0
-#: ../../../../../src/abaqus/XY/XYPlot.py:docstring of abaqus.XY.XYPlot.XYPlot.TextStyle:0
-#: ../../../../../src/abaqus/XY/XYSession.py:docstring of abaqus.XY.XYSession.XYSession.AreaStyle:0
-#: ../../../../../src/abaqus/XY/XYSession.py:docstring of abaqus.XY.XYSession.XYSession.LineStyle:0
-#: ../../../../../src/abaqus/XY/XYSession.py:docstring of abaqus.XY.XYSession.XYSession.QuantityType:0
-#: ../../../../../src/abaqus/XY/XYSession.py:docstring of abaqus.XY.XYSession.XYSession.SymbolStyle:0
-#: ../../../../../src/abaqus/XY/XYSession.py:docstring of abaqus.XY.XYSession.XYSession.TextStyle:0
-#: ../../../../../src/abaqus/XY/XYSession.py:docstring of abaqus.XY.XYSession.XYSession.XYDataFromFile:0
-#: ../../../../../src/abaqus/XY/XYSession.py:docstring of abaqus.XY.XYSession.XYSession.XYDataFromFreeBody:0
-#: ../../../../../src/abaqus/XY/XYSession.py:docstring of abaqus.XY.XYSession.XYSession.XYDataFromHistory:0
-#: ../../../../../src/abaqus/XY/XYSession.py:docstring of abaqus.XY.XYSession.XYSession.XYDataFromPath:0
-#: ../../../../../src/abaqus/XY/XYSession.py:docstring of abaqus.XY.XYSession.XYSession.XYDataFromShellThickness:0
-#: ../../../../../src/abaqus/XY/XYSession.py:docstring of abaqus.XY.XYSession.XYSession.xyDataListFromField:0
-#: ../../../../../src/abaqus/XY/XYSessionBase.py:docstring of abaqus.XY.XYSessionBase.XYSessionBase.getLimitForXYDataPlots:0
-#: ../../../../../src/abaqus/XY/XYSessionBase.py:docstring of abaqus.XY.XYSessionBase.XYSessionBase.getPathTolerance:0
-#: ../../../../../src/abaqus/XY/XYSessionBase.py:docstring of abaqus.XY.XYSessionBase.XYSessionBase.linearizeStress:0
+#: ../../../reference/session/xy.md:0
 msgid "Returns"
 msgstr ""
 
@@ -1156,39 +1075,7 @@ msgstr ""
 msgid "An AreaStyle object."
 msgstr ""
 
-#: ../../../../../src/abaqus/XY/Chart.py:docstring of abaqus.XY.Chart.Chart.getAxis1:0
-#: ../../../../../src/abaqus/XY/Chart.py:docstring of abaqus.XY.Chart.Chart.getAxis2:0
-#: ../../../../../src/abaqus/XY/XYCurve.py:docstring of abaqus.XY.XYCurve.XYCurve.Curve:0
-#: ../../../../../src/abaqus/XY/XYData.py:docstring of abaqus.XY.XYData.XYData.XYDataFromFile:0
-#: ../../../../../src/abaqus/XY/XYData.py:docstring of abaqus.XY.XYData.XYData.XYDataFromFreeBody:0
-#: ../../../../../src/abaqus/XY/XYData.py:docstring of abaqus.XY.XYData.XYData.XYDataFromHistory:0
-#: ../../../../../src/abaqus/XY/XYData.py:docstring of abaqus.XY.XYData.XYData.XYDataFromShellThickness:0
-#: ../../../../../src/abaqus/XY/XYData.py:docstring of abaqus.XY.XYData.XYData.xyDataListFromField:0
-#: ../../../../../src/abaqus/XY/XYDataCommands.py:docstring of abaqus.XY.XYDataCommands.XYDataFromFile:0
-#: ../../../../../src/abaqus/XY/XYDataCommands.py:docstring of abaqus.XY.XYDataCommands.XYDataFromFreeBody:0
-#: ../../../../../src/abaqus/XY/XYDataCommands.py:docstring of abaqus.XY.XYDataCommands.XYDataFromHistory:0
-#: ../../../../../src/abaqus/XY/XYDataCommands.py:docstring of abaqus.XY.XYDataCommands.XYDataFromShellThickness:0
-#: ../../../../../src/abaqus/XY/XYDataCommands.py:docstring of abaqus.XY.XYDataCommands.xyDataListFromField:0
-#: ../../../../../src/abaqus/XY/XYPlot.py:docstring of abaqus.XY.XYPlot.XYPlot.AreaStyle:0
-#: ../../../../../src/abaqus/XY/XYPlot.py:docstring of abaqus.XY.XYPlot.XYPlot.LineStyle:0
-#: ../../../../../src/abaqus/XY/XYPlot.py:docstring of abaqus.XY.XYPlot.XYPlot.QuantityType:0
-#: ../../../../../src/abaqus/XY/XYPlot.py:docstring of abaqus.XY.XYPlot.XYPlot.SymbolStyle:0
-#: ../../../../../src/abaqus/XY/XYPlot.py:docstring of abaqus.XY.XYPlot.XYPlot.TextStyle:0
-#: ../../../../../src/abaqus/XY/XYSession.py:docstring of abaqus.XY.XYSession.XYSession.AreaStyle:0
-#: ../../../../../src/abaqus/XY/XYSession.py:docstring of abaqus.XY.XYSession.XYSession.LineStyle:0
-#: ../../../../../src/abaqus/XY/XYSession.py:docstring of abaqus.XY.XYSession.XYSession.QuantityType:0
-#: ../../../../../src/abaqus/XY/XYSession.py:docstring of abaqus.XY.XYSession.XYSession.SymbolStyle:0
-#: ../../../../../src/abaqus/XY/XYSession.py:docstring of abaqus.XY.XYSession.XYSession.TextStyle:0
-#: ../../../../../src/abaqus/XY/XYSession.py:docstring of abaqus.XY.XYSession.XYSession.XYDataFromFile:0
-#: ../../../../../src/abaqus/XY/XYSession.py:docstring of abaqus.XY.XYSession.XYSession.XYDataFromFreeBody:0
-#: ../../../../../src/abaqus/XY/XYSession.py:docstring of abaqus.XY.XYSession.XYSession.XYDataFromHistory:0
-#: ../../../../../src/abaqus/XY/XYSession.py:docstring of abaqus.XY.XYSession.XYSession.XYDataFromShellThickness:0
-#: ../../../../../src/abaqus/XY/XYSession.py:docstring of abaqus.XY.XYSession.XYSession.xyDataListFromField:0
-#: ../../../../../src/abaqus/XY/XYSessionBase.py:docstring of abaqus.XY.XYSessionBase.XYSessionBase.getLimitForXYDataPlots:0
-#: ../../../../../src/abaqus/XY/XYSessionBase.py:docstring of abaqus.XY.XYSessionBase.XYSessionBase.getPathTolerance:0
-#: ../../../../../src/abaqus/XY/XYSessionBase.py:docstring of abaqus.XY.XYSessionBase.XYSessionBase.linearizeStress:0
-#: ../../../../../src/abaqus/XY/XYSessionBase.py:docstring of abaqus.XY.XYSessionBase.XYSessionBase.setLimitForXYDataPlots:0
-#: ../../../../../src/abaqus/XY/XYSessionBase.py:docstring of abaqus.XY.XYSessionBase.XYSessionBase.setPathTolerance:0
+#: ../../../reference/session/xy.md:0
 msgid "Return type"
 msgstr ""
 
@@ -1197,39 +1084,7 @@ msgstr ""
 msgid ":class:`AreaStyle`"
 msgstr ""
 
-#: ../../../../../src/abaqus/XY/Area.py:docstring of abaqus.XY.Area.Area.setValues:0
-#: ../../../../../src/abaqus/XY/AxisData.py:docstring of abaqus.XY.AxisData.AxisData.setValues:0
-#: ../../../../../src/abaqus/XY/Chart.py:docstring of abaqus.XY.Chart.Chart.getAxis1:0
-#: ../../../../../src/abaqus/XY/Chart.py:docstring of abaqus.XY.Chart.Chart.getAxis2:0
-#: ../../../../../src/abaqus/XY/Chart.py:docstring of abaqus.XY.Chart.Chart.setValues:0
-#: ../../../../../src/abaqus/XY/XYData.py:docstring of abaqus.XY.XYData.XYData.XYDataFromFile:0
-#: ../../../../../src/abaqus/XY/XYData.py:docstring of abaqus.XY.XYData.XYData.XYDataFromFreeBody:0
-#: ../../../../../src/abaqus/XY/XYData.py:docstring of abaqus.XY.XYData.XYData.XYDataFromHistory:0
-#: ../../../../../src/abaqus/XY/XYData.py:docstring of abaqus.XY.XYData.XYData.XYDataFromPath:0
-#: ../../../../../src/abaqus/XY/XYData.py:docstring of abaqus.XY.XYData.XYData.XYDataFromShellThickness:0
-#: ../../../../../src/abaqus/XY/XYData.py:docstring of abaqus.XY.XYData.XYData.xyDataListFromField:0
-#: ../../../../../src/abaqus/XY/XYDataCommands.py:docstring of abaqus.XY.XYDataCommands.XYDataFromFile:0
-#: ../../../../../src/abaqus/XY/XYDataCommands.py:docstring of abaqus.XY.XYDataCommands.XYDataFromFreeBody:0
-#: ../../../../../src/abaqus/XY/XYDataCommands.py:docstring of abaqus.XY.XYDataCommands.XYDataFromHistory:0
-#: ../../../../../src/abaqus/XY/XYDataCommands.py:docstring of abaqus.XY.XYDataCommands.XYDataFromPath:0
-#: ../../../../../src/abaqus/XY/XYDataCommands.py:docstring of abaqus.XY.XYDataCommands.XYDataFromShellThickness:0
-#: ../../../../../src/abaqus/XY/XYDataCommands.py:docstring of abaqus.XY.XYDataCommands.xyDataListFromField:0
-#: ../../../../../src/abaqus/XY/XYPlot.py:docstring of abaqus.XY.XYPlot.XYPlot.AreaStyle:0
-#: ../../../../../src/abaqus/XY/XYPlot.py:docstring of abaqus.XY.XYPlot.XYPlot.LineStyle:0
-#: ../../../../../src/abaqus/XY/XYPlot.py:docstring of abaqus.XY.XYPlot.XYPlot.SymbolStyle:0
-#: ../../../../../src/abaqus/XY/XYPlot.py:docstring of abaqus.XY.XYPlot.XYPlot.TextStyle:0
-#: ../../../../../src/abaqus/XY/XYReportOptions.py:docstring of abaqus.XY.XYReportOptions.XYReportOptions.setValues:0
-#: ../../../../../src/abaqus/XY/XYSession.py:docstring of abaqus.XY.XYSession.XYSession.AreaStyle:0
-#: ../../../../../src/abaqus/XY/XYSession.py:docstring of abaqus.XY.XYSession.XYSession.LineStyle:0
-#: ../../../../../src/abaqus/XY/XYSession.py:docstring of abaqus.XY.XYSession.XYSession.SymbolStyle:0
-#: ../../../../../src/abaqus/XY/XYSession.py:docstring of abaqus.XY.XYSession.XYSession.TextStyle:0
-#: ../../../../../src/abaqus/XY/XYSession.py:docstring of abaqus.XY.XYSession.XYSession.XYDataFromFile:0
-#: ../../../../../src/abaqus/XY/XYSession.py:docstring of abaqus.XY.XYSession.XYSession.XYDataFromFreeBody:0
-#: ../../../../../src/abaqus/XY/XYSession.py:docstring of abaqus.XY.XYSession.XYSession.XYDataFromHistory:0
-#: ../../../../../src/abaqus/XY/XYSession.py:docstring of abaqus.XY.XYSession.XYSession.XYDataFromPath:0
-#: ../../../../../src/abaqus/XY/XYSession.py:docstring of abaqus.XY.XYSession.XYSession.XYDataFromShellThickness:0
-#: ../../../../../src/abaqus/XY/XYSession.py:docstring of abaqus.XY.XYSession.XYSession.xyDataListFromField:0
-#: ../../../../../src/abaqus/XY/XYSessionBase.py:docstring of abaqus.XY.XYSessionBase.XYSessionBase.linearizeStress:0
+#: ../../../reference/session/xy.md:0
 msgid "Raises"
 msgstr ""
 
