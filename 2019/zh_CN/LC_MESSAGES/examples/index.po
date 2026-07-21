@@ -1,21 +1,12 @@
+
 msgid ""
 msgstr ""
-"Project-Id-Version: abqpy-locale\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-14 01:53+0000\n"
-"PO-Revision-Date: 2024-07-14 06:37\n"
-"Last-Translator: \n"
-"Language-Team: Chinese Simplified\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Crowdin-Project: abqpy-locale\n"
-"X-Crowdin-Project-ID: 587413\n"
-"X-Crowdin-Language: zh-CN\n"
-"X-Crowdin-File: /main/2019/pot/examples/index.pot\n"
-"X-Crowdin-File-ID: 3423\n"
-"Language: zh_CN\n"
+"Project-Id-Version:  abqpy-locale\nReport-Msgid-Bugs-To: \nPOT-Creation-"
+"Date: 2026-07-21 09:21+0000\nPO-Revision-Date: 2024-07-14 "
+"06:37+0000\nLast-Translator: \nLanguage: zh_CN\nLanguage-Team: Chinese "
+"Simplified\nPlural-Forms: nplurals=1; plural=0;\nMIME-Version: "
+"1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: "
+"8bit\nGenerated-By: Babel 2.18.0\n"
 
 #: ../../../examples/index.rst:4
 msgid "Examples"
@@ -27,10 +18,12 @@ msgstr "下面是 Abaqus/Python 脚本的一些示例。"
 
 #: ../../../examples/index.rst:8
 msgid ""
-"To add a new example, add the script to the examples directory and add docstring to "
-"the top of the script. The docstring should contain the following information:"
+"To add a new example, add the script to the examples directory and add "
+"docstring to the top of the script. The docstring should contain the "
+"following information:"
 msgstr ""
-"要添加新示例，请将脚本添加到示例目录，并在脚本顶部添加文档字符串。文档字符串应包含以下信息："
+"要添加新示例，请将脚本添加到示例目录，并在脚本顶部添加文档字符串。"
+"文档字符串应包含以下信息："
 
 #: ../../../examples/index.rst:11
 msgid "A title for the example"
@@ -41,82 +34,94 @@ msgid "A description of the example"
 msgstr "示例的描述"
 
 #: ../../../examples/index.rst:14
-msgid "See the examples in the examples directory for examples of docstrings."
+msgid ""
+"See the examples in the examples directory for examples of docstrings."
 msgstr "有关文档字符串的格式，请参阅 examples 目录下的示例。"
 
-#: ../../../examples/index.rst:31
+#: ../../../examples/index.rst:35
 msgid "Examples from Abaqus Documentation"
 msgstr "来自 Abaqus 文档的示例"
 
-#: ../../../examples/index.rst:33
+#: ../../../examples/index.rst:37
 msgid "Below are some examples from Abaqus documentation."
 msgstr "以下是来自 Abaqus 文档的一些例子。"
 
-#: ../../../examples/index.rst:52
-msgid ":ref:`sphx_glr_examples_Abaqus_viewerOpenOdbAndContour.py`"
+#: ../../../examples/index.rst:60
+#, fuzzy
+msgid ":doc:`/examples/Abaqus/viewerOpenOdbAndContour`"
 msgstr ":ref:`sphx_glr_examples_Abaqus_viewerOpenOdbAndContour.py`"
 
-#: ../../../examples/index.rst:69
-msgid ":ref:`sphx_glr_examples_Abaqus_viewerPrintContours.py`"
+#: ../../../examples/index.rst:77
+#, fuzzy
+msgid ":doc:`/examples/Abaqus/viewerPrintContours`"
 msgstr ":ref:`sphx_glr_examples_Abaqus_viewerPrintContours.py`"
 
-#: ../../../examples/index.rst:86
-msgid ":ref:`sphx_glr_examples_Abaqus_cantilever.py`"
+#: ../../../examples/index.rst:94
+#, fuzzy
+msgid ":doc:`/examples/Abaqus/cantilever`"
 msgstr ":ref:`sphx_glr_examples_Abaqus_cantilever.py`"
 
-#: ../../../examples/index.rst:103
-msgid ":ref:`sphx_glr_examples_Abaqus_skewExample.py`"
+#: ../../../examples/index.rst:111
+msgid ":doc:`/examples/Abaqus/skewExample`"
 msgstr ""
 
-#: ../../../examples/index.rst:127
+#: ../../../examples/index.rst:135
 msgid "Compression Model"
 msgstr "压缩模型"
 
-#: ../../../examples/index.rst:129
+#: ../../../examples/index.rst:137
 msgid "Below are examples of the compression model."
 msgstr "以下是压缩模型的一些示例脚本。"
 
-#: ../../../examples/index.rst:148
-msgid ":ref:`sphx_glr_examples_Compression_compression-output.py`"
+#: ../../../examples/index.rst:160
+#, fuzzy
+msgid ":doc:`/examples/Compression/compression-output`"
 msgstr ":ref:`sphx_glr_examples_Compression_compression-output.py`"
 
-#: ../../../examples/index.rst:165
-msgid ":ref:`sphx_glr_examples_Compression_compression.py`"
+#: ../../../examples/index.rst:177
+#, fuzzy
+msgid ":doc:`/examples/Compression/compression`"
 msgstr ":ref:`sphx_glr_examples_Compression_compression.py`"
 
-#: ../../../examples/index.rst:187
+#: ../../../examples/index.rst:199
 msgid "Parameter Identification"
 msgstr "参数识别"
 
-#: ../../../examples/index.rst:189
+#: ../../../examples/index.rst:201
 msgid "Below is a parameter identification for the compression model."
 msgstr "下面是压缩模型的参数识别。"
 
-#: ../../../examples/index.rst:208
-msgid ":ref:`sphx_glr_examples_Parameter-Identification_optimize.py`"
+#: ../../../examples/index.rst:224
+#, fuzzy
+msgid ":doc:`/examples/Parameter-Identification/optimize`"
 msgstr ":ref:`sphx_glr_examples_Parameter-Identification_optimize.py`"
 
-#: ../../../examples/index.rst:225
-msgid ":ref:`sphx_glr_examples_Parameter-Identification_compression.py`"
+#: ../../../examples/index.rst:241
+#, fuzzy
+msgid ":doc:`/examples/Parameter-Identification/compression`"
 msgstr ":ref:`sphx_glr_examples_Parameter-Identification_compression.py`"
 
-#: ../../../examples/index.rst:253
+#: ../../../examples/index.rst:269
 msgid ""
-":download:`Download all examples in Python source code: examples_python.zip "
-"</examples/examples_python.zip>`"
+":download:`Download all examples in Python source code: "
+"examples_python.zip </examples/examples_python.zip>`"
 msgstr ""
 ":download:`下载所有示例的 Python 源代码: examples_python.zip "
 "</examples/examples_python.zip>`"
 
-#: ../../../examples/index.rst:257
+#: ../../../examples/index.rst:273
 msgid ""
-":download:`Download all examples in Jupyter notebooks: examples_jupyter.zip "
-"</examples/examples_jupyter.zip>`"
+":download:`Download all examples in Jupyter notebooks: "
+"examples_jupyter.zip </examples/examples_jupyter.zip>`"
 msgstr ""
 ":download:`下载所有示例的 Jupyter notebook: examples_jupyter.zip "
 "</examples/examples_jupyter.zip>`"
 
-#: ../../../examples/index.rst:264
-msgid "`Gallery generated by Sphinx-Gallery <https://sphinx-gallery.github.io>`_"
+#: ../../../examples/index.rst:280
+msgid ""
+"`Gallery generated by Sphinx-Gallery <https://sphinx-gallery.github.io>`_"
 msgstr "由 `Sphinx-Gallery <https://sphinx-gallery.github.io>`_ 生成"
+
+#~ msgid ":ref:`sphx_glr_examples_Abaqus_skewExample.py`"
+#~ msgstr ""
 

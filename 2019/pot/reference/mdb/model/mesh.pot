@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: abqpy 2019\n"
+"Project-Id-Version: abqpy 2019.11\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-06 02:36+0000\n"
+"POT-Creation-Date: 2026-07-21 09:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -354,94 +354,7 @@ msgstr ""
 msgid "Check `MeshAssembly.assignStackDirection on help.3ds.com/2019 <https://help.3ds.com/2019/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-assemblymgnpyc.htm?contextscope=all#simaker-assemblyassignstackdirectionpyc>`__."
 msgstr ""
 
-#: ../../../../../src/abaqus/Mesh/MeshAssembly.py:docstring of abaqus.Mesh.MeshAssembly.MeshAssembly.assignStackDirection:0
-#: ../../../../../src/abaqus/Mesh/MeshAssembly.py:docstring of abaqus.Mesh.MeshAssembly.MeshAssembly.associateMeshWithGeometry:0
-#: ../../../../../src/abaqus/Mesh/MeshAssembly.py:docstring of abaqus.Mesh.MeshAssembly.MeshAssembly.createVirtualTopology:0
-#: ../../../../../src/abaqus/Mesh/MeshAssembly.py:docstring of abaqus.Mesh.MeshAssembly.MeshAssembly.deleteBoundaryLayerControls:0
-#: ../../../../../src/abaqus/Mesh/MeshAssembly.py:docstring of abaqus.Mesh.MeshAssembly.MeshAssembly.deleteMesh:0
-#: ../../../../../src/abaqus/Mesh/MeshAssembly.py:docstring of abaqus.Mesh.MeshAssembly.MeshAssembly.deleteMeshAssociationWithGeometry:0
-#: ../../../../../src/abaqus/Mesh/MeshAssembly.py:docstring of abaqus.Mesh.MeshAssembly.MeshAssembly.deleteSeeds:0
-#: ../../../../../src/abaqus/Mesh/MeshAssembly.py:docstring of abaqus.Mesh.MeshAssembly.MeshAssembly.generateBottomUpExtrudedMesh:0
-#: ../../../../../src/abaqus/Mesh/MeshAssembly.py:docstring of abaqus.Mesh.MeshAssembly.MeshAssembly.generateBottomUpRevolvedMesh:0
-#: ../../../../../src/abaqus/Mesh/MeshAssembly.py:docstring of abaqus.Mesh.MeshAssembly.MeshAssembly.generateBottomUpSweptMesh:0
-#: ../../../../../src/abaqus/Mesh/MeshAssembly.py:docstring of abaqus.Mesh.MeshAssembly.MeshAssembly.generateMesh:0
-#: ../../../../../src/abaqus/Mesh/MeshAssembly.py:docstring of abaqus.Mesh.MeshAssembly.MeshAssembly.getEdgeSeeds:0
-#: ../../../../../src/abaqus/Mesh/MeshAssembly.py:docstring of abaqus.Mesh.MeshAssembly.MeshAssembly.getElementType:0
-#: ../../../../../src/abaqus/Mesh/MeshAssembly.py:docstring of abaqus.Mesh.MeshAssembly.MeshAssembly.getIncompatibleMeshInterfaces:0
-#: ../../../../../src/abaqus/Mesh/MeshAssembly.py:docstring of abaqus.Mesh.MeshAssembly.MeshAssembly.getMeshControl:0
-#: ../../../../../src/abaqus/Mesh/MeshAssembly.py:docstring of abaqus.Mesh.MeshAssembly.MeshAssembly.getMeshStats:0
-#: ../../../../../src/abaqus/Mesh/MeshAssembly.py:docstring of abaqus.Mesh.MeshAssembly.MeshAssembly.getPartSeeds:0
-#: ../../../../../src/abaqus/Mesh/MeshAssembly.py:docstring of abaqus.Mesh.MeshAssembly.MeshAssembly.ignoreEntity:0
-#: ../../../../../src/abaqus/Mesh/MeshAssembly.py:docstring of abaqus.Mesh.MeshAssembly.MeshAssembly.restoreIgnoredEntity:0
-#: ../../../../../src/abaqus/Mesh/MeshAssembly.py:docstring of abaqus.Mesh.MeshAssembly.MeshAssembly.seedEdgeByBias:0
-#: ../../../../../src/abaqus/Mesh/MeshAssembly.py:docstring of abaqus.Mesh.MeshAssembly.MeshAssembly.seedEdgeByNumber:0
-#: ../../../../../src/abaqus/Mesh/MeshAssembly.py:docstring of abaqus.Mesh.MeshAssembly.MeshAssembly.seedEdgeBySize:0
-#: ../../../../../src/abaqus/Mesh/MeshAssembly.py:docstring of abaqus.Mesh.MeshAssembly.MeshAssembly.seedPartInstance:0
-#: ../../../../../src/abaqus/Mesh/MeshAssembly.py:docstring of abaqus.Mesh.MeshAssembly.MeshAssembly.setBoundaryLayerControls:0
-#: ../../../../../src/abaqus/Mesh/MeshAssembly.py:docstring of abaqus.Mesh.MeshAssembly.MeshAssembly.setElementType:0
-#: ../../../../../src/abaqus/Mesh/MeshAssembly.py:docstring of abaqus.Mesh.MeshAssembly.MeshAssembly.setLogicalCorners:0
-#: ../../../../../src/abaqus/Mesh/MeshAssembly.py:docstring of abaqus.Mesh.MeshAssembly.MeshAssembly.setMeshControls:0
-#: ../../../../../src/abaqus/Mesh/MeshAssembly.py:docstring of abaqus.Mesh.MeshAssembly.MeshAssembly.setSweepPath:0
-#: ../../../../../src/abaqus/Mesh/MeshAssembly.py:docstring of abaqus.Mesh.MeshAssembly.MeshAssembly.verifyMeshQuality:0
-#: ../../../../../src/abaqus/Mesh/MeshEdge.py:docstring of abaqus.Mesh.MeshEdge.MeshEdge.getElementsViaTopology:0
-#: ../../../../../src/abaqus/Mesh/MeshEdge.py:docstring of abaqus.Mesh.MeshEdge.MeshEdge.getNodesViaTopology:0
-#: ../../../../../src/abaqus/Mesh/MeshEdgeArray.py:docstring of abaqus.Mesh.MeshEdgeArray.MeshEdgeArray.getSequenceFromMask:0
-#: ../../../../../src/abaqus/Mesh/MeshElement.py:docstring of abaqus.Mesh.MeshElement.MeshElement.Element:0
-#: ../../../../../src/abaqus/Mesh/MeshElement.py:docstring of abaqus.Mesh.MeshElement.MeshElement.getElementsByFeatureEdge:0
-#: ../../../../../src/abaqus/Mesh/MeshElement.py:docstring of abaqus.Mesh.MeshElement.MeshElement.setValues:0
-#: ../../../../../src/abaqus/Mesh/MeshElementArray.py:docstring of abaqus.Mesh.MeshElementArray.MeshElementArray.getByBoundingBox:0
-#: ../../../../../src/abaqus/Mesh/MeshElementArray.py:docstring of abaqus.Mesh.MeshElementArray.MeshElementArray.getByBoundingCylinder:0
-#: ../../../../../src/abaqus/Mesh/MeshElementArray.py:docstring of abaqus.Mesh.MeshElementArray.MeshElementArray.getByBoundingSphere:0
-#: ../../../../../src/abaqus/Mesh/MeshElementArray.py:docstring of abaqus.Mesh.MeshElementArray.MeshElementArray.getFromLabel:0
-#: ../../../../../src/abaqus/Mesh/MeshElementArray.py:docstring of abaqus.Mesh.MeshElementArray.MeshElementArray.getSequenceFromMask:0
-#: ../../../../../src/abaqus/Mesh/MeshElementArray.py:docstring of abaqus.Mesh.MeshElementArray.MeshElementArray.sequenceFromLabels:0
-#: ../../../../../src/abaqus/Mesh/MeshFace.py:docstring of abaqus.Mesh.MeshFace.MeshFace.getElemEdgesByFaceAngle:0
-#: ../../../../../src/abaqus/Mesh/MeshFace.py:docstring of abaqus.Mesh.MeshFace.MeshFace.getElemFacesByFaceAngle:0
-#: ../../../../../src/abaqus/Mesh/MeshFace.py:docstring of abaqus.Mesh.MeshFace.MeshFace.getElemFacesByLayer:0
-#: ../../../../../src/abaqus/Mesh/MeshFace.py:docstring of abaqus.Mesh.MeshFace.MeshFace.getElemFacesByLimitingAngle:0
-#: ../../../../../src/abaqus/Mesh/MeshFace.py:docstring of abaqus.Mesh.MeshFace.MeshFace.getElementsByFaceAngle:0
-#: ../../../../../src/abaqus/Mesh/MeshFace.py:docstring of abaqus.Mesh.MeshFace.MeshFace.getNodesByFaceAngle:0
-#: ../../../../../src/abaqus/Mesh/MeshFaceArray.py:docstring of abaqus.Mesh.MeshFaceArray.MeshFaceArray.getSequenceFromMask:0
-#: ../../../../../src/abaqus/Mesh/MeshNode.py:docstring of abaqus.Mesh.MeshNode.MeshNode.getNodesByFeatureEdge:0
-#: ../../../../../src/abaqus/Mesh/MeshNode.py:docstring of abaqus.Mesh.MeshNode.MeshNode.setValues:0
-#: ../../../../../src/abaqus/Mesh/MeshNodeArray.py:docstring of abaqus.Mesh.MeshNodeArray.MeshNodeArray.getByBoundingBox:0
-#: ../../../../../src/abaqus/Mesh/MeshNodeArray.py:docstring of abaqus.Mesh.MeshNodeArray.MeshNodeArray.getByBoundingCylinder:0
-#: ../../../../../src/abaqus/Mesh/MeshNodeArray.py:docstring of abaqus.Mesh.MeshNodeArray.MeshNodeArray.getByBoundingSphere:0
-#: ../../../../../src/abaqus/Mesh/MeshNodeArray.py:docstring of abaqus.Mesh.MeshNodeArray.MeshNodeArray.getClosest:0
-#: ../../../../../src/abaqus/Mesh/MeshNodeArray.py:docstring of abaqus.Mesh.MeshNodeArray.MeshNodeArray.getFromLabel:0
-#: ../../../../../src/abaqus/Mesh/MeshNodeArray.py:docstring of abaqus.Mesh.MeshNodeArray.MeshNodeArray.getSequenceFromMask:0
-#: ../../../../../src/abaqus/Mesh/MeshNodeArray.py:docstring of abaqus.Mesh.MeshNodeArray.MeshNodeArray.sequenceFromLabels:0
-#: ../../../../../src/abaqus/Mesh/MeshPart.py:docstring of abaqus.Mesh.MeshPart.MeshPart.Node:0
-#: ../../../../../src/abaqus/Mesh/MeshPart.py:docstring of abaqus.Mesh.MeshPart.MeshPart.assignStackDirection:0
-#: ../../../../../src/abaqus/Mesh/MeshPart.py:docstring of abaqus.Mesh.MeshPart.MeshPart.associateMeshWithGeometry:0
-#: ../../../../../src/abaqus/Mesh/MeshPart.py:docstring of abaqus.Mesh.MeshPart.MeshPart.createVirtualTopology:0
-#: ../../../../../src/abaqus/Mesh/MeshPart.py:docstring of abaqus.Mesh.MeshPart.MeshPart.deleteBoundaryLayerControls:0
-#: ../../../../../src/abaqus/Mesh/MeshPart.py:docstring of abaqus.Mesh.MeshPart.MeshPart.deleteMesh:0
-#: ../../../../../src/abaqus/Mesh/MeshPart.py:docstring of abaqus.Mesh.MeshPart.MeshPart.deleteMeshAssociationWithGeometry:0
-#: ../../../../../src/abaqus/Mesh/MeshPart.py:docstring of abaqus.Mesh.MeshPart.MeshPart.deleteSeeds:0
-#: ../../../../../src/abaqus/Mesh/MeshPart.py:docstring of abaqus.Mesh.MeshPart.MeshPart.generateBottomUpExtrudedMesh:0
-#: ../../../../../src/abaqus/Mesh/MeshPart.py:docstring of abaqus.Mesh.MeshPart.MeshPart.generateBottomUpRevolvedMesh:0
-#: ../../../../../src/abaqus/Mesh/MeshPart.py:docstring of abaqus.Mesh.MeshPart.MeshPart.generateBottomUpSweptMesh:0
-#: ../../../../../src/abaqus/Mesh/MeshPart.py:docstring of abaqus.Mesh.MeshPart.MeshPart.generateMesh:0
-#: ../../../../../src/abaqus/Mesh/MeshPart.py:docstring of abaqus.Mesh.MeshPart.MeshPart.getEdgeSeeds:0
-#: ../../../../../src/abaqus/Mesh/MeshPart.py:docstring of abaqus.Mesh.MeshPart.MeshPart.getElementType:0
-#: ../../../../../src/abaqus/Mesh/MeshPart.py:docstring of abaqus.Mesh.MeshPart.MeshPart.getIncompatibleMeshInterfaces:0
-#: ../../../../../src/abaqus/Mesh/MeshPart.py:docstring of abaqus.Mesh.MeshPart.MeshPart.getMeshControl:0
-#: ../../../../../src/abaqus/Mesh/MeshPart.py:docstring of abaqus.Mesh.MeshPart.MeshPart.getMeshStats:0
-#: ../../../../../src/abaqus/Mesh/MeshPart.py:docstring of abaqus.Mesh.MeshPart.MeshPart.getPartSeeds:0
-#: ../../../../../src/abaqus/Mesh/MeshPart.py:docstring of abaqus.Mesh.MeshPart.MeshPart.ignoreEntity:0
-#: ../../../../../src/abaqus/Mesh/MeshPart.py:docstring of abaqus.Mesh.MeshPart.MeshPart.restoreIgnoredEntity:0
-#: ../../../../../src/abaqus/Mesh/MeshPart.py:docstring of abaqus.Mesh.MeshPart.MeshPart.seedEdgeByBias:0
-#: ../../../../../src/abaqus/Mesh/MeshPart.py:docstring of abaqus.Mesh.MeshPart.MeshPart.seedEdgeByNumber:0
-#: ../../../../../src/abaqus/Mesh/MeshPart.py:docstring of abaqus.Mesh.MeshPart.MeshPart.seedEdgeBySize:0
-#: ../../../../../src/abaqus/Mesh/MeshPart.py:docstring of abaqus.Mesh.MeshPart.MeshPart.seedPart:0
-#: ../../../../../src/abaqus/Mesh/MeshPart.py:docstring of abaqus.Mesh.MeshPart.MeshPart.setBoundaryLayerControls:0
-#: ../../../../../src/abaqus/Mesh/MeshPart.py:docstring of abaqus.Mesh.MeshPart.MeshPart.setElementType:0
-#: ../../../../../src/abaqus/Mesh/MeshPart.py:docstring of abaqus.Mesh.MeshPart.MeshPart.setLogicalCorners:0
-#: ../../../../../src/abaqus/Mesh/MeshPart.py:docstring of abaqus.Mesh.MeshPart.MeshPart.setMeshControls:0
-#: ../../../../../src/abaqus/Mesh/MeshPart.py:docstring of abaqus.Mesh.MeshPart.MeshPart.setSweepPath:0
-#: ../../../../../src/abaqus/Mesh/MeshPart.py:docstring of abaqus.Mesh.MeshPart.MeshPart.verifyMeshQuality:0
-#: ../../../../../src/abaqus/Mesh/MesherOptions.py:docstring of abaqus.Mesh.MesherOptions.MesherOptions.setValues:0
+#: ../../../reference/mdb/model/mesh.md:0
 msgid "Parameters"
 msgstr ""
 
@@ -571,79 +484,7 @@ msgstr ""
 msgid "A Float specifying the smallest radius of curvature of blend faces that can be merged with neighboring faces. This argument is a required argument if the argument **applyBlendControls** equals True and it is ignored if the argument **applyBlendControls** equals False."
 msgstr ""
 
-#: ../../../../../src/abaqus/Mesh/MeshAssembly.py:docstring of abaqus.Mesh.MeshAssembly.MeshAssembly.createVirtualTopology:0
-#: ../../../../../src/abaqus/Mesh/MeshAssembly.py:docstring of abaqus.Mesh.MeshAssembly.MeshAssembly.getEdgeSeeds:0
-#: ../../../../../src/abaqus/Mesh/MeshAssembly.py:docstring of abaqus.Mesh.MeshAssembly.MeshAssembly.getElementType:0
-#: ../../../../../src/abaqus/Mesh/MeshAssembly.py:docstring of abaqus.Mesh.MeshAssembly.MeshAssembly.getIncompatibleMeshInterfaces:0
-#: ../../../../../src/abaqus/Mesh/MeshAssembly.py:docstring of abaqus.Mesh.MeshAssembly.MeshAssembly.getMeshControl:0
-#: ../../../../../src/abaqus/Mesh/MeshAssembly.py:docstring of abaqus.Mesh.MeshAssembly.MeshAssembly.getMeshStats:0
-#: ../../../../../src/abaqus/Mesh/MeshAssembly.py:docstring of abaqus.Mesh.MeshAssembly.MeshAssembly.getPartSeeds:0
-#: ../../../../../src/abaqus/Mesh/MeshAssembly.py:docstring of abaqus.Mesh.MeshAssembly.MeshAssembly.getUnmeshedRegions:0
-#: ../../../../../src/abaqus/Mesh/MeshAssembly.py:docstring of abaqus.Mesh.MeshAssembly.MeshAssembly.ignoreEntity:0
-#: ../../../../../src/abaqus/Mesh/MeshAssembly.py:docstring of abaqus.Mesh.MeshAssembly.MeshAssembly.restoreIgnoredEntity:0
-#: ../../../../../src/abaqus/Mesh/MeshAssembly.py:docstring of abaqus.Mesh.MeshAssembly.MeshAssembly.verifyMeshQuality:0
-#: ../../../../../src/abaqus/Mesh/MeshEdge.py:docstring of abaqus.Mesh.MeshEdge.MeshEdge.getElemFaces:0
-#: ../../../../../src/abaqus/Mesh/MeshEdge.py:docstring of abaqus.Mesh.MeshEdge.MeshEdge.getElements:0
-#: ../../../../../src/abaqus/Mesh/MeshEdge.py:docstring of abaqus.Mesh.MeshEdge.MeshEdge.getElementsViaTopology:0
-#: ../../../../../src/abaqus/Mesh/MeshEdge.py:docstring of abaqus.Mesh.MeshEdge.MeshEdge.getNodes:0
-#: ../../../../../src/abaqus/Mesh/MeshEdge.py:docstring of abaqus.Mesh.MeshEdge.MeshEdge.getNodesViaTopology:0
-#: ../../../../../src/abaqus/Mesh/MeshEdgeArray.py:docstring of abaqus.Mesh.MeshEdgeArray.MeshEdgeArray.getMask:0
-#: ../../../../../src/abaqus/Mesh/MeshEdgeArray.py:docstring of abaqus.Mesh.MeshEdgeArray.MeshEdgeArray.getSequenceFromMask:0
-#: ../../../../../src/abaqus/Mesh/MeshElement.py:docstring of abaqus.Mesh.MeshElement.MeshElement.Element:0
-#: ../../../../../src/abaqus/Mesh/MeshElement.py:docstring of abaqus.Mesh.MeshElement.MeshElement.getAdjacentElements:0
-#: ../../../../../src/abaqus/Mesh/MeshElement.py:docstring of abaqus.Mesh.MeshElement.MeshElement.getElemEdges:0
-#: ../../../../../src/abaqus/Mesh/MeshElement.py:docstring of abaqus.Mesh.MeshElement.MeshElement.getElemFaces:0
-#: ../../../../../src/abaqus/Mesh/MeshElement.py:docstring of abaqus.Mesh.MeshElement.MeshElement.getElementsByFeatureEdge:0
-#: ../../../../../src/abaqus/Mesh/MeshElement.py:docstring of abaqus.Mesh.MeshElement.MeshElement.getNodes:0
-#: ../../../../../src/abaqus/Mesh/MeshElementArray.py:docstring of abaqus.Mesh.MeshElementArray.MeshElementArray.getBoundingBox:0
-#: ../../../../../src/abaqus/Mesh/MeshElementArray.py:docstring of abaqus.Mesh.MeshElementArray.MeshElementArray.getByBoundingBox:0
-#: ../../../../../src/abaqus/Mesh/MeshElementArray.py:docstring of abaqus.Mesh.MeshElementArray.MeshElementArray.getByBoundingCylinder:0
-#: ../../../../../src/abaqus/Mesh/MeshElementArray.py:docstring of abaqus.Mesh.MeshElementArray.MeshElementArray.getByBoundingSphere:0
-#: ../../../../../src/abaqus/Mesh/MeshElementArray.py:docstring of abaqus.Mesh.MeshElementArray.MeshElementArray.getExteriorEdges:0
-#: ../../../../../src/abaqus/Mesh/MeshElementArray.py:docstring of abaqus.Mesh.MeshElementArray.MeshElementArray.getExteriorFaces:0
-#: ../../../../../src/abaqus/Mesh/MeshElementArray.py:docstring of abaqus.Mesh.MeshElementArray.MeshElementArray.getFromLabel:0
-#: ../../../../../src/abaqus/Mesh/MeshElementArray.py:docstring of abaqus.Mesh.MeshElementArray.MeshElementArray.getMask:0
-#: ../../../../../src/abaqus/Mesh/MeshElementArray.py:docstring of abaqus.Mesh.MeshElementArray.MeshElementArray.getSequenceFromMask:0
-#: ../../../../../src/abaqus/Mesh/MeshElementArray.py:docstring of abaqus.Mesh.MeshElementArray.MeshElementArray.sequenceFromLabels:0
-#: ../../../../../src/abaqus/Mesh/MeshFace.py:docstring of abaqus.Mesh.MeshFace.MeshFace.getElemEdges:0
-#: ../../../../../src/abaqus/Mesh/MeshFace.py:docstring of abaqus.Mesh.MeshFace.MeshFace.getElemEdgesByFaceAngle:0
-#: ../../../../../src/abaqus/Mesh/MeshFace.py:docstring of abaqus.Mesh.MeshFace.MeshFace.getElemFacesByFaceAngle:0
-#: ../../../../../src/abaqus/Mesh/MeshFace.py:docstring of abaqus.Mesh.MeshFace.MeshFace.getElemFacesByLayer:0
-#: ../../../../../src/abaqus/Mesh/MeshFace.py:docstring of abaqus.Mesh.MeshFace.MeshFace.getElemFacesByLimitingAngle:0
-#: ../../../../../src/abaqus/Mesh/MeshFace.py:docstring of abaqus.Mesh.MeshFace.MeshFace.getElements:0
-#: ../../../../../src/abaqus/Mesh/MeshFace.py:docstring of abaqus.Mesh.MeshFace.MeshFace.getElementsByFaceAngle:0
-#: ../../../../../src/abaqus/Mesh/MeshFace.py:docstring of abaqus.Mesh.MeshFace.MeshFace.getElementsViaTopology:0
-#: ../../../../../src/abaqus/Mesh/MeshFace.py:docstring of abaqus.Mesh.MeshFace.MeshFace.getNodes:0
-#: ../../../../../src/abaqus/Mesh/MeshFace.py:docstring of abaqus.Mesh.MeshFace.MeshFace.getNodesByFaceAngle:0
-#: ../../../../../src/abaqus/Mesh/MeshFace.py:docstring of abaqus.Mesh.MeshFace.MeshFace.getNormal:0
-#: ../../../../../src/abaqus/Mesh/MeshFaceArray.py:docstring of abaqus.Mesh.MeshFaceArray.MeshFaceArray.getMask:0
-#: ../../../../../src/abaqus/Mesh/MeshFaceArray.py:docstring of abaqus.Mesh.MeshFaceArray.MeshFaceArray.getSequenceFromMask:0
-#: ../../../../../src/abaqus/Mesh/MeshNode.py:docstring of abaqus.Mesh.MeshNode.MeshNode.getElemEdges:0
-#: ../../../../../src/abaqus/Mesh/MeshNode.py:docstring of abaqus.Mesh.MeshNode.MeshNode.getElemFaces:0
-#: ../../../../../src/abaqus/Mesh/MeshNode.py:docstring of abaqus.Mesh.MeshNode.MeshNode.getElements:0
-#: ../../../../../src/abaqus/Mesh/MeshNode.py:docstring of abaqus.Mesh.MeshNode.MeshNode.getNodesByFeatureEdge:0
-#: ../../../../../src/abaqus/Mesh/MeshNode.py:docstring of abaqus.Mesh.MeshNode.MeshNode.setValues:0
-#: ../../../../../src/abaqus/Mesh/MeshNodeArray.py:docstring of abaqus.Mesh.MeshNodeArray.MeshNodeArray.getBoundingBox:0
-#: ../../../../../src/abaqus/Mesh/MeshNodeArray.py:docstring of abaqus.Mesh.MeshNodeArray.MeshNodeArray.getByBoundingBox:0
-#: ../../../../../src/abaqus/Mesh/MeshNodeArray.py:docstring of abaqus.Mesh.MeshNodeArray.MeshNodeArray.getByBoundingCylinder:0
-#: ../../../../../src/abaqus/Mesh/MeshNodeArray.py:docstring of abaqus.Mesh.MeshNodeArray.MeshNodeArray.getByBoundingSphere:0
-#: ../../../../../src/abaqus/Mesh/MeshNodeArray.py:docstring of abaqus.Mesh.MeshNodeArray.MeshNodeArray.getClosest:0
-#: ../../../../../src/abaqus/Mesh/MeshNodeArray.py:docstring of abaqus.Mesh.MeshNodeArray.MeshNodeArray.getFromLabel:0
-#: ../../../../../src/abaqus/Mesh/MeshNodeArray.py:docstring of abaqus.Mesh.MeshNodeArray.MeshNodeArray.getMask:0
-#: ../../../../../src/abaqus/Mesh/MeshNodeArray.py:docstring of abaqus.Mesh.MeshNodeArray.MeshNodeArray.getSequenceFromMask:0
-#: ../../../../../src/abaqus/Mesh/MeshNodeArray.py:docstring of abaqus.Mesh.MeshNodeArray.MeshNodeArray.sequenceFromLabels:0
-#: ../../../../../src/abaqus/Mesh/MeshPart.py:docstring of abaqus.Mesh.MeshPart.MeshPart.Node:0
-#: ../../../../../src/abaqus/Mesh/MeshPart.py:docstring of abaqus.Mesh.MeshPart.MeshPart.createVirtualTopology:0
-#: ../../../../../src/abaqus/Mesh/MeshPart.py:docstring of abaqus.Mesh.MeshPart.MeshPart.getEdgeSeeds:0
-#: ../../../../../src/abaqus/Mesh/MeshPart.py:docstring of abaqus.Mesh.MeshPart.MeshPart.getElementType:0
-#: ../../../../../src/abaqus/Mesh/MeshPart.py:docstring of abaqus.Mesh.MeshPart.MeshPart.getIncompatibleMeshInterfaces:0
-#: ../../../../../src/abaqus/Mesh/MeshPart.py:docstring of abaqus.Mesh.MeshPart.MeshPart.getMeshControl:0
-#: ../../../../../src/abaqus/Mesh/MeshPart.py:docstring of abaqus.Mesh.MeshPart.MeshPart.getMeshStats:0
-#: ../../../../../src/abaqus/Mesh/MeshPart.py:docstring of abaqus.Mesh.MeshPart.MeshPart.getPartSeeds:0
-#: ../../../../../src/abaqus/Mesh/MeshPart.py:docstring of abaqus.Mesh.MeshPart.MeshPart.getUnmeshedRegions:0
-#: ../../../../../src/abaqus/Mesh/MeshPart.py:docstring of abaqus.Mesh.MeshPart.MeshPart.ignoreEntity:0
-#: ../../../../../src/abaqus/Mesh/MeshPart.py:docstring of abaqus.Mesh.MeshPart.MeshPart.restoreIgnoredEntity:0
-#: ../../../../../src/abaqus/Mesh/MeshPart.py:docstring of abaqus.Mesh.MeshPart.MeshPart.verifyMeshQuality:0
+#: ../../../reference/mdb/model/mesh.md:0
 msgid "Returns"
 msgstr ""
 
@@ -656,78 +497,7 @@ msgstr ""
 msgid "**feature** -- A Feature object"
 msgstr ""
 
-#: ../../../../../src/abaqus/Mesh/MeshAssembly.py:docstring of abaqus.Mesh.MeshAssembly.MeshAssembly.createVirtualTopology:0
-#: ../../../../../src/abaqus/Mesh/MeshAssembly.py:docstring of abaqus.Mesh.MeshAssembly.MeshAssembly.getEdgeSeeds:0
-#: ../../../../../src/abaqus/Mesh/MeshAssembly.py:docstring of abaqus.Mesh.MeshAssembly.MeshAssembly.getElementType:0
-#: ../../../../../src/abaqus/Mesh/MeshAssembly.py:docstring of abaqus.Mesh.MeshAssembly.MeshAssembly.getIncompatibleMeshInterfaces:0
-#: ../../../../../src/abaqus/Mesh/MeshAssembly.py:docstring of abaqus.Mesh.MeshAssembly.MeshAssembly.getMeshControl:0
-#: ../../../../../src/abaqus/Mesh/MeshAssembly.py:docstring of abaqus.Mesh.MeshAssembly.MeshAssembly.getMeshStats:0
-#: ../../../../../src/abaqus/Mesh/MeshAssembly.py:docstring of abaqus.Mesh.MeshAssembly.MeshAssembly.getPartSeeds:0
-#: ../../../../../src/abaqus/Mesh/MeshAssembly.py:docstring of abaqus.Mesh.MeshAssembly.MeshAssembly.getUnmeshedRegions:0
-#: ../../../../../src/abaqus/Mesh/MeshAssembly.py:docstring of abaqus.Mesh.MeshAssembly.MeshAssembly.ignoreEntity:0
-#: ../../../../../src/abaqus/Mesh/MeshAssembly.py:docstring of abaqus.Mesh.MeshAssembly.MeshAssembly.restoreIgnoredEntity:0
-#: ../../../../../src/abaqus/Mesh/MeshAssembly.py:docstring of abaqus.Mesh.MeshAssembly.MeshAssembly.verifyMeshQuality:0
-#: ../../../../../src/abaqus/Mesh/MeshEdge.py:docstring of abaqus.Mesh.MeshEdge.MeshEdge.getElemFaces:0
-#: ../../../../../src/abaqus/Mesh/MeshEdge.py:docstring of abaqus.Mesh.MeshEdge.MeshEdge.getElements:0
-#: ../../../../../src/abaqus/Mesh/MeshEdge.py:docstring of abaqus.Mesh.MeshEdge.MeshEdge.getElementsViaTopology:0
-#: ../../../../../src/abaqus/Mesh/MeshEdge.py:docstring of abaqus.Mesh.MeshEdge.MeshEdge.getNodes:0
-#: ../../../../../src/abaqus/Mesh/MeshEdge.py:docstring of abaqus.Mesh.MeshEdge.MeshEdge.getNodesViaTopology:0
-#: ../../../../../src/abaqus/Mesh/MeshEdgeArray.py:docstring of abaqus.Mesh.MeshEdgeArray.MeshEdgeArray.getMask:0
-#: ../../../../../src/abaqus/Mesh/MeshEdgeArray.py:docstring of abaqus.Mesh.MeshEdgeArray.MeshEdgeArray.getSequenceFromMask:0
-#: ../../../../../src/abaqus/Mesh/MeshElement.py:docstring of abaqus.Mesh.MeshElement.MeshElement.Element:0
-#: ../../../../../src/abaqus/Mesh/MeshElement.py:docstring of abaqus.Mesh.MeshElement.MeshElement.getAdjacentElements:0
-#: ../../../../../src/abaqus/Mesh/MeshElement.py:docstring of abaqus.Mesh.MeshElement.MeshElement.getElemEdges:0
-#: ../../../../../src/abaqus/Mesh/MeshElement.py:docstring of abaqus.Mesh.MeshElement.MeshElement.getElemFaces:0
-#: ../../../../../src/abaqus/Mesh/MeshElement.py:docstring of abaqus.Mesh.MeshElement.MeshElement.getElementsByFeatureEdge:0
-#: ../../../../../src/abaqus/Mesh/MeshElement.py:docstring of abaqus.Mesh.MeshElement.MeshElement.getNodes:0
-#: ../../../../../src/abaqus/Mesh/MeshElementArray.py:docstring of abaqus.Mesh.MeshElementArray.MeshElementArray.getBoundingBox:0
-#: ../../../../../src/abaqus/Mesh/MeshElementArray.py:docstring of abaqus.Mesh.MeshElementArray.MeshElementArray.getByBoundingBox:0
-#: ../../../../../src/abaqus/Mesh/MeshElementArray.py:docstring of abaqus.Mesh.MeshElementArray.MeshElementArray.getByBoundingCylinder:0
-#: ../../../../../src/abaqus/Mesh/MeshElementArray.py:docstring of abaqus.Mesh.MeshElementArray.MeshElementArray.getByBoundingSphere:0
-#: ../../../../../src/abaqus/Mesh/MeshElementArray.py:docstring of abaqus.Mesh.MeshElementArray.MeshElementArray.getExteriorEdges:0
-#: ../../../../../src/abaqus/Mesh/MeshElementArray.py:docstring of abaqus.Mesh.MeshElementArray.MeshElementArray.getExteriorFaces:0
-#: ../../../../../src/abaqus/Mesh/MeshElementArray.py:docstring of abaqus.Mesh.MeshElementArray.MeshElementArray.getFromLabel:0
-#: ../../../../../src/abaqus/Mesh/MeshElementArray.py:docstring of abaqus.Mesh.MeshElementArray.MeshElementArray.getMask:0
-#: ../../../../../src/abaqus/Mesh/MeshElementArray.py:docstring of abaqus.Mesh.MeshElementArray.MeshElementArray.getSequenceFromMask:0
-#: ../../../../../src/abaqus/Mesh/MeshElementArray.py:docstring of abaqus.Mesh.MeshElementArray.MeshElementArray.sequenceFromLabels:0
-#: ../../../../../src/abaqus/Mesh/MeshFace.py:docstring of abaqus.Mesh.MeshFace.MeshFace.getElemEdges:0
-#: ../../../../../src/abaqus/Mesh/MeshFace.py:docstring of abaqus.Mesh.MeshFace.MeshFace.getElemEdgesByFaceAngle:0
-#: ../../../../../src/abaqus/Mesh/MeshFace.py:docstring of abaqus.Mesh.MeshFace.MeshFace.getElemFacesByFaceAngle:0
-#: ../../../../../src/abaqus/Mesh/MeshFace.py:docstring of abaqus.Mesh.MeshFace.MeshFace.getElemFacesByLayer:0
-#: ../../../../../src/abaqus/Mesh/MeshFace.py:docstring of abaqus.Mesh.MeshFace.MeshFace.getElemFacesByLimitingAngle:0
-#: ../../../../../src/abaqus/Mesh/MeshFace.py:docstring of abaqus.Mesh.MeshFace.MeshFace.getElements:0
-#: ../../../../../src/abaqus/Mesh/MeshFace.py:docstring of abaqus.Mesh.MeshFace.MeshFace.getElementsByFaceAngle:0
-#: ../../../../../src/abaqus/Mesh/MeshFace.py:docstring of abaqus.Mesh.MeshFace.MeshFace.getElementsViaTopology:0
-#: ../../../../../src/abaqus/Mesh/MeshFace.py:docstring of abaqus.Mesh.MeshFace.MeshFace.getNodes:0
-#: ../../../../../src/abaqus/Mesh/MeshFace.py:docstring of abaqus.Mesh.MeshFace.MeshFace.getNodesByFaceAngle:0
-#: ../../../../../src/abaqus/Mesh/MeshFace.py:docstring of abaqus.Mesh.MeshFace.MeshFace.getNormal:0
-#: ../../../../../src/abaqus/Mesh/MeshFaceArray.py:docstring of abaqus.Mesh.MeshFaceArray.MeshFaceArray.getMask:0
-#: ../../../../../src/abaqus/Mesh/MeshFaceArray.py:docstring of abaqus.Mesh.MeshFaceArray.MeshFaceArray.getSequenceFromMask:0
-#: ../../../../../src/abaqus/Mesh/MeshNode.py:docstring of abaqus.Mesh.MeshNode.MeshNode.getElemEdges:0
-#: ../../../../../src/abaqus/Mesh/MeshNode.py:docstring of abaqus.Mesh.MeshNode.MeshNode.getElemFaces:0
-#: ../../../../../src/abaqus/Mesh/MeshNode.py:docstring of abaqus.Mesh.MeshNode.MeshNode.getElements:0
-#: ../../../../../src/abaqus/Mesh/MeshNode.py:docstring of abaqus.Mesh.MeshNode.MeshNode.getNodesByFeatureEdge:0
-#: ../../../../../src/abaqus/Mesh/MeshNodeArray.py:docstring of abaqus.Mesh.MeshNodeArray.MeshNodeArray.getBoundingBox:0
-#: ../../../../../src/abaqus/Mesh/MeshNodeArray.py:docstring of abaqus.Mesh.MeshNodeArray.MeshNodeArray.getByBoundingBox:0
-#: ../../../../../src/abaqus/Mesh/MeshNodeArray.py:docstring of abaqus.Mesh.MeshNodeArray.MeshNodeArray.getByBoundingCylinder:0
-#: ../../../../../src/abaqus/Mesh/MeshNodeArray.py:docstring of abaqus.Mesh.MeshNodeArray.MeshNodeArray.getByBoundingSphere:0
-#: ../../../../../src/abaqus/Mesh/MeshNodeArray.py:docstring of abaqus.Mesh.MeshNodeArray.MeshNodeArray.getClosest:0
-#: ../../../../../src/abaqus/Mesh/MeshNodeArray.py:docstring of abaqus.Mesh.MeshNodeArray.MeshNodeArray.getFromLabel:0
-#: ../../../../../src/abaqus/Mesh/MeshNodeArray.py:docstring of abaqus.Mesh.MeshNodeArray.MeshNodeArray.getMask:0
-#: ../../../../../src/abaqus/Mesh/MeshNodeArray.py:docstring of abaqus.Mesh.MeshNodeArray.MeshNodeArray.getSequenceFromMask:0
-#: ../../../../../src/abaqus/Mesh/MeshNodeArray.py:docstring of abaqus.Mesh.MeshNodeArray.MeshNodeArray.sequenceFromLabels:0
-#: ../../../../../src/abaqus/Mesh/MeshPart.py:docstring of abaqus.Mesh.MeshPart.MeshPart.Node:0
-#: ../../../../../src/abaqus/Mesh/MeshPart.py:docstring of abaqus.Mesh.MeshPart.MeshPart.createVirtualTopology:0
-#: ../../../../../src/abaqus/Mesh/MeshPart.py:docstring of abaqus.Mesh.MeshPart.MeshPart.getEdgeSeeds:0
-#: ../../../../../src/abaqus/Mesh/MeshPart.py:docstring of abaqus.Mesh.MeshPart.MeshPart.getElementType:0
-#: ../../../../../src/abaqus/Mesh/MeshPart.py:docstring of abaqus.Mesh.MeshPart.MeshPart.getIncompatibleMeshInterfaces:0
-#: ../../../../../src/abaqus/Mesh/MeshPart.py:docstring of abaqus.Mesh.MeshPart.MeshPart.getMeshControl:0
-#: ../../../../../src/abaqus/Mesh/MeshPart.py:docstring of abaqus.Mesh.MeshPart.MeshPart.getMeshStats:0
-#: ../../../../../src/abaqus/Mesh/MeshPart.py:docstring of abaqus.Mesh.MeshPart.MeshPart.getPartSeeds:0
-#: ../../../../../src/abaqus/Mesh/MeshPart.py:docstring of abaqus.Mesh.MeshPart.MeshPart.getUnmeshedRegions:0
-#: ../../../../../src/abaqus/Mesh/MeshPart.py:docstring of abaqus.Mesh.MeshPart.MeshPart.ignoreEntity:0
-#: ../../../../../src/abaqus/Mesh/MeshPart.py:docstring of abaqus.Mesh.MeshPart.MeshPart.restoreIgnoredEntity:0
-#: ../../../../../src/abaqus/Mesh/MeshPart.py:docstring of abaqus.Mesh.MeshPart.MeshPart.verifyMeshQuality:0
+#: ../../../reference/mdb/model/mesh.md:0
 msgid "Return type"
 msgstr ""
 
@@ -1159,7 +929,6 @@ msgid "A value of NONE indicates that the edge is not seeded."
 msgstr ""
 
 #: ../../../../../src/abaqus/Mesh/MeshAssembly.py:docstring of abaqus.Mesh.MeshAssembly.MeshAssembly.getEdgeSeeds:64
-#: ../../../../../src/abaqus/Mesh/MeshPart.py:docstring of abaqus.Mesh.MeshPart.MeshPart.getEdgeSeeds:65
 msgid ":class:`Union[float`, :class:`int`, :class:`SymbolicConstant]`"
 msgstr ""
 
@@ -1192,18 +961,7 @@ msgstr ""
 msgid ":class:`ElementType`"
 msgstr ""
 
-#: ../../../../../src/abaqus/Mesh/MeshAssembly.py:docstring of abaqus.Mesh.MeshAssembly.MeshAssembly.getElementType:0
-#: ../../../../../src/abaqus/Mesh/MeshAssembly.py:docstring of abaqus.Mesh.MeshAssembly.MeshAssembly.getMeshControl:0
-#: ../../../../../src/abaqus/Mesh/MeshAssembly.py:docstring of abaqus.Mesh.MeshAssembly.MeshAssembly.getPartSeeds:0
-#: ../../../../../src/abaqus/Mesh/MeshAssembly.py:docstring of abaqus.Mesh.MeshAssembly.MeshAssembly.setElementType:0
-#: ../../../../../src/abaqus/Mesh/MeshEdgeArray.py:docstring of abaqus.Mesh.MeshEdgeArray.MeshEdgeArray.getSequenceFromMask:0
-#: ../../../../../src/abaqus/Mesh/MeshElementArray.py:docstring of abaqus.Mesh.MeshElementArray.MeshElementArray.sequenceFromLabels:0
-#: ../../../../../src/abaqus/Mesh/MeshFaceArray.py:docstring of abaqus.Mesh.MeshFaceArray.MeshFaceArray.getSequenceFromMask:0
-#: ../../../../../src/abaqus/Mesh/MeshNodeArray.py:docstring of abaqus.Mesh.MeshNodeArray.MeshNodeArray.sequenceFromLabels:0
-#: ../../../../../src/abaqus/Mesh/MeshPart.py:docstring of abaqus.Mesh.MeshPart.MeshPart.getElementType:0
-#: ../../../../../src/abaqus/Mesh/MeshPart.py:docstring of abaqus.Mesh.MeshPart.MeshPart.getMeshControl:0
-#: ../../../../../src/abaqus/Mesh/MeshPart.py:docstring of abaqus.Mesh.MeshPart.MeshPart.getPartSeeds:0
-#: ../../../../../src/abaqus/Mesh/MeshPart.py:docstring of abaqus.Mesh.MeshPart.MeshPart.setElementType:0
+#: ../../../reference/mdb/model/mesh.md:0
 msgid "Raises"
 msgstr ""
 
@@ -1296,7 +1054,6 @@ msgid "The return value is a SymbolicConstant or a Boolean depending on the valu
 msgstr ""
 
 #: ../../../../../src/abaqus/Mesh/MeshAssembly.py:docstring of abaqus.Mesh.MeshAssembly.MeshAssembly.getMeshControl:30
-#: ../../../../../src/abaqus/Mesh/MeshPart.py:docstring of abaqus.Mesh.MeshPart.MeshPart.getMeshControl:31
 msgid ":class:`Union[bool`, :class:`SymbolicConstant]`"
 msgstr ""
 
@@ -2979,6 +2736,10 @@ msgstr ""
 msgid "The return value is a Float, an Int, or a SymbolicConstant depending on the value of the **attribute** argument.  The return value is dependent on the **attribute** argument.  - If **attribute** = EDGE_SEEDING_METHOD, the return value is a SymbolicConstant specifying   the edge seeding method used to create the seeds along the edge. Possible values are: UNIFORM_BY_NUMBER, UNIFORM_BY_SIZE, CURVATURE_BASED_BY_SIZE, BIASED, NONE  - If **attribute** = BIAS_METHOD, the return value is a SymbolicConstant specifying the bias   type used to create the seeds along the edge. Possible values are: SINGLE, DOUBLE, NONE  - If **attribute** = NUMBER, the return value is an Int specifying the number of element   seeds along the edge. - If **attribute** = AVERAGE_SIZE, the return value is a Float specifying the average   element size along the edge. - If **attribute** = DEVIATION_FACTOR, the return value is a Float specifying the deviation   factor h/Lh/L, where hh is the chordal deviation and LL is the element length. If edge   seeds are not defined, the return value is zero. - If **attribute** = MIN_SIZE_FACTOR, the return value is a Float specifying the size of the   smallest allowable element as a fraction of the specified global element size. If edge   seeds are not defined, the return value is zero. - If **attribute** = BIAS_RATIO, the return value is a Float specifying the length ratio of   the largest element to the smallest element. - If **attribute** = BIAS_MIN_SIZE, the return value is a Float specifying the length of the   largest element; only applicable if the EDGE_SEEDING_METHOD is BIASED and seeds were   specified by minimum and maximum sizes. - If **attribute** = BIAS_MAX_SIZE, the return value is a Float specifying the length of the   largest element; only applicable if the EDGE_SEEDING_METHOD is BIASED and seeds were   specified by minimum and maximum sizes. - If **attribute** = VERTEX_ADJ_TO_SMALLEST_ELEM, the return value is an Int specifying the   ID of the vertex next to the smallest element; only applicable if the   EDGE_SEEDING_METHOD is BIASED. - If **attribute** = SMALLEST_ELEM_LOCATION, the return value is a SymbolicConstant   specifying the location of smallest elements for double bias seeds; only applicable if   the EDGE_SEEDING_METHOD is BIASED and BIAS_METHOD is DOUBLE. Possible values are: SMALLEST_ELEM_AT_CENTER, SMALLEST_ELEM_AT_ENDS, NONE  - If **attribute** = CONSTRAINT, the return value is a SymbolicConstant specifying how close   the seeds must be matched by the mesh. Possible values are: FREE, FINER, FIXED, NONE  A value of NONE indicates that the edge is not seeded."
 msgstr ""
 
+#: ../../../../../src/abaqus/Mesh/MeshPart.py:docstring of abaqus.Mesh.MeshPart.MeshPart.getEdgeSeeds:65
+msgid ":class:`float | int | SymbolicConstant`"
+msgstr ""
+
 #: ../../../../../src/abaqus/Mesh/MeshPart.py:docstring of abaqus.Mesh.MeshPart.MeshPart.getElementType:1
 msgid "This method returns the ElemType object of a given element shape assigned to a region of a part."
 msgstr ""
@@ -3045,6 +2806,10 @@ msgstr ""
 
 #: ../../../../../src/abaqus/Mesh/MeshPart.py:docstring of abaqus.Mesh.MeshPart.MeshPart.getMeshControl:9
 msgid "A SymbolicConstant specifying the mesh control attribute to return. Possible values are:  - ELEM_SHAPE - TECHNIQUE - ALGORITHM - MIN_TRANSITION  The return value is dependent on the **attribute** argument.  - If **attribute** = ELEM_SHAPE, the return value is a SymbolicConstant specifying the   element shape used during meshing. Possible values are: LINE, QUAD, TRI,  QUAD_DOMINATED, HEX, TET, WEDGE, HEX_DOMINATED  - If **attribute** = TECHNIQUE, the return value is a SymbolicConstant specifying the   meshing technique to be used during meshing. Possible values are: FREE, STRUCTURED, SWEEP, UNMESHABLE, Where UNMESHABLE indicates that no meshing technique is applicable with the currently assigned element shape. - If **attribute** = ALGORITHM, the return value is a SymbolicConstant specifying the   meshing algorithm to be used during meshing. Possible values are: MEDIAL_AXIS, ADVANCING_FRONT, DEFAULT, NON_DEFAULT, NONE, Where NONE indicates that no algorithm is applicable. - If **attribute** = MIN_TRANSITION, the return value is a Boolean indicating whether   minimum transition will be used during meshing. This option is applicable only to the   following: Free quadrilateral meshing or sweep hexahedral meshing with **algorithm** = MEDIAL_AXIS, Structured quadrilateral meshing."
+msgstr ""
+
+#: ../../../../../src/abaqus/Mesh/MeshPart.py:docstring of abaqus.Mesh.MeshPart.MeshPart.getMeshControl:31
+msgid ":class:`bool | SymbolicConstant`"
 msgstr ""
 
 #: ../../../../../src/abaqus/Mesh/MeshPart.py:docstring of abaqus.Mesh.MeshPart.MeshPart.getMeshStats:1

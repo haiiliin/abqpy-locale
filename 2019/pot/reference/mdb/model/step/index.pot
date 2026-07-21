@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: abqpy 2019\n"
+"Project-Id-Version: abqpy 2019.11\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-14 01:53+0000\n"
+"POT-Creation-Date: 2026-07-21 09:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -233,7 +233,7 @@ msgstr ""
 msgid "Check `StepModel on help.3ds.com/2019 <https://help.3ds.com/2019/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-modelpyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: ../../../../../src/abaqus/Step/StepModel.py:docstring of abaqus.Step.StepModel.StepModel:0
+#: ../../../reference/mdb/model/step/index.md:0
 msgid "Public Data Attributes:"
 msgstr ""
 
@@ -695,7 +695,7 @@ msgstr ""
 msgid "An Assembly object."
 msgstr ""
 
-#: ../../../../../src/abaqus/Step/StepModel.py:docstring of abaqus.Step.StepModel.StepModel:0
+#: ../../../reference/mdb/model/step/index.md:0
 msgid "Public Methods:"
 msgstr ""
 
@@ -951,43 +951,19 @@ msgstr ""
 msgid "This method creates a ViscoStep object."
 msgstr ""
 
-#: ../../../../None:7:<autosummary>:1
+#: ../../../../None:4:<autosummary>:1
 msgid ":py:obj:`__init__ <abaqus.Model.ModelBase.ModelBase.__init__>`\\ \\(name\\[\\, description\\, ...\\]\\)"
 msgstr ""
 
-#: ../../../../None:7:<autosummary>:1
+#: ../../../../None:4:<autosummary>:1
 msgid "This method creates a Model object."
 msgstr ""
 
-#: ../../../../None:7:<autosummary>:1
-msgid ":py:obj:`ModelFromInputFile <abaqus.Model.ModelBase.ModelBase.ModelFromInputFile>`\\ \\(name\\, inputFileName\\)"
-msgstr ""
-
-#: ../../../../None:7:<autosummary>:1
-msgid "This method creates a Model object by reading the keywords in an input file and creating the corresponding Abaqus/CAE objects."
-msgstr ""
-
-#: ../../../../None:7:<autosummary>:1
-msgid ":py:obj:`ModelFromOdbFile <abaqus.Model.ModelBase.ModelBase.ModelFromOdbFile>`\\ \\(name\\, odbFileName\\)"
-msgstr ""
-
-#: ../../../../None:7:<autosummary>:1
-msgid "This method creates a Model object by reading an output database and creating any corresponding Abaqus/CAE objects."
-msgstr ""
-
-#: ../../../../None:7:<autosummary>:1
-msgid ":py:obj:`ModelFromNastranFile <abaqus.Model.ModelBase.ModelBase.ModelFromNastranFile>`\\ \\(modelName\\, inputFileName\\)"
-msgstr ""
-
-#: ../../../../None:7:<autosummary>:1
-msgid "This method creates a Model object by reading the keywords in a Nastran bulk data file or Nastran input file and creating any corresponding Abaqus/CAE objects."
-msgstr ""
-
-#: ../../../../None:7:<autosummary>:1
+#: ../../../../None:4:<autosummary>:1
 msgid ":py:obj:`setValues <abaqus.Model.ModelBase.ModelBase.setValues>`\\ \\(\\[description\\, noPartsInputFile\\, ...\\]\\)"
 msgstr ""
 
-#: ../../../../None:7:<autosummary>:1
+#: ../../../../None:4:<autosummary>:1
 msgid "This method modifies the Model object."
 msgstr ""
 
@@ -1062,62 +1038,7 @@ msgstr ""
 msgid "Check `AnnealStep on help.3ds.com/2019 <https://help.3ds.com/2019/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-annealsteppyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: ../../../../../src/abaqus/Step/AnnealStep.py:docstring of abaqus.Step.AnnealStep.AnnealStep.setValues:0
-#: ../../../../../src/abaqus/Step/BuckleStep.py:docstring of abaqus.Step.BuckleStep.BuckleStep.setValues:0
-#: ../../../../../src/abaqus/Step/ComplexFrequencyStep.py:docstring of abaqus.Step.ComplexFrequencyStep.ComplexFrequencyStep.setValues:0
-#: ../../../../../src/abaqus/Step/CoupledTempDisplacementStep.py:docstring of abaqus.Step.CoupledTempDisplacementStep.CoupledTempDisplacementStep.setValues:0
-#: ../../../../../src/abaqus/Step/CoupledThermalElectricStep.py:docstring of abaqus.Step.CoupledThermalElectricStep.CoupledThermalElectricStep.setValues:0
-#: ../../../../../src/abaqus/Step/CoupledThermalElectricalStructuralStep.py:docstring of abaqus.Step.CoupledThermalElectricalStructuralStep.CoupledThermalElectricalStructuralStep.setValues:0
-#: ../../../../../src/abaqus/Step/DirectCyclicStep.py:docstring of abaqus.Step.DirectCyclicStep.DirectCyclicStep.setValues:0
-#: ../../../../../src/abaqus/Step/EmagTimeHarmonicStep.py:docstring of abaqus.Step.EmagTimeHarmonicStep.EmagTimeHarmonicStep.setValues:0
-#: ../../../../../src/abaqus/Step/ExplicitDynamicsStep.py:docstring of abaqus.Step.ExplicitDynamicsStep.ExplicitDynamicsStep.setValues:0
-#: ../../../../../src/abaqus/Step/FrequencyStep.py:docstring of abaqus.Step.FrequencyStep.FrequencyStep.setValues:0
-#: ../../../../../src/abaqus/Step/GeostaticStep.py:docstring of abaqus.Step.GeostaticStep.GeostaticStep.setValues:0
-#: ../../../../../src/abaqus/Step/HeatTransferStep.py:docstring of abaqus.Step.HeatTransferStep.HeatTransferStep.setValues:0
-#: ../../../../../src/abaqus/Step/ImplicitDynamicsStep.py:docstring of abaqus.Step.ImplicitDynamicsStep.ImplicitDynamicsStep.setValues:0
-#: ../../../../../src/abaqus/Step/MassDiffusionStep.py:docstring of abaqus.Step.MassDiffusionStep.MassDiffusionStep.setValues:0
-#: ../../../../../src/abaqus/Step/ModalDynamicsStep.py:docstring of abaqus.Step.ModalDynamicsStep.ModalDynamicsStep.setValues:0
-#: ../../../../../src/abaqus/Step/RandomResponseStep.py:docstring of abaqus.Step.RandomResponseStep.RandomResponseStep.setValues:0
-#: ../../../../../src/abaqus/Step/ResponseSpectrumStep.py:docstring of abaqus.Step.ResponseSpectrumStep.ResponseSpectrumStep.setValues:0
-#: ../../../../../src/abaqus/Step/SoilsStep.py:docstring of abaqus.Step.SoilsStep.SoilsStep.setValues:0
-#: ../../../../../src/abaqus/Step/StaticLinearPerturbationStep.py:docstring of abaqus.Step.StaticLinearPerturbationStep.StaticLinearPerturbationStep.setValues:0
-#: ../../../../../src/abaqus/Step/StaticRiksStep.py:docstring of abaqus.Step.StaticRiksStep.StaticRiksStep.setValues:0
-#: ../../../../../src/abaqus/Step/StaticStep.py:docstring of abaqus.Step.StaticStep.StaticStep.setValues:0
-#: ../../../../../src/abaqus/Step/SteadyStateDirectStep.py:docstring of abaqus.Step.SteadyStateDirectStep.SteadyStateDirectStep.setValues:0
-#: ../../../../../src/abaqus/Step/SteadyStateModalStep.py:docstring of abaqus.Step.SteadyStateModalStep.SteadyStateModalStep.setValues:0
-#: ../../../../../src/abaqus/Step/SteadyStateSubspaceStep.py:docstring of abaqus.Step.SteadyStateSubspaceStep.SteadyStateSubspaceStep.setValues:0
-#: ../../../../../src/abaqus/Step/StepModel.py:docstring of abaqus.Step.StepModel.StepModel.AnnealStep:0
-#: ../../../../../src/abaqus/Step/StepModel.py:docstring of abaqus.Step.StepModel.StepModel.BuckleStep:0
-#: ../../../../../src/abaqus/Step/StepModel.py:docstring of abaqus.Step.StepModel.StepModel.ComplexFrequencyStep:0
-#: ../../../../../src/abaqus/Step/StepModel.py:docstring of abaqus.Step.StepModel.StepModel.CoupledTempDisplacementStep:0
-#: ../../../../../src/abaqus/Step/StepModel.py:docstring of abaqus.Step.StepModel.StepModel.CoupledThermalElectricStep:0
-#: ../../../../../src/abaqus/Step/StepModel.py:docstring of abaqus.Step.StepModel.StepModel.CoupledThermalElectricalStructuralStep:0
-#: ../../../../../src/abaqus/Step/StepModel.py:docstring of abaqus.Step.StepModel.StepModel.DirectCyclicStep:0
-#: ../../../../../src/abaqus/Step/StepModel.py:docstring of abaqus.Step.StepModel.StepModel.EmagTimeHarmonicStep:0
-#: ../../../../../src/abaqus/Step/StepModel.py:docstring of abaqus.Step.StepModel.StepModel.ExplicitDynamicsStep:0
-#: ../../../../../src/abaqus/Step/StepModel.py:docstring of abaqus.Step.StepModel.StepModel.FrequencyStep:0
-#: ../../../../../src/abaqus/Step/StepModel.py:docstring of abaqus.Step.StepModel.StepModel.GeostaticStep:0
-#: ../../../../../src/abaqus/Step/StepModel.py:docstring of abaqus.Step.StepModel.StepModel.HeatTransferStep:0
-#: ../../../../../src/abaqus/Step/StepModel.py:docstring of abaqus.Step.StepModel.StepModel.ImplicitDynamicsStep:0
-#: ../../../../../src/abaqus/Step/StepModel.py:docstring of abaqus.Step.StepModel.StepModel.MassDiffusionStep:0
-#: ../../../../../src/abaqus/Step/StepModel.py:docstring of abaqus.Step.StepModel.StepModel.ModalDynamicsStep:0
-#: ../../../../../src/abaqus/Step/StepModel.py:docstring of abaqus.Step.StepModel.StepModel.RandomResponseStep:0
-#: ../../../../../src/abaqus/Step/StepModel.py:docstring of abaqus.Step.StepModel.StepModel.ResponseSpectrumStep:0
-#: ../../../../../src/abaqus/Step/StepModel.py:docstring of abaqus.Step.StepModel.StepModel.SoilsStep:0
-#: ../../../../../src/abaqus/Step/StepModel.py:docstring of abaqus.Step.StepModel.StepModel.StaticLinearPerturbationStep:0
-#: ../../../../../src/abaqus/Step/StepModel.py:docstring of abaqus.Step.StepModel.StepModel.StaticRiksStep:0
-#: ../../../../../src/abaqus/Step/StepModel.py:docstring of abaqus.Step.StepModel.StepModel.StaticStep:0
-#: ../../../../../src/abaqus/Step/StepModel.py:docstring of abaqus.Step.StepModel.StepModel.SteadyStateDirectStep:0
-#: ../../../../../src/abaqus/Step/StepModel.py:docstring of abaqus.Step.StepModel.StepModel.SteadyStateModalStep:0
-#: ../../../../../src/abaqus/Step/StepModel.py:docstring of abaqus.Step.StepModel.StepModel.SteadyStateSubspaceStep:0
-#: ../../../../../src/abaqus/Step/StepModel.py:docstring of abaqus.Step.StepModel.StepModel.SubspaceDynamicsStep:0
-#: ../../../../../src/abaqus/Step/StepModel.py:docstring of abaqus.Step.StepModel.StepModel.SubstructureGenerateStep:0
-#: ../../../../../src/abaqus/Step/StepModel.py:docstring of abaqus.Step.StepModel.StepModel.TempDisplacementDynamicsStep:0
-#: ../../../../../src/abaqus/Step/StepModel.py:docstring of abaqus.Step.StepModel.StepModel.ViscoStep:0
-#: ../../../../../src/abaqus/Step/SubspaceDynamicsStep.py:docstring of abaqus.Step.SubspaceDynamicsStep.SubspaceDynamicsStep.setValues:0
-#: ../../../../../src/abaqus/Step/SubstructureGenerateStep.py:docstring of abaqus.Step.SubstructureGenerateStep.SubstructureGenerateStep.setValues:0
-#: ../../../../../src/abaqus/Step/TempDisplacementDynamicsStep.py:docstring of abaqus.Step.TempDisplacementDynamicsStep.TempDisplacementDynamicsStep.setValues:0
-#: ../../../../../src/abaqus/Step/ViscoStep.py:docstring of abaqus.Step.ViscoStep.ViscoStep.setValues:0
+#: ../../../reference/mdb/model/step/index.md:0
 msgid "Parameters"
 msgstr ""
 
@@ -1302,34 +1223,7 @@ msgstr ""
 msgid "A Boolean specifying whether to retain attributes from an existing step with the same name. The default value is False."
 msgstr ""
 
-#: ../../../../../src/abaqus/Step/StepModel.py:docstring of abaqus.Step.StepModel.StepModel.AnnealStep:0
-#: ../../../../../src/abaqus/Step/StepModel.py:docstring of abaqus.Step.StepModel.StepModel.BuckleStep:0
-#: ../../../../../src/abaqus/Step/StepModel.py:docstring of abaqus.Step.StepModel.StepModel.ComplexFrequencyStep:0
-#: ../../../../../src/abaqus/Step/StepModel.py:docstring of abaqus.Step.StepModel.StepModel.CoupledTempDisplacementStep:0
-#: ../../../../../src/abaqus/Step/StepModel.py:docstring of abaqus.Step.StepModel.StepModel.CoupledThermalElectricStep:0
-#: ../../../../../src/abaqus/Step/StepModel.py:docstring of abaqus.Step.StepModel.StepModel.CoupledThermalElectricalStructuralStep:0
-#: ../../../../../src/abaqus/Step/StepModel.py:docstring of abaqus.Step.StepModel.StepModel.DirectCyclicStep:0
-#: ../../../../../src/abaqus/Step/StepModel.py:docstring of abaqus.Step.StepModel.StepModel.EmagTimeHarmonicStep:0
-#: ../../../../../src/abaqus/Step/StepModel.py:docstring of abaqus.Step.StepModel.StepModel.ExplicitDynamicsStep:0
-#: ../../../../../src/abaqus/Step/StepModel.py:docstring of abaqus.Step.StepModel.StepModel.FrequencyStep:0
-#: ../../../../../src/abaqus/Step/StepModel.py:docstring of abaqus.Step.StepModel.StepModel.GeostaticStep:0
-#: ../../../../../src/abaqus/Step/StepModel.py:docstring of abaqus.Step.StepModel.StepModel.HeatTransferStep:0
-#: ../../../../../src/abaqus/Step/StepModel.py:docstring of abaqus.Step.StepModel.StepModel.ImplicitDynamicsStep:0
-#: ../../../../../src/abaqus/Step/StepModel.py:docstring of abaqus.Step.StepModel.StepModel.MassDiffusionStep:0
-#: ../../../../../src/abaqus/Step/StepModel.py:docstring of abaqus.Step.StepModel.StepModel.ModalDynamicsStep:0
-#: ../../../../../src/abaqus/Step/StepModel.py:docstring of abaqus.Step.StepModel.StepModel.RandomResponseStep:0
-#: ../../../../../src/abaqus/Step/StepModel.py:docstring of abaqus.Step.StepModel.StepModel.ResponseSpectrumStep:0
-#: ../../../../../src/abaqus/Step/StepModel.py:docstring of abaqus.Step.StepModel.StepModel.SoilsStep:0
-#: ../../../../../src/abaqus/Step/StepModel.py:docstring of abaqus.Step.StepModel.StepModel.StaticLinearPerturbationStep:0
-#: ../../../../../src/abaqus/Step/StepModel.py:docstring of abaqus.Step.StepModel.StepModel.StaticRiksStep:0
-#: ../../../../../src/abaqus/Step/StepModel.py:docstring of abaqus.Step.StepModel.StepModel.StaticStep:0
-#: ../../../../../src/abaqus/Step/StepModel.py:docstring of abaqus.Step.StepModel.StepModel.SteadyStateDirectStep:0
-#: ../../../../../src/abaqus/Step/StepModel.py:docstring of abaqus.Step.StepModel.StepModel.SteadyStateModalStep:0
-#: ../../../../../src/abaqus/Step/StepModel.py:docstring of abaqus.Step.StepModel.StepModel.SteadyStateSubspaceStep:0
-#: ../../../../../src/abaqus/Step/StepModel.py:docstring of abaqus.Step.StepModel.StepModel.SubspaceDynamicsStep:0
-#: ../../../../../src/abaqus/Step/StepModel.py:docstring of abaqus.Step.StepModel.StepModel.SubstructureGenerateStep:0
-#: ../../../../../src/abaqus/Step/StepModel.py:docstring of abaqus.Step.StepModel.StepModel.TempDisplacementDynamicsStep:0
-#: ../../../../../src/abaqus/Step/StepModel.py:docstring of abaqus.Step.StepModel.StepModel.ViscoStep:0
+#: ../../../reference/mdb/model/step/index.md:0
 msgid "Returns"
 msgstr ""
 
@@ -1337,34 +1231,7 @@ msgstr ""
 msgid "**step** -- An AnnealStep object."
 msgstr ""
 
-#: ../../../../../src/abaqus/Step/StepModel.py:docstring of abaqus.Step.StepModel.StepModel.AnnealStep:0
-#: ../../../../../src/abaqus/Step/StepModel.py:docstring of abaqus.Step.StepModel.StepModel.BuckleStep:0
-#: ../../../../../src/abaqus/Step/StepModel.py:docstring of abaqus.Step.StepModel.StepModel.ComplexFrequencyStep:0
-#: ../../../../../src/abaqus/Step/StepModel.py:docstring of abaqus.Step.StepModel.StepModel.CoupledTempDisplacementStep:0
-#: ../../../../../src/abaqus/Step/StepModel.py:docstring of abaqus.Step.StepModel.StepModel.CoupledThermalElectricStep:0
-#: ../../../../../src/abaqus/Step/StepModel.py:docstring of abaqus.Step.StepModel.StepModel.CoupledThermalElectricalStructuralStep:0
-#: ../../../../../src/abaqus/Step/StepModel.py:docstring of abaqus.Step.StepModel.StepModel.DirectCyclicStep:0
-#: ../../../../../src/abaqus/Step/StepModel.py:docstring of abaqus.Step.StepModel.StepModel.EmagTimeHarmonicStep:0
-#: ../../../../../src/abaqus/Step/StepModel.py:docstring of abaqus.Step.StepModel.StepModel.ExplicitDynamicsStep:0
-#: ../../../../../src/abaqus/Step/StepModel.py:docstring of abaqus.Step.StepModel.StepModel.FrequencyStep:0
-#: ../../../../../src/abaqus/Step/StepModel.py:docstring of abaqus.Step.StepModel.StepModel.GeostaticStep:0
-#: ../../../../../src/abaqus/Step/StepModel.py:docstring of abaqus.Step.StepModel.StepModel.HeatTransferStep:0
-#: ../../../../../src/abaqus/Step/StepModel.py:docstring of abaqus.Step.StepModel.StepModel.ImplicitDynamicsStep:0
-#: ../../../../../src/abaqus/Step/StepModel.py:docstring of abaqus.Step.StepModel.StepModel.MassDiffusionStep:0
-#: ../../../../../src/abaqus/Step/StepModel.py:docstring of abaqus.Step.StepModel.StepModel.ModalDynamicsStep:0
-#: ../../../../../src/abaqus/Step/StepModel.py:docstring of abaqus.Step.StepModel.StepModel.RandomResponseStep:0
-#: ../../../../../src/abaqus/Step/StepModel.py:docstring of abaqus.Step.StepModel.StepModel.ResponseSpectrumStep:0
-#: ../../../../../src/abaqus/Step/StepModel.py:docstring of abaqus.Step.StepModel.StepModel.SoilsStep:0
-#: ../../../../../src/abaqus/Step/StepModel.py:docstring of abaqus.Step.StepModel.StepModel.StaticLinearPerturbationStep:0
-#: ../../../../../src/abaqus/Step/StepModel.py:docstring of abaqus.Step.StepModel.StepModel.StaticRiksStep:0
-#: ../../../../../src/abaqus/Step/StepModel.py:docstring of abaqus.Step.StepModel.StepModel.StaticStep:0
-#: ../../../../../src/abaqus/Step/StepModel.py:docstring of abaqus.Step.StepModel.StepModel.SteadyStateDirectStep:0
-#: ../../../../../src/abaqus/Step/StepModel.py:docstring of abaqus.Step.StepModel.StepModel.SteadyStateModalStep:0
-#: ../../../../../src/abaqus/Step/StepModel.py:docstring of abaqus.Step.StepModel.StepModel.SteadyStateSubspaceStep:0
-#: ../../../../../src/abaqus/Step/StepModel.py:docstring of abaqus.Step.StepModel.StepModel.SubspaceDynamicsStep:0
-#: ../../../../../src/abaqus/Step/StepModel.py:docstring of abaqus.Step.StepModel.StepModel.SubstructureGenerateStep:0
-#: ../../../../../src/abaqus/Step/StepModel.py:docstring of abaqus.Step.StepModel.StepModel.TempDisplacementDynamicsStep:0
-#: ../../../../../src/abaqus/Step/StepModel.py:docstring of abaqus.Step.StepModel.StepModel.ViscoStep:0
+#: ../../../reference/mdb/model/step/index.md:0
 msgid "Return type"
 msgstr ""
 
@@ -4988,34 +4855,7 @@ msgstr ""
 msgid "Check `AnnealStep.setValues on help.3ds.com/2019 <https://help.3ds.com/2019/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-steppyc.htm?contextscope=all#simaker-stepsetvaluespyc>`__."
 msgstr ""
 
-#: ../../../../../src/abaqus/Step/AnnealStep.py:docstring of abaqus.Step.AnnealStep.AnnealStep.setValues:0
-#: ../../../../../src/abaqus/Step/BuckleStep.py:docstring of abaqus.Step.BuckleStep.BuckleStep.setValues:0
-#: ../../../../../src/abaqus/Step/ComplexFrequencyStep.py:docstring of abaqus.Step.ComplexFrequencyStep.ComplexFrequencyStep.setValues:0
-#: ../../../../../src/abaqus/Step/CoupledTempDisplacementStep.py:docstring of abaqus.Step.CoupledTempDisplacementStep.CoupledTempDisplacementStep.setValues:0
-#: ../../../../../src/abaqus/Step/CoupledThermalElectricStep.py:docstring of abaqus.Step.CoupledThermalElectricStep.CoupledThermalElectricStep.setValues:0
-#: ../../../../../src/abaqus/Step/CoupledThermalElectricalStructuralStep.py:docstring of abaqus.Step.CoupledThermalElectricalStructuralStep.CoupledThermalElectricalStructuralStep.setValues:0
-#: ../../../../../src/abaqus/Step/DirectCyclicStep.py:docstring of abaqus.Step.DirectCyclicStep.DirectCyclicStep.setValues:0
-#: ../../../../../src/abaqus/Step/EmagTimeHarmonicStep.py:docstring of abaqus.Step.EmagTimeHarmonicStep.EmagTimeHarmonicStep.setValues:0
-#: ../../../../../src/abaqus/Step/ExplicitDynamicsStep.py:docstring of abaqus.Step.ExplicitDynamicsStep.ExplicitDynamicsStep.setValues:0
-#: ../../../../../src/abaqus/Step/FrequencyStep.py:docstring of abaqus.Step.FrequencyStep.FrequencyStep.setValues:0
-#: ../../../../../src/abaqus/Step/GeostaticStep.py:docstring of abaqus.Step.GeostaticStep.GeostaticStep.setValues:0
-#: ../../../../../src/abaqus/Step/HeatTransferStep.py:docstring of abaqus.Step.HeatTransferStep.HeatTransferStep.setValues:0
-#: ../../../../../src/abaqus/Step/ImplicitDynamicsStep.py:docstring of abaqus.Step.ImplicitDynamicsStep.ImplicitDynamicsStep.setValues:0
-#: ../../../../../src/abaqus/Step/MassDiffusionStep.py:docstring of abaqus.Step.MassDiffusionStep.MassDiffusionStep.setValues:0
-#: ../../../../../src/abaqus/Step/ModalDynamicsStep.py:docstring of abaqus.Step.ModalDynamicsStep.ModalDynamicsStep.setValues:0
-#: ../../../../../src/abaqus/Step/RandomResponseStep.py:docstring of abaqus.Step.RandomResponseStep.RandomResponseStep.setValues:0
-#: ../../../../../src/abaqus/Step/ResponseSpectrumStep.py:docstring of abaqus.Step.ResponseSpectrumStep.ResponseSpectrumStep.setValues:0
-#: ../../../../../src/abaqus/Step/SoilsStep.py:docstring of abaqus.Step.SoilsStep.SoilsStep.setValues:0
-#: ../../../../../src/abaqus/Step/StaticLinearPerturbationStep.py:docstring of abaqus.Step.StaticLinearPerturbationStep.StaticLinearPerturbationStep.setValues:0
-#: ../../../../../src/abaqus/Step/StaticRiksStep.py:docstring of abaqus.Step.StaticRiksStep.StaticRiksStep.setValues:0
-#: ../../../../../src/abaqus/Step/StaticStep.py:docstring of abaqus.Step.StaticStep.StaticStep.setValues:0
-#: ../../../../../src/abaqus/Step/SteadyStateDirectStep.py:docstring of abaqus.Step.SteadyStateDirectStep.SteadyStateDirectStep.setValues:0
-#: ../../../../../src/abaqus/Step/SteadyStateModalStep.py:docstring of abaqus.Step.SteadyStateModalStep.SteadyStateModalStep.setValues:0
-#: ../../../../../src/abaqus/Step/SteadyStateSubspaceStep.py:docstring of abaqus.Step.SteadyStateSubspaceStep.SteadyStateSubspaceStep.setValues:0
-#: ../../../../../src/abaqus/Step/SubspaceDynamicsStep.py:docstring of abaqus.Step.SubspaceDynamicsStep.SubspaceDynamicsStep.setValues:0
-#: ../../../../../src/abaqus/Step/SubstructureGenerateStep.py:docstring of abaqus.Step.SubstructureGenerateStep.SubstructureGenerateStep.setValues:0
-#: ../../../../../src/abaqus/Step/TempDisplacementDynamicsStep.py:docstring of abaqus.Step.TempDisplacementDynamicsStep.TempDisplacementDynamicsStep.setValues:0
-#: ../../../../../src/abaqus/Step/ViscoStep.py:docstring of abaqus.Step.ViscoStep.ViscoStep.setValues:0
+#: ../../../reference/mdb/model/step/index.md:0
 msgid "Raises"
 msgstr ""
 
