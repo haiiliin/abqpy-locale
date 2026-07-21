@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: abqpy 2024\n"
+"Project-Id-Version: abqpy 2024.11\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-14 01:53+0000\n"
+"POT-Creation-Date: 2026-07-21 09:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -237,64 +237,7 @@ msgstr ""
 msgid "Check `AttachmentPoints on help.3ds.com/2024 <https://help.3ds.com/2024/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-attachmentpointspyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.AttachmentPoints:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.AttachmentPointsAlongDirection:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.AttachmentPointsOffsetFromEdges:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumAxisByCylFace:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumAxisByNormalToPlane:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumAxisByParToEdge:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumAxisByPrincipalAxis:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumAxisByThreePoint:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumAxisByThruEdge:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumAxisByTwoPlane:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumAxisByTwoPoint:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumCsysByDefault:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumCsysByOffset:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumCsysByThreePoints:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumCsysByTwoLines:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumPlaneByLinePoint:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumPlaneByPointNormal:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumPlaneByPrincipalPlane:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumPlaneByRotation:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumPlaneByThreePoints:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumPlaneByTwoPoint:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumPointByCoordinate:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumPointByEdgeParam:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumPointByMidPoint:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumPointByOffset:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumPointByOnFace:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumPointByProjOnEdge:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumPointByProjOnFace:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.MakeSketchTransform:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.PartitionCellByDatumPlane:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.PartitionCellByExtendFace:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.PartitionCellByExtrudeEdge:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.PartitionCellByPatchNCorners:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.PartitionCellByPatchNEdges:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.PartitionCellByPlaneNormalToEdge:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.PartitionCellByPlanePointNormal:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.PartitionCellByPlaneThreePoints:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.PartitionCellBySweepEdge:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.PartitionEdgeByDatumPlane:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.PartitionEdgeByParam:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.PartitionEdgeByPoint:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.PartitionFaceByAuto:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.PartitionFaceByCurvedPathEdgeParams:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.PartitionFaceByCurvedPathEdgePoints:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.PartitionFaceByDatumPlane:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.PartitionFaceByExtendFace:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.PartitionFaceByIntersectFace:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.PartitionFaceByProjectingEdges:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.PartitionFaceByShortestPath:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.PartitionFaceBySketch:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.PartitionFaceBySketchDistance:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.PartitionFaceBySketchRefPoint:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.PartitionFaceBySketchThruAll:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.ReferencePoint:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.RemoveWireEdges:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.WirePolyLine:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.setValues:0
-#: ../../../../../src/abaqus/Feature/FeatureOptions.py:docstring of abaqus.Feature.FeatureOptions.FeatureOptions.setValues:0
+#: ../../../reference/mdb/model/part_assembly/feature.md:0
 msgid "Parameters"
 msgstr ""
 
@@ -344,63 +287,7 @@ msgstr ""
 msgid "A String specifying a unique set name."
 msgstr ""
 
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.AttachmentPoints:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.AttachmentPointsAlongDirection:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.AttachmentPointsOffsetFromEdges:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumAxisByCylFace:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumAxisByNormalToPlane:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumAxisByParToEdge:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumAxisByPrincipalAxis:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumAxisByThreePoint:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumAxisByThruEdge:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumAxisByTwoPlane:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumAxisByTwoPoint:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumCsysByDefault:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumCsysByOffset:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumCsysByThreePoints:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumCsysByTwoLines:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumPlaneByLinePoint:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumPlaneByPointNormal:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumPlaneByPrincipalPlane:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumPlaneByRotation:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumPlaneByThreePoints:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumPlaneByTwoPoint:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumPointByCoordinate:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumPointByEdgeParam:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumPointByMidPoint:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumPointByOffset:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumPointByOnFace:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumPointByProjOnEdge:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumPointByProjOnFace:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.MakeSketchTransform:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.PartitionCellByDatumPlane:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.PartitionCellByExtendFace:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.PartitionCellByExtrudeEdge:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.PartitionCellByPatchNCorners:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.PartitionCellByPatchNEdges:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.PartitionCellByPlaneNormalToEdge:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.PartitionCellByPlanePointNormal:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.PartitionCellByPlaneThreePoints:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.PartitionCellBySweepEdge:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.PartitionEdgeByDatumPlane:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.PartitionEdgeByParam:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.PartitionEdgeByPoint:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.PartitionFaceByAuto:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.PartitionFaceByCurvedPathEdgeParams:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.PartitionFaceByCurvedPathEdgePoints:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.PartitionFaceByDatumPlane:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.PartitionFaceByExtendFace:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.PartitionFaceByIntersectFace:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.PartitionFaceByProjectingEdges:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.PartitionFaceByShortestPath:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.PartitionFaceBySketch:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.PartitionFaceBySketchDistance:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.PartitionFaceBySketchRefPoint:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.PartitionFaceBySketchThruAll:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.ReferencePoint:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.RemoveWireEdges:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.WirePolyLine:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.isSuppressed:0
+#: ../../../reference/mdb/model/part_assembly/feature.md:0
 msgid "Returns"
 msgstr ""
 
@@ -421,63 +308,7 @@ msgstr ""
 msgid "**feature** -- A Feature object"
 msgstr ""
 
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.AttachmentPoints:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.AttachmentPointsAlongDirection:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.AttachmentPointsOffsetFromEdges:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumAxisByCylFace:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumAxisByNormalToPlane:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumAxisByParToEdge:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumAxisByPrincipalAxis:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumAxisByThreePoint:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumAxisByThruEdge:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumAxisByTwoPlane:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumAxisByTwoPoint:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumCsysByDefault:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumCsysByOffset:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumCsysByThreePoints:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumCsysByTwoLines:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumPlaneByLinePoint:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumPlaneByPointNormal:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumPlaneByPrincipalPlane:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumPlaneByRotation:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumPlaneByThreePoints:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumPlaneByTwoPoint:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumPointByCoordinate:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumPointByEdgeParam:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumPointByMidPoint:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumPointByOffset:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumPointByOnFace:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumPointByProjOnEdge:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumPointByProjOnFace:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.MakeSketchTransform:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.PartitionCellByDatumPlane:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.PartitionCellByExtendFace:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.PartitionCellByExtrudeEdge:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.PartitionCellByPatchNCorners:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.PartitionCellByPatchNEdges:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.PartitionCellByPlaneNormalToEdge:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.PartitionCellByPlanePointNormal:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.PartitionCellByPlaneThreePoints:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.PartitionCellBySweepEdge:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.PartitionEdgeByDatumPlane:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.PartitionEdgeByParam:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.PartitionEdgeByPoint:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.PartitionFaceByAuto:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.PartitionFaceByCurvedPathEdgeParams:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.PartitionFaceByCurvedPathEdgePoints:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.PartitionFaceByDatumPlane:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.PartitionFaceByExtendFace:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.PartitionFaceByIntersectFace:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.PartitionFaceByProjectingEdges:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.PartitionFaceByShortestPath:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.PartitionFaceBySketch:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.PartitionFaceBySketchDistance:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.PartitionFaceBySketchRefPoint:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.PartitionFaceBySketchThruAll:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.ReferencePoint:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.RemoveWireEdges:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.WirePolyLine:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.isSuppressed:0
+#: ../../../reference/mdb/model/part_assembly/feature.md:0
 msgid "Return type"
 msgstr ""
 
@@ -715,49 +546,7 @@ msgstr ""
 msgid "A Feature object."
 msgstr ""
 
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumAxisByCylFace:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumAxisByNormalToPlane:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumAxisByParToEdge:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumAxisByPrincipalAxis:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumAxisByThreePoint:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumAxisByThruEdge:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumAxisByTwoPlane:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumAxisByTwoPoint:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumCsysByDefault:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumCsysByOffset:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumCsysByThreePoints:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumCsysByTwoLines:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumPlaneByLinePoint:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumPlaneByPointNormal:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumPlaneByPrincipalPlane:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumPlaneByRotation:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumPlaneByThreePoints:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumPlaneByTwoPoint:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumPointByEdgeParam:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumPointByOnFace:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumPointByProjOnEdge:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.DatumPointByProjOnFace:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.MakeSketchTransform:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.PartitionCellByDatumPlane:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.PartitionCellByExtendFace:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.PartitionCellByExtrudeEdge:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.PartitionCellByPatchNCorners:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.PartitionCellByPatchNEdges:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.PartitionCellByPlaneNormalToEdge:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.PartitionCellByPlanePointNormal:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.PartitionCellByPlaneThreePoints:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.PartitionCellBySweepEdge:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.PartitionEdgeByDatumPlane:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.PartitionEdgeByParam:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.PartitionEdgeByPoint:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.PartitionFaceByCurvedPathEdgeParams:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.PartitionFaceByCurvedPathEdgePoints:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.PartitionFaceByShortestPath:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.PartitionFaceBySketch:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.PartitionFaceBySketchDistance:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.PartitionFaceBySketchRefPoint:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.PartitionFaceBySketchThruAll:0
-#: ../../../../../src/abaqus/Feature/Feature.py:docstring of abaqus.Feature.Feature.Feature.setValues:0
+#: ../../../reference/mdb/model/part_assembly/feature.md:0
 msgid "Raises"
 msgstr ""
 
