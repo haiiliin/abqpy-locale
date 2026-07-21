@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: abqpy 2020\n"
+"Project-Id-Version: abqpy 2020.11\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-14 01:32+0000\n"
+"POT-Creation-Date: 2026-07-21 09:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -334,90 +334,90 @@ msgstr ""
 msgid "Highlight the line currently being executed in the main window. The following animation settings are available:"
 msgstr ""
 
-#: ../../../user/environment/pde-basics.md:182
+#: ../../../user/environment/pde-basics.md:181
 msgid "No animation."
 msgstr ""
 
-#: ../../../user/environment/pde-basics.md:183
+#: ../../../user/environment/pde-basics.md:182
 msgid "Animate main file (default). Highlights only the statements in the main function or method. Functions called from the main script are not highlighted."
 msgstr ""
 
-#: ../../../user/environment/pde-basics.md:184
+#: ../../../user/environment/pde-basics.md:183
 msgid "Animate main file functions. Highlights the main script statements and the statements in functions that are defined within the main file."
 msgstr ""
 
-#: ../../../user/environment/pde-basics.md:185
+#: ../../../user/environment/pde-basics.md:184
 msgid "Animate all files. Highlights the main script statements and statements within all functions for which the source code is available."
 msgstr ""
 
-#: ../../../user/environment/pde-basics.md:187
+#: ../../../user/environment/pde-basics.md:186
 msgid "**Python Code**"
 msgstr ""
 
-#: ../../../user/environment/pde-basics.md:189
+#: ../../../user/environment/pde-basics.md:188
 msgid "Control the appearance and editing behavior of Python scripts in the Abaqus PDE main window."
 msgstr ""
 
-#: ../../../user/environment/pde-basics.md:191
+#: ../../../user/environment/pde-basics.md:189
 msgid "**Syntax Coloring**"
 msgstr ""
 
-#: ../../../user/environment/pde-basics.md:193
+#: ../../../user/environment/pde-basics.md:191
 msgid "Display the code using various font colors according to its purpose. This option is selected by default.You can view or change the color selections with the Choose Syntax Colors option."
 msgstr ""
 
-#: ../../../user/environment/pde-basics.md:195
+#: ../../../user/environment/pde-basics.md:193
 msgid "**Python Editing**"
 msgstr ""
 
-#: ../../../user/environment/pde-basics.md:197
+#: ../../../user/environment/pde-basics.md:195
 msgid "Edit scripts with Python formatting, such as indentation, included automatically. This option is selected by default."
 msgstr ""
 
-#: ../../../user/environment/pde-basics.md:199
+#: ../../../user/environment/pde-basics.md:197
 msgid "**Choose Syntax Colors**"
 msgstr ""
 
-#: ../../../user/environment/pde-basics.md:201
+#: ../../../user/environment/pde-basics.md:199
 msgid "Opens the **PDE Syntax Colors** dialog box in which you can view or change the color selections for editing scripts. Click **Reset Defaults** to restore the default colors."
 msgstr ""
 
-#: ../../../user/environment/pde-basics.md:203
+#: ../../../user/environment/pde-basics.md:201
 msgid "**CAE Command Line Extra Args...**"
 msgstr ""
 
-#: ../../../user/environment/pde-basics.md:205
+#: ../../../user/environment/pde-basics.md:203
 msgid "Enter extra arguments for use when Abaqus/CAE is launched from the Abaqus PDE."
 msgstr ""
 
-#: ../../../user/environment/pde-basics.md:207
+#: ../../../user/environment/pde-basics.md:205
 msgid "**Auto Trace in CAE**"
 msgstr ""
 
-#: ../../../user/environment/pde-basics.md:209
+#: ../../../user/environment/pde-basics.md:207
 msgid "Automatically trace code in GUI and kernel processes of Abaqus/CAE. The script will be traced until it returns from the frame in which the trace started. The trace will therefore stop when the function returns or the end of the script is reached. This option is selected by default."
 msgstr ""
 
-#: ../../../user/environment/pde-basics.md:211
+#: ../../../user/environment/pde-basics.md:209
 msgid "The message area and GUI command line interface"
 msgstr ""
 
-#: ../../../user/environment/pde-basics.md:213
+#: ../../../user/environment/pde-basics.md:211
 msgid "The message area and the GUI command line interface share the space at the bottom of the Abaqus PDE, similar to the kernel command line interface in Abaqus/CAE. (For more information, see [Components of the main window](https://help.3ds.com/2021/English/DSSIMULIA_Established/SIMACAECAERefMap/simacae-c-topmainabqwindow.htm?contextscope=all).) The message area is displayed by default. It displays messages and warnings as you run scripts in the Abaqus PDE."
 msgstr ""
 
-#: ../../../user/environment/pde-basics.md:215
+#: ../../../user/environment/pde-basics.md:213
 msgid "The GUI command line interface is hidden by default, but it uses the same space occupied by the message area. Click ![ico_guiCli](/images/ico_guiCli.png) in the bottom left corner of the Abaqus PDE main window to switch from the message area to the GUI command line interface. The GUI and kernel processes in Abaqus/CAE run separately, each using its own Python interpreter. You can use the GUI command line interface to type Python commands and to evaluate mathematical expressions using the Python interpreter that is built into the Abaqus/CAE GUI. You can use the kernel command line interface in Abaqus/CAE for similar tasks. Each command line interface includes primary (>>>) and secondary (...) prompts to indicate when you must indent commands to comply with Python syntax. After you use the GUI command line interface, click ![afxI_messageArea](/images/afxI_messageArea.png) to display the message area."
 msgstr ""
 
-#: ../../../user/environment/pde-basics.md:215
+#: ../../../user/environment/pde-basics.md:213
 msgid "ico_guiCli"
 msgstr ""
 
-#: ../../../user/environment/pde-basics.md:215
+#: ../../../user/environment/pde-basics.md:213
 msgid "afxI_messageArea"
 msgstr ""
 
-#: ../../../user/environment/pde-basics.md:217
+#: ../../../user/environment/pde-basics.md:215
 msgid "If new messages are generated in the message area while the GUI command line interface is active, the background around the message area icon turns red. The background reverts to its normal color when you display the message area."
 msgstr ""

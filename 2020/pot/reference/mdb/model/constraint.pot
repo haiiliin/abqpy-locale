@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: abqpy 2020\n"
+"Project-Id-Version: abqpy 2020.11\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-14 01:53+0000\n"
+"POT-Creation-Date: 2026-07-21 09:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -104,7 +104,7 @@ msgstr ""
 msgid "Check `ConstraintModel on help.3ds.com/2020 <https://help.3ds.com/2020/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-modelpyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: ../../../../../src/abaqus/Constraint/ConstraintModel.py:docstring of abaqus.Constraint.ConstraintModel.ConstraintModel:0
+#: ../../../reference/mdb/model/constraint.md:0
 msgid "Public Data Attributes:"
 msgstr ""
 
@@ -532,7 +532,7 @@ msgstr ""
 msgid "An Assembly object."
 msgstr ""
 
-#: ../../../../../src/abaqus/Constraint/ConstraintModel.py:docstring of abaqus.Constraint.ConstraintModel.ConstraintModel:0
+#: ../../../reference/mdb/model/constraint.md:0
 msgid "Public Methods:"
 msgstr ""
 
@@ -617,43 +617,19 @@ msgstr ""
 msgid "This method creates a Tie object."
 msgstr ""
 
-#: ../../../../None:7:<autosummary>:1
+#: ../../../../None:4:<autosummary>:1
 msgid ":py:obj:`__init__ <abaqus.Model.ModelBase.ModelBase.__init__>`\\ \\(name\\[\\, description\\, ...\\]\\)"
 msgstr ""
 
-#: ../../../../None:7:<autosummary>:1
+#: ../../../../None:4:<autosummary>:1
 msgid "This method creates a Model object."
 msgstr ""
 
-#: ../../../../None:7:<autosummary>:1
-msgid ":py:obj:`ModelFromInputFile <abaqus.Model.ModelBase.ModelBase.ModelFromInputFile>`\\ \\(name\\, inputFileName\\)"
-msgstr ""
-
-#: ../../../../None:7:<autosummary>:1
-msgid "This method creates a Model object by reading the keywords in an input file and creating the corresponding Abaqus/CAE objects."
-msgstr ""
-
-#: ../../../../None:7:<autosummary>:1
-msgid ":py:obj:`ModelFromOdbFile <abaqus.Model.ModelBase.ModelBase.ModelFromOdbFile>`\\ \\(name\\, odbFileName\\)"
-msgstr ""
-
-#: ../../../../None:7:<autosummary>:1
-msgid "This method creates a Model object by reading an output database and creating any corresponding Abaqus/CAE objects."
-msgstr ""
-
-#: ../../../../None:7:<autosummary>:1
-msgid ":py:obj:`ModelFromNastranFile <abaqus.Model.ModelBase.ModelBase.ModelFromNastranFile>`\\ \\(modelName\\, inputFileName\\)"
-msgstr ""
-
-#: ../../../../None:7:<autosummary>:1
-msgid "This method creates a Model object by reading the keywords in a Nastran bulk data file or Nastran input file and creating any corresponding Abaqus/CAE objects."
-msgstr ""
-
-#: ../../../../None:7:<autosummary>:1
+#: ../../../../None:4:<autosummary>:1
 msgid ":py:obj:`setValues <abaqus.Model.ModelBase.ModelBase.setValues>`\\ \\(\\[description\\, noPartsInputFile\\, ...\\]\\)"
 msgstr ""
 
-#: ../../../../None:7:<autosummary>:1
+#: ../../../../None:4:<autosummary>:1
 msgid "This method modifies the Model object."
 msgstr ""
 
@@ -688,22 +664,7 @@ msgstr ""
 msgid "Check `AdjustPoints on help.3ds.com/2020 <https://help.3ds.com/2020/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-adjustpointspyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: ../../../../../src/abaqus/Constraint/Constraint.py:docstring of abaqus.Constraint.Constraint.Constraint.delete:0
-#: ../../../../../src/abaqus/Constraint/ConstraintModel.py:docstring of abaqus.Constraint.ConstraintModel.ConstraintModel.AdjustPoints:0
-#: ../../../../../src/abaqus/Constraint/ConstraintModel.py:docstring of abaqus.Constraint.ConstraintModel.ConstraintModel.Coupling:0
-#: ../../../../../src/abaqus/Constraint/ConstraintModel.py:docstring of abaqus.Constraint.ConstraintModel.ConstraintModel.DisplayBody:0
-#: ../../../../../src/abaqus/Constraint/ConstraintModel.py:docstring of abaqus.Constraint.ConstraintModel.ConstraintModel.EmbeddedRegion:0
-#: ../../../../../src/abaqus/Constraint/ConstraintModel.py:docstring of abaqus.Constraint.ConstraintModel.ConstraintModel.Equation:0
-#: ../../../../../src/abaqus/Constraint/ConstraintModel.py:docstring of abaqus.Constraint.ConstraintModel.ConstraintModel.MultipointConstraint:0
-#: ../../../../../src/abaqus/Constraint/ConstraintModel.py:docstring of abaqus.Constraint.ConstraintModel.ConstraintModel.RigidBody:0
-#: ../../../../../src/abaqus/Constraint/ConstraintModel.py:docstring of abaqus.Constraint.ConstraintModel.ConstraintModel.ShellSolidCoupling:0
-#: ../../../../../src/abaqus/Constraint/ConstraintModel.py:docstring of abaqus.Constraint.ConstraintModel.ConstraintModel.Tie:0
-#: ../../../../../src/abaqus/Constraint/Coupling.py:docstring of abaqus.Constraint.Coupling.Coupling.setValues:0
-#: ../../../../../src/abaqus/Constraint/EmbeddedRegion.py:docstring of abaqus.Constraint.EmbeddedRegion.EmbeddedRegion.setValues:0
-#: ../../../../../src/abaqus/Constraint/MultipointConstraint.py:docstring of abaqus.Constraint.MultipointConstraint.MultipointConstraint.setValues:0
-#: ../../../../../src/abaqus/Constraint/RigidBody.py:docstring of abaqus.Constraint.RigidBody.RigidBody.setValues:0
-#: ../../../../../src/abaqus/Constraint/ShellSolidCoupling.py:docstring of abaqus.Constraint.ShellSolidCoupling.ShellSolidCoupling.setValues:0
-#: ../../../../../src/abaqus/Constraint/Tie.py:docstring of abaqus.Constraint.Tie.Tie.setValues:0
+#: ../../../reference/mdb/model/constraint.md:0
 msgid "Parameters"
 msgstr ""
 
@@ -730,15 +691,7 @@ msgstr ""
 msgid "A Region object specifying the constraint control points."
 msgstr ""
 
-#: ../../../../../src/abaqus/Constraint/ConstraintModel.py:docstring of abaqus.Constraint.ConstraintModel.ConstraintModel.AdjustPoints:0
-#: ../../../../../src/abaqus/Constraint/ConstraintModel.py:docstring of abaqus.Constraint.ConstraintModel.ConstraintModel.Coupling:0
-#: ../../../../../src/abaqus/Constraint/ConstraintModel.py:docstring of abaqus.Constraint.ConstraintModel.ConstraintModel.DisplayBody:0
-#: ../../../../../src/abaqus/Constraint/ConstraintModel.py:docstring of abaqus.Constraint.ConstraintModel.ConstraintModel.EmbeddedRegion:0
-#: ../../../../../src/abaqus/Constraint/ConstraintModel.py:docstring of abaqus.Constraint.ConstraintModel.ConstraintModel.Equation:0
-#: ../../../../../src/abaqus/Constraint/ConstraintModel.py:docstring of abaqus.Constraint.ConstraintModel.ConstraintModel.MultipointConstraint:0
-#: ../../../../../src/abaqus/Constraint/ConstraintModel.py:docstring of abaqus.Constraint.ConstraintModel.ConstraintModel.RigidBody:0
-#: ../../../../../src/abaqus/Constraint/ConstraintModel.py:docstring of abaqus.Constraint.ConstraintModel.ConstraintModel.ShellSolidCoupling:0
-#: ../../../../../src/abaqus/Constraint/ConstraintModel.py:docstring of abaqus.Constraint.ConstraintModel.ConstraintModel.Tie:0
+#: ../../../reference/mdb/model/constraint.md:0
 msgid "Returns"
 msgstr ""
 
@@ -746,15 +699,7 @@ msgstr ""
 msgid "An AdjustPoints object."
 msgstr ""
 
-#: ../../../../../src/abaqus/Constraint/ConstraintModel.py:docstring of abaqus.Constraint.ConstraintModel.ConstraintModel.AdjustPoints:0
-#: ../../../../../src/abaqus/Constraint/ConstraintModel.py:docstring of abaqus.Constraint.ConstraintModel.ConstraintModel.Coupling:0
-#: ../../../../../src/abaqus/Constraint/ConstraintModel.py:docstring of abaqus.Constraint.ConstraintModel.ConstraintModel.DisplayBody:0
-#: ../../../../../src/abaqus/Constraint/ConstraintModel.py:docstring of abaqus.Constraint.ConstraintModel.ConstraintModel.EmbeddedRegion:0
-#: ../../../../../src/abaqus/Constraint/ConstraintModel.py:docstring of abaqus.Constraint.ConstraintModel.ConstraintModel.Equation:0
-#: ../../../../../src/abaqus/Constraint/ConstraintModel.py:docstring of abaqus.Constraint.ConstraintModel.ConstraintModel.MultipointConstraint:0
-#: ../../../../../src/abaqus/Constraint/ConstraintModel.py:docstring of abaqus.Constraint.ConstraintModel.ConstraintModel.RigidBody:0
-#: ../../../../../src/abaqus/Constraint/ConstraintModel.py:docstring of abaqus.Constraint.ConstraintModel.ConstraintModel.ShellSolidCoupling:0
-#: ../../../../../src/abaqus/Constraint/ConstraintModel.py:docstring of abaqus.Constraint.ConstraintModel.ConstraintModel.Tie:0
+#: ../../../reference/mdb/model/constraint.md:0
 msgid "Return type"
 msgstr ""
 
@@ -939,8 +884,7 @@ msgstr ""
 msgid ":class:`Equation`"
 msgstr ""
 
-#: ../../../../../src/abaqus/Constraint/ConstraintModel.py:docstring of abaqus.Constraint.ConstraintModel.ConstraintModel.Equation:0
-#: ../../../../../src/abaqus/Constraint/Equation.py:docstring of abaqus.Constraint.Equation.Equation.setValues:0
+#: ../../../reference/mdb/model/constraint.md:0
 msgid "Raises"
 msgstr ""
 
