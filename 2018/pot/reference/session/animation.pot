@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: abqpy 2018\n"
+"Project-Id-Version: abqpy 2018.11\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-06 02:36+0000\n"
+"POT-Creation-Date: 2026-07-21 09:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -150,17 +150,7 @@ msgstr ""
 msgid "Check `AVIOptions.setValues on help.3ds.com/2018 <https://help.3ds.com/2018/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-avioptionspyc.htm?contextscope=all#simaker-avioptionssetvaluespyc>`__."
 msgstr ""
 
-#: ../../../../../src/abaqus/Animation/AVIOptions.py:docstring of abaqus.Animation.AVIOptions.AVIOptions.setValues:0
-#: ../../../../../src/abaqus/Animation/AnimationController.py:docstring of abaqus.Animation.AnimationController.AnimationController.play:0
-#: ../../../../../src/abaqus/Animation/AnimationController.py:docstring of abaqus.Animation.AnimationController.AnimationController.setValues:0
-#: ../../../../../src/abaqus/Animation/AnimationController.py:docstring of abaqus.Animation.AnimationController.AnimationController.showFrame:0
-#: ../../../../../src/abaqus/Animation/AnimationOptions.py:docstring of abaqus.Animation.AnimationOptions.AnimationOptions.setValues:0
-#: ../../../../../src/abaqus/Animation/AnimationSession.py:docstring of abaqus.Animation.AnimationSession.AnimationSession.Movie:0
-#: ../../../../../src/abaqus/Animation/AnimationSession.py:docstring of abaqus.Animation.AnimationSession.AnimationSession.writeImageAnimation:0
-#: ../../../../../src/abaqus/Animation/ImageAnimation.py:docstring of abaqus.Animation.ImageAnimation.ImageAnimation.writeFrame:0
-#: ../../../../../src/abaqus/Animation/ImageAnimationOptions.py:docstring of abaqus.Animation.ImageAnimationOptions.ImageAnimationOptions.setValues:0
-#: ../../../../../src/abaqus/Animation/Movie.py:docstring of abaqus.Animation.Movie.Movie.setValues:0
-#: ../../../../../src/abaqus/Animation/QuickTimeOptions.py:docstring of abaqus.Animation.QuickTimeOptions.QuickTimeOptions.setValues:0
+#: ../../../reference/session/animation.md:0
 msgid "Parameters"
 msgstr ""
 
@@ -212,10 +202,7 @@ msgstr ""
 msgid "The SymbolicConstant UNLIMITED or an Int specifying how many seconds to play the animation. The default value is UNLIMITED."
 msgstr ""
 
-#: ../../../../../src/abaqus/Animation/AnimationController.py:docstring of abaqus.Animation.AnimationController.AnimationController.play:0
-#: ../../../../../src/abaqus/Animation/AnimationController.py:docstring of abaqus.Animation.AnimationController.AnimationController.setValues:0
-#: ../../../../../src/abaqus/Animation/AnimationSession.py:docstring of abaqus.Animation.AnimationSession.AnimationSession.Movie:0
-#: ../../../../../src/abaqus/Animation/Movie.py:docstring of abaqus.Animation.Movie.Movie.setValues:0
+#: ../../../reference/session/animation.md:0
 msgid "Raises"
 msgstr ""
 
@@ -522,7 +509,7 @@ msgstr ""
 msgid "The SymbolicConstant END_FRAME_TIME or a Float specifying the global timeline time that corresponds to the time of **endFrame**. The SymbolicConstant END_FRAME_TIME indicates the time in this movie corresponding to **endFrame**. The default value is END_FRAME_TIME."
 msgstr ""
 
-#: ../../../../../src/abaqus/Animation/AnimationSession.py:docstring of abaqus.Animation.AnimationSession.AnimationSession.Movie:0
+#: ../../../reference/session/animation.md:0
 msgid "Returns"
 msgstr ""
 
@@ -530,7 +517,7 @@ msgstr ""
 msgid "A Movie object."
 msgstr ""
 
-#: ../../../../../src/abaqus/Animation/AnimationSession.py:docstring of abaqus.Animation.AnimationSession.AnimationSession.Movie:0
+#: ../../../reference/session/animation.md:0
 msgid "Return type"
 msgstr ""
 
