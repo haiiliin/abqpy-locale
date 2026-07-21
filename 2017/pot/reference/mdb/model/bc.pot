@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: abqpy 2017\n"
+"Project-Id-Version: abqpy 2017.11\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-14 01:54+0000\n"
+"POT-Creation-Date: 2026-07-21 09:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -312,7 +312,7 @@ msgstr ""
 msgid "Check `BoundaryConditionModel on help.3ds.com/2017 <https://help.3ds.com/2017/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-modelpyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryConditionModel.py:docstring of abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel:0
+#: ../../../reference/mdb/model/bc.md:0
 msgid "Public Data Attributes:"
 msgstr ""
 
@@ -716,7 +716,7 @@ msgstr ""
 msgid "An Assembly object."
 msgstr ""
 
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryConditionModel.py:docstring of abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel:0
+#: ../../../reference/mdb/model/bc.md:0
 msgid "Public Methods:"
 msgstr ""
 
@@ -995,43 +995,19 @@ msgstr ""
 msgid "This method creates a TypeBC object that specifies antisymmetry about the **Z** axis."
 msgstr ""
 
-#: ../../../../None:7:<autosummary>:1
+#: ../../../../None:4:<autosummary>:1
 msgid ":py:obj:`__init__ <abaqus.Model.ModelBase.ModelBase.__init__>`\\ \\(name\\[\\, description\\, ...\\]\\)"
 msgstr ""
 
-#: ../../../../None:7:<autosummary>:1
+#: ../../../../None:4:<autosummary>:1
 msgid "This method creates a Model object."
 msgstr ""
 
-#: ../../../../None:7:<autosummary>:1
-msgid ":py:obj:`ModelFromInputFile <abaqus.Model.ModelBase.ModelBase.ModelFromInputFile>`\\ \\(name\\, inputFileName\\)"
-msgstr ""
-
-#: ../../../../None:7:<autosummary>:1
-msgid "This method creates a Model object by reading the keywords in an input file and creating the corresponding Abaqus/CAE objects."
-msgstr ""
-
-#: ../../../../None:7:<autosummary>:1
-msgid ":py:obj:`ModelFromOdbFile <abaqus.Model.ModelBase.ModelBase.ModelFromOdbFile>`\\ \\(name\\, odbFileName\\)"
-msgstr ""
-
-#: ../../../../None:7:<autosummary>:1
-msgid "This method creates a Model object by reading an output database and creating any corresponding Abaqus/CAE objects."
-msgstr ""
-
-#: ../../../../None:7:<autosummary>:1
-msgid ":py:obj:`ModelFromNastranFile <abaqus.Model.ModelBase.ModelBase.ModelFromNastranFile>`\\ \\(modelName\\, inputFileName\\)"
-msgstr ""
-
-#: ../../../../None:7:<autosummary>:1
-msgid "This method creates a Model object by reading the keywords in a Nastran bulk data file or Nastran input file and creating any corresponding Abaqus/CAE objects."
-msgstr ""
-
-#: ../../../../None:7:<autosummary>:1
+#: ../../../../None:4:<autosummary>:1
 msgid ":py:obj:`setValues <abaqus.Model.ModelBase.ModelBase.setValues>`\\ \\(\\[description\\, noPartsInputFile\\, ...\\]\\)"
 msgstr ""
 
-#: ../../../../None:7:<autosummary>:1
+#: ../../../../None:4:<autosummary>:1
 msgid "This method modifies the Model object."
 msgstr ""
 
@@ -1131,93 +1107,7 @@ msgstr ""
 msgid "Check `AccelerationBC on help.3ds.com/2017 <https://help.3ds.com/2017/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-accelerationbcpyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: ../../../../../src/abaqus/BoundaryCondition/AccelerationBC.py:docstring of abaqus.BoundaryCondition.AccelerationBC.AccelerationBC.setValues:0
-#: ../../../../../src/abaqus/BoundaryCondition/AccelerationBC.py:docstring of abaqus.BoundaryCondition.AccelerationBC.AccelerationBC.setValuesInStep:0
-#: ../../../../../src/abaqus/BoundaryCondition/AccelerationBaseMotionBC.py:docstring of abaqus.BoundaryCondition.AccelerationBaseMotionBC.AccelerationBaseMotionBC.setValues:0
-#: ../../../../../src/abaqus/BoundaryCondition/AccelerationBaseMotionBC.py:docstring of abaqus.BoundaryCondition.AccelerationBaseMotionBC.AccelerationBaseMotionBC.setValuesInStep:0
-#: ../../../../../src/abaqus/BoundaryCondition/AcousticPressureBC.py:docstring of abaqus.BoundaryCondition.AcousticPressureBC.AcousticPressureBC.setValues:0
-#: ../../../../../src/abaqus/BoundaryCondition/AcousticPressureBC.py:docstring of abaqus.BoundaryCondition.AcousticPressureBC.AcousticPressureBC.setValuesInStep:0
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryCondition.py:docstring of abaqus.BoundaryCondition.BoundaryCondition.BoundaryCondition.deactivate:0
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryCondition.py:docstring of abaqus.BoundaryCondition.BoundaryCondition.BoundaryCondition.delete:0
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryCondition.py:docstring of abaqus.BoundaryCondition.BoundaryCondition.BoundaryCondition.move:0
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryCondition.py:docstring of abaqus.BoundaryCondition.BoundaryCondition.BoundaryCondition.reset:0
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryConditionModel.py:docstring of abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.AccelerationBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryConditionModel.py:docstring of abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.AccelerationBaseMotionBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryConditionModel.py:docstring of abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.AcousticPressureBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryConditionModel.py:docstring of abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConcentrationBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryConditionModel.py:docstring of abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnAccelerationBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryConditionModel.py:docstring of abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnDisplacementBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryConditionModel.py:docstring of abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnVelocityBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryConditionModel.py:docstring of abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.DisplacementBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryConditionModel.py:docstring of abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.DisplacementBaseMotionBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryConditionModel.py:docstring of abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ElectricPotentialBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryConditionModel.py:docstring of abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.EncastreBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryConditionModel.py:docstring of abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.EulerianBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryConditionModel.py:docstring of abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.EulerianMotionBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryConditionModel.py:docstring of abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.FluidCavityPressureBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryConditionModel.py:docstring of abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.MagneticVectorPotentialBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryConditionModel.py:docstring of abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.MaterialFlowBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryConditionModel.py:docstring of abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.PinnedBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryConditionModel.py:docstring of abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.PorePressureBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryConditionModel.py:docstring of abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.RetainedNodalDofsBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryConditionModel.py:docstring of abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.SecondaryBaseBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryConditionModel.py:docstring of abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.SubmodelBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryConditionModel.py:docstring of abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.TemperatureBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryConditionModel.py:docstring of abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.VelocityBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryConditionModel.py:docstring of abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.VelocityBaseMotionBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryConditionModel.py:docstring of abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.XasymmBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryConditionModel.py:docstring of abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.XsymmBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryConditionModel.py:docstring of abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.YasymmBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryConditionModel.py:docstring of abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.YsymmBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryConditionModel.py:docstring of abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ZasymmBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryConditionModel.py:docstring of abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ZsymmBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/ConcentrationBC.py:docstring of abaqus.BoundaryCondition.ConcentrationBC.ConcentrationBC.setValues:0
-#: ../../../../../src/abaqus/BoundaryCondition/ConcentrationBC.py:docstring of abaqus.BoundaryCondition.ConcentrationBC.ConcentrationBC.setValuesInStep:0
-#: ../../../../../src/abaqus/BoundaryCondition/ConnAccelerationBC.py:docstring of abaqus.BoundaryCondition.ConnAccelerationBC.ConnAccelerationBC.setValues:0
-#: ../../../../../src/abaqus/BoundaryCondition/ConnAccelerationBC.py:docstring of abaqus.BoundaryCondition.ConnAccelerationBC.ConnAccelerationBC.setValuesInStep:0
-#: ../../../../../src/abaqus/BoundaryCondition/ConnDisplacementBC.py:docstring of abaqus.BoundaryCondition.ConnDisplacementBC.ConnDisplacementBC.setValues:0
-#: ../../../../../src/abaqus/BoundaryCondition/ConnDisplacementBC.py:docstring of abaqus.BoundaryCondition.ConnDisplacementBC.ConnDisplacementBC.setValuesInStep:0
-#: ../../../../../src/abaqus/BoundaryCondition/ConnVelocityBC.py:docstring of abaqus.BoundaryCondition.ConnVelocityBC.ConnVelocityBC.setValues:0
-#: ../../../../../src/abaqus/BoundaryCondition/ConnVelocityBC.py:docstring of abaqus.BoundaryCondition.ConnVelocityBC.ConnVelocityBC.setValuesInStep:0
-#: ../../../../../src/abaqus/BoundaryCondition/DisplacementBC.py:docstring of abaqus.BoundaryCondition.DisplacementBC.DisplacementBC.setValues:0
-#: ../../../../../src/abaqus/BoundaryCondition/DisplacementBC.py:docstring of abaqus.BoundaryCondition.DisplacementBC.DisplacementBC.setValuesInStep:0
-#: ../../../../../src/abaqus/BoundaryCondition/DisplacementBaseMotionBC.py:docstring of abaqus.BoundaryCondition.DisplacementBaseMotionBC.DisplacementBaseMotionBC.setValues:0
-#: ../../../../../src/abaqus/BoundaryCondition/DisplacementBaseMotionBC.py:docstring of abaqus.BoundaryCondition.DisplacementBaseMotionBC.DisplacementBaseMotionBC.setValuesInStep:0
-#: ../../../../../src/abaqus/BoundaryCondition/ElectricPotentialBC.py:docstring of abaqus.BoundaryCondition.ElectricPotentialBC.ElectricPotentialBC.setValues:0
-#: ../../../../../src/abaqus/BoundaryCondition/ElectricPotentialBC.py:docstring of abaqus.BoundaryCondition.ElectricPotentialBC.ElectricPotentialBC.setValuesInStep:0
-#: ../../../../../src/abaqus/BoundaryCondition/EulerianBC.py:docstring of abaqus.BoundaryCondition.EulerianBC.EulerianBC.setValues:0
-#: ../../../../../src/abaqus/BoundaryCondition/EulerianBC.py:docstring of abaqus.BoundaryCondition.EulerianBC.EulerianBC.setValuesInStep:0
-#: ../../../../../src/abaqus/BoundaryCondition/EulerianMotionBC.py:docstring of abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC.setValues:0
-#: ../../../../../src/abaqus/BoundaryCondition/EulerianMotionBC.py:docstring of abaqus.BoundaryCondition.EulerianMotionBC.EulerianMotionBC.setValuesInStep:0
-#: ../../../../../src/abaqus/BoundaryCondition/FluidCavityPressureBC.py:docstring of abaqus.BoundaryCondition.FluidCavityPressureBC.FluidCavityPressureBC.setValues:0
-#: ../../../../../src/abaqus/BoundaryCondition/FluidCavityPressureBC.py:docstring of abaqus.BoundaryCondition.FluidCavityPressureBC.FluidCavityPressureBC.setValuesInStep:0
-#: ../../../../../src/abaqus/BoundaryCondition/MagneticVectorPotentialBC.py:docstring of abaqus.BoundaryCondition.MagneticVectorPotentialBC.MagneticVectorPotentialBC.setValues:0
-#: ../../../../../src/abaqus/BoundaryCondition/MagneticVectorPotentialBC.py:docstring of abaqus.BoundaryCondition.MagneticVectorPotentialBC.MagneticVectorPotentialBC.setValuesInStep:0
-#: ../../../../../src/abaqus/BoundaryCondition/MaterialFlowBC.py:docstring of abaqus.BoundaryCondition.MaterialFlowBC.MaterialFlowBC.setValues:0
-#: ../../../../../src/abaqus/BoundaryCondition/MaterialFlowBC.py:docstring of abaqus.BoundaryCondition.MaterialFlowBC.MaterialFlowBC.setValuesInStep:0
-#: ../../../../../src/abaqus/BoundaryCondition/PorePressureBC.py:docstring of abaqus.BoundaryCondition.PorePressureBC.PorePressureBC.setValues:0
-#: ../../../../../src/abaqus/BoundaryCondition/PorePressureBC.py:docstring of abaqus.BoundaryCondition.PorePressureBC.PorePressureBC.setValuesInStep:0
-#: ../../../../../src/abaqus/BoundaryCondition/RetainedNodalDofsBC.py:docstring of abaqus.BoundaryCondition.RetainedNodalDofsBC.RetainedNodalDofsBC.setValues:0
-#: ../../../../../src/abaqus/BoundaryCondition/RetainedNodalDofsBC.py:docstring of abaqus.BoundaryCondition.RetainedNodalDofsBC.RetainedNodalDofsBC.setValuesInStep:0
-#: ../../../../../src/abaqus/BoundaryCondition/SecondaryBaseBC.py:docstring of abaqus.BoundaryCondition.SecondaryBaseBC.SecondaryBaseBC.setValuesInStep:0
-#: ../../../../../src/abaqus/BoundaryCondition/SubmodelBC.py:docstring of abaqus.BoundaryCondition.SubmodelBC.SubmodelBC.setValues:0
-#: ../../../../../src/abaqus/BoundaryCondition/SubmodelBC.py:docstring of abaqus.BoundaryCondition.SubmodelBC.SubmodelBC.setValuesInStep:0
-#: ../../../../../src/abaqus/BoundaryCondition/TemperatureBC.py:docstring of abaqus.BoundaryCondition.TemperatureBC.TemperatureBC.setValues:0
-#: ../../../../../src/abaqus/BoundaryCondition/TemperatureBC.py:docstring of abaqus.BoundaryCondition.TemperatureBC.TemperatureBC.setValuesInStep:0
-#: ../../../../../src/abaqus/BoundaryCondition/TypeBC.py:docstring of abaqus.BoundaryCondition.TypeBC.TypeBC.EncastreBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/TypeBC.py:docstring of abaqus.BoundaryCondition.TypeBC.TypeBC.PinnedBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/TypeBC.py:docstring of abaqus.BoundaryCondition.TypeBC.TypeBC.XasymmBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/TypeBC.py:docstring of abaqus.BoundaryCondition.TypeBC.TypeBC.XsymmBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/TypeBC.py:docstring of abaqus.BoundaryCondition.TypeBC.TypeBC.YasymmBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/TypeBC.py:docstring of abaqus.BoundaryCondition.TypeBC.TypeBC.YsymmBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/TypeBC.py:docstring of abaqus.BoundaryCondition.TypeBC.TypeBC.ZasymmBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/TypeBC.py:docstring of abaqus.BoundaryCondition.TypeBC.TypeBC.ZsymmBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/TypeBC.py:docstring of abaqus.BoundaryCondition.TypeBC.TypeBC.setValues:0
-#: ../../../../../src/abaqus/BoundaryCondition/TypeBC.py:docstring of abaqus.BoundaryCondition.TypeBC.TypeBC.setValuesInStep:0
-#: ../../../../../src/abaqus/BoundaryCondition/VelocityBC.py:docstring of abaqus.BoundaryCondition.VelocityBC.VelocityBC.setValues:0
-#: ../../../../../src/abaqus/BoundaryCondition/VelocityBC.py:docstring of abaqus.BoundaryCondition.VelocityBC.VelocityBC.setValuesInStep:0
-#: ../../../../../src/abaqus/BoundaryCondition/VelocityBaseMotionBC.py:docstring of abaqus.BoundaryCondition.VelocityBaseMotionBC.VelocityBaseMotionBC.setValues:0
-#: ../../../../../src/abaqus/BoundaryCondition/VelocityBaseMotionBC.py:docstring of abaqus.BoundaryCondition.VelocityBaseMotionBC.VelocityBaseMotionBC.setValuesInStep:0
+#: ../../../reference/mdb/model/bc.md:0
 msgid "Parameters"
 msgstr ""
 
@@ -1562,44 +1452,7 @@ msgstr ""
 msgid "A SymbolicConstant specifying how the boundary condition is distributed spatially. Possible values are UNIFORM, USER_DEFINED, and FIELD. The default value is UNIFORM."
 msgstr ""
 
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryConditionModel.py:docstring of abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.AccelerationBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryConditionModel.py:docstring of abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.AccelerationBaseMotionBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryConditionModel.py:docstring of abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.AcousticPressureBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryConditionModel.py:docstring of abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConcentrationBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryConditionModel.py:docstring of abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnAccelerationBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryConditionModel.py:docstring of abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnDisplacementBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryConditionModel.py:docstring of abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnVelocityBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryConditionModel.py:docstring of abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.DisplacementBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryConditionModel.py:docstring of abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.DisplacementBaseMotionBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryConditionModel.py:docstring of abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ElectricPotentialBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryConditionModel.py:docstring of abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.EncastreBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryConditionModel.py:docstring of abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.EulerianBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryConditionModel.py:docstring of abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.EulerianMotionBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryConditionModel.py:docstring of abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.FluidCavityPressureBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryConditionModel.py:docstring of abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.MagneticVectorPotentialBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryConditionModel.py:docstring of abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.MaterialFlowBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryConditionModel.py:docstring of abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.PinnedBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryConditionModel.py:docstring of abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.PorePressureBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryConditionModel.py:docstring of abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.RetainedNodalDofsBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryConditionModel.py:docstring of abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.SecondaryBaseBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryConditionModel.py:docstring of abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.SubmodelBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryConditionModel.py:docstring of abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.TemperatureBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryConditionModel.py:docstring of abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.VelocityBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryConditionModel.py:docstring of abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.VelocityBaseMotionBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryConditionModel.py:docstring of abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.XasymmBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryConditionModel.py:docstring of abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.XsymmBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryConditionModel.py:docstring of abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.YasymmBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryConditionModel.py:docstring of abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.YsymmBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryConditionModel.py:docstring of abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ZasymmBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryConditionModel.py:docstring of abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ZsymmBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/TypeBC.py:docstring of abaqus.BoundaryCondition.TypeBC.TypeBC.EncastreBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/TypeBC.py:docstring of abaqus.BoundaryCondition.TypeBC.TypeBC.PinnedBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/TypeBC.py:docstring of abaqus.BoundaryCondition.TypeBC.TypeBC.XasymmBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/TypeBC.py:docstring of abaqus.BoundaryCondition.TypeBC.TypeBC.XsymmBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/TypeBC.py:docstring of abaqus.BoundaryCondition.TypeBC.TypeBC.YasymmBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/TypeBC.py:docstring of abaqus.BoundaryCondition.TypeBC.TypeBC.YsymmBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/TypeBC.py:docstring of abaqus.BoundaryCondition.TypeBC.TypeBC.ZasymmBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/TypeBC.py:docstring of abaqus.BoundaryCondition.TypeBC.TypeBC.ZsymmBC:0
+#: ../../../reference/mdb/model/bc.md:0
 msgid "Returns"
 msgstr ""
 
@@ -1607,44 +1460,7 @@ msgstr ""
 msgid "**bc** -- An AccelerationBC object."
 msgstr ""
 
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryConditionModel.py:docstring of abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.AccelerationBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryConditionModel.py:docstring of abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.AccelerationBaseMotionBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryConditionModel.py:docstring of abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.AcousticPressureBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryConditionModel.py:docstring of abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConcentrationBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryConditionModel.py:docstring of abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnAccelerationBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryConditionModel.py:docstring of abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnDisplacementBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryConditionModel.py:docstring of abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ConnVelocityBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryConditionModel.py:docstring of abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.DisplacementBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryConditionModel.py:docstring of abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.DisplacementBaseMotionBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryConditionModel.py:docstring of abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ElectricPotentialBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryConditionModel.py:docstring of abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.EncastreBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryConditionModel.py:docstring of abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.EulerianBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryConditionModel.py:docstring of abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.EulerianMotionBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryConditionModel.py:docstring of abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.FluidCavityPressureBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryConditionModel.py:docstring of abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.MagneticVectorPotentialBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryConditionModel.py:docstring of abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.MaterialFlowBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryConditionModel.py:docstring of abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.PinnedBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryConditionModel.py:docstring of abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.PorePressureBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryConditionModel.py:docstring of abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.RetainedNodalDofsBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryConditionModel.py:docstring of abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.SecondaryBaseBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryConditionModel.py:docstring of abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.SubmodelBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryConditionModel.py:docstring of abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.TemperatureBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryConditionModel.py:docstring of abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.VelocityBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryConditionModel.py:docstring of abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.VelocityBaseMotionBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryConditionModel.py:docstring of abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.XasymmBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryConditionModel.py:docstring of abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.XsymmBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryConditionModel.py:docstring of abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.YasymmBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryConditionModel.py:docstring of abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.YsymmBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryConditionModel.py:docstring of abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ZasymmBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/BoundaryConditionModel.py:docstring of abaqus.BoundaryCondition.BoundaryConditionModel.BoundaryConditionModel.ZsymmBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/TypeBC.py:docstring of abaqus.BoundaryCondition.TypeBC.TypeBC.EncastreBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/TypeBC.py:docstring of abaqus.BoundaryCondition.TypeBC.TypeBC.PinnedBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/TypeBC.py:docstring of abaqus.BoundaryCondition.TypeBC.TypeBC.XasymmBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/TypeBC.py:docstring of abaqus.BoundaryCondition.TypeBC.TypeBC.XsymmBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/TypeBC.py:docstring of abaqus.BoundaryCondition.TypeBC.TypeBC.YasymmBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/TypeBC.py:docstring of abaqus.BoundaryCondition.TypeBC.TypeBC.YsymmBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/TypeBC.py:docstring of abaqus.BoundaryCondition.TypeBC.TypeBC.ZasymmBC:0
-#: ../../../../../src/abaqus/BoundaryCondition/TypeBC.py:docstring of abaqus.BoundaryCondition.TypeBC.TypeBC.ZsymmBC:0
+#: ../../../reference/mdb/model/bc.md:0
 msgid "Return type"
 msgstr ""
 
@@ -4468,7 +4284,7 @@ msgstr ""
 msgid "Check `TypeBC.setValuesInStep on help.3ds.com/2017 <https://help.3ds.com/2017/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-typebcpyc.htm?contextscope=all#simaker-typebcsetvaluesinsteppyc>`__."
 msgstr ""
 
-#: ../../../../../src/abaqus/BoundaryCondition/TypeBC.py:docstring of abaqus.BoundaryCondition.TypeBC.TypeBC.setValuesInStep:0
+#: ../../../reference/mdb/model/bc.md:0
 msgid "Raises"
 msgstr ""
 

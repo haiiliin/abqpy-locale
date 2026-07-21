@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: abqpy 2017\n"
+"Project-Id-Version: abqpy 2017.11\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-14 01:54+0000\n"
+"POT-Creation-Date: 2026-07-21 09:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -197,7 +197,7 @@ msgstr ""
 msgid "Check `SketchModel on help.3ds.com/2017 <https://help.3ds.com/2017/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-modelpyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: ../../../../../src/abaqus/Sketcher/SketchModel.py:docstring of abaqus.Sketcher.SketchModel.SketchModel:0
+#: ../../../reference/mdb/model/sketcher.md:0
 msgid "Public Data Attributes:"
 msgstr ""
 
@@ -604,7 +604,7 @@ msgstr ""
 msgid "An Assembly object."
 msgstr ""
 
-#: ../../../../../src/abaqus/Sketcher/SketchModel.py:docstring of abaqus.Sketcher.SketchModel.SketchModel:0
+#: ../../../reference/mdb/model/sketcher.md:0
 msgid "Public Methods:"
 msgstr ""
 
@@ -616,43 +616,19 @@ msgstr ""
 msgid "This method creates a ConstrainedSketch object."
 msgstr ""
 
-#: ../../../../None:7:<autosummary>:1
+#: ../../../../None:4:<autosummary>:1
 msgid ":py:obj:`__init__ <abaqus.Model.ModelBase.ModelBase.__init__>`\\ \\(name\\[\\, description\\, ...\\]\\)"
 msgstr ""
 
-#: ../../../../None:7:<autosummary>:1
+#: ../../../../None:4:<autosummary>:1
 msgid "This method creates a Model object."
 msgstr ""
 
-#: ../../../../None:7:<autosummary>:1
-msgid ":py:obj:`ModelFromInputFile <abaqus.Model.ModelBase.ModelBase.ModelFromInputFile>`\\ \\(name\\, inputFileName\\)"
-msgstr ""
-
-#: ../../../../None:7:<autosummary>:1
-msgid "This method creates a Model object by reading the keywords in an input file and creating the corresponding Abaqus/CAE objects."
-msgstr ""
-
-#: ../../../../None:7:<autosummary>:1
-msgid ":py:obj:`ModelFromOdbFile <abaqus.Model.ModelBase.ModelBase.ModelFromOdbFile>`\\ \\(name\\, odbFileName\\)"
-msgstr ""
-
-#: ../../../../None:7:<autosummary>:1
-msgid "This method creates a Model object by reading an output database and creating any corresponding Abaqus/CAE objects."
-msgstr ""
-
-#: ../../../../None:7:<autosummary>:1
-msgid ":py:obj:`ModelFromNastranFile <abaqus.Model.ModelBase.ModelBase.ModelFromNastranFile>`\\ \\(modelName\\, inputFileName\\)"
-msgstr ""
-
-#: ../../../../None:7:<autosummary>:1
-msgid "This method creates a Model object by reading the keywords in a Nastran bulk data file or Nastran input file and creating any corresponding Abaqus/CAE objects."
-msgstr ""
-
-#: ../../../../None:7:<autosummary>:1
+#: ../../../../None:4:<autosummary>:1
 msgid ":py:obj:`setValues <abaqus.Model.ModelBase.ModelBase.setValues>`\\ \\(\\[description\\, noPartsInputFile\\, ...\\]\\)"
 msgstr ""
 
-#: ../../../../None:7:<autosummary>:1
+#: ../../../../None:4:<autosummary>:1
 msgid "This method modifies the Model object."
 msgstr ""
 
@@ -752,73 +728,7 @@ msgstr ""
 msgid "Check `ConstrainedSketch on help.3ds.com/2017 <https://help.3ds.com/2017/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-constrainedsketchpyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketch.py:docstring of abaqus.Sketcher.ConstrainedSketch.ConstrainedSketch.ConstrainedSketchFromGeometryFile:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketch.py:docstring of abaqus.Sketcher.ConstrainedSketch.ConstrainedSketch.assignCenterOfTwist:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketch.py:docstring of abaqus.Sketcher.ConstrainedSketch.ConstrainedSketch.assignCenterline:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketch.py:docstring of abaqus.Sketcher.ConstrainedSketch.ConstrainedSketch.autoDimension:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketch.py:docstring of abaqus.Sketcher.ConstrainedSketch.ConstrainedSketch.autoTrimCurve:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketch.py:docstring of abaqus.Sketcher.ConstrainedSketch.ConstrainedSketch.breakCurve:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketch.py:docstring of abaqus.Sketcher.ConstrainedSketch.ConstrainedSketch.copyMirror:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketch.py:docstring of abaqus.Sketcher.ConstrainedSketch.ConstrainedSketch.copyMove:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketch.py:docstring of abaqus.Sketcher.ConstrainedSketch.ConstrainedSketch.copyRotate:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketch.py:docstring of abaqus.Sketcher.ConstrainedSketch.ConstrainedSketch.copyScale:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketch.py:docstring of abaqus.Sketcher.ConstrainedSketch.ConstrainedSketch.delete:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketch.py:docstring of abaqus.Sketcher.ConstrainedSketch.ConstrainedSketch.deleteParameter:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketch.py:docstring of abaqus.Sketcher.ConstrainedSketch.ConstrainedSketch.dragEntity:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketch.py:docstring of abaqus.Sketcher.ConstrainedSketch.ConstrainedSketch.linearPattern:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketch.py:docstring of abaqus.Sketcher.ConstrainedSketch.ConstrainedSketch.mergeVertices:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketch.py:docstring of abaqus.Sketcher.ConstrainedSketch.ConstrainedSketch.move:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketch.py:docstring of abaqus.Sketcher.ConstrainedSketch.ConstrainedSketch.offset:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketch.py:docstring of abaqus.Sketcher.ConstrainedSketch.ConstrainedSketch.radialPattern:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketch.py:docstring of abaqus.Sketcher.ConstrainedSketch.ConstrainedSketch.rectangle:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketch.py:docstring of abaqus.Sketcher.ConstrainedSketch.ConstrainedSketch.removeGapsAndOverlaps:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketch.py:docstring of abaqus.Sketcher.ConstrainedSketch.ConstrainedSketch.repairShortEdges:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketch.py:docstring of abaqus.Sketcher.ConstrainedSketch.ConstrainedSketch.retrieveSketch:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketch.py:docstring of abaqus.Sketcher.ConstrainedSketch.ConstrainedSketch.rotate:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketch.py:docstring of abaqus.Sketcher.ConstrainedSketch.ConstrainedSketch.scale:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketch.py:docstring of abaqus.Sketcher.ConstrainedSketch.ConstrainedSketch.setPrimaryObject:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketch.py:docstring of abaqus.Sketcher.ConstrainedSketch.ConstrainedSketch.trimExtendCurve:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketch.py:docstring of abaqus.Sketcher.ConstrainedSketch.ConstrainedSketch.writeAcisFile:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketch.py:docstring of abaqus.Sketcher.ConstrainedSketch.ConstrainedSketch.writeIgesFile:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/ConstrainedSketchConstraintModel.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.ConstrainedSketchConstraintModel.ConstrainedSketchConstraintModel.CoincidentConstraint:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/ConstrainedSketchConstraintModel.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.ConstrainedSketchConstraintModel.ConstrainedSketchConstraintModel.ConcentricConstraint:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/ConstrainedSketchConstraintModel.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.ConstrainedSketchConstraintModel.ConstrainedSketchConstraintModel.EqualDistanceConstraint:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/ConstrainedSketchConstraintModel.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.ConstrainedSketchConstraintModel.ConstrainedSketchConstraintModel.EqualLengthConstraint:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/ConstrainedSketchConstraintModel.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.ConstrainedSketchConstraintModel.ConstrainedSketchConstraintModel.EqualRadiusConstraint:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/ConstrainedSketchConstraintModel.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.ConstrainedSketchConstraintModel.ConstrainedSketchConstraintModel.FixedConstraint:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/ConstrainedSketchConstraintModel.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.ConstrainedSketchConstraintModel.ConstrainedSketchConstraintModel.HorizontalConstraint:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/ConstrainedSketchConstraintModel.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.ConstrainedSketchConstraintModel.ConstrainedSketchConstraintModel.ParallelConstraint:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/ConstrainedSketchConstraintModel.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.ConstrainedSketchConstraintModel.ConstrainedSketchConstraintModel.PerpendicularConstraint:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/ConstrainedSketchConstraintModel.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.ConstrainedSketchConstraintModel.ConstrainedSketchConstraintModel.TangentConstraint:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/ConstrainedSketchConstraintModel.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.ConstrainedSketchConstraintModel.ConstrainedSketchConstraintModel.VerticalConstraint:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchDimension/ConstrainedSketchDimensionModel.py:docstring of abaqus.Sketcher.ConstrainedSketchDimension.ConstrainedSketchDimensionModel.ConstrainedSketchDimensionModel.AngularDimension:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchDimension/ConstrainedSketchDimensionModel.py:docstring of abaqus.Sketcher.ConstrainedSketchDimension.ConstrainedSketchDimensionModel.ConstrainedSketchDimensionModel.DistanceDimension:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchDimension/ConstrainedSketchDimensionModel.py:docstring of abaqus.Sketcher.ConstrainedSketchDimension.ConstrainedSketchDimensionModel.ConstrainedSketchDimensionModel.HorizontalDimension:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchDimension/ConstrainedSketchDimensionModel.py:docstring of abaqus.Sketcher.ConstrainedSketchDimension.ConstrainedSketchDimensionModel.ConstrainedSketchDimensionModel.ObliqueDimension:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchDimension/ConstrainedSketchDimensionModel.py:docstring of abaqus.Sketcher.ConstrainedSketchDimension.ConstrainedSketchDimensionModel.ConstrainedSketchDimensionModel.RadialDimension:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchDimension/ConstrainedSketchDimensionModel.py:docstring of abaqus.Sketcher.ConstrainedSketchDimension.ConstrainedSketchDimensionModel.ConstrainedSketchDimensionModel.VerticalDimension:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchGeometry/ConstrainedSketchGeometryArray.py:docstring of abaqus.Sketcher.ConstrainedSketchGeometry.ConstrainedSketchGeometryArray.ConstrainedSketchGeometryArray.findAt:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchGeometry/ConstrainedSketchGeometryModel.py:docstring of abaqus.Sketcher.ConstrainedSketchGeometry.ConstrainedSketchGeometryModel.ConstrainedSketchGeometryModel.Arc3Points:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchGeometry/ConstrainedSketchGeometryModel.py:docstring of abaqus.Sketcher.ConstrainedSketchGeometry.ConstrainedSketchGeometryModel.ConstrainedSketchGeometryModel.ArcByCenterEnds:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchGeometry/ConstrainedSketchGeometryModel.py:docstring of abaqus.Sketcher.ConstrainedSketchGeometry.ConstrainedSketchGeometryModel.ConstrainedSketchGeometryModel.ArcByStartEndTangent:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchGeometry/ConstrainedSketchGeometryModel.py:docstring of abaqus.Sketcher.ConstrainedSketchGeometry.ConstrainedSketchGeometryModel.ConstrainedSketchGeometryModel.CircleByCenterPerimeter:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchGeometry/ConstrainedSketchGeometryModel.py:docstring of abaqus.Sketcher.ConstrainedSketchGeometry.ConstrainedSketchGeometryModel.ConstrainedSketchGeometryModel.ConstructionCircleByCenterPerimeter:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchGeometry/ConstrainedSketchGeometryModel.py:docstring of abaqus.Sketcher.ConstrainedSketchGeometry.ConstrainedSketchGeometryModel.ConstrainedSketchGeometryModel.ConstructionLine:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchGeometry/ConstrainedSketchGeometryModel.py:docstring of abaqus.Sketcher.ConstrainedSketchGeometry.ConstrainedSketchGeometryModel.ConstrainedSketchGeometryModel.EllipseByCenterPerimeter:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchGeometry/ConstrainedSketchGeometryModel.py:docstring of abaqus.Sketcher.ConstrainedSketchGeometry.ConstrainedSketchGeometryModel.ConstrainedSketchGeometryModel.FilletByRadius:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchGeometry/ConstrainedSketchGeometryModel.py:docstring of abaqus.Sketcher.ConstrainedSketchGeometry.ConstrainedSketchGeometryModel.ConstrainedSketchGeometryModel.Line:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchGeometry/ConstrainedSketchGeometryModel.py:docstring of abaqus.Sketcher.ConstrainedSketchGeometry.ConstrainedSketchGeometryModel.ConstrainedSketchGeometryModel.Spline:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchGeometry/ConstrainedSketchGeometryModel.py:docstring of abaqus.Sketcher.ConstrainedSketchGeometry.ConstrainedSketchGeometryModel.ConstrainedSketchGeometryModel.Spot:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchGeometry/ConstrainedSketchGeometryModel.py:docstring of abaqus.Sketcher.ConstrainedSketchGeometry.ConstrainedSketchGeometryModel.ConstrainedSketchGeometryModel.getPointAtDistance:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchOptions/ConstrainedSketchImageOptions.py:docstring of abaqus.Sketcher.ConstrainedSketchOptions.ConstrainedSketchImageOptions.ConstrainedSketchImageOptions.setValues:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchOptions/ConstrainedSketchOptions.py:docstring of abaqus.Sketcher.ConstrainedSketchOptions.ConstrainedSketchOptions.ConstrainedSketchOptions.setValues:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchOptions/ConstrainedSketcherOptions.py:docstring of abaqus.Sketcher.ConstrainedSketchOptions.ConstrainedSketcherOptions.ConstrainedSketcherOptions.setValues:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchParameter/ConstrainedSketchParameter.py:docstring of abaqus.Sketcher.ConstrainedSketchParameter.ConstrainedSketchParameter.ConstrainedSketchParameter.Parameter:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchParameter/ConstrainedSketchParameterModel.py:docstring of abaqus.Sketcher.ConstrainedSketchParameter.ConstrainedSketchParameterModel.ConstrainedSketchParameterModel.ConstrainedSketchParameter:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchVertex/ConstrainedSketchVertex.py:docstring of abaqus.Sketcher.ConstrainedSketchVertex.ConstrainedSketchVertex.ConstrainedSketchVertex.Spot:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchVertex/ConstrainedSketchVertexArray.py:docstring of abaqus.Sketcher.ConstrainedSketchVertex.ConstrainedSketchVertexArray.ConstrainedSketchVertexArray.findAt:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchVertex/ConstrainedSketchVertexModel.py:docstring of abaqus.Sketcher.ConstrainedSketchVertex.ConstrainedSketchVertexModel.ConstrainedSketchVertexModel.Spot:0
-#: ../../../../../src/abaqus/Sketcher/SketchModel.py:docstring of abaqus.Sketcher.SketchModel.SketchModel.ConstrainedSketch:0
+#: ../../../reference/mdb/model/sketcher.md:0
 msgid "Parameters"
 msgstr ""
 
@@ -834,46 +744,7 @@ msgstr ""
 msgid "A sequence of sequences of Floats specifying the three-dimensional orientation of the sketch. The sequence is a 3 x 4 transformation matrix specifying the axis of rotation and the translation vector. Possible values are any Floats.The default value for the axis of rotation is the identity matrix`(1.0, 0.0, 0.0),  (0.0, 1.0, 0.0),  (0.0, 0.0, 1.0)`The default value for the translation vector is`(0.0, 0.0, 0.0)`The default values position the sketch on the **X - Y** plane centered at the origin."
 msgstr ""
 
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketch.py:docstring of abaqus.Sketcher.ConstrainedSketch.ConstrainedSketch.ConstrainedSketchFromGeometryFile:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketch.py:docstring of abaqus.Sketcher.ConstrainedSketch.ConstrainedSketch.rectangle:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/ConstrainedSketchConstraintModel.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.ConstrainedSketchConstraintModel.ConstrainedSketchConstraintModel.CoincidentConstraint:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/ConstrainedSketchConstraintModel.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.ConstrainedSketchConstraintModel.ConstrainedSketchConstraintModel.ConcentricConstraint:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/ConstrainedSketchConstraintModel.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.ConstrainedSketchConstraintModel.ConstrainedSketchConstraintModel.EqualDistanceConstraint:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/ConstrainedSketchConstraintModel.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.ConstrainedSketchConstraintModel.ConstrainedSketchConstraintModel.EqualLengthConstraint:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/ConstrainedSketchConstraintModel.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.ConstrainedSketchConstraintModel.ConstrainedSketchConstraintModel.EqualRadiusConstraint:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/ConstrainedSketchConstraintModel.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.ConstrainedSketchConstraintModel.ConstrainedSketchConstraintModel.FixedConstraint:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/ConstrainedSketchConstraintModel.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.ConstrainedSketchConstraintModel.ConstrainedSketchConstraintModel.HorizontalConstraint:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/ConstrainedSketchConstraintModel.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.ConstrainedSketchConstraintModel.ConstrainedSketchConstraintModel.ParallelConstraint:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/ConstrainedSketchConstraintModel.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.ConstrainedSketchConstraintModel.ConstrainedSketchConstraintModel.PerpendicularConstraint:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/ConstrainedSketchConstraintModel.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.ConstrainedSketchConstraintModel.ConstrainedSketchConstraintModel.TangentConstraint:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/ConstrainedSketchConstraintModel.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.ConstrainedSketchConstraintModel.ConstrainedSketchConstraintModel.VerticalConstraint:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchDimension/ConstrainedSketchDimensionModel.py:docstring of abaqus.Sketcher.ConstrainedSketchDimension.ConstrainedSketchDimensionModel.ConstrainedSketchDimensionModel.AngularDimension:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchDimension/ConstrainedSketchDimensionModel.py:docstring of abaqus.Sketcher.ConstrainedSketchDimension.ConstrainedSketchDimensionModel.ConstrainedSketchDimensionModel.DistanceDimension:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchDimension/ConstrainedSketchDimensionModel.py:docstring of abaqus.Sketcher.ConstrainedSketchDimension.ConstrainedSketchDimensionModel.ConstrainedSketchDimensionModel.HorizontalDimension:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchDimension/ConstrainedSketchDimensionModel.py:docstring of abaqus.Sketcher.ConstrainedSketchDimension.ConstrainedSketchDimensionModel.ConstrainedSketchDimensionModel.ObliqueDimension:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchDimension/ConstrainedSketchDimensionModel.py:docstring of abaqus.Sketcher.ConstrainedSketchDimension.ConstrainedSketchDimensionModel.ConstrainedSketchDimensionModel.RadialDimension:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchDimension/ConstrainedSketchDimensionModel.py:docstring of abaqus.Sketcher.ConstrainedSketchDimension.ConstrainedSketchDimensionModel.ConstrainedSketchDimensionModel.VerticalDimension:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchGeometry/ConstrainedSketchGeometryArray.py:docstring of abaqus.Sketcher.ConstrainedSketchGeometry.ConstrainedSketchGeometryArray.ConstrainedSketchGeometryArray.findAt:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchGeometry/ConstrainedSketchGeometryModel.py:docstring of abaqus.Sketcher.ConstrainedSketchGeometry.ConstrainedSketchGeometryModel.ConstrainedSketchGeometryModel.Arc3Points:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchGeometry/ConstrainedSketchGeometryModel.py:docstring of abaqus.Sketcher.ConstrainedSketchGeometry.ConstrainedSketchGeometryModel.ConstrainedSketchGeometryModel.ArcByCenterEnds:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchGeometry/ConstrainedSketchGeometryModel.py:docstring of abaqus.Sketcher.ConstrainedSketchGeometry.ConstrainedSketchGeometryModel.ConstrainedSketchGeometryModel.ArcByStartEndTangent:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchGeometry/ConstrainedSketchGeometryModel.py:docstring of abaqus.Sketcher.ConstrainedSketchGeometry.ConstrainedSketchGeometryModel.ConstrainedSketchGeometryModel.CircleByCenterPerimeter:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchGeometry/ConstrainedSketchGeometryModel.py:docstring of abaqus.Sketcher.ConstrainedSketchGeometry.ConstrainedSketchGeometryModel.ConstrainedSketchGeometryModel.ConstructionCircleByCenterPerimeter:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchGeometry/ConstrainedSketchGeometryModel.py:docstring of abaqus.Sketcher.ConstrainedSketchGeometry.ConstrainedSketchGeometryModel.ConstrainedSketchGeometryModel.ConstructionLine:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchGeometry/ConstrainedSketchGeometryModel.py:docstring of abaqus.Sketcher.ConstrainedSketchGeometry.ConstrainedSketchGeometryModel.ConstrainedSketchGeometryModel.EllipseByCenterPerimeter:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchGeometry/ConstrainedSketchGeometryModel.py:docstring of abaqus.Sketcher.ConstrainedSketchGeometry.ConstrainedSketchGeometryModel.ConstrainedSketchGeometryModel.FilletByRadius:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchGeometry/ConstrainedSketchGeometryModel.py:docstring of abaqus.Sketcher.ConstrainedSketchGeometry.ConstrainedSketchGeometryModel.ConstrainedSketchGeometryModel.Line:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchGeometry/ConstrainedSketchGeometryModel.py:docstring of abaqus.Sketcher.ConstrainedSketchGeometry.ConstrainedSketchGeometryModel.ConstrainedSketchGeometryModel.Spline:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchGeometry/ConstrainedSketchGeometryModel.py:docstring of abaqus.Sketcher.ConstrainedSketchGeometry.ConstrainedSketchGeometryModel.ConstrainedSketchGeometryModel.Spot:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchGeometry/ConstrainedSketchGeometryModel.py:docstring of abaqus.Sketcher.ConstrainedSketchGeometry.ConstrainedSketchGeometryModel.ConstrainedSketchGeometryModel.getPointAtDistance:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchGeometry/ConstrainedSketchGeometryModel.py:docstring of abaqus.Sketcher.ConstrainedSketchGeometry.ConstrainedSketchGeometryModel.ConstrainedSketchGeometryModel.getSize:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchGeometry/ConstrainedSketchGeometryModel.py:docstring of abaqus.Sketcher.ConstrainedSketchGeometry.ConstrainedSketchGeometryModel.ConstrainedSketchGeometryModel.getVertices:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchParameter/ConstrainedSketchParameter.py:docstring of abaqus.Sketcher.ConstrainedSketchParameter.ConstrainedSketchParameter.ConstrainedSketchParameter.Parameter:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchParameter/ConstrainedSketchParameterModel.py:docstring of abaqus.Sketcher.ConstrainedSketchParameter.ConstrainedSketchParameterModel.ConstrainedSketchParameterModel.ConstrainedSketchParameter:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchVertex/ConstrainedSketchVertex.py:docstring of abaqus.Sketcher.ConstrainedSketchVertex.ConstrainedSketchVertex.ConstrainedSketchVertex.Spot:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchVertex/ConstrainedSketchVertexArray.py:docstring of abaqus.Sketcher.ConstrainedSketchVertex.ConstrainedSketchVertexArray.ConstrainedSketchVertexArray.findAt:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchVertex/ConstrainedSketchVertexModel.py:docstring of abaqus.Sketcher.ConstrainedSketchVertex.ConstrainedSketchVertexModel.ConstrainedSketchVertexModel.Spot:0
-#: ../../../../../src/abaqus/Sketcher/SketchModel.py:docstring of abaqus.Sketcher.SketchModel.SketchModel.ConstrainedSketch:0
+#: ../../../reference/mdb/model/sketcher.md:0
 msgid "Returns"
 msgstr ""
 
@@ -881,47 +752,7 @@ msgstr ""
 msgid "**sketch** -- A ConstrainedSketch object."
 msgstr ""
 
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketch.py:docstring of abaqus.Sketcher.ConstrainedSketch.ConstrainedSketch.ConstrainedSketchFromGeometryFile:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketch.py:docstring of abaqus.Sketcher.ConstrainedSketch.ConstrainedSketch.linearPattern:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketch.py:docstring of abaqus.Sketcher.ConstrainedSketch.ConstrainedSketch.rectangle:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/ConstrainedSketchConstraintModel.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.ConstrainedSketchConstraintModel.ConstrainedSketchConstraintModel.CoincidentConstraint:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/ConstrainedSketchConstraintModel.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.ConstrainedSketchConstraintModel.ConstrainedSketchConstraintModel.ConcentricConstraint:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/ConstrainedSketchConstraintModel.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.ConstrainedSketchConstraintModel.ConstrainedSketchConstraintModel.EqualDistanceConstraint:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/ConstrainedSketchConstraintModel.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.ConstrainedSketchConstraintModel.ConstrainedSketchConstraintModel.EqualLengthConstraint:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/ConstrainedSketchConstraintModel.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.ConstrainedSketchConstraintModel.ConstrainedSketchConstraintModel.EqualRadiusConstraint:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/ConstrainedSketchConstraintModel.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.ConstrainedSketchConstraintModel.ConstrainedSketchConstraintModel.FixedConstraint:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/ConstrainedSketchConstraintModel.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.ConstrainedSketchConstraintModel.ConstrainedSketchConstraintModel.HorizontalConstraint:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/ConstrainedSketchConstraintModel.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.ConstrainedSketchConstraintModel.ConstrainedSketchConstraintModel.ParallelConstraint:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/ConstrainedSketchConstraintModel.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.ConstrainedSketchConstraintModel.ConstrainedSketchConstraintModel.PerpendicularConstraint:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/ConstrainedSketchConstraintModel.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.ConstrainedSketchConstraintModel.ConstrainedSketchConstraintModel.TangentConstraint:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchConstraint/ConstrainedSketchConstraintModel.py:docstring of abaqus.Sketcher.ConstrainedSketchConstraint.ConstrainedSketchConstraintModel.ConstrainedSketchConstraintModel.VerticalConstraint:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchDimension/ConstrainedSketchDimensionModel.py:docstring of abaqus.Sketcher.ConstrainedSketchDimension.ConstrainedSketchDimensionModel.ConstrainedSketchDimensionModel.AngularDimension:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchDimension/ConstrainedSketchDimensionModel.py:docstring of abaqus.Sketcher.ConstrainedSketchDimension.ConstrainedSketchDimensionModel.ConstrainedSketchDimensionModel.DistanceDimension:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchDimension/ConstrainedSketchDimensionModel.py:docstring of abaqus.Sketcher.ConstrainedSketchDimension.ConstrainedSketchDimensionModel.ConstrainedSketchDimensionModel.HorizontalDimension:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchDimension/ConstrainedSketchDimensionModel.py:docstring of abaqus.Sketcher.ConstrainedSketchDimension.ConstrainedSketchDimensionModel.ConstrainedSketchDimensionModel.ObliqueDimension:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchDimension/ConstrainedSketchDimensionModel.py:docstring of abaqus.Sketcher.ConstrainedSketchDimension.ConstrainedSketchDimensionModel.ConstrainedSketchDimensionModel.RadialDimension:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchDimension/ConstrainedSketchDimensionModel.py:docstring of abaqus.Sketcher.ConstrainedSketchDimension.ConstrainedSketchDimensionModel.ConstrainedSketchDimensionModel.VerticalDimension:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchGeometry/ConstrainedSketchGeometryArray.py:docstring of abaqus.Sketcher.ConstrainedSketchGeometry.ConstrainedSketchGeometryArray.ConstrainedSketchGeometryArray.findAt:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchGeometry/ConstrainedSketchGeometryModel.py:docstring of abaqus.Sketcher.ConstrainedSketchGeometry.ConstrainedSketchGeometryModel.ConstrainedSketchGeometryModel.Arc3Points:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchGeometry/ConstrainedSketchGeometryModel.py:docstring of abaqus.Sketcher.ConstrainedSketchGeometry.ConstrainedSketchGeometryModel.ConstrainedSketchGeometryModel.ArcByCenterEnds:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchGeometry/ConstrainedSketchGeometryModel.py:docstring of abaqus.Sketcher.ConstrainedSketchGeometry.ConstrainedSketchGeometryModel.ConstrainedSketchGeometryModel.ArcByStartEndTangent:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchGeometry/ConstrainedSketchGeometryModel.py:docstring of abaqus.Sketcher.ConstrainedSketchGeometry.ConstrainedSketchGeometryModel.ConstrainedSketchGeometryModel.CircleByCenterPerimeter:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchGeometry/ConstrainedSketchGeometryModel.py:docstring of abaqus.Sketcher.ConstrainedSketchGeometry.ConstrainedSketchGeometryModel.ConstrainedSketchGeometryModel.ConstructionCircleByCenterPerimeter:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchGeometry/ConstrainedSketchGeometryModel.py:docstring of abaqus.Sketcher.ConstrainedSketchGeometry.ConstrainedSketchGeometryModel.ConstrainedSketchGeometryModel.ConstructionLine:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchGeometry/ConstrainedSketchGeometryModel.py:docstring of abaqus.Sketcher.ConstrainedSketchGeometry.ConstrainedSketchGeometryModel.ConstrainedSketchGeometryModel.EllipseByCenterPerimeter:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchGeometry/ConstrainedSketchGeometryModel.py:docstring of abaqus.Sketcher.ConstrainedSketchGeometry.ConstrainedSketchGeometryModel.ConstrainedSketchGeometryModel.FilletByRadius:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchGeometry/ConstrainedSketchGeometryModel.py:docstring of abaqus.Sketcher.ConstrainedSketchGeometry.ConstrainedSketchGeometryModel.ConstrainedSketchGeometryModel.Line:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchGeometry/ConstrainedSketchGeometryModel.py:docstring of abaqus.Sketcher.ConstrainedSketchGeometry.ConstrainedSketchGeometryModel.ConstrainedSketchGeometryModel.Spline:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchGeometry/ConstrainedSketchGeometryModel.py:docstring of abaqus.Sketcher.ConstrainedSketchGeometry.ConstrainedSketchGeometryModel.ConstrainedSketchGeometryModel.Spot:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchGeometry/ConstrainedSketchGeometryModel.py:docstring of abaqus.Sketcher.ConstrainedSketchGeometry.ConstrainedSketchGeometryModel.ConstrainedSketchGeometryModel.getPointAtDistance:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchGeometry/ConstrainedSketchGeometryModel.py:docstring of abaqus.Sketcher.ConstrainedSketchGeometry.ConstrainedSketchGeometryModel.ConstrainedSketchGeometryModel.getSize:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchGeometry/ConstrainedSketchGeometryModel.py:docstring of abaqus.Sketcher.ConstrainedSketchGeometry.ConstrainedSketchGeometryModel.ConstrainedSketchGeometryModel.getVertices:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchParameter/ConstrainedSketchParameter.py:docstring of abaqus.Sketcher.ConstrainedSketchParameter.ConstrainedSketchParameter.ConstrainedSketchParameter.Parameter:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchParameter/ConstrainedSketchParameterModel.py:docstring of abaqus.Sketcher.ConstrainedSketchParameter.ConstrainedSketchParameterModel.ConstrainedSketchParameterModel.ConstrainedSketchParameter:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchVertex/ConstrainedSketchVertex.py:docstring of abaqus.Sketcher.ConstrainedSketchVertex.ConstrainedSketchVertex.ConstrainedSketchVertex.Spot:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchVertex/ConstrainedSketchVertexArray.py:docstring of abaqus.Sketcher.ConstrainedSketchVertex.ConstrainedSketchVertexArray.ConstrainedSketchVertexArray.findAt:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchVertex/ConstrainedSketchVertexModel.py:docstring of abaqus.Sketcher.ConstrainedSketchVertex.ConstrainedSketchVertexModel.ConstrainedSketchVertexModel.Spot:0
-#: ../../../../../src/abaqus/Sketcher/SketchModel.py:docstring of abaqus.Sketcher.SketchModel.SketchModel.ConstrainedSketch:0
+#: ../../../reference/mdb/model/sketcher.md:0
 msgid "Return type"
 msgstr ""
 
@@ -1188,12 +1019,7 @@ msgstr ""
 msgid ":class:`None.`"
 msgstr ""
 
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketch.py:docstring of abaqus.Sketcher.ConstrainedSketch.ConstrainedSketch.linearPattern:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchGeometry/ConstrainedSketchGeometryModel.py:docstring of abaqus.Sketcher.ConstrainedSketchGeometry.ConstrainedSketchGeometryModel.ConstrainedSketchGeometryModel.ArcByCenterEnds:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchGeometry/ConstrainedSketchGeometryModel.py:docstring of abaqus.Sketcher.ConstrainedSketchGeometry.ConstrainedSketchGeometryModel.ConstrainedSketchGeometryModel.FilletByRadius:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchOptions/ConstrainedSketchImageOptions.py:docstring of abaqus.Sketcher.ConstrainedSketchOptions.ConstrainedSketchImageOptions.ConstrainedSketchImageOptions.setValues:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchOptions/ConstrainedSketchOptions.py:docstring of abaqus.Sketcher.ConstrainedSketchOptions.ConstrainedSketchOptions.ConstrainedSketchOptions.setValues:0
-#: ../../../../../src/abaqus/Sketcher/ConstrainedSketchOptions/ConstrainedSketcherOptions.py:docstring of abaqus.Sketcher.ConstrainedSketchOptions.ConstrainedSketcherOptions.ConstrainedSketcherOptions.setValues:0
+#: ../../../reference/mdb/model/sketcher.md:0
 msgid "Raises"
 msgstr ""
 

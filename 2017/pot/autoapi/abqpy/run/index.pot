@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: abqpy 2017\n"
+"Project-Id-Version: abqpy 2017.11\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-14 01:54+0000\n"
+"POT-Creation-Date: 2026-07-21 09:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,23 +21,128 @@ msgid "abqpy.run"
 msgstr ""
 
 #: ../../../autoapi/abqpy/run/index.rst:8
-msgid "Functions"
+msgid "Exceptions"
 msgstr ""
 
 #: ../../../autoapi/abqpy/run/index.rst:14:<autosummary>:1
-msgid ":py:obj:`run <abqpy.run.run>`\\ \\(→ None\\)"
+msgid ":py:obj:`AbaqusError <abqpy.run.AbaqusError>`\\"
 msgstr ""
 
-#: ../../../autoapi/abqpy/run/index.rst:20
+#: ../../../autoapi/abqpy/run/index.rst:30
 #: ../../../autoapi/abqpy/run/index.rst:14:<autosummary>:1
-msgid "Runs Abaqus command in system's CLI."
+msgid "Common base class for all non-exit exceptions."
 msgstr ""
 
 #: ../../../autoapi/abqpy/run/index.rst:16
+msgid "Functions"
+msgstr ""
+
+#: ../../../autoapi/abqpy/run/index.rst:22:<autosummary>:1
+msgid ":py:obj:`run <abqpy.run.run>`\\ \\(→ None\\)"
+msgstr ""
+
+#: ../../../autoapi/abqpy/run/index.rst:38
+#: ../../../autoapi/abqpy/run/index.rst:22:<autosummary>:1
+msgid "Runs Abaqus command in system's CLI."
+msgstr ""
+
+#: ../../../autoapi/abqpy/run/index.rst:24
 msgid "Module Contents"
 msgstr ""
 
-#: ../../../autoapi/abqpy/run/index.rst:22
+#: ../../../autoapi/abqpy/run/index.rst:28
+msgid "Bases: :py:obj:`Exception`"
+msgstr ""
+
+#: ../../../autoapi/abqpy/run/index.rst:0
+msgid "Public Data Attributes:"
+msgstr ""
+
+#: ../../../../None:3:<autosummary>:1
+msgid ":py:obj:`args <builtins.BaseException.args>`\\"
+msgstr ""
+
+#: ../../../autoapi/abqpy/run/index.rst:0
+msgid "Public Methods:"
+msgstr ""
+
+#: ../../../../None:3:<autosummary>:1
+msgid ":py:obj:`__init__ <builtins.Exception.__init__>`\\ \\(\\*args\\, \\*\\*kwargs\\)"
+msgstr ""
+
+#: ../../../../None:12:<autosummary>:1
+msgid ":py:obj:`__repr__ <builtins.BaseException.__repr__>`\\ \\(\\)"
+msgstr ""
+
+#: ../../../../None:12:<autosummary>:1
+msgid "Return repr(self)."
+msgstr ""
+
+#: ../../../../None:12:<autosummary>:1
+msgid ":py:obj:`__str__ <builtins.BaseException.__str__>`\\ \\(\\)"
+msgstr ""
+
+#: ../../../../None:12:<autosummary>:1
+msgid "Return str(self)."
+msgstr ""
+
+#: ../../../../None:12:<autosummary>:1
+msgid ":py:obj:`__getattribute__ <builtins.BaseException.__getattribute__>`\\ \\(name\\, \\/\\)"
+msgstr ""
+
+#: ../../../../None:12:<autosummary>:1
+msgid "Return getattr(self, name)."
+msgstr ""
+
+#: ../../../../None:12:<autosummary>:1
+msgid ":py:obj:`__setattr__ <builtins.BaseException.__setattr__>`\\ \\(name\\, value\\, \\/\\)"
+msgstr ""
+
+#: ../../../../None:12:<autosummary>:1
+msgid "Implement setattr(self, name, value)."
+msgstr ""
+
+#: ../../../../None:12:<autosummary>:1
+msgid ":py:obj:`__delattr__ <builtins.BaseException.__delattr__>`\\ \\(name\\, \\/\\)"
+msgstr ""
+
+#: ../../../../None:12:<autosummary>:1
+msgid "Implement delattr(self, name)."
+msgstr ""
+
+#: ../../../../None:12:<autosummary>:1
+msgid ":py:obj:`__init__ <builtins.BaseException.__init__>`\\ \\(\\*args\\, \\*\\*kwargs\\)"
+msgstr ""
+
+#: ../../../../None:12:<autosummary>:1
+msgid ":py:obj:`__reduce__ <builtins.BaseException.__reduce__>`\\"
+msgstr ""
+
+#: ../../../../None:12:<autosummary>:1
+msgid "Helper for pickle."
+msgstr ""
+
+#: ../../../../None:12:<autosummary>:1
+msgid ":py:obj:`__setstate__ <builtins.BaseException.__setstate__>`\\"
+msgstr ""
+
+#: ../../../../None:12:<autosummary>:1
+msgid ":py:obj:`with_traceback <builtins.BaseException.with_traceback>`\\"
+msgstr ""
+
+#: ../../../../None:12:<autosummary>:1
+msgid "Exception.with_traceback(tb) -- set self.__traceback__ to tb and return self."
+msgstr ""
+
+#: ../../../../None:12:<autosummary>:1
+msgid ":py:obj:`add_note <builtins.BaseException.add_note>`\\"
+msgstr ""
+
+#: ../../../../None:12:<autosummary>:1
+msgid "Exception.add_note(note) -- add a note to the exception"
+msgstr ""
+
+#: ../../../autoapi/abqpy/run/index.rst:40
 msgid "This function uses the top level script file to run the Abaqus command, and the arguments passed to it"
 msgstr ""
 
@@ -45,6 +150,6 @@ msgstr ""
 msgid "Parameters"
 msgstr ""
 
-#: ../../../autoapi/abqpy/run/index.rst:25
+#: ../../../autoapi/abqpy/run/index.rst:43
 msgid "Whether to use `abaqus cae` command, True for `abaqus cae`, False for `abaqus python`, by default True"
 msgstr ""

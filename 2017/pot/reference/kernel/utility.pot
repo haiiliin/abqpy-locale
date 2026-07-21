@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: abqpy 2017\n"
+"Project-Id-Version: abqpy 2017.11\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-14 01:54+0000\n"
+"POT-Creation-Date: 2026-07-21 09:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -100,6 +100,11 @@ msgstr ""
 #: ../../../../../src/abaqus/UtilityAndView/SymbolicConstant.py:docstring of abaqus.UtilityAndView.SymbolicConstant.SymbolicConstant:17
 #: ../../../../../src/abaqus/UtilityAndView/Upgrade.py:docstring of abaqus.UtilityAndView.Upgrade.upgradeScript:7
 #: ../../../../../src/abaqus/UtilityAndView/Upgrade.py:docstring of abaqus.UtilityAndView.Upgrade.upgradeScript:12
+#: ../../../../../src/abaqus/UtilityAndView/User.py:docstring of abaqus.UtilityAndView.User.getInput:9
+#: ../../../../../src/abaqus/UtilityAndView/User.py:docstring of abaqus.UtilityAndView.User.getInput:14
+#: ../../../../../src/abaqus/UtilityAndView/User.py:docstring of abaqus.UtilityAndView.User.getInput:19
+#: ../../../../../src/abaqus/UtilityAndView/User.py:docstring of abaqus.UtilityAndView.User.getInputs:10
+#: ../../../../../src/abaqus/UtilityAndView/User.py:docstring of abaqus.UtilityAndView.User.getInputs:15
 #: ../../../../../src/abaqus/UtilityAndView/User.py:docstring of abaqus.UtilityAndView.User.getWarningReply:9
 #: ../../../../../src/abaqus/UtilityAndView/User.py:docstring of abaqus.UtilityAndView.User.getWarningReply:14
 #: ../../../../../src/abaqus/UtilityAndView/User.py:docstring of abaqus.UtilityAndView.User.getWarningReply:19
@@ -175,9 +180,7 @@ msgstr ""
 msgid "This method returns a list of deprecated arguments used since the last call to resetDeprecatedArgsUsed."
 msgstr ""
 
-#: ../../../../../src/abaqus/UtilityAndView/BackwardCompatibility.py:docstring of abaqus.UtilityAndView.BackwardCompatibility.BackwardCompatibility.getDeprecatedArgsUsed:0
-#: ../../../../../src/abaqus/UtilityAndView/BackwardCompatibility.py:docstring of abaqus.UtilityAndView.BackwardCompatibility.BackwardCompatibility.getDeprecatedMethodsUsed:0
-#: ../../../../../src/abaqus/UtilityAndView/Upgrade.py:docstring of abaqus.UtilityAndView.Upgrade.upgradeScript:0
+#: ../../../reference/kernel/utility.md:0
 msgid "Returns"
 msgstr ""
 
@@ -186,11 +189,7 @@ msgstr ""
 msgid "A list of Strings."
 msgstr ""
 
-#: ../../../../../src/abaqus/UtilityAndView/BackwardCompatibility.py:docstring of abaqus.UtilityAndView.BackwardCompatibility.BackwardCompatibility.getDeprecatedArgsUsed:0
-#: ../../../../../src/abaqus/UtilityAndView/BackwardCompatibility.py:docstring of abaqus.UtilityAndView.BackwardCompatibility.BackwardCompatibility.getDeprecatedMethodsUsed:0
-#: ../../../../../src/abaqus/UtilityAndView/Upgrade.py:docstring of abaqus.UtilityAndView.Upgrade.upgradeScript:0
-#: ../../../../../src/abaqus/UtilityAndView/User.py:docstring of abaqus.UtilityAndView.User.getWarningReply:0
-#: ../../../../../src/abaqus/UtilityAndView/View.py:docstring of abaqus.UtilityAndView.View.View.setValues:0
+#: ../../../reference/kernel/utility.md:0
 msgid "Return type"
 msgstr ""
 
@@ -228,28 +227,7 @@ msgstr ""
 msgid "Check `BackwardCompatibility.setValues on help.3ds.com/2017 <https://help.3ds.com/2017/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-backwardcompatibilitypyc.htm?contextscope=all#simaker-backwardcompatibilitysetvaluespyc>`__."
 msgstr ""
 
-#: ../../../../../src/abaqus/UtilityAndView/BackwardCompatibility.py:docstring of abaqus.UtilityAndView.BackwardCompatibility.BackwardCompatibility.setValues:0
-#: ../../../../../src/abaqus/UtilityAndView/Callback.py:docstring of abaqus.UtilityAndView.Callback.addImportCallback:0
-#: ../../../../../src/abaqus/UtilityAndView/Callback.py:docstring of abaqus.UtilityAndView.Callback.removeImportCallback:0
-#: ../../../../../src/abaqus/UtilityAndView/Customization.py:docstring of abaqus.UtilityAndView.Customization.journalMethodCall:0
-#: ../../../../../src/abaqus/UtilityAndView/Delete.py:docstring of abaqus.UtilityAndView.Delete.deleteObjectCallback:0
-#: ../../../../../src/abaqus/UtilityAndView/Method.py:docstring of abaqus.UtilityAndView.Method.addCallback:0
-#: ../../../../../src/abaqus/UtilityAndView/Method.py:docstring of abaqus.UtilityAndView.Method.removeCallback:0
-#: ../../../../../src/abaqus/UtilityAndView/Repository.py:docstring of abaqus.UtilityAndView.Repository.Repository.changeKey:0
-#: ../../../../../src/abaqus/UtilityAndView/Upgrade.py:docstring of abaqus.UtilityAndView.Upgrade.upgradeScript:0
-#: ../../../../../src/abaqus/UtilityAndView/User.py:docstring of abaqus.UtilityAndView.User.getWarningReply:0
-#: ../../../../../src/abaqus/UtilityAndView/View.py:docstring of abaqus.UtilityAndView.View.View.fitView:0
-#: ../../../../../src/abaqus/UtilityAndView/View.py:docstring of abaqus.UtilityAndView.View.View.next:0
-#: ../../../../../src/abaqus/UtilityAndView/View.py:docstring of abaqus.UtilityAndView.View.View.pan:0
-#: ../../../../../src/abaqus/UtilityAndView/View.py:docstring of abaqus.UtilityAndView.View.View.previous:0
-#: ../../../../../src/abaqus/UtilityAndView/View.py:docstring of abaqus.UtilityAndView.View.View.rotate:0
-#: ../../../../../src/abaqus/UtilityAndView/View.py:docstring of abaqus.UtilityAndView.View.View.setLayerTransform:0
-#: ../../../../../src/abaqus/UtilityAndView/View.py:docstring of abaqus.UtilityAndView.View.View.setProjection:0
-#: ../../../../../src/abaqus/UtilityAndView/View.py:docstring of abaqus.UtilityAndView.View.View.setRotationCenter:0
-#: ../../../../../src/abaqus/UtilityAndView/View.py:docstring of abaqus.UtilityAndView.View.View.setValues:0
-#: ../../../../../src/abaqus/UtilityAndView/View.py:docstring of abaqus.UtilityAndView.View.View.setViewpoint:0
-#: ../../../../../src/abaqus/UtilityAndView/View.py:docstring of abaqus.UtilityAndView.View.View.zoom:0
-#: ../../../../../src/abaqus/UtilityAndView/View.py:docstring of abaqus.UtilityAndView.View.View.zoomRectangle:0
+#: ../../../reference/kernel/utility.md:0
 msgid "Parameters"
 msgstr ""
 
@@ -273,6 +251,8 @@ msgstr ""
 #: ../../../../../src/abaqus/UtilityAndView/Method.py:docstring of abaqus.UtilityAndView.Method.addCallback:5
 #: ../../../../../src/abaqus/UtilityAndView/Method.py:docstring of abaqus.UtilityAndView.Method.removeCallback:5
 #: ../../../../../src/abaqus/UtilityAndView/Upgrade.py:docstring of abaqus.UtilityAndView.Upgrade.upgradeScript:8
+#: ../../../../../src/abaqus/UtilityAndView/User.py:docstring of abaqus.UtilityAndView.User.getInput:15
+#: ../../../../../src/abaqus/UtilityAndView/User.py:docstring of abaqus.UtilityAndView.User.getInputs:11
 #: ../../../../../src/abaqus/UtilityAndView/User.py:docstring of abaqus.UtilityAndView.User.getWarningReply:15
 msgid "This function can be accessed by::"
 msgstr ""
@@ -501,6 +481,62 @@ msgstr ""
 msgid ":class:`int`"
 msgstr ""
 
+#: ../../../../../src/abaqus/UtilityAndView/User.py:docstring of abaqus.UtilityAndView.User.getInput:1
+msgid "This method is used to obtain a single input from a user from a dialog box. The method displays a modal dialog box with a text field prefaced by the specified label. The user enters data in the text field or accepts the optional default value that is displayed in the text field. When the user clicks the OK button, the getInput method reads the data from the dialog box and closes the dialog box. You can use a \\t separator in the label argument to provide a tooltip from the dialog box; for example::"
+msgstr ""
+
+#: ../../../../../src/abaqus/UtilityAndView/User.py:docstring of abaqus.UtilityAndView.User.getInput:10
+msgid "You cannot use a script that contains getInput if you are running the script from the command line and passing the script name to the command line options **-start**, **-script**, **-replay**, or **-noGUI**."
+msgstr ""
+
+#: ../../../../../src/abaqus/UtilityAndView/User.py:docstring of abaqus.UtilityAndView.User.getInput:20
+msgid "Check `User.getInput on help.3ds.com/2017 <https://help.3ds.com/2017/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-functionuserpyc.htm?contextscope=all#simaker-functionusergetinputpyc>`__."
+msgstr ""
+
+#: ../../../../../src/abaqus/UtilityAndView/User.py:docstring of abaqus.UtilityAndView.User.getInput:23
+msgid "A String specifying the text field in the dialog box."
+msgstr ""
+
+#: ../../../../../src/abaqus/UtilityAndView/User.py:docstring of abaqus.UtilityAndView.User.getInput:25
+msgid "A String specifying a default value to be displayed in the text field in the dialog box."
+msgstr ""
+
+#: ../../../../../src/abaqus/UtilityAndView/User.py:docstring of abaqus.UtilityAndView.User.getInput:27
+msgid "A String or None if the user clicks Cancel."
+msgstr ""
+
+#: ../../../../../src/abaqus/UtilityAndView/User.py:docstring of abaqus.UtilityAndView.User.getInput:28
+msgid ":class:`str`"
+msgstr ""
+
+#: ../../../../../src/abaqus/UtilityAndView/User.py:docstring of abaqus.UtilityAndView.User.getInputs:1
+msgid "This method is used to obtain multiple inputs from a user from a dialog box. The method displays a modal dialog box with a column of text fields prefaced by the specified labels. The user enters data in the text fields or accepts the optional default values that are displayed in the text field. When the user clicks the OK button, the getInputs method reads the data from the dialog box and closes the dialog box. Note:You cannot use a script that contains getInputs if you are running the script from the command line and passing the script name to the command line options **-start**, **-script**, **-replay**, or **-noGUI**."
+msgstr ""
+
+#: ../../../../../src/abaqus/UtilityAndView/User.py:docstring of abaqus.UtilityAndView.User.getInputs:16
+msgid "Check `User.getInputs on help.3ds.com/2017 <https://help.3ds.com/2017/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-functionuserpyc.htm?contextscope=all#simaker-functionusergetinputspyc>`__."
+msgstr ""
+
+#: ../../../../../src/abaqus/UtilityAndView/User.py:docstring of abaqus.UtilityAndView.User.getInputs:19
+msgid "A sequence of sequence of Strings specifying the text fields in the dialog box. Each inner sequence is a pair of Strings specifying a label that describes a text field along with a default value that appears in the text field. If the field has no default value, you should enter an empty string in the second string in the pair."
+msgstr ""
+
+#: ../../../../../src/abaqus/UtilityAndView/User.py:docstring of abaqus.UtilityAndView.User.getInputs:24
+msgid "A String specifying a label to be placed at the top of the dialog box. The default is an empty string, indicating that no label will be shown."
+msgstr ""
+
+#: ../../../../../src/abaqus/UtilityAndView/User.py:docstring of abaqus.UtilityAndView.User.getInputs:27
+msgid "A String specifying the text to be shown in the title bar of the dialog box. The default is Get Inputs."
+msgstr ""
+
+#: ../../../../../src/abaqus/UtilityAndView/User.py:docstring of abaqus.UtilityAndView.User.getInputs:30
+msgid "A sequence of Strings representing the data in each of the text fields in the dialog box. If the user clicks the Cancel button, the method returns a sequence of None objects."
+msgstr ""
+
+#: ../../../../../src/abaqus/UtilityAndView/User.py:docstring of abaqus.UtilityAndView.User.getInputs:33
+msgid ":class:`Sequence[str]`"
+msgstr ""
+
 #: ../../../../../src/abaqus/UtilityAndView/User.py:docstring of abaqus.UtilityAndView.User.getWarningReply:1
 msgid "This method is used to obtain a reply from a user from a warning dialog box. The method displays a modal warning dialog box with a message and standard buttons. The user clicks the one of the standard buttons, the getWarningReply returns the corresponding button value and closes the dialog box. You can use a separator in the message argument to provide a multi-line message in the warning dialog box; for example::"
 msgstr ""
@@ -720,10 +756,7 @@ msgstr ""
 msgid "Check `View.setProjection on help.3ds.com/2017 <https://help.3ds.com/2017/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-viewpyc.htm?contextscope=all#simaker-viewsetprojectionpyc>`__."
 msgstr ""
 
-#: ../../../../../src/abaqus/UtilityAndView/View.py:docstring of abaqus.UtilityAndView.View.View.setProjection:0
-#: ../../../../../src/abaqus/UtilityAndView/View.py:docstring of abaqus.UtilityAndView.View.View.setRotationCenter:0
-#: ../../../../../src/abaqus/UtilityAndView/View.py:docstring of abaqus.UtilityAndView.View.View.setValues:0
-#: ../../../../../src/abaqus/UtilityAndView/View.py:docstring of abaqus.UtilityAndView.View.View.zoom:0
+#: ../../../reference/kernel/utility.md:0
 msgid "Raises"
 msgstr ""
 

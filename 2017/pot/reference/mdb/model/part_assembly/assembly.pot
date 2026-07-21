@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: abqpy 2017\n"
+"Project-Id-Version: abqpy 2017.11\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-14 01:54+0000\n"
+"POT-Creation-Date: 2026-07-21 09:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -134,7 +134,7 @@ msgstr ""
 msgid "Check `AssemblyModel on help.3ds.com/2017 <https://help.3ds.com/2017/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-modelasmpyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: ../../../../../src/abaqus/Assembly/AssemblyModel.py:docstring of abaqus.Assembly.AssemblyModel.AssemblyModel:0
+#: ../../../reference/mdb/model/part_assembly/assembly.md:0
 msgid "Public Data Attributes:"
 msgstr ""
 
@@ -539,7 +539,7 @@ msgstr ""
 msgid "An Assembly object."
 msgstr ""
 
-#: ../../../../../src/abaqus/Assembly/AssemblyModel.py:docstring of abaqus.Assembly.AssemblyModel.AssemblyModel:0
+#: ../../../reference/mdb/model/part_assembly/assembly.md:0
 msgid "Public Methods:"
 msgstr ""
 
@@ -569,43 +569,19 @@ msgstr ""
 msgid "This method links the selected PartInstance objects to the corresponding PartInstance objects from the specified models."
 msgstr ""
 
-#: ../../../../None:7:<autosummary>:1
+#: ../../../../None:4:<autosummary>:1
 msgid ":py:obj:`__init__ <abaqus.Model.ModelBase.ModelBase.__init__>`\\ \\(name\\[\\, description\\, ...\\]\\)"
 msgstr ""
 
-#: ../../../../None:7:<autosummary>:1
+#: ../../../../None:4:<autosummary>:1
 msgid "This method creates a Model object."
 msgstr ""
 
-#: ../../../../None:7:<autosummary>:1
-msgid ":py:obj:`ModelFromInputFile <abaqus.Model.ModelBase.ModelBase.ModelFromInputFile>`\\ \\(name\\, inputFileName\\)"
-msgstr ""
-
-#: ../../../../None:7:<autosummary>:1
-msgid "This method creates a Model object by reading the keywords in an input file and creating the corresponding Abaqus/CAE objects."
-msgstr ""
-
-#: ../../../../None:7:<autosummary>:1
-msgid ":py:obj:`ModelFromOdbFile <abaqus.Model.ModelBase.ModelBase.ModelFromOdbFile>`\\ \\(name\\, odbFileName\\)"
-msgstr ""
-
-#: ../../../../None:7:<autosummary>:1
-msgid "This method creates a Model object by reading an output database and creating any corresponding Abaqus/CAE objects."
-msgstr ""
-
-#: ../../../../None:7:<autosummary>:1
-msgid ":py:obj:`ModelFromNastranFile <abaqus.Model.ModelBase.ModelBase.ModelFromNastranFile>`\\ \\(modelName\\, inputFileName\\)"
-msgstr ""
-
-#: ../../../../None:7:<autosummary>:1
-msgid "This method creates a Model object by reading the keywords in a Nastran bulk data file or Nastran input file and creating any corresponding Abaqus/CAE objects."
-msgstr ""
-
-#: ../../../../None:7:<autosummary>:1
+#: ../../../../None:4:<autosummary>:1
 msgid ":py:obj:`setValues <abaqus.Model.ModelBase.ModelBase.setValues>`\\ \\(\\[description\\, noPartsInputFile\\, ...\\]\\)"
 msgstr ""
 
-#: ../../../../None:7:<autosummary>:1
+#: ../../../../None:4:<autosummary>:1
 msgid "This method modifies the Model object."
 msgstr ""
 
@@ -641,58 +617,7 @@ msgstr ""
 msgid "Check `Instance on help.3ds.com/2017 <https://help.3ds.com/2017/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-instanceasmpyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: ../../../../../src/abaqus/Assembly/Assembly.py:docstring of abaqus.Assembly.Assembly.Assembly.ConnectorOrientation:0
-#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.Instance:0
-#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.InstanceFromBooleanCut:0
-#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.InstanceFromBooleanMerge:0
-#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.LinearInstancePattern:0
-#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.RadialInstancePattern:0
-#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.copyMeshPattern:0
-#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.deleteFeatures:0
-#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.excludeFromSimulation:0
-#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.getAngle:0
-#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.getCoordinates:0
-#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.getDistance:0
-#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.getFacesAndVerticesOfAttachmentLines:0
-#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.getMassProperties:0
-#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.getSurfaceSections:0
-#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.importCatiaV5File:0
-#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.importEafFile:0
-#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.importEnfFile:0
-#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.importIdeasFile:0
-#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.importParasolidFile:0
-#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.importProEFile:0
-#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.makeDependent:0
-#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.makeIndependent:0
-#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.projectReferencesOntoSketch:0
-#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.resumeFeatures:0
-#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.rotate:0
-#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.setMeshNumberingControl:0
-#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.setValues:0
-#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.smoothNodes:0
-#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.suppressFeatures:0
-#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.translate:0
-#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.unlinkInstances:0
-#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.writeAcisFile:0
-#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.writeCADParameters:0
-#: ../../../../../src/abaqus/Assembly/AssemblyFeature.py:docstring of abaqus.Assembly.AssemblyFeature.AssemblyFeature.AttachmentLines:0
-#: ../../../../../src/abaqus/Assembly/AssemblyFeature.py:docstring of abaqus.Assembly.AssemblyFeature.AssemblyFeature.Coaxial:0
-#: ../../../../../src/abaqus/Assembly/AssemblyFeature.py:docstring of abaqus.Assembly.AssemblyFeature.AssemblyFeature.CoincidentPoint:0
-#: ../../../../../src/abaqus/Assembly/AssemblyFeature.py:docstring of abaqus.Assembly.AssemblyFeature.AssemblyFeature.EdgeToEdge:0
-#: ../../../../../src/abaqus/Assembly/AssemblyFeature.py:docstring of abaqus.Assembly.AssemblyFeature.AssemblyFeature.FaceToFace:0
-#: ../../../../../src/abaqus/Assembly/AssemblyFeature.py:docstring of abaqus.Assembly.AssemblyFeature.AssemblyFeature.ParallelCsys:0
-#: ../../../../../src/abaqus/Assembly/AssemblyFeature.py:docstring of abaqus.Assembly.AssemblyFeature.AssemblyFeature.ParallelEdge:0
-#: ../../../../../src/abaqus/Assembly/AssemblyFeature.py:docstring of abaqus.Assembly.AssemblyFeature.AssemblyFeature.ParallelFace:0
-#: ../../../../../src/abaqus/Assembly/AssemblyModel.py:docstring of abaqus.Assembly.AssemblyModel.AssemblyModel.Instance:0
-#: ../../../../../src/abaqus/Assembly/AssemblyModel.py:docstring of abaqus.Assembly.AssemblyModel.AssemblyModel.convertAllSketches:0
-#: ../../../../../src/abaqus/Assembly/AssemblyModel.py:docstring of abaqus.Assembly.AssemblyModel.AssemblyModel.linkInstances:0
-#: ../../../../../src/abaqus/Assembly/ModelInstance.py:docstring of abaqus.Assembly.ModelInstance.ModelInstance.translate:0
-#: ../../../../../src/abaqus/Assembly/PartInstance.py:docstring of abaqus.Assembly.PartInstance.PartInstance.Contact:0
-#: ../../../../../src/abaqus/Assembly/PartInstance.py:docstring of abaqus.Assembly.PartInstance.PartInstance.checkGeometry:0
-#: ../../../../../src/abaqus/Assembly/PartInstance.py:docstring of abaqus.Assembly.PartInstance.PartInstance.replace:0
-#: ../../../../../src/abaqus/Assembly/PartInstance.py:docstring of abaqus.Assembly.PartInstance.PartInstance.rotateAboutAxis:0
-#: ../../../../../src/abaqus/Assembly/PartInstance.py:docstring of abaqus.Assembly.PartInstance.PartInstance.translate:0
-#: ../../../../../src/abaqus/Assembly/PartInstance.py:docstring of abaqus.Assembly.PartInstance.PartInstance.translateTo:0
+#: ../../../reference/mdb/model/part_assembly/assembly.md:0
 msgid "Parameters"
 msgstr ""
 
@@ -700,33 +625,7 @@ msgstr ""
 msgid "A PartInstance object to be copied."
 msgstr ""
 
-#: ../../../../../src/abaqus/Assembly/Assembly.py:docstring of abaqus.Assembly.Assembly.Assembly.ConnectorOrientation:0
-#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.Instance:0
-#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.InstanceFromBooleanCut:0
-#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.InstanceFromBooleanMerge:0
-#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.LinearInstancePattern:0
-#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.RadialInstancePattern:0
-#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.getAngle:0
-#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.getCoordinates:0
-#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.getDistance:0
-#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.getFacesAndVerticesOfAttachmentLines:0
-#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.getMassProperties:0
-#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.getSurfaceSections:0
-#: ../../../../../src/abaqus/Assembly/AssemblyFeature.py:docstring of abaqus.Assembly.AssemblyFeature.AssemblyFeature.AttachmentLines:0
-#: ../../../../../src/abaqus/Assembly/AssemblyFeature.py:docstring of abaqus.Assembly.AssemblyFeature.AssemblyFeature.Coaxial:0
-#: ../../../../../src/abaqus/Assembly/AssemblyFeature.py:docstring of abaqus.Assembly.AssemblyFeature.AssemblyFeature.CoincidentPoint:0
-#: ../../../../../src/abaqus/Assembly/AssemblyFeature.py:docstring of abaqus.Assembly.AssemblyFeature.AssemblyFeature.EdgeToEdge:0
-#: ../../../../../src/abaqus/Assembly/AssemblyFeature.py:docstring of abaqus.Assembly.AssemblyFeature.AssemblyFeature.FaceToFace:0
-#: ../../../../../src/abaqus/Assembly/AssemblyFeature.py:docstring of abaqus.Assembly.AssemblyFeature.AssemblyFeature.ParallelCsys:0
-#: ../../../../../src/abaqus/Assembly/AssemblyFeature.py:docstring of abaqus.Assembly.AssemblyFeature.AssemblyFeature.ParallelEdge:0
-#: ../../../../../src/abaqus/Assembly/AssemblyFeature.py:docstring of abaqus.Assembly.AssemblyFeature.AssemblyFeature.ParallelFace:0
-#: ../../../../../src/abaqus/Assembly/AssemblyModel.py:docstring of abaqus.Assembly.AssemblyModel.AssemblyModel.Instance:0
-#: ../../../../../src/abaqus/Assembly/AssemblyModel.py:docstring of abaqus.Assembly.AssemblyModel.AssemblyModel.convertAllSketches:0
-#: ../../../../../src/abaqus/Assembly/AssemblyModel.py:docstring of abaqus.Assembly.AssemblyModel.AssemblyModel.linkInstances:0
-#: ../../../../../src/abaqus/Assembly/PartInstance.py:docstring of abaqus.Assembly.PartInstance.PartInstance.Contact:0
-#: ../../../../../src/abaqus/Assembly/PartInstance.py:docstring of abaqus.Assembly.PartInstance.PartInstance.getRotation:0
-#: ../../../../../src/abaqus/Assembly/PartInstance.py:docstring of abaqus.Assembly.PartInstance.PartInstance.getTranslation:0
-#: ../../../../../src/abaqus/Assembly/PartInstance.py:docstring of abaqus.Assembly.PartInstance.PartInstance.translateTo:0
+#: ../../../reference/mdb/model/part_assembly/assembly.md:0
 msgid "Returns"
 msgstr ""
 
@@ -734,33 +633,7 @@ msgstr ""
 msgid "A Model object."
 msgstr ""
 
-#: ../../../../../src/abaqus/Assembly/Assembly.py:docstring of abaqus.Assembly.Assembly.Assembly.ConnectorOrientation:0
-#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.Instance:0
-#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.InstanceFromBooleanCut:0
-#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.InstanceFromBooleanMerge:0
-#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.LinearInstancePattern:0
-#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.RadialInstancePattern:0
-#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.getAngle:0
-#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.getCoordinates:0
-#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.getDistance:0
-#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.getFacesAndVerticesOfAttachmentLines:0
-#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.getMassProperties:0
-#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.getSurfaceSections:0
-#: ../../../../../src/abaqus/Assembly/AssemblyFeature.py:docstring of abaqus.Assembly.AssemblyFeature.AssemblyFeature.AttachmentLines:0
-#: ../../../../../src/abaqus/Assembly/AssemblyFeature.py:docstring of abaqus.Assembly.AssemblyFeature.AssemblyFeature.Coaxial:0
-#: ../../../../../src/abaqus/Assembly/AssemblyFeature.py:docstring of abaqus.Assembly.AssemblyFeature.AssemblyFeature.CoincidentPoint:0
-#: ../../../../../src/abaqus/Assembly/AssemblyFeature.py:docstring of abaqus.Assembly.AssemblyFeature.AssemblyFeature.EdgeToEdge:0
-#: ../../../../../src/abaqus/Assembly/AssemblyFeature.py:docstring of abaqus.Assembly.AssemblyFeature.AssemblyFeature.FaceToFace:0
-#: ../../../../../src/abaqus/Assembly/AssemblyFeature.py:docstring of abaqus.Assembly.AssemblyFeature.AssemblyFeature.ParallelCsys:0
-#: ../../../../../src/abaqus/Assembly/AssemblyFeature.py:docstring of abaqus.Assembly.AssemblyFeature.AssemblyFeature.ParallelEdge:0
-#: ../../../../../src/abaqus/Assembly/AssemblyFeature.py:docstring of abaqus.Assembly.AssemblyFeature.AssemblyFeature.ParallelFace:0
-#: ../../../../../src/abaqus/Assembly/AssemblyModel.py:docstring of abaqus.Assembly.AssemblyModel.AssemblyModel.Instance:0
-#: ../../../../../src/abaqus/Assembly/AssemblyModel.py:docstring of abaqus.Assembly.AssemblyModel.AssemblyModel.convertAllSketches:0
-#: ../../../../../src/abaqus/Assembly/AssemblyModel.py:docstring of abaqus.Assembly.AssemblyModel.AssemblyModel.linkInstances:0
-#: ../../../../../src/abaqus/Assembly/PartInstance.py:docstring of abaqus.Assembly.PartInstance.PartInstance.Contact:0
-#: ../../../../../src/abaqus/Assembly/PartInstance.py:docstring of abaqus.Assembly.PartInstance.PartInstance.getRotation:0
-#: ../../../../../src/abaqus/Assembly/PartInstance.py:docstring of abaqus.Assembly.PartInstance.PartInstance.getTranslation:0
-#: ../../../../../src/abaqus/Assembly/PartInstance.py:docstring of abaqus.Assembly.PartInstance.PartInstance.translateTo:0
+#: ../../../reference/mdb/model/part_assembly/assembly.md:0
 msgid "Return type"
 msgstr ""
 
@@ -1682,14 +1555,7 @@ msgstr ""
 msgid "Check `AssemblyBase.setValues on help.3ds.com/2017 <https://help.3ds.com/2017/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-assemblypyc.htm?contextscope=all#simaker-assemblysetvaluespyc>`__."
 msgstr ""
 
-#: ../../../../../src/abaqus/Assembly/AssemblyBase.py:docstring of abaqus.Assembly.AssemblyBase.AssemblyBase.setValues:0
-#: ../../../../../src/abaqus/Assembly/AssemblyFeature.py:docstring of abaqus.Assembly.AssemblyFeature.AssemblyFeature.Coaxial:0
-#: ../../../../../src/abaqus/Assembly/AssemblyFeature.py:docstring of abaqus.Assembly.AssemblyFeature.AssemblyFeature.EdgeToEdge:0
-#: ../../../../../src/abaqus/Assembly/AssemblyFeature.py:docstring of abaqus.Assembly.AssemblyFeature.AssemblyFeature.FaceToFace:0
-#: ../../../../../src/abaqus/Assembly/AssemblyFeature.py:docstring of abaqus.Assembly.AssemblyFeature.AssemblyFeature.ParallelCsys:0
-#: ../../../../../src/abaqus/Assembly/AssemblyFeature.py:docstring of abaqus.Assembly.AssemblyFeature.AssemblyFeature.ParallelEdge:0
-#: ../../../../../src/abaqus/Assembly/AssemblyFeature.py:docstring of abaqus.Assembly.AssemblyFeature.AssemblyFeature.ParallelFace:0
-#: ../../../../../src/abaqus/Assembly/PartInstance.py:docstring of abaqus.Assembly.PartInstance.PartInstance.checkGeometry:0
+#: ../../../reference/mdb/model/part_assembly/assembly.md:0
 msgid "Raises"
 msgstr ""
 
