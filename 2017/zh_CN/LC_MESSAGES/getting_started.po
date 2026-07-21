@@ -26,7 +26,11 @@ msgid "Introduction"
 msgstr "简介"
 
 #: ../../../getting_started.md:5
-msgid "`abqpy` is a Python package that provides type hints for Abaqus Python scripting. You can use it to write your Abaqus Python scripts fluently. It also provides simple APIs to execute Abaqus commands, enabling you to build models, submit jobs, and extract output data in a single Python script, all without opening Abaqus/CAE."
+msgid ""
+"`abqpy` is a Python package that provides type hints for Abaqus Python scripting. You "
+"can use it to write your Abaqus Python scripts fluently. It also provides simple APIs "
+"to execute Abaqus commands, enabling you to build models, submit jobs, and extract "
+"output data in a single Python script, all without opening Abaqus/CAE."
 msgstr ""
 
 #: ../../../getting_started.md:10
@@ -34,7 +38,12 @@ msgid "Installation"
 msgstr "安装"
 
 #: ../../../getting_started.md:12
-msgid "Make sure <a href=\"https://www.python.org/downloads/\"> <img src=\"https://img.shields.io/badge/Python-3.8%2B-brightgreen\" align=center /> </a> and <a href=\"https://www.3ds.com/products-services/simulia/products/abaqus/\"> <img src=\"https://img.shields.io/badge/Abaqus-2016%2B-brightgreen\" align=center /> </a> are installed on your computer before installing `abqpy`."
+msgid ""
+"Make sure <a href=\"https://www.python.org/downloads/\"> <img "
+"src=\"https://img.shields.io/badge/Python-3.8%2B-brightgreen\" align=center /> </a> "
+"and <a href=\"https://www.3ds.com/products-services/simulia/products/abaqus/\"> <img "
+"src=\"https://img.shields.io/badge/Abaqus-2016%2B-brightgreen\" align=center /> </a> "
+"are installed on your computer before installing `abqpy`."
 msgstr ""
 
 #: ../../../getting_started.md:16
@@ -47,7 +56,9 @@ msgid "Warning"
 msgstr "警告"
 
 #: ../../../getting_started.md:46
-msgid "Do not install abqpy in Abaqus's built-in Python interpreter, as it may cause the Abaqus Python interpreter to crash and you may not be able to open Abaqus/CAE anymore."
+msgid ""
+"Do not install abqpy in Abaqus's built-in Python interpreter, as it may cause the "
+"Abaqus Python interpreter to crash and you may not be able to open Abaqus/CAE anymore."
 msgstr ""
 
 #: ../../../getting_started.md:50
@@ -55,7 +66,9 @@ msgid "Note"
 msgstr "备注"
 
 #: ../../../getting_started.md:51
-msgid "It is recommended to install the corresponding version of Abaqus and `abqpy` to avoid any compatibility issues."
+msgid ""
+"It is recommended to install the corresponding version of Abaqus and `abqpy` to avoid "
+"any compatibility issues."
 msgstr ""
 
 #: ../../../getting_started.md:54
@@ -63,27 +76,50 @@ msgid "Two Python interpreters"
 msgstr "两个 Python 解释器"
 
 #: ../../../getting_started.md:56
-msgid "Before proceeding, it's important to understand the concept of two different Python interpreters."
+msgid ""
+"Before proceeding, it's important to understand the concept of two different Python "
+"interpreters."
 msgstr ""
 
 #: ../../../getting_started.md:58
-msgid "When you use the Abaqus/CAE graphical user interface (GUI) to create a model and visualize results, Abaqus/CAE internally issues commands after every operation. These commands reflect the geometry you created along with the options and settings you selected from each dialog box. The GUI generates commands in the Python programming language. The commands issued by the GUI are sent to the Abaqus/CAE kernel, which interprets the commands and uses the options and settings to create an internal representation of your model. The kernel is the computational engine behind Abaqus/CAE, while the GUI serves as the interface between you and the kernel."
+msgid ""
+"When you use the Abaqus/CAE graphical user interface (GUI) to create a model and "
+"visualize results, Abaqus/CAE internally issues commands after every operation. These "
+"commands reflect the geometry you created along with the options and settings you "
+"selected from each dialog box. The GUI generates commands in the Python programming "
+"language. The commands issued by the GUI are sent to the Abaqus/CAE kernel, which "
+"interprets the commands and uses the options and settings to create an internal "
+"representation of your model. The kernel is the computational engine behind "
+"Abaqus/CAE, while the GUI serves as the interface between you and the kernel."
 msgstr ""
 
 #: ../../../getting_started.md:67
-msgid "In summary, Abaqus uses the Python language to interact with the Abaqus kernel. Everything that can be done in Abaqus/CAE can also be accomplished using Python scripts. Abaqus comes with a Python interpreter that enables Abaqus/CAE to interact with the Abaqus kernel."
+msgid ""
+"In summary, Abaqus uses the Python language to interact with the Abaqus kernel. "
+"Everything that can be done in Abaqus/CAE can also be accomplished using Python "
+"scripts. Abaqus comes with a Python interpreter that enables Abaqus/CAE to interact "
+"with the Abaqus kernel."
 msgstr ""
 
 #: ../../../getting_started.md:71
-msgid "For various reasons, we cannot directly use the Python interpreter inside Abaqus to build an Abaqus model independently. However, we can access it using commands provided by Abaqus:"
+msgid ""
+"For various reasons, we cannot directly use the Python interpreter inside Abaqus to "
+"build an Abaqus model independently. However, we can access it using commands provided"
+" by Abaqus:"
 msgstr ""
 
 #: ../../../getting_started.md:92
-msgid "Typically, we can use the `noGUI-file` or `script-file` options to execute your Python script in Abaqus."
+msgid ""
+"Typically, we can use the `noGUI-file` or `script-file` options to execute your Python"
+" script in Abaqus."
 msgstr ""
 
 #: ../../../getting_started.md:94
-msgid "The second Python interpreter is the one you install yourself, where `abqpy` is installed. `abqpy` provides a bridge connecting your Python script to the Abaqus Python interpreter. It provides type hints for Abaqus Python scripting, enabling you to write Abaqus Python scripts efficiently."
+msgid ""
+"The second Python interpreter is the one you install yourself, where `abqpy` is "
+"installed. `abqpy` provides a bridge connecting your Python script to the Abaqus "
+"Python interpreter. It provides type hints for Abaqus Python scripting, enabling you "
+"to write Abaqus Python scripts efficiently."
 msgstr ""
 
 #: ../../../getting_started.md:99
@@ -91,23 +127,50 @@ msgid "How does this package work?"
 msgstr "这个包是如何工作的？"
 
 #: ../../../getting_started.md:101
-msgid "`abqpy` is a package that provides type hints for Abaqus Python scripting. It is installed outside the Abaqus Python environment. You can use `abqpy` to write your Abaqus Python scripts and then run those scripts inside Abaqus manually. However, with the help of Abaqus commands, there's an easier approach: **you can actually run the script using your own Python interpreter without opening Abaqus**. This is achieved via the **abaqus** command like this:"
+msgid ""
+"`abqpy` is a package that provides type hints for Abaqus Python scripting. It is "
+"installed outside the Abaqus Python environment. You can use `abqpy` to write your "
+"Abaqus Python scripts and then run those scripts inside Abaqus manually. However, with"
+" the help of Abaqus commands, there's an easier approach: **you can actually run the "
+"script using your own Python interpreter without opening Abaqus**. This is achieved "
+"via the **abaqus** command like this:"
 msgstr ""
 
 #: ../../../getting_started.md:110
-msgid "The mechanism is implemented in the {py:func}`~abqpy.run.run` function.   In this package, the {py:mod}`~abaqus` module is reimplemented to automatically call this function. When you import this module at the top of your script (i.e., `from abaqus import *`), your Python interpreter (not the Abaqus Python interpreter) will call this function and use the **abaqus** command to submit the script to Abaqus. After the script is submitted to Abaqus, {py:func}`~abqpy.run.run` will exit the interpreter, because the script will already be running in the Abaqus Python interpreter."
+msgid ""
+"The mechanism is implemented in the {py:func}`~abqpy.run.run` function.   In this "
+"package, the {py:mod}`~abaqus` module is reimplemented to automatically call this "
+"function. When you import this module at the top of your script (i.e., `from abaqus "
+"import *`), your Python interpreter (not the Abaqus Python interpreter) will call this"
+" function and use the **abaqus** command to submit the script to Abaqus. After the "
+"script is submitted to Abaqus, {py:func}`~abqpy.run.run` will exit the interpreter, "
+"because the script will already be running in the Abaqus Python interpreter."
 msgstr ""
 
 #: ../../../getting_started.md:116
-msgid "In output scripts, you might not always want to use the {py:mod}`~abaqus` module, since it requires the Abaqus/CAE kernel (and its license). Instead, you can use the {py:mod}`~odbAccess` module (i.e., `from odbAccess import *`), which only requires the Abaqus Python interpreter. For this, a different **abaqus** command line is needed:"
+msgid ""
+"In output scripts, you might not always want to use the {py:mod}`~abaqus` module, "
+"since it requires the Abaqus/CAE kernel (and its license). Instead, you can use the "
+"{py:mod}`~odbAccess` module (i.e., `from odbAccess import *`), which only requires the"
+" Abaqus Python interpreter. For this, a different **abaqus** command line is needed:"
 msgstr ""
 
 #: ../../../getting_started.md:124
-msgid "So, the {py:mod}`~odbAccess` module is also reimplemented to call the {py:func}`~abqpy.run.run` function with the argument `cae = False`."
-msgstr "因此，{py:mod}`~odbAccess` 模块也被重新实现以调用带有参数 `cae = False` 的 {py:func}`~abqpy.run.run` 函数。"
+msgid ""
+"So, the {py:mod}`~odbAccess` module is also reimplemented to call the "
+"{py:func}`~abqpy.run.run` function with the argument `cae = False`."
+msgstr ""
+"因此，{py:mod}`~odbAccess` 模块也被重新实现以调用带有参数 `cae = False` 的 "
+"{py:func}`~abqpy.run.run` 函数。"
 
 #: ../../../getting_started.md:126
-msgid "In summary, the {py:func}`~abqpy.run.run` function is called when you import either of the two modules ({py:mod}`~abaqus` or {py:mod}`~odbAccess`). It passes the argument `cae = True` for the {py:mod}`~abaqus` module and `cae = False` for the {py:mod}`~odbAccess` module. Therefore, if you want to run your Python script in the Abaqus Python environment, make sure to import one of these modules at the top of your script."
+msgid ""
+"In summary, the {py:func}`~abqpy.run.run` function is called when you import either of"
+" the two modules ({py:mod}`~abaqus` or {py:mod}`~odbAccess`). It passes the argument "
+"`cae = True` for the {py:mod}`~abaqus` module and `cae = False` for the "
+"{py:mod}`~odbAccess` module. Therefore, if you want to run your Python script in the "
+"Abaqus Python environment, make sure to import one of these modules at the top of your"
+" script."
 msgstr ""
 
 #: ../../../getting_started.md:131
@@ -115,7 +178,13 @@ msgid "Write your Abaqus Python script"
 msgstr ""
 
 #: ../../../getting_started.md:133
-msgid "After installing the `abqpy` package, you can start writing your own Abaqus Python scripts to build your models. You can refer to the [abqpy/examples at main · haiiliin/abqpy](https://github.com/haiiliin/abqpy/tree/main/examples) repository for script examples. Alternatively, you can check out {doc}`/tutorials` for a simple tutorial. For more detailed documentation about Abaqus Python scripting, please see {doc}`/reference/index` for comprehensive API references."
+msgid ""
+"After installing the `abqpy` package, you can start writing your own Abaqus Python "
+"scripts to build your models. You can refer to the [abqpy/examples at main · "
+"haiiliin/abqpy](https://github.com/haiiliin/abqpy/tree/main/examples) repository for "
+"script examples. Alternatively, you can check out {doc}`/tutorials` for a simple "
+"tutorial. For more detailed documentation about Abaqus Python scripting, please see "
+"{doc}`/reference/index` for comprehensive API references."
 msgstr ""
 
 #: ../../../getting_started.md:139
@@ -123,7 +192,11 @@ msgid "Set up your Abaqus environment"
 msgstr ""
 
 #: ../../../getting_started.md:141
-msgid "Ensure the `abaqus` command is available in the command line (i.e., you can run `abaqus` from the command line). If not, add a new system environment variable named `ABAQUS_BAT_PATH` and set its value to the file path of the Abaqus command. For example: `C:/SIMULIA/Commands/abaqus.bat`."
+msgid ""
+"Ensure the `abaqus` command is available in the command line (i.e., you can run "
+"`abaqus` from the command line). If not, add a new system environment variable named "
+"`ABAQUS_BAT_PATH` and set its value to the file path of the Abaqus command. For "
+"example: `C:/SIMULIA/Commands/abaqus.bat`."
 msgstr ""
 
 #: ../../../getting_started.md:145
@@ -135,7 +208,9 @@ msgid "Now you can run your Abaqus Python script using the following methods:"
 msgstr ""
 
 #: ../../../getting_started.md:149
-msgid "Open Abaqus/CAE and click **Run Script** in the menu bar, then select your script file. This is the most common way to run a Python script in Abaqus/CAE."
+msgid ""
+"Open Abaqus/CAE and click **Run Script** in the menu bar, then select your script "
+"file. This is the most common way to run a Python script in Abaqus/CAE."
 msgstr ""
 
 #: ../../../getting_started.md:151
@@ -143,15 +218,23 @@ msgid "Use the `abaqus` command in the command line:"
 msgstr "在命令行中使用 `abaqus` 命令："
 
 #: ../../../getting_started.md:155
-msgid "See [here](https://help.3ds.com/2017/English/DSSIMULIA_Established/SIMACAEEXCRefMap/simaexc-c-caeproc.htm?contextscope=all) for more information about the `abaqus` command."
-msgstr "更多关于 `abaqus` 命令的信息，请访问 [这里](https://help.3ds.com/2017/English/DSSIMULIA_Established/SIMACEEXCRefMap/simagec-c-c-caeproc.htm?contextscope=all)。"
+msgid ""
+"See [here](https://help.3ds.com/2017/English/DSSIMULIA_Established/SIMACAEEXCRefMap/si"
+"maexc-c-caeproc.htm?contextscope=all) for more information about the `abaqus` command."
+msgstr ""
+"更多关于 `abaqus` 命令的信息，请访问 "
+"[这里](https://help.3ds.com/2017/English/DSSIMULIA_Established/SIMACEEXCRefMap/simagec-"
+"c-c-caeproc.htm?contextscope=all)。"
 
 #: ../../../getting_started.md:157
 msgid "Use the `abqpy` command in the command line:"
 msgstr "在命令行中使用 `abaqus` 命令："
 
 #: ../../../getting_started.md:161
-msgid "The advantage of using the `abqpy` command instead of the `abaqus` command directly is that you can customize the default Python launch command. See {doc}`cli` for more information about the `abqpy` command."
+msgid ""
+"The advantage of using the `abqpy` command instead of the `abaqus` command directly is"
+" that you can customize the default Python launch command. See {doc}`cli` for more "
+"information about the `abqpy` command."
 msgstr ""
 
 #: ../../../getting_started.md:163
@@ -159,19 +242,32 @@ msgid "Use the Python 3 interpreter to run the script directly:"
 msgstr "使用 Python 3 解释器直接运行脚本："
 
 #: ../../../getting_started.md:167
-msgid "This is the most convenient way to run the script. It is equivalent to the `abqpy` command with some default predefined arguments."
+msgid ""
+"This is the most convenient way to run the script. It is equivalent to the `abqpy` "
+"command with some default predefined arguments."
 msgstr ""
 
 #: ../../../getting_started.md:169
-msgid "Use the {py:obj}`abqpy.cli.abaqus` object (an {py:obj}`abqpy.cli.AbqpyCLI` object) to run the script:"
-msgstr "使用 {py:obj}`abqpy.cli.abaqus` 变量 ({py:obj}`abqpy.cli.AbqpyCLI` 对象) 运行脚本："
+msgid ""
+"Use the {py:obj}`abqpy.cli.abaqus` object (an {py:obj}`abqpy.cli.AbqpyCLI` object) to "
+"run the script:"
+msgstr ""
+"使用 {py:obj}`abqpy.cli.abaqus` 变量 ({py:obj}`abqpy.cli.AbqpyCLI` 对象) 运行脚本："
 
 #: ../../../getting_started.md:177
-msgid "The {py:obj}`abqpy.cli.abaqus` object is used for the `abqpy` command. You can call the methods in this object directly to run the script. This method is convenient when you want to call the Abaqus Python script from another Python script, since typing annotations are provided for the methods. You can check the docstring of the methods for more information."
+msgid ""
+"The {py:obj}`abqpy.cli.abaqus` object is used for the `abqpy` command. You can call "
+"the methods in this object directly to run the script. This method is convenient when "
+"you want to call the Abaqus Python script from another Python script, since typing "
+"annotations are provided for the methods. You can check the docstring of the methods "
+"for more information."
 msgstr ""
 
 #: ../../../getting_started.md:183
-msgid "`abqpy` does not support debugging, since Abaqus does not provide a debugger for Python scripting outside Abaqus/CAE. If you run the script in debug mode, it will be opened in Abaqus PDE where you can debug it."
+msgid ""
+"`abqpy` does not support debugging, since Abaqus does not provide a debugger for "
+"Python scripting outside Abaqus/CAE. If you run the script in debug mode, it will be "
+"opened in Abaqus PDE where you can debug it."
 msgstr ""
 
 #: ../../../getting_started.md:187
