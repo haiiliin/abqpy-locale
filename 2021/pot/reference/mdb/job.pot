@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: abqpy 2021\n"
+"Project-Id-Version: abqpy 2021.11\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-06 02:35+0000\n"
+"POT-Creation-Date: 2026-07-21 09:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -75,17 +75,7 @@ msgstr ""
 msgid "Check `Job on help.3ds.com/2021 <https://help.3ds.com/2021/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-jobpyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: ../../../../../src/abaqus/Job/Coexecution.py:docstring of abaqus.Job.Coexecution.Coexecution.submit:0
-#: ../../../../../src/abaqus/Job/Coexecution.py:docstring of abaqus.Job.Coexecution.Coexecution.writeInput:0
-#: ../../../../../src/abaqus/Job/JobFromInputFile.py:docstring of abaqus.Job.JobFromInputFile.JobFromInputFile.setValues:0
-#: ../../../../../src/abaqus/Job/JobMdb.py:docstring of abaqus.Job.JobMdb.JobMdb.Job:0
-#: ../../../../../src/abaqus/Job/JobMdb.py:docstring of abaqus.Job.JobMdb.JobMdb.JobFromInputFile:0
-#: ../../../../../src/abaqus/Job/JobMdb.py:docstring of abaqus.Job.JobMdb.JobMdb.OptimizationProcess:0
-#: ../../../../../src/abaqus/Job/JobSession.py:docstring of abaqus.Job.JobSession.JobSession.Queue:0
-#: ../../../../../src/abaqus/Job/ModelJob.py:docstring of abaqus.Job.ModelJob.ModelJob.writeInput:0
-#: ../../../../../src/abaqus/Job/OptimizationProcess.py:docstring of abaqus.Job.OptimizationProcess.OptimizationProcess.extract:0
-#: ../../../../../src/abaqus/Job/OptimizationProcess.py:docstring of abaqus.Job.OptimizationProcess.OptimizationProcess.setValues:0
-#: ../../../../../src/abaqus/Job/OptimizationProcess.py:docstring of abaqus.Job.OptimizationProcess.OptimizationProcess.submit:0
+#: ../../../reference/mdb/job.md:0
 msgid "Parameters"
 msgstr ""
 
@@ -249,9 +239,7 @@ msgstr ""
 msgid "A SymbolicConstant specifying the type of license type being used in the case of the DSLS SimUnit license model. Possible values are DEFAULT, TOKEN, and CREDIT. The default value is DEFAULT.If the license model is not the DSLS SimUnit, the licenseType is not available."
 msgstr ""
 
-#: ../../../../../src/abaqus/Job/JobMdb.py:docstring of abaqus.Job.JobMdb.JobMdb.Job:0
-#: ../../../../../src/abaqus/Job/JobMdb.py:docstring of abaqus.Job.JobMdb.JobMdb.OptimizationProcess:0
-#: ../../../../../src/abaqus/Job/JobSession.py:docstring of abaqus.Job.JobSession.JobSession.Queue:0
+#: ../../../reference/mdb/job.md:0
 msgid "Returns"
 msgstr ""
 
@@ -259,9 +247,7 @@ msgstr ""
 msgid "A ModelJob object."
 msgstr ""
 
-#: ../../../../../src/abaqus/Job/JobMdb.py:docstring of abaqus.Job.JobMdb.JobMdb.Job:0
-#: ../../../../../src/abaqus/Job/JobMdb.py:docstring of abaqus.Job.JobMdb.JobMdb.OptimizationProcess:0
-#: ../../../../../src/abaqus/Job/JobSession.py:docstring of abaqus.Job.JobSession.JobSession.Queue:0
+#: ../../../reference/mdb/job.md:0
 msgid "Return type"
 msgstr ""
 
@@ -269,9 +255,7 @@ msgstr ""
 msgid ":class:`ModelJob`"
 msgstr ""
 
-#: ../../../../../src/abaqus/Job/JobMdb.py:docstring of abaqus.Job.JobMdb.JobMdb.Job:0
-#: ../../../../../src/abaqus/Job/JobMdb.py:docstring of abaqus.Job.JobMdb.JobMdb.OptimizationProcess:0
-#: ../../../../../src/abaqus/Job/JobSession.py:docstring of abaqus.Job.JobSession.JobSession.Queue:0
+#: ../../../reference/mdb/job.md:0
 msgid "Raises"
 msgstr ""
 
@@ -432,7 +416,11 @@ msgid "A tuple of SymbolicConstants specifying the analysis product types of the
 msgstr ""
 
 #: ../../../../docstring of abaqus.Job.Coexecution.Coexecution.slaveModels:1
-msgid "A tuple of Strings specifying the names of the slave models for the co-execution."
+msgid "A tuple of Strings specifying the names of the secondary models for the co-execution."
+msgstr ""
+
+#: ../../../../docstring of abaqus.Job.Coexecution.Coexecution.slaveModels:3
+msgid "The ``slaveModels`` attribute was changed to ``secondaryModels``."
 msgstr ""
 
 #: ../../../../docstring of abaqus.Job.Coexecution.Coexecution.status:1

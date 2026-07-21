@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: abqpy 2021\n"
+"Project-Id-Version: abqpy 2021.11\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-06 02:35+0000\n"
+"POT-Creation-Date: 2026-07-21 09:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -185,8 +185,7 @@ msgstr ""
 msgid "Check `RegionPart on help.3ds.com/2021 <https://help.3ds.com/2021/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-partregpyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: ../../../../../src/abaqus/Region/RegionAssembly.py:docstring of abaqus.Region.RegionAssembly.RegionAssembly:0
-#: ../../../../../src/abaqus/Region/RegionPart.py:docstring of abaqus.Region.RegionPart.RegionPart:0
+#: ../../../reference/mdb/model/part_assembly/region.md:0
 msgid "Public Data Attributes:"
 msgstr ""
 
@@ -487,8 +486,7 @@ msgstr ""
 msgid ":py:obj:`id <abaqus.Feature.Feature.Feature.id>`\\"
 msgstr ""
 
-#: ../../../../../src/abaqus/Region/RegionAssembly.py:docstring of abaqus.Region.RegionAssembly.RegionAssembly:0
-#: ../../../../../src/abaqus/Region/RegionPart.py:docstring of abaqus.Region.RegionPart.RegionPart:0
+#: ../../../reference/mdb/model/part_assembly/region.md:0
 msgid "Public Methods:"
 msgstr ""
 
@@ -1506,7 +1504,7 @@ msgid "This method replaces the selected faces with a single face."
 msgstr ""
 
 #: ../../../../None:59:<autosummary>:1
-msgid ":py:obj:`Round <abaqus.Part.PartFeature.PartFeature.Round>`\\ \\(radius\\, edgeList\\, vertexList\\)"
+msgid ":py:obj:`Round <abaqus.Part.PartFeature.PartFeature.Round>`\\ \\(radius\\[\\, edgeList\\, vertexList\\]\\)"
 msgstr ""
 
 #: ../../../../None:59:<autosummary>:1
@@ -2164,39 +2162,7 @@ msgstr ""
 msgid "Check `EditSkin on help.3ds.com/2021 <https://help.3ds.com/2021/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-editskinregpyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: ../../../../../src/abaqus/Region/RegionAssembly.py:docstring of abaqus.Region.RegionAssembly.RegionAssembly.Surface:0
-#: ../../../../../src/abaqus/Region/RegionAssemblyBase.py:docstring of abaqus.Region.RegionAssemblyBase.RegionAssemblyBase.clashSets:0
-#: ../../../../../src/abaqus/Region/RegionAssemblyBase.py:docstring of abaqus.Region.RegionAssemblyBase.RegionAssemblyBase.deleteSets:0
-#: ../../../../../src/abaqus/Region/RegionAssemblyBase.py:docstring of abaqus.Region.RegionAssemblyBase.RegionAssemblyBase.deleteSurfaces:0
-#: ../../../../../src/abaqus/Region/RegionAssemblyBase.py:docstring of abaqus.Region.RegionAssemblyBase.RegionAssemblyBase.isSetInternal:0
-#: ../../../../../src/abaqus/Region/RegionAssemblyBase.py:docstring of abaqus.Region.RegionAssemblyBase.RegionAssemblyBase.isSurfaceInternal:0
-#: ../../../../../src/abaqus/Region/RegionAssemblyBase.py:docstring of abaqus.Region.RegionAssemblyBase.RegionAssemblyBase.markSetInternal:0
-#: ../../../../../src/abaqus/Region/RegionAssemblyBase.py:docstring of abaqus.Region.RegionAssemblyBase.RegionAssemblyBase.markSurfaceInternal:0
-#: ../../../../../src/abaqus/Region/RegionPart.py:docstring of abaqus.Region.RegionPart.RegionPart.EditSkin:0
-#: ../../../../../src/abaqus/Region/RegionPart.py:docstring of abaqus.Region.RegionPart.RegionPart.MapSetsFromOdb:0
-#: ../../../../../src/abaqus/Region/RegionPart.py:docstring of abaqus.Region.RegionPart.RegionPart.SetByBoolean:0
-#: ../../../../../src/abaqus/Region/RegionPart.py:docstring of abaqus.Region.RegionPart.RegionPart.SetFromColor:0
-#: ../../../../../src/abaqus/Region/RegionPart.py:docstring of abaqus.Region.RegionPart.RegionPart.SetFromElementLabels:0
-#: ../../../../../src/abaqus/Region/RegionPart.py:docstring of abaqus.Region.RegionPart.RegionPart.SetFromNodeLabels:0
-#: ../../../../../src/abaqus/Region/RegionPart.py:docstring of abaqus.Region.RegionPart.RegionPart.Skin:0
-#: ../../../../../src/abaqus/Region/RegionPart.py:docstring of abaqus.Region.RegionPart.RegionPart.Stringer:0
-#: ../../../../../src/abaqus/Region/RegionPart.py:docstring of abaqus.Region.RegionPart.RegionPart.Surface:0
-#: ../../../../../src/abaqus/Region/RegionPartBase.py:docstring of abaqus.Region.RegionPartBase.RegionPartBase.clashSets:0
-#: ../../../../../src/abaqus/Region/RegionPartBase.py:docstring of abaqus.Region.RegionPartBase.RegionPartBase.deleteSets:0
-#: ../../../../../src/abaqus/Region/RegionPartBase.py:docstring of abaqus.Region.RegionPartBase.RegionPartBase.deleteSurfaces:0
-#: ../../../../../src/abaqus/Region/RegionPartBase.py:docstring of abaqus.Region.RegionPartBase.RegionPartBase.isSetInternal:0
-#: ../../../../../src/abaqus/Region/RegionPartBase.py:docstring of abaqus.Region.RegionPartBase.RegionPartBase.isSurfaceInternal:0
-#: ../../../../../src/abaqus/Region/RegionPartBase.py:docstring of abaqus.Region.RegionPartBase.RegionPartBase.markSetInternal:0
-#: ../../../../../src/abaqus/Region/RegionPartBase.py:docstring of abaqus.Region.RegionPartBase.RegionPartBase.markSurfaceInternal:0
-#: ../../../../../src/abaqus/Region/Set.py:docstring of abaqus.Region.Set.Set.MapSetsFromOdb:0
-#: ../../../../../src/abaqus/Region/Set.py:docstring of abaqus.Region.Set.Set.SetByBoolean:0
-#: ../../../../../src/abaqus/Region/Set.py:docstring of abaqus.Region.Set.Set.SetFromColor:0
-#: ../../../../../src/abaqus/Region/Set.py:docstring of abaqus.Region.Set.Set.SetFromElementLabels:0
-#: ../../../../../src/abaqus/Region/Set.py:docstring of abaqus.Region.Set.Set.SetFromNodeLabels:0
-#: ../../../../../src/abaqus/Region/Skin.py:docstring of abaqus.Region.Skin.Skin.EditSkin:0
-#: ../../../../../src/abaqus/Region/Stringer.py:docstring of abaqus.Region.Stringer.Stringer.EditStringer:0
-#: ../../../../../src/abaqus/Region/Surface.py:docstring of abaqus.Region.Surface.Surface.SurfaceByBoolean:0
-#: ../../../../../src/abaqus/Region/Surface.py:docstring of abaqus.Region.Surface.Surface.SurfaceFromElsets:0
+#: ../../../reference/mdb/model/part_assembly/region.md:0
 msgid "Parameters"
 msgstr ""
 
@@ -2232,25 +2198,7 @@ msgstr ""
 msgid "A sequence of MeshEdge objects specifying the mesh edges on which skins should be created. Applicable to axisymmetric parts."
 msgstr ""
 
-#: ../../../../../src/abaqus/Region/RegionAssembly.py:docstring of abaqus.Region.RegionAssembly.RegionAssembly.Surface:0
-#: ../../../../../src/abaqus/Region/RegionPart.py:docstring of abaqus.Region.RegionPart.RegionPart.EditSkin:0
-#: ../../../../../src/abaqus/Region/RegionPart.py:docstring of abaqus.Region.RegionPart.RegionPart.MapSetsFromOdb:0
-#: ../../../../../src/abaqus/Region/RegionPart.py:docstring of abaqus.Region.RegionPart.RegionPart.SetByBoolean:0
-#: ../../../../../src/abaqus/Region/RegionPart.py:docstring of abaqus.Region.RegionPart.RegionPart.SetFromColor:0
-#: ../../../../../src/abaqus/Region/RegionPart.py:docstring of abaqus.Region.RegionPart.RegionPart.SetFromElementLabels:0
-#: ../../../../../src/abaqus/Region/RegionPart.py:docstring of abaqus.Region.RegionPart.RegionPart.SetFromNodeLabels:0
-#: ../../../../../src/abaqus/Region/RegionPart.py:docstring of abaqus.Region.RegionPart.RegionPart.Skin:0
-#: ../../../../../src/abaqus/Region/RegionPart.py:docstring of abaqus.Region.RegionPart.RegionPart.Stringer:0
-#: ../../../../../src/abaqus/Region/RegionPart.py:docstring of abaqus.Region.RegionPart.RegionPart.Surface:0
-#: ../../../../../src/abaqus/Region/Set.py:docstring of abaqus.Region.Set.Set.MapSetsFromOdb:0
-#: ../../../../../src/abaqus/Region/Set.py:docstring of abaqus.Region.Set.Set.SetByBoolean:0
-#: ../../../../../src/abaqus/Region/Set.py:docstring of abaqus.Region.Set.Set.SetFromColor:0
-#: ../../../../../src/abaqus/Region/Set.py:docstring of abaqus.Region.Set.Set.SetFromElementLabels:0
-#: ../../../../../src/abaqus/Region/Set.py:docstring of abaqus.Region.Set.Set.SetFromNodeLabels:0
-#: ../../../../../src/abaqus/Region/Skin.py:docstring of abaqus.Region.Skin.Skin.EditSkin:0
-#: ../../../../../src/abaqus/Region/Stringer.py:docstring of abaqus.Region.Stringer.Stringer.EditStringer:0
-#: ../../../../../src/abaqus/Region/Surface.py:docstring of abaqus.Region.Surface.Surface.SurfaceByBoolean:0
-#: ../../../../../src/abaqus/Region/Surface.py:docstring of abaqus.Region.Surface.Surface.SurfaceFromElsets:0
+#: ../../../reference/mdb/model/part_assembly/region.md:0
 msgid "Returns"
 msgstr ""
 
@@ -2259,25 +2207,7 @@ msgstr ""
 msgid "**skin** -- A Skin object"
 msgstr ""
 
-#: ../../../../../src/abaqus/Region/RegionAssembly.py:docstring of abaqus.Region.RegionAssembly.RegionAssembly.Surface:0
-#: ../../../../../src/abaqus/Region/RegionPart.py:docstring of abaqus.Region.RegionPart.RegionPart.EditSkin:0
-#: ../../../../../src/abaqus/Region/RegionPart.py:docstring of abaqus.Region.RegionPart.RegionPart.MapSetsFromOdb:0
-#: ../../../../../src/abaqus/Region/RegionPart.py:docstring of abaqus.Region.RegionPart.RegionPart.SetByBoolean:0
-#: ../../../../../src/abaqus/Region/RegionPart.py:docstring of abaqus.Region.RegionPart.RegionPart.SetFromColor:0
-#: ../../../../../src/abaqus/Region/RegionPart.py:docstring of abaqus.Region.RegionPart.RegionPart.SetFromElementLabels:0
-#: ../../../../../src/abaqus/Region/RegionPart.py:docstring of abaqus.Region.RegionPart.RegionPart.SetFromNodeLabels:0
-#: ../../../../../src/abaqus/Region/RegionPart.py:docstring of abaqus.Region.RegionPart.RegionPart.Skin:0
-#: ../../../../../src/abaqus/Region/RegionPart.py:docstring of abaqus.Region.RegionPart.RegionPart.Stringer:0
-#: ../../../../../src/abaqus/Region/RegionPart.py:docstring of abaqus.Region.RegionPart.RegionPart.Surface:0
-#: ../../../../../src/abaqus/Region/Set.py:docstring of abaqus.Region.Set.Set.MapSetsFromOdb:0
-#: ../../../../../src/abaqus/Region/Set.py:docstring of abaqus.Region.Set.Set.SetByBoolean:0
-#: ../../../../../src/abaqus/Region/Set.py:docstring of abaqus.Region.Set.Set.SetFromColor:0
-#: ../../../../../src/abaqus/Region/Set.py:docstring of abaqus.Region.Set.Set.SetFromElementLabels:0
-#: ../../../../../src/abaqus/Region/Set.py:docstring of abaqus.Region.Set.Set.SetFromNodeLabels:0
-#: ../../../../../src/abaqus/Region/Skin.py:docstring of abaqus.Region.Skin.Skin.EditSkin:0
-#: ../../../../../src/abaqus/Region/Stringer.py:docstring of abaqus.Region.Stringer.Stringer.EditStringer:0
-#: ../../../../../src/abaqus/Region/Surface.py:docstring of abaqus.Region.Surface.Surface.SurfaceByBoolean:0
-#: ../../../../../src/abaqus/Region/Surface.py:docstring of abaqus.Region.Surface.Surface.SurfaceFromElsets:0
+#: ../../../reference/mdb/model/part_assembly/region.md:0
 msgid "Return type"
 msgstr ""
 

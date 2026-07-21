@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: abqpy 2021\n"
+"Project-Id-Version: abqpy 2021.11\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-14 01:53+0000\n"
+"POT-Creation-Date: 2026-07-21 09:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -104,8 +104,7 @@ msgstr ""
 msgid "Check `OutputModel on help.3ds.com/2021 <https://help.3ds.com/2021/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-modelpyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: ../../../../../src/abaqus/StepOutput/OutputModel.py:docstring of abaqus.StepOutput.OutputModel.OutputModel:0
-#: ../../../../../src/abaqus/StepOutput/OutputStep.py:docstring of abaqus.StepOutput.OutputStep.OutputStep:0
+#: ../../../reference/mdb/model/output.md:0
 msgid "Public Data Attributes:"
 msgstr ""
 
@@ -540,8 +539,7 @@ msgstr ""
 msgid "An Assembly object."
 msgstr ""
 
-#: ../../../../../src/abaqus/StepOutput/OutputModel.py:docstring of abaqus.StepOutput.OutputModel.OutputModel:0
-#: ../../../../../src/abaqus/StepOutput/OutputStep.py:docstring of abaqus.StepOutput.OutputStep.OutputStep:0
+#: ../../../reference/mdb/model/output.md:0
 msgid "Public Methods:"
 msgstr ""
 
@@ -581,43 +579,19 @@ msgstr ""
 msgid "This method creates a TimePoint object."
 msgstr ""
 
-#: ../../../../None:7:<autosummary>:1
+#: ../../../../None:4:<autosummary>:1
 msgid ":py:obj:`__init__ <abaqus.Model.ModelBase.ModelBase.__init__>`\\ \\(name\\[\\, description\\, ...\\]\\)"
 msgstr ""
 
-#: ../../../../None:7:<autosummary>:1
+#: ../../../../None:4:<autosummary>:1
 msgid "This method creates a Model object."
 msgstr ""
 
-#: ../../../../None:7:<autosummary>:1
-msgid ":py:obj:`ModelFromInputFile <abaqus.Model.ModelBase.ModelBase.ModelFromInputFile>`\\ \\(name\\, inputFileName\\)"
-msgstr ""
-
-#: ../../../../None:7:<autosummary>:1
-msgid "This method creates a Model object by reading the keywords in an input file and creating the corresponding Abaqus/CAE objects."
-msgstr ""
-
-#: ../../../../None:7:<autosummary>:1
-msgid ":py:obj:`ModelFromOdbFile <abaqus.Model.ModelBase.ModelBase.ModelFromOdbFile>`\\ \\(name\\, odbFileName\\)"
-msgstr ""
-
-#: ../../../../None:7:<autosummary>:1
-msgid "This method creates a Model object by reading an output database and creating any corresponding Abaqus/CAE objects."
-msgstr ""
-
-#: ../../../../None:7:<autosummary>:1
-msgid ":py:obj:`ModelFromNastranFile <abaqus.Model.ModelBase.ModelBase.ModelFromNastranFile>`\\ \\(modelName\\, inputFileName\\)"
-msgstr ""
-
-#: ../../../../None:7:<autosummary>:1
-msgid "This method creates a Model object by reading the keywords in a Nastran bulk data file or Nastran input file and creating any corresponding Abaqus/CAE objects."
-msgstr ""
-
-#: ../../../../None:7:<autosummary>:1
+#: ../../../../None:4:<autosummary>:1
 msgid ":py:obj:`setValues <abaqus.Model.ModelBase.ModelBase.setValues>`\\ \\(\\[description\\, noPartsInputFile\\, ...\\]\\)"
 msgstr ""
 
-#: ../../../../None:7:<autosummary>:1
+#: ../../../../None:4:<autosummary>:1
 msgid "This method modifies the Model object."
 msgstr ""
 
@@ -650,24 +624,7 @@ msgstr ""
 msgid "Check `FieldOutputRequest on help.3ds.com/2021 <https://help.3ds.com/2021/English/DSSIMULIA_Established/SIMACAEKERRefMap/simaker-c-fieldoutputrequestpyc.htm?contextscope=all>`__."
 msgstr ""
 
-#: ../../../../../src/abaqus/StepOutput/FieldOutputRequest.py:docstring of abaqus.StepOutput.FieldOutputRequest.FieldOutputRequest.deactivate:0
-#: ../../../../../src/abaqus/StepOutput/FieldOutputRequest.py:docstring of abaqus.StepOutput.FieldOutputRequest.FieldOutputRequest.move:0
-#: ../../../../../src/abaqus/StepOutput/FieldOutputRequest.py:docstring of abaqus.StepOutput.FieldOutputRequest.FieldOutputRequest.reset:0
-#: ../../../../../src/abaqus/StepOutput/FieldOutputRequest.py:docstring of abaqus.StepOutput.FieldOutputRequest.FieldOutputRequest.setValues:0
-#: ../../../../../src/abaqus/StepOutput/FieldOutputRequest.py:docstring of abaqus.StepOutput.FieldOutputRequest.FieldOutputRequest.setValuesInStep:0
-#: ../../../../../src/abaqus/StepOutput/HistoryOutputRequest.py:docstring of abaqus.StepOutput.HistoryOutputRequest.HistoryOutputRequest.deactivate:0
-#: ../../../../../src/abaqus/StepOutput/HistoryOutputRequest.py:docstring of abaqus.StepOutput.HistoryOutputRequest.HistoryOutputRequest.move:0
-#: ../../../../../src/abaqus/StepOutput/HistoryOutputRequest.py:docstring of abaqus.StepOutput.HistoryOutputRequest.HistoryOutputRequest.reset:0
-#: ../../../../../src/abaqus/StepOutput/HistoryOutputRequest.py:docstring of abaqus.StepOutput.HistoryOutputRequest.HistoryOutputRequest.setValues:0
-#: ../../../../../src/abaqus/StepOutput/HistoryOutputRequest.py:docstring of abaqus.StepOutput.HistoryOutputRequest.HistoryOutputRequest.setValuesInStep:0
-#: ../../../../../src/abaqus/StepOutput/IntegratedOutputSection.py:docstring of abaqus.StepOutput.IntegratedOutputSection.IntegratedOutputSection.setValues:0
-#: ../../../../../src/abaqus/StepOutput/OutputModel.py:docstring of abaqus.StepOutput.OutputModel.OutputModel.FieldOutputRequest:0
-#: ../../../../../src/abaqus/StepOutput/OutputModel.py:docstring of abaqus.StepOutput.OutputModel.OutputModel.HistoryOutputRequest:0
-#: ../../../../../src/abaqus/StepOutput/OutputModel.py:docstring of abaqus.StepOutput.OutputModel.OutputModel.IntegratedOutputSection:0
-#: ../../../../../src/abaqus/StepOutput/OutputModel.py:docstring of abaqus.StepOutput.OutputModel.OutputModel.TimePoint:0
-#: ../../../../../src/abaqus/StepOutput/OutputStep.py:docstring of abaqus.StepOutput.OutputStep.OutputStep.DiagnosticPrint:0
-#: ../../../../../src/abaqus/StepOutput/OutputStep.py:docstring of abaqus.StepOutput.OutputStep.OutputStep.Monitor:0
-#: ../../../../../src/abaqus/StepOutput/OutputStep.py:docstring of abaqus.StepOutput.OutputStep.OutputStep.Restart:0
+#: ../../../reference/mdb/model/output.md:0
 msgid "Parameters"
 msgstr ""
 
@@ -735,124 +692,118 @@ msgstr ""
 msgid "A Boolean specifying when to write results to the output database. OFF indicates that output is written immediately after the time dictated by the specified number of intervals. ON indicates that output is written at the exact times dictated by the specified number of intervals. The default value is OFF."
 msgstr ""
 
-#: ../../../../../src/abaqus/StepOutput/FieldOutputRequest.py:docstring of abaqus.StepOutput.FieldOutputRequest.FieldOutputRequest.setValues:34
+#: ../../../../../src/abaqus/StepOutput/FieldOutputRequest.py:docstring of abaqus.StepOutput.FieldOutputRequest.FieldOutputRequest.setValuesInStep:26
+#: ../../../../../src/abaqus/StepOutput/HistoryOutputRequest.py:docstring of abaqus.StepOutput.HistoryOutputRequest.HistoryOutputRequest.setValuesInStep:27
 #: ../../../../../src/abaqus/StepOutput/OutputModel.py:docstring of abaqus.StepOutput.OutputModel.OutputModel.FieldOutputRequest:42
+msgid "A String specifying the name of a time point object. The default value is equal to the number of intervals during the step at which output database states are to be written. The default value is None."
+msgstr ""
+
+#: ../../../../../src/abaqus/StepOutput/FieldOutputRequest.py:docstring of abaqus.StepOutput.FieldOutputRequest.FieldOutputRequest.setValues:34
+#: ../../../../../src/abaqus/StepOutput/OutputModel.py:docstring of abaqus.StepOutput.OutputModel.OutputModel.FieldOutputRequest:46
 #: ../../../../docstring of abaqus.StepOutput.OutputModel.FieldOutputRequest.boltLoad:1
 msgid "A String specifying a bolt load from which output is requested."
 msgstr ""
 
 #: ../../../../../src/abaqus/StepOutput/FieldOutputRequest.py:docstring of abaqus.StepOutput.FieldOutputRequest.FieldOutputRequest.setValues:36
-#: ../../../../../src/abaqus/StepOutput/OutputModel.py:docstring of abaqus.StepOutput.OutputModel.OutputModel.FieldOutputRequest:44
+#: ../../../../../src/abaqus/StepOutput/OutputModel.py:docstring of abaqus.StepOutput.OutputModel.OutputModel.FieldOutputRequest:48
 msgid "The SymbolicConstant DEFAULT or a sequence of Ints specifying the section points for which output requested. The default is DEFAULT."
 msgstr ""
 
 #: ../../../../../src/abaqus/StepOutput/FieldOutputRequest.py:docstring of abaqus.StepOutput.FieldOutputRequest.FieldOutputRequest.setValues:39
 #: ../../../../../src/abaqus/StepOutput/HistoryOutputRequest.py:docstring of abaqus.StepOutput.HistoryOutputRequest.HistoryOutputRequest.setValues:38
-#: ../../../../../src/abaqus/StepOutput/OutputModel.py:docstring of abaqus.StepOutput.OutputModel.OutputModel.FieldOutputRequest:47
+#: ../../../../../src/abaqus/StepOutput/OutputModel.py:docstring of abaqus.StepOutput.OutputModel.OutputModel.FieldOutputRequest:51
 #: ../../../../../src/abaqus/StepOutput/OutputModel.py:docstring of abaqus.StepOutput.OutputModel.OutputModel.HistoryOutputRequest:46
 msgid "None or a sequence of Strings specifying the interaction names. The default value is None.The sequence can contain only one String."
 msgstr ""
 
 #: ../../../../../src/abaqus/StepOutput/FieldOutputRequest.py:docstring of abaqus.StepOutput.FieldOutputRequest.FieldOutputRequest.setValues:42
 #: ../../../../../src/abaqus/StepOutput/HistoryOutputRequest.py:docstring of abaqus.StepOutput.HistoryOutputRequest.HistoryOutputRequest.setValues:56
-#: ../../../../../src/abaqus/StepOutput/OutputModel.py:docstring of abaqus.StepOutput.OutputModel.OutputModel.FieldOutputRequest:50
+#: ../../../../../src/abaqus/StepOutput/OutputModel.py:docstring of abaqus.StepOutput.OutputModel.OutputModel.FieldOutputRequest:54
 #: ../../../../../src/abaqus/StepOutput/OutputModel.py:docstring of abaqus.StepOutput.OutputModel.OutputModel.HistoryOutputRequest:64
 msgid "A SymbolicConstant specifying whether output is requested for rebar. Possible values are EXCLUDE, INCLUDE, and ONLY. The default value is EXCLUDE."
 msgstr ""
 
 #: ../../../../../src/abaqus/StepOutput/FieldOutputRequest.py:docstring of abaqus.StepOutput.FieldOutputRequest.FieldOutputRequest.setValues:45
 #: ../../../../../src/abaqus/StepOutput/HistoryOutputRequest.py:docstring of abaqus.StepOutput.HistoryOutputRequest.HistoryOutputRequest.setValues:64
-#: ../../../../../src/abaqus/StepOutput/OutputModel.py:docstring of abaqus.StepOutput.OutputModel.OutputModel.FieldOutputRequest:53
+#: ../../../../../src/abaqus/StepOutput/OutputModel.py:docstring of abaqus.StepOutput.OutputModel.OutputModel.FieldOutputRequest:57
 #: ../../../../../src/abaqus/StepOutput/OutputModel.py:docstring of abaqus.StepOutput.OutputModel.OutputModel.HistoryOutputRequest:72
 msgid "The SymbolicConstant ANTIALIASING or a String specifying the name of an output filter object. The default value is None."
 msgstr ""
 
 #: ../../../../../src/abaqus/StepOutput/FieldOutputRequest.py:docstring of abaqus.StepOutput.FieldOutputRequest.FieldOutputRequest.setValues:48
-#: ../../../../../src/abaqus/StepOutput/OutputModel.py:docstring of abaqus.StepOutput.OutputModel.OutputModel.FieldOutputRequest:56
+#: ../../../../../src/abaqus/StepOutput/OutputModel.py:docstring of abaqus.StepOutput.OutputModel.OutputModel.FieldOutputRequest:60
 msgid "A Boolean specifying whether to output directions of the local material coordinate system. The default value is ON."
 msgstr ""
 
 #: ../../../../../src/abaqus/StepOutput/FieldOutputRequest.py:docstring of abaqus.StepOutput.FieldOutputRequest.FieldOutputRequest.setValues:51
 #: ../../../../../src/abaqus/StepOutput/HistoryOutputRequest.py:docstring of abaqus.StepOutput.HistoryOutputRequest.HistoryOutputRequest.setValues:67
-#: ../../../../../src/abaqus/StepOutput/OutputModel.py:docstring of abaqus.StepOutput.OutputModel.OutputModel.FieldOutputRequest:59
+#: ../../../../../src/abaqus/StepOutput/OutputModel.py:docstring of abaqus.StepOutput.OutputModel.OutputModel.FieldOutputRequest:63
 #: ../../../../../src/abaqus/StepOutput/OutputModel.py:docstring of abaqus.StepOutput.OutputModel.OutputModel.HistoryOutputRequest:75
 msgid "A String specifying the fastener name. The default value is an empty string."
 msgstr ""
 
 #: ../../../../../src/abaqus/StepOutput/FieldOutputRequest.py:docstring of abaqus.StepOutput.FieldOutputRequest.FieldOutputRequest.setValues:53
 #: ../../../../../src/abaqus/StepOutput/HistoryOutputRequest.py:docstring of abaqus.StepOutput.HistoryOutputRequest.HistoryOutputRequest.setValues:69
-#: ../../../../../src/abaqus/StepOutput/OutputModel.py:docstring of abaqus.StepOutput.OutputModel.OutputModel.FieldOutputRequest:61
+#: ../../../../../src/abaqus/StepOutput/OutputModel.py:docstring of abaqus.StepOutput.OutputModel.OutputModel.FieldOutputRequest:65
 #: ../../../../../src/abaqus/StepOutput/OutputModel.py:docstring of abaqus.StepOutput.OutputModel.OutputModel.HistoryOutputRequest:77
 msgid "A String specifying the assembled fastener name. The default value is an empty string."
 msgstr ""
 
 #: ../../../../../src/abaqus/StepOutput/FieldOutputRequest.py:docstring of abaqus.StepOutput.FieldOutputRequest.FieldOutputRequest.setValues:55
 #: ../../../../../src/abaqus/StepOutput/HistoryOutputRequest.py:docstring of abaqus.StepOutput.HistoryOutputRequest.HistoryOutputRequest.setValues:71
-#: ../../../../../src/abaqus/StepOutput/OutputModel.py:docstring of abaqus.StepOutput.OutputModel.OutputModel.FieldOutputRequest:63
+#: ../../../../../src/abaqus/StepOutput/OutputModel.py:docstring of abaqus.StepOutput.OutputModel.OutputModel.FieldOutputRequest:67
 #: ../../../../../src/abaqus/StepOutput/OutputModel.py:docstring of abaqus.StepOutput.OutputModel.OutputModel.HistoryOutputRequest:79
 msgid "A String specifying the set name from the model referenced by the assembled fastener, **assembledFastener**. The default value is an empty string."
 msgstr ""
 
 #: ../../../../../src/abaqus/StepOutput/FieldOutputRequest.py:docstring of abaqus.StepOutput.FieldOutputRequest.FieldOutputRequest.setValues:58
-#: ../../../../../src/abaqus/StepOutput/OutputModel.py:docstring of abaqus.StepOutput.OutputModel.OutputModel.FieldOutputRequest:66
+#: ../../../../../src/abaqus/StepOutput/OutputModel.py:docstring of abaqus.StepOutput.OutputModel.OutputModel.FieldOutputRequest:70
 msgid "A Boolean specifying whether the output domain is restricted to the exterior of the model. This argument is only valid if **region** = MODEL. The default value is OFF."
 msgstr ""
 
 #: ../../../../../src/abaqus/StepOutput/FieldOutputRequest.py:docstring of abaqus.StepOutput.FieldOutputRequest.FieldOutputRequest.setValues:61
-#: ../../../../../src/abaqus/StepOutput/OutputModel.py:docstring of abaqus.StepOutput.OutputModel.OutputModel.FieldOutputRequest:69
+#: ../../../../../src/abaqus/StepOutput/OutputModel.py:docstring of abaqus.StepOutput.OutputModel.OutputModel.FieldOutputRequest:73
 msgid "A List of Composite Layer Names."
 msgstr ""
 
 #: ../../../../../src/abaqus/StepOutput/FieldOutputRequest.py:docstring of abaqus.StepOutput.FieldOutputRequest.FieldOutputRequest.setValues:63
-#: ../../../../../src/abaqus/StepOutput/OutputModel.py:docstring of abaqus.StepOutput.OutputModel.OutputModel.FieldOutputRequest:71
+#: ../../../../../src/abaqus/StepOutput/OutputModel.py:docstring of abaqus.StepOutput.OutputModel.OutputModel.FieldOutputRequest:75
 msgid "A Symbolic constant specifying the method used to indicate the output locations for composite layups. Possible values are ALL_LOCATIONS, SPECIFIED and TYPED_IN. The default value is SPECIFIED."
 msgstr ""
 
 #: ../../../../../src/abaqus/StepOutput/FieldOutputRequest.py:docstring of abaqus.StepOutput.FieldOutputRequest.FieldOutputRequest.setValues:67
-#: ../../../../../src/abaqus/StepOutput/OutputModel.py:docstring of abaqus.StepOutput.OutputModel.OutputModel.FieldOutputRequest:75
+#: ../../../../../src/abaqus/StepOutput/OutputModel.py:docstring of abaqus.StepOutput.OutputModel.OutputModel.FieldOutputRequest:79
 msgid "A Boolean specifying whether to output at the ply top section point. The default value is False."
 msgstr ""
 
 #: ../../../../../src/abaqus/StepOutput/FieldOutputRequest.py:docstring of abaqus.StepOutput.FieldOutputRequest.FieldOutputRequest.setValues:70
-#: ../../../../../src/abaqus/StepOutput/OutputModel.py:docstring of abaqus.StepOutput.OutputModel.OutputModel.FieldOutputRequest:78
+#: ../../../../../src/abaqus/StepOutput/OutputModel.py:docstring of abaqus.StepOutput.OutputModel.OutputModel.FieldOutputRequest:82
 msgid "A Boolean specifying whether to output at the ply mid section point. The default value is True."
 msgstr ""
 
 #: ../../../../../src/abaqus/StepOutput/FieldOutputRequest.py:docstring of abaqus.StepOutput.FieldOutputRequest.FieldOutputRequest.setValues:73
-#: ../../../../../src/abaqus/StepOutput/OutputModel.py:docstring of abaqus.StepOutput.OutputModel.OutputModel.FieldOutputRequest:81
+#: ../../../../../src/abaqus/StepOutput/OutputModel.py:docstring of abaqus.StepOutput.OutputModel.OutputModel.FieldOutputRequest:85
 msgid "A Boolean specifying whether to output at the ply bottom section point. The default value is False."
 msgstr ""
 
 #: ../../../../../src/abaqus/StepOutput/FieldOutputRequest.py:docstring of abaqus.StepOutput.FieldOutputRequest.FieldOutputRequest.setValues:76
-#: ../../../../../src/abaqus/StepOutput/OutputModel.py:docstring of abaqus.StepOutput.OutputModel.OutputModel.FieldOutputRequest:84
+#: ../../../../../src/abaqus/StepOutput/OutputModel.py:docstring of abaqus.StepOutput.OutputModel.OutputModel.FieldOutputRequest:88
 msgid "A SymbolicConstant specifying the position on an element where output needs to be written. Possible values are INTEGRATION_POINTS, AVERAGED_AT_NODES, CENTROIDAL, and NODES. The default value is INTEGRATION_POINTS."
 msgstr ""
 
-#: ../../../../../src/abaqus/StepOutput/OutputModel.py:docstring of abaqus.StepOutput.OutputModel.OutputModel.FieldOutputRequest:0
-#: ../../../../../src/abaqus/StepOutput/OutputModel.py:docstring of abaqus.StepOutput.OutputModel.OutputModel.HistoryOutputRequest:0
-#: ../../../../../src/abaqus/StepOutput/OutputModel.py:docstring of abaqus.StepOutput.OutputModel.OutputModel.IntegratedOutputSection:0
-#: ../../../../../src/abaqus/StepOutput/OutputModel.py:docstring of abaqus.StepOutput.OutputModel.OutputModel.TimePoint:0
-#: ../../../../../src/abaqus/StepOutput/OutputStep.py:docstring of abaqus.StepOutput.OutputStep.OutputStep.DiagnosticPrint:0
-#: ../../../../../src/abaqus/StepOutput/OutputStep.py:docstring of abaqus.StepOutput.OutputStep.OutputStep.Monitor:0
-#: ../../../../../src/abaqus/StepOutput/OutputStep.py:docstring of abaqus.StepOutput.OutputStep.OutputStep.Restart:0
+#: ../../../reference/mdb/model/output.md:0
 msgid "Returns"
 msgstr ""
 
-#: ../../../../../src/abaqus/StepOutput/OutputModel.py:docstring of abaqus.StepOutput.OutputModel.OutputModel.FieldOutputRequest:88
+#: ../../../../../src/abaqus/StepOutput/OutputModel.py:docstring of abaqus.StepOutput.OutputModel.OutputModel.FieldOutputRequest:92
 msgid "A FieldOutputRequest object."
 msgstr ""
 
-#: ../../../../../src/abaqus/StepOutput/OutputModel.py:docstring of abaqus.StepOutput.OutputModel.OutputModel.FieldOutputRequest:0
-#: ../../../../../src/abaqus/StepOutput/OutputModel.py:docstring of abaqus.StepOutput.OutputModel.OutputModel.HistoryOutputRequest:0
-#: ../../../../../src/abaqus/StepOutput/OutputModel.py:docstring of abaqus.StepOutput.OutputModel.OutputModel.IntegratedOutputSection:0
-#: ../../../../../src/abaqus/StepOutput/OutputModel.py:docstring of abaqus.StepOutput.OutputModel.OutputModel.TimePoint:0
-#: ../../../../../src/abaqus/StepOutput/OutputStep.py:docstring of abaqus.StepOutput.OutputStep.OutputStep.DiagnosticPrint:0
-#: ../../../../../src/abaqus/StepOutput/OutputStep.py:docstring of abaqus.StepOutput.OutputStep.OutputStep.Monitor:0
-#: ../../../../../src/abaqus/StepOutput/OutputStep.py:docstring of abaqus.StepOutput.OutputStep.OutputStep.Restart:0
+#: ../../../reference/mdb/model/output.md:0
 msgid "Return type"
 msgstr ""
 
-#: ../../../../../src/abaqus/StepOutput/OutputModel.py:docstring of abaqus.StepOutput.OutputModel.OutputModel.FieldOutputRequest:89
+#: ../../../../../src/abaqus/StepOutput/OutputModel.py:docstring of abaqus.StepOutput.OutputModel.OutputModel.FieldOutputRequest:93
 msgid ":class:`FieldOutputRequest`"
 msgstr ""
 
@@ -1001,11 +952,7 @@ msgstr ""
 msgid ":class:`TimePoint`"
 msgstr ""
 
-#: ../../../../../src/abaqus/StepOutput/Monitor.py:docstring of abaqus.StepOutput.Monitor.Monitor.setValues:0
-#: ../../../../../src/abaqus/StepOutput/OutputModel.py:docstring of abaqus.StepOutput.OutputModel.OutputModel.TimePoint:0
-#: ../../../../../src/abaqus/StepOutput/OutputStep.py:docstring of abaqus.StepOutput.OutputStep.OutputStep.Restart:0
-#: ../../../../../src/abaqus/StepOutput/Restart.py:docstring of abaqus.StepOutput.Restart.Restart.setValues:0
-#: ../../../../../src/abaqus/StepOutput/TimePoint.py:docstring of abaqus.StepOutput.TimePoint.TimePoint.setValues:0
+#: ../../../reference/mdb/model/output.md:0
 msgid "Raises"
 msgstr ""
 
@@ -1590,11 +1537,6 @@ msgstr ""
 
 #: ../../../../../src/abaqus/StepOutput/FieldOutputRequest.py:docstring of abaqus.StepOutput.FieldOutputRequest.FieldOutputRequest.setValuesInStep:23
 msgid "An Int equal to the number of intervals during the step at which output database states are to be written. The default value is 20."
-msgstr ""
-
-#: ../../../../../src/abaqus/StepOutput/FieldOutputRequest.py:docstring of abaqus.StepOutput.FieldOutputRequest.FieldOutputRequest.setValuesInStep:26
-#: ../../../../../src/abaqus/StepOutput/HistoryOutputRequest.py:docstring of abaqus.StepOutput.HistoryOutputRequest.HistoryOutputRequest.setValuesInStep:27
-msgid "A String specifying the name of a time point object. The default value is equal to the number of intervals during the step at which output database states are to be written. The default value is None."
 msgstr ""
 
 #: ../../../../../src/abaqus/StepOutput/FieldOutputRequest.py:docstring of abaqus.StepOutput.FieldOutputRequest.FieldOutputRequest.setValuesInStep:30
