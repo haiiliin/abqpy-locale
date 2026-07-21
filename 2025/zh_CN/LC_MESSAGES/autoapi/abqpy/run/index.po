@@ -1,23 +1,21 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, WANG Hailin
-# This file is distributed under the same license as the abqpy package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
-#
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: abqpy 2025.11\n"
+"Project-Id-Version: abqpy-locale\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-07-21 09:21+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: zh_CN\n"
-"Language-Team: zh_CN <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"PO-Revision-Date: 2026-07-21 10:10\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.18.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: abqpy-locale\n"
+"X-Crowdin-Project-ID: 587413\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /main/2025/pot/autoapi/abqpy/run/index.pot\n"
+"X-Crowdin-File-ID: 3841\n"
+"Language: zh_CN\n"
 
 #: ../../../autoapi/abqpy/run/index.rst:2
 msgid "abqpy.run"
@@ -38,41 +36,39 @@ msgstr ""
 
 #: ../../../autoapi/abqpy/run/index.rst:16
 msgid "Functions"
-msgstr ""
+msgstr "函数"
 
 #: ../../../autoapi/abqpy/run/index.rst:22:<autosummary>:1
 msgid ":py:obj:`run <abqpy.run.run>`\\ \\(→ None\\)"
-msgstr ""
+msgstr ":py:obj:`run <abqpy.run.run>`\\ \\(→ None\\)"
 
 #: ../../../autoapi/abqpy/run/index.rst:38
 #: ../../../autoapi/abqpy/run/index.rst:22:<autosummary>:1
 msgid "Runs Abaqus command in system's CLI."
-msgstr ""
+msgstr "在系统命令行窗口运行 Abaqus 命令。"
 
 #: ../../../autoapi/abqpy/run/index.rst:24
 msgid "Module Contents"
-msgstr ""
+msgstr "模块内容"
 
 #: ../../../autoapi/abqpy/run/index.rst:28
 msgid "Bases: :py:obj:`Exception`"
 msgstr ""
 
-#: ../../../autoapi/abqpy/run/index.rst
+#: ../../../autoapi/abqpy/run/index.rst:0
 msgid "Public Data Attributes:"
-msgstr ""
+msgstr "公共属性："
 
 #: ../../../../None:3:<autosummary>:1
 msgid ":py:obj:`args <builtins.BaseException.args>`\\"
 msgstr ""
 
-#: ../../../autoapi/abqpy/run/index.rst
+#: ../../../autoapi/abqpy/run/index.rst:0
 msgid "Public Methods:"
-msgstr ""
+msgstr "公开方法："
 
 #: ../../../../None:3:<autosummary>:1
-msgid ""
-":py:obj:`__init__ <builtins.Exception.__init__>`\\ \\(\\*args\\, "
-"\\*\\*kwargs\\)"
+msgid ":py:obj:`__init__ <builtins.Exception.__init__>`\\ \\(\\*args\\, \\*\\*kwargs\\)"
 msgstr ""
 
 #: ../../../../None:12:<autosummary>:1
@@ -92,9 +88,7 @@ msgid "Return str(self)."
 msgstr ""
 
 #: ../../../../None:12:<autosummary>:1
-msgid ""
-":py:obj:`__getattribute__ <builtins.BaseException.__getattribute__>`\\ "
-"\\(name\\, \\/\\)"
+msgid ":py:obj:`__getattribute__ <builtins.BaseException.__getattribute__>`\\ \\(name\\, \\/\\)"
 msgstr ""
 
 #: ../../../../None:12:<autosummary>:1
@@ -102,9 +96,7 @@ msgid "Return getattr(self, name)."
 msgstr ""
 
 #: ../../../../None:12:<autosummary>:1
-msgid ""
-":py:obj:`__setattr__ <builtins.BaseException.__setattr__>`\\ \\(name\\, "
-"value\\, \\/\\)"
+msgid ":py:obj:`__setattr__ <builtins.BaseException.__setattr__>`\\ \\(name\\, value\\, \\/\\)"
 msgstr ""
 
 #: ../../../../None:12:<autosummary>:1
@@ -112,9 +104,7 @@ msgid "Implement setattr(self, name, value)."
 msgstr ""
 
 #: ../../../../None:12:<autosummary>:1
-msgid ""
-":py:obj:`__delattr__ <builtins.BaseException.__delattr__>`\\ \\(name\\, "
-"\\/\\)"
+msgid ":py:obj:`__delattr__ <builtins.BaseException.__delattr__>`\\ \\(name\\, \\/\\)"
 msgstr ""
 
 #: ../../../../None:12:<autosummary>:1
@@ -122,9 +112,7 @@ msgid "Implement delattr(self, name)."
 msgstr ""
 
 #: ../../../../None:12:<autosummary>:1
-msgid ""
-":py:obj:`__init__ <builtins.BaseException.__init__>`\\ \\(\\*args\\, "
-"\\*\\*kwargs\\)"
+msgid ":py:obj:`__init__ <builtins.BaseException.__init__>`\\ \\(\\*args\\, \\*\\*kwargs\\)"
 msgstr ""
 
 #: ../../../../None:12:<autosummary>:1
@@ -144,9 +132,7 @@ msgid ":py:obj:`with_traceback <builtins.BaseException.with_traceback>`\\"
 msgstr ""
 
 #: ../../../../None:12:<autosummary>:1
-msgid ""
-"Exception.with_traceback(tb) -- set self.__traceback__ to tb and return "
-"self."
+msgid "Exception.with_traceback(tb) -- set self.__traceback__ to tb and return self."
 msgstr ""
 
 #: ../../../../None:12:<autosummary>:1
@@ -158,18 +144,14 @@ msgid "Exception.add_note(note) -- add a note to the exception"
 msgstr ""
 
 #: ../../../autoapi/abqpy/run/index.rst:40
-msgid ""
-"This function uses the top level script file to run the Abaqus command, "
-"and the arguments passed to it"
-msgstr ""
+msgid "This function uses the top level script file to run the Abaqus command, and the arguments passed to it"
+msgstr "此函数使用 Abaqus 命令运行主脚本文件并使用传递给它的参数。"
 
-#: ../../../autoapi/abqpy/run/index.rst
+#: ../../../autoapi/abqpy/run/index.rst:0
 msgid "Parameters"
-msgstr ""
+msgstr "参数"
 
 #: ../../../autoapi/abqpy/run/index.rst:43
-msgid ""
-"Whether to use `abaqus cae` command, True for `abaqus cae`, False for "
-"`abaqus python`, by default True"
-msgstr ""
+msgid "Whether to use `abaqus cae` command, True for `abaqus cae`, False for `abaqus python`, by default True"
+msgstr "是否使用 `abaqus cae` 命令，True 时运行 `abaqus cae` 命令，否则运行 `abaqus python` 命令，默认为 True。"
 
