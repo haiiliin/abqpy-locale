@@ -1,17 +1,19 @@
 from pathlib import Path
 import json
 
+import polib
+
 
 edit_urls = {}
 crowdin_edit_url_template = "https://crowdin.com/translate/abqpy-locale/{file_id}/en-{lang}"
 github_edit_url_template = "https://github.com/haiiliin/abqpy-locale/edit/main/{file}"
 
 # Read metadata
-with open("metadata.json", "r") as f:
-    metadata = json.load(f)
+metadata = {path.as_posix(): polib.pofile(path.as_posix()).metadata for path in Path(".").rglob("*.po")}
+metadata |= {path.as_posix(): polib.pofile(path.as_posix()).metadata for path in Path(".").rglob("*.pot")}
 
 # Generate edit URLs
-for version in range(2024, 2015, -1):
+for version in range(2026, 2015, -1):
     edit_urls[f"{version}"] = edit_urls_version = {}
     for language in ("zh_CN",):
         edit_urls[f"{version}"][language] = {}
