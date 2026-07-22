@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: abqpy-locale\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-07-21 09:21+0000\n"
-"PO-Revision-Date: 2026-07-21 10:07\n"
+"PO-Revision-Date: 2026-07-21 14:09\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "MIME-Version: 1.0\n"
@@ -19,20 +19,20 @@ msgstr ""
 
 #: ../../../autoapi/abqpy/run/index.rst:2
 msgid "abqpy.run"
-msgstr ""
+msgstr "abqpy.run"
 
 #: ../../../autoapi/abqpy/run/index.rst:8
 msgid "Exceptions"
-msgstr ""
+msgstr "异常"
 
 #: ../../../autoapi/abqpy/run/index.rst:14:<autosummary>:1
 msgid ":py:obj:`AbaqusError <abqpy.run.AbaqusError>`\\"
-msgstr ""
+msgstr ":py:obj:`AbaqusError <abqpy.run.AbaqusError>`\\"
 
 #: ../../../autoapi/abqpy/run/index.rst:30
 #: ../../../autoapi/abqpy/run/index.rst:14:<autosummary>:1
 msgid "Common base class for all non-exit exceptions."
-msgstr ""
+msgstr "所有非退出异常的共同基类。"
 
 #: ../../../autoapi/abqpy/run/index.rst:16
 msgid "Functions"
@@ -53,7 +53,7 @@ msgstr "模块内容"
 
 #: ../../../autoapi/abqpy/run/index.rst:28
 msgid "Bases: :py:obj:`Exception`"
-msgstr ""
+msgstr "基类： :py:obj:`Exception`"
 
 #: ../../../autoapi/abqpy/run/index.rst:0
 msgid "Public Data Attributes:"
@@ -61,7 +61,7 @@ msgstr "公共属性："
 
 #: ../../../../None:3:<autosummary>:1
 msgid ":py:obj:`args <builtins.BaseException.args>`\\"
-msgstr ""
+msgstr ":py:obj:`args <builtins.BaseException.args>`\\"
 
 #: ../../../autoapi/abqpy/run/index.rst:0
 msgid "Public Methods:"
@@ -70,10 +70,11 @@ msgstr "公开方法："
 #: ../../../../None:3:<autosummary>:1
 msgid ":py:obj:`__init__ <builtins.Exception.__init__>`\\ \\(\\*args\\, \\*\\*kwargs\\)"
 msgstr ""
+":py:obj:`__init__ <builtins.Exception.__init__>`\\ \\(\\*args\\, \\*\\*kwargs\\)"
 
 #: ../../../../None:12:<autosummary>:1
 msgid ":py:obj:`__repr__ <builtins.BaseException.__repr__>`\\ \\(\\)"
-msgstr ""
+msgstr ":py:obj:`__repr__ <builtins.BaseException.__repr__>`\\ \\(\\)"
 
 #: ../../../../None:12:<autosummary>:1
 msgid "Return repr(self)."
@@ -81,7 +82,7 @@ msgstr ""
 
 #: ../../../../None:12:<autosummary>:1
 msgid ":py:obj:`__str__ <builtins.BaseException.__str__>`\\ \\(\\)"
-msgstr ""
+msgstr ":py:obj:`__str__ <builtins.BaseException.__str__>`\\ \\(\\)"
 
 #: ../../../../None:12:<autosummary>:1
 msgid "Return str(self)."
@@ -92,16 +93,20 @@ msgid ""
 ":py:obj:`__getattribute__ <builtins.BaseException.__getattribute__>`\\ \\(name\\, "
 "\\/\\)"
 msgstr ""
+":py:obj:`__getattribute__ <builtins.BaseException.__getattribute__>`\\ \\(name\\, "
+"\\/\\)"
 
 #: ../../../../None:12:<autosummary>:1
 msgid "Return getattr(self, name)."
-msgstr ""
+msgstr "Return getattr(self, name)."
 
 #: ../../../../None:12:<autosummary>:1
 msgid ""
 ":py:obj:`__setattr__ <builtins.BaseException.__setattr__>`\\ \\(name\\, value\\, "
 "\\/\\)"
 msgstr ""
+":py:obj:`__setattr__ <builtins.BaseException.__setattr__>`\\ \\(name\\, value\\, "
+"\\/\\)"
 
 #: ../../../../None:12:<autosummary>:1
 msgid "Implement setattr(self, name, value)."
@@ -109,7 +114,7 @@ msgstr ""
 
 #: ../../../../None:12:<autosummary>:1
 msgid ":py:obj:`__delattr__ <builtins.BaseException.__delattr__>`\\ \\(name\\, \\/\\)"
-msgstr ""
+msgstr ":py:obj:`__delattr__ <builtins.BaseException.__delattr__>`\\ \\(name\\, \\/\\)"
 
 #: ../../../../None:12:<autosummary>:1
 msgid "Implement delattr(self, name)."
@@ -119,10 +124,11 @@ msgstr ""
 msgid ""
 ":py:obj:`__init__ <builtins.BaseException.__init__>`\\ \\(\\*args\\, \\*\\*kwargs\\)"
 msgstr ""
+":py:obj:`__init__ <builtins.BaseException.__init__>`\\ \\(\\*args\\, \\*\\*kwargs\\)"
 
 #: ../../../../None:12:<autosummary>:1
 msgid ":py:obj:`__reduce__ <builtins.BaseException.__reduce__>`\\"
-msgstr ""
+msgstr ":py:obj:`__reduce__ <builtins.BaseException.__reduce__>`\\"
 
 #: ../../../../None:12:<autosummary>:1
 msgid "Helper for pickle."
@@ -130,23 +136,23 @@ msgstr ""
 
 #: ../../../../None:12:<autosummary>:1
 msgid ":py:obj:`__setstate__ <builtins.BaseException.__setstate__>`\\"
-msgstr ""
+msgstr ":py:obj:`__setstate__ <builtins.BaseException.__setstate__>`\\"
 
 #: ../../../../None:12:<autosummary>:1
 msgid ":py:obj:`with_traceback <builtins.BaseException.with_traceback>`\\"
-msgstr ""
+msgstr ":py:obj:`with_traceback <builtins.BaseException.with_traceback>`\\"
 
 #: ../../../../None:12:<autosummary>:1
 msgid "Exception.with_traceback(tb) -- set self.__traceback__ to tb and return self."
-msgstr ""
+msgstr "Exception.with_traceback(tb) -- set self.__traceback__ to tb and return self."
 
 #: ../../../../None:12:<autosummary>:1
 msgid ":py:obj:`add_note <builtins.BaseException.add_note>`\\"
-msgstr ""
+msgstr ":py:obj:`add_note <builtins.BaseException.add_note>`\\"
 
 #: ../../../../None:12:<autosummary>:1
 msgid "Exception.add_note(note) -- add a note to the exception"
-msgstr ""
+msgstr "Exception.add_note (note) - 在异常中添加一个注释"
 
 #: ../../../autoapi/abqpy/run/index.rst:40
 msgid ""
